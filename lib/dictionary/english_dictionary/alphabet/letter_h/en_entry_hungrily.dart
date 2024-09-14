@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhunch extends StatefulWidget {
-  const EnglishEntryhunch({super.key});
+class EnglishEntryhungrily extends StatefulWidget {
+  const EnglishEntryhungrily({super.key});
 
   @override
-  State<EnglishEntryhunch> createState() => _EnglishEntryhunchState();
+  State<EnglishEntryhungrily> createState() => _EnglishEntryhungrilyState();
 }
 
-class _EnglishEntryhunchState extends State<EnglishEntryhunch> {
+class _EnglishEntryhungrilyState extends State<EnglishEntryhungrily> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hunch (Derived forms: hunches)
-1. An impression that something might be the case (- intuition, suspicion)
- 
-2. The act of bending yourself into a humped position
-
-- Verb: hunch (Derived forms: hunching, hunched, hunches)
-1. Round one's back by bending forward and drawing the shoulders forward (- hump, hunch forward, hunch over)
+- Adverb: hungrily
+1. In the manner of someone who is very hungry (- ravenously)
+"he pounced on the food hungrily";
 """,
   );
 
-  final String keyword = "hunch";
+  final String keyword = "hungrily";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,29 +78,28 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hunch""");
+    await flutterTts.speak("""hungrily""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We hunched round the fire to keep warm.""");
+    await flutterTts.speak("""They sat down and ate hungrily.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""It seemed that the doctor's hunch had been right.""");
+    await flutterTts.speak("""The girls hungrily devoured their lunch.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He kissed her hungrily.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -929,18 +924,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/erDE9B-X7mk?t=';
-    const double startSecondsend = 0000000000000000000000000001101;
-    const String videoIdone = 'https://youtu.be/qg2nGY1aqlg?t=';
-    const double startSecondsone = 0000000000000000000000000001021;
-    const String videoIdtwo = 'https://youtu.be/BuX6-lvUwd0?t=';
-    const double startSecondstwo = 000000000000000000000000000730;
-    const String videoIdthree = 'https://youtu.be/wJa5Ch0O4BI?t=';
-    const double startSecondsthree = 000000000000000000000000000488;
-    const String videoIdfour = 'https://youtu.be/thR7IhHV554?t=';
-    const double startSecondsfour = 000000000000000000000000000538;
-    const String videoIdfive = 'https://youtu.be/THIGSnMP3io?t=';
-    const double startSecondsfive = 0000000000000000000000000001793;
+    const String videoIdend = 'https://youtu.be/dypj6GBiM2s?t=';
+    const double startSecondsend = 000000000000000000000000000262;
+    const String videoIdone = 'https://youtu.be/V-0UCEWtLa0?t=';
+    const double startSecondsone = 000000000000000000000000000411;
+    const String videoIdtwo = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondstwo = 00000000000000000000000000016031;
+    const String videoIdthree = 'https://youtu.be/_C-O_wqqqF8?t=';
+    const double startSecondsthree = 0000000000000000000000000001086;
+    const String videoIdfour = 'https://youtu.be/M4fGgOXK4Kw?t=';
+    const double startSecondsfour = 000000000000000000000000000805;
+    const String videoIdfive = 'https://youtu.be/gBOxwQosQAU?t=';
+    const double startSecondsfive = 0000000000000000000000000006;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +948,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hunch""",
-                      // alsoEnglishWord: "also: hunch",
-                      britshText: """IpaUK: /hʌntʃ/""",
-                      americanText: """IpaUS: /hʌntʃ/""",
+                      word: """hungrily""",
+                      // alsoEnglishWord: "also: hungrily",
+                      britshText: """IpaUK: /ˈhʌŋɡrəli/""",
+                      americanText: """IpaUS: /ˈhʌŋɡrəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,38 +989,37 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: گومان، مەزندە، ڕاوێژ، پێ‌وابوون
+کوردی: تامەزۆریانە، بە برسێتی
 """),
-// With short examples define "hunch", please follow LX instructions
+// With short examples define "hungrily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) نزمکردنەوەی بەشی سەرەوەی جەستەت بۆ پێشەوە و بەرزکردنەوەی شان و پشتت"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ئەوە پیشان دەدات دەتەوێت شتێک بخۆیت"""),
                     SentencesRow(
-                      englishText:
-                          """We hunched round the fire to keep warm.""",
-                      kurdishText:
-                          """لە پێش ئاگرەکە خۆمان نوشتاندەوە بۆ مانەوە بە گەرمی.""",
+                      englishText: """They sat down and ate hungrily.""",
+                      kurdishText: """دانیشتن و بە برسێتییەوە خواردیان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ناو) هەستێک کە شتێک ڕاستە ئەگەرچی هیچ بەڵگەت نییە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """It seemed that the doctor's hunch had been right.""",
-                      kurdishText: """وادیاربوو کە گومانی پزیشکەکە ڕاست بێت.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The girls hungrily devoured their lunch.""",
+                      kurdishText:
+                          """کچەکان بە برسێتییەوە نانی نیوەڕۆیان هەڵلووشی.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە ئەوە پیشان دەدات حەزی زۆرت بۆ شتێک هەیە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """He kissed her hungrily.""",
+                      kurdishText: """تامەزرۆییانە ماجی کرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhunch extends StatefulWidget {
-  const EnglishEntryhunch({super.key});
+class EnglishEntryhunk extends StatefulWidget {
+  const EnglishEntryhunk({super.key});
 
   @override
-  State<EnglishEntryhunch> createState() => _EnglishEntryhunchState();
+  State<EnglishEntryhunk> createState() => _EnglishEntryhunkState();
 }
 
-class _EnglishEntryhunchState extends State<EnglishEntryhunch> {
+class _EnglishEntryhunkState extends State<EnglishEntryhunk> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hunch (Derived forms: hunches)
-1. An impression that something might be the case (- intuition, suspicion)
+- Noun: hunk (Derived forms: hunks)
+1. A large piece of something without definite shape (- lump)
+"a hunk of bread";
  
-2. The act of bending yourself into a humped position
-
-- Verb: hunch (Derived forms: hunching, hunched, hunches)
-1. Round one's back by bending forward and drawing the shoulders forward (- hump, hunch forward, hunch over)
+2. [informal] A well-built sexually attractive man
 """,
   );
 
-  final String keyword = "hunch";
+  final String keyword = "hunk";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,29 +80,28 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hunch""");
+    await flutterTts.speak("""hunk""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We hunched round the fire to keep warm.""");
+    await flutterTts.speak("""He ate a hunk of bread with his soup.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""It seemed that the doctor's hunch had been right.""");
+    await flutterTts.speak("""She tore off a large hunk of bread.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He's a real hunk.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -929,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/erDE9B-X7mk?t=';
-    const double startSecondsend = 0000000000000000000000000001101;
-    const String videoIdone = 'https://youtu.be/qg2nGY1aqlg?t=';
-    const double startSecondsone = 0000000000000000000000000001021;
-    const String videoIdtwo = 'https://youtu.be/BuX6-lvUwd0?t=';
-    const double startSecondstwo = 000000000000000000000000000730;
-    const String videoIdthree = 'https://youtu.be/wJa5Ch0O4BI?t=';
-    const double startSecondsthree = 000000000000000000000000000488;
-    const String videoIdfour = 'https://youtu.be/thR7IhHV554?t=';
-    const double startSecondsfour = 000000000000000000000000000538;
-    const String videoIdfive = 'https://youtu.be/THIGSnMP3io?t=';
-    const double startSecondsfive = 0000000000000000000000000001793;
+    const String videoIdend = 'https://youtu.be/CJUKVmkRx_E?t=';
+    const double startSecondsend = 000000000000000000000000000176;
+    const String videoIdone = 'https://youtu.be/W2hRTTTpmr8?t=';
+    const double startSecondsone = 000000000000000000000000000615;
+    const String videoIdtwo = 'https://youtu.be/BfgQoeHyfms?t=';
+    const double startSecondstwo = 000000000000000000000000000529;
+    const String videoIdthree = 'https://youtu.be/lsbcN9-jU1Y?t=';
+    const double startSecondsthree = 000000000000000000000000000283;
+    const String videoIdfour = 'https://youtu.be/IesIsKMjB4Y?t=';
+    const double startSecondsfour = 000000000000000000000000000109;
+    const String videoIdfive = 'https://youtu.be/0yv6smozK9M?t=';
+    const double startSecondsfive = 000000000000000000000000000479;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hunch""",
-                      // alsoEnglishWord: "also: hunch",
-                      britshText: """IpaUK: /hʌntʃ/""",
-                      americanText: """IpaUS: /hʌntʃ/""",
+                      word: """hunk""",
+                      // alsoEnglishWord: "also: hunk",
+                      britshText: """IpaUK: /hʌŋk/""",
+                      americanText: """IpaUS: /hʌŋk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,38 +991,34 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: گومان، مەزندە، ڕاوێژ، پێ‌وابوون
+کوردی: لەتە، تیکە، پرزۆڵ، پەنچک،	پیاوی جوانچاک، بەقەڵافەت، شۆخ‌وشەنگ، چەلەنگ، قیافەجوان
 """),
-// With short examples define "hunch", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) نزمکردنەوەی بەشی سەرەوەی جەستەت بۆ پێشەوە و بەرزکردنەوەی شان و پشتت"""),
+                            """١. (ناو) پارچەیەکی گەورە لە شتێک، بە تایبەتی خواردن، کە لە پارچەیەکی گەورەتر لێکراوەتەوە"""),
                     SentencesRow(
-                      englishText:
-                          """We hunched round the fire to keep warm.""",
-                      kurdishText:
-                          """لە پێش ئاگرەکە خۆمان نوشتاندەوە بۆ مانەوە بە گەرمی.""",
+                      englishText: """He ate a hunk of bread with his soup.""",
+                      kurdishText: """لەتە نانێکی خوارد بە شۆرباکەیەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ناو) هەستێک کە شتێک ڕاستە ئەگەرچی هیچ بەڵگەت نییە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """It seemed that the doctor's hunch had been right.""",
-                      kurdishText: """وادیاربوو کە گومانی پزیشکەکە ڕاست بێت.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She tore off a large hunk of bread.""",
+                      kurdishText: "تیکەیەکی گەورە نانی بڕی.",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) پیاوێک کە گەورە و بەهێزە و لە ڕووی سێکسییەوە جوانە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """He's a real hunk.""",
+                      kurdishText: """جوانچاکێکی تەواوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

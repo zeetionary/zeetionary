@@ -519,210 +519,77 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakcosts1("en-GB"),
             onPressedAmerican: () => speakcosts1("en-US"),
           ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                "You could buy a used car at a fraction of the cost of a new one.",
-            kurdishText:
-                "دەتوانیت ئۆتۆمبێلێکی بەکارھێنراو بە تێچوویەکی کەمی یەکێکی تازە بکڕیت.",
-            onPressedBritish: () => speakcosts2("en-GB"),
-            onPressedAmerican: () => speakcosts2("en-US"),
-          ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "We did not even make enough money to cover the cost of the food."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "تەنانەت ھێندە پارەی پێویستمان پەیدا نەکرد کە تێچووی خۆراک بکەین."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        "You could buy a used car at a fraction of the cost of a new one.",
+                    kurdishText:
+                        "دەتوانیت ئۆتۆمبێلێکی بەکارھێنراو بە تێچوویەکی کەمی یەکێکی تازە بکڕیت.",
+                    onPressedBritish: () => speakcosts2("en-GB"),
+                    onPressedAmerican: () => speakcosts2("en-US"),
+                  ),
+                  SentencesRow(
+                    englishText:
+                        "We did not even make enough money to cover the cost of the food.",
+                    kurdishText:
+                        "تەنانەت ھێندە پارەی پێویستمان پەیدا نەکرد کە تێچووی خۆراک بکەین.",
+                    onPressedBritish: () => speakcosts3("en-GB"),
+                    onPressedAmerican: () => speakcosts3("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The plan had to be abandoned on grounds of cost."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "پلانەکە دەبوو وازی لێبھێنرێت بە ھۆکای تێچووەکەی."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The plan had to be abandoned on grounds of cost.",
+                    kurdishText:
+                        "پلانەکە دەبوو وازی لێبھێنرێت بە ھۆکای تێچووەکەی.",
+                    onPressedBritish: () => speakcosts4("en-GB"),
+                    onPressedAmerican: () => speakcosts4("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The total cost to you (= the amount you have to pay) is £3 000."),
-                            ExampleSentenceKurdish(
-                                text: "خەرجی گشتیت ٣٠٠٠ پاوەندە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The total cost to you (= the amount you have to pay) is £3 000.",
+                    kurdishText: "خەرجی گشتیت ٣٠٠٠ پاوەندە.",
+                    onPressedBritish: () => speakcosts5("en-GB"),
+                    onPressedAmerican: () => speakcosts5("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Energy is a major cost for businesses."),
-                            ExampleSentenceKurdish(
-                                text: "وزە خەرجییەکی گەورەی بازرگانییەکانە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Energy is a major cost for businesses.",
+                    kurdishText: "وزە خەرجییەکی گەورەی بازرگانییەکانە.",
+                    onPressedBritish: () => speakcosts6("en-GB"),
+                    onPressedAmerican: () => speakcosts6("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She estimates the cost for this project at £150 000."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "تێچووی ئەم پڕۆژەیە بە ١٥٠٠٠٠ پاوەند دەخەمڵێنێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts7("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts7("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "She estimates the cost for this project at £150 000.",
+                    kurdishText:
+                        "تێچووی ئەم پڕۆژەیە بە ١٥٠٠٠٠ پاوەند دەخەمڵێنێت.",
+                    onPressedBritish: () => speakcosts7("en-GB"),
+                    onPressedAmerican: () => speakcosts7("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "I would put the cost of a new employee at £80 000 a year."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "خەرجی کارمەندێکی تازە بە ٨٠٠٠٠ پاوەند لە ساڵێکدا دادەنێم."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts8("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts8("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "I would put the cost of a new employee at £80 000 a year.",
+                    kurdishText:
+                        "خەرجی کارمەندێکی تازە بە ٨٠٠٠٠ پاوەند لە ساڵێکدا دادەنێم.",
+                    onPressedBritish: () => speakcosts8("en-GB"),
+                    onPressedAmerican: () => speakcosts8("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Now people can access the internet at minimal cost."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئێستا خەڵکی دەتوانن ئینتەرنێت بەکاربێنن بە خەرجییەکی کەم."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts9("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts9("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Now people can access the internet at minimal cost.",
+                    kurdishText:
+                        "ئێستا خەڵکی دەتوانن ئینتەرنێت بەکاربێنن بە خەرجییەکی کەم.",
+                    onPressedBritish: () => speakcosts9("en-GB"),
+                    onPressedAmerican: () => speakcosts9("en-US"),
                   ),
                 ],
               ),
@@ -764,127 +631,49 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakcosts13("en-GB"),
             onPressedAmerican: () => speakcosts13("en-US"),
           ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "Victory came at a high cost.",
-            kurdishText: "سەرکەوتن بە قوربانییەکی زۆر بەدەستھات.",
-            onPressedBritish: () => speakcosts14("en-GB"),
-            onPressedAmerican: () => speakcosts14("en-US"),
-          ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "They advanced a few hundred metres, but at a heavy cost in life."),
-                            ExampleSentenceKurdish(
-                              text:
-                                  "چەند سەد ماترێک پێشڕەوییان کرد بەڵام بە تێچوویەکی زۆری ژیان.",
-                              note: "سەربازی زۆریان لەدەستدا",
-                            ),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts15("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts15("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Victory came at a high cost.",
+                    kurdishText: "سەرکەوتن بە قوربانییەکی زۆر بەدەستھات.",
+                    onPressedBritish: () => speakcosts14("en-GB"),
+                    onPressedAmerican: () => speakcosts14("en-US"),
+                  ),
+                  SentencesRow(
+                    englishText:
+                        "They advanced a few hundred metres, but at a heavy cost in life.",
+                    kurdishText:
+                        "چەند سەد ماترێک پێشڕەوییان کرد بەڵام بە تێچوویەکی زۆری ژیان.",
+                    kurdishNote: "سەربازی زۆریان لەدەستدا",
+                    onPressedBritish: () => speakcosts15("en-GB"),
+                    onPressedAmerican: () => speakcosts15("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "He worked non-stop for three months, at considerable cost to his health."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "بێ وەستان بۆ سێ مانگ کاری کرد، بە زیانێکی زۆر بۆ تەندرووستیی."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts16("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts16("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "He worked non-stop for three months, at considerable cost to his health.",
+                    kurdishText:
+                        "بێ وەستان بۆ سێ مانگ کاری کرد، بە زیانێکی زۆر بۆ تەندرووستیی.",
+                    onPressedBritish: () => speakcosts16("en-GB"),
+                    onPressedAmerican: () => speakcosts16("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The victory was achieved at great cost to the country's infrastructure."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "سەرکەوتن بەدەستھێنرا بە تێچوویەکی زۆری ژێرخانی وڵاتەکە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts17("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts17("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The victory was achieved at great cost to the country's infrastructure.",
+                    kurdishText:
+                        "سەرکەوتن بەدەستھێنرا بە تێچوویەکی زۆری ژێرخانی وڵاتەکە.",
+                    onPressedBritish: () => speakcosts17("en-GB"),
+                    onPressedAmerican: () => speakcosts17("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Do the benefits outweigh the costs?"),
-                            ExampleSentenceKurdish(
-                                text: "سوودەکان لە زیانەکان زیاتر دەبن؟"),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts18("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts18("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "Do the benefits outweigh the costs?",
+                    kurdishText: "سوودەکان لە زیانەکان زیاتر دەبن؟",
+                    onPressedBritish: () => speakcosts18("en-GB"),
+                    onPressedAmerican: () => speakcosts18("en-US"),
                   ),
                 ],
               ),
@@ -916,178 +705,61 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakcosts21("en-GB"),
             onPressedAmerican: () => speakcosts21("en-US"),
           ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "I didn't get it because it cost too much.",
-            kurdishText: "نەمکڕی چونکە تێچووی زۆر بوو.",
-            onPressedBritish: () => speakcosts22("en-GB"),
-            onPressedAmerican: () => speakcosts22("en-US"),
-          ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "Tickets cost ten dollars each."),
-                            ExampleSentenceKurdish(
-                                text: "بلیت ١٠ دۆلاری تێدەچێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts23("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts23("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "I didn't get it because it cost too much.",
+                    kurdishText: "نەمکڕی چونکە تێچووی زۆر بوو.",
+                    onPressedBritish: () => speakcosts22("en-GB"),
+                    onPressedAmerican: () => speakcosts22("en-US"),
+                  ),
+                  SentencesRow(
+                    englishText: "Tickets cost ten dollars each.",
+                    kurdishText: "بلیت ١٠ دۆلاری تێدەچێت.",
+                    onPressedBritish: () => speakcosts23("en-GB"),
+                    onPressedAmerican: () => speakcosts23("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Don't use too much of it—it cost a lot of money."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "زۆری لێ بەکارمەھێنە، پارەی زۆری تێدەچێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts24("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts24("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Don't use too much of it—it cost a lot of money.",
+                    kurdishText: "زۆری لێ بەکارمەھێنە، پارەی زۆری تێدەچێت.",
+                    onPressedBritish: () => speakcosts24("en-GB"),
+                    onPressedAmerican: () => speakcosts24("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "All these reforms will cost money (= be expensive)."),
-                            ExampleSentenceKurdish(
-                                text: "ھەموو چاکسازییانە پارەی تێدەچێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts25("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts25("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "All these reforms will cost money (= be expensive).",
+                    kurdishText: "ھەموو چاکسازییانە پارەی تێدەچێت.",
+                    onPressedBritish: () => speakcosts25("en-GB"),
+                    onPressedAmerican: () => speakcosts25("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Good food need not cost a fortune (= cost a lot of money)."),
-                            ExampleSentenceKurdish(
-                                text: "خواردنی باش نابێت سەروەتێکی تێبچێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts26("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts26("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Good food need not cost a fortune (= cost a lot of money).",
+                    kurdishText: "خواردنی باش نابێت سەروەتێکی تێبچێت.",
+                    onPressedBritish: () => speakcosts26("en-GB"),
+                    onPressedAmerican: () => speakcosts26("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text: "The meal cost us about £40."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "خواردنەکە نزیکەی ٤٠ پاوەند دەکەوێت لەسەرمان."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts27("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts27("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The meal cost us about £40.",
+                    kurdishText: "خواردنەکە نزیکەی ٤٠ پاوەند دەکەوێت لەسەرمان.",
+                    onPressedBritish: () => speakcosts27("en-GB"),
+                    onPressedAmerican: () => speakcosts27("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "This is costing the taxpayer £10 billion a year."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئەمە ١٠ ملیار دۆلار لە ساڵێکدا لەسەر باجدەران دەکەوێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts28("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts28("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "This is costing the taxpayer £10 billion a year.",
+                    kurdishText:
+                        "ئەمە ١٠ ملیار دۆلار لە ساڵێکدا لەسەر باجدەران دەکەوێت.",
+                    onPressedBritish: () => speakcosts28("en-GB"),
+                    onPressedAmerican: () => speakcosts28("en-US"),
                   ),
                 ],
               ),
@@ -1102,125 +774,49 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakcosts29("en-GB"),
             onPressedAmerican: () => speakcosts29("en-US"),
           ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "The allegations cost me my job.",
-            kurdishText: "تۆمەتەکان کارەکەمی سەند.",
-            onPressedBritish: () => speakcosts30("en-GB"),
-            onPressedAmerican: () => speakcosts30("en-US"),
-          ),
           Column(
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "A penalty cost United the game (= meant that they did not win the game)."),
-                            ExampleSentenceKurdish(
-                                text: "لێدانێکی سزا یارییەکەی دا بە دەستەوە بۆ یونایتید."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts31("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts31("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "The allegations cost me my job.",
+                    kurdishText: "تۆمەتەکان کارەکەمی سەند.",
+                    onPressedBritish: () => speakcosts30("en-GB"),
+                    onPressedAmerican: () => speakcosts30("en-US"),
+                  ),
+                  SentencesRow(
+                    englishText:
+                        "A penalty cost United the game (= meant that they did not win the game).",
+                    kurdishText:
+                        "لێدانێکی سزا یارییەکەی دا بە دەستەوە بۆ یونایتید.",
+                    onPressedBritish: () => speakcosts31("en-GB"),
+                    onPressedAmerican: () => speakcosts31("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Such behaviour could cost you your place in the team."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئەو ھەڵسوکەوتە دەکرێت پێگەت لە تیمەکە کۆتایی پێبھێنێت."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts32("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts32("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Such behaviour could cost you your place in the team.",
+                    kurdishText:
+                        "ئەو ھەڵسوکەوتە دەکرێت پێگەت لە تیمەکە کۆتایی پێبھێنێت.",
+                    onPressedBritish: () => speakcosts32("en-GB"),
+                    onPressedAmerican: () => speakcosts32("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The closure of the factory is likely to cost 1 000 jobs."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "داخرانی کارگەکە ئەگەری ھەیە ١٠٠٠ ھەلی کار لەدەستبدات."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts33("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts33("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The closure of the factory is likely to cost 1 000 jobs.",
+                    kurdishText:
+                        "داخرانی کارگەکە ئەگەری ھەیە ١٠٠٠ ھەلی کار لەدەستبدات.",
+                    onPressedBritish: () => speakcosts33("en-GB"),
+                    onPressedAmerican: () => speakcosts33("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "The war has cost the lives of countless civilians."),
-                            ExampleSentenceKurdish(
-                                text: "جەنگەکە ژیانی ھاوڵاتییانی زۆری تێچووە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcosts34("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcosts34("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "The war has cost the lives of countless civilians..",
+                    kurdishText: "جەنگەکە ژیانی ھاوڵاتییانی زۆری تێچووە.",
+                    onPressedBritish: () => speakcosts34("en-GB"),
+                    onPressedAmerican: () => speakcosts34("en-US"),
                   ),
                 ],
               ),
@@ -1235,20 +831,28 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakcosts35("en-GB"),
             onPressedAmerican: () => speakcosts35("en-US"),
           ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText: "Financial worries cost her many sleepless nights.",
-            kurdishText: "نیگەرانی دارایی بوو بەھۆی زۆر شەوی بێداریی.",
-            onPressedBritish: () => speakcosts36("en-GB"),
-            onPressedAmerican: () => speakcosts36("en-US"),
-          ),
-          const DividerSentences(),
-          SentencesRow(
-            englishText:
-                "She would never know how much it cost him to tell her.",
-            kurdishText: "ھەرگیز نازانێت چەندی تێدەچێت کە پێی بڵێت.",
-            onPressedBritish: () => speakcosts37("en-GB"),
-            onPressedAmerican: () => speakcosts37("en-US"),
+          Column(
+            children: [
+              MyExpansionTile(
+                children: [
+                  SentencesRow(
+                    englishText:
+                        "Financial worries cost her many sleepless nights.",
+                    kurdishText: "نیگەرانی دارایی بوو بەھۆی زۆر شەوی بێداریی.",
+                    onPressedBritish: () => speakcosts36("en-GB"),
+                    onPressedAmerican: () => speakcosts36("en-US"),
+                  ),
+                  const DividerSentences(),
+                  SentencesRow(
+                    englishText:
+                        "She would never know how much it cost him to tell her.",
+                    kurdishText: "ھەرگیز نازانێت چەندی تێدەچێت کە پێی بڵێت.",
+                    onPressedBritish: () => speakcosts37("en-GB"),
+                    onPressedAmerican: () => speakcosts37("en-US"),
+                  ),
+                ],
+              ),
+            ],
           ),
           const DividerDefinition(),
           const DefinitionKurdish(

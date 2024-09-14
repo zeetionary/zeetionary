@@ -52,13 +52,30 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: humour (Derived forms: humours)
+Usage: Brit, Cdn (US: humor)
+1. The quality of being funny (- humor [US])
+"I fail to see the humour in it";
+ 
+2. A message whose ingenuity or verbal skill or incongruity has the power to evoke laughter (- wit, humor [US], witticism, wittiness, drollness)
+ 
+3. The trait of appreciating (and being able to express) the humorous (- humor [US], sense of humor [N. Amer], sense of humour [Brit, Cdn])
+"she didn't appreciate my humour"; "you can't survive in the army without a sense of humour"; "she didn't appreciate my humour";
+ 
+4. A characteristic (habitual or relatively temporary) state of feeling (- temper, mood, humor [US])
+"he was in a bad humour"; "whether he praised or cursed me depended on his humour at the time";
+ 
+5. (Middle Ages) one of the four fluids in the body whose balance was believed to determine your emotional and physical state (- humor [US])
+"the humours are blood and phlegm and yellow and black bile";
+ 
+6. The liquid parts of the body (- liquid body substance, bodily fluid, body fluid, humor [US])
 
-EnglishEntryhumour humour
-WORD_WEB humour humour humour
-haʊʊʊʊʊʊʊ4
+- Verb: humour (Derived forms: humours, humoured, humouring)
+Usage: Brit, Cdn (US: humor)
+1. Go along with someone's wishes to keep them content or avoid a disagreement (- humor [US])
+"We humoured him for a bit until it got boring";
 """,
   );
-// 188888880002200
 
   final String keyword = "humour";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +104,37 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It was a story full of gentle humour.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""They failed to see the humour of the situation.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""I can't stand people with no sense of humour.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The meeting dissolved in ill humour.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """She thought it best to humour him rather than get into an argument.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +944,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Gb7xq3th3wM?t=';
+    const double startSecondsend = 000000000000000000000000000730;
+    const String videoIdone = 'https://youtu.be/IXmEjiBC2sQ?t=';
+    const double startSecondsone = 000000000000000000000000000763;
+    const String videoIdtwo = 'https://youtu.be/22KSRN2Y2Mg?t=';
+    const double startSecondstwo = 000000000000000000000000000164;
+    const String videoIdthree = 'https://youtu.be/PKEgcyasvCg?t=';
+    const double startSecondsthree = 000000000000000000000000000503;
+    const String videoIdfour = 'https://youtu.be/uqIhHDuE62g?t=';
+    const double startSecondsfour = 000000000000000000000000000535;
+    const String videoIdfive = 'https://youtu.be/dxbGfWSnIOk?t=';
+    const double startSecondsfive = 000000000000000000000000000367;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +971,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """humour""",
                       // alsoEnglishWord: "also: humour",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhjuːmə(r)/""",
+                      americanText: """IpaUS: /ˈhjuːmər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +1010,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شلەی ناو لەش،	شۆخی، جەفەنگ، حەنەک، گاڵتە، خوو
 """),
 // With short examples define "humour", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی شتێک پێکەنیناوی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It was a story full of gentle humour.""",
+                      kurdishText: """چیرۆکێک بوو پڕ لە گاڵتە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1025,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They failed to see the humour of the situation.""",
+                      kurdishText: """نەیانتوانی گاڵتەی دۆخەکە ببینن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1018,26 +1035,37 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I can't stand people with no sense of humour.""",
+                      kurdishText:
+                          """بەرگەی ئەو کەسانە ناگرم کە هیچ هەستی گاڵتەیان نییە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) دۆخی هەست و هزرت لە کاتێکی دیاریکراودا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The meeting dissolved in ill humour.""",
+                      kurdishText:
+                          """چاوپێکەوتنەکە بە دۆخێکی خراپ کۆتایی هات.""",
+                      englishNote:
+                          """This means the meeting ended in a bad mood, with participants feeling upset, irritated, or angry.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (کردار) ڕازی بوون بە هیواکانی کەسێک، ئەگەرچی نەگونجاو بن، بۆ ئەوەی دڵخۆشی بکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She thought it best to humour him rather than get into an argument.""",
+                      kurdishText:
+                          """وای بیرکردەوە دڵی نەشکێنێت وەک لەوەی بکەوێتە مشتوومڕ لەگەڵی.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhumorously humorously
-WORD_WEB humorously humorously humorously
-haʊʊʊʊʊʊʊ4
+- Adverb: humorously
+1. In a humorous manner
+"Dickens had humorously suggested a special service of intercession at St. Paul's Cathedral"
 """,
   );
-// 188888880002200
 
   final String keyword = "humorously";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The poem humorously describes local characters and traditions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/tkLZYEIslWM?t=';
+    const double startSecondsend = 000000000000000000000000000569;
+    const String videoIdone = 'https://youtu.be/RV2ftqfYk_s?t=';
+    const double startSecondsone = 000000000000000000000000000565;
+    const String videoIdtwo = 'https://youtu.be/Vnwji5doAbs?t=';
+    const double startSecondstwo = 000000000000000000000000000295;
+    const String videoIdthree = 'https://youtu.be/4szttm_e0Ic?t=';
+    const double startSecondsthree = 000000000000000000000000000384;
+    const String videoIdfour = 'https://youtu.be/vgOicEVA4u8?t=';
+    const double startSecondsfour = 0000000000000000000000000001222;
+    const String videoIdfive = 'https://youtu.be/h0CbS3E6rJI?t=';
+    const double startSecondsfive = 000000000000000000000000000312;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """humorously""",
                       // alsoEnglishWord: "also: humorously",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhjuːmərəsli/""",
+                      americanText: """IpaUS: /ˈhjuːmərəsli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +990,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێکەنینی‌یانە، خۆش، شۆخی‌یانە، بەشۆخی
 """),
 // With short examples define "humorously", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە شێوەیەک کە پێکەنیناوییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The poem humorously describes local characters and traditions.""",
+                      kurdishText:
+                          """هۆنراوەکە شۆخی‌یانە باس لە خاسیەت و نەریتە خۆجێیەکان دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

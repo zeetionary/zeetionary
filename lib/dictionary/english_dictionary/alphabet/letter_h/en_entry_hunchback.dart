@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhunchback hunchback
-WORD_WEB hunchback hunchback hunchback
-haʊʊʊʊʊʊʊ4
+- Noun: hunchback (Derived forms: hunchbacks)
+1. An abnormal backward curve to the vertebral column (- kyphosis, humpback)
+ 
+2. A person whose back is hunched because of abnormal curvature of the upper spine (- humpback, crookback)
 """,
   );
-// 188888880002200
 
   final String keyword = "hunchback";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He met an old hunchback selling flowers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SY3y6zNTiLs?t=';
+    const double startSecondsend = 000000000000000000000000000150;
+    const String videoIdone = 'https://youtu.be/io6wi8DVZ3o?t=';
+    const double startSecondsone = 000000000000000000000000000512;
+    const String videoIdtwo = 'https://youtu.be/JKFvCjItGDg?t=';
+    const double startSecondstwo = 000000000000000000000000000915;
+    const String videoIdthree = 'https://youtu.be/sqlJcJfKZJw?t=';
+    const double startSecondsthree = 00000000000000000000000000069;
+    const String videoIdfour = 'https://youtu.be/tkLZYEIslWM?t=';
+    const double startSecondsfour = 000000000000000000000000000189;
+    const String videoIdfive = 'https://youtu.be/RsZM1u5IH3Y?t=';
+    const double startSecondsfive = 000000000000000000000000000111;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hunchback""",
                       // alsoEnglishWord: "also: hunchback",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhʌntʃbæk/""",
+                      americanText: """IpaUS: /ˈhʌntʃbæk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +990,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مرۆی پشت‌کۆم، پشت‌کووڕ، قەموور، کووڕ
 """),
-// With short examples define "hunchback", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە پشتی کووڕ بووە بەهۆی چەمانەوەی ناسرووشتی لە بڕبڕەی پشتی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He met an old hunchback selling flowers.""",
+                      kurdishText: """پشت‌کووڕێکی بینی گوڵی دەفرۆشت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

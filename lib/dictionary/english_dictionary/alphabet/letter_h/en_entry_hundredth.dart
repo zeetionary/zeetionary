@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: hundredth
+1. The ordinal number of one hundred in counting order (- centesimal, 100th)
 
-EnglishEntryhundredth hundredth
-WORD_WEB hundredth hundredth hundredth
-haʊʊʊʊʊʊʊ4
+- Noun: hundredth (Derived forms: hundredths)
+1. Position 100 in a countable series of things
+ 
+2. One part in a hundred equal parts (- one-hundredth, one percent)
 """,
   );
-// 188888880002200
 
   final String keyword = "hundredth";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +89,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The decimal 0.61 stands for 61 hundredths.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He is now ranked one hundredth in world tennis.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""1991 was the two hundredth anniversary of Mozart's death.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/AwodL8z2EtE?t=';
+    const double startSecondsend = 0000000000000000000000000001246;
+    const String videoIdone = 'https://youtu.be/gkJ4qv5RLRc?t=';
+    const double startSecondsone = 000000000000000000000000000262;
+    const String videoIdtwo = 'https://youtu.be/XHXLbp7x3MM?t=';
+    const double startSecondstwo = 000000000000000000000000000721;
+    const String videoIdthree = 'https://youtu.be/A7afwIxo5lE?t=';
+    const double startSecondsthree = 000000000000000000000000000191;
+    const String videoIdfour = 'https://youtu.be/xmQJGsyFPXA?t=';
+    const double startSecondsfour = 000000000000000000000000000655;
+    const String videoIdfive = 'https://youtu.be/wQ-3fUJlNuc?t=';
+    const double startSecondsfive = 0000000000000000000000000001007;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hundredth""",
                       // alsoEnglishWord: "also: hundredth",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhʌndrədθ/, /ˈhʌndrətθ/""",
+                      americanText: """IpaUS: /ˈhʌndrədθ/, /ˈhʌndrətθ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +998,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hundredth", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ژمارەی پلەی) ١٠٠هەم"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The decimal 0.61 stands for 61 hundredths.""",
+                      kurdishText: "ڕێژەی ٠,٦١ دەکاتە ٦١ لە سەد.",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He is now ranked one hundredth in world tennis.""",
+                      kurdishText:
+                          """ئێستا ڕیزبەند دەکرێت لە سەدەمی جیهانی تێنس.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1018,8 +1022,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """1991 was the two hundredth anniversary of Mozart's death.""",
+                      kurdishText:
+                          """١٩٩١ دوو سەدهەمین ساڵیادی مەرگی مۆزارت بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhumorous humorous
-WORD_WEB humorous humorous humorous
-haʊʊʊʊʊʊʊ4
+- Adjective: humorous
+1. Full of or characterized by humour (- humourous [Brit, Cdn, non-standard])
+"humorous cartoons"; "in a humorous vein"; "humorous stories";
 """,
   );
-// 188888880002200
 
   final String keyword = "humorous";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The movie takes a blackly humorous look at death.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He gave a humorous account of their trip to Spain.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Sbp_EeBk-As?t=';
+    const double startSecondsend = 000000000000000000000000000407;
+    const String videoIdone = 'https://youtu.be/6noCpwaFbVw?t=';
+    const double startSecondsone = 000000000000000000000000000628;
+    const String videoIdtwo = 'https://youtu.be/s_2QTY0V3Yc?t=';
+    const double startSecondstwo = 000000000000000000000000000170;
+    const String videoIdthree = 'https://youtu.be/7Vm282YvOGw?t=';
+    const double startSecondsthree = 000000000000000000000000000174;
+    const String videoIdfour = 'https://youtu.be/0vZvPtI5Uk8?t=';
+    const double startSecondsfour = 00000000000000000000000000042;
+    const String videoIdfive = 'https://youtu.be/iKhQYYSqhgc?t=';
+    const double startSecondsfive = 000000000000000000000000000134;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """humorous""",
                       // alsoEnglishWord: "also: humorous",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhjuːmərəs/""",
+                      americanText: """IpaUS: /ˈhjuːmərəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +991,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێکەنینی، خۆش، نوکتەبێژ، گاڵتەباز، پەند، ئۆین(باز)، قسەخۆش، شۆخی‌باز
 """),
 // With short examples define "humorous", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) پێکەنیناوی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The movie takes a blackly humorous look at death.""",
+                      kurdishText: "فیلمەکە بە تەنزەوە لە مەرگ دەڕوانێت.",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1006,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He gave a humorous account of their trip to Spain.""",
+                      kurdishText:
+                          """گێڕانەوەیەکی پێکەنیناوی گەشتەکەی بۆ ئیسپانیا گێڕایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

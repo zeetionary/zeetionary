@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhunch extends StatefulWidget {
-  const EnglishEntryhunch({super.key});
+class EnglishEntryhungerstrike extends StatefulWidget {
+  const EnglishEntryhungerstrike({super.key});
 
   @override
-  State<EnglishEntryhunch> createState() => _EnglishEntryhunchState();
+  State<EnglishEntryhungerstrike> createState() =>
+      _EnglishEntryhungerstrikeState();
 }
 
-class _EnglishEntryhunchState extends State<EnglishEntryhunch> {
+class _EnglishEntryhungerstrikeState extends State<EnglishEntryhungerstrike> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hunch (Derived forms: hunches)
-1. An impression that something might be the case (- intuition, suspicion)
- 
-2. The act of bending yourself into a humped position
-
-- Verb: hunch (Derived forms: hunching, hunched, hunches)
-1. Round one's back by bending forward and drawing the shoulders forward (- hump, hunch forward, hunch over)
+- Noun: hunger strike (Derived forms: hunger strikes)
+1. A voluntary fast undertaken as a means of protest
 """,
   );
 
-  final String keyword = "hunch";
+  final String keyword = "hunger strike";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,22 +78,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hunch""");
+    await flutterTts.speak("""hunger strike""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We hunched round the fire to keep warm.""");
+    await flutterTts.speak(
+        """The prisoners have gone on (a) hunger strike to protest about prison conditions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""It seemed that the doctor's hunch had been right.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -929,18 +925,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/erDE9B-X7mk?t=';
-    const double startSecondsend = 0000000000000000000000000001101;
-    const String videoIdone = 'https://youtu.be/qg2nGY1aqlg?t=';
-    const double startSecondsone = 0000000000000000000000000001021;
-    const String videoIdtwo = 'https://youtu.be/BuX6-lvUwd0?t=';
-    const double startSecondstwo = 000000000000000000000000000730;
-    const String videoIdthree = 'https://youtu.be/wJa5Ch0O4BI?t=';
-    const double startSecondsthree = 000000000000000000000000000488;
-    const String videoIdfour = 'https://youtu.be/thR7IhHV554?t=';
-    const double startSecondsfour = 000000000000000000000000000538;
-    const String videoIdfive = 'https://youtu.be/THIGSnMP3io?t=';
-    const double startSecondsfive = 0000000000000000000000000001793;
+    const String videoIdend = 'https://youtu.be/CiRBQ3frG6U?t=';
+    const double startSecondsend = 000000000000000000000000000391;
+    const String videoIdone = 'https://youtu.be/2INKRjtw_cI?t=';
+    const double startSecondsone = 000000000000000000000000000687;
+    const String videoIdtwo = 'https://youtu.be/hSNWkRw53Jo?t=';
+    const double startSecondstwo = 0000000000000000000000000004790;
+    const String videoIdthree = 'https://youtu.be/z2W-5J1vl8o?t=';
+    const double startSecondsthree = 000000000000000000000000000443;
+    const String videoIdfour = 'https://youtu.be/_DMhb1FWHso?t=';
+    const double startSecondsfour = 000000000000000000000000000612;
+    const String videoIdfive = 'https://youtu.be/XejfyN6i0lM?t=';
+    const double startSecondsfive = 00000000000000000000000000039;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +949,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hunch""",
-                      // alsoEnglishWord: "also: hunch",
-                      britshText: """IpaUK: /hʌntʃ/""",
-                      americanText: """IpaUS: /hʌntʃ/""",
+                      word: """hunger strike""",
+                      // alsoEnglishWord: "also: hunger strike",
+                      britshText: """IpaUK: /ˈhʌŋɡə straɪk/""",
+                      americanText: """IpaUS: /ˈhʌŋɡər straɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,29 +990,26 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: گومان، مەزندە، ڕاوێژ، پێ‌وابوون
+کوردی: مانگرتن لە خۆراک، مانگرتنی خواردن
 """),
-// With short examples define "hunch", please follow LX instructions
+// With short examples define "hunger strike", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) نزمکردنەوەی بەشی سەرەوەی جەستەت بۆ پێشەوە و بەرزکردنەوەی شان و پشتت"""),
+                            """١. (ناو) ئەوەی بۆ ماوەیەک نان نەخۆیت بۆ ناڕەزایی دەربڕین"""),
                     SentencesRow(
                       englishText:
-                          """We hunched round the fire to keep warm.""",
+                          """The prisoners have gone on (a) hunger strike to protest about prison conditions.""",
                       kurdishText:
-                          """لە پێش ئاگرەکە خۆمان نوشتاندەوە بۆ مانەوە بە گەرمی.""",
+                          """زیندانییەکان مانیان لە خواردن گرتووە بۆ ناڕەزایی دەربڕین سەبارەت بە دۆخی زیندان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ناو) هەستێک کە شتێک ڕاستە ئەگەرچی هیچ بەڵگەت نییە"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """It seemed that the doctor's hunch had been right.""",
-                      kurdishText: """وادیاربوو کە گومانی پزیشکەکە ڕاست بێت.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

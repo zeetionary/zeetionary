@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhumility humility
-WORD_WEB humility humility humility
-haʊʊʊʊʊʊʊ4
+- Noun: humility (Derived forms: humilities)
+1. A disposition to be humble; a lack of false pride (- humbleness)
+"not everyone regards humility as a virtue";
+ 
+2. A humble feeling (- humbleness)
+"he was filled with humility at the sight of the Pope";
 """,
   );
-// 188888880002200
 
   final String keyword = "humility";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Her first defeat was an early lesson in humility.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/sV6uuMAnJUE?t=';
+    const double startSecondsend = 0000000000000000000000000001331;
+    const String videoIdone = 'https://youtu.be/b_rjBWmc1iQ?t=';
+    const double startSecondsone = 0000000000000000000000000005140;
+    const String videoIdtwo = 'https://youtu.be/qr4MSVxfYBE?t=';
+    const double startSecondstwo = 000000000000000000000000000228;
+    const String videoIdthree = 'https://youtu.be/p7iwXvBnbIE?t=';
+    const double startSecondsthree = 000000000000000000000000000240;
+    const String videoIdfour = 'https://youtu.be/JTslqcXsFd4?t=';
+    const double startSecondsfour = 000000000000000000000000000803;
+    const String videoIdfive = 'https://youtu.be/jwZBl6KQojM?t=';
+    const double startSecondsfive = 0000000000000000000000000001006;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """humility""",
                       // alsoEnglishWord: "also: humility",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hjuːˈmɪləti/""",
+                      americanText: """IpaUS: /hjuːˈmɪləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +993,19 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خاکەڕایی، بێ‌پۆزی، بێ‌فیزی، بێ‌دەماری، سەرکزی، خاکینەیی، خۆشکێنی
 """),
 // With short examples define "humility", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە وەها بیربکەیتەوە کە وەک کەسانی دیکە گرنگ نیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her first defeat was an early lesson in humility.""",
+                      kurdishText:
+                          """یەکەم شکستی وانەیەکی سەرەتایی بوو بۆ خاکەڕایی.""",
+                      englishNote:
+                          """This means her initial loss taught her to be more humble (modest and not overly proud), showing her that she is not invincible and must accept setbacks with grace.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -235,15 +235,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("He had to laugh despite himself.");
   }
-
-  Future<void> speakdespites20(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        "Despite applying for hundreds of jobs, he is still out of work.0");
-  }
-
+  
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

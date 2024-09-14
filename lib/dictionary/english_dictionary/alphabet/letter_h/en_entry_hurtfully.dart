@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhunch extends StatefulWidget {
-  const EnglishEntryhunch({super.key});
+class EnglishEntryhurtfully extends StatefulWidget {
+  const EnglishEntryhurtfully({super.key});
 
   @override
-  State<EnglishEntryhunch> createState() => _EnglishEntryhunchState();
+  State<EnglishEntryhurtfully> createState() => _EnglishEntryhurtfullyState();
 }
 
-class _EnglishEntryhunchState extends State<EnglishEntryhunch> {
+class _EnglishEntryhurtfullyState extends State<EnglishEntryhurtfully> {
   @override
   void initState() {
     super.initState();
@@ -52,17 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hunch (Derived forms: hunches)
-1. An impression that something might be the case (- intuition, suspicion)
- 
-2. The act of bending yourself into a humped position
 
-- Verb: hunch (Derived forms: hunching, hunched, hunches)
-1. Round one's back by bending forward and drawing the shoulders forward (- hump, hunch forward, hunch over)
+EnglishEntryhurtfully hurtfully
+WORD_WEB hurtfully hurtfully hurtfully
+haʊʊʊʊʊʊʊ4
 """,
   );
+// 188888880002200
 
-  final String keyword = "hunch";
+  final String keyword = "hurtfully";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -82,22 +80,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hunch""");
+    await flutterTts.speak("""hurtfully""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We hunched round the fire to keep warm.""");
+    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""It seemed that the doctor's hunch had been right.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +926,21 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
+
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/erDE9B-X7mk?t=';
-    const double startSecondsend = 0000000000000000000000000001101;
-    const String videoIdone = 'https://youtu.be/qg2nGY1aqlg?t=';
-    const double startSecondsone = 0000000000000000000000000001021;
-    const String videoIdtwo = 'https://youtu.be/BuX6-lvUwd0?t=';
-    const double startSecondstwo = 000000000000000000000000000730;
-    const String videoIdthree = 'https://youtu.be/wJa5Ch0O4BI?t=';
-    const double startSecondsthree = 000000000000000000000000000488;
-    const String videoIdfour = 'https://youtu.be/thR7IhHV554?t=';
-    const double startSecondsfour = 000000000000000000000000000538;
-    const String videoIdfive = 'https://youtu.be/THIGSnMP3io?t=';
-    const double startSecondsfive = 0000000000000000000000000001793;
+    const String videoIdend = '';
+    const double startSecondsend = 000000000000000000000000000;
+    const String videoIdone = '';
+    const double startSecondsone = 000000000000000000000000000;
+    const String videoIdtwo = '';
+    const double startSecondstwo = 000000000000000000000000000;
+    const String videoIdthree = '';
+    const double startSecondsthree = 000000000000000000000000000;
+    const String videoIdfour = '';
+    const double startSecondsfour = 000000000000000000000000000;
+    const String videoIdfive = '';
+    const double startSecondsfive = 000000000000000000000000000;
+// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +953,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hunch""",
-                      // alsoEnglishWord: "also: hunch",
-                      britshText: """IpaUK: /hʌntʃ/""",
-                      americanText: """IpaUS: /hʌntʃ/""",
+                      word: """hurtfully""",
+                      // alsoEnglishWord: "also: hurtfully",
+                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
+                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,29 +994,23 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: گومان، مەزندە، ڕاوێژ، پێ‌وابوون
+کوردی: 
 """),
-// With short examples define "hunch", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (کردار) نزمکردنەوەی بەشی سەرەوەی جەستەت بۆ پێشەوە و بەرزکردنەوەی شان و پشتت"""),
+// With short examples define "hurtfully", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText:
-                          """We hunched round the fire to keep warm.""",
-                      kurdishText:
-                          """لە پێش ئاگرەکە خۆمان نوشتاندەوە بۆ مانەوە بە گەرمی.""",
+                      englishText: """// ssssssssssssssssssssssgggggggg55555
+""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ناو) هەستێک کە شتێک ڕاستە ئەگەرچی هیچ بەڵگەت نییە"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """It seemed that the doctor's hunch had been right.""",
-                      kurdishText: """وادیاربوو کە گومانی پزیشکەکە ڕاست بێت.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

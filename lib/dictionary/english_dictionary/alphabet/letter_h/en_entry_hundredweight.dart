@@ -9,7 +9,8 @@ class EnglishEntryhundredweight extends StatefulWidget {
   const EnglishEntryhundredweight({super.key});
 
   @override
-  State<EnglishEntryhundredweight> createState() => _EnglishEntryhundredweightState();
+  State<EnglishEntryhundredweight> createState() =>
+      _EnglishEntryhundredweightState();
 }
 
 class _EnglishEntryhundredweightState extends State<EnglishEntryhundredweight> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhundredweight hundredweight
-WORD_WEB hundredweight hundredweight hundredweight
-haʊʊʊʊʊʊʊ4
+- Noun: hundredweight (Derived forms: hundredweights)
+1. A unit of weight equal to 100 kilograms in the metric system (- metric hundredweight, doppelzentner, centner)
+ 
+2. A United States unit of weight equivalent to 100 pounds (- cwt, short hundredweight, centner, cental, quintal)
+ 
+3. A British unit of weight equivalent to 112 pounds (- cwt, long hundredweight)
 """,
   );
-// 188888880002200
 
   final String keyword = "hundredweight";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/C0behFH1Ask?t=';
+    const double startSecondsend = 0000000000000000000000000001877;
+    const String videoIdone = 'https://youtu.be/06tHq0NMfRg?t=';
+    const double startSecondsone = 000000000000000000000000000126;
+    const String videoIdtwo = 'https://youtu.be/37A7u3UBMk4?t=';
+    const double startSecondstwo = 000000000000000000000000000315;
+    const String videoIdthree = 'https://youtu.be/ns_7nlxi9f4?t=';
+    const double startSecondsthree = 0000000000000000000000000002644;
+    const String videoIdfour = 'https://youtu.be/oDLHH65MLkU?t=';
+    const double startSecondsfour = 00000000000000000000000000097;
+    const String videoIdfive = 'https://youtu.be/P3Hx04RZQSU?t=';
+    const double startSecondsfive = 0000000000000000000000000001438;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hundredweight""",
                       // alsoEnglishWord: "also: hundredweight",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhʌndrədweɪt/""",
+                      americanText: """IpaUS: /ˈhʌndrədweɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,15 +996,16 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hundredweight", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
-                    SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence1("en-GB"),
-                      onPressedAmerican: () => speaksentence1("en-US"),
-                    ),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) یەکەیەکی کێشان کە یەکسانە بە ١١٢ پاوەند لە بەریتانیا و ١٠٠ پاوەند لە ئەمریکا. هەر ٢٠ یەکەیەکی یەکسانە بە یەک تەن"""),
+//                     SentencesRow(
+//                       englishText: """// ssssssssssssssssssssssgggggggg55555
+// """,
+//                       kurdishText: """رستە_رستە_رستە__رستە.""",
+//                       onPressedBritish: () => speaksentence1("en-GB"),
+//                       onPressedAmerican: () => speaksentence1("en-US"),
+//                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

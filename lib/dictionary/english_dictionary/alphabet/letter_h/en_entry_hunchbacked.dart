@@ -9,7 +9,8 @@ class EnglishEntryhunchbacked extends StatefulWidget {
   const EnglishEntryhunchbacked({super.key});
 
   @override
-  State<EnglishEntryhunchbacked> createState() => _EnglishEntryhunchbackedState();
+  State<EnglishEntryhunchbacked> createState() =>
+      _EnglishEntryhunchbackedState();
 }
 
 class _EnglishEntryhunchbackedState extends State<EnglishEntryhunchbacked> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhunchbacked hunchbacked
-WORD_WEB hunchbacked hunchbacked hunchbacked
-haʊʊʊʊʊʊʊ4
+- Adjective: hunchbacked
+1. Characteristic of or suffering from kyphosis, an abnormality of the vertebral column (- crookback, crookbacked, humped, humpbacked, gibbous, kyphotic)
+"There were seven hunchbacked brothers that looked just alike";
 """,
   );
-// 188888880002200
 
   final String keyword = "hunchbacked";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """I could see a hunchbacked figure walking across the field.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/8Poi5x0E2CM?t=';
+    const double startSecondsend = 0000000000000000000000000002202;
+    const String videoIdone = 'https://youtu.be/jHJSG9YtEZk?t=';
+    const double startSecondsone = 000000000000000000000000000377;
+    const String videoIdtwo = 'https://youtu.be/LwfqyIDvQWM?t=';
+    const double startSecondstwo = 000000000000000000000000000356;
+    const String videoIdthree = 'https://youtu.be/R2e2RbN7kVI?t=';
+    const double startSecondsthree = 0000000000000000000000000001005;
+    const String videoIdfour = 'https://youtu.be/8K6l7pFCBQw?t=';
+    const double startSecondsfour = 0000000000000000000000000004;
+    const String videoIdfive = 'https://youtu.be/712VvC9Vwg4?t=';
+    const double startSecondsfive = 000000000000000000000000000911;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hunchbacked""",
                       // alsoEnglishWord: "also: hunchbacked",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhʌntʃbækt/""",
+                      americanText: """IpaUS: /ˈhʌntʃbækt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پشت‌کۆم، پشت‌کووڕ، پشت‌چەماو، کووڕ، قووچەلی
 """),
 // With short examples define "hunchbacked", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە کەسێک پشتی کووڕ بووبێت بەهۆی چەمانەوەی ناسرووشتی لە بڕبڕەی پشتی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I could see a hunchbacked figure walking across the field.""",
+                      kurdishText:
+                          """کەسێکی پشت‌کوڕم بە گۆڕەپانەکەدا ڕێی دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

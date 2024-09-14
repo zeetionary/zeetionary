@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhumorist humorist
-WORD_WEB humorist humorist humorist
-haʊʊʊʊʊʊʊ4
+- Noun: humorist (Derived forms: humorists)
+1. Someone who acts, speaks or writes in an amusing way
 """,
   );
-// 188888880002200
 
   final String keyword = "humorist";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She is a famous humorist known for her witty stories.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/LxTWonQvXkw?t=';
+    const double startSecondsend = 000000000000000000000000000612;
+    const String videoIdone = 'https://youtu.be/leN3PbNvi3c';
+    const double startSecondsone = 0;
+    const String videoIdtwo = 'https://youtu.be/ocUNn6KUN6k?t=';
+    const double startSecondstwo = 00000000000000000000000000079;
+    const String videoIdthree = 'https://youtu.be/jVqyIbZnzV4?t=';
+    const double startSecondsthree = 000000000000000000000000000808;
+    const String videoIdfour = 'https://youtu.be/xmZ1ppujkXg?t=';
+    const double startSecondsfour = 000000000000000000000000000151;
+    const String videoIdfive = 'https://youtu.be/urFChdLN6nA?t=';
+    const double startSecondsfive = 0000000000000000000000000002414;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """humorist""",
                       // alsoEnglishWord: "also: humorist",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhjuːmərɪst/""",
+                      americanText: """IpaUS: /ˈhjuːmərɪst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەسێکی شۆخی‌باز، بنیادەمی نوکتەبێژ یان گاڵتەجاڕ
 """),
-// With short examples define "humorist", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە ناسراوە بۆ نووسین و گوتنی چیرۆک و نوکتەی پێکەنیناوی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She is a famous humorist known for her witty stories.""",
+                      kurdishText:
+                          """شۆخی‌بازێکی بەناوبانگە کە ناسراوە بۆ چیرۆکە زیرەکانەکانی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

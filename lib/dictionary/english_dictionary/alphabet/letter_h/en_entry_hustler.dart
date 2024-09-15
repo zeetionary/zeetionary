@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhurlyburly extends StatefulWidget {
-  const EnglishEntryhurlyburly({super.key});
+class EnglishEntryhustler extends StatefulWidget {
+  const EnglishEntryhustler({super.key});
 
   @override
-  State<EnglishEntryhurlyburly> createState() => _EnglishEntryhurlyburlyState();
+  State<EnglishEntryhustler> createState() => _EnglishEntryhustlerState();
 }
 
-class _EnglishEntryhurlyburlyState extends State<EnglishEntryhurlyburly> {
+class _EnglishEntryhustlerState extends State<EnglishEntryhustler> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hurly-burly (Derived forms: hurly-burlies)
-1. A disorderly outburst or tumult (- disturbance, disruption, commotion, flutter, to-do [informal], hoo-ha [informal], hoo-hah [informal], kerfuffle [Brit, informal], carry-on [Brit, informal], song and dance [Brit, informal])
-"they were amazed by the furious hurly-burly they had caused";
+- Noun: hustler (Derived forms: hustlers)
+1. [N. Amer, informal] A shrewd or unscrupulous person who knows how to circumvent difficulties (- wheeler-dealer, operator)
+ 
+2. A prostitute who attracts customers by walking the streets (- streetwalker, street girl)
 """,
   );
 
-  final String keyword = "hurly-burly";
+  final String keyword = "hustler";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hurly-burly""");
+    await flutterTts.speak("""hustler""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -86,14 +87,14 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""He enjoys the hurly-burly of political debate.""");
+        .speak("""The hustler made money by selling fake watches.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He met a hustler at the train station.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -925,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/hdqOCE9A9ak?t=';
-    const double startSecondsend = 000000000000000000000000000392;
-    const String videoIdone = 'https://youtu.be/bilIMsopfvA?t=';
-    const double startSecondsone = 000000000000000000000000000845;
-    const String videoIdtwo = 'https://youtu.be/dM0dvWQLwks?t=';
-    const double startSecondstwo = 000000000000000000000000000200;
-    const String videoIdthree = 'https://youtu.be/NmWgOW2EZfA?t=';
-    const double startSecondsthree = 00000000000000000000000000041;
-    const String videoIdfour = 'https://youtu.be/mNdXJhexVFE?t=';
-    const double startSecondsfour = 00000000000000000000000000015593;
-    const String videoIdfive = 'https://youtu.be/dvCM1Va5dyE?t=';
-    const double startSecondsfive = 0000000000000000000000000001137;
+    const String videoIdend = 'https://youtu.be/D6V85qfsu3g?t=';
+    const double startSecondsend = 0000000000000000000000000001735;
+    const String videoIdone = 'https://youtu.be/zkQ7Ha6yubo?t=';
+    const double startSecondsone = 000000000000000000000000000639;
+    const String videoIdtwo = 'https://youtu.be/_2ThNd8DBEI?t=';
+    const double startSecondstwo = 000000000000000000000000000400;
+    const String videoIdthree = 'https://youtu.be/EM4odIQZVgw?t=';
+    const double startSecondsthree = 000000000000000000000000000330;
+    const String videoIdfour = 'https://youtu.be/qNqgWvHa3LQ?t=';
+    const double startSecondsfour = 000000000000000000000000000158;
+    const String videoIdfive = 'https://youtu.be/ltnl4USwPs8?t=';
+    const double startSecondsfive = 000000000000000000000000000318;
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hurly-burly""",
-                      // alsoEnglishWord: "also: hurly-burly",
-                      britshText: """IpaUK: /ˈhɜːli bɜːli/""",
-                      americanText: """IpaUS: /ˈhɜːrli bɜːrli/""",
+                      word: """hustler""",
+                      // alsoEnglishWord: "also: hustler",
+                      britshText: """IpaUK: /ˈhʌslə(r)/""",
+                      americanText: """IpaUS: /ˈhʌslər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,25 +991,27 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: شلوقی، هەراوهوریا، جەنجاڵی، دەنگەدەنگ، قاڵمەقاڵم
+کوردی: (لە ئەمریکا) قاحبە، جندە، حیز، کوونی، گاندەر
 """),
-// With short examples define "hurly-burly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخ یان چالاکی ئاڵۆز و بە دەنگەدەنگ"""),
+                            """١. (ناو) کەسێک کە هەوڵ دەدات کەسێک ڕازی بکات پارەی پێبدات"""),
                     SentencesRow(
                       englishText:
-                          """He enjoys the hurly-burly of political debate.""",
-                      kurdishText: """حەزی بە جەنجاڵی دیبەیتە سیاسییەکەیە.""",
+                          """The hustler made money by selling fake watches.""",
+                      kurdishText:
+                          """تەڵەکەبازەکە پارەی پەیدا دەکرد بە فرۆشتنی کاتژمێری ساختە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) لە ئەمریکا واتا لەشفرۆش"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He met a hustler at the train station.""",
+                      kurdishText:
+                          """لە وێستگەی شەمەندەفەرەکە لەشفرۆشێکی دی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: hurdle (Derived forms: hurdles)
+1. A light movable barrier that competitors must leap over in certain races
+ 
+2. An obstacle that you are expected to overcome
+"the last hurdle before graduation"
+ 
+3. The act of jumping over an obstacle (- vault)
 
-EnglishEntryhurdle hurdle
-WORD_WEB hurdle hurdle hurdle
-haʊʊʊʊʊʊʊ4
+- Verb: hurdle (Derived forms: hurdled, hurdling, hurdles)
+1. (sport) jump a hurdle
 """,
   );
-// 188888880002200
 
   final String keyword = "hurdle";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +92,37 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His horse fell at the final hurdle.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The next hurdle will be getting her parents' agreement.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The plan fell at the first hurdle.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""We'll cross that hurdle when we come to it.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """She had to hurdle over three fences to reach the finishing line.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/dqcSk-EDrRo?t=';
+    const double startSecondsend = 000000000000000000000000000681;
+    const String videoIdone = 'https://youtu.be/AF8d72mA41M?t=';
+    const double startSecondsone = 0000000000000000000000000001306;
+    const String videoIdtwo = 'https://youtu.be/q8HRGiUeZwc?t=';
+    const double startSecondstwo = 000000000000000000000000000226;
+    const String videoIdthree = 'https://youtu.be/8FpPSMIB4uA?t=';
+    const double startSecondsthree = 0000000000000000000000000001920;
+    const String videoIdfour = 'https://youtu.be/7eM7pb5M5DU?t=';
+    const double startSecondsfour = 0000000000000000000000000002662;
+    const String videoIdfive = 'https://youtu.be/xBiB4CIq9FE?t=';
+    const double startSecondsfive = 00000000000000000000000000074;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hurdle""",
                       // alsoEnglishWord: "also: hurdle",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhɜːdl/""",
+                      americanText: """IpaUS: /ˈhɜːrdl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +998,28 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پەرژین،	تەگەرە، دژواری، کۆسپ، ڕێگر، بەربەند
 """),
 // With short examples define "hurdle", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هەر یەک لەو پەرژینانەی کە ڕاکەرێک یان ئەسپێک باز دەدات بەسەریدا لە پێشبڕکێدا؛ وەرزشێک کە پەرژینی تێدایە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His horse fell at the final hurdle.""",
+                      kurdishText: """ئەسپەکەی لە کۆتا پەرژین کەوت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شتێک کە دەبێت چارەسەر بکرێت یان مامەڵەی لەگەڵ بکرێت پێش ئەوەی شتێک بەدەست بێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: obstacle"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The next hurdle will be getting her parents' agreement.""",
+                      kurdishText:
+                          """کۆسپی دواتر بەدەستهێنانی ڕەزامەندی دایبابیەتی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1018,8 +1027,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The plan fell at the first hurdle.""",
+                      kurdishText: """پلانەکە لە یەکەم تەگەرە شکستی هێنا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1027,17 +1036,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We'll cross that hurdle when we come to it.""",
+                      kurdishText: """لەو پەرژینە دەپەڕینەوە کە دەگەین پێین.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) بازدان بەسەر شتێک کە ڕادەکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She had to hurdle over three fences to reach the finishing line.""",
+                      kurdishText:
+                          """دەبوو بەسەر سێ پەرژیندا باز بدات پێش گەشتن بە خاڵی کۆتایی.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

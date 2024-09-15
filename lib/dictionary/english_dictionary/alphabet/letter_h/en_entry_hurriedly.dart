@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhurriedly hurriedly
-WORD_WEB hurriedly hurriedly hurriedly
-haʊʊʊʊʊʊʊ4
+- Adverb: hurriedly
+1. In a hurried or hasty manner (- hastily, in haste)
+"the way they buried him so hurriedly was disgraceful";
 """,
   );
-// 188888880002200
 
   final String keyword = "hurriedly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I hurriedly got up and dressed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The article was hurriedly withdrawn from the newspaper.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Ii3Avr8SqiM?t=';
+    const double startSecondsend = 0000000000000000000000000008;
+    const String videoIdone = 'https://youtu.be/rCdA9Qv_55Y?t=';
+    const double startSecondsone = 000000000000000000000000000624;
+    const String videoIdtwo = 'https://youtu.be/vc90NQpY_4s?t=';
+    const double startSecondstwo = 000000000000000000000000000724;
+    const String videoIdthree = 'https://youtu.be/Sp9H0MO-qS8?t=';
+    const double startSecondsthree = 000000000000000000000000000559;
+    const String videoIdfour = 'https://youtu.be/ql0Op1VcELw?t=';
+    const double startSecondsfour = 000000000000000000000000000227;
+    const String videoIdfive = 'https://youtu.be/vcPRNMAI0nc?t=';
+    const double startSecondsfive = 000000000000000000000000000339;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hurriedly""",
                       // alsoEnglishWord: "also: hurriedly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhʌrɪdli/""",
+                      americanText: """IpaUS: /ˈhɜːrɪdli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +990,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بە پەلە، بە پڕتاو، بە پەلەپڕوزکێ، بە تاڵووکە، بە تاو
 """),
 // With short examples define "hurriedly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەک کە بە خێرایی دەکرێت بەهۆی نەبوونی کاتی پێویست"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I hurriedly got up and dressed.""",
+                      kurdishText: """بەپەلە لەخەو هەستام و خۆم گۆڕی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1006,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The article was hurriedly withdrawn from the newspaper.""",
+                      kurdishText:
+                          """وتارەکە بە خێرایی لە ڕۆژنامەکە کێشرایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

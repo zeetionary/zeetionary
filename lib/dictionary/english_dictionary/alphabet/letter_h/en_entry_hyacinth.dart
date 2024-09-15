@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhurlyburly extends StatefulWidget {
-  const EnglishEntryhurlyburly({super.key});
+class EnglishEntryhyacinth extends StatefulWidget {
+  const EnglishEntryhyacinth({super.key});
 
   @override
-  State<EnglishEntryhurlyburly> createState() => _EnglishEntryhurlyburlyState();
+  State<EnglishEntryhyacinth> createState() => _EnglishEntryhyacinthState();
 }
 
-class _EnglishEntryhurlyburlyState extends State<EnglishEntryhurlyburly> {
+class _EnglishEntryhyacinthState extends State<EnglishEntryhyacinth> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hurly-burly (Derived forms: hurly-burlies)
-1. A disorderly outburst or tumult (- disturbance, disruption, commotion, flutter, to-do [informal], hoo-ha [informal], hoo-hah [informal], kerfuffle [Brit, informal], carry-on [Brit, informal], song and dance [Brit, informal])
-"they were amazed by the furious hurly-burly they had caused";
+- Noun: hyacinth
+1. A red transparent variety of zircon used as a gemstone (- jacinth)
+ 
+2. Any of numerous bulbous perennial herbs (Derived forms: hyacinths)
 """,
   );
 
-  final String keyword = "hurly-burly";
+  final String keyword = "hyacinth";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hurly-burly""");
+    await flutterTts.speak("""hyacinth""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -86,7 +87,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""He enjoys the hurly-burly of political debate.""");
+        .speak("""He bought a pot of pink hyacinths for her birthday.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -925,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/hdqOCE9A9ak?t=';
-    const double startSecondsend = 000000000000000000000000000392;
-    const String videoIdone = 'https://youtu.be/bilIMsopfvA?t=';
-    const double startSecondsone = 000000000000000000000000000845;
-    const String videoIdtwo = 'https://youtu.be/dM0dvWQLwks?t=';
-    const double startSecondstwo = 000000000000000000000000000200;
-    const String videoIdthree = 'https://youtu.be/NmWgOW2EZfA?t=';
-    const double startSecondsthree = 00000000000000000000000000041;
-    const String videoIdfour = 'https://youtu.be/mNdXJhexVFE?t=';
-    const double startSecondsfour = 00000000000000000000000000015593;
-    const String videoIdfive = 'https://youtu.be/dvCM1Va5dyE?t=';
-    const double startSecondsfive = 0000000000000000000000000001137;
+    const String videoIdend = 'https://youtu.be/UJtVhPkIE28?t=';
+    const double startSecondsend = 000000000000000000000000000346;
+    const String videoIdone = 'https://youtu.be/RV2ftqfYk_s?t=';
+    const double startSecondsone = 000000000000000000000000000224;
+    const String videoIdtwo = 'https://youtu.be/UeH426gwVRc?t=';
+    const double startSecondstwo = 0000000000000000000000000001271;
+    const String videoIdthree = 'https://youtu.be/ODPlU2WhM2U?t=';
+    const double startSecondsthree = 000000000000000000000000000336;
+    const String videoIdfour = 'https://youtu.be/g83Fu0R2GGM';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/TZ6V3Wf4d0A?t=';
+    const double startSecondsfive = 0000000000000000000000000004;
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hurly-burly""",
-                      // alsoEnglishWord: "also: hurly-burly",
-                      britshText: """IpaUK: /ˈhɜːli bɜːli/""",
-                      americanText: """IpaUS: /ˈhɜːrli bɜːrli/""",
+                      word: """hyacinth""",
+                      // alsoEnglishWord: "also: hyacinth",
+                      britshText: """IpaUK: /ˈhaɪəsɪnθ/""",
+                      americanText: """IpaUS: /ˈhaɪəsɪnθ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -989,17 +990,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: شلوقی، هەراوهوریا، جەنجاڵی، دەنگەدەنگ، قاڵمەقاڵم
-"""),
-// With short examples define "hurly-burly", please follow LX instructions
+//                     const KurdishVocabulary(text: """
+// کوردی: سمڵ، سومبۆڵ، هەلال، سیاوسەدە
+// """),
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخ یان چالاکی ئاڵۆز و بە دەنگەدەنگ"""),
+                            """١. (ناو) ڕووەکێک کە تۆپەڵێک گوڵی شین، سپی، یان پەمەیی کە بۆنی خۆشە و گوڵەکان لەسەر قەدێکی ئەستوور پێکەوە گەشە دەکەن"""),
                     SentencesRow(
                       englishText:
-                          """He enjoys the hurly-burly of political debate.""",
-                      kurdishText: """حەزی بە جەنجاڵی دیبەیتە سیاسییەکەیە.""",
+                          """He bought a pot of pink hyacinths for her birthday.""",
+                      kurdishText:
+                          """گوڵدانێک لە سومبۆڵی پەمەیی بۆ جەژنی لەدایکبوونی کڕی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

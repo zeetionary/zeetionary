@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhurlyburly extends StatefulWidget {
-  const EnglishEntryhurlyburly({super.key});
+class EnglishEntryhydroelectric extends StatefulWidget {
+  const EnglishEntryhydroelectric({super.key});
 
   @override
-  State<EnglishEntryhurlyburly> createState() => _EnglishEntryhurlyburlyState();
+  State<EnglishEntryhydroelectric> createState() =>
+      _EnglishEntryhydroelectricState();
 }
 
-class _EnglishEntryhurlyburlyState extends State<EnglishEntryhurlyburly> {
+class _EnglishEntryhydroelectricState extends State<EnglishEntryhydroelectric> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hurly-burly (Derived forms: hurly-burlies)
-1. A disorderly outburst or tumult (- disturbance, disruption, commotion, flutter, to-do [informal], hoo-ha [informal], hoo-hah [informal], kerfuffle [Brit, informal], carry-on [Brit, informal], song and dance [Brit, informal])
-"they were amazed by the furious hurly-burly they had caused";
+- Adjective: hydroelectric
+1. Of or relating to or used in the production of electricity by waterpower
+"hydroelectric power"
 """,
   );
 
-  final String keyword = "hurly-burly";
+  final String keyword = "hydroelectric";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hurly-burly""");
+    await flutterTts.speak("""hydroelectric""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -86,7 +87,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""He enjoys the hurly-burly of political debate.""");
+        .speak("""The hydroelectric plant powers the whole city.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -925,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/hdqOCE9A9ak?t=';
-    const double startSecondsend = 000000000000000000000000000392;
-    const String videoIdone = 'https://youtu.be/bilIMsopfvA?t=';
-    const double startSecondsone = 000000000000000000000000000845;
-    const String videoIdtwo = 'https://youtu.be/dM0dvWQLwks?t=';
-    const double startSecondstwo = 000000000000000000000000000200;
-    const String videoIdthree = 'https://youtu.be/NmWgOW2EZfA?t=';
-    const double startSecondsthree = 00000000000000000000000000041;
-    const String videoIdfour = 'https://youtu.be/mNdXJhexVFE?t=';
-    const double startSecondsfour = 00000000000000000000000000015593;
-    const String videoIdfive = 'https://youtu.be/dvCM1Va5dyE?t=';
-    const double startSecondsfive = 0000000000000000000000000001137;
+    const String videoIdend = 'https://youtu.be/lhK7hMBli4s?t=';
+    const double startSecondsend = 000000000000000000000000000572;
+    const String videoIdone = 'https://youtu.be/uDsmQRGdL6k?t=';
+    const double startSecondsone = 000000000000000000000000000228;
+    const String videoIdtwo = 'https://youtu.be/GBp_NgrrtPM?t=';
+    const double startSecondstwo = 000000000000000000000000000723;
+    const String videoIdthree = 'https://youtu.be/sKeQe7oc2gk?t=';
+    const double startSecondsthree = 000000000000000000000000000114;
+    const String videoIdfour = 'https://youtu.be/QfAXbGInwno?t=';
+    const double startSecondsfour = 000000000000000000000000000365;
+    const String videoIdfive = 'https://youtu.be/MFEHFsO-XSI?t=';
+    const double startSecondsfive = 000000000000000000000000000283;
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hurly-burly""",
-                      // alsoEnglishWord: "also: hurly-burly",
-                      britshText: """IpaUK: /ˈhɜːli bɜːli/""",
-                      americanText: """IpaUS: /ˈhɜːrli bɜːrli/""",
+                      word: """hydroelectric""",
+                      // alsoEnglishWord: "also: hydroelectric",
+                      britshText: """IpaUK: /ˌhaɪdrəʊɪˈlektrɪk/""",
+                      americanText: """IpaUS: /ˌhaɪdrəʊɪˈlektrɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,16 +991,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: شلوقی، هەراوهوریا، جەنجاڵی، دەنگەدەنگ، قاڵمەقاڵم
+کوردی: 
 """),
-// With short examples define "hurly-burly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخ یان چالاکی ئاڵۆز و بە دەنگەدەنگ"""),
+                            """١. (ھاوەڵناو) کە هێزی ئاو بەکاردەهێنیت بۆ بەرهەمهێنانی کارەبا"""),
                     SentencesRow(
                       englishText:
-                          """He enjoys the hurly-burly of political debate.""",
-                      kurdishText: """حەزی بە جەنجاڵی دیبەیتە سیاسییەکەیە.""",
+                          """The hydroelectric plant powers the whole city.""",
+                      kurdishText:
+                          """وێستگە کارۆئاوییەکە وزە دەدات بە تەواوی شارەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

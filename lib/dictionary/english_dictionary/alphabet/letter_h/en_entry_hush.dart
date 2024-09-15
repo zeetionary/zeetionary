@@ -52,13 +52,28 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: hush (Derived forms: hushing, hushed, hushes)
+1. Become quiet or still; fall silent
+"hush my baby!"
+ 
+2. Cause to be quiet or not talk (- quieten [Brit], silence, still, shut up, hush up)
+"Please hush the children in the church!";
+ 
+3. Become quiet or quieter (- quieten [Brit], quiet, quiesce, quiet down, pipe down)
+ 
+4. (mining) wash by removing particles (- wash)
+ 
+5. (mining) run water over the ground to erode (soil), revealing the underlying strata and valuable minerals
 
-EnglishEntryhush hush
-WORD_WEB hush hush hush
-haʊʊʊʊʊʊʊ4
+- Noun: hush (Derived forms: hushes)
+1. (poetic) tranquil silence (- stillness, still)
+"the hush of the night";
+
+- Interjection: hush
+1. Be silent (- silence, sh, shh, shush [informal], be quiet, whisht [UK, Ireland, dialect])
+"hush! Remember the people downstairs!";
 """,
   );
-// 188888880002200
 
   final String keyword = "hush";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +102,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Hush now and try to sleep.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She tenderly hushed the baby in her arms.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""There was a deathly hush in the theatre.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""A hush descended over the waiting crowd.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +940,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/MzSktgpfD84?t=';
+    const double startSecondsend = 000000000000000000000000000331;
+    const String videoIdone = 'https://youtu.be/bnnRIrxGGX8?t=';
+    const double startSecondsone = 0000000000000000000000000002296;
+    const String videoIdtwo = 'https://youtu.be/zmEv7vTOQGE?t=';
+    const double startSecondstwo = 0000000000000000000000000002032;
+    const String videoIdthree = 'https://youtu.be/mzPV9NJpiGU?t=';
+    const double startSecondsthree = 00000000000000000000000000080;
+    const String videoIdfour = 'https://youtu.be/kxKtz8HXSzA?t=';
+    const double startSecondsfour = 00000000000000000000000000080;
+    const String videoIdfive = 'https://youtu.be/lX7tRhCuiFU?t=';
+    const double startSecondsfive = 000000000000000000000000000144;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +967,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hush""",
                       // alsoEnglishWord: "also: hush",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hʌʃ/""",
+                      americanText: """IpaUS: /hʌʃ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,29 +1009,36 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hush", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (کردار) گوتن بە کەسێک کە بێ‌دەنگ بێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Hush now and try to sleep.""",
+                      kurdishText: """ئێشتا بێ‌دەنگ بە و بخەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) بە هێواشی هێمنکردنەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She tenderly hushed the baby in her arms.""",
+                      kurdishText:
+                          """بە دڵسۆزانە منداڵەکەی لە باوەشیدا ژیرکردەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) ماوەیەک لە بێ‌دەنگی لە دوای دەنگەدەنگی زۆر یان کە شتێک ڕوودەدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There was a deathly hush in the theatre.""",
+                      kurdishText:
+                          """بێ‌دەنگییەکی تەواو هەبوو لە هۆڵی شانۆکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1027,8 +1046,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A hush descended over the waiting crowd.""",
+                      kurdishText:
+                          """بێ‌دەنگییەک باڵی کێشا بەسەر جەماوەرە چاوەڕوانەکە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhunter hunter
-WORD_WEB hunter hunter hunter
-haʊʊʊʊʊʊʊ4
+- Noun: hunter (Derived forms: hunters)
+1. Someone who hunts game (- huntsman)
+ 
+2. A person who searches for something
+"a treasure hunter"
+ 
+3. A watch with a hinged metal lid to protect the crystal (- hunting watch)
 """,
   );
-// 188888880002200
 
   final String keyword = "hunter";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Animals in the cat family are hunters.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The outlaw was tracked down and killed by bounty hunters.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsend = 000000000000000000000000000531;
+    const String videoIdone = 'https://youtu.be/XlHzvTEstz8?t=';
+    const double startSecondsone = 0000000000000000000000000001129;
+    const String videoIdtwo = 'https://youtu.be/AwhBTrzzqeg?t=';
+    const double startSecondstwo = 000000000000000000000000000181;
+    const String videoIdthree = 'https://youtu.be/IVUjJpk0qWc?t=';
+    const double startSecondsthree = 00000000000000000000000000047;
+    const String videoIdfour = 'https://youtu.be/fhpAIPFNYag';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/PbemQhFSid8?t=';
+    const double startSecondsfive = 0000000000000000000000000004;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hunter""",
                       // alsoEnglishWord: "also: hunter",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhʌntə(r)/""",
+                      americanText: """IpaUS: /ˈhʌntər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +994,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕاوچی، نێچیرڤان، شکاروان، شکارچی
 """),
 // With short examples define "hunter", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) کەسێک یان ئاژەڵێک کە ئاژەڵ ڕاو دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Animals in the cat family are hunters.""",
+                      kurdishText: """ئاژەڵانی خێزانی پشیلە ڕاوکەرن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) کەسێک کە بۆ شتێک دەگەڕێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The outlaw was tracked down and killed by bounty hunters.""",
+                      kurdishText: """یاخیبووەکە دۆزرایەوە و کوژرا لەلایەن ڕاوچییە بەکرێ‌گیراوەکانەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

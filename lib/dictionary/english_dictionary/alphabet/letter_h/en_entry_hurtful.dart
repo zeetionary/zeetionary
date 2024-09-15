@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhurtful hurtful
-WORD_WEB hurtful hurtful hurtful
-haʊʊʊʊʊʊʊ4
+- Adjective: hurtful
+1. Causing hurt
+"her hurtful unconsidered words"
+ 
+2. Harmful to living things (- deleterious, injurious)
+"hurtful chemical additives";
 """,
   );
-// 188888880002200
 
   final String keyword = "hurtful";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I cannot forget the hurtful things he said.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Her friend's disloyalty was hurtful.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/6noCpwaFbVw?t=';
+    const double startSecondsend = 000000000000000000000000000480;
+    const String videoIdone = 'https://youtu.be/NEoOJ0uRskY?t=';
+    const double startSecondsone = 000000000000000000000000000245;
+    const String videoIdtwo = 'https://youtu.be/aTMsfOcHiJg?t=';
+    const double startSecondstwo = 000000000000000000000000000682;
+    const String videoIdthree = 'https://youtu.be/fC0eoM5Jwg4?t=';
+    const double startSecondsthree = 000000000000000000000000000140;
+    const String videoIdfour = 'https://youtu.be/dwBWTDiR0T4?t=';
+    const double startSecondsfour = 00000000000000000000000000047;
+    const String videoIdfive = 'https://youtu.be/cwEM0ib6ZbU?t=';
+    const double startSecondsfive = 000000000000000000000000000169;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hurtful""",
                       // alsoEnglishWord: "also: hurtful",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhɜːtfl/""",
+                      americanText: """IpaUS: /ˈhɜːrtfl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +992,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەزیان، زیاناوی، بەئازار، بەئێش، بەژان، بەسوێ، ناڕەحەت‌کەر
 """),
 // With short examples define "hurtful", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە بێزار و دڵشکاوت دەکات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unkind"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I cannot forget the hurtful things he said.""",
+                      kurdishText:
+                          """ناتوانم ئەو شتە ئازاربەخشانە لەبیربکەم کە گوتنی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1010,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her friend's disloyalty was hurtful.""",
+                      kurdishText: "بێ‌وەفایی ھاوڕێکەی بەئازار بوو.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

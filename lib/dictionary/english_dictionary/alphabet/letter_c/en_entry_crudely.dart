@@ -250,7 +250,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText: "The hut was crudely built, with a thatched roof.",
             kurdishText:
-                "کوخەکە بە سادەیی بنیات نرابوو بە سەربانێکی ھەڵاش‌پۆشەوە.",
+                "کۆخەکە بە سادەیی بنیات نرابوو بە سەربانێکی ھەڵاش‌پۆشەوە.",
             onPressedBritish: () => speakcrudelys2("en-GB"),
             onPressedAmerican: () => speakcrudelys2("en-US"),
           ),

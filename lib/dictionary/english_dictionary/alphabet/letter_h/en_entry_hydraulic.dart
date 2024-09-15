@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhurlyburly extends StatefulWidget {
-  const EnglishEntryhurlyburly({super.key});
+class EnglishEntryhydraulic extends StatefulWidget {
+  const EnglishEntryhydraulic({super.key});
 
   @override
-  State<EnglishEntryhurlyburly> createState() => _EnglishEntryhurlyburlyState();
+  State<EnglishEntryhydraulic> createState() => _EnglishEntryhydraulicState();
 }
 
-class _EnglishEntryhurlyburlyState extends State<EnglishEntryhurlyburly> {
+class _EnglishEntryhydraulicState extends State<EnglishEntryhydraulic> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hurly-burly (Derived forms: hurly-burlies)
-1. A disorderly outburst or tumult (- disturbance, disruption, commotion, flutter, to-do [informal], hoo-ha [informal], hoo-hah [informal], kerfuffle [Brit, informal], carry-on [Brit, informal], song and dance [Brit, informal])
-"they were amazed by the furious hurly-burly they had caused";
+- Adjective: hydraulic
+1. Moved or operated or effected by liquid (water or oil)
+"hydraulic erosion"; "hydraulic brakes"
+ 
+2. Of or relating to the study of hydraulics
+"hydraulic engineer"
 """,
   );
 
-  final String keyword = "hurly-burly";
+  final String keyword = "hydraulic";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,15 +81,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hurly-burly""");
+    await flutterTts.speak("""hydraulic""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""He enjoys the hurly-burly of political debate.""");
+    await flutterTts.speak(
+        """The plane’s hydraulic systems can withstand incredibly high temperatures.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -925,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/hdqOCE9A9ak?t=';
-    const double startSecondsend = 000000000000000000000000000392;
-    const String videoIdone = 'https://youtu.be/bilIMsopfvA?t=';
-    const double startSecondsone = 000000000000000000000000000845;
-    const String videoIdtwo = 'https://youtu.be/dM0dvWQLwks?t=';
-    const double startSecondstwo = 000000000000000000000000000200;
-    const String videoIdthree = 'https://youtu.be/NmWgOW2EZfA?t=';
-    const double startSecondsthree = 00000000000000000000000000041;
-    const String videoIdfour = 'https://youtu.be/mNdXJhexVFE?t=';
-    const double startSecondsfour = 00000000000000000000000000015593;
-    const String videoIdfive = 'https://youtu.be/dvCM1Va5dyE?t=';
-    const double startSecondsfive = 0000000000000000000000000001137;
+    const String videoIdend = 'https://youtu.be/n5x7GLl-mMo?t=';
+    const double startSecondsend = 000000000000000000000000000188;
+    const String videoIdone = 'https://youtu.be/0SeM5eqlNVg?t=';
+    const double startSecondsone = 000000000000000000000000000116;
+    const String videoIdtwo = 'https://youtu.be/k7YVxLLIuGM?t=';
+    const double startSecondstwo = 000000000000000000000000000159;
+    const String videoIdthree = 'https://youtu.be/iFcPqXxAUWM?t=';
+    const double startSecondsthree = 0000000000000000000000000007;
+    const String videoIdfour = 'https://youtu.be/CtUuab1Aqg0?t=';
+    const double startSecondsfour = 000000000000000000000000000219;
+    const String videoIdfive = 'https://youtu.be/rWVAzS5duAs?t=';
+    const double startSecondsfive = 000000000000000000000000000396;
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hurly-burly""",
-                      // alsoEnglishWord: "also: hurly-burly",
-                      britshText: """IpaUK: /ˈhɜːli bɜːli/""",
-                      americanText: """IpaUS: /ˈhɜːrli bɜːrli/""",
+                      word: """hydraulic""",
+                      // alsoEnglishWord: "also: hydraulic",
+                      britshText: """IpaUK: /haɪˈdrɒlɪk/""",
+                      americanText: """IpaUS: /haɪˈdrɔːlɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,16 +993,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: شلوقی، هەراوهوریا، جەنجاڵی، دەنگەدەنگ، قاڵمەقاڵم
+کوردی: 
 """),
-// With short examples define "hurly-burly", please follow LX instructions
+// With short examples define "hydraulic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخ یان چالاکی ئاڵۆز و بە دەنگەدەنگ"""),
+                            """١. (ناو) کە لە ڕێگای بۆرییەوە لەژێر فشاردا دەجووڵێت؛ کە ئامێرێک بەم شێوەیە کار دەکات"""),
                     SentencesRow(
                       englishText:
-                          """He enjoys the hurly-burly of political debate.""",
-                      kurdishText: """حەزی بە جەنجاڵی دیبەیتە سیاسییەکەیە.""",
+                          """The plane’s hydraulic systems can withstand incredibly high temperatures.""",
+                      kurdishText:
+                          """سیستەمی هایدرۆلیکی فڕۆکەکە دەکرێت بەرگەی پلەی گەرمی بەرز بگرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

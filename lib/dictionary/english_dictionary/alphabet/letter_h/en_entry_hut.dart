@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhurlyburly extends StatefulWidget {
-  const EnglishEntryhurlyburly({super.key});
+class EnglishEntryhut extends StatefulWidget {
+  const EnglishEntryhut({super.key});
 
   @override
-  State<EnglishEntryhurlyburly> createState() => _EnglishEntryhurlyburlyState();
+  State<EnglishEntryhut> createState() => _EnglishEntryhutState();
 }
 
-class _EnglishEntryhurlyburlyState extends State<EnglishEntryhurlyburly> {
+class _EnglishEntryhutState extends State<EnglishEntryhut> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hurly-burly (Derived forms: hurly-burlies)
-1. A disorderly outburst or tumult (- disturbance, disruption, commotion, flutter, to-do [informal], hoo-ha [informal], hoo-hah [informal], kerfuffle [Brit, informal], carry-on [Brit, informal], song and dance [Brit, informal])
-"they were amazed by the furious hurly-burly they had caused";
+- Noun: hut (Derived forms: huts)
+1. (military) temporary military shelter (- army hut, field hut)
+ 
+2. Small crude shelter used as a dwelling (- hovel, hutch, shack, shanty)
+
+- Verb: hut (Derived forms: huts, hutting, hutted)
+1. Provide with or stay in huts
 """,
   );
 
-  final String keyword = "hurly-burly";
+  final String keyword = "hut";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,7 +82,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hurly-burly""");
+    await flutterTts.speak("""hut""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -86,14 +90,15 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""He enjoys the hurly-burly of political debate.""");
+        .speak("""You can rent a beach hut for about £10 a night.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The hut was crudely built, with a thatched roof.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -925,18 +930,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/hdqOCE9A9ak?t=';
-    const double startSecondsend = 000000000000000000000000000392;
-    const String videoIdone = 'https://youtu.be/bilIMsopfvA?t=';
-    const double startSecondsone = 000000000000000000000000000845;
-    const String videoIdtwo = 'https://youtu.be/dM0dvWQLwks?t=';
-    const double startSecondstwo = 000000000000000000000000000200;
-    const String videoIdthree = 'https://youtu.be/NmWgOW2EZfA?t=';
-    const double startSecondsthree = 00000000000000000000000000041;
-    const String videoIdfour = 'https://youtu.be/mNdXJhexVFE?t=';
-    const double startSecondsfour = 00000000000000000000000000015593;
-    const String videoIdfive = 'https://youtu.be/dvCM1Va5dyE?t=';
-    const double startSecondsfive = 0000000000000000000000000001137;
+    const String videoIdend = 'https://youtu.be/su6zJeRQLUQ?t=';
+    const double startSecondsend = 000000000000000000000000000515;
+    const String videoIdone = 'https://youtu.be/YO7nBuUO9as?t=';
+    const double startSecondsone = 000000000000000000000000000573;
+    const String videoIdtwo = 'https://youtu.be/YhDhIfWFgeM?t=';
+    const double startSecondstwo = 000000000000000000000000000202;
+    const String videoIdthree = 'https://youtu.be/EzfnpJ6sAos?t=';
+    const double startSecondsthree = 000000000000000000000000000269;
+    const String videoIdfour = 'https://youtu.be/IOgq4Nk2H8w?t=';
+    const double startSecondsfour = 0000000000000000000000000001405;
+    const String videoIdfive = 'https://youtu.be/m1vXAPxPmL8?t=';
+    const double startSecondsfive = 00000000000000000000000000083;
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +954,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hurly-burly""",
-                      // alsoEnglishWord: "also: hurly-burly",
-                      britshText: """IpaUK: /ˈhɜːli bɜːli/""",
-                      americanText: """IpaUS: /ˈhɜːrli bɜːrli/""",
+                      word: """hut""",
+                      // alsoEnglishWord: "also: hut",
+                      britshText: """IpaUK: /hʌt/""",
+                      americanText: """IpaUS: /hʌt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,16 +995,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: شلوقی، هەراوهوریا، جەنجاڵی، دەنگەدەنگ، قاڵمەقاڵم
+کوردی: کۆخ، کۆختە، قۆلیت، کولیت، هۆلک، خانووچکە
 """),
-// With short examples define "hurly-burly", please follow LX instructions
+// With short examples define "hut", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخ یان چالاکی ئاڵۆز و بە دەنگەدەنگ"""),
+                            """١. (ناو) خانوو یان پەناگەیەکی بچووکی سادە درووستکراو"""),
                     SentencesRow(
                       englishText:
-                          """He enjoys the hurly-burly of political debate.""",
-                      kurdishText: """حەزی بە جەنجاڵی دیبەیتە سیاسییەکەیە.""",
+                          """You can rent a beach hut for about £10 a night.""",
+                      kurdishText:
+                          """دەتوانیت کۆخێکی کەنار دەریا بە کرێ بگریت بە ١٠ پاوەند بۆ هەر شەوێک.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1013,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The hut was crudely built, with a thatched roof.""",
+                      kurdishText:
+                          "کۆخەکە بە سادەیی بنیات نرابوو بە سەربانێکی ھەڵاش‌پۆشەوە.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

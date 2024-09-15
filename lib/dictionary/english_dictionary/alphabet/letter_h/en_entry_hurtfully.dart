@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhurtfully hurtfully
-WORD_WEB hurtfully hurtfully hurtfully
-haʊʊʊʊʊʊʊ4
+- Adverb: hurtfully
+1. In a hurtful manner
+"Sometimes we may speak hurtfully out of ignorance"
 """,
   );
-// 188888880002200
 
   final String keyword = "hurtfully";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He said, rather hurtfully, that he had better things to do than come and see me.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/EyA2podwo6Y?t=';
+    const double startSecondsend = 000000000000000000000000000211;
+    const String videoIdone = 'https://youtu.be/bLpYSGe4cAw?t=';
+    const double startSecondsone = 0000000000000000000000000001425;
+    const String videoIdtwo = 'https://youtu.be/st6fJtdey24?t=';
+    const double startSecondstwo = 000000000000000000000000000689;
+    const String videoIdthree = 'https://youtu.be/Co4cjpXXKaA?t=';
+    const double startSecondsthree = 000000000000000000000000000441;
+    const String videoIdfour = 'https://youtu.be/PL2ZlxrE3uo?t=';
+    const double startSecondsfour = 000000000000000000000000000420;
+    const String videoIdfive = 'https://youtu.be/pWs0TnwIH7Q?t=';
+    const double startSecondsfive = 000000000000000000000000000621;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hurtfully""",
                       // alsoEnglishWord: "also: hurtfully",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhɜːtfəli/""",
+                      americanText: """IpaUS: /ˈhɜːrtfəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +989,15 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: بە شێوەیەکی زیاناوی، زیان‌گەیێنەرانە
+// """),
 // With short examples define "hurtfully", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە بێزار و دڵشکاوت دەکات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unkindly"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He said, rather hurtfully, that he had better things to do than come and see me.""",
+                      kurdishText: """بە کەمێک ئازاربەخشانە گوتی کە شتی باشتری هەیە بیکات وەک لەوەی بێت و بمبینێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

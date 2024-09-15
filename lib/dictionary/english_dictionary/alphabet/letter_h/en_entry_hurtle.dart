@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhurtle hurtle
-WORD_WEB hurtle hurtle hurtle
-haʊʊʊʊʊʊʊ4
+- Verb: hurtle (Derived forms: hurtles, hurtled, hurtling)
+1. Move with or as if with a rushing sound
+"The cars hurtled by"
+ 
+2. Make a thrusting forward movement (- lunge, hurl, thrust)
+ 
+3. Throw forcefully (- hurl, cast)
 """,
   );
-// 188888880002200
 
   final String keyword = "hurtle";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""A train came hurtling through the station.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He was hurtling along in his brand new car.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oiLdWXLXDeA?t=';
+    const double startSecondsend = 0000000000000000000000000001190;
+    const String videoIdone = 'https://youtu.be/Z0qwi6UkKtQ?t=';
+    const double startSecondsone = 0000000000000000000000000001057;
+    const String videoIdtwo = 'https://youtu.be/GOayco-JCb0?t=';
+    const double startSecondstwo = 000000000000000000000000000690;
+    const String videoIdthree = 'https://youtu.be/aPvx_yTWSIE?t=';
+    const double startSecondsthree = 0000000000000000000000000008;
+    const String videoIdfour = 'https://youtu.be/ORI7EpwjR4Q?t=';
+    const double startSecondsfour = 000000000000000000000000000824;
+    const String videoIdfive = 'https://youtu.be/icfwMWYDeac?t=';
+    const double startSecondsfive = 000000000000000000000000000512;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hurtle""",
                       // alsoEnglishWord: "also: hurtle",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhɜːtl/""",
+                      americanText: """IpaUS: /ˈhɜːrtl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +996,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hurtle", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) ڕۆشتن زۆر بە خێرایی بە ئاراستەیەکدا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A train came hurtling through the station.""",
+                      kurdishText: """شەمەندەفەرێک هات خێرا بە وێستگەکەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was hurtling along in his brand new car.""",
+                      kurdishText:
+                          """هاژەی دەهات بە ئۆتۆمبێلە تەواو تازەکەی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

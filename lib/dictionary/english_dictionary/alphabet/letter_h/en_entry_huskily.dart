@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhurlyburly extends StatefulWidget {
-  const EnglishEntryhurlyburly({super.key});
+class EnglishEntryhuskily extends StatefulWidget {
+  const EnglishEntryhuskily({super.key});
 
   @override
-  State<EnglishEntryhurlyburly> createState() => _EnglishEntryhurlyburlyState();
+  State<EnglishEntryhuskily> createState() => _EnglishEntryhuskilyState();
 }
 
-class _EnglishEntryhurlyburlyState extends State<EnglishEntryhurlyburly> {
+class _EnglishEntryhuskilyState extends State<EnglishEntryhuskily> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hurly-burly (Derived forms: hurly-burlies)
-1. A disorderly outburst or tumult (- disturbance, disruption, commotion, flutter, to-do [informal], hoo-ha [informal], hoo-hah [informal], kerfuffle [Brit, informal], carry-on [Brit, informal], song and dance [Brit, informal])
-"they were amazed by the furious hurly-burly they had caused";
+- Adverb: huskily
+1. In a hoarse or husky voice (- hoarsely, throatily)
+"'Excuse me,' he said huskily";
 """,
   );
 
-  final String keyword = "hurly-burly";
+  final String keyword = "huskily";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,15 +78,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hurly-burly""");
+    await flutterTts.speak("""huskily""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""He enjoys the hurly-burly of political debate.""");
+    await flutterTts.speak("""‘You’re beautiful,’ he said huskily.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -925,18 +924,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/hdqOCE9A9ak?t=';
-    const double startSecondsend = 000000000000000000000000000392;
-    const String videoIdone = 'https://youtu.be/bilIMsopfvA?t=';
-    const double startSecondsone = 000000000000000000000000000845;
-    const String videoIdtwo = 'https://youtu.be/dM0dvWQLwks?t=';
-    const double startSecondstwo = 000000000000000000000000000200;
-    const String videoIdthree = 'https://youtu.be/NmWgOW2EZfA?t=';
-    const double startSecondsthree = 00000000000000000000000000041;
-    const String videoIdfour = 'https://youtu.be/mNdXJhexVFE?t=';
-    const double startSecondsfour = 00000000000000000000000000015593;
-    const String videoIdfive = 'https://youtu.be/dvCM1Va5dyE?t=';
-    const double startSecondsfive = 0000000000000000000000000001137;
+    const String videoIdend = 'https://youtu.be/Hux1O6ou2rI?t=';
+    const double startSecondsend = 00000000000000000000000000065;
+    const String videoIdone = 'https://youtu.be/1SdAkMhDsDs?t=';
+    const double startSecondsone = 0000000000000000000000000001210;
+    const String videoIdtwo = 'https://youtu.be/xRGCAt6BgiQ?t=';
+    const double startSecondstwo = 0000000000000000000000000002767;
+    const String videoIdthree = 'https://youtu.be/Qdz7ZcKra_U?t=';
+    const double startSecondsthree = 0000000000000000000000000001682;
+    const String videoIdfour = 'https://youtu.be/RnqpeFJPsBQ?t=';
+    const double startSecondsfour = 0000000000000000000000000003132;
+    const String videoIdfive = 'https://youtu.be/02IYqDS8FBc?t=';
+    const double startSecondsfive = 00000000000000000000000000028214;
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +948,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hurly-burly""",
-                      // alsoEnglishWord: "also: hurly-burly",
-                      britshText: """IpaUK: /ˈhɜːli bɜːli/""",
-                      americanText: """IpaUS: /ˈhɜːrli bɜːrli/""",
+                      word: """huskily""",
+                      // alsoEnglishWord: "also: huskily",
+                      britshText: """IpaUK: /ˈhʌskɪli/""",
+                      americanText: """IpaUS: /ˈhʌskɪli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,16 +989,15 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: شلوقی، هەراوهوریا، جەنجاڵی، دەنگەدەنگ، قاڵمەقاڵم
+کوردی: بە دەنگ نووساوی(یەوە)، دەنگ‌نووساوانە، دەنگ‌گیراوانە
 """),
-// With short examples define "hurly-burly", please follow LX instructions
+// With short examples define "huskily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخ یان چالاکی ئاڵۆز و بە دەنگەدەنگ"""),
+                            """١. (ھاوەڵکار) بە دەنگێکی گڕ، نزم، و توند، کە هەندێکجار بە شێوەیەکە کە خۆشە"""),
                     SentencesRow(
-                      englishText:
-                          """He enjoys the hurly-burly of political debate.""",
-                      kurdishText: """حەزی بە جەنجاڵی دیبەیتە سیاسییەکەیە.""",
+                      englishText: """‘You’re beautiful,’ he said huskily.""",
+                      kurdishText: """بە دەنگێکی گڕەوە گوتی 'جوانیت.'""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

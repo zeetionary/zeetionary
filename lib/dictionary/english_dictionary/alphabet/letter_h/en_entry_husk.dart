@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: husk (Derived forms: husks)
+1. Material consisting of seed coverings and small pieces of stem or leaves that have been separated from the seeds (- chaff, shuck [N. Amer], stalk, straw, stubble)
+ 
+2. Outer membranous covering of some fruits or seeds
 
-EnglishEntryhusk husk
-WORD_WEB husk husk husk
-haʊʊʊʊʊʊʊ4
+- Verb: husk (Derived forms: husks, husked, husking)
+1. Remove the husks from (- shell)
+"husk corn";
 """,
   );
-// 188888880002200
 
   final String keyword = "husk";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Brown rice has not had the husks removed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Farmers husk the corn by hand.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/8xe8Um-p4xA?t=';
+    const double startSecondsend = 000000000000000000000000000221;
+    const String videoIdone = 'https://youtu.be/KhBxCx11eck?t=';
+    const double startSecondsone = 0000000000000000000000000001563;
+    const String videoIdtwo = 'https://youtu.be/0UABTaB-_i8?t=';
+    const double startSecondstwo = 000000000000000000000000000318;
+    const String videoIdthree = 'https://youtu.be/Jl0IDXkYKbk?t=';
+    const double startSecondsthree = 000000000000000000000000000171;
+    const String videoIdfour = 'https://youtu.be/meBd1GHC2yg?t=';
+    const double startSecondsfour = 000000000000000000000000000112;
+    const String videoIdfive = 'https://youtu.be/PhQksV8fbKw?t=';
+    const double startSecondsfive = 0000000000000000000000000002147;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """husk""",
                       // alsoEnglishWord: "also: husk",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hʌsk/""",
+                      americanText: """IpaUS: /hʌsk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +994,27 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زبرە، سۆس، سۆست، کەپەک،	توێخ، توێک، توێکڵ
 """),
-// With short examples define "husk", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەشی وشکی دەرەوەی کاکڵدارەکان، میوەکان، و تۆوەکان، بە تایبەتی دەغڵودان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Brown rice has not had the husks removed.""",
+                      kurdishText: """برنجی قاوەیی توێکڵەکەی لێنەکراوەتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) لێکردنەوەی توێکڵی دەغڵودان، تۆو، کاکڵدار، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Farmers husk the corn by hand.""",
+                      kurdishText:
+                          """جوتیاران توێکڵی گەنمەشامییەکە بە دەست لێدەکەنەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

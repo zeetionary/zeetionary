@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhurried hurried
-WORD_WEB hurried hurried hurried
-haʊʊʊʊʊʊʊ4
+- Adjective: hurried
+1. Moving rapidly or performed quickly or in great haste
+"a hurried trip to the store"; "the hurried life of a city"; "a hurried job"
 """,
   );
-// 188888880002200
 
   final String keyword = "hurried";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I ate a hurried breakfast and left.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/-obKX-mqjXQ?t=';
+    const double startSecondsend = 000000000000000000000000000417;
+    const String videoIdone = 'https://youtu.be/phuS5VLQy8c?t=';
+    const double startSecondsone = 0000000000000000000000000001009;
+    const String videoIdtwo = 'https://youtu.be/_uS4WCsGi0k?t=';
+    const double startSecondstwo = 000000000000000000000000000906;
+    const String videoIdthree = 'https://youtu.be/M5Vrar4w_CU?t=';
+    const double startSecondsthree = 000000000000000000000000000563;
+    const String videoIdfour = 'https://youtu.be/Ei8JnepMRoM?t=';
+    const double startSecondsfour = 000000000000000000000000000308;
+    const String videoIdfive = 'https://youtu.be/ssI9_Teij8c?t=';
+    const double startSecondsfive = 000000000000000000000000000341;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hurried""",
                       // alsoEnglishWord: "also: hurried",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhʌrid/""",
+                      americanText: """IpaUS: /ˈhɜːrid/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەپەلە، بەلەز، بەپڕتاو
 """),
 // With short examples define "hurried", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بە خێرایی دەکرێت بەهۆی نەبوونی کاتی پێویست"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: rushed"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I ate a hurried breakfast and left.""",
+                      kurdishText: """نانێکی بەیانی خێرام خوارد و چووم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

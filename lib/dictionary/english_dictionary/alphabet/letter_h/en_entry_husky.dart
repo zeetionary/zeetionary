@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhurlyburly extends StatefulWidget {
-  const EnglishEntryhurlyburly({super.key});
+class EnglishEntryhusky extends StatefulWidget {
+  const EnglishEntryhusky({super.key});
 
   @override
-  State<EnglishEntryhurlyburly> createState() => _EnglishEntryhurlyburlyState();
+  State<EnglishEntryhusky> createState() => _EnglishEntryhuskyState();
 }
 
-class _EnglishEntryhurlyburlyState extends State<EnglishEntryhurlyburly> {
+class _EnglishEntryhuskyState extends State<EnglishEntryhusky> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hurly-burly (Derived forms: hurly-burlies)
-1. A disorderly outburst or tumult (- disturbance, disruption, commotion, flutter, to-do [informal], hoo-ha [informal], hoo-hah [informal], kerfuffle [Brit, informal], carry-on [Brit, informal], song and dance [Brit, informal])
-"they were amazed by the furious hurly-burly they had caused";
+- Adjective: husky (Derived forms: huskiest, huskier)
+1. Muscular and heavily built (- beefy, burly, strapping, buirdly)
+"clothing sizes for husky boys";
+ 
+2. Deep and harsh sounding as if from shouting, illness or emotion (- gruff, hoarse)
+"makes all the instruments sound powerful but husky";
+
+- Noun: husky (Derived forms: huskies)
+1. Breed of heavy-coated Arctic sled dog (- Eskimo dog)
 """,
   );
 
-  final String keyword = "hurly-burly";
+  final String keyword = "husky";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,29 +84,29 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hurly-burly""");
+    await flutterTts.speak("""husky""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""He enjoys the hurly-burly of political debate.""");
+    await flutterTts.speak("""She spoke in a husky whisper.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Sorry, I’m a bit husky today—I’ve got a sore throat.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The husky ran through the snow with ease.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -925,18 +931,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/hdqOCE9A9ak?t=';
-    const double startSecondsend = 000000000000000000000000000392;
-    const String videoIdone = 'https://youtu.be/bilIMsopfvA?t=';
-    const double startSecondsone = 000000000000000000000000000845;
-    const String videoIdtwo = 'https://youtu.be/dM0dvWQLwks?t=';
-    const double startSecondstwo = 000000000000000000000000000200;
-    const String videoIdthree = 'https://youtu.be/NmWgOW2EZfA?t=';
-    const double startSecondsthree = 00000000000000000000000000041;
-    const String videoIdfour = 'https://youtu.be/mNdXJhexVFE?t=';
-    const double startSecondsfour = 00000000000000000000000000015593;
-    const String videoIdfive = 'https://youtu.be/dvCM1Va5dyE?t=';
-    const double startSecondsfive = 0000000000000000000000000001137;
+    const String videoIdend = 'https://youtu.be/544DTGHIBM0?t=';
+    const double startSecondsend = 000000000000000000000000000376;
+    const String videoIdone = 'https://youtu.be/HV2nMU1pC5Y?t=';
+    const double startSecondsone = 00000000000000000000000000080;
+    const String videoIdtwo = 'https://youtu.be/nVuGJ_fusaI?t=';
+    const double startSecondstwo = 00000000000000000000000000012;
+    const String videoIdthree = 'https://youtu.be/JVyDGd12p0k?t=';
+    const double startSecondsthree = 00000000000000000000000000048;
+    const String videoIdfour = 'https://youtu.be/eGygYgbULv4?t=';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/JpefTKVO6q4';
+    const double startSecondsfive = 0;
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +955,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hurly-burly""",
-                      // alsoEnglishWord: "also: hurly-burly",
-                      britshText: """IpaUK: /ˈhɜːli bɜːli/""",
-                      americanText: """IpaUS: /ˈhɜːrli bɜːrli/""",
+                      word: """husky""",
+                      // alsoEnglishWord: "also: husky",
+                      britshText: """IpaUK: /ˈhʌski/""",
+                      americanText: """IpaUS: /ˈhʌski/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,16 +996,14 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: شلوقی، هەراوهوریا، جەنجاڵی، دەنگەدەنگ، قاڵمەقاڵم
+کوردی: گیراو، نووساو، گڕ، نەڕ
 """),
-// With short examples define "hurly-burly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخ یان چالاکی ئاڵۆز و بە دەنگەدەنگ"""),
+                            """١. (ھاوەڵناو) دەنگێکی گڕ، نزم، و توند، هەندێکجار بە شێوەیەک کە خۆشە"""),
                     SentencesRow(
-                      englishText:
-                          """He enjoys the hurly-burly of political debate.""",
-                      kurdishText: """حەزی بە جەنجاڵی دیبەیتە سیاسییەکەیە.""",
+                      englishText: """She spoke in a husky whisper.""",
+                      kurdishText: """بە چپەیەکی نەڕەوە قسەی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1011,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Sorry, I’m a bit husky today—I’ve got a sore throat.""",
+                      kurdishText:
+                          """ببوورە، ئەمڕۆ کەمێک دەنگم نووساوە ـ قوڕگم ئاوساوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) سەگێکی گەورەی بەهێز کە فەرووی ئەستووری هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The husky ran through the snow with ease.""",
+                      kurdishText:
+                          """هەسکییەکە بە ئاسانی بە بەفرەکەدا ڕایکرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

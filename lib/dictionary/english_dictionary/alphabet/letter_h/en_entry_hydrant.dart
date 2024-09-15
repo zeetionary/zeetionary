@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhurlyburly extends StatefulWidget {
-  const EnglishEntryhurlyburly({super.key});
+class EnglishEntryhydrant extends StatefulWidget {
+  const EnglishEntryhydrant({super.key});
 
   @override
-  State<EnglishEntryhurlyburly> createState() => _EnglishEntryhurlyburlyState();
+  State<EnglishEntryhydrant> createState() => _EnglishEntryhydrantState();
 }
 
-class _EnglishEntryhurlyburlyState extends State<EnglishEntryhurlyburly> {
+class _EnglishEntryhydrantState extends State<EnglishEntryhydrant> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hurly-burly (Derived forms: hurly-burlies)
-1. A disorderly outburst or tumult (- disturbance, disruption, commotion, flutter, to-do [informal], hoo-ha [informal], hoo-hah [informal], kerfuffle [Brit, informal], carry-on [Brit, informal], song and dance [Brit, informal])
-"they were amazed by the furious hurly-burly they had caused";
+- Noun: hydrant (Derived forms: hydrants)
+1. A faucet for drawing water from a pipe or cask (- water faucet [N. Amer], water tap, tap)
+ 
+2. A discharge pipe with a valve and spout at which water may be drawn from the mains of waterworks
 """,
   );
 
-  final String keyword = "hurly-burly";
+  final String keyword = "hydrant";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hurly-burly""");
+    await flutterTts.speak("""hydrant""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -86,7 +87,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts
-        .speak("""He enjoys the hurly-burly of political debate.""");
+        .speak("""The hydrant was painted bright red for visibility.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -925,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/hdqOCE9A9ak?t=';
-    const double startSecondsend = 000000000000000000000000000392;
-    const String videoIdone = 'https://youtu.be/bilIMsopfvA?t=';
-    const double startSecondsone = 000000000000000000000000000845;
-    const String videoIdtwo = 'https://youtu.be/dM0dvWQLwks?t=';
-    const double startSecondstwo = 000000000000000000000000000200;
-    const String videoIdthree = 'https://youtu.be/NmWgOW2EZfA?t=';
-    const double startSecondsthree = 00000000000000000000000000041;
-    const String videoIdfour = 'https://youtu.be/mNdXJhexVFE?t=';
-    const double startSecondsfour = 00000000000000000000000000015593;
-    const String videoIdfive = 'https://youtu.be/dvCM1Va5dyE?t=';
-    const double startSecondsfive = 0000000000000000000000000001137;
+    const String videoIdend = 'https://youtu.be/XlHzvTEstz8?t=';
+    const double startSecondsend = 000000000000000000000000000792;
+    const String videoIdone = 'https://youtu.be/OOg-4mtA3Zo?t=';
+    const double startSecondsone = 000000000000000000000000000400;
+    const String videoIdtwo = 'https://youtu.be/w3XS900kg1U?t=';
+    const double startSecondstwo = 0000000000000000000000000001024;
+    const String videoIdthree = 'https://youtu.be/D-L4NMHpBWs?t=';
+    const double startSecondsthree = 000000000000000000000000000171;
+    const String videoIdfour = 'https://youtu.be/_cVGrRNi_2k?t=';
+    const double startSecondsfour = 0000000000000000000000000001561;
+    const String videoIdfive = 'https://youtu.be/K-Ina_WW4Yc?t=';
+    const double startSecondsfive = 0000000000000000000000000001196;
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hurly-burly""",
-                      // alsoEnglishWord: "also: hurly-burly",
-                      britshText: """IpaUK: /ˈhɜːli bɜːli/""",
-                      americanText: """IpaUS: /ˈhɜːrli bɜːrli/""",
+                      word: """hydrant""",
+                      // alsoEnglishWord: "also: hydrant",
+                      britshText: """IpaUK: /ˈhaɪdrənt/""",
+                      americanText: """IpaUS: /ˈhaɪdrənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,16 +991,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: شلوقی، هەراوهوریا، جەنجاڵی، دەنگەدەنگ، قاڵمەقاڵم
+کوردی: 
 """),
-// With short examples define "hurly-burly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) دۆخ یان چالاکی ئاڵۆز و بە دەنگەدەنگ"""),
+                            """١. (ناو) بەلووعەیەک لەسەر شەقام کە لە ڕێگەیەوە ئاگر دەکوژێنرێتەوە یان شەقامەکان پەکادەکرێنەوە"""),
                     SentencesRow(
                       englishText:
-                          """He enjoys the hurly-burly of political debate.""",
-                      kurdishText: """حەزی بە جەنجاڵی دیبەیتە سیاسییەکەیە.""",
+                          """The hydrant was painted bright red for visibility.""",
+                      kurdishText:
+                          """شیرەی ئاگرکوژێنەرەوەکە بە سووری ڕۆشن بۆیەکرا بۆ بینین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

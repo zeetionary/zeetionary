@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhurlyburly extends StatefulWidget {
-  const EnglishEntryhurlyburly({super.key});
+class EnglishEntryhutch extends StatefulWidget {
+  const EnglishEntryhutch({super.key});
 
   @override
-  State<EnglishEntryhurlyburly> createState() => _EnglishEntryhurlyburlyState();
+  State<EnglishEntryhutch> createState() => _EnglishEntryhutchState();
 }
 
-class _EnglishEntryhurlyburlyState extends State<EnglishEntryhurlyburly> {
+class _EnglishEntryhutchState extends State<EnglishEntryhutch> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hurly-burly (Derived forms: hurly-burlies)
-1. A disorderly outburst or tumult (- disturbance, disruption, commotion, flutter, to-do [informal], hoo-ha [informal], hoo-hah [informal], kerfuffle [Brit, informal], carry-on [Brit, informal], song and dance [Brit, informal])
-"they were amazed by the furious hurly-burly they had caused";
+- Noun: hutch (Derived forms: hutches)
+1. A cage (usually made of wood and wire mesh) for small animals
+ 
+2. Small crude shelter used as a dwelling (- hovel, hut, shack, shanty)
+ 
+3. [N. Amer] A cabinet (usually with glass doors) for storing and displaying china (- china cabinet, china closet)
 """,
   );
 
-  final String keyword = "hurly-burly";
+  final String keyword = "hutch";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,15 +81,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hurly-burly""");
+    await flutterTts.speak("""hutch""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""He enjoys the hurly-burly of political debate.""");
+    await flutterTts.speak(
+        """I fed the rabbit a carrot through the wire netting of its hutch.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -925,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/hdqOCE9A9ak?t=';
-    const double startSecondsend = 000000000000000000000000000392;
-    const String videoIdone = 'https://youtu.be/bilIMsopfvA?t=';
-    const double startSecondsone = 000000000000000000000000000845;
-    const String videoIdtwo = 'https://youtu.be/dM0dvWQLwks?t=';
-    const double startSecondstwo = 000000000000000000000000000200;
-    const String videoIdthree = 'https://youtu.be/NmWgOW2EZfA?t=';
-    const double startSecondsthree = 00000000000000000000000000041;
-    const String videoIdfour = 'https://youtu.be/mNdXJhexVFE?t=';
-    const double startSecondsfour = 00000000000000000000000000015593;
-    const String videoIdfive = 'https://youtu.be/dvCM1Va5dyE?t=';
-    const double startSecondsfive = 0000000000000000000000000001137;
+    const String videoIdend = 'https://youtu.be/2fOWFfpLYW0?t=';
+    const double startSecondsend = 000000000000000000000000000893;
+    const String videoIdone = 'https://youtu.be/Ap50PaMyias?t=';
+    const double startSecondsone = 000000000000000000000000000187;
+    const String videoIdtwo = 'https://youtu.be/0e8woEkKmG8?t=';
+    const double startSecondstwo = 000000000000000000000000000421;
+    const String videoIdthree = 'https://youtu.be/zEXXe9Ef_R8?t=';
+    const double startSecondsthree = 000000000000000000000000000647;
+    const String videoIdfour = 'https://youtu.be/XXVXmR6j3Kc?t=';
+    const double startSecondsfour = 000000000000000000000000000673;
+    const String videoIdfive = 'https://youtu.be/zrLleFetY_Y?t=';
+    const double startSecondsfive = 000000000000000000000000000584;
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hurly-burly""",
-                      // alsoEnglishWord: "also: hurly-burly",
-                      britshText: """IpaUK: /ˈhɜːli bɜːli/""",
-                      americanText: """IpaUS: /ˈhɜːrli bɜːrli/""",
+                      word: """hutch""",
+                      // alsoEnglishWord: "also: hutch",
+                      britshText: """IpaUK: /hʌtʃ/""",
+                      americanText: """IpaUS: /hʌtʃ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,16 +993,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: شلوقی، هەراوهوریا، جەنجاڵی، دەنگەدەنگ، قاڵمەقاڵم
+کوردی: قەفەس، بێرکم، ڕکە، سیپ، سنووق
 """),
-// With short examples define "hurly-burly", please follow LX instructions
+// With short examples define "hutch", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ناو) دۆخ یان چالاکی ئاڵۆز و بە دەنگەدەنگ"""),
+                        text: """١. (ناو) قەفەزێک بۆ کەروێشک و ئاژەڵی بچووک"""),
                     SentencesRow(
                       englishText:
-                          """He enjoys the hurly-burly of political debate.""",
-                      kurdishText: """حەزی بە جەنجاڵی دیبەیتە سیاسییەکەیە.""",
+                          """I fed the rabbit a carrot through the wire netting of its hutch.""",
+                      kurdishText:
+                          """گێزەرێکم لە ڕێگەی تۆڕی تەلی قەفەسەکەیەوە دا بە کەروێشکەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

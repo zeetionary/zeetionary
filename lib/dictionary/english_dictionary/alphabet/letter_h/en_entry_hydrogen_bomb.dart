@@ -9,7 +9,8 @@ class EnglishEntryhydrogenbomb extends StatefulWidget {
   const EnglishEntryhydrogenbomb({super.key});
 
   @override
-  State<EnglishEntryhydrogenbomb> createState() => _EnglishEntryhydrogenbombState();
+  State<EnglishEntryhydrogenbomb> createState() =>
+      _EnglishEntryhydrogenbombState();
 }
 
 class _EnglishEntryhydrogenbombState extends State<EnglishEntryhydrogenbomb> {
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: hydrogen bomb (Derived forms: hydrogen bombs)
+1. A nuclear weapon that releases atomic energy by union of light (hydrogen) nuclei at high temperatures to form helium (- H-bomb, fusion bomb, thermonuclear bomb)
 
-EnglishEntryhydrogenbomb hydrogen bomb
-WORD_WEB hydrogen bomb hydrogen bomb hydrogen bomb
-haʊʊʊʊʊʊʊ4
+- Verb: hydrogen-bomb (Derived forms: hydrogen-bombed, hydrogen-bombs, hydrogen-bombing)
+1. Attack with a hydrogen bomb
 """,
   );
-// 188888880002200
 
   final String keyword = "hydrogen bomb";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Scientists tested the first hydrogen bomb in 1952.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Xzv84ZdtlE0?t=';
+    const double startSecondsend = 0000000000000000000000000001619;
+    const String videoIdone = 'https://youtu.be/3fILUAGw2mE?t=';
+    const double startSecondsone = 000000000000000000000000000734;
+    const String videoIdtwo = 'https://youtu.be/Xm6Y3Rl9u1Q?t=';
+    const double startSecondstwo = 000000000000000000000000000679;
+    const String videoIdthree = 'https://youtu.be/FU_YFpfDqqA?t=';
+    const double startSecondsthree = 000000000000000000000000000908;
+    const String videoIdfour = 'https://youtu.be/EexZjx3YOuQ?t=';
+    const double startSecondsfour = 000000000000000000000000000753;
+    const String videoIdfive = 'https://youtu.be/ILgSesWMUEI?t=';
+    const double startSecondsfive = 0000000000000000000000000008;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hydrogen bomb""",
                       // alsoEnglishWord: "also: hydrogen bomb",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhaɪdrədʒən bɒm/""",
+                      americanText: """IpaUS: /ˈhaɪdrədʒən bɑːm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,12 +995,13 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hydrogen bomb", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) چەکێکی زۆر بەهێزی ئەتۆمی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Scientists tested the first hydrogen bomb in 1952.""",
+                      kurdishText:
+                          """زاناکان یەکەم بۆمبی هایدرۆجینیان تاقیکردەوە لە ساڵی ١٩٥٢.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

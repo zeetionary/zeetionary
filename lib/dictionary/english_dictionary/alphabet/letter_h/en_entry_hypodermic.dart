@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: hypodermic
+1. Relating to or located below the epidermis (- subcutaneous)
+"hypodermic needle";
 
-EnglishEntryhypodermic hypodermic
-WORD_WEB hypodermic hypodermic hypodermic
-haʊʊʊʊʊʊʊ4
+- Noun: hypodermic (Derived forms: hypodermics)
+1. A piston syringe that is fitted with a hypodermic needle for giving injections (- hypodermic syringe, hypo)
 """,
   );
-// 188888880002200
 
   final String keyword = "hypodermic";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The doctor used a hypodermic needle to give the shot.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/IutULT1kVMA?t=';
+    const double startSecondsend = 000000000000000000000000000230;
+    const String videoIdone = 'https://youtu.be/F_l-pxawWOE?t=';
+    const double startSecondsone = 000000000000000000000000000259;
+    const String videoIdtwo = 'https://youtu.be/VKqC5w207O4?t=';
+    const double startSecondstwo = 0000000000000000000000000001554;
+    const String videoIdthree = 'https://youtu.be/LK5cPn6eGbc?t=';
+    const double startSecondsthree = 000000000000000000000000000267;
+    const String videoIdfour = 'https://youtu.be/VPSm9gJkPxU?t=';
+    const double startSecondsfour = 0000000000000000000000000001567;
+    const String videoIdfive = 'https://youtu.be/jYMjLgPFSso?t=';
+    const double startSecondsfive = 00000000000000000000000000090;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypodermic""",
                       // alsoEnglishWord: "also: hypodermic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌhaɪpəˈdɜːmɪk/""",
+                      americanText: """IpaUS: /ˌhaɪpəˈdɜːrmɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +993,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ژێرپێستی، بن‌پێستی، ژێرەوەی پێستی
 """),
-// With short examples define "hypodermic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) لە ژێر پێستدا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The doctor used a hypodermic needle to give the shot.""",
+                      kurdishText:
+                          """پزیشکەکە دەرزییەکی ژێرپێستی بەکارهێنا بۆ لێدانی دەرزییەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -1,19 +1,18 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
-import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryhypnotist extends StatefulWidget {
-  const EnglishEntryhypnotist({super.key});
+class EnglishEntryi extends StatefulWidget {
+  const EnglishEntryi({super.key});
 
   @override
-  State<EnglishEntryhypnotist> createState() => _EnglishEntryhypnotistState();
+  State<EnglishEntryi> createState() => _EnglishEntryiState();
 }
 
-class _EnglishEntryhypnotistState extends State<EnglishEntryhypnotist> {
+class _EnglishEntryiState extends State<EnglishEntryi> {
   @override
   void initState() {
     super.initState();
@@ -53,12 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: hypnotist (Derived forms: hypnotists)
-1. A person who induces hypnosis (- hypnotizer, hypnotiser [Brit], mesmerist, mesmerizer, mesmeriser [Brit])
+
+EnglishEntryi i
+WORD_WEB i i i
+haʊʊʊʊʊʊʊ4
 """,
   );
+// 188888880002200
 
-  final String keyword = "hypnotist";
+  final String keyword = "i";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,15 +80,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hypnotist""");
+    await flutterTts.speak("""i""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """She went to a hypnotist hoping he could help her to give up smoking.""");
+    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -924,19 +926,21 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
+
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/yFGBjXqwzbw?t=';
-    const double startSecondsend = 00000000000000000000000000082;
-    const String videoIdone = 'https://youtu.be/Bh9lIfocRMk?t=';
-    const double startSecondsone = 000000000000000000000000000913;
-    const String videoIdtwo = 'https://youtu.be/2MZZrDA-I4M?t=';
-    const double startSecondstwo = 0000000000000000000000000001369;
-    const String videoIdthree = 'https://youtu.be/FiqTmmWfVdg?t=';
-    const double startSecondsthree = 00000000000000000000000000017;
-    const String videoIdfour = 'https://youtu.be/Solb9uA-tgQ?t=';
-    const double startSecondsfour = 0000000000000000000000000002373;
-    const String videoIdfive = 'https://youtu.be/6jaks_F2UFU?t=';
-    const double startSecondsfive = 000000000000000000000000000482;
+    const String videoIdend = '';
+    const double startSecondsend = 000000000000000000000000000;
+    const String videoIdone = '';
+    const double startSecondsone = 000000000000000000000000000;
+    const String videoIdtwo = '';
+    const double startSecondstwo = 000000000000000000000000000;
+    const String videoIdthree = '';
+    const double startSecondsthree = 000000000000000000000000000;
+    const String videoIdfour = '';
+    const double startSecondsfour = 000000000000000000000000000;
+    const String videoIdfive = '';
+    const double startSecondsfive = 000000000000000000000000000;
+// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +953,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hypnotist""",
-                      // alsoEnglishWord: "also: hypnotist",
-                      britshText: """IpaUK: /ˈhɪpnətɪst/""",
-                      americanText: """IpaUS: /ˈhɪpnətɪst/""",
+                      word: """i""",
+                      // alsoEnglishWord: "also: i",
+                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
+                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,22 +996,12 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hypnotist", please follow LX instructions
-                    const DividerDefinition(),
-                    CustomRichText(
-                      textBeforeLink: "١. کەسێک کە کاری ",
-                      linkText: "هیپنۆتیزم دەکات",
-                      textAfterLink: "",
-                      onTap: () {
-                        Routemaster.of(context)
-                            .push("/english-hypnotist/hypnotism");
-                      },
-                    ),
+// With short examples define "i", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText:
-                          """She went to a hypnotist hoping he could help her to give up smoking.""",
-                      kurdishText:
-                          """چوو بۆ لای هیپنۆتیستێک بەهیوای ئەوەی یارمەتی بدات لە وازهێنان لە جگەرەکێشان.""",
+                      englishText: """// ssssssssssssssssssssssgggggggg55555
+""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

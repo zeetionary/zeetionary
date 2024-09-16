@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: hyperlink (Derived forms: hyperlinks)
+1. A link from a hypertext file to another location or file; typically activated by clicking on a highlighted word or icon at a particular location on the screen (- weblink, hotlink, link)
 
-EnglishEntryhyperlink hyperlink
-WORD_WEB hyperlink hyperlink hyperlink
-haʊʊʊʊʊʊʊ4
+- Verb: hyperlink (Derived forms: hyperlinks, hyperlinking, hyperlinked)
+1. Add a web link to piece of text or other item in an electronic document (- link, hotlink)
 """,
   );
-// 188888880002200
 
   final String keyword = "hyperlink";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Click on the hyperlink.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/xPG3_8m1NQA?t=';
+    const double startSecondsend = 000000000000000000000000000172;
+    const String videoIdone = 'https://youtu.be/BQOJ-aqclFs?t=';
+    const double startSecondsone = 000000000000000000000000000431;
+    const String videoIdtwo = 'https://youtu.be/3xpZzOIDd9I?t=';
+    const double startSecondstwo = 000000000000000000000000000713;
+    const String videoIdthree = 'https://youtu.be/YJp3e3pRvYI?t=';
+    const double startSecondsthree = 000000000000000000000000000214;
+    const String videoIdfour = 'https://youtu.be/2hrtI_msLZY?t=';
+    const double startSecondsfour = 000000000000000000000000000267;
+    const String videoIdfive = 'https://youtu.be/lvGUKfqGXdQ?t=';
+    const double startSecondsfive = 000000000000000000000000000160;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hyperlink""",
                       // alsoEnglishWord: "also: hyperlink",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhaɪpəlɪŋk/""",
+                      americanText: """IpaUS: /ˈhaɪpərlɪŋk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +994,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hyperlink", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شوێنێکی بەڵگەنامەیەکی ئەلیکترۆنی کە بەستراوە بە بەڵگەنامەیەکی دیکەوە یان بە شوێنێکی دیکەی هەمان بەڵگەنامە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Click on the hyperlink.""",
+                      kurdishText: """گرتە لەسەر هایپەرلینکەکە بکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhypothesis hypothesis
-WORD_WEB hypothesis hypothesis hypothesis
-haʊʊʊʊʊʊʊ4
+- Noun: hypothesis (Derived forms: hypotheses)
+1. A proposal intended to explain certain facts or observations
+ 
+2. A tentative insight into the natural world; a concept that is not yet verified but that if true would explain certain facts or phenomena (- possibility, theory)
+"a scientific hypothesis that survives experimental testing becomes a scientific theory";
+ 
+3. A message expressing an opinion based on incomplete evidence (- guess, conjecture, supposition, surmise, surmisal, speculation)
 """,
   );
-// 188888880002200
 
   final String keyword = "hypothesis";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +89,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""There is little evidence to support these hypotheses.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Further experimentation is needed to verify this hypothesis.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Several hypotheses for global warming have been suggested.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/e09xig209cQ?t=';
+    const double startSecondsend = 000000000000000000000000000194;
+    const String videoIdone = 'https://youtu.be/MzSktgpfD84?t=';
+    const double startSecondsone = 0000000000000000000000000001350;
+    const String videoIdtwo = 'https://youtu.be/J-K5OjAkiEA?t=';
+    const double startSecondstwo = 000000000000000000000000000560;
+    const String videoIdthree = 'https://youtu.be/-7bIDbaU_zQ?t=';
+    const double startSecondsthree = 000000000000000000000000000936;
+    const String videoIdfour = 'https://youtu.be/DxL2HoqLbyA?t=';
+    const double startSecondsfour = 0000000000000000000000000001175;
+    const String videoIdfive = 'https://youtu.be/MqyJZsGFZ3M?t=';
+    const double startSecondsfive = 000000000000000000000000000925;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypothesis""",
                       // alsoEnglishWord: "also: hypothesis",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /haɪˈpɒθəsɪs/""",
+                      americanText: """IpaUS: /haɪˈpɑːθəsɪs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +996,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: وادانان، گریمانە
 """),
 // With short examples define "hypothesis", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بیرۆکەیەک یان ڕوونکردنەوەیەک لەسەر شتێک کە پشت بە ڕاستی کەم دەبەستێت و هێشتا نەسەلمێنراوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: theory"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There is little evidence to support these hypotheses.""",
+                      kurdishText:
+                          """بەڵگەی کەم هەیە بۆ پشتگیری ئەم گریمانەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1015,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Further experimentation is needed to verify this hypothesis.""",
+                      kurdishText:
+                          """کاری تاقیکردنەوەی زیاتر پێویستە بۆ پشتڕاستکردنەوەی ئەم گریمانەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1018,8 +1026,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Several hypotheses for global warming have been suggested.""",
+                      kurdishText:
+                          """ژمارەیەک گریمانە بۆ گەرمبوونی جیھانی باسکراوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

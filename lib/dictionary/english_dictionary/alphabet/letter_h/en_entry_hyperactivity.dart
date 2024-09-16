@@ -9,7 +9,8 @@ class EnglishEntryhyperactivity extends StatefulWidget {
   const EnglishEntryhyperactivity({super.key});
 
   @override
-  State<EnglishEntryhyperactivity> createState() => _EnglishEntryhyperactivityState();
+  State<EnglishEntryhyperactivity> createState() =>
+      _EnglishEntryhyperactivityState();
 }
 
 class _EnglishEntryhyperactivityState extends State<EnglishEntryhyperactivity> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhyperactivity hyperactivity
-WORD_WEB hyperactivity hyperactivity hyperactivity
-haʊʊʊʊʊʊʊ4
+- Noun: hyperactivity (Derived forms: hyperactivities)
+1. A condition characterized by excessive restlessness and movement
 """,
   );
-// 188888880002200
 
   final String keyword = "hyperactivity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The child's hyperactivity made it hard for him to sit still.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hFL6qRIJZ_Y?t=';
+    const double startSecondsend = 00000000000000000000000000012;
+    const String videoIdone = 'https://youtu.be/Q3lBzoeDuUQ?t=';
+    const double startSecondsone = 000000000000000000000000000790;
+    const String videoIdtwo = 'https://youtu.be/jijuG9tyoR0?t=';
+    const double startSecondstwo = 000000000000000000000000000302;
+    const String videoIdthree = 'https://youtu.be/1dBtR1TqYc8?t=';
+    const double startSecondsthree = 000000000000000000000000000684;
+    const String videoIdfour = 'https://youtu.be/7Eb-0VYN0k8';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/baqXeUOcyJw?t=';
+    const double startSecondsfive = 00000000000000000000000000084;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hyperactivity""",
                       // alsoEnglishWord: "also: hyperactivity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌhaɪpərækˈtɪvəti/""",
+                      americanText: """IpaUS: /ˌhaɪpərækˈtɪvəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +990,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئارام لێ‌هەڵگیراوی، هەدانەدان، زۆرکاری، یەکجارچالاکی، دانەکەوتوویی، زۆربزۆزی، بزووسکی
 """),
-// With short examples define "hyperactivity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە کەسێک، بە تایبەتی منداڵ، زۆر چالاک بێت و تەنها بۆ ماوەیەکی کەم بە دانیشتووی بمێنێتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The child's hyperactivity made it hard for him to sit still.""",
+                      kurdishText:
+                          """بزووسکی منداڵەکە وایکرد کە سەخت بێت بۆی بێ‌دەنگ دابنیشێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

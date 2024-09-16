@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: hymn (Derived forms: hymns)
+1. A song of praise (to God or to a saint or to a nation) (- anthem)
 
-EnglishEntryhymn hymn
-WORD_WEB hymn hymn hymn
-haʊʊʊʊʊʊʊ4
+- Verb: hymn (Derived forms: hymned, hymning, hymns)
+1. (music) sing a hymn
+ 
+2. Praise by singing a hymn
+"They hymned their love of God"
 """,
   );
-// 188888880002200
 
   final String keyword = "hymn";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The service began with a rousing hymn.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/_P1zYEq4PHg?t=';
+    const double startSecondsend = 000000000000000000000000000466;
+    const String videoIdone = 'https://youtu.be/76Fwo2OjWYk?t=';
+    const double startSecondsone = 00000000000000000000000000095;
+    const String videoIdtwo = 'https://youtu.be/j4kI2h3iotA?t=';
+    const double startSecondstwo = 0000000000000000000000000001183;
+    const String videoIdthree = 'https://youtu.be/9zNTpey21Y0?t=';
+    const double startSecondsthree = 000000000000000000000000000952;
+    const String videoIdfour = 'https://youtu.be/yOgWRpTiKzE?t=';
+    const double startSecondsfour = 00000000000000000000000000093;
+    const String videoIdfive = 'https://youtu.be/CzP23Zti-YI?t=';
+    const double startSecondsfive = 0000000000000000000000000004698;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hymn""",
                       // alsoEnglishWord: "also: hymn",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hɪm/""",
+                      americanText: """IpaUS: /hɪm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +997,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hymn", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) گۆرانییەکی ئایینی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The service began with a rousing hymn.""",
+                      kurdishText:
+                          """بۆنەکە بە سروودێکی کاریگەر دەستی پێکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

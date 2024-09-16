@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhyphenate hyphenate
-WORD_WEB hyphenate hyphenate hyphenate
-haʊʊʊʊʊʊʊ4
+- Verb: hyphenate (Derived forms: hyphenating, hyphenated, hyphenates)
+1. Divide or connect with a hyphen (- hyphen)
+"hyphenate these words and names";
 """,
   );
-// 188888880002200
 
   final String keyword = "hyphenate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Is your name hyphenated?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/YE0U018Copw?t=';
+    const double startSecondsend = 000000000000000000000000000549;
+    const String videoIdone = 'https://youtu.be/gGUvJ9m6DIU?t=';
+    const double startSecondsone = 00000000000000000000000000073;
+    const String videoIdtwo = 'https://youtu.be/SEOBAIAWZNU?t=';
+    const double startSecondstwo = 000000000000000000000000000122;
+    const String videoIdthree = 'https://youtu.be/8sAfl_sRUa8?t=';
+    const double startSecondsthree = 000000000000000000000000000905;
+    const String videoIdfour = 'https://youtu.be/IealOXO58l8?t=';
+    const double startSecondsfour = 00000000000000000000000000064;
+    const String videoIdfive = 'https://youtu.be/Eqiw_ZEIhIg?t=';
+    const double startSecondsfive = 000000000000000000000000000493;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hyphenate""",
                       // alsoEnglishWord: "also: hyphenate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhaɪfəneɪt/""",
+                      americanText: """IpaUS: /ˈhaɪfəneɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +992,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hyphenate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) پێکەوە لکاندنی دوو وشە بە یەکدییەوە بە نیشانەی (-)"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Is your name hyphenated?""",
+                      kurdishText: """ناوەکەت هایفنی تێدایە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

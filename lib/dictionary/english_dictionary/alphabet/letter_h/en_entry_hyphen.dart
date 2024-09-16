@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: hyphen (Derived forms: hyphens)
+1. A punctuation mark (-) used between parts of a compound word or between the syllables of a word when the word is divided at the end of a line of text (- dash)
 
-EnglishEntryhyphen hyphen
-WORD_WEB hyphen hyphen hyphen
-haʊʊʊʊʊʊʊ4
+- Verb: hyphen (Derived forms: hyphens, hyphening, hyphened)
+1. Divide or connect with a hyphen (- hyphenate)
+"hyphen these words and names";
 """,
   );
-// 188888880002200
 
   final String keyword = "hyphen";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""There is a hyphen between the two names.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/B1r4Z3nXPVA?t=';
+    const double startSecondsend = 000000000000000000000000000127;
+    const String videoIdone = 'https://youtu.be/fOzFG5m3Y5E?t=';
+    const double startSecondsone = 000000000000000000000000000758;
+    const String videoIdtwo = 'https://youtu.be/HXV3zeQKqGY?t=';
+    const double startSecondstwo = 0000000000000000000000000004174;
+    const String videoIdthree = 'https://youtu.be/oc4PN9pFsmc?t=';
+    const double startSecondsthree = 0000000000000000000000000002182;
+    const String videoIdfour = 'https://youtu.be/lZAoFs75_cs?t=';
+    const double startSecondsfour = 0000000000000000000000000005638;
+    const String videoIdfive = 'https://youtu.be/k1l_zQ0PQx0?t=';
+    const double startSecondsfive = 000000000000000000000000000626;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hyphen""",
                       // alsoEnglishWord: "also: hyphen",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhaɪfn/""",
+                      americanText: """IpaUS: /ˈhaɪfn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +992,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تەقەڵ، کورتەهێڵ، هێڵۆچکە، نیشانەی پێکەوەبەستن، هایفن
 """),
 // With short examples define "hyphen", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) نیشانە (-) کە بەکاردێت بۆ پێکەوەلکاندنی دوو وشە بە یەکدییەوە، بۆ نموونە back-up، بۆ پیشاندانی ئەوەی وشەیەک دابەشکراوە بەسەر کۆتایی دێڕێک و سەرەتای دێڕی دواتر، یان گوتنی ئەوەی شتێک نەنووسراوە، بۆ نموونە لە short- و long-term"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There is a hyphen between the two names.""",
+                      kurdishText: """هایفنێک هەیە لە نێوان دوو ناوەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

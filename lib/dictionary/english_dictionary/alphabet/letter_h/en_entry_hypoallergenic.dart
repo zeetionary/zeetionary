@@ -9,10 +9,12 @@ class EnglishEntryhypoallergenic extends StatefulWidget {
   const EnglishEntryhypoallergenic({super.key});
 
   @override
-  State<EnglishEntryhypoallergenic> createState() => _EnglishEntryhypoallergenicState();
+  State<EnglishEntryhypoallergenic> createState() =>
+      _EnglishEntryhypoallergenicState();
 }
 
-class _EnglishEntryhypoallergenicState extends State<EnglishEntryhypoallergenic> {
+class _EnglishEntryhypoallergenicState
+    extends State<EnglishEntryhypoallergenic> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +54,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhypoallergenic hypo-allergenic
-WORD_WEB hypo-allergenic hypo-allergenic hypo-allergenic
-haʊʊʊʊʊʊʊ4
+- Adjective: hypoallergenic
+1. Designed to minimize the risk of allergic reaction
 """,
   );
-// 188888880002200
 
-  final String keyword = "hypo-allergenic";
+  final String keyword = "hypoallergenic";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +79,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""hypo-allergenic""");
+    await flutterTts.speak("""hypoallergenic""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The hypoallergenic cream was safe for sensitive skin.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/JfUjz00snVE?t=';
+    const double startSecondsend = 000000000000000000000000000233;
+    const String videoIdone = 'https://youtu.be/kUOnXLsGrjA?t=';
+    const double startSecondsone = 000000000000000000000000000115;
+    const String videoIdtwo = 'https://youtu.be/jR1GlpPVewg?t=';
+    const double startSecondstwo = 000000000000000000000000000336;
+    const String videoIdthree = 'https://youtu.be/T8IIeuy30cc?t=';
+    const double startSecondsthree = 000000000000000000000000000720;
+    const String videoIdfour = 'https://youtu.be/f7rlG7MOlsY?t=';
+    const double startSecondsfour = 0000000000000000000000000001033;
+    const String videoIdfive = 'https://youtu.be/gLoLCUhuAP4?t=';
+    const double startSecondsfive = 000000000000000000000000000296;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +950,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """hypo-allergenic""",
-                      // alsoEnglishWord: "also: hypo-allergenic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """hypoallergenic""",
+                      // alsoEnglishWord: "also: hypoallergenic",
+                      britshText: """IpaUK: /ˌhaɪpəʊˌæləˈdʒenɪk/""",
+                      americanText: """IpaUS: /ˌhaɪpəʊˌælərˈdʒenɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,12 +993,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hypo-allergenic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ئەگەر بەکاری بهێنیت تووشی هەستیاریت ناکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The hypoallergenic cream was safe for sensitive skin.""",
+                      kurdishText:
+                          """کرێمە دژە-هەستیارییەکە سەلامەت بوو بۆ پێستی هەستیار.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

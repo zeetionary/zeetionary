@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhysteria hysteria
-WORD_WEB hysteria hysteria hysteria
-haʊʊʊʊʊʊʊ4
+- Noun: hysteria (Derived forms: hysterias)
+1. State of violent mental agitation (- craze, delirium, frenzy, fury)
+"The rock musician worked the crowd of young girls into a hysteria";
+ 
+2. Excessive or uncontrollable fear
+ 
+3. Neurotic disorder characterized by violent emotional outbreaks and disturbances of sensory and motor functions (- hysterical neurosis)
 """,
   );
-// 188888880002200
 
   final String keyword = "hysteria";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""There was mass hysteria when the band came on stage.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""There is still so much hysteria surrounding the issue.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/j2KKUcxAdjc?t=';
+    const double startSecondsend = 000000000000000000000000000474;
+    const String videoIdone = 'https://youtu.be/_2LApgOJe5k?t=';
+    const double startSecondsone = 000000000000000000000000000688;
+    const String videoIdtwo = 'https://youtu.be/DEDAjw9Ljrw?t=';
+    const double startSecondstwo = 0000000000000000000000000001226;
+    const String videoIdthree = 'https://youtu.be/EmT0i0xG6zg?t=';
+    const double startSecondsthree = 0000000000000000000000000003502;
+    const String videoIdfour = 'https://youtu.be/vchJnrZgz-4?t=';
+    const double startSecondsfour = 000000000000000000000000000493;
+    const String videoIdfive = 'https://youtu.be/xi4wZJ-7ZCg?t=';
+    const double startSecondsfive = 0000000000000000000000000001313;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hysteria""",
                       // alsoEnglishWord: "also: hysteria",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hɪˈstɪəriə/""",
+                      americanText: """IpaUS: /hɪˈsteriə/, /hɪˈstɪriə/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +995,32 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پرکام، شاگەشکە، شێت‌گیری،	هەڵس‌وکەوت، ڕەفتار،	ورووژان،	پێکەنین، سۆز و قیژەی کۆنتڕۆڵ‌نەکراو و شێتانە، فێ، گەشکە
 """),
 // With short examples define "hysteria", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دۆخێک کە تێیدا کەسێک جۆش‌وخرۆشی، ترس، یان تووڕەیی هەیە، یان کە گرووپێک خەڵک کۆنترۆڵی هەستەکانیان لەدەست دەدەن و هاوار دەکەن، پێدەکەنن، هتد"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There was mass hysteria when the band came on stage.""",
+                      kurdishText:
+                          """هەندێک شاگەشکەیی هەبوو کە باندەکە هاتنە سەر ستەیج.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شێوازی تەواو بەجۆش و زیادەڕۆیی لە کاردانەوە بۆ شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There is still so much hysteria surrounding the issue.""",
+                      kurdishText:
+                          """هێشتا هیستریایەکی زۆر هەبوو لەسەر بابەتەکە.""",
+                      englishNote:
+                          """This means there is excessive and widespread emotional excitement or panic about the issue, causing exaggerated reactions and behavior.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -298,7 +298,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 // en_entry_hypnotist.dart' show EnglishEntryhypnotist
 // en_entry_hypnotize.dart' show EnglishEntryhypnotize
 // en_entry_hypo_two.dart' show EnglishEntryhypotwo //////// hypo-
-// en_entry_hypo_allergenic.dart' show EnglishEntryhypoallergenic //////// hypo-allergenic
+// en_entry_hypoallergenic.dart' show EnglishEntryhypoallergenic
 // en_entry_hypochondriac.dart' show EnglishEntryhypochondriac
 // en_entry_hypocrisy.dart' show EnglishEntryhypocrisy
 // en_entry_hypocrite.dart' show EnglishEntryhypocrite
@@ -310,7 +310,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 // en_entry_hysteria.dart' show EnglishEntryhysteria
 // en_entry_hysterical.dart' show EnglishEntryhysterical
 // en_entry_hysterics.dart' show EnglishEntryhysterics
-// en_entry_.dart' show EnglishEntry
+// en_entry_i.dart' show EnglishEntryi
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

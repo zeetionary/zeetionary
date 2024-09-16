@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhysterical hysterical
-WORD_WEB hysterical hysterical hysterical
-haʊʊʊʊʊʊʊ4
+- Adjective: hysterical
+1. Characterized by or arising from psychoneurotic hysteria (- hysteric)
+"hysterical amnesia"; "during hysterical conditions various functions of the human body are disordered";
+ 
+2. Marked by excessive or uncontrollable emotion
+"hysterical laughter"; "a mob of hysterical vigilantes"
 """,
   );
-// 188888880002200
 
   final String keyword = "hysterical";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He became almost hysterical when I told him.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""This book is hysterical.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/cAfYtXB-qN4?t=';
+    const double startSecondsend = 000000000000000000000000000427;
+    const String videoIdone = 'https://youtu.be/OIo2Ie1HwHY?t=';
+    const double startSecondsone = 000000000000000000000000000748;
+    const String videoIdtwo = 'https://youtu.be/XvVASCnsal8?t=';
+    const double startSecondstwo = 00000000000000000000000000035;
+    const String videoIdthree = 'https://youtu.be/jTRC_FMzLoo?t=';
+    const double startSecondsthree = 000000000000000000000000000465;
+    const String videoIdfour = 'https://youtu.be/oHLMla-75QA?t=';
+    const double startSecondsfour = 000000000000000000000000000175;
+    const String videoIdfive = 'https://youtu.be/1h12uwyMZY0?t=';
+    const double startSecondsfive = 000000000000000000000000000813;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hysterical""",
                       // alsoEnglishWord: "also: hysterical",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hɪˈsterɪkl/""",
+                      americanText: """IpaUS: /hɪˈsterɪkl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +992,26 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پرکامی، لە ئەنجامی پرکام،	شێتانە، ورووژاو، (نافەرمی، زۆر) پێکەنینی، شاگەشکە، گاڵتەجاڕ، ژان‌پێکەر
 """),
 // With short examples define "hysterical", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) لە دۆخی تەواو بەجۆشی، گریان، پێکەنین، هتد بەبێ کۆنترۆڵ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He became almost hysterical when I told him.""",
+                      kurdishText: """کە پێمگوت تاڕادەیەکی زۆر شاگەشکە بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) تەواو پێکەنیناوی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: hilarious"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """This book is hysterical.""",
+                      kurdishText: """ئەم کتێبە پێکەنیناوییە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

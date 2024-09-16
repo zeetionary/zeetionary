@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: hysterics
+1. An attack of hysteria
 
-EnglishEntryhysterics hysterics
-WORD_WEB hysterics hysterics hysterics
-haʊʊʊʊʊʊʊ4
+- Noun: hysteric (Derived forms: hystericses)
+1. A person suffering from hysteria
 """,
   );
-// 188888880002200
 
   final String keyword = "hysterics";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He went into hysterics when he heard the news.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She had the audience in hysterics.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/xzZH151_wXo?t=';
+    const double startSecondsend = 000000000000000000000000000506;
+    const String videoIdone = 'https://youtu.be/xgs5gOCpsAE?t=';
+    const double startSecondsone = 00000000000000000000000000081;
+    const String videoIdtwo = 'https://youtu.be/0num7Zb4iu4?t=';
+    const double startSecondstwo = 000000000000000000000000000653;
+    const String videoIdthree = 'https://youtu.be/8y58X14nYcM?t=';
+    const double startSecondsthree = 000000000000000000000000000565;
+    const String videoIdfour = 'https://youtu.be/ODf7VDAL1QU?t=';
+    const double startSecondsfour = 000000000000000000000000000239;
+    const String videoIdfive = 'https://youtu.be/On-bOrfQEgk?t=';
+    const double startSecondsfive = 000000000000000000000000000932;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hysterics""",
                       // alsoEnglishWord: "also: hysterics",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hɪˈsterɪks/""",
+                      americanText: """IpaUS: /hɪˈsterɪks/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +992,26 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێهاتنی پرکام، لێهاتن یان هێرشی هیستریا،	پێکەنینی شێتانە و کۆنتڕۆڵ‌نەکراو، پیران، گەشکە(لێهاتن)، پێکەنینی خۆپێ‌ڕانەگیراو، خش
 """),
 // With short examples define "hysterics", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دەربڕینی ترس، جۆش‌وخرۆشی، یان تووڕەیی زۆر کە وادەکات کەسێک کۆنترۆڵی هەستەکانی لەدەست بدات و بگری، پێبکەنێت، هتد"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He went into hysterics when he heard the news.""",
+                      kurdishText: """تووشی فێ بوو کە هەواڵەکەی بیست.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) پێکەنینی کۆنترۆڵ‌نەکراو"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She had the audience in hysterics.""",
+                      kurdishText: """خەڵکەکەی خستە خشەی پێکەنین.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

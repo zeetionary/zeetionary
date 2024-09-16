@@ -9,7 +9,8 @@ class EnglishEntryhypermarket extends StatefulWidget {
   const EnglishEntryhypermarket({super.key});
 
   @override
-  State<EnglishEntryhypermarket> createState() => _EnglishEntryhypermarketState();
+  State<EnglishEntryhypermarket> createState() =>
+      _EnglishEntryhypermarketState();
 }
 
 class _EnglishEntryhypermarketState extends State<EnglishEntryhypermarket> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhypermarket hypermarket
-WORD_WEB hypermarket hypermarket hypermarket
-haʊʊʊʊʊʊʊ4
+- Noun: hypermarket (Derived forms: hypermarkets)
+Usage: Brit
+1. A huge supermarket (usually built on the outskirts of a town)
 """,
   );
-// 188888880002200
 
   final String keyword = "hypermarket";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The company opened a £15 million hypermarket at Stockton.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/kg38QEJWgYQ?t=';
+    const double startSecondsend = 000000000000000000000000000428;
+    const String videoIdone = 'https://youtu.be/Ji5SMsS1tZI?t=';
+    const double startSecondsone = 000000000000000000000000000516;
+    const String videoIdtwo = 'https://youtu.be/C1EvIQi873g?t=';
+    const double startSecondstwo = 000000000000000000000000000378;
+    const String videoIdthree = 'https://youtu.be/y07ySAIYDSQ?t=';
+    const double startSecondsthree = 00000000000000000000000000054;
+    const String videoIdfour = 'https://youtu.be/q0HKHUd7SKo?t=';
+    const double startSecondsfour = 00000000000000000000000000039;
+    const String videoIdfive = 'https://youtu.be/o3b1cA_uEoE?t=';
+    const double startSecondsfive = 000000000000000000000000000667;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypermarket""",
                       // alsoEnglishWord: "also: hypermarket",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhaɪpəmɑːkɪt/""",
+                      americanText: """IpaUS: /ˈhaɪpərmɑːrkɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +994,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hypermarket", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) فرۆشگایەکی گەورە کە لە دەرەوەی سەنتەری شارۆچکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The company opened a £15 million hypermarket at Stockton.""",
+                      kurdishText:
+                          """کۆمپانیاکە هایپەرمارکێتێکی ١٥ ملیۆن پاوەندی لە ستۆکهۆڵم کردەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

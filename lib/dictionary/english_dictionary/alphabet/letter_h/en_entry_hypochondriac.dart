@@ -9,7 +9,8 @@ class EnglishEntryhypochondriac extends StatefulWidget {
   const EnglishEntryhypochondriac({super.key});
 
   @override
-  State<EnglishEntryhypochondriac> createState() => _EnglishEntryhypochondriacState();
+  State<EnglishEntryhypochondriac> createState() =>
+      _EnglishEntryhypochondriacState();
 }
 
 class _EnglishEntryhypochondriacState extends State<EnglishEntryhypochondriac> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: hypochondriac
+1. Suffering from hypochondria (- hypochondriacal)
+"Feelings of guilt and hypochondriac ideas are developed to their most extreme state in delusions";
 
-EnglishEntryhypochondriac hypochondriac
-WORD_WEB hypochondriac hypochondriac hypochondriac
-haʊʊʊʊʊʊʊ4
+- Noun: hypochondriac (Derived forms: hypochondriacs)
+1. A patient with imaginary symptoms and ailments
 """,
   );
-// 188888880002200
 
   final String keyword = "hypochondriac";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Many hypochondriacs resist treatment.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/5lEp4djm4s0?t=';
+    const double startSecondsend = 00000000000000000000000000067;
+    const String videoIdone = 'https://youtu.be/iZbala54uzk?t=';
+    const double startSecondsone = 000000000000000000000000000370;
+    const String videoIdtwo = 'https://youtu.be/NOXSz3nJgTs?t=';
+    const double startSecondstwo = 000000000000000000000000000196;
+    const String videoIdthree = 'https://youtu.be/Rd_AzqOqgrk?t=';
+    const double startSecondsthree = 00000000000000000000000000061;
+    const String videoIdfour = 'https://youtu.be/rhzgUq-lDVU?t=';
+    const double startSecondsfour = 000000000000000000000000000828;
+    const String videoIdfive = 'https://youtu.be/Eupw-yTBkQI?t=';
+    const double startSecondsfive = 000000000000000000000000000341;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypochondriac""",
                       // alsoEnglishWord: "also: hypochondriac",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌhaɪpəˈkɒndriæk/""",
+                      americanText: """IpaUS: /ˌhaɪpəˈkɑːndriæk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +996,11 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hypochondriac", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) ئەوەی کە لە نەخۆشی بترسیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Many hypochondriacs resist treatment.""",
+                      kurdishText: """زۆر لەنەخۆشی‌ترس دژی چارەسەر دەوەستن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

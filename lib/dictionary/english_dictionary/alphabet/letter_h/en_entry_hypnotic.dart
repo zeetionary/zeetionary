@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
@@ -52,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: hypnotic
+1. Attracting and holding interest as if by a spell (- mesmeric, mesmerizing, spellbinding, mesmerising [Brit])
+"read the bedtime story in a hypnotic voice";
+ 
+2. Of or relating to hypnosis
 
-EnglishEntryhypnotic hypnotic
-WORD_WEB hypnotic hypnotic hypnotic
-haʊʊʊʊʊʊʊ4
+- Noun: hypnotic (Derived forms: hypnotics)
+1. A drug that induces sleep (- soporific)
 """,
   );
-// 188888880002200
 
   final String keyword = "hypnotic";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His voice had an almost hypnotic effect.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She went into a hypnotic trance.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/vchJnrZgz-4?t=';
+    const double startSecondsend = 000000000000000000000000000849;
+    const String videoIdone = 'https://youtu.be/EkPZx6hjG7E?t=';
+    const double startSecondsone = 00000000000000000000000000031;
+    const String videoIdtwo = 'https://youtu.be/fOGdb1CTu5c?t=';
+    const double startSecondstwo = 0000000000000000000000000001059;
+    const String videoIdthree = 'https://youtu.be/Wt4LSaUcid4?t=';
+    const double startSecondsthree = 00000000000000000000000000043;
+    const String videoIdfour = 'https://youtu.be/ivfspJOAtBI?t=';
+    const double startSecondsfour = 000000000000000000000000000922;
+    const String videoIdfive = 'https://youtu.be/E2rtQFAibEA?t=';
+    const double startSecondsfive = 00000000000000000000000000010962;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypnotic""",
                       // alsoEnglishWord: "also: hypnotic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hɪpˈnɒtɪk/""",
+                      americanText: """IpaUS: /hɪpˈnɑːtɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,20 +998,33 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hypnotic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە وات لێدەکات وا هەست بکەیت خەریکە دەخەویت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His voice had an almost hypnotic effect.""",
+                      kurdishText:
+                          """دەنگی تا ڕادەیەک کاریگەرییەکی خەوێنەری هەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    CustomRichText(
+                      textBeforeLink: "١. کە بە هۆی ",
+                      linkText: "هیپنۆسیسەوە",
+                      textAfterLink: " درووست دەبێت",
+                      onTap: () {
+                        Routemaster.of(context)
+                            .push("/english-hypnotic/hypnosis");
+                      },
+                    ),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She went into a hypnotic trance.""",
+                      kurdishText: """کەوتە دۆخی نیوەهۆشداری هیپنۆسیسەوە.""",
+                      englishNote:
+                          """This means she entered a deeply relaxed state, where her awareness and focus became narrow or altered, often associated with hypnosis.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhypocrisy hypocrisy
-WORD_WEB hypocrisy hypocrisy hypocrisy
-haʊʊʊʊʊʊʊ4
+- Noun: hypocrisy (Derived forms: hypocrisies)
+1. An expression of agreement that is not supported by real conviction (- lip service)
+ 
+2. Insincerity by virtue of pretending to have qualities or beliefs that you do not really have
 """,
   );
-// 188888880002200
 
   final String keyword = "hypocrisy";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +86,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """It’s hypocrisy for them to pretend that they were shocked at the news.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """They rejected what they saw as the hypocrisy of conventional society.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The article seeks to defend him against charges of hypocrisy.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsend = 000000000000000000000000000561;
+    const String videoIdone = 'https://youtu.be/G_FUmf0T8YI?t=';
+    const double startSecondsone = 000000000000000000000000000275;
+    const String videoIdtwo = 'https://youtu.be/kzgFwZEAHZQ?t=';
+    const double startSecondstwo = 0000000000000000000000000002563;
+    const String videoIdthree = 'https://youtu.be/JN3KPFbWCy8?t=';
+    const double startSecondsthree = 0000000000000000000000000007248;
+    const String videoIdfour = 'https://youtu.be/Gfj5f0GVLZ0?t=';
+    const double startSecondsfour = 00000000000000000000000000055;
+    const String videoIdfive = 'https://youtu.be/j4kI2h3iotA?t=';
+    const double startSecondsfive = 000000000000000000000000000205;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypocrisy""",
                       // alsoEnglishWord: "also: hypocrisy",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hɪˈpɒkrəsi/""",
+                      americanText: """IpaUS: /hɪˈpɑːkrəsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕیایی، ڕیایی‌بازی، ڕواڵەت، دووڕووویی، ڕووبینی
 """),
 // With short examples define "hypocrisy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کە کەسێک ڕەفتاری پێچەوانەی ئەو باوەڕ و ستانداردانە بێت کە بانگەشەی بۆ دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It’s hypocrisy for them to pretend that they were shocked at the news.""",
+                      kurdishText:
+                          """ئەوە دووڕووییە بۆیان کە وای پیشان بدەن کە شۆک بوون ەبهەواڵەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They rejected what they saw as the hypocrisy of conventional society.""",
+                      kurdishText:
+                          "ئەوەی ڕەتکردەوە کە بە دووڕووی کۆمەڵگای خاوەن عورف ناوزەدی کرد.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1018,8 +1022,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The article seeks to defend him against charges of hypocrisy.""",
+                      kurdishText:
+                          "وتارەکە ھەوڵ دەدات بەرگری لێ بکات لە تۆمەتەکانی دووڕووی.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

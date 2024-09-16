@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhypnotism hypnotism
-WORD_WEB hypnotism hypnotism hypnotism
-haʊʊʊʊʊʊʊ4
+- Noun: hypnotism (Derived forms: hypnotisms)
+1. The act of inducing hypnosis (- mesmerism, suggestion)
 """,
   );
-// 188888880002200
 
   final String keyword = "hypnotism";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Some people try hypnotism to cure themselves of addictions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/2MZZrDA-I4M?t=';
+    const double startSecondsend = 0000000000000000000000000001391;
+    const String videoIdone = 'https://youtu.be/GoAA0sYkLI0?t=';
+    const double startSecondsone = 000000000000000000000000000393;
+    const String videoIdtwo = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondstwo = 0000000000000000000000000006196;
+    const String videoIdthree = 'https://youtu.be/eQhl_eYwDtw?t=';
+    const double startSecondsthree = 00000000000000000000000000041;
+    const String videoIdfour = 'https://youtu.be/ICTNf6T8knI?t=';
+    const double startSecondsfour = 000000000000000000000000000354;
+    const String videoIdfive = 'https://youtu.be/60fWsMyZfX0?t=';
+    const double startSecondsfive = 0000000000000000000000000004581;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypnotism""",
                       // alsoEnglishWord: "also: hypnotism",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhɪpnətɪzəm/""",
+                      americanText: """IpaUS: /ˈhɪpnətɪzəm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hypnotism", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کەسێک بخەیتە دۆخێکی بێ‌ئاگایی کە تێیدا هێشتا دەتوانێت ببینێت و ببیستێت و هێشتا شوێن فەرمان بکەوێت و وەڵامی پرسیار بداتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some people try hypnotism to cure themselves of addictions.""",
+                      kurdishText:
+                          """هەندێک کەس هیپنۆتیزم بەکاردێنن بۆ چارەسەری خۆیان لە ئاڵوودەیی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhypotenuse hypotenuse
-WORD_WEB hypotenuse hypotenuse hypotenuse
-haʊʊʊʊʊʊʊ4
+- Noun: hypotenuse (Derived forms: hypotenuses)
+1. The side of a right triangle opposite the right angle
+"the hypotenuse of a right triangle is always the longest side"
 """,
   );
-// 188888880002200
 
   final String keyword = "hypotenuse";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The hypotenuse can be calculated using the Pythagorean theorem.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/0jltioeaEyY?t=';
+    const double startSecondsend = 000000000000000000000000000771;
+    const String videoIdone = 'https://youtu.be/BuYLZigga7U?t=';
+    const double startSecondsone = 000000000000000000000000000260;
+    const String videoIdtwo = 'https://youtu.be/mbJVYN0w6rg?t=';
+    const double startSecondstwo = 000000000000000000000000000785;
+    const String videoIdthree = 'https://youtu.be/Ni8BsXyln_Q?t=';
+    const double startSecondsthree = 000000000000000000000000000403;
+    const String videoIdfour = 'https://youtu.be/tRo6bPGhi10?t=';
+    const double startSecondsfour = 000000000000000000000000000386;
+    const String videoIdfive = 'https://youtu.be/_bJeKUosqoY?t=';
+    const double startSecondsfive = 000000000000000000000000000331;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypotenuse""",
                       // alsoEnglishWord: "also: hypotenuse",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /haɪˈpɒtənjuːz/""",
+                      americanText: """IpaUS: /haɪˈpɑːtənuːs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,12 +992,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hypotenuse", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو لایەی کە دژ بە گۆشەی ٩٠ ــە لە سێگۆشەیەکدا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The hypotenuse can be calculated using the Pythagorean theorem.""",
+                      kurdishText:
+                          """ژێ دەکرێت شیکار بکرێت بە یاسای فیساگۆرس.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhypocrite hypocrite
-WORD_WEB hypocrite hypocrite hypocrite
-haʊʊʊʊʊʊʊ4
+- Noun: hypocrite (Derived forms: hypocrites)
+1. A person who professes beliefs and opinions that he or she does not hold in order to conceal his or her real feelings or motives (- dissembler, dissimulator, phony [N. Amer], phoney, pretender)
 """,
   );
-// 188888880002200
 
   final String keyword = "hypocrite";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Charles was a liar and a hypocrite who married her for money.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The newspapers branded her a hypocrite.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/rRymSi8SmqA?t=';
+    const double startSecondsend = 0000000000000000000000000001388;
+    const String videoIdone = 'https://youtu.be/Cccx1KKdIJ4?t=';
+    const double startSecondsone = 000000000000000000000000000190;
+    const String videoIdtwo = 'https://youtu.be/JR3z8lq2cNM?t=';
+    const double startSecondstwo = 00000000000000000000000000078;
+    const String videoIdthree = 'https://youtu.be/lknCE7fn7k8?t=';
+    const double startSecondsthree = 0000000000000000000000000001463;
+    const String videoIdfour = 'https://youtu.be/WwhyZUlmaWA?t=';
+    const double startSecondsfour = 0000000000000000000000000003607;
+    const String videoIdfive = 'https://youtu.be/Gfj5f0GVLZ0?t=';
+    const double startSecondsfive = 000000000000000000000000000436;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypocrite""",
                       // alsoEnglishWord: "also: hypocrite",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhɪpəkrɪt/""",
+                      americanText: """IpaUS: /ˈhɪpəkrɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەسێکی ڕیایی‌باز، بنیادەمی دووڕوو، مرۆی ڕواڵەت‌باز
 """),
 // With short examples define "hypocrite", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە ڕەفتاری پێچەوانەی ئەو باوەڕ و ستانداردانەیە کە بانگەشەی بۆ دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Charles was a liar and a hypocrite who married her for money.""",
+                      kurdishText:
+                          """چارڵس درۆزن و دووڕوویەک بوو کە بۆ پارە خواستی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1007,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The newspapers branded her a hypocrite.""",
+                      kurdishText: "ڕۆژنامەکان وەک دووڕوو ناوزەدیان کرد.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

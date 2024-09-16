@@ -9,7 +9,8 @@ class EnglishEntryhypocritical extends StatefulWidget {
   const EnglishEntryhypocritical({super.key});
 
   @override
-  State<EnglishEntryhypocritical> createState() => _EnglishEntryhypocriticalState();
+  State<EnglishEntryhypocritical> createState() =>
+      _EnglishEntryhypocriticalState();
 }
 
 class _EnglishEntryhypocriticalState extends State<EnglishEntryhypocritical> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhypocritical hypocritical
-WORD_WEB hypocritical hypocritical hypocritical
-haʊʊʊʊʊʊʊ4
+- Adjective: hypocritical
+1. Professing feelings or virtues one does not have
+"hypocritical praise"
 """,
   );
-// 188888880002200
 
   final String keyword = "hypocritical";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """It would be hypocritical of me to have a church wedding when I don't believe in God.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/9X5Vuh4U5Wo?t=';
+    const double startSecondsend = 00000000000000000000000000055;
+    const String videoIdone = 'https://youtu.be/sULBN9ptwsg?t=';
+    const double startSecondsone = 0000000000000000000000000001306;
+    const String videoIdtwo = 'https://youtu.be/lipa6JGLLQU?t=';
+    const double startSecondstwo = 00000000000000000000000000084;
+    const String videoIdthree = 'https://youtu.be/Gfj5f0GVLZ0?t=';
+    const double startSecondsthree = 000000000000000000000000000647;
+    const String videoIdfour = 'https://youtu.be/kvHHa_6zVxU?t=';
+    const double startSecondsfour = 000000000000000000000000000149;
+    const String videoIdfive = 'https://youtu.be/oXPhvh4eGcM?t=';
+    const double startSecondsfive = 000000000000000000000000000663;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypocritical""",
                       // alsoEnglishWord: "also: hypocritical",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌhɪpəˈkrɪtɪkl/""",
+                      americanText: """IpaUS: /ˌhɪpəˈkrɪtɪkl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕیایی‌باز، دووڕوو، ڕووبین، ڕووبینانە، دووڕووانە
 """),
 // With short examples define "hypocritical", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بە شێوەیەک بیت کە ڕەفتارەکانت پێچەوانەی ئەو باوەڕ و ستانداردانە بێت کە بانگەشەی بۆ دەکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It would be hypocritical of me to have a church wedding when I don't believe in God.""",
+                      kurdishText:
+                          """ئەوە لە دووڕوویم دەبێت کە هاوسەرگیریم لە کڵێسا بێت کە باوەڕم بە خودا نییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

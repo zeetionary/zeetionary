@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhygiene hygiene
-WORD_WEB hygiene hygiene hygiene
-haʊʊʊʊʊʊʊ4
+- Noun: hygiene (Derived forms: hygienes)
+1. A condition promoting sanitary practices
+"personal hygiene"
+ 
+2. The science concerned with the prevention of illness and maintenance of health (- hygienics)
 """,
   );
-// 188888880002200
 
   final String keyword = "hygiene";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The restaurant failed a hygiene inspection.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The restaurant failed a hygiene inspection.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/JmWfY4nb6oM?t=';
+    const double startSecondsend = 00000000000000000000000000065;
+    const String videoIdone = 'https://youtu.be/T-_HKFjxVl0?t=';
+    const double startSecondsone = 000000000000000000000000000616;
+    const String videoIdtwo = 'https://youtu.be/kOd19ljsklQ?t=';
+    const double startSecondstwo = 000000000000000000000000000906;
+    const String videoIdthree = 'https://youtu.be/zoWI7MzUOwo?t=';
+    const double startSecondsthree = 000000000000000000000000000430;
+    const String videoIdfour = 'https://youtu.be/SGhPswvyJjM?t=';
+    const double startSecondsfour = 000000000000000000000000000114;
+    const String videoIdfive = 'https://youtu.be/y3eR8QLPjlc?t=';
+    const double startSecondsfive = 000000000000000000000000000549;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hygiene""",
                       // alsoEnglishWord: "also: hygiene",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhaɪdʒiːn/""",
+                      americanText: """IpaUS: /ˈhaɪdʒiːn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +992,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی:هایژین، هایجین، خاوێن‌گەری، خاوێنی
 """),
 // With short examples define "hygiene", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence1("en-GB"),
+                      englishText: """The restaurant failed a hygiene inspection.""",
+                                  kurdishText: """چێشتخانەکە لە پشکنینی پاک و خاوێنی دەرنەچوو.""",
+onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The restaurant failed a hygiene inspection.""",
+            kurdishText: """چێشتخانەکە لە پشکنینی پاک و خاوێنی دەرنەچوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

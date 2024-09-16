@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhypnosis hypnosis
-WORD_WEB hypnosis hypnosis hypnosis
-haʊʊʊʊʊʊʊ4
+- Noun: hypnosis (Derived forms: hypnoses)
+1. A state that resembles sleep but that is induced by suggestion
 """,
   );
-// 188888880002200
 
   final String keyword = "hypnosis";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She only remembered details of the accident under hypnosis.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Hypnosis helped him give up smoking.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsend = 0000000000000000000000000002081;
+    const String videoIdone = 'https://youtu.be/nARcrP7GNso?t=';
+    const double startSecondsone = 0000000000000000000000000001068;
+    const String videoIdtwo = 'https://youtu.be/drhDGeNauuo?t=';
+    const double startSecondstwo = 0000000000000000000000000001371;
+    const String videoIdthree = 'https://youtu.be/nnzYZdGFzzM?t=';
+    const double startSecondsthree = 000000000000000000000000000151;
+    const String videoIdfour = 'https://youtu.be/l6PlMpncVuc?t=';
+    const double startSecondsfour = 000000000000000000000000000198;
+    const String videoIdfive = 'https://youtu.be/H-u6a66rTpQ?t=';
+    const double startSecondsfive = 000000000000000000000000000499;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypnosis""",
                       // alsoEnglishWord: "also: hypnosis",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /hɪpˈnəʊsɪs/""",
+                      americanText: """IpaUS: /hɪpˈnəʊsɪs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,20 +992,25 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hypnosis", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دۆخێکی بێ‌ئاگایی کە تێیدا کەسێک هێشتا دەتوانێت ببینێت و ببیستێت و هێشتا شوێن فەرمان بکەوێت و وەڵامی پرسیار بداتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She only remembered details of the accident under hypnosis.""",
+                      kurdishText:
+                          """وردەکارییەکانی ڕووداوەکەی بیرکەوتەوە تەنها لەژێر دۆخی هیپنۆسیسدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) ئەوەی کەسێک بخەیتە ئەم دۆخەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Hypnosis helped him give up smoking.""",
+                      kurdishText:
+                          """هیپنۆسیس یارمەتیدا واز لە جگەرەکێشان بهێنێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

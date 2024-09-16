@@ -9,7 +9,8 @@ class EnglishEntryhypothetical extends StatefulWidget {
   const EnglishEntryhypothetical({super.key});
 
   @override
-  State<EnglishEntryhypothetical> createState() => _EnglishEntryhypotheticalState();
+  State<EnglishEntryhypothetical> createState() =>
+      _EnglishEntryhypotheticalState();
 }
 
 class _EnglishEntryhypotheticalState extends State<EnglishEntryhypothetical> {
@@ -52,13 +53,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: hypothetical
+1. Based primarily on surmise rather than adequate evidence (- conjectural, divinatory, hypothetic, supposed, suppositional, suppositious, supposititious)
+"hypothetical situation";
 
-EnglishEntryhypothetical hypothetical
-WORD_WEB hypothetical hypothetical hypothetical
-haʊʊʊʊʊʊʊ4
+- Noun: hypothetical (Derived forms: hypotheticals)
+1. A hypothetical possibility, circumstance, statement, proposal, situation, etc.
+"consider the following, just as a hypothetical"
 """,
   );
-// 188888880002200
 
   final String keyword = "hypothetical";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """I wasn't asking about anybody in particular—it was a purely hypothetical question.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/MzSktgpfD84?t=';
+    const double startSecondsend = 000000000000000000000000000404;
+    const String videoIdone = 'https://youtu.be/Gi3HnqetpLw?t=';
+    const double startSecondsone = 000000000000000000000000000365;
+    const String videoIdtwo = 'https://youtu.be/YLmDE_JYUNU?t=';
+    const double startSecondstwo = 000000000000000000000000000690;
+    const String videoIdthree = 'https://youtu.be/kRr9LQ7mZ_A?t=';
+    const double startSecondsthree = 000000000000000000000000000202;
+    const String videoIdfour = 'https://youtu.be/H0c2ErVOmog?t=';
+    const double startSecondsfour = 000000000000000000000000000136;
+    const String videoIdfive = 'https://youtu.be/j9h2-ZVDLB8?t=';
+    const double startSecondsfive = 000000000000000000000000000155;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypothetical""",
                       // alsoEnglishWord: "also: hypothetical",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌhaɪpəˈθetɪkl/""",
+                      americanText: """IpaUS: /ˌhaɪpəˈθetɪkl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +995,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: وادانەرانە، گریمانەیی، گریمانەکی، لەسەر بنچینەی وادانان، سەربە وادانان، وادانراو
 """),
 // With short examples define "hypothetical", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە پشت دەبەستێت بە بیرۆکەیەک یان ڕوونکردنەوەیەک کە خەیاڵ کراوە نەک ڕاستی بێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I wasn't asking about anybody in particular—it was a purely hypothetical question.""",
+                      kurdishText:
+                          """پرسیارم لەسەر کەسێک بە دیاریکراوی نەکرد > تەنها پرسیارێکی سادەی گریمانەیی بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

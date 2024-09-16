@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhygienic hygienic
-WORD_WEB hygienic hygienic hygienic
-haʊʊʊʊʊʊʊ4
+- Adjective: hygienic
+1. Tending to promote or preserve health (- hygienical)
+"hygienic surroundings with plenty of fresh air";
 """,
   );
-// 188888880002200
 
   final String keyword = "hygienic";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He always washes his hands to stay hygienic.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/HHZLjffZXUo?t=';
+    const double startSecondsend = 000000000000000000000000000327;
+    const String videoIdone = 'https://youtu.be/hkSOOB3MYMY?t=';
+    const double startSecondsone = 000000000000000000000000000324;
+    const String videoIdtwo = 'https://youtu.be/9s9UXXAmlTg?t=';
+    const double startSecondstwo = 000000000000000000000000000418;
+    const String videoIdthree = 'https://youtu.be/HAMQfXMkoKw?t=';
+    const double startSecondsthree = 000000000000000000000000000243;
+    const String videoIdfour = 'https://youtu.be/z56d4f1uT3k?t=';
+    const double startSecondsfour = 000000000000000000000000000305;
+    const String videoIdfive = 'https://youtu.be/exZoJM3rIIg?t=';
+    const double startSecondsfive = 0000000000000000000000000005;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hygienic""",
                       // alsoEnglishWord: "also: hygienic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /haɪˈdʒiːnɪk/""",
+                      americanText: """IpaUS: /haɪˈdʒenɪk/, /haɪˈdʒiːnɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هایجینیک، خاوێن، پاک
 """),
-// With short examples define "hygienic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) پاک و بەبێ بەکتریا بۆیە ئەگەری کەم بێت نەخۆشی بگوازێتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He always washes his hands to stay hygienic.""",
+                      kurdishText:
+                          """هەمیشە دەستەکانی دەشوات تاوەکو بە خاوێنی بمێنێتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

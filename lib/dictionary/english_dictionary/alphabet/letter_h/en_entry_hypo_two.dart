@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhypotwo hypo-
-WORD_WEB hypo- hypo- hypo-
-haʊʊʊʊʊʊʊ4
+- Prefix: hypo-
+1. Under, below, or lower (- hyp-)
+ 
+2. (medicine) below normal or deficient (- hyp-)
+ 
+3. Slightly or partial (- hyp-)
 """,
   );
-// 188888880002200
 
   final String keyword = "hypo-";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The hikers were treated for hypothermia in the mountains.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsend = 0000000000000000000000000002704;
+    const String videoIdone = 'https://youtu.be/3X4PxUCRDzU?t=';
+    const double startSecondsone = 000000000000000000000000000159;
+    const String videoIdtwo = 'https://youtu.be/iTjDi2ZO0n8?t=';
+    const double startSecondstwo = 00000000000000000000000000068;
+    const String videoIdthree = 'https://youtu.be/x4m_PdFbu-s?t=';
+    const double startSecondsthree = 0000000000000000000000000002853;
+    const String videoIdfour = 'https://youtu.be/LBuoQ3PjRrE?t=';
+    const double startSecondsfour = 00000000000000000000000000031;
+    const String videoIdfive = 'https://youtu.be/NubH0oxyQAI?t=';
+    const double startSecondsfive = 000000000000000000000000000555;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hypo-""",
                       // alsoEnglishWord: "also: hypo-",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /haɪpəʊ/, /haɪpə/, /haɪˈpɒ/""",
+                      americanText: """IpaUS: /haɪpəʊ/, /haɪpə/, /haɪˈpɑː/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +996,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hypo-", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (پێشگر) لە ژێر ڕێژەی ئاسایی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The hikers were treated for hypothermia in the mountains.""",
+                      kurdishText:
+                          """گەشتیارەکان لە شاخەکاندا چارەسەری سەرمابردنیان بۆ کرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

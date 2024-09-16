@@ -9,7 +9,8 @@ class EnglishEntryhygienically extends StatefulWidget {
   const EnglishEntryhygienically({super.key});
 
   @override
-  State<EnglishEntryhygienically> createState() => _EnglishEntryhygienicallyState();
+  State<EnglishEntryhygienically> createState() =>
+      _EnglishEntryhygienicallyState();
 }
 
 class _EnglishEntryhygienicallyState extends State<EnglishEntryhygienically> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhygienically hygienically
-WORD_WEB hygienically hygienically hygienically
-haʊʊʊʊʊʊʊ4
+- Adverb: hygienically
+1. In a hygienic manner
+"the body must cared for hygienically"
 """,
   );
-// 188888880002200
 
   final String keyword = "hygienically";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Everything is hygienically wrapped, tested by health inspectors, and kept at a low temperature.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Rf4QoPZQmPM?t=';
+    const double startSecondsend = 000000000000000000000000000350;
+    const String videoIdone = 'https://youtu.be/Rf4QoPZQmPM?t=';
+    const double startSecondsone = 000000000000000000000000000350;
+    const String videoIdtwo = 'https://youtu.be/iAB4V6s1n3A?t=';
+    const double startSecondstwo = 000000000000000000000000000347;
+    const String videoIdthree = 'https://youtu.be/WEjE20-OXLg?t=';
+    const double startSecondsthree = 000000000000000000000000000507;
+    const String videoIdfour = 'https://youtu.be/MSRaPMaup0g?t=';
+    const double startSecondsfour = 0000000000000000000000000001847;
+    const String videoIdfive = 'https://youtu.be/kqn1ybabfYo?t=';
+    const double startSecondsfive = 000000000000000000000000000222;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,9 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hygienically""",
                       // alsoEnglishWord: "also: hygienically",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /haɪˈdʒiːnɪkli/""",
+                      americanText:
+                          """IpaUS: /haɪˈdʒenɪkli/,  /haɪˈdʒiːnɪkli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +995,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hygienically", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە پاک و بەبێ بەکتریا بێت بۆیە ئەگەری کەم بێت نەخۆشی بگوازێتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Everything is hygienically wrapped, tested by health inspectors, and kept at a low temperature.""",
+                      kurdishText:
+                          """هەموو بە پاکی دەپێچرێتەوە، لەلایەن پشکنەرانی تەندرووستی دەپشکنرێت، و لە پلەی گەرمیی نزم هەڵدەگیرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

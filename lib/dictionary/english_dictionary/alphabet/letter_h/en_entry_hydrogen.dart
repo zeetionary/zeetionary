@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryhydrogen hydrogen
-WORD_WEB hydrogen hydrogen hydrogen
-haʊʊʊʊʊʊʊ4
+- Noun: hydrogen (Derived forms: hydrogens)
+1. A nonmetallic univalent element that is normally a colourless and odourless highly flammable diatomic gas; the simplest and lightest and most abundant element in the universe (- H, atomic number 1)
 """,
   );
-// 188888880002200
 
   final String keyword = "hydrogen";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +84,35 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Two atoms of hydrogen combine with one atom of oxygen to form a molecule of water.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Hydrogen and oxygen combine to form water.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Water decomposes into oxygen and hydrogen.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""A mixture of hydrogen is obtained from the decomposition of water with carbon and phosphorous.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""Hydrogen is highly explosive.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -928,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Kou7ur5xt_4?t=';
+    const double startSecondsend = 00000000000000000000000000010;
+    const String videoIdone = 'https://youtu.be/b88v-WvqzeQ?t=';
+    const double startSecondsone = 00000000000000000000000000016;
+    const String videoIdtwo = 'https://youtu.be/Mc9XaeEyZ8M?t=';
+    const double startSecondstwo = 00000000000000000000000000043;
+    const String videoIdthree = 'https://youtu.be/3Z_19bRFblw?t=';
+    const double startSecondsthree = 00000000000000000000000000011;
+    const String videoIdfour = 'https://youtu.be/JGe8R0N20ps?t=';
+    const double startSecondsfour = 00000000000000000000000000050;
+    const String videoIdfive = 'https://youtu.be/0JC72KL4om0?t=';
+    const double startSecondsfive = 00000000000000000000000000069;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """hydrogen""",
                       // alsoEnglishWord: "also: hydrogen",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈhaɪdrədʒən/""",
+                      americanText: """IpaUS: /ˈhaɪdrədʒən/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,48 +992,50 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "hydrogen", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) توخمێکی کیمیایی کە سووکترین گازە و لەگەڵ ئۆکسجین یەکدەگرێت بۆ درووستکردنی ئاو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence1("en-GB"),
+                      englishText: """Two atoms of hydrogen combine with one atom of oxygen to form a molecule of water.""",
+                      kurdishText:
+                                "دوو گەردیلەی ھایدرۆجین یەکدەگرن لەگەڵ یەک گەردیلەی ئۆکسجین بۆ درووستکردنی یەک گەردی ئاو.",
+                            onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
+                      englishText: """Hydrogen and oxygen combine to form water.""",
+                      kurdishText:
+                                "ھایدرۆجین و ئۆکسجین یەکدەگرن بۆ درووستکردنی ئاو.",
+                            onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
+                      englishText: """Water decomposes into oxygen and hydrogen.""",
+                      kurdishText: "ئاو بۆ ئۆکسجین و دووەم ئۆکسیدی کاربۆن ھەڵدەوەشێت.",
+            onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence4("en-GB"),
+                      englishText: """A mixture of hydrogen is obtained from the decomposition of water with carbon and phosphorous.""",
+                      kurdishText:
+                "تێکەڵەیەک لە ھایدرۆجین بەدەست دێت لە شیکردنەوەی ئاو لەگەڵ کاربۆن و فسفۆڕ.",
+            onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
+                      englishText: """Hydrogen is highly explosive.""",
+                      kurdishText: """ھایدرۆجین تەواو لەتەقینەوەھاتووە.""",
+            onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),

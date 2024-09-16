@@ -88,8 +88,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The hydrofoil glided smoothly over the water.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -929,19 +928,18 @@ ${englishMeaningConst.text}
   Widget build(BuildContext context) {
 
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/lt-lAFGJ_3o?t=';
+    const double startSecondsend = 000000000000000000000000000547;
+    const String videoIdone = 'https://youtu.be/8FYtj96v2CY?t=';
+    const double startSecondsone = 000000000000000000000000000679;
+    const String videoIdtwo = 'https://youtu.be/NkAAgky_JAE?t=';
+    const double startSecondstwo = 000000000000000000000000000484;
+    const String videoIdthree = 'https://youtu.be/b9nqY-OCFws?t=';
+    const double startSecondsthree = 000000000000000000000000000236;
+    const String videoIdfour = 'https://youtu.be/a6rqzSHKmLw?t=';
+    const double startSecondsfour = 000000000000000000000000000207;
+    const String videoIdfive = 'https://youtu.be/lWKoPSUxV30?t=';
+    const double startSecondsfive = 0000000000000000000000000005035;
 
     return DefaultTabController(
       length: 4,
@@ -997,12 +995,10 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hydrofoil", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) بەلەمێک کە لەسەر ڕووی ئاو دەچێت کە خێرا دەچێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The hydrofoil glided smoothly over the water.""",
+                      kurdishText: """هایدرۆفۆیلەکە بە نەرمی بەسەر ئاوەکە دەچوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

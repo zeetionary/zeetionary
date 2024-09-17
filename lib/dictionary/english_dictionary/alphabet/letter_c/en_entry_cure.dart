@@ -352,7 +352,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: "The doctor managed to cure her of her illness.",
-            kurdishText: "پزیشکەکە توانی نەخۆشییەکەی چارەسەر بکات؟",
+            kurdishText: "پزیشکەکە توانی نەخۆشییەکەی چارەسەر بکات.",
             onPressedBritish: () => speakcures2("en-GB"),
             onPressedAmerican: () => speakcures2("en-US"),
           ),
@@ -360,88 +360,28 @@ class KurdishMeaning extends StatelessWidget {
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "He was now completely cured of his illness."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئێستا بە تەواوی لە نەخۆشییەکە چارەسەر کرابوو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcures3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcures3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "He was now completely cured of his illness.",
+                    kurdishText:
+                        "ئێستا بە تەواوی لە نەخۆشییەکە چارەسەر کرابوو.",
+                    onPressedBritish: () => speakcures3("en-GB"),
+                    onPressedAmerican: () => speakcures3("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "She still believed that somehow she could be miraculously cured."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ھێشتا باوەڕی وابوو کە دەکرا مۆجیزەئاسا چارەسەر بکرابایە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcures4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcures4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "She still believed that somehow she could be miraculously cured.",
+                    kurdishText:
+                        "ھێشتا باوەڕی وابوو کە دەکرا مۆجیزەئاسا چارەسەر بکرابایە.",
+                    onPressedBritish: () => speakcures4("en-GB"),
+                    onPressedAmerican: () => speakcures4("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "They will try to cure her of her alcoholism."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ھەوڵ دەدات لە ئاڵوودەییەکەی چارەسەری بکات."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcures5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcures5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText: "They will try to cure her of her alcoholism.",
+                    kurdishText: "ھەوڵ دەدات لە ئاڵوودەییەکەی چارەسەری بکات.",
+                    onPressedBritish: () => speakcures5("en-GB"),
+                    onPressedAmerican: () => speakcures5("en-US"),
                   ),
                 ],
               ),

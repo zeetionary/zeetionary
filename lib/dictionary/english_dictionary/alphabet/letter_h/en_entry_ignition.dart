@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryi extends StatefulWidget {
-  const EnglishEntryi({super.key});
+class EnglishEntryignition extends StatefulWidget {
+  const EnglishEntryignition({super.key});
 
   @override
-  State<EnglishEntryi> createState() => _EnglishEntryiState();
+  State<EnglishEntryignition> createState() => _EnglishEntryignitionState();
 }
 
-class _EnglishEntryiState extends State<EnglishEntryi> {
+class _EnglishEntryignitionState extends State<EnglishEntryignition> {
   @override
   void initState() {
     super.initState();
@@ -52,23 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: i
-1. The 9th letter of the Roman alphabet (- I)
-
-- Adjective: i
-1. Used of a single unit or thing; not two or more (- one, 1, ane [UK, dialect])
-
-- Pronoun: I 
-1. Refers to the speaker or writer
-
-- Noun: I (Derived forms: Is)
-1. A nonmetallic element belonging to the halogens; used especially in medicine and photography and in dyes; occurs naturally only in combination in small quantities (as in sea water or rocks) (- iodine, iodin, atomic number 53)
+- Noun: ignition (Derived forms: ignitions)
+1. The process of initiating combustion or catching fire
  
-2. The smallest whole number or a numeral representing this number (- one, 1, ace, single, unity)
+2. The mechanism that ignites the fuel in an internal-combustion engine (- ignition system)
+ 
+3. The act of setting something on fire (- firing, lighting, kindling, inflammation)
 """,
   );
 
-  final String keyword = "i";
+  final String keyword = "ignition";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -88,56 +81,57 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""i""");
+    await flutterTts.speak("""ignition""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I think I'd better go now.""");
+    await flutterTts.speak("""Switch/Turn the ignition on.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He and I are old friends.""");
+    await flutterTts.speak(
+        """The flames spread to all parts of the house within minutes of ignition.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""When they asked me if I wanted the job, I said yes.""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm not going to fall, am I?""");
+    await flutterTts.speak("""speaksentence400""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm taller than her, aren't I?""");
+    await flutterTts.speak("""speaksentence500""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Jen and I went to London yesterday.""");
+    await flutterTts.speak("""speaksentence600""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""‘Island’ begins with (an) I/‘I’.""");
+    await flutterTts.speak("""speaksentence700""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -933,20 +927,19 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/e_04ZrNroTo?t=';
-    const double startSecondsend = 000000000000000000000000000160;
-    const String videoIdone = 'https://youtu.be/ohHYABXMqUQ?t=';
-    const double startSecondsone = 00000000000000000000000000011;
-    const String videoIdtwo = 'https://youtu.be/Wm4R8d0d8kU?t=';
-    const double startSecondstwo = 00000000000000000000000000014;
-    const String videoIdthree = 'https://youtu.be/3YltYCrPZos?t=';
-    const double startSecondsthree = 00000000000000000000000000014;
-    const String videoIdfour = 'https://youtu.be/rPe4yziWiOg?t=';
-    const double startSecondsfour = 000000000000000000000000000141;
-    const String videoIdfive = 'https://youtu.be/HvNdJ2RCReg?t=';
-    const double startSecondsfive = 00000000000000000000000000011;
+    const String videoIdend = 'https://youtu.be/toVfvRhWbj8?t=';
+    const double startSecondsend = 000000000000000000000000000276;
+    const String videoIdone = 'https://youtu.be/05gCLHlpzTU?t=';
+    const double startSecondsone = 0000000000000000000000000001161;
+    const String videoIdtwo = 'https://youtu.be/Bbi0kEaTgio?t=';
+    const double startSecondstwo = 000000000000000000000000000363;
+    const String videoIdthree = 'https://youtu.be/YiM9oosSvNg?t=';
+    const double startSecondsthree = 000000000000000000000000000931;
+    const String videoIdfour = 'https://youtu.be/H5_HVUS1l0Y?t=';
+    const double startSecondsfour = 000000000000000000000000000597;
+    const String videoIdfive = 'https://youtu.be/GaLdHd2J-xM?t=';
+    const double startSecondsfive = 000000000000000000000000000158;
 
     return DefaultTabController(
       length: 4,
@@ -959,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """i""",
-                      // alsoEnglishWord: "also: i",
-                      britshText: """IpaUK: /aɪ/""",
-                      americanText: """IpaUS: /aɪ/""",
+                      word: """ignition""",
+                      // alsoEnglishWord: "also: ignition",
+                      britshText: """IpaUK: /ɪɡˈnɪʃn/""",
+                      americanText: """IpaUS: /ɪɡˈnɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1000,22 +993,27 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سووتان، گڕگرتن، داگیرسان، هەڵبوون، گرتن، گڕیان، دایسان
 """),
-// With short examples define "i", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (جێناو) جێناوی کەسی یەکەمی تاک؛ من"""),
+// With short examples define "ignition", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) سیستەمی ئەلیکترۆنی پێڕۆیەک کە وادەکات سووتەمەنی دەست بە سووتان بکات و بزوێنەرەکە دەست بە کار بکات"""),
                     SentencesRow(
-                      englishText: """I think I'd better go now.""",
-                      kurdishText: """پێم باشترە ئێستا بچم.""",
+                      englishText: """Switch/Turn the ignition on.""",
+                      kurdishText: """سویچەکە بخە کار.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) دەستکردن بە سووتان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He and I are old friends.""",
-                      kurdishText: """ئەو و من هاوڕێی کۆنین.""",
+                      englishText:
+                          """The flames spread to all parts of the house within minutes of ignition.""",
+                      kurdishText:
+                          """بڵێسەکە بڵاوبوویەوە بە هەموو بەشی ماڵەکەدا لە چەند خولەکی گڕگرتن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1023,8 +1021,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """When they asked me if I wanted the job, I said yes.""",
-                      kurdishText: """کە لێمیان پرسی کە کارەکەم دەوێت، گوتم بەڵێ.""",
+                      englishText: """speaksentence300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1032,8 +1030,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'm not going to fall, am I?""",
-                      kurdishText: """ناکەوم، وایە؟""",
+                      englishText: """speaksentence400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1041,8 +1039,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'm taller than her, aren't I?""",
-                      kurdishText: """بەرزترم لێی، وانیم؟""",
+                      englishText: """speaksentence500""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1050,17 +1048,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Jen and I went to London yesterday.""",
-                      kurdishText: """جێن و من دوێنێ چووین بۆ لەندەن.""",
+                      englishText: """speaksentence600""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) نۆیەم پیتی ئەلفوبێ"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """‘Island’ begins with (an) I/‘I’.""",
-                      kurdishText: """وشەی ‘Island’ بە I/‘I’ دەست پێدەکات.""",
+                      englishText: """speaksentence700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

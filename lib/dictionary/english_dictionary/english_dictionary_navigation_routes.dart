@@ -7104,6 +7104,7 @@ final Map<String, String> wordRoutes = {
   "front-page": "/english-frontpage",
   "frontier": "/english-frontier",
   "frost": "/english-frost",
+  "frosting": "/english-icing",
   "frostbite": "/english-frostbite",
   "frostbitten": "/english-frostbitten",
   "frosty": "/english-frosty",

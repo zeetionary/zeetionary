@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryi extends StatefulWidget {
-  const EnglishEntryi({super.key});
+class EnglishEntryidentical extends StatefulWidget {
+  const EnglishEntryidentical({super.key});
 
   @override
-  State<EnglishEntryi> createState() => _EnglishEntryiState();
+  State<EnglishEntryidentical> createState() => _EnglishEntryidenticalState();
 }
 
-class _EnglishEntryiState extends State<EnglishEntryi> {
+class _EnglishEntryidenticalState extends State<EnglishEntryidentical> {
   @override
   void initState() {
     super.initState();
@@ -52,23 +52,24 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: i
-1. The 9th letter of the Roman alphabet (- I)
-
-- Adjective: i
-1. Used of a single unit or thing; not two or more (- one, 1, ane [UK, dialect])
-
-- Pronoun: I 
-1. Refers to the speaker or writer
-
-- Noun: I (Derived forms: Is)
-1. A nonmetallic element belonging to the halogens; used especially in medicine and photography and in dyes; occurs naturally only in combination in small quantities (as in sea water or rocks) (- iodine, iodin, atomic number 53)
+- Adjective: identical
+1. Exactly alike; incapable of being perceived as different (- indistinguishable)
+"rows of identical houses"; "cars identical except for their licence plates";
  
-2. The smallest whole number or a numeral representing this number (- one, 1, ace, single, unity)
+2. Being the exact same one; not any other: (- selfsame, very)
+"this is the identical room we stayed in before";
+ 
+3. (of twins) derived from a single egg or ovum (- monovular)
+"identical twins are monovular";
+ 
+4. (physics) having properties with uniform values along all axes
+ 
+5. Coinciding exactly when superimposed (- superposable)
+"identical triangles";
 """,
   );
 
-  final String keyword = "i";
+  final String keyword = "identical";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -88,56 +89,61 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""i""");
+    await flutterTts.speak("""identical""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I think I'd better go now.""");
+    await flutterTts
+        .speak("""The two pictures are similar, although not identical.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He and I are old friends.""");
+    await flutterTts.speak("""Her dress is almost identical to mine.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""When they asked me if I wanted the job, I said yes.""");
+    await flutterTts.speak(
+        """The name on the ticket should be identical with the one in the passport.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm not going to fall, am I?""");
+    await flutterTts.speak(
+        """Human's biochemistry is almost identical to that of a cat.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm taller than her, aren't I?""");
+    await flutterTts
+        .speak("""The two drugs are nearly identical in composition.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Jen and I went to London yesterday.""");
+    await flutterTts
+        .speak("""This is the identical room we stayed in last year.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""‘Island’ begins with (an) I/‘I’.""");
+    await flutterTts.speak("""speaksentence700""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -933,20 +939,19 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/e_04ZrNroTo?t=';
-    const double startSecondsend = 000000000000000000000000000160;
-    const String videoIdone = 'https://youtu.be/ohHYABXMqUQ?t=';
-    const double startSecondsone = 00000000000000000000000000011;
-    const String videoIdtwo = 'https://youtu.be/Wm4R8d0d8kU?t=';
-    const double startSecondstwo = 00000000000000000000000000014;
-    const String videoIdthree = 'https://youtu.be/3YltYCrPZos?t=';
-    const double startSecondsthree = 00000000000000000000000000014;
-    const String videoIdfour = 'https://youtu.be/rPe4yziWiOg?t=';
-    const double startSecondsfour = 000000000000000000000000000141;
-    const String videoIdfive = 'https://youtu.be/HvNdJ2RCReg?t=';
-    const double startSecondsfive = 00000000000000000000000000011;
+    const String videoIdend = 'https://youtu.be/AF8d72mA41M?t=';
+    const double startSecondsend = 000000000000000000000000000256;
+    const String videoIdone = 'https://youtu.be/VS6tnF31zr4?t=';
+    const double startSecondsone = 000000000000000000000000000190;
+    const String videoIdtwo = 'https://youtu.be/sV6uuMAnJUE?t=';
+    const double startSecondstwo = 000000000000000000000000000811;
+    const String videoIdthree = 'https://youtu.be/mcZdTvOqmvI?t=';
+    const double startSecondsthree = 0000000000000000000000000001171;
+    const String videoIdfour = 'https://youtu.be/hOUGNGWmN0k?t=';
+    const double startSecondsfour = 000000000000000000000000000749;
+    const String videoIdfive = 'https://youtu.be/Nun_4w8m_SY?t=';
+    const double startSecondsfive = 0;
 
     return DefaultTabController(
       length: 4,
@@ -959,10 +964,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """i""",
-                      // alsoEnglishWord: "also: i",
-                      britshText: """IpaUK: /aɪ/""",
-                      americanText: """IpaUS: /aɪ/""",
+                      word: """identical""",
+                      // alsoEnglishWord: "also: identical",
+                      britshText: """IpaUK: /aɪˈdentɪkl/""",
+                      americanText: """IpaUS: /aɪˈdentɪkl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1000,13 +1005,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەر ئەو، هەمان شت، وەکوو یەک، یەکێ، وەکیەک، عەینی یەک، هاوشێوە، تەواولێکچوو، چونیەک، هەمان، یەک‌چەشن، یەک‌جۆر، دروست وەکوو یەک
 """),
-// With short examples define "i", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (جێناو) جێناوی کەسی یەکەمی تاک؛ من"""),
+// With short examples define "identical", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە هەموو ڕوویەکەوە وەک یەکن"""),
                     SentencesRow(
-                      englishText: """I think I'd better go now.""",
-                      kurdishText: """پێم باشترە ئێستا بچم.""",
+                      englishText:
+                          """The two pictures are similar, although not identical.""",
+                      kurdishText: """دوو وێنەکە لێکچوون، بەڵام هاوشێوە نین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1014,8 +1022,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He and I are old friends.""",
-                      kurdishText: """ئەو و من هاوڕێی کۆنین.""",
+                      englishText: """Her dress is almost identical to mine.""",
+                      kurdishText:
+                          """جلەکەی تا ڕادەیەکی زۆر هاوشێوەی ئەوەی منە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1023,8 +1032,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """When they asked me if I wanted the job, I said yes.""",
-                      kurdishText: """کە لێمیان پرسی کە کارەکەم دەوێت، گوتم بەڵێ.""",
+                      englishText:
+                          """The name on the ticket should be identical with the one in the passport.""",
+                      kurdishText:
+                          """ناوی سەر بلیتەکە دەبێت هاوشێوە بێت لەگەڵ ئەوەی سەر پاسپۆرتەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1032,8 +1043,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'm not going to fall, am I?""",
-                      kurdishText: """ناکەوم، وایە؟""",
+                      englishText:
+                          """Human's biochemistry is almost identical to that of a cat.""",
+                      kurdishText:
+                          "بایۆکیمیای مرۆڤ تا ڕادەیەک لێکچووە لەگەڵ ھی پشیلە.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1041,26 +1054,30 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'm taller than her, aren't I?""",
-                      kurdishText: """بەرزترم لێی، وانیم؟""",
+                      englishText:
+                          """The two drugs are nearly identical in composition.""",
+                      kurdishText:
+                          "دوو دەرمانەکە بەنزیکەیی لێکچوون لە پێکھاتەدا.",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) هەمان"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """This is the identical room we stayed in last year.""",
+                      kurdishText:
+                          """ئەمە هەمان ئەو ژوورەیە ساڵی ڕابردوو لێی ماینەوە.""",
+                      onPressedBritish: () => speaksentence6("en-GB"),
+                      onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Jen and I went to London yesterday.""",
-                      kurdishText: """جێن و من دوێنێ چووین بۆ لەندەن.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) نۆیەم پیتی ئەلفوبێ"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """‘Island’ begins with (an) I/‘I’.""",
-                      kurdishText: """وشەی ‘Island’ بە I/‘I’ دەست پێدەکات.""",
+                      englishText: """speaksentence700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

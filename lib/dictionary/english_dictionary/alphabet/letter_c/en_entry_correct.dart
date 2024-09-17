@@ -369,114 +369,38 @@ class KurdishMeaning extends StatelessWidget {
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "As always, your grandmother is absolutely correct."),
-                            ExampleSentenceKurdish(
-                                text: "وەک ھەمیشە، داپیرەت بە تەواوی ڕاستە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcorrects3("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcorrects3("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "As always, your grandmother is absolutely correct..",
+                    kurdishText: "وەک ھەمیشە، داپیرەت بە تەواوی ڕاستە.",
+                    onPressedBritish: () => speakcorrects3("en-GB"),
+                    onPressedAmerican: () => speakcorrects3("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "They were correct in their assessment of the situation."),
-                            ExampleSentenceKurdish(
-                                text: "ڕاست بوون لە ھەڵسەنگاندنیان بۆ دۆخەکە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcorrects4("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcorrects4("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "They were correct in their assessment of the situation..",
+                    kurdishText: "ڕاست بوون لە ھەڵسەنگاندنیان بۆ دۆخەکە.",
+                    onPressedBritish: () => speakcorrects4("en-GB"),
+                    onPressedAmerican: () => speakcorrects4("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "It is correct to say that Camus's philosophy can be divided into two periods."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئەوە درووستە کە بگوترێت فەلسەفەی کامۆ دەکرێت دابەش بکرێتە سەر دوو ماوەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcorrects5("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcorrects5("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "It is correct to say that Camus's philosophy can be divided into two periods.",
+                    kurdishText:
+                        "ئەوە درووستە کە بگوترێت فەلسەفەی کامۆ دەکرێت دابەش بکرێتە سەر دوو ماوەوە.",
+                    onPressedBritish: () => speakcorrects5("en-GB"),
+                    onPressedAmerican: () => speakcorrects5("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "It is correct that there are some similarities between the two cases."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "ئەوە درووستە کە ھەندێک لێکچوون لە نێوان دوو دۆخەکەدا ھەیە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcorrects6("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcorrects6("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "It is correct that there are some similarities between the two cases.",
+                    kurdishText:
+                        "ئەوە درووستە کە ھەندێک لێکچوون لە نێوان دوو دۆخەکەدا ھەیە.",
+                    onPressedBritish: () => speakcorrects6("en-GB"),
+                    onPressedAmerican: () => speakcorrects6("en-US"),
                   ),
                 ],
               ),
@@ -533,88 +457,31 @@ class KurdishMeaning extends StatelessWidget {
             children: [
               MyExpansionTile(
                 children: [
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "Their eyesight can be corrected in just a few minutes by the use of a laser."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "بینایی دەکرێت ڕاست بکرێتەوە بە تەنھا چەند خولەکێک بە بەکارھێنانی لەیزەر."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcorrects12("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcorrects12("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "Their eyesight can be corrected in just a few minutes by the use of a laser.",
+                    kurdishText:
+                        "بینایی دەکرێت ڕاست بکرێتەوە بە تەنھا چەند خولەکێک بە بەکارھێنانی لەیزەر.",
+                    onPressedBritish: () => speakcorrects12("en-GB"),
+                    onPressedAmerican: () => speakcorrects12("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "They issued a statement correcting the one they had made earlier."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "بەیاننامەیەکیان بڵاوکردەوە بۆ ڕاستکردنەوەی ئەوەی پێشووتر بڵاویان کردبوو."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcorrects13("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcorrects13("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "They issued a statement correcting the one they had made earlier.",
+                    kurdishText:
+                        "بەیاننامەیەکیان بڵاوکردەوە بۆ ڕاستکردنەوەی ئەوەی پێشووتر بڵاویان کردبوو.",
+                    onPressedBritish: () => speakcorrects13("en-GB"),
+                    onPressedAmerican: () => speakcorrects13("en-US"),
                   ),
                   const DividerSentences(),
-                  Row(
-                    children: [
-                      const Expanded(
-                        child: Column(
-                          children: [
-                            ExampleSentenceEnglish(
-                                text:
-                                    "At this stage you should be able to correct at least some of your own mistakes."),
-                            ExampleSentenceKurdish(
-                                text:
-                                    "لەم قۆناغەدا دەبێت بتوانیت ھیچ نەبێت ھەندێک لە ھەڵەکانی خۆت ڕاست بکەیتەوە."),
-                          ],
-                        ),
-                      ),
-                      const CustomSizedBoxForTTS(),
-                      Column(
-                        children: [
-                          CustomIconButtonBritish(
-                            onPressed: () => speakcorrects14("en-GB"),
-                          ),
-                          CustomIconButtonAmerican(
-                            onPressed: () => speakcorrects14("en-US"),
-                          ),
-                        ],
-                      ),
-                    ],
+                  SentencesRow(
+                    englishText:
+                        "At this stage you should be able to correct at least some of your own mistakes.",
+                    kurdishText:
+                        "لەم قۆناغەدا دەبێت بتوانیت ھیچ نەبێت ھەندێک لە ھەڵەکانی خۆت ڕاست بکەیتەوە.",
+                    onPressedBritish: () => speakcorrects14("en-GB"),
+                    onPressedAmerican: () => speakcorrects14("en-US"),
                   ),
                 ],
               ),

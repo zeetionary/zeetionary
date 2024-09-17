@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryi extends StatefulWidget {
-  const EnglishEntryi({super.key});
+class EnglishEntryillness extends StatefulWidget {
+  const EnglishEntryillness({super.key});
 
   @override
-  State<EnglishEntryi> createState() => _EnglishEntryiState();
+  State<EnglishEntryillness> createState() => _EnglishEntryillnessState();
 }
 
-class _EnglishEntryiState extends State<EnglishEntryi> {
+class _EnglishEntryillnessState extends State<EnglishEntryillness> {
   @override
   void initState() {
     super.initState();
@@ -52,23 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: i
-1. The 9th letter of the Roman alphabet (- I)
-
-- Adjective: i
-1. Used of a single unit or thing; not two or more (- one, 1, ane [UK, dialect])
-
-- Pronoun: I 
-1. Refers to the speaker or writer
-
-- Noun: I (Derived forms: Is)
-1. A nonmetallic element belonging to the halogens; used especially in medicine and photography and in dyes; occurs naturally only in combination in small quantities (as in sea water or rocks) (- iodine, iodin, atomic number 53)
- 
-2. The smallest whole number or a numeral representing this number (- one, 1, ace, single, unity)
+- Noun: illness (Derived forms: illnesses)
+1. Impairment of normal physiological function affecting part or all of an organism (- unwellness, malady, sickness)
+"the contracting of a serious illness can be financially catastrophic";
 """,
   );
 
-  final String keyword = "i";
+  final String keyword = "illness";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -88,224 +78,247 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""i""");
+    await flutterTts.speak("""illness""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I think I'd better go now.""");
+    await flutterTts.speak("""The virus can cause illness in humans.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He and I are old friends.""");
+    await flutterTts.speak("""He died after a long illness.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""When they asked me if I wanted the job, I said yes.""");
+    await flutterTts.speak("""Diabetes is a common illness.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm not going to fall, am I?""");
+    await flutterTts.speak("""She's just returned to work after illness.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm taller than her, aren't I?""");
+    await flutterTts
+        .speak("""She died of an AIDs-related illness at the age of 54.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Jen and I went to London yesterday.""");
+    await flutterTts.speak(
+        """The illness made her apathetic and unwilling to meet people.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""‘Island’ begins with (an) I/‘I’.""");
+    await flutterTts.speak(
+        """His mother has been at his bedside throughout his illness.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak(
+        """In epidemiology, identifying carriers is crucial for controlling the spread of contagious illnesses.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak(
+        """The illness can be treated provided it's caught early enough.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts
+        .speak("""Her father's illness cast a cloud over her wedding day.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak(
+        """The illness frequently coexists with other chronic diseases.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1200""");
+    await flutterTts.speak(
+        """Her illness had left her face deathly white and her lips colourless.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1300""");
+    await flutterTts
+        .speak("""Bad diet is closely connected with many common illnesses.""");
   }
 
   Future<void> speaksentence14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1400""");
+    await flutterTts
+        .speak("""The doctor managed to cure her of her illness.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1500""");
+    await flutterTts.speak("""He was now completely cured of his illness.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1600""");
+    await flutterTts
+        .speak("""Vitamin deficiency in the diet can cause illness.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1700""");
+    await flutterTts
+        .speak("""A very high temperature often denotes a serious illness.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1800""");
+    await flutterTts
+        .speak("""He fought the illness with courage and determination.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1900""");
+    await flutterTts.speak("""The illness was diagnosed as cancer.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_2000""");
+    await flutterTts.speak("""She died peacefully after a long illness.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2100""");
+    await flutterTts
+        .speak("""The illness resulted in his discharge from the army.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2200""");
+    await flutterTts.speak(
+        """She draws an important distinction between the different kinds of illness.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2300""");
+    await flutterTts.speak(
+        """Taking antibiotics will shorten the duration of the illness.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2400""");
+    await flutterTts
+        .speak("""He showed remarkable endurance throughout his illness.""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2500""");
+    await flutterTts
+        .speak("""The exact nature of her illness has not been made public.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2600""");
+    await flutterTts.speak(
+        """He's still getting over his illness, so it's unrealistic to expect too much from him.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2700""");
+    await flutterTts.speak(
+        """She's having some exploratory tests done to find out what's causing the illness.""");
   }
 
   Future<void> speaksentence28(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2800""");
+    await flutterTts.speak(
+        """Many tribes became extinct when they came into contact with Western illnesses.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence2900""");
+    await flutterTts.speak(
+        """She's very thin after her illness—but we'll soon fatten her up.""");
   }
 
   Future<void> speaksentence30(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_3000""");
+    await flutterTts.speak("""You may find it hard to accept your illness.""");
   }
 
   Future<void> speaksentence31(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence3100""");
+    await flutterTts.speak(
+        """The relative frequency of this illness in the area is of concern to all doctors.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
@@ -933,20 +946,19 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/e_04ZrNroTo?t=';
-    const double startSecondsend = 000000000000000000000000000160;
-    const String videoIdone = 'https://youtu.be/ohHYABXMqUQ?t=';
-    const double startSecondsone = 00000000000000000000000000011;
-    const String videoIdtwo = 'https://youtu.be/Wm4R8d0d8kU?t=';
-    const double startSecondstwo = 00000000000000000000000000014;
-    const String videoIdthree = 'https://youtu.be/3YltYCrPZos?t=';
-    const double startSecondsthree = 00000000000000000000000000014;
-    const String videoIdfour = 'https://youtu.be/rPe4yziWiOg?t=';
-    const double startSecondsfour = 000000000000000000000000000141;
-    const String videoIdfive = 'https://youtu.be/HvNdJ2RCReg?t=';
-    const double startSecondsfive = 00000000000000000000000000011;
+    const String videoIdend = 'https://youtu.be/R_fZjGm2OrM?t=';
+    const double startSecondsend = 000000000000000000000000000300;
+    const String videoIdone = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsone = 000000000000000000000000000930;
+    const String videoIdtwo = 'https://youtu.be/q8HRGiUeZwc?t=';
+    const double startSecondstwo = 00000000000000000000000000099;
+    const String videoIdthree = 'https://youtu.be/MiipO0rq-g0?t=';
+    const double startSecondsthree = 000000000000000000000000000181;
+    const String videoIdfour = 'https://youtu.be/3Mn9QMTmRDM?t=';
+    const double startSecondsfour = 00000000000000000000000000042;
+    const String videoIdfive = 'https://youtu.be/A3TvqMwgEco?t=';
+    const double startSecondsfive = 000000000000000000000000000111;
 
     return DefaultTabController(
       length: 4,
@@ -959,10 +971,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """i""",
-                      // alsoEnglishWord: "also: i",
-                      britshText: """IpaUK: /aɪ/""",
-                      americanText: """IpaUS: /aɪ/""",
+                      word: """illness""",
+                      // alsoEnglishWord: "also: illness",
+                      britshText: """IpaUK: /ˈɪlnəs/""",
+                      americanText: """IpaUS: /ˈɪlnəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1000,13 +1012,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەخۆشی، ناسازی، نێوەسانی، دەرد، نێوەشانی، نێوەشەن
 """),
-// With short examples define "i", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (جێناو) جێناوی کەسی یەکەمی تاک؛ من"""),
+// With short examples define "illness", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی لە ڕووی جەستەیی یان دەروونی نەخۆش بیت"""),
                     SentencesRow(
-                      englishText: """I think I'd better go now.""",
-                      kurdishText: """پێم باشترە ئێستا بچم.""",
+                      englishText: """The virus can cause illness in humans.""",
+                      kurdishText:
+                          """ڤایرۆسەکە دەکرێت ببێتە هۆکاری نەخۆشی لە مرۆڤدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1014,26 +1029,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He and I are old friends.""",
-                      kurdishText: """ئەو و من هاوڕێی کۆنین.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """When they asked me if I wanted the job, I said yes.""",
-                      kurdishText: """کە لێمیان پرسی کە کارەکەم دەوێت، گوتم بەڵێ.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """I'm not going to fall, am I?""",
-                      kurdishText: """ناکەوم، وایە؟""",
+                      englishText:
+                          """She's just returned to work after illness.""",
+                      kurdishText: """تازە گەڕاوەتەوە بۆ کار لە دوای نەخۆشی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1041,53 +1039,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'm taller than her, aren't I?""",
-                      kurdishText: """بەرزترم لێی، وانیم؟""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
-                      onPressedAmerican: () => speaksentence5("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """Jen and I went to London yesterday.""",
-                      kurdishText: """جێن و من دوێنێ چووین بۆ لەندەن.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) نۆیەم پیتی ئەلفوبێ"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """‘Island’ begins with (an) I/‘I’.""",
-                      kurdishText: """وشەی ‘Island’ بە I/‘I’ دەست پێدەکات.""",
-                      onPressedBritish: () => speaksentence7("en-GB"),
-                      onPressedAmerican: () => speaksentence7("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence8("en-GB"),
-                      onPressedAmerican: () => speaksentence8("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence9("en-GB"),
-                      onPressedAmerican: () => speaksentence9("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her father's illness cast a cloud over her wedding day.""",
+                      kurdishText:
+                          "نەخۆشییەکەی باوکی خەمناکییەکی کێشا بەسەر ڕۆژی ھاوسەرگیرییەکەیدا.",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -1095,17 +1050,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence11("en-GB"),
-                      onPressedAmerican: () => speaksentence11("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her illness had left her face deathly white and her lips colourless.""",
+                      kurdishText:
+                          "نەخۆشییەکەی ڕووخساری تەواو سپی کردەوە و لێوەکانی ڕەنگپەڕیو کرد.",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -1113,8 +1061,106 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Vitamin deficiency in the diet can cause illness.""",
+                      kurdishText:
+                          "کەمی ڤیتامین لە خۆراکدا دەکرێت ببێتە ھۆکاری نەخۆشی.",
+                      onPressedBritish: () => speaksentence16("en-GB"),
+                      onPressedAmerican: () => speaksentence16("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) جۆر یان ماوەیەک لە نەخۆشی"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """He died after a long illness.""",
+                      kurdishText: """مرد لە دوای ماوەیەکی زۆر لە نەخۆشی.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """Diabetes is a common illness.""",
+                      kurdishText: """شەکرە نەخۆشییەکی باوە.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
+                      onPressedAmerican: () => speaksentence3("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """She died of an AIDs-related illness at the age of 54.""",
+                      kurdishText:
+                          "لە تەمەنی ٥٤ ساڵی بە نەخۆشییەکی پەیوەندیدار بە ئایدز گیانی لەدەستدا.",
+                      onPressedBritish: () => speaksentence5("en-GB"),
+                      onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The illness made her apathetic and unwilling to meet people.""",
+                      kurdishText:
+                          "نەخۆشییەکە وای‌کرد ساردوسڕ بێ و مەیلی بینینی خەڵکی نەبێت.",
+                      onPressedBritish: () => speaksentence6("en-GB"),
+                      onPressedAmerican: () => speaksentence6("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """His mother has been at his bedside throughout his illness.""",
+                      kurdishText:
+                          "دایکی لە تەنیشت جێخەوەکەی بوو بەدرێژایی ماوەی نەخۆشییەکەی.",
+                      onPressedBritish: () => speaksentence7("en-GB"),
+                      onPressedAmerican: () => speaksentence7("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """In epidemiology, identifying carriers is crucial for controlling the spread of contagious illnesses.""",
+                      kurdishText:
+                          "لە پەتاناسیدا، دۆزینەوەی ھەڵگرەکە گرنگە بۆ کۆنترۆڵی بڵاوبوونەوەی نەخۆشیی ڕاگوێزەر.",
+                      onPressedBritish: () => speaksentence8("en-GB"),
+                      onPressedAmerican: () => speaksentence8("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The illness can be treated provided it's caught (= discovered) early enough.""",
+                      kurdishText:
+                          "نەخۆشییەکە دەکرێت چارەسەر بکرێت ئەگەر بەپێی پێویست زوو پێی بزانرێت.",
+                      onPressedBritish: () => speaksentence9("en-GB"),
+                      onPressedAmerican: () => speaksentence9("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """The illness frequently coexists with other chronic diseases.""",
+                      kurdishText:
+                          "نەخۆشییەکە زۆرجار ھاوکات دەبێت لەگەڵ نەخۆشی درێژخایەندا.",
+                      onPressedBritish: () => speaksentence11("en-GB"),
+                      onPressedAmerican: () => speaksentence11("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """Bad diet is closely connected with many common illnesses.""",
+                      kurdishText:
+                          "خۆراکی ڕۆژانەی ناتەندرووست بەتوندی بەستراوەتەوە بە زۆر نەخۆشی باوەوە.",
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
@@ -1122,8 +1168,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The doctor managed to cure her of her illness.""",
+                      kurdishText: "پزیشکەکە توانی نەخۆشییەکەی چارەسەر بکات.",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -1131,8 +1178,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was now completely cured of his illness.""",
+                      kurdishText:
+                          """ئێستا بە تەواوی لە نەخۆشییەکە چارەسەر کرابوو.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -1140,17 +1189,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence16("en-GB"),
-                      onPressedAmerican: () => speaksentence16("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence1700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A very high temperature often denotes a serious illness.""",
+                      kurdishText:
+                          "بوونی تایەکی زۆر زۆرجار ئاماژەیە بە نەخۆشییەکی سەخت.",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -1158,8 +1200,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He fought the illness with courage and determination.""",
+                      kurdishText:
+                          "بە بوێری و ویستی بەھێزەوە دژی نەخۆشییەکە وەستایەوە.",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -1167,8 +1211,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The illness was diagnosed as cancer.""",
+                      kurdishText: "نەخۆشییەکە بە شێرپەنجە دەستنیشان کرا.",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -1176,8 +1220,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_2000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She died peacefully after a long illness.""",
+                      kurdishText:
+                          "لە دوای نەخۆشییەکی درێژخایەن بە ئاسوودەیی مرد.",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
@@ -1185,8 +1231,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The illness resulted in his discharge from the army.""",
+                      kurdishText:
+                          "نەخۆشییەکە درووست بوو بەھۆی دەرکردنی لە سوپا.",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
@@ -1194,8 +1242,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She draws an important distinction between the different kinds of illness.""",
+                      kurdishText:
+                          "جیاوازییەکی گرنگ دەکات لە نێوان جۆرە جیاوازەکانی نەخۆشیدا.",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -1203,8 +1253,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Taking antibiotics will shorten the duration of the illness.""",
+                      kurdishText:
+                          """وەرگرتنی دژەبەکتریا ماوەی نەخۆشییەکە کەمدەکاتەوە.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
@@ -1212,8 +1264,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He showed remarkable endurance throughout his illness.""",
+                      kurdishText:
+                          """بەرگەگرتنی ناوازەی پیشان دا بەدرێژایی نەخۆشییەکەی.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
@@ -1221,8 +1275,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The exact nature of her illness (= precisely what her illness is) has not been made public.""",
+                      kurdishText:
+                          """سرووشتی تەواوی نەخۆشییەکەی ئاشکرا نەکراوە.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
@@ -1230,8 +1286,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He's still getting over his illness, so it's unrealistic to expect too much from him.""",
+                      kurdishText:
+                          """ھێشتا لە نەخۆشییەکەی باش دەبێتەوە، بۆیە ناکرێت پێشبینی زۆری لێ بکرێت.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
@@ -1239,8 +1297,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She's having some exploratory tests done to find out what's causing the illness.""",
+                      kurdishText:
+                          """ھەندێک تاقیکردنەوەی دۆزینەوەیی دەکات بۆ دۆزینەوەی ئەوەی چی دەبێتە ھۆکاری نەخۆشییەکە.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
@@ -1248,8 +1308,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Many tribes became extinct when they came into contact with Western illnesses.""",
+                      kurdishText:
+                          """زۆر تیرە لەناوچوون بەھۆی تووشبوون بە نەخۆشی ڕۆژئاوایی.""",
                       onPressedBritish: () => speaksentence28("en-GB"),
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),
@@ -1257,8 +1319,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence2900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She's very thin after her illness—but we'll soon fatten her up.""",
+                      kurdishText:
+                          """لە دوای نەخۆشییەکەی زۆر باریک بووە ـ بەڵام قەڵەوی دەکەینەوە.""",
                       onPressedBritish: () => speaksentence29("en-GB"),
                       onPressedAmerican: () => speaksentence29("en-US"),
                     ),
@@ -1266,8 +1330,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_3000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You may find it hard to accept your illness.""",
+                      kurdishText:
+                          """لەوانەیە بە سەختی ببینیت نەخۆشییەکەت پەسەند بکەیت.""",
                       onPressedBritish: () => speaksentence30("en-GB"),
                       onPressedAmerican: () => speaksentence30("en-US"),
                     ),
@@ -1275,8 +1341,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence3100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The relative frequency of this illness in the area is of concern to all doctors.""",
+                      kurdishText:
+                          """ڕێژەی تا ڕادەیەک زۆر ڕوودانی ئەم نەخۆشییە لە ناوچەکە مایەی نیگەرانیی ھەموو پزیشکانە.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),

@@ -1037,7 +1037,7 @@ Noun: find (derived forms: finds)
                       englishText:
                           """You may find it hard to accept your illness.""",
                       kurdishText:
-                          """بە سەختی دەبینیت نەخۆشییەکەت پەسەند بکەیت.""",
+                          """لەوانەیە بە سەختی ببینیت نەخۆشییەکەت پەسەند بکەیت.""",
                       englishNote:
                           "Also: You may find your illness hard to accept.",
                       onPressedBritish: () => speaksentence37("en-GB"),

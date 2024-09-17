@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryi extends StatefulWidget {
-  const EnglishEntryi({super.key});
+class EnglishEntryignorant extends StatefulWidget {
+  const EnglishEntryignorant({super.key});
 
   @override
-  State<EnglishEntryi> createState() => _EnglishEntryiState();
+  State<EnglishEntryignorant> createState() => _EnglishEntryignorantState();
 }
 
-class _EnglishEntryiState extends State<EnglishEntryi> {
+class _EnglishEntryignorantState extends State<EnglishEntryignorant> {
   @override
   void initState() {
     super.initState();
@@ -52,23 +52,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: i
-1. The 9th letter of the Roman alphabet (- I)
-
-- Adjective: i
-1. Used of a single unit or thing; not two or more (- one, 1, ane [UK, dialect])
-
-- Pronoun: I 
-1. Refers to the speaker or writer
-
-- Noun: I (Derived forms: Is)
-1. A nonmetallic element belonging to the halogens; used especially in medicine and photography and in dyes; occurs naturally only in combination in small quantities (as in sea water or rocks) (- iodine, iodin, atomic number 53)
+- Adjective: ignorant
+1. Uneducated in general; lacking knowledge or sophistication (- nescient, unlearned, unlettered)
+"an ignorant man";
  
-2. The smallest whole number or a numeral representing this number (- one, 1, ace, single, unity)
+2. Uneducated in the fundamentals of a given art or branch of learning; lacking knowledge of a specific field (- illiterate)
+"she is ignorant of quantum mechanics";
+ 
+3. Unaware because of a lack of relevant information or knowledge (- unknowledgeable, unknowing, unwitting)
+"he was completely ignorant of the circumstances";
+ 
+4. Showing no courtesy; rude (- discourteous)
 """,
   );
 
-  final String keyword = "i";
+  final String keyword = "ignorant";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -88,56 +86,59 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""i""");
+    await flutterTts.speak("""ignorant""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I think I'd better go now.""");
+    await flutterTts.speak("""Never make your students feel ignorant.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He and I are old friends.""");
+    await flutterTts
+        .speak("""I decided to continue acting ignorant, just for fun.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""When they asked me if I wanted the job, I said yes.""");
+    await flutterTts.speak(
+        """At that time I was young and ignorant, with little experience of the world.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm not going to fall, am I?""");
+    await flutterTts
+        .speak("""At that time I was ignorant of events going on elsewhere.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm taller than her, aren't I?""");
+    await flutterTts.speak("""He's ignorant about modern technology.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Jen and I went to London yesterday.""");
+    await flutterTts.speak("""You're behaving like a stupid ignorant child!""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""‘Island’ begins with (an) I/‘I’.""");
+    await flutterTts.speak("""speaksentence700""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -933,20 +934,19 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/e_04ZrNroTo?t=';
-    const double startSecondsend = 000000000000000000000000000160;
-    const String videoIdone = 'https://youtu.be/ohHYABXMqUQ?t=';
-    const double startSecondsone = 00000000000000000000000000011;
-    const String videoIdtwo = 'https://youtu.be/Wm4R8d0d8kU?t=';
-    const double startSecondstwo = 00000000000000000000000000014;
-    const String videoIdthree = 'https://youtu.be/3YltYCrPZos?t=';
-    const double startSecondsthree = 00000000000000000000000000014;
-    const String videoIdfour = 'https://youtu.be/rPe4yziWiOg?t=';
-    const double startSecondsfour = 000000000000000000000000000141;
-    const String videoIdfive = 'https://youtu.be/HvNdJ2RCReg?t=';
-    const double startSecondsfive = 00000000000000000000000000011;
+    const String videoIdend = 'https://youtu.be/Cqbleas1mmo?t=';
+    const double startSecondsend = 000000000000000000000000000511;
+    const String videoIdone = 'https://youtu.be/A5a2Guy8-_8?t=';
+    const double startSecondsone = 00000000000000000000000000034;
+    const String videoIdtwo = 'https://youtu.be/pflmIVb5Mbg?t=';
+    const double startSecondstwo = 000000000000000000000000000542;
+    const String videoIdthree = 'https://youtu.be/fHsa9DqmId8?t=';
+    const double startSecondsthree = 000000000000000000000000000308;
+    const String videoIdfour = 'https://youtu.be/S4qvPouh1gE?t=';
+    const double startSecondsfour = 000000000000000000000000000444;
+    const String videoIdfive = 'https://youtu.be/f5jwTft6654?t=';
+    const double startSecondsfive = 000000000000000000000000000602;
 
     return DefaultTabController(
       length: 4,
@@ -959,10 +959,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """i""",
-                      // alsoEnglishWord: "also: i",
-                      britshText: """IpaUK: /aɪ/""",
-                      americanText: """IpaUS: /aɪ/""",
+                      word: """ignorant""",
+                      // alsoEnglishWord: "also: ignorant",
+                      britshText: """IpaUK: /ˈɪɡnərənt/""",
+                      americanText: """IpaUS: /ˈɪɡnərənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -1000,13 +1000,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نائاگادار، بێ‌خەبەر، بێ‌ئاگا، بێ‌زانست، نەزانیو، نەزان، لە ڕووی نەزانی‌یەوە، نەفام، بێ‌ئەدەب، بێ‌ماریفەت
 """),
-// With short examples define "i", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (جێناو) جێناوی کەسی یەکەمی تاک؛ من"""),
+// With short examples define "ignorant", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ئەوەی زانیاریی زۆرت لەسەر شتێک نەبێت"""),
                     SentencesRow(
-                      englishText: """I think I'd better go now.""",
-                      kurdishText: """پێم باشترە ئێستا بچم.""",
+                      englishText:
+                          """Never make your students feel ignorant.""",
+                      kurdishText:
+                          """هەرگیز وەها لە مناڵەکانت مەکە هەست بە نەزانی بکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1014,8 +1018,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He and I are old friends.""",
-                      kurdishText: """ئەو و من هاوڕێی کۆنین.""",
+                      englishText:
+                          """I decided to continue acting ignorant, just for fun.""",
+                      kurdishText:
+                          """بڕیارم دا وەک نەزان ڕەفتار بکەم، هەر بۆ خۆشی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1023,17 +1029,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """When they asked me if I wanted the job, I said yes.""",
-                      kurdishText: """کە لێمیان پرسی کە کارەکەم دەوێت، گوتم بەڵێ.""",
+                      englishText:
+                          """At that time I was young and ignorant, with little experience of the world.""",
+                      kurdishText:
+                          """لەو کاتەدا گەنج و نەزان بووم بە ئەزموونی کەمی جیهانەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە هیچ زانیاریت نەبێت لەسەر شتێکی دیاریکراو"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'm not going to fall, am I?""",
-                      kurdishText: """ناکەوم، وایە؟""",
+                      englishText:
+                          """At that time I was ignorant of events going on elsewhere.""",
+                      kurdishText:
+                          """لەو کاتەدا نەزان بووم لەسەر ئەو ڕووداوانەی لە شوێنی دیکە ڕوویان دەدا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1041,26 +1053,29 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'm taller than her, aren't I?""",
-                      kurdishText: """بەرزترم لێی، وانیم؟""",
+                      englishText: """He's ignorant about modern technology.""",
+                      kurdishText: """نەزانە لەسەر تەکنەلۆژیای سەردەم.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) بە هەڵسووکەوتی خراپەوە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """You're behaving like a stupid ignorant child!""",
+                      kurdishText:
+                          """وەک منداڵێکی گەمژەی بێ‌ئەدەب ڕەفتار دەکەیت.""",
+                      onPressedBritish: () => speaksentence6("en-GB"),
+                      onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Jen and I went to London yesterday.""",
-                      kurdishText: """جێن و من دوێنێ چووین بۆ لەندەن.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) نۆیەم پیتی ئەلفوبێ"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """‘Island’ begins with (an) I/‘I’.""",
-                      kurdishText: """وشەی ‘Island’ بە I/‘I’ دەست پێدەکات.""",
+                      englishText: """speaksentence700""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

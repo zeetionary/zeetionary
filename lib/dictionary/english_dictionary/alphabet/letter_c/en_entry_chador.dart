@@ -173,7 +173,7 @@ class EnglishEntrychador extends StatelessWidget {
                             englishText:
                                 "For many women, wearing a chador is a way to express their faith and cultural identity.",
                             kurdishText:
-                                "بۆ زۆر ژن، لەبەرکردنی چارشێوێک ڕێگایەکە بۆ پیشاندانی ئایین و ناسنامەی نەتەوەیی.",
+                                "بۆ زۆر ژن، لەبەرکردنی چارشێوێک ڕێگایەکە بۆ پیشاندانی ئایین و ناسنامەی کەلتووری.",
                             onPressedBritish: () => speakchadors1("en-GB"),
                             onPressedAmerican: () => speakchadors1("en-US"),
                           ),

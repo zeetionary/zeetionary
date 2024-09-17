@@ -7068,6 +7068,7 @@ final List<String> allWordsEnglish = [
   "front-page", //// فففف front-page
   "frontier",
   "frost",
+  "frosting",
   "frostbite",
   "frostbitten",
   "frosty",

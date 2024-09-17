@@ -227,14 +227,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("She is a democrat and volunteers for the party.");
   }
 
-  Future<void> speakdemocrats20(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("He identifies as a democrat and supports free speech.0");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

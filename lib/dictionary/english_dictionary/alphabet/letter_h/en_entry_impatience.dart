@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpatience extends StatefulWidget {
+  const EnglishEntryimpatience({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpatience> createState() => _EnglishEntryimpatienceState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpatienceState extends State<EnglishEntryimpatience> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: impatience (Derived forms: impatiences)
+1. A lack of patience; irritation with anything that causes delay (- restlessness)
+ 
+2. A restless desire for change and excitement
+ 
+3. A dislike of anything that causes delay
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impatience";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +81,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impatience""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,14 +89,15 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """There's a growing impatience among the electorate with the old two-party system.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""She was bursting with impatience to tell me the news.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +929,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsend = 0000000000000000000000000001857;
+    const String videoIdone = 'https://youtu.be/6HBPHRDEt_Q?t=';
+    const double startSecondsone = 000000000000000000000000000450;
+    const String videoIdtwo = 'https://youtu.be/YAKcbvioxFk?t=';
+    const double startSecondstwo = 000000000000000000000000000734;
+    const String videoIdthree = 'https://youtu.be/dsWl42Uplt8?t=';
+    const double startSecondsthree = 000000000000000000000000000841;
+    const String videoIdfour = 'https://youtu.be/axiYo61XRRw?t=';
+    const double startSecondsfour = 0000000000000000000000000002187;
+    const String videoIdfive = 'https://youtu.be/MeXyRyxCjT4?t=';
+    const double startSecondsfive = 000000000000000000000000000192;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +953,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impatience""",
+                      // alsoEnglishWord: "also: impatience",
+                      britshText: """IpaUK: /ɪmˈpeɪʃns/""",
+                      americanText: """IpaUS: /ɪmˈpeɪʃns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,26 +994,30 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌ئۆقرەیی، ژان‌کردوویی، بێ‌ئارامی، حەجمان لێ‌هەڵگیران، بێن‌تەنگی، ئارام‌نەمان، بێ‌سەبری، بێ‌تاقەتی
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impatience", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ناو) هەستی ئەوەی کە بێزاریت لە کەسێک/شتێک بەهۆی ئەوەی دەبێت بۆ ماوەیەکی درێژ چاوەڕێ بکەیت"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """There's a growing impatience among the electorate with the old two-party system.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """بێ‌ئارامی زۆر هەیە لەناو دەنگدەراندا سەبارەت بە سیستەمە کۆنە دوو پارتییەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) حەز بۆ کردنی شتێک بە زووی یان ئەوەی شتێک بە زەووی ڕووبدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was bursting with impatience to tell me the news.""",
+                      kurdishText:
+                          """لە بێ‌ئۆقرەییدا دەتەقییەوە بۆ گوتنی هەواڵەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

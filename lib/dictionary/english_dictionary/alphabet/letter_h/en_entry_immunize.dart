@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimmunize extends StatefulWidget {
+  const EnglishEntryimmunize({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimmunize> createState() => _EnglishEntryimmunizeState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimmunizeState extends State<EnglishEntryimmunize> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Verb: immunize (Derived forms: immunizing, immunizes, immunized)
+1. Grant immunity from prosecution (- immunise [Brit])
+ 
+2. (medicine) perform vaccinations or produce immunity in by inoculation (- immunise [Brit], inoculate, vaccinate, vax [informal], jab [Brit, informal])
+"We immunize against scarlet fever";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "immunize";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +80,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""immunize""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,14 +88,15 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """Children have been routinely immunized against polio since 1958.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Parents are advised to have their children immunized against diphtheria.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/MXQ43yyJvgs?t=';
+    const double startSecondsend = 0000000000000000000000000001383;
+    const String videoIdone = 'https://youtu.be/czjisEGe5Cw?t=';
+    const double startSecondsone = 000000000000000000000000000877;
+    const String videoIdtwo = 'https://youtu.be/F6NKbQzo4aE?t=';
+    const double startSecondstwo = 000000000000000000000000000372;
+    const String videoIdthree = 'https://youtu.be/hzNo5lZCq5M?t=';
+    const double startSecondsthree = 000000000000000000000000000126;
+    const String videoIdfour = 'https://youtu.be/m5Lwwbe7HiI?t=';
+    const double startSecondsfour = 000000000000000000000000000193;
+    const String videoIdfive = 'https://youtu.be/9yQs3oQ1dC8?t=';
+    const double startSecondsfive = 0000000000000000000000000001135;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """immunize""",
+                      // alsoEnglishWord: "also: immunize",
+                      britshText: """IpaUK: /ˈɪmjənaɪz/""",
+                      americanText: """IpaUS: /ˈɪmjənaɪz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +995,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "immunize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (کردار) پاراستنی کەسێک یان ئاژەڵێک لە نەخۆشییەک، بە تایبەتی بە پێدانی قەترەیەک/ژەمێک لە ڤاکسینێک"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """Children have been routinely immunized against polio since 1958.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """لە ساڵی ١٩٥٨ ـەوە منداڵان دژ بە ئیفلیجی کوتراون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1011,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Parents are advised to have their children immunized against diphtheria.""",
+                      kurdishText:
+                          "دایبابان ئامۆژگاری دەکرێن منداڵەکانیان دژ بە پێران بکوتن.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

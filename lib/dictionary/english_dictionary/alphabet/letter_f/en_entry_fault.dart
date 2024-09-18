@@ -452,7 +452,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """I think my worst fault is impatience.""",
-            kurdishText: """پێموایە خراپترین عەیبەم نائارامییە.""",
+            kurdishText: """پێموایە خراپترین عەیبەم بێ‌ئۆقرەییە.""",
             onPressedBritish: () => speaksentence9("en-GB"),
             onPressedAmerican: () => speaksentence9("en-US"),
           ),

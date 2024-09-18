@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimitation extends StatefulWidget {
+  const EnglishEntryimitation({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimitation> createState() => _EnglishEntryimitationState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimitationState extends State<EnglishEntryimitation> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: imitation (Derived forms: imitations)
+1. The doctrine that representations of nature or human behaviour should be accurate imitations
+ 
+2. Something copied or derived from an original
+ 
+3. Copying (or trying to copy) the actions of someone else
+ 
+4. A representation of a person that is exaggerated for comic effect (- caricature, impersonation)
+
+- Adjective: imitation
+1. Not genuine or real; being an imitation of the genuine article (- fake, false, faux, simulated)
+"decorated with imitation palm leaves";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imitation";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,43 +87,43 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imitation""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""She would never wear imitation pearls.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Accept no cheap imitations of our product!""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""A child learns to talk by imitation.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Many corporate methods have been adopted by American managers in imitation of Japanese practice.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""She does a perfect imitation of a turkey.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,18 +934,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/KhBxCx11eck?t=';
+    const double startSecondsend = 000000000000000000000000000970;
+    const String videoIdone = 'https://youtu.be/bc5BnTYRgx8?t=';
+    const double startSecondsone = 000000000000000000000000000174;
+    const String videoIdtwo = 'https://youtu.be/1R5uPaL0V-0?t=';
+    const double startSecondstwo = 000000000000000000000000000533;
+    const String videoIdthree = 'https://youtu.be/6BTJ7feX0aQ?t=';
+    const double startSecondsthree = 000000000000000000000000000803;
+    const String videoIdfour = 'https://youtu.be/6T_-DiAzYBc?t=';
+    const double startSecondsfour = 000000000000000000000000000128;
+    const String videoIdfive = 'https://youtu.be/VKqC5w207O4?t=';
+    const double startSecondsfive = 000000000000000000000000000341;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +958,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imitation""",
+                      // alsoEnglishWord: "also: imitation",
+                      britshText: """IpaUK: /ˌɪmɪˈteɪʃn/""",
+                      americanText: """IpaUS: /ˌɪmɪˈteɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +999,13 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لاسایی(کردنەوە)، دەمەلاسکە، چاولێکەری،	سەرمەشق، نموونە، کۆپی، ساختە، دەسکرد
 """),
-// With short examples define "illustriously", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+// With short examples define "imitation", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) ساختەی شتێک"""),
                     SentencesRow(
-                      englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                      englishText: """She would never wear imitation pearls.""",
+                      kurdishText: """هەرگیز مرواری ساختە نابەستێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,17 +1013,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Accept no cheap imitations of our product!""",
+                      kurdishText:
+                          """هیچ لاسایی‌کردنەوەیەکی هەرزانی بەرهەمەکەمان پەسەند مەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) کاری ساختەکردنی ک/شت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """A child learns to talk by imitation.""",
+                      kurdishText:
+                          """منداڵ فێردەبێت قسە بکات بە لاسایی‌کردنەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1027,17 +1035,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Many corporate methods have been adopted by American managers in imitation of Japanese practice.""",
+                      kurdishText:
+                          """زۆر ڕێگای کۆمپانیا لەلایەن بەڕێوەبەرانی ئەمریکییەوە هەڵگیراونەتەوە وەک لاسایی‌کردنەوەی کارکردنی ژاپۆنی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) لاسایی کردنەوەی خەڵکی، بە تایبەتی بۆ ئەوەی وا بکەیت خەڵکی پێبکەنن"""),
+                    const AlsoEnglishckb(
+                        word: "ھەروەھا: impersonation، impression"),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She does a perfect imitation of a turkey.""",
+                      kurdishText: """لاسایی ناوازەی قەل دەکاتەوە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

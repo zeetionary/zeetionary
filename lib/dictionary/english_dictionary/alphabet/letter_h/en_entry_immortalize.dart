@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimmortalize extends StatefulWidget {
+  const EnglishEntryimmortalize({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimmortalize> createState() =>
+      _EnglishEntryimmortalizeState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimmortalizeState extends State<EnglishEntryimmortalize> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Verb: immortalize (Derived forms: immortalizing, immortalizes, immortalized)
+1. Be or provide a memorial to a person or an event (- commemorate, memorialize, memorialise [Brit], immortalise [Brit])
+"This sculpture immortalizes the victims of the concentration camps";
+ 
+2. Make famous forever (- immortalise [Brit], eternize, eternise [Brit], eternalize, eternalise [Brit])
+"This melody immortalized its composer";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "immortalize";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +82,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""immortalize""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,7 +90,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """The poet fell in love with her and immortalized her in his verse.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +929,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/0E0rarldXK0?t=';
+    const double startSecondsend = 0000000000000000000000000003;
+    const String videoIdone = 'https://youtu.be/YvZPU-KBCiQ?t=';
+    const double startSecondsone = 000000000000000000000000000798;
+    const String videoIdtwo = 'https://youtu.be/67cWZ8c2Tbw?t=';
+    const double startSecondstwo = 000000000000000000000000000412;
+    const String videoIdthree = 'https://youtu.be/BD9AarmQctI?t=';
+    const double startSecondsthree = 000000000000000000000000000260;
+    const String videoIdfour = 'https://youtu.be/lBj7vTUUpYM?t=';
+    const double startSecondsfour = 000000000000000000000000000761;
+    const String videoIdfive = 'https://youtu.be/ylgq8TX-xWE?t=';
+    const double startSecondsfive = 000000000000000000000000000693;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +953,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """immortalize""",
+                      // alsoEnglishWord: "also: immortalize",
+                      britshText: """IpaUK: /ɪˈmɔːtəlaɪz/""",
+                      americanText: """IpaUS: /ɪˈmɔːrtəlaɪz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +996,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "immortalize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (کردار) ئەوەی نەهێڵیت ک/شت لە داهاتوودا لەبیربکرێت"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The poet fell in love with her and immortalized her in his verse.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """هۆزانڤانەکە کەوتە خۆشەویستی لەگەڵی نەمری پێبەخشی لە هۆنراوەکانی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

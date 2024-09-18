@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimbue extends StatefulWidget {
+  const EnglishEntryimbue({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimbue> createState() => _EnglishEntryimbueState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimbueState extends State<EnglishEntryimbue> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Verb: imbue (Derived forms: imbued, imbues, imbuing)
+1. Spread or diffuse through (- permeate, pervade, penetrate, interpenetrate, diffuse, riddle)
+"An atmosphere of distrust has imbued this administration";
+ 
+2. Fill, soak, or imbue totally (- soak)
+"imbue the bandage with disinfectant";
+ 
+3. Suffuse with colour (- hue)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imbue";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,15 +83,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imbue""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""He was imbued with a desire for social justice.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +930,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/_fnhy5xO9vQ?t=';
+    const double startSecondsend = 000000000000000000000000000377;
+    const String videoIdone = 'https://youtu.be/2MZZrDA-I4M?t=';
+    const double startSecondsone = 00000000000000000000000000084;
+    const String videoIdtwo = 'https://youtu.be/N5FQRGfPy8I?t=';
+    const double startSecondstwo = 0000000000000000000000000002944;
+    const String videoIdthree = 'https://youtu.be/v5tJBLfeurU?t=';
+    const double startSecondsthree = 000000000000000000000000000204;
+    const String videoIdfour = 'https://youtu.be/FJocv6OyEFk?t=';
+    const double startSecondsfour = 000000000000000000000000000435;
+    const String videoIdfive = 'https://youtu.be/ABtt5y-maO4?t=';
+    const double startSecondsfive = 000000000000000000000000000118;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +954,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imbue""",
+                      // alsoEnglishWord: "also: imbue",
+                      britshText: """IpaUK: /ɪmˈbjuː/""",
+                      americanText: """IpaUS: /ɪmˈbjuː/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +997,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imbue", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (کردار) پێدانی هەست، بۆچوون، یان بەهای بەهێز بە ک/شت"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """He was imbued with a desire for social justice.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """ئەو پڕ بوو لە خواستی دادپەروەری کۆمەڵایەتی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

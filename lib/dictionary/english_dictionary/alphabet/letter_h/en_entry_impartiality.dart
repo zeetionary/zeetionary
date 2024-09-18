@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpartiality extends StatefulWidget {
+  const EnglishEntryimpartiality({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpartiality> createState() =>
+      _EnglishEntryimpartialityState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpartialityState extends State<EnglishEntryimpartiality> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: impartiality (Derived forms: impartialities)
+1. Treatment of different views or opinions equally and fairly (- nonpartisanship, equity)
+"open-minded impartiality";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impartiality";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impartiality""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,7 +87,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """The state must ensure the independence and impartiality of the justice system.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/EmT0i0xG6zg?t=';
+    const double startSecondsend = 0000000000000000000000000001166;
+    const String videoIdone = 'https://youtu.be/HVq-o5dL6jk?t=';
+    const double startSecondsone = 00000000000000000000000000038;
+    const String videoIdtwo = 'https://youtu.be/sElsPrcgCao?t=';
+    const double startSecondstwo = 00000000000000000000000000016;
+    const String videoIdthree = 'https://youtu.be/oXPhvh4eGcM?t=';
+    const double startSecondsthree = 000000000000000000000000000542;
+    const String videoIdfour = 'https://youtu.be/_S8R2Nri5pU?t=';
+    const double startSecondsfour = 000000000000000000000000000256;
+    const String videoIdfive = 'https://youtu.be/drCGm4wW7ok?t=';
+    const double startSecondsfive = 000000000000000000000000000153;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impartiality""",
+                      // alsoEnglishWord: "also: impartiality",
+                      britshText: """IpaUK: /ˌɪmˌpɑːʃiˈæləti/""",
+                      americanText: """IpaUS: /ˌɪmˌpɑːrʃiˈæləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +991,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌لایەنی، لانەگری، نادەمارگرژی
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impartiality", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) ئەوەی کە بێ‌لایەن بیت و پشتگیری کەسێک/لایەنێک نەکەیت زیاتر لە یەکێکی دیکە"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The state must ensure the independence and impartiality of the justice system.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """دەوڵەت دەبێت دڵنیایی بدات لە سەربەخۆیی و بێ‌لایەنی سیستەمی دادوەری.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpassable extends StatefulWidget {
+  const EnglishEntryimpassable({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpassable> createState() => _EnglishEntryimpassableState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpassableState extends State<EnglishEntryimpassable> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: impassable
+1. Incapable of being passed (- unpassable)
+"For on the one side there is the sea, and on the other vast mountains and forests, impassable to horsemen";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impassable";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +78,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impassable""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,14 +86,15 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """The mountain roads are totally impassable to cars in winter.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """After the storm, many roads were made impassable by fallen trees.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/Q-nWA0WeF98?t=';
+    const double startSecondsend = 000000000000000000000000000889;
+    const String videoIdone = 'https://youtu.be/08mwXICY4JM?t=';
+    const double startSecondsone = 000000000000000000000000000503;
+    const String videoIdtwo = 'https://youtu.be/Mn4VDwaV-oo?t=';
+    const double startSecondstwo = 000000000000000000000000000168;
+    const String videoIdthree = 'https://youtu.be/GOfKwjC_AH4?t=';
+    const double startSecondsthree = 000000000000000000000000000369;
+    const String videoIdfour = 'https://youtu.be/O177L4pu2jg?t=';
+    const double startSecondsfour = 000000000000000000000000000538;
+    const String videoIdfive = 'https://youtu.be/YbmiKG56zuw?t=';
+    const double startSecondsfive = 00000000000000000000000000024;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impassable""",
+                      // alsoEnglishWord: "also: impassable",
+                      britshText: """IpaUK: /ɪmˈpɑːsəbl/""",
+                      americanText: """IpaUS: /ɪmˈpæsəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +991,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پیاتێنەپەڕیو، پیانەڕۆیشتوو، لەبڕین‌نەهاتوو، نابڕدرێ، ڕێ‌گیراو، بێ‌بوار، سەخت، پیاڕەت‌نەبوو، لەڕۆیشتن‌نەهاتوو
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impassable", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) کە ناوچەیەک سەختە پێیدا تێپەڕیت بەهۆی ئەوەی کە لە دۆخێکی خراپە یان بە شتێک گیراوە"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The mountain roads are totally impassable to cars in winter.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """ڕێگا شاخاوییەکان بە تەواوی لەبڕین‌نەهاتوون بۆ ئۆتۆمبێل لە زستاندا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1009,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """After the storm, many roads were made impassable by fallen trees.""",
+                      kurdishText:
+                          """لە دوای زریانەکە، زۆر ڕێگا گیردران بە درەختی کەوتوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

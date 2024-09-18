@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimitative extends StatefulWidget {
+  const EnglishEntryimitative({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimitative> createState() => _EnglishEntryimitativeState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimitativeState extends State<EnglishEntryimitative> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: imitative
+1. Marked by or given to imitation
+"acting is an imitative art"; "man is an imitative being"
+ 
+2. (of words) formed in imitation of a natural sound (- echoic, onomatopoeic, onomatopoeical, onomatopoetic)
+"onomatopoeic words are imitative of noises";
+ 
+3. Not genuine; imitating something superior (- counterfeit)
+"imitative emotion";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imitative";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,22 +84,23 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imitative""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""His work has been criticized for being imitative.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The style is imitative of Basque architecture.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +932,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/Fi66wFfOC-4?t=';
+    const double startSecondsend = 0000000000000000000000000002595;
+    const String videoIdone = 'https://youtu.be/lKq4q6lM2T0?t=';
+    const double startSecondsone = 000000000000000000000000000301;
+    const String videoIdtwo = 'https://youtu.be/BtBBBb9OQD0?t=';
+    const double startSecondstwo = 0000000000000000000000000001345;
+    const String videoIdthree = 'https://youtu.be/AaTRHFaaPG8?t=';
+    const double startSecondsthree = 0000000000000000000000000001107;
+    const String videoIdfour = 'https://youtu.be/y7_wd_FLvu0?t=';
+    const double startSecondsfour = 000000000000000000000000000703;
+    const String videoIdfive = 'https://youtu.be/BLKD2Wf8_wk?t=';
+    const double startSecondsfive = 00000000000000000000000000010043;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +956,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imitative""",
+                      // alsoEnglishWord: "also: imitative",
+                      britshText: """IpaUK: /ˈɪmɪtətɪv/""",
+                      americanText: """IpaUS: /ˈɪmɪteɪtɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +997,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لاسایی‌کەرەوە،	لاسایی‌یانە، لاسایی‌کردنەوەیی، دەسکرد،	کۆپی، ساختە
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imitative", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                        text: """١. (ھاوەڵناو) کە لەبەرگرتنەوەی ک/شتە"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """His work has been criticized for being imitative.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """کارەکەی ڕەخنەی لێگیراوە بۆ ئەوەی لاسایی‌کردنەوە بێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1014,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The style is imitative of Basque architecture.""",
+                      kurdishText:
+                          """ستایڵەکە لاسایی‌کردنەوەی تەلارسازیی باسکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

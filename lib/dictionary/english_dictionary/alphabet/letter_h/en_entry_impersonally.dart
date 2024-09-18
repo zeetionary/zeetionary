@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpersonally extends StatefulWidget {
+  const EnglishEntryimpersonally({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpersonally> createState() =>
+      _EnglishEntryimpersonallyState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpersonallyState extends State<EnglishEntryimpersonally> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adverb: impersonally
+1. Without warmth
+"he treated his patients impersonally"
+ 
+2. In an impersonal manner
+"when I told him about Russ I found it difficult to speak impersonally"
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impersonally";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,29 +82,30 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impersonally""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""He treated her coldly and impersonally, like a stranger.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Doctors learn to look at patients impersonally.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Some verbs can be used impersonally.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,18 +930,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/JHOj7BT4kRo?t=';
+    const double startSecondsend = 0000000000000000000000000002001;
+    const String videoIdone = 'https://youtu.be/355MEuxjcNw?t=';
+    const double startSecondsone = 000000000000000000000000000694;
+    const String videoIdtwo = 'https://youtu.be/Bqtq5XU5K6M?t=';
+    const double startSecondstwo = 000000000000000000000000000373;
+    const String videoIdthree = 'https://youtu.be/5IiTMXl9-Uo?t=';
+    const double startSecondsthree = 00000000000000000000000000015435;
+    const String videoIdfour = 'https://youtu.be/NZ20Dx2-CIA?t=';
+    const double startSecondsfour = 00000000000000000000000000048;
+    const String videoIdfive = 'https://youtu.be/YDuBh7VbGgU?t=';
+    const double startSecondsfive = 000000000000000000000000000176;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +954,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impersonally""",
+                      // alsoEnglishWord: "also: impersonally",
+                      britshText: """IpaUK: /ɪmˈpɜːsənəli/""",
+                      americanText: """IpaUS: /ɪmˈpɜːrsənəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,33 +997,42 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impersonally", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە بەبێ هەستی خۆشی مرۆڤانەیە و وابکات کە هەست بەوە بکەیت گرنگ نیت"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """He treated her coldly and impersonally, like a stranger.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """بە سارد و سڕی مامەڵەی لەگەڵ کرد، وەک نامۆیەک.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە باس لە کەسێکی دیاریکراو ناکات؛ بە شێوەیەک کە سەبارەت بە خەڵکی نییە لەسەر ئاستی تاک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Doctors learn to look at patients impersonally.""",
+                      kurdishText:
+                          """پزیشکان فێردەبن سەیری نەخۆشان بکەن بە بێ‌لایەنانە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵکار) کە it یان there ـی وەک بکەر هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Some verbs can be used impersonally.""",
+                      kurdishText:
+                          """هەندێک کردار دەکرێت بە بکەر نادیاری بەکاربێن.""",
+                      englishNote:
+                          """This means certain verbs can be used in a way that does not refer to a specific person or subject, often seen in sentences where the action happens without a clear agent.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

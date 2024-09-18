@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimperialism extends StatefulWidget {
+  const EnglishEntryimperialism({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimperialism> createState() => _EnglishEntryimperialismState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimperialismState extends State<EnglishEntryimperialism> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: imperialism (Derived forms: imperialisms)
+1. The policy extending a nation's authority by territorial gain, or by the establishment of economic and political dominance over other nations
+ 
+2. A political orientation that advocates imperial interests
+ 
+3. Any instance of aggressive extension of authority
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imperialism";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,15 +81,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imperialism""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""Roman imperialism spread across Europe and the Mediterranean.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -925,19 +926,20 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
+
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/3i1lNJPY-4Q?t=';
+    const double startSecondsend = 000000000000000000000000000792;
+    const String videoIdone = 'https://youtu.be/u7Wja0rdc-U?t=';
+    const double startSecondsone = 000000000000000000000000000390;
+    const String videoIdtwo = 'https://youtu.be/vLpSeMlfZ60?t=';
+    const double startSecondstwo = 000000000000000000000000000615;
+    const String videoIdthree = 'https://youtu.be/vFANgWN2Ul0?t=';
+    const double startSecondsthree = 000000000000000000000000000784;
+    const String videoIdfour = 'https://youtu.be/mtKJTulTrAs?t=';
+    const double startSecondsfour = 000000000000000000000000000387;
+    const String videoIdfive = 'https://youtu.be/Lg-nUy2DalM?t=';
+    const double startSecondsfive = 0000000000000000000000000001573;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imperialism""",
+                      // alsoEnglishWord: "also: imperialism",
+                      britshText: """IpaUK: /ɪmˈpɪəriəlɪzəm/""",
+                      americanText: """IpaUS: /ɪmˈpɪriəlɪzəm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +995,11 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+// With short examples define "imperialism", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) سیستەمێک کە تێیدا وڵاتێک یەکێکی دیکە کۆنترۆڵ دەکات، زۆرجار لە دوای ئەوەی لە جەنگدا تێکیان دەشکێنێت"""),
                     SentencesRow(
-                      englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                      englishText: """Roman imperialism spread across Europe and the Mediterranean.""",
+                      kurdishText: """ئیمپریاڵیزمی ڕۆم بە ئەورووپا و دەریای ناوەڕاست بڵاوبوویەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

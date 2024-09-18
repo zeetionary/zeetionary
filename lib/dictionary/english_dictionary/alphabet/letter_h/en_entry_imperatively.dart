@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimperatively extends StatefulWidget {
+  const EnglishEntryimperatively({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimperatively> createState() =>
+      _EnglishEntryimperativelyState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimperativelyState extends State<EnglishEntryimperatively> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adverb: imperatively
+1. In an imperative and commanding manner (- peremptorily)
+"Many people have been uncertain about what constitutes an imperatively coordinated association";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imperatively";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imperatively""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,14 +87,15 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """The times we live in make it imperatively necessary to revisit these central questions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""I was told, pretty imperatively, to check in my pockets.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +927,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/ke0TvWC2jT4?t=';
+    const double startSecondsend = 000000000000000000000000000831;
+    const String videoIdone = 'https://youtu.be/-hfl0zbTzoY?t=';
+    const double startSecondsone = 000000000000000000000000000458;
+    const String videoIdtwo = 'https://youtu.be/bLHVFKYdmzw?t=';
+    const double startSecondstwo = 000000000000000000000000000599;
+    const String videoIdthree = 'https://youtu.be/OauAdYIrTwQ?t=';
+    const double startSecondsthree = 000000000000000000000000000528;
+    const String videoIdfour = 'https://youtu.be/J5DQRPRBiFI?t=';
+    const double startSecondsfour = 000000000000000000000000000663;
+    const String videoIdfive = 'https://youtu.be/XGE_TZfTaH8?t=';
+    const double startSecondsfive = 000000000000000000000000000463;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +951,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imperatively""",
+                      // alsoEnglishWord: "also: imperatively",
+                      britshText: """IpaUK: /ɪmˈper.ə.tɪv.li/""",
+                      americanText: """IpaUS: /ɪmˈper.ə.t̬ɪv.li/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,26 +992,33 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێویستانە، دەستووردەرانە، زۆردارانە
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imperatively", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە تەواو گرنگە و پێویستی بە مامەڵەی دەستبەجێ هەیە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: vitally"),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The times we live in make it imperatively necessary to revisit these central questions.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """ئەم سەردەمەی تێیدا دەژین وادەکەن پێویستانە گرنگ بێت کە سەیری ئەم پرسیارە گرنگانە بکەینەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە زۆر بە توندی وەک فەرمان دەگوترێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I was told, pretty imperatively, to check in my pockets.""",
+                      kurdishText:
+                          """پێمگوترا، تا ڕادەیەک بە زۆردارانە، کە گیرفانم بپشکنم.""",
+                      englishNote:
+                          """This means someone firmly or urgently told you to look inside your pockets, possibly because they suspect something important, like a lost item or something unexpected, might be in there. The word “imperatively” suggests the person used a commanding or forceful tone.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

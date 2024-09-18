@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpersonation extends StatefulWidget {
+  const EnglishEntryimpersonation({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpersonation> createState() =>
+      _EnglishEntryimpersonationState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpersonationState extends State<EnglishEntryimpersonation> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: impersonation (Derived forms: impersonations)
+1. A representation of a person that is exaggerated for comic effect (- caricature, imitation)
+ 
+2. Pretending to be another person (- imposture)
+ 
+3. Imitating the mannerisms of another person (- personation)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impersonation";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +82,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impersonation""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,7 +90,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """He did an extremely convincing impersonation of the singer.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +929,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/2Fq5NM2A-EQ?t=';
+    const double startSecondsend = 000000000000000000000000000479;
+    const String videoIdone = 'https://youtu.be/B1r4Z3nXPVA?t=';
+    const double startSecondsone = 000000000000000000000000000245;
+    const String videoIdtwo = 'https://youtu.be/1Cw-vODp-8Y?t=';
+    const double startSecondstwo = 000000000000000000000000000566;
+    const String videoIdthree = 'https://youtu.be/9mgwZASlFvw?t=';
+    const double startSecondsthree = 000000000000000000000000000304;
+    const String videoIdfour = 'https://youtu.be/vytJbTcHzKs?t=';
+    const double startSecondsfour = 000000000000000000000000000691;
+    const String videoIdfive = 'https://youtu.be/eaa5onIXG_0?t=';
+    const double startSecondsfive = 000000000000000000000000000819;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +953,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impersonation""",
+                      // alsoEnglishWord: "also: impersonation",
+                      britshText: """IpaUK: /ɪmˌpɜːsəˈneɪʃn/""",
+                      americanText: """IpaUS: /ɪmˌpɜːrsəˈneɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +994,18 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لاسایی(کردنەوە)، خۆکردنەکەسێکی تر، خۆوادەرهێنان، خۆلێ‌گۆڕین،	کەسێتی‌پێدان
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impersonation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ناو) ئەوەی خۆت وەک کەسێک پیشان بدەیت بۆ فریودان یان خۆشی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: impression"),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """He did an extremely convincing impersonation of the singer.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """لاسایی‌کردنەوەی تەواو قایل‌کەری گۆرانیبێژەکەی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

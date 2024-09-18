@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimmortality extends StatefulWidget {
+  const EnglishEntryimmortality({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimmortality> createState() =>
+      _EnglishEntryimmortalityState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimmortalityState extends State<EnglishEntryimmortality> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: immortality (Derived forms: immortalities)
+1. The quality or state of being immortal
+ 
+2. Perpetual life after death
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "immortality";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +80,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""immortality""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,7 +88,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """Many Americans believe in some kind of immortality of the soul.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +927,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/mY3SEMTROas?t=';
+    const double startSecondsend = 0000000000000000000000000001827;
+    const String videoIdone = 'https://youtu.be/oiLdWXLXDeA?t=';
+    const double startSecondsone = 000000000000000000000000000235;
+    const String videoIdtwo = 'https://youtu.be/ZU_MF0NMKhU?t=';
+    const double startSecondstwo = 000000000000000000000000000135;
+    const String videoIdthree = 'https://youtu.be/417Qbwn9yso?t=';
+    const double startSecondsthree = 00000000000000000000000000013;
+    const String videoIdfour = 'https://youtu.be/9uH8-Gj8XrM?t=';
+    const double startSecondsfour = 0000000000000000000000000001137;
+    const String videoIdfive = 'https://youtu.be/zlm1aajH6gY?t=';
+    const double startSecondsfive = 00000000000000000000000000028;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +951,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """immortality""",
+                      // alsoEnglishWord: "also: immortality",
+                      britshText: """IpaUK: /ˌɪmɔːˈtæləti/""",
+                      americanText: """IpaUS: /ˌɪmɔːrˈtæləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +992,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەمری، هەمیشەیی، هەرمان، بێ‌مەرگی، هیچ‌لێنەهاتوویی، تیانەچوویی، هەتاهەتایی‌بوون
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "immortality", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ناو) ئەوەی کە بۆ هەمیشە بژیت یان بەردەوام بیت"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """Many Americans believe in some kind of immortality of the soul.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """زۆرێک ئەمریکی باوەڕیان بە جۆرێک لە نەمری ڕۆح هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpinge extends StatefulWidget {
+  const EnglishEntryimpinge({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpinge> createState() => _EnglishEntryimpingeState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpingeState extends State<EnglishEntryimpinge> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Verb: impinge (Derived forms: impinging, impinged, impinges)
+1. Have a negative effect on, esp. by somehow restricting; infringe upon (- encroach, entrench, trench [archaic])
+"This impinges on my rights as an individual";
+ 
+2. Advance beyond the usual limit (- encroach, infringe)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impinge";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,22 +80,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impinge""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""He never allowed his work to impinge on his private life.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The preparations for war were beginning to impinge.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +927,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsend = 0000000000000000000000000004832;
+    const String videoIdone = 'https://youtu.be/Ad-YqwhUsTE?t=';
+    const double startSecondsone = 00000000000000000000000000094;
+    const String videoIdtwo = 'https://youtu.be/RVxgyz_avQM?t=';
+    const double startSecondstwo = 000000000000000000000000000658;
+    const String videoIdthree = 'https://youtu.be/-C5XV5o9nvc?t=';
+    const double startSecondsthree = 000000000000000000000000000197;
+    const String videoIdfour = 'https://youtu.be/Te2IqFbRR7A?t=';
+    const double startSecondsfour = 000000000000000000000000000866;
+    const String videoIdfive = 'https://youtu.be/QHbqHx3TLBE?t=';
+    const double startSecondsfive = 0000000000000000000000000001123;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +951,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impinge""",
+                      // alsoEnglishWord: "also: impinge",
+                      britshText: """IpaUK: /ɪmˈpɪndʒ/""",
+                      americanText: """IpaUS: /ɪmˈpɪndʒ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +994,16 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impinge", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (کردار) هەبوونی کاریگەرییەکی ڕوون لەسەر کەسێک/شتێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: encroach"),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """He never allowed his work to impinge on his private life.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """هەرگیز نەیهێشت ژیانی کەسیی تێکەڵ بە ژیانی تایبەتیی ببێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1011,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The preparations for war were beginning to impinge.""",
+                      kurdishText: """ئامادەکارییەکان بۆ جەنگ خەریک بوون کاریگەرییان هەبێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

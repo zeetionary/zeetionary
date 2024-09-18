@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimmobile extends StatefulWidget {
+  const EnglishEntryimmobile({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimmobile> createState() => _EnglishEntryimmobileState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimmobileState extends State<EnglishEntryimmobile> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: immobile
+1. Securely fixed in place (- fast, firm)
+"the post was still immobile after being hit by the car";
+ 
+2. Not capable of movement or of being moved
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "immobile";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,29 +80,28 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""immobile""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""She stood immobile by the window.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He stayed immobile, trying to remember where he was.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""His illness has left him completely immobile.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -925,19 +925,20 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
+
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/f7QWMUCMYOE?t=';
+    const double startSecondsend = 000000000000000000000000000773;
+    const String videoIdone = 'https://youtu.be/y4DTW4B3Sjs?t=';
+    const double startSecondsone = 000000000000000000000000000496;
+    const String videoIdtwo = 'https://youtu.be/9mgwZASlFvw?t=';
+    const double startSecondstwo = 000000000000000000000000000257;
+    const String videoIdthree = 'https://youtu.be/qWNHsaszXpc?t=';
+    const double startSecondsthree = 000000000000000000000000000729;
+    const String videoIdfour = 'https://youtu.be/-XwHQxXpt_k?t=';
+    const double startSecondsfour = 000000000000000000000000000466;
+    const String videoIdfive = 'https://youtu.be/eSMQBLD1z-s?t=';
+    const double startSecondsfive = 00000000000000000000000000087;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +951,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """immobile""",
+                      // alsoEnglishWord: "also: immobile",
+                      britshText: """IpaUK: /ɪˈməʊbaɪl/""",
+                      americanText: """IpaUS: /ɪˈməʊbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +992,14 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: جێگیر، تەکان‌نەخواردوو، چەق‌بەستوو، ڕەق، وشک، چرکەنەکردوو، ڕاوێستاو، نەبزێو، نەجووڵ، چەقیو
 """),
-// With short examples define "illustriously", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+// With short examples define "immobile", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە نەجووڵێیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: motionless"),
                     SentencesRow(
-                      englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                      englishText: """She stood immobile by the window.""",
+                      kurdishText: """بێ‌جووڵە لای پەنجەرەکە وەستا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,17 +1007,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He stayed immobile, trying to remember where he was.""",
+                      kurdishText: """بێ‌جووڵە وەستا و هەوڵی دەدا بیری بێتەوە لە کوێ بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە نەتوانیت بچووڵێیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His illness has left him completely immobile.""",
+                      kurdishText: """نەخۆشییەکەی تەواو بێ‌جووڵە هێشتوویەتییەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpertinent extends StatefulWidget {
+  const EnglishEntryimpertinent({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpertinent> createState() =>
+      _EnglishEntryimpertinentState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpertinentState extends State<EnglishEntryimpertinent> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: impertinent
+1. Lively and humorously cheeky or forward (- irreverent, pert, saucy [informal], cheeky [Brit, informal])
+"a certain impertinent gaiety and ease of manner";
+ 
+2. Not pertinent to the matter under consideration (- extraneous, immaterial, orthogonal)
+"mentioned several impertinent facts before finally coming to the point";
+ 
+3. Improperly forward or bold (- fresh, impudent, overbold, smart, saucy [informal], sassy [N. Amer, informal], wise, lippy [informal])
+"impertinent of a child to lecture a grownup";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impertinent";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,22 +85,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impertinent""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""Would it be impertinent to ask why you're leaving?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She found the question highly impertinent.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +932,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/sXeyj6EGVho?t=';
+    const double startSecondsend = 0000000000000000000000000002983;
+    const String videoIdone = 'https://youtu.be/AhLR1SXjDmY?t=';
+    const double startSecondsone = 0000000000000000000000000003464;
+    const String videoIdtwo = 'https://youtu.be/sBODfLEZfWg?t=';
+    const double startSecondstwo = 00000000000000000000000000031;
+    const String videoIdthree = 'https://youtu.be/adaKJcf9yLE?t=';
+    const double startSecondsthree = 0000000000000000000000000001453;
+    const String videoIdfour = 'https://youtu.be/hLSzvxpUEeY?t=';
+    const double startSecondsfour = 000000000000000000000000000720;
+    const String videoIdfive = 'https://youtu.be/L2h1Nzy_n-A?t=';
+    const double startSecondsfive = 000000000000000000000000000204;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +956,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impertinent""",
+                      // alsoEnglishWord: "also: impertinent",
+                      britshText: """IpaUK: /ɪmˈpɜːtɪnənt/""",
+                      americanText: """IpaUS: /ɪmˈpɜːrtnənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +997,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕوودار، بێ‌شەرم، ڕووهەڵماڵراو، بێ‌ڕەوشتانە، بێ‌شەرمانە، پێکەوەنەبەستراو، بێ‌پێوەند، ناپێوەندیدار
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impertinent", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) نەبوونی ڕێز بۆ کەسێکی بەتەمەنتر یان گرنگتر"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: impolite"),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """Would it be impertinent to ask why you're leaving?""",
+                      kurdishText: """ڕووداری دەبێت ئەگەر بپرسم بۆچی دەچیت؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1015,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She found the question highly impertinent.""",
+                      kurdishText: """پرسیارەکەی بە تەواو بێ‌شەرمانە بینی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

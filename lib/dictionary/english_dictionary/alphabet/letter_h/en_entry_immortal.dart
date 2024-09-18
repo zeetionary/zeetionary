@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimmortal extends StatefulWidget {
+  const EnglishEntryimmortal({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimmortal> createState() => _EnglishEntryimmortalState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimmortalState extends State<EnglishEntryimmortal> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: immortal
+1. Not subject to death
+
+- Noun: immortal (Derived forms: immortals)
+1. A person (such as an author) of enduring fame
+"Shakespeare is one of the immortals"
+ 
+2. Any supernatural being worshipped as controlling some part of the world or some aspect of life or who is the personification of a force (- deity, divinity, god)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "immortal";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,29 +83,30 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""immortal""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""In the poem, Satan vows revenge and immortal hate.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He believed himself immortal.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """In the immortal words of Henry Ford, ‘If it ain't broke, don't fix it.’""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,18 +931,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/tLD-OUkYtk4?t=';
+    const double startSecondsend = 000000000000000000000000000191;
+    const String videoIdone = 'https://youtu.be/oiLdWXLXDeA?t=';
+    const double startSecondsone = 000000000000000000000000000216;
+    const String videoIdtwo = 'https://youtu.be/69ZyEw0T7Z8?t=';
+    const double startSecondstwo = 000000000000000000000000000165;
+    const String videoIdthree = 'https://youtu.be/DxREm3s1scA?t=';
+    const double startSecondsthree = 0000000000000000000000000002677;
+    const String videoIdfour = 'https://youtu.be/Ix6vtM4gP8g?t=';
+    const double startSecondsfour = 000000000000000000000000000167;
+    const String videoIdfive = 'https://youtu.be/2ot7GKuEqas?t=';
+    const double startSecondsfive = 000000000000000000000000000613;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +955,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """immortal""",
+                      // alsoEnglishWord: "also: immortal",
+                      britshText: """IpaUK: /ɪˈmɔːtl/""",
+                      americanText: """IpaUS: /ɪˈmɔːrtl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +996,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەمر، تیانەچوو، بێ‌مەرگ، هەرماو، هیچ‌لێنەهاتوو، هەمیشەزیندوو، هەمیشەیی، هەتاهەتایی، ئەبەدی، لەبیرنەکراو
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "immortal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) کە بۆ هەمیشەیی دەژی یان دەمێنێتەوە"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """In the poem, Satan vows revenge and immortal hate.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """لە هۆنراوەکەدا، شەیتان بەڵێنی تۆڵە و تووڕەیی نەبڕاوە دەدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,17 +1014,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He believed himself immortal.""",
+                      kurdishText: """خۆی بە نەمر دەبینی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە بەناوبانگە و دەکرێت بۆ هەمیشەیی بەردەوام بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In the immortal words of Henry Ford, ‘If it ain't broke, don't fix it.’""",
+                      kurdishText:
+                          """وەک قسە بەناوبانگەکەی هێنری فۆرد دەڵێت، 'ئەگەر نەشکاوە، چاکی مەکەوە.'""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimperial extends StatefulWidget {
+  const EnglishEntryimperial({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimperial> createState() => _EnglishEntryimperialState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimperialState extends State<EnglishEntryimperial> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,28 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: imperial
+1. Belonging to or befitting a supreme ruler (- majestic, purple, regal, royal)
+"golden age of imperial splendour";
+ 
+2. Relating to or associated with an empire
+"imperial colony"; "the imperial gallon was standardized legally throughout the British Empire"
+ 
+3. Of or belonging to the British Imperial System of weights and measures
+ 
+4. Befitting or belonging to an emperor or empress
+"imperial palace"
+
+- Noun: imperial (Derived forms: imperials)
+1. A small tufted beard worn by Emperor Napoleon III (- imperial beard)
+ 
+2. A piece of luggage carried on top of a coach
+ 
+3. (historical) a printing-paper size measuring 30 x 22 inches
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imperial";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,15 +93,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imperial""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""The imperial guards stormed the palace.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +939,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/Cqbleas1mmo?t=';
+    const double startSecondsend = 000000000000000000000000000853;
+    const String videoIdone = 'https://youtu.be/mY3SEMTROas?t=';
+    const double startSecondsone = 000000000000000000000000000705;
+    const String videoIdtwo = 'https://youtu.be/Fr-qagv7ig0?t=';
+    const double startSecondstwo = 0000000000000000000000000001148;
+    const String videoIdthree = 'https://youtu.be/aTDG16Mh2_w?t=';
+    const double startSecondsthree = 00000000000000000000000000073;
+    const String videoIdfour = 'https://youtu.be/FQ4hvLqNfqo?t=';
+    const double startSecondsfour = 0000000000000000000000000001325;
+    const String videoIdfive = 'https://youtu.be/iib_imkZ5fk?t=';
+    const double startSecondsfive = 00000000000000000000000000095;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +963,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imperial""",
+                      // alsoEnglishWord: "also: imperial",
+                      britshText: """IpaUK: /ɪmˈpɪəriəl/""",
+                      americanText: """IpaUS: /ɪmˈpɪriəl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +1006,14 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imperial", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                        text: """١. (ناو) پەیوەندیدار بە ئیمپراتۆریەتێک"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The imperial guards stormed the palace.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """پاسەوانە ئیمپراتۆریەتییەکان هەڵیان کوتایە سەر کۆشکەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

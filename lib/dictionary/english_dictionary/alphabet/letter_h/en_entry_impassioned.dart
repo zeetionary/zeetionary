@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpassioned extends StatefulWidget {
+  const EnglishEntryimpassioned({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpassioned> createState() =>
+      _EnglishEntryimpassionedState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpassionedState extends State<EnglishEntryimpassioned> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: impassioned
+1. Characterized by intense emotion (- ardent, fervent, fervid, fiery, perfervid, torrid)
+"an impassioned appeal";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impassioned";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impassioned""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,7 +87,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """He made an impassioned plea for the rebels to lay down their arms.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/PoNCG3PZKII?t=';
+    const double startSecondsend = 000000000000000000000000000215;
+    const String videoIdone = 'https://youtu.be/fKewkAww5Ko?t=';
+    const double startSecondsone = 000000000000000000000000000694;
+    const String videoIdtwo = 'https://youtu.be/2zWf2sSDmF0?t=';
+    const double startSecondstwo = 00000000000000000000000000026;
+    const String videoIdthree = 'https://youtu.be/hW9DgwTgWwE?t=';
+    const double startSecondsthree = 000000000000000000000000000163;
+    const String videoIdfour = 'https://youtu.be/ugTrjZQdLj8?t=';
+    const double startSecondsfour = 000000000000000000000000000241;
+    const String videoIdfive = 'https://youtu.be/v0V_zkng4go?t=';
+    const double startSecondsfive = 0000000000000000000000000001299;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impassioned""",
+                      // alsoEnglishWord: "also: impassioned",
+                      britshText: """IpaUK: /ɪmˈpæʃnd/""",
+                      americanText: """IpaUS: /ɪmˈpæʃnd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +991,18 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پڕسۆز، زۆر ورووژاو، یەکجار بزواو، خرۆشاو، بەتین، بەگوڕ، هەژیو، کڵپەکردوو، داگیرساو، تاوسەندوو،	بزواوانە، هەوەساوی، لە ڕووی ئیشتیاوە
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impassioned", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) کە هەستی بەهێز پیشان دەدات سەبارەت بە شتێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: fervent"),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """He made an impassioned plea for the rebels to lay down their arms.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """پاڕانەوەیەکی پڕسۆزی دا بە یاخیبووەکان کە چەک دابنێن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimmoral extends StatefulWidget {
+  const EnglishEntryimmoral({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimmoral> createState() => _EnglishEntryimmoralState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimmoralState extends State<EnglishEntryimmoral> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: immoral
+1. Not adhering to ethical or moral principles (- base)
+"they considered colonialism immoral";
+ 
+2. Deliberately violating accepted principles of right and wrong
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "immoral";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,29 +80,31 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""immoral""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""There's nothing immoral about wanting to earn more money.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He condemned the government's action as immoral.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""They were charged with living off immoral earnings.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,18 +929,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/gjySnrspD7E?t=';
+    const double startSecondsend = 0000000000000000000000000001976;
+    const String videoIdone = 'https://youtu.be/oiLdWXLXDeA?t=';
+    const double startSecondsone = 000000000000000000000000000942;
+    const String videoIdtwo = 'https://youtu.be/7eM7pb5M5DU?t=';
+    const double startSecondstwo = 0000000000000000000000000002013;
+    const String videoIdthree = 'https://youtu.be/90MNvA5ozcI?t=';
+    const double startSecondsthree = 000000000000000000000000000456;
+    const String videoIdfour = 'https://youtu.be/4K-_KbbRiEE?t=';
+    const double startSecondsfour = 0000000000000000000000000001168;
+    const String videoIdfive = 'https://youtu.be/EmT0i0xG6zg?t=';
+    const double startSecondsfive = 0000000000000000000000000003548;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +953,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """immoral""",
+                      // alsoEnglishWord: "also: immoral",
+                      britshText: """IpaUK: /ɪˈmɒrəl/""",
+                      americanText: """IpaUS: /ɪˈmɔːrəl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +994,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌ڕەوشت، بەدئاکار، بێ‌ڕەوشتانە، ئاکارخراپ، ناحەز، ناشیرین، دزێو، ناڕەوا، هەڵەوهەرزە، بێ‌سەروبەرە، هەرزە، فاسد
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "immoral", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) ڕەفتار و هەڵسوکەوتی خەڵکی کە لەلایەن زۆر خەڵکەوە بە خراپ دادەنرێت"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """There's nothing immoral about wanting to earn more money.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """هیچ بێ‌ئەخلاقی نییە لەوەی بتەوێت پارەی زیاتر خەرج بکەیت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,17 +1012,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He condemned the government's action as immoral.""",
+                      kurdishText: """کاری حکومەتی بە بێ‌ئەخلاقانە ناوهێنا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە پابەند نییە بە ستانداردە پەسەندکراوەکانی هەڵسووکەوتی سێکسی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They were charged with living off immoral earnings (= money earned by working as a prostitute).""",
+                      kurdishText:
+                          """تۆمەتبار کران بە ژیانکردن بە پارەی بێ‌ڕەوشتی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

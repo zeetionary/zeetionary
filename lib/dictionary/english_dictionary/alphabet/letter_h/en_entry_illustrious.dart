@@ -9,7 +9,8 @@ class EnglishEntryillustrious extends StatefulWidget {
   const EnglishEntryillustrious({super.key});
 
   @override
-  State<EnglishEntryillustrious> createState() => _EnglishEntryillustriousState();
+  State<EnglishEntryillustrious> createState() =>
+      _EnglishEntryillustriousState();
 }
 
 class _EnglishEntryillustriousState extends State<EnglishEntryillustrious> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryillustrious illustrious
-WORD_WEB illustrious illustrious illustrious
-haʊʊʊʊʊʊʊ4
+- Adjective: illustrious
+1. Widely known and esteemed (- celebrated, famed, far-famed, famous, notable, noted, renowned, big-name [informal])
+"an illustrious judge";
+ 
+2. Having or conferring glory
+"an illustrious achievement"
 """,
   );
-// 188888880002200
 
   final String keyword = "illustrious";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The composer was one of many illustrious visitors to the town.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/VFR37y1-81M?t=';
+    const double startSecondsend = 000000000000000000000000000621;
+    const String videoIdone = 'https://youtu.be/6781XugwQrA?t=';
+    const double startSecondsone = 000000000000000000000000000648;
+    const String videoIdtwo = 'https://youtu.be/Y80ZTbjtz5c?t=';
+    const double startSecondstwo = 000000000000000000000000000213;
+    const String videoIdthree = 'https://youtu.be/WPqT6ZoyOuw?t=';
+    const double startSecondsthree = 00000000000000000000000000070;
+    const String videoIdfour = 'https://youtu.be/fIgi83Eyn-Y?t=';
+    const double startSecondsfour = 000000000000000000000000000224;
+    const String videoIdfive = 'https://youtu.be/dOkFXPblLpU?t=';
+    const double startSecondsfive = 000000000000000000000000000216;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """illustrious""",
                       // alsoEnglishWord: "also: illustrious",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈlʌstriəs/""",
+                      americanText: """IpaUS: /ɪˈlʌstriəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +994,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەنێوبانگ، نێوبەدەرەوە، ناسراو
 """),
 // With short examples define "illustrious", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: distinguished"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The composer was one of many illustrious visitors to the town.""",
+                      kurdishText:
+                          """ئاوازدانەرەکە یەکێک لەو ژمارە زۆرە سەردانکارە بەناوبانگانە بوو شارۆچکەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

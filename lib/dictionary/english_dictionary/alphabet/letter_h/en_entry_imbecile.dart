@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimbecile extends StatefulWidget {
+  const EnglishEntryimbecile({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimbecile> createState() => _EnglishEntryimbecileState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimbecileState extends State<EnglishEntryimbecile> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: imbecile (Derived forms: imbeciles)
+Usage: informal
+1. A person of subnormal intelligence (- idiot, moron [informal], changeling [archaic], half-wit [informal], eejit [UK, Ireland, dialect], plank [Brit, informal], thickie [Brit, informal], thicko [informal])
+
+- Adjective: imbecile
+1. Devoid of good sense or judgment (- foolish, daft [Brit, informal], dumb, stupid, imbecilic)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imbecile";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,22 +81,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imbecile""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""He made some imbecile remarks during the meeting.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""They behaved like imbeciles.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/Cqbleas1mmo?t=';
+    const double startSecondsend = 000000000000000000000000000407;
+    const String videoIdone = 'https://youtu.be/FkKPsLxgpuY?t=';
+    const double startSecondsone = 0000000000000000000000000001124;
+    const String videoIdtwo = 'https://youtu.be/H9Yk5rictuc?t=';
+    const double startSecondstwo = 00000000000000000000000000056;
+    const String videoIdthree = 'https://youtu.be/Ix6vtM4gP8g?t=';
+    const double startSecondsthree = 000000000000000000000000000338;
+    const String videoIdfour = 'https://youtu.be/iKhQYYSqhgc?t=';
+    const double startSecondsfour = 00000000000000000000000000021;
+    const String videoIdfive = 'https://youtu.be/HEbulmDiDEw?t=';
+    const double startSecondsfive = 000000000000000000000000000113;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imbecile""",
+                      // alsoEnglishWord: "also: imbecile",
+                      britshText: """IpaUK: /ˈɪmbəsiːl/""",
+                      americanText: """IpaUS: /ˈɪmbəsl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,26 +993,27 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گێل، حەپۆل، گەمژەڵ، گەوج، گەوجانە
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imbecile", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                        text: """١. (ھاوەڵناو) زۆر گەمژە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: idiotic"),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """He made some imbecile remarks during the meeting.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """لە چاوپێکەوتنەکە هەندێک لێدوانی گەمژانەی دا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) کەسێک کە زۆر گەمژەیە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: idiot"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They behaved like imbeciles.""",
+                      kurdishText: """وەک گەمژە ڕەفتاریان کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -117,7 +117,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """Only recently have historians begun to examine the impact and influence of these changes.""");
+        """Only recently have historians begun to examine the impact of these changes.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -1044,7 +1044,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
-                          """Only recently have historians begun to examine the impact and influence of these changes.""",
+                          """Only recently have historians begun to examine the impact of these changes.""",
                       kurdishText:
                           """تەنھا تازەگی مێژوونووسان دەستیان کردووە بە لێکۆڵینەوە لە کاریگەریی ئەم گۆڕانانە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),

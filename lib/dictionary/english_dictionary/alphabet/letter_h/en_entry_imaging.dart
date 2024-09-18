@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimaging extends StatefulWidget {
+  const EnglishEntryimaging({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimaging> createState() => _EnglishEntryimagingState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimagingState extends State<EnglishEntryimaging> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: imaging (Derived forms: imagings)
+1. The ability to form mental images of things or events (- imagination, imagery, mental imagery)
+ 
+2. (medicine) obtaining pictures of the interior of the body (- tomography)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imaging";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imaging""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,7 +87,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """Digital imaging is used in photography and graphic design.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/UvjSXBqQe4A?t=';
+    const double startSecondsend = 00000000000000000000000000074;
+    const String videoIdone = 'https://youtu.be/fez7X_oevNs?t=';
+    const double startSecondsone = 000000000000000000000000000131;
+    const String videoIdtwo = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondstwo = 00000000000000000000000000078;
+    const String videoIdthree = 'https://youtu.be/twAP3buj9Og?t=';
+    const double startSecondsthree = 000000000000000000000000000134;
+    const String videoIdfour = 'https://youtu.be/xjmXzYdxuTQ?t=';
+    const double startSecondsfour = 000000000000000000000000000812;
+    const String videoIdfive = 'https://youtu.be/H-u6a66rTpQ?t=';
+    const double startSecondsfive = 000000000000000000000000000826;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imaging""",
+                      // alsoEnglishWord: "also: imaging",
+                      britshText: """IpaUK: /ˈɪmɪdʒɪŋ/""",
+                      americanText: """IpaUS: /ˈɪmɪdʒɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +993,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imaging", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ناو) پڕۆسەی گرتن، کۆگاکردن، و پیشاندانی وێنەیەک لەسەر شاشەی کۆمپیوتەر"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """Digital imaging is used in photography and graphic design.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """وێنەگرتنی دیجیتاڵ لە فۆتۆگرافی و گرافیک دیزایندا بەکاردێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

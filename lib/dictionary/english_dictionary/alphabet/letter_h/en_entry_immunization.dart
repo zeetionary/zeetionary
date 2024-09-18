@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimmunization extends StatefulWidget {
+  const EnglishEntryimmunization({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimmunization> createState() =>
+      _EnglishEntryimmunizationState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimmunizationState extends State<EnglishEntryimmunization> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: immunization (Derived forms: immunizations)
+1. The act of making immune (especially by inoculation) (- immunisation [Brit])
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "immunization";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +78,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""immunization""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,7 +86,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """Immunization gives people the ability to resist infection temporarily or permanently.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +925,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/HYbbmatf6w4?t=';
+    const double startSecondsend = 000000000000000000000000000300;
+    const String videoIdone = 'https://youtu.be/IOgq4Nk2H8w?t=';
+    const double startSecondsone = 0000000000000000000000000001594;
+    const String videoIdtwo = 'https://youtu.be/c3dDagZMALQ?t=';
+    const double startSecondstwo = 000000000000000000000000000924;
+    const String videoIdthree = 'https://youtu.be/YIQLqQA_hyA?t=';
+    const double startSecondsthree = 000000000000000000000000000672;
+    const String videoIdfour = 'https://youtu.be/0A-hSWVJmcs?t=';
+    const double startSecondsfour = 00000000000000000000000000031;
+    const String videoIdfive = 'https://youtu.be/9G4V-N6EEvY?t=';
+    const double startSecondsfive = 000000000000000000000000000199;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +949,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """immunization""",
+                      // alsoEnglishWord: "also: immunization",
+                      britshText: """IpaUK: /ˌɪmjənaɪˈzeɪʃn/""",
+                      americanText: """IpaUS: /ˌɪmjənəˈzeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +992,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "immunization", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ناو) پاراستنی کەسێک یان ئاژەڵێک لە نەخۆشییەک، بە تایبەتی بە پێدانی قەترەیەک/ژەمێک لە ڤاکسینێک"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """Immunization gives people the ability to resist infection temporarily or permanently.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """کوتان توانا دەدات بە مرۆڤ دژ بە نەخۆشییەک بە کاتی یان هەمیشەیی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpetus extends StatefulWidget {
+  const EnglishEntryimpetus({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpetus> createState() => _EnglishEntryimpetusState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpetusState extends State<EnglishEntryimpetus> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: impetus (Derived forms: impetuses)
+1. A force that moves something along (- drift, impulsion)
+ 
+2. The act of applying force suddenly (- impulse, impulsion)
+"the impetus knocked him over";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impetus";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +80,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impetus""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,28 +88,30 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """The debate seems to have lost much of its initial impetus.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The Prime Minister’s support will give (an) added impetus to the campaign against crime.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""His articles provided the main impetus for change.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The slope added impetus to his speed.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,18 +929,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/fKewkAww5Ko?t=';
+    const double startSecondsend = 000000000000000000000000000100;
+    const String videoIdone = 'https://youtu.be/ill2cgCyTUc?t=';
+    const double startSecondsone = 000000000000000000000000000121;
+    const String videoIdtwo = 'https://youtu.be/cApVVuuqLFY?t=';
+    const double startSecondstwo = 00000000000000000000000000070;
+    const String videoIdthree = 'https://youtu.be/2MZZrDA-I4M?t=';
+    const double startSecondsthree = 000000000000000000000000000915;
+    const String videoIdfour = 'https://youtu.be/E2rtQFAibEA?t=';
+    const double startSecondsfour = 0000000000000000000000000002966;
+    const String videoIdfive = 'https://youtu.be/5-QejUTDCWw?t=';
+    const double startSecondsfive = 0000000000000000000000000002229;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +953,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impetus""",
+                      // alsoEnglishWord: "also: impetus",
+                      britshText: """IpaUK: /ˈɪmpɪtəs/""",
+                      americanText: """IpaUS: /ˈɪmpɪtəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +994,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هێز، گوڕ، تین، گوژم، هێز یا گوڕی جووڵاندن، هێزی ڕادان، تەکان، تەوژم، پاڵ، جووڵە، بزاوت،	هاندەر، بزوێنەر، پاڵنەر
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impetus", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ناو) شتێک کە پڕۆسەیەک یان چالاکییەک خێراتر دەکات لە گەشەپێدان"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The debate seems to have lost much of its initial impetus.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """دیبەیتەکە وەها دیارە زۆرینەی گوڕی سەرەتای لەدەست دابێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1012,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The Prime Minister’s support will give (an) added impetus to the campaign against crime.""",
+                      kurdishText:
+                          """پشتیوانی سەرۆک وەزیران گوڕێکی زیاتر دەدات بە کەمپینی دژ بە تاوان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1018,17 +1023,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His articles provided the main impetus for change.""",
+                      kurdishText:
+                          """وتارەکانی گوڕی سەرەکی بوون بۆ گۆڕانکاری.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) هێز و وزە کە دەبێتە هۆکاری جووڵەی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The slope added impetus to his speed.""",
+                      kurdishText: """لێژاییەکە وزەی زیاد کرد بۆ خێراییەکەی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

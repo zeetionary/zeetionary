@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimaginative extends StatefulWidget {
+  const EnglishEntryimaginative({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimaginative> createState() => _EnglishEntryimaginativeState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimaginativeState extends State<EnglishEntryimaginative> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: imaginative
+1. (used of persons or artifacts) marked by independence and creativity in thought or action (- inventive)
+"an imaginative use of material";
+ 
+2. (of an idea or story) so exaggerated or ludicrous as to be improbable (- farfetched, far-fetched)
+ 
+3. (of a theory or explanation) highly imaginative but unlikely and unconvincing (- farfetched, far-fetched)
+"an imaginative excuse";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imaginative";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,36 +83,35 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imaginative""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""You’ll need to be a little more imaginative if you want to hold their attention.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Her imaginative interpretation of the script brought out the comedy inherent in it.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She was a very imaginative designer.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""He was esteemed as a dedicated and imaginative scholar.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -925,19 +928,20 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
+
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/6DYgImG1CKo?t=';
+    const double startSecondsend = 000000000000000000000000000373;
+    const String videoIdone = 'https://youtu.be/zQZAIhP0H2A?t=';
+    const double startSecondsone = 000000000000000000000000000729;
+    const String videoIdtwo = 'https://youtu.be/Vnf6hbRfIv0?t=';
+    const double startSecondstwo = 000000000000000000000000000570;
+    const String videoIdthree = 'https://youtu.be/DG8rPBlbOrY?t=';
+    const double startSecondsthree = 000000000000000000000000000375;
+    const String videoIdfour = 'https://youtu.be/WCG3WgYxPkI?t=';
+    const double startSecondsfour = 00000000000000000000000000010;
+    const String videoIdfive = 'https://youtu.be/1eYZnCx-02g?t=';
+    const double startSecondsfive = 000000000000000000000000000252;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +954,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imaginative""",
+                      // alsoEnglishWord: "also: imaginative",
+                      britshText: """IpaUK: /ɪˈmædʒɪnətɪv/""",
+                      americanText: """IpaUS: /ɪˈmædʒɪnətɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +997,12 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+// With short examples define "imaginative", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) هەبوونی بیرۆکەی تازە و بەجۆش"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: inventive"),
                     SentencesRow(
-                      englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                      englishText: """You’ll need to be a little more imaginative if you want to hold their attention.""",
+                      kurdishText: """دەبێت کەمێک زیاتر داهێنەرانە بیت ئەگەر بتەوێت سەرنجیان ڕابگریت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,17 +1010,18 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
+                      englishText: """Her imaginative interpretation of the script brought out the comedy inherent in it.""",
+                      kurdishText:
+                                "تێگەشنی ئەندێشەییانەی بۆ نووسینەکە کۆمیدی لە کڕۆکیدا بینی.",
+                            onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She was a very imaginative designer.""",
+            kurdishText: "دیزاینەرێکی زۆر دووربین بوو.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1027,9 +1029,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence4("en-GB"),
+                      englishText: """He was esteemed as a dedicated and imaginative scholar.""",
+                      kurdishText:
+                """وەک پسپۆڕێکی ماندوونەناس و داھێنەر ڕێزی دەگیردرا.""",
+            onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),

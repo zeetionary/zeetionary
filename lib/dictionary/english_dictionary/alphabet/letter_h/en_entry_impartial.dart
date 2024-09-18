@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpartial extends StatefulWidget {
+  const EnglishEntryimpartial({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpartial> createState() => _EnglishEntryimpartialState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpartialState extends State<EnglishEntryimpartial> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: impartial
+1. Showing lack of favouritism
+"the cold neutrality of an impartial judge"
+ 
+2. Free from undue bias or preconceived opinions (- unprejudiced)
+"the impartial eye of a scientist";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impartial";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,15 +81,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impartial""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""As chairperson, I must remain impartial.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +927,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/zlg03lfBrEA?t=';
+    const double startSecondsend = 000000000000000000000000000541;
+    const String videoIdone = 'https://youtu.be/HG29zeyWn58?t=';
+    const double startSecondsone = 000000000000000000000000000595;
+    const String videoIdtwo = 'https://youtu.be/Khsssa7xCR8?t=';
+    const double startSecondstwo = 000000000000000000000000000886;
+    const String videoIdthree = 'https://youtu.be/E2rtQFAibEA?t=';
+    const double startSecondsthree = 0000000000000000000000000005412;
+    const String videoIdfour = 'https://youtu.be/KIDLu5pVoWM?t=';
+    const double startSecondsfour = 000000000000000000000000000596;
+    const String videoIdfive = 'https://youtu.be/1Ooogc0CJo0?t=';
+    const double startSecondsfive = 000000000000000000000000000221;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +951,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impartial""",
+                      // alsoEnglishWord: "also: impartial",
+                      britshText: """IpaUK: /ɪmˈpɑːʃl/""",
+                      americanText: """IpaUS: /ɪmˈpɑːrʃl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +992,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌لایەن، لانەگر، بەرامبەربین، ڕاست‌بین، بێ‌غەرەز، دادپەروەر، دادگەرانە، لانەگرانە
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impartial", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) کە بێ‌لایەن بیت و پشتگیری کەسێک/لایەنێک نەکەیت زیاتر لە یەکێکی دیکە"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """As chairperson, I must remain impartial.""",
+                      kurdishText: """وەک سەرۆک، دەبێت بێ‌لایەن بمێنم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

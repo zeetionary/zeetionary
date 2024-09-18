@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpertinence extends StatefulWidget {
+  const EnglishEntryimpertinence({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpertinence> createState() =>
+      _EnglishEntryimpertinenceState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpertinenceState extends State<EnglishEntryimpertinence> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: impertinence (Derived forms: impertinences)
+1. An impudent statement (- impudence, cheek, sauce [Brit, informal])
+ 
+2. The trait of being rude and impertinent; inclined to take liberties (- crust, gall, impudence, insolence, cheekiness, freshness)
+ 
+3. Inappropriate playfulness (- perkiness, pertness, sauciness [informal], archness)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impertinence";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,15 +82,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impertinence""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""She had the impertinence to ask my age!""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/3ulWkFs-OGM?t=';
+    const double startSecondsend = 000000000000000000000000000138;
+    const String videoIdone = 'https://youtu.be/3NpBA1TlJMU?t=';
+    const double startSecondsone = 000000000000000000000000000965;
+    const String videoIdtwo = 'https://youtu.be/9fpztV4oMd4?t=';
+    const double startSecondstwo = 0000000000000000000000000002023;
+    const String videoIdthree = 'https://youtu.be/vVxqCUnX9HA?t=';
+    const double startSecondsthree = 0000000000000000000000000001717;
+    const String videoIdfour = 'https://youtu.be/oOsjdlWRqIA?t=';
+    const double startSecondsfour = 000000000000000000000000000422;
+    const String videoIdfive = 'https://youtu.be/gQ9c9LT4sOw?t=';
+    const double startSecondsfive = 000000000000000000000000000643;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impertinence""",
+                      // alsoEnglishWord: "also: impertinence",
+                      britshText: """IpaUK: /ɪmˈpɜːtɪnəns/""",
+                      americanText: """IpaUS: /ɪmˈpɜːrtnəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +993,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕووداری، بێ‌شەرمی، ڕووهەڵماڵراوی،	پێکەوەنەبەستراوی، بێ‌پێوەندی، ناپێوەندیداری، بەرپێوەنەدان
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impertinence", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ناو) ڕەفتاری بێ‌ڕێزانە کە هیچ ڕێز پیشان نادات بۆ کەسێکی بەتەمەنتر یان گرنگتر"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """She had the impertinence to ask my age!""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """ئەو ڕوودارییەی هەبوو پرسیاری تەمەنم بکات!""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

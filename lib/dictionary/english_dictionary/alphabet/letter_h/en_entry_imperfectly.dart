@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimperfectly extends StatefulWidget {
+  const EnglishEntryimperfectly({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimperfectly> createState() =>
+      _EnglishEntryimperfectlyState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimperfectlyState extends State<EnglishEntryimperfectly> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adverb: imperfectly
+1. In an imperfect or faulty way (- amiss)
+"The lobe was imperfectly developed";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imperfectly";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imperfectly""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,7 +87,7 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """The original recordings had been only imperfectly documented.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/Ax5eAzV5U5s?t=';
+    const double startSecondsend = 000000000000000000000000000300;
+    const String videoIdone = 'https://youtu.be/Rvey9g0VgY0?t=';
+    const double startSecondsone = 000000000000000000000000000591;
+    const String videoIdtwo = 'https://youtu.be/SczVd4n6KKs?t=';
+    const double startSecondstwo = 000000000000000000000000000655;
+    const String videoIdthree = 'https://youtu.be/nC5ghtpeL6I?t=';
+    const double startSecondsthree = 000000000000000000000000000626;
+    const String videoIdfour = 'https://youtu.be/0tYm41hb48o?t=';
+    const double startSecondsfour = 0000000000000000000000000001573;
+    const String videoIdfive = 'https://youtu.be/lI-SfXmeHhY?t=';
+    const double startSecondsfive = 0000000000000000000000000001216;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imperfectly""",
+                      // alsoEnglishWord: "also: imperfectly",
+                      britshText: """IpaUK: /ɪmˈpɜːfɪktli/""",
+                      americanText: """IpaUS: /ɪmˈpɜːrfɪktli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +991,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەشێوەیێکی ناتەواو، ناتەواوانە، کەم‌وکووڕانە، بە نیوەچڵی، نیوەچڵانە
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imperfectly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە هەڵە و ناتەواوی لەخۆدەگرێت"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The original recordings had been only imperfectly documented.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """تۆمارە ڕەسەنەکان تەنها بە نیوەچڵانە بەبەڵگەنامە کرابوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

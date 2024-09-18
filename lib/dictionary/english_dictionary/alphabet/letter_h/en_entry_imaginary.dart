@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: imaginary
+1. Not based on fact; existing only in the imagination (- fanciful, notional)
+"a small child's imaginary friends";
 
-EnglishEntryimaginary imaginary
-WORD_WEB imaginary imaginary imaginary
-haʊʊʊʊʊʊʊ4
+- Noun: imaginary (Derived forms: imaginaries)
+1. (mathematics) a number of the form a+bi where a and b are real numbers and i is the square root of -1 (- complex number, complex quantity, imaginary number)
 """,
   );
-// 188888880002200
 
   final String keyword = "imaginary";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The equator is an imaginary line around the middle of the earth.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""We must listen to their problems, real or imaginary.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Mx8JkGHaGUI?t=';
+    const double startSecondsend = 0000000000000000000000000001994;
+    const String videoIdone = 'https://youtu.be/SzwEzpec7CA?t=';
+    const double startSecondsone = 000000000000000000000000000120;
+    const String videoIdtwo = 'https://youtu.be/HAnw168huqA?t=';
+    const double startSecondstwo = 0000000000000000000000000001587;
+    const String videoIdthree = 'https://youtu.be/iqhK6QGehtQ?t=';
+    const double startSecondsthree = 000000000000000000000000000829;
+    const String videoIdfour = 'https://youtu.be/h9h2zfyrkH8?t=';
+    const double startSecondsfour = 000000000000000000000000000190;
+    const String videoIdfive = 'https://youtu.be/y4DTW4B3Sjs?t=';
+    const double startSecondsfive = 000000000000000000000000000562;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """imaginary""",
                       // alsoEnglishWord: "also: imaginary",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈmædʒɪnəri/""",
+                      americanText: """IpaUS: /ɪˈmædʒɪneri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +994,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناڕاستەقینە، خەیاڵی، پڕوپووچ، وادانراو، درۆ
 """),
 // With short examples define "imaginary", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە تەنها لە مێشکتدا بوونی هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The equator is an imaginary line around the middle of the earth.""",
+                      kurdishText:
+                          """پشتێنەی زەوی هێڵێکی خەیاڵییە لە ناوەڕاستی زەویدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1012,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We must listen to their problems, real or imaginary.""",
+                      kurdishText:
+                          """دەبێت گوێ لە کێشەکانیان بگرین، ڕاستی بن یان خەیاڵ.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

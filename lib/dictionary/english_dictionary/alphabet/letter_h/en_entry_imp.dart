@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimp extends StatefulWidget {
+  const EnglishEntryimp({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimp> createState() => _EnglishEntryimpState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpState extends State<EnglishEntryimp> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: imp (Derived forms: imps)
+1. (folklore) fairies that are somewhat mischievous (- elf, hob, gremlin, pixie, pixy, brownie)
+ 
+2. One who is playfully mischievous (- scamp [informal], monkey, rascal, rapscallion, scalawag, scallywag)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imp";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imp""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,14 +87,14 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """Legends told of an imp that caused mischief in the forest.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Come here, you little imp!""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/_spuxXnul0U?t=';
+    const double startSecondsend = 000000000000000000000000000527;
+    const String videoIdone = 'https://youtu.be/tLD-OUkYtk4?t=';
+    const double startSecondsone = 000000000000000000000000000108;
+    const String videoIdtwo = 'https://youtu.be/D-2799Y07Zc?t=';
+    const double startSecondstwo = 000000000000000000000000000561;
+    const String videoIdthree = 'https://youtu.be/Ym4mYSgMzh8?t=';
+    const double startSecondsthree = 000000000000000000000000000919;
+    const String videoIdfour = 'https://youtu.be/ujEfyjoS1T4?t=';
+    const double startSecondsfour = 000000000000000000000000000565;
+    const String videoIdfive = 'https://youtu.be/VzFf_0rvKgI?t=';
+    const double startSecondsfive = 0000000000000000000000000001610;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imp""",
+                      // alsoEnglishWord: "also: imp",
+                      britshText: """IpaUK: /ɪmp/""",
+                      americanText: """IpaUS: /ɪmp/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,26 +991,27 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: جنۆکە، مناڵی شەیتان، بەچکەشەیتان، مناڵی هاروهاج و ناجسن، شلوق، ودودە
 """),
-// With short examples define "illustriously", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ناو) گیانلەبەرێکی بچووک وەک پیاوێکی بچووک کە توانای سیحری هەیە و کاری خراپ دەکات"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """Legends told of an imp that caused mischief in the forest.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """ئەفسانەکان باسی جنۆکەیەکیان دەکرد کە بوو بە هۆکاری خراپەکاری لە دارستانەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) منداڵێک کە خراپ ڕەفتار دەکات، بەڵام بە شێوەیەکی پێکەنیناوی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Come here, you little imp!""",
+                      kurdishText: """وەرە ئێرە، هەی جنۆکەی بچووک!""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

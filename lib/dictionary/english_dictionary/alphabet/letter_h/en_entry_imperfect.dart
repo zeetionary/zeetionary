@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimperfect extends StatefulWidget {
+  const EnglishEntryimperfect({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimperfect> createState() => _EnglishEntryimperfectState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimperfectState extends State<EnglishEntryimperfect> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: imperfect
+1. Wanting in moral strength, courage, or will; having the attributes of man as opposed to e.g. divine beings (- fallible, frail, weak)
+ 
+2. Not perfect; defective or inadequate
+"had only an imperfect understanding of his responsibilities"; "imperfect mortals"; "drainage here is imperfect"
+
+- Noun: imperfect (Derived forms: imperfects)
+1. A tense of verbs used in describing action that is on-going (- progressive, progressive tense, imperfect tense, continuous tense)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imperfect";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,15 +83,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imperfect""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""We're living in an imperfect world.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,18 +929,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/pLUy9VzwnyM?t=';
+    const double startSecondsend = 000000000000000000000000000350;
+    const String videoIdone = 'https://youtu.be/Ax5eAzV5U5s?t=';
+    const double startSecondsone = 000000000000000000000000000300;
+    const String videoIdtwo = 'https://youtu.be/-UrdExQW0cs?t=';
+    const double startSecondstwo = 0000000000000000000000000001009;
+    const String videoIdthree = 'https://youtu.be/4nqJiBRNQuw?t=';
+    const double startSecondsthree = 000000000000000000000000000217;
+    const String videoIdfour = 'https://youtu.be/OoJsPvmFixU?t=';
+    const double startSecondsfour = 0000000000000000000000000002203;
+    const String videoIdfive = 'https://youtu.be/tURHTuKHBZs?t=';
+    const double startSecondsfive = 000000000000000000000000000754;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +953,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imperfect""",
+                      // alsoEnglishWord: "also: imperfect",
+                      britshText: """IpaUK: /ɪmˈpɜːfɪkt/""",
+                      americanText: """IpaUS: /ɪmˈpɜːrfɪkt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +994,15 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناتەواو، نیوەچڵ، کەم‌وکورت، خاوەنی کەم‌وکووڕی، پڕعەیب، بەخەوش،	(ڕێزمان) بەردەوام؟، پێکنەهاتوو،	جێبەجێ‌نەکراو، پەسندنەکراو
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imperfect", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                        text: """١. (ھاوەڵناو) کە هەڵە و ناتەواوی تێدایە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: flawed"),
                     SentencesRow(
-                      englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                      englishText: """We're living in an imperfect world.""",
+                      kurdishText: """لە جیهانێکی خەوشداردا دەژین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

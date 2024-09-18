@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpediment extends StatefulWidget {
+  const EnglishEntryimpediment({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpediment> createState() => _EnglishEntryimpedimentState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpedimentState extends State<EnglishEntryimpediment> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: impediment (Derived forms: impediments)
+1. Something that interferes with (or delays) action or progress (- hindrance, hinderance, deterrent, balk, baulk [Brit], check, handicap)
+ 
+2. Any structure that makes progress difficult (- obstruction, obstructor, obstructer, impedimenta)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impediment";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +79,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impediment""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,21 +87,23 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """The level of inflation is a serious impediment to economic recovery.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Their boycott of the talks constitutes a serious impediment to peace negotiations.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He had a speech impediment but worked hard to improve.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/A7beCOs4yAw?t=';
+    const double startSecondsend = 000000000000000000000000000438;
+    const String videoIdone = 'https://youtu.be/9BvZVXXtTwU?t=';
+    const double startSecondsone = 000000000000000000000000000254;
+    const String videoIdtwo = 'https://youtu.be/JTDRQDiaTWM?t=';
+    const double startSecondstwo = 000000000000000000000000000402;
+    const String videoIdthree = 'https://youtu.be/4aLfKYD_bGw?t=';
+    const double startSecondsthree = 0000000000000000000000000001095;
+    const String videoIdfour = 'https://youtu.be/EywZ5VGNZuQ?t=';
+    const double startSecondsfour = 0000000000000000000000000001191;
+    const String videoIdfive = 'https://youtu.be/Wc5aBPYFjFI?t=';
+    const double startSecondsfive = 0000000000000000000000000002551;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impediment""",
+                      // alsoEnglishWord: "also: impediment",
+                      britshText: """IpaUK: /ɪmˈpedɪmənt/""",
+                      americanText: """IpaUS: /ɪmˈpedɪmənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +993,18 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەمپەر، کۆسپ، تەگەرە،	تێکچوون، گرفت، گیر، کێشە
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impediment", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ناو) شتێک کە بەرەوپێشچوونی شتێک دەوەستێنێت یان دوای دەخات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: obstacle"),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The level of inflation is a serious impediment to economic recovery.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """ئاستی هەڵاوسنا لەمپەرێکی گەورەیە بۆ چاکبوونەوەی ئابووری.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,17 +1012,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Their boycott of the talks constitutes a serious impediment to peace negotiations.""",
+                      kurdishText:
+                          """بایکۆتیان بۆ گفتووگۆکان لەمپەرێکی گەورەیە لە پێش دانووستانەکانی ئاشتی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کێشەیەک، بۆ نموونە زمان‌گرتن، کە وادەکات سەخت بێت بۆ کەسێک قسەبکات، ببیستێت، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He had a speech impediment but worked hard to improve.""",
+                      kurdishText:
+                          """گرفتی قسەکردنی هەبوو بەڵام بە سەختی کاری دەکرد بۆ باشترکردنی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

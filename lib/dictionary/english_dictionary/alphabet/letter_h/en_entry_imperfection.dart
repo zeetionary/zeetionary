@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimperfection extends StatefulWidget {
+  const EnglishEntryimperfection({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimperfection> createState() =>
+      _EnglishEntryimperfectionState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimperfectionState extends State<EnglishEntryimperfection> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: imperfection (Derived forms: imperfections)
+1. The state or an instance of being imperfect (- imperfectness)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imperfection";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,22 +78,23 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imperfection""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""They learned to live with each other's imperfections.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """When you're a child you always imagine that your own bodily imperfections are somehow freakish.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +926,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/58XEfDtU0Z4?t=';
+    const double startSecondsend = 0000000000000000000000000001618;
+    const String videoIdone = 'https://youtu.be/cee6883w2Nk?t=';
+    const double startSecondsone = 000000000000000000000000000606;
+    const String videoIdtwo = 'https://youtu.be/yLUvvfw_06s?t=';
+    const double startSecondstwo = 000000000000000000000000000306;
+    const String videoIdthree = 'https://youtu.be/D7Cv7x6jjYQ?t=';
+    const double startSecondsthree = 000000000000000000000000000222;
+    const String videoIdfour = 'https://youtu.be/5jh9JSzNbOA?t=';
+    const double startSecondsfour = 000000000000000000000000000356;
+    const String videoIdfive = 'https://youtu.be/TSmEn1qfhnU?t=';
+    const double startSecondsfive = 000000000000000000000000000656;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imperfection""",
+                      // alsoEnglishWord: "also: imperfection",
+                      britshText: """IpaUK: /ˌɪmpəˈfekʃn/""",
+                      americanText: """IpaUS: /ˌɪmpərˈfekʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +991,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: عەیب، ئیراد، ناتەواوی، شکستی، کەم‌وکورتی، کەم‌وکووڕی، کێماسی، نیوەچڵی
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imperfection", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                        text: """١. (ناو) هەڵە یان ناتەواوی لە کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """They learned to live with each other's imperfections.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """فێربوون کە لەگەڵ خەوشییەکانی یەکدی بژین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1008,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """When you're a child you always imagine that your own bodily imperfections are somehow freakish.""",
+                      kurdishText:
+                          """کە منداڵیت ھەمیشە وەھا دادەنێیت خەوشییەکانی جەستەت نامۆن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

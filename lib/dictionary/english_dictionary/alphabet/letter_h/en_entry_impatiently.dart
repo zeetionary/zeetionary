@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpatiently extends StatefulWidget {
+  const EnglishEntryimpatiently({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpatiently> createState() =>
+      _EnglishEntryimpatientlyState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpatientlyState extends State<EnglishEntryimpatiently> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adverb: impatiently
+1. With impatience; in an impatient manner
+"he answered her impatiently"
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impatiently";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,22 +79,23 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impatiently""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""She tapped her fingernails against the table impatiently.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""We sat waiting impatiently for the movie to start.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +927,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/Cqbleas1mmo?t=';
+    const double startSecondsend = 000000000000000000000000000559;
+    const String videoIdone = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsone = 0000000000000000000000000002603;
+    const String videoIdtwo = 'https://youtu.be/xsIRoXxEQUw?t=';
+    const double startSecondstwo = 000000000000000000000000000122;
+    const String videoIdthree = 'https://youtu.be/as0_oApd2dU?t=';
+    const double startSecondsthree = 000000000000000000000000000307;
+    const String videoIdfour = 'https://youtu.be/mtDOr9UY-yk?t=';
+    const double startSecondsfour = 0000000000000000000000000009887;
+    const String videoIdfive = 'https://youtu.be/nNBMFxY1whk?t=';
+    const double startSecondsfive = 000000000000000000000000000583;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +951,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impatiently""",
+                      // alsoEnglishWord: "also: impatiently",
+                      britshText: """IpaUK: /ɪmˈpeɪʃntli/""",
+                      americanText: """IpaUS: /ɪmˈpeɪʃntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,26 +992,29 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌سەبرانە، ئارام‌لێ‌هەڵگیراوانە
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impatiently", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ئەوە پیشان دەدات کە بێزاریت بەهۆی ئەوەی دەبێت بۆ ماوەیەکی درێژ چاوەڕێ بکەیت"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """She tapped her fingernails against the table impatiently.""",
+                      kurdishText: """بێ‌سەبرانە نینۆکی دەکێشا بە مێزەکەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) بەو هەستەی کە دەتەوێت زوو شتێک بکەیت یان دەتەوێت شتێک زوو ڕووبدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We sat waiting impatiently for the movie to start.""",
+                      kurdishText:
+                          """بێ‌سەبرانە چاوەڕوان بووین بۆ فیلمەکە دەست پێبکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

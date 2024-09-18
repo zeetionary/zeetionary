@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpetuous extends StatefulWidget {
+  const EnglishEntryimpetuous({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpetuous> createState() => _EnglishEntryimpetuousState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpetuousState extends State<EnglishEntryimpetuous> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: impetuous
+1. Characterized by undue haste and lack of thought or deliberation (- hotheaded, impulsive, madcap, tearaway, brainish [archaic])
+"an impetuous display of spending and gambling";
+ 
+2. Marked by violent force
+"impetuous heaving waves"
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impetuous";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +81,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impetuous""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,14 +89,15 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """He's so impetuous - why can't he think things over before he rushes into them?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The governor may now be regretting her impetuous promise to reduce unemployment by half.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +929,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/qoixtV5igUo?t=';
+    const double startSecondsend = 000000000000000000000000000128;
+    const String videoIdone = 'https://youtu.be/OulXMB4W5B0?t=';
+    const double startSecondsone = 000000000000000000000000000871;
+    const String videoIdtwo = 'https://youtu.be/q5TQ-9pQtqk?t=';
+    const double startSecondstwo = 000000000000000000000000000766;
+    const String videoIdthree = 'https://youtu.be/UNLx326JQzE?t=';
+    const double startSecondsthree = 000000000000000000000000000192;
+    const String videoIdfour = 'https://youtu.be/Mkk07RUh9fM?t=';
+    const double startSecondsfour = 00000000000000000000000000083;
+    const String videoIdfive = 'https://youtu.be/NCeu5Wy-oVI?t=';
+    const double startSecondsfive = 000000000000000000000000000607;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +953,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impetuous""",
+                      // alsoEnglishWord: "also: impetuous",
+                      britshText: """IpaUK: /ɪmˈpetʃuəs/""",
+                      americanText: """IpaUS: /ɪmˈpetʃuəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +994,18 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەپەلە، تاوسەندوو، سەرشێت، کەم‌مۆڵەت، (بە)پڕتاو، دەست‌وبرد، هەڵنەسەنگێنراو، بێ‌بیرلێ‌کردنەوە، سەرچڵ، هەڵەشە،	توند، سەخت
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impetuous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) کە بە خێرایی کراوە بەبێ بیرکردنەوە لە لێکەوتەکانی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: rash، impulsive"),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """He's so impetuous - why can't he think things over before he rushes into them?""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """زۆر هەڵەشەیە ـ بۆچی ناتوانێت تەواو بیر لە شتەکان بکاتەوە پێش ئەوەی زوو بیانکات؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1013,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The governor may now be regretting her impetuous promise to reduce unemployment by half.""",
+                      kurdishText:
+                          """حاکمەکە ڕەنگە ئێستا پەشیمان بێت لە بەڵێنە هەڵەشەکەی سەبارەت بە کەمکردنەوەی بێکاری بۆ نیوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

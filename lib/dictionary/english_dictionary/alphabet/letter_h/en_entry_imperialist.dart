@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimperialist extends StatefulWidget {
+  const EnglishEntryimperialist({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimperialist> createState() =>
+      _EnglishEntryimperialistState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimperialistState extends State<EnglishEntryimperialist> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: imperialist
+1. Of or relating to imperialism (- imperialistic)
+"imperialist wars";
+
+- Noun: imperialist (Derived forms: imperialists)
+1. A believer in imperialism
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imperialist";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +82,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imperialist""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,14 +90,15 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """The country became an imperialist power in the 19th century.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The imperialist wanted more control over smaller nations.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +930,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/QLq6GEiHqR8?t=';
+    const double startSecondsend = 000000000000000000000000000232;
+    const String videoIdone = 'https://youtu.be/w0QRliFvOC0?t=';
+    const double startSecondsone = 000000000000000000000000000623;
+    const String videoIdtwo = 'https://youtu.be/Gfj5f0GVLZ0';
+    const double startSecondstwo = 0;
+    const String videoIdthree = 'https://youtu.be/En8Tz2RzubE?t=';
+    const double startSecondsthree = 000000000000000000000000000317;
+    const String videoIdfour = 'https://youtu.be/Kxio4_ISHyg?t=';
+    const double startSecondsfour = 00000000000000000000000000015;
+    const String videoIdfive = 'https://youtu.be/lswKi3SLsy8?t=';
+    const double startSecondsfive = 0000000000000000000000000004;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +954,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imperialist""",
+                      // alsoEnglishWord: "also: imperialist",
+                      britshText: """IpaUK: /ɪmˈpɪəriəlɪst/""",
+                      americanText: """IpaUS: /ɪmˈpɪriəlɪst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,24 +997,27 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "illustriously", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) پەیوەندیدار بە سیستەمێک کە تێیدا وڵاتێک کۆنترۆڵی وڵاتێکی دیکە دەکات، زۆرجار لە دوای ئەوەی لە جەنگدا دەیباتەوە"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The country became an imperialist power in the 19th century.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """وڵاتەکە بووبوو بە هێزێکی داگیرکەر لە سەدەی ١٩ ــهەمدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کەسێک کە پشتیوانی هێزی پاوانخوازی دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The imperialist wanted more control over smaller nations.""",
+                      kurdishText:
+                          """پاوانخوازەکە کۆنترۆڵی زیاتری دەویست بەسەر نەتەوە بچووکەکاندا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimmaculate extends StatefulWidget {
+  const EnglishEntryimmaculate({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimmaculate> createState() => _EnglishEntryimmaculateState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimmaculateState extends State<EnglishEntryimmaculate> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: immaculate
+1. Completely neat and clean (- speckless, spick-and-span, spic-and-span, spic, spick, spotless)
+"the apartment was immaculate"; "in her immaculate white uniform";
+ 
+2. Free from stain or blemish (- undefiled, intemerate [rare])
+ 
+3. Without fault or error (- faultless, impeccable, incorrupted)
+"timing and technique were immaculate"; "an immaculate record";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "immaculate";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,29 +83,29 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""immaculate""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""She always looks immaculate.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The suit he was wearing was immaculate.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He gave an immaculate performance as the aging hero.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,18 +930,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/mY3SEMTROas?t=';
+    const double startSecondsend = 0000000000000000000000000001817;
+    const String videoIdone = 'https://youtu.be/iht8e_HtLso?t=';
+    const double startSecondsone = 0000000000000000000000000001282;
+    const String videoIdtwo = 'https://youtu.be/7eM7pb5M5DU?t=';
+    const double startSecondstwo = 0000000000000000000000000002070;
+    const String videoIdthree = 'https://youtu.be/lkmxQwbHybw?t=';
+    const double startSecondsthree = 000000000000000000000000000305;
+    const String videoIdfour = 'https://youtu.be/hCsPV0eiqxg?t=';
+    const double startSecondsfour = 0000000000000000000000000001064;
+    const String videoIdfive = 'https://youtu.be/agLUDl4YpQg?t=';
+    const double startSecondsfive = 000000000000000000000000000321;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +954,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """immaculate""",
+                      // alsoEnglishWord: "also: immaculate",
+                      britshText: """IpaUK: /ɪˈmækjələt/""",
+                      americanText: """IpaUS: /ɪˈmækjələt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +995,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پاک، خاوێن، بێ‌لکە، بێ‌گەرد، بێ‌خەوش، تەواو، داوێن‌پاک، بەنامووس، بێ‌گوناهـ
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "immaculate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) تەواو پاک و ڕێک بەبێ هیچ خاڵ و پیسییەک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: spotless"),
                     SentencesRow(
-                      englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                      englishText: """She always looks immaculate.""",
+                      kurdishText: """هەمیشە خاوێن دیارە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,17 +1012,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The suit he was wearing was immaculate.""",
+                      kurdishText: """ئەو قاتەی لەبەری بوو بێ‌خەوش بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە هیچ هەڵەو ناتەواوی تێدا نییە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: perfect"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He gave an immaculate performance as the aging hero.""",
+                      kurdishText:
+                          """نمایشێکی ناوازەی پێشکەش کرد وەک پاڵەوانە بەتەمەنەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

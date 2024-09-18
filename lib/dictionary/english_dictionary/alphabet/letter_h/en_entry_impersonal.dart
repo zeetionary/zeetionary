@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpersonal extends StatefulWidget {
+  const EnglishEntryimpersonal({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpersonal> createState() => _EnglishEntryimpersonalState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpersonalState extends State<EnglishEntryimpersonal> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: impersonal
+1. Not relating to or responsive to individual persons
+"an impersonal corporation"; "an impersonal remark"
+ 
+2. Having no personal preference or bias (- neutral)
+"impersonal criticism";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impersonal";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,36 +81,39 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impersonal""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""Business letters need not be formal and impersonal.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""I find the atmosphere there rather impersonal.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Let's keep the criticism general and impersonal.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""His touch was as impersonal as that of a doctor.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,18 +931,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/7eM7pb5M5DU?t=';
+    const double startSecondsend = 0000000000000000000000000001497;
+    const String videoIdone = 'https://youtu.be/IwJzsE8CvzQ?t=';
+    const double startSecondsone = 000000000000000000000000000968;
+    const String videoIdtwo = 'https://youtu.be/WwhyZUlmaWA?t=';
+    const double startSecondstwo = 0000000000000000000000000003562;
+    const String videoIdthree = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsthree = 0000000000000000000000000004922;
+    const String videoIdfour = 'https://youtu.be/W6aDNutZoB0?t=';
+    const double startSecondsfour = 000000000000000000000000000873;
+    const String videoIdfive = 'https://youtu.be/P4LnwRHGIHg?t=';
+    const double startSecondsfive = 000000000000000000000000000574;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +955,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impersonal""",
+                      // alsoEnglishWord: "also: impersonal",
+                      britshText: """IpaUK: /ɪmˈpɜːsənl/""",
+                      americanText: """IpaUS: /ɪmˈpɜːrsənl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +996,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناکەسی، گشتی، بێ لایەنی (تاکە)کەسی،	وشک، ساردوسڕ، بابەتی، بێ‌لایەنانە،	(خودا) ڕەنگ و تایبەتمەندی مرۆڤی نەبێ، نامرۆڤی، بەبێ‌کەسێتی،	(ڕێزمان) ناکەسی، کەس‌نەدار، بێ‌کارا، بێ‌بکەر
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impersonal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) کە هیچ هەستی دۆستانەی مرۆڤانەی نییە"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """Business letters need not be formal and impersonal.""",
+                      kurdishText: """نامەی بزنس دەبێت فەرمی و گشتی بن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,17 +1013,24 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I find the atmosphere there rather impersonal.""",
+                      kurdishText: """کەشەکەی ئەوێ بە کەمێک وشک دەبینم.""",
+                      englishNote:
+                          """This means the environment feels cold or detached, lacking personal warmth, friendliness, or human connection.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە باسی کەسێکی دیاریکراو ناکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Let's keep the criticism general and impersonal.""",
+                      kurdishText:
+                          """با ڕەخنەکان بە گشتی و بێ‌لایەنی بهێڵینەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1027,8 +1038,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His touch was as impersonal as that of a doctor.""",
+                      kurdishText: """دەستی وەک هی پزیشکێک بێ‌هەستانە بوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

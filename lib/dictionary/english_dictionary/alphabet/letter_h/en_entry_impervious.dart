@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpervious extends StatefulWidget {
+  const EnglishEntryimpervious({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpervious> createState() => _EnglishEntryimperviousState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimperviousState extends State<EnglishEntryimpervious> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: impervious
+1. Not admitting of passage or capable of being affected (- imperviable)
+"someone impervious to argument"; "a material impervious to water";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impervious";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,22 +78,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impervious""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""She was impervious to his charms.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """How does glue bond with impervious substances like glass and metal?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +925,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/wkORnroOOWg?t=';
+    const double startSecondsend = 000000000000000000000000000768;
+    const String videoIdone = 'https://youtu.be/5sHuFK7yOdo?t=';
+    const double startSecondsone = 000000000000000000000000000411;
+    const String videoIdtwo = 'https://youtu.be/6iKeOP72hTo?t=';
+    const double startSecondstwo = 00000000000000000000000000070;
+    const String videoIdthree = 'https://youtu.be/w0QRliFvOC0?t=';
+    const double startSecondsthree = 000000000000000000000000000897;
+    const String videoIdfour = 'https://youtu.be/MYnjzsjeMK8?t=';
+    const double startSecondsfour = 000000000000000000000000000567;
+    const String videoIdfive = 'https://youtu.be/YeAxxMZf1O4?t=';
+    const double startSecondsfive = 000000000000000000000000000748;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +949,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impervious""",
+                      // alsoEnglishWord: "also: impervious",
+                      britshText: """IpaUK: /ɪmˈpɜːviəs/""",
+                      americanText: """IpaUS: /ɪmˈpɜːrviəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,27 +989,28 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "illustriously", please follow LX instructions
+//                     const KurdishVocabulary(text: """
+// کوردی: نەدەڵێن، دانەدەر، لێنەچوو، بەنێوداتێنەپەڕیو، شێ‌هەڵنەگر، داینادا، نایدەڵێنی،	کارلێ‌نەکراو، سەرسەخت، خۆڕاگر
+// """),
+// With short examples define "impervious", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                        text: """١. (ھاوەڵناو) ئەوەی کاریگەر نەبیت بە شتێک"""),
                     SentencesRow(
-                      englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                      englishText: """She was impervious to his charms.""",
+                      kurdishText: """خۆڕاگر بوو بە جوانییەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە ڕێگا بە شلە یان گاز نادات پێیدا تێپەڕێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """How does glue bond with impervious substances like glass and metal?""",
+                      kurdishText:
+                          """چۆن سرێش تێکەڵ دەبێت بە مادەی لێنەچووێ وەک شووشە و کانزا؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -5,15 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpenetrable extends StatefulWidget {
+  const EnglishEntryimpenetrable({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpenetrable> createState() =>
+      _EnglishEntryimpenetrableState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpenetrableState extends State<EnglishEntryimpenetrable> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +53,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: impenetrable
+1. Permitting little if any light to pass through because of denseness of matter (- dense, heavy)
+"impenetrable gloom";
+ 
+2. Impossible to understand
+"impenetrable jargon"
+
+3. Not admitting of penetration or passage into or through
+"an impenetrable fortress"; "impenetrable rain forests"
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impenetrable";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,22 +85,21 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impenetrable""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts.speak("""Outside, the fog was thick and impenetrable.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Her expression was impenetrable.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +931,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/s4Y3dlTDAxw?t=';
+    const double startSecondsend = 00000000000000000000000000088;
+    const String videoIdone = 'https://youtu.be/j0iOuOMh_JE?t=';
+    const double startSecondsone = 0000000000000000000000000001112;
+    const String videoIdtwo = 'https://youtu.be/I5Wxh-rCzrY?t=';
+    const double startSecondstwo = 000000000000000000000000000181;
+    const String videoIdthree = 'https://youtu.be/nT7w0s5jg6k?t=';
+    const double startSecondsthree = 000000000000000000000000000188;
+    const String videoIdfour = 'https://youtu.be/YTR21os8gTA?t=';
+    const double startSecondsfour = 00000000000000000000000000070;
+    const String videoIdfive = 'https://youtu.be/9OKWrQXnFkA?t=';
+    const double startSecondsfive = 00000000000000000000000000063;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +955,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impenetrable""",
+                      // alsoEnglishWord: "also: impenetrable",
+                      britshText: """IpaUK: /ɪmˈpenɪtrəbl/""",
+                      americanText: """IpaUS: /ɪmˈpenɪtrəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,26 +996,26 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تێوەنەچوو، پیاڕەت‌نەبوو، کون ناکرێ، لە بڕین نایە، لەڕۆیشتن‌نەهاتوو، لەبڕین‌نەهاتوو، پیاتێنەپەڕیو، پیانەڕۆیشتوو
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impenetrable", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) کە شت ناتوانرێت بەناویدا تێپەڕێت یان کەسێک بەناویدا ببینێت"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
-                      kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """Outside, the fog was thick and impenetrable.""",
+                      kurdishText: """لە دەرەوە، تەمەکە لەبڕین‌نەهاتوو بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە ئەستەمە بۆ تێگەشتن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: incomprehensible"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her expression was impenetrable.""",
+                      kurdishText: """دەربڕینی ئەستەم بوو بۆ تێگەشتن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

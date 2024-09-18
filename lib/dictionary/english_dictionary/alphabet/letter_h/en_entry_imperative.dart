@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimperative extends StatefulWidget {
+  const EnglishEntryimperative({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimperative> createState() => _EnglishEntryimperativeState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimperativeState extends State<EnglishEntryimperative> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: imperative
+1. Of greatest importance (- paramount)
+"It is imperative to address these issues to improve well-being";
+ 
+2. Requiring attention or action
+"as nuclear weapons proliferate, preventing war becomes imperative"; "requests that grew more and more imperative"
+ 
+3. (grammar) relating to verbs in the imperative mood
+
+- Noun: imperative (Derived forms: imperatives)
+1. Some duty that is essential and urgent
+ 
+2. A verb in the imperative mood. (- imperative verb)
+ 
+3. A mood that expresses an intention to influence the listener's behaviour (- imperative mood, jussive mood, imperative form)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imperative";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,43 +90,47 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imperative""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""It is absolutely imperative that we finish by next week.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """It is imperative to continue the treatment for at least two months.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """In the phrase "Leave him alone!", the verb "leave" is in the imperative form.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Getting the unemployed back to work, said the mayor, is a moral imperative.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """In the phrase "Leave him alone!", the verb "leave" is an imperative/is in the imperative.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,18 +941,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/VNZ0so0LCoM?t=';
+    const double startSecondsend = 000000000000000000000000000746;
+    const String videoIdone = 'https://youtu.be/LbPw9AlVKVM?t=';
+    const double startSecondsone = 0000000000000000000000000001011;
+    const String videoIdtwo = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondstwo = 0000000000000000000000000001332;
+    const String videoIdthree = 'https://youtu.be/9HabyEoLBGs?t=';
+    const double startSecondsthree = 000000000000000000000000000161;
+    const String videoIdfour = 'https://youtu.be/OoJsPvmFixU?t=';
+    const double startSecondsfour = 0000000000000000000000000002810;
+    const String videoIdfive = 'https://youtu.be/1n2nPRxAOss?t=';
+    const double startSecondsfive = 0000000000000000000000000001521;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +965,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imperative""",
+                      // alsoEnglishWord: "also: imperative",
+                      britshText: """IpaUK: /ɪmˈperətɪv/""",
+                      americanText: """IpaUS: /ɪmˈperətɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +1006,18 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێویست، پێدڤی، هەرەگرنگ،	زۆرەملی، بەزۆر، توند، زۆردارانە، دەستووردەرانە،	(ڕێزمان) فەرمانی
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imperative", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) زۆر گرنگ کە پێویستی بە مامەڵەی دەستبەجێیە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: vital"),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """It is absolutely imperative that we finish by next week.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """تەواو گرنگە کە تاوەکو هەفتەی داهاتوو تەواو بین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,35 +1025,47 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is imperative to continue the treatment for at least two months.""",
+                      kurdishText:
+                          """زۆر پێویستە کە چارەسەرەکە تاوەکو دوو مانگ بەردەوامی پێبدەیت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە فەرمان دەردەبڕێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In the phrase "Leave him alone!", the verb "leave" is in the imperative form.""",
+                      kurdishText:
+                          """لە دەستەواژەی "Leave him alone!"، کرداری "leave" لە شێوەی فەرمانییە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) شتێک کە زۆر گرنگە و پێویستی بە مامەڵەی دەستبەجێیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Getting the unemployed back to work, said the mayor, is a moral imperative.""",
+                      kurdishText:
+                          """سەرۆک شارەوانییەکە گوتی دووبارە هێنانەوەی بێکاران بۆ سەر ئەرکێکی ئەخلاقییە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ناو) شێوەی کردار کە فەرمان پیشان دەدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In the phrase "Leave him alone!", the verb "leave" is an imperative/is in the imperative.""",
+                      kurdishText:
+                          """لە دەستەواژەی "Leave him alone!"، کرداری "leave" فەرمانییە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

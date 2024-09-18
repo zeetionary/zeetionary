@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimitator extends StatefulWidget {
+  const EnglishEntryimitator({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimitator> createState() => _EnglishEntryimitatorState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimitatorState extends State<EnglishEntryimitator> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: imitator (Derived forms: imitators)
+1. Someone who (fraudulently) assumes the appearance of another (- impersonator)
+ 
+2. Someone who copies the words or behaviour of another (- copycat, emulator, ape, aper)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imitator";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,15 +79,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imitator""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+    await flutterTts
+        .speak("""The band's success has inspired hundreds of imitators.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,17 +926,17 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
+    const String videoIdend = 'https://youtu.be/29DjvorzUGg?t=';
+    const double startSecondsend = 00000000000000000000000000024;
+    const String videoIdone = 'https://youtu.be/Bj6ulLJGPB8?t=';
+    const double startSecondsone = 000000000000000000000000000469;
+    const String videoIdtwo = 'https://youtu.be/bTOkCOKIVeY?t=';
+    const double startSecondstwo = 000000000000000000000000000401;
+    const String videoIdthree = 'https://youtu.be/Ma3vLsadGnE?t=';
+    const double startSecondsthree = 0000000000000000000000000008;
+    const String videoIdfour = 'https://youtu.be/TSoT0qGT2-o?t=';
+    const double startSecondsfour = 0000000000000000000000000009;
+    const String videoIdfive = 'https://youtu.be/uWEooJ_xiyU?t=';
     const double startSecondsfive = 00000000000000000000000000075;
 
     return DefaultTabController(
@@ -950,10 +950,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imitator""",
+                      // alsoEnglishWord: "also: imitator",
+                      britshText: """IpaUK: /ˈɪmɪteɪtə(r)/""",
+                      americanText: """IpaUS: /ˈɪmɪteɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +991,16 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لاسایی‌کەرەوە، چاولێکەر
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imitator", please follow LX instructions
                     const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                        text: """١. (ناو) ک/شت کە کۆپی ک/شتی دیکە دەکات"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The band's success has inspired hundreds of imitators.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """سەرکەوتنی باندەکە ئیلهامی بەخشیوە بە سەدان لاسایی‌کەرەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

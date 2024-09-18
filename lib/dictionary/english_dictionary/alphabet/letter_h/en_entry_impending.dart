@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimpending extends StatefulWidget {
+  const EnglishEntryimpending({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimpending> createState() => _EnglishEntryimpendingState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimpendingState extends State<EnglishEntryimpending> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Adjective: impending
+1. Close in time; about to occur (- at hand, close at hand, imminent, impendent, approach, approaching, coming)
+"his impending retirement";
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "impending";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +78,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""impending""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,14 +86,14 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """The player announced his impending retirement from international football.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She had a sense of impending doom.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +925,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/i7mqjhOYL-8?t=';
+    const double startSecondsend = 000000000000000000000000000313;
+    const String videoIdone = 'https://youtu.be/m6U6I9Jbkxs?t=';
+    const double startSecondsone = 000000000000000000000000000807;
+    const String videoIdtwo = 'https://youtu.be/7EDflnGzjTY?t=';
+    const double startSecondstwo = 000000000000000000000000000106;
+    const String videoIdthree = 'https://youtu.be/dzRNswfny3A?t=';
+    const double startSecondsthree = 000000000000000000000000000493;
+    const String videoIdfour = 'https://youtu.be/IiyBo-qLDeM?t=';
+    const double startSecondsfour = 0000000000000000000000000001156;
+    const String videoIdfive = 'https://youtu.be/DbhuZFVqAqc?t=';
+    const double startSecondsfive = 0000000000000000000000000001318;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +949,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """impending""",
+                      // alsoEnglishWord: "also: impending",
+                      britshText: """IpaUK: /ɪmˈpendɪŋ/""",
+                      americanText: """IpaUS: /ɪmˈpendɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +990,18 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خەریکە، نزیک، هاکا، بەڕێوە، بە دەم‌ڕێوە
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "impending", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ھاوەڵناو) ڕووداوێکی ناخۆش کە زوو ڕوودەدات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: imminent"),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """The player announced his impending retirement from international football.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """یاریزانەکە وازهێنانی نزیکیی لە یاریی نێودەوڵەتی ڕاگەیاند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1009,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She had a sense of impending doom (= felt that something very bad was going to happen).""",
+            kurdishText: "ھەستێکی بۆ کارەساتێکی بەپەلە ھەبوو.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

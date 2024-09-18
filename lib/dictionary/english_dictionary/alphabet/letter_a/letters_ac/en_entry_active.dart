@@ -267,7 +267,7 @@ ${englishMeaningConst.text}
                           SentencesRow(
                             englishText:
                                 "That child has a very active imagination.",
-                            kurdishText: "ئەو منداڵە خەیاڵێکی کارای ھەیە.",
+                            kurdishText: "ئەو منداڵە خەیاڵکردنێکی کارای ھەیە.",
                             onPressedBritish: () => speakactive5847("en-GB"),
                             onPressedAmerican: () => speakactive5847(
                                 "en-US"), // REPLACE active /ˈæktɪv/

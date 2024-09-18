@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryillustriously extends StatefulWidget {
-  const EnglishEntryillustriously({super.key});
+class EnglishEntryimbalance extends StatefulWidget {
+  const EnglishEntryimbalance({super.key});
 
   @override
-  State<EnglishEntryillustriously> createState() =>
-      _EnglishEntryillustriouslyState();
+  State<EnglishEntryimbalance> createState() => _EnglishEntryimbalanceState();
 }
 
-class _EnglishEntryillustriouslyState extends State<EnglishEntryillustriously> {
+class _EnglishEntryimbalanceState extends State<EnglishEntryimbalance> {
   @override
   void initState() {
     super.initState();
@@ -53,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: illustriously
-1. In an illustrious manner
-"Einstein, the illustriously famous physicist of the 20th century"
+- Noun: imbalance (Derived forms: imbalances)
+1. A lack of balance or state of disequilibrium (- instability, unbalance)
+"a hormonal imbalance";
+ 
+2. Lack of proportion; imbalance among the parts of something (- disproportion, dissymmetry)
 """,
   );
 
-  final String keyword = "illustriously";
+  final String keyword = "imbalance";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -79,7 +80,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""illustriously""");
+    await flutterTts.speak("""imbalance""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -87,14 +88,15 @@ ${englishMeaningConst.text}
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(
-        """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""");
+        """Postnatal depression is usually due to hormonal imbalance.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """An imbalance in certain chemicals leads to disturbances in the brain's function.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,18 +928,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/_d-G7ePTJCU?t=';
-    const double startSecondsend = 0000000000000000000000000002315;
-    const String videoIdone = 'https://youtu.be/LV7ZBCgAMM0?t=';
-    const double startSecondsone = 2;
-    const String videoIdtwo = 'https://youtu.be/2qFwvuhzse0?t=';
-    const double startSecondstwo = 0000000000000000000000000001050;
-    const String videoIdthree = 'https://youtu.be/up7YZPWCalo?t=';
-    const double startSecondsthree = 000000000000000000000000000621;
-    const String videoIdfour = 'https://youtu.be/NOoc_D2GMAc?t=';
-    const double startSecondsfour = 0000000000000000000000000001485;
-    const String videoIdfive = 'https://youtu.be/TClcYnrfWss?t=';
-    const double startSecondsfive = 00000000000000000000000000075;
+    const String videoIdend = 'https://youtu.be/DWmGArQBtFI?t=';
+    const double startSecondsend = 000000000000000000000000000177;
+    const String videoIdone = 'https://youtu.be/CsTmgX32Uk8?t=';
+    const double startSecondsone = 000000000000000000000000000239;
+    const String videoIdtwo = 'https://youtu.be/JObYtU7Y7ag?t=';
+    const double startSecondstwo = 00000000000000000000000000021;
+    const String videoIdthree = 'https://youtu.be/FTKP0Y9MVus?t=';
+    const double startSecondsthree = 000000000000000000000000000124;
+    const String videoIdfour = 'https://youtu.be/fvu5FxKuqdQ?t=';
+    const double startSecondsfour = 000000000000000000000000000626;
+    const String videoIdfive = 'https://youtu.be/vS0TuIPoeBs?t=';
+    const double startSecondsfive = 000000000000000000000000000217;
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """illustriously""",
-                      // alsoEnglishWord: "also: illustriously",
-                      britshText: """IpaUK: /ɪˈlʌstriəsli/""",
-                      americanText: """IpaUS: /ɪˈlʌstriəsli/""",
+                      word: """imbalance""",
+                      // alsoEnglishWord: "also: imbalance",
+                      britshText: """IpaUK: /ɪmˈbæləns/""",
+                      americanText: """IpaUS: /ɪmˈbæləns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,17 +993,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناهاوکێشی، ناهاوسەنگی، نالەنگەری، لاسەنگی،	نابەرامبەری، نایەکسانی، جیاوازی
 """),
-// With short examples define "illustriously", please follow LX instructions
+// With short examples define "imbalance", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە کە زۆر بەناوبانگ و جێگای ڕێزە"""),
+                            """١. (ناو) دۆخێک کە تێیدا دوو شت یان زیاتر لە هەمان ئەندازە نین یان بە هەمان شێوە مامەڵەیان لەگەڵ ناکرێت"""),
                     SentencesRow(
                       englishText:
-                          """The building had previously served as an embassy, and somewhat less illustriously as an onion store.""",
+                          """Postnatal depression is usually due to hormonal imbalance.""",
                       kurdishText:
-                          """بیناکە پێشتر وەک باڵیۆزخانە بەکار دەهات، و دواتر بە کەمتر ناوبانگەوە وەک کۆگای پیاز.""",
+                          """خەمۆکی دوای دووگیانی زۆرجار بەهۆی ناهاوسەنگی هۆرمۆنییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1011,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An imbalance in certain chemicals leads to disturbances in the brain's function.""",
+                      kurdishText:
+                          """ناهاوسەنگی لە ژمارەیەک مادەی کیمیایی دیاریکراو دەبێتە هۆکاری کێشە لە کاری مێشک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

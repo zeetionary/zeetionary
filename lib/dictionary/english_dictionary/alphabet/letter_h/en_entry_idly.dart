@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryidly idly
-WORD_WEB idly idly idly
-haʊʊʊʊʊʊʊ4
+- Adverb: idly
+1. In an idle manner (- lazily)
+"this is what I always imagined myself doing in the south of France, sitting idly, drinking coffee, watching the people";
 """,
   );
-// 188888880002200
 
   final String keyword = "idly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She sat in the sun, idly sipping a cool drink.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""We can't stand idly by and let people starve.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/kbdJqkKQCzc?t=';
+    const double startSecondsend = 00000000000000000000000000097;
+    const String videoIdone = 'https://youtu.be/pzvbUpKU4eE?t=';
+    const double startSecondsone = 000000000000000000000000000661;
+    const String videoIdtwo = 'https://youtu.be/2MZZrDA-I4M?t=';
+    const double startSecondstwo = 000000000000000000000000000723;
+    const String videoIdthree = 'https://youtu.be/K_q-xnYRugQ?t=';
+    const double startSecondsthree = 000000000000000000000000000176;
+    const String videoIdfour = 'https://youtu.be/e4wajXk_cDs?t=';
+    const double startSecondsfour = 000000000000000000000000000154;
+    const String videoIdfive = 'https://youtu.be/kgMtMUDL51M?t=';
+    const double startSecondsfive = 000000000000000000000000000835;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """idly""",
                       // alsoEnglishWord: "also: idly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈaɪdli/""",
+                      americanText: """IpaUS: /ˈaɪdli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +993,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "idly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەبێ هۆکارێک، مەبەستێک، یان هەوڵێکی دیاریکراو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She sat in the sun, idly sipping a cool drink.""",
+                      kurdishText:
+                          """لە پێش خۆرەکە بە بێکاری دانیشتبوو قومی لە خواردنەوەیەکی سارد دەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We can't stand idly by (= do nothing) and let people starve.""",
+                      kurdishText:
+                          """ناتوانین دەستەوەستان دابنیشین و بهێڵین خەڵکی لە برسیدا بمرن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -5,15 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryidiosyncrasy extends StatefulWidget {
-  const EnglishEntryidiosyncrasy({super.key});
+class EnglishEntryimagery extends StatefulWidget {
+  const EnglishEntryimagery({super.key});
 
   @override
-  State<EnglishEntryidiosyncrasy> createState() =>
-      _EnglishEntryidiosyncrasyState();
+  State<EnglishEntryimagery> createState() => _EnglishEntryimageryState();
 }
 
-class _EnglishEntryidiosyncrasyState extends State<EnglishEntryidiosyncrasy> {
+class _EnglishEntryimageryState extends State<EnglishEntryimagery> {
   @override
   void initState() {
     super.initState();
@@ -53,12 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: idiosyncrasy (Derived forms: idiosyncrasies)
-1. A behavioral attribute that is distinctive and peculiar to an individual (- foible, mannerism)
+
+EnglishEntryimagery imagery
+WORD_WEB imagery imagery imagery
+haʊʊʊʊʊʊʊ4
 """,
   );
+// 188888880002200
 
-  final String keyword = "idiosyncrasy";
+  final String keyword = "imagery";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,23 +80,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""idiosyncrasy""");
+    await flutterTts.speak("""imagery""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """We are all individuals, unique beings with our own special qualities and idiosyncrasies.""");
+    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """She often cracks her knuckles when she's speaking - it's one of her little idiosyncrasies.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -925,19 +926,21 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
+
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/UopANFTGexA?t=';
-    const double startSecondsend = 000000000000000000000000000223;
-    const String videoIdone = 'https://youtu.be/RqZSJUK_BWE?t=';
-    const double startSecondsone = 00000000000000000000000000013;
-    const String videoIdtwo = 'https://youtu.be/1vAecncvGtA?t=';
-    const double startSecondstwo = 0000000000000000000000000001019;
-    const String videoIdthree = 'https://youtu.be/cMUd2zJ3pAU?t=';
-    const double startSecondsthree = 00000000000000000000000000062;
-    const String videoIdfour = 'https://youtu.be/4UduzUmetP4?t=';
-    const double startSecondsfour = 000000000000000000000000000801;
-    const String videoIdfive = 'https://youtu.be/c4HGOT9A5Mw?t=';
-    const double startSecondsfive = 000000000000000000000000000722;
+    const String videoIdend = '';
+    const double startSecondsend = 000000000000000000000000000;
+    const String videoIdone = '';
+    const double startSecondsone = 000000000000000000000000000;
+    const String videoIdtwo = '';
+    const double startSecondstwo = 000000000000000000000000000;
+    const String videoIdthree = '';
+    const double startSecondsthree = 000000000000000000000000000;
+    const String videoIdfour = '';
+    const double startSecondsfour = 000000000000000000000000000;
+    const String videoIdfive = '';
+    const double startSecondsfive = 000000000000000000000000000;
+// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -950,10 +953,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """idiosyncrasy""",
-                      // alsoEnglishWord: "also: idiosyncrasy",
-                      britshText: """IpaUK: /ˌɪdiəˈsɪŋkrəsi/""",
-                      americanText: """IpaUS: /ˌɪdiəˈsɪŋkrəsi/""",
+                      word: """imagery""",
+                      // alsoEnglishWord: "also: imagery",
+                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
+                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,16 +996,12 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "idiosyncrasy", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ناو) شێوەی تایبەتی بیرکردنەوە، ڕەفتار، هتد ــی کەسێک، بە تایبەتی کە نامۆیە"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: eccentricity"),
+// With short examples define "imagery", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText:
-                          """We are all individuals, unique beings with our own special qualities and idiosyncrasies.""",
-                      kurdishText:
-                          """هەموومان مرۆڤین، گیانلەبەری بێ‌هاوتاین بە خاسیەت و تایبەتمەندی خۆمانەوە.""",
+                      englishText: """// ssssssssssssssssssssssgggggggg55555
+""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1010,10 +1009,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """She often cracks her knuckles when she's speaking - it's one of her little idiosyncrasies.""",
-                      kurdishText:
-                          """زۆرجار پەنجەکانی دەتەقێنێت کە قسە دەکات ـ ئەوە یەکێکە لە خووە بچووکەکانی.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryidiomatic idiomatic
-WORD_WEB idiomatic idiomatic idiomatic
-haʊʊʊʊʊʊʊ4
+- Adjective: idiomatic
+1. Of or relating to or conforming to idiom (- idiomatical)
+"idiomatic English";
 """,
   );
-// 188888880002200
 
   final String keyword = "idiomatic";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She speaks fluent and idiomatic English.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """"Bite the bullet" is an idiomatic expression that means to accept something unpleasant without complaining.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/41phB_nAA_8?t=';
+    const double startSecondsend = 000000000000000000000000000585;
+    const String videoIdone = 'https://youtu.be/TE8xg3d8dBg?t=';
+    const double startSecondsone = 000000000000000000000000000252;
+    const String videoIdtwo = 'https://youtu.be/iQ-j824f5vc?t=';
+    const double startSecondstwo = 00000000000000000000000000032;
+    const String videoIdthree = 'https://youtu.be/huAuiHXJCPY?t=';
+    const double startSecondsthree = 000000000000000000000000000618;
+    const String videoIdfour = 'https://youtu.be/ssBX_l5AH8k?t=';
+    const double startSecondsfour = 000000000000000000000000000456;
+    const String videoIdfive = 'https://youtu.be/DcR-KahoGag?t=';
+    const double startSecondsfive = 00000000000000000000000000036;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """idiomatic""",
                       // alsoEnglishWord: "also: idiomatic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪdiəˈmætɪk/""",
+                      americanText: """IpaUS: /ˌɪdiəˈmætɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,20 +993,26 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "idiomatic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کەو ئەو دەربڕینانە لەخۆدەگرێت کە سرووشتییە بۆ ئاخێوەرانی ڕەسەنی زمانێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She speaks fluent and idiomatic English.""",
+                      kurdishText:
+                          """قسە بە ئینگلیزی پاراو و ئیدیەمانە دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە ئیدیەمی تێدایە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """"Bite the bullet" is an idiomatic expression that means to accept something unpleasant without complaining.""",
+                      kurdishText:
+                          """"Bite the bullet" دەربڕینێکی ئیدیەمانەیە کە واتای ئەوەیە شتێکی ناخۆش پەسەند بکەیت بەبێ گازەندە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

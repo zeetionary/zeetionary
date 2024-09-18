@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryie extends StatefulWidget {
-  const EnglishEntryie({super.key});
+class EnglishEntryimagine extends StatefulWidget {
+  const EnglishEntryimagine({super.key});
 
   @override
-  State<EnglishEntryie> createState() => _EnglishEntryieState();
+  State<EnglishEntryimagine> createState() => _EnglishEntryimagineState();
 }
 
-class _EnglishEntryieState extends State<EnglishEntryie> {
+class _EnglishEntryimagineState extends State<EnglishEntryimagine> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +53,14 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 
-EnglishEntryie ie
-WORD_WEB ie ie ie
+EnglishEntryimagine imagine
+WORD_WEB imagine imagine imagine
 haʊʊʊʊʊʊʊ4
 """,
   );
 // 188888880002200
 
-  final String keyword = "ie";
+  final String keyword = "imagine";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,7 +80,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""ie""");
+    await flutterTts.speak("""imagine""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """ie""",
-                      // alsoEnglishWord: "also: ie",
+                      word: """imagine""",
+                      // alsoEnglishWord: "also: imagine",
                       britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
                       americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
@@ -996,7 +996,7 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "ie", please follow LX instructions
+// With short examples define "imagine", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555

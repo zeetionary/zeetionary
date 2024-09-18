@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryidolize idolize
-WORD_WEB idolize idolize idolize
-haʊʊʊʊʊʊʊ4
+- Verb: idolize (Derived forms: idolized, idolizes, idolizing)
+1. Love unquestioningly and uncritically or to excess; venerate as an idol (- idolise [Brit], worship, hero-worship, revere)
+"Many teenagers idolized the Beatles";
 """,
   );
-// 188888880002200
 
   final String keyword = "idolize";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They idolize their kids.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Young children often idolize their parents.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/1jm3K9cm3vI?t=';
+    const double startSecondsend = 0000000000000000000000000002841;
+    const String videoIdone = 'https://youtu.be/pXWyeg2GFBc?t=';
+    const double startSecondsone = 00000000000000000000000000078;
+    const String videoIdtwo = 'https://youtu.be/lBoXmf0PW1I?t=';
+    const double startSecondstwo = 00000000000000000000000000046;
+    const String videoIdthree = 'https://youtu.be/K9ki5uCZalg?t=';
+    const double startSecondsthree = 000000000000000000000000000460;
+    const String videoIdfour = 'https://youtu.be/K1QCZXfJHrI?t=';
+    const double startSecondsfour = 00000000000000000000000000083;
+    const String videoIdfive = 'https://youtu.be/yvrXyqdQrmY?t=';
+    const double startSecondsfive = 000000000000000000000000000243;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """idolize""",
                       // alsoEnglishWord: "also: idolize",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈaɪdəlaɪz/""",
+                      americanText: """IpaUS: /ˈaɪdəlaɪz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +993,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "idolize", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (کردار) خۆشویستن و سەرسامبوون بە کەسێک بە ئاستێکی زۆر، یان زۆر زۆر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They idolize their kids.""",
+                      kurdishText: """منداڵەکانیانیان زۆر خۆشدەوێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1004,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Young children often idolize their parents.""",
+                      kurdishText: """منداڵانی گەنج زۆرجار دایبابیانیان زۆر خۆشدەوێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

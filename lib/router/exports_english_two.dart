@@ -351,7 +351,6 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 // en_entry_idol.dart' show EnglishEntryidol
 // en_entry_idolize.dart' show EnglishEntryidolize
 // en_entry_idyllic.dart' show EnglishEntryidyllic
-// en_entry_ie.dart' show EnglishEntryie
 // en_entry_if.dart' show EnglishEntryif
 // en_entry_igloo.dart' show EnglishEntryigloo
 // en_entry_ignite.dart' show EnglishEntryignite
@@ -391,12 +390,12 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 // en_entry_illustration.dart' show EnglishEntryillustration
 // en_entry_illustrative.dart' show EnglishEntryillustrative
 // en_entry_illustrator.dart' show EnglishEntryillustrator
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
-// en_entry_.dart' show EnglishEntry
+// en_entry_illustrious.dart' show EnglishEntryillustrious
+// en_entry_illustriously.dart' show EnglishEntryillustriously
+// en_entry_image.dart' show EnglishEntryimage
+// en_entry_imagery.dart' show EnglishEntryimagery
+// en_entry_imaginary.dart' show EnglishEntryimaginary
+// en_entry_imagine.dart' show EnglishEntryimagine
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry
 // en_entry_.dart' show EnglishEntry

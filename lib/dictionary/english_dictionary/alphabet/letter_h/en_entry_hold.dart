@@ -1797,7 +1797,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The exercise called for the recruits to get out of various holds.""",
                       kurdishText:
-                          """ڕاهێنانەکە وای لە وەرگرتووان دەخواست کە لە ژمارەیک گرتن دەربچن.""",
+                          """ڕاهێنانەکە وای لە وەرگرتووان دەخواست کە لە ژمارەیەک گرتن دەربچن.""",
                       onPressedBritish: () => speaksentence61("en-GB"),
                       onPressedAmerican: () => speaksentence61("en-US"),
                     ),

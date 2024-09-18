@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryigloo igloo
-WORD_WEB igloo igloo igloo
-haʊʊʊʊʊʊʊ4
+- Noun: igloo (Derived forms: igloos)
+1. An Eskimo hut; usually built of blocks (of sod or snow) in the shape of a dome (- iglu)
 """,
   );
-// 188888880002200
 
   final String keyword = "igloo";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """They learned how to construct an igloo during survival training.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/DKsE6NfVvBg?t=';
+    const double startSecondsend = 000000000000000000000000000227;
+    const String videoIdone = 'https://youtu.be/CupbRr2m_sM?t=';
+    const double startSecondsone = 000000000000000000000000000558;
+    const String videoIdtwo = 'https://youtu.be/-p9Us1_VDMM?t=';
+    const double startSecondstwo = 00000000000000000000000000030;
+    const String videoIdthree = 'https://youtu.be/-kyz3UpQGYY';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/YGZfy964JBs?t=';
+    const double startSecondsfour = 000000000000000000000000000160;
+    const String videoIdfive = 'https://youtu.be/DJgGpnLVnfU?t=';
+    const double startSecondsfive = 00000000000000000000000000023;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """igloo""",
                       // alsoEnglishWord: "also: igloo",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪɡluː/""",
+                      americanText: """IpaUS: /ˈɪɡluː/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,12 +991,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "igloo", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) خانوویەکی بچووکی خڕ کە لە پارچە بەفر درووستکراوە و زیاتر لەلایەن خەڵکی ئینویتی ئەمریکای باکوور و گرینلاند درووست دەکرا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They learned how to construct an igloo during survival training.""",
+                      kurdishText:
+                          """فێربوون چۆن ئیگلوو درووست بکەن لە ماوەی ڕاهێنانی ڕزگاربوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

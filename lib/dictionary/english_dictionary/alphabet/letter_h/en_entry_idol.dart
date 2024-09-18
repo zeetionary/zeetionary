@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryidol idol
-WORD_WEB idol idol idol
-haʊʊʊʊʊʊʊ4
+- Noun: idol (Derived forms: idols)
+1. A material effigy that is worshipped (- graven image, god)
+ 
+2. Someone who is adored blindly and excessively (- matinee idol)
+ 
+3. An ideal instance; a perfect embodiment of a concept (- paragon, perfection, beau idéal)
 """,
   );
-// 188888880002200
 
   final String keyword = "idol";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He has been my idol since I was a child.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The ancient people of this area worshipped a huge bronze idol in the shape of an elephant.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/rRymSi8SmqA?t=';
+    const double startSecondsend = 000000000000000000000000000142;
+    const String videoIdone = 'https://youtu.be/PbKYAks6044?t=';
+    const double startSecondsone = 0000000000000000000000000001058;
+    const String videoIdtwo = 'https://youtu.be/HxRUuGqqMG4?t=';
+    const double startSecondstwo = 000000000000000000000000000180;
+    const String videoIdthree = 'https://youtu.be/HiWXeWQAsUE?t=';
+    const double startSecondsthree = 000000000000000000000000000503;
+    const String videoIdfour = 'https://youtu.be/XrTDwpLECtA?t=';
+    const double startSecondsfour = 00000000000000000000000000067;
+    const String videoIdfive = 'https://youtu.be/YZkXDuKto_Y?t=';
+    const double startSecondsfive = 0000000000000000000000000001889;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """idol""",
                       // alsoEnglishWord: "also: idol",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈaɪdl/""",
+                      americanText: """IpaUS: /ˈaɪdl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +993,27 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بت، بوت،	بەردەوک، زۆرخۆشەویست، بت، بینایی چاوان،	کۆتەڵ، پەیکەر
 """),
 // With short examples define "idol", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کەسێک یان شتێک کە زۆر خۆشویستراوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He has been my idol since I was a child.""",
+                      kurdishText: """ئەستێرەم بووە لەوەتەی منداڵێک بوومە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) بتێک کە وەک خودا دەپەرسترێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The ancient people of this area worshipped a huge bronze idol in the shape of an elephant.""",
+                      kurdishText:
+                          """خەڵکی کۆنی ئەم ناوچەیە بتێکی برۆنزی زەبەلاحیان دەپەرست لە شێوەی فیلێکدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

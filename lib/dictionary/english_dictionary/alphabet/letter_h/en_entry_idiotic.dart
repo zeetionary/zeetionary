@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryidiotic idiotic
-WORD_WEB idiotic idiotic idiotic
-haʊʊʊʊʊʊʊ4
+- Adjective: idiotic
+1. Insanely irresponsible (- crackbrained)
+"an idiotic idea";
+ 
+2. So unreasonable as to invite derision (- absurd, cockeyed [informal], derisory, laughable, ludicrous, nonsensical, preposterous, ridiculous, ridic [informal])
+"the idiotic excuse that the dog ate his homework";
+ 
+3. Having a mental age of three to seven years (- imbecilic [archaic])
+"I imagine that there are as many idiotic and feeble-minded women as there are imbecilic and feeble-minded men";
 """,
   );
-// 188888880002200
 
   final String keyword = "idiotic";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +91,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Don't be so idiotic!""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/gghRXOXY820?t=';
+    const double startSecondsend = 000000000000000000000000000392;
+    const String videoIdone = 'https://youtu.be/e_OgJzVOsQk?t=';
+    const double startSecondsone = 000000000000000000000000000184;
+    const String videoIdtwo = 'https://youtu.be/OnjI-FBdRTQ?t=';
+    const double startSecondstwo = 0000000000000000000000000008832;
+    const String videoIdthree = 'https://youtu.be/W4DnmTEHQug?t=';
+    const double startSecondsthree = 000000000000000000000000000416;
+    const String videoIdfour = 'https://youtu.be/JYJq02OTdSs?t=';
+    const double startSecondsfour = 000000000000000000000000000103;
+    const String videoIdfive = 'https://youtu.be/4ExfAzih1Ow?t=';
+    const double startSecondsfive = 000000000000000000000000000186;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """idiotic""",
                       // alsoEnglishWord: "also: idiotic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪdiˈɒtɪk/""",
+                      americanText: """IpaUS: /ˌɪdiˈɑːtɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +995,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گەوج، سەفی، خەرەفاو، گەوجانە، دەبەنگانە، کەرانە
 """),
 // With short examples define "idiotic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) زۆر گەمژانە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: ridiculous"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Don't be so idiotic!""",
+                      kurdishText: """هێندە گەمژانە مەبە!""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

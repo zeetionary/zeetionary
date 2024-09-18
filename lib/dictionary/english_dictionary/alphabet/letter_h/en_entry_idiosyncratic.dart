@@ -9,7 +9,8 @@ class EnglishEntryidiosyncratic extends StatefulWidget {
   const EnglishEntryidiosyncratic({super.key});
 
   @override
-  State<EnglishEntryidiosyncratic> createState() => _EnglishEntryidiosyncraticState();
+  State<EnglishEntryidiosyncratic> createState() =>
+      _EnglishEntryidiosyncraticState();
 }
 
 class _EnglishEntryidiosyncraticState extends State<EnglishEntryidiosyncratic> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryidiosyncratic idiosyncratic
-WORD_WEB idiosyncratic idiosyncratic idiosyncratic
-haʊʊʊʊʊʊʊ4
+- Adjective: idiosyncratic
+1. Peculiar to the individual
+"we all have our own idiosyncratic gestures"; "Michelangelo's highly idiosyncratic style of painting"
 """,
   );
-// 188888880002200
 
   final String keyword = "idiosyncratic";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""His teaching methods are idiosyncratic but successful.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/w_kRA9Qe1w0?t=';
+    const double startSecondsend = 00000000000000000000000000041;
+    const String videoIdone = 'https://youtu.be/epqYft12nV4?t=';
+    const double startSecondsone = 0000000000000000000000000001557;
+    const String videoIdtwo = 'https://youtu.be/ba-HMvDn_vU?t=';
+    const double startSecondstwo = 0000000000000000000000000002338;
+    const String videoIdthree = 'https://youtu.be/NgcYUYCFzis?t=';
+    const double startSecondsthree = 0000000000000000000000000001225;
+    const String videoIdfour = 'https://youtu.be/_IUHMuBH788?t=';
+    const double startSecondsfour = 000000000000000000000000000242;
+    const String videoIdfive = 'https://youtu.be/65_gKx_0sM4?t=';
+    const double startSecondsfive = 0000000000000000000000000008;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """idiosyncratic""",
                       // alsoEnglishWord: "also: idiosyncratic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪdiəsɪŋˈkrætɪk/""",
+                      americanText: """IpaUS: /ˌɪdiəsɪŋˈkrætɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +994,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "idiosyncratic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە نامۆ و تایبەتە بە کەسێک یان شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His teaching methods are idiosyncratic but successful.""",
+                      kurdishText:
+                          """بیردۆزەکانی وانەگوتنەوەی تایبەتن بەڵام سەرکەوتوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryidiom idiom
-WORD_WEB idiom idiom idiom
-haʊʊʊʊʊʊʊ4
+- Noun: idiom (Derived forms: idioms)
+1. A manner of speaking that is natural to native speakers of a language (- parlance)
+ 
+2. The usage or vocabulary that is characteristic of a specific group of people (- dialect, accent)
+"the immigrants spoke an odd idiom of English";
+ 
+3. The style of a particular artist, school or movement (- artistic style)
+"an imaginative orchestral idiom";
+ 
+4. An expression whose meanings cannot be inferred from the meanings of the words that make it up (- idiomatic expression, phrasal idiom, set phrase, phrase)
 """,
   );
-// 188888880002200
 
   final String keyword = "idiom";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +92,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """‘Let the cat out of the bag’ is an idiom meaning to tell a secret by mistake.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The friends would sometimes revert to playground idiom.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He has produced a classical play in a modern idiom.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +933,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oHLMla-75QA?t=';
+    const double startSecondsend = 00000000000000000000000000016;
+    const String videoIdone = 'https://youtu.be/XKDhq2UcjIM?t=';
+    const double startSecondsone = 0000000000000000000000000001451;
+    const String videoIdtwo = 'https://youtu.be/IutZFSXfgYs?t=';
+    const double startSecondstwo = 000000000000000000000000000851;
+    const String videoIdthree = 'https://youtu.be/qmpDK-8ib2Y?t=';
+    const double startSecondsthree = 000000000000000000000000000600;
+    const String videoIdfour = 'https://youtu.be/dqj64DjZssI';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/jUT_WSavAC8';
+    const double startSecondsfive = 0;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """idiom""",
                       // alsoEnglishWord: "also: idiom",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪdiəm/""",
+                      americanText: """IpaUS: /ˈɪdiəm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,29 +1002,40 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "idiom", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کۆمەڵە وشەیەک کە پێکەوە واتایان جیاوازە وەک لە وشەکان بە تەنها"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """‘Let the cat out of the bag’ is an idiom meaning to tell a secret by mistake.""",
+                      kurdishText:
+                          """‘Let the cat out of the bag’ ئیدیەمێکە واتا گوتنی نهێنییەک بە هەڵە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەو جۆرە زمان و ڕێزمانە کە لەلایەن کەسانی دیاریکراو لە کات و شوێنی دیاریکراو بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The friends would sometimes revert to playground idiom.""",
+                      kurdishText:
+                          """هاوڕێکان هەندێک جار دەگەڕێنەوە بۆ زمانی منداڵی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) شێوازی نووسین، میوزیک، هونەر، هتد کە تایبەتە بە کەسێک، گرووپێک، سەردەمێک، یان شوێنێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He has produced a classical play in a modern idiom.""",
+                      kurdishText:
+                          """شانۆیەکی کلاسیکی بە ستایڵی سەردەم بەرهەمهێنا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

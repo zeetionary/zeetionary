@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryidyllic idyllic
-WORD_WEB idyllic idyllic idyllic
-haʊʊʊʊʊʊʊ4
+- Adjective: idyllic
+1. Excellent and delightful in all respects
+"an idyllic spot for a picnic"
+ 
+2. Suggestive of an idyll; charmingly simple and serene
+"his idyllic life in Tahiti"
 """,
   );
-// 188888880002200
 
   final String keyword = "idyllic";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The cottage sounds idyllic.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/brKw9KtNm04?t=';
+    const double startSecondsend = 000000000000000000000000000634;
+    const String videoIdone = 'https://youtu.be/nP2vtDLTAgM?t=';
+    const double startSecondsone = 000000000000000000000000000249;
+    const String videoIdtwo = 'https://youtu.be/rbrL40XHlPQ?t=';
+    const double startSecondstwo = 00000000000000000000000000068;
+    const String videoIdthree = 'https://youtu.be/0Mvu6rp8lwk?t=';
+    const double startSecondsthree = 000000000000000000000000000836;
+    const String videoIdfour = 'https://youtu.be/Kn9tr1nhU7E?t=';
+    const double startSecondsfour = 00000000000000000000000000066;
+    const String videoIdfive = 'https://youtu.be/cGyj9M05LxA?t=';
+    const double startSecondsfive = 0000000000000000000000000001318;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """idyllic""",
                       // alsoEnglishWord: "also: idyllic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈdɪlɪk/""",
+                      americanText: """IpaUS: /aɪˈdɪlɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +992,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئارام، خۆش، تەباوڕەبا، بەهەشتی، بێ‌گیرەوکێشە، بێ‌ئاستەنگ، سادە، بێ‌غەل‌وغەش
 """),
 // With short examples define "idyllic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) جوان و بێ‌کێشە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The cottage sounds idyllic.""",
+                      kurdishText: """کووخەکە ئارام دیارە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

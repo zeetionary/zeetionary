@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryidiocy idiocy
-WORD_WEB idiocy idiocy idiocy
-haʊʊʊʊʊʊʊ4
+- Noun: idiocy (Derived forms: idiocies)
+1. Extreme mental retardation (- amentia)
 """,
   );
-// 188888880002200
 
   final String keyword = "idiocy";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""It is sheer idiocy to go climbing in this weather.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/QLq6GEiHqR8?t=';
+    const double startSecondsend = 0000000000000000000000000001799;
+    const String videoIdone = 'https://youtu.be/apDoJkfR85A?t=';
+    const double startSecondsone = 000000000000000000000000000240;
+    const String videoIdtwo = 'https://youtu.be/4_FHvf9typs?t=';
+    const double startSecondstwo = 000000000000000000000000000380;
+    const String videoIdthree = 'https://youtu.be/J-4FaTv1mcM?t=';
+    const double startSecondsthree = 000000000000000000000000000471;
+    const String videoIdfour = 'https://youtu.be/U_kx78rAlAk?t=';
+    const double startSecondsfour = 000000000000000000000000000555;
+    const String videoIdfive = 'https://youtu.be/1X_KdkoGxSs?t=';
+    const double startSecondsfive = 0000000000000000000000000009938;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """idiocy""",
                       // alsoEnglishWord: "also: idiocy",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪdiəsi/""",
+                      americanText: """IpaUS: /ˈɪdiəsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەرێتی، کەروگەوجێتی، نەفامی، گەوجێتی، کردەوەی گەوجانە، کاری کەرانە
 """),
 // With short examples define "idiocy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ڕەفتاری گەمژانە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: stupidity"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is sheer idiocy to go climbing in this weather.""",
+                      kurdishText:
+                          """ئەوپەڕی گەوجێتییە لەم کەشووهەوادا بچیتە شاخەوانی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

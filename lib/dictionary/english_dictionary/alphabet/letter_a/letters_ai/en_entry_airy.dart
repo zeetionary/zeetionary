@@ -128,7 +128,7 @@ class EnglishEntryairy extends StatelessWidget {
                             englishText:
                                 "The airy promises proved empty in practical implementation.",
                             kurdishText:
-                                "بەڵێنە دەستکردەکانی پڕووپووچ بوون بە کرداری.",
+                                "بەڵێنە دەستکردەکانی پڕووپووچ بوون لە جێبەجێکردنی کرداریدا.",
                             onPressedBritish: () => speakairy4255("en-GB"),
                             onPressedAmerican: () => speakairy4255("en-US"),
                           ),

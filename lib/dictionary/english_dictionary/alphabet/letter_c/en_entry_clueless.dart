@@ -54,7 +54,7 @@ class EnglishEntryclueless extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUK: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUK: /ˈkluːləs/"),
                             CustomIconButtonBritish(
                               onPressed: () => speakclueless("en-GB"),
                             ),
@@ -62,7 +62,7 @@ class EnglishEntryclueless extends StatelessWidget {
                         ),
                         Row(
                           children: [
-                            const IPAofEnglish(text: "IpaUS: haʊʊʊʊʊʊʊ4"),
+                            const IPAofEnglish(text: "IpaUS: /ˈkluːləs/"),
                             CustomIconButtonAmerican(
                               onPressed: () => speakclueless("en-US"),
                             ),
@@ -188,9 +188,9 @@ ${englishMeaningConst.text}
   // Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-speakclueless EnglishEntryclueless
-WORD_WEB clueless haʊʊʊʊʊʊʊ4
+- Adjective: clueless
+1. Totally uninformed about what is going on; not having even a clue from which to infer what is occurring
+"He is totally clueless about how to run things"
 """,
   );
 

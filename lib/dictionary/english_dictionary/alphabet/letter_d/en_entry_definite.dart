@@ -238,7 +238,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("There was a definite improvement in the sound");
+    await flutterTts.speak("There was a definite improvement in the sound.");
   }
 
   Future<void> speakdefinites6(String languageCode) async {
@@ -331,7 +331,7 @@ class KurdishMeaning extends StatelessWidget {
               text:
                   "٢. (ھاوەڵناو) ئاشکرا؛ کە بە ئاسانی دەبینرێت یان تێگەشتنی بۆ دەکرێت"),
           SentencesRow(
-            englishText: "There was a definite improvement in the sound",
+            englishText: "There was a definite improvement in the sound.",
             kurdishText: "باشبوونێکی ئاشکرا ھەبوو لە دەنگەکەدا.",
             onPressedBritish: () => speakdefinites5("en-GB"),
             onPressedAmerican: () => speakdefinites5("en-US"),

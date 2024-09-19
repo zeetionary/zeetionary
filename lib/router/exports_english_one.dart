@@ -7977,8 +7977,6 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_en
     show EnglishEntrycross;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crossly.dart'
     show EnglishEntrycrossly;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crossness.dart'
-    show EnglishEntrycrossness;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_crossbow.dart'
     show EnglishEntrycrossbow;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_c/en_entry_cross_breed.dart'

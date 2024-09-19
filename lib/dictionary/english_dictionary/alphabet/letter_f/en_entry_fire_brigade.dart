@@ -52,10 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryfirebrigade fire brigade
-WORD_WEB fire brigade fire brigade fire brigade
-haʊʊʊʊʊʊʊ4
+- Noun: fire brigade (Derived forms: fire brigades)
+1. A private or temporary organization of individuals equipped to fight fires (- fire company)
+ 
+2. British name for a fire department
 """,
   );
 
@@ -104,8 +104,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """fire brigade""",
                       // alsoEnglishWord: "also: fire brigade",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈfaɪə brɪɡeɪd/""",
+                      americanText: """IpaUS: /ˈfaɪər brɪɡeɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

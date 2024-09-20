@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryimpossibly extends StatefulWidget {
-  const EnglishEntryimpossibly({super.key});
+class EnglishEntryinborn extends StatefulWidget {
+  const EnglishEntryinborn({super.key});
 
   @override
-  State<EnglishEntryimpossibly> createState() => _EnglishEntryimpossiblyState();
+  State<EnglishEntryinborn> createState() => _EnglishEntryinbornState();
 }
 
-class _EnglishEntryimpossiblyState extends State<EnglishEntryimpossibly> {
+class _EnglishEntryinbornState extends State<EnglishEntryinborn> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adverb: impossibly
-1. To a degree impossible of achievement
-"long thought to be an impossibly difficult operation"; "impossibly far from sources of supply"
+
+EnglishEntryinborn inborn
+WORD_WEB inborn inborn inborn
+haʊʊʊʊʊʊʊ4
 """,
   );
+// 188888880002200000000000
 
-  final String keyword = "impossibly";
+  final String keyword = "inborn";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -78,21 +80,22 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""impossibly""");
+    await flutterTts.speak("""inborn""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The team worked on an impossibly difficult problem for weeks.""");
+    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He was impossibly handsome.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -923,19 +926,21 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
+
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/uKgaVlMN7IY?t=';
-    const double startSecondsend = 000000000000000000000000000357;
-    const String videoIdone = 'https://youtu.be/Unzc731iCUY?t=';
-    const double startSecondsone = 0000000000000000000000000002018;
-    const String videoIdtwo = 'https://youtu.be/IesIsKMjB4Y?t=';
-    const double startSecondstwo = 000000000000000000000000000132;
-    const String videoIdthree = 'https://youtu.be/NWGVFi-213w?t=';
-    const double startSecondsthree = 000000000000000000000000000201;
-    const String videoIdfour = 'https://youtu.be/6MoBvV12C58?t=';
-    const double startSecondsfour = 000000000000000000000000000322;
-    const String videoIdfive = 'https://youtu.be/w3XS900kg1U?t=';
-    const double startSecondsfive = 000000000000000000000000000961;
+    const String videoIdend = '';
+    const double startSecondsend = 000000000000000000000000000;
+    const String videoIdone = '';
+    const double startSecondsone = 000000000000000000000000000;
+    const String videoIdtwo = '';
+    const double startSecondstwo = 000000000000000000000000000;
+    const String videoIdthree = '';
+    const double startSecondsthree = 000000000000000000000000000;
+    const String videoIdfour = '';
+    const double startSecondsfour = 000000000000000000000000000;
+    const String videoIdfive = '';
+    const double startSecondsfive = 000000000000000000000000000;
+// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -947,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """impossibly""",
-                      // alsoEnglishWord: "also: impossibly",
-                      britshText: """IpaUK: /ɪmˈpɒsəbli/""",
-                      americanText: """IpaUS: /ɪmˈpɑːsəbli/""",
+                      word: """inborn""",
+                      // alsoEnglishWord: "also: inborn",
+                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
+                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,20 +995,21 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "impossibly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بە شێوەیەک کە ئەستەم یان زۆر سەختە بۆ مامەڵە لەگەڵ کردن"""),
+// With short examples define "inborn", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText: """The team worked on an impossibly difficult problem for weeks.""",
-                      kurdishText: """بۆ چەندین هەفتە تیمەکە کاریان لەسەر کێشەیەکی ئەستەمانە سەخت کرد.""",
+                      englishText: """// ssssssssssssssssssssssgggggggg55555
+""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵکار) هەبوونی خاسیەتێک تا ئاستێک کە وادیارە ئەستەم بێت"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He was impossibly handsome.""",
-                      kurdishText: """لە ڕادەبەدەر جوان بوو.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

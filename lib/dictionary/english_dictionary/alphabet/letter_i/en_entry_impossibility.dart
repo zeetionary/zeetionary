@@ -53,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpossibility impossibility
-WORD_WEB impossibility impossibility impossibility
-haʊʊʊʊʊʊʊ4
+- Noun: impossibility (Derived forms: impossibilities)
+1. Incapability of existing or occurring (- impossibleness)
+ 
+2. An alternative that is not available (- impossible action)
 """,
   );
-// 188888880002200
 
   final String keyword = "impossibility";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +87,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """What you're asking just can't be done - it's an impossibility.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """She finally acknowledged the impossibility of keeping her boyfriend secret.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsend = 0000000000000000000000000001088;
+    const String videoIdone = 'https://youtu.be/wQSxY7TR6mI?t=';
+    const double startSecondsone = 0000000000000000000000000001411;
+    const String videoIdtwo = 'https://youtu.be/TNIYnbj5edw?t=';
+    const double startSecondstwo = 000000000000000000000000000455;
+    const String videoIdthree = 'https://youtu.be/64pA31_WJa0?t=';
+    const double startSecondsthree = 000000000000000000000000000501;
+    const String videoIdfour = 'https://youtu.be/Zo7sRijXG00?t=';
+    const double startSecondsfour = 000000000000000000000000000308;
+    const String videoIdfive = 'https://youtu.be/uaMqzIo5KWY?t=';
+    const double startSecondsfive = 000000000000000000000000000237;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impossibility""",
                       // alsoEnglishWord: "also: impossibility",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˌpɒsəˈbɪləti/""",
+                      americanText: """IpaUS: /ɪmˌpɑːsəˈbɪləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,25 +992,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەکردن‌نەهاتوویی، نەشیاوی، نەبوونی، شتی نەکراو یان نەبوو، کاری لەکردن‌نەهاتوو یان نەکرد
 """),
 // With short examples define "impossibility", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی کە شتێک ئەستەم بێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence1("en-GB"),
-                      onPressedAmerican: () => speaksentence1("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She finally acknowledged the impossibility of keeping her boyfriend secret.""",
+                      kurdishText:
+                          """لە کۆتاییدا دانی نا بە ئەستەمی ئەوەی کوڕە دۆستەکەی بە نهێنی بهێڵێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) شتێک کە ناتوانرێت بکردێت"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """What you're asking just can't be done - it's an impossibility.""",
+                      kurdishText:
+                          """ئەوەی کە داوای دەکەیت هەر ئەوەیە کە ناتوانێت بکردرێت ـ لەکردن‌نەهاتووییەکە.""",
+                      onPressedBritish: () => speaksentence1("en-GB"),
+                      onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),

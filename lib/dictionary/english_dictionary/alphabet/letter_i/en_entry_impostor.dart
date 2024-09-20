@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpostor impostor
-WORD_WEB impostor impostor impostor
-haʊʊʊʊʊʊʊ4
+- Noun: impostor (Derived forms: impostors)
+1. A person who makes deceitful pretences (- imposter, pretender, fake, faker, fraud, sham, shammer, pseudo, pseud, role player)
 """,
   );
-// 188888880002200
 
   final String keyword = "impostor";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """He felt like an impostor among all those intelligent people, as if he had no right to be there.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/_ZmHwaqCxRY?t=';
+    const double startSecondsend = 000000000000000000000000000315;
+    const String videoIdone = 'https://youtu.be/2iHm4PNR1DI?t=';
+    const double startSecondsone = 000000000000000000000000000498;
+    const String videoIdtwo = 'https://youtu.be/axI5aUwPA6k?t=';
+    const double startSecondstwo = 000000000000000000000000000338;
+    const String videoIdthree = 'https://youtu.be/o3gfdG2gMGk?t=';
+    const double startSecondsthree = 000000000000000000000000000261;
+    const String videoIdfour = 'https://youtu.be/ynQOgG7B8Ck?t=';
+    const double startSecondsfour = 000000000000000000000000000429;
+    const String videoIdfive = 'https://youtu.be/bvSkHbM2GVk?t=';
+    const double startSecondsfive = 00000000000000000000000000032;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impostor""",
                       // alsoEnglishWord: "also: impostor",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˈpɒstə(r)/""",
+                      americanText: """IpaUS: /ɪmˈpɑːstər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +988,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تەڵەک‌باز، دەسبڕ، فێڵەباز، عەیار
 """),
 // With short examples define "impostor", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە خۆی وەک کەسێکی دیکە پیشان دەدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He felt like an impostor among all those intelligent people, as if he had no right to be there.""",
+                      kurdishText:
+                          """وەک تەڵەکەبازێک دەردەکەوت لەناو ئەو هەموو کەسە زیرەکانە، وەک ئەوەی هیچ مافێکی نەبێت لەوێ بێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

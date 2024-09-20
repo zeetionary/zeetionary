@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpotence impotence
-WORD_WEB impotence impotence impotence
-haʊʊʊʊʊʊʊ4
+- Noun: impotence (Derived forms: impotences)
+1. The quality of lacking strength or power; being weak and feeble (- powerlessness, impotency)
+ 
+2. An inability (usually of the male animal) to copulate (- impotency)
 """,
   );
-// 188888880002200
 
   final String keyword = "impotence";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He experienced a feeling of impotence during the crisis.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Men sometimes suffer from impotence after a serious illness.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/dV0H159rXt8';
+    const double startSecondsend = 0;
+    const String videoIdone = 'https://youtu.be/K4Ze-Sp6aUE?t=';
+    const double startSecondsone = 00000000000000000000000000011219;
+    const String videoIdtwo = 'https://youtu.be/6ISOK-XtvYs?t=';
+    const double startSecondstwo = 000000000000000000000000000132;
+    const String videoIdthree = 'https://youtu.be/4EBMk4ZKszk?t=';
+    const double startSecondsthree = 000000000000000000000000000474;
+    const String videoIdfour = 'https://youtu.be/-ebMbqkdQdg?t=';
+    const double startSecondsfour = 000000000000000000000000000251;
+    const String videoIdfive = 'https://youtu.be/8kWjJPQXCyc?t=';
+    const double startSecondsfive = 0000000000000000000000000002002;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impotence""",
                       // alsoEnglishWord: "also: impotence",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪmpətəns/""",
+                      americanText: """IpaUS: /ˈɪmpətəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +992,31 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەتوانی، پەک‌کەوتوویی، لەکارکەوتوویی، بێ‌هێزی، داماوی، هیچ‌لەدەس‌نەهاتوویی، بەیدەسی، (هیچ)پێنەکراوی، دەسەوسانی،	پەک‌کەوتوویی سێکسی، سیس‌پەست، پیاوەتی‌نەمان
 """),
 // With short examples define "impotence", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە نەتوانیت شتەکان بگۆڕیت یان کاریگەریت هەبێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: powerlessness"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He experienced a feeling of impotence during the crisis.""",
+                      kurdishText:
+                          """لە ماوەی قەیرانەکە تووشی هەستێکی پەک‌کەوتوویی بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) دۆخێک کە تێیدا پیاوێک ناتوانێت چووکی ڕەق بێت و بۆیە ناتوانێت سێکس بکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Men sometimes suffer from impotence after a serious illness.""",
+                      kurdishText:
+                          """پیاوان تووشی پەک‌کەوتوویی سێکسی دەبن لە دوای نەخۆشییەکی توند.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

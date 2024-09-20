@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpresario impresario
-WORD_WEB impresario impresario impresario
-haʊʊʊʊʊʊʊ4
+- Noun: impresario (Derived forms: impresarios)
+1. A sponsor who books and stages public entertainments (- showman, promoter)
 """,
   );
-// 188888880002200
 
   final String keyword = "impresario";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She became a well-known impresario in the music industry.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Pfz-_WxGu3Y?t=';
+    const double startSecondsend = 0000000000000000000000000001504;
+    const String videoIdone = 'https://youtu.be/KJbr9sTbkTw?t=';
+    const double startSecondsone = 000000000000000000000000000373;
+    const String videoIdtwo = 'https://youtu.be/dRJwP0hHB1U?t=';
+    const double startSecondstwo = 000000000000000000000000000116;
+    const String videoIdthree = 'https://youtu.be/CVxHIHEdV38?t=';
+    const double startSecondsthree = 0000000000000000000000000001041;
+    const String videoIdfour = 'https://youtu.be/tFvU0bFcpNk?t=';
+    const double startSecondsfour = 000000000000000000000000000577;
+    const String videoIdfive = 'https://youtu.be/dFIBwOSnih0?t=';
+    const double startSecondsfive = 0000000000000000000000000002618;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impresario""",
                       // alsoEnglishWord: "also: impresario",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪmprəˈsɑːriəʊ/""",
+                      americanText: """IpaUS: /ˌɪmprəˈsɑːriəʊ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,12 +991,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "impresario", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە شانۆ، کۆنسێرت، هتد ڕێکدەخات و زۆرجار پارەکەشی دەدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She became a well-known impresario in the music industry.""",
+                      kurdishText:
+                          """بوو بە ڕێکخەرێکی زۆر بەناوبانگ لە جیهانی میوزیکدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

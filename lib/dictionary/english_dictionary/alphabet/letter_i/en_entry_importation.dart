@@ -9,7 +9,8 @@ class EnglishEntryimportation extends StatefulWidget {
   const EnglishEntryimportation({super.key});
 
   @override
-  State<EnglishEntryimportation> createState() => _EnglishEntryimportationState();
+  State<EnglishEntryimportation> createState() =>
+      _EnglishEntryimportationState();
 }
 
 class _EnglishEntryimportationState extends State<EnglishEntryimportation> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimportation importation
-WORD_WEB importation importation importation
-haʊʊʊʊʊʊʊ4
+- Noun: importation (Derived forms: importations)
+1. The commercial activity of buying and bringing in goods from a foreign country (- importing)
+ 
+2. Commodities (goods or services) bought from a foreign country (- import)
 """,
   );
-// 188888880002200
 
   final String keyword = "importation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """He is believed to have organized massive importations of drugs before his arrest.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/IfYRzxeMdGs?t=';
+    const double startSecondsend = 000000000000000000000000000133;
+    const String videoIdone = 'https://youtu.be/j4kI2h3iotA?t=';
+    const double startSecondsone = 000000000000000000000000000225;
+    const String videoIdtwo = 'https://youtu.be/5udtSQ-LtM0?t=';
+    const double startSecondstwo = 00000000000000000000000000052;
+    const String videoIdthree = 'https://youtu.be/oL0umpPPe-8?t=';
+    const double startSecondsthree = 000000000000000000000000000170;
+    const String videoIdfour = 'https://youtu.be/_ilrMO0kjzg?t=';
+    const double startSecondsfour = 0000000000000000000000000001175;
+    const String videoIdfive = 'https://youtu.be/eUy4-hrMVXg?t=';
+    const double startSecondsfive = 000000000000000000000000000910;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """importation""",
                       // alsoEnglishWord: "also: importation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪmpɔːˈteɪʃn/""",
+                      americanText: """IpaUS: /ˌɪmpɔːrˈteɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +992,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هێنانەژوورەوە، هێنانەنێوەوە، هاوردە
 """),
 // With short examples define "importation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هێنانی کەلووپەل لە وڵاتێکەوە بۆ یەکێکی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He is believed to have organized massive importations of drugs before his arrest.""",
+                      kurdishText:
+                          """باوەڕ وایە هاوردەی ڕێژەیەکی زۆر لە مادەی هۆشبەری ڕێکخستبێت پێش دەستگیرکردنی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

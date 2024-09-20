@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimporter importer
-WORD_WEB importer importer importer
-haʊʊʊʊʊʊʊ4
+- Noun: importer (Derived forms: importers)
+1. Someone whose business involves importing goods from outside (especially from a foreign country)
 """,
   );
-// 188888880002200
 
   final String keyword = "importer";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """After the USA, Japan is the second biggest importer of oil.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/s_2QTY0V3Yc?t=';
+    const double startSecondsend = 00000000000000000000000000056;
+    const String videoIdone = 'https://youtu.be/K0OtGIPRcAs?t=';
+    const double startSecondsone = 000000000000000000000000000987;
+    const String videoIdtwo = 'https://youtu.be/-OKtcGEEtf4?t=';
+    const double startSecondstwo = 000000000000000000000000000441;
+    const String videoIdthree = 'https://youtu.be/W5zxYDHwf-Y?t=';
+    const double startSecondsthree = 000000000000000000000000000673;
+    const String videoIdfour = 'https://youtu.be/rcieZYwyEiA?t=';
+    const double startSecondsfour = 00000000000000000000000000021;
+    const String videoIdfive = 'https://youtu.be/pafA-RU3q7U?t=';
+    const double startSecondsfive = 000000000000000000000000000861;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """importer""",
                       // alsoEnglishWord: "also: importer",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˈpɔːtə(r)/""",
+                      americanText: """IpaUS: /ɪmˈpɔːrtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "importer", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) وڵاتێک لە کەلووپەل لە وڵاتێکی دیکەوە دەکڕێت بۆ فرۆشتنی لە ناوخۆ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """After the USA, Japan is the second biggest importer of oil.""",
+                      kurdishText:
+                          """لە دوای ئەمریکا، ژاپۆن دووەم گەورەترین هاوردەکاری نەوتە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

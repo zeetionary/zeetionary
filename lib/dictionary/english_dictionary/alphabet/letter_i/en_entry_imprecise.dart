@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimprecise imprecise
-WORD_WEB imprecise imprecise imprecise
-haʊʊʊʊʊʊʊ4
+- Adjective: imprecise
+1. Not precise
+"imprecise astronomical observations"; "the terms he used were imprecise and emotional"
 """,
   );
-// 188888880002200
 
   final String keyword = "imprecise";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The witness's descriptions were too imprecise to be of any real value.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Intelligence tests are notoriously imprecise.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/qWAagS_MANg?t=';
+    const double startSecondsend = 000000000000000000000000000655;
+    const String videoIdone = 'https://youtu.be/esJkln9wAEg?t=';
+    const double startSecondsone = 000000000000000000000000000277;
+    const String videoIdtwo = 'https://youtu.be/p-q1GTtH4LE?t=';
+    const double startSecondstwo = 000000000000000000000000000665;
+    const String videoIdthree = 'https://youtu.be/AEhRu5y2IV0?t=';
+    const double startSecondsthree = 000000000000000000000000000606;
+    const String videoIdfour = 'https://youtu.be/dQrBgda0sEY?t=';
+    const double startSecondsfour = 000000000000000000000000000477;
+    const String videoIdfive = 'https://youtu.be/-RdOwhmqP5s?t=';
+    const double startSecondsfive = 000000000000000000000000000163;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """imprecise""",
                       // alsoEnglishWord: "also: imprecise",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪmprɪˈsaɪs/""",
+                      americanText: """IpaUS: /ˌɪmprɪˈsaɪs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +990,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێڵ، تەماوی، نەڕوون، تەژمە، نادیار، ناڕۆشن، نائاشکرا؛ بەوردی‌نەکراو، نادروست
 """),
 // With short examples define "imprecise", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ئەوەی کە وردەکاری تەواو نادات یان شتێک تەواو ڕوون ناکات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: inaccurate"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The witness's descriptions were too imprecise to be of any real value.""",
+                      kurdishText:
+                          """گێڕانەوەکانی شایەتحاڵەکە ناڕوون بوون تا هیچ سوودیان هەبێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Intelligence tests are notoriously imprecise.""",
+                      kurdishText:
+                          """تاقیکردنەوەکانی زیرەکی بە خراپ‌زانراو نادرووستن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

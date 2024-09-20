@@ -479,7 +479,7 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """He returned with a heavy heart (= sad).""",
-                      kurdishText: """بە دڵێکی دڵتەنگییەوە گەڕایەوە.""",
+                      kurdishText: """بە دڵێکی تەنگەوە گەڕایەوە.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),

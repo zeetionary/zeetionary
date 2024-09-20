@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrypimpolitely extends StatefulWidget {
-  const EnglishEntrypimpolitely({super.key});
+class EnglishEntryimpolitely extends StatefulWidget {
+  const EnglishEntryimpolitely({super.key});
 
   @override
-  State<EnglishEntrypimpolitely> createState() => _EnglishEntrypimpolitelyState();
+  State<EnglishEntryimpolitely> createState() => _EnglishEntryimpolitelyState();
 }
 
-class _EnglishEntrypimpolitelyState extends State<EnglishEntrypimpolitely> {
+class _EnglishEntryimpolitelyState extends State<EnglishEntryimpolitely> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrypimpolitely pimpolitely
-WORD_WEB pimpolitely pimpolitely pimpolitely
-haʊʊʊʊʊʊʊ4
+- Adverb: impolitely
+1. In an impolite manner (- discourteously, rudely)
+"he treated her impolitely";
 """,
   );
-// 188888880002200
 
-  final String keyword = "pimpolitely";
+  final String keyword = "impolitely";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +78,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""pimpolitely""");
+    await flutterTts.speak("""impolitely""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""To put it impolitely, he's a crashing bore.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/O8TvYQZEOvo?t=';
+    const double startSecondsend = 000000000000000000000000000564;
+    const String videoIdone = 'https://youtu.be/2eF6z8_2D6g?t=';
+    const double startSecondsone = 000000000000000000000000000467;
+    const String videoIdtwo = 'https://youtu.be/A4wp42_nsEM?t=';
+    const double startSecondstwo = 000000000000000000000000000331;
+    const String videoIdthree = 'https://youtu.be/q8Qa6Vj-5ZU?t=';
+    const double startSecondsthree = 00000000000000000000000000090;
+    const String videoIdfour = 'https://youtu.be/UDunKQ0nyKU?t=';
+    const double startSecondsfour = 000000000000000000000000000773;
+    const String videoIdfive = 'https://youtu.be/F6Ytq2WyS6U?t=';
+    const double startSecondsfive = 000000000000000000000000000518;
 
     return DefaultTabController(
       length: 4,
@@ -953,10 +948,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """pimpolitely""",
-                      // alsoEnglishWord: "also: pimpolitely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """impolitely""",
+                      // alsoEnglishWord: "also: impolitely",
+                      britshText: """IpaUK: /ˌɪmpəˈlaɪtli/""",
+                      americanText: """IpaUS: /ˌɪmpəˈlaɪtli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,12 +991,17 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "pimpolitely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "impolitely", please follow LX instructions
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بێ‌ڕێزانە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: rudely"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """To put it impolitely, he's a crashing bore.""",
+                      kurdishText:
+                          """بە شێوەیەکی ناشایستە بیڵێین، ئەو کەسێکی زۆر بێزارکەرێکی تەواوە.""",
+                      englishNote:
+                          """This means, in a blunt or rude way, that he is extremely dull and uninteresting. It emphasizes that being around him or listening to him is very boring and tedious.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

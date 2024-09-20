@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpolite impolite
-WORD_WEB impolite impolite impolite
-haʊʊʊʊʊʊʊ4
+- Adjective: impolite
+1. Not polite
+"Sometimes kids may use an impolite comment and not realize they are being rude"
 """,
   );
-// 188888880002200
 
   final String keyword = "impolite";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Some people think it is impolite to ask someone's age.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/s7TbxgeNx_0?t=';
+    const double startSecondsend = 000000000000000000000000000399;
+    const String videoIdone = 'https://youtu.be/v7hz64aVcRw?t=';
+    const double startSecondsone = 000000000000000000000000000210;
+    const String videoIdtwo = 'https://youtu.be/oDjDzZdMoVM?t=';
+    const double startSecondstwo = 000000000000000000000000000219;
+    const String videoIdthree = 'https://youtu.be/DcWqzZ3I2cY?t=';
+    const double startSecondsthree = 0000000000000000000000000005346;
+    const String videoIdfour = 'https://youtu.be/keZnAtBxO-c?t=';
+    const double startSecondsfour = 000000000000000000000000000678;
+    const String videoIdfive = 'https://youtu.be/eq2y1JhZYi8?t=';
+    const double startSecondsfive = 000000000000000000000000000166;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impolite""",
                       // alsoEnglishWord: "also: impolite",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪmpəˈlaɪt/""",
+                      americanText: """IpaUS: /ˌɪmpəˈlaɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +990,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌ڕەوشت، بێ‌ماریفەت، ڕوودار، بێ‌ئەدەب، بێ‌ڕەوشتانە، بە ڕووداری
 """),
 // With short examples define "impolite", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) بێ ڕێز"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: rude"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some people think it is impolite to ask someone's age.""",
+                      kurdishText:
+                          """هەندێک کەس پێیان وایە بێ‌ڕێزییە پرسیاری تەمەنی کەسێک بکەیت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

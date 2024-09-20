@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpotent impotent
-WORD_WEB impotent impotent impotent
-haʊʊʊʊʊʊʊ4
+- Adjective: impotent
+1. Lacking power or ability
+"Technology without morality is barbarous; morality without technology is impotent"; "felt impotent rage"
+ 
+2. (of a male) unable to copulate
 """,
   );
-// 188888880002200
 
   final String keyword = "impotent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +87,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Without the chairman's support, the committee is impotent.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """They were virtually impotent against the power of the large companies.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The operation left him impotent.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/36erMl7IgRo?t=';
+    const double startSecondsend = 000000000000000000000000000736;
+    const String videoIdone = 'https://youtu.be/vMtwL1lb2_A?t=';
+    const double startSecondsone = 0000000000000000000000000002769;
+    const String videoIdtwo = 'https://youtu.be/5oGU_8pzigU?t=';
+    const double startSecondstwo = 000000000000000000000000000237;
+    const String videoIdthree = 'https://youtu.be/wFtEzyB2uJk?t=';
+    const double startSecondsthree = 0000000000000000000000000005197;
+    const String videoIdfour = 'https://youtu.be/i03Jvbxyluk?t=';
+    const double startSecondsfour = 000000000000000000000000000824;
+    const String videoIdfive = 'https://youtu.be/-9LFSZYiROY?t=';
+    const double startSecondsfive = 00000000000000000000000000056;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impotent""",
                       // alsoEnglishWord: "also: impotent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪmpətənt/""",
+                      americanText: """IpaUS: /ˈɪmpətənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەتوان، پەک‌کەوتوو، بێ‌هێز، هیچ‌لەدەس‌نەهاتوو، بێکارە، (هیچ)پێنەکراو، بەیدەس، داماو، دەسەوسان،	پەککەوتووی سێکسی، پیاوەتی‌نەماو
 """),
 // With short examples define "impotent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) نەبوونی هیچ دەسەڵاتێک بۆ گۆڕینی شت یان کاریگەری لەسەر دۆخێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Without the chairman's support, the committee is impotent.""",
+                      kurdishText:
+                          """بەبێ پشتیوانی سەرۆکەکە، لیژنەکە بێ‌هێزە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,17 +1011,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They were virtually impotent against the power of the large companies.""",
+                      kurdishText:
+                          """تا ئاستێکی زۆر دەسەوسان بوون دژ بە دەسەڵاتی کۆمپانیا گەورەکان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) ئەوەی پیاوێک نەتوانێت چووکی ڕەق بێت و سێکس بکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The operation left him impotent.""",
+                      kurdishText: """نەشتەرگەرییەکە پەککەوتووی کرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

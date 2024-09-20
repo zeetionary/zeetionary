@@ -9,7 +9,8 @@ class EnglishEntryimpressively extends StatefulWidget {
   const EnglishEntryimpressively({super.key});
 
   @override
-  State<EnglishEntryimpressively> createState() => _EnglishEntryimpressivelyState();
+  State<EnglishEntryimpressively> createState() =>
+      _EnglishEntryimpressivelyState();
 }
 
 class _EnglishEntryimpressivelyState extends State<EnglishEntryimpressively> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpressively impressively
-WORD_WEB impressively impressively impressively
-haʊʊʊʊʊʊʊ4
+- Adverb: impressively
+1. In an impressive manner (- imposingly, awe-inspiringly, breathtakingly)
+"the students progressed impressively fast";
 """,
   );
-// 188888880002200
 
   final String keyword = "impressively";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""This is an engaging and impressively researched book.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The team played impressively throughout the game.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/8FpPSMIB4uA?t=';
+    const double startSecondsend = 0000000000000000000000000001026;
+    const String videoIdone = 'https://youtu.be/aTDG16Mh2_w?t=';
+    const double startSecondsone = 000000000000000000000000000396;
+    const String videoIdtwo = 'https://youtu.be/hQT7PN4Tzsg?t=';
+    const double startSecondstwo = 0000000000000000000000000006;
+    const String videoIdthree = 'https://youtu.be/6ta_sftSfIw?t=';
+    const double startSecondsthree = 000000000000000000000000000136;
+    const String videoIdfour = 'https://youtu.be/WoNAt9bQZtY?t=';
+    const double startSecondsfour = 000000000000000000000000000117;
+    const String videoIdfive = 'https://youtu.be/GJ9_7L873m8?t=';
+    const double startSecondsfive = 000000000000000000000000000190;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impressively""",
                       // alsoEnglishWord: "also: impressively",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˈpresɪvli/""",
+                      americanText: """IpaUS: /ɪmˈpresɪvli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +995,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "impressively", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە وات لێدەکات زۆر سەرسام بیت بە ک/شت بەهۆی ئەوەی زۆر گەورە، باش، شارەزا، هتد ــە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This is an engaging and impressively researched book.""",
+                      kurdishText:
+                          """ئەمە کتێبێکی سەرنجڕاکێش و بە شێوەیەکی سەرسوڕهێنەر توێژینەوە بۆکراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The team played impressively throughout the game.""",
+                      kurdishText:
+                          """تیمەکە سەرسوڕهێنەرانە یارییان کرد لە ماوەی یارییەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

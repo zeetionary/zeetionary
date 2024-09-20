@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimplacable implacable
-WORD_WEB implacable implacable implacable
-haʊʊʊʊʊʊʊ4
+- Adjective: implacable
+1. Incapable of being placated
+"an implacable enemy"
 """,
   );
-// 188888880002200
 
   final String keyword = "implacable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The team's implacable determination led them to victory.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She faced an implacable enemy in the debate.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/CDKASJDakiA?t=';
+    const double startSecondsend = 0000000000000000000000000002316;
+    const String videoIdone = 'https://youtu.be/zZgd75hJTbQ?t=';
+    const double startSecondsone = 00000000000000000000000000018;
+    const String videoIdtwo = 'https://youtu.be/boyzWeHdtiI?t=';
+    const double startSecondstwo = 000000000000000000000000000165;
+    const String videoIdthree = 'https://youtu.be/sapdYjiFUhY?t=';
+    const double startSecondsthree = 0000000000000000000000000003381;
+    const String videoIdfour = 'https://youtu.be/BKiGrPsbtA8?t=';
+    const double startSecondsfour = 0000000000000000000000000001740;
+    const String videoIdfive = 'https://youtu.be/V_j7NeYwaoQ?t=';
+    const double startSecondsfive = 000000000000000000000000000352;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """implacable""",
                       // alsoEnglishWord: "also: implacable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˈplækəbl/""",
+                      americanText: """IpaUS: /ɪmˈplækəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +990,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەللەڕەق، سەرسەخت، لا، ڕقاوی، دڵڕەق، ئاشتی‌نەکردوو، ڕق‌ئەستوور
 """),
-// With short examples define "implacable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە شتێک، بۆ نموونە باوەڕێک، ناکرێت بگۆڕدرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The team's implacable determination led them to victory.""",
+                      kurdishText:
+                          """شێلگیریی کەللەڕەقانەی تیمەکە گەیاندنی بە سەرکەوتن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کەسێک کە ئامادە نییە بوەستێت لە دژایەتی ک/شت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She faced an implacable enemy in the debate.""",
+                      kurdishText:
+                          """ڕووبەڕووی دژبەرێکی کەللەڕەق بوویەوە لە دیبەیتەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

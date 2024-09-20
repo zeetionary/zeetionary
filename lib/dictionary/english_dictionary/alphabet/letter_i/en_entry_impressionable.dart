@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpressionable impressionable
-WORD_WEB impressionable impressionable impressionable
-haʊʊʊʊʊʊʊ4
+- Adjective: impressionable
+1. Easily impressed or influenced (- waxy, impressible)
+"an impressionable youngster";
 """,
   );
-// 188888880002200
 
   final String keyword = "impressionable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He is in a highly impressionable state.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He's at that impressionable age when he's very easily led by other children.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsend = 000000000000000000000000000536;
+    const String videoIdone = 'https://youtu.be/Am1lDj2mUVY?t=';
+    const double startSecondsone = 0000000000000000000000000002022;
+    const String videoIdtwo = 'https://youtu.be/gqibxjObZ-I?t=';
+    const double startSecondstwo = 0000000000000000000000000001044;
+    const String videoIdthree = 'https://youtu.be/_h95pZQiKwI?t=';
+    const double startSecondsthree = 000000000000000000000000000608;
+    const String videoIdfour = 'https://youtu.be/lknCE7fn7k8?t=';
+    const double startSecondsfour = 000000000000000000000000000584;
+    const String videoIdfive = 'https://youtu.be/EmT0i0xG6zg?t=';
+    const double startSecondsfive = 000000000000000000000000000185;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impressionable""",
                       // alsoEnglishWord: "also: impressionable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˈpreʃənəbl/""",
+                      americanText: """IpaUS: /ɪmˈpreʃənəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +990,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زووکارتێ‌کراو، کارلێ‌کراو، هەستیار، ناسک
 """),
 // With short examples define "impressionable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بە ئاسانی کاریگەر دەبێت بە ک/شت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He is in a highly impressionable state.""",
+                      kurdishText: """لە دۆخێکی تەواو هەستیارە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1004,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He's at that impressionable age when he's very easily led by other children.""",
+                      kurdishText: """لە تەمەنێکی هەستیارە کە بە ئاسانی شوێن منداڵانی دیکە دەکەوێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

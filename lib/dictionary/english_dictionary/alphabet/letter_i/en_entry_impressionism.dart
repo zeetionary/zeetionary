@@ -9,7 +9,8 @@ class EnglishEntryimpressionism extends StatefulWidget {
   const EnglishEntryimpressionism({super.key});
 
   @override
-  State<EnglishEntryimpressionism> createState() => _EnglishEntryimpressionismState();
+  State<EnglishEntryimpressionism> createState() =>
+      _EnglishEntryimpressionismState();
 }
 
 class _EnglishEntryimpressionismState extends State<EnglishEntryimpressionism> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpressionism Impressionism
-WORD_WEB Impressionism Impressionism Impressionism
-haʊʊʊʊʊʊʊ4
+- Noun: Impressionism
+1. A school of late 19th century French painters who pictured appearances by strokes of unmixed colours to give the impression of reflected light
 """,
   );
-// 188888880002200
 
   final String keyword = "Impressionism";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Monet's paintings are key examples of Impressionism.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/YooFwA7xj18?t=';
+    const double startSecondsend = 00000000000000000000000000043;
+    const String videoIdone = 'https://youtu.be/Lf3ER5Ope_s?t=';
+    const double startSecondsone = 00000000000000000000000000084;
+    const String videoIdtwo = 'https://youtu.be/_tw51Eh9vcw?t=';
+    const double startSecondstwo = 00000000000000000000000000052;
+    const String videoIdthree = 'https://youtu.be/SHYfsYQDr6M?t=';
+    const double startSecondsthree = 00000000000000000000000000087;
+    const String videoIdfour = 'https://youtu.be/4HjRR0l21Y0?t=';
+    const double startSecondsfour = 000000000000000000000000000839;
+    const String videoIdfive = 'https://youtu.be/-i-EgBilwks?t=';
+    const double startSecondsfive = 0000000000000000000000000001156;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """Impressionism""",
                       // alsoEnglishWord: "also: Impressionism",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˈpreʃənɪzəm/""",
+                      americanText: """IpaUS: /ɪmˈpreʃənɪzəm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,12 +992,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "Impressionism", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) جۆرێک لە وێنەکێشان کە لە سەدەی ١٩ ـدا لە فەرەنسا دەستیپێکرد کە ڕەنگ بەکاردێنێت بۆ پیشاندانی کاریگەریی ڕەنگ لەسەر شتەکان و ئامانجیەتی کەشێک پیشان بدات نەک وردەکاری"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Monet's paintings are key examples of Impressionism.""",
+                      kurdishText:
+                          """تابلۆکانی مۆنێت نموونەی گرنگی ئیمپرێشنیزمن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

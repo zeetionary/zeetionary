@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpound impound
-WORD_WEB impound impound impound
-haʊʊʊʊʊʊʊ4
+- Verb: impound (Derived forms: impounds, impounding, impounded)
+1. Take temporary possession of as a security, by legal authority (- attach, sequester, confiscate, seize, sequestrate)
+"The customs agents impounded the illegal shipment";
+ 
+2. Place or shut up in a pound (- pound)
+"impound the cows so they don't stray";
 """,
   );
-// 188888880002200
 
   final String keyword = "impound";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The car was impounded by the police after the accident.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/raSeaAeryWE?t=';
+    const double startSecondsend = 000000000000000000000000000908;
+    const String videoIdone = 'https://youtu.be/jw7LD2-gg14?t=';
+    const double startSecondsone = 000000000000000000000000000237;
+    const String videoIdtwo = 'https://youtu.be/daMJS6dk80o?t=';
+    const double startSecondstwo = 000000000000000000000000000789;
+    const String videoIdthree = 'https://youtu.be/SqH0nJngy-c?t=';
+    const double startSecondsthree = 0000000000000000000000000001558;
+    const String videoIdfour = 'https://youtu.be/KD1C5NNkB8Y?t=';
+    const double startSecondsfour = 000000000000000000000000000327;
+    const String videoIdfive = 'https://youtu.be/QQyup6ZFsvA?t=';
+    const double startSecondsfive = 000000000000000000000000000990;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impound""",
                       // alsoEnglishWord: "also: impound",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˈpaʊnd/""",
+                      americanText: """IpaUS: /ɪmˈpaʊnd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +996,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "impound", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (کردار) سەندنی شتێک لە کەسێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The car was impounded by the police after the accident.""",
+                      kurdishText:
+                          """ئۆتۆمبێلەکە لەلایەن پۆلیسەوە دەستی بەسەردا گیرا لە دوای ڕووداوەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpregnate impregnate
-WORD_WEB impregnate impregnate impregnate
-haʊʊʊʊʊʊʊ4
+- Verb: impregnate (Derived forms: impregnating, impregnates, impregnated)
+1. Fill, as with a certain quality (- infuse, instill, tincture)
+"The heavy traffic impregnates the air with carbon monoxide";
+ 
+2. Infuse or fill completely (- saturate)
+"Impregnate the cloth with alcohol";
+ 
+3. Fertilize and cause to grow
+"the egg was impregnated"
+ 
+4. Make pregnant (- knock up [informal], bang up [informal])
+"He impregnated his wife again";
 """,
   );
-// 188888880002200
 
   final String keyword = "impregnate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +94,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """This cloth has been impregnated with special chemicals for cleaning computer screens.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Scientists study how sperm impregnate an egg.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +933,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oiLdWXLXDeA?t=';
+    const double startSecondsend = 000000000000000000000000000858;
+    const String videoIdone = 'https://youtu.be/RZt7kE7PZMQ?t=';
+    const double startSecondsone = 000000000000000000000000000455;
+    const String videoIdtwo = 'https://youtu.be/fhn8JrO8xyA?t=';
+    const double startSecondstwo = 000000000000000000000000000965;
+    const String videoIdthree = 'https://youtu.be/dypj6GBiM2s?t=';
+    const double startSecondsthree = 000000000000000000000000000209;
+    const String videoIdfour = 'https://youtu.be/2gMcRhrDXAs?t=';
+    const double startSecondsfour = 000000000000000000000000000625;
+    const String videoIdfive = 'https://youtu.be/I-GpS5PCcLc?t=';
+    const double startSecondsfive = 000000000000000000000000000216;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impregnate""",
                       // alsoEnglishWord: "also: impregnate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪmpreɡneɪt/""",
+                      americanText: """IpaUS: /ɪmˈpreɡneɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,21 +1001,27 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "impregnate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) بڵاوکردنەوەی مادەیەک بە تەواوی بە ناوچەیەکدا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This cloth has been impregnated with special chemicals for cleaning computer screens.""",
+                      kurdishText:
+                          """قوماشەکە پڕ کراوە لە مادەی کیمیایی تایبەتی بۆ پاککردنەوەی شاشەی کۆمپیوتەر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) دووگیانکردنی ژن یان مێینەی ئاژەڵ"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Scientists study how sperm impregnate an egg.""",
+                      kurdishText:
+                          """زاناکان لێکۆڵینەوە لەوە دەکەن کە چۆن سپێرم هێلکە دووگیان دەکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

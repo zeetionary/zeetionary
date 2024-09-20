@@ -9,7 +9,8 @@ class EnglishEntryimpoliteness extends StatefulWidget {
   const EnglishEntryimpoliteness({super.key});
 
   @override
-  State<EnglishEntryimpoliteness> createState() => _EnglishEntryimpolitenessState();
+  State<EnglishEntryimpoliteness> createState() =>
+      _EnglishEntryimpolitenessState();
 }
 
 class _EnglishEntryimpolitenessState extends State<EnglishEntryimpoliteness> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpoliteness impoliteness
-WORD_WEB impoliteness impoliteness impoliteness
-haʊʊʊʊʊʊʊ4
+- Noun: impoliteness
+1. A discourteous manner that ignores accepted social usage
 """,
   );
-// 188888880002200
 
   final String keyword = "impoliteness";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She apologized for her impoliteness.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/DGXfuoAIGi8?t=';
+    const double startSecondsend = 0000000000000000000000000002366;
+    const String videoIdone = 'https://youtu.be/F6cOLFWzNME?t=';
+    const double startSecondsone = 000000000000000000000000000445;
+    const String videoIdtwo = 'https://youtu.be/_8tTk8FlF1A?t=';
+    const double startSecondstwo = 000000000000000000000000000151;
+    const String videoIdthree = 'https://youtu.be/lDW78GWnnBc?t=';
+    const double startSecondsthree = 0000000000000000000000000001368;
+    const String videoIdfour = 'https://youtu.be/bdwifbKeL0w?t=';
+    const double startSecondsfour = 00000000000000000000000000073;
+    const String videoIdfive = 'https://youtu.be/1fde8o2osAE?t=';
+    const double startSecondsfive = 000000000000000000000000000342;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impoliteness""",
                       // alsoEnglishWord: "also: impoliteness",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪmpəˈlaɪtnəs/""",
+                      americanText: """IpaUS: /ˌɪmpəˈlaɪtnəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +989,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌ڕەوشتی، بێ‌ئەدەبی، بێ‌ماریفەتی، ناماقووڵی
 """),
 // With short examples define "impoliteness", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) لێدوان و هەڵسوکەوت کە ڕێزیان تێدا نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She apologized for her impoliteness.""",
+                      kurdishText: """داوای لێبوردنی کرد بۆ بێ‌ئەدەبییەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

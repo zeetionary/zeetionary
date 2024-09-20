@@ -686,4 +686,4 @@ class YoutubeEmbeddedtwelve extends StatelessWidget {
   }
 }
 
-// end bible// TODO Implement this library.
+// end bible

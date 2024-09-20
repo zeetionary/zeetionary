@@ -488,7 +488,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 // en_entry_imploringly.dart' show EnglishEntryimploringly
 // en_entry_imply.dart' show EnglishEntryimply
 // en_entry_impolite.dart' show EnglishEntryimpolite
-// en_entry_pimpolitely.dart' show EnglishEntrypimpolitely
+// en_entry_impolitely.dart' show EnglishEntryimpolitely
 // en_entry_impoliteness.dart' show EnglishEntryimpoliteness
 // en_entry_import.dart' show EnglishEntryimport
 // en_entry_importation.dart' show EnglishEntryimportation

@@ -9,7 +9,8 @@ class EnglishEntryimpregnable extends StatefulWidget {
   const EnglishEntryimpregnable({super.key});
 
   @override
-  State<EnglishEntryimpregnable> createState() => _EnglishEntryimpregnableState();
+  State<EnglishEntryimpregnable> createState() =>
+      _EnglishEntryimpregnableState();
 }
 
 class _EnglishEntryimpregnableState extends State<EnglishEntryimpregnable> {
@@ -52,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpregnable impregnable
-WORD_WEB impregnable impregnable impregnable
-haʊʊʊʊʊʊʊ4
+- Adjective: impregnable
+1. Immune to attack; incapable of being tampered with (- inviolable, secure, strong, unassailable, unattackable)
+"an impregnable fortress";
+ 
+2. Capable of conceiving (- conceptive)
+ 
+3. Incapable of being overcome, challenged or refuted (- inexpugnable)
+"an impregnable argument"; "impregnable self-confidence";
 """,
   );
-// 188888880002200
 
   final String keyword = "impregnable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Despite burglar alarms and window locks, homes are never impregnable against determined thieves.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""They built an impregnable fortress high in the mountains.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The team built up an impregnable 5–1 lead.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +931,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/eR-J_JSBNTI?t=';
+    const double startSecondsend = 0000000000000000000000000001072;
+    const String videoIdone = 'https://youtu.be/OUVY3CFQAGY?t=';
+    const double startSecondsone = 000000000000000000000000000654;
+    const String videoIdtwo = 'https://youtu.be/u_tZzFw-QJE?t=';
+    const double startSecondstwo = 000000000000000000000000000192;
+    const String videoIdthree = 'https://youtu.be/GOfKwjC_AH4?t=';
+    const double startSecondsthree = 000000000000000000000000000132;
+    const String videoIdfour = 'https://youtu.be/XwVEInBNNVA?t=';
+    const double startSecondsfour = 0000000000000000000000000003724;
+    const String videoIdfive = 'https://youtu.be/7wXauVk7DXs?t=';
+    const double startSecondsfive = 000000000000000000000000000487;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impregnable""",
                       // alsoEnglishWord: "also: impregnable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˈpreɡnəbl/""",
+                      americanText: """IpaUS: /ɪmˈpreɡnəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +997,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەگرتن‌نەهاتوو، لەشکان‌نەهاتوو، تۆکمە، قایم، نەگیر، نەگیراو، پتەو، نەبەزیو، دزەتێ‌نەکراو
 """),
 // With short examples define "impregnable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) بینایەک کە بەهێز درووستکراوە و ناکرێت بە هێز داگیر بکرێت؛ شوێنێک کە کەس نەتوانێت بە هێز بچێتە ناوی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Despite burglar alarms and window locks, homes are never impregnable against determined thieves.""",
+                      kurdishText:
+                          """سەرەڕای زەنگی ئاگادارکردنەوە و قوفڵی پەنجەرە، ماڵەکان هەرگیز قایم نین بۆ دزی شێلگیر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,17 +1015,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They built an impregnable fortress high in the mountains.""",
+                      kurdishText:
+                          """قەڵایەکی لەگرتن‌نەهاتوویان بەرز لە چیاکان درووست کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) بەهێز و ئەستەم کە ببەزێندرێت یان بگۆڕدرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: invincible"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The team built up an impregnable 5–1 lead.""",
+                      kurdishText:
+                          """تیمەکە پێشکەوتنێکی ٥-١ ـی نەگۆڕی دەستپێکرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

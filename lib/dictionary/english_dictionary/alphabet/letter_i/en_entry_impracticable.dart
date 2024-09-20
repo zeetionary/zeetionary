@@ -9,7 +9,8 @@ class EnglishEntryimpracticable extends StatefulWidget {
   const EnglishEntryimpracticable({super.key});
 
   @override
-  State<EnglishEntryimpracticable> createState() => _EnglishEntryimpracticableState();
+  State<EnglishEntryimpracticable> createState() =>
+      _EnglishEntryimpracticableState();
 }
 
 class _EnglishEntryimpracticableState extends State<EnglishEntryimpracticable> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryimpracticable impracticable
-WORD_WEB impracticable impracticable impracticable
-haʊʊʊʊʊʊʊ4
+- Adjective: impracticable
+1. Not capable of being carried out or put into practice (- infeasible, unfeasible, unworkable)
+"refloating the sunken ship proved impracticable because of its fragility";
 """,
   );
-// 188888880002200
 
   final String keyword = "impracticable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""This idea was considered completely impracticable.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """It would be impracticable for each member to be consulted on every decision.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/o0Exu8S7gQg?t=';
+    const double startSecondsend = 0000000000000000000000000002003;
+    const String videoIdone = 'https://youtu.be/9F3WRMlZEy4?t=';
+    const double startSecondsone = 000000000000000000000000000553;
+    const String videoIdtwo = 'https://youtu.be/uZ6FH7F2gLs?t=';
+    const double startSecondstwo = 000000000000000000000000000800;
+    const String videoIdthree = 'https://youtu.be/WuY0nIkt7lE?t=';
+    const double startSecondsthree = 000000000000000000000000000251;
+    const String videoIdfour = 'https://youtu.be/WVCNUOk-O9E?t=';
+    const double startSecondsfour = 0000000000000000000000000004343;
+    const String videoIdfive = 'https://youtu.be/rfRL1a14444?t=';
+    const double startSecondsfive = 0000000000000000000000000001234;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """impracticable""",
                       // alsoEnglishWord: "also: impracticable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˈpræktɪkəbl/""",
+                      americanText: """IpaUS: /ɪmˈpræktɪkəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +992,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەکرد، ناکردەنی، نەکردنی، لەکردن‌نەهاتوو، نەکراو، لەجێبەجێ‌نەهاتوو، کاری پێ‌ناکری، جێبەجێ نابێ، ناکرداری،	چەتوون، هەڵەت، سەخت، دژوار
 """),
 // With short examples define "impracticable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) ئەستەم یان زۆر سەخت بۆ کردن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This idea was considered completely impracticable.""",
+                      kurdishText: """ئەم بیرۆکەیە بە تەواو ئەستەم دانرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It would be impracticable for each member to be consulted on every decision.""",
+                      kurdishText:
+                          """ئەستەم دەبێت هەر ئەندامێک لە هەر بڕیارێک ڕاوێژی پێ بکرێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

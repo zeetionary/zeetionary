@@ -9,7 +9,8 @@ class EnglishEntryimportantly extends StatefulWidget {
   const EnglishEntryimportantly({super.key});
 
   @override
-  State<EnglishEntryimportantly> createState() => _EnglishEntryimportantlyState();
+  State<EnglishEntryimportantly> createState() =>
+      _EnglishEntryimportantlyState();
 }
 
 class _EnglishEntryimportantlyState extends State<EnglishEntryimportantly> {
@@ -52,13 +53,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adverb: importantly
+1. In an important way or to an important degree (- significantly)
+"more importantly, Weber held that the manifold meaning attached to the event by the social scientist could alter his definition of the concrete event itself";
+ 
+2. In an important way
+"for centuries jellies have figured importantly among English desserts, particularly upon festive occasion"
 
-EnglishEntryimportantly importantly
-WORD_WEB importantly importantly importantly
-haʊʊʊʊʊʊʊ4
 """,
   );
-// 188888880002200
 
   final String keyword = "importantly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""More importantly, can he be trusted?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""She was sitting importantly behind a big desk.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
+    const double startSecondsend = 000000000000000000000000000130;
+    const String videoIdone = 'https://youtu.be/8HEfIJlcFbs?t=';
+    const double startSecondsone = 000000000000000000000000000478;
+    const String videoIdtwo = 'https://youtu.be/AF8d72mA41M?t=';
+    const double startSecondstwo = 0000000000000000000000000001701;
+    const String videoIdthree = 'https://youtu.be/DWmGArQBtFI';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/YRhqMWUH2Ig?t=';
+    const double startSecondsfour = 000000000000000000000000000534;
+    const String videoIdfive = 'https://youtu.be/-6vzjjIrRK8?t=';
+    const double startSecondsfive = 0000000000000000000000000001548;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """importantly""",
                       // alsoEnglishWord: "also: importantly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪmˈpɔːtntli/""",
+                      americanText: """IpaUS: /ɪmˈpɔːrtntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,20 +998,24 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "importantly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بۆ گوتنی ئەوەی شتێک گرنگە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """More importantly, can he be trusted?""",
+                      kurdishText: """گرنگترانە، دەکرێت متمانەی پێ بکرێت؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە وەها دەردەکەوێت کەسێک کاریگەری و پێگەی هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was sitting importantly behind a big desk.""",
+                      kurdishText:
+                          """وەک کەسی گرنگ لە پشتەوەی دێسکێکی گەورە وەستابوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

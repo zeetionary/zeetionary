@@ -221,14 +221,6 @@ class KurdishMeaning extends StatelessWidget {
         "Many members were demoralized by the leadership’s failure to implement reforms.");
   }
 
-  Future<void> speakdemoralizes20(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        "Many members were demoralized by the leadership’s failure to implement reforms.0");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

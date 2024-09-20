@@ -134,7 +134,7 @@ class _TextSizeSliderState extends State<TextSizeSlider> {
 
   @override
   Widget build(BuildContext context) {
-    return Slider(
+    return Slider.adaptive(
       value: _value,
       min: 12,
       max: 18,

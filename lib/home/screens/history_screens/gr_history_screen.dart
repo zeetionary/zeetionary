@@ -111,7 +111,7 @@ class _GrammarHistoryScreenState extends ConsumerState<GrammarHistoryScreen> {
           future: loadEnglishHistory(),
           builder: (context, snapshot) {
             if (snapshot.connectionState == ConnectionState.waiting) {
-              return const CircularProgressIndicator();
+              return const CircularProgressIndicator.adaptive();
             } else if (snapshot.hasData && snapshot.data!.isEmpty) {
               // History is empty, show message
               return const EmptyPageIcon(

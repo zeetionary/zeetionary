@@ -161,7 +161,7 @@ class _RedditEtymologyState extends ConsumerState<RedditEtymology> {
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
       body: _isLoading && _posts.isEmpty
-          ? const Center(child: CircularProgressIndicator())
+          ? const Center(child: CircularProgressIndicator.adaptive())
           : CustomScrollView(
               slivers: [
                 SliverToBoxAdapter(
@@ -202,7 +202,7 @@ class _RedditEtymologyState extends ConsumerState<RedditEtymology> {
                               ),
                             ),
                             child: _isLoading
-                                ? const CircularProgressIndicator()
+                                ? const CircularProgressIndicator.adaptive()
                                 : Text(
                                     'Load More',
                                     style: TextStyle(

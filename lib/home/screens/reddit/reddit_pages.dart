@@ -162,7 +162,7 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
       body: _isLoading && _posts.isEmpty
-          ? const Center(child: CircularProgressIndicator())
+          ? const Center(child: CircularProgressIndicator.adaptive())
           : CustomScrollView(
               slivers: [
                 SliverToBoxAdapter(
@@ -187,7 +187,7 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                               ),
                             ),
                             child: _isLoading
-                                ? const CircularProgressIndicator()
+                                ? const CircularProgressIndicator.adaptive()
                                 : Text(
                                     'Load More',
                                     style: TextStyle(
@@ -495,7 +495,7 @@ class RedditComments extends ConsumerWidget {
         ]),
         builder: (context, AsyncSnapshot<List<dynamic>> snapshot) {
           if (snapshot.connectionState == ConnectionState.waiting) {
-            return const Center(child: CircularProgressIndicator());
+            return const Center(child: CircularProgressIndicator.adaptive());
           } else if (snapshot.hasError) {
             return Center(
               child: Directionality(

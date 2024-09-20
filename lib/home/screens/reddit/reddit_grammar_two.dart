@@ -161,7 +161,7 @@ class _RedditGrammarTwoState extends ConsumerState<RedditGrammarTwo> {
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
       body: _isLoading && _posts.isEmpty
-          ? const Center(child: CircularProgressIndicator())
+          ? const Center(child: CircularProgressIndicator.adaptive())
           : CustomScrollView(
               slivers: [
                 SliverToBoxAdapter(
@@ -202,7 +202,7 @@ class _RedditGrammarTwoState extends ConsumerState<RedditGrammarTwo> {
                               ),
                             ),
                             child: _isLoading
-                                ? const CircularProgressIndicator()
+                                ? const CircularProgressIndicator.adaptive()
                                 : Text(
                                     'Load More',
                                     style: TextStyle(

@@ -1248,7 +1248,7 @@ class CustomSliverAppBar extends StatelessWidget {
     super.key,
     required this.flexibleSpace,
     required this.bottom,
-    this.expandedHeight = 240.0,
+    this.expandedHeight = 260.0,
   });
 
   @override
@@ -1256,8 +1256,13 @@ class CustomSliverAppBar extends StatelessWidget {
     return SliverAppBar(
       pinned: true,
       floating: true,
+      snap: false,
+      title: const ZeetionaryAppbar(),
       expandedHeight: expandedHeight,
       automaticallyImplyLeading: false,
+      backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+      foregroundColor: Theme.of(context).scaffoldBackgroundColor,
+      shadowColor: Theme.of(context).scaffoldBackgroundColor,
       flexibleSpace: flexibleSpace,
       bottom: bottom,
     );
@@ -1278,9 +1283,12 @@ class CustomTabBarNew extends ConsumerWidget implements PreferredSizeWidget {
     // final currentTheme = ref.watch(themeNotifierProvider);
     // final textSize = ref.watch(textSizeProvider) + 20;
     return TabBar(
+      // indicatorColor: Theme.of(context).scaffoldBackgroundColor,
       indicatorColor: Theme.of(context).primaryColor.withOpacity(0.2),
       // indicatorColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.5),
       // indicatorColor: Colors.red,
+      labelColor: Theme.of(context).scaffoldBackgroundColor,
+      // unselectedLabelColor: Theme.of(context).scaffoldBackgroundColor,
       tabs: tabs,
     );
   }
@@ -1417,28 +1425,35 @@ class EntryPageColumn extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
       children: [
-        Row(
-          children: [
-            EntryTitle(word: word),
-          ],
+        const SizedBox(
+          height: 90,
         ),
-        if (alsoEnglishWord != null) AlsoEnglish(word: alsoEnglishWord!),
-        Row(
+        Column(
+          crossAxisAlignment: CrossAxisAlignment.start,
           children: [
-            CustomIconButtonBritish(
-              onPressed: onPressedBritish,
+            Row(
+              children: [
+                EntryTitle(word: word),
+              ],
             ),
-            IPAofEnglish(text: britshText),
-          ],
-        ),
-        Row(
-          children: [
-            CustomIconButtonAmerican(
-              onPressed: onPressedAmerican,
+            if (alsoEnglishWord != null) AlsoEnglish(word: alsoEnglishWord!),
+            Row(
+              children: [
+                CustomIconButtonBritish(
+                  onPressed: onPressedBritish,
+                ),
+                IPAofEnglish(text: britshText),
+              ],
             ),
-            IPAofEnglish(text: americanText),
+            Row(
+              children: [
+                CustomIconButtonAmerican(
+                  onPressed: onPressedAmerican,
+                ),
+                IPAofEnglish(text: americanText),
+              ],
+            ),
           ],
         ),
       ],

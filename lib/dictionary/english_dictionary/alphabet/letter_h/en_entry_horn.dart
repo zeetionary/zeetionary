@@ -109,7 +109,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The bull lowered its horns and charged straight at him.""");
+    await flutterTts
+        .speak("""The bull lowered its horns and charged straight at him.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -123,7 +124,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Impatient horn blasts began to sound behind him.""");
+    await flutterTts
+        .speak("""Impatient horn blasts began to sound behind him.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -947,7 +949,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/TJmTHuuYx3k?t=';
     const double startSecondsend = 00000000000000000000000000079;
@@ -965,7 +966,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1017,10 +1017,14 @@ ${englishMeaningConst.text}
 کوردی: شاخ، قۆچ، کلۆچ، ئەسرۆ، ستڕۆ، ستڕە، نەفر، شاخۆچکە،	کەڕەنا، زوڕنا، نەفیر، بۆڕی،	هۆڕن، سیگناڵ،	نووک، تیژایی (هی مانگی یەک‌شەوە)،	نووک، لووت، سەر (دەزگا)،	پیاڵە، ئاوخۆری (لە شاخ)،	(بریتانیا) چووکی ڕەپ، سیرەتی هەستاو،	لقێ لە چۆم یان کەنداوێ،	لووتکە یان نووچکەی شاخێ
 """),
 // With short examples define "horn", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) شاخی ئاژەڵ؛ ئەو مادە سەختەی شاخی ئاژەڵی لێ درووست دەکرێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شاخی ئاژەڵ؛ ئەو مادە سەختەی شاخی ئاژەڵی لێ درووست دەکرێت"""),
                     SentencesRow(
-                      englishText: """The bull lowered its horns and charged straight at him.""",
-                      kurdishText: """جوانەگاکە شاخەکانی نزمکردەوە و ڕاست هێرشی بۆی کرد.""",
+                      englishText:
+                          """The bull lowered its horns and charged straight at him.""",
+                      kurdishText:
+                          """جوانەگاکە شاخەکانی نزمکردەوە و ڕاست هێرشی بۆی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1028,17 +1032,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The male deer grows large branching horns.""",
+                      englishText:
+                          """The male deer grows large branching horns.""",
                       kurdishText: """بزنی نێرە شاخی لقداری گەورە دەردەکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) هۆرنی ئۆتۆمبێل"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) هۆرنی ئۆتۆمبێل"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Impatient horn blasts began to sound behind him.""",
-                      kurdishText: """دەنگی هۆرنی بێ‌ئۆقرە لە پشتییەوە دەستی پێکرد.""",
+                      englishText:
+                          """Impatient horn blasts began to sound behind him.""",
+                      kurdishText:
+                          """دەنگی هۆرنی بێ‌ئۆقرە لە پشتییەوە دەستی پێکرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1047,7 +1055,8 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Passing motorists honked their horns.""",
-                      kurdishText: """ماتۆڕسوارە تێپەڕیوەکان هۆرنەکانیان لێدەدا.""",
+                      kurdishText:
+                          """ماتۆڕسوارە تێپەڕیوەکان هۆرنەکانیان لێدەدا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

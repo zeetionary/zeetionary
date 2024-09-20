@@ -115,7 +115,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -166,7 +165,8 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لەسێدارەدان، ھەڵواسین، بەپەتەوەکردن، خنکاندن
 """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) لەسێدارەدان"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) لەسێدارەدان"""),
                     SentencesRow(
                       englishText:
                           """Hanging was abolished in the UK in 1969.""",

@@ -923,7 +923,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/PkUg89kLLBE?t=';
     const double startSecondsend = 000000000000000000000000000936;
@@ -941,7 +940,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -995,7 +993,8 @@ ${englishMeaningConst.text}
 // With short examples define "homicide", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) کوشتنی کەسێک"""),
                     SentencesRow(
-                      englishText: """He has been arrested on homicide charges.""",
+                      englishText:
+                          """He has been arrested on homicide charges.""",
                       kurdishText: """دەستگیرکراوە بە تاوانی پیاوکوژی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),

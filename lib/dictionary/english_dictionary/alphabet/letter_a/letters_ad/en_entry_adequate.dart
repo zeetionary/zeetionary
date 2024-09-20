@@ -105,7 +105,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'u4bBQ2tNLCY';
     const double startSecondsend = 1;
     const String videoIdone = '-iPq3-b8pwU';
@@ -124,7 +123,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -172,28 +170,27 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: لێھاتوو، ژێھاتی، لێوەشاو، گونجاو، بەس، بەش‌کردوو، سەروزیاد، سەرومڕ، سەروبەر، بێ‌کەم‌وزیاد، تەواو
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) بە پێی پێویست باش یان زۆر بۆ مەبەستێک"
-                                  ""),
-                          SentencesRow(
-                            englishText: "The room was small but adequate.",
-                            kurdishText:
-                                "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد.",
-                            onPressedBritish: () => speakadequa44855("en-GB"),
-                            onPressedAmerican: () => speakadequa44855("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "He didn't give an adequate answer to the question.",
-                            kurdishText: "وەڵامێکی تەواوی پرسیارەکەی نەداوە.",
-                            onPressedBritish: () => speakadequ99965("en-GB"),
-                            onPressedAmerican: () => speakadequ99965("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) بە پێی پێویست باش یان زۆر بۆ مەبەستێک"
+                            ""),
+                    SentencesRow(
+                      englishText: "The room was small but adequate.",
+                      kurdishText: "ژوورەکە بچووک بوو، بەڵام بەشمانی دەکرد.",
+                      onPressedBritish: () => speakadequa44855("en-GB"),
+                      onPressedAmerican: () => speakadequa44855("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "He didn't give an adequate answer to the question.",
+                      kurdishText: "وەڵامێکی تەواوی پرسیارەکەی نەداوە.",
+                      onPressedBritish: () => speakadequ99965("en-GB"),
+                      onPressedAmerican: () => speakadequ99965("en-US"),
+                    ),
                   ],
                 ),
               ),

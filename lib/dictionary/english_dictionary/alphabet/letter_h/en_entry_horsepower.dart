@@ -922,7 +922,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/O4iGNXsqghs?t=';
     const double startSecondsend = 000000000000000000000000000163;
@@ -940,7 +939,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -991,9 +989,12 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ناو) یەکەیەک بۆ پێوانی توانای بزوێنەرێک کە یەکسانە بە ٧٤٦ وات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) یەکەیەک بۆ پێوانی توانای بزوێنەرێک کە یەکسانە بە ٧٤٦ وات"""),
                     SentencesRow(
-                      englishText: """The car has an engine with 300 horsepower.""",
+                      englishText:
+                          """The car has an engine with 300 horsepower.""",
                       kurdishText: """ئۆتۆمبێلەکە ٣٠٠ هێزی ئەسپی هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),

@@ -97,8 +97,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
-    
     const String videoIdend = 'h2xExpwV0TE';
     const double startSecondsend = 207;
     const String videoIdone = 'okfZRl4Xw-c';
@@ -117,7 +115,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -165,21 +162,21 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: (مەتریاڵ) سەرخراو یان سەرخستە، کۆوەبوو
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) مادەیەک کە زیاد دەکرێت بۆ شتێک بۆ ئەوەی ڕەنگ یان تامی پێبدات، یان بۆ ئەوەی وا بکات زیاتر سوودی ھەبێت"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "This beverage is full of additives - just look at the label!",
-                            kurdishText:
-                                "ئەم خواردنەوەیە پڕە لە مادەی زیادکراو. سەیری نووسراوەکەی سەری بکە!",
-                            onPressedBritish: () => speakaddit699("en-GB"),
-                            onPressedAmerican: () => speakaddit699("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) مادەیەک کە زیاد دەکرێت بۆ شتێک بۆ ئەوەی ڕەنگ یان تامی پێبدات، یان بۆ ئەوەی وا بکات زیاتر سوودی ھەبێت"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "This beverage is full of additives - just look at the label!",
+                      kurdishText:
+                          "ئەم خواردنەوەیە پڕە لە مادەی زیادکراو. سەیری نووسراوەکەی سەری بکە!",
+                      onPressedBritish: () => speakaddit699("en-GB"),
+                      onPressedAmerican: () => speakaddit699("en-US"),
+                    ),
                   ],
                 ),
               ),

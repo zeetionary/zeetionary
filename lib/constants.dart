@@ -1727,12 +1727,16 @@ class IPAofEnglish extends ConsumerWidget {
           Clipboard.setData(ClipboardData(text: text));
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
+              backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+              showCloseIcon: true,
+              closeIconColor: Theme.of(context).primaryColor,
               content: Text(
                 'IPA copied',
                 style: TextStyle(
-                  fontSize: textSize + 1,
-                ),
+                    fontSize: textSize + 1,
+                    color: Theme.of(context).primaryColor),
               ),
+              behavior: SnackBarBehavior.floating,
             ),
           );
         },
@@ -1788,15 +1792,20 @@ class KurdishVocabulary extends ConsumerWidget {
                     Clipboard.setData(ClipboardData(text: text));
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(
+                        backgroundColor:
+                            Theme.of(context).scaffoldBackgroundColor,
+                        showCloseIcon: true,
+                        closeIconColor: Theme.of(context).primaryColor,
                         content: Directionality(
                           textDirection: TextDirection.rtl,
                           child: Text(
                             'وشەوواتا لەبەرگیرایەوە',
                             style: TextStyle(
-                              fontSize: textSize + 1,
-                            ),
+                                fontSize: textSize + 1,
+                                color: Theme.of(context).primaryColor),
                           ),
                         ),
+                        behavior: SnackBarBehavior.floating,
                       ),
                     );
                   },
@@ -2052,15 +2061,20 @@ class _DefinitionKurdishState extends ConsumerState<DefinitionKurdish>
                       Clipboard.setData(ClipboardData(text: widget.text));
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
+                          backgroundColor:
+                              Theme.of(context).scaffoldBackgroundColor,
+                          showCloseIcon: true,
+                          closeIconColor: Theme.of(context).primaryColor,
                           content: Directionality(
                             textDirection: TextDirection.rtl,
                             child: Text(
                               'پێناسەی کوردی لەبەرگیرایەوە',
                               style: TextStyle(
-                                fontSize: textSize + 1,
-                              ),
+                                  fontSize: textSize + 1,
+                                  color: Theme.of(context).primaryColor),
                             ),
                           ),
+                          behavior: SnackBarBehavior.floating,
                         ),
                       );
                     },
@@ -2403,12 +2417,17 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
                     Clipboard.setData(ClipboardData(text: widget.text));
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(
+                        backgroundColor:
+                            Theme.of(context).scaffoldBackgroundColor,
+                        showCloseIcon: true,
+                        closeIconColor: Theme.of(context).primaryColor,
                         content: Text(
                           'English sentence copied',
                           style: TextStyle(
-                            fontSize: textSize + 1,
-                          ),
+                              fontSize: textSize + 1,
+                              color: Theme.of(context).primaryColor),
                         ),
+                        behavior: SnackBarBehavior.floating,
                       ),
                     );
                   },
@@ -2567,15 +2586,20 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
                       Clipboard.setData(ClipboardData(text: widget.text));
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
+                          backgroundColor:
+                              Theme.of(context).scaffoldBackgroundColor,
+                          showCloseIcon: true,
+                          closeIconColor: Theme.of(context).primaryColor,
                           content: Directionality(
                             textDirection: TextDirection.rtl,
                             child: Text(
                               'ڕستەی کوردی لەبەرگیرایەوە',
                               style: TextStyle(
-                                fontSize: textSize + 1,
-                              ),
+                                  fontSize: textSize + 1,
+                                  color: Theme.of(context).primaryColor),
                             ),
                           ),
+                          behavior: SnackBarBehavior.floating,
                         ),
                       );
                     },
@@ -2867,12 +2891,17 @@ class EnglishMeaningConst extends ConsumerWidget {
                 Clipboard.setData(ClipboardData(text: text));
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
-                      content: Text(
-                    'English meaning copied',
-                    style: TextStyle(
-                      fontSize: textSize + 1,
+                    backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+                    showCloseIcon: true,
+                    closeIconColor: Theme.of(context).primaryColor,
+                    content: Text(
+                      'English meaning copied',
+                      style: TextStyle(
+                          fontSize: textSize + 1,
+                          color: Theme.of(context).primaryColor),
                     ),
-                  )),
+                    behavior: SnackBarBehavior.floating,
+                  ),
                 );
               },
               child: Text(

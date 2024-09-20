@@ -9,7 +9,8 @@ class EnglishEntryimaginative extends StatefulWidget {
   const EnglishEntryimaginative({super.key});
 
   @override
-  State<EnglishEntryimaginative> createState() => _EnglishEntryimaginativeState();
+  State<EnglishEntryimaginative> createState() =>
+      _EnglishEntryimaginativeState();
 }
 
 class _EnglishEntryimaginativeState extends State<EnglishEntryimaginative> {
@@ -90,14 +91,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""You’ll need to be a little more imaginative if you want to hold their attention.""");
+    await flutterTts.speak(
+        """You’ll need to be a little more imaginative if you want to hold their attention.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Her imaginative interpretation of the script brought out the comedy inherent in it.""");
+    await flutterTts.speak(
+        """Her imaginative interpretation of the script brought out the comedy inherent in it.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -111,7 +114,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He was esteemed as a dedicated and imaginative scholar.""");
+    await flutterTts
+        .speak("""He was esteemed as a dedicated and imaginative scholar.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -928,7 +932,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/6DYgImG1CKo?t=';
     const double startSecondsend = 000000000000000000000000000373;
@@ -946,7 +949,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -998,11 +1000,14 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "imaginative", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) هەبوونی بیرۆکەی تازە و بەجۆش"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) هەبوونی بیرۆکەی تازە و بەجۆش"""),
                     const AlsoEnglishckb(word: "ھەروەھا: inventive"),
                     SentencesRow(
-                      englishText: """You’ll need to be a little more imaginative if you want to hold their attention.""",
-                      kurdishText: """دەبێت کەمێک زیاتر داهێنەرانە بیت ئەگەر بتەوێت سەرنجیان ڕابگریت.""",
+                      englishText:
+                          """You’ll need to be a little more imaginative if you want to hold their attention.""",
+                      kurdishText:
+                          """دەبێت کەمێک زیاتر داهێنەرانە بیت ئەگەر بتەوێت سەرنجیان ڕابگریت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1010,10 +1015,11 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Her imaginative interpretation of the script brought out the comedy inherent in it.""",
+                      englishText:
+                          """Her imaginative interpretation of the script brought out the comedy inherent in it.""",
                       kurdishText:
-                                "تێگەشنی ئەندێشەییانەی بۆ نووسینەکە کۆمیدی لە کڕۆکیدا بینی.",
-                            onPressedBritish: () => speaksentence2("en-GB"),
+                          "تێگەشنی ئەندێشەییانەی بۆ نووسینەکە کۆمیدی لە کڕۆکیدا بینی.",
+                      onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
@@ -1021,7 +1027,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She was a very imaginative designer.""",
-            kurdishText: "دیزاینەرێکی زۆر دووربین بوو.",
+                      kurdishText: "دیزاینەرێکی زۆر دووربین بوو.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1029,10 +1035,11 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He was esteemed as a dedicated and imaginative scholar.""",
+                      englishText:
+                          """He was esteemed as a dedicated and imaginative scholar.""",
                       kurdishText:
-                """وەک پسپۆڕێکی ماندوونەناس و داھێنەر ڕێزی دەگیردرا.""",
-            onPressedBritish: () => speaksentence4("en-GB"),
+                          """وەک پسپۆڕێکی ماندوونەناس و داھێنەر ڕێزی دەگیردرا.""",
+                      onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),

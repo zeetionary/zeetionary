@@ -95,14 +95,16 @@ Usage: Brit, Cdn (US: honorable)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She had a long and honourable career in government.""");
+    await flutterTts
+        .speak("""She had a long and honourable career in government.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""With a few honourable exceptions, the staff were found to be incompetent.""");
+    await flutterTts.speak(
+        """With a few honourable exceptions, the staff were found to be incompetent.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -123,7 +125,8 @@ Usage: Brit, Cdn (US: honorable)
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They urged her to do the honourable thing and resign.""");
+    await flutterTts
+        .speak("""They urged her to do the honourable thing and resign.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -933,7 +936,6 @@ Usage: Brit, Cdn (US: honorable)
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/uK3OBAxCi6k?t=';
     const double startSecondsend = 000000000000000000000000000103;
@@ -951,7 +953,6 @@ Usage: Brit, Cdn (US: honorable)
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1003,10 +1004,13 @@ Usage: Brit, Cdn (US: honorable)
 کوردی: بەڕێز، گەورە، بەوەج، ڕووپاک، بەئابڕوو، ئابڕوودار، ڕووسپی، ڕووسوور، بەشەڕەف، بەئابڕووانە، ئابڕوومەندانە
 """),
 // With short examples define "honourable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە شایەنی ڕێزە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە شایەنی ڕێزە"""),
                     SentencesRow(
-                      englishText: """She had a long and honourable career in government.""",
-                      kurdishText: """کارێکی دوورودرێژ و ئابوومەندانەی هەبوو لە حکومەت.""",
+                      englishText:
+                          """She had a long and honourable career in government.""",
+                      kurdishText:
+                          """کارێکی دوورودرێژ و ئابوومەندانەی هەبوو لە حکومەت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1014,17 +1018,23 @@ Usage: Brit, Cdn (US: honorable)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """With a few honourable exceptions, the staff were found to be incompetent.""",
-                      kurdishText: """بە چەند هەڵاواردنێکی جێگای ڕێز، ستافەکە بە ناشایستە بیندران.""",
+                      englishText:
+                          """With a few honourable exceptions, the staff were found to be incompetent.""",
+                      kurdishText:
+                          """بە چەند هەڵاواردنێکی جێگای ڕێز، ستافەکە بە ناشایستە بیندران.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ستانداردی ئەخلاقی بەرزی هەیە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە ستانداردی ئەخلاقی بەرزی هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He was an honourable man who could not lie.""",
-                      kurdishText: """پیاوێکی بەئابڕوو کە نەیدەتوانی درۆ بکات.""",
+                      englishText:
+                          """He was an honourable man who could not lie.""",
+                      kurdishText:
+                          """پیاوێکی بەئابڕوو کە نەیدەتوانی درۆ بکات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1032,17 +1042,23 @@ Usage: Brit, Cdn (US: honorable)
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The only honourable thing to do is to resign.""",
-                      kurdishText: """تەنها شتی ئابڕوومەندانە بۆ کردن دەستلەکارکێشانەوەیە.""",
+                      englishText:
+                          """The only honourable thing to do is to resign.""",
+                      kurdishText:
+                          """تەنها شتی ئابڕوومەندانە بۆ کردن دەستلەکارکێشانەوەیە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە ڕێگا بە کەسێک دەدات شکۆی بپارێزێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە ڕێگا بە کەسێک دەدات شکۆی بپارێزێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They urged her to do the honourable thing and resign.""",
-                      kurdishText: """هانیان دا شتە ئابڕوومەندانەکە بکات و دەستلەکار بکێشێتەوە.""",
+                      englishText:
+                          """They urged her to do the honourable thing and resign.""",
+                      kurdishText:
+                          """هانیان دا شتە ئابڕوومەندانەکە بکات و دەستلەکار بکێشێتەوە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

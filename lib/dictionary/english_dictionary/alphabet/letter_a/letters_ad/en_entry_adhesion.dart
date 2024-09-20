@@ -91,18 +91,16 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
-  const String videoIdend = 'w3PVOjIclJ0';
-  const double startSecondsend = 17;
-  const String videoIdone = 'xmx2333gQs8';
-  const double startSecondsone = 31;
-  const String videoIdtwo = 'UdutN9YjFuQ';
-  const double startSecondstwo = 13;
+    const String videoIdend = 'w3PVOjIclJ0';
+    const double startSecondsend = 17;
+    const String videoIdone = 'xmx2333gQs8';
+    const double startSecondsone = 31;
+    const String videoIdtwo = 'UdutN9YjFuQ';
+    const double startSecondstwo = 13;
 
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -150,11 +148,10 @@ ${englishMeaningConst.text}
               const SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-KurdishVocabulary(text: """
+                    KurdishVocabulary(text: """
 کوردی: پیانووسان، پیالکان، پێکانووسان، پیاچەسپان، پێدانووسان، جۆش‌خواردن، چەسپان، لچکان، گرتن، پشتیوانی، لایەنگری، داژداری، وەفاداری، بەئەمەگی، دڵسۆزی
 """),
-                          DefinitionKurdish(
-                              text: "١. (ناو) توانای نووساندن" ""),
+                    DefinitionKurdish(text: "١. (ناو) توانای نووساندن" ""),
                   ],
                 ),
               ),

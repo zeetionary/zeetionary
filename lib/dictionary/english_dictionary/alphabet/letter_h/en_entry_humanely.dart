@@ -923,7 +923,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/CIb9CLAnTEE?t=';
     const double startSecondsend = 000000000000000000000000000487;
@@ -941,7 +940,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -993,7 +991,9 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "humanely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بەشێوەیەک کە میهرەبان بیت لەگەڵ مرۆڤ و ئاژەڵ بەوەی دڵنیایی بکەیت کە زیاتر لە پێویست ئازار ناچێژن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەک کە میهرەبان بیت لەگەڵ مرۆڤ و ئاژەڵ بەوەی دڵنیایی بکەیت کە زیاتر لە پێویست ئازار ناچێژن"""),
                     SentencesRow(
                       englishText: """The dog was humanely destroyed.""",
                       kurdishText: """سەگەکە مرۆڤانە کوژرا.""",

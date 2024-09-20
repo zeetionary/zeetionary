@@ -923,7 +923,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/1jm3K9cm3vI?t=';
     const double startSecondsend = 0000000000000000000000000002841;
@@ -941,7 +940,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -993,7 +991,9 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "idolize", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) خۆشویستن و سەرسامبوون بە کەسێک بە ئاستێکی زۆر، یان زۆر زۆر"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) خۆشویستن و سەرسامبوون بە کەسێک بە ئاستێکی زۆر، یان زۆر زۆر"""),
                     SentencesRow(
                       englishText: """They idolize their kids.""",
                       kurdishText: """منداڵەکانیانیان زۆر خۆشدەوێت.""",
@@ -1004,8 +1004,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Young children often idolize their parents.""",
-                      kurdishText: """منداڵانی گەنج زۆرجار دایبابیانیان زۆر خۆشدەوێت.""",
+                      englishText:
+                          """Young children often idolize their parents.""",
+                      kurdishText:
+                          """منداڵانی گەنج زۆرجار دایبابیانیان زۆر خۆشدەوێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

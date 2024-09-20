@@ -34,7 +34,6 @@ class _EnglishEntryfeasibilityState extends State<EnglishEntryfeasibility> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

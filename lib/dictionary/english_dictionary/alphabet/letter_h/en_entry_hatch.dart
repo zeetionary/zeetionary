@@ -176,7 +176,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -267,7 +266,8 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The female must find a warm place to hatch her eggs.""",
-                      kurdishText: """مێینەکە دەبێت شوێنێکی گەرم بدۆزێتەوە بۆ هەڵهێننانی هێلکەکانی.""",
+                      kurdishText:
+                          """مێینەکە دەبێت شوێنێکی گەرم بدۆزێتەوە بۆ هەڵهێننانی هێلکەکانی.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

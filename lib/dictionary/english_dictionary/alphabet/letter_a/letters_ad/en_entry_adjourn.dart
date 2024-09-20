@@ -101,7 +101,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'EJI-PA9MZGs';
     const double startSecondsend = 533;
     const String videoIdone = 'n2NBBopOlUg';
@@ -116,7 +115,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -164,22 +162,22 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) وەستاندنی کۆبوونەوەیەک بۆ ماوەیەک"""),
-                          SentencesRow(
-                            englishText: "The court adjourned for lunch.",
-                            kurdishText:
-                                "دادگا دانیشتنەکەی ھەڵپەسارد بۆ خواردنی نانی نیوەڕۆ.",
-                            onPressedBritish: () => speakadjo952871("en-GB"),
-                            onPressedAmerican: () => speakadjo952871("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "The case was adjourned for a week.",
-                            kurdishText: "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا.",
-                            onPressedBritish: () => speakad4582("en-GB"),
-                            onPressedAmerican: () => speakad4582("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText: "The court adjourned for lunch.",
+                      kurdishText:
+                          "دادگا دانیشتنەکەی ھەڵپەسارد بۆ خواردنی نانی نیوەڕۆ.",
+                      onPressedBritish: () => speakadjo952871("en-GB"),
+                      onPressedAmerican: () => speakadjo952871("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "The case was adjourned for a week.",
+                      kurdishText: "کەیسەکە بۆ ھەفتەیەک ھەڵپەسێردرا.",
+                      onPressedBritish: () => speakad4582("en-GB"),
+                      onPressedAmerican: () => speakad4582("en-US"),
+                    ),
                   ],
                 ),
               ),

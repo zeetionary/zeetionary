@@ -94,7 +94,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = '0jzCwjDzUg0';
     const double startSecondsend = 1;
     const String videoIdone = 'EFgjxsrUa44';
@@ -111,7 +110,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -159,20 +157,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: شیاوی ڕێکخستن، لەگونجان‌ھاتوو، لەمیزان‌ھاتوو، میزان دەکرێ، سازاو، گۆڕا، لەرێک‌ھاتوو
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) شتێک کە دەستکاری دەکرێت بۆ ئەو شێوەیەی کە خۆت دەتەوێت"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The height of the bicycle seat is adjustable.",
-                            kurdishText: "بەرزیی کورسی پاسکیلەکە ڕێکدەخرێت.",
-                            onPressedBritish: () => speakadjusta5847("en-GB"),
-                            onPressedAmerican: () => speakadjusta5847("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) شتێک کە دەستکاری دەکرێت بۆ ئەو شێوەیەی کە خۆت دەتەوێت"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "The height of the bicycle seat is adjustable.",
+                      kurdishText: "بەرزیی کورسی پاسکیلەکە ڕێکدەخرێت.",
+                      onPressedBritish: () => speakadjusta5847("en-GB"),
+                      onPressedAmerican: () => speakadjusta5847("en-US"),
+                    ),
                   ],
                 ),
               ),

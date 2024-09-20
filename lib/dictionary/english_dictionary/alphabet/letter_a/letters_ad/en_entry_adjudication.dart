@@ -9,7 +9,8 @@ class EnglishEntryadjudication extends StatefulWidget {
   const EnglishEntryadjudication({super.key});
 
   @override
-  State<EnglishEntryadjudication> createState() => _EnglishEntryadjudicationState();
+  State<EnglishEntryadjudication> createState() =>
+      _EnglishEntryadjudicationState();
 }
 
 class _EnglishEntryadjudicationState extends State<EnglishEntryadjudication> {
@@ -91,7 +92,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = '4IaOeVgZ-wc';
     const double startSecondsend = 3510;
     const String videoIdone = 'bV9ppvY8Nx4';
@@ -106,7 +106,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -154,20 +153,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: دادوەری، دادگەری، شەرع‌کردن، نێوگژیوانی، ناوبەری، نێوبژیوانی
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) پڕۆسەی ناوبژی کە نێوان دوو لایەن"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The case was referred to a higher court for adjudication.",
-                            kurdishText:
-                                "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی.",
-                            onPressedBritish: () => speakadjudi5684("en-GB"),
-                            onPressedAmerican: () => speakadjudi5684("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) پڕۆسەی ناوبژی کە نێوان دوو لایەن"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "The case was referred to a higher court for adjudication.",
+                      kurdishText:
+                          "کەیسەکە نێردرا بۆ داگایەکی باڵاتر بۆ ناوبژی.",
+                      onPressedBritish: () => speakadjudi5684("en-GB"),
+                      onPressedAmerican: () => speakadjudi5684("en-US"),
+                    ),
                   ],
                 ),
               ),

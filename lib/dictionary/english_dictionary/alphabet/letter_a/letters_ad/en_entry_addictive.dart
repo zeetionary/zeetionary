@@ -98,7 +98,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'Aunrx86kmnw';
     const double startSecondsend = 12;
     const String videoIdone = '3geZ5EVZg7E';
@@ -115,7 +114,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -163,30 +161,29 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: خووپێ‌گر، گیرۆدەکەر
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) شتێک کە ئاسان نییە لە بەکارھێنانی بوەستی"
-                                  ""),
-                          SentencesRow(
-                            englishText: "The game is very addictive.",
-                            kurdishText: "یارییەکە زۆر ئاڵوودەکەرە.",
-                            onPressedBritish: () => speakaddic427("en-GB"),
-                            onPressedAmerican: () => speakaddic427("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) شتێک کە ئاسان نییە لە بەکارھێنانی بوەستی"
+                            ""),
+                    SentencesRow(
+                      englishText: "The game is very addictive.",
+                      kurdishText: "یارییەکە زۆر ئاڵوودەکەرە.",
+                      onPressedBritish: () => speakaddic427("en-GB"),
+                      onPressedAmerican: () => speakaddic427("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێک کە بە ئاسانی ئاڵوودە دەبێت"""),
-                          SentencesRow(
-                            englishText:
-                                "Some people have an addictive personality.",
-                            kurdishText:
-                                "ھەندێک کەس ھەر بە کەسایەتی گیرۆدەی شت دەبن.",
-                            onPressedBritish: () => speakaddict241("en-GB"),
-                            onPressedAmerican: () => speakaddict241("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText: "Some people have an addictive personality.",
+                      kurdishText:
+                          "ھەندێک کەس ھەر بە کەسایەتی گیرۆدەی شت دەبن.",
+                      onPressedBritish: () => speakaddict241("en-GB"),
+                      onPressedAmerican: () => speakaddict241("en-US"),
+                    ),
                   ],
                 ),
               ),

@@ -95,7 +95,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'GKNLvqeP_DE';
     const double startSecondsend = 278;
     const String videoIdone = 'fP2WUnBjmkk';
@@ -110,7 +109,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -158,21 +156,21 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: تێکەڵ‌دار، تێکەڵ، تراو، تراوێنراو
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) پیسبوونی خواردن یان خواردنەوە بەھۆی زیادبوونی شتی تر بۆی"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The water supply had been adulterated with chemicals from the soil.",
-                            kurdishText:
-                                "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە.",
-                            onPressedBritish: () => speakadulte658134("en-GB"),
-                            onPressedAmerican: () => speakadulte658134("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (کردار) پیسبوونی خواردن یان خواردنەوە بەھۆی زیادبوونی شتی تر بۆی"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "The water supply had been adulterated with chemicals from the soil.",
+                      kurdishText:
+                          "سەرچاوەی ئاوەکە پیسبووە بە مادەی کیمیایی لە خاکەکەوە.",
+                      onPressedBritish: () => speakadulte658134("en-GB"),
+                      onPressedAmerican: () => speakadulte658134("en-US"),
+                    ),
                   ],
                 ),
               ),

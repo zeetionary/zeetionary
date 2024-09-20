@@ -94,7 +94,6 @@ Someone who believes and helps to spread the doctrine of another (= disciple)
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'xjEFo3a1AnI';
     const double startSecondsend = 2429;
     const String videoIdone = '1Zim09f0VsQ';
@@ -113,7 +112,6 @@ Someone who believes and helps to spread the doctrine of another (= disciple)
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -161,20 +159,20 @@ Someone who believes and helps to spread the doctrine of another (= disciple)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: لایەنگر، پشتیوان، دەستە، شوێن‌کەوتوو، خۆپێوەبەستوو، پێوەنووساو، بەئەمەگ، دڵسۆز، شوێن‌کەوتوو، دواکەوتە، مرید، پاشبڕۆ
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) کەسێک کە شوێنکەوتووی بیروباوەڕێکە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "We should not show animosity to adherents of other faiths.",
-                            kurdishText:
-                                "پێویستە ڕقوکینە پیشان نەدەین دژ بە شوێنکەوتووانی باوەڕەکانی دیکە.",
-                            onPressedBritish: () => speakadh24861("en-GB"),
-                            onPressedAmerican: () => speakadh24861("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) کەسێک کە شوێنکەوتووی بیروباوەڕێکە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "We should not show animosity to adherents of other faiths.",
+                      kurdishText:
+                          "پێویستە ڕقوکینە پیشان نەدەین دژ بە شوێنکەوتووانی باوەڕەکانی دیکە.",
+                      onPressedBritish: () => speakadh24861("en-GB"),
+                      onPressedAmerican: () => speakadh24861("en-US"),
+                    ),
                   ],
                 ),
               ),

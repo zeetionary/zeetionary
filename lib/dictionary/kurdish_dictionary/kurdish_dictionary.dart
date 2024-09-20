@@ -116,6 +116,8 @@ class _DictionaryScreenKurdishState
 
   void onKurdishFavourite(String word) async {
     final prefs = await SharedPreferences.getInstance();
+        final textSize = ref.watch(textSizeProvider);
+
 
     setState(() {
       final kurdishFavouritesList =
@@ -127,18 +129,42 @@ class _DictionaryScreenKurdishState
         kurdishFavouritesList.remove(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
+            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            showCloseIcon: true,
+            closeIconColor: Theme.of(context).primaryColor,
             content: Directionality(
-                textDirection: TextDirection.rtl,
-                child: Text('وشەی دڵخواز سڕایەوە: $wordWithoutTimestamp')),
+              textDirection: TextDirection.rtl,
+              child: Text(
+                'وشەی دڵخواز سڕایەوە: $wordWithoutTimestamp',
+                style: TextStyle(
+                  color: Theme.of(context).primaryColor,
+                                            fontSize: textSize + 1,
+
+                ),
+              ),
+            ),
+            behavior: SnackBarBehavior.floating,
           ),
         );
       } else {
         kurdishFavouritesList.add(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
+            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            showCloseIcon: true,
+            closeIconColor: Theme.of(context).primaryColor,
             content: Directionality(
-                textDirection: TextDirection.rtl,
-                child: Text('وشەی دڵخواز زیادکرا: $wordWithoutTimestamp')),
+              textDirection: TextDirection.rtl,
+              child: Text(
+                'وشەی دڵخواز زیادکرا: $wordWithoutTimestamp',
+                style: TextStyle(
+                                            fontSize: textSize + 1,
+
+                  color: Theme.of(context).primaryColor,
+                ),
+              ),
+            ),
+            behavior: SnackBarBehavior.floating,
           ),
         );
       }

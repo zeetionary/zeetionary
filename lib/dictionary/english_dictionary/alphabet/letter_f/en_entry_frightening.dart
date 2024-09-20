@@ -110,7 +110,6 @@ The act of inspiring with fear (= terrorization, terrorisation [Brit])
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

@@ -114,7 +114,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'KLGSLCaksdY';
     const double startSecondsend = 285;
     const String videoIdone = 'NGbFtTYQpus';
@@ -131,7 +130,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -179,25 +177,25 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) لکان بە شتێکەوە"""),
-                          SentencesRow(
-                            englishText:
-                                "Clean the surface first, or the paint will not adhere.",
-                            kurdishText:
-                                "سەرەتا ڕووەکەی پاکبکەوە ئەگەرنا بۆیەکە پێوەی نالکێنێت.",
-                            onPressedBritish: () => speakadhe55661("en-GB"),
-                            onPressedAmerican: () => speakadhe55661("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Once in the bloodstream, the bacteria adhere to the surface of the red cells.",
-                            kurdishText:
-                                "ھەرکە بچێتە ناو سووڕی خوێن، بەکتریا دەلکێت بە خڕۆکە سوورەکانەوە.",
-                            onPressedBritish: () => speakadhe2537("en-GB"),
-                            onPressedAmerican: () => speakadhe2537("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "Clean the surface first, or the paint will not adhere.",
+                      kurdishText:
+                          "سەرەتا ڕووەکەی پاکبکەوە ئەگەرنا بۆیەکە پێوەی نالکێنێت.",
+                      onPressedBritish: () => speakadhe55661("en-GB"),
+                      onPressedAmerican: () => speakadhe55661("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "Once in the bloodstream, the bacteria adhere to the surface of the red cells.",
+                      kurdishText:
+                          "ھەرکە بچێتە ناو سووڕی خوێن، بەکتریا دەلکێت بە خڕۆکە سوورەکانەوە.",
+                      onPressedBritish: () => speakadhe2537("en-GB"),
+                      onPressedAmerican: () => speakadhe2537("en-US"),
+                    ),
                   ],
                 ),
               ),

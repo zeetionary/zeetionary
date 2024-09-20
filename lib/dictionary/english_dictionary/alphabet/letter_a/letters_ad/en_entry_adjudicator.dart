@@ -9,7 +9,8 @@ class EnglishEntryadjudicator extends StatefulWidget {
   const EnglishEntryadjudicator({super.key});
 
   @override
-  State<EnglishEntryadjudicator> createState() => _EnglishEntryadjudicatorState();
+  State<EnglishEntryadjudicator> createState() =>
+      _EnglishEntryadjudicatorState();
 }
 
 class _EnglishEntryadjudicatorState extends State<EnglishEntryadjudicator> {
@@ -80,7 +81,7 @@ ${englishMeaningConst.text}
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""adjudicator""");
   }
-  
+
   Future<void> speakadjudic35477(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
@@ -91,7 +92,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'lhc_bXGvmp0';
     const double startSecondsend = 334;
     const String videoIdone = 'HQvM7IhrtYo';
@@ -108,7 +108,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -156,16 +155,16 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (ناو) کەسێک کە ناوبژی لەنێوان دوو کەس یان شت دەکات"""),
-                          SentencesRow(
-                            englishText:
-                                "You may refer your complaint to an independent adjudicator.",
-                            kurdishText:
-                                "ئەتوانیت ناڕەزاییەکەت بە ناوبژیکارێکی سەربەخۆ بڵێیت.",
-                            onPressedBritish: () => speakadjudic35477("en-GB"),
-                            onPressedAmerican: () => speakadjudic35477("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "You may refer your complaint to an independent adjudicator.",
+                      kurdishText:
+                          "ئەتوانیت ناڕەزاییەکەت بە ناوبژیکارێکی سەربەخۆ بڵێیت.",
+                      onPressedBritish: () => speakadjudic35477("en-GB"),
+                      onPressedAmerican: () => speakadjudic35477("en-US"),
+                    ),
                   ],
                 ),
               ),

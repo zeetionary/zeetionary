@@ -9,7 +9,8 @@ class EnglishEntryhorizontally extends StatefulWidget {
   const EnglishEntryhorizontally({super.key});
 
   @override
-  State<EnglishEntryhorizontally> createState() => _EnglishEntryhorizontallyState();
+  State<EnglishEntryhorizontally> createState() =>
+      _EnglishEntryhorizontallyState();
 }
 
 class _EnglishEntryhorizontallyState extends State<EnglishEntryhorizontally> {
@@ -85,7 +86,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Cut the cake in half horizontally and spread jam on one half.""");
+    await flutterTts.speak(
+        """Cut the cake in half horizontally and spread jam on one half.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -923,7 +925,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/Js2UoMSumx4?t=';
     const double startSecondsend = 000000000000000000000000000951;
@@ -941,7 +942,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -993,10 +993,13 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "horizontally", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بە ئاسۆیی"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە ئاسۆیی"""),
                     SentencesRow(
-                      englishText: """Cut the cake in half horizontally and spread jam on one half.""",
-                      kurdishText: """کێکەکە لە نیوەدا بە ئاسۆیی ببڕە و دۆشاو بکە بەسەر نیوەیدا.""",
+                      englishText:
+                          """Cut the cake in half horizontally and spread jam on one half.""",
+                      kurdishText:
+                          """کێکەکە لە نیوەدا بە ئاسۆیی ببڕە و دۆشاو بکە بەسەر نیوەیدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

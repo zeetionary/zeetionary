@@ -97,22 +97,20 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-    
-  const String videoIdend = 'oMF6pIglmmk';
-  const double startSecondsend = 696;
-  const String videoIdone = 'gEVUncUq9As';
-  const double startSecondsone = 80;
-  const String videoIdtwo = 'dI6GI-IQuhk';
-  const double startSecondstwo = 1208;
-  const String videoIdthree = 'Mf4wwXM2o_M';
-  const double startSecondsthree = 435;
-  const String videoIdfour = 'oI_X2cMHNe0';
-  const double startSecondsfour = 898;
+    const String videoIdend = 'oMF6pIglmmk';
+    const double startSecondsend = 696;
+    const String videoIdone = 'gEVUncUq9As';
+    const double startSecondsone = 80;
+    const String videoIdtwo = 'dI6GI-IQuhk';
+    const double startSecondstwo = 1208;
+    const String videoIdthree = 'Mf4wwXM2o_M';
+    const double startSecondsthree = 435;
+    const String videoIdfour = 'oI_X2cMHNe0';
+    const double startSecondsfour = 898;
 
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -160,21 +158,21 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: لە ڕاستی‌دا، بێ‌گومان، دەبێ دانی پیابنێی کە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵکار) زۆرجار لە سەرەتای ڕستە بەکاردێت بۆ داننان بەوەی شتێک ڕاستە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "Admittedly, I could have tried harder but I still don't think all this criticism is fair.",
-                            kurdishText:
-                                "دان بەوەدا دەنێم دەکرا ھەوڵی زیاترم دابا، بەڵام ھێشتا باوەڕم وانییە ئەم ھەموو لۆمەیە دادپەروەرییە.",
-                            onPressedBritish: () => speakadmit37894("en-GB"),
-                            onPressedAmerican: () => speakadmit37894("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵکار) زۆرجار لە سەرەتای ڕستە بەکاردێت بۆ داننان بەوەی شتێک ڕاستە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "Admittedly, I could have tried harder but I still don't think all this criticism is fair.",
+                      kurdishText:
+                          "دان بەوەدا دەنێم دەکرا ھەوڵی زیاترم دابا، بەڵام ھێشتا باوەڕم وانییە ئەم ھەموو لۆمەیە دادپەروەرییە.",
+                      onPressedBritish: () => speakadmit37894("en-GB"),
+                      onPressedAmerican: () => speakadmit37894("en-US"),
+                    ),
                   ],
                 ),
               ),

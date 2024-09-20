@@ -102,7 +102,6 @@ Look at with pleasure or appreciation
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'MnExgQ81fhU';
     const double startSecondsend = 899;
     const String videoIdone = 'MGO4_8YRKro';
@@ -119,7 +118,6 @@ Look at with pleasure or appreciation
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -167,25 +165,25 @@ Look at with pleasure or appreciation
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) ڕێزگرتنی کەسێک/شتێک بەھۆی کردنی شتێک"""),
-                          SentencesRow(
-                            englishText:
-                                "I don't agree with her, but I admire her for sticking to her principles.",
-                            kurdishText:
-                                "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە.",
-                            onPressedBritish: () => speakadmi2561("en-GB"),
-                            onPressedAmerican: () => speakadmi2561("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "The school is widely admired for its excellent teaching.",
-                            kurdishText:
-                                "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا.",
-                            onPressedBritish: () => speakadm96871("en-GB"),
-                            onPressedAmerican: () => speakadm96871("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "I don't agree with her, but I admire her for sticking to her principles.",
+                      kurdishText:
+                          "لەگەڵی ھاوڕانیم، بەڵام ڕێزی دەگرم بۆ پابەندبوون بەوەی باوەڕی پێی ھەیە.",
+                      onPressedBritish: () => speakadmi2561("en-GB"),
+                      onPressedAmerican: () => speakadmi2561("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "The school is widely admired for its excellent teaching.",
+                      kurdishText:
+                          "قوتابخانەکە بەشێوەیەکی بەرفراوان ڕێز لێگیراوە بۆ نایابی وانەوتنەوە تێیدا.",
+                      onPressedBritish: () => speakadm96871("en-GB"),
+                      onPressedAmerican: () => speakadm96871("en-US"),
+                    ),
                   ],
                 ),
               ),

@@ -33,7 +33,6 @@ class _EnglishEntryephemeralState extends State<EnglishEntryephemeral> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

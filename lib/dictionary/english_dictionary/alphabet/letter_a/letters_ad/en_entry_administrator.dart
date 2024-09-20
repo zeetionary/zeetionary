@@ -9,7 +9,8 @@ class EnglishEntryadministrator extends StatefulWidget {
   const EnglishEntryadministrator({super.key});
 
   @override
-  State<EnglishEntryadministrator> createState() => _EnglishEntryadministratorState();
+  State<EnglishEntryadministrator> createState() =>
+      _EnglishEntryadministratorState();
 }
 
 class _EnglishEntryadministratorState extends State<EnglishEntryadministrator> {
@@ -105,7 +106,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = '9QcrV4qTI2E';
     const double startSecondsend = 219;
     const String videoIdone = 'vSBYCgA-5wM';
@@ -124,7 +124,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -172,32 +171,32 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: بەڕێوەبەر، کارگێڕ، سەرۆک، ھەڵسووڕینەر، ڕێڤەبەر، ڕێکخەر، سەرپەرشت، سەرپەرست
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی دامەزراوەیەکی ھەیە، یان کەسێک کە کار لەگەڵ تۆمارەکان دەکات لە ئۆفیسێک"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "Such decisions are made by the hospital administrators.",
-                            kurdishText:
-                                "بڕیاری لەم شێوەیە لەلایەن بەڕێوەبەرانی نەخۆشخانەکەوە دەدرێن.",
-                            onPressedBritish: () => speakadmini5288("en-GB"),
-                            onPressedAmerican: () => speakadmini5288("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی دامەزراوەیەکی ھەیە، یان کەسێک کە کار لەگەڵ تۆمارەکان دەکات لە ئۆفیسێک"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "Such decisions are made by the hospital administrators.",
+                      kurdishText:
+                          "بڕیاری لەم شێوەیە لەلایەن بەڕێوەبەرانی نەخۆشخانەکەوە دەدرێن.",
+                      onPressedBritish: () => speakadmini5288("en-GB"),
+                      onPressedAmerican: () => speakadmini5288("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) کەسێک کە ئەرکی بەڕێوەبردنی سیستەمێکی کۆمپیوتەری بەدەستە"""),
-                          SentencesRow(
-                            englishText:
-                                "If you are unable to access the site, contact your system administrator.",
-                            kurdishText:
-                                "ئەگەر ناتوانی بچیتە ناو سایتەکەوە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە.",
-                            onPressedBritish: () => speakadmi25688("en-GB"),
-                            onPressedAmerican: () => speakadmi25688("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "If you are unable to access the site, contact your system administrator.",
+                      kurdishText:
+                          "ئەگەر ناتوانی بچیتە ناو سایتەکەوە پەیوەندی بە بەڕێوەبەری سیستەمەکەتەوە بکە.",
+                      onPressedBritish: () => speakadmi25688("en-GB"),
+                      onPressedAmerican: () => speakadmi25688("en-US"),
+                    ),
                   ],
                 ),
               ),

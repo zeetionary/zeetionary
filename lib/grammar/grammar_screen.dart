@@ -118,6 +118,7 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
 
   void onGrammarFavourite(String word) async {
     final prefs = await SharedPreferences.getInstance();
+    final textSize = ref.watch(textSizeProvider);
 
     setState(() {
       final grammarfavouritesList =
@@ -129,14 +130,34 @@ class _GrammarScreenState extends ConsumerState<GrammarScreen> {
         grammarfavouritesList.remove(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('Favourite removed: $wordWithoutTimestamp'),
+            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            showCloseIcon: true,
+            closeIconColor: Theme.of(context).primaryColor,
+            content: Text(
+              'Favourite removed: $wordWithoutTimestamp',
+              style: TextStyle(
+                color: Theme.of(context).primaryColor,
+                fontSize: textSize + 1,
+              ),
+            ),
+            behavior: SnackBarBehavior.floating,
           ),
         );
       } else {
         grammarfavouritesList.add(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            content: Text('Favourite added: $wordWithoutTimestamp'),
+            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            showCloseIcon: true,
+            closeIconColor: Theme.of(context).primaryColor,
+            content: Text(
+              'Favourite added: $wordWithoutTimestamp',
+              style: TextStyle(
+                color: Theme.of(context).primaryColor,
+                fontSize: textSize + 1,
+              ),
+            ),
+            behavior: SnackBarBehavior.floating,
           ),
         );
       }

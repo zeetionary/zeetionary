@@ -100,7 +100,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     const String videoIdend = '9do-yk2OCoM';
     const double startSecondsend = 1;
     const String videoIdone = 'cLNmQNv8-cs';
@@ -115,7 +114,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -163,30 +161,30 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پێوەنووساو، چەسپۆک، زووپێوەنووساو، مەتریاڵی پێوەنووساو، مادەی چەسپیو یان لیچق، لەزگە، چەسپ
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) مادەیەک کە دەلکێت بە شتەوە" ""),
-                          SentencesRow(
-                            englishText:
-                                "The adhesive takes at least an hour to set.",
-                            kurdishText:
-                                "لەزگەکە نزیکەی یەک کاتژمێری دەوێت تاوەکو شوێنی خۆی بگرێت.",
-                            onPressedBritish: () => speakadhesive471("en-GB"),
-                            onPressedAmerican: () => speakadhesive471("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ناو) مادەیەک کە دەلکێت بە شتەوە" ""),
+                    SentencesRow(
+                      englishText:
+                          "The adhesive takes at least an hour to set.",
+                      kurdishText:
+                          "لەزگەکە نزیکەی یەک کاتژمێری دەوێت تاوەکو شوێنی خۆی بگرێت.",
+                      onPressedBritish: () => speakadhesive471("en-GB"),
+                      onPressedAmerican: () => speakadhesive471("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ھەبوونی خاسیەتی لکان بە شتەوە"""),
-                          SentencesRow(
-                            englishText:
-                                "The labels are easy to apply and very adhesive.",
-                            kurdishText:
-                                "نووسراوەکان بە ئاسانی لێدەدرێن و باش دەنووسێن پێوە.",
-                            onPressedBritish: () => speakadhesive6355("en-GB"),
-                            onPressedAmerican: () => speakadhesive6355("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "The labels are easy to apply and very adhesive.",
+                      kurdishText:
+                          "نووسراوەکان بە ئاسانی لێدەدرێن و باش دەنووسێن پێوە.",
+                      onPressedBritish: () => speakadhesive6355("en-GB"),
+                      onPressedAmerican: () => speakadhesive6355("en-US"),
+                    ),
                   ],
                 ),
               ),

@@ -185,7 +185,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""With his feet tied together he could only move in little hops.""");
+    await flutterTts.speak(
+        """With his feet tied together he could only move in little hops.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
@@ -199,7 +200,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Almost 80% of the nation's hops are grown in this area.""");
+    await flutterTts
+        .speak("""Almost 80% of the nation's hops are grown in this area.""");
   }
 
   Future<void> speaksentence15(String languageCode) async {
@@ -963,7 +965,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1131,16 +1132,21 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (ناو) بازێکی کورت لەلایەن کەسێکەوە لەسەر یەک لاق یان لەلایەن ئاژەڵێکەوە لەسەر هەموو لاقەکانی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (ناو) بازێکی کورت لەلایەن کەسێکەوە لەسەر یەک لاق یان لەلایەن ئاژەڵێکەوە لەسەر هەموو لاقەکانی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """With his feet tied together he could only move in little hops.""",
-                      kurdishText: """بەوەی پێیەکانی پێکەوە گرێدرابوون تەنها دەیتوانی باز بدات.""",
+                      englishText:
+                          """With his feet tied together he could only move in little hops.""",
+                      kurdishText:
+                          """بەوەی پێیەکانی پێکەوە گرێدرابوون تەنها دەیتوانی باز بدات.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (ناو) گەشتێکی کورت، بە تایبەتی بە فڕۆکە"""),
+                    const DefinitionKurdish(
+                        text: """٧. (ناو) گەشتێکی کورت، بە تایبەتی بە فڕۆکە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """It's only a short hop to Paris.""",
@@ -1149,11 +1155,15 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٨. (ناو) ڕووەکێکی پیاهەڵگژ کە گوڵی شێوە قووچەقی سەوزی هەیە؛ گوڵی ئەم ڕووەکە کە وشککراوە و لە درووستکردنی بیرە بەکاردێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٨. (ناو) ڕووەکێکی پیاهەڵگژ کە گوڵی شێوە قووچەقی سەوزی هەیە؛ گوڵی ئەم ڕووەکە کە وشککراوە و لە درووستکردنی بیرە بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Almost 80% of the nation's hops are grown in this area.""",
-                      kurdishText: """بە نزیکەیی ٨٠٪ ـی جەنجەلەی وڵاتەکە لەم هەرێمە بەرهەم دێت.""",
+                      englishText:
+                          """Almost 80% of the nation's hops are grown in this area.""",
+                      kurdishText:
+                          """بە نزیکەیی ٨٠٪ ـی جەنجەلەی وڵاتەکە لەم هەرێمە بەرهەم دێت.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),

@@ -94,7 +94,6 @@ Usage: UK (=bobby pin)
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -145,7 +144,9 @@ Usage: UK (=bobby pin)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پارچە کانزایەکی بچووکی باریک کە قژی پێ دەبەسترێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) پارچە کانزایەکی بچووکی باریک کە قژی پێ دەبەسترێت"""),
                     const AlsoEnglishckb(
                         word: "ھەروەھا: grip، یان ئینگلیزیی ئەمریکی bobby pin"),
                     SentencesRow(

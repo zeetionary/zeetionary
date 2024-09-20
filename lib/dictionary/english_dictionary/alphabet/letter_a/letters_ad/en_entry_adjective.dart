@@ -99,7 +99,6 @@ Of or relating to or functioning as an adjective (= adjectival)
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'QxoDGlPUmyU';
     const double startSecondsend = 6;
     const String videoIdone = 'hifcUYaACzI';
@@ -124,7 +123,6 @@ Of or relating to or functioning as an adjective (= adjectival)
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -172,18 +170,18 @@ Of or relating to or functioning as an adjective (= adjectival)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ئاوەڵ‌ناو، ڕەنگدێر، سەربە یا وەک ئاوەڵ‌ناو کار دەکا
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک/شتێک، بۆ نموونە وشەی جوان لە 'ماڵێکی جوان' دا"),
-                          SentencesRow(
-                            englishText: "Adjectives qualify nouns.",
-                            kurdishText: "ھاوەڵناو پێناسەی ناو دەکات.",
-                            onPressedBritish: () => speakadje1411("en-GB"),
-                            onPressedAmerican: () => speakadje1411("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) وشەیەک زانیاریی زیادە دەدات لەسەر کەسێک/شتێک، بۆ نموونە وشەی جوان لە 'ماڵێکی جوان' دا"),
+                    SentencesRow(
+                      englishText: "Adjectives qualify nouns.",
+                      kurdishText: "ھاوەڵناو پێناسەی ناو دەکات.",
+                      onPressedBritish: () => speakadje1411("en-GB"),
+                      onPressedAmerican: () => speakadje1411("en-US"),
+                    ),
                   ],
                 ),
               ),

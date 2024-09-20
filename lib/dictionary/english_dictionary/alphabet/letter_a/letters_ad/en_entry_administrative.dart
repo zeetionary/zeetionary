@@ -9,10 +9,12 @@ class EnglishEntryadministrative extends StatefulWidget {
   const EnglishEntryadministrative({super.key});
 
   @override
-  State<EnglishEntryadministrative> createState() => _EnglishEntryadministrativeState();
+  State<EnglishEntryadministrative> createState() =>
+      _EnglishEntryadministrativeState();
 }
 
-class _EnglishEntryadministrativeState extends State<EnglishEntryadministrative> {
+class _EnglishEntryadministrativeState
+    extends State<EnglishEntryadministrative> {
   @override
   void initState() {
     super.initState();
@@ -92,7 +94,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'HsDdHukgaaY';
     const double startSecondsend = 10;
     const String videoIdone = 'k98KcTZF92A';
@@ -111,7 +112,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -159,21 +159,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: بەڕێوەبەرانە، بەڕێوەبەری‌یانە، کارگێری‌یانە، جێبەجێ‌کاری‌یانە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی شوێنێک"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "Your responsibilities will be mainly administrative.",
-                            kurdishText:
-                                "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت.",
-                            onPressedBritish: () => speakadmin25687("en-GB"),
-                            onPressedAmerican: () => speakadmin25687("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) پەیوەندیدار بە بەڕێوەبردنی شوێنێک"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "Your responsibilities will be mainly administrative.",
+                      kurdishText: "بەرپرسیاریەتییەکانتان زیاتر کارگێڕی دەبێت.",
+                      onPressedBritish: () => speakadmin25687("en-GB"),
+                      onPressedAmerican: () => speakadmin25687("en-US"),
+                    ),
                   ],
                 ),
               ),

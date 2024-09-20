@@ -164,6 +164,8 @@ class _KurdishFavouritesScreenState
     // If confirmed is true, clear favourites
     if (confirmed) {
       final prefs = await SharedPreferences.getInstance();
+      final textSize = ref.watch(textSizeProvider);
+
       prefs.remove('kurdish favourites');
 
       // Update favourites list before clearing
@@ -175,10 +177,21 @@ class _KurdishFavouritesScreenState
       // Show SnackBar only if the widget is still mounted
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
+          SnackBar(
+            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            showCloseIcon: true,
+            closeIconColor: Theme.of(context).primaryColor,
             content: Directionality(
-                textDirection: TextDirection.rtl,
-                child: Text('ھەموو وشە دڵخوازەکان سڕدرانەوە')),
+              textDirection: TextDirection.rtl,
+              child: Text(
+                'ھەموو وشە دڵخوازەکان سڕدرانەوە',
+                style: TextStyle(
+                  color: Theme.of(context).primaryColor,
+                  fontSize: textSize + 1,
+                ),
+              ),
+            ),
+            behavior: SnackBarBehavior.floating,
           ),
         );
       }

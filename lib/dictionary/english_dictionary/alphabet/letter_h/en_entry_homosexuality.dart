@@ -9,7 +9,8 @@ class EnglishEntryhomosexuality extends StatefulWidget {
   const EnglishEntryhomosexuality({super.key});
 
   @override
-  State<EnglishEntryhomosexuality> createState() => _EnglishEntryhomosexualityState();
+  State<EnglishEntryhomosexuality> createState() =>
+      _EnglishEntryhomosexualityState();
 }
 
 class _EnglishEntryhomosexualityState extends State<EnglishEntryhomosexuality> {
@@ -91,7 +92,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Homosexuality used to be illegal in many places, but laws are changing.""");
+    await flutterTts.speak(
+        """Homosexuality used to be illegal in many places, but laws are changing.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -922,7 +924,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/f5jwTft6654?t=';
     const double startSecondsend = 000000000000000000000000000164;
@@ -940,7 +941,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -950,7 +950,8 @@ ${englishMeaningConst.text}
                     child: EntryPageColumn(
                       word: """homosexuality""",
                       // alsoEnglishWord: "also: homosexuality",
-                      britshText: """IpaUK: /ˌhəʊməˌsekʃuˈæləti/,  /ˌhɒməˌsekʃuˈæləti/""",
+                      britshText:
+                          """IpaUK: /ˌhəʊməˌsekʃuˈæləti/,  /ˌhɒməˌsekʃuˈæləti/""",
                       americanText: """IpaUS: /ˌhəʊməˌsekʃuˈæləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
@@ -992,10 +993,14 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "homosexuality", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ئەوەی کەسێک حەزی هەبێت بۆ کەسانی هەمان ڕەگەزی خۆی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کەسێک حەزی هەبێت بۆ کەسانی هەمان ڕەگەزی خۆی"""),
                     SentencesRow(
-                      englishText: """I've never been ashamed of my homosexuality.""",
-                      kurdishText: """هەرگیز شەرمەزار نەبوومە بە هاوڕەگەزخوازیم.""",
+                      englishText:
+                          """I've never been ashamed of my homosexuality.""",
+                      kurdishText:
+                          """هەرگیز شەرمەزار نەبوومە بە هاوڕەگەزخوازیم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1003,8 +1008,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Homosexuality used to be illegal in many places, but laws are changing.""",
-                      kurdishText: """هاوڕەگەزخوازی جاران نایاسایی بوو لە زۆر شوێن، بەڵام یاساکان گۆڕدراون.""",
+                      englishText:
+                          """Homosexuality used to be illegal in many places, but laws are changing.""",
+                      kurdishText:
+                          """هاوڕەگەزخوازی جاران نایاسایی بوو لە زۆر شوێن، بەڵام یاساکان گۆڕدراون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

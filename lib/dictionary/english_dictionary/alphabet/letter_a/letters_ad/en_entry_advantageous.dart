@@ -9,7 +9,8 @@ class EnglishEntryadvantageous extends StatefulWidget {
   const EnglishEntryadvantageous({super.key});
 
   @override
-  State<EnglishEntryadvantageous> createState() => _EnglishEntryadvantageousState();
+  State<EnglishEntryadvantageous> createState() =>
+      _EnglishEntryadvantageousState();
 }
 
 class _EnglishEntryadvantageousState extends State<EnglishEntryadvantageous> {
@@ -94,7 +95,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'fHsa9DqmId8';
     const double startSecondsend = 493;
     const String videoIdone = 'OgFcz6klaeg';
@@ -113,7 +113,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -161,20 +160,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: باش، بەکەڵک، بەسوود، بەبەھرە، بەقازانج، پڕمەفا، بەخێر، بەخێروبێر، خێردەرەوە، قازانج‌پێگەیێن
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) بەسوود یان لە بەرژەوەندی" ""),
-                          SentencesRow(
-                            englishText:
-                                "This plan could be advantageous for people on low incomes.",
-                            kurdishText:
-                                "ئەم پلانە دەکرێت لە بەرژەوەندی ئەو کەسانە بێت کە داھاتیان نزمە.",
-                            onPressedBritish: () => speakadvant964725("en-GB"),
-                            onPressedAmerican: () => speakadvant964725("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) بەسوود یان لە بەرژەوەندی" ""),
+                    SentencesRow(
+                      englishText:
+                          "This plan could be advantageous for people on low incomes.",
+                      kurdishText:
+                          "ئەم پلانە دەکرێت لە بەرژەوەندی ئەو کەسانە بێت کە داھاتیان نزمە.",
+                      onPressedBritish: () => speakadvant964725("en-GB"),
+                      onPressedAmerican: () => speakadvant964725("en-US"),
+                    ),
                   ],
                 ),
               ),

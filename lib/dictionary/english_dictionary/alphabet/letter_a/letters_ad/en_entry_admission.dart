@@ -120,7 +120,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'H5GN9KBQcvQ';
     const double startSecondsend = 17;
     const String videoIdone = 'XPG6Ul68nnE';
@@ -135,7 +134,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -183,48 +181,46 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پەسند، قەبووڵ، وەرگرتن، وەرگیران، چوونەنێو(ەوە)، چوونەژوورێ، ماف یان دەستووری چوونەژوورەوە، ژوورانە، دەرکانە، پارەی چوونەژوورەوە، درگانە، دان‌پیانان، چوونەژێر، پێ‌ناسین، پێ‌لێنان، ڕاستی وتن، سەلماندن
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) وەرگرتنی کەسێک لە شوێنێک" ""),
-                          SentencesRow(
-                            englishText:
-                                "Hospital admission is not necessary in most cases.",
-                            kurdishText:
-                                "بردنە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە.",
-                            onPressedBritish: () => speakadmiss836541("en-GB"),
-                            onPressedAmerican: () => speakadmiss836541("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "Is there any charge for admission?",
-                            kurdishText:
-                                "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟",
-                            onPressedBritish: () => speakadmiss735891("en-GB"),
-                            onPressedAmerican: () => speakadmiss735891("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ناو) وەرگرتنی کەسێک لە شوێنێک" ""),
+                    SentencesRow(
+                      englishText:
+                          "Hospital admission is not necessary in most cases.",
+                      kurdishText:
+                          "بردنە نەخۆشخانە لە زۆر حاڵەتدا پێویست نییە.",
+                      onPressedBritish: () => speakadmiss836541("en-GB"),
+                      onPressedAmerican: () => speakadmiss836541("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "Is there any charge for admission?",
+                      kurdishText: "ھیچ پارەیەک بۆ چوونەژوورەوە وەردەگیرێت؟",
+                      onPressedBritish: () => speakadmiss735891("en-GB"),
+                      onPressedAmerican: () => speakadmiss735891("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) دانپێدانانی کەسێک"""),
-                          SentencesRow(
-                            englishText:
-                                "She has made no admission of any involvement in the plot.",
-                            kurdishText:
-                                "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە.",
-                            onPressedBritish: () => speakadm587914("en-GB"),
-                            onPressedAmerican: () => speakadm587914("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "She has made no admission of any involvement in the plot.",
+                      kurdishText:
+                          "ھیچ دانپێدانانێکی نەناوە بە تێوەگلان لە پلانەکەوە.",
+                      onPressedBritish: () => speakadm587914("en-GB"),
+                      onPressedAmerican: () => speakadm587914("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ناو) بڕە پارەیەک کە ئەدرێت بۆ چوونەژوورەوە بۆ شوێنێک"""),
-                          SentencesRow(
-                            englishText:
-                                "There is an admission fee of 10 dollars.",
-                            kurdishText: "کرێی چوونەژوورەوە ١٠ دۆلارە.",
-                            onPressedBritish: () => speakadmis912587("en-GB"),
-                            onPressedAmerican: () => speakadmis912587("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText: "There is an admission fee of 10 dollars.",
+                      kurdishText: "کرێی چوونەژوورەوە ١٠ دۆلارە.",
+                      onPressedBritish: () => speakadmis912587("en-GB"),
+                      onPressedAmerican: () => speakadmis912587("en-US"),
+                    ),
                   ],
                 ),
               ),

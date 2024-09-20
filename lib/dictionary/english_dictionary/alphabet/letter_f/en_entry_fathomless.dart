@@ -33,7 +33,6 @@ class _EnglishEntryfathomlessState extends State<EnglishEntryfathomless> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

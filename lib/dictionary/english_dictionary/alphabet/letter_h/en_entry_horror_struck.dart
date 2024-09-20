@@ -9,7 +9,8 @@ class EnglishEntryhorrorstruck extends StatefulWidget {
   const EnglishEntryhorrorstruck({super.key});
 
   @override
-  State<EnglishEntryhorrorstruck> createState() => _EnglishEntryhorrorstruckState();
+  State<EnglishEntryhorrorstruck> createState() =>
+      _EnglishEntryhorrorstruckState();
 }
 
 class _EnglishEntryhorrorstruckState extends State<EnglishEntryhorrorstruck> {
@@ -923,7 +924,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/Sq4ZAA1Si5g?t=';
     const double startSecondsend = 000000000000000000000000000777;
@@ -941,7 +941,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -993,7 +992,8 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "horror-struck", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) لەناکاو هەستکردن بە ترسی زۆر"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) لەناکاو هەستکردن بە ترسی زۆر"""),
                     SentencesRow(
                       englishText: """He stared, horror-struck at the sight.""",
                       kurdishText: """سەیری دەکرد و تۆقاو بوو بە دیمەنەکە.""",

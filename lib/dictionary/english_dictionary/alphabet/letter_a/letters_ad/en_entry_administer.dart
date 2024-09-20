@@ -119,7 +119,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'PWCAHZzGmsE';
     const double startSecondsend = 29;
     const String videoIdone = 'IRZW0D-RVA8';
@@ -138,7 +137,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -186,38 +184,38 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) بەڕێوەبردنی کۆمپانیایەک، دامەزراوەیەک، یان وڵاتێک"""),
-                          SentencesRow(
-                            englishText:
-                                "The country has to face up to the high cost of administering medical services.",
-                            kurdishText:
-                                "وڵاتەکە دەبێت مامەڵە لەگەڵ بەرزی نرخی بەڕێوەبردنی خزمەتگوزارییە تەندرووستییەکان بکات.",
-                            onPressedBritish: () => speakadmini75988("en-GB"),
-                            onPressedAmerican: () => speakadmini75988("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The country has to face up to the high cost of administering medical services.",
+                      kurdishText:
+                          "وڵاتەکە دەبێت مامەڵە لەگەڵ بەرزی نرخی بەڕێوەبردنی خزمەتگوزارییە تەندرووستییەکان بکات.",
+                      onPressedBritish: () => speakadmini75988("en-GB"),
+                      onPressedAmerican: () => speakadmini75988("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (کردار) دڵنیاییکردنی ئەوەی شتێک بەشێوەیەکی دادپەروەرانە دەکرێت"""),
-                          SentencesRow(
-                            englishText:
-                                "It is the function of the courts to administer the laws which Parliament has enacted.",
-                            kurdishText:
-                                "ئەرکی دادگاکانە ئەو یاسایانە جێبەجێبکەن کە پەرلەمان تێیپەڕاندوون.",
-                            onPressedBritish: () => speakadmin2568("en-GB"),
-                            onPressedAmerican: () => speakadmin2568("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "It is the function of the courts to administer the laws which Parliament has enacted.",
+                      kurdishText:
+                          "ئەرکی دادگاکانە ئەو یاسایانە جێبەجێبکەن کە پەرلەمان تێیپەڕاندوون.",
+                      onPressedBritish: () => speakadmin2568("en-GB"),
+                      onPressedAmerican: () => speakadmin2568("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (کردار) پێدانی شتێک بە کەسێک"""),
-                          SentencesRow(
-                            englishText:
-                                "A taxi driver administered first aid to the victims.",
-                            kurdishText:
-                                "شۆفێری تەکسییەک فریاگوزاری سەرەتایی بۆ قوربانیان ئەنجامدا.",
-                            onPressedBritish: () => speakadm2564("en-GB"),
-                            onPressedAmerican: () => speakadm2564("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "A taxi driver administered first aid to the victims.",
+                      kurdishText:
+                          "شۆفێری تەکسییەک فریاگوزاری سەرەتایی بۆ قوربانیان ئەنجامدا.",
+                      onPressedBritish: () => speakadm2564("en-GB"),
+                      onPressedAmerican: () => speakadm2564("en-US"),
+                    ),
                   ],
                 ),
               ),

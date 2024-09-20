@@ -95,28 +95,32 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Court documents say that she and her children are chronically homeless.""");
+    await flutterTts.speak(
+        """Court documents say that she and her children are chronically homeless.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She spoke with feeling about the plight of homeless people.""");
+    await flutterTts.speak(
+        """She spoke with feeling about the plight of homeless people.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He heartlessly ignored the homeless man's plea for help.""");
+    await flutterTts
+        .speak("""He heartlessly ignored the homeless man's plea for help.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The homeless sometimes have to sleep in the streets.""");
+    await flutterTts
+        .speak("""The homeless sometimes have to sleep in the streets.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -933,7 +937,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/Bnju9eUUuxo?t=';
     const double startSecondsend = 00000000000000000000000000089;
@@ -951,7 +954,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1004,38 +1006,45 @@ ${englishMeaningConst.text}
 """),
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText: """Court documents say that she and her children are chronically homeless.""",
+                      englishText:
+                          """Court documents say that she and her children are chronically homeless.""",
                       kurdishText:
-                                "بەڵگەنامەکانی دادگا ئەوە پیشان کە ژنەکە و منداڵەکانی بۆ ماوەیەکی درێژ بێ‌لانە بوون.",
-                            onPressedBritish: () => speaksentence1("en-GB"),
+                          "بەڵگەنامەکانی دادگا ئەوە پیشان کە ژنەکە و منداڵەکانی بۆ ماوەیەکی درێژ بێ‌لانە بوون.",
+                      onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She spoke with feeling about the plight of homeless people.""",
+                      englishText:
+                          """She spoke with feeling about the plight of homeless people.""",
                       kurdishText:
-                """بە سۆزەوە قسەی دەکرد سەبارەت بە دۆخی چەرمەسەریی کەسانی بێ‌لانە.""",
-            onPressedBritish: () => speaksentence2("en-GB"),
+                          """بە سۆزەوە قسەی دەکرد سەبارەت بە دۆخی چەرمەسەریی کەسانی بێ‌لانە.""",
+                      onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He heartlessly ignored the homeless man's plea for help.""",
+                      englishText:
+                          """He heartlessly ignored the homeless man's plea for help.""",
                       kurdishText:
                           """بێ‌بەزەیی‌یانە پاڕانەوەی پیاوە بێ‌لانەکەی پشتگوێ خست بۆ یارمەتی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) ئەو کەسانەی کە ماڵیان نییە بۆ ژیان"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) ئەو کەسانەی کە ماڵیان نییە بۆ ژیان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The homeless sometimes have to sleep in the streets.""",
-                      kurdishText: """دەربەدەران هەندێکجار دەبێت لەسەر شەقامەکان بنوون.""",
+                      englishText:
+                          """The homeless sometimes have to sleep in the streets.""",
+                      kurdishText:
+                          """دەربەدەران هەندێکجار دەبێت لەسەر شەقامەکان بنوون.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

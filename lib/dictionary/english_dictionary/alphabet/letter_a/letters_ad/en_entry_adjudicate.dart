@@ -94,7 +94,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = '4IaOeVgZ-wc';
     const double startSecondsend = 3501;
     const String videoIdone = 'QmFqTnhmSZ4';
@@ -113,7 +112,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -161,16 +159,16 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) بڕیاردان لە نێوان دوو لایەن کە کامیان ڕاستە"""),
-                          SentencesRow(
-                            englishText:
-                                "Their purpose is to adjudicate disputes between employers and employees.",
-                            kurdishText:
-                                "ئامانجیان ئەوەیە کێشەی نیوان خاوەنکاران و کرێکاران چارەسەر بکەن.",
-                            onPressedBritish: () => speakadjud3254("en-GB"),
-                            onPressedAmerican: () => speakadjud3254("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "Their purpose is to adjudicate disputes between employers and employees.",
+                      kurdishText:
+                          "ئامانجیان ئەوەیە کێشەی نیوان خاوەنکاران و کرێکاران چارەسەر بکەن.",
+                      onPressedBritish: () => speakadjud3254("en-GB"),
+                      onPressedAmerican: () => speakadjud3254("en-US"),
+                    ),
                   ],
                 ),
               ),

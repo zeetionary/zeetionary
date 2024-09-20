@@ -108,7 +108,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -178,7 +177,8 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """Jean-Paul Sartre was the guru of post-war French philosophy.""",
-                      kurdishText: """ژان پۆڵ ساتێرە پسپۆڕی فەلسەفەی فەرەنسای پاش جەنگ بوو.""",
+                      kurdishText:
+                          """ژان پۆڵ ساتێرە پسپۆڕی فەلسەفەی فەرەنسای پاش جەنگ بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

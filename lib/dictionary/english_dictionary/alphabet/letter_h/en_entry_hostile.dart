@@ -108,14 +108,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He faces an uphill battle against a hostile press.""");
+    await flutterTts
+        .speak("""He faces an uphill battle against a hostile press.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Her attitude could fairly be described as hostile.""");
+    await flutterTts
+        .speak("""Her attitude could fairly be described as hostile.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -129,7 +131,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The proposals have provoked a hostile response from opposition parties.""");
+    await flutterTts.speak(
+        """The proposals have provoked a hostile response from opposition parties.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -143,14 +146,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The desert’s hostile conditions make plant growth tough.""");
+    await flutterTts
+        .speak("""The desert’s hostile conditions make plant growth tough.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Traveling through hostile territory requires caution.""");
+    await flutterTts
+        .speak("""Traveling through hostile territory requires caution.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -939,7 +944,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/-L7o6HtX8Vg?t=';
     const double startSecondsend = 000000000000000000000000000901;
@@ -957,7 +961,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1009,7 +1012,9 @@ ${englishMeaningConst.text}
 کوردی: ڕقەبەرانە، ڕقاوی، دوژمنانە، دوژمنکارانە، نەیارانە، پێکەوەدوژمن،	بەرهەڵست، دژبەر، دژ
 """),
 // With short examples define "hostile", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) دژبەر و دوژمنانە بەرامبەر بە یەکدی و هەبوونی ئامادەیی بۆ مشتومڕ یان شەڕ"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) دژبەر و دوژمنانە بەرامبەر بە یەکدی و هەبوونی ئامادەیی بۆ مشتومڕ یان شەڕ"""),
                     SentencesRow(
                       englishText: """He was extremely hostile towards her.""",
                       kurdishText: """تەواو دژبەر بوو بەرامبەری.""",
@@ -1020,37 +1025,43 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He faces an uphill battle against a hostile press.""",
+                      englishText:
+                          """He faces an uphill battle against a hostile press.""",
                       kurdishText:
-                                "ڕووبەڕووی ململانێیەکی دژوار دەبێتەوە دژ بە میدیایەکی دژبەر.",
-                            onPressedBritish: () => speaksentence2("en-GB"),
+                          "ڕووبەڕووی ململانێیەکی دژوار دەبێتەوە دژ بە میدیایەکی دژبەر.",
+                      onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Her attitude could fairly be described as hostile.""",
+                      englishText:
+                          """Her attitude could fairly be described as hostile.""",
                       kurdishText:
-                """ھەڵسوکەوتی دەکرێت دادپەروەرانە بە دژبەر باس بکرێت.""",
-            onPressedBritish: () => speaksentence3("en-GB"),
+                          """ھەڵسوکەوتی دەکرێت دادپەروەرانە بە دژبەر باس بکرێت.""",
+                      onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She was openly hostile towards her parents.""",
+                      englishText:
+                          """She was openly hostile towards her parents.""",
                       kurdishText: """بە ئاشکرایی دژبەر بەرامبەر دایبابی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) بەتوندی ڕەتکردنەوەی شتێک"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) بەتوندی ڕەتکردنەوەی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The proposals have provoked a hostile response from opposition parties.""",
-                      kurdishText: """پێشنیارەکان کاردانەوەی توندیان درووستکردووە لای پارتە ئۆپۆزسیۆنەکان.""",
+                      englishText:
+                          """The proposals have provoked a hostile response from opposition parties.""",
+                      kurdishText:
+                          """پێشنیارەکان کاردانەوەی توندیان درووستکردووە لای پارتە ئۆپۆزسیۆنەکان.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1058,26 +1069,35 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Many people were openly hostile to the idea.""",
-                      kurdishText: """زۆر کەس بە ڕاشکاوی دژ بە بیرۆکەکە بوون.""",
+                      englishText:
+                          """Many people were openly hostile to the idea.""",
+                      kurdishText:
+                          """زۆر کەس بە ڕاشکاوی دژ بە بیرۆکەکە بوون.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) ئەوەی وابکات سەختتر بێت بۆ کەسێک شتێک بەدەست بهێنێت یان شتێک ڕووبدات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) ئەوەی وابکات سەختتر بێت بۆ کەسێک شتێک بەدەست بهێنێت یان شتێک ڕووبدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The desert’s hostile conditions make plant growth tough.""",
-                      kurdishText: """دۆخی بەرهەڵستی بیابانەکە وا دەکات گەشەی ڕووەک سەخت بێت.""",
+                      englishText:
+                          """The desert’s hostile conditions make plant growth tough.""",
+                      kurdishText:
+                          """دۆخی بەرهەڵستی بیابانەکە وا دەکات گەشەی ڕووەک سەخت بێت.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (ھاوەڵناو) کە سەر بە سوپای دوژمنە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ھاوەڵناو) کە سەر بە سوپای دوژمنە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Traveling through hostile territory requires caution.""",
-                      kurdishText: """گەڕان بە ناوچەی دوژمن پێویستی بە وریاییە.""",
+                      englishText:
+                          """Traveling through hostile territory requires caution.""",
+                      kurdishText:
+                          """گەڕان بە ناوچەی دوژمن پێویستی بە وریاییە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),

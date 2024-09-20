@@ -95,7 +95,6 @@ ${englishMeaningConst.text}
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""addition""");
   }
-  
 
   Future<void> speakaddi14(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
@@ -122,7 +121,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'N4LF0jXUrdk';
     const double startSecondsend = 50;
     const String videoIdone = 'rEdl2Uetpvo';
@@ -147,7 +145,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -195,42 +192,39 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: خستنەسەر، سەرخستن، پێ‌زیادکردن، کۆ، کۆکردنەوە، پێوەنان، خستنەپاڵ، دانەدەم، زیادی، پترلەپێویست، زیادە، سەربار، خراوەسەر، سەرخستە، سەرخراو، پاشکۆ
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) شتێک کە زیاد دەکرێت بۆ شتێکی تر"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "All of these technologies are fairly recent additions.",
-                            kurdishText:
-                                "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون.",
-                            onPressedBritish: () => speakaddi14("en-GB"),
-                            onPressedAmerican: () => speakaddi14("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ناو) شتێک کە زیاد دەکرێت بۆ شتێکی تر"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "All of these technologies are fairly recent additions.",
+                      kurdishText: "ھەموو ئەم تەکنۆلۆژییانە تازە زیادکراون.",
+                      onPressedBritish: () => speakaddi14("en-GB"),
+                      onPressedAmerican: () => speakaddi14("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) کردەی زیادکردنی شتێک بۆ شتێکی تر"""),
-                          SentencesRow(
-                            englishText:
-                                "Add salt, tasting with every addition.",
-                            kurdishText:
-                                "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە.",
-                            onPressedBritish: () => speakadditi769("en-GB"),
-                            onPressedAmerican: () => speakadditi769("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText: "Add salt, tasting with every addition.",
+                      kurdishText: "خوێی تێبکە و لەگەڵ ھەر تێکردنێک تامی بکە.",
+                      onPressedBritish: () => speakadditi769("en-GB"),
+                      onPressedAmerican: () => speakadditi769("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ناو) بەشیکی تازە کە زیاددەکرێت بۆ بینایەک"""),
-                          SentencesRow(
-                            englishText:
-                                "The addition should match the architecture of the house.",
-                            kurdishText:
-                                "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە.",
-                            onPressedBritish: () => speakaddit445("en-GB"),
-                            onPressedAmerican: () => speakaddit445("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "The addition should match the architecture of the house.",
+                      kurdishText:
+                          "بەشە زیادکراوەکە دەبێت بگونجێت لەگەڵ نەخشەی خانووەکە.",
+                      onPressedBritish: () => speakaddit445("en-GB"),
+                      onPressedAmerican: () => speakaddit445("en-US"),
+                    ),
                   ],
                 ),
               ),

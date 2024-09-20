@@ -118,7 +118,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -169,7 +168,9 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چەک‌بەدەست، تفەنگ‌بەدەست، چەک‌دار
 """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کەسێک کە چەکی پێیە بۆ دزیکردن یان کوشتن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کەسێک کە چەکی پێیە بۆ دزیکردن یان کوشتن"""),
                     SentencesRow(
                       englishText:
                           """Fortunately the gunman's shots went astray.""",

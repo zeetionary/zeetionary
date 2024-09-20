@@ -100,7 +100,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'v8JiaY4ZCyA';
     const double startSecondsend = 181;
     const String videoIdone = 'zssa-tdKfBk';
@@ -111,7 +110,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -159,32 +157,30 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پیاھەڵدەرانە، پەسن‌دەرانە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) پیشاندانی ڕێز بۆ شتێک یان کەسێک یان ئەوەی بەدەستیان ھێناوە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "James was admiring of her courage and determination.",
-                            kurdishText:
-                                "جەیمس ڕێزی ھەبوو بۆ بوێری و پێداگرییەکەی.",
-                            onPressedBritish: () => speakadmiri25471("en-GB"),
-                            onPressedAmerican: () => speakadmiri25471("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) پیشاندانی ڕێز بۆ شتێک یان کەسێک یان ئەوەی بەدەستیان ھێناوە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "James was admiring of her courage and determination.",
+                      kurdishText: "جەیمس ڕێزی ھەبوو بۆ بوێری و پێداگرییەکەی.",
+                      onPressedBritish: () => speakadmiri25471("en-GB"),
+                      onPressedAmerican: () => speakadmiri25471("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پیشاندانی سەرسامی"""),
-                          SentencesRow(
-                            englishText:
-                                "She was used to receiving admiring glances from men.",
-                            kurdishText:
-                                "ڕاھاتبوو بە نیگای سەرسامی پیاوان بۆی.",
-                            onPressedBritish: () => speakadmi95237("en-GB"),
-                            onPressedAmerican: () => speakadmi95237("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "She was used to receiving admiring glances from men.",
+                      kurdishText: "ڕاھاتبوو بە نیگای سەرسامی پیاوان بۆی.",
+                      onPressedBritish: () => speakadmi95237("en-GB"),
+                      onPressedAmerican: () => speakadmi95237("en-US"),
+                    ),
                   ],
                 ),
               ),

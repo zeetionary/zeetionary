@@ -33,7 +33,6 @@ class _EnglishEntryenergeticState extends State<EnglishEntryenergetic> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

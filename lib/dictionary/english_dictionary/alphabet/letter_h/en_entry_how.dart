@@ -116,7 +116,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Do you remember how the kids always loved going there?""");
+    await flutterTts
+        .speak("""Do you remember how the kids always loved going there?""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,7 +927,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/xkYved-ucGg?t=';
     const double startSecondsend = 000000000000000000000000000252;
@@ -944,7 +944,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1007,7 +1006,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He did not know how he ought to behave.""",
+                      englishText:
+                          """He did not know how he ought to behave.""",
                       kurdishText: """نەیدەزانی چۆن ڕەفتار بکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
@@ -1016,7 +1016,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'll show you how to load the software.""",
+                      englishText:
+                          """I'll show you how to load the software.""",
                       kurdishText: """فێرت دەکەم چۆن نەرمامێرەکە دابەزێنیت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
@@ -1034,13 +1035,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Do you remember how (= that) the kids always loved going there?""",
-                      kurdishText: """بیرتە منداڵەکان چۆن هەمیشە حەزیان لێ بوو بچنە ئەوێ؟""",
+                      englishText:
+                          """Do you remember how (= that) the kids always loved going there?""",
+                      kurdishText:
+                          """بیرتە منداڵەکان چۆن هەمیشە حەزیان لێ بوو بچنە ئەوێ؟""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵکار) بۆ پرسین لە تەندرووستی کەسێک و ئەوەی دۆخی چۆنە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بۆ پرسین لە تەندرووستی کەسێک و ئەوەی دۆخی چۆنە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """How are you?""",
@@ -1074,7 +1079,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵکار) بۆ پرسین لەوەی شتێک سەرکەوتووە یان خۆشە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵکار) بۆ پرسین لەوەی شتێک سەرکەوتووە یان خۆشە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """How was your trip?""",
@@ -1092,7 +1099,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (ھاوەڵکار) پێش هاوەڵناو یان هاوەڵکارێک بەکاردێت بۆ پرسین لە ڕێژە، ئاست، هتد ــی شتێک یان تەمەنی کەسێک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ھاوەڵکار) پێش هاوەڵناو یان هاوەڵکارێک بەکاردێت بۆ پرسین لە ڕێژە، ئاست، هتد ــی شتێک یان تەمەنی کەسێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """How often do you go swimming?""",
@@ -1113,7 +1122,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """How much are those earrings (= What do they cost)?""",
+                      englishText:
+                          """How much are those earrings (= What do they cost)?""",
                       kurdishText: """ئەو گوارانە چەندن؟""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
@@ -1137,7 +1147,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (ھاوەڵکار) بۆ دەربڕینی سەرسوڕمان، خۆشی، هتد"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (ھاوەڵکار) بۆ دەربڕینی سەرسوڕمان، خۆشی، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """How kind of you to help!""",
@@ -1155,11 +1167,13 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (ھاوەڵکار) بە هەر شێوەیەک"""),
+                    const DefinitionKurdish(
+                        text: """٦. (ھاوەڵکار) بە هەر شێوەیەک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: however"),
                     SentencesRow(
                       englishText: """I'll dress how I like in my own house!""",
-                      kurdishText: """بەو شێوەیە جل لەبەر دەکەم کە دەمەوێت لە ماڵی خۆمدا!""",
+                      kurdishText:
+                          """بەو شێوەیە جل لەبەر دەکەم کە دەمەوێت لە ماڵی خۆمدا!""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),

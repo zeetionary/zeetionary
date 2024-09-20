@@ -95,22 +95,20 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
-  const String videoIdend = 'qaHmpwbsYis';
-  const double startSecondsend = 144;
-  const String videoIdone = '2N6cmL7Nt38';
-  const double startSecondsone = 33;
-  const String videoIdtwo = 'swuoSZXQTac';
-  const double startSecondstwo = 212;
-  const String videoIdthree = '4Y4Vv_EVgIE';
-  const double startSecondsthree = 134;
-  const String videoIdfour = 'SWwnrGrHGQE';
-  const double startSecondsfour = 487;
+    const String videoIdend = 'qaHmpwbsYis';
+    const double startSecondsend = 144;
+    const String videoIdone = '2N6cmL7Nt38';
+    const double startSecondsone = 33;
+    const String videoIdtwo = 'swuoSZXQTac';
+    const double startSecondstwo = 212;
+    const String videoIdthree = '4Y4Vv_EVgIE';
+    const double startSecondsthree = 134;
+    const String videoIdfour = 'SWwnrGrHGQE';
+    const double startSecondsfour = 487;
 
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -158,15 +156,15 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) لۆمەکردنی کەسێک بەتوندی"""),
-                          SentencesRow(
-                            englishText:
-                                "She was admonished for chewing gum in class.",
-                            kurdishText: "لۆمەکرا بۆ جوینی بنێشت لە پۆلدا.",
-                            onPressedBritish: () => speakadmon2568("en-GB"),
-                            onPressedAmerican: () => speakadmon2568("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "She was admonished for chewing gum in class.",
+                      kurdishText: "لۆمەکرا بۆ جوینی بنێشت لە پۆلدا.",
+                      onPressedBritish: () => speakadmon2568("en-GB"),
+                      onPressedAmerican: () => speakadmon2568("en-US"),
+                    ),
                   ],
                 ),
               ),

@@ -5,7 +5,16 @@ void showSnackBar(BuildContext context, String text) {
     ..hideCurrentSnackBar()
     ..showSnackBar(
       SnackBar(
-        content: Text(text),
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        showCloseIcon: true,
+        closeIconColor: Theme.of(context).primaryColor,
+        content: Text(
+          text,
+          style: TextStyle(
+            color: Theme.of(context).primaryColor,
+          ),
+        ),
+        behavior: SnackBarBehavior.floating,
       ),
     );
 }

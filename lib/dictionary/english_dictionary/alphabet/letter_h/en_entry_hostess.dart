@@ -95,14 +95,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The hostess guided us to our table at the club.""");
+    await flutterTts
+        .speak("""The hostess guided us to our table at the club.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The hostess asked the guest interesting questions.""");
+    await flutterTts
+        .speak("""The hostess asked the guest interesting questions.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,7 +928,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/CtWqv0Z3ErM?t=';
     const double startSecondsend = 0000000000000000000000000001054;
@@ -944,7 +945,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -995,7 +995,8 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ناو) ژنێک کە میوانداری خەڵکی دەکات"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ژنێک کە میوانداری خەڵکی دەکات"""),
                     SentencesRow(
                       englishText: """Mary was always the perfect hostess.""",
                       kurdishText: """ماری هەمیشە میواندارێکی بێ‌خەوش بوو.""",
@@ -1003,20 +1004,28 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) ژنێک کە لە یانەیەکی شەوانە پێشوازی لە خەڵک دەکات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ژنێک کە لە یانەیەکی شەوانە پێشوازی لە خەڵک دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The hostess guided us to our table at the club.""",
-                      kurdishText: """ژنە میواندارەکە ڕێنوێنی کردین بۆ مێزەکەمان لە یانەکە.""",
+                      englishText:
+                          """The hostess guided us to our table at the club.""",
+                      kurdishText:
+                          """ژنە میواندارەکە ڕێنوێنی کردین بۆ مێزەکەمان لە یانەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ناو) ژنە پێشکەشکاری پڕۆگرامێکی تەلەفیزیۆنی، ڕادیۆیی، هتد"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) ژنە پێشکەشکاری پڕۆگرامێکی تەلەفیزیۆنی، ڕادیۆیی، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The hostess asked the guest interesting questions.""",
-                      kurdishText: """پێشکەشکارەکە پرسیاری سەرنجڕاکێشی لە میوانەکە کرد.""",
+                      englishText:
+                          """The hostess asked the guest interesting questions.""",
+                      kurdishText:
+                          """پێشکەشکارەکە پرسیاری سەرنجڕاکێشی لە میوانەکە کرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

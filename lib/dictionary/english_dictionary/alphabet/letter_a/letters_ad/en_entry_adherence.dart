@@ -94,7 +94,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'Sbp_EeBk-As';
     const double startSecondsend = 683;
     const String videoIdone = 'b1JlYZQG3lI';
@@ -109,7 +108,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -157,19 +155,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: لایەنگری، پشتیوانی، وەفاداری، دڵسۆزی، دەربەستێتی، پێبەندی، پێگرتن، پەیگرتن، خۆبەستەیی، شوێن‌کەوتن، خۆپێوەبەستن، دواکەوتەیی، پیانووسان، پیالکان، پێکانووسان، پیاچەسپان، پێوەچەسپان، گرتن
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) پابەندبوون بە شتێک کە باوەڕت پێی ھەیە"
-                                  ""),
-                          SentencesRow(
-                            englishText: "strict adherence to the rules",
-                            kurdishText: "پابەندبوونی توند بە یاساکانەوە.",
-                            onPressedBritish: () => speakadh2558("en-GB"),
-                            onPressedAmerican: () => speakadh2558("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) پابەندبوون بە شتێک کە باوەڕت پێی ھەیە"
+                            ""),
+                    SentencesRow(
+                      englishText: "strict adherence to the rules",
+                      kurdishText: "پابەندبوونی توند بە یاساکانەوە.",
+                      onPressedBritish: () => speakadh2558("en-GB"),
+                      onPressedAmerican: () => speakadh2558("en-US"),
+                    ),
                   ],
                 ),
               ),

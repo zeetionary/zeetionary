@@ -107,7 +107,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'UOrIVc5lG-k';
     const double startSecondsend = 9;
     const String videoIdone = 'yKG58QEgrsY';
@@ -126,7 +125,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -174,31 +172,30 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ڕێکخستن، میزان‌کردن، ڕێکاندن، گونجان، ساز، سازان، داھاتن، ڕاست‌کردنەوە، گۆڕان، ئامێری ڕاست‌کردنەوە یان میزان‌کردن، میزانە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ناو) گۆڕانکاریی بچووک بۆ چاکترکردنی شتێک"""),
-                          SentencesRow(
-                            englishText:
-                                "I've made a few adjustments to the design.",
-                            kurdishText:
-                                "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە.",
-                            onPressedBritish: () => speakadjus56911("en-GB"),
-                            onPressedAmerican: () => speakadjus56911("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) گۆڕانکاریی بچووک بۆ چاکترکردنی شتێک"""),
+                    SentencesRow(
+                      englishText: "I've made a few adjustments to the design.",
+                      kurdishText:
+                          "ھەندێک گۆڕانکاریی بچووکم کردووە بۆ باشترکردنی دیزاینەکە.",
+                      onPressedBritish: () => speakadjus56911("en-GB"),
+                      onPressedAmerican: () => speakadjus56911("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) گۆڕانکاری لە ڕەفتار یان بیرکردنەوەی کەسێک"""),
-                          SentencesRow(
-                            englishText:
-                                "The process of adjustment to life in another country can be very difficult.",
-                            kurdishText:
-                                "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت.",
-                            onPressedBritish: () => speakadjust5568("en-GB"),
-                            onPressedAmerican: () => speakadjust5568("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "The process of adjustment to life in another country can be very difficult.",
+                      kurdishText:
+                          "پڕۆسەی ڕاھاتن بە ژیانکردن لە وڵاتێکی تر ئەکرێت زۆر قوورس بێت.",
+                      onPressedBritish: () => speakadjust5568("en-GB"),
+                      onPressedAmerican: () => speakadjust5568("en-US"),
+                    ),
                   ],
                 ),
               ),

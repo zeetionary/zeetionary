@@ -926,7 +926,6 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = '';
     const double startSecondsend = 000000000000000000000000000;
@@ -945,7 +944,6 @@ haʊʊʊʊʊʊʊ4
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

@@ -101,7 +101,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = '8bQf9URnIAY';
     const double startSecondsend = 389;
     const String videoIdone = '7nJgHBbEgsE';
@@ -120,7 +119,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -168,23 +166,23 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پاشکۆ، سەرخستە، یاریدەدەر، کۆمەک، یارمەتی‌دەر، ئاوەڵکار یان فریزێ کە واتای کارەکە لە ڕستەدا یان لە بەشێکی ڕستەدا زیاد دەکا، ڕێزمان، شتی لاوەکی، بەشی زیادی یان سەرخراو
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) ھاوەڵکارێک یان دەستەواژەیەک کە واتا زیاددەکات بۆ کرداری ڕستەیەک"
-                                  ""),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) ھاوەڵکارێک یان دەستەواژەیەک کە واتا زیاددەکات بۆ کرداری ڕستەیەک"
+                            ""),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) شتێک کە زیاددەکرێت بۆ شتێکی تر"""),
-                          SentencesRow(
-                            englishText:
-                                "The course would be a useful adjunct to my studies.",
-                            kurdishText:
-                                "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم.",
-                            onPressedBritish: () => speakadj58692("en-GB"),
-                            onPressedAmerican: () => speakadj58692("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "The course would be a useful adjunct to my studies.",
+                      kurdishText:
+                          "کۆرسەکە سەرخستەیەکی باش دەبێت بۆ خوێندنەکەم.",
+                      onPressedBritish: () => speakadj58692("en-GB"),
+                      onPressedAmerican: () => speakadj58692("en-US"),
+                    ),
                   ],
                 ),
               ),

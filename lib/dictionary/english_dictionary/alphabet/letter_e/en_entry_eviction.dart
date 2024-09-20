@@ -33,7 +33,6 @@ class _EnglishEntryevictionState extends State<EnglishEntryeviction> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

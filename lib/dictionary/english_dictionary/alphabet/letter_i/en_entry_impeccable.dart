@@ -94,7 +94,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She has impeccable credentials as a researcher.""");
+    await flutterTts
+        .speak("""She has impeccable credentials as a researcher.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -925,7 +926,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/VYJtb2YXae8?t=';
     const double startSecondsend = 000000000000000000000000000591;
@@ -943,7 +943,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -995,7 +994,8 @@ ${englishMeaningConst.text}
 کوردی: پاک، بێ‌گوناهـ، بێ‌سووچ، بەری لە گوناهـ، لە گوناهـ بەدوور، پارێزگار،	بێگەرد، بێ‌خەوش، تەواو، بێ‌عەیب، بێ‌ئیراد، ناقسەلەسەر، ڕەخنەلێ‌نەگیراو
 """),
 // With short examples define "impeccable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە هەڵە و ناتەواوی تێدا نییە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە هەڵە و ناتەواوی تێدا نییە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: perfect"),
                     SentencesRow(
                       englishText: """Her written English is impeccable.""",
@@ -1007,8 +1007,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She has impeccable credentials as a researcher.""",
-            kurdishText: "وەک توێژەر لێووەشایی بێ‌خەوشی ھەیە.",
+                      englishText:
+                          """She has impeccable credentials as a researcher.""",
+                      kurdishText: "وەک توێژەر لێووەشایی بێ‌خەوشی ھەیە.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

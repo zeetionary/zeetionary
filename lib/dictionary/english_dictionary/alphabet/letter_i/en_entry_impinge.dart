@@ -95,7 +95,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The preparations for war were beginning to impinge.""");
+    await flutterTts
+        .speak("""The preparations for war were beginning to impinge.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -943,7 +944,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1011,8 +1011,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The preparations for war were beginning to impinge.""",
-                      kurdishText: """ئامادەکارییەکان بۆ جەنگ خەریک بوون کاریگەرییان هەبێت.""",
+                      englishText:
+                          """The preparations for war were beginning to impinge.""",
+                      kurdishText:
+                          """ئامادەکارییەکان بۆ جەنگ خەریک بوون کاریگەرییان هەبێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

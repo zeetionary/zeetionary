@@ -130,7 +130,6 @@ The conscious subjective aspect of feeling or emotion
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = '4kzGtLkRW_g';
     const double startSecondsend = 1;
     const String videoIdone = 'OHdV9aO6jaE';
@@ -155,7 +154,6 @@ The conscious subjective aspect of feeling or emotion
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -203,46 +201,44 @@ The conscious subjective aspect of feeling or emotion
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) کاریگەری درووستکردن"""),
-                          SentencesRow(
-                            englishText:
-                                "The article deals with issues affecting the lives of children.",
-                            kurdishText:
-                                "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن.",
-                            onPressedBritish: () => speakaffe5699("en-GB"),
-                            onPressedAmerican: () => speakaffe5699("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Your opinion will not affect my decision.",
-                            kurdishText:
-                                "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات.",
-                            onPressedBritish: () => speakaffe741("en-GB"),
-                            onPressedAmerican: () => speakaffe741("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The article deals with issues affecting the lives of children.",
+                      kurdishText:
+                          "وتارەکە مامەڵە لەگەڵ ئەو کێشانە دەکات کە کاریگەری لەسەر ژیانی منداڵان درووست دەکەن.",
+                      onPressedBritish: () => speakaffe5699("en-GB"),
+                      onPressedAmerican: () => speakaffe5699("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "Your opinion will not affect my decision.",
+                      kurdishText: "بۆچوونت کاریگەری لەسەر بڕیارەکەم ناکات.",
+                      onPressedBritish: () => speakaffe741("en-GB"),
+                      onPressedAmerican: () => speakaffe741("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (کردار) نەخۆشییەک کە کاریگەری دەبێت لەسەر جەستە"""),
-                          SentencesRow(
-                            englishText:
-                                "The disease is more likely to affect women than men.",
-                            kurdishText:
-                                "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان.",
-                            onPressedBritish: () => speakaffe25699("en-GB"),
-                            onPressedAmerican: () => speakaffe25699("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The disease is more likely to affect women than men.",
+                      kurdishText:
+                          "نەخۆشییەکە ئەگەری زیاترە تووشی ژنان بێت وەک لە پیاوان.",
+                      onPressedBritish: () => speakaffe25699("en-GB"),
+                      onPressedAmerican: () => speakaffe25699("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (کردار) وا لە کەسێک بکەیت ھەست بە دڵتەنگی بکات"""),
-                          SentencesRow(
-                            englishText:
-                                "They were deeply affected by the news of her death.",
-                            kurdishText: "زۆر ناڕەحەت بوون بە ھەواڵی مردنی.",
-                            onPressedBritish: () => speakaff2566("en-GB"),
-                            onPressedAmerican: () => speakaff2566("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "They were deeply affected by the news of her death.",
+                      kurdishText: "زۆر ناڕەحەت بوون بە ھەواڵی مردنی.",
+                      onPressedBritish: () => speakaff2566("en-GB"),
+                      onPressedAmerican: () => speakaff2566("en-US"),
+                    ),
                   ],
                 ),
               ),

@@ -100,7 +100,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     const String videoIdend = 'H640jO_n1AQ';
     const double startSecondsend = 231;
     const String videoIdone = '3J8_JM7Qiss';
@@ -115,7 +114,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -163,25 +161,25 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کاری لێکدراو) شوێنکەوتنی ڕەچەتەیەک، یاسایەک یان شتێک کە باوەڕی پێی ھەیە"""),
-                          SentencesRow(
-                            englishText:
-                                "For ten months he adhered to a no-fat low-salt diet.",
-                            kurdishText:
-                                "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی چەور و کەم خوێ.",
-                            onPressedBritish: () => speakadher251463("en-GB"),
-                            onPressedAmerican: () => speakadher251463("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "She adheres to teaching methods she learned over 30 years ago.",
-                            kurdishText:
-                                "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە.",
-                            onPressedBritish: () => speakadh358947("en-GB"),
-                            onPressedAmerican: () => speakadh358947("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "For ten months he adhered to a no-fat low-salt diet.",
+                      kurdishText:
+                          "بۆ ماوەی ١٠ مانگ پابەند بوو بە ژەمێکی چەور و کەم خوێ.",
+                      onPressedBritish: () => speakadher251463("en-GB"),
+                      onPressedAmerican: () => speakadher251463("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "She adheres to teaching methods she learned over 30 years ago.",
+                      kurdishText:
+                          "شوێن ئەو ڕێگایانەی وانەوتنەوە دەکەوێت کە ٣٠ ساڵ پێش ئێستا فێری بووە.",
+                      onPressedBritish: () => speakadh358947("en-GB"),
+                      onPressedAmerican: () => speakadh358947("en-US"),
+                    ),
                   ],
                 ),
               ),

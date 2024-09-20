@@ -92,29 +92,26 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
-    
-  const String videoIdend = 'N3FHeBnTnVs';
-  const double startSecondsend = 207;
-  const String videoIdone = '1ddO62_r7yY';
-  const double startSecondsone = 12;
-  const String videoIdtwo = '0gXHPcllF2o';
-  const double startSecondstwo = 550;
-  const String videoIdthree = 'oeyt2zVqCG8';
-  const double startSecondsthree = 559;
-  const String videoIdfour = 'wY3Ehw7_4Sg';
-  const double startSecondsfour = 192;
-  const String videoIdfive = 'YtUhl7q82i4';
-  const double startSecondsfive = 296;
-  // const String videoId = 'hp1uI4D7NRQ';
-  // const double startSeconds = 408;
-  // const String videoId = 'LKNfFm0QDXQ';
-  // const double startSeconds = 222222222222222;
+    const String videoIdend = 'N3FHeBnTnVs';
+    const double startSecondsend = 207;
+    const String videoIdone = '1ddO62_r7yY';
+    const double startSecondsone = 12;
+    const String videoIdtwo = '0gXHPcllF2o';
+    const double startSecondstwo = 550;
+    const String videoIdthree = 'oeyt2zVqCG8';
+    const double startSecondsthree = 559;
+    const String videoIdfour = 'wY3Ehw7_4Sg';
+    const double startSecondsfour = 192;
+    const String videoIdfive = 'YtUhl7q82i4';
+    const double startSecondsfive = 296;
+    // const String videoId = 'hp1uI4D7NRQ';
+    // const double startSeconds = 408;
+    // const String videoId = 'LKNfFm0QDXQ';
+    // const double startSeconds = 222222222222222;
 
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -162,20 +159,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: زیادی، زیادە، سەرخراو، سەربار
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) زیاتر لەوەی سەرەتا باسکراوە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "He provided additional information about this incident.",
-                            kurdishText:
-                                "زانیاریی زیادەی لەسەر ڕووداوەکە باسکرد.",
-                            onPressedBritish: () => speakadditi77("en-GB"),
-                            onPressedAmerican: () => speakadditi77("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) زیاتر لەوەی سەرەتا باسکراوە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "He provided additional information about this incident.",
+                      kurdishText: "زانیاریی زیادەی لەسەر ڕووداوەکە باسکرد.",
+                      onPressedBritish: () => speakadditi77("en-GB"),
+                      onPressedAmerican: () => speakadditi77("en-US"),
+                    ),
                   ],
                 ),
               ),

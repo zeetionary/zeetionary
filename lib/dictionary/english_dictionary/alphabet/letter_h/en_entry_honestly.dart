@@ -926,7 +926,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
     const double startSecondsend = 000000000000000000000000000838;
@@ -944,7 +943,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -996,16 +994,21 @@ ${englishMeaningConst.text}
 کوردی: سەرڕاستانە، بە شێوەیەکی ڕاست، بە ڕاستی، بە سەرڕاستی،	باوەڕ بکە، بڕوا بکە، ڕاستت بوێ، درۆت لەگەڵ ناکەم، بە ڕاستمە
 """),
 // With short examples define "honestly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بە شێوەیەکی ڕاستگۆیانە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە شێوەیەکی ڕاستگۆیانە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: dishonestly"),
                     SentencesRow(
-                      englishText: """I can't believe he got that money honestly.""",
-                      kurdishText: """ڕاستگۆ بم ناتوانم باوەڕ بکەم پارەکەی دەستکەوت.""",
+                      englishText:
+                          """I can't believe he got that money honestly.""",
+                      kurdishText:
+                          """ڕاستگۆ بم ناتوانم باوەڕ بکەم پارەکەی دەستکەوت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵکار) بۆ جەختکردنەوە لەوەی ئەوەی دەیڵێیت ڕاستە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بۆ جەختکردنەوە لەوەی ئەوەی دەیڵێیت ڕاستە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I didn't tell anyone, honestly!""",
@@ -1017,16 +1020,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """You can't honestly expect me to believe that!""",
-                      kurdishText: """بە ڕاستی ناکرێت پێشبینیم لێ بکەیت باوەڕ بەوە بکەم!""",
+                      englishText:
+                          """You can't honestly expect me to believe that!""",
+                      kurdishText:
+                          """بە ڕاستی ناکرێت پێشبینیم لێ بکەیت باوەڕ بەوە بکەم!""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵکار) بۆ گوتنی ئەوەی شتێک خراپە و بێزاری پێی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵکار) بۆ گوتنی ئەوەی شتێک خراپە و بێزاری پێی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Honestly! Whatever will they think of next?""",
+                      englishText:
+                          """Honestly! Whatever will they think of next?""",
                       kurdishText: """بەڕاست! دواتر بیر لە چی دەکەنەوە؟""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),

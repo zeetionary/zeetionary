@@ -94,7 +94,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He stayed immobile, trying to remember where he was.""");
+    await flutterTts
+        .speak("""He stayed immobile, trying to remember where he was.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -925,7 +926,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/f7QWMUCMYOE?t=';
     const double startSecondsend = 000000000000000000000000000773;
@@ -943,7 +943,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -995,7 +994,8 @@ ${englishMeaningConst.text}
 کوردی: جێگیر، تەکان‌نەخواردوو، چەق‌بەستوو، ڕەق، وشک، چرکەنەکردوو، ڕاوێستاو، نەبزێو، نەجووڵ، چەقیو
 """),
 // With short examples define "immobile", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە نەجووڵێیت"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە نەجووڵێیت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: motionless"),
                     SentencesRow(
                       englishText: """She stood immobile by the window.""",
@@ -1007,17 +1007,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He stayed immobile, trying to remember where he was.""",
-                      kurdishText: """بێ‌جووڵە وەستا و هەوڵی دەدا بیری بێتەوە لە کوێ بوو.""",
+                      englishText:
+                          """He stayed immobile, trying to remember where he was.""",
+                      kurdishText:
+                          """بێ‌جووڵە وەستا و هەوڵی دەدا بیری بێتەوە لە کوێ بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە نەتوانیت بچووڵێیت"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە نەتوانیت بچووڵێیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """His illness has left him completely immobile.""",
-                      kurdishText: """نەخۆشییەکەی تەواو بێ‌جووڵە هێشتوویەتییەوە.""",
+                      englishText:
+                          """His illness has left him completely immobile.""",
+                      kurdishText:
+                          """نەخۆشییەکەی تەواو بێ‌جووڵە هێشتوویەتییەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

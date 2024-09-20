@@ -33,7 +33,6 @@ class _EnglishEntryentryState extends State<EnglishEntryentry> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

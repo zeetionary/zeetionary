@@ -95,7 +95,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = '6DYgImG1CKo';
     const double startSecondsend = 81;
     const String videoIdone = 'K0j2dlBMzUs';
@@ -110,7 +109,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -158,16 +156,16 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (ھاوەڵناو) پەیوەندیدار بە پەیوەنسییەکی نابەجێ کە لە دەرەوەی ھاوسەرگیرییە"""),
-                          SentencesRow(
-                            englishText:
-                                "He had an adulterous relationship with his wife's best friend.",
-                            kurdishText:
-                                "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی.",
-                            onPressedBritish: () => speakadul2534("en-GB"),
-                            onPressedAmerican: () => speakadul2534("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "He had an adulterous relationship with his wife's best friend.",
+                      kurdishText:
+                          "پەیوەندی نابەجێی جەستەیی ھەبوو لەگەڵ باشترین ھاوڕێی ژنەکەی.",
+                      onPressedBritish: () => speakadul2534("en-GB"),
+                      onPressedAmerican: () => speakadul2534("en-US"),
+                    ),
                   ],
                 ),
               ),

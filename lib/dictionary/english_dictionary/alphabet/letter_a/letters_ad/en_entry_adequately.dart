@@ -92,7 +92,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     const String videoIdend = '8YTNf6i--YA';
     const double startSecondsend = 211;
     const String videoIdone = '_OXk4RKZhaY';
@@ -111,7 +110,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -159,17 +157,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەپێی پێویست"""),
-                          SentencesRow(
-                            englishText:
-                                "While some patients can be adequately cared for at home, others are best served by care in a hospital.",
-                            kurdishText:
-                                "ئەگەرچی ھەندێک نەخۆش لەوانەیە بتواندرێت بەپێی پێویست لە ماڵەوە چاودێری بکرێن، ئەوانی تر باشتر خزمەت دەکرێن لە نەخۆشخانە.",
-                            onPressedBritish: () => speakadeq2547("en-GB"),
-                            onPressedAmerican: () => speakadeq2547("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "While some patients can be adequately cared for at home, others are best served by care in a hospital.",
+                      kurdishText:
+                          "ئەگەرچی ھەندێک نەخۆش لەوانەیە بتواندرێت بەپێی پێویست لە ماڵەوە چاودێری بکرێن، ئەوانی تر باشتر خزمەت دەکرێن لە نەخۆشخانە.",
+                      onPressedBritish: () => speakadeq2547("en-GB"),
+                      onPressedAmerican: () => speakadeq2547("en-US"),
+                    ),
                   ],
                 ),
               ),

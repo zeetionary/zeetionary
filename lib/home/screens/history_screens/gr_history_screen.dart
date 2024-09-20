@@ -26,6 +26,7 @@ class _GrammarHistoryScreenState extends ConsumerState<GrammarHistoryScreen> {
   _GrammarHistoryScreenState();
 
   Future<void> clearEnglishHistory(BuildContext context) async {
+    final textSize = ref.watch(textSizeProvider);
     SharedPreferences prefs = await SharedPreferences.getInstance();
     bool confirmClear = await showDialog(
       context: context,
@@ -93,12 +94,24 @@ class _GrammarHistoryScreenState extends ConsumerState<GrammarHistoryScreen> {
     if (confirmClear == true) {
       await prefs.remove('grammar history');
       if (!context.mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-        content: Directionality(
-          textDirection: TextDirection.ltr,
-          child: Text('History cleared'),
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+          showCloseIcon: true,
+          closeIconColor: Theme.of(context).primaryColor,
+          content: Directionality(
+            textDirection: TextDirection.ltr,
+            child: Text(
+              'History cleared',
+              style: TextStyle(
+                fontSize: textSize + 1,
+                color: Theme.of(context).primaryColor,
+              ),
+            ),
+          ),
+          behavior: SnackBarBehavior.floating,
         ),
-      ));
+      );
     }
   }
 

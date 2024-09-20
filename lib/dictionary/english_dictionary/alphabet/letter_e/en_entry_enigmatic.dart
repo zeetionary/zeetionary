@@ -33,7 +33,6 @@ class _EnglishEntryenigmaticState extends State<EnglishEntryenigmatic> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

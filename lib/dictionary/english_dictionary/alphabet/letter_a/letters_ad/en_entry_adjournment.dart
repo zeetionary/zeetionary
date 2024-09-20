@@ -9,7 +9,8 @@ class EnglishEntryadjournment extends StatefulWidget {
   const EnglishEntryadjournment({super.key});
 
   @override
-  State<EnglishEntryadjournment> createState() => _EnglishEntryadjournmentState();
+  State<EnglishEntryadjournment> createState() =>
+      _EnglishEntryadjournmentState();
 }
 
 class _EnglishEntryadjournmentState extends State<EnglishEntryadjournment> {
@@ -92,7 +93,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'k4b7_RaIWh4';
     const double startSecondsend = 151;
     const String videoIdone = '4XWB37sS3dI';
@@ -109,7 +109,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -157,20 +156,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: دواخستن، پاش‌خستن، خستنەدواوە، ڕاگرتن، ڕاوێستاندن (بۆ ماوەیێ)، پشوو، وچان، ماوەی پشوو
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) وەستانی کۆبوونەوەیەک یان دانیشتنێکی دادگا بۆ ماوەیەک"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The judge granted us a short adjournment.",
-                            kurdishText: "دادوەرەکە وچانێکی کاتی بەخشی.",
-                            onPressedBritish: () => speakadjou2547("en-GB"),
-                            onPressedAmerican: () => speakadjou2547("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) وەستانی کۆبوونەوەیەک یان دانیشتنێکی دادگا بۆ ماوەیەک"
+                            ""),
+                    SentencesRow(
+                      englishText: "The judge granted us a short adjournment.",
+                      kurdishText: "دادوەرەکە وچانێکی کاتی بەخشی.",
+                      onPressedBritish: () => speakadjou2547("en-GB"),
+                      onPressedAmerican: () => speakadjou2547("en-US"),
+                    ),
                   ],
                 ),
               ),

@@ -80,7 +80,7 @@ ${englishMeaningConst.text}
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""adulation""");
   }
-  
+
   Future<void> speakadu2534(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
@@ -91,7 +91,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = '-UY-KkPY3vc';
     const double startSecondsend = 453;
     const String videoIdone = 'nG3NNWESpCU';
@@ -108,7 +107,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -156,19 +154,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: زمان‌لووس، پیاھەڵدانی زمان‌لووسانە، ڕووپامایی، نەرمەبڕی، کلکەسووتێ، ڕیایی‌بازی، تەشی‌ڕێسی، مەرایی، ڕووبینی، بەبەراھەڵخوێندن، دەمتەڕی
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) پیاھەڵدانی زیاد لە پێویست" ""),
-                          SentencesRow(
-                            englishText:
-                                "The band enjoy the adulation of their fans wherever they go.",
-                            kurdishText:
-                                "باندەکە بۆ ھەرکوێ بچن خۆشی لە پیاھەڵدانی ھەوادارانیان دەبینن.",
-                            onPressedBritish: () => speakadu2534("en-GB"),
-                            onPressedAmerican: () => speakadu2534("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) پیاھەڵدانی زیاد لە پێویست" ""),
+                    SentencesRow(
+                      englishText:
+                          "The band enjoy the adulation of their fans wherever they go.",
+                      kurdishText:
+                          "باندەکە بۆ ھەرکوێ بچن خۆشی لە پیاھەڵدانی ھەوادارانیان دەبینن.",
+                      onPressedBritish: () => speakadu2534("en-GB"),
+                      onPressedAmerican: () => speakadu2534("en-US"),
+                    ),
                   ],
                 ),
               ),

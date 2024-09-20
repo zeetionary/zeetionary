@@ -100,7 +100,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'c7Wf8wrEb74';
     const double startSecondsend = 362;
     const String videoIdone = 'oPnDOxMXlUc';
@@ -115,7 +114,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -163,30 +161,28 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: جوان‌کردن، خەمڵاندن، ڕازاندنەوە، نەخشاندن، ئاڕایشت، خەمڵ، خشڵ، زەنبەر، شتی ڕازاندنەوە، سەروپۆتلاک
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) خشڵ و ئارایشتە جوانکاری" ""),
-                          SentencesRow(
-                            englishText:
-                                "A plain necklace was her only adornment.",
-                            kurdishText:
-                                "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی.",
-                            onPressedBritish: () => speakadornm79534("en-GB"),
-                            onPressedAmerican: () => speakadornm79534("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ناو) خشڵ و ئارایشتە جوانکاری" ""),
+                    SentencesRow(
+                      englishText: "A plain necklace was her only adornment.",
+                      kurdishText: "ملوانکەیەکی سادە تەنھا خشڵ بوو بەست بووی.",
+                      onPressedBritish: () => speakadornm79534("en-GB"),
+                      onPressedAmerican: () => speakadornm79534("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) جەانکاری و ڕازاندنەوە"""),
-                          SentencesRow(
-                            englishText:
-                                "Precious stones have been used for the purposes of adornment for over 7000 years.",
-                            kurdishText:
-                                "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ.",
-                            onPressedBritish: () => speakad25698("en-GB"),
-                            onPressedAmerican: () => speakad25698("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "Precious stones have been used for the purposes of adornment for over 7000 years.",
+                      kurdishText:
+                          "بەردی گرانبەھا بۆ ڕازاندنەوە بەکارھاتوون بۆ زیاتر لە ٧٠٠٠ ساڵ.",
+                      onPressedBritish: () => speakad25698("en-GB"),
+                      onPressedAmerican: () => speakad25698("en-US"),
+                    ),
                   ],
                 ),
               ),

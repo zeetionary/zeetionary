@@ -91,7 +91,6 @@ Of or relating to or functioning as an adjective (= adjective)
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'WPjsDVS_trI';
     const double startSecondsend = 4829;
     const String videoIdone = 'DVTaNJySjYo';
@@ -110,7 +109,6 @@ Of or relating to or functioning as an adjective (= adjective)
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -158,18 +156,17 @@ Of or relating to or functioning as an adjective (= adjective)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: سەربە ئاوەڵ‌ناو، ئاوەڵ‌ناوی، ڕەنگدێری
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ھاوەڵناو) پەیوەندیدار بە ھاوەڵناو"""),
-                          SentencesRow(
-                            englishText: "an adjectival phrase",
-                            kurdishText: "گرێی ھاوەڵناوی.",
-                            onPressedBritish: () => speakadjec2547("en-GB"),
-                            onPressedAmerican: () => speakadjec2547("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) پەیوەندیدار بە ھاوەڵناو"""),
+                    SentencesRow(
+                      englishText: "an adjectival phrase",
+                      kurdishText: "گرێی ھاوەڵناوی.",
+                      onPressedBritish: () => speakadjec2547("en-GB"),
+                      onPressedAmerican: () => speakadjec2547("en-US"),
+                    ),
                   ],
                 ),
               ),

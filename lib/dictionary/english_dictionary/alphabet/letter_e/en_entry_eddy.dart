@@ -24,7 +24,6 @@ class _EnglishEntryeddyState extends State<EnglishEntryeddy> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

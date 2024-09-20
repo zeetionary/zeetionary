@@ -932,7 +932,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/3YltYCrPZos?t=';
     const double startSecondsend = 000000000000000000000000000160;
@@ -950,7 +949,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1002,7 +1000,9 @@ ${englishMeaningConst.text}
 کوردی: هەنگوین، ئازیزەکەم، خۆشەویستەکەم، باوانەکەم
 """),
 // With short examples define "honey", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) مادەیەکی زەردی مەیلەو قاوەیی شیرین لە مێشهەنگ درووستی دەکەن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) مادەیەکی زەردی مەیلەو قاوەیی شیرین لە مێشهەنگ درووستی دەکەن"""),
                     SentencesRow(
                       englishText: """How do bees make honey?""",
                       kurdishText: """مێشهەنگ چۆن هەنگوین درووست دەکەن؟""",
@@ -1019,7 +1019,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) بۆ بانگکردنی کەسێک کە خۆشت دەوێت یان حەزت لێیە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) بۆ بانگکردنی کەسێک کە خۆشت دەوێت یان حەزت لێیە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Have you seen my keys, honey?""",
@@ -1028,10 +1030,13 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ناو) کەسێک کە خۆشت دەوێت یان حەزت لێیەتی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) کەسێک کە خۆشت دەوێت یان حەزت لێیەتی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He can be a real honey when he wants to be.""",
+                      englishText:
+                          """He can be a real honey when he wants to be.""",
                       kurdishText: """کە بیەوێت دەکرێت زۆر شیرین بێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),

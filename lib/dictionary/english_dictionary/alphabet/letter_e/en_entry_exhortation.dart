@@ -34,7 +34,6 @@ class _EnglishEntryexhortationState extends State<EnglishEntryexhortation> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

@@ -923,7 +923,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/OaXvEd5uu2w?t=';
     const double startSecondsend = 0000000000000000000000000001617;
@@ -941,7 +940,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -993,7 +991,9 @@ ${englishMeaningConst.text}
 کوردی: دڵتەنگی نیشتمان، غەریب، کۆلیل، دڵپڕ
 """),
 // With short examples define "homesick", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) دڵتەنگ بەهۆی ئەوەی دووریت لە ماڵ و بیری خێزان و هاوڕێکانی دەکەیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) دڵتەنگ بەهۆی ئەوەی دووریت لە ماڵ و بیری خێزان و هاوڕێکانی دەکەیت"""),
                     SentencesRow(
                       englishText: """She felt homesick for her country.""",
                       kurdishText: """هەستی بە غەریبی دەکرد بۆ وڵاتەکەی.""",
@@ -1004,8 +1004,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She was beginning to get a bit homesick.""",
-                      kurdishText: """دەستی دەکرد بەوەی کەمێک دڵتەنگی نیشتمان بێت.""",
+                      englishText:
+                          """She was beginning to get a bit homesick.""",
+                      kurdishText:
+                          """دەستی دەکرد بەوەی کەمێک دڵتەنگی نیشتمان بێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

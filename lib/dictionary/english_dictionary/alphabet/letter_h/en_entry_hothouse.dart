@@ -91,14 +91,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The gardener grows rare hothouse flowers in winter.""");
+    await flutterTts
+        .speak("""The gardener grows rare hothouse flowers in winter.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""In the hothouse atmosphere of college there are plenty of opportunities for falling in love.""");
+    await flutterTts.speak(
+        """In the hothouse atmosphere of college there are plenty of opportunities for falling in love.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -929,7 +931,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/2oysDxhHEEk';
     const double startSecondsend = 0;
@@ -947,7 +948,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -999,19 +999,27 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "hothouse", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) بینایەکی گەرم بۆ چاندنی ئەو ڕووەکانەی کە پێویستییان بە دۆخی تایبەتە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بینایەکی گەرم بۆ چاندنی ئەو ڕووەکانەی کە پێویستییان بە دۆخی تایبەتە"""),
                     SentencesRow(
-                      englishText: """The gardener grows rare hothouse flowers in winter.""",
-                      kurdishText: """باخەوانەکە گوڵی دەگمەنی گەرمخانە دەچێنێت لە زستاندا.""",
+                      englishText:
+                          """The gardener grows rare hothouse flowers in winter.""",
+                      kurdishText:
+                          """باخەوانەکە گوڵی دەگمەنی گەرمخانە دەچێنێت لە زستاندا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) شوێن یان دۆخێک کە گونجاوە بۆ گەشەی خێرای کەسێک/شتێک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شوێن یان دۆخێک کە گونجاوە بۆ گەشەی خێرای کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """In the hothouse atmosphere of college there are plenty of opportunities for falling in love.""",
-                      kurdishText: """لە کەشی لەباری کۆلێژ زۆر هەل هەیە بۆ کەوتنە خۆشەویستی.""",
+                      englishText:
+                          """In the hothouse atmosphere of college there are plenty of opportunities for falling in love.""",
+                      kurdishText:
+                          """لە کەشی لەباری کۆلێژ زۆر هەل هەیە بۆ کەوتنە خۆشەویستی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -922,7 +922,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/9plfckcV3pw?t=';
     const double startSecondsend = 000000000000000000000000000132;
@@ -940,7 +939,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -992,9 +990,12 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "hovercraft", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) پێڕۆیەک کە کەمێک لە سەرەوەی ڕووی ئاو یان زەوی دەڕوات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پێڕۆیەک کە کەمێک لە سەرەوەی ڕووی ئاو یان زەوی دەڕوات"""),
                     SentencesRow(
-                      englishText: """A hovercraft travels on a cushion of air.""",
+                      englishText:
+                          """A hovercraft travels on a cushion of air.""",
                       kurdishText: """هۆڤەرکرافت لەسەر بالیفێکی هەوا دەڕوات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),

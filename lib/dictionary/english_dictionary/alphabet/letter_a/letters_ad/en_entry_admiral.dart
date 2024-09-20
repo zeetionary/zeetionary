@@ -92,7 +92,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'NM3zRgoJo5g';
     const double startSecondsend = 75;
     const String videoIdone = 'RUy-x_ZIMDA';
@@ -109,7 +108,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -157,16 +155,16 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (ناو) ئەفسەرێکی زۆر پایەبەرزی ھێزی دەریایی"""),
-                          SentencesRow(
-                            englishText:
-                                "The admiral visited the ships under his command.",
-                            kurdishText:
-                                "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد.",
-                            onPressedBritish: () => speakadmi2568("en-GB"),
-                            onPressedAmerican: () => speakadmi2568("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "The admiral visited the ships under his command.",
+                      kurdishText:
+                          "ئەدمیراڵەکە سەردانی کەشتییەکانی ژێر دەسەڵاتی کرد.",
+                      onPressedBritish: () => speakadmi2568("en-GB"),
+                      onPressedAmerican: () => speakadmi2568("en-US"),
+                    ),
                   ],
                 ),
               ),

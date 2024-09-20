@@ -94,7 +94,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'IWj00KJ6Jow';
     const double startSecondsend = 389;
     const String videoIdone = 'xSEeu2kzs0w';
@@ -111,7 +110,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -159,17 +157,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پەرستن، پەرستشت، دڵ‌پێدان، دڵ‌تێچوون، ھۆگری، دڵبەستەیی، پیاھەڵوتن، ستایشت
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) ھەستی خۆشەویستییەکی زۆر" ""),
-                          SentencesRow(
-                            englishText: "He gazed at her with pure adoration.",
-                            kurdishText: "لێی دەڕوانی بە ئەڤینێکی بێگەرد.",
-                            onPressedBritish: () => speakador25674("en-GB"),
-                            onPressedAmerican: () => speakador25674("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) ھەستی خۆشەویستییەکی زۆر" ""),
+                    SentencesRow(
+                      englishText: "He gazed at her with pure adoration.",
+                      kurdishText: "لێی دەڕوانی بە ئەڤینێکی بێگەرد.",
+                      onPressedBritish: () => speakador25674("en-GB"),
+                      onPressedAmerican: () => speakador25674("en-US"),
+                    ),
                   ],
                 ),
               ),

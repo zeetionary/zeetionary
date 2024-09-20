@@ -130,7 +130,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'vDkN3kT3-4w';
     const double startSecondsend = 29;
     const String videoIdone = 'OTYOk-4aPU8';
@@ -149,7 +148,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -197,48 +195,46 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) ھەڵگتنەوەی منداڵێک و بەخێوکردنی وەک منداڵی خۆت"""),
-                          SentencesRow(
-                            englishText:
-                                "The child has now been legally adopted.",
-                            kurdishText:
-                                "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە.",
-                            onPressedBritish: () => speakad256471("en-GB"),
-                            onPressedAmerican: () => speakad256471("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText: "The child has now been legally adopted.",
+                      kurdishText:
+                          "منداڵەکە لە ئێستادا بە یاسایی ھەڵگیراوەتەوە.",
+                      onPressedBritish: () => speakad256471("en-GB"),
+                      onPressedAmerican: () => speakad256471("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (کردار) دەستکردن بە بەکارھێنانی شێوازێکی مامەڵەکردن یان ڕێبازێک"""),
-                          SentencesRow(
-                            englishText:
-                                "The police adopted tighter security measures.",
-                            kurdishText: "پۆلیس ڕێکاری توندتری گرتەبەر.",
-                            onPressedBritish: () => speakad25673("en-GB"),
-                            onPressedAmerican: () => speakad25673("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The police adopted tighter security measures.",
+                      kurdishText: "پۆلیس ڕێکاری توندتری گرتەبەر.",
+                      onPressedBritish: () => speakad25673("en-GB"),
+                      onPressedAmerican: () => speakad25673("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (کردار) بە فەرمی پەسەندکردنی بڕیارێک"""),
-                          SentencesRow(
-                            englishText:
-                                "The government adopted a resolution on disarmament.",
-                            kurdishText:
-                                "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد.",
-                            onPressedBritish: () => speakado45826("en-GB"),
-                            onPressedAmerican: () => speakado45826("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The government adopted a resolution on disarmament.",
+                      kurdishText: "حکومەت بڕیارنامەی چەکداماڵینی پەسەندکرد.",
+                      onPressedBritish: () => speakado45826("en-GB"),
+                      onPressedAmerican: () => speakado45826("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٤. (کردار) دەستکردن بە بەکارھێنانی شتێک"""),
-                          SentencesRow(
-                            englishText:
-                                "The party adopted its current name in 1965.",
-                            kurdishText:
-                                "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە.",
-                            onPressedBritish: () => speakado7259("en-GB"),
-                            onPressedAmerican: () => speakado7259("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "The party adopted its current name in 1965.",
+                      kurdishText:
+                          "پارتەکە ئەم ناوەی ئێستای لە ساڵی ١٩٦٥ ھەڵگرتەوە.",
+                      onPressedBritish: () => speakado7259("en-GB"),
+                      onPressedAmerican: () => speakado7259("en-US"),
+                    ),
                   ],
                 ),
               ),

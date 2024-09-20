@@ -85,7 +85,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     const String videoIdend = 'r2lDXoW78u0';
     const double startSecondsend = 155;
     const String videoIdone = 'cqjn3mup1So';
@@ -106,7 +105,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -154,18 +152,18 @@ ${englishMeaningConst.text}
               const SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-KurdishVocabulary(text: """
+                    KurdishVocabulary(text: """
 کوردی: پێکبەست، بەستەر، گونجێنەر، (کارەبا) گونجێنە، ئاداپتۆر
 """),
-                          DefinitionKurdish(
-                              text:
-                                  "١. (ناو) ئامێرێک کە بەکاردێت بۆ پێکەوەلکاندنی دوو پارچەی کارەبایی کە پێکەوە ناگونجێن"
-                                  ""),
-                          DividerDefinition(),
-                          DefinitionKurdish(text: """
+                    DefinitionKurdish(
+                        text:
+                            "١. (ناو) ئامێرێک کە بەکاردێت بۆ پێکەوەلکاندنی دوو پارچەی کارەبایی کە پێکەوە ناگونجێن"
+                            ""),
+                    DividerDefinition(),
+                    DefinitionKurdish(text: """
 ٢. (ناو) ئامێرێک کە بەکاردێت بۆ لکاندنی زیاتر لە یەک ئامێری کارەبایی بە پلاکێکەوە"""),
-                          DividerDefinition(),
-                          DefinitionKurdish(text: """
+                    DividerDefinition(),
+                    DefinitionKurdish(text: """
 ٣. (ناو) کەسێک کە کتێبێک یان شانۆیەک دووبارە دەنووسێتەوە بۆ ئەوەی بگونجێت لەگەڵ کردنی بە شانۆ یان فیلم"""),
                   ],
                 ),

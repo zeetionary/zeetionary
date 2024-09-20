@@ -130,7 +130,6 @@ A condition (mostly in boys) characterized by behavioral and learning disorders 
 
   @override
   Widget build(BuildContext context) {
-
     const String videoIdend = '_3tdqQR8j28';
     const double startSecondsend = 127;
     const String videoIdone = 'j6r6NQcLDMs';
@@ -155,7 +154,6 @@ A condition (mostly in boys) characterized by behavioral and learning disorders 
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -203,47 +201,45 @@ A condition (mostly in boys) characterized by behavioral and learning disorders 
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: خستنەسەر، کۆکردنەوە، پێوەنان
 """),
-                          const DefinitionKurdish(
-                              text: "١. (کردار) زیادکردنی شتێک بۆ شتێکی تر" ""),
-                          SentencesRow(
-                            englishText: "Shall I add your name to the list?",
-                            kurdishText: "ناوت زیادبکەم بۆ لیستەکە؟",
-                            onPressedBritish: () => speakadd4257("en-GB"),
-                            onPressedAmerican: () => speakadd4257("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Chlorine is added to the water to kill bacteria.",
-                            kurdishText:
-                                "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا.",
-                            onPressedBritish: () => speakadd45698("en-GB"),
-                            onPressedAmerican: () => speakadd45698("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (کردار) زیادکردنی شتێک بۆ شتێکی تر" ""),
+                    SentencesRow(
+                      englishText: "Shall I add your name to the list?",
+                      kurdishText: "ناوت زیادبکەم بۆ لیستەکە؟",
+                      onPressedBritish: () => speakadd4257("en-GB"),
+                      onPressedAmerican: () => speakadd4257("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "Chlorine is added to the water to kill bacteria.",
+                      kurdishText:
+                          "کلۆر زیاد دەکرێت بۆ ئاو بۆ کووشتنی بەکتریا.",
+                      onPressedBritish: () => speakadd45698("en-GB"),
+                      onPressedAmerican: () => speakadd45698("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (کردار) کۆکردنەوەی ژمارە پێکەوە"""),
-                          SentencesRow(
-                            englishText: "He knew how to add and subtract.",
-                            kurdishText:
-                                "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات.",
-                            onPressedBritish: () => speakadd241("en-GB"),
-                            onPressedAmerican: () => speakadd241("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText: "He knew how to add and subtract.",
+                      kurdishText: "دەیزانی چۆن کۆکرنەوە و لێدەرکردن بکات.",
+                      onPressedBritish: () => speakadd241("en-GB"),
+                      onPressedAmerican: () => speakadd241("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (کردار) زیادکردنی قسەیەک بۆ شتێک کە پێشتر وتووتە"""),
-                          SentencesRow(
-                            englishText:
-                                "I have nothing to add to my earlier statement.",
-                            kurdishText:
-                                "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم.",
-                            onPressedBritish: () => speakadd459224("en-GB"),
-                            onPressedAmerican: () => speakadd459224("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "I have nothing to add to my earlier statement.",
+                      kurdishText: "ھیچم نییە بۆ وتن زیاتر لەوەی پێشتر وتم.",
+                      onPressedBritish: () => speakadd459224("en-GB"),
+                      onPressedAmerican: () => speakadd459224("en-US"),
+                    ),
                   ],
                 ),
               ),

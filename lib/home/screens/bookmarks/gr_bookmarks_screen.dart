@@ -156,6 +156,8 @@ class _GrammmarfavouritesScreenState
     // If confirmed is true, clear favourites
     if (confirmed) {
       final prefs = await SharedPreferences.getInstance();
+      final textSize = ref.watch(textSizeProvider);
+
       prefs.remove('grammar favourites');
 
       // Update favourites list before clearing
@@ -167,8 +169,18 @@ class _GrammmarfavouritesScreenState
       // Show SnackBar only if the widget is still mounted
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(
-            content: Text('Favourites cleared'),
+          SnackBar(
+            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            showCloseIcon: true,
+            closeIconColor: Theme.of(context).primaryColor,
+            content: Text(
+              'Favourites cleared',
+              style: TextStyle(
+                fontSize: textSize + 1,
+                color: Theme.of(context).primaryColor,
+              ),
+            ),
+            behavior: SnackBarBehavior.floating,
           ),
         );
       }

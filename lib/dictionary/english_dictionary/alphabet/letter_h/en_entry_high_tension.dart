@@ -92,7 +92,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'E2rtQFAibEA';
     const double startSecondsend = 10965;
     const String videoIdone = 'HQKy1KJpSVc';
@@ -109,7 +108,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

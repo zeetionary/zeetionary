@@ -90,7 +90,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'RGiZtld9ssc';
     const double startSecondsend = 268;
     const String videoIdone = '6tYxnt3gCyI';
@@ -105,7 +104,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -153,19 +151,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: (مرد) زیناکار، داوێن‌تەڕ، داوێن‌پیس، شەڵوارپیس، بێ‌نامووس
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) کەسێک کە زینا دەکات" ""),
-                          SentencesRow(
-                            englishText:
-                                "Her husband was a compulsive adulterer.",
-                            kurdishText: "ھاوسەرەکەی زیناکارێکی خراپ بوو.",
-                            onPressedBritish: () => speakadulterer2534("en-GB"),
-                            onPressedAmerican: () =>
-                                speakadulterer2534("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) کەسێک کە زینا دەکات" ""),
+                    SentencesRow(
+                      englishText: "Her husband was a compulsive adulterer.",
+                      kurdishText: "ھاوسەرەکەی زیناکارێکی خراپ بوو.",
+                      onPressedBritish: () => speakadulterer2534("en-GB"),
+                      onPressedAmerican: () => speakadulterer2534("en-US"),
+                    ),
                   ],
                 ),
               ),

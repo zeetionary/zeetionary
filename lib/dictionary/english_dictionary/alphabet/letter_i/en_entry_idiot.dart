@@ -121,7 +121,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He'd have driven straight into me if I hadn't seen him first - the dozy idiot!""");
+    await flutterTts.speak(
+        """He'd have driven straight into me if I hadn't seen him first - the dozy idiot!""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -941,7 +942,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1038,8 +1038,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """What sort of brainless idiot would do that?""",
-                            kurdishText: "چی گەمژەیەکی دەبەنگ ئەوە دەکات؟",
+                      englishText:
+                          """What sort of brainless idiot would do that?""",
+                      kurdishText: "چی گەمژەیەکی دەبەنگ ئەوە دەکات؟",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1047,8 +1048,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He'd have driven straight into me if I hadn't seen him first - the dozy idiot!""",
-            kurdishText: "ڕێک دەیکێشا پێمدا ئەگەر سەرەتا نەمدیبا ـ شێتی گێژە!",
+                      englishText:
+                          """He'd have driven straight into me if I hadn't seen him first - the dozy idiot!""",
+                      kurdishText:
+                          "ڕێک دەیکێشا پێمدا ئەگەر سەرەتا نەمدیبا ـ شێتی گێژە!",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1057,7 +1060,7 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I felt like a complete idiot.""",
-                    kurdishText: """ھەستم بە شێتییەکی تەواو کرد.""",
+                      kurdishText: """ھەستم بە شێتییەکی تەواو کرد.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

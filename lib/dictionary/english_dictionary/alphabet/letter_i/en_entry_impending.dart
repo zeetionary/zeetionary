@@ -941,7 +941,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1009,8 +1008,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She had a sense of impending doom (= felt that something very bad was going to happen).""",
-            kurdishText: "ھەستێکی بۆ کارەساتێکی بەپەلە ھەبوو.",
+                      englishText:
+                          """She had a sense of impending doom (= felt that something very bad was going to happen).""",
+                      kurdishText: "ھەستێکی بۆ کارەساتێکی بەپەلە ھەبوو.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

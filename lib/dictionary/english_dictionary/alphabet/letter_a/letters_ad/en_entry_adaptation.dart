@@ -103,20 +103,18 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
-  const String videoIdend = 'joMpt1CwDvc';
-  const double startSecondsend = 734;
-  const String videoIdone = 'fAEXglHDrPs';
-  const double startSecondsone = 97;
-  const String videoIdtwo = '-aX_IO5DMlk';
-  const double startSecondstwo = 124;
-  const String videoIdthree = 'JlH-Q7BHzDo';
-  const double startSecondsthree = 550;
+    const String videoIdend = 'joMpt1CwDvc';
+    const double startSecondsend = 734;
+    const String videoIdone = 'fAEXglHDrPs';
+    const double startSecondsone = 97;
+    const String videoIdtwo = '-aX_IO5DMlk';
+    const double startSecondstwo = 124;
+    const String videoIdthree = 'JlH-Q7BHzDo';
+    const double startSecondsthree = 550;
 
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -167,28 +165,27 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گونجان، ساز، سازان، داھاتن، ڕێک‌کەوتن، گۆڕان، دەق‌پێدان، ڕێک‌خستن، گونجاندن، داھێنان، سازاندن، لواندن، لوواندن
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) پڕۆسەی ڕاھاتن لەگەڵ بارودۆخێکی تازە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The process of adaptation to a new school is difficult for some children.",
-                            kurdishText:
-                                "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی تازە بۆ ھەندێک منداڵ ئاسان نییە.",
-                            onPressedBritish: () => speakadapt3254("en-GB"),
-                            onPressedAmerican: () => speakadapt3254("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ناو) پڕۆسەی ڕاھاتن لەگەڵ بارودۆخێکی تازە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "The process of adaptation to a new school is difficult for some children.",
+                      kurdishText:
+                          "پڕۆسەی ڕاھاتن بە قوتابخانەیەکی تازە بۆ ھەندێک منداڵ ئاسان نییە.",
+                      onPressedBritish: () => speakadapt3254("en-GB"),
+                      onPressedAmerican: () => speakadapt3254("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) فیلمێک، درامەیەک، یان شانۆیەک کە پشتی ب کتێبێک یان شانۆیەک بەستووە"""),
-                          SentencesRow(
-                            englishText:
-                                "a screen adaptation of Shakespeare’s ‘Macbeth’",
-                            kurdishText: "سازاندنی فیلمیی ماکبێسی شکسپیر.",
-                            onPressedBritish: () => speakadaptat2489("en-GB"),
-                            onPressedAmerican: () => speakadaptat2489("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "a screen adaptation of Shakespeare’s ‘Macbeth’",
+                      kurdishText: "سازاندنی فیلمیی ماکبێسی شکسپیر.",
+                      onPressedBritish: () => speakadaptat2489("en-GB"),
+                      onPressedAmerican: () => speakadaptat2489("en-US"),
+                    ),
                   ],
                 ),
               ),

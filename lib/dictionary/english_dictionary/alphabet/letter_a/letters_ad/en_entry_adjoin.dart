@@ -98,8 +98,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
-    
     const String videoIdend = 'ySyx-7CZJfg';
     const double startSecondsend = 372;
     const String videoIdone = 'kXj0nauVj0M';
@@ -118,7 +116,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -166,21 +163,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: تێکەڵ بوون، پێکھێنان، نزیک بوون
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) بوون لە تەنیشت شتێک، یان گرێدراو پێوەی"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "It's at this point that these three neighbourhoods adjoin.",
-                            kurdishText:
-                                "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن.",
-                            onPressedBritish: () => speakadjo77444("en-GB"),
-                            onPressedAmerican: () => speakadjo77444("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (کردار) بوون لە تەنیشت شتێک، یان گرێدراو پێوەی"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "It's at this point that these three neighbourhoods adjoin.",
+                      kurdishText: "لەم خاڵەدایە کە ھەر سێ گەڕەکەکە یەکدەگرن.",
+                      onPressedBritish: () => speakadjo77444("en-GB"),
+                      onPressedAmerican: () => speakadjo77444("en-US"),
+                    ),
                   ],
                 ),
               ),

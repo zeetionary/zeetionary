@@ -24,7 +24,6 @@ class _EnglishEntryemphasisState extends State<EnglishEntryemphasis> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

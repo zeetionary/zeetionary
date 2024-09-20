@@ -24,7 +24,6 @@ class _EnglishEntryelderlyState extends State<EnglishEntryelderly> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

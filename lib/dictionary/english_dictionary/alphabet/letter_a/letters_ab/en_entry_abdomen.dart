@@ -94,7 +94,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -145,8 +144,7 @@ ${englishMeaningConst.text}
                     SingleChildScrollView(
                       child: CustomColumnWidget(
                         children: [
-                          const DefinitionKurdish(
-                              text: "١. (ناو) گەددە"),
+                          const DefinitionKurdish(text: "١. (ناو) گەددە"),
                           SentencesRow(
                             englishText:
                                 "// speakabdomens111111111111111111111111111111111",

@@ -97,7 +97,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     const String videoIdend = 'knNY46iQwvo';
     const double startSecondsend = 9;
     const String videoIdone = 'OyvWDUQvnrM';
@@ -112,7 +111,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -160,19 +158,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: نزیک، دراوسێ، ھاوسێ، دیواربەدیوار، تەنیشت‌بەتەنیشت، ئاوماڵ، لێک‌نزیک، لەپاڵیەک
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) نزیک لە شتێک" ""),
-                          SentencesRow(
-                            englishText:
-                                "Our farm land was adjacent to the river.",
-                            kurdishText:
-                                "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە.",
-                            onPressedBritish: () => speakadj255("en-GB"),
-                            onPressedAmerican: () => speakadj255("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) نزیک لە شتێک" ""),
+                    SentencesRow(
+                      englishText: "Our farm land was adjacent to the river.",
+                      kurdishText:
+                          "زەوییە جوتیارییەکەمان نزیک بوو لە ڕووبارەکە.",
+                      onPressedBritish: () => speakadj255("en-GB"),
+                      onPressedAmerican: () => speakadj255("en-US"),
+                    ),
                   ],
                 ),
               ),

@@ -988,7 +988,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1829,10 +1828,12 @@ ${englishMeaningConst.text}
                       ],
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) پێشبڕکێی ئەسپسواری"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) پێشبڕکێی ئەسپسواری"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He lost a lot of money on the horses (= by gambling on races).""",
+                      englishText:
+                          """He lost a lot of money on the horses (= by gambling on races).""",
                       kurdishText: """پارەی زۆری لەدەستدا لە ئەسپسواریدا.""",
                       onPressedBritish: () => speaksentence68("en-GB"),
                       onPressedAmerican: () => speaksentence68("en-US"),

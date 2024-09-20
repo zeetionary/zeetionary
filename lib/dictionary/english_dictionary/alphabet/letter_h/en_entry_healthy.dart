@@ -216,7 +216,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -272,7 +271,8 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText:
                           """The researchers then measured brain activity in two groups of healthy subjects.""",
-                      kurdishText: """توێژەران دواتر کۆڵیانەوە لە چالاکی مێشکی دوو گرووپ لە کەسانی تەندرووست.""",
+                      kurdishText:
+                          """توێژەران دواتر کۆڵیانەوە لە چالاکی مێشکی دوو گرووپ لە کەسانی تەندرووست.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

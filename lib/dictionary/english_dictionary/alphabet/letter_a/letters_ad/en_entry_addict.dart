@@ -86,8 +86,8 @@ ${englishMeaningConst.text}
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("""addict""");
   }
-  
-    Future<void> speakadd2354(String languageCode) async {
+
+  Future<void> speakadd2354(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
@@ -103,8 +103,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
-    
     const String videoIdend = 'r8E1Hq5tktg';
     const double startSecondsend = 62;
     const String videoIdone = 'BvBQVvuP-BY';
@@ -123,7 +121,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -171,30 +168,27 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: (بنیادەمی) گیرۆدە، خووپێ‌گرتوو، ئالوودە، فێر، سەوداسەر، دیل، ھۆگر، گیرۆدە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کەسێک کە ناتوانێت دەستبەرداری شتێک بێت"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "Many young boys become computer addicts.",
-                            kurdishText:
-                                "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن.",
-                            onPressedBritish: () => speakadd2354("en-GB"),
-                            onPressedAmerican: () => speakadd2354("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "He used to be a drug addict for years.",
-                            kurdishText:
-                                "جاران بۆ ماوەیەکی زۆر ئاڵوودەی مادەی ھۆشبەر بوو.",
-                            onPressedBritish: () => speakaddi2541("en-GB"),
-                            onPressedAmerican: () => speakaddi2541("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) کەسێک کە ناتوانێت دەستبەرداری شتێک بێت"
+                            ""),
+                    SentencesRow(
+                      englishText: "Many young boys become computer addicts.",
+                      kurdishText:
+                          "ژمارەیەکی زۆر لە کوڕانی گەنج ئاڵوودەی کۆمپیوتەر دەبن.",
+                      onPressedBritish: () => speakadd2354("en-GB"),
+                      onPressedAmerican: () => speakadd2354("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "He used to be a drug addict for years.",
+                      kurdishText:
+                          "جاران بۆ ماوەیەکی زۆر ئاڵوودەی مادەی ھۆشبەر بوو.",
+                      onPressedBritish: () => speakaddi2541("en-GB"),
+                      onPressedAmerican: () => speakaddi2541("en-US"),
+                    ),
                   ],
                 ),
               ),

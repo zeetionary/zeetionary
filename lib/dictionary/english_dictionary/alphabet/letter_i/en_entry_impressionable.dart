@@ -9,10 +9,12 @@ class EnglishEntryimpressionable extends StatefulWidget {
   const EnglishEntryimpressionable({super.key});
 
   @override
-  State<EnglishEntryimpressionable> createState() => _EnglishEntryimpressionableState();
+  State<EnglishEntryimpressionable> createState() =>
+      _EnglishEntryimpressionableState();
 }
 
-class _EnglishEntryimpressionableState extends State<EnglishEntryimpressionable> {
+class _EnglishEntryimpressionableState
+    extends State<EnglishEntryimpressionable> {
   @override
   void initState() {
     super.initState();
@@ -92,7 +94,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He's at that impressionable age when he's very easily led by other children.""");
+    await flutterTts.speak(
+        """He's at that impressionable age when he's very easily led by other children.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -923,7 +926,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/ewLpXw6uN28?t=';
     const double startSecondsend = 000000000000000000000000000536;
@@ -941,7 +943,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -993,9 +994,12 @@ ${englishMeaningConst.text}
 کوردی: زووکارتێ‌کراو، کارلێ‌کراو، هەستیار، ناسک
 """),
 // With short examples define "impressionable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بە ئاسانی کاریگەر دەبێت بە ک/شت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بە ئاسانی کاریگەر دەبێت بە ک/شت"""),
                     SentencesRow(
-                      englishText: """He is in a highly impressionable state.""",
+                      englishText:
+                          """He is in a highly impressionable state.""",
                       kurdishText: """لە دۆخێکی تەواو هەستیارە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
@@ -1004,8 +1008,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He's at that impressionable age when he's very easily led by other children.""",
-                      kurdishText: """لە تەمەنێکی هەستیارە کە بە ئاسانی شوێن منداڵانی دیکە دەکەوێت.""",
+                      englishText:
+                          """He's at that impressionable age when he's very easily led by other children.""",
+                      kurdishText:
+                          """لە تەمەنێکی هەستیارە کە بە ئاسانی شوێن منداڵانی دیکە دەکەوێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

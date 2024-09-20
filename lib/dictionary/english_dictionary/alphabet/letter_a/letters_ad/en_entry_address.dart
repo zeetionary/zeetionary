@@ -183,8 +183,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
-    
     const String videoIdend = 'zPx5N6Lh3sw';
     const double startSecondsend = 1277;
     const String videoIdone = 'h_jrebvmPlk';
@@ -209,7 +207,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -257,93 +254,90 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ناونیشان، نیشان، شێوازی لێداون یان دووان، دەراوی دەم، (دەم‌و)ڕاوێژ، شارەزایی، وتاردان، قسەکردن لە بەردەم ئامادەبووان‌دا
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ناو) شوێنی ژیان یان کارکردنی کەسێک"""),
-                          SentencesRow(
-                            englishText:
-                                "I'll give you my address and phone number.",
-                            kurdishText:
-                                "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم.",
-                            onPressedBritish: () => speakadd774("en-GB"),
-                            onPressedAmerican: () => speakadd774("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Police found him at an address (= a house or flat) in West London.",
-                            kurdishText:
-                                "پۆلیس لە شوێنێک لە ڕۆژھەڵاتی لەندەن دۆزییەوە.",
-                            onPressedBritish: () => speakaddress452("en-GB"),
-                            onPressedAmerican: () => speakaddress452("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: """١. (ناو) شوێنی ژیان یان کارکردنی کەسێک"""),
+                    SentencesRow(
+                      englishText: "I'll give you my address and phone number.",
+                      kurdishText: "ناونیشان و ژمارە تەلەفۆنی خۆمت پێ ئەدەم.",
+                      onPressedBritish: () => speakadd774("en-GB"),
+                      onPressedAmerican: () => speakadd774("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "Police found him at an address (= a house or flat) in West London.",
+                      kurdishText:
+                          "پۆلیس لە شوێنێک لە ڕۆژھەڵاتی لەندەن دۆزییەوە.",
+                      onPressedBritish: () => speakaddress452("en-GB"),
+                      onPressedAmerican: () => speakaddress452("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) ژمارەیەک پیت و ژمارە کە ناونیشانی شوێنێک یان کەسێکە لەسەر ئینتەرنێت"""),
-                          SentencesRow(
-                            englishText: "What's your email address?",
-                            kurdishText: "ناونیشانی ئیمەیڵەکەت چییە؟",
-                            onPressedBritish: () => speakaddr2458("en-GB"),
-                            onPressedAmerican: () => speakaddr2458("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText: "What's your email address?",
+                      kurdishText: "ناونیشانی ئیمەیڵەکەت چییە؟",
+                      onPressedBritish: () => speakaddr2458("en-GB"),
+                      onPressedAmerican: () => speakaddr2458("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ناو) وتارێکی فەرمی"""),
-                          SentencesRow(
-                            englishText:
-                                "He gave details of the policy in an address to party members.",
-                            kurdishText:
-                                "وردەکارییەکانی سیاسەتیانی ڕوونکردەوە لە وتارێکدا بۆ ئەندامانی پارتەکە.",
-                            onPressedBritish: () => speakaddr624("en-GB"),
-                            onPressedAmerican: () => speakaddr624("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "He gave details of the policy in an address to party members.",
+                      kurdishText:
+                          "وردەکارییەکانی سیاسەتیانی ڕوونکردەوە لە وتارێکدا بۆ ئەندامانی پارتەکە.",
+                      onPressedBritish: () => speakaddr624("en-GB"),
+                      onPressedAmerican: () => speakaddr624("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٤. (کردار) بیرکرنەوە لە چۆنیەتی مامەڵەکردن لەگەل کێشەیەک"""),
-                          SentencesRow(
-                            englishText:
-                                "These concerns were not adequately addressed in the report.",
-                            kurdishText:
-                                "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە.",
-                            onPressedBritish: () => speakadd99("en-GB"),
-                            onPressedAmerican: () => speakadd99("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "These concerns were not adequately addressed in the report.",
+                      kurdishText:
+                          "ئەم نیگەرانیانە بەپێی پێویست لە ڕاپۆرتەکەدا مامەڵەیان لەگەڵ نەکراوە.",
+                      onPressedBritish: () => speakadd99("en-GB"),
+                      onPressedAmerican: () => speakadd99("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٥. (کردار) نووسینی ناو و ناونیشانی کەسێک و شوێنەکەی لەسەر نامەیەک"""),
-                          SentencesRow(
-                            englishText:
-                                "The letter was correctly addressed, but delivered to the wrong house.",
-                            kurdishText:
-                                "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا.",
-                            onPressedBritish: () => speakaddr11("en-GB"),
-                            onPressedAmerican: () => speakaddr11("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The letter was correctly addressed, but delivered to the wrong house.",
+                      kurdishText:
+                          "نامەکە بە درووستی ناو و ناونیشانی لەسەر نووسرابوو، بەڵام بۆ ماڵێکی ھەڵە نێردرا.",
+                      onPressedBritish: () => speakaddr11("en-GB"),
+                      onPressedAmerican: () => speakaddr11("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٦. (کردار) پێشکەشکردنی وتارێک بۆ کۆمەڵە کەسێک"""),
-                          SentencesRow(
-                            englishText:
-                                "The President has been asked to address the parliament.",
-                            kurdishText:
-                                "سەرۆک داوای لێکرا وتارێک لە پەرلەمان پێشکەش بکات.",
-                            onPressedBritish: () => speakaddre444("en-GB"),
-                            onPressedAmerican: () => speakaddre444("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The President has been asked to address the parliament.",
+                      kurdishText:
+                          "سەرۆک داوای لێکرا وتارێک لە پەرلەمان پێشکەش بکات.",
+                      onPressedBritish: () => speakaddre444("en-GB"),
+                      onPressedAmerican: () => speakaddre444("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٧. (کردار) وتنی شتێک ڕاستەوخۆ بە کەسێك"""),
-                          SentencesRow(
-                            englishText:
-                                "He addressed his comments to the supervisor.",
-                            kurdishText:
-                                "بۆچوونەکانی ڕاستەوخۆ بە سەرپەرشتیارەکە گووت.",
-                            onPressedBritish: () => speakaddr766("en-GB"),
-                            onPressedAmerican: () => speakaddr766("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "He addressed his comments to the supervisor.",
+                      kurdishText:
+                          "بۆچوونەکانی ڕاستەوخۆ بە سەرپەرشتیارەکە گووت.",
+                      onPressedBritish: () => speakaddr766("en-GB"),
+                      onPressedAmerican: () => speakaddr766("en-US"),
+                    ),
                   ],
                 ),
               ),

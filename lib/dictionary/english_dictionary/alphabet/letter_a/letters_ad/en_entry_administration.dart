@@ -9,10 +9,12 @@ class EnglishEntryadministration extends StatefulWidget {
   const EnglishEntryadministration({super.key});
 
   @override
-  State<EnglishEntryadministration> createState() => _EnglishEntryadministrationState();
+  State<EnglishEntryadministration> createState() =>
+      _EnglishEntryadministrationState();
 }
 
-class _EnglishEntryadministrationState extends State<EnglishEntryadministration> {
+class _EnglishEntryadministrationState
+    extends State<EnglishEntryadministration> {
   @override
   void initState() {
     super.initState();
@@ -138,7 +140,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'cCKkr2IIfVU';
     const double startSecondsend = 96;
     const String videoIdone = 'yXj7Hfrc5PM';
@@ -163,7 +164,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -211,64 +211,61 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: بەڕێوەبەری، بەڕێوەبردن، ھەڵسووڕاندن، بەڕێوەبەرایەتی، کارگێڕی،ج ێبەجێ‌کردن، پیادەکردن، سەرپەرشتی، سەرپەرستی، بەرپرسان، ھەڵسووڕێنەران، بەڕێوەبەران، میری، حکومەت، دان (سوێند)، بەڕێوەبەرایەتی، حکومەتی وڵات بەتایبەت لە ئەمریکا
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) بەڕێوەبردنی شوێنێک" ""),
-                          SentencesRow(
-                            englishText:
-                                "The university loses a lot of money through poor administration.",
-                            kurdishText:
-                                "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن.",
-                            onPressedBritish: () => speakadminis2547("en-GB"),
-                            onPressedAmerican: () => speakadminis2547("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ناو) بەڕێوەبردنی شوێنێک" ""),
+                    SentencesRow(
+                      englishText:
+                          "The university loses a lot of money through poor administration.",
+                      kurdishText:
+                          "زانکۆکە پارەیەکی زۆر لەدەستدەدات بەھۆی خراپ بەڕێوەبردن.",
+                      onPressedBritish: () => speakadminis2547("en-GB"),
+                      onPressedAmerican: () => speakadminis2547("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) حکومەتی وڵاتێک، بەتایبەتی ئەمریکا"""),
-                          SentencesRow(
-                            englishText:
-                                "He was Secretary of Education in Obama's first administration.",
-                            kurdishText:
-                                "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما.",
-                            onPressedBritish: () => speakadminist3547("en-GB"),
-                            onPressedAmerican: () => speakadminist3547("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "He was Secretary of Education in Obama's first administration.",
+                      kurdishText: "وەزیری پەروەردە بوو لە کابینەکەی ئۆباما.",
+                      onPressedBritish: () => speakadminist3547("en-GB"),
+                      onPressedAmerican: () => speakadminist3547("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ناو) پڕۆسەی ڕێکخستنی شێوازی کردنی شتێک"""),
-                          SentencesRow(
-                            englishText:
-                                "The administration of justice involves making sure that people are treated fairly in legal matters.",
-                            kurdishText:
-                                "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان.",
-                            onPressedBritish: () => speakadministr2222("en-GB"),
-                            onPressedAmerican: () =>
-                                speakadministr2222("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The administration of justice involves making sure that people are treated fairly in legal matters.",
+                      kurdishText:
+                          "ھەڵسووڕاندنی کاری دادپەروەری ئەوە لەخۆدەگرێت کە دڵنیایی بدەیت کە خەڵکی بە یەکسانی مامەڵەیان لەگەڵ دەکرێت لە کێشە یاساییەکان.",
+                      onPressedBritish: () => speakadministr2222("en-GB"),
+                      onPressedAmerican: () => speakadministr2222("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٤. (ناو) ئەو کەسانەی کە شوێنێک بەڕێوەدەبەن"""),
-                          SentencesRow(
-                            englishText:
-                                "The hospital administration can refuse patients' access to their own records.",
-                            kurdishText:
-                                "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن.",
-                            onPressedBritish: () => speakadmi25682("en-GB"),
-                            onPressedAmerican: () => speakadmi25682("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The hospital administration can refuse patients' access to their own records.",
+                      kurdishText:
+                          "بەرپرسانی نەخۆشخانەکە دەتوانن ڕێگری لە نەخۆشان بکەن داتای خودی خۆیان ببینن.",
+                      onPressedBritish: () => speakadmi25682("en-GB"),
+                      onPressedAmerican: () => speakadmi25682("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٥. (ناو) پێدانی دەرمان بە کەسێک"""),
-                          SentencesRow(
-                            englishText:
-                                "There are strict controls on the administration of drugs.",
-                            kurdishText:
-                                "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان.",
-                            onPressedBritish: () => speakadm25589("en-GB"),
-                            onPressedAmerican: () => speakadm25589("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText:
+                          "There are strict controls on the administration of drugs.",
+                      kurdishText: "کۆنترۆڵی توند ھەیە لەسەر پێدانی دەرمان.",
+                      onPressedBritish: () => speakadm25589("en-GB"),
+                      onPressedAmerican: () => speakadm25589("en-US"),
+                    ),
                   ],
                 ),
               ),

@@ -923,7 +923,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/YcftTX82UQo?t=';
     const double startSecondsend = 00000000000000000000000000030;
@@ -941,7 +940,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -992,11 +990,15 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کەسێک کە هەست و سۆزی بەهێزی هەیە و زوو بەجۆش دێت یان تووڕە دەبێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کەسێک کە هەست و سۆزی بەهێزی هەیە و زوو بەجۆش دێت یان تووڕە دەبێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: passionate"),
                     SentencesRow(
-                      englishText: """The hot-blooded teen acted before thinking.""",
-                      kurdishText: """هەرزەکارە خوێن‌گەرمەکە هەنگاوی نا پێش بیرکردنەوە.""",
+                      englishText:
+                          """The hot-blooded teen acted before thinking.""",
+                      kurdishText:
+                          """هەرزەکارە خوێن‌گەرمەکە هەنگاوی نا پێش بیرکردنەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

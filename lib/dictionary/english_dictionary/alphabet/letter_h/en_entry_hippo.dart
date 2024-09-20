@@ -927,7 +927,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/UeH426gwVRc?t=';
     const double startSecondsend = 000000000000000000000000000316;
@@ -945,7 +944,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -998,12 +996,13 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "hippo", please follow LX instructions
                     CustomRichText(
-                    textBeforeLink: "١. بڕوانە لە ",
-                    linkText: "hippopotamus",
-                    textAfterLink: "",
-                    onTap: () {
-                    Routemaster.of(context).push("/english-hippo/hippopotamus");
-                    },
+                      textBeforeLink: "١. بڕوانە لە ",
+                      linkText: "hippopotamus",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context)
+                            .push("/english-hippo/hippopotamus");
+                      },
                     ),
                   ],
                 ),

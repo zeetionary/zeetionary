@@ -95,8 +95,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
-    
     const String videoIdend = 'iWaIFn4Yerk';
     const double startSecondsend = 1;
     const String videoIdone = 'gTZo4Cs8Zc8';
@@ -115,7 +113,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -163,20 +160,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: شارەزا، وەستا، لێزان، کارزان، شارەزایانە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ھاوەڵناو) شارەزا لە کردنی شتێکی گران"""),
-                          SentencesRow(
-                            englishText:
-                                "He was extremely adept at avoiding getting caught.",
-                            kurdishText:
-                                "زۆر شارەزا بوو لە خۆدزینەوە لە دەستگیرکردن.",
-                            onPressedBritish: () => speaka2588("en-GB"),
-                            onPressedAmerican: () => speaka2588("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) شارەزا لە کردنی شتێکی گران"""),
+                    SentencesRow(
+                      englishText:
+                          "He was extremely adept at avoiding getting caught.",
+                      kurdishText:
+                          "زۆر شارەزا بوو لە خۆدزینەوە لە دەستگیرکردن.",
+                      onPressedBritish: () => speaka2588("en-GB"),
+                      onPressedAmerican: () => speaka2588("en-US"),
+                    ),
                   ],
                 ),
               ),

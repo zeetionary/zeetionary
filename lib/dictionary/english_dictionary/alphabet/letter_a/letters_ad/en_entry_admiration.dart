@@ -95,7 +95,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = '55XJ1ObZKaM';
     const double startSecondsend = 1032;
     const String videoIdone = 'vCZId5-lmbk';
@@ -114,7 +113,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -162,18 +160,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پیاھەڵوتن، ستایشت(کردن)، پەسن‌دان، تاریف‌دان، مایەی پیاھەڵدان
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) ھەبوونی ڕێزگرتن بۆ کەسێک" ""),
-                          SentencesRow(
-                            englishText:
-                                "I have great admiration for her as a writer.",
-                            kurdishText: "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە.",
-                            onPressedBritish: () => speakadmira85971("en-GB"),
-                            onPressedAmerican: () => speakadmira85971("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) ھەبوونی ڕێزگرتن بۆ کەسێک" ""),
+                    SentencesRow(
+                      englishText:
+                          "I have great admiration for her as a writer.",
+                      kurdishText: "ڕێزی زۆرم بۆی وەک نووسەرێک ھەیە.",
+                      onPressedBritish: () => speakadmira85971("en-GB"),
+                      onPressedAmerican: () => speakadmira85971("en-US"),
+                    ),
                   ],
                 ),
               ),

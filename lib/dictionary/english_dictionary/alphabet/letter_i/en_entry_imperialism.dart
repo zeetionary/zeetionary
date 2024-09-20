@@ -9,7 +9,8 @@ class EnglishEntryimperialism extends StatefulWidget {
   const EnglishEntryimperialism({super.key});
 
   @override
-  State<EnglishEntryimperialism> createState() => _EnglishEntryimperialismState();
+  State<EnglishEntryimperialism> createState() =>
+      _EnglishEntryimperialismState();
 }
 
 class _EnglishEntryimperialismState extends State<EnglishEntryimperialism> {
@@ -88,7 +89,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Roman imperialism spread across Europe and the Mediterranean.""");
+    await flutterTts.speak(
+        """Roman imperialism spread across Europe and the Mediterranean.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,7 +928,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/3i1lNJPY-4Q?t=';
     const double startSecondsend = 000000000000000000000000000792;
@@ -944,7 +945,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -996,10 +996,14 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "imperialism", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) سیستەمێک کە تێیدا وڵاتێک یەکێکی دیکە کۆنترۆڵ دەکات، زۆرجار لە دوای ئەوەی لە جەنگدا تێکیان دەشکێنێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) سیستەمێک کە تێیدا وڵاتێک یەکێکی دیکە کۆنترۆڵ دەکات، زۆرجار لە دوای ئەوەی لە جەنگدا تێکیان دەشکێنێت"""),
                     SentencesRow(
-                      englishText: """Roman imperialism spread across Europe and the Mediterranean.""",
-                      kurdishText: """ئیمپریاڵیزمی ڕۆم بە ئەورووپا و دەریای ناوەڕاست بڵاوبوویەوە.""",
+                      englishText:
+                          """Roman imperialism spread across Europe and the Mediterranean.""",
+                      kurdishText:
+                          """ئیمپریاڵیزمی ڕۆم بە ئەورووپا و دەریای ناوەڕاست بڵاوبوویەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

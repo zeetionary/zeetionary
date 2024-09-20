@@ -236,6 +236,11 @@ class SettingsPage extends ConsumerWidget {
       body: Column(
         children: [
           ExpansionTile(
+            leading: Icon(
+              Icons.text_increase,
+              // Icons.text_fields,
+              color: Theme.of(context).primaryColor,
+            ),
             title: Text(
               'Text Size',
               style: TextStyle(
@@ -270,6 +275,11 @@ class SettingsPage extends ConsumerWidget {
           //   height: 20,
           // ),
           ExpansionTile(
+            leading: Icon(
+              Icons.dark_mode,
+              // Icons.wb_sunny,
+              color: Theme.of(context).primaryColor,
+            ),
             title: Text(
               'Select Theme',
               style: TextStyle(

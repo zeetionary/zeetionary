@@ -9,7 +9,8 @@ class EnglishEntryadditionally extends StatefulWidget {
   const EnglishEntryadditionally({super.key});
 
   @override
-  State<EnglishEntryadditionally> createState() => _EnglishEntryadditionallyState();
+  State<EnglishEntryadditionally> createState() =>
+      _EnglishEntryadditionallyState();
 }
 
 class _EnglishEntryadditionallyState extends State<EnglishEntryadditionally> {
@@ -92,29 +93,26 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
-    
-  const String videoIdend = 'NFtQOxjWfaA';
-  const double startSecondsend = 194;
-  const String videoIdone = 'kDdUdvNQndo';
-  const double startSecondsone = 209;
-  const String videoIdtwo = 'uhMoAkjcEO4';
-  const double startSecondstwo = 148;
-  const String videoIdthree = 'BmUrJaOo1Lw';
-  const double startSecondsthree = 121;
-  const String videoIdfour = '6QDvJ7Vtfac';
-  const double startSecondsfour = 98;
-  const String videoIdfive = '63tQ7yGmsmI';
-  const double startSecondsfive = 814;
-  // const String videoId = 'tURHTuKHBZs';
-  // const double startSeconds = 1015;
-  // const String videoId = 'qTPKGVrFtQU';
-  // const double startSeconds = 133;
+    const String videoIdend = 'NFtQOxjWfaA';
+    const double startSecondsend = 194;
+    const String videoIdone = 'kDdUdvNQndo';
+    const double startSecondsone = 209;
+    const String videoIdtwo = 'uhMoAkjcEO4';
+    const double startSecondstwo = 148;
+    const String videoIdthree = 'BmUrJaOo1Lw';
+    const double startSecondsthree = 121;
+    const String videoIdfour = '6QDvJ7Vtfac';
+    const double startSecondsfour = 98;
+    const String videoIdfive = '63tQ7yGmsmI';
+    const double startSecondsfive = 814;
+    // const String videoId = 'tURHTuKHBZs';
+    // const double startSeconds = 1015;
+    // const String videoId = 'qTPKGVrFtQU';
+    // const double startSeconds = 133;
 
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -162,20 +160,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: زۆرتر، پتر، سەرەڕای ئەمەش، سەرباری ئەمەش
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ھاوەڵکار) زیاتر لەوەی پێشووتر باسکراوە"""),
-                          SentencesRow(
-                            englishText:
-                                "The bus service runs on weekends. Additionally, the it will run on Sundays, every two hours.",
-                            kurdishText:
-                                "ھێڵی پاسەکە لە ڕۆژانی ھەفتە کارایە. جگە لەوەش، ڕۆژانی یەکشەممە ھەر دوو کاتژمێر جارێک بەردەست دەبێت.",
-                            onPressedBritish: () => speakaddit2541("en-GB"),
-                            onPressedAmerican: () => speakaddit2541("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) زیاتر لەوەی پێشووتر باسکراوە"""),
+                    SentencesRow(
+                      englishText:
+                          "The bus service runs on weekends. Additionally, the it will run on Sundays, every two hours.",
+                      kurdishText:
+                          "ھێڵی پاسەکە لە ڕۆژانی ھەفتە کارایە. جگە لەوەش، ڕۆژانی یەکشەممە ھەر دوو کاتژمێر جارێک بەردەست دەبێت.",
+                      onPressedBritish: () => speakaddit2541("en-GB"),
+                      onPressedAmerican: () => speakaddit2541("en-US"),
+                    ),
                   ],
                 ),
               ),

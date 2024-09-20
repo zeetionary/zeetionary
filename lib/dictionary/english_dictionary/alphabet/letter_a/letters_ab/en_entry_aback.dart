@@ -154,7 +154,6 @@ Adverb: aback
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'NU4MgeOb-cc';
     const double startSecondsend = 771;
     const String videoIdone = '4VSx2E7WE50';
@@ -171,14 +170,10 @@ Adverb: aback
     return DefaultTabController(
       length: 5,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              SliverAppBar(
-                pinned: true,
-                floating: true,
-                expandedHeight: 220.0,
+              CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
@@ -191,7 +186,6 @@ Adverb: aback
                     ),
                   ),
                 ),
-                automaticallyImplyLeading: false,
                 bottom: const CustomTabBarNew(
                   tabs: [
                     UkIconForTab(),

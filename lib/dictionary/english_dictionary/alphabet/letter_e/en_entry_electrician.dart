@@ -25,7 +25,6 @@ class _EnglishEntryelectricianState extends State<EnglishEntryelectrician> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

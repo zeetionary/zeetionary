@@ -270,7 +270,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was feeling a bit hot so I went outside for a moment.""");
+    await flutterTts
+        .speak("""I was feeling a bit hot so I went outside for a moment.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
@@ -305,7 +306,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He brought out a plate of sausages covered in hot mustard.""");
+    await flutterTts.speak(
+        """He brought out a plate of sausages covered in hot mustard.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
@@ -319,7 +321,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Today we enter the hottest phase of the election campaign.""");
+    await flutterTts.speak(
+        """Today we enter the hottest phase of the election campaign.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
@@ -347,7 +350,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""When things got too hot most journalists left the area.""");
+    await flutterTts
+        .speak("""When things got too hot most journalists left the area.""");
   }
 
   Future<void> speaksentence30(String languageCode) async {
@@ -382,14 +386,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Don't ask me—I'm not too hot on British history.""");
+    await flutterTts
+        .speak("""Don't ask me—I'm not too hot on British history.""");
   }
 
   Future<void> speaksentence35(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He had a hot temper and his colleagues learned to approach him with caution.""");
+    await flutterTts.speak(
+        """He had a hot temper and his colleagues learned to approach him with caution.""");
   }
 
   Future<void> speaksentence36(String languageCode) async {
@@ -410,7 +416,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Some of the nude scenes were regarded as too hot for children.""");
+    await flutterTts.speak(
+        """Some of the nude scenes were regarded as too hot for children.""");
   }
 
   Future<void> speaksentence39(String languageCode) async {
@@ -1006,7 +1013,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1195,7 +1201,8 @@ ${englishMeaningConst.text}
                       ],
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە کەسێک گەرمای بێت"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە کەسێک گەرمای بێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Is anyone too hot?""",
@@ -1216,7 +1223,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Her cheeks were hot with embarrassment.""",
+                      englishText:
+                          """Her cheeks were hot with embarrassment.""",
                       kurdishText: """گۆناکانی لە شەرمدا گەرم ببوون.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
@@ -1225,7 +1233,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Her cheeks were hot with embarrassment.""",
+                      englishText:
+                          """Her cheeks were hot with embarrassment.""",
                       kurdishText: """تەواو گەرمام بوو و ئارەقاوی بووم.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
@@ -1234,8 +1243,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Don't you feel hot so close to the fire?""",
-                      kurdishText: """هەست بە گەرما ناکەیت هێندە نزیک لە ئاگرەکەوە؟""",
+                      englishText:
+                          """Don't you feel hot so close to the fire?""",
+                      kurdishText:
+                          """هەست بە گەرما ناکەیت هێندە نزیک لە ئاگرەکەوە؟""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -1243,13 +1254,16 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I was feeling a bit hot so I went outside for a moment.""",
-                      kurdishText: """کەمێک هەستم بە گەرما دەکرد بۆیە بۆ کەمێک چوومە دەرەوە.""",
+                      englishText:
+                          """I was feeling a bit hot so I went outside for a moment.""",
+                      kurdishText:
+                          """کەمێک هەستم بە گەرما دەکرد بۆیە بۆ کەمێک چوومە دەرەوە.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە وات لێدەکات گەرمات ببێت"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) کە وات لێدەکات گەرمات ببێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """London was hot and dusty.""",
@@ -1285,11 +1299,14 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (ھاوەڵناو) خواردنی توون"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ھاوەڵناو) خواردنی توون"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He brought out a plate of sausages covered in hot mustard.""",
-                      kurdishText: """دەورییەک لە سۆسجی هێنا بە داپۆشرابوو بە مەستاردی توون.""",
+                      englishText:
+                          """He brought out a plate of sausages covered in hot mustard.""",
+                      kurdishText:
+                          """دەورییەک لە سۆسجی هێنا بە داپۆشرابوو بە مەستاردی توون.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
@@ -1303,11 +1320,15 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (ھاوەڵناو) کە ژمارەیەکی زۆر مشتومڕ، چالاکی، و هەست و سۆز لەخۆ دەگرێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (ھاوەڵناو) کە ژمارەیەکی زۆر مشتومڕ، چالاکی، و هەست و سۆز لەخۆ دەگرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Today we enter the hottest phase of the election campaign.""",
-                      kurdishText: """ئەمڕۆ دەچینە توندترین قۆناغی کەمپینی هەڵبژاردن.""",
+                      englishText:
+                          """Today we enter the hottest phase of the election campaign.""",
+                      kurdishText:
+                          """ئەمڕۆ دەچینە توندترین قۆناغی کەمپینی هەڵبژاردن.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
@@ -1315,8 +1336,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The environment has become a very hot issue.""",
-                      kurdishText: """ژینگە بووە بە بابەتێکی تەواو گەرم‌وگوڕ.""",
+                      englishText:
+                          """The environment has become a very hot issue.""",
+                      kurdishText:
+                          """ژینگە بووە بە بابەتێکی تەواو گەرم‌وگوڕ.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
@@ -1324,13 +1347,16 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Competition is getting hotter day by day.""",
+                      englishText:
+                          """Competition is getting hotter day by day.""",
                       kurdishText: """پێشبڕکێ بەتینتر دەبێت ڕۆژ بە ڕۆژ.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (ھاوەڵناو) کە سەخت یان ترسناکە بۆ مامەڵە لەگەڵ کردن و وادەکات هەست بە نیگەرانی یان نائاسوودەیی بکەیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (ھاوەڵناو) کە سەخت یان ترسناکە بۆ مامەڵە لەگەڵ کردن و وادەکات هەست بە نیگەرانی یان نائاسوودەیی بکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """They're making life hot for her.""",
@@ -1342,17 +1368,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """When things got too hot most journalists left the area.""",
-                      kurdishText: """کە شتەکان زۆر مەترسیدار بوون زۆرینەی ڕۆژنامەنووسان ناوچەکەیان جێهێشت.""",
+                      englishText:
+                          """When things got too hot most journalists left the area.""",
+                      kurdishText:
+                          """کە شتەکان زۆر مەترسیدار بوون زۆرینەی ڕۆژنامەنووسان ناوچەکەیان جێهێشت.""",
                       onPressedBritish: () => speaksentence29("en-GB"),
                       onPressedAmerican: () => speaksentence29("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (ھاوەڵناو) کە تازە، بەجۆشهێنەر، و زۆر بەناوبانگە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٧. (ھاوەڵناو) کە تازە، بەجۆشهێنەر، و زۆر بەناوبانگە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """This is one of the hottest clubs in town.""",
-                      kurdishText: """ئەمە یەکێکە لە ناسراوترین یانەکانی شار.""",
+                      englishText:
+                          """This is one of the hottest clubs in town.""",
+                      kurdishText:
+                          """ئەمە یەکێکە لە ناسراوترین یانەکانی شار.""",
                       onPressedBritish: () => speaksentence30("en-GB"),
                       onPressedAmerican: () => speaksentence30("en-US"),
                     ),
@@ -1360,13 +1392,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They are one of this year's hot new bands.""",
-                      kurdishText: """یەکێکن لە باندە تازە بەناوبانگەکانی ئەمساڵن.""",
+                      englishText:
+                          """They are one of this year's hot new bands.""",
+                      kurdishText:
+                          """یەکێکن لە باندە تازە بەناوبانگەکانی ئەمساڵن.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٨. (ھاوەڵناو) زۆر تازە و پێشتر نەبینراو کە خۆشە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٨. (ھاوەڵناو) زۆر تازە و پێشتر نەبینراو کە خۆشە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I've got some hot gossip for you!""",
@@ -1375,34 +1411,45 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence32("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٩. (ھاوەڵناو) کە ئەگەری هەیە سەرکەوتوو بێت"""),
+                    const DefinitionKurdish(
+                        text: """٩. (ھاوەڵناو) کە ئەگەری هەیە سەرکەوتوو بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Do you have any hot tips for today's race?""",
-                      kurdishText: """هیچ ڕاوێژێکی باشت پێیە بۆ پێشبڕکێی ئەمڕۆ؟""",
+                      englishText:
+                          """Do you have any hot tips for today's race?""",
+                      kurdishText:
+                          """هیچ ڕاوێژێکی باشت پێیە بۆ پێشبڕکێی ئەمڕۆ؟""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٠. (ھاوەڵناو) زۆر باش لە کردنی شتێک"""),
+                    const DefinitionKurdish(
+                        text: """١٠. (ھاوەڵناو) زۆر باش لە کردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Don't ask me—I'm not too hot on British history.""",
-                      kurdishText: """لە من مەپرسە ـ زۆر شارەزا نیم لە مێژووی بەریتانیا.""",
+                      englishText:
+                          """Don't ask me—I'm not too hot on British history.""",
+                      kurdishText:
+                          """لە من مەپرسە ـ زۆر شارەزا نیم لە مێژووی بەریتانیا.""",
                       onPressedBritish: () => speaksentence34("en-GB"),
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١١. (ھاوەڵناو) کەسێک کە زوو تووڕە دەبێت"""),
+                    const DefinitionKurdish(
+                        text: """١١. (ھاوەڵناو) کەسێک کە زوو تووڕە دەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He had a hot temper and his colleagues learned to approach him with caution.""",
-                      kurdishText: """مەجازێکی خراپی هەبوو و هاوکارەکانی فێربوون بە وریایی لێی نزیک ببنەوە.""",
+                      englishText:
+                          """He had a hot temper and his colleagues learned to approach him with caution.""",
+                      kurdishText:
+                          """مەجازێکی خراپی هەبوو و هاوکارەکانی فێربوون بە وریایی لێی نزیک ببنەوە.""",
                       onPressedBritish: () => speaksentence35("en-GB"),
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٢. (ھاوەڵناو) کە ورووژانی جەستەیی درووست دەکات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٢. (ھاوەڵناو) کە ورووژانی جەستەیی درووست دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She's really hot!""",
@@ -1420,19 +1467,26 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٣. (ھاوەڵناو) کە دیمەن، قسە، هتد ــی شۆکهێنەر لەخۆ دەگرێت کە دەکرێت تووڕەیی درووست بکات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٣. (ھاوەڵناو) کە دیمەن، قسە، هتد ــی شۆکهێنەر لەخۆ دەگرێت کە دەکرێت تووڕەیی درووست بکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Some of the nude scenes were regarded as too hot for children.""",
-                      kurdishText: """هەندێک لە دیمەنەکان بە زۆر توند بوون بۆ منداڵان.""",
+                      englishText:
+                          """Some of the nude scenes were regarded as too hot for children.""",
+                      kurdishText:
+                          """هەندێک لە دیمەنەکان بە زۆر توند بوون بۆ منداڵان.""",
                       onPressedBritish: () => speaksentence38("en-GB"),
                       onPressedAmerican: () => speaksentence38("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٤. (ھاوەڵناو) دڵنیایی کردنەوەی ئەوەی کە شتێک زۆر گرنگە و دەبێت هەمیشە بکرێت یان ڕووبدات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٤. (ھاوەڵناو) دڵنیایی کردنەوەی ئەوەی کە شتێک زۆر گرنگە و دەبێت هەمیشە بکرێت یان ڕووبدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They're very hot on punctuality at work.""",
+                      englishText:
+                          """They're very hot on punctuality at work.""",
                       kurdishText: """زۆر توندن لەسەر خاڵبەندی لەسەر کار.""",
                       onPressedBritish: () => speaksentence39("en-GB"),
                       onPressedAmerican: () => speaksentence39("en-US"),

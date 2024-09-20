@@ -11,30 +11,62 @@ class HistoryScreen extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const DefaultTabController(
+    // return const DefaultTabController(
+    //   length: 3,
+    //   child: Scaffold(
+    //     appBar: ZeetionaryAppbar(),
+    //     body: Padding(
+    //       padding: EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
+    //       child: Column(
+    //         children: [
+    //           CustomTabBarNoPrefferedSize(
+    //             tabs: [
+    //               UkIconForHistoryTab(),
+    //               KurdIconForHistoryTab(),
+    //               GrammarIconForHistoryTab(),
+    //             ],
+    //           ),
+    //           Expanded(
+    //             child: TabBarView(
+    //               children: [
+    //                 EnglishHistoryScreen(),
+    //                 KurdishHistoryScreen(),
+    //                 GrammarHistoryScreen(),
+    //               ],
+    //             ),
+    //           ),
+    //         ],
+    //       ),
+    //     ),
+    //   ),
+    // );
+    return DefaultTabController(
       length: 3,
       child: Scaffold(
-        appBar: ZeetionaryAppbar(),
-        body: Padding(
-          padding: EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              CustomTabBarNoPrefferedSize(
-                tabs: [
-                  UkIconForHistoryTab(),
-                  KurdIconForHistoryTab(),
-                  GrammarIconForHistoryTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    EnglishHistoryScreen(),
-                    KurdishHistoryScreen(),
-                    GrammarHistoryScreen(),
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              const SliverAppBar(
+                pinned: true,
+                floating: true,
+                snap: false,
+                automaticallyImplyLeading: false,
+                title: ZeetionaryAppbar(),
+                bottom: CustomTabBarNew(
+                  tabs: [
+                    UkIconForHistoryTab(),
+                    KurdIconForHistoryTab(),
+                    GrammarIconForHistoryTab(),
                   ],
                 ),
               ),
+            ];
+          },
+          body: const TabBarView(
+            children: [
+              EnglishHistoryScreen(),
+              KurdishHistoryScreen(),
+              GrammarHistoryScreen(),
             ],
           ),
         ),

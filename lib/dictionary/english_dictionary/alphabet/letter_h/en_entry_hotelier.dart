@@ -84,7 +84,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The hotelier planned a big event for the guests.""");
+    await flutterTts
+        .speak("""The hotelier planned a big event for the guests.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -922,7 +923,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/UX4KklvCDmg?t=';
     const double startSecondsend = 000000000000000000000000000705;
@@ -940,7 +940,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -991,10 +990,14 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (ناو) کەسێک کە خاوەن و بەڕێوەبەری هوتێلێکە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە خاوەن و بەڕێوەبەری هوتێلێکە"""),
                     SentencesRow(
-                      englishText: """The hotelier planned a big event for the guests.""",
-                      kurdishText: """خاوەن هوتێلەکە پلانی بۆنەیەکی گەورەی بۆ میوانەکان دانا.""",
+                      englishText:
+                          """The hotelier planned a big event for the guests.""",
+                      kurdishText:
+                          """خاوەن هوتێلەکە پلانی بۆنەیەکی گەورەی بۆ میوانەکان دانا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

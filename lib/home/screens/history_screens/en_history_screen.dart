@@ -27,6 +27,8 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
 
   Future<void> clearEnglishHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
+    final textSize = ref.watch(textSizeProvider);
+
     bool confirmClear = await showDialog(
       context: context,
       builder: (BuildContext context) {
@@ -93,12 +95,24 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
     if (confirmClear == true) {
       await prefs.remove('english history');
       if (!context.mounted) return;
-      ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
-        content: Directionality(
-          textDirection: TextDirection.ltr,
-          child: Text('History cleared'),
+      ScaffoldMessenger.of(context).showSnackBar(
+        SnackBar(
+          backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+          showCloseIcon: true,
+          closeIconColor: Theme.of(context).primaryColor,
+          content: Directionality(
+            textDirection: TextDirection.ltr,
+            child: Text(
+              'History cleared',
+              style: TextStyle(
+                color: Theme.of(context).primaryColor,
+                fontSize: textSize + 1,
+              ),
+            ),
+          ),
+          behavior: SnackBarBehavior.floating,
         ),
-      ));
+      );
     }
   }
 
@@ -5549,8 +5563,7 @@ class _EnglishHistoryScreenState extends ConsumerState<EnglishHistoryScreen> {
       "drive-by": "/history-screen/drive-by",
       "drive-in": "/history-screen/drive-in",
       "driver": "/history-screen/driver",
-      "driving licence":
-          "/history-screen/driving-licence",
+      "driving licence": "/history-screen/driving-licence",
       "driving test": "/history-screen/driving-test",
       "drivel": "/history-screen/drivel",
       "drizzle": "/history-screen/drizzle",

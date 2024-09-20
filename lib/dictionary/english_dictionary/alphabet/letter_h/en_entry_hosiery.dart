@@ -923,7 +923,6 @@ Usage: Brit, Cdn
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200
     const String videoIdend = 'https://youtu.be/h31p4OLbqSc?t=';
     const double startSecondsend = 000000000000000000000000000796;
@@ -941,7 +940,6 @@ Usage: Brit, Cdn
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -993,7 +991,9 @@ Usage: Brit, Cdn
 کوردی: 
 """),
 // With short examples define "hosiery", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) زیاتر لە فرۆشگا بەکاردێت بۆ جلی تەنک و گۆرەوی کورت و درێژ"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) زیاتر لە فرۆشگا بەکاردێت بۆ جلی تەنک و گۆرەوی کورت و درێژ"""),
                     SentencesRow(
                       englishText: """Hosiery is on the second floor, Madam.""",
                       kurdishText: """گۆرەوی و شت لە نهۆمی دووەمە، خاتوون.""",

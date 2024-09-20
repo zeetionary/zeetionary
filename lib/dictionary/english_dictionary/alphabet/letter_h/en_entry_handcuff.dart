@@ -136,7 +136,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -213,14 +212,14 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerSentences(),
-          SentencesRow(
-            englishText:
-                "The prisoners wore handcuffs and iron chains on their legs.",
-            kurdishText:
-                "زیندانییەکان کەلەپچە و زنجیری ئاسنینیان لە قاچیان بەسترابوو.",
-            onPressedBritish: () => speakhandcuffss2("en-GB"),
-            onPressedAmerican: () => speakhandcuffss2("en-US"),
-          ),
+                    SentencesRow(
+                      englishText:
+                          "The prisoners wore handcuffs and iron chains on their legs.",
+                      kurdishText:
+                          "زیندانییەکان کەلەپچە و زنجیری ئاسنینیان لە قاچیان بەسترابوو.",
+                      onPressedBritish: () => speakhandcuffss2("en-GB"),
+                      onPressedAmerican: () => speakhandcuffss2("en-US"),
+                    ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) دانانی کەلەپچە لە دەستی کەسێک"""),

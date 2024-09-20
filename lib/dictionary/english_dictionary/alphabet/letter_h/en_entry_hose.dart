@@ -956,7 +956,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -1031,19 +1030,21 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     CustomRichText(
-                    textBeforeLink: "٢. بڕوانە لە ",
-                    linkText: "hosiery",
-                    textAfterLink: "",
-                    onTap: () {
-                    Routemaster.of(context).push("/english-hose/hosiery");
-                    },
+                      textBeforeLink: "٢. بڕوانە لە ",
+                      linkText: "hosiery",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context).push("/english-hose/hosiery");
+                      },
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (کردار) شۆردن یان ئاو پرژاندن بە سۆندە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) شۆردن یان ئاو پرژاندن بە سۆندە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Firemen hosed the burning car.""",
-                      kurdishText: """ئاگرکوژێنەرەوەکان ئاویان کرد بە ئۆتۆمبێلە سووتاوەکەدا.""",
+                      kurdishText:
+                          """ئاگرکوژێنەرەوەکان ئاویان کرد بە ئۆتۆمبێلە سووتاوەکەدا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1053,7 +1054,8 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """I’ll just hose down the car.""",
                       kurdishText: """کەمێک ئۆتۆمبێلەکە پاکدەکەمەوە.""",
-                      englishNote: """This means the person is going to use a hose to spray water over the car, typically to clean it or wash off dirt.""",
+                      englishNote:
+                          """This means the person is going to use a hose to spray water over the car, typically to clean it or wash off dirt.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

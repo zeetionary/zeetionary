@@ -97,7 +97,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
     const String videoIdend = 'hW69OIdAey0';
     const double startSecondsend = 29;
     const String videoIdone = 'vS_k399L9Eg';
@@ -112,7 +111,6 @@ ${englishMeaningConst.text}
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -160,20 +158,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پیاھەڵدەر، پەسن‌دەر، تاریف‌دەر، ئەویندار، سەوداسەر، دڵ‌تێچوو، ئەوداڵ، لایەنگر
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کەسێک کە سەرسامە بە کەسێک/شتێک" ""),
-                          SentencesRow(
-                            englishText:
-                                "He is a great admirer of Picasso's early paintings.",
-                            kurdishText:
-                                "ئەوینداری تابلۆ یەکەمینەکانی پیکاسۆیە.",
-                            onPressedBritish: () => speakadmi582("en-GB"),
-                            onPressedAmerican: () => speakadmi582("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) کەسێک کە سەرسامە بە کەسێک/شتێک" ""),
+                    SentencesRow(
+                      englishText:
+                          "He is a great admirer of Picasso's early paintings.",
+                      kurdishText: "ئەوینداری تابلۆ یەکەمینەکانی پیکاسۆیە.",
+                      onPressedBritish: () => speakadmi582("en-GB"),
+                      onPressedAmerican: () => speakadmi582("en-US"),
+                    ),
                   ],
                 ),
               ),

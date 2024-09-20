@@ -122,26 +122,24 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-    
-  const String videoIdend = 'QIkodlp8HMM';
-  const double startSecondsend = 13;
-  const String videoIdone = 'lNAAzs4C-lQ';
-  const double startSecondsone = 379;
-  const String videoIdtwo = 'XFyo8m3zeEM';
-  const double startSecondstwo = 1;
-  const String videoIdthree = 'jJrtgrGmZQk';
-  const double startSecondsthree = 6;
-  const String videoIdfour = '-DFWS9tvfRo';
-  const double startSecondsfour = 56;
-  const String videoIdfive = 'ZoWlNIzOO0E';
-  const double startSecondsfive = 297;
-  // const String videoIdsix = 'sATO6kfi_VY';
-  // const double startSecondssix = 277;
+    const String videoIdend = 'QIkodlp8HMM';
+    const double startSecondsend = 13;
+    const String videoIdone = 'lNAAzs4C-lQ';
+    const double startSecondsone = 379;
+    const String videoIdtwo = 'XFyo8m3zeEM';
+    const double startSecondstwo = 1;
+    const String videoIdthree = 'jJrtgrGmZQk';
+    const double startSecondsthree = 6;
+    const String videoIdfour = '-DFWS9tvfRo';
+    const double startSecondsfour = 56;
+    const String videoIdfive = 'ZoWlNIzOO0E';
+    const double startSecondsfive = 297;
+    // const String videoIdsix = 'sATO6kfi_VY';
+    // const double startSecondssix = 277;
 
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
@@ -189,43 +187,40 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) گۆڕینی شتێک بە کەمی بۆ ئەوەی لەگەڵ بارودۆخێکی تازە بگونجێت"""),
-                          SentencesRow(
-                            englishText:
-                                "This button is for adjusting the volume.",
-                            kurdishText: "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە.",
-                            onPressedBritish: () => speakadj459("en-GB"),
-                            onPressedAmerican: () => speakadj459("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "The brakes need to be adjusted.",
-                            kurdishText: "وەستێنەرەکان دەبێت ڕێکبخرێن.",
-                            onPressedBritish: () => speakadj7596("en-GB"),
-                            onPressedAmerican: () => speakadj7596("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText: "This button is for adjusting the volume.",
+                      kurdishText: "ئەم دووگمە بۆ ڕێکخستنی دەنگەکەیە.",
+                      onPressedBritish: () => speakadj459("en-GB"),
+                      onPressedAmerican: () => speakadj459("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "The brakes need to be adjusted.",
+                      kurdishText: "وەستێنەرەکان دەبێت ڕێکبخرێن.",
+                      onPressedBritish: () => speakadj7596("en-GB"),
+                      onPressedAmerican: () => speakadj7596("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (کردار) خۆڕاھێنان بە بارودۆخێکی تازە"""),
-                          SentencesRow(
-                            englishText:
-                                "It took her a while to adjust to living alone.",
-                            kurdishText:
-                                "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان.",
-                            onPressedBritish: () => speakadj4589("en-GB"),
-                            onPressedAmerican: () => speakadj4589("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "It took her a while to adjust to living alone.",
+                      kurdishText: "ماوەیەکی پێچوو تا ڕابێت بە تەنھایی ژیان.",
+                      onPressedBritish: () => speakadj4589("en-GB"),
+                      onPressedAmerican: () => speakadj4589("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (کردار) کردنی گۆڕانێک لە شتێکدا بۆ ئەوەی باشتر یان ڕێکتر دەربکەوێت"""),
-                          SentencesRow(
-                            englishText:
-                                "He smoothed his hair and adjusted his tie.",
-                            kurdishText: "قژی سافکرد و بۆینباخەکەی ڕێکخست.",
-                            onPressedBritish: () => speakadj8542("en-GB"),
-                            onPressedAmerican: () => speakadj8542("en-US"),
-                          ),
+                    SentencesRow(
+                      englishText: "He smoothed his hair and adjusted his tie.",
+                      kurdishText: "قژی سافکرد و بۆینباخەکەی ڕێکخست.",
+                      onPressedBritish: () => speakadj8542("en-GB"),
+                      onPressedAmerican: () => speakadj8542("en-US"),
+                    ),
                   ],
                 ),
               ),

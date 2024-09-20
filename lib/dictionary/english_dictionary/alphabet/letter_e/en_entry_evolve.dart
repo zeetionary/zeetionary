@@ -33,7 +33,6 @@ class _EnglishEntryevolveState extends State<EnglishEntryevolve> {
     return DefaultTabController(
       length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [

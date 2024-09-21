@@ -246,7 +246,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "In French, you must include either the definite article 'le' or 'la', or the indefinite article 'un' or 'une', before a noun.",
             kurdishText:
-                "لە فەرەنسیدا دەبێت ھەر یەکێک لە ئامرازی ناسیاوی 'le' یان 'la'، یان ئامرازی نەناسراوی 'un' یان 'une' لە پێش ناوەوە.",
+                "لە فەرەنسیدا دەبێت ھەر یەکێک لە ئامرازی ناسراوی 'le' یان 'la'، یان ئامرازی نەناسراوی 'un' یان 'une' لە پێش ناوەوە.",
             onPressedBritish: () => speakdefinitearticles1("en-GB"),
             onPressedAmerican: () => speakdefinitearticles1("en-US"),
           ),

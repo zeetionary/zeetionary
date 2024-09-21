@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindelible indelible
-WORD_WEB indelible indelible indelible
-haʊʊʊʊʊʊʊ4
+- Adjective: indelible
+1. Cannot be removed or erased (- unerasable)
+"indelible memories"; "an indelible stain";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indelible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +85,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The experience made an indelible impression on me.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Her unhappy childhood left an indelible mark.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He wrote his name with an indelible marker.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
-    // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    // 188888880002200000000000
+    const String videoIdend = 'https://youtu.be/8XVRpotGsO0?t=';
+    const double startSecondsend = 00000000000000000000000000090;
+    const String videoIdone = 'https://youtu.be/2pCRplUQVMI?t=';
+    const double startSecondsone = 0000000000000000000000000002324;
+    const String videoIdtwo = 'https://youtu.be/Yu8PBEU8ADo?t=';
+    const double startSecondstwo = 000000000000000000000000000248;
+    const String videoIdthree = 'https://youtu.be/W2C2LHE0szI?t=';
+    const double startSecondsthree = 000000000000000000000000000719;
+    const String videoIdfour = 'https://youtu.be/O7chWBMNKns?t=';
+    const double startSecondsfour = 000000000000000000000000000169;
+    const String videoIdfive = 'https://youtu.be/69r1SxxPnaI?t=';
+    const double startSecondsfive = 00000000000000000000000000066;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """indelible""",
                       // alsoEnglishWord: "also: indelible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈdeləbl/""",
+                      americanText: """IpaUS: /ɪnˈdeləbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەسڕینەوەنەهاتوو، پاکەوەنەبوو، ناسڕێتەوە، لێوەنەبوو، بواردوو،	لەبیرەوەنەچوو، لە بیر ناچێتەوە
 """),
 // With short examples define "indelible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ئەستەمە لەبیر بکرێت یان بسڕدرێتەوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: permanent"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The experience made an indelible impression on me.""",
+                      kurdishText:
+                          """ئەزموونەکە کاریگەرییەکی لەبیرنەکراوی جێهێشت لەسەرم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1008,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her unhappy childhood left an indelible mark.""",
+                      kurdishText:
+                          """منداڵییەتیی ناخۆشی خاڵێکی لەبیرەوەنەچووی جێهێشت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) پێنووسێک کە ناسڕێتەوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: permanent"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He wrote his name with an indelible marker.""",
+                      kurdishText: """ناوی خۆی بە پێنووسێکی نەسڕاوە نووسی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

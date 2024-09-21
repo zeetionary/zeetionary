@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindelibly indelibly
-WORD_WEB indelibly indelibly indelibly
-haʊʊʊʊʊʊʊ4
+- Adverb: indelibly
+1. In an indelible manner
+"this tradition has left its mark indelibly upon the social, political, educational and industrial fabric of this country"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indelibly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The date was stamped indelibly on his memory.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Ink had indelibly stained his shirt pocket.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
-    // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    // 188888880002200000000000
+    const String videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsend = 000000000000000000000000000715;
+    const String videoIdone = 'https://youtu.be/eKVkQqFeTsQ?t=';
+    const double startSecondsone = 00000000000000000000000000060;
+    const String videoIdtwo = 'https://youtu.be/lyEQCYnYbyU?t=';
+    const double startSecondstwo = 000000000000000000000000000537;
+    const String videoIdthree = 'https://youtu.be/gfabA0KdniY?t=';
+    const double startSecondsthree = 000000000000000000000000000304;
+    const String videoIdfour = 'https://youtu.be/ohzFHI3PIW4';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/dFIBwOSnih0?t=';
+    const double startSecondsfive = 0000000000000000000000000002211;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """indelibly""",
                       // alsoEnglishWord: "also: indelibly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈdeləbli/""",
+                      americanText: """IpaUS: /ɪnˈdeləbli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +991,26 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "indelibly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ئەستەمە لەبیر بکرێت یان بسڕدرێتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The date was stamped indelibly on his memory.""",
+                      kurdishText:
+                          """ڕێکەوتەکە بە لەبیرنەکراوانە لە یادەوەرییدا چەسپابوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵکار) بە شێوەیەک کە ناسڕدرێتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Ink had indelibly stained his shirt pocket.""",
+                      kurdishText:
+                          """مەرەکەب بە لەسڕینەوەنەهاتووانە گیرفانی جلەکەی پیس کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

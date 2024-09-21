@@ -9,10 +9,12 @@ class EnglishEntryindefinitearticle extends StatefulWidget {
   const EnglishEntryindefinitearticle({super.key});
 
   @override
-  State<EnglishEntryindefinitearticle> createState() => _EnglishEntryindefinitearticleState();
+  State<EnglishEntryindefinitearticle> createState() =>
+      _EnglishEntryindefinitearticleState();
 }
 
-class _EnglishEntryindefinitearticleState extends State<EnglishEntryindefinitearticle> {
+class _EnglishEntryindefinitearticleState
+    extends State<EnglishEntryindefinitearticle> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindefinitearticle indefinite article
-WORD_WEB indefinite article indefinite article indefinite article
-haʊʊʊʊʊʊʊ4
+- Noun: indefinite article (Derived forms: indefinite articles)
+1. A determiner (as 'a' or 'some' in English) that indicates nonspecific reference
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indefinite article";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Don't forget that, before any word beginning with a vowel, the indefinite article would be 'an', for example 'an interesting book'.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """In French, you must include either the definite article 'le' or 'la', or the indefinite article 'un' or 'une', before a noun.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
-    // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    // 188888880002200000000000
+    const String videoIdend = 'https://youtu.be/Exiizp4KhTw?t=';
+    const double startSecondsend = 00000000000000000000000000048;
+    const String videoIdone = 'https://youtu.be/PZvqsyS-mRg?t=';
+    const double startSecondsone = 000000000000000000000000000496;
+    const String videoIdtwo = 'https://youtu.be/y5kl9MU1urc?t=';
+    const double startSecondstwo = 0000000000000000000000000001837;
+    const String videoIdthree = 'https://youtu.be/r_hifAAS5H8?t=';
+    const double startSecondsthree = 000000000000000000000000000336;
+    const String videoIdfour = 'https://youtu.be/Mk-fZbHnPpM?t=';
+    const double startSecondsfour = 000000000000000000000000000179;
+    const String videoIdfive = 'https://youtu.be/4MQg2I7_udg?t=';
+    const double startSecondsfive = 00000000000000000000000000040;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """indefinite article""",
                       // alsoEnglishWord: "also: indefinite article",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌdefɪnət ˈɑːtɪkl/""",
+                      americanText: """IpaUS: /ɪnˌdefɪnət ˈɑːrtɪkl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,12 +993,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "indefinite article", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئامرازی نەناسراوی a یان an لە زمانی ئینگلیزیدا، یان وشەیەکی دیکە لە زمانێکی دیکەدا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Don't forget that, before any word beginning with a vowel, the indefinite article would be 'an', for example 'an interesting book'.""",
+                      kurdishText:
+                          """بیرت نەچێت، پێش هەر وشەیەک کە بە بزوێن دەست پێبکات، ئامرازی نەناسراوی دەبێتە بە 'an'، بۆ نموونە 'an interesting book'.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In French, you must include either the definite article 'le' or 'la', or the indefinite article 'un' or 'une', before a noun.""",
+                      kurdishText:
+                          "لە فەرەنسیدا دەبێت ھەر یەکێک لە ئامرازی ناسراوی 'le' یان 'la'، یان ئامرازی نەناسراوی 'un' یان 'une' لە پێش ناوەوە.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

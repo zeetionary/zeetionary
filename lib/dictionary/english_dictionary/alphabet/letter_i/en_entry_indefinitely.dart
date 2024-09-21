@@ -9,7 +9,8 @@ class EnglishEntryindefinitely extends StatefulWidget {
   const EnglishEntryindefinitely({super.key});
 
   @override
-  State<EnglishEntryindefinitely> createState() => _EnglishEntryindefinitelyState();
+  State<EnglishEntryindefinitely> createState() =>
+      _EnglishEntryindefinitelyState();
 }
 
 class _EnglishEntryindefinitelyState extends State<EnglishEntryindefinitely> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindefinitely indefinitely
-WORD_WEB indefinitely indefinitely indefinitely
-haʊʊʊʊʊʊʊ4
+- Adverb: indefinitely
+1. To an indefinite extent; for an indefinite time
+"this could go on indefinitely"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indefinitely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +86,30 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The trial was postponed indefinitely.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Although we build things to last, we don’t expect them to last indefinitely.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Unions declared that the strike would continue indefinitely.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The decision has been deferred indefinitely.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
-    // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    // 188888880002200000000000
+    const String videoIdend = 'https://youtu.be/AwodL8z2EtE?t=';
+    const double startSecondsend = 0000000000000000000000000002174;
+    const String videoIdone = 'https://youtu.be/OPEh7UWmfDc?t=';
+    const double startSecondsone = 0000000000000000000000000001233;
+    const String videoIdtwo = 'https://youtu.be/g3Ud6mHdhlQ?t=';
+    const double startSecondstwo = 0000000000000000000000000001462;
+    const String videoIdthree = 'https://youtu.be/7Vm282YvOGw?t=';
+    const double startSecondsthree = 000000000000000000000000000697;
+    const String videoIdfour = 'https://youtu.be/GaLdHd2J-xM?t=';
+    const double startSecondsfour = 000000000000000000000000000462;
+    const String videoIdfive = 'https://youtu.be/iQ5GfDbjos8?t=';
+    const double startSecondsfive = 000000000000000000000000000569;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """indefinitely""",
                       // alsoEnglishWord: "also: indefinitely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈdefɪnətli/""",
+                      americanText: """IpaUS: /ɪnˈdefɪnətli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نادیارانە، تەماوی‌یانە، بە شێوەیێکی نادیار، تەژمانە
 """),
 // With short examples define "indefinitely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بۆ ماوەیەکی دیارینەکراو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The trial was postponed indefinitely.""",
+                      kurdishText:
+                          """دانیشتنی دادگا دواخرا بۆ کاتێکی نادیار.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Although we build things to last, we don’t expect them to last indefinitely.""",
+                      kurdishText:
+                          """ئەگەرچی شت درووست دەکەین بۆ ئەوەی زۆر بخایەنێت، پێشبینییان لێ ناکەین بۆ هەمیشە بەردەوام بن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1018,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Unions declared that the strike would continue indefinitely.""",
+                      kurdishText:
+                          "سەندیکاکان ڕایانگەیاند مانگرتنەکە تا کاتێکی نادیار بەردەوام دەبێت.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1029,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The decision has been deferred indefinitely.""",
+                      kurdishText: "بڕیارەکە بۆ کاتێکی نادیار دواخراوە.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

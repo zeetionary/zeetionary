@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindefinite indefinite
-WORD_WEB indefinite indefinite indefinite
-haʊʊʊʊʊʊʊ4
+- Adjective: indefinite
+1. Vague or not clearly defined or stated
+"must you be so indefinite?"; "amorphous blots of colour having vague and indefinite edges"; "he would not answer so indefinite a proposal"
+ 
+2. Not decided or not known
+"were indefinite about their plans"; "plans are indefinite"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indefinite";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She will be away for the indefinite future.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The workers have been on indefinite strike since July.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Many of these folk songs are extremely long with an indefinite number of verses.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
-    // 188888880002200
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    // 188888880002200000000000
+    const String videoIdend = 'https://youtu.be/FQ4hvLqNfqo?t=';
+    const double startSecondsend = 0000000000000000000000000001172;
+    const String videoIdone = 'https://youtu.be/KZbzIf_C6Y4?t=';
+    const double startSecondsone = 0000000000000000000000000001561;
+    const String videoIdtwo = 'https://youtu.be/caVoqAfdkYQ?t=';
+    const double startSecondstwo = 000000000000000000000000000748;
+    const String videoIdthree = 'https://youtu.be/1eYZnCx-02g?t=';
+    const double startSecondsthree = 000000000000000000000000000933;
+    const String videoIdfour = 'https://youtu.be/0PyTpUIn4ks?t=';
+    const double startSecondsfour = 000000000000000000000000000151;
+    const String videoIdfive = 'https://youtu.be/64pA31_WJa0?t=';
+    const double startSecondsfive = 000000000000000000000000000560;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """indefinite""",
                       // alsoEnglishWord: "also: indefinite",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈdefɪnət/""",
+                      americanText: """IpaUS: /ɪnˈdefɪnət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نادیار، تەماوی، تەژمە، ناڕۆشن، نەڕوون، دیاری‌نەکراو، بێ‌ئەنداز، بێ‌ئەژمار، بێ‌کوتایی
 """),
 // With short examples define "indefinite", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بۆ ماوەیەکی درێژ بەردەوام دەبێت بەبێ هیچ سنوورێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She will be away for the indefinite future.""",
+                      kurdishText: """دوور دەبێت بۆ داهاتوویەکی نادیار.""",
+                      englishNote:
+                          """This means that she will be absent for an unknown or unclear period of time, with no specific return date or time frame being set. The word "indefinite" suggests that the duration is not determined.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1012,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The workers have been on indefinite strike since July.""",
+                      kurdishText:
+                          """کرێکارەکان لە مانگرتنێکی بێ‌کۆتایی بوونە لەوەتەی تەممووزەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە بە تەواوی دیاری نەکراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Many of these folk songs are extremely long with an indefinite number of verses.""",
+                      kurdishText:
+                          """زۆرێک لەم گۆرانییە نەریتییانە تەواو درێژن بەبێ ژمارەیەکی دیاریکراو لە دێڕەکانی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

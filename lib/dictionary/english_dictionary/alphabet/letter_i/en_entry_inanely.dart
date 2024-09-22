@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinanely inanely
-WORD_WEB inanely inanely inanely
-haʊʊʊʊʊʊʊ4
+- Adverb: inanely
+1. Vacuously or complacently and unconsciously foolish (- fatuously)
+"The man is portrayed as being inanely prejudiced";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inanely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """You’re just sitting inanely in front of your computer for hours!""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/V2gfq42_5Tc?t=';
+    const double startSecondsend = 000000000000000000000000000157;
+    const String videoIdone = 'https://youtu.be/J4d4LobAa0U?t=';
+    const double startSecondsone = 000000000000000000000000000423;
+    const String videoIdtwo = 'https://youtu.be/Am4yHd5QhI0?t=';
+    const double startSecondstwo = 000000000000000000000000000443;
+    const String videoIdthree = 'https://youtu.be/o3VmasOh7z8?t=';
+    const double startSecondsthree = 0000000000000000000000000001370;
+    const String videoIdfour = 'https://youtu.be/1yKuLPKhN-M?t=';
+    const double startSecondsfour = 0000000000000000000000000002307;
+    const String videoIdfive = 'https://youtu.be/KcG1F39GBA8?t=';
+    const double startSecondsfive = 0000000000000000000000000003890;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inanely""",
                       // alsoEnglishWord: "also: inanely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈneɪnli/""",
+                      americanText: """IpaUS: /ɪˈneɪnli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گەوجانە، کەرانە
 """),
 // With short examples define "inanely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە شێوەیەکی گەمژانە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You’re just sitting inanely in front of your computer for hours!""",
+                      kurdishText:
+                          """تەنها گەمژانە بۆ چەندین کاتژمێر لە پێش کۆمپیوتەرەکەت دادەنیشیت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

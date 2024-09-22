@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinaccuracy inaccuracy
-WORD_WEB inaccuracy inaccuracy inaccuracy
-haʊʊʊʊʊʊʊ4
+- Noun: inaccuracy (Derived forms: inaccuracies)
+1. The quality of being inaccurate and having errors
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inaccuracy";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +84,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The writer is guilty of bias and inaccuracy.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Her statement contained one or two inaccuracies.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The article is full of inaccuracies.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/IgF3OX8nT0w?t=';
+    const double startSecondsend = 000000000000000000000000000933;
+    const String videoIdone = 'https://youtu.be/S4qvPouh1gE?t=';
+    const double startSecondsone = 0000000000000000000000000002954;
+    const String videoIdtwo = 'https://youtu.be/SHfqtaa0VI8?t=';
+    const double startSecondstwo = 000000000000000000000000000178;
+    const String videoIdthree = 'https://youtu.be/j4kI2h3iotA?t=';
+    const double startSecondsthree = 000000000000000000000000000385;
+    const String videoIdfour = 'https://youtu.be/vk9nbEdemPo?t=';
+    const double startSecondsfour = 0000000000000000000000000007;
+    const String videoIdfive = 'https://youtu.be/lctv_pyT62o?t=';
+    const double startSecondsfive = 000000000000000000000000000553;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inaccuracy""",
                       // alsoEnglishWord: "also: inaccuracy",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈækjərəsi/""",
+                      americanText: """IpaUS: /ɪnˈækjərəsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +988,27 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نادروستی، سەرنج‌پێنەدان، (لێ) وردنەبوونەوە، هەڵە، چەوتی، شاشی
 """),
 // With short examples define "inaccuracy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە درووست نەبێت و هەڵەی تێدا بێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The writer is guilty of bias and inaccuracy.""",
+                      kurdishText:
+                          """نووسەرەکە تێوەگلاوە لە لایەنگیری و نادرووستی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) هەڵە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her statement contained one or two inaccuracies.""",
+                      kurdishText: "لێدوانەکەی یەک یان دوو هەڵەی تێدا بوو.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1016,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The article is full of inaccuracies.""",
+                      kurdishText: """وتارەکە پڕە لە هەڵە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

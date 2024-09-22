@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinadequate inadequate
-WORD_WEB inadequate inadequate inadequate
-haʊʊʊʊʊʊʊ4
+- Adjective: inadequate
+1. Lacking the requisite qualities or resources to meet a task (- unequal)
+"inadequate training"; "the staff was inadequate";
+ 
+2. Of insufficient quantity to meet a need (- poor, short, jejune)
+"an inadequate income";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inadequate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The system is inadequate for the tasks it has to perform.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The food supplies are inadequate to meet the needs of the hungry.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""I felt totally inadequate as a parent.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Wao0_uB4Zw4?t=';
+    const double startSecondsend = 0000000000000000000000000001644;
+    const String videoIdone = 'https://youtu.be/BuX6-lvUwd0?t=';
+    const double startSecondsone = 000000000000000000000000000442;
+    const String videoIdtwo = 'https://youtu.be/NNnIGh9g6fA?t=';
+    const double startSecondstwo = 0000000000000000000000000002302;
+    const String videoIdthree = 'https://youtu.be/b4wRdoWpw0w?t=';
+    const double startSecondsthree = 000000000000000000000000000747;
+    const String videoIdfour = 'https://youtu.be/jLIUkk6Esr0?t=';
+    const double startSecondsfour = 000000000000000000000000000344;
+    const String videoIdfive = 'https://youtu.be/WwhyZUlmaWA?t=';
+    const double startSecondsfive = 0000000000000000000000000002803;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inadequate""",
                       // alsoEnglishWord: "also: inadequate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈædɪkwət/""",
+                      americanText: """IpaUS: /ɪnˈædɪkwət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەش‌نەکردوو، کەم، ناتەواو، لێنەوەشاو، لێنەهاتوو، بەکارنەهاتوو
 """),
 // With short examples define "inadequate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بەپێی پێویست نییە؛ کە بەپێی پێویست باش نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The system is inadequate for the tasks it has to perform.""",
+                      kurdishText:
+                          """سیستەمەکە ناکارامەیە بۆ ئەو ئەرکانەی کە دەبێت ئەنجامیان بدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1011,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The food supplies are inadequate to meet the needs of the hungry.""",
+                      kurdishText:
+                          """سەرچاوەکانی خواردن کەمن بۆ گەشتن بە پێداویستی کەسانی برسی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە توانای نییە یان لێوەشاوە نییە بۆ مامەڵەکردن لەگەڵ دۆخێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: incompetent"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I felt totally inadequate as a parent.""",
+                      kurdishText:
+                          """وەک دایبابێک تەواو هەستم بە لێنەهاتووی دەکرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

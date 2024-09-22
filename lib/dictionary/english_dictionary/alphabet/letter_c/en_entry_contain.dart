@@ -208,7 +208,7 @@ class EnglishEntrycontain extends StatelessWidget {
                                     englishText:
                                         "Her statement contained one or two inaccuracies.",
                                     kurdishText:
-                                        "لێدوانەکەی یەک یان دوو نادرووستی تێدا بوو.",
+                                        "لێدوانەکەی یەک یان دوو هەڵەی تێدا بوو.",
                                     onPressedBritish: () =>
                                         speakcontains5("en-GB"),
                                     onPressedAmerican: () =>

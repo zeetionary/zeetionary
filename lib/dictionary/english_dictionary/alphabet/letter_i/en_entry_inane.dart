@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinane inane
-WORD_WEB inane inane inane
-haʊʊʊʊʊʊʊ4
+- Adjective: inane (Derived forms: inaner, inanest)
+1. Showing a lack of intelligence or thought; stupid and silly (- asinine, fatuous)
+"Mel made a few inane comments about the importance of chewing only on the left side of one's mouth";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inane";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The last question was especially inane.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I wish you’d stop making these inane remarks!""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ElQdUHSXkME?t=';
+    const double startSecondsend = 000000000000000000000000000136;
+    const String videoIdone = 'https://youtu.be/YxXbB0NbLIo?t=';
+    const double startSecondsone = 000000000000000000000000000422;
+    const String videoIdtwo = 'https://youtu.be/7GBEXO-2480?t=';
+    const double startSecondstwo = 000000000000000000000000000577;
+    const String videoIdthree = 'https://youtu.be/Qe8of66Nkio?t=';
+    const double startSecondsthree = 00000000000000000000000000081;
+    const String videoIdfour = 'https://youtu.be/HuJBX_Ul6Jc?t=';
+    const double startSecondsfour = 00000000000000000000000000041;
+    const String videoIdfive = 'https://youtu.be/7QvNREeyKDg?t=';
+    const double startSecondsfive = 0000000000000000000000000001229;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inane""",
                       // alsoEnglishWord: "also: inane",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈneɪn/""",
+                      americanText: """IpaUS: /ɪˈneɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +988,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گەوجانە، کەرانە، بێ‌واتا، هیچەکە، قۆڕ
 """),
 // With short examples define "inane", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) گەمژانە و بێ‌واتا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The last question was especially inane.""",
+                      kurdishText: """کۆتا پرسیاری بەتایبەتی گەمژانە بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1004,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I wish you’d stop making these inane remarks!""",
+                      kurdishText: """بە هیوام لەم قسە هیچانە بوەستیت!""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

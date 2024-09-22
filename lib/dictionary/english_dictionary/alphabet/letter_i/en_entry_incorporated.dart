@@ -64,7 +64,7 @@ ${englishMeaningConst.text}
 """,
   );
 
-  final String keyword = "incorporated";
+  final String keyword = "Incorporated";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -84,7 +84,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""incorporated""");
+    await flutterTts.speak("""Incorporated""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -954,7 +954,7 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """incorporated""",
+                      word: """Incorporated""",
                       // alsoEnglishWord: "also: incorporated",
                       britshText: """IpaUK: /ɪnˈkɔːpəreɪtɪd/""",
                       americanText: """IpaUS: /ɪnˈkɔːrpəreɪtɪd/""",

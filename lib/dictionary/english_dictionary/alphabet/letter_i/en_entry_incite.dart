@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincite incite
-WORD_WEB incite incite incite
-haʊʊʊʊʊʊʊ4
+- Verb: incite (Derived forms: incited, inciting, incites)
+1. Give an incentive for action (- motivate, actuate, propel, move, prompt)
+"This incited me to sacrifice my career";
+ 
+2. Provoke or stir up (- instigate, set off, stir up)
+"incite a riot";
+ 
+3. Urge on; cause to act (- prod, egg on, egg)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incite";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""They were accused of inciting the crowd to violence.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He incited the workforce to come out on strike.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oiLdWXLXDeA?t=';
+    const double startSecondsend = 0000000000000000000000000001127;
+    const String videoIdone = 'https://youtu.be/3yvxFFsjcYs?t=';
+    const double startSecondsone = 000000000000000000000000000967;
+    const String videoIdtwo = 'https://youtu.be/B5ytcg5pYEA?t=';
+    const double startSecondstwo = 0000000000000000000000000001021;
+    const String videoIdthree = 'https://youtu.be/HhSNbKezP64?t=';
+    const double startSecondsthree = 000000000000000000000000000342;
+    const String videoIdfour = 'https://youtu.be/u8yL3I_6Oco?t=';
+    const double startSecondsfour = 000000000000000000000000000674;
+    const String videoIdfive = 'https://youtu.be/A7beCOs4yAw?t=';
+    const double startSecondsfive = 000000000000000000000000000449;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incite""",
                       // alsoEnglishWord: "also: incite",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsaɪt/""",
+                      americanText: """IpaUS: /ɪnˈsaɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +998,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incite", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) هاندانی کەسێک کە شتێکی توندووتیژانە، خراپ، یان نایاسایی بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They were accused of inciting the crowd to violence.""",
+                      kurdishText:
+                          """تاوانبارکران بەوەی کە خەڵکەکەیان بۆ توندووتیژی هانداوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1013,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He incited the workforce to come out on strike.""",
+                      kurdishText: """کرێکارانی هاندا مانگرتن ئەنجام بدەن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

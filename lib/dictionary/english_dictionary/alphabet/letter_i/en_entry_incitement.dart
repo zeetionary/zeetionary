@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincitement incitement
-WORD_WEB incitement incitement incitement
-haʊʊʊʊʊʊʊ4
+- Noun: incitement (Derived forms: incitements)
+1. An act of urging on or spurring on or rousing to action or instigating (- incitation)
+"the incitement of mutiny";
+ 
+2. Needed encouragement (- provocation)
+ 
+3. Something that incites or provokes; a means of arousing or stirring to action (- incitation, provocation)
+ 
+4. The act of exhorting; an earnest attempt at persuasion (- exhortation)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incitement";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +91,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""There are laws against incitement of racial hatred.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/GHUHgk8xCs0?t=';
+    const double startSecondsend = 0000000000000000000000000001835;
+    const String videoIdone = 'https://youtu.be/LJ0Hfc8hvpE?t=';
+    const double startSecondsone = 000000000000000000000000000108;
+    const String videoIdtwo = 'https://youtu.be/0DSO5Khbi1s?t=';
+    const double startSecondstwo = 000000000000000000000000000276;
+    const String videoIdthree = 'https://youtu.be/tYrdMjVXyNg?t=';
+    const double startSecondsthree = 0000000000000000000000000005124;
+    const String videoIdfour = 'https://youtu.be/XwqAInN9HWI?t=';
+    const double startSecondsfour = 00000000000000000000000000035;
+    const String videoIdfive = 'https://youtu.be/OaLxTz1Yw7M?t=';
+    const double startSecondsfive = 000000000000000000000000000485;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incitement""",
                       // alsoEnglishWord: "also: incitement",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsaɪtmənt/""",
+                      americanText: """IpaUS: /ɪnˈsaɪtmənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +995,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هان(دان)، ورووژاندن، دنەدان، فیت‌دان، تین‌دان، نوێڵ‌کردن، بزواندن،	بزوێنەر، هاندەر
 """),
 // With short examples define "incitement", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کەسێک هان بدەیت کاری توندووتیژی، نایاسایی، یان خراپ بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There are laws against incitement of racial hatred.""",
+                      kurdishText: """یاسا هەیە دژ بە هاندانی ڕقی ڕەگەزی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

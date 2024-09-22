@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincalculable incalculable
-WORD_WEB incalculable incalculable incalculable
-haʊʊʊʊʊʊʊ4
+- Adjective: incalculable
+1. Not able to be computed or enumerated
+"What I owe to them all is incalculable"
+ 
+2. Too much to be measured (- untold)
+"incalculable riches";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incalculable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +89,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The treasures are of incalculable value.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The oil spill has caused incalculable damage to the environment.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/NU4MgeOb-cc?t=';
+    const double startSecondsend = 0000000000000000000000000001038;
+    const String videoIdone = 'https://youtu.be/G61QhQjsvpw?t=';
+    const double startSecondsone = 000000000000000000000000000173;
+    const String videoIdtwo = 'https://youtu.be/xPNA9RlpkdI?t=';
+    const double startSecondstwo = 00000000000000000000000000050;
+    const String videoIdthree = 'https://youtu.be/yljsHQgJx9k?t=';
+    const double startSecondsthree = 0000000000000000000000000001128;
+    const String videoIdfour = 'https://youtu.be/MCBBV9CVeI4?t=';
+    const double startSecondsfour = 000000000000000000000000000813;
+    const String videoIdfive = 'https://youtu.be/ycOBZZeVeAc?t=';
+    const double startSecondsfive = 0000000000000000000000000002138;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incalculable""",
                       // alsoEnglishWord: "also: incalculable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkælkjələbl/""",
+                      americanText: """IpaUS: /ɪnˈkælkjələbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌ئەژمار، لە ڕادەبەدەر، لەژماردن‌نەهاتوو، لەژمارەبەدەر، نەژمێردراو، پێش‌بینی‌نەکراو، لەلێکدانەوەنەهاتوو،	وازی‌وازی، تاوتاو، ڕاڕا
 """),
 // With short examples define "incalculable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) زۆر گەورە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The treasures are of incalculable value.""",
+                      kurdishText: """گەنجینەکان بەهای بێ‌ئەژمارن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The oil spill has caused incalculable damage to the environment.""",
+                      kurdishText:
+                          """ڕژانی نەوت بووە بە هۆکاری زیانی لەژمارەبەدەر بە ژینگە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

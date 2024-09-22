@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincidentally incidentally
-WORD_WEB incidentally incidentally incidentally
-haʊʊʊʊʊʊʊ4
+- Adverb: incidentally
+1. Introducing a different topic (- by the way, by the bye, apropos)
+"incidentally, I won't go to the party";
+ 
+2. Of a minor or subordinate nature (- accidentally)
+"these magnificent achievements were only incidentally influenced by Oriental models";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incidentally";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +89,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Incidentally, have you heard the news about Sue?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The information was only discovered incidentally.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/LJNtfyq3TDE?t=';
+    const double startSecondsend = 000000000000000000000000000880;
+    const String videoIdone = 'https://youtu.be/kPqY_09Eouk?t=';
+    const double startSecondsone = 000000000000000000000000000287;
+    const String videoIdtwo = 'https://youtu.be/wh4aWZRtTwU?t=';
+    const double startSecondstwo = 0000000000000000000000000001079;
+    const String videoIdthree = 'https://youtu.be/h31p4OLbqSc?t=';
+    const double startSecondsthree = 0000000000000000000000000001070;
+    const String videoIdfour = 'https://youtu.be/P6bVl47kdNk?t=';
+    const double startSecondsfour = 0000000000000000000000000001314;
+    const String videoIdfive = 'https://youtu.be/BPGgyputhpA?t=';
+    const double startSecondsfive = 0000000000000000000000000002862;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incidentally""",
                       // alsoEnglishWord: "also: incidentally",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsɪˈdentli/""",
+                      americanText: """IpaUS: /ˌɪnsɪˈdentli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +994,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەپێی ڕێکەوت، بە ڕێکەوت، بە تێهەڵکێشی
 """),
 // With short examples define "incidentally", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بۆ باسکردنی بابەتێکی تازە، هەندێک زانیاری، یان پرسیارێک کە تازە بیرت لێکردووە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: by the way"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Incidentally, have you heard the news about Sue?""",
+                      kurdishText:
+                          """هەروەها، هەواڵەکەت بیستووە سەبارەت بە سوو؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە پلانی بۆ دانەنراوە بەڵام پەیوەندیدارە بە شتێکی دیکەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The information was only discovered incidentally.""",
+                      kurdishText: """زانیارییەکە تەنها بە ڕێکەوت دۆزرایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

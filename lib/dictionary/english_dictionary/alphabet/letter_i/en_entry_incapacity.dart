@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincapacity incapacity
-WORD_WEB incapacity incapacity incapacity
-haʊʊʊʊʊʊʊ4
+- Noun: incapacity (Derived forms: incapacities)
+1. Lack of intellectual power
+ 
+2. Lack of physical or natural qualifications
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incapacity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The incapacity of the police led to more crime in the city.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""She returned to work after a long period of incapacity.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/-VW6tHIcGfc?t=';
+    const double startSecondsend = 000000000000000000000000000819;
+    const String videoIdone = 'https://youtu.be/H7haxkYwAaU?t=';
+    const double startSecondsone = 0000000000000000000000000001005;
+    const String videoIdtwo = 'https://youtu.be/SCpgKvZB_VQ?t=';
+    const double startSecondstwo = 0000000000000000000000000002610;
+    const String videoIdthree = 'https://youtu.be/ahq-V1QG7o4?t=';
+    const double startSecondsthree = 000000000000000000000000000747;
+    const String videoIdfour = 'https://youtu.be/0vcVG-1BL_c?t=';
+    const double startSecondsfour = 000000000000000000000000000304;
+    const String videoIdfive = 'https://youtu.be/pt0LiGb43Bw?t=';
+    const double startSecondsfive = 0000000000000000000000000002915;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incapacity""",
                       // alsoEnglishWord: "also: incapacity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkəˈpæsəti/""",
+                      americanText: """IpaUS: /ˌɪnkəˈpæsəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +991,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: (هیچ)لەدەس‌نەهاتوویی، (هیچ)پێنەکراویی، دەسەوسانی، بێ‌دەسەڵاتی، بەیدەسی، پەک‌کەوتوویی، نەتوانی،	لێنەوەشاوەیی، لێنەهاتوویی
 """),
 // With short examples define "incapacity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کەمی توانا و شارەزایی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: inability"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The incapacity of the police led to more crime in the city.""",
+                      kurdishText:
+                          """ناکارامەیی پۆلیس بوو بە هۆکاری تاوانی زیاتر لە شارەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی کە زۆر نەخۆش بیت تاوەکو ئاگات لەخۆت بێت و کار بکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She returned to work after a long period of incapacity.""",
+                      kurdishText:
+                          """گەڕایەوە بۆ کار لە دوای ماوەیەکی زۆر لە پەککەوتووی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

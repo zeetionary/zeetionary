@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinbreeding inbreeding
-WORD_WEB inbreeding inbreeding inbreeding
-haʊʊʊʊʊʊʊ4
+- Noun: inbreeding (Derived forms: inbreedings)
+1. The act of mating closely related individuals
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inbreeding";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +84,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Inbreeding in animals can cause health issues.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The dangers of inbreeding include weakened immunity.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Inbreeding in ancient Egypt was practiced by the royal family.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsend = 000000000000000000000000000655;
+    const String videoIdone = 'https://youtu.be/oOAyQUBithQ?t=';
+    const double startSecondsone = 000000000000000000000000000357;
+    const String videoIdtwo = 'https://youtu.be/Z83I2tz5UzM?t=';
+    const double startSecondstwo = 000000000000000000000000000175;
+    const String videoIdthree = 'https://youtu.be/xLP8nXAcRwA?t=';
+    const double startSecondsthree = 00000000000000000000000000025;
+    const String videoIdfour = 'https://youtu.be/Z4wxVH3ICg0?t=';
+    const double startSecondsfour = 0000000000000000000000000002043;
+    const String videoIdfive = 'https://youtu.be/B5HORANmzHw?t=';
+    const double startSecondsfive = 00000000000000000000000000025;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inbreeding""",
                       // alsoEnglishWord: "also: inbreeding",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnbriːdɪŋ/""",
+                      americanText: """IpaUS: /ˈɪnbriːdɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +992,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "inbreeding", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هەبوونی پەیوەندی سێکسی و منداڵ لە نێوان ئەندامانی خێزانێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Inbreeding in animals can cause health issues.""",
+                      kurdishText:
+                          """زاوزێی خێزانی لە نێوان ئاژەڵان دەکرێت ببێتە هۆکاری کێشەی تەندرووستی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The dangers of inbreeding include weakened immunity.""",
+                      kurdishText:
+                          """مەترسییەکانی زاوزێی خێزانی بەرگری لاوازی جەستە دەگرێتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1018,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Inbreeding in ancient Egypt was practiced by the royal family.""",
+                      kurdishText:
+                          """زاوزێی خێزانی لە میسری کۆن لەلایەن خێزانی شاهانە ئەنجام دەدرا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

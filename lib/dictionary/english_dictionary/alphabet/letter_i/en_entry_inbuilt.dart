@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinbuilt inbuilt
-WORD_WEB inbuilt inbuilt inbuilt
-haʊʊʊʊʊʊʊ4
+- Adjective: inbuilt
+1. Existing as an essential constituent or characteristic (- built-in, constitutional, inherent, integral)
+"the Ptolemaic system with its inbuilt concept of periodicity";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inbuilt";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """His height gives him an inbuilt advantage over his opponent.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """He bought a camera with an inbuilt microphone for vlogging.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/sY8aFSY2zv4?t=';
+    const double startSecondsend = 0000000000000000000000000004153;
+    const String videoIdone = 'https://youtu.be/1X_KdkoGxSs?t=';
+    const double startSecondsone = 000000000000000000000000000800;
+    const String videoIdtwo = 'https://youtu.be/hlCc_TA7gw8?t=';
+    const double startSecondstwo = 0000000000000000000000000001401;
+    const String videoIdthree = 'https://youtu.be/zJ-LqeX_fLU?t=';
+    const double startSecondsthree = 0000000000000000000000000005209;
+    const String videoIdfour = 'https://youtu.be/9nXop2lLDa4?t=';
+    const double startSecondsfour = 0000000000000000000000000001763;
+    const String videoIdfive = 'https://youtu.be/zrFzSwHxiBQ?t=';
+    const double startSecondsfive = 000000000000000000000000000734;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inbuilt""",
                       // alsoEnglishWord: "also: inbuilt",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnbɪlt/""",
+                      americanText: """IpaUS: /ˈɪnbɪlt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +990,31 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زگماکی، خۆماک(ی)، خودایی، زاتی، سروشتی
 """),
 // With short examples define "inbuilt", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کوالێتییەک کە وەک بەشێکی سەرەکی ک/شت بوونی هەیە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا کەمتر: built-in"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His height gives him an inbuilt advantage over his opponent.""",
+                      kurdishText:
+                          """بەرزییەکەی سوودێکی خودایی پێدەدات بەسەر ڕکابەرەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە لەگەڵ شتێکی تردایە و بە دابڕاوی لەگەڵی نییە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا کەمتر: built-in"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He bought a camera with an inbuilt microphone for vlogging.""",
+                      kurdishText:
+                          """کامێرایەکی بە مایکرۆفۆنی ناوەکییەوە کڕی بۆ کاری ڤلۆگی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinasmuchas inasmuch as
-WORD_WEB inasmuch as inasmuch as inasmuch as
-haʊʊʊʊʊʊʊ4
+- Conjunction: inasmuch as
+1. used to introduce a phrase that explains why or how much something described in another part of the sentence is true
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inasmuch as";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """These results are reassuring, inasmuch as they show that mortality rates have declined.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Inasmuch as you are their commanding officer, you are responsible for the behaviour of these men.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondsend = 0000000000000000000000000004581;
+    const String videoIdone = 'https://youtu.be/2yJqjTiwpxM?t=';
+    const double startSecondsone = 000000000000000000000000000645;
+    const String videoIdtwo = 'https://youtu.be/V72L6RH3OD8?t=';
+    const double startSecondstwo = 0000000000000000000000000004410;
+    const String videoIdthree = 'https://youtu.be/-0AUXzG-nfo?t=';
+    const double startSecondsthree = 000000000000000000000000000104;
+    const String videoIdfour = 'https://youtu.be/_pSAUz2zRMM?t=';
+    const double startSecondsfour = 000000000000000000000000000303;
+    const String videoIdfive = 'https://youtu.be/-fxZa9WrZKI?t=';
+    const double startSecondsfive = 0000000000000000000000000002689;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inasmuch as""",
                       // alsoEnglishWord: "also: inasmuch as",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnəzˈmʌtʃ əz/""",
+                      americanText: """IpaUS: /ˌɪnəzˈmʌtʃ əz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: چون، چونکە، لەبەر ئەوە کە، تا ئەو جێگای کە
 """),
 // With short examples define "inasmuch as", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (لێکدەر) بۆ زیادکردنی لێوانێک بۆ شتێک کە گوتووتە، و ئەوەی چۆن ڕاستە؛ بۆ گوتنی شتێک کە ڕوونی دەکاتەوە کە چۆن یان بۆچی شتێکی تر کە گوتووتە ڕاستە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """These results are reassuring, inasmuch as they show that mortality rates have declined.""",
+                      kurdishText:
+                          """ئەنجامەکان جێگای هیوان. بەو پێیەی کە پیشانی دەدەن ئاستی مردن دابەزیەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Inasmuch as you are their commanding officer, you are responsible for the behaviour of these men.""",
+                      kurdishText:
+                          """بەو پێیەی کە ئەفسەری بەرپرسیاریانی، بەرپرسیت بۆ هەڵسووکەوتی ئەم سەربازانە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

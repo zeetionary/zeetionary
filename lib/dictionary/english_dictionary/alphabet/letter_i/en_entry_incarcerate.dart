@@ -53,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: incarcerate (Derived forms: incarcerated, incarcerates, incarcerating)
+1. (law) lock up or confine, in or as in a jail (- imprison, lag, immure, put behind bars, jail, jug [N. Amer, informal], gaol [Brit], put away, remand, prison [archaic])
+"the murderer was incarcerated for the rest of his life";
 
-EnglishEntryincarcerate incarcerate
-WORD_WEB incarcerate incarcerate incarcerate
-haʊʊʊʊʊʊʊ4
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incarcerate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Thousands were incarcerated in labour camps.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/mrilDQugeME?t=';
+    const double startSecondsend = 00000000000000000000000000057;
+    const String videoIdone = 'https://youtu.be/CzP23Zti-YI?t=';
+    const double startSecondsone = 0000000000000000000000000003059;
+    const String videoIdtwo = 'https://youtu.be/SG1vNoErfQw?t=';
+    const double startSecondstwo = 00000000000000000000000000098;
+    const String videoIdthree = 'https://youtu.be/YEhUUQQekkQ?t=';
+    const double startSecondsthree = 000000000000000000000000000174;
+    const String videoIdfour = 'https://youtu.be/tkxR1TcG4n4?t=';
+    const double startSecondsfour = 000000000000000000000000000365;
+    const String videoIdfive = 'https://youtu.be/g0MkYazCxyA?t=';
+    const double startSecondsfive = 000000000000000000000000000589;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incarcerate""",
                       // alsoEnglishWord: "also: incarcerate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkɑːsəreɪt/""",
+                      americanText: """IpaUS: /ɪnˈkɑːrsəreɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incarcerate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (کردار) زیندانی کردنی کەسێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: imprison"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Thousands were incarcerated in labour camps.""",
+                      kurdishText:
+                          """هەزاران کەس زیندانی کران لە کەمپەکانی کارکردن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

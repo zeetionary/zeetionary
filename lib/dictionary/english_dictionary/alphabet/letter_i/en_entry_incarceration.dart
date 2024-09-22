@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincarceration incarceration
-WORD_WEB incarceration incarceration incarceration
-haʊʊʊʊʊʊʊ4
+- Noun: incarceration (Derived forms: incarcerations)
+1. The state of being imprisoned (- captivity, imprisonment, immurement)
+"his ignominious incarceration in the local jail";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incarceration";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """There have been angry protests about his arrest and incarceration.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/gjySnrspD7E?t=';
+    const double startSecondsend = 0000000000000000000000000003387;
+    const String videoIdone = 'https://youtu.be/YwOMc-4OEWg?t=';
+    const double startSecondsone = 000000000000000000000000000633;
+    const String videoIdtwo = 'https://youtu.be/l554kV12Wuo?t=';
+    const double startSecondstwo = 00000000000000000000000000088;
+    const String videoIdthree = 'https://youtu.be/YZkXDuKto_Y?t=';
+    const double startSecondsthree = 0000000000000000000000000001740;
+    const String videoIdfour = 'https://youtu.be/CiRBQ3frG6U?t=';
+    const double startSecondsfour = 000000000000000000000000000641;
+    const String videoIdfive = 'https://youtu.be/S6rDvbQ-mz4?t=';
+    const double startSecondsfive = 000000000000000000000000000233;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incarceration""",
                       // alsoEnglishWord: "also: incarceration",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌkɑːsəˈreɪʃn/""",
+                      americanText: """IpaUS: /ɪnˌkɑːrsəˈreɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زیندان، گرتووخانە، بەندی‌خانە
 """),
 // With short examples define "incarceration", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی کەسێک زیندانی بکەیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: imprisonment"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There have been angry protests about his arrest and incarceration.""",
+                      kurdishText:
+                          """خۆپیشاندانی توند هەبوونە سەبارەت بە دەستگیرکردن و زیندانیکردنی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

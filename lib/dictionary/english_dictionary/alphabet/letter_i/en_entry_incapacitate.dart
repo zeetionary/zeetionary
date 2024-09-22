@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincapacitate incapacitate
-WORD_WEB incapacitate incapacitate incapacitate
-haʊʊʊʊʊʊʊ4
+- Verb: incapacitate (Derived forms: incapacitated, incapacitates, incapacitating)
+1. Make unable to perform a certain action (- disable, disenable)
+"incapacitate this command on your computer";
+ 
+2. Injure permanently (- disable, invalid, handicap)
+"He was incapacitated in a car accident";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incapacitate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +89,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He was incapacitated by old age and sickness.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The accident left me incapacitated for seven months.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/29n2bv7F6uc?t=';
+    const double startSecondsend = 00000000000000000000000000072;
+    const String videoIdone = 'https://youtu.be/jcM_Nd9xWeA?t=';
+    const double startSecondsone = 000000000000000000000000000487;
+    const String videoIdtwo = 'https://youtu.be/o5Q0sEeYNU4?t=';
+    const double startSecondstwo = 0000000000000000000000000001228;
+    const String videoIdthree = 'https://youtu.be/bJMh-nQ5r_0?t=';
+    const double startSecondsthree = 000000000000000000000000000568;
+    const String videoIdfour = 'https://youtu.be/QLNCl3dBqG8?t=';
+    const double startSecondsfour = 0000000000000000000000000001587;
+    const String videoIdfive = 'https://youtu.be/bJMh-nQ5r_0?t=';
+    const double startSecondsfive = 000000000000000000000000000569;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incapacitate""",
                       // alsoEnglishWord: "also: incapacitate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkəˈpæsɪteɪt/""",
+                      americanText: """IpaUS: /ˌɪnkəˈpæsɪteɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +996,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incapacitate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) واکردنی ئەوەی کەسێک نەتوانێت بە شێوەی ئاسایی بژی و کار بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was incapacitated by old age and sickness.""",
+                      kurdishText: """بە پیری و نەخۆشییەوە دەیناڵاند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The accident left me incapacitated for seven months.""",
+                      kurdishText:
+                          """ڕووداوەکە بۆ حەوت مانگ لە دەست و پێی خست.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

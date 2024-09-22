@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: incidental
+1. Not of prime or central importance (- nonessential, accidental)
+"incidental to the integral meanings of poetry";
+ 
+2. Occurring with or following as a consequence (- attendant, consequent, accompanying, concomitant, ensuant, resultant, sequent, collateral)
+"snags incidental to the changeover in management";
+ 
+3. Being minor or subordinate; happening as a chance consequence (- incident, accidental)
+"the road will bring other incidental advantages"; "extra duties incidental to the job"; "labour problems incidental to a rapid expansion"; "confusion incidental to a quick change"; "incidental expenses";
 
-EnglishEntryincidental incidental
-WORD_WEB incidental incidental incidental
-haʊʊʊʊʊʊʊ4
+- Noun: incidental (Derived forms: incidentals)
+1. (frequently plural) an expense not budgeted or not specified (- incidental expense, minor expense)
+"he requested reimbursement of £7 for incidental expenses";
+ 
+2. An item that is incidental
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incidental";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +97,32 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The discovery was incidental to their main research.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Information skills are not merely incidental to the curriculum but central to it.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""These risks are incidental to the work of a firefighter.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""You'll need money for incidentals such as tips and taxis.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +940,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wh4aWZRtTwU?t=';
+    const double startSecondsend = 000000000000000000000000000629;
+    const String videoIdone = 'https://youtu.be/p0gwPwtXLjI?t=';
+    const double startSecondsone = 000000000000000000000000000164;
+    const String videoIdtwo = 'https://youtu.be/tURHTuKHBZs?t=';
+    const double startSecondstwo = 0000000000000000000000000001730;
+    const String videoIdthree = 'https://youtu.be/IiyBo-qLDeM?t=';
+    const double startSecondsthree = 0000000000000000000000000001481;
+    const String videoIdfour = 'https://youtu.be/H4BsZTsNMkQ?t=';
+    const double startSecondsfour = 000000000000000000000000000264;
+    const String videoIdfive = 'https://youtu.be/GHRZ8JHTEf0?t=';
+    const double startSecondsfive = 000000000000000000000000000368;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +965,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incidental""",
                       // alsoEnglishWord: "also: incidental",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsɪˈdentl/""",
+                      americanText: """IpaUS: /ˌɪnsɪˈdentl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,41 +1004,52 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەم، چکۆلە، لاوەکی، ناسەرەکی، ناگرنگ، تێهەڵکێش، ڕێکەوتی، شانسی
 """),
 // With short examples define "incidental", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە پەیوەندیدار بە شتێکی دیکە ڕوودەدات بەڵام هێندەی ئەوە گرنگ نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The discovery was incidental to their main research.""",
+                      kurdishText:
+                          """دۆزینەوەکە بەشێک بوو لە توێژینەوەی سەرەکییان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Information skills are not merely incidental to the curriculum but central to it.""",
+                      kurdishText:
+                          """شارەزاییەکانی زانیاری تەنها بەشێک نین لە پڕۆگرامەکە بەڵکو بەشی سەرەکیین.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە وەک ئەنجامی سرووشتی شتێک ڕوودەدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """These risks are incidental to the work of a firefighter.""",
+                      kurdishText:
+                          """ئەم مەترسییانە بەشێکن لە کاری ئاگرکووژێنەرەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) شتێک کە ڕوودەدات پەیوەندیدار بە شتێکی دیکە ڕوودەدات بەڵام هێندەی ئەوە گرنگ نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You'll need money for incidentals such as tips and taxis.""",
+                      kurdishText:
+                          """پێویستیت بە پارەیە بۆ شتە لاوەکییەکانی وەک شاگردانە و کرێی تاکسی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

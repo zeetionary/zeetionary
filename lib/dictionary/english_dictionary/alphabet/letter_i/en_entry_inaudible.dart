@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinaudible inaudible
-WORD_WEB inaudible inaudible inaudible
-haʊʊʊʊʊʊʊ4
+- Adjective: inaudible
+1. Impossible to hear; imperceptible by the ear (- unhearable)
+"an inaudible conversation";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inaudible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +85,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She spoke in an almost inaudible whisper.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The sound is inaudible to the human ear.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The noise of the machinery made her voice inaudible.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/QvK7mlJdS_w?t=';
+    const double startSecondsend = 000000000000000000000000000494;
+    const String videoIdone = 'https://youtu.be/WziLgtdPSSk?t=';
+    const double startSecondsone = 000000000000000000000000000667;
+    const String videoIdtwo = 'https://youtu.be/z247GzZ_D1w?t=';
+    const double startSecondstwo = 000000000000000000000000000243;
+    const String videoIdthree = 'https://youtu.be/sMLhsrSfpwA?t=';
+    const double startSecondsthree = 000000000000000000000000000515;
+    const String videoIdfour = 'https://youtu.be/D0p3WqTzd2o?t=';
+    const double startSecondsfour = 000000000000000000000000000993;
+    const String videoIdfive = 'https://youtu.be/sYeM4H2-94A?t=';
+    const double startSecondsfive = 0000000000000000000000000001077;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inaudible""",
                       // alsoEnglishWord: "also: inaudible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈɔːdəbl/""",
+                      americanText: """IpaUS: /ɪnˈɔːdəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەبیسراو، دەنگ‌نەهاتوو، نزم، نابیسرێ، نەبیستەنی، لە بیستن یان ژنەفتن نایێ، لەبیستن‌نەهاتوو، کەم، (دەنگ) نەگەیشتوو
 """),
 // With short examples define "inaudible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە ناتوانیت بیبیستیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She spoke in an almost inaudible whisper.""",
+                      kurdishText:
+                          """بە چرپەیەکی تاڕادەیەک نەبیستراو قسەی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1006,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The sound is inaudible to the human ear.""",
+                      kurdishText: """دەنگەکە نەبیستراوە بۆ گوێی مرۆڤ.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1016,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The noise of the machinery made her voice inaudible.""",
+                      kurdishText:
+                          """دەنگەدەنگی ئامێرەکان وایان کرد دەنگی نەبیستراو بێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

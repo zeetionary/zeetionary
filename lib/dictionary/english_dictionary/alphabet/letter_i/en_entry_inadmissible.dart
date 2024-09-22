@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinadmissible inadmissible
-WORD_WEB inadmissible inadmissible inadmissible
-haʊʊʊʊʊʊʊ4
+- Adjective: inadmissible
+1. Not deserving to be admitted
+"inadmissible evidence"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inadmissible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Her confession was ruled inadmissible as evidence because it was given under pressure from the police.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/f2kEGj-S1Tc?t=';
+    const double startSecondsend = 000000000000000000000000000841;
+    const String videoIdone = 'https://youtu.be/lXXDpWMM-q4?t=';
+    const double startSecondsone = 00000000000000000000000000042;
+    const String videoIdtwo = 'https://youtu.be/ha7iWECm_8E?t=';
+    const double startSecondstwo = 000000000000000000000000000457;
+    const String videoIdthree = 'https://youtu.be/7WtsemKE8Rw?t=';
+    const double startSecondsthree = 000000000000000000000000000486;
+    const String videoIdfour = 'https://youtu.be/vhAcTYgwsnM?t=';
+    const double startSecondsfour = 000000000000000000000000000490;
+    const String videoIdfive = 'https://youtu.be/sXRhgFFQ5jA?t=';
+    const double startSecondsfive = 000000000000000000000000000569;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inadmissible""",
                       // alsoEnglishWord: "also: inadmissible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnədˈmɪsəbl/""",
+                      americanText: """IpaUS: /ˌɪnədˈmɪsəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پەسندنەکراو، لەپەسندنەهاتوو، ناڕەوا، قەدەغە، بێ‌باوەڕ، وەرنەگیراو، باوەڕپێ‌نەکراو، بێ‌بایەخ
 """),
 // With short examples define "inadmissible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ناکرێت ڕێگای پێ بدرێت یان پەسەند بکرێت، بە تایبەتی لە دادگا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her confession was ruled inadmissible as evidence because it was given under pressure from the police.""",
+                      kurdishText:
+                          """دانپێدانانەکەی بە پەسەندنەکراو دانرا چونکە لەژێر فشاری پۆلیس دای.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

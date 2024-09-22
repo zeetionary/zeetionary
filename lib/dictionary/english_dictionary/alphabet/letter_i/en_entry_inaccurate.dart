@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinaccurate inaccurate
-WORD_WEB inaccurate inaccurate inaccurate
-haʊʊʊʊʊʊʊ4
+- Adjective: inaccurate
+1. Erroneous
+"an inaccurate translation"; "the thermometer is inaccurate"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inaccurate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""We can't base a forecast on inaccurate information.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""All the maps we had were wildly inaccurate.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/pTk9HnIwEYU?t=';
+    const double startSecondsend = 000000000000000000000000000135;
+    const String videoIdone = 'https://youtu.be/d_fHun8jj2g?t=';
+    const double startSecondsone = 000000000000000000000000000919;
+    const String videoIdtwo = 'https://youtu.be/1I1vxu5qIUM?t=';
+    const double startSecondstwo = 000000000000000000000000000959;
+    const String videoIdthree = 'https://youtu.be/XkYvo6S82LE?t=';
+    const double startSecondsthree = 0000000000000000000000000001736;
+    const String videoIdfour = 'https://youtu.be/m1GEPsSVpZY?t=';
+    const double startSecondsfour = 000000000000000000000000000680;
+    const String videoIdfive = 'https://youtu.be/FrbiPlT-rJU?t=';
+    const double startSecondsfive = 000000000000000000000000000173;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inaccurate""",
                       // alsoEnglishWord: "also: inaccurate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈækjərət/""",
+                      americanText: """IpaUS: /ɪnˈækjərət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نادروست، ناڕاست، ناتەواو، هەڵە، شاش، چەوت
 """),
 // With short examples define "inaccurate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە ڕاست و درووست نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We can't base a forecast on inaccurate information.""",
+                      kurdishText:
+                          """ناتوانیت پێشبینییەک ببەستینەوە بە زانیاری نادرووست.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1006,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """All the maps we had were wildly inaccurate.""",
+                      kurdishText:
+                          """هەموو ئەو نەخشانەی هەمان بوو تەواو نادرووست بوون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinadvertent inadvertent
-WORD_WEB inadvertent inadvertent inadvertent
-haʊʊʊʊʊʊʊ4
+- Adjective: inadvertent
+1. Happening by chance, unexpectedly or unintentionally (- accidental)
+"with an inadvertent gesture she swept the vase off the table";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inadvertent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """All authors need to be wary of inadvertent copying of other people's ideas.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/pNTabwioBYM?t=';
+    const double startSecondsend = 000000000000000000000000000311;
+    const String videoIdone = 'https://youtu.be/x-QcbOphxYs?t=';
+    const double startSecondsone = 000000000000000000000000000513;
+    const String videoIdtwo = 'https://youtu.be/7wZUvZJgD4A?t=';
+    const double startSecondstwo = 000000000000000000000000000554;
+    const String videoIdthree = 'https://youtu.be/hW9DgwTgWwE?t=';
+    const double startSecondsthree = 0000000000000000000000000001563;
+    const String videoIdfour = 'https://youtu.be/kVrNmOmGB6c?t=';
+    const double startSecondsfour = 0000000000000000000000000001309;
+    const String videoIdfive = 'https://youtu.be/JAhdb7dKQpU?t=';
+    const double startSecondsfive = 000000000000000000000000000691;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inadvertent""",
                       // alsoEnglishWord: "also: inadvertent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnədˈvɜːtnt/""",
+                      americanText: """IpaUS: /ˌɪnədˈvɜːrtnt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەمتەرخەم، گوێ‌پێنەدەر، بێ‌سەرنج، نادەربەست، بێ‌خەیاڵ، ئالۆری،	بێ‌مەبەست، نائانقەست
 """),
 // With short examples define "inadvertent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بە ڕێکەوت دەکرێت؛ کە مەبەستت نییە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unintentional"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """All authors need to be wary of inadvertent copying of other people's ideas.""",
+                      kurdishText:
+                          """هەموو نووسەران بەئاگا بن لە کۆپی‌کردنی نائاگایانەی بیرۆکەی کەسانی دیکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinaugural inaugural
-WORD_WEB inaugural inaugural inaugural
-haʊʊʊʊʊʊʊ4
+- Adjective: inaugural
+1. Occurring at or characteristic of a formal investiture or induction
+"the President's inaugural address"; "an inaugural ball"
+ 
+2. Serving to set in motion (- initiative, initiatory, first, maiden)
+"the magazine's inaugural issue";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inaugural";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The President’s inaugural address focused on unity.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The airline hosted a ceremony for the inaugural flight of the plane.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/sZnDoZsWntM?t=';
+    const double startSecondsend = 000000000000000000000000000414;
+    const String videoIdone = 'https://youtu.be/VhI2EpAIcm4?t=';
+    const double startSecondsone = 000000000000000000000000000415;
+    const String videoIdtwo = 'https://youtu.be/TByLlkbUa8A?t=';
+    const double startSecondstwo = 00000000000000000000000000037;
+    const String videoIdthree = 'https://youtu.be/A7beCOs4yAw?t=';
+    const double startSecondsthree = 00000000000000000000000000040;
+    const String videoIdfour = 'https://youtu.be/jEL5i38GFd8?t=';
+    const double startSecondsfour = 0000000000000000000000000002;
+    const String videoIdfive = 'https://youtu.be/_S_dc2cmoZY?t=';
+    const double startSecondsfive = 0000000000000000000000000001200;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inaugural""",
                       // alsoEnglishWord: "also: inaugural",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈnɔːɡjərəl/""",
+                      americanText: """IpaUS: /ɪˈnɔːɡjərəl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەربە کردنەوەیی، کرانەوەیی
 """),
 // With short examples define "inaugural", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە یەکەمە و سەرەتای شتێکی گرنگە، بۆ نموونە ئەو کاتەی کە سەرکردەیەکی نوێ یان پەرلەمانێک دەست بە کارکردن دەکات، کاتێک ڕێکخراوێکی نوێ دروست دەبێت، یان کاتێک شتێک بۆ یەکەمجار بەکاردەهێنرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The President’s inaugural address focused on unity.""",
+                      kurdishText:
+                          """یەکەم وتاری سەرۆک جەختی کردەوە لەسەر یەکگرتووی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The airline hosted a ceremony for the inaugural flight of the plane.""",
+                      kurdishText:
+                          """هێڵە ئاسمانییەکە میواندارییەکی ڕێکخست بۆ یەکەمین گەشتی فڕۆکەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

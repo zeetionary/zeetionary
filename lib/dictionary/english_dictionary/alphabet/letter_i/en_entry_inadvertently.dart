@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinadvertently inadvertently
-WORD_WEB inadvertently inadvertently inadvertently
-haʊʊʊʊʊʊʊ4
+- Adverb: inadvertently
+1. Without knowledge or intention (- unwittingly, unknowingly)
+"he inadvertently deleted the references";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inadvertently";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""We had inadvertently left without paying the bill.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He inadvertently deleted the file.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/KhBxCx11eck?t=';
+    const double startSecondsend = 000000000000000000000000000646;
+    const String videoIdone = 'https://youtu.be/5pgxzPoxv4w?t=';
+    const double startSecondsone = 00000000000000000000000000071;
+    const String videoIdtwo = 'https://youtu.be/cykdSb7xqI4?t=';
+    const double startSecondstwo = 000000000000000000000000000399;
+    const String videoIdthree = 'https://youtu.be/KT18KJouHWg?t=';
+    const double startSecondsthree = 0000000000000000000000000001198;
+    const String videoIdfour = 'https://youtu.be/8A3jiM2FNR8?t=';
+    const double startSecondsfour = 000000000000000000000000000237;
+    const String videoIdfive = 'https://youtu.be/OdLyKETk5o0?t=';
+    const double startSecondsfive = 000000000000000000000000000624;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inadvertently""",
                       // alsoEnglishWord: "also: inadvertently",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnədˈvɜːtntli/""",
+                      americanText: """IpaUS: /ˌɪnədˈvɜːrtntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌مەبەستانە، نائانقەستانە، لە ڕووی نەزانی‌یەوە
 """),
 // With short examples define "inadvertently", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە ڕێکەوت؛ بەبێ مەبەست"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unintentionally"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We had inadvertently left without paying the bill.""",
+                      kurdishText: """بێ‌مەبەستانە چووین بەبێ پارەدان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He inadvertently deleted the file.""",
+                      kurdishText: """بە ڕێکەوت فایلەکەی سڕییەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

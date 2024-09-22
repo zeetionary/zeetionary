@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincisor incisor
-WORD_WEB incisor incisor incisor
-haʊʊʊʊʊʊʊ4
+- Noun: incisor (Derived forms: incisors)
+1. A tooth for cutting or gnawing; located in the front of the mouth in both jaws
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incisor";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She lost her front incisor during the game.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/XFeItKoT0Fw?t=';
+    const double startSecondsend = 000000000000000000000000000880;
+    const String videoIdone = 'https://youtu.be/qiuFj-R7Et0?t=';
+    const double startSecondsone = 00000000000000000000000000039;
+    const String videoIdtwo = 'https://youtu.be/wwzFB_UjtVQ?t=';
+    const double startSecondstwo = 0000000000000000000000000008149;
+    const String videoIdthree = 'https://youtu.be/bMsdlCDqhtI?t=';
+    const double startSecondsthree = 000000000000000000000000000393;
+    const String videoIdfour = 'https://youtu.be/n7zs6Kxpjus?t=';
+    const double startSecondsfour = 000000000000000000000000000305;
+    const String videoIdfive = 'https://youtu.be/kiw1Zv-B02c?t=';
+    const double startSecondsfive = 000000000000000000000000000252;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incisor""",
                       // alsoEnglishWord: "also: incisor",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsaɪzə(r)/""",
+                      americanText: """IpaUS: /ɪnˈsaɪzər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +987,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ددانی پێشەوە، دانی پچڕ، ددانی بڕەڕ
 """),
-// With short examples define "incisor", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) یەکێک لە ددانەکانی پێشەوە کە بۆ هەجووین بەکاردێت. مرۆڤ هەشت دانەی هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She lost her front incisor during the game.""",
+                      kurdishText:
+                          """لەکاتی یارییەکە بڕەڕی پێشەوەیی لەدەستدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinbred inbred
-WORD_WEB inbred inbred inbred
-haʊʊʊʊʊʊʊ4
+- Adjective: inbred
+1. Produced by inbreeding
+ 
+2. Normally existing at birth (- connatural, inborn)
+"mankind's inbred sense of the good";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inbred";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The inbred horse showed signs of weakness.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Inbred racism can be difficult to change in society.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsend = 000000000000000000000000000678;
+    const String videoIdone = 'https://youtu.be/OJ17e8U-5LE?t=';
+    const double startSecondsone = 000000000000000000000000000181;
+    const String videoIdtwo = 'https://youtu.be/T9Nx3RQkAB0?t=';
+    const double startSecondstwo = 000000000000000000000000000352;
+    const String videoIdthree = 'https://youtu.be/XrE0SnWsMIw?t=';
+    const double startSecondsthree = 0000000000000000000000000002387;
+    const String videoIdfour = 'https://youtu.be/h66CvBSHvJs?t=';
+    const double startSecondsfour = 000000000000000000000000000328;
+    const String videoIdfive = 'https://youtu.be/uuXlIbd50DQ?t=';
+    const double startSecondsfive = 0000000000000000000000000001447;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inbred""",
                       // alsoEnglishWord: "also: inbred",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnˈbred/""",
+                      americanText: """IpaUS: /ˌɪnˈbred/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +991,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زگماکی، خۆماک(ی)، خودایی، خۆیی، زاتی، سروشتی
 """),
 // With short examples define "inbred", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە ئەنجامی زاوزێی نێوان ئەندامانی هەمان خێزان درووست بووە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The inbred horse showed signs of weakness.""",
+                      kurdishText:
+                          """ئەسپە ناشەرعییەکە نیشانەکانی لاوازی تێدا بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) خاسیەتێک کە هەتە لە لەدایکبوونەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Inbred racism can be difficult to change in society.""",
+                      kurdishText:
+                          """ڕەگەزپەرستی زگماکی دەکرێت سەخت بێت بگپڕدرێت لە کۆمەڵگادا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

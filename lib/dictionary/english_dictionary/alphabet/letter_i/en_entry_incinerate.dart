@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincinerate incinerate
-WORD_WEB incinerate incinerate incinerate
-haʊʊʊʊʊʊʊ4
+- Verb: incinerate (Derived forms: incinerated, incinerates, incinerating)
+1. Become reduced to ashes
+"The paper incinerated quickly"
+ 
+2. Cause to undergo combustion (- burn)
+"incinerate garbage";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incinerate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Most of the waste is incinerated.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Tv5z7N5hYgw?t=';
+    const double startSecondsend = 000000000000000000000000000759;
+    const String videoIdone = 'https://youtu.be/Lgw3D2KKqDQ?t=';
+    const double startSecondsone = 000000000000000000000000000590;
+    const String videoIdtwo = 'https://youtu.be/6El_DG5BeHo?t=';
+    const double startSecondstwo = 000000000000000000000000000405;
+    const String videoIdthree = 'https://youtu.be/tNZ30cLKMno?t=';
+    const double startSecondsthree = 000000000000000000000000000151;
+    const String videoIdfour = 'https://youtu.be/HQE53biGfg8?t=';
+    const double startSecondsfour = 000000000000000000000000000497;
+    const String videoIdfive = 'https://youtu.be/bG0wXQ59MuU?t=';
+    const double startSecondsfive = 000000000000000000000000000560;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incinerate""",
                       // alsoEnglishWord: "also: incinerate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪnəreɪt/""",
+                      americanText: """IpaUS: /ɪnˈsɪnəreɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +994,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incinerate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) سووتاندنی شتێک، بە تایبەتی پاشەڕۆ، تاوەکو بە تەواوی لەناودەچێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Most of the waste is incinerated.""",
+                      kurdishText: """زۆرینەی پاشەڕۆکە دەسووتێنرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

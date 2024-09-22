@@ -53,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincinerator incinerator
-WORD_WEB incinerator incinerator incinerator
-haʊʊʊʊʊʊʊ4
+- Noun: incinerator (Derived forms: incinerators)
+1. A furnace for incinerating (especially to dispose of refuse)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incinerator";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The hospital uses an incinerator to dispose of medical waste.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/QcUey-DVYjk?t=';
+    const double startSecondsend = 0000000000000000000000000001824;
+    const String videoIdone = 'https://youtu.be/sAiTuitN5b8?t=';
+    const double startSecondsone = 000000000000000000000000000132;
+    const String videoIdtwo = 'https://youtu.be/Q4Xys-IRMr0?t=';
+    const double startSecondstwo = 00000000000000000000000000047;
+    const String videoIdthree = 'https://youtu.be/OIo2Ie1HwHY?t=';
+    const double startSecondsthree = 0000000000000000000000000002195;
+    const String videoIdfour = 'https://youtu.be/S758wEniU0c?t=';
+    const double startSecondsfour = 000000000000000000000000000281;
+    const String videoIdfive = 'https://youtu.be/KXRtNwUju5g?t=';
+    const double startSecondsfive = 000000000000000000000000000928;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incinerator""",
                       // alsoEnglishWord: "also: incinerator",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪnəreɪtə(r)/""",
+                      americanText: """IpaUS: /ɪnˈsɪnəreɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,12 +991,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "incinerator", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شوێنێکی داخراو کە بۆ سوتاندنی پاشماوە بەکاردێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The hospital uses an incinerator to dispose of medical waste.""",
+                      kurdishText:
+                          """نەخۆشخانەکە سووتێنەرێک بەکاردەهێنێت بۆ لەناوبردنی پاشماوە پزیشکییەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinalienable inalienable
-WORD_WEB inalienable inalienable inalienable
-haʊʊʊʊʊʊʊ4
+- Adjective: inalienable
+1. Not subject to forfeiture (- unforfeitable)
+"an inalienable right";
+ 
+2. Incapable of being repudiated or transferred to another (- unalienable)
+"endowed by their Creator with certain inalienable rights";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inalienable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +89,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""We have an inalienable right to freedom of speech.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondsend = 00000000000000000000000000012298;
+    const String videoIdone = 'https://youtu.be/crbpeucYZZM?t=';
+    const double startSecondsone = 000000000000000000000000000137;
+    const String videoIdtwo = 'https://youtu.be/1X_KdkoGxSs?t=';
+    const double startSecondstwo = 00000000000000000000000000017036;
+    const String videoIdthree = 'https://youtu.be/K_9jJh6_FWw?t=';
+    const double startSecondsthree = 00000000000000000000000000012;
+    const String videoIdfour = 'https://youtu.be/KhSbEsFtvFs?t=';
+    const double startSecondsfour = 000000000000000000000000000424;
+    const String videoIdfive = 'https://youtu.be/39XmffMuds0?t=';
+    const double startSecondsfive = 000000000000000000000000000631;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inalienable""",
                       // alsoEnglishWord: "also: inalienable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈeɪliənəbl/""",
+                      americanText: """IpaUS: /ɪnˈeɪliənəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +991,15 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: بنچینەیی، لەڕاگوێستن‌نەهاتوو، ڕانەگوێزراو، لەگۆڕین‌نەهاتوو، مسۆگەر، جودانەکراو، لێکەوەنەبوو، جیاوەنەبوو
+// """),
 // With short examples define "inalienable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە ناکرێت لێت بسەندرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا کەمتر: unalienable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """We have an inalienable right to freedom of speech.""",
+                      kurdishText: """مافێکی بنچینەییمان بۆ ئازادیی ڕادەربڕین هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

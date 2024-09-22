@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinaccurately inaccurately
-WORD_WEB inaccurately inaccurately inaccurately
-haʊʊʊʊʊʊʊ4
+- Adverb: inaccurately
+1. In an inaccurate manner
+"this student works rather inaccurately and sloppily"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inaccurately";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The county is constantly being portrayed inaccurately.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Nuclear weapons are commonly, if inaccurately, called atom bombs.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/l4yZQZf2g5Y?t=';
+    const double startSecondsend = 0000000000000000000000000008;
+    const String videoIdone = 'https://youtu.be/ymIF1sPtcJc?t=';
+    const double startSecondsone = 00000000000000000000000000064;
+    const String videoIdtwo = 'https://youtu.be/tBINxc7KkwI?t=';
+    const double startSecondstwo = 000000000000000000000000000839;
+    const String videoIdthree = 'https://youtu.be/nPZPrs2Uf_g?t=';
+    const double startSecondsthree = 0000000000000000000000000001128;
+    const String videoIdfour = 'https://youtu.be/_r8yyTtKK2k?t=';
+    const double startSecondsfour = 000000000000000000000000000723;
+    const String videoIdfive = 'https://youtu.be/wZSV_p8rEDI?t=';
+    const double startSecondsfive = 000000000000000000000000000795;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inaccurately""",
                       // alsoEnglishWord: "also: inaccurately",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈækjərətli/""",
+                      americanText: """IpaUS: /ɪnˈækjərətli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەرسەرەکی، بێ‌سەرنجانە، نادروستانە
 """),
 // With short examples define "inaccurately", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) بە شێوەیەک کە درووست نییە و هەڵەی تێدایە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The county is constantly being portrayed inaccurately.""",
+                      kurdishText:
+                          """وڵاتەکە بەردەوام بە نادرووستی وێنا دەکرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,12 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Nuclear weapons are commonly, if inaccurately, called atom bombs.""",
+                      kurdishText:
+                          """چەکی ناوەکی، زۆرجار بە بەرفراوانی، بەڵام نادرووستی، پێی دەگوترێت بۆمبی ئەتۆمی.""",
+                      englishNote:
+                          """This means that people often refer to nuclear weapons as atom bombs, but this term is not entirely correct. "Atom bombs" specifically refer to a type of nuclear weapon that uses nuclear fission, while "nuclear weapons" can include both fission and fusion bombs. The phrase highlights the common misunderstanding in terminology.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -53,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinaccessible inaccessible
-WORD_WEB inaccessible inaccessible inaccessible
-haʊʊʊʊʊʊʊ4
+- Adjective: inaccessible
+1. Capable of being reached only with great difficulty or not at all (- unaccessible)
+ 
+2. Not capable of being obtained (- unobtainable, unprocurable, untouchable)
+"a rare work, today almost inaccessible";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inaccessible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,22 +88,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Dirt can collect in inaccessible places.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The temple is now inaccessible to the public.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The language of teenagers is often completely inaccessible to adults.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -928,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/H1KP4ztKK0A?t=';
+    const double startSecondsend = 000000000000000000000000000720;
+    const String videoIdone = 'https://youtu.be/DdHqzr4DyIs?t=';
+    const double startSecondsone = 00000000000000000000000000018;
+    const String videoIdtwo = 'https://youtu.be/uAPTWTmlc8Q?t=';
+    const double startSecondstwo = 00000000000000000000000000011;
+    const String videoIdthree = 'https://youtu.be/W6aDNutZoB0?t=';
+    const double startSecondsthree = 0000000000000000000000000001422;
+    const String videoIdfour = 'https://youtu.be/o62UrPGwFNs?t=';
+    const double startSecondsfour = 0000000000000000000000000001600;
+    const String videoIdfive = 'https://youtu.be/XK2MBnw6RlY?t=';
+    const double startSecondsfive = 000000000000000000000000000402;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inaccessible""",
                       // alsoEnglishWord: "also: inaccessible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnækˈsesəbl/""",
+                      americanText: """IpaUS: /ˌɪnækˈsesəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دوورەدەس، دەس‌پێڕانەگەیشتوو، کەس نایگاتێ، گیر ناکەوێ، گیرنەکەوتوو، دەس ناکەوێ، دەس‌نەکەوتوو
 """),
 // With short examples define "inaccessible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە سەخت یان ئەستەمە پێی بگەیت، بەدەستی بهێنیت، یان بەکاری بهێنیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Dirt can collect in inaccessible places.""",
+                      kurdishText:
+                          """پیسی دەکرێت کۆببێتەوە لە شوێنی دەس‌پێڕانەگەیشتوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1010,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The temple is now inaccessible to the public.""",
+                      kurdishText: """پەرستگاکە ئێستا داخراوە بۆ خەڵکی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) هونەر یان زمان کە سەختە بۆ تێگەشتن یان بینینی جوانییەکانی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The language of teenagers is often completely inaccessible to adults.""",
+                      kurdishText:
+                          """زمانی گەنجان تەواو سەختە بۆ پێگەشتووان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

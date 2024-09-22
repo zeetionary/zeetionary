@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincapable incapable
-WORD_WEB incapable incapable incapable
-haʊʊʊʊʊʊʊ4
+- Adjective: incapable
+1. Not being susceptible to or admitting of something (usually followed by 'of')
+"incapable of solution"
+ 
+2. Not meeting requirements (- incompetent, unequal to)
+ 
+3. (followed by 'of') lacking capacity or ability
+"incapable of carrying a tune"; "he is incapable of understanding the matter"; "incapable of doing the work"
+ 
+4. (followed by 'of') not having the temperament or inclination for
+"simply incapable of lying"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incapable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +93,40 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The children seem to be totally incapable of working by themselves.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Exhaustion had made him incapable of thinking clearly.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Government forces have proved incapable of controlling the rebels.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""He was found lying in the road, drunk and incapable.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """If people keep telling you you're incapable, you begin to lose confidence in yourself.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +937,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/BxWw8AO4ZmI?t=';
+    const double startSecondsend = 000000000000000000000000000167;
+    const String videoIdone = 'https://youtu.be/gghRXOXY820?t=';
+    const double startSecondsone = 0000000000000000000000000001046;
+    const String videoIdtwo = 'https://youtu.be/b4wRdoWpw0w?t=';
+    const double startSecondstwo = 000000000000000000000000000758;
+    const String videoIdthree = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsthree = 0000000000000000000000000005251;
+    const String videoIdfour = 'https://youtu.be/ktlTxC4QG8g?t=';
+    const double startSecondsfour = 000000000000000000000000000332;
+    const String videoIdfive = 'https://youtu.be/caVoqAfdkYQ?t=';
+    const double startSecondsfive = 0000000000000000000000000002072;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +962,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incapable""",
                       // alsoEnglishWord: "also: incapable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkeɪpəbl/""",
+                      americanText: """IpaUS: /ɪnˈkeɪpəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1001,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هیچ‌لەدەس‌نەهاتوو، لەدەس‌نەهاتوو، بەیدەس، (هیچ)پێنەکراو، دەسەوسان، بێ‌دەسەڵات، داماو، پەک‌کەوتوو، بێکارە، نەتوان،	لێنەوەشاوە، لێنەهاتوو
 """),
 // With short examples define "incapable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) ئەوەی نەتوانیت شتێک بکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The children seem to be totally incapable of working by themselves.""",
+                      kurdishText:
+                          """منداڵەکان وەها دەردەکەون تەواو بێ‌توانا بن لە کردنی کارەکانی خۆیان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1018,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Exhaustion had made him incapable of thinking clearly.""",
+                      kurdishText:
+                          """ماندوویەتی وایکرد کە بێ‌توانا بێت لە بیرکردنەوە بە ڕوونی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,17 +1029,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Government forces have proved incapable of controlling the rebels.""",
+                      kurdishText:
+                          "ھیزەکانی حکومەت بێتوانا بوونە لە کۆنترۆڵکردنی یاخیبووەکان.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە نەتوانیت کۆنترۆڵی کارەکانت بکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was found lying in the road, drunk and incapable.""",
+                      kurdishText:
+                          """دۆزرایەوە لەسەر شەقامەکە کەوتبوو بە سەرخۆشی و لەپێ‌کەوتووی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1034,8 +1053,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """If people keep telling you you're incapable, you begin to lose confidence in yourself.""",
+                      kurdishText:
+                          """ئەگەر خەڵکی بەردەوام پێت بڵێن دەسەوسان، دەست دەکەیت بەوەی کە متمانە بە خۆت لەدەست بدەیت.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinauguration inauguration
-WORD_WEB inauguration inauguration inauguration
-haʊʊʊʊʊʊʊ4
+- Noun: inauguration (Derived forms: inaugurations)
+1. The act of starting a new operation or practice (- startup, start-up)
+"he opposed the inauguration of fluoridation";
+ 
+2. The ceremonial induction into a position (- inaugural)
+"the new president obviously enjoyed his inauguration";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inauguration";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,29 +89,32 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The year 1889 was the centennial of the inauguration of George Washington.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The documentary began with a clip from the President's inauguration speech.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""In 1900 Paris saw the inauguration of the Metro.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""It was the inauguration of a new era in American life.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -928,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsend = 000000000000000000000000000809;
+    const String videoIdone = 'https://youtu.be/ShMRAN78598?t=';
+    const double startSecondsone = 000000000000000000000000000984;
+    const String videoIdtwo = 'https://youtu.be/LJ0Hfc8hvpE';
+    const double startSecondstwo = 0;
+    const String videoIdthree = 'https://youtu.be/A7beCOs4yAw?t=';
+    const double startSecondsthree = 00000000000000000000000000016;
+    const String videoIdfour = 'https://youtu.be/P1HiB84S4UI?t=';
+    const double startSecondsfour = 000000000000000000000000000291;
+    const String videoIdfive = 'https://youtu.be/j4kI2h3iotA?t=';
+    const double startSecondsfive = 0000000000000000000000000001854;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inauguration""",
                       // alsoEnglishWord: "also: inauguration",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˌnɔːɡjəˈreɪʃn/""",
+                      americanText: """IpaUS: /ɪˌnɔːɡjəˈreɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +996,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کردنەوە، کرانەوە، سەرەتا، بەرایی، دەسپێک
 """),
 // With short examples define "inauguration", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) مەراسیمێکی تایبەت کە تێیدا بەرپرس یان سەرکردەیەکی تازە دەستبەکار دەبێت یان بینایەکی تازە دەکرێتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The year 1889 was the centennial of the inauguration of George Washington.""",
+                      kurdishText:
+                          "ساڵی ١٨٨٩ سەدەم ساڵیادی بە سەرۆک ناساندنی جۆرج واشنتۆن بوو.",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,26 +1014,35 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The documentary began with a clip from the President's inauguration speech.""",
+                      kurdishText:
+                          "فیلمە بەڵگەنامەییەکە بە کورتە ڤیدیۆیەکی وتاری دەستبەکاربوونی سەرۆک دەست پێ‌دەکات.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) ئەوەی شتێک بۆ یەکەمجار بەکاربێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In 1900 Paris saw the inauguration of the Metro.""",
+                      kurdishText:
+                          """لە ساڵی ١٩٠٠ میترۆی پاریس دەستی بەکار کرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) سەرەتای سەردەمێک، ستایڵێک، یان چالاکییەکی تازە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It was the inauguration of a new era in American life.""",
+                      kurdishText:
+                          """ئەوە دەستپێکی سەردەمێکی تازە بوو لە ژیانی ئەمریکا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

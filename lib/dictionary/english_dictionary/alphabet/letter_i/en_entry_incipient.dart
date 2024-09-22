@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincipient incipient
-WORD_WEB incipient incipient incipient
-haʊʊʊʊʊʊʊ4
+- Adjective: incipient
+1. Only partly in existence; imperfectly formed (- inchoate)
+"incipient civil disorder"; "an incipient tumour";
+ 
+2. Being born or beginning (- nascent)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incipient";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """There are signs of incipient public frustration with the government.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondsend = 0000000000000000000000000001216;
+    const String videoIdone = 'https://youtu.be/HVailav65Fc?t=';
+    const double startSecondsone = 000000000000000000000000000698;
+    const String videoIdtwo = 'https://youtu.be/LvpjwHT7o4I?t=';
+    const double startSecondstwo = 00000000000000000000000000079;
+    const String videoIdthree = 'https://youtu.be/q_22tPwd0dE?t=';
+    const double startSecondsthree = 00000000000000000000000000054;
+    const String videoIdfour = 'https://youtu.be/F9U-C61jw30?t=';
+    const double startSecondsfour = 000000000000000000000000000559;
+    const String videoIdfive = 'https://youtu.be/BLKD2Wf8_wk?t=';
+    const double startSecondsfive = 00000000000000000000000000014898;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incipient""",
                       // alsoEnglishWord: "also: incipient",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪpiənt/""",
+                      americanText: """IpaUS: /ɪnˈsɪpiənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەرەتایی، تازە، دەسپێک
 """),
 // With short examples define "incipient", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە تازە دەست پێدەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There are signs of incipient public frustration with the government.""",
+                      kurdishText:
+                          """ئاماژەی سەرەتایی بێزاریی خەڵک لە حکومەت هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

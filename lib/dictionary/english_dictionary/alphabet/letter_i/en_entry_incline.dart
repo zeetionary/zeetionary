@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryincline1 extends StatefulWidget {
-  const EnglishEntryincline1({super.key});
+class EnglishEntryincline extends StatefulWidget {
+  const EnglishEntryincline({super.key});
 
   @override
-  State<EnglishEntryincline1> createState() => _EnglishEntryincline1State();
+  State<EnglishEntryincline> createState() => _EnglishEntryinclineState();
 }
 
-class _EnglishEntryincline1State extends State<EnglishEntryincline1> {
+class _EnglishEntryinclineState extends State<EnglishEntryincline> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,39 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincline1 incline1
-WORD_WEB incline1 incline1 incline1
-haʊʊʊʊʊʊʊ4
+- Verb: incline
+1. Have a tendency or disposition to do or be something; be inclined (- tend, be given, lean, run)
+"He inclined to corpulence";
+ 
+2. Bend or turn (one's ear) towards a speaker in order to listen well
+"He inclined his ear to the wise old man"
+ 
+Lower or bend (the head or upper body), as in a nod or bow
+"She inclined her head to the student"
+ 
+Be at an angle
+"The terrain inclined down";
+- slope, pitch
+ 
+Feel favourably disposed or willing
+"She inclines to the view that people should be allowed to express their religious beliefs"
+ 
+Make receptive or willing towards an action or attitude or belief
+"Their language inclines us to believe them";
+- dispose
+Noun: incline  'in,klIn
+A non-flat area of ground that tends upwards or downwards
+"he climbed the steep incline";
+- slope, side
+ 
+An inclined surface connecting two levels
+- ramp
+Derived forms: inclined, inclining, inclines
 """,
   );
 // 188888880002200000000000
 
-  final String keyword = "incline1";
+  final String keyword = "incline";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,7 +104,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""incline1""");
+    await flutterTts.speak("""incline""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -951,10 +975,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """incline1""",
-                      // alsoEnglishWord: "also: incline1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """incline""",
+                      // alsoEnglishWord: "also: incline",
+                      britshText: """IpaUK: /ɪnˈklaɪn/""",
+                      americanText: """IpaUS: /ɪnˈklaɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,7 +1018,7 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "incline1", please follow LX instructions
+// With short examples define "incline", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555

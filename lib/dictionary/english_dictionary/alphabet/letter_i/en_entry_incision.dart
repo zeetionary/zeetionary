@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincision incision
-WORD_WEB incision incision incision
-haʊʊʊʊʊʊʊ4
+- Noun: incision (Derived forms: incisions)
+1. A depression scratched or carved into a surface (- scratch, prick, slit, dent)
+ 
+2. The cutting of or into body tissues or organs (especially by a surgeon as part of an operation) (- section, surgical incision)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incision";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Make a small incision below the ribs.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The surgeon makes a small incision into which a tube is inserted.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/U91AUYttTyc?t=';
+    const double startSecondsend = 00000000000000000000000000015;
+    const String videoIdone = 'https://youtu.be/xBNfOg0FxDM?t=';
+    const double startSecondsone = 00000000000000000000000000053;
+    const String videoIdtwo = 'https://youtu.be/AhjrZCSF6Hw?t=';
+    const double startSecondstwo = 000000000000000000000000000195;
+    const String videoIdthree = 'https://youtu.be/-Tg9xiJ6D6k';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/417Qbwn9yso?t=';
+    const double startSecondsfour = 000000000000000000000000000370;
+    const String videoIdfive = 'https://youtu.be/B5ytcg5pYEA?t=';
+    const double startSecondsfive = 000000000000000000000000000348;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incision""",
                       // alsoEnglishWord: "also: incision",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪʒn/""",
+                      americanText: """IpaUS: /ɪnˈsɪʒn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +993,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incision", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) برینێک کە دەکرێتە شتێک، بە تایبەتی لە نەشتەرگەرییەک؛ ئەوەی ئەمە بکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Make a small incision below the ribs.""",
+                      kurdishText: """برینێکی بچووک بکە ژێر پەراسووەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1006,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The surgeon makes a small incision into which a tube is inserted.""",
+                      kurdishText:
+                          """نەشتەرگەرەکە برینێکی بچووک درووست دەکات کە لێیەوە بۆرییەک دەخرێتە ناو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

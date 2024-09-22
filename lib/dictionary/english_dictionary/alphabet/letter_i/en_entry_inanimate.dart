@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinanimate inanimate
-WORD_WEB inanimate inanimate inanimate
-haʊʊʊʊʊʊʊ4
+- Adjective: inanimate
+1. Appearing dead; not breathing or having no perceptible pulse (- breathless, pulseless)
+"an inanimate body";
+ 
+2. (linguistics) belonging to the class of nouns denoting nonliving things
+"the word 'car' is inanimate"
+ 
+3. Not endowed with life (- nonliving, non-living)
+"inanimate objects"; "the inorganic world is inanimate";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inanimate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""A rock is an inanimate object.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""A man was lying inanimate on the floor.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/j9h2-ZVDLB8?t=';
+    const double startSecondsend = 00000000000000000000000000067;
+    const String videoIdone = 'https://youtu.be/okeeKqcmQkw?t=';
+    const double startSecondsone = 000000000000000000000000000642;
+    const String videoIdtwo = 'https://youtu.be/DaY89TPgjak?t=';
+    const double startSecondstwo = 000000000000000000000000000135;
+    const String videoIdthree = 'https://youtu.be/cWrsRwNAMpc?t=';
+    const double startSecondsthree = 000000000000000000000000000384;
+    const String videoIdfour = 'https://youtu.be/vXIAB_1FEC0?t=';
+    const double startSecondsfour = 000000000000000000000000000602;
+    const String videoIdfive = 'https://youtu.be/T-vxRbm-YoI?t=';
+    const double startSecondsfive = 000000000000000000000000000235;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inanimate""",
                       // alsoEnglishWord: "also: inanimate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈænɪmət/""",
+                      americanText: """IpaUS: /ɪnˈænɪmət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +994,27 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌گیان، بێ‌ڕۆح، نازیندە، نەزیندوو، ناگیان‌لەبەر، بێ‌جان
 """),
 // With short examples define "inanimate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە گیانی تێدا نییە وەک مرۆڤ، ئاژەڵان، و ڕووەکەکان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """A rock is an inanimate object.""",
+                      kurdishText: """بەرد شتێکی بێ‌گیانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە مردووە یان وەک مردوو دەردەکەوێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A man was lying inanimate on the floor.""",
+                      kurdishText: """پیاوێک بێ‌گیان لەسەر زەوییەکە کەوتبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

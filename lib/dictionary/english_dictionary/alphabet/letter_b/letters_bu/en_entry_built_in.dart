@@ -129,7 +129,7 @@ class EnglishEntrybuiltin extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  "١. (ھاوەڵناو) شتێک کە لەگەڵ شتێکی تردایە و بە دابڕاوی لەگەڵی نییە"),
+                                  "١. (ھاوەڵناو) کە لەگەڵ شتێکی تردایە و بە دابڕاوی لەگەڵی نییە"),
                           SentencesRow(
                             englishText:
                                 "Both bedrooms have built-in wardrobes.",

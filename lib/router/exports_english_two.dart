@@ -639,7 +639,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 // en_entry_inconvenient.dart' show EnglishEntryinconvenient
 // en_entry_inconveniently.dart' show EnglishEntryinconveniently
 // en_entry_incorporate.dart' show EnglishEntryincorporate
-// en_entry_incorporated.dart' show EnglishEntryincorporated
+// en_entry_incorporated.dart' show EnglishEntryincorporated //////// Incorporated
 // en_entry_incorporation.dart' show EnglishEntryincorporation
 // en_entry_incorrect.dart' show EnglishEntryincorrect
 // en_entry_incorrectly.dart' show EnglishEntryincorrectly

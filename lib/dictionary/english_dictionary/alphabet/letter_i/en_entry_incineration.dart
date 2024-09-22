@@ -53,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincineration incineration
-WORD_WEB incineration incineration incineration
-haʊʊʊʊʊʊʊ4
+- Noun: incineration (Derived forms: incinerations)
+1. The act of burning something completely; reducing it to ashes
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incineration";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The energy generated from waste incineration could be used to heat homes.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Q4Xys-IRMr0?t=';
+    const double startSecondsend = 000000000000000000000000000230;
+    const String videoIdone = 'https://youtu.be/k8fsVzyj-PA?t=';
+    const double startSecondsone = 000000000000000000000000000442;
+    const String videoIdtwo = 'https://youtu.be/KXRtNwUju5g?t=';
+    const double startSecondstwo = 000000000000000000000000000196;
+    const String videoIdthree = 'https://youtu.be/E2rtQFAibEA?t=';
+    const double startSecondsthree = 0000000000000000000000000006722;
+    const String videoIdfour = 'https://youtu.be/WyT8i6NYLZM?t=';
+    const double startSecondsfour = 000000000000000000000000000245;
+    const String videoIdfive = 'https://youtu.be/V1o_jEplpmw?t=';
+    const double startSecondsfive = 000000000000000000000000000784;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incineration""",
                       // alsoEnglishWord: "also: incineration",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌsɪnəˈreɪʃn/""",
+                      americanText: """IpaUS: /ɪnˌsɪnəˈreɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سووتاندن، کردنەخوڵەمێش، کردنەقاقەناز، خۆڵەمێشاندن
 """),
 // With short examples define "incineration", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) سووتاندنی شتێک، بە تایبەتی پاشەڕۆ، تاوەکو بە تەواوی لەناودەچێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The energy generated from waste incineration could be used to heat homes.""",
+                      kurdishText:
+                          """ئەو وزەیەی کە لە سووتاندنی پاشەڕؤ بەرهەم دێت دەکرێت بەکاربێت بۆ گەرمکردنی ماڵان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinadequately inadequately
-WORD_WEB inadequately inadequately inadequately
-haʊʊʊʊʊʊʊ4
+- Adverb: inadequately
+1. In an inadequate manner or to an inadequate degree (- deficiently)
+"the temporary camps were inadequately equipped";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inadequately";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Staff were inadequately trained and failed to carry out their duties.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondsend = 00000000000000000000000000012456;
+    const String videoIdone = 'https://youtu.be/wdP_UDSsuro?t=';
+    const double startSecondsone = 000000000000000000000000000679;
+    const String videoIdtwo = 'https://youtu.be/Z4mPUWWI_o8?t=';
+    const double startSecondstwo = 000000000000000000000000000852;
+    const String videoIdthree = 'https://youtu.be/IifdsfniFS0?t=';
+    const double startSecondsthree = 0000000000000000000000000001019;
+    const String videoIdfour = 'https://youtu.be/mVXk2GqhUK4?t=';
+    const double startSecondsfour = 00000000000000000000000000045;
+    const String videoIdfive = 'https://youtu.be/DB5DN-nV1PM?t=';
+    const double startSecondsfive = 000000000000000000000000000214;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inadequately""",
                       // alsoEnglishWord: "also: inadequately",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈædɪkwətli/""",
+                      americanText: """IpaUS: /ɪnˈædɪkwətli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناتەواوانە، بە شێوەیەکی ناتەواو، کەم‌تر لە ڕادەی پێویست
 """),
 // With short examples define "inadequately", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە بەشی پێویست نییە، یان بەپێی پێویست باش نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Staff were inadequately trained and failed to carry out their duties.""",
+                      kurdishText:
+                          """ستافەکە ناکارامانە ڕاهێنانیان پێکرابوو و شکستیان هێنا ئەرکەکانیان جێبەجێ بکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinborn inborn
-WORD_WEB inborn inborn inborn
-haʊʊʊʊʊʊʊ4
+- Adjective: inborn
+1. Present at birth but not necessarily hereditary; acquired during foetal development (- congenital, innate, indigenous)
+"translocations can result in serious inborn disorders";
+ 
+2. Normally existing at birth (- connatural, inbred)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inborn";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Some claim that leadership is an inborn trait, whereas others argue that it can be learned, practised and developed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/W6aDNutZoB0?t=';
+    const double startSecondsend = 0000000000000000000000000001583;
+    const String videoIdone = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsone = 0000000000000000000000000006092;
+    const String videoIdtwo = 'https://youtu.be/kMYZ3fUlZFA?t=';
+    const double startSecondstwo = 000000000000000000000000000226;
+    const String videoIdthree = 'https://youtu.be/WJBA1bidwis?t=';
+    const double startSecondsthree = 000000000000000000000000000379;
+    const String videoIdfour = 'https://youtu.be/wAafVviGxhk?t=';
+    const double startSecondsfour = 000000000000000000000000000158;
+    const String videoIdfive = 'https://youtu.be/VSZ8ywgGNGM?t=';
+    const double startSecondsfive = 00000000000000000000000000047;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inborn""",
                       // alsoEnglishWord: "also: inborn",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnˈbɔːn/""",
+                      americanText: """IpaUS: /ˌɪnˈbɔːrn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زگماکی، خۆماک، خودایی، زاتی، سروشتی
 """),
 // With short examples define "inborn", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) خاسیەتێک کە هەتە لە لەدایکبوونەوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: innate، inbred"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some claim that leadership is an inborn trait, whereas others argue that it can be learned, practised and developed.""",
+                      kurdishText:
+                          """هەندێک کەس پێیان وایە سەرکردایەتی تایبەتمەندییەکی خواییە، لە کاتێکدا هەندێکی تر بەڵگە دەهێننەوە کە دەکرێت فێری ببیت، مەشقی لەسەر بکەیت و پەرەی پێ بدەیت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

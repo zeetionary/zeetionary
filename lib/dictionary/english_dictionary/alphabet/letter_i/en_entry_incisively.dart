@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincisively incisively
-WORD_WEB incisively incisively incisively
-haʊʊʊʊʊʊʊ4
+- Adverb: incisively
+1. In an incisive manner
+"he was incisively critical"
+ 
+2. In a precise manner (- precisely, exactly)
+"she always expressed herself incisively";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incisively";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The article incisively analyses the issues.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """They acted quickly and incisively to deal with the problem.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ePBk89ABOJ4?t=';
+    const double startSecondsend = 0000000000000000000000000002016;
+    const String videoIdone = 'https://youtu.be/lldfiKVLxz0?t=';
+    const double startSecondsone = 000000000000000000000000000876;
+    const String videoIdtwo = 'https://youtu.be/mj8yxkE7Btc?t=';
+    const double startSecondstwo = 000000000000000000000000000199;
+    const String videoIdthree = 'https://youtu.be/3idbxKUcjqg?t=';
+    const double startSecondsthree = 000000000000000000000000000192;
+    const String videoIdfour = 'https://youtu.be/otDt_gN5YFQ?t=';
+    const double startSecondsfour = 000000000000000000000000000590;
+    const String videoIdfive = 'https://youtu.be/3n4qQo4ObJQ?t=';
+    const double startSecondsfive = 0000000000000000000000000002303;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incisively""",
                       // alsoEnglishWord: "also: incisively",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsaɪsɪvli/""",
+                      americanText: """IpaUS: /ɪnˈsaɪsɪvli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +995,26 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incisively", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەک کە بیرکردنەوەی ڕوون و تێگەشتنی باش پیشان دەدات بۆ ئەوەی کە چی گرنگە، و توانای دەربڕینی ئەمە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The article incisively analyses the issues.""",
+                      kurdishText: """وتارەکە شارەزایانە کێشەکان شیدەکاتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە توانای بڕیاردان و هەنگاونان بە هێزەوە پیشان دەدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They acted quickly and incisively to deal with the problem.""",
+                      kurdishText:
+                          """بە خێرایی و کاریگەرانە هەنگاویان نا بۆ مامەڵە لەگەڵ کێشەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

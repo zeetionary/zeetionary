@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincisive incisive
-WORD_WEB incisive incisive incisive
-haʊʊʊʊʊʊʊ4
+- Adjective: incisive
+1. Having or demonstrating ability to recognize or draw fine distinctions (- acute, discriminating, keen, knifelike, penetrating, penetrative, piercing, sharp)
+"incisive comments"; "as sharp and incisive as the stroke of a fang";
+ 
+2. Suitable for cutting or piercing
+"incisive teeth"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incisive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He had a clear, incisive mind.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """She is an incisive critic of the current education system.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """His incisive performance captured the audience's attention.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/FKTicVgp8zU?t=';
+    const double startSecondsend = 000000000000000000000000000701;
+    const String videoIdone = 'https://youtu.be/1nMm7S8ve9U?t=';
+    const double startSecondsone = 000000000000000000000000000105;
+    const String videoIdtwo = 'https://youtu.be/um9aGTAU0lg?t=';
+    const double startSecondstwo = 0000000000000000000000000001411;
+    const String videoIdthree = 'https://youtu.be/ubNKSgdT1FQ?t=';
+    const double startSecondsthree = 000000000000000000000000000749;
+    const String videoIdfour = 'https://youtu.be/gENRqiaS8xM?t=';
+    const double startSecondsfour = 000000000000000000000000000936;
+    const String videoIdfive = 'https://youtu.be/d5o1WaQE57M?t=';
+    const double startSecondsfive = 0000000000000000000000000001532;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incisive""",
                       // alsoEnglishWord: "also: incisive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsaɪsɪv/""",
+                      americanText: """IpaUS: /ɪnˈsaɪsɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +996,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incisive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بیرکردنەوەی ڕوون و تێگەشتنی باش پیشان دەدات بۆ ئەوەی کە چی گرنگە، و توانای دەربڕینی ئەمە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He had a clear, incisive mind.""",
+                      kurdishText: """بیرێکی ڕوون و شارەزای هەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1009,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She is an incisive critic of the current education system.""",
+                      kurdishText:
+                          """ڕەخنەگرێکی دەنگهەڵبڕی سیستەمەکەی ئێستای خوێندنە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە توانای بڕیاردان و هەنگاونان بە هێزەوە پیشان دەدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His incisive performance captured the audience's attention.""",
+                      kurdishText:
+                          """نمایشە کاریگەرەکەی سەرنجی گوێگرانی ڕاکێشا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

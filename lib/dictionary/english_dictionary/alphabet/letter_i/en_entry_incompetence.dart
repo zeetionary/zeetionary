@@ -53,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincompetence incompetence
-WORD_WEB incompetence incompetence incompetence
-haʊʊʊʊʊʊʊ4
+- Noun: incompetence (Derived forms: incompetences)
+1. Lack of physical or intellectual ability or qualifications (- incompetency)
+ 
+2. Inability of a part or organ to function properly
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incompetence";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,29 +87,29 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He was dismissed for incompetence.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The government was accused of incompetence.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Doctors have gone on the attack, accusing the government of incompetence.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""Their incompetence made me furious.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -928,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/k7YVxLLIuGM?t=';
+    const double startSecondsend = 000000000000000000000000000116;
+    const String videoIdone = 'https://youtu.be/_gM6NG2PN4Q?t=';
+    const double startSecondsone = 000000000000000000000000000372;
+    const String videoIdtwo = 'https://youtu.be/5Wq0yv73NpY?t=';
+    const double startSecondstwo = 000000000000000000000000000513;
+    const String videoIdthree = 'https://youtu.be/LJ0Hfc8hvpE?t=';
+    const double startSecondsthree = 000000000000000000000000000374;
+    const String videoIdfour = 'https://youtu.be/j0iOuOMh_JE?t=';
+    const double startSecondsfour = 000000000000000000000000000350;
+    const String videoIdfive = 'https://youtu.be/RJQPthD9rx8?t=';
+    const double startSecondsfive = 000000000000000000000000000158;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incompetence""",
                       // alsoEnglishWord: "also: incompetence",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkɒmpɪtəns/""",
+                      americanText: """IpaUS: /ɪnˈkɑːmpɪtəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێنەوەشاوەیی، نەشیاوی، لێنەهاتوویی، بێ‌ئیدارەیی، بەکارنەهاتوویی
 """),
 // With short examples define "incompetence", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەمی توانا یان شارەزایی لە کردنی شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was dismissed for incompetence.""",
+                      kurdishText: """دەرکرا بەهۆی لێنەهاتوویی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The government was accused of incompetence.""",
+                      kurdishText: "حکومەت بە ناکارامەیی تۆمەتبارکرا.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1017,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Doctors have gone on the attack, accusing the government of incompetence.""",
+                      kurdishText:
+                          "پزیشکان دەستیان بە ڕەخنە کردووە و حکومەت تۆمەتبار دەکەن.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1028,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Their incompetence made me furious.""",
+                      kurdishText: """لێنەھاتووییان تووڕەی کردم.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

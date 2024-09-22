@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincoherently incoherently
-WORD_WEB incoherently incoherently incoherently
-haʊʊʊʊʊʊʊ4
+- Adverb: incoherently
+1. In an incoherent manner
+"he talked incoherently when he drank too much"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incoherently";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She was babbling incoherently.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Some half-baked ideas have been thrown incoherently together.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/sHvyrEAsmFA?t=';
+    const double startSecondsend = 000000000000000000000000000630;
+    const String videoIdone = 'https://youtu.be/eoihHw-X_78?t=';
+    const double startSecondsone = 000000000000000000000000000236;
+    const String videoIdtwo = 'https://youtu.be/1_Js5keeAeI?t=';
+    const double startSecondstwo = 0000000000000000000000000003273;
+    const String videoIdthree = 'https://youtu.be/GvrV8zYqAiE?t=';
+    const double startSecondsthree = 00000000000000000000000000082;
+    const String videoIdfour = 'https://youtu.be/mTRCo6AWmTI?t=';
+    const double startSecondsfour = 000000000000000000000000000286;
+    const String videoIdfive = 'https://youtu.be/0mrCVT3xz0o?t=';
+    const double startSecondsfive = 000000000000000000000000000173;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,9 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incoherently""",
                       // alsoEnglishWord: "also: incoherently",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkəʊˈhɪərəntli/""",
+                      americanText:
+                          """IpaUS: /ˌɪnkəʊˈhɪrəntli/, /ˌɪnkəʊˈherəntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +994,26 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incoherently", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ئاسان نییە بۆ تێگەشتن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unintelligibly"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She was babbling incoherently.""",
+                      kurdishText: """لەتێگەیشتن‌نەهاتووانە فڵتەفڵتی دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) بە شێوەیەک کە لۆژیکی و باش ڕێکخراو نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some half-baked ideas have been thrown incoherently together.""",
+                      kurdishText:
+                          """هەندێک بیرۆکەی نیوەناچڵ پێکەوە بە هەڕەمەکییانە خراونەتە یەک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

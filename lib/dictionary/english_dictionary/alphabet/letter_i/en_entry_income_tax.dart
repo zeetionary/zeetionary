@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincometax income tax
-WORD_WEB income tax income tax income tax
-haʊʊʊʊʊʊʊ4
+- Noun: income tax (Derived forms: income taxes)
+1. A personal tax levied on annual income
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "income tax";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The standard rate of income tax was cut to 23p in the pound.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/895AKrvz_AI?t=';
+    const double startSecondsend = 000000000000000000000000000222;
+    const String videoIdone = 'https://youtu.be/v-eLrAw-gGc?t=';
+    const double startSecondsone = 00000000000000000000000000096;
+    const String videoIdtwo = 'https://youtu.be/mS9CFBlLOcg?t=';
+    const double startSecondstwo = 000000000000000000000000000620;
+    const String videoIdthree = 'https://youtu.be/oL0umpPPe-8?t=';
+    const double startSecondsthree = 000000000000000000000000000593;
+    const String videoIdfour = 'https://youtu.be/91Y-RDBQd7E?t=';
+    const double startSecondsfour = 0000000000000000000000000001064;
+    const String videoIdfive = 'https://youtu.be/t6V9i8fFADI?t=';
+    const double startSecondsfive = 000000000000000000000000000122;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """income tax""",
                       // alsoEnglishWord: "also: income tax",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnkʌm tæks/, /ˈɪnkəm tæks/""",
+                      americanText: """IpaUS: /ˈɪnkʌm tæks/, /ˈɪnkəm tæks/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,16 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "income tax", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بڕێک باج کە دەیدەیت بە حکومەت بەپێی ئەوەی چەند قازانج دەکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The standard rate of income tax was cut to 23p in the pound.""",
+                      kurdishText:
+                          """ئاستی ستاندارد باجی داهات کەمکرایەوە بۆ ٢٣ پێنس لە پاوەندێکدا .""",
+                      englishNote:
+                          """This means that the regular income tax rate was reduced, so for every pound earned, 23 pence is taken as tax. The phrase "23p in the pound" shows how much tax is deducted for each pound of income.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

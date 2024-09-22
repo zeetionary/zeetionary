@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincomparable incomparable
-WORD_WEB incomparable incomparable incomparable
-haʊʊʊʊʊʊʊ4
+- Adjective: incomparable
+1. Such that comparison is impossible; unsuitable for comparison or lacking features that can be compared (- uncomparable)
+"the computer proceeds with its incomparable logic and efficiency"; "this report is incomparable with the earlier ones because of different breakdowns of the data"; "an incomparable week of rest and pleasure";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incomparable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The incomparable achievement of Einstein changed our understanding of physics.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/yo1pJ_D-H3M?t=';
+    const double startSecondsend = 000000000000000000000000000147;
+    const String videoIdone = 'https://youtu.be/ORcTvgK-vPg?t=';
+    const double startSecondsone = 000000000000000000000000000645;
+    const String videoIdtwo = 'https://youtu.be/N5FQRGfPy8I?t=';
+    const double startSecondstwo = 0000000000000000000000000002170;
+    const String videoIdthree = 'https://youtu.be/6Xr3_HDHBjk?t=';
+    const double startSecondsthree = 000000000000000000000000000118;
+    const String videoIdfour = 'https://youtu.be/MTQROdKrlR0?t=';
+    const double startSecondsfour = 0000000000000000000000000001904;
+    const String videoIdfive = 'https://youtu.be/sK-49uz3lGg?t=';
+    const double startSecondsfive = 00000000000000000000000000016;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incomparable""",
                       // alsoEnglishWord: "also: incomparable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkɒmpərəbl/""",
+                      americanText: """IpaUS: /ɪnˈkɑːmpərəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەبەراوردنەهاتوو، بەراورد ناکرێ، لەپێوان‌نەهاتوو، ناپێورێ، لەهەڵسەنگاندن‌نەهاتوو، هەڵناسەنگێنرێ، هەڵنەسەنگێنراو، بێ‌هاوتا، بێ‌وێنە
 """),
 // With short examples define "incomparable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) زۆر باش و بێ‌هاوتا کە هیچ بەراورد ناکرێت پێی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: matchless"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The incomparable achievement of Einstein changed our understanding of physics.""",
+                      kurdishText:
+                          """بەدەستهێنانی بێ‌هاوتای ئەنیشتاین تێگەشتنمانی گۆڕی بۆ فیزیا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

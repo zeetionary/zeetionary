@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinclusive inclusive
-WORD_WEB inclusive inclusive inclusive
-haʊʊʊʊʊʊʊ4
+- Adjective: inclusive
+1. Including much or everything; and especially including stated limits
+"an inclusive art form"; "an inclusive fee"; "his concept of history is modern and inclusive"; "from Monday to Friday inclusive"
+ 
+2. Including or providing for all relevant people, including those that might otherwise have been marginalized or excluded (such as people with disability or with a minority religion, ethnicity or sexuality)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inclusive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +87,38 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The fully inclusive fare for the trip is £52.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The rent is inclusive of water and heating.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """We are offering free holidays for children aged two to eleven inclusive.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""The castle is open daily from May to October inclusive.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """The party must adopt more inclusive strategies and a broader vision.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/HAnw168huqA?t=';
+    const double startSecondsend = 000000000000000000000000000666;
+    const String videoIdone = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsone = 0000000000000000000000000007119;
+    const String videoIdtwo = 'https://youtu.be/JR3z8lq2cNM?t=';
+    const double startSecondstwo = 000000000000000000000000000246;
+    const String videoIdthree = 'https://youtu.be/D6Nt0JFM3_A?t=';
+    const double startSecondsthree = 000000000000000000000000000702;
+    const String videoIdfour = 'https://youtu.be/d6S0u8VENOE?t=';
+    const double startSecondsfour = 00000000000000000000000000038;
+    const String videoIdfive = 'https://youtu.be/qVfJheBp7Ys?t=';
+    const double startSecondsfive = 00000000000000000000000000081;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inclusive""",
                       // alsoEnglishWord: "also: inclusive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkluːsɪv/""",
+                      americanText: """IpaUS: /ɪnˈkluːsɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گشتگرەوە، لەخۆگرتووی، بەرکەوتووی، داگری، تیابووی،	سەرجەم، تێکڕا، تا ئاخری، تا کۆتایی
 """),
 // With short examples define "inclusive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە نرخی تەواوە، یان نرخی تەواوی ئەو شتەیە کە باسکراوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The fully inclusive fare for the trip is £52.""",
+                      kurdishText:
+                          """کرێی بە تەواوی حسابکراو بۆ گەشتەکە ٥٢ پاوەندە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1011,24 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The rent is inclusive of water and heating.""",
+                      kurdishText: """کرێ خانووەکە ئاو و گەرمی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە تەواوی ئەو ڕۆژ، مانگ، ژمارە، هتد لەخۆ دەگرێت کە باسکراون"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We are offering free holidays for children aged two to eleven inclusive.""",
+                      kurdishText:
+                          """پشووی بێ‌بەرامبەرمان هەیە بۆ منداڵان لە ٢ ساڵی تەواو بۆ ١١ ساڵی تەواو.""",
+                      englishNote:
+                          """This means that the offer applies to children who are between the ages of two and eleven, including both ages. The word "inclusive" indicates that children who are exactly two or exactly eleven years old are also part of the offer.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,17 +1036,25 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The castle is open daily from May to October inclusive.""",
+                      kurdishText:
+                          """قەڵاکە ڕۆژانە کراوەیە لە تەواوی ئایار بۆ تشرینی یەکەم.""",
+                      englishNote:
+                          """This means that the castle is open every day, starting in May and continuing through to the end of October. The word "inclusive" indicates that both May and October are included in the period when the castle is open.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە بە ئەنقەست خەڵکی، شت، بیرۆکە، هتد لە هەموو بەشەکانی کۆمەڵگا، بیرکردنەوە، هتد لەخۆ دەگرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The party must adopt more inclusive strategies and a broader vision.""",
+                      kurdishText:
+                          """پارتەکە دەبێت ستراتیژی زیاتر لەخۆگرتوو و دیدی فراوانتری هەبێت.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

@@ -53,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincoherence incoherence
-WORD_WEB incoherence incoherence incoherence
-haʊʊʊʊʊʊʊ4
+- Noun: incoherence (Derived forms: incoherences)
+1. Lack of cohesion, clarity or organization (- incoherency)
+ 
+2. Nonsense that is simply incoherent and unintelligible (- incoherency, unintelligibility)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incoherence";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +87,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She overcame her shyness and awkward incoherence as she got older.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The incoherence of the criticism makes it harder to respond.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/BsRRDIH07K8?t=';
+    const double startSecondsend = 00000000000000000000000000023;
+    const String videoIdone = 'https://youtu.be/CQpomIwb4gI';
+    const double startSecondsone = 0;
+    const String videoIdtwo = 'https://youtu.be/fWUAGfduUlg?t=';
+    const double startSecondstwo = 000000000000000000000000000283;
+    const String videoIdthree = 'https://youtu.be/NiR8Eitor0Y?t=';
+    const double startSecondsthree = 0000000000000000000000000003344;
+    const String videoIdfour = 'https://youtu.be/RXBzWlG8HVQ?t=';
+    const double startSecondsfour = 000000000000000000000000000334;
+    const String videoIdfive = 'https://youtu.be/RXBzWlG8HVQ?t=';
+    const double startSecondsfive = 000000000000000000000000000327;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,9 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incoherence""",
                       // alsoEnglishWord: "also: incoherence",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkəʊˈhɪərəns/""",
+                      americanText:
+                          """IpaUS: /ˌɪnkəʊˈhɪrəns/, /ˌɪnkəʊˈherəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +993,34 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پچڕپچڕبوون، لێک‌ترازاوی، یەک‌نەگرتنەوە، پێکەوەنەبەستراوی
 """),
 // With short examples define "incoherence", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی نەتوانیت بەڕوونی بیرکردنەوەکانت دەرببڕیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She overcame her shyness and awkward incoherence as she got older.""",
+                      kurdishText:
+                          """بەسەر شەرم و دەربڕینی ناڕێکیدا زاڵ بوو.""",
+                      englishNote:
+                          """This means that as she grew older, she was able to move past her shyness and the difficulty she had in speaking clearly or expressing herself. The word "incoherence" refers to the inability to speak in an organized or understandable way, and overcoming it indicates gaining confidence and clarity in communication.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی کە بۆچوونەکانت ب شێوەیەکی لۆژیکییانە دەرنەبڕیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The incoherence of the criticism makes it harder to respond.""",
+                      kurdishText:
+                          """نابەجێی ڕەخنەکە وادەکات سەختتر بێت وەڵام بدرێتەوە.""",
+                      englishNote:
+                          """This means that the criticism is confusing or unclear, making it difficult to reply effectively. The word "incoherence" suggests that the criticism lacks logical structure or consistency, which complicates forming a proper response.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

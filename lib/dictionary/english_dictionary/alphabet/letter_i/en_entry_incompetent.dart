@@ -53,13 +53,24 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: incompetent (Derived forms: incompetents)
+1. Someone who is not competent to take effective action (- incompetent person)
 
-EnglishEntryincompetent incompetent
-WORD_WEB incompetent incompetent incompetent
-haʊʊʊʊʊʊʊ4
+- Adjective: incompetent
+1. (law) legally not qualified or sufficient (- unqualified)
+"incompetent witnesses";
+ 
+2. Not qualified or suited for a purpose
+"an incompetent secret service"; "the filming was hopelessly incompetent"
+ 
+3. Showing lack of skill or aptitude (- bungling, clumsy, fumbling)
+ 
+4. Not doing a good job (- unskilled)
+"incompetent at chess";
+ 
+5. Not meeting requirements (- incapable, unequal to)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incompetent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +99,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The prime minister was attacked as incompetent to lead.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """With a few honourable exceptions, the staff were found to be incompetent.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +940,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/mY3SEMTROas?t=';
+    const double startSecondsend = 000000000000000000000000000235;
+    const String videoIdone = 'https://youtu.be/j1vKv2CIdKU?t=';
+    const double startSecondsone = 000000000000000000000000000682;
+    const String videoIdtwo = 'https://youtu.be/qCbfTN-caFI?t=';
+    const double startSecondstwo = 0000000000000000000000000002144;
+    const String videoIdthree = 'https://youtu.be/ZMu7_Xpp1SM?t=';
+    const double startSecondsthree = 000000000000000000000000000317;
+    const String videoIdfour = 'https://youtu.be/yY19UNjZzz4?t=';
+    const double startSecondsfour = 000000000000000000000000000209;
+    const String videoIdfive = 'https://youtu.be/WTr1lObW5Z8?t=';
+    const double startSecondsfive = 0000000000000000000000000001332;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +965,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incompetent""",
                       // alsoEnglishWord: "also: incompetent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkɒmpɪtənt/""",
+                      americanText: """IpaUS: /ɪnˈkɑːmpɪtənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1004,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێنەوەشاوە، نەشیاو، لێنەهاتوو، بێ‌ئیدارە، بەکارنەهاتوو، کۆڵ، بێکارە
 """),
 // With short examples define "incompetent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە توانا یان شارەزاییت نەبێت لە کردنی شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The prime minister was attacked as incompetent to lead.""",
+                      kurdishText:
+                          """سەرۆک وەزیران سەرزەنشت کرا بەوەی لێنەوەشاوە بێت بۆ سەرکردایەتی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1022,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """With a few honourable exceptions, the staff were found to be incompetent.""",
+                      kurdishText:
+                          """بە چەند هەڵاواردنێکی جێگای ڕێز، ستافەکە بە ناشایستە بیندران.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinclusion inclusion
-WORD_WEB inclusion inclusion inclusion
-haʊʊʊʊʊʊʊ4
+- Noun: inclusion (Derived forms: inclusions)
+1. The state of being included
+ 
+2. The relation of comprising something (- comprehension)
+"he admired the inclusion of so many ideas in such a short work";
+ 
+3. Any small intracellular body found within another (characteristic of certain diseases) (- inclusion body, cellular inclusion)
+"an inclusion in the cytoplasm of the cell";
+ 
+4. The act of including
+ 
+5. (geology) a foreign substance embedded in mineral or rock; a defect in a precious stone
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inclusion";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +94,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His inclusion in the team is in doubt.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Some words are too infrequent to be worthy of inclusion in the dictionary.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""There were some surprising inclusions in the list.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +935,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/kHTcoPoAnys?t=';
+    const double startSecondsend = 000000000000000000000000000653;
+    const String videoIdone = 'https://youtu.be/EFQFKVFLuOA?t=';
+    const double startSecondsone = 000000000000000000000000000284;
+    const String videoIdtwo = 'https://youtu.be/f5jwTft6654?t=';
+    const double startSecondstwo = 000000000000000000000000000497;
+    const String videoIdthree = 'https://youtu.be/qqZ_SH9N3Xo?t=';
+    const double startSecondsthree = 0000000000000000000000000001659;
+    const String videoIdfour = 'https://youtu.be/tTJeePNgOF8?t=';
+    const double startSecondsfour = 000000000000000000000000000517;
+    const String videoIdfive = 'https://youtu.be/EmT0i0xG6zg?t=';
+    const double startSecondsfive = 0000000000000000000000000003534;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inclusion""",
                       // alsoEnglishWord: "also: inclusion",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkluːʒn/""",
+                      americanText: """IpaUS: /ɪnˈkluːʒn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +999,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تێخستن، خستنەنێو،	لەخۆگرتن، تیابوون، لەگەڵ‌دابوون، گرتنەوە، داگرتن، گرتنەخۆ
 """),
 // With short examples define "inclusion", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی کە ک/شت لەخۆ بگریت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His inclusion in the team is in doubt.""",
+                      kurdishText: """لەخۆگرتنی لە تیمەکە جێگای گومانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1014,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some words are too infrequent to be worthy of inclusion in the dictionary.""",
+                      kurdishText:
+                          """هەندێک وشە زۆر کەم بەکارهاتوون تاوەکو شایەنی لەخۆگرتن بن لە فەرهەنگەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) ک/شت کە لە شتێکدا لەخۆ دەگیرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There were some surprising inclusions in the list.""",
+                      kurdishText:
+                          """ژمارەیەک لەخۆگرتنی جێگای سەرسامی لە لیستەکە بوون.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

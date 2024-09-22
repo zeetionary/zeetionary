@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: incognito
+1. With your identity concealed (- incog [informal])
 
-EnglishEntryincognito incognito
-WORD_WEB incognito incognito incognito
-haʊʊʊʊʊʊʊ4
+- Adverb: incognito
+1. Without revealing one's identity (- incog [informal])
+"in Holland he lived incognito as a carpenter in the shipyards of the East India company";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incognito";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Movie stars often prefer to travel incognito.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The official paid an incognito visit to the city.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/QiKZYt9070U?t=';
+    const double startSecondsend = 000000000000000000000000000687;
+    const String videoIdone = 'https://youtu.be/6i9UUvxhAlY?t=';
+    const double startSecondsone = 000000000000000000000000000139;
+    const String videoIdtwo = 'https://youtu.be/qSmyimnMOBo?t=';
+    const double startSecondstwo = 000000000000000000000000000120;
+    const String videoIdthree = 'https://youtu.be/Uhh_An7FGek?t=';
+    const double startSecondsthree = 000000000000000000000000000135;
+    const String videoIdfour = 'https://youtu.be/sAD7UdoM_-k?t=';
+    const double startSecondsfour = 00000000000000000000000000052;
+    const String videoIdfive = 'https://youtu.be/SG3Zz_pfbOE?t=';
+    const double startSecondsfive = 000000000000000000000000000531;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incognito""",
                       // alsoEnglishWord: "also: incognito",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkɒɡˈniːtəʊ/""",
+                      americanText: """IpaUS: /ˌɪnkɑːɡˈniːtəʊ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +992,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەناس، ناشناس، خۆگۆڕیو، نەناسانە، ناشناسانە
 """),
 // With short examples define "incognito", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ڕێگری لە کەسانی دیکە دەکات کە بزانن کێیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Movie stars often prefer to travel incognito.""",
+                      kurdishText:
+                          """ئەستێرەکانی فیلم زۆرجار پێیان باشە بە نهێنی گەشت بکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە ڕێگا دەگرێت لە کەسانی دیکە کە بزانن کێیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The official paid an incognito visit to the city.""",
+                      kurdishText:
+                          """بەرپرسەکە سەردانێکی نهێنیی شارەکەی کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

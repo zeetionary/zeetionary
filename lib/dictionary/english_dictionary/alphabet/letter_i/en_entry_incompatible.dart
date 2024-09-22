@@ -53,13 +53,31 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincompatible incompatible
-WORD_WEB incompatible incompatible incompatible
-haʊʊʊʊʊʊʊ4
+ -Adjective: incompatible
+1. Not compatible
+"incompatible personalities"; "incompatible colours"
+ 
+2. Used especially of drugs or muscles that counteract or neutralize each other's effect (- antagonistic)
+ 
+3. Not suitable to your tastes or needs (- uncongenial)
+"the incompatible roommates were always fighting";
+ 
+4. Incapable of being used with or connected to other devices or components without modification
+ 
+5. Of words so related that one contrasts with the other (- contrastive)
+"'rich' and 'hard-up' are incompatible terms";
+ 
+6. (of a couple) not compatible; unsuitably matched (- ill-sorted, mismated, unsuited, ill-assorted, ill-suited)
+"protracted anguish of an incompatible union";
+ 
+7. Not compatible with other facts (- discrepant)
+ 
+8. Not in keeping with what is correct or proper (- inappropriate, out of keeping, unfitting)
+"completely incompatible behaviour";
+ 
+9. Used especially of solids or solutions; incapable of blending into a stable homogeneous mixture
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incompatible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,36 +106,39 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The hours of the job are incompatible with family life.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """This behaviour is completely incompatible with his role as a teacher.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """She and her husband soon proved to be totally incompatible.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """New computer software is often incompatible with older computers.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""Those two blood groups are incompatible.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -928,19 +949,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/QcUey-DVYjk?t=';
+    const double startSecondsend = 0000000000000000000000000001046;
+    const String videoIdone = 'https://youtu.be/glS3RDoxYMM?t=';
+    const double startSecondsone = 000000000000000000000000000675;
+    const String videoIdtwo = 'https://youtu.be/pLcqJ2DclEg?t=';
+    const double startSecondstwo = 000000000000000000000000000758;
+    const String videoIdthree = 'https://youtu.be/xWB9dP1AtDU?t=';
+    const double startSecondsthree = 00000000000000000000000000027;
+    const String videoIdfour = 'https://youtu.be/qadSvKa2eHY?t=';
+    const double startSecondsfour = 00000000000000000000000000075;
+    const String videoIdfive = 'https://youtu.be/-OpUg0GDrII?t=';
+    const double startSecondsfive = 000000000000000000000000000119;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +974,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incompatible""",
                       // alsoEnglishWord: "also: incompatible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkəmˈpætəbl/""",
+                      americanText: """IpaUS: /ˌɪnkəmˈpætəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1013,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەسازاو، نەساز، نەگونجاو، یەک‌نەکەوتوو، پێکەوەهەڵنەکردوو، یەک‌نەگرەوە، ڕێک‌نەکەوتوو، دژ، جیاواز
 """),
 // With short examples define "incompatible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بیرۆکە، کار، هتد پێکەوە نەگونجێن بەهۆی جیاوازییان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The hours of the job are incompatible with family life.""",
+                      kurdishText:
+                          """کاتەکانی کارەکە نەگونجاون لەگەڵ ژیانی خێزانیم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,26 +1031,36 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This behaviour is completely incompatible with his role as a teacher.""",
+                      kurdishText:
+                          """ئەم ڕەفتارە تەواو نەگونجاوە لەگەڵ ئەرکی وەک مامۆستا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە دوو کەس زۆر جیاواز بن لە یەکدی و نەکرێت پێکەوە بژین یان کار بکەن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She and her husband soon proved to be totally incompatible.""",
+                      kurdishText:
+                          """ئەو و هاوسەرەکەی زوو دەرکەوت نەگونجاون پێکەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە شتی جیاواز نەکرێت پێکەوە بەکاربێن یان تێکەڵ بکرێن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """New computer software is often incompatible with older computers.""",
+                      kurdishText:
+                          """نەرمامێری تازەی کۆمپیوتەر زۆر جار نەگونجاوە لەگەڵ کۆمپیوتەرە کۆنەکان.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1068,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Those two blood groups are incompatible.""",
+                      kurdishText: """ئەو دوو گرووپە خوێنە نەگونجاون پێکەوە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

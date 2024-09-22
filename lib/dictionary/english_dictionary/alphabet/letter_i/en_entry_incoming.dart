@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: incoming
+1. Arriving at a place or position
+"incoming class"; "incoming mail"
+ 
+2. Entering upon a position of office vacated by another
+"the incoming president"
 
-EnglishEntryincoming incoming
-WORD_WEB incoming incoming incoming
-haʊʊʊʊʊʊʊ4
+- Noun: incoming (Derived forms: incomings)
+1. The act of entering (- entrance, entering, entry, ingress)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incoming";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """What are the biggest problems faced by the incoming president?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The airport is preparing for an incoming flight from London.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/QyL9P1ccy-w?t=';
+    const double startSecondsend = 000000000000000000000000000472;
+    const String videoIdone = 'https://youtu.be/UpqaQR4ikig?t=';
+    const double startSecondsone = 000000000000000000000000000372;
+    const String videoIdtwo = 'https://youtu.be/tURHTuKHBZs?t=';
+    const double startSecondstwo = 0000000000000000000000000001688;
+    const String videoIdthree = 'https://youtu.be/oHLMla-75QA?t=';
+    const double startSecondsthree = 000000000000000000000000000345;
+    const String videoIdfour = 'https://youtu.be/AGqUCKin4X0?t=';
+    const double startSecondsfour = 000000000000000000000000000175;
+    const String videoIdfive = 'https://youtu.be/vBquse_KAdI?t=';
+    const double startSecondsfive = 00000000000000000000000000071;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incoming""",
                       // alsoEnglishWord: "also: incoming",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnkʌmɪŋ/""",
+                      americanText: """IpaUS: /ˈɪnkʌmɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +999,27 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incoming", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە تازە هەڵبژێردراوە یان دیاریکراوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """What are the biggest problems faced by the incoming president?""",
+                      kurdishText:
+                          """ئەو گەورەترین کێشانە چییانە کە ڕووبەڕووی سەرۆکی تازە هەڵبژێردراو دەبێتەوە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) ئەوەی کە دەگاتە شوێنێک، یان وەردەگیردرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The airport is preparing for an incoming flight from London.""",
+                      kurdishText:
+                          """فڕۆکەخانەکە ئامادەکاری بۆ گەشتێکی هاتوو لە لەندەنەوە دەکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

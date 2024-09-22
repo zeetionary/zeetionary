@@ -53,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincorrectness incorrectness
-WORD_WEB incorrectness incorrectness incorrectness
-haʊʊʊʊʊʊʊ4
+- Noun: incorrectness
+1. Lack of conformity to social expectations
+ 
+2. The quality of not conforming to fact or truth (- wrongness)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incorrectness";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The teacher pointed out the incorrectness in my answer.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/BFrBr8oUVXU?t=';
+    const double startSecondsend = 0000000000000000000000000002694;
+    const String videoIdone = 'https://youtu.be/QSDzkrnNe4E?t=';
+    const double startSecondsone = 0000000000000000000000000001142;
+    const String videoIdtwo = 'https://youtu.be/HXihtEVcfhY?t=';
+    const double startSecondstwo = 000000000000000000000000000326;
+    const String videoIdthree = 'https://youtu.be/xlwABLyOwPs?t=';
+    const double startSecondsthree = 000000000000000000000000000161;
+    const String videoIdfour = 'https://youtu.be/cY73LW2mLPU?t=';
+    const double startSecondsfour = 000000000000000000000000000942;
+    const String videoIdfive = 'https://youtu.be/MMKyuVVGOGQ?t=';
+    const double startSecondsfive = 000000000000000000000000000749;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incorrectness""",
                       // alsoEnglishWord: "also: incorrectness",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: incorrectness""",
+                      americanText: """IpaUS: incorrectness""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نادروستی، هەڵەیی، شاشی
 """),
-// With short examples define "incorrectness", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی شتێک هەڵە بێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The teacher pointed out the incorrectness in my answer.""",
+                      kurdishText:
+                          """مامۆستاکە هەڵەیەتی وەڵامەکەمی دیاریکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -54,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinappropriately inappropriately
-WORD_WEB inappropriately inappropriately inappropriately
-haʊʊʊʊʊʊʊ4
+- Adverb: inappropriately
+1. In an inappropriate manner (- unsuitably)
+"he was inappropriately dressed";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inappropriately";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -89,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She was inappropriately dressed for a funeral.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -929,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Js2UoMSumx4?t=';
+    const double startSecondsend = 000000000000000000000000000410;
+    const String videoIdone = 'https://youtu.be/kNovwPIWr3Q?t=';
+    const double startSecondsone = 000000000000000000000000000264;
+    const String videoIdtwo = 'https://youtu.be/BFRxx29i6h8?t=';
+    const double startSecondstwo = 000000000000000000000000000976;
+    const String videoIdthree = 'https://youtu.be/hSNWkRw53Jo?t=';
+    const double startSecondsthree = 0000000000000000000000000003130;
+    const String videoIdfour = 'https://youtu.be/gSeCgpIgVYw?t=';
+    const double startSecondsfour = 000000000000000000000000000222;
+    const String videoIdfive = 'https://youtu.be/nJR8Nfi8wg8?t=';
+    const double startSecondsfive = 000000000000000000000000000448;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inappropriately""",
                       // alsoEnglishWord: "also: inappropriately",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnəˈprəʊpriətli/""",
+                      americanText: """IpaUS: /ˌɪnəˈprəʊpriətli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +990,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: بە شێوەیەکی نەگونجاو، نالەبارانە
+// """),
 // With short examples define "inappropriately", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە گونجاو نییە لە دۆخێکی دیاریکراو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was inappropriately dressed for a funeral.""",
+                      kurdishText:
+                          """نەگونجاوانە جلی لەبەربوو بۆ مەراسیمی ناشتن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

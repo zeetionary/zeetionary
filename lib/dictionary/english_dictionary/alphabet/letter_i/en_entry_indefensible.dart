@@ -53,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindefensible indefensible
-WORD_WEB indefensible indefensible indefensible
-haʊʊʊʊʊʊʊ4
+- Adjective: indefensible
+1. (of theories etc) incapable of being defended or justified (- untenable)
+"One can put oneself into a false position, ultimately into an indefensible position";
+ 
+2. Not able to be protected against attack
+ 
+3. Incapable of being justified or explained (- insupportable, unjustifiable, unwarrantable, unwarranted)
+"Such sanctions are utterly indefensible";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indefensible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +91,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The Prime Minister was accused of defending the indefensible.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""It would be morally indefensible for her to desert her father now.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Jpd_CUX2o98?t=';
+    const double startSecondsend = 000000000000000000000000000656;
+    const String videoIdone = 'https://youtu.be/8tT3FhOA4-g?t=';
+    const double startSecondsone = 000000000000000000000000000268;
+    const String videoIdtwo = 'https://youtu.be/mS9CFBlLOcg?t=';
+    const double startSecondstwo = 000000000000000000000000000593;
+    const String videoIdthree = 'https://youtu.be/tYrdMjVXyNg?t=';
+    const double startSecondsthree = 0000000000000000000000000005009;
+    const String videoIdfour = 'https://youtu.be/MXQ43yyJvgs?t=';
+    const double startSecondsfour = 0000000000000000000000000001244;
+    const String videoIdfive = 'https://youtu.be/1YQQnc5d4cQ?t=';
+    const double startSecondsfive = 000000000000000000000000000583;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """indefensible""",
                       // alsoEnglishWord: "also: indefensible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪndɪˈfensəbl/""",
+                      americanText: """IpaUS: /ˌɪndɪˈfensəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەبەرگری‌نەهاتوو، لەپۆزش‌نەهاتوو، نەپارێزراو، ناپارێزرێ، لەپاساونەهاتوو، نەبەخشراو، پاساونەدراو
 """),
 // With short examples define "indefensible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە ناکرێت بەرگریی لێ بکرێت یان ببەخشرێت چونکە لەلایەنی ئەخلاقییەوە هەڵەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The Prime Minister was accused of defending the indefensible.""",
+                      kurdishText: """سەرۆک وەزیران تاوانبار کرا بە بەرگری لەوەی کە لەپۆزش‌نەهاتوو بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It would be morally indefensible for her to desert her father now.""",
+                      kurdishText: """لەلایەنی ئەخلاقییەوە لەبەرگری‌نەهاتووە بۆی ئێستا باوکی جێبهێڵێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

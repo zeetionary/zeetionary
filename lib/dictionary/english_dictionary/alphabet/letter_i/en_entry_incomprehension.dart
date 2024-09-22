@@ -54,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincomprehension incomprehension
-WORD_WEB incomprehension incomprehension incomprehension
-haʊʊʊʊʊʊʊ4
+- Noun: incomprehension (Derived forms: incomprehensions)
+1. An inability to understand
+"his incomprehension of the consequences"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incomprehension";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -89,15 +87,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Anna read the letter with incomprehension.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Many people's experience of school was one of boredom, incomprehension and failure.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -929,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Okp0pfExsHc?t=';
+    const double startSecondsend = 00000000000000000000000000043;
+    const String videoIdone = 'https://youtu.be/Cl5iPga0bI8?t=';
+    const double startSecondsone = 000000000000000000000000000564;
+    const String videoIdtwo = 'https://youtu.be/ydXL_7Bjiqw?t=';
+    const double startSecondstwo = 000000000000000000000000000182;
+    const String videoIdthree = 'https://youtu.be/flpoHS1k6Lo?t=';
+    const double startSecondsthree = 0000000000000000000000000001374;
+    const String videoIdfour = 'https://youtu.be/gub38Cd4E0g?t=';
+    const double startSecondsfour = 000000000000000000000000000130;
+    const String videoIdfive = 'https://youtu.be/m8Sv5Hn26OQ?t=';
+    const double startSecondsfive = 000000000000000000000000000156;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incomprehension""",
                       // alsoEnglishWord: "also: incomprehension",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌkɒmprɪˈhenʃn/""",
+                      americanText: """IpaUS: /ɪnˌkɑːmprɪˈhenʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +991,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: (لێ)تێنەگەیشتن، لێ‌حاڵی‌نەبوون
 """),
 // With short examples define "incomprehension", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی لە ک/شت تێنەگەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Anna read the letter with incomprehension.""",
+                      kurdishText:
+                          """ئانا بە تێنەگەیشتنەوە نامەکەی خوێندەوە.""",
+                      englishNote:
+                          """This means that Anna could not understand the letter and was confused by its content. The word "incomprehension" indicates a lack of understanding or grasp of the information presented in the letter.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Many people's experience of school was one of boredom, incomprehension and failure.""",
+                      kurdishText:
+                          """ئەزموونی زۆر کەس لە قوتابخانە بێزاری، تێنەگەیشتن، و شکست بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

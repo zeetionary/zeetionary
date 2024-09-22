@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincubator incubator
-WORD_WEB incubator incubator incubator
-haʊʊʊʊʊʊʊ4
+- Noun: incubator (Derived forms: incubators)
+1. Apparatus consisting of a box designed to maintain a constant temperature by the use of a thermostat; used for chicks or premature infants (- brooder)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incubator";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Their baby was so small she spent three weeks in an incubator before going home.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The farm has a new incubator for chicken eggs.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/D6V85qfsu3g?t=';
+    const double startSecondsend = 000000000000000000000000000553;
+    const String videoIdone = 'https://youtu.be/bG5fFI3eorg?t=';
+    const double startSecondsone = 00000000000000000000000000011;
+    const String videoIdtwo = 'https://youtu.be/AF2cxmRzJMM?t=';
+    const double startSecondstwo = 000000000000000000000000000114;
+    const String videoIdthree = 'https://youtu.be/1BPxcoZsZLo?t=';
+    const double startSecondsthree = 000000000000000000000000000210;
+    const String videoIdfour = 'https://youtu.be/fv_kmflg6q0?t=';
+    const double startSecondsfour = 0000000000000000000000000001223;
+    const String videoIdfive = 'https://youtu.be/wgo4VQlh0kM?t=';
+    const double startSecondsfive = 0000000000000000000000000008;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incubator""",
                       // alsoEnglishWord: "also: incubator",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪŋkjubeɪtə(r)/""",
+                      americanText: """IpaUS: /ˈɪŋkjubeɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +989,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەزگای جووجەهەڵێنان، دەزگای هێلکەهەڵێنان
 """),
-// With short examples define "incubator", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچە ئامێرێک کە لە نەخۆشخانە منداڵی تێدەخرێت کە بە زۆر لاوازی یان بە پێشوەختە دێنە دوونیاوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Their baby was so small she spent three weeks in an incubator before going home.""",
+                      kurdishText:
+                          """منداڵەکەیان زۆر بچووک بوو کە سێ هەفتەی لە شووشەیەک بەسەر برد پێش ئەوەی بچێتە ماڵەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئامێرێکی گەرم کە هێلکەی تێدەخرێت بۆ ئەوەی لەناویدا جووجکە درووست ببن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The farm has a new incubator for chicken eggs.""",
+                      kurdishText:
+                          """کێڵگەکە دەزگایەکی تازەی هێلکەهەڵێنانی هەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

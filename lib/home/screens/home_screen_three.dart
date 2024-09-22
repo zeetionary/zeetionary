@@ -284,7 +284,8 @@ class MyDrawer extends StatelessWidget {
                         color: Theme.of(context).primaryColor,
                       ),
                       onTap: () {
-                        Routemaster.of(context).push('/english-subreddit');
+                        Routemaster.of(context)
+                            .push('/english-subreddit-slider');
                       },
                     ),
                     const SizedBox(

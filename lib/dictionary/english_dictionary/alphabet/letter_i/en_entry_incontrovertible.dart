@@ -54,13 +54,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincontrovertible incontrovertible
-WORD_WEB incontrovertible incontrovertible incontrovertible
-haʊʊʊʊʊʊʊ4
+- Adjective: incontrovertible
+1. Impossible to deny or disprove (- irrefutable, positive, ungainsayable)
+"incontrovertible proof of the defendant's innocence";
+ 
+2. Necessarily or demonstrably true (- demonstrable)
+"incontrovertible truths";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incontrovertible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -89,15 +90,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The facts were incontrovertible.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """There is one incontrovertible argument in favour of the changes.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -929,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ill2cgCyTUc?t=';
+    const double startSecondsend = 000000000000000000000000000851;
+    const String videoIdone = 'https://youtu.be/GDs6WohWma0?t=';
+    const double startSecondsone = 000000000000000000000000000381;
+    const String videoIdtwo = 'https://youtu.be/om6BMBhhoPo?t=';
+    const double startSecondstwo = 0000000000000000000000000001032;
+    const String videoIdthree = 'https://youtu.be/a1I7QBCHqng?t=';
+    const double startSecondsthree = 000000000000000000000000000971;
+    const String videoIdfour = 'https://youtu.be/n6AwsVGJDOY?t=';
+    const double startSecondsfour = 000000000000000000000000000241;
+    const String videoIdfive = 'https://youtu.be/Jpy55EgMQgY?t=';
+    const double startSecondsfive = 00000000000000000000000000023;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incontrovertible""",
                       // alsoEnglishWord: "also: incontrovertible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkɒntrəˈvɜːtəbl/""",
+                      americanText: """IpaUS: /ˌɪnkɑːntrəˈvɜːrtəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,14 +994,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مشت‌ومڕنەویست، مشت‌ومڕهەڵنەگر، مسۆگەر، بێ‌ئەملاوئەولا، بێ‌چەندوچۆن، بەدرۆ ناخرێتەوە، دیار
 """),
 // With short examples define "incontrovertible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ڕاستە و ناکرێت نکۆڵی لێ بکرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: indisputable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The facts were incontrovertible.""",
+                      kurdishText: """ڕاستییەکان حاشاهەڵەگر بوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1009,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There is one incontrovertible argument in favour of the changes.""",
+                      kurdishText:
+                          """یەک مشتومڕی حاشاهەڵنەگر هەیە لەبەرژەوەندیی گۆڕانەکان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

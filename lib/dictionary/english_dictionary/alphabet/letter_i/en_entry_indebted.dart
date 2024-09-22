@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindebted indebted
-WORD_WEB indebted indebted indebted
-haʊʊʊʊʊʊʊ4
+- Adjective: indebted
+1. Owing gratitude or recognition to another for help or favours etc
+ 
+2. Under a legal obligation to someone
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indebted";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +86,30 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""I am deeply indebted to my family for all their help.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Thank you—I am forever indebted to you.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""I did not want to be financially indebted to him.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The company is heavily indebted.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/YGs9-_Fe74g?t=';
+    const double startSecondsend = 00000000000000000000000000093;
+    const String videoIdone = 'https://youtu.be/MOJ9gBQkZsE?t=';
+    const double startSecondsone = 000000000000000000000000000343;
+    const String videoIdtwo = 'https://youtu.be/aJSD8XV3qzE?t=';
+    const double startSecondstwo = 000000000000000000000000000785;
+    const String videoIdthree = 'https://youtu.be/ddVMceYCFiY?t=';
+    const double startSecondsthree = 0000000000000000000000000002247;
+    const String videoIdfour = 'https://youtu.be/HZq_HjKCRB4?t=';
+    const double startSecondsfour = 000000000000000000000000000499;
+    const String videoIdfive = 'https://youtu.be/aJQEQDFMRoo?t=';
+    const double startSecondsfive = 000000000000000000000000000391;
 
     return DefaultTabController(
       length: 4,
@@ -992,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: قەرزار، وام‌دار، قەرزلەسەر،	(خوازە) قەرزار، دەین‌دار، منەتبار، قەرزاربار، وام‌دار
 """),
 // With short examples define "indebted", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە سوپاسگوزاری کەسێکیت بۆ یارمەتیدانت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I am deeply indebted to my family for all their help.""",
+                      kurdishText:
+                          """تەواو قەرزارباری خێزانەکەمم بۆ یارمەتییان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1009,20 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Thank you—I am forever indebted to you.""",
+                      kurdishText: """سوپاس ـ بۆ هەمیشە سوپاسگوزارتم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە قەرزارە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I did not want to be financially indebted to him.""",
+                      kurdishText: """نامەوێت پارەی قەرزار بم.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,8 +1030,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The company is heavily indebted.""",
+                      kurdishText: """کۆمپانیاکە تەواو قەرزارە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

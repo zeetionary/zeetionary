@@ -228,14 +228,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("Patients often feel despondent.");
   }
 
-  Future<void> speakdespondents20(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        "She was becoming increasingly despondent about the way things were going.0");
-  }
-
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

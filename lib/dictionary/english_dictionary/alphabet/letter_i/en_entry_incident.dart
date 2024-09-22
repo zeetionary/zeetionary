@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: incident (Derived forms: incidents)
+1. A single distinct event
+ 
+2. A public disturbance
+"the police investigated an incident at the bus station"
 
-EnglishEntryincident incident
-WORD_WEB incident incident incident
-haʊʊʊʊʊʊʊ4
+- Adjective: incident
+1. Falling or striking of light rays on something
+"incident light"
+ 
+2. Being minor or subordinate; happening as a chance consequence (- incidental, accidental)
+"incident expenses";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incident";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,19 +934,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/_b93ZLw_Ra8?t=';
+    const double startSecondsend = 0000000000000000000000000001307;
+    const String videoIdone = 'https://youtu.be/iBuKbe40uWM?t=';
+    const double startSecondsone = 00000000000000000000000000034;
+    const String videoIdtwo = 'https://youtu.be/xDOQVkiIgmI?t=';
+    const double startSecondstwo = 000000000000000000000000000354;
+    const String videoIdthree = 'https://youtu.be/mY3SEMTROas?t=';
+    const double startSecondsthree = 0000000000000000000000000001448;
+    const String videoIdfour = 'https://youtu.be/PLDFgKzWy3o?t=';
+    const double startSecondsfour = 000000000000000000000000000231;
+    const String videoIdfive = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsfive = 000000000000000000000000000921;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incident""",
                       // alsoEnglishWord: "also: incident",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnsɪdənt/""",
+                      americanText: """IpaUS: /ˈɪnsɪdənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,10 +998,10 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕووداو، بوویەر، قەوماو، قەومین، پێشهات، بەرکەوت،	پێکادان، تێک‌هەڵچوون، شەڕ
 """),
 // With short examples define "incident", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) شتێک کە ڕوودەدات، بە تایبەتی شتێکی ناخۆش"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555
 """,

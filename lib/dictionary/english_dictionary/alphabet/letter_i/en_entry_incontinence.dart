@@ -53,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincontinence incontinence
-WORD_WEB incontinence incontinence incontinence
-haʊʊʊʊʊʊʊ4
+- Noun: incontinence (Derived forms: incontinences)
+1. Involuntary urination or defecation (- incontinency)
+ 
+2. Indiscipline with regard to sensuous pleasures (- dissoluteness, self-gratification)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incontinence";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """There are many possible causes of faecal incontinence, including damage to the muscles which control bowel movements during childbirth.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/BmwVxj6E2KE?t=';
+    const double startSecondsend = 000000000000000000000000000277;
+    const String videoIdone = 'https://youtu.be/Q2ysbTVlPdk?t=';
+    const double startSecondsone = 000000000000000000000000000145;
+    const String videoIdtwo = 'https://youtu.be/fvNsWKqAebY?t=';
+    const double startSecondstwo = 000000000000000000000000000134;
+    const String videoIdthree = 'https://youtu.be/XfmPu8l24wY?t=';
+    const double startSecondsthree = 00000000000000000000000000041;
+    const String videoIdfour = 'https://youtu.be/Q3Ulnyi_w_8?t=';
+    const double startSecondsfour = 000000000000000000000000000614;
+    const String videoIdfive = 'https://youtu.be/9VmoM5S28f8?t=';
+    const double startSecondsfive = 0000000000000000000000000002806;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incontinence""",
                       // alsoEnglishWord: "also: incontinence",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkɒntɪnəns/""",
+                      americanText: """IpaUS: /ɪnˈkɑːntɪnəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خۆڕانەگری، هەرزەیی، ناخودداری، بەخۆداکردن، خوپێ‌ڕانەگیران
 """),
 // With short examples define "incontinence", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەمی توانا بۆ کۆنترۆڵکردنی میزڵدان و ڕیخۆڵەکان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There are many possible causes of faecal incontinence, including damage to the muscles which control bowel movements during childbirth.""",
+                      kurdishText:
+                          """زۆر هۆکاری ئەگەری هەن بۆ خۆڕانەگری پیسایی، لە نێوانیاندا زیانی ئەو ماسوولکانەی کە کۆنترۆڵی جووڵەی ڕیخۆڵە دەکەن لە کاتی منداڵبوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

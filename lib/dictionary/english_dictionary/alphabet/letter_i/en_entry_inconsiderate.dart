@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinconsiderate inconsiderate
-WORD_WEB inconsiderate inconsiderate inconsiderate
-haʊʊʊʊʊʊʊ4
+- Adjective: inconsiderate
+1. Without proper consideration or reflection (- unconsidered)
+"slovenly inconsiderate reasoning";
+ 
+2. Lacking regard for the rights or feelings of others
+"shockingly inconsiderate behaviour"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inconsiderate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +89,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It was inconsiderate of you not to call.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/k9jnxvtJ-34?t=';
+    const double startSecondsend = 000000000000000000000000000684;
+    const String videoIdone = 'https://youtu.be/Uhh_An7FGek?t=';
+    const double startSecondsone = 0000000000000000000000000001023;
+    const String videoIdtwo = 'https://youtu.be/m0aG6urHpSI?t=';
+    const double startSecondstwo = 000000000000000000000000000339;
+    const String videoIdthree = 'https://youtu.be/OFMCW2uP3rc?t=';
+    const double startSecondsthree = 00000000000000000000000000080;
+    const String videoIdfour = 'https://youtu.be/nDEyQB0Jjkw?t=';
+    const double startSecondsfour = 0000000000000000000000000001921;
+    const String videoIdfive = 'https://youtu.be/PBUWzTESAKI?t=';
+    const double startSecondsfive = 000000000000000000000000000176;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inconsiderate""",
                       // alsoEnglishWord: "also: inconsiderate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkənˈsɪdərət/""",
+                      americanText: """IpaUS: /ˌɪnkənˈsɪdərət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەمتەرخەم، گوێ‌پێنەدەر، گوێ‌نەبزواو، نادەربەست، بیری بەلایەوە نییە، بێ‌خەیاڵ، بێ‌بیر، هەڵەشە، سەرەڕۆ، سەرچڵ
 """),
 // With short examples define "inconsiderate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە گرنگی زۆر نەدەیت بە هەست و پێویستی کەسانی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It was inconsiderate of you not to call.""",
+                      kurdishText:
+                          """ئەوە لە کەمتەرخەمیت بوو پەیوەندی نەکەیت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

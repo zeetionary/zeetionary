@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: incurable
+1. Incapable of being cured
+"an incurable disease"; "an incurable addiction to smoking"
+ 
+2. Unalterable in disposition or habits
+"an incurable optimist"
 
-EnglishEntryincurable incurable
-WORD_WEB incurable incurable incurable
-haʊʊʊʊʊʊʊ4
+- Noun: incurable (Derived forms: incurables)
+1. A person whose disease is incurable
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incurable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Parkinson's disease is a debilitating and incurable disease of the nervous system.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She's an incurable optimist.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsend = 0000000000000000000000000001997;
+    const String videoIdone = 'https://youtu.be/H4G2NXsuYyM?t=';
+    const double startSecondsone = 00000000000000000000000000034;
+    const String videoIdtwo = 'https://youtu.be/Nfl9KgjWpiw?t=';
+    const double startSecondstwo = 000000000000000000000000000568;
+    const String videoIdthree = 'https://youtu.be/2nc9AFcKIuM?t=';
+    const double startSecondsthree = 000000000000000000000000000146;
+    const String videoIdfour = 'https://youtu.be/sY8aFSY2zv4?t=';
+    const double startSecondsfour = 0000000000000000000000000007516;
+    const String videoIdfive = 'https://youtu.be/2fE2W8zoMvE?t=';
+    const double startSecondsfive = 00000000000000000000000000072;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incurable""",
                       // alsoEnglishWord: "also: incurable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkjʊərəbl/""",
+                      americanText: """IpaUS: /ɪnˈkjʊrəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +995,26 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌دەرمان، تیمارنەکراو، دەرمان‌نەکراو، بێ‌چارەسەر، لەدەرمان‌نەهاتوو، چارەسەرنەکراو، بێ‌دەرمان، چاکەوەنەبوو
 """),
 // With short examples define "incurable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە ناکرێت چارەسەر بکرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Parkinson's disease is a debilitating and incurable disease of the nervous system.""",
+                      kurdishText:
+                          """نەخۆشی پارکینسۆن نەخۆشییەکی لاوازکەر و بێ‌دەرمانە کە تووشی سیستەمی دەماری دەبێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە ناکرێت بگۆڕدرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: incorrigible"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She's an incurable optimist.""",
+                      kurdishText: """گەشبینێکی نەگۆڕە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

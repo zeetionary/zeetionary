@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincorrectly incorrectly
-WORD_WEB incorrectly incorrectly incorrectly
-haʊʊʊʊʊʊʊ4
+- Adverb: incorrectly
+1. In an incorrect manner (- falsely)
+"to credit Lister with the first formulation of the basic principle of stratigraphy would be to bestow credit incorrectly";
+ 
+2. In an incorrect manner (- wrongly, wrong, fallaciously)
+"he decided to reveal the details only after other sources had reported them incorrectly";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incorrectly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +89,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The article incorrectly states that Fischer lost the title of world champion in 1978.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Fireworks can be very dangerous if used incorrectly.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Js2UoMSumx4?t=';
+    const double startSecondsend = 000000000000000000000000000590;
+    const String videoIdone = 'https://youtu.be/CaaJyRvvaq8?t=';
+    const double startSecondsone = 000000000000000000000000000170;
+    const String videoIdtwo = 'https://youtu.be/Syff4tqo7w0?t=';
+    const double startSecondstwo = 0000000000000000000000000001194;
+    const String videoIdthree = 'https://youtu.be/Am1lDj2mUVY?t=';
+    const double startSecondsthree = 0000000000000000000000000001714;
+    const String videoIdfour = 'https://youtu.be/X2jakwIVLbY?t=';
+    const double startSecondsfour = 000000000000000000000000000802;
+    const String videoIdfive = 'https://youtu.be/UzIxYdWVbm0?t=';
+    const double startSecondsfive = 000000000000000000000000000364;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incorrectly""",
                       // alsoEnglishWord: "also: incorrectly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkəˈrektli/""",
+                      americanText: """IpaUS: /ˌɪnkəˈrektli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +994,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بە هەڵە، بە نادروستی، بە شێوەیێکی نادروست
 """),
 // With short examples define "incorrectly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ڕاست و درووست نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The article incorrectly states that Fischer lost the title of world champion in 1978.""",
+                      kurdishText:
+                          """وتارەکە بە هەڵە ئەوە دەڵێت فیسچەر نازناوی پاڵەوانییەتی ١٩٧٨ ـی دۆڕاند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵکار) بە شێوەیەکی هەڵە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Fireworks can be very dangerous if used incorrectly.""",
+                      kurdishText:
+                          """یاریی ئاگرین دەکرێت زۆر ترسناک ئەگەر هەڵە بەکاربێن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

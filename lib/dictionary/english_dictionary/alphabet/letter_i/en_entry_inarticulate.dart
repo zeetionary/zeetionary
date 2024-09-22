@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinarticulate inarticulate
-WORD_WEB inarticulate inarticulate inarticulate
-haʊʊʊʊʊʊʊ4
+- Adjective: inarticulate
+1. Without or deprived of the use of speech or words (- unarticulate)
+"remained stupidly inarticulate and saying something noncommittal"; "inarticulate with rage"; "an inarticulate cry"; "inarticulate beasts";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inarticulate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +86,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She was inarticulate with rage.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He gave an inarticulate reply.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/i44KnocYsno?t=';
+    const double startSecondsend = 000000000000000000000000000416;
+    const String videoIdone = 'https://youtu.be/4vjCdHWAmps?t=';
+    const double startSecondsone = 000000000000000000000000000341;
+    const String videoIdtwo = 'https://youtu.be/IHy6iXcj004?t=';
+    const double startSecondstwo = 000000000000000000000000000937;
+    const String videoIdthree = 'https://youtu.be/exk8GrGwxGs?t=';
+    const double startSecondsthree = 0000000000000000000000000001137;
+    const String videoIdfour = 'https://youtu.be/e-_lA2Ug-cE?t=';
+    const double startSecondsfour = 000000000000000000000000000982;
+    const String videoIdfive = 'https://youtu.be/b8IYV_R72VE?t=';
+    const double startSecondsfive = 000000000000000000000000000168;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inarticulate""",
                       // alsoEnglishWord: "also: inarticulate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnɑːˈtɪkjələt/""",
+                      americanText: """IpaUS: /ˌɪnɑːrˈtɪkjələt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,24 +988,26 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: (قسە) نادەنکەدەنکە، لێ‌تێنەگەیشتوو، دان‌پیانەهێناو، بەڕوونی دەرنەبڕاو،	بێ‌دەم‌وپل، بێ‌دەم‌ودوو، بێ‌دەم‌ودان،	بێ‌زمان، لاڵ،	بێ‌جومگە
+// """),
 // With short examples define "inarticulate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ئەوەی نەتوانی بیرۆکە و هەست بە قسە دەرببڕیت بە ئاسانی یان ڕوونی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She was inarticulate with rage.""",
+                      kurdishText: """لە تووڕەییدا لاڵ ببوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە وشەی ڕوون بەکارناهێنێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He gave an inarticulate reply.""",
+                      kurdishText: """وەڵامێکی ناڕوونی دایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

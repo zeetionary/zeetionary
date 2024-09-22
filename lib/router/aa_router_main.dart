@@ -4,6 +4,7 @@ import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/home_screen_logout.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
+import 'package:zeetionary/home/screens/reddit/reddit_slides.dart';
 import 'package:zeetionary/quiz/quiz_screen_two.dart';
 import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
@@ -101,6 +102,7 @@ Map<String, PageBuilder> getRoutesMainTwo() {
     //
     //
     //
+    '/english-subreddit-slider': (_) => _blP(const RedditSlide()),
     '/english-subreddit': (_) => _blP(const RedditFeed()),
     '/english-subreddit/reddit-grammar': (_) => _blP(const RedditGrammar()),
     '/english-subreddit/reddit-grammar-two': (_) =>
@@ -118,6 +120,9 @@ Map<String, PageBuilder> getRoutesMainTwo() {
         _blP(const RedditDiscussion()),
     //
     //
+    //
+    '/english-subreddit-slider/post/:id': (route) => MaterialPage(
+        child: RedditComments(postId: route.pathParameters['id']!)),
     //
     '/english-subreddit/post/:id': (route) => MaterialPage(
         child: RedditComments(postId: route.pathParameters['id']!)),

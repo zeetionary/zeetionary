@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinconceivable inconceivable
-WORD_WEB inconceivable inconceivable inconceivable
-haʊʊʊʊʊʊʊ4
+- Adjective: inconceivable
+1. Totally unlikely (- impossible, out of the question, unimaginable)
+"Whatever is inconceivable is impossible";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inconceivable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """It is inconceivable that the minister was not aware of the problem.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Then the inconceivable happened—I lost my job.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/xzZH151_wXo?t=';
+    const double startSecondsend = 000000000000000000000000000242;
+    const String videoIdone = 'https://youtu.be/T8uc3NzU7J4?t=';
+    const double startSecondsone = 000000000000000000000000000783;
+    const String videoIdtwo = 'https://youtu.be/0roQUZvU-As?t=';
+    const double startSecondstwo = 000000000000000000000000000444;
+    const String videoIdthree = 'https://youtu.be/GHkUdA68YNI?t=';
+    const double startSecondsthree = 000000000000000000000000000422;
+    const String videoIdfour = 'https://youtu.be/jYPrH4xANpU?t=';
+    const double startSecondsfour = 0000000000000000000000000003;
+    const String videoIdfive = 'https://youtu.be/MFO6OtnmEDo?t=';
+    const double startSecondsfive = 000000000000000000000000000702;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inconceivable""",
                       // alsoEnglishWord: "also: inconceivable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkənˈsiːvəbl/""",
+                      americanText: """IpaUS: /ˌɪnkənˈsiːvəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەبیردانەهاتوو، باوەڕپێنەکراو، لەباوەڕنەهاتوو، باوەڕی پێ‌ناکرێ، سەیر، لەخەیاڵ‌نەهاتوو، لەبەرچاونەهاتوو، نایێتە بەرچاو، نەکرد، ڕێ‌تێنەچوو، ناشێ، نابێ
 """),
 // With short examples define "inconceivable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە سەختە خەیاڵ بکرێت یان جێگای باوەڕ بێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unthinkable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is inconceivable that the minister was not aware of the problem.""",
+                      kurdishText:
+                          """ئەوە باوەڕپێنەکراوە کە وەزیرەکە ئاگای لە کێشەکە نەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Then the inconceivable happened—I lost my job.""",
+                      kurdishText:
+                          """لەخەیاڵ‌نەهاتوو ڕوویدا ـ کارەکەمم لەدەستدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

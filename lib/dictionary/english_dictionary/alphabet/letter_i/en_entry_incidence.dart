@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincidence incidence
-WORD_WEB incidence incidence incidence
-haʊʊʊʊʊʊʊ4
+- Noun: incidence (Derived forms: incidences)
+1. The relative frequency of occurrence of something (- relative incidence)
+ 
+2. The striking of a light beam on a surface
+"he measured the angle of incidence of the reflected light"
+ 
+3. An instance of something happening
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incidence";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +89,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The country had the lowest incidence of Covid cases proportional to its population.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The lack of vitamins may explain the higher incidence of heart disease.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Incidence of the disease is fairly evenly spread across Europe.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ha2mLz-Xdpg?t=';
+    const double startSecondsend = 0000000000000000000000000001279;
+    const String videoIdone = 'https://youtu.be/29n2bv7F6uc?t=';
+    const double startSecondsone = 0000000000000000000000000001695;
+    const String videoIdtwo = 'https://youtu.be/YyFhQ525tZk?t=';
+    const double startSecondstwo = 000000000000000000000000000181;
+    const String videoIdthree = 'https://youtu.be/oeyt2zVqCG8?t=';
+    const double startSecondsthree = 000000000000000000000000000584;
+    const String videoIdfour = 'https://youtu.be/GIubKygOjSw?t=';
+    const double startSecondsfour = 000000000000000000000000000668;
+    const String videoIdfive = 'https://youtu.be/LKNfFm0QDXQ?t=';
+    const double startSecondsfive = 000000000000000000000000000221;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incidence""",
                       // alsoEnglishWord: "also: incidence",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnsɪdəns/""",
+                      americanText: """IpaUS: /ˈɪnsɪdəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +995,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕوودان، قەومان،	کەوتن،	تەنینەوە، بڵاوبوونەوە، ڕادەی بڵاوبووەوە
 """),
 // With short examples define "incidence", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو ئاستەی شتێک تێیدا ڕوودەدات یان کاریگەرییەکی هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The country had the lowest incidence of Covid cases proportional to its population.""",
+                      kurdishText:
+                          """وڵاتەکە کەمترین ئاستی کەیسی کۆڤیڤی هەبوو بەپێی دانیشتووانەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1013,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The lack of vitamins may explain the higher incidence of heart disease.""",
+                      kurdishText:
+                          """کەمی ڤیتامین ڕەنگە ڕوونکەرەوە بێت بۆ زۆری ڕێژەی نەخۆشی دڵ.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1024,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Incidence of the disease is fairly evenly spread across Europe.""",
+                      kurdishText:
+                          """ڕێژەی نەخۆشییەکە تا ڕادەیەک بە یەکسانی لە ئەورووپادا بڵاوبوویەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -245,7 +245,8 @@ class EnglishEntrycheap extends StatelessWidget {
                           SentencesRow(
                             englishText:
                                 "It's a good restaurant, and incredibly cheap.",
-                            kurdishText: "چێشتخانەیەکی باشە و ھەرزانیشە.",
+                            kurdishText:
+                                "چێشتخانەیەکی باشە و ئێجگار ھەرزانیشە.",
                             onPressedBritish: () => speakcheaps6("en-GB"),
                             onPressedAmerican: () => speakcheaps6("en-US"),
                           ),

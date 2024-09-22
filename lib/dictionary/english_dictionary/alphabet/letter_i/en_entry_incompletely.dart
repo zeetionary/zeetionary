@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincompletely incompletely
-WORD_WEB incompletely incompletely incompletely
-haʊʊʊʊʊʊʊ4
+- Adverb: incompletely
+1. Not to a full degree or extent
+"words incompletely understood"; "a form filled out incompletely"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incompletely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,22 +86,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The causes of the phenomenon are still incompletely understood.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The writing had been incompletely erased.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The chemical properties of coal are still incompletely understood.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -928,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/fZBC3nmvJb8?t=';
+    const double startSecondsend = 000000000000000000000000000980;
+    const String videoIdone = 'https://youtu.be/UkeGQotnsDU?t=';
+    const double startSecondsone = 000000000000000000000000000328;
+    const String videoIdtwo = 'https://youtu.be/-wIt_WsJGfw?t=';
+    const double startSecondstwo = 0000000000000000000000000005187;
+    const String videoIdthree = 'https://youtu.be/MfH1GsVf7jI?t=';
+    const double startSecondsthree = 000000000000000000000000000359;
+    const String videoIdfour = 'https://youtu.be/uKElvfhNuhQ?t=';
+    const double startSecondsfour = 0000000000000000000000000004;
+    const String videoIdfive = 'https://youtu.be/p4T4zuJfOsA?t=';
+    const double startSecondsfive = 000000000000000000000000000632;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incompletely""",
                       // alsoEnglishWord: "also: incompletely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkəmˈpliːtli/""",
+                      americanText: """IpaUS: /ˌɪnkəmˈpliːtli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناتەواوانە، نیوەچڵانە، نیوەچڵ، بە شێوەیێکی نیوەچڵ یا ناپوختە
 """),
 // With short examples define "incompletely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە ناتەواوی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The causes of the phenomenon are still incompletely understood.""",
+                      kurdishText:
+                          """هۆکارەکانی دیاردەکە هێشتا بە ناتەواوی تێگەشتوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The writing had been incompletely erased.""",
+                      kurdishText: """نووسینەکە بە نیوەچڵانە سڕاوەتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1018,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The chemical properties of coal are still incompletely understood.""",
+                      kurdishText:
+                          "خاسیەتە کیمیاییەکانی خەڵووز ھێشتا بە ناتەواوی زانراوە.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

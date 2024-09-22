@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindecision indecision
-WORD_WEB indecision indecision indecision
-haʊʊʊʊʊʊʊ4
+- Noun: indecision (Derived forms: indecisions)
+1. Doubt concerning two or more possible alternatives or courses of action (- indecisiveness, irresolution)
+"his indecision was only momentary but the opportunity was lost";
+ 
+2. The trait of irresolution; a lack of firmness of character or purpose (- indecisiveness)
+"the king's incurable indecision caused turmoil in his court";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indecision";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""After a moment's indecision, he said yes.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """She went through a period of terrible uncertainty and indecision.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsend = 0000000000000000000000000006023;
+    const String videoIdone = 'https://youtu.be/P8A4ivmCCk4?t=';
+    const double startSecondsone = 000000000000000000000000000573;
+    const String videoIdtwo = 'https://youtu.be/MXQ43yyJvgs?t=';
+    const double startSecondstwo = 000000000000000000000000000640;
+    const String videoIdthree = 'https://youtu.be/nQKu-xAJqYs?t=';
+    const double startSecondsthree = 000000000000000000000000000216;
+    const String videoIdfour = 'https://youtu.be/rFhPQVLkZxQ?t=';
+    const double startSecondsfour = 000000000000000000000000000814;
+    const String videoIdfive = 'https://youtu.be/439X1hJ_j9w?t=';
+    const double startSecondsfive = 0000000000000000000000000001145;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """indecision""",
                       // alsoEnglishWord: "also: indecision",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪndɪˈsɪʒn/""",
+                      americanText: """IpaUS: /ˌɪndɪˈsɪʒn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +992,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌بڕیاری، بڕیارپێ‌نەدران، دوودڵی، تیاماوی
 """),
 // With short examples define "indecision", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی کە نەتوانیت بڕیار بدەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """After a moment's indecision, he said yes.""",
+                      kurdishText: """لە دوای ساتێک لە بێ‌بڕیاری، گوتی بەڵێ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She went through a period of terrible uncertainty and indecision.""",
+                      kurdishText:
+                          """بە ماوەیەکی خراپ لە دوودڵی و ناگومان تێپەڕی .""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

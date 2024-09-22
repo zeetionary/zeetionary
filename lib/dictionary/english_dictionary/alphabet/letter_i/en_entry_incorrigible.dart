@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincorrigible incorrigible
-WORD_WEB incorrigible incorrigible incorrigible
-haʊʊʊʊʊʊʊ4
+- Adjective: incorrigible
+1. Impervious to correction by punishment
+"So the incorrigible lives and thrives, nourished by the very society which he outrages"
+ 
+2. Difficult or impossible to manage or control
+"an incorrigible mess"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incorrigible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +89,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I'm an incorrigible optimist.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She thought the children were incorrigible brats.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Zad6v8ZHzdg?t=';
+    const double startSecondsend = 000000000000000000000000000735;
+    const String videoIdone = 'https://youtu.be/jMw1NAwYDbQ?t=';
+    const double startSecondsone = 000000000000000000000000000133;
+    const String videoIdtwo = 'https://youtu.be/65vK_gbsgwI?t=';
+    const double startSecondstwo = 000000000000000000000000000874;
+    const String videoIdthree = 'https://youtu.be/YEhUUQQekkQ?t=';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/hi9Rf0oLdHk?t=';
+    const double startSecondsfour = 00000000000000000000000000012847;
+    const String videoIdfive = 'https://youtu.be/MavIx74cYBk?t=';
+    const double startSecondsfive = 0000000000000000000000000001846;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incorrigible""",
                       // alsoEnglishWord: "also: incorrigible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkɒrɪdʒəbl/""",
+                      americanText: """IpaUS: /ɪnˈkɔːrɪdʒəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: چاک‌نەکراو، ڕاستەوەنەکراو، ڕاست نابێتەوە، نایێتە سەر ڕێ، دروست‌نەبوو، خراپ
 """),
 // With short examples define "incorrigible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) هەبوونی خووی خراپ کە ناگۆڕدرێن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: incurable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I'm an incorrigible optimist.""",
+                      kurdishText: """گەشبینێکی زۆر خراپم.""",
+                      kurdishNote: """واتا زۆر گەشبینم""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She thought the children were incorrigible brats.""",
+                      kurdishText: """وای بیردەکردەوە منداڵەکان لاساری بەدخوو بن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

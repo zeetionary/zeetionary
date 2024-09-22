@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: incumbent
+1. (geology) lying or leaning on something else
+"an incumbent geological formation"
+ 
+2. Necessary (for someone) as a duty or responsibility; morally binding
+"it is incumbent on them to pay their own debts"
+ 
+3. Currently holding an office (- sitting)
+"the incumbent governor";
 
-EnglishEntryincumbent incumbent
-WORD_WEB incumbent incumbent incumbent
-haʊʊʊʊʊʊʊ4
+- Noun: incumbent (Derived forms: incumbents)
+1. The official who holds an office (- officeholder)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incumbent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +94,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The present incumbent (of the post) is due to retire next month.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The incumbent president faces problems which began many years before he took office.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""It was incumbent on them to attend.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +935,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/HAnw168huqA?t=';
+    const double startSecondsend = 000000000000000000000000000387;
+    const String videoIdone = 'https://youtu.be/4IaOeVgZ-wc?t=';
+    const double startSecondsone = 000000000000000000000000000354;
+    const String videoIdtwo = 'https://youtu.be/JN3KPFbWCy8?t=';
+    const double startSecondstwo = 0000000000000000000000000003203;
+    const String videoIdthree = 'https://youtu.be/mXpwgg5TxOU?t=';
+    const double startSecondsthree = 000000000000000000000000000393;
+    const String videoIdfour = 'https://youtu.be/-7i9dTJgsdI?t=';
+    const double startSecondsfour = 000000000000000000000000000155;
+    const String videoIdfive = 'https://youtu.be/yat1PBrsbQo?t=';
+    const double startSecondsfive = 000000000000000000000000000263;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incumbent""",
                       // alsoEnglishWord: "also: incumbent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkʌmbənt/""",
+                      americanText: """IpaUS: /ɪnˈkʌmbənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,29 +1002,35 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incumbent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کەسێک کە پێگەیەکی فەرمی هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The present incumbent (of the post) is due to retire next month.""",
+                      kurdishText:
+                          """هەڵگری ئێستاکەی (پۆستەکە) بڕیارە لە مانگی داهاتوو خانەنشین ببێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە پێگەیەکی فەرمی هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The incumbent president faces problems which began many years before he took office.""",
+                      kurdishText:
+                          """سەرۆکی ئێستا تووشی ئەو کێشانە دەبێتەوە کە چەندین ساڵ پێش ئەوەی دەستی پێکرد کە ئەو دەسەڵات وەربگرێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) کە گرنگە وەک ئەرکی کەسێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It was incumbent on them to attend.""",
+                      kurdishText: """پێویست بوو لەسەریان کە بەژداری بکەن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindecent indecent
-WORD_WEB indecent indecent indecent
-haʊʊʊʊʊʊʊ4
+- Adjective: indecent
+1. Offensive to good taste especially in sexual matters
+"an earthy but not indecent story"; "an indecent gesture"
+ 
+2. Not in keeping with accepted standards of what is right or proper in polite society (- indecorous, unbecoming, uncomely, unseemly, untoward)
+"was buried with indecent haste";
+ 
+3. Offending against sexual mores in conduct or appearance
+"a bathing suit considered indecent by local standards"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indecent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He made an indecent suggestion to me.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Those shorts are positively indecent.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The rush to get hold of their father's money seemed positively indecent.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/YpbZxsMDmrQ?t=';
+    const double startSecondsend = 0000000000000000000000000001148;
+    const String videoIdone = 'https://youtu.be/Ix3JApnAF4w?t=';
+    const double startSecondsone = 000000000000000000000000000431;
+    const String videoIdtwo = 'https://youtu.be/F9sH-3AoF88?t=';
+    const double startSecondstwo = 000000000000000000000000000128;
+    const String videoIdthree = 'https://youtu.be/_p3l9Pjv90s?t=';
+    const double startSecondsthree = 000000000000000000000000000130;
+    const String videoIdfour = 'https://youtu.be/zdBdbqMSgBA?t=';
+    const double startSecondsfour = 0000000000000000000000000001222;
+    const String videoIdfive = 'https://youtu.be/uHMlg7wdO7E?t=';
+    const double startSecondsfive = 0000000000000000000000000001312;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """indecent""",
                       // alsoEnglishWord: "also: indecent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈdiːsnt/""",
+                      americanText: """IpaUS: /ɪnˈdiːsnt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +995,40 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەرزە، ناشیرین، بێ‌شەرمانە، بێ‌ئابڕووانە، نانەجیمانە، بڵح، ناحەز، پیس، ناپەسند
 """),
 // With short examples define "indecent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لەلایەنی ئەخلاقییەوە بە خراپ دەدەنرێت بەهۆی ئەوەی کە باس لە سێکس یان ڕووتی دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He made an indecent suggestion to me.""",
+                      kurdishText: """پێشنیارێکی بێ‌شەرمانەی بۆم کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە کەسێک بە شێوەیەک جل لەبەر بکات کە ئەو بەشە پیشان دەدات کە زۆرجار داپۆشراون"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Those shorts are positively indecent.""",
+                      kurdishText: """ئەو شۆرتانە تەواو بێ‌شەرمانەن.""",
+                      englishNote:
+                          """This means the shorts are considered inappropriate or offensive because they are too revealing or improper by certain social standards. The word "indecent" suggests that the clothing does not meet expectations of modesty or decency. The word "positively" is used to emphasize or intensify the speaker's opinion, suggesting that the shorts are not just indecent, but absolutely or clearly indecent. It strengthens the negative judgment of the clothing.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) کە گونجاو نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The rush to get hold of their father's money seemed positively indecent.""",
+                      kurdishText:
+                          """هەوڵدان بۆ گەشتن بە پارەکەی باوکیان تەواو نەگونجاو بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincursion incursion
-WORD_WEB incursion incursion incursion
-haʊʊʊʊʊʊʊ4
+- Noun: incursion (Derived forms: incursions)
+1. The act of entering some territory or domain (often in large numbers)
+"the incursion of television into the American living room"
+ 
+2. An attack that penetrates into enemy territory (- penetration)
+ 
+3. The mistake of incurring liability or blame
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incursion";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Border patrols were increased to deter further incursions by foreign forces.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Government troops made an incursion into territory held by the rebels.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ErPsyBUCijM?t=';
+    const double startSecondsend = 0000000000000000000000000002785;
+    const String videoIdone = 'https://youtu.be/hDNiNdsPHNA?t=';
+    const double startSecondsone = 0;
+    const String videoIdtwo = 'https://youtu.be/pzvbUpKU4eE?t=';
+    const double startSecondstwo = 000000000000000000000000000371;
+    const String videoIdthree = 'https://youtu.be/mteaH6F-Jd8?t=';
+    const double startSecondsthree = 00000000000000000000000000087;
+    const String videoIdfour = 'https://youtu.be/PQl82pAgnLo?t=';
+    const double startSecondsfour = 000000000000000000000000000706;
+    const String videoIdfive = 'https://youtu.be/AGqUCKin4X0?t=';
+    const double startSecondsfive = 000000000000000000000000000310;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incursion""",
                       // alsoEnglishWord: "also: incursion",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkɜːʃn/""",
+                      americanText: """IpaUS: /ɪnˈkɜːrʒn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +994,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هێرش، پەلامار، هەڵمەت، شاڵاو، هوروژم (کت‌وپڕ و کورت)،	دەس‌درێژی
 """),
 // With short examples define "incursion", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هێرشێکی لەناکاو بۆ سەر شوێنێک لەلایەن سوپای بیانی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Border patrols were increased to deter further incursions by foreign forces.""",
+                      kurdishText:
+                          """پاسەوانی سنووری زیاد کران بۆ بۆ بەرپەرچدانەوەی هێرشی زیاتر لەلایەن هێزە بیانییەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1012,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Government troops made an incursion into territory held by the rebels.""",
+                      kurdishText:
+                          """هێزەکانی حکومەت پەلامارێکیان ئەنجام دا بۆ سەر خاکی کۆنترۆڵکراوی یاخیبووەکان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

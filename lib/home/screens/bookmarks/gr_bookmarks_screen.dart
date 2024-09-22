@@ -170,7 +170,8 @@ class _GrammmarfavouritesScreenState
       if (mounted) {
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            backgroundColor: Theme.of(context).canvasColor,
+            // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
             content: Text(

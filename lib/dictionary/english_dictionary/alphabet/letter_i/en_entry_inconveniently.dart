@@ -54,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinconveniently inconveniently
-WORD_WEB inconveniently inconveniently inconveniently
-haʊʊʊʊʊʊʊ4
+- Adverb: inconveniently
+1. In an inconvenient manner
+"he arrived at an inconveniently late hour"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inconveniently";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -89,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The house is inconveniently situated for local schools.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -929,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/sLaXSvpfDZs?t=';
+    const double startSecondsend = 0000000000000000000000000001729;
+    const String videoIdone = 'https://youtu.be/CMxHQ5B7dZ8?t=';
+    const double startSecondsone = 00000000000000000000000000036;
+    const String videoIdtwo = 'https://youtu.be/d1CVVoAihBc?t=';
+    const double startSecondstwo = 000000000000000000000000000266;
+    const String videoIdthree = 'https://youtu.be/0c7EN2Dolis?t=';
+    const double startSecondsthree = 000000000000000000000000000978;
+    const String videoIdfour = 'https://youtu.be/60fWsMyZfX0?t=';
+    const double startSecondsfour = 0000000000000000000000000002123;
+    const String videoIdfive = 'https://youtu.be/pLQuIuokP6Q?t=';
+    const double startSecondsfive = 000000000000000000000000000196;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inconveniently""",
                       // alsoEnglishWord: "also: inconveniently",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkənˈviːniəntli/""",
+                      americanText: """IpaUS: /ˌɪnkənˈviːniəntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -997,11 +994,16 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inconveniently", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە کێشە درووست دەکات یان شتێک سەخت دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The house is inconveniently situated for local schools.""",
+                      kurdishText:
+                          """خانووەکە سەربەکێشە هەڵکەوتووە بۆ قوتابخانە ناوخۆییەکان.""",
+                      englishNote:
+                          """This means that the location of the house makes it difficult or awkward to access nearby schools. The word "inconveniently" suggests that the house is not placed in a way that is easy or practical for reaching the schools.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

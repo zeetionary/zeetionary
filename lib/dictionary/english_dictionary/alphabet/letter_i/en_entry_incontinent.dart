@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincontinent incontinent
-WORD_WEB incontinent incontinent incontinent
-haʊʊʊʊʊʊʊ4
+Adjective: incontinent  in'kón-ti-nunt
+Not having control over urination and defecation
+"The nurse had to learn to care for people who are incontinent"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incontinent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Many of our patients are incontinent.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/cvtOFHbENf0';
+    const double startSecondsend = 0;
+    const String videoIdone = 'https://youtu.be/vKQ15yYIf_c?t=';
+    const double startSecondsone = 00000000000000000000000000043;
+    const String videoIdtwo = 'https://youtu.be/9Lv3l9zU6dU?t=';
+    const double startSecondstwo = 000000000000000000000000000342;
+    const String videoIdthree = 'https://youtu.be/XfmPu8l24wY?t=';
+    const double startSecondsthree = 000000000000000000000000000261;
+    const String videoIdfour = 'https://youtu.be/7d0vFrsQJ24?t=';
+    const double startSecondsfour = 000000000000000000000000000165;
+    const String videoIdfive = 'https://youtu.be/joaPFbos42E?t=';
+    const double startSecondsfive = 0000000000000000000000000001352;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incontinent""",
                       // alsoEnglishWord: "also: incontinent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkɒntɪnənt/""",
+                      americanText: """IpaUS: /ɪnˈkɑːntɪnənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خۆڕانەگر، هەرزە، ناخوددار، خوپێ‌ڕانەگیراو، کەمەرشل، دەڵەمیز، بەخۆداکردوو، چرتەمیزە، میزەچۆڕکێ
 """),
 // With short examples define "incontinent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە نەتوانیت میزڵدان و ڕیخۆڵەکان کۆنترۆڵ بکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Many of our patients are incontinent.""",
+                      kurdishText: """زۆرێک لە نەخۆشەکانمان دەڵەمیزن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

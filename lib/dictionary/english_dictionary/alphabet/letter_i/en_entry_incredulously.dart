@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincredulously incredulously
-WORD_WEB incredulously incredulously incredulously
-haʊʊʊʊʊʊʊ4
+- Adverb: incredulously
+1. In an incredulous manner (- unbelievingly, disbelievingly)
+"the woman looked up at her incredulously";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incredulously";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He laughed incredulously.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/OL1RmlJdW5I?t=';
+    const double startSecondsend = 000000000000000000000000000943;
+    const String videoIdone = 'https://youtu.be/Uc8VE1KS9GI?t=';
+    const double startSecondsone = 000000000000000000000000000994;
+    const String videoIdtwo = 'https://youtu.be/4FGnb2lgPBA?t=';
+    const double startSecondstwo = 00000000000000000000000000021;
+    const String videoIdthree = 'https://youtu.be/KCvImODyOUg?t=';
+    const double startSecondsthree = 000000000000000000000000000322;
+    const String videoIdfour = 'https://youtu.be/mLEWj-61a4I?t=';
+    const double startSecondsfour = 000000000000000000000000000919;
+    const String videoIdfive = 'https://youtu.be/jvNN_ehD_0M?t=';
+    const double startSecondsfive = 000000000000000000000000000355;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incredulously""",
                       // alsoEnglishWord: "also: incredulously",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkredʒələsli/""",
+                      americanText: """IpaUS: /ɪnˈkredʒələsli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: باوەڕپێ‌نەکردووانە، بێ‌باوەڕانە، لە ڕووی باوەڕپێ‌نەکردن
 """),
 // With short examples define "incredulously", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ئەوە پیشان دەدات ناتوانیت باوەڕ بە شتێک بکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He laughed incredulously.""",
+                      kurdishText: """باوەڕپێ‌نەکردووانە پێکەنی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

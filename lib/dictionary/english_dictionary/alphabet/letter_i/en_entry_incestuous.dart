@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincestuous incestuous
-WORD_WEB incestuous incestuous incestuous
-haʊʊʊʊʊʊʊ4
+- Adjective: incestuous
+1. Resembling incest as by excessive intimacy
+ 
+2. Relating to or involving incest
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incestuous";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +86,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The film is about Auteil's incestuous love for his sister.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The music industry is an incestuous business.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Journalists and politicians often have a rather incestuous relationship.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Un1gfVckcVw?t=';
+    const double startSecondsend = 0000000000000000000000000001153;
+    const String videoIdone = 'https://youtu.be/Ic_IapE_D-Q?t=';
+    const double startSecondsone = 0000000000000000000000000001582;
+    const String videoIdtwo = 'https://youtu.be/PN3Mrwk8AVQ?t=';
+    const double startSecondstwo = 000000000000000000000000000503;
+    const String videoIdthree = 'https://youtu.be/NLJdY1Y9k9g?t=';
+    const double startSecondsthree = 00000000000000000000000000093;
+    const String videoIdfour = 'https://youtu.be/v-Ymf_hTbUM?t=';
+    const double startSecondsfour = 0000000000000000000000000001679;
+    const String videoIdfive = 'https://youtu.be/am6c_-upsOY?t=';
+    const double startSecondsfive = 000000000000000000000000000559;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incestuous""",
                       // alsoEnglishWord: "also: incestuous",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsestʃuəs/""",
+                      americanText: """IpaUS: /ɪnˈsestʃuəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +994,26 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incestuous", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە سێکس لەخۆدەگرێت لە نێوان ئەندامانی خێزانێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The film is about Auteil's incestuous love for his sister.""",
+                      kurdishText:
+                          """فیلمەکە دەربارەی خۆشەویستی ئینسێستانەی ئۆتیلە بۆ خوشکەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە ژمارەیەک کەس لەخۆدەگرێت کە پەیوەندییەکی نزیکیان هەیە و نایانەوێت کەس تێکەڵیان ببێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The music industry is an incestuous business.""",
+                      kurdishText: """پیشەسازی میوزیک بازرگانییەکی داخراوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1021,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Journalists and politicians often have a rather incestuous relationship.""",
+                      kurdishText:
+                          """ڕۆژنامەنووسان و سیاسییەکان زۆرجار پەیوەندییەکی داخراویان هەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

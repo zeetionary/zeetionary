@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinconspicuous inconspicuous
-WORD_WEB inconspicuous inconspicuous inconspicuous
-haʊʊʊʊʊʊʊ4
+- Adjective: inconspicuous
+1. Not prominent or readily noticeable (- invisible)
+"he pushed the string through an inconspicuous hole";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inconspicuous";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She tried to look as inconspicuous as possible.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Its dull brown feathers make the bird inconspicuous.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/apDoJkfR85A?t=';
+    const double startSecondsend = 000000000000000000000000000967;
+    const String videoIdone = 'https://youtu.be/KIzqSTEC5kU?t=';
+    const double startSecondsone = 000000000000000000000000000369;
+    const String videoIdtwo = 'https://youtu.be/CMtF7nxMv5A?t=';
+    const double startSecondstwo = 000000000000000000000000000452;
+    const String videoIdthree = 'https://youtu.be/u1h-jPizdv4?t=';
+    const double startSecondsthree = 00000000000000000000000000015;
+    const String videoIdfour = 'https://youtu.be/WihpfXxGOBo?t=';
+    const double startSecondsfour = 000000000000000000000000000589;
+    const String videoIdfive = 'https://youtu.be/AzAN53uhZd0?t=';
+    const double startSecondsfive = 000000000000000000000000000408;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inconspicuous""",
                       // alsoEnglishWord: "also: inconspicuous",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkənˈspɪkjuəs/""",
+                      americanText: """IpaUS: /ˌɪnkənˈspɪkjuəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نادیار، نائاشکرا، نابەرچاو، شاراوە، چکۆلانە، سەرنج ڕاناکێشێ، سەرنج‌ڕانەکێش
 """),
 // With short examples define "inconspicuous", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە سەرنج ڕاناکێشێت؛ کە ئاسان هەستی پێناکرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She tried to look as inconspicuous as possible.""",
+                      kurdishText:
+                          """هەوڵیدا هێندە نادیار دەربکەوێت کە بکرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Its dull brown feathers make the bird inconspicuous.""",
+                      kurdishText:
+                          """پەڕە قاوەییە کاڵەکانی باڵندە نادیار دەردەخات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

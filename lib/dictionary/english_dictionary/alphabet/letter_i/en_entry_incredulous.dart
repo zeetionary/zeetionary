@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincredulous incredulous
-WORD_WEB incredulous incredulous incredulous
-haʊʊʊʊʊʊʊ4
+- Adjective: incredulous
+1. Not disposed or willing to believe; unbelieving
+"The movie's unlikely happy ending came to pass as the result of an incredulous series of lucky accidents"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incredulous";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """A few incredulous spectators watched on as Paterson, ranked 23rd in the world, beat the champion.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Rux4d-32fUQ?t=';
+    const double startSecondsend = 0000000000000000000000000003;
+    const String videoIdone = 'https://youtu.be/6ta_sftSfIw?t=';
+    const double startSecondsone = 00000000000000000000000000043;
+    const String videoIdtwo = 'https://youtu.be/GdPsgt_ySU4?t=';
+    const double startSecondstwo = 000000000000000000000000000595;
+    const String videoIdthree = 'https://youtu.be/FiRDpXMIkzU?t=';
+    const double startSecondsthree = 0000000000000000000000000001073;
+    const String videoIdfour = 'https://youtu.be/lVNV1qXnGb0?t=';
+    const double startSecondsfour = 000000000000000000000000000204;
+    const String videoIdfive = 'https://youtu.be/VdLQC2b5Wkg?t=';
+    const double startSecondsfive = 000000000000000000000000000381;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incredulous""",
                       // alsoEnglishWord: "also: incredulous",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkredʒələs/""",
+                      americanText: """IpaUS: /ɪnˈkredʒələs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +989,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: بەگومان، درەنگ‌باوەڕکردوو، بێ‌باوەڕ، باوەڕپێ‌نەکردوو، باوەڕپێ‌نەکردووانە
+// """),
 // With short examples define "incredulous", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ئەوەی کە ئامادە نەبیت یان نەتوانیت باوەڕ بە شتێک بکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A few incredulous spectators watched on as Paterson, ranked 23rd in the world, beat the champion.""",
+                      kurdishText:
+                          """چەند بینەرێکی باوەڕنەکەر تەماشایان دەکرد کاتێک پاتەرسۆن، کە لە پلەی ٢٣ ـی جیهاندا بوو، لە پاڵەوانەکەی بردەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

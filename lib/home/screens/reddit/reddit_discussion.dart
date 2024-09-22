@@ -163,30 +163,30 @@ class _RedditDiscussionState extends ConsumerState<RedditDiscussion> {
     final textSize = ref.watch(textSizeProvider);
 
     return Scaffold(
-      appBar: const ZeetionaryAppbar(),
+      // appBar: const ZeetionaryAppbar(),
       body: _isLoading && _posts.isEmpty
           ? const Center(child: CircularProgressIndicator.adaptive())
           : CustomScrollView(
               slivers: [
-                SliverToBoxAdapter(
-                  child: Padding(
-                    padding: const EdgeInsets.only(
-                        top: 6, left: 6.0, right: 10, bottom: 6),
-                    child: ConstantContainer(
-                      child: Padding(
-                        padding: const EdgeInsets.all(8.0),
-                        child: Text(
-                          'English Discussion',
-                          style: TextStyle(
-                            color: Theme.of(context).highlightColor,
-                            fontSize: textSize + 4,
-                            fontWeight: FontWeight.bold,
-                          ),
-                        ),
-                      ),
-                    ),
-                  ),
-                ),
+                // SliverToBoxAdapter(
+                //   child: Padding(
+                //     padding: const EdgeInsets.only(
+                //         top: 6, left: 6.0, right: 10, bottom: 6),
+                //     child: ConstantContainer(
+                //       child: Padding(
+                //         padding: const EdgeInsets.all(8.0),
+                //         child: Text(
+                //           'English Discussion',
+                //           style: TextStyle(
+                //             color: Theme.of(context).highlightColor,
+                //             fontSize: textSize + 4,
+                //             fontWeight: FontWeight.bold,
+                //           ),
+                //         ),
+                //       ),
+                //     ),
+                //   ),
+                // ),
                 SliverList(
                   delegate: SliverChildBuilderDelegate(
                     (context, index) {
@@ -255,7 +255,8 @@ class _RedditDiscussionState extends ConsumerState<RedditDiscussion> {
                                   //     : null,
                                   onTap: () {
                                     Routemaster.of(context).push(
-                                        '/english-subreddit/reddit-discussion/post/${post['id']}');
+                                        '/english-subreddit-slider/post/${post['id']}');
+                                        // '/english-subreddit/reddit-discussion/post/${post['id']}');
                                   },
                                 ),
                               ),

@@ -160,14 +160,14 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
     final textSize = ref.watch(textSizeProvider);
 
     return Scaffold(
-      appBar: const ZeetionaryAppbar(),
+      // appBar: const ZeetionaryAppbar(),
       body: _isLoading && _posts.isEmpty
           ? const Center(child: CircularProgressIndicator.adaptive())
           : CustomScrollView(
               slivers: [
-                SliverToBoxAdapter(
-                  child: TagsPanel(textSize: textSize),
-                ),
+                // SliverToBoxAdapter(
+                //   child: TagsPanel(textSize: textSize),
+                // ),
                 SliverList(
                   delegate: SliverChildBuilderDelegate(
                     (context, index) {
@@ -237,7 +237,8 @@ class _RedditFeedState extends ConsumerState<RedditFeed> {
                                   //     : null,
                                   onTap: () {
                                     Routemaster.of(context).push(
-                                        '/english-subreddit/post/${post['id']}');
+                                        '/english-subreddit-slider/post/${post['id']}');
+                                    // '/english-subreddit/post/${post['id']}');
                                   },
                                 ),
                               ),
@@ -611,16 +612,17 @@ class RedditComments extends ConsumerWidget {
                                     speakAmerican(post['selftext'] ?? ''),
                               ),
                               IconButton(
-                                icon: Container(
-                                  decoration: BoxDecoration(
-                                    shape: BoxShape.circle,
-                                    border: Border.all(
-                                        color: Colors.blue, width: 1.0),
-                                  ),
+                                icon: ConstantContainer(
+                                  // decoration: BoxDecoration(
+                                  //   shape: BoxShape.circle,
+                                  //   border: Border.all(
+                                  //       color: Colors.blue, width: 1.0),
+                                  // ),
                                   padding: const EdgeInsets.all(6.0),
                                   child: Icon(
                                     Icons.pause,
-                                    color: Colors.blue,
+                                    // color: Colors.blue,
+                                    color: Theme.of(context).primaryColor,
                                     size: textSize - 3,
                                   ),
                                 ),

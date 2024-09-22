@@ -53,13 +53,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: incarnation (Derived forms: incarnations)
+1. A new personification of a familiar idea (- embodiment, avatar)
+"the incarnation of evil";
+ 
+2. Time passed in a particular bodily form
+"he believes that his life will be better in his next incarnation"
+ 
+3. The act of attributing human characteristics to abstract ideas etc. (- personification)
 
-EnglishEntryincarnation incarnation
-WORD_WEB incarnation incarnation incarnation
-haʊʊʊʊʊʊʊ4
+- Noun: Incarnation
+1. (Christianity) the Christian doctrine of the union of God and man in the person of Jesus Christ
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incarnation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,22 +94,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """He believed he had been a prince in a previous incarnation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""I worked for her in her earlier incarnation as a lawyer.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He was described as the incarnation of evil by his enemies.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -928,19 +936,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/HAnw168huqA?t=';
+    const double startSecondsend = 0000000000000000000000000002401;
+    const String videoIdone = 'https://youtu.be/oiLdWXLXDeA?t=';
+    const double startSecondsone = 000000000000000000000000000415;
+    const String videoIdtwo = 'https://youtu.be/TfaMLqEh1qM?t=';
+    const double startSecondstwo = 000000000000000000000000000856;
+    const String videoIdthree = 'https://youtu.be/j9h2-ZVDLB8?t=';
+    const double startSecondsthree = 000000000000000000000000000456;
+    const String videoIdfour = 'https://youtu.be/fU-8Rg4CgeI?t=';
+    const double startSecondsfour = 000000000000000000000000000190;
+    const String videoIdfive = 'https://youtu.be/pLwHTqU2r_Y?t=';
+    const double startSecondsfive = 00000000000000000000000000037;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +961,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incarnation""",
                       // alsoEnglishWord: "also: incarnation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkɑːˈneɪʃn/""",
+                      americanText: """IpaUS: /ˌɪnkɑːrˈneɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1000,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گیان‌بەبەرداکردن، تەندارکردن، لەشدارکردن، شێوەی مرۆڤ پێدان، تەنداربوون، لەشگیری، تەنگیری،	وێناکردن، هێنانەبەرچاو، نموونە
 """),
 // With short examples define "incarnation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ماوەیەک لە ژیان لە شێوەیەکی دیاریکراودا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He believed he had been a prince in a previous incarnation.""",
+                      kurdishText:
+                          """باوەڕی وابوو شازادەیەک بووە لە ژیانێکی ڕابردوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1018,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I worked for her in her earlier incarnation (= her previous job) as a lawyer.""",
+                      kurdishText:
+                          """(خوازراوی) کارم بۆی کرد لە کاری پێشووتری وەک پارێزەرێک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کەسێک کە پیشاندەری خاسیەتێکی دیاریکراوە لە شێوەی مرۆڤدا"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: embodiment"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was described as the incarnation of evil by his enemies.""",
+                      kurdishText:
+                          """لەلایەن دوژمنەکانی بە نموونەی شەیتان باسدەکرا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -53,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincongruity incongruity
-WORD_WEB incongruity incongruity incongruity
-haʊʊʊʊʊʊʊ4
+- Noun: incongruity (Derived forms: incongruities)
+1. The quality of disagreeing; being unsuitable and inappropriate (- incongruousness)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incongruity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She was struck by the incongruity of the situation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Udk8YHOy0EU?t=';
+    const double startSecondsend = 00000000000000000000000000046;
+    const String videoIdone = 'https://youtu.be/BOdca_kJimE?t=';
+    const double startSecondsone = 000000000000000000000000000272;
+    const String videoIdtwo = 'https://youtu.be/-9kAlQKUGvA?t=';
+    const double startSecondstwo = 000000000000000000000000000213;
+    const String videoIdthree = 'https://youtu.be/SXIah083UBE?t=';
+    const double startSecondsthree = 0000000000000000000000000001920;
+    const String videoIdfour = 'https://youtu.be/0z5SsDEWWIU?t=';
+    const double startSecondsfour = 000000000000000000000000000420;
+    const String videoIdfive = 'https://youtu.be/dipZeq_P6Ew?t=';
+    const double startSecondsfive = 000000000000000000000000000183;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incongruity""",
                       // alsoEnglishWord: "also: incongruity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkənˈɡruːəti/""",
+                      americanText: """IpaUS: /ˌɪnkənˈɡruːəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,19 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی:نەگونجاوی، نەسازاوی، ڕێک‌نەکەوتوویی، ناجۆری، ناکۆکی، یەک‌نەگرتنەوە، جیاوازی، یەک‌نەکەوتن، نابەرامبەری
 """),
 // With short examples define "incongruity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە نامۆ و نەگونجاو بێت لە دۆخێکی دیاریکراودا"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: inappropriateness"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was struck by the incongruity of the situation.""",
+                      kurdishText: """سەرسام بوو بە ناگونجاوی دۆخەکە.""",
+                      englishNote:
+                          """She was struck by the incongruity of the situation.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

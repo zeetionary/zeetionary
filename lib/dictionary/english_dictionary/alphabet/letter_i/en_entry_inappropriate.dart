@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinappropriate inappropriate
-WORD_WEB inappropriate inappropriate inappropriate
-haʊʊʊʊʊʊʊ4
+- Adjective: inappropriate
+1. Not suitable for a particular occasion etc
+"noise seems inappropriate at a time of sadness"; "inappropriate shoes for a walk on the beach"; "put inappropriate pressure on them"
+ 
+2. Not in keeping with what is correct or proper (- incompatible, out of keeping, unfitting)
+"completely inappropriate behaviour";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inappropriate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,22 +89,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It would be inappropriate for me to comment.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He was a grotesquely inappropriate choice of speaker.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """What's the best way for a teacher to deal with inappropriate behaviour?""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -928,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/lex6USTugUU?t=';
+    const double startSecondsend = 000000000000000000000000000312;
+    const String videoIdone = 'https://youtu.be/xVQxvthAcLU?t=';
+    const double startSecondsone = 0000000000000000000000000001512;
+    const String videoIdtwo = 'https://youtu.be/Fr-qagv7ig0?t=';
+    const double startSecondstwo = 0000000000000000000000000001125;
+    const String videoIdthree = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsthree = 0000000000000000000000000001824;
+    const String videoIdfour = 'https://youtu.be/YkmlPaGui5k?t=';
+    const double startSecondsfour = 000000000000000000000000000746;
+    const String videoIdfive = 'https://youtu.be/ht7MNqZT_hU?t=';
+    const double startSecondsfive = 0000000000000000000000000001099;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inappropriate""",
                       // alsoEnglishWord: "also: inappropriate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnəˈprəʊpriət/""",
+                      americanText: """IpaUS: /ˌɪnəˈprəʊpriət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێجێ، نابەجێ، بێ‌ڕێ‌وجێ، بێ‌وەچ، بێ‌ڕێ، نەگونجاو، نالەبار
 """),
 // With short examples define "inappropriate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە گونجاو نییە لە دۆخێکی دیاریکراو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It would be inappropriate for me to comment.""",
+                      kurdishText: """نەگونجاو دەبێت بۆم لێدوان بدەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was a grotesquely inappropriate choice of speaker.""",
+                      kurdishText:
+                          """ھەڵبژاردەیەکی قەبیحانە نەگونجاو بوو بۆ وتاربێژی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1022,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """What's the best way for a teacher to deal with inappropriate behaviour?""",
+                      kurdishText:
+                          """باشترین ڕێگا چییە بۆ مامۆستا مامەڵە لەگەڵ ڕەفتاری نەگونجاو بکات؟""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

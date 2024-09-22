@@ -54,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinconsiderately inconsiderately
-WORD_WEB inconsiderately inconsiderately inconsiderately
-haʊʊʊʊʊʊʊ4
+- Adverb: inconsiderately
+1. Without consideration; in an inconsiderate manner
+"inconsiderately, he asked to be invited for dinner"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inconsiderately";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -89,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""People often drive carelessly and inconsiderately.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -929,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/nfTsPKE-S08?t=';
+    const double startSecondsend = 000000000000000000000000000664;
+    const String videoIdone = 'https://youtu.be/6CZ0Q6jw4Z4?t=';
+    const double startSecondsone = 000000000000000000000000000256;
+    const String videoIdtwo = 'https://youtu.be/vfcreUi9U04?t=';
+    const double startSecondstwo = 000000000000000000000000000209;
+    const String videoIdthree = 'https://youtu.be/ZX03Emp2vGo?t=';
+    const double startSecondsthree = 00000000000000000000000000060297;
+    const String videoIdfour = 'https://youtu.be/d5E2AQKuCyU?t=';
+    const double startSecondsfour = 0000000000000000000000000007126;
+    const String videoIdfive = 'https://youtu.be/ZJ_85q3GBBA?t=';
+    const double startSecondsfive = 000000000000000000000000000277;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inconsiderately""",
                       // alsoEnglishWord: "also: inconsiderately",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkənˈsɪdərətli/""",
+                      americanText: """IpaUS: /ˌɪnkənˈsɪdərətli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,15 +990,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: کەمتەرخەمانە، سەرچڵانە
+// """),
 // With short examples define "inconsiderately", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە زۆر گرنگی نادات بە هەست و پێویستی کەسانی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """People often drive carelessly and inconsiderately.""",
+                      kurdishText:
+                          """خەڵکی زۆرجار بە کەمتەرخەمانە و سەرچڵانە شۆفێری دەکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

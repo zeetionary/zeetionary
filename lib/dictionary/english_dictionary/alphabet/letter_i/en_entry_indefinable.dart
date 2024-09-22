@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindefinable indefinable
-WORD_WEB indefinable indefinable indefinable
-haʊʊʊʊʊʊʊ4
+- Adjective: indefinable
+1. Not capable of being precisely or readily described; not easily put into words (- undefinable)
+"an abstract concept that seems indefinable"; "an indefinable feeling of terror";
+ 
+2. Defying expression or description (- indescribable, ineffable, unspeakable, untellable, unutterable, undescribable)
+"indefinable yearnings";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indefinable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +89,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She has that indefinable something that makes someone a star.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He felt, in some indefinable way, that he had come home.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Bs7HnNPgQR0?t=';
+    const double startSecondsend = 00000000000000000000000000057;
+    const String videoIdone = 'https://youtu.be/vSm19OlSZTk?t=';
+    const double startSecondsone = 00000000000000000000000000011843;
+    const String videoIdtwo = 'https://youtu.be/RnKLuc5Exro?t=';
+    const double startSecondstwo = 000000000000000000000000000170;
+    const String videoIdthree = 'https://youtu.be/oklJda3ffDY?t=';
+    const double startSecondsthree = 000000000000000000000000000275;
+    const String videoIdfour = 'https://youtu.be/tYHw3DgNOlM?t=';
+    const double startSecondsfour = 000000000000000000000000000179;
+    const String videoIdfive = 'https://youtu.be/wFLhp5FqN6w?t=';
+    const double startSecondsfive = 0000000000000000000000000001008;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """indefinable""",
                       // alsoEnglishWord: "also: indefinable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪndɪˈfaɪnəbl/""",
+                      americanText: """IpaUS: /ˌɪndɪˈfaɪnəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,19 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەناسین‌نەهاتوو، پێناسەنەکراو، پێناسە ناکرێ، لەدەربڕین‌نەهاتوو، دەرنەبڕاو، ڕوون ناکرێتەوە، نەوتراو،	ئاڵۆز، تەماوی
 """),
 // With short examples define "indefinable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە سەخت یان ئەستەمە بۆ ناساندن یان ڕووةکردنەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She has that indefinable something that makes someone a star.""",
+                      kurdishText:
+                          """ئەو شتە پێناسەنەکراوەی هەیە کە دەیکات بە ئەستێرەیەک.""",
+                      englishNote:
+                          """This means that she possesses a unique and special quality that is hard to describe or explain, but it makes her stand out and gives her the potential to be a star. The word "indefinable" suggests that this quality cannot be easily defined or put into words.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1014,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He felt, in some indefinable way, that he had come home.""",
+                      kurdishText:
+                          """هەستی دەکرد، بە شێوەیەکی پێناسەنەکراو، کە هاتووەتە ماڵەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincorrect incorrect
-WORD_WEB incorrect incorrect incorrect
-haʊʊʊʊʊʊʊ4
+- Adjective: incorrect
+1. Not correct; not in conformity with fact or truth (- wrong)
+"an incorrect calculation";
+ 
+2. Not in accord with established usage or procedure (- wrong)
+"it is incorrect for a policeman to accept gifts";
+ 
+3. (of a word or expression) not agreeing with grammatical principles
+ 
+4. Characterized by errors; not agreeing with a model or not following established rules (- faulty, wrong)
+"an incorrect transcription";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incorrect";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +93,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His version of what happened is incorrect.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Many of the figures were incorrect.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Your assumptions about my private life are incorrect.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/65CFesU4KVQ?t=';
+    const double startSecondsend = 000000000000000000000000000123;
+    const String videoIdone = 'https://youtu.be/qg2nGY1aqlg?t=';
+    const double startSecondsone = 0000000000000000000000000001242;
+    const String videoIdtwo = 'https://youtu.be/UzIxYdWVbm0?t=';
+    const double startSecondstwo = 000000000000000000000000000380;
+    const String videoIdthree = 'https://youtu.be/cMBrvHsFD_8?t=';
+    const double startSecondsthree = 0000000000000000000000000001623;
+    const String videoIdfour = 'https://youtu.be/3DxMSufIIqY?t=';
+    const double startSecondsfour = 000000000000000000000000000179;
+    const String videoIdfive = 'https://youtu.be/KmaS21OmhKI?t=';
+    const double startSecondsfive = 0000000000000000000000000001102;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incorrect""",
                       // alsoEnglishWord: "also: incorrect",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkəˈrekt/""",
+                      americanText: """IpaUS: /ˌɪnkəˈrekt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +996,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەڵە، نادروست، شاش، ناڕاست، درۆ، ناحەز، ناشیرین، لێنەوەشاو، هەرزە، نەگونجاو
 """),
 // With short examples define "incorrect", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە ڕاست و درووست نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His version of what happened is incorrect.""",
+                      kurdishText: """گێڕانەوەکەی بۆ ئەوەی چی ڕووێدا ناڕاستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1010,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Many of the figures were incorrect.""",
+                      kurdishText: """زۆرێک لە ئامارەکان ناڕاست بوون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1019,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Your assumptions about my private life are incorrect.""",
+                      kurdishText: """گریمانەکانت لەسەر ژیانی کەسیم ناڕاستن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

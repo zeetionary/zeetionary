@@ -18,7 +18,8 @@ final authStateChangeProvider = StreamProvider((ref) {
 
 class AuthController extends StateNotifier<bool> {
   final FirebaseAuth _auth = FirebaseAuth.instance;
-  final GoogleSignIn _googleSignIn = GoogleSignIn();
+  // final GoogleSignIn _googleSignIn = GoogleSignIn();
+  final GoogleSignIn _googleSignIn = GoogleSignIn(scopes: ['email']);
 
   AuthController() : super(false);
 

@@ -53,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinconsistent inconsistent
-WORD_WEB inconsistent inconsistent inconsistent
-haʊʊʊʊʊʊʊ4
+- Adjective: inconsistent
+1. Not capable of being made consistent or harmonious
+"inconsistent accounts"
+ 
+2. Not in agreement (- discrepant)
+ 
+3. Displaying a lack of consistency
+"inconsistent statements cannot both be true at the same time"; "inconsistent with the roadmap"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inconsistent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,29 +91,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The report is inconsistent with the financial statements.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The witnesses' statements were inconsistent.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Her behaviour was clearly inconsistent with her beliefs.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""Children find it difficult if a parent is inconsistent.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -928,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/65CFesU4KVQ?t=';
+    const double startSecondsend = 000000000000000000000000000524;
+    const String videoIdone = 'https://youtu.be/6dv8zJiggBs?t=';
+    const double startSecondsone = 000000000000000000000000000479;
+    const String videoIdtwo = 'https://youtu.be/LYUdnsIn5OU?t=';
+    const double startSecondstwo = 000000000000000000000000000447;
+    const String videoIdthree = 'https://youtu.be/_h97cjyraEk?t=';
+    const double startSecondsthree = 000000000000000000000000000213;
+    const String videoIdfour = 'https://youtu.be/yTsxY0mRIGs?t=';
+    const double startSecondsfour = 0000000000000000000000000001568;
+    const String videoIdfive = 'https://youtu.be/x629nYBuLpY?t=';
+    const double startSecondsfive = 000000000000000000000000000817;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inconsistent""",
                       // alsoEnglishWord: "also: inconsistent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkənˈsɪstənt/""",
+                      americanText: """IpaUS: /ˌɪnkənˈsɪstənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +997,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەگونجاو، نەسازاو، یەک‌نەکەوتوو، ڕێک‌نەکەوتوو، لێک‌دوور، یەک‌نەگرەوە، دژبەیەک، ناکۆک، پێکدژ،	وازی‌وازی، ڕاڕا، تاوتاو، نەیەک‌قسە
 """),
 // With short examples define "inconsistent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ئەوەی کە دوو شت، بۆ نموونە بەڵگە، پێکەوە نەگونجێن بەهۆی ئەوەی دژی یەکن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The report is inconsistent with the financial statements.""",
+                      kurdishText:
+                          """ڕاپۆرتەکە نەسازاوە لەگەڵ لێدوانە داراییەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,26 +1015,35 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The witnesses' statements were inconsistent.""",
+                      kurdishText: """قسەکانی شایەتحاڵەکە دژبەیەک بوون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە ناگونجێت لەگەڵ ژمارەیەک ستاندارد، باوەڕ، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her behaviour was clearly inconsistent with her beliefs.""",
+                      kurdishText:
+                          """ڕەفتارەکەی بە ئاشکرایی ڕێک‌نەکەوتوو بوو لەگەڵ باوەڕەکانی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە زوو دەگۆڕێت و بە هەمان شێوە نامێنێتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Children find it difficult if a parent is inconsistent.""",
+                      kurdishText:
+                          """منداڵان بە سەختی دەبینن ئەگەر دایبابێک تاوتاو بێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

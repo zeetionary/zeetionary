@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincongruous incongruous
-WORD_WEB incongruous incongruous incongruous
-haʊʊʊʊʊʊʊ4
+- Adjective: incongruous
+1. Lacking in harmony, compatibility or appropriateness
+"a plan incongruous with reason"; "incongruous behaviour"; "a joke that was incongruous with polite conversation"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incongruous";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +86,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The two of them made an incongruous couple.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The new computer looked incongruous in the dark book-filled library.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/WUzeOF_QTWY?t=';
+    const double startSecondsend = 0000000000000000000000000001261;
+    const String videoIdone = 'https://youtu.be/TL4ti1EGNiw?t=';
+    const double startSecondsone = 0000000000000000000000000001066;
+    const String videoIdtwo = 'https://youtu.be/a1Z7U9ywLSs?t=';
+    const double startSecondstwo = 00000000000000000000000000032;
+    const String videoIdthree = 'https://youtu.be/jrIogch5DBU?t=';
+    const double startSecondsthree = 000000000000000000000000000427;
+    const String videoIdfour = 'https://youtu.be/gokZgvLPe1g?t=';
+    const double startSecondsfour = 000000000000000000000000000719;
+    const String videoIdfive = 'https://youtu.be/vyGdzbEd22M?t=';
+    const double startSecondsfive = 000000000000000000000000000542;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incongruous""",
                       // alsoEnglishWord: "also: incongruous",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkɒŋɡruəs/""",
+                      americanText: """IpaUS: /ɪnˈkɑːŋɡruəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەگونجاو، نەسازاو، ڕێک‌نەکەوتوو، ناکۆک، یەک‌نەگرەوە، یەک‌نەکەوتوو، ناکۆک، جیاواز، ناچونیەک، نایەک‌جۆر، ناجۆر
 """),
 // With short examples define "incongruous", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) نامۆ و نەگونجاو لە دۆخێکی دیاریکراودا"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: inappropriate"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The two of them made an incongruous couple.""",
+                      kurdishText: """هەردووکیان دووانەیەکی نەگونجاویان درووستدەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1004,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The new computer looked incongruous in the dark book-filled library.""",
+                      kurdishText: """کۆمپیوتەرە تازەکە نەگونجاو دەردەکەوت لە کتێبخانە پڕ لە کتێبە تاریکەکەس.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

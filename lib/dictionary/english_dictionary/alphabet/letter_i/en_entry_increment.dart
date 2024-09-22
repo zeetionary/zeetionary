@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: increment
+1. A process of becoming larger or longer or more numerous or more important (- increase, growth)
+"the increment in unemployment";
+ 
+2. The amount by which something increases (- increase)
+"they proposed an increment of 15 percent in the fare";
 
-EnglishEntryincrement increment
-WORD_WEB increment increment increment
-haʊʊʊʊʊʊʊ4
+- Verb: increment (Derived forms: incremented, incrementing, increments)
+1. Increase by some amount, esp. by one
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "increment";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """You will receive annual salary/pay increments every September.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The substance was heated in small temperature increments.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/vk7Iplg9dGk?t=';
+    const double startSecondsend = 000000000000000000000000000351;
+    const String videoIdone = 'https://youtu.be/SkGIr2qUz-4?t=';
+    const double startSecondsone = 000000000000000000000000000158;
+    const String videoIdtwo = 'https://youtu.be/gO-V8E9MIBg?t=';
+    const double startSecondstwo = 0000000000000000000000000001440;
+    const String videoIdthree = 'https://youtu.be/Gmjd6Zad1Ag?t=';
+    const double startSecondsthree = 00000000000000000000000000047;
+    const String videoIdfour = 'https://youtu.be/FaNLkd0rzXk?t=';
+    const double startSecondsfour = 000000000000000000000000000713;
+    const String videoIdfive = 'https://youtu.be/m_uDrH9a1ng?t=';
+    const double startSecondsfive = 000000000000000000000000000234;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """increment""",
                       // alsoEnglishWord: "also: increment",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪŋkrəmənt/""",
+                      americanText: """IpaUS: /ˈɪŋkrəmənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +996,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سوود، بەهرە،	زۆربوون، پەرەسەندن،	پارەی زیادی، مووچەی زیادی، سەرکرێ، سەرمووچە
 """),
 // With short examples define "increment", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) زیادبوونێکی دیاریکراو کە دەخرێتە سەر مووچەی کەسێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You will receive annual salary/pay increments every September.""",
+                      kurdishText:
+                          """هەموو ئەیلوولێک سەرمووچەی ساڵانە وەردەگریت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) زیادبوونێک لە ژمارە یان بڕێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The substance was heated in small temperature increments.""",
+                      kurdishText:
+                          """مادەکە گەرمکرا لە پلەی گەرمی زیادبووی کەم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

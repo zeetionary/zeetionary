@@ -54,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinconsistently inconsistently
-WORD_WEB inconsistently inconsistently inconsistently
-haʊʊʊʊʊʊʊ4
+- Adverb: inconsistently
+1. Without showing consistency
+"he acted inconsistently when he bought these stocks"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inconsistently";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -89,15 +87,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""They have acted inconsistently with their obligations.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """In the real world, people behave inconsistently and contradict themselves.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -929,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wVNbd7mC4Jg?t=';
+    const double startSecondsend = 000000000000000000000000000430;
+    const String videoIdone = 'https://youtu.be/GYNsox4n9l0?t=';
+    const double startSecondsone = 0000000000000000000000000001088;
+    const String videoIdtwo = 'https://youtu.be/QlAsSye1jR4?t=';
+    const double startSecondstwo = 000000000000000000000000000456;
+    const String videoIdthree = 'https://youtu.be/ha7iWECm_8E?t=';
+    const double startSecondsthree = 0000000000000000000000000001149;
+    const String videoIdfour = 'https://youtu.be/WiJfGq-iyp0?t=';
+    const double startSecondsfour = 0000000000000000000000000002145;
+    const String videoIdfive = 'https://youtu.be/0tYm41hb48o?t=';
+    const double startSecondsfive = 0000000000000000000000000007900;
 
     return DefaultTabController(
       length: 4,
@@ -955,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inconsistently""",
                       // alsoEnglishWord: "also: inconsistently",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkənˈsɪstəntli/""",
+                      americanText: """IpaUS: /ˌɪnkənˈsɪstəntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,23 +992,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: یەک‌نەکەوتووانە، ڕێک‌نەکەوتووانە
 """),
 // With short examples define "inconsistently", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ناگات بە ژمارەیەک ستاندارد، بیرۆکە، هتد"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They have acted inconsistently with their obligations.""",
+                      kurdishText:
+                          """بە شێوەیەکی ناهاوسەنگ لەگەڵ بەرپرسیارێتییەکانیاندا هەڵسوکەوتیان کردووە..""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە زۆر دەگۆڕێت و بە هەمان شێوە نامێنێتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In the real world, people behave inconsistently and contradict themselves.""",
+                      kurdishText:
+                          """لە دنیای ڕاستەقینەدا، خەڵک بە شێوەیەکی ناهاوسەنگ ڕەفتار دەکەن و دژایەتی خۆیان دەکەن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincomplete incomplete
-WORD_WEB incomplete incomplete incomplete
-haʊʊʊʊʊʊʊ4
+- Adjective: incomplete
+1. Not complete or total; not completed (- uncomplete)
+"political consequences of incomplete military success"; "an incomplete forward pass";
+ 
+2. Not yet finished (- uncompleted)
+"his thesis is still incomplete";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incomplete";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Spoken language contains many incomplete sentences.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Our holiday would be incomplete without some time on the tennis courts.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The book offers incomplete coverage of the history of philosophy.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/PYS3UZFPJWI?t=';
+    const double startSecondsend = 000000000000000000000000000875;
+    const String videoIdone = 'https://youtu.be/kTaYet07Ioo?t=';
+    const double startSecondsone = 0000000000000000000000000001010;
+    const String videoIdtwo = 'https://youtu.be/OgFcz6klaeg?t=';
+    const double startSecondstwo = 000000000000000000000000000788;
+    const String videoIdthree = 'https://youtu.be/FaCeZsOOKEY?t=';
+    const double startSecondsthree = 000000000000000000000000000601;
+    const String videoIdfour = 'https://youtu.be/6ta_sftSfIw?t=';
+    const double startSecondsfour = 0000000000000000000000000001533;
+    const String videoIdfive = 'https://youtu.be/4Q1FzhMY8FQ?t=';
+    const double startSecondsfive = 000000000000000000000000000383;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incomplete""",
                       // alsoEnglishWord: "also: incomplete",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkəmˈpliːt/""",
+                      americanText: """IpaUS: /ˌɪnkəmˈpliːt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +994,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناتەواو، نیوەچڵ، ناپوختە، کەم‌وکورت، گەند، نیمچە، کەمی هەیە
 """),
 // With short examples define "incomplete", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە ناتەواوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Spoken language contains many incomplete sentences.""",
+                      kurdishText:
+                          """زمانی قسە زۆر ڕستەی ناتەواو لەخۆدەگرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Our holiday would be incomplete without some time on the tennis courts.""",
+                      kurdishText:
+                          """پشووەکەمان ناتەواو دەبێت بەبێ هەندێک کات لە گۆڕەپانی تێنسەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1022,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The book offers incomplete coverage of the history of philosophy.""",
+                      kurdishText:
+                          "کتێبەکە باسی ناتەواو لەسەر مێژووی فەلسەفە پێشکەش دەکات.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

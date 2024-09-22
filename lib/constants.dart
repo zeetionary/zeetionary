@@ -1727,7 +1727,8 @@ class IPAofEnglish extends ConsumerWidget {
           Clipboard.setData(ClipboardData(text: text));
           ScaffoldMessenger.of(context).showSnackBar(
             SnackBar(
-              backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+              backgroundColor: Theme.of(context).canvasColor,
+              // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
               showCloseIcon: true,
               closeIconColor: Theme.of(context).primaryColor,
               content: Text(
@@ -1792,8 +1793,8 @@ class KurdishVocabulary extends ConsumerWidget {
                     Clipboard.setData(ClipboardData(text: text));
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(
-                        backgroundColor:
-                            Theme.of(context).scaffoldBackgroundColor,
+                        backgroundColor: Theme.of(context).canvasColor,
+                        // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
                         showCloseIcon: true,
                         closeIconColor: Theme.of(context).primaryColor,
                         content: Directionality(
@@ -2061,8 +2062,8 @@ class _DefinitionKurdishState extends ConsumerState<DefinitionKurdish>
                       Clipboard.setData(ClipboardData(text: widget.text));
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
-                          backgroundColor:
-                              Theme.of(context).scaffoldBackgroundColor,
+                          backgroundColor: Theme.of(context).canvasColor,
+                          // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
                           showCloseIcon: true,
                           closeIconColor: Theme.of(context).primaryColor,
                           content: Directionality(
@@ -2417,8 +2418,8 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
                     Clipboard.setData(ClipboardData(text: widget.text));
                     ScaffoldMessenger.of(context).showSnackBar(
                       SnackBar(
-                        backgroundColor:
-                            Theme.of(context).scaffoldBackgroundColor,
+                        backgroundColor: Theme.of(context).canvasColor,
+                        // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
                         showCloseIcon: true,
                         closeIconColor: Theme.of(context).primaryColor,
                         content: Text(
@@ -2586,8 +2587,8 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
                       Clipboard.setData(ClipboardData(text: widget.text));
                       ScaffoldMessenger.of(context).showSnackBar(
                         SnackBar(
-                          backgroundColor:
-                              Theme.of(context).scaffoldBackgroundColor,
+                          backgroundColor: Theme.of(context).canvasColor,
+                          // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
                           showCloseIcon: true,
                           closeIconColor: Theme.of(context).primaryColor,
                           content: Directionality(
@@ -2735,8 +2736,8 @@ class CustomFloatingActionButtonPlayer extends ConsumerWidget {
     return ConstantContainer(
       child: FloatingActionButton(
         onPressed: onPressed,
-        backgroundColor:
-            Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
+        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        // Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
         child: Icon(
           Icons.headphones_outlined,
           // Icons.play_arrow,
@@ -2891,7 +2892,8 @@ class EnglishMeaningConst extends ConsumerWidget {
                 Clipboard.setData(ClipboardData(text: text));
                 ScaffoldMessenger.of(context).showSnackBar(
                   SnackBar(
-                    backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+                    backgroundColor: Theme.of(context).canvasColor,
+                    // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
                     showCloseIcon: true,
                     closeIconColor: Theme.of(context).primaryColor,
                     content: Text(

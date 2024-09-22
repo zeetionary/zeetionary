@@ -72,7 +72,8 @@ class _DictionaryScreenEnglishLogoutState
         englishFavouritesList.remove(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            backgroundColor: Theme.of(context).canvasColor,
+            // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
             content: Text(
@@ -89,7 +90,8 @@ class _DictionaryScreenEnglishLogoutState
         englishFavouritesList.add(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            backgroundColor: Theme.of(context).canvasColor,
+            // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
             content: Text(
@@ -379,9 +381,8 @@ class _DictionaryScreenEnglishLogoutState
                 decoration: InputDecoration(
                   focusedBorder: OutlineInputBorder(
                     borderSide: BorderSide(
-                      color: Theme.of(context)
-                          .highlightColor, // Set your desired color here
-                      width: 2.0, // Set the border width
+                      color: Theme.of(context).highlightColor,
+                      width: 1.5,
                     ),
                   ),
                   // enabledBorder: OutlineInputBorder(

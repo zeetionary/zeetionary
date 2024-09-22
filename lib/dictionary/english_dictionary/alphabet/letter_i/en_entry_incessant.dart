@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincessant incessant
-WORD_WEB incessant incessant incessant
-haʊʊʊʊʊʊʊ4
+- Adjective: incessant
+1. Continuing forever, or for an indefinitely long time (- ceaseless, constant, never-ending, perpetual, unceasing, unremitting)
+"night and day we live with the incessant noise of the city";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incessant";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""There was incessant traffic noise in the narrow streets.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/NpBPm0b9deQ?t=';
+    const double startSecondsend = 000000000000000000000000000476;
+    const String videoIdone = 'https://youtu.be/HbUGTcdFIio?t=';
+    const double startSecondsone = 0000000000000000000000000002632;
+    const String videoIdtwo = 'https://youtu.be/fb_SQOIC_zY?t=';
+    const double startSecondstwo = 000000000000000000000000000698;
+    const String videoIdthree = 'https://youtu.be/GKuHdd_-m6M?t=';
+    const double startSecondsthree = 000000000000000000000000000525;
+    const String videoIdfour = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondsfour = 0000000000000000000000000004696;
+    const String videoIdfive = 'https://youtu.be/sGOXHdf-_dM?t=';
+    const double startSecondsfive = 000000000000000000000000000457;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incessant""",
                       // alsoEnglishWord: "also: incessant",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsesnt/""",
+                      americanText: """IpaUS: /ɪnˈsesnt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: یەکبینە، بەردەوام، هەمیشە، بێ‌پسانەوە، لەسەریەک، یەک‌لەدوای‌یەک، بێ پچڕان یان پسان
 """),
 // With short examples define "incessant", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە ناوەستێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: constant"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There was incessant traffic noise in the narrow streets.""",
+                      kurdishText:
+                          """قەرەباڵغی هاتووچۆی نەبڕاوە هەبوو لە شەقامە تەسکەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

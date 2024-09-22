@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincessantly incessantly
-WORD_WEB incessantly incessantly incessantly
-haʊʊʊʊʊʊʊ4
+- Adverb: incessantly
+1. With unflagging resolve (- endlessly, ceaselessly, unceasingly, unendingly, continuously, unremittingly)
+"dance inspires him incessantly to strive higher and higher toward the shining pinnacle of perfection that is the goal of every artiste";
+ 
+2. Invariably (- constantly, always, forever, perpetually, unremittingly)
+"the world is incessantly changing";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incessantly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +89,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She talked incessantly about the most trivial things.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He checks his phone incessantly.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/YLmDE_JYUNU?t=';
+    const double startSecondsend = 00000000000000000000000000078;
+    const String videoIdone = 'https://youtu.be/Mx8JkGHaGUI?t=';
+    const double startSecondsone = 0000000000000000000000000001749;
+    const String videoIdtwo = 'https://youtu.be/jJfgHa49GX0?t=';
+    const double startSecondstwo = 000000000000000000000000000282;
+    const String videoIdthree = 'https://youtu.be/yE-8iTNMlro?t=';
+    const double startSecondsthree = 000000000000000000000000000241;
+    const String videoIdfour = 'https://youtu.be/sGOXHdf-_dM?t=';
+    const double startSecondsfour = 000000000000000000000000000481;
+    const String videoIdfive = 'https://youtu.be/fzia-8MX4ig?t=';
+    const double startSecondsfive = 000000000000000000000000000174;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incessantly""",
                       // alsoEnglishWord: "also: incessantly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsesntli/""",
+                      americanText: """IpaUS: /ɪnˈsesntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +996,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incessantly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بەبێ وەستان"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: constantly"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She talked incessantly about the most trivial things.""",
+                      kurdishText:
+                          """بەبێ وەستان قسەی کرد سەبارەت بە هیچترین شتەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1011,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He checks his phone incessantly.""",
+                      kurdishText: """هەمیشە چاو لە موبایلەکەی دەکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinconvenient inconvenient
-WORD_WEB inconvenient inconvenient inconvenient
-haʊʊʊʊʊʊʊ4
+- Adjective: inconvenient
+1. Not conveniently timed
+"an early departure is inconvenient for us"
+ 
+2. Not suited to your comfort, purpose or needs
+"it is inconvenient not to have a telephone in the kitchen"; "the back hall is an inconvenient place for the telephone"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inconvenient";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +89,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """That’s most inconvenient for me. I’m working that weekend.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She called at a most inconvenient time.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/PkUg89kLLBE?t=';
+    const double startSecondsend = 0000000000000000000000000001033;
+    const String videoIdone = 'https://youtu.be/FSHITL5oedk?t=';
+    const double startSecondsone = 000000000000000000000000000210;
+    const String videoIdtwo = 'https://youtu.be/P3CjYb5VRik?t=';
+    const double startSecondstwo = 00000000000000000000000000045;
+    const String videoIdthree = 'https://youtu.be/Q-nWA0WeF98?t=';
+    const double startSecondsthree = 0000000000000000000000000002196;
+    const String videoIdfour = 'https://youtu.be/KsVaFsKkh-k?t=';
+    const double startSecondsfour = 00000000000000000000000000060;
+    const String videoIdfive = 'https://youtu.be/E7-0GYMCwyQ?t=';
+    const double startSecondsfive = 000000000000000000000000000562;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inconvenient""",
                       // alsoEnglishWord: "also: inconvenient",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkənˈviːniənt/""",
+                      americanText: """IpaUS: /ˌɪnkənˈviːniənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناڕەحەت‌کەر، مزاحیم،	نالەبار، ناخۆش، بێجێ، نابەجێ، نەگونجاو
 """),
 // With short examples define "inconvenient", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە کێشە و زەحمەتی درووست دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """That’s most inconvenient for me. I’m working that weekend.""",
+                      kurdishText:
+                          """ئەوە زۆر زەحمەتە بۆم. ئەو کۆتایی هەفتەیە کار دەکەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1011,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She called at a most inconvenient time.""",
+                      kurdishText: """لە کاتێکی زۆر خراپدا پەیوەندیی کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

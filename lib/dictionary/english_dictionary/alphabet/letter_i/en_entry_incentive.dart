@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincentive incentive
-WORD_WEB incentive incentive incentive
-haʊʊʊʊʊʊʊ4
+- Noun: incentive (Derived forms: incentives)
+1. A positive motivational influence (- inducement, motivator)
+ 
+2. An additional payment (or other remuneration) to employees as a means of increasing output (- bonus)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incentive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""There is no incentive for people to save fuel.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""This gives pupils a strong incentive to read in English.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
+    const double startSecondsend = 0000000000000000000000000001214;
+    const String videoIdone = 'https://youtu.be/544DTGHIBM0?t=';
+    const double startSecondsone = 000000000000000000000000000611;
+    const String videoIdtwo = 'https://youtu.be/hFZFjoX2cGg?t=';
+    const double startSecondstwo = 000000000000000000000000000369;
+    const String videoIdthree = 'https://youtu.be/Js2UoMSumx4?t=';
+    const double startSecondsthree = 000000000000000000000000000790;
+    const String videoIdfour = 'https://youtu.be/SrDEtSlqJC4?t=';
+    const double startSecondsfour = 000000000000000000000000000376;
+    const String videoIdfive = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsfive = 0000000000000000000000000002460;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incentive""",
                       // alsoEnglishWord: "also: incentive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsentɪv/""",
+                      americanText: """IpaUS: /ɪnˈsentɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بزوێنەر، هاندەر، گوڕپێدەر، گوڕ، تین، دڵگەرمی
 """),
 // With short examples define "incentive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) شتێک کە هانت دەدات بۆ کردنی شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There is no incentive for people to save fuel.""",
+                      kurdishText:
+                          """هیچ پاڵنەرێک نییە بۆ خەڵکی کە دەستبگرن سووتەمەنییەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This gives pupils a strong incentive to read in English.""",
+                      kurdishText:
+                          """ئەمە هاندەرێکی بەهێز دەدات بە قوتابیان کە بە ئینگلیزی بخوێننەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

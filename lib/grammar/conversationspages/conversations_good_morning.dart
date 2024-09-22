@@ -110,7 +110,9 @@ class _ConversationsGoodMorningState
                           Expanded(
                             child: Slider(
                               thumbColor: Theme.of(context).highlightColor,
-                              activeColor: Theme.of(context).primaryColor,
+                              activeColor: Theme.of(context)
+                                  .primaryColor
+                                  .withOpacity(0.5),
                               min: 0,
                               max: duration.inSeconds.toDouble(),
                               value: position.inSeconds.toDouble(),

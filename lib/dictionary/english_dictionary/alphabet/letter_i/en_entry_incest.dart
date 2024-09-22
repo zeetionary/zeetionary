@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincest incest
-WORD_WEB incest incest incest
-haʊʊʊʊʊʊʊ4
+- Noun: incest (Derived forms: incests)
+1. Sexual intercourse between persons too closely related to marry (as between a parent and a child)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incest";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The law protects victims of incest from further harm.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsend = 1166;
+    const String videoIdone = 'https://youtu.be/iDyRszZKPFw?t=';
+    const double startSecondsone = 00000000000000000000000000047;
+    const String videoIdtwo = 'https://youtu.be/qY5xsdhaeO4?t=';
+    const double startSecondstwo = 000000000000000000000000000221;
+    const String videoIdthree = 'https://youtu.be/Z4uAq_-t-eI';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/uISyLEAHZBI?t=';
+    const double startSecondsfour = 00000000000000000000000000058;
+    const String videoIdfive = 'https://youtu.be/XPFJs9nYroo?t=';
+    const double startSecondsfive = 0;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incest""",
                       // alsoEnglishWord: "also: incest",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnsest/""",
+                      americanText: """IpaUS: /ˈɪnsest/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incest", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) سێکس لە نێوان دوو کەس کە زۆر پەیوەندیدارن بە یەکەوە، بۆ نموونە لە نێوان خوشک و برا، یان باوک و کچ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The law protects victims of incest from further harm.""",
+                      kurdishText:
+                          """یاساکە قوربانیانی سێکسی مەحرەم دەپارێزێت لە زیانی زیاتر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

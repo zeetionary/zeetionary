@@ -53,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincorporated incorporated
-WORD_WEB incorporated incorporated incorporated
-haʊʊʊʊʊʊʊ4
+- Adjective: incorporated
+1. Formed or united into a whole (- incorporate, integrated, merged, unified)
+ 
+2. Organized and maintained as a legal corporation (- corporate)
+"an incorporated town";
+ 
+3. Added into (a larger whole)
+"the ideas incorporated in his revised manuscript"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incorporated";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +91,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Apple Incorporated is a global technology company.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/rEdl2Uetpvo?t=';
+    const double startSecondsend = 000000000000000000000000000269;
+    const String videoIdone = 'https://youtu.be/qWAagS_MANg?t=';
+    const double startSecondsone = 000000000000000000000000000361;
+    const String videoIdtwo = 'https://youtu.be/lGSOWwUvJiU?t=';
+    const double startSecondstwo = 000000000000000000000000000658;
+    const String videoIdthree = 'https://youtu.be/AF8d72mA41M?t=';
+    const double startSecondsthree = 0000000000000000000000000001386;
+    const String videoIdfour = 'https://youtu.be/VvJm4pQZ04s?t=';
+    const double startSecondsfour = 000000000000000000000000000237;
+    const String videoIdfive = 'https://youtu.be/W2hRTTTpmr8?t=';
+    const double startSecondsfive = 0000000000000000000000000001292;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incorporated""",
                       // alsoEnglishWord: "also: incorporated",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkɔːpəreɪtɪd/""",
+                      americanText: """IpaUS: /ɪnˈkɔːrpəreɪtɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +994,17 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "incorporated", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: یەک‌خراو، یەک‌پارچە، تێکەڵ‌کراو، یەک‌گرتوو، یەک‌کەوتوو
+// """),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە کراوە بە کۆمپانیایەکی بازرگانی بە پێگەی یاسایی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Apple Incorporated is a global technology company.""",
+                      kurdishText:
+                          """کۆمپانیای بازرگانی ئەپڵ کۆمپانیایەکی تەکنەلۆژیی جیهانییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

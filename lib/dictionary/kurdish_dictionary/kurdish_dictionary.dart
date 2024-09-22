@@ -116,8 +116,7 @@ class _DictionaryScreenKurdishState
 
   void onKurdishFavourite(String word) async {
     final prefs = await SharedPreferences.getInstance();
-        final textSize = ref.watch(textSizeProvider);
-
+    final textSize = ref.watch(textSizeProvider);
 
     setState(() {
       final kurdishFavouritesList =
@@ -129,7 +128,8 @@ class _DictionaryScreenKurdishState
         kurdishFavouritesList.remove(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            backgroundColor: Theme.of(context).canvasColor,
+            // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
             content: Directionality(
@@ -138,8 +138,7 @@ class _DictionaryScreenKurdishState
                 'وشەی دڵخواز سڕایەوە: $wordWithoutTimestamp',
                 style: TextStyle(
                   color: Theme.of(context).primaryColor,
-                                            fontSize: textSize + 1,
-
+                  fontSize: textSize + 1,
                 ),
               ),
             ),
@@ -150,7 +149,8 @@ class _DictionaryScreenKurdishState
         kurdishFavouritesList.add(wordWithoutTimestamp);
         ScaffoldMessenger.of(context).showSnackBar(
           SnackBar(
-            backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+            backgroundColor: Theme.of(context).canvasColor,
+            // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
             content: Directionality(
@@ -158,8 +158,7 @@ class _DictionaryScreenKurdishState
               child: Text(
                 'وشەی دڵخواز زیادکرا: $wordWithoutTimestamp',
                 style: TextStyle(
-                                            fontSize: textSize + 1,
-
+                  fontSize: textSize + 1,
                   color: Theme.of(context).primaryColor,
                 ),
               ),
@@ -459,9 +458,8 @@ class _DictionaryScreenKurdishState
                   decoration: InputDecoration(
                     focusedBorder: OutlineInputBorder(
                       borderSide: BorderSide(
-                        color: Theme.of(context)
-                            .highlightColor, // Set your desired color here
-                        width: 2.0, // Set the border width
+                        color: Theme.of(context).highlightColor,
+                        width: 1.5,
                       ),
                     ),
                     // enabledBorder: OutlineInputBorder(

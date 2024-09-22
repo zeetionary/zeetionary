@@ -53,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinconclusive inconclusive
-WORD_WEB inconclusive inconclusive inconclusive
-haʊʊʊʊʊʊʊ4
+- Adjective: inconclusive
+1. Not conclusive; not putting an end to doubt or question
+"an inconclusive reply"; "inconclusive evidence"; "the inconclusive committee vote"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inconclusive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The results of the experiment were inconclusive.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """A coalition government was formed following an inconclusive general election.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hPvyXkDRdis?t=';
+    const double startSecondsend = 000000000000000000000000000926;
+    const String videoIdone = 'https://youtu.be/IM31fgkxn2I?t=';
+    const double startSecondsone = 000000000000000000000000000207;
+    const String videoIdtwo = 'https://youtu.be/bnnRIrxGGX8?t=';
+    const double startSecondstwo = 0000000000000000000000000002862;
+    const String videoIdthree = 'https://youtu.be/Bh9lIfocRMk?t=';
+    const double startSecondsthree = 000000000000000000000000000917;
+    const String videoIdfour = 'https://youtu.be/oU7-KMGZ4bc?t=';
+    const double startSecondsfour = 000000000000000000000000000314;
+    const String videoIdfive = 'https://youtu.be/_gM6NG2PN4Q?t=';
+    const double startSecondsfive = 000000000000000000000000000296;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inconclusive""",
                       // alsoEnglishWord: "also: inconclusive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkənˈkluːsɪv/""",
+                      americanText: """IpaUS: /ˌɪnkənˈkluːsɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,19 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناتەواو، نیوەچڵ، نابڕا، کۆتایی‌پێنەهآتوو، نابڕیاردەر، یەکلایی‌نەکراوە، یەکلایی نەبۆتەوە، بێ‌ئەنجام
 """),
 // With short examples define "inconclusive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ناگات بە بڕیار یان ئەنجامێکی تەواو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The results of the experiment were inconclusive.""",
+                      kurdishText:
+                          """ئەنجامەکانی تاقیکردنەوەکە ناتەواو بوون.""",
+                      englishNote:
+                          "This means that the experiment did not produce clear or definite results, making it difficult to draw any firm conclusions from the data.",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A coalition government was formed following an inconclusive general election.""",
+                      kurdishText:
+                          """حکومەتێکی هاوپەیمانی پێکهێندرا لە دوای هەڵبژاردنێکی گشتی نابڕیاردەر.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

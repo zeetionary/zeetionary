@@ -5,7 +5,8 @@ void showSnackBar(BuildContext context, String text) {
     ..hideCurrentSnackBar()
     ..showSnackBar(
       SnackBar(
-        backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+        backgroundColor: Theme.of(context).canvasColor,
+        // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
         showCloseIcon: true,
         closeIconColor: Theme.of(context).primaryColor,
         content: Text(

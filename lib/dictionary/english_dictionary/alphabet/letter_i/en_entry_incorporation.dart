@@ -53,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincorporation incorporation
-WORD_WEB incorporation incorporation incorporation
-haʊʊʊʊʊʊʊ4
+- Noun: incorporation (Derived forms: incorporations)
+1. Consolidating two or more things; union in (or into) one body
+ 
+2. Learning (of values or attitudes etc.) that is incorporated within yourself (- internalization, internalisation [Brit])
+ 
+3. Including by incorporating
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incorporation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,22 +89,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The incorporations of this period doubled the size of the Roman empire.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The incorporation of foreign words enriches the language.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The company has been through many changes since its incorporation.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -928,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/V-hU1fEFKus?t=';
+    const double startSecondsend = 000000000000000000000000000354;
+    const String videoIdone = 'https://youtu.be/1X_KdkoGxSs?t=';
+    const double startSecondsone = 0000000000000000000000000002924;
+    const String videoIdtwo = 'https://youtu.be/epTdMVxsBng?t=';
+    const double startSecondstwo = 000000000000000000000000000231;
+    const String videoIdthree = 'https://youtu.be/z3uvnwBMTdY?t=';
+    const double startSecondsthree = 0000000000000000000000000006557;
+    const String videoIdfour = 'https://youtu.be/L3wajsCSdOk?t=';
+    const double startSecondsfour = 000000000000000000000000000322;
+    const String videoIdfive = 'https://youtu.be/TlOpkgM_WHY?t=';
+    const double startSecondsfive = 000000000000000000000000000944;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incorporation""",
                       // alsoEnglishWord: "also: incorporation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌkɔːpəˈreɪʃn/""",
+                      americanText: """IpaUS: /ɪnˌkɔːrpəˈreɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +995,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: یەک‌خستن، کردنەیەک، تێکەڵ‌کردن، لێک‌هەڵکێشان،	یەک‌گرتوویی، یەک‌گرتن، یەک‌کەوتوویی،	دامەزراندن، پێکهێنان، بنیات‌نان،	لەخۆگرتن، گرتنەبەر، گرتنەوە، تیابوون
 """),
 // With short examples define "incorporation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە شتێک ببێت بە بەشێک لە شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The incorporations of this period doubled the size of the Roman empire.""",
+                      kurdishText:
+                          """لەخۆگرتنەکانی ئەم سەردەمە قەبارەی ئیمپراتۆریەتیی ڕۆمانی دوو هێندە کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1013,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The incorporation of foreign words enriches the language.""",
+                      kurdishText:
+                          """لەخۆگرتنی وشەی بیانی زمانەکە دەوڵەمەند دەکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی کە کۆمپانیایەکی بەفەرمی ناسێنراو دابمەزرێنیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The company has been through many changes since its incorporation.""",
+                      kurdishText:
+                          """کۆمپانیاکە بە زۆر گۆڕانکاری تێپەڕیوە لەوەتەی دامەزراندنی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

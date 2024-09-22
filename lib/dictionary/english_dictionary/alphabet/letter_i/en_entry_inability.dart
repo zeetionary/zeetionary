@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinability inability
-WORD_WEB inability inability inability
-haʊʊʊʊʊʊʊ4
+- Noun: inability (Derived forms: inabilities)
+1. Lack of ability (especially mental ability) to do something
+ 
+2. Lacking the power to perform (- unfitness)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inability";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +86,39 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Some families go without medical treatment because of their inability to pay.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Sickness benefit claimants must provide medical evidence to support their inability to work.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """His inability to communicate has damaged their relationship beyond repair.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """The government made open confession of its inability to cope with the crisis.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""She seems to have a congenital inability to tell the truth.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/4I-p8vjQ95s?t=';
+    const double startSecondsend = 000000000000000000000000000955;
+    const String videoIdone = 'https://youtu.be/3yvxFFsjcYs?t=';
+    const double startSecondsone = 000000000000000000000000000410;
+    const String videoIdtwo = 'https://youtu.be/L1HCG3BGK8I?t=';
+    const double startSecondstwo = 000000000000000000000000000161;
+    const String videoIdthree = 'https://youtu.be/uaaC57tcci0?t=';
+    const double startSecondsthree = 000000000000000000000000000120;
+    const String videoIdfour = 'https://youtu.be/29n2bv7F6uc?t=';
+    const double startSecondsfour = 000000000000000000000000000247;
+    const String videoIdfive = 'https://youtu.be/kw9Bd96c1ug?t=';
+    const double startSecondsfive = 000000000000000000000000000848;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inability""",
                       // alsoEnglishWord: "also: inability",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnəˈbɪləti/""",
+                      americanText: """IpaUS: /ˌɪnəˈbɪləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +993,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەتوانی، بێ‌هێزی، لەدەس‌نەهاتوویی، هێزپێ‌نەشکاوی، بێ‌شیانی،	لێنەوەشاوەیی، لێنەهاتوویی
 """),
 // With short examples define "inability", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی کە نەتوانیت شتێک بکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some families go without medical treatment because of their inability to pay.""",
+                      kurdishText:
+                          """هەندێک خێزان بەبێ چارەسەری تەندرووستی دەژین بەهۆی بێ‌تواناییان بۆ پارەدان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Sickness benefit claimants must provide medical evidence to support their inability to work.""",
+                      kurdishText:
+                          "وەرگرانی مووچەی کەم‌ئەندامی دەبێت بەڵگەی تەندرووستی پیشان بدەن بۆ ئەوەی بیسەلمێنێت کە توانای کارکردنیان نییە.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1021,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His inability to communicate has damaged their relationship beyond repair.""",
+                      kurdishText:
+                          "نەبوونی توانای گفتوگۆی پەیوەندییەکەیانی تا ئەوپەڕی ئاستی چاککردنەوە تێکداوە.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,8 +1032,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The government made open confession of its inability to cope with the crisis.""",
+                      kurdishText:
+                          "حکومەت دانپیانانی کراوەی ئەنجامدا سەبارەت بە بێ توانایی بۆ مامەڵەکردن لەگەڵ قەیرانەکەدا.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1034,9 +1043,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
+                      englishText: """She seems to have a congenital inability to tell the truth.""",
+                      kurdishText:
+                                "وادیارە بێ‌تواناییەکی بۆماوەیی ھەیە لە وتنی ڕاستیدا.",
+                            onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),

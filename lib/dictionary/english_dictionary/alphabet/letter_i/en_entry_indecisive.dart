@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryindecisive indecisive
-WORD_WEB indecisive indecisive indecisive
-haʊʊʊʊʊʊʊ4
+- Adjective: indecisive
+1. Characterized by lack of decision and firmness (- dithery [informal])
+"an indecisive manager brought the enterprise to a standstill";
+ 
+2. Not definitely settling something
+"a long and indecisive war"
+ 
+3. Not clearly defined
+"indecisive boundaries running through mountains"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "indecisive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Some blame indecisive leadership for the party’s failure at the polls.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Both armies withdrew after an indecisive battle.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/xXvgT-AgLAo?t=';
+    const double startSecondsend = 00000000000000000000000000060;
+    const String videoIdone = 'https://youtu.be/FSHITL5oedk?t=';
+    const double startSecondsone = 000000000000000000000000000850;
+    const String videoIdtwo = 'https://youtu.be/DCHbhDxBLko?t=';
+    const double startSecondstwo = 00000000000000000000000000091;
+    const String videoIdthree = 'https://youtu.be/MSfjCG4V2GM?t=';
+    const double startSecondsthree = 000000000000000000000000000136;
+    const String videoIdfour = 'https://youtu.be/96BhTy93MN0?t=';
+    const double startSecondsfour = 000000000000000000000000000147;
+    const String videoIdfive = 'https://youtu.be/1oOpIlcHj_Q?t=';
+    const double startSecondsfive = 000000000000000000000000000251;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """indecisive""",
                       // alsoEnglishWord: "also: indecisive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪndɪˈsaɪsɪv/""",
+                      americanText: """IpaUS: /ˌɪndɪˈsaɪsɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +996,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: یەکلایی‌نەکراوە، بڕیار(لەسەر)نەدراو، لایێ‌بەلادانەخراو، کۆتایی‌پێنەهاتوو، شلەوەکردوو،	بێ‌ئەنجام، هیچ‌لێ‌هەڵنەوەریو، بێ‌بەرهەم، نەبڕاوە، دوودڵ، تیاماو، بڕیارپێ‌نەدراو، ڕاڕا، نادڵنیا
 """),
 // With short examples define "indecisive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە کەسێک نەتوانێت بە خێرایی و کاریگەرانە بڕیار بدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some blame indecisive leadership for the party’s failure at the polls.""",
+                      kurdishText:
+                          """هەندێک لۆمەی سەرکردایەتیی لاوازیان دەکرد بۆ شکستی پارتەکە لە ڕاپرسییەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە ئەنجام یان وەڵامێکی ڕوونی نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Both armies withdrew after an indecisive battle.""",
+                      kurdishText:
+                          """هەردوو سوپاکە کشانەوە لە دوای جەنگێکی یەکلایی نەکراوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

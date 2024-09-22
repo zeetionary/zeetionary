@@ -53,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryincredulity incredulity
-WORD_WEB incredulity incredulity incredulity
-haʊʊʊʊʊʊʊ4
+- Noun: incredulity (Derived forms: incredulities)
+1. Doubt about the truth of something (- disbelief, skepticism [N. Amer], mental rejection, scepticism [Brit, Cdn])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incredulity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """He felt a sense of incredulity, anger, and pain at the accusation made against him.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SxbWww_WrFc?t=';
+    const double startSecondsend = 000000000000000000000000000252;
+    const String videoIdone = 'https://youtu.be/cy8r7WSuT1I?t=';
+    const double startSecondsone = 000000000000000000000000000109;
+    const String videoIdtwo = 'https://youtu.be/kyyb7AvZJ5g?t=';
+    const double startSecondstwo = 000000000000000000000000000800;
+    const String videoIdthree = 'https://youtu.be/4XAzYP7Lsyo?t=';
+    const double startSecondsthree = 0000000000000000000000000008329;
+    const String videoIdfour = 'https://youtu.be/aO_XltYHGWc?t=';
+    const double startSecondsfour = 0000000000000000000000000002319;
+    const String videoIdfive = 'https://youtu.be/J8aBnNHdv_o?t=';
+    const double startSecondsfive = 000000000000000000000000000389;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incredulity""",
                       // alsoEnglishWord: "also: incredulity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnkrəˈdjuːləti/""",
+                      americanText: """IpaUS: /ˌɪnkrəˈduːləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +988,19 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: گومان، باوەڕپێ‌نەبوون، شک
+// """),
 // With short examples define "incredulity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە نەتوانیت باوەڕ بە شتێک بکەیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: disbelief"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He felt a sense of incredulity, anger, and pain at the accusation made against him.""",
+                      kurdishText:
+                          """هەستێکی بێ‌باوەڕی، تووڕەیی، و ئازاری هەبوو بۆ ئەو تۆمەتانەی کە ڕووبەڕووی کرانەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

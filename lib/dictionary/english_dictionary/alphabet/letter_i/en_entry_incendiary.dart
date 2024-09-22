@@ -52,13 +52,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: incendiary
+1. Arousing to action or rebellion (- incitive, inflammatory, instigative, rabble-rousing, seditious)
+"By contrast, such people fear charismatic or incendiary oratory because it seems to by-pass the rational faculties of the audience";
+ 
+2. Capable of catching fire spontaneously or causing fires or burning readily
+"an incendiary agent"; "incendiary bombs"
+ 
+3. Involving deliberate burning of property
+"an incendiary fire"
 
-EnglishEntryincendiary incendiary
-WORD_WEB incendiary incendiary incendiary
-haʊʊʊʊʊʊʊ4
+- Noun: incendiary (Derived forms: incendiaries)
+1. A criminal who illegally sets fire to property (- arsonist, firebug, fire-raiser [Brit])
+ 
+2. A bomb that is designed to start fires; is most effective against flammable targets (such as fuel) (- incendiary bomb, firebomb)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "incendiary";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +96,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The plane dropped an incendiary bomb on the city.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""She made incendiary remarks during the debate.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +937,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/o1RS7D_szJo?t=';
+    const double startSecondsend = 0000000000000000000000000001024;
+    const String videoIdone = 'https://youtu.be/F2xv4fba65U?t=';
+    const double startSecondsone = 000000000000000000000000000435;
+    const String videoIdtwo = 'https://youtu.be/LJ0Hfc8hvpE?t=';
+    const double startSecondstwo = 000000000000000000000000000421;
+    const String videoIdthree = 'https://youtu.be/KIzqSTEC5kU?t=';
+    const double startSecondsthree = 000000000000000000000000000276;
+    const String videoIdfour = 'https://youtu.be/OnjI-FBdRTQ?t=';
+    const double startSecondsfour = 00000000000000000000000000019007;
+    const String videoIdfive = 'https://youtu.be/rqoXs1TWMQw?t=';
+    const double startSecondsfive = 0000000000000000000000000001195;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +962,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """incendiary""",
                       // alsoEnglishWord: "also: incendiary",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsendiəri/""",
+                      americanText: """IpaUS: /ɪnˈsendieri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +1004,26 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "incendiary", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە وەها درووستکراوە ئاگر درووست بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The plane dropped an incendiary bomb on the city.""",
+                      kurdishText:
+                          """فڕۆکەکە بۆمبێکی ئاگرینی بەسەر شارەکەدا فڕێدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە هەست و توندووتیژی توند درووست دەکات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: inflammatory"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She made incendiary remarks during the debate.""",
+                      kurdishText: """لە کاتی دیبەیتەکە لێدوانی ئاگرینی دا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

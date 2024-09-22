@@ -131,7 +131,7 @@ class EnglishEntrychemical extends StatelessWidget {
                             englishText:
                                 "The chemical properties of coal are still incompletely understood.",
                             kurdishText:
-                                "خاسیەتە کیمیاییەکانی خەڵووز ھێشتا بە تەواوی نەزانراوە.",
+                                "خاسیەتە کیمیاییەکانی خەڵووز ھێشتا بە ناتەواوی زانراوە.",
                             onPressedBritish: () => speakchemicals2("en-GB"),
                             onPressedAmerican: () => speakchemicals2("en-US"),
                           ),

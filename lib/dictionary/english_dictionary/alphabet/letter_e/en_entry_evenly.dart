@@ -298,7 +298,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 """Incidence of the disease is fairly evenly spread across Europe.""",
             kurdishText:
-                """ڕوودانی نەخۆشییەکە تا ڕادەیەک بە یەکسانی لە ئەورووپادا بڵاوبوویەوە.""",
+                """ڕێژەی نەخۆشییەکە تا ڕادەیەک بە یەکسانی لە ئەورووپادا بڵاوبوویەوە.""",
             onPressedBritish: () => speaksentence3("en-GB"),
             onPressedAmerican: () => speaksentence3("en-US"),
           ),

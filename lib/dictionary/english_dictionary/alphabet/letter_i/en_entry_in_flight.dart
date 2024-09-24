@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: in-flight
+1. Provided or happening during an aircraft flight
 
-EnglishEntryinflight in-flight
-WORD_WEB in-flight in-flight in-flight
-haʊʊʊʊʊʊʊ4
+- Adverb: in flight
+1. Flying through the air (- on the wing)
+"we saw the ducks in flight";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "in-flight";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I always read the in-flight magazine.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The in-flight movie was "Shrek 2," in Spanish and English.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/y__v0aEgzO0?t=';
+    const double startSecondsend = 000000000000000000000000000458;
+    const String videoIdone = 'https://youtu.be/iQ5GfDbjos8?t=';
+    const double startSecondsone = 000000000000000000000000000659;
+    const String videoIdtwo = 'https://youtu.be/WFyKgmnCF-8?t=';
+    const double startSecondstwo = 000000000000000000000000000182;
+    const String videoIdthree = 'https://youtu.be/vjDYfvPW4mA?t=';
+    const double startSecondsthree = 00000000000000000000000000010;
+    const String videoIdfour = 'https://youtu.be/zwZY-PknSQw?t=';
+    const double startSecondsfour = 0000000000000000000000000001228;
+    const String videoIdfive = 'https://youtu.be/sY8aFSY2zv4?t=';
+    const double startSecondsfive = 0000000000000000000000000004232;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """in-flight""",
                       // alsoEnglishWord: "also: in-flight",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪn ˈflaɪt/""",
+                      americanText: """IpaUS: /ˌɪn ˈflaɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +995,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "in-flight", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە ڕوودەدات لە کاتی گەشتێکی فڕۆکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I always read the in-flight magazine.""",
+                      kurdishText: """هەمیشە گۆڤاری سەر فڕۆکە دەخوێنمەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1006,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The in-flight movie was "Shrek 2," in Spanish and English.""",
+                      kurdishText: """فیلمی سەر فڕۆکەکە شرێک ٢ بوو بە ئیسپانی و ئینگلیزی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

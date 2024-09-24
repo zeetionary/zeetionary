@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfinitive infinitive
-WORD_WEB infinitive infinitive infinitive
-haʊʊʊʊʊʊʊ4
+- Noun: infinitive (Derived forms: infinitives)
+1. The uninflected form of the verb
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infinitive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Modal verbs generally take the bare infinitive.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """In the sentences "I had to go" and "I must go", "go" is an infinitive.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/OHnNOnk7CXI?t=';
+    const double startSecondsend = 000000000000000000000000000161;
+    const String videoIdone = 'https://youtu.be/gftHWQ6CLu8?t=';
+    const double startSecondsone = 000000000000000000000000000251;
+    const String videoIdtwo = 'https://youtu.be/Y8pIidfrSG4?t=';
+    const double startSecondstwo = 000000000000000000000000000223;
+    const String videoIdthree = 'https://youtu.be/5mC0X9SUUVw?t=';
+    const double startSecondsthree = 000000000000000000000000000550;
+    const String videoIdfour = 'https://youtu.be/JTslqcXsFd4?t=';
+    const double startSecondsfour = 000000000000000000000000000529;
+    const String videoIdfive = 'https://youtu.be/5Dq7lEw7CKM?t=';
+    const double startSecondsfive = 000000000000000000000000000139;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infinitive""",
                       // alsoEnglishWord: "also: infinitive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfɪnətɪv/""",
+                      americanText: """IpaUS: /ɪnˈfɪnətɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: چاوگ، چاوکە، ژێدەر، ڕادەر
 """),
 // With short examples define "infinitive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) چاوگی کردارێک، بۆ نموونە be یان run کە هیچ پێشگر یان پاشگرێکی نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Modal verbs generally take the bare infinitive.""",
+                      kurdishText:
+                          """کارە مۆداڵەکان بە شێوەیەکی گشتی چاوگی ڕووت وەردەگرن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In the sentences "I had to go" and "I must go", "go" is an infinitive.""",
+                      kurdishText:
+                          """لە ڕستەکانی "I had to go" و "I must go"، "go" چاوگە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

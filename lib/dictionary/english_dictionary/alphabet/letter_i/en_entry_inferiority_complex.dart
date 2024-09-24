@@ -9,10 +9,12 @@ class EnglishEntryinferioritycomplex extends StatefulWidget {
   const EnglishEntryinferioritycomplex({super.key});
 
   @override
-  State<EnglishEntryinferioritycomplex> createState() => _EnglishEntryinferioritycomplexState();
+  State<EnglishEntryinferioritycomplex> createState() =>
+      _EnglishEntryinferioritycomplexState();
 }
 
-class _EnglishEntryinferioritycomplexState extends State<EnglishEntryinferioritycomplex> {
+class _EnglishEntryinferioritycomplexState
+    extends State<EnglishEntryinferioritycomplex> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinferioritycomplex inferiority complex
-WORD_WEB inferiority complex inferiority complex inferiority complex
-haʊʊʊʊʊʊʊ4
+- Noun: inferiority complex (Derived forms: inferiority complexes)
+1. A sense of personal inferiority arising from conflict between the desire to be noticed and the fear of being humiliated
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inferiority complex";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She has always had an inferiority complex about her looks.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/eeBQzjdlcLs?t=';
+    const double startSecondsend = 0000000000000000000000000002386;
+    const String videoIdone = 'https://youtu.be/W-lbCzS_9fc?t=';
+    const double startSecondsone = 000000000000000000000000000845;
+    const String videoIdtwo = 'https://youtu.be/plRER8tLCo4?t=';
+    const double startSecondstwo = 000000000000000000000000000697;
+    const String videoIdthree = 'https://youtu.be/BpnF1HCQ0Zo?t=';
+    const double startSecondsthree = 000000000000000000000000000437;
+    const String videoIdfour = 'https://youtu.be/LXlgSvch6eg?t=';
+    const double startSecondsfour = 000000000000000000000000000137;
+    const String videoIdfive = 'https://youtu.be/aSe8Mx6X6Fg?t=';
+    const double startSecondsfive = 00000000000000000000000000049;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inferiority complex""",
                       // alsoEnglishWord: "also: inferiority complex",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌfɪəriˈɒrəti kɒmpleks/""",
+                      americanText: """IpaUS: /ɪnˌfɪriˈɔːrəti kɑːmpleks/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inferiority complex", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هەستی ئەوەی کە وەک کەسانی باش، زیرەک، یان گرنگ نییت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She has always had an inferiority complex about her looks.""",
+                      kurdishText:
+                          """هەمیشە هەستی خۆبەکەم‌زانی هەبووە سەبارەت بە ڕووخساری.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

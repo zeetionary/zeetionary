@@ -52,13 +52,28 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: inferior
+1. (anatomy) lower than a given reference point
+"inferior alveolar artery"
+ 
+2. Falling short of some prescribed norm (- deficient, substandard)
+"inferior housing";
+ 
+3. Of or characteristic of low rank or importance
+ 
+4. Of low or inferior quality
+ 
+5. (printing) written or printed below the line (- subscript)
+ 
+6. (astronomy) having an orbit between the sun and the Earth's orbit
+"Mercury and Venus are inferior planets"
 
-EnglishEntryinferior inferior
-WORD_WEB inferior inferior inferior
-haʊʊʊʊʊʊʊ4
+- Noun: inferior (Derived forms: inferiors)
+1. One of lesser rank, station or quality
+ 
+2. A character or symbol set or printed or written beneath or slightly below and to the side of another character (- subscript)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inferior";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +102,39 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Modern music is often considered inferior to that of the past.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Her obvious popularity made me feel inferior.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""His later work was vastly inferior to his early work.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""He was promoted from an inferior officer to captain.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""She considered everyone her intellectual inferior.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +944,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wGSOMKSRjkc?t=';
+    const double startSecondsend = 000000000000000000000000000869;
+    const String videoIdone = 'https://youtu.be/-aSdFrPnlRg?t=';
+    const double startSecondsone = 0000000000000000000000000001429;
+    const String videoIdtwo = 'https://youtu.be/g_zKsMWEsig?t=';
+    const double startSecondstwo = 000000000000000000000000000236;
+    const String videoIdthree = 'https://youtu.be/T-_HKFjxVl0?t=';
+    const double startSecondsthree = 000000000000000000000000000727;
+    const String videoIdfour = 'https://youtu.be/hOUGNGWmN0k?t=';
+    const double startSecondsfour = 000000000000000000000000000243;
+    const String videoIdfive = 'https://youtu.be/FaCeZsOOKEY?t=';
+    const double startSecondsfive = 000000000000000000000000000637;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +970,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inferior""",
                       // alsoEnglishWord: "also: inferior",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfɪəriə(r)/""",
+                      americanText: """IpaUS: /ɪnˈfɪriər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1009,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نزم(تر)، خوار(تر)، خواردەس، ژێردەس، پایەنزم،	خراپ، بازاڕی، نەباش، ئایەخ، ڕەشۆکی
 """),
 // With short examples define "inferior", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە باش نییە یان وەک ک/شتی دیکە باش نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Modern music is often considered inferior to that of the past.""",
+                      kurdishText:
+                          """میوزیکی سەردەم زۆرجار بە خراپتر لە ئەوانەی ڕابردوو دادەندرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1027,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her obvious popularity made me feel inferior.""",
+                      kurdishText:
+                          """ناوبانگی ئاشکرای ئەو وای لێمکرد هەست بە کەمی بکەم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,26 +1038,36 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His later work was vastly inferior to his early work.""",
+                      kurdishText:
+                          """کاری دواتری بە ئاستێکی زۆر خراپتر بوو لەوەی سەرەتای.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە لە پێگەیەکی نزمترە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was promoted from an inferior officer to captain.""",
+                      kurdishText:
+                          """لە ئەفسەرێکی پلە نزمەوە بۆ کاپتن بەرزکرایەوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) کەسێک کە وەک کەسێکی دیکە باش نییە؛ کەسێک کە لە پێگەیەکی نزمترە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She considered everyone her intellectual inferior.""",
+                      kurdishText: """هەموو کەسی بە کەم ژیرتر لە خۆی دادەنا.""",
+                      englishNote:
+                          """This means she believed that all others were less intelligent or less capable than her in terms of knowledge and reasoning.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

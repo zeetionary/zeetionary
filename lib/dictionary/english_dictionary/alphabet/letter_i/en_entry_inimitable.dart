@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinimitable inimitable
-WORD_WEB inimitable inimitable inimitable
-haʊʊʊʊʊʊʊ4
+- Adjective: inimitable
+1. Defying imitation; matchless
+"an inimitable style"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inimitable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """John related in his own inimitable way the story of his trip to Tibet.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondsend = 0000000000000000000000000002381;
+    const String videoIdone = 'https://youtu.be/190emwcnYJ4?t=';
+    const double startSecondsone = 000000000000000000000000000437;
+    const String videoIdtwo = 'https://youtu.be/smjnOG1diXg?t=';
+    const double startSecondstwo = 00000000000000000000000000013;
+    const String videoIdthree = 'https://youtu.be/ws-GcQ0ht1c?t=';
+    const double startSecondsthree = 000000000000000000000000000749;
+    const String videoIdfour = 'https://youtu.be/b3NRvrmKeMA?t=';
+    const double startSecondsfour = 000000000000000000000000000840;
+    const String videoIdfive = 'https://youtu.be/6iIZ9rnS6HU?t=';
+    const double startSecondsfive = 0000000000000000000000000003019;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inimitable""",
                       // alsoEnglishWord: "also: inimitable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈnɪmɪtəbl/""",
+                      americanText: """IpaUS: /ɪˈnɪmɪtəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌هاوتا، بێ‌وێنە، تایبەتی، لەلاسایی‌نەهاتوو، لاسایی ناکرێتەوە
 """),
 // With short examples define "inimitable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) هێندە باش کە کەسی دیکە نەتوانن کۆپی بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """John related in his own inimitable way the story of his trip to Tibet.""",
+                      kurdishText:
+                          """جۆن گەشتەکەیی بۆ تیبێت بە ڕێگای بێ‌هاوتای خۆی گێڕایەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinhibition inhibition
-WORD_WEB inhibition inhibition inhibition
-haʊʊʊʊʊʊʊ4
+- Noun: inhibition (Derived forms: inhibitions)
+1. (psychology) the conscious exclusion of unacceptable thoughts or desires (- suppression)
+ 
+2. The quality of being inhibited
+ 
+3. (physiology) the process whereby nerves can retard or prevent the functioning of an organ or part
+"the inhibition of the heart by the vagus nerve"
+ 
+4. The action of prohibiting, inhibiting or forbidding (or an instance thereof) (- prohibition, forbiddance)
+"a medical inhibition of alcoholic beverages";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inhibition";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +92,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The children were shy at first, but soon lost their inhibitions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""She had no inhibitions about making her opinions known.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The therapy provides inhibition of inflammation.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +933,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Z0qwi6UkKtQ?t=';
+    const double startSecondsend = 00000000000000000000000000044;
+    const String videoIdone = 'https://youtu.be/LHqbfJ3tq4Y?t=';
+    const double startSecondsone = 000000000000000000000000000271;
+    const String videoIdtwo = 'https://youtu.be/9B4_K1EL6Hs?t=';
+    const double startSecondstwo = 000000000000000000000000000343;
+    const String videoIdthree = 'https://youtu.be/EmT0i0xG6zg?t=';
+    const double startSecondsthree = 0000000000000000000000000005845;
+    const String videoIdfour = 'https://youtu.be/DkS1pkKpILY?t=';
+    const double startSecondsfour = 0000000000000000000000000001380;
+    const String videoIdfive = 'https://youtu.be/a8biuQE2EGA?t=';
+    const double startSecondsfive = 00000000000000000000000000059;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inhibition""",
                       // alsoEnglishWord: "also: inhibition",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnhɪˈbɪʃn/, /ˌɪnɪˈbɪʃn/""",
+                      americanText: """IpaUS: /ˌɪnhɪˈbɪʃn/, /ˌɪnɪˈbɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +997,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: نەهێشتن، بەرگرتن، پێش‌گرتن، ڕێ‌گرتن، نەهێڵان، بەربەندی، گێڕانەوە
+// """),
 // With short examples define "inhibition", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هەستی شەرمنی یان شڵەژاوی کە ڕێگریت لێدەکات هەست و بیرکردنەوە ڕاستەقینەکانت دەرببڕیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The children were shy at first, but soon lost their inhibitions.""",
+                      kurdishText:
+                          """منداڵەکان سەرەتا شەرمن بوون، بەڵام دواتر شەرمنییان لەدەستدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1016,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She had no inhibitions about making her opinions known.""",
+                      kurdishText:
+                          """هیچ شەرمی نەبوو لەوەی بۆچوونەکانی دەرببڕێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) وەستاندن یان هێواش کردنی پڕۆسەیەک یان چالاکییەک لە ڕوودان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The therapy provides inhibition of inflammation.""",
+                      kurdishText:
+                          """چارەسەرەکە سنووردارکردنی سووربوونەوە دابین دەکات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

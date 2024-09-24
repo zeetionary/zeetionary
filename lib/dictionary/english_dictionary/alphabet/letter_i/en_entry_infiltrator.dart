@@ -9,7 +9,8 @@ class EnglishEntryinfiltrator extends StatefulWidget {
   const EnglishEntryinfiltrator({super.key});
 
   @override
-  State<EnglishEntryinfiltrator> createState() => _EnglishEntryinfiltratorState();
+  State<EnglishEntryinfiltrator> createState() =>
+      _EnglishEntryinfiltratorState();
 }
 
 class _EnglishEntryinfiltratorState extends State<EnglishEntryinfiltrator> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfiltrator infiltrator
-WORD_WEB infiltrator infiltrator infiltrator
-haʊʊʊʊʊʊʊ4
+- Noun: infiltrator (Derived forms: infiltrators)
+1. Someone who takes up a position surreptitiously for the purpose of espionage
+ 
+2. An intruder (as troops) with hostile intent
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infiltrator";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""32 people were interned as suspected infiltrators.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/PhQksV8fbKw?t=';
     const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdone = 'https://youtu.be/E2rtQFAibEA?t=';
+    const double startSecondsone = 0000000000000000000000000005026;
+    const String videoIdtwo = 'https://youtu.be/woD6RYptp58?t=';
+    const double startSecondstwo = 000000000000000000000000000268;
+    const String videoIdthree = 'https://youtu.be/o0FiG7c6m48?t=';
+    const double startSecondsthree = 000000000000000000000000000841;
+    const String videoIdfour = 'https://youtu.be/xrLrb1OQjGs?t=';
+    const double startSecondsfour = 000000000000000000000000000362;
+    const String videoIdfive = 'https://youtu.be/0HjjYsSuZyM?t=';
+    const double startSecondsfive = 000000000000000000000000000533;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infiltrator""",
                       // alsoEnglishWord: "also: infiltrator",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnfɪltreɪtə(r)/""",
+                      americanText: """IpaUS: /ˈɪnfɪltreɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +994,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "infiltrator", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە بە نهێنی دەبێتە ئەندامی گرووپێک یان دەچێتە شوێنێک بۆ دەستکەوتنی زانیاری"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """32 people were interned as suspected infiltrators.""",
+                      kurdishText: """٣٢ قۆڵبەستکران وەک سیخوڕی گومانلێکراو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

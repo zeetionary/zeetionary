@@ -9,7 +9,8 @@ class EnglishEntryinfrequently extends StatefulWidget {
   const EnglishEntryinfrequently({super.key});
 
   @override
-  State<EnglishEntryinfrequently> createState() => _EnglishEntryinfrequentlyState();
+  State<EnglishEntryinfrequently> createState() =>
+      _EnglishEntryinfrequentlyState();
 }
 
 class _EnglishEntryinfrequentlyState extends State<EnglishEntryinfrequently> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfrequently infrequently
-WORD_WEB infrequently infrequently infrequently
-haʊʊʊʊʊʊʊ4
+- Adverb: infrequently
+1. Not many times
+"in your 1850 church you not infrequently find a dramatic contrast between the sumptuous appointments of the building itself and the inhuman barrack-like living conditions in the church room"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infrequently";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""This happens not infrequently.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/P3CjYb5VRik?t=';
+    const double startSecondsend = 000000000000000000000000000145;
+    const String videoIdone = 'https://youtu.be/9yjZpBq1XBE?t=';
+    const double startSecondsone = 0000000000000000000000000004780;
+    const String videoIdtwo = 'https://youtu.be/KK3Yr80lPOY?t=';
+    const double startSecondstwo = 0000000000000000000000000001629;
+    const String videoIdthree = 'https://youtu.be/ew1edqVqCu0?t=';
+    const double startSecondsthree = 000000000000000000000000000335;
+    const String videoIdfour = 'https://youtu.be/-XUzpAiYuVA?t=';
+    const double startSecondsfour = 000000000000000000000000000174;
+    const String videoIdfive = 'https://youtu.be/bzG4UOaGy7M?t=';
+    const double startSecondsfive = 000000000000000000000000000660;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infrequently""",
                       // alsoEnglishWord: "also: infrequently",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfriːkwəntli/""",
+                      americanText: """IpaUS: /ɪnˈfriːkwəntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بە دەگمەن، جارجار، کەم
 """),
 // With short examples define "infrequently", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەک کە زۆر زۆر ڕوونادات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: rarely"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This happens not infrequently (= often).""",
+                      kurdishText: """ئەمە بە دەگمەن ڕوونادات.""",
+                      kurdishNote: """واتا شتێکی باوە""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

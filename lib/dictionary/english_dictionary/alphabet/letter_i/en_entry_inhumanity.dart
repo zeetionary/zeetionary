@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinhumanity inhumanity
-WORD_WEB inhumanity inhumanity inhumanity
-haʊʊʊʊʊʊʊ4
+- Noun: inhumanity (Derived forms: inhumanities)
+1. The quality of lacking compassion or consideration for others (- inhumaneness)
+ 
+2. An act of atrocious cruelty (- atrocity)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inhumanity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """They were accused of inhumanity in their treatment of the hostages.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Qm4cAaAFhEs?t=';
+    const double startSecondsend = 000000000000000000000000000512;
+    const String videoIdone = 'https://youtu.be/vpArBufV1xg?t=';
+    const double startSecondsone = 000000000000000000000000000703;
+    const String videoIdtwo = 'https://youtu.be/GkXnc1JxrQM?t=';
+    const double startSecondstwo = 0000000000000000000000000001093;
+    const String videoIdthree = 'https://youtu.be/5bTsUJJJapM';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/MK1gCx6J3kg?t=';
+    const double startSecondsfour = 00000000000000000000000000021;
+    const String videoIdfive = 'https://youtu.be/In4yord4gGU?t=';
+    const double startSecondsfive = 0000000000000000000000000001570;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inhumanity""",
                       // alsoEnglishWord: "also: inhumanity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnhjuːˈmænəti/""",
+                      americanText: """IpaUS: /ˌɪnhjuːˈmænəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دڕندەیی، هۆڤیگەری، نامرۆڤایەتی، زوڵم‌وزۆری، ستەم،	هەڵس‌وکەوتی نامرۆڤانە، جووڵانەوەی دڕندانە
 """),
 // With short examples define "inhumanity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هەڵسووکەوت و مامەڵەی دڕندانە؛ ئەوەی کە خاسیەتە سرووشتییەکانی مرۆڤت نەبێت، بۆ نموونە میهرەبانی و هاوخەمی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They were accused of inhumanity in their treatment of the hostages.""",
+                      kurdishText:
+                          """بە دڕندەیی تۆمەتبار کران لە مامەڵەیان لەگەڵ بارمتەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

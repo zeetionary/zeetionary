@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfuriate infuriate
-WORD_WEB infuriate infuriate infuriate
-haʊʊʊʊʊʊʊ4
+- Verb: infuriate (Derived forms: infuriated, infuriates, infuriating)
+1. Make furious (- exasperate, incense)
+"The boy knew how to infuriate his mother";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infuriate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Her silence infuriated him even more.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Are you doing this on purpose just to infuriate me?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/qg2nGY1aqlg?t=';
+    const double startSecondsend = 0000000000000000000000000002179;
+    const String videoIdone = 'https://youtu.be/YZkXDuKto_Y?t=';
+    const double startSecondsone = 000000000000000000000000000849;
+    const String videoIdtwo = 'https://youtu.be/p3368WAl0qM?t=';
+    const double startSecondstwo = 000000000000000000000000000723;
+    const String videoIdthree = 'https://youtu.be/T-E246eXcmg?t=';
+    const double startSecondsthree = 000000000000000000000000000161;
+    const String videoIdfour = 'https://youtu.be/4R3LA4awCCM?t=';
+    const double startSecondsfour = 000000000000000000000000000439;
+    const String videoIdfive = 'https://youtu.be/_qiJO4OpyJs?t=';
+    const double startSecondsfive = 000000000000000000000000000499;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infuriate""",
                       // alsoEnglishWord: "also: infuriate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfjʊərieɪt/""",
+                      americanText: """IpaUS: /ɪnˈfjʊrieɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +992,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "infuriate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (کردار) تووڕەکردنی کەسێک بە ئاستێکی زۆر"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: enrage"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her silence infuriated him even more.""",
+                      kurdishText: """بێ‌دەنگییەکەی زیاتر تووڕەی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1005,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Are you doing this on purpose just to infuriate me?""",
+                      kurdishText:
+                          """ئەمە بە ئەنقەست دەکەیت تەنها بۆ تووڕەکردنم؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -9,7 +9,8 @@ class EnglishEntryingeniously extends StatefulWidget {
   const EnglishEntryingeniously({super.key});
 
   @override
-  State<EnglishEntryingeniously> createState() => _EnglishEntryingeniouslyState();
+  State<EnglishEntryingeniously> createState() =>
+      _EnglishEntryingeniouslyState();
 }
 
 class _EnglishEntryingeniouslyState extends State<EnglishEntryingeniously> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryingeniously ingeniously
-WORD_WEB ingeniously ingeniously ingeniously
-haʊʊʊʊʊʊʊ4
+- Adverb: ingeniously
+1. In an ingenious manner
+"a Hampshire farmer had fowls of different breeds, including Dorkings, and he discriminated ingeniously between the 'dark ones' and the 'white ones'"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ingeniously";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Her idea was ingeniously simple.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The umbrella was ingeniously devised to fold up into your pocket.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oloBebBQE38?t=';
+    const double startSecondsend = 00000000000000000000000000043;
+    const String videoIdone = 'https://youtu.be/jrMiqEkSk48?t=';
+    const double startSecondsone = 000000000000000000000000000461;
+    const String videoIdtwo = 'https://youtu.be/n068fel-W9I?t=';
+    const double startSecondstwo = 0000000000000000000000000002548;
+    const String videoIdthree = 'https://youtu.be/lyJqgL3Zp4E?t=';
+    const double startSecondsthree = 000000000000000000000000000988;
+    const String videoIdfour = 'https://youtu.be/v8Nv4rTKlMM?t=';
+    const double startSecondsfour = 000000000000000000000000000803;
+    const String videoIdfive = 'https://youtu.be/nl9NQSHcKQI?t=';
+    const double startSecondsfive = 00000000000000000000000000021;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """ingeniously""",
                       // alsoEnglishWord: "also: ingeniously",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈdʒiːniəsli/""",
+                      americanText: """IpaUS: /ɪnˈdʒiːniəsli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داهێنەرانە، چارەدۆزانە، زیرەکانە، شارەزایانە
 """),
 // With short examples define "ingeniously", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە بیرۆکەی زیرەکانە و تازە لەخۆدەگرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her idea was ingeniously simple.""",
+                      kurdishText: """بیرۆکەکەی بلیمەتانە سادەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1006,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The umbrella was ingeniously devised to fold up into your pocket.""",
+                      kurdishText:
+                          """چەترەکەی بلیمەتانە درووستکرابوو بۆ ئەوەی دابخرێنە ناو گیرفانت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

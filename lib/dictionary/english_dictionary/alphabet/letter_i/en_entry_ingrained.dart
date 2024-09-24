@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryingrained ingrained
-WORD_WEB ingrained ingrained ingrained
-haʊʊʊʊʊʊʊ4
+- Adjective: ingrained
+1. (used especially of ideas or principles) deeply rooted; firmly fixed or held (- deep-rooted, deep-seated, implanted, planted, well-established)
+"ingrained habits of a lifetime";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ingrained";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The belief that we should do our duty is deeply ingrained in most of us.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The oil had become ingrained in his skin.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/-3-bVRYRnSM?t=';
+    const double startSecondsend = 000000000000000000000000000301;
+    const String videoIdone = 'https://youtu.be/mv-3D3noaxk?t=';
+    const double startSecondsone = 000000000000000000000000000100;
+    const String videoIdtwo = 'https://youtu.be/IfYRzxeMdGs?t=';
+    const double startSecondstwo = 000000000000000000000000000295;
+    const String videoIdthree = 'https://youtu.be/3vH_9pgWExY?t=';
+    const double startSecondsthree = 00000000000000000000000000047;
+    const String videoIdfour = 'https://youtu.be/n3HN4NQdcqU?t=';
+    const double startSecondsfour = 00000000000000000000000000036;
+    const String videoIdfive = 'https://youtu.be/BE3ZGaeUEP8?t=';
+    const double startSecondsfive = 000000000000000000000000000202;
 
     return DefaultTabController(
       length: 4,
@@ -953,9 +949,9 @@ haʊʊʊʊʊʊʊ4
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """ingrained""",
-                      // alsoEnglishWord: "also: ingrained",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      alsoEnglishWord: "also: engrained",
+                      britshText: """IpaUK: /ɪnˈɡreɪnd/""",
+                      americanText: """IpaUS: /ɪnˈɡreɪnd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +989,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕەگ‌داکوتاو، لێوەنەبوو، نەگۆڕ، بنج‌داکوتاو، داکوتراو
 """),
 // With short examples define "ingrained", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە کۆنەوە بوونی هەیە و سەختە بگۆڕێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The belief that we should do our duty is deeply ingrained in most of us.""",
+                      kurdishText:
+                          """باوەڕی ئەوەی کە دەبێت ئەرکەکانمان ئەنجام بدەین بە قووڵی ڕەگ‌داکوتاوە لە زۆرینەمان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە لە ژێر ڕووێ شتێکە و سەختە لابدرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The oil had become ingrained in his skin.""",
+                      kurdishText: """چەورییەکە تێکەڵ بە پێستی بووە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

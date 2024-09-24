@@ -9,7 +9,8 @@ class EnglishEntryinformative extends StatefulWidget {
   const EnglishEntryinformative({super.key});
 
   @override
-  State<EnglishEntryinformative> createState() => _EnglishEntryinformativeState();
+  State<EnglishEntryinformative> createState() =>
+      _EnglishEntryinformativeState();
 }
 
 class _EnglishEntryinformativeState extends State<EnglishEntryinformative> {
@@ -52,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinformative informative
-WORD_WEB informative informative informative
-haʊʊʊʊʊʊʊ4
+- Adjective: informative
+1. Tending to increase knowledge or dissipate ignorance (- enlightening, illuminating)
+"an informative glimpse of government in action";
+ 
+2. Serving to instruct, enlighten or inform (- instructive)
+"They gave informative music lessons to the children";
+ 
+3. Providing or conveying information (- informatory)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "informative";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The book is not very informative about local customs.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""I found the talk both informative and entertaining.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +931,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/FSHITL5oedk?t=';
+    const double startSecondsend = 000000000000000000000000000712;
+    const String videoIdone = 'https://youtu.be/mCtSiImXpRo?t=';
+    const double startSecondsone = 00000000000000000000000000019;
+    const String videoIdtwo = 'https://youtu.be/UG61a5vjxuI?t=';
+    const double startSecondstwo = 0000000000000000000000000001119;
+    const String videoIdthree = 'https://youtu.be/Wk1oClYJE58?t=';
+    const double startSecondsthree = 000000000000000000000000000155;
+    const String videoIdfour = 'https://youtu.be/Qx54quy9tDQ?t=';
+    const double startSecondsfour = 000000000000000000000000000231;
+    const String videoIdfive = 'https://youtu.be/QztFpzKsdeA?t=';
+    const double startSecondsfive = 000000000000000000000000000360;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """informative""",
                       // alsoEnglishWord: "also: informative",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfɔːmətɪv/""",
+                      americanText: """IpaUS: /ɪnˈfɔːrmətɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -998,9 +1001,10 @@ haʊʊʊʊʊʊʊ4
 // With short examples define "informative", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The book is not very informative about local customs.""",
+                      kurdishText:
+                          """پەرتووکەکە زۆر سوودبەخش نییە سەبارەت بە نەریتە ناوخۆییەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1012,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I found the talk both informative and entertaining.""",
+                      kurdishText:
+                          """گفتووگۆکە بە ھەردوو زانیاری‌بەخش و چێژبەخش دەبینم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -9,7 +9,8 @@ class EnglishEntryinfringement extends StatefulWidget {
   const EnglishEntryinfringement({super.key});
 
   @override
-  State<EnglishEntryinfringement> createState() => _EnglishEntryinfringementState();
+  State<EnglishEntryinfringement> createState() =>
+      _EnglishEntryinfringementState();
 }
 
 class _EnglishEntryinfringementState extends State<EnglishEntryinfringement> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfringement infringement
-WORD_WEB infringement infringement infringement
-haʊʊʊʊʊʊʊ4
+- Noun: infringement (Derived forms: infringements)
+1. An act that disregards an agreement or a right (- violation)
+ 
+2. A crime less serious than a felony (- misdemeanor [US], misdemeanour [Brit, Cdn], infraction, violation)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infringement";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""They were sued for breach/infringement of copyright.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """People protested the infringement of liberty by the government.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/2POq39ce_5I?t=';
+    const double startSecondsend = 000000000000000000000000000196;
+    const String videoIdone = 'https://youtu.be/29DjvorzUGg?t=';
+    const double startSecondsone = 000000000000000000000000000365;
+    const String videoIdtwo = 'https://youtu.be/2GoQBbd_1JM?t=';
+    const double startSecondstwo = 000000000000000000000000000402;
+    const String videoIdthree = 'https://youtu.be/4IaOeVgZ-wc?t=';
+    const double startSecondsthree = 000000000000000000000000000100;
+    const String videoIdfour = 'https://youtu.be/ill2cgCyTUc?t=';
+    const double startSecondsfour = 000000000000000000000000000762;
+    const String videoIdfive = 'https://youtu.be/RTOuKWojGss?t=';
+    const double startSecondsfive = 000000000000000000000000000231;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infringement""",
                       // alsoEnglishWord: "also: infringement",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfrɪndʒmənt/""",
+                      americanText: """IpaUS: /ɪnˈfrɪndʒmənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +992,28 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شکاندن، بەزاندن، پێشێل‌کردن، سەرپێچی، مل‌بادان، یاساشکێنی، قانوون‌بەزێنی،	دەس‌درێژی
 """),
 // With short examples define "infringement", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) شکاندنی یاسا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They were sued for breach/infringement of copyright.""",
+                      kurdishText:
+                          "سکاڵایان لەسەر تۆمارکرا بۆ پێشێلکردنی مافی بڵاوکردنەوە.",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) سنووردارکردنی مافە یاساییەکانی کەسێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """People protested the infringement of liberty by the government.""",
+                      kurdishText:
+                          """خەڵکی خۆپیشاندانیان کرد دژ بە تەسککردنەوەی ئازادی لەلایەن حکومەت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

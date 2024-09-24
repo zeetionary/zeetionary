@@ -9,7 +9,8 @@ class EnglishEntryinflationary extends StatefulWidget {
   const EnglishEntryinflationary({super.key});
 
   @override
-  State<EnglishEntryinflationary> createState() => _EnglishEntryinflationaryState();
+  State<EnglishEntryinflationary> createState() =>
+      _EnglishEntryinflationaryState();
 }
 
 class _EnglishEntryinflationaryState extends State<EnglishEntryinflationary> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinflationary inflationary
-WORD_WEB inflationary inflationary inflationary
-haʊʊʊʊʊʊʊ4
+- Adjective: inflationary
+1. (economics) associated with or tending to cause increases in inflation
+"inflationary prices"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inflationary";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Time and again, economists have warned that higher oil prices are inflationary.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/tYrdMjVXyNg?t=';
+    const double startSecondsend = 0000000000000000000000000002870;
+    const String videoIdone = 'https://youtu.be/UKxQTvqcpSg?t=';
+    const double startSecondsone = 000000000000000000000000000556;
+    const String videoIdtwo = 'https://youtu.be/HdPzOWlLrbE?t=';
+    const double startSecondstwo = 000000000000000000000000000126;
+    const String videoIdthree = 'https://youtu.be/pn3euL8Tbfw?t=';
+    const double startSecondsthree = 0000000000000000000000000001459;
+    const String videoIdfour = 'https://youtu.be/PbVSZvC7UxY?t=';
+    const double startSecondsfour = 000000000000000000000000000667;
+    const String videoIdfive = 'https://youtu.be/yaX4iGw-b_Y?t=';
+    const double startSecondsfive = 0000000000000000000000000001344;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inflationary""",
                       // alsoEnglishWord: "also: inflationary",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfleɪʃənri/""",
+                      americanText: """IpaUS: /ɪnˈfleɪʃəneri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئاوسانی، هەڵاوسانی، سەربە گرانی
 """),
 // With short examples define "inflationary", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە پەیوەندیدارە یان دەبێتە هۆکاری گرانی کەلووپەل و خۆراک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Time and again, economists have warned that higher oil prices are inflationary.""",
+                      kurdishText:
+                          """دووبارە و دووبارە، ئابووریناسان هۆشدارییان داوە کە بەرزی نرخی نەوت دەبێتە هۆکاری هەڵاوسان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

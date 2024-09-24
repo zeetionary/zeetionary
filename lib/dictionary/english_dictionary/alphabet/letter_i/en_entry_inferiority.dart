@@ -9,7 +9,8 @@ class EnglishEntryinferiority extends StatefulWidget {
   const EnglishEntryinferiority({super.key});
 
   @override
-  State<EnglishEntryinferiority> createState() => _EnglishEntryinferiorityState();
+  State<EnglishEntryinferiority> createState() =>
+      _EnglishEntryinferiorityState();
 }
 
 class _EnglishEntryinferiorityState extends State<EnglishEntryinferiority> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinferiority inferiority
-WORD_WEB inferiority inferiority inferiority
-haʊʊʊʊʊʊʊ4
+- Noun: inferiority (Derived forms: inferiorities)
+1. The state of being inferior (- lower status, lower rank)
+ 
+2. An inferior quality (- low quality)
+ 
+3. The quality of being a competitive disadvantage (- unfavorable position [US], unfavourable position [Brit, Cdn])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inferiority";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +89,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She accepted her inferiority to her rivals.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Using a false accent over the phone reveals feelings of inferiority.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """His ill treatment as a child had given him a strong sense of inferiority.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/r5cqa9V0mUo?t=';
+    const double startSecondsend = 000000000000000000000000000818;
+    const String videoIdone = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondsone = 00000000000000000000000000022660;
+    const String videoIdtwo = 'https://youtu.be/PlgmD-ZjDRU?t=';
+    const double startSecondstwo = 000000000000000000000000000357;
+    const String videoIdthree = 'https://youtu.be/gsXYJn28Gn4?t=';
+    const double startSecondsthree = 000000000000000000000000000552;
+    const String videoIdfour = 'https://youtu.be/IfYRzxeMdGs?t=';
+    const double startSecondsfour = 000000000000000000000000000155;
+    const String videoIdfive = 'https://youtu.be/384qFPXCuO4?t=';
+    const double startSecondsfive = 0000000000000000000000000001261;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inferiority""",
                       // alsoEnglishWord: "also: inferiority",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌfɪəriˈɒrəti/""",
+                      americanText: """IpaUS: /ɪnˌfɪriˈɔːrəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +997,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inferiority", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە وەک کەس/شتی دیکە باش نەبیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She accepted her inferiority to her rivals.""",
+                      kurdishText:
+                          """کەمی خۆی بەرامبەر بە ڕکابەرەکانی پەسەند کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1012,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Using a false accent over the phone reveals feelings of inferiority.""",
+                      kurdishText:
+                          """بەکارهێنانی ئەکسێنتێکی ناڕاست لە کاتی تەلەفۆن هەستی بەکەمزانی پیشان دەدات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1023,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His ill treatment as a child had given him a strong sense of inferiority.""",
+                      kurdishText:
+                          """خراپ مامەڵەکردن لەگەڵی وەک منداڵیک هەستی بەهێزی خۆبەکەم‌زانی پێداوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinherent inherent
-WORD_WEB inherent inherent inherent
-haʊʊʊʊʊʊʊ4
+- Adjective: inherent
+1. Existing as an essential constituent or characteristic (- built-in, constitutional, inbuilt, integral)
+ 
+2. In the nature of something though not readily apparent (- implicit in, underlying)
+"shortcomings inherent in our approach";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inherent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +87,37 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Violence is inherent in our society.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I have an inherent distrust of lawyers.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Courage is inherent in bulldogs.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Her imaginative interpretation of the script brought out the comedy inherent in it.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """Her imaginative interpretation of the script brought out the comedy inherent in it.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Oz9zw7-_vhM?t=';
+    const double startSecondsend = 000000000000000000000000000731;
+    const String videoIdone = 'https://youtu.be/Unzc731iCUY?t=';
+    const double startSecondsone = 00000000000000000000000000061;
+    const String videoIdtwo = 'https://youtu.be/jP92cqTxG7I?t=';
+    const double startSecondstwo = 00000000000000000000000000066;
+    const String videoIdthree = 'https://youtu.be/5qArvBdHkJA?t=';
+    const double startSecondsthree = 00000000000000000000000000078;
+    const String videoIdfour = 'https://youtu.be/Yj07347rEqo?t=';
+    const double startSecondsfour = 000000000000000000000000000119;
+    const String videoIdfive = 'https://youtu.be/TS4AM9mPX-8?t=';
+    const double startSecondsfive = 00000000000000000000000000084;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inherent""",
                       // alsoEnglishWord: "also: inherent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈherənt/, /ɪnˈhɪərənt/""",
+                      americanText: """IpaUS: /ɪnˈherənt/, /ɪnˈhɪrənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خۆماکی، زاتی، خۆیی، سروشتی، لێکەوەنەبوو، جیاوەنەبوو، لێک نابێتەوە، لێک‌دانەبڕاو، ڕەگ‌داکوتاو
 """),
 // With short examples define "inherent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بەشێکی سەرەتایی یان هەمیشەیی ک/شتە و ناکرێت لابدرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: intrinsic"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Violence is inherent in our society.""",
+                      kurdishText: """توندووتیژی دانەبڕاوە لە کۆمەڵگاکەمان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I have an inherent distrust of lawyers.""",
+                      kurdishText:
+                          """بێ‌متمانەیی سرووشتیم هەیە بۆ پارێزەران.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1020,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Courage is inherent in bulldogs.""",
+                      kurdishText: "بوێری بەشێکی سەرەکیی گاسەگە.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1029,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her imaginative interpretation of the script brought out the comedy inherent in it.""",
+                      kurdishText:
+                          "تێگەشنی ئەندێشەییانەی بۆ نووسینەکە کۆمیدی لە کڕۆکیدا بینی.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1040,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her imaginative interpretation of the script brought out the comedy inherent in it.""",
+                      kurdishText:
+                          "تێگەشنی ئەندێشەییانەی بۆ نووسینەکە کۆمیدی لە کڕۆکیدا بینی.",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

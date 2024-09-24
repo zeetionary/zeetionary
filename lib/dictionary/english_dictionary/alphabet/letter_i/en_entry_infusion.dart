@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfusion infusion
-WORD_WEB infusion infusion infusion
-haʊʊʊʊʊʊʊ4
+- Noun: infusion (Derived forms: infusions)
+1. A solution obtained by steeping or soaking a substance (usually in water) (- extract)
+ 
+2. The process of extracting certain active properties (as a drug from a plant) by steeping or soaking (usually in water)
+ 
+3. (medicine) the passive introduction of a substance (a fluid or drug or electrolyte) into a vein or between tissues (as by gravitational force)
+ 
+4. The act of infusing or introducing a certain modifying element or quality
+"the team's continued success is attributable to a steady infusion of new talent"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infusion";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""An infusion of £100,000 into the company is required.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She drinks an infusion of herbs.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/JoGjIRVY9t4?t=';
+    const double startSecondsend = 000000000000000000000000000934;
+    const String videoIdone = 'https://youtu.be/iht8e_HtLso?t=';
+    const double startSecondsone = 0000000000000000000000000001706;
+    const String videoIdtwo = 'https://youtu.be/DxREm3s1scA?t=';
+    const double startSecondstwo = 0000000000000000000000000005627;
+    const String videoIdthree = 'https://youtu.be/bA6-VEVAzCE?t=';
+    const double startSecondsthree = 0000000000000000000000000001042;
+    const String videoIdfour = 'https://youtu.be/VPYhem4GRGY?t=';
+    const double startSecondsfour = 0000000000000000000000000001098;
+    const String videoIdfive = 'https://youtu.be/iV3p2P7jA2A?t=';
+    const double startSecondsfive = 000000000000000000000000000569;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infusion""",
                       // alsoEnglishWord: "also: infusion",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfjuːʒn/""",
+                      americanText: """IpaUS: /ɪnˈfjuːʒn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +995,28 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خووساندن، دەم‌کردن، خستنەئاو، داڕشتن،	گیراوەی دەم‌کراو (زۆرتر وەکوو دەرمان دەخوری)،	داکوتاندن، جێ‌خستن، چاندن، تێکردن (بە ئەسپایی)
 """),
 // With short examples define "infusion", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) زیادکردنی شتێک بۆ شتێکی دیکە بۆ ئەوەی توندتر تان سەرکەوتووتر بێت """),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An infusion of £100,000 into the company is required.""",
+                      kurdishText:
+                          """زیادکردنی ١٠٠٠٠٠ پاوند بۆ کۆمپانیاکە پێویستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) گیراوەیەک کە درووستکراوە بە دانانی گەڵای چا یان ڕووەک لە ئاوی گەرم"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She drinks an infusion of herbs.""",
+                      kurdishText: """گیراوەیەکی ڕووەکی دەخواتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

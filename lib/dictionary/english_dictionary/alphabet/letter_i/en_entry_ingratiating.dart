@@ -9,7 +9,8 @@ class EnglishEntryingratiating extends StatefulWidget {
   const EnglishEntryingratiating({super.key});
 
   @override
-  State<EnglishEntryingratiating> createState() => _EnglishEntryingratiatingState();
+  State<EnglishEntryingratiating> createState() =>
+      _EnglishEntryingratiatingState();
 }
 
 class _EnglishEntryingratiatingState extends State<EnglishEntryingratiating> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryingratiating ingratiating
-WORD_WEB ingratiating ingratiating ingratiating
-haʊʊʊʊʊʊʊ4
+- Adjective: ingratiating
+1. Capable of winning favour
+"with open arms and an ingratiating smile"
+ 
+2. Calculated to please or gain favour (- insinuating, ingratiatory)
+"a smooth ingratiating manner";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ingratiating";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She was ingratiating to the teacher for better grades.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Btv68SAk-oM?t=';
+    const double startSecondsend = 0000000000000000000000000001029;
+    const String videoIdone = 'https://youtu.be/hrVEzgIQioQ?t=';
+    const double startSecondsone = 00000000000000000000000000096;
+    const String videoIdtwo = 'https://youtu.be/0JawJhSz_R4?t=';
+    const double startSecondstwo = 000000000000000000000000000336;
+    const String videoIdthree = 'https://youtu.be/WSJ-in3iDDk?t=';
+    const double startSecondsthree = 000000000000000000000000000258;
+    const String videoIdfour = 'https://youtu.be/LxYvqZ8euGI?t=';
+    const double startSecondsfour = 0000000000000000000000000001103;
+    const String videoIdfive = 'https://youtu.be/wUAjIagk1ws?t=';
+    const double startSecondsfive = 000000000000000000000000000185;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """ingratiating""",
                       // alsoEnglishWord: "also: ingratiating",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈɡreɪʃieɪtɪŋ/""",
+                      americanText: """IpaUS: /ɪnˈɡreɪʃieɪtɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +992,16 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "ingratiating", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: زمان‌لووس، زمان‌لووسانە، نەرمەبڕانە
+// """),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە زۆر هەوڵ دەدات بۆ ڕازیکردنی خەڵکی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was ingratiating to the teacher for better grades.""",
+                      kurdishText: """نۆکەری مامۆستا بوو بۆ نمرەی باشتر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

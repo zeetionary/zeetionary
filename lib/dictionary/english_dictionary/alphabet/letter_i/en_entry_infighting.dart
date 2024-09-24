@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfighting infighting
-WORD_WEB infighting infighting infighting
-haʊʊʊʊʊʊʊ4
+- Noun: infighting (Derived forms: infightings)
+1. Conflict between members of the same organization (usually concealed from outsiders)
+ 
+2. Boxing at close quarters
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infighting";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Years of infighting among the leaders have destroyed the party.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Nd7cohTdRAo?t=';
+    const double startSecondsend = 000000000000000000000000000602;
+    const String videoIdone = 'https://youtu.be/oBsMQOHWiWM?t=';
+    const double startSecondsone = 000000000000000000000000000197;
+    const String videoIdtwo = 'https://youtu.be/XB2W_kw62u8?t=';
+    const double startSecondstwo = 000000000000000000000000000947;
+    const String videoIdthree = 'https://youtu.be/zj6p5kYnPPY?t=';
+    const double startSecondsthree = 000000000000000000000000000413;
+    const String videoIdfour = 'https://youtu.be/ZU_MF0NMKhU?t=';
+    const double startSecondsfour = 000000000000000000000000000299;
+    const String videoIdfive = 'https://youtu.be/9yjZpBq1XBE?t=';
+    const double startSecondsfive = 0000000000000000000000000002285;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infighting""",
                       // alsoEnglishWord: "also: infighting",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnfaɪtɪŋ/""",
+                      americanText: """IpaUS: /ˈɪnfaɪtɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕقەبەری، ڕقەبەرایەتی، پێشبڕکێی توند(وتێژ) یان دەستەویەخە، شەڕی دەستەویەخە
 """),
 // With short examples define "infighting", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) مشتومڕی ئەندامانی هەمان گرووپ کە پلملانێی دەسەڵات دەکەن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Years of infighting among the leaders have destroyed the party.""",
+                      kurdishText:
+                          """چەندین ساڵ لە ململانێی دەسەڵات لە نێوان سەرکردەکان پارتەکەی داڕووخاندووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

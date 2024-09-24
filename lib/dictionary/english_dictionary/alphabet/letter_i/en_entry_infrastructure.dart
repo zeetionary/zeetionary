@@ -9,10 +9,12 @@ class EnglishEntryinfrastructure extends StatefulWidget {
   const EnglishEntryinfrastructure({super.key});
 
   @override
-  State<EnglishEntryinfrastructure> createState() => _EnglishEntryinfrastructureState();
+  State<EnglishEntryinfrastructure> createState() =>
+      _EnglishEntryinfrastructureState();
 }
 
-class _EnglishEntryinfrastructureState extends State<EnglishEntryinfrastructure> {
+class _EnglishEntryinfrastructureState
+    extends State<EnglishEntryinfrastructure> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfrastructure infrastructure
-WORD_WEB infrastructure infrastructure infrastructure
-haʊʊʊʊʊʊʊ4
+- Noun: infrastructure (Derived forms: infrastructures)
+1. The basic structure or features of a system or organization (- substructure)
+ 
+2. The stock of basic facilities and capital equipment needed for the functioning of a country or area (- base)
+"the industrial infrastructure of Japan";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infrastructure";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +89,32 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The war has badly damaged the country's infrastructure.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The municipal corporation is responsible for maintaining the city's roads and infrastructure.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The victory was achieved at great cost to the country's infrastructure.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """The politician's handling of flood, infrastructure and education files has been questioned.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +931,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/zqllxbPWKNI?t=';
+    const double startSecondsend = 0000000000000000000000000001038;
+    const String videoIdone = 'https://youtu.be/IgF3OX8nT0w?t=';
+    const double startSecondsone = 000000000000000000000000000953;
+    const String videoIdtwo = 'https://youtu.be/-UrdExQW0cs?t=';
+    const double startSecondstwo = 0000000000000000000000000001342;
+    const String videoIdthree = 'https://youtu.be/rWVAzS5duAs?t=';
+    const double startSecondsthree = 0000000000000000000000000001234;
+    const String videoIdfour = 'https://youtu.be/dxqYDrELD_E?t=';
+    const double startSecondsfour = 000000000000000000000000000108;
+    const String videoIdfive = 'https://youtu.be/vsMydMDi3rI?t=';
+    const double startSecondsfive = 0000000000000000000000000002314;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infrastructure""",
                       // alsoEnglishWord: "also: infrastructure",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnfrəstrʌktʃə(r)/""",
+                      americanText: """IpaUS: /ˈɪnfrəstrʌktʃər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +999,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "infrastructure", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو سیستەم و خزمەتگوزارییانەی کە گرنگە بۆ وڵات یان دامەزراوەیەک تاوەکو بە ئاسایی کار بکات، بۆ نموونە وزە، گواستنەوە، یان سەرچاوەی ئاو و وزە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The war has badly damaged the country's infrastructure.""",
+                      kurdishText:
+                          """جەنگەکە بە خراپی ژێرخانی وڵاتەکەی وێرانکردووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1014,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The municipal corporation is responsible for maintaining the city's roads and infrastructure.""",
+                      kurdishText:
+                          "ئەنجوومەنە خۆجێیەکە بەرپرسە لە چاودێری ڕێگاکان و ژێرخانی ئابووری شارەکە.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1025,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The victory was achieved at great cost to the country's infrastructure.""",
+                      kurdishText:
+                          "سەرکەوتن بەدەستھێنرا بە تێچوویەکی زۆری ژێرخانی وڵاتەکە.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1036,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The politician's handling of flood, infrastructure and education files has been questioned.""",
+                      kurdishText:
+                          """مامەڵەی سیاسەتمەدارەکە لەگەڵ لافاو، ژێرخانی ئابووری، و پەروەردە گومانی لەسەر بوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

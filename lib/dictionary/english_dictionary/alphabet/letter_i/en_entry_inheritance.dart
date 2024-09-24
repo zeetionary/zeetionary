@@ -9,7 +9,8 @@ class EnglishEntryinheritance extends StatefulWidget {
   const EnglishEntryinheritance({super.key});
 
   @override
-  State<EnglishEntryinheritance> createState() => _EnglishEntryinheritanceState();
+  State<EnglishEntryinheritance> createState() =>
+      _EnglishEntryinheritanceState();
 }
 
 class _EnglishEntryinheritanceState extends State<EnglishEntryinheritance> {
@@ -52,13 +53,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinheritance inheritance
-WORD_WEB inheritance inheritance inheritance
-haʊʊʊʊʊʊʊ4
+- Noun: inheritance (Derived forms: inheritances)
+1. Hereditary succession to a title or an office or property (- heritage)
+ 
+2. (law) that which is inherited; a title, property or estate that passes by law to the heir on the death of the owner (- heritage)
+ 
+3. (genetics) attributes acquired via biological heredity from the parents (- hereditary pattern)
+ 
+4. Any attribute or immaterial possession that is inherited from ancestors (- heritage)
+"my only inheritance was my mother's blessing";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inheritance";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,43 +92,44 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She spent all her inheritance in a year.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The title passes by inheritance to the eldest son.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He had a large inheritance from his parents.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""She left him an inheritance of £100 000.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""The inheritance was divided equally among all the sons.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""We are proud of our cultural inheritance.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsend = 000000000000000000000000000657;
+    const String videoIdone = 'https://youtu.be/LbPw9AlVKVM?t=';
+    const double startSecondsone = 00000000000000000000000000055;
+    const String videoIdtwo = 'https://youtu.be/IM31fgkxn2I?t=';
+    const double startSecondstwo = 000000000000000000000000000280;
+    const String videoIdthree = 'https://youtu.be/Ot4qdCs54ZE?t=';
+    const double startSecondsthree = 000000000000000000000000000809;
+    const String videoIdfour = 'https://youtu.be/ill2cgCyTUc?t=';
+    const double startSecondsfour = 0000000000000000000000000001131;
+    const String videoIdfive = 'https://youtu.be/1n2nPRxAOss?t=';
+    const double startSecondsfive = 0000000000000000000000000001140;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inheritance""",
                       // alsoEnglishWord: "also: inheritance",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈherɪtəns/""",
+                      americanText: """IpaUS: /ɪnˈherɪtəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +997,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بۆماوە، ڕشتارە، ڕێژارە، ڕژارە، ڕژتارە،	کەلەپوور، میرات، بەش، شتێ کە ماوەتەوە یان بەجێماوە،	میرات‌بردن، میرات‌وەرگرتن، بە میرات بۆمانەوە
 """),
 // With short examples define "inheritance", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارە، سامان، هتد کە لە کەسێکەوە بۆت دەمێنێتەوە کە دەمرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She spent all her inheritance in a year.""",
+                      kurdishText:
+                          """تەواوی میراتییەکەییی لە ساڵێکدا خەرج کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1015,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The title passes by inheritance to the eldest son.""",
+                      kurdishText:
+                          """نازناوەکە بە میراتی بۆ بەتەمنەترین کوڕ دەمایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1026,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He had a large inheritance from his parents.""",
+                      kurdishText:
+                          """میراتییەکەی گەورەی لە دایبابی بۆماوەیەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1037,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She left him an inheritance of £100 000.""",
+                      kurdishText: """میراتیی ١٠٠٠٠٠ پاوەندی بۆ جێهێشت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,17 +1047,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The inheritance was divided equally among all the sons.""",
+                      kurdishText:
+                          """میراتییەکە بە یەکسانی لە نێوان هەموو کوڕەکان دابەش کرا.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شتێک کە لە خێزانەکەت یان ڕابردووەوە بۆت ماوەتەوە کە کاریگەری دەبێت لەسەر شێوازی ڕەفتارت، شێوەت، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We are proud of our cultural inheritance.""",
+                      kurdishText:
+                          """شانازی دەکەین بە بە پاشخانی کەلتووریمان.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),

@@ -5810,6 +5810,7 @@ final List<String> allWordsEnglish = [
   "engineer",
   "engineering",
   "English", //// فففف English
+  "engrained",
   "engrave",
   "engraver",
   "engraving",

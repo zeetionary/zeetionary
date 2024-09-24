@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinhabit inhabit
-WORD_WEB inhabit inhabit inhabit
-haʊʊʊʊʊʊʊ4
+- Verb: inhabit (Derived forms: inhabited, inhabiting, inhabits)
+1. Be an inhabitant of; spend most of one's life in (- populate, dwell, live)
+"The people inhabited the islands that are now deserted";
+ 
+2. Be present in
+"sweet memories inhabit this house"
+ 
+3. Exist or be situated within (- dwell)
+"Strange notions inhabited her mind";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inhabit";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +91,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Some of the rare species that inhabit the area are under threat.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""These remote islands are inhabited only by birds.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Many forms of aquatic life inhabit ponds.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """In the horror movie, a group of friends stumbled upon a cave inhabited by cannibals.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Mx8JkGHaGUI?t=';
+    const double startSecondsend = 0000000000000000000000000001370;
+    const String videoIdone = 'https://youtu.be/lsbcN9-jU1Y?t=';
+    const double startSecondsone = 000000000000000000000000000459;
+    const String videoIdtwo = 'https://youtu.be/helhqdNlWhg?t=';
+    const double startSecondstwo = 00000000000000000000000000030;
+    const String videoIdthree = 'https://youtu.be/BRrWiW1o19E?t=';
+    const double startSecondsthree = 000000000000000000000000000238;
+    const String videoIdfour = 'https://youtu.be/RQYuyHNLPTQ?t=';
+    const double startSecondsfour = 000000000000000000000000000140;
+    const String videoIdfive = 'https://youtu.be/lwe5KTdzSHg?t=';
+    const double startSecondsfive = 0000000000000000000000000004;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inhabit""",
                       // alsoEnglishWord: "also: inhabit",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈhæbɪt/""",
+                      americanText: """IpaUS: /ɪnˈhæbɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +996,16 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: نیشتەجێبوون، جێگیر بوون، سەقامگیر بوون
+// """),
 // With short examples define "inhabit", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (کردار) پننسە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some of the rare species that inhabit the area are under threat.""",
+                      kurdishText:
+                          """هەندێک لەو جۆرە دەگمەنانەی لە ناوچەکە دادەنیشن لەژێر هەڕەشەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1013,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """These remote islands are inhabited only by birds.""",
+                      kurdishText:
+                          """دورهە دوورە دەستەکان تەنها باڵندە لێیان نیشتەجێیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1024,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Many forms of aquatic life inhabit ponds.""",
+                      kurdishText:
+                          "ژمارەیەکی زۆری گیانلەبەری ئاوی لە گۆماوەکاندا دەژین.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1035,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In the horror movie, a group of friends stumbled upon a cave inhabited by cannibals.""",
+                      kurdishText:
+                          "لە فیلمە ترسناکەکەدا، ژمارەیەک ھاوڕێ ڕێیان ھەڵدەکەوێتە ئەشکەوتێک کە مرۆڤخۆری تێدایە",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

@@ -52,13 +52,29 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: initiate (Derived forms: initiates, initiated, initiating)
+1. Bring into being (- originate, start, father)
+"He initiated a new program";
+ 
+2. Take the lead or initiative in; participate in the development of (- pioneer)
+"This South African surgeon initiated heart transplants";
+ 
+2. Accept people into an exclusive society or group, usually with some rite (- induct)
+"African men are initiated when they reach puberty";
+ 
+3. Bring up a topic for discussion (- broach)
+ 
+4. Set in motion, start an event or prepare the way for (- lead up)
 
-EnglishEntryinitiate initiate
-WORD_WEB initiate initiate initiate
-haʊʊʊʊʊʊʊ4
+- Noun: initiate (Derived forms: initiates)
+1. Someone new to a field or activity (- novice, beginner, tyro, tiro, rookie [informal])
+ 
+2. Someone who has been admitted to membership in a scholarly field (- learned person, pundit, savant)
+ 
+3. People who have been introduced to the mysteries of some field or activity (- enlightened)
+"it is very familiar to the initiate";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "initiate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -954,8 +970,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """initiate""",
                       // alsoEnglishWord: "also: initiate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈnɪʃieɪt/""",
+                      americanText: """IpaUS: /ɪˈnɪʃieɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

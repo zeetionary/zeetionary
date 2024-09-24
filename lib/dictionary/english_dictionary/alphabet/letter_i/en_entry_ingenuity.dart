@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryingenuity ingenuity
-WORD_WEB ingenuity ingenuity ingenuity
-haʊʊʊʊʊʊʊ4
+- Noun: ingenuity (Derived forms: ingenuities)
+1. The power of creative imagination (- inventiveness, ingeniousness, cleverness)
+ 
+2. The property of being ingenious (- ingeniousness, cleverness)
+"a plot of great ingenuity";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ingenuity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The problem tested the ingenuity of even the most imaginative students.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The children showed a lot of ingenuity.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/jMhXEnQLni0?t=';
+    const double startSecondsend = 000000000000000000000000000134;
+    const String videoIdone = 'https://youtu.be/4itx6mXEJ6c?t=';
+    const double startSecondsone = 000000000000000000000000000237;
+    const String videoIdtwo = 'https://youtu.be/iZbala54uzk?t=';
+    const double startSecondstwo = 000000000000000000000000000231;
+    const String videoIdthree = 'https://youtu.be/5hos7hv1Cn8?t=';
+    const double startSecondsthree = 0000000000000000000000000001190;
+    const String videoIdfour = 'https://youtu.be/ARgT2XmHN2E?t=';
+    const double startSecondsfour = 000000000000000000000000000250;
+    const String videoIdfive = 'https://youtu.be/Ky1c6d7v0pQ?t=';
+    const double startSecondsfive = 000000000000000000000000000686;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """ingenuity""",
                       // alsoEnglishWord: "also: ingenuity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪndʒəˈnjuːəti/""",
+                      americanText: """IpaUS: /ˌɪndʒəˈnuːəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەهۆشی، چارەدۆزی، داهێنان،	زیرەکی، شارەزایی، دەس‌ڕەنگینی، هونەرمەندی، وەستایی، کارزانی
 """),
 // With short examples define "ingenuity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) توانای داهێنانی شت و چارەسەرکردنی کێشە بە ڕێگای بلیمەتانە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: inventiveness"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The problem tested the ingenuity of even the most imaginative students.""",
+                      kurdishText:
+                          """کێشەکە بلیمەتی تەنانەت خوێندکارە هەرە داهێنەرترینەکانی تاقیکردەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The children showed a lot of ingenuity.""",
+                      kurdishText: """منداڵەکان بلیمەتیی زۆریان هەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

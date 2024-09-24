@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinhaler inhaler
-WORD_WEB inhaler inhaler inhaler
-haʊʊʊʊʊʊʊ4
+- Noun: inhaler (Derived forms: inhalers)
+1. A dispenser that produces a chemical vapour to be inhaled in order to relieve nasal congestion (- inhalator)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inhaler";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He always carried an inhaler in case of an attack.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/aWiFsm87H_I?t=';
+    const double startSecondsend = 000000000000000000000000000128;
+    const String videoIdone = 'https://youtu.be/cbSGWcNS0D4?t=';
+    const double startSecondsone = 000000000000000000000000000678;
+    const String videoIdtwo = 'https://youtu.be/cbSGWcNS0D4?t=';
+    const double startSecondstwo = 000000000000000000000000000674;
+    const String videoIdthree = 'https://youtu.be/_uS4WCsGi0k?t=';
+    const double startSecondsthree = 000000000000000000000000000178;
+    const String videoIdfour = 'https://youtu.be/w5KGgR7v8OM?t=';
+    const double startSecondsfour = 000000000000000000000000000581;
+    const String videoIdfive = 'https://youtu.be/BlgTQN-esjM?t=';
+    const double startSecondsfive = 000000000000000000000000000563;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inhaler""",
                       // alsoEnglishWord: "also: inhaler",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈheɪlə(r)/""",
+                      americanText: """IpaUS: /ɪnˈheɪlər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,12 +990,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "inhaler", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئامێرێکی بچووکە کە دەرمانی تێدایە و لە ڕێگەی دەمتەوە هەناسەی پێدەدەیت، کە ئەو کەسانە بەکاریدەهێنن کە کێشەی هەناسەدانیان هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He always carried an inhaler in case of an attack.""",
+                      kurdishText:
+                          """هەمیشە ئامێرێکی هەناسەدان هەڵدەگرێت بۆ حاڵەتی جەڵدە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

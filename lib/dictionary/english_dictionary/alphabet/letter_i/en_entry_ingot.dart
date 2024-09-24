@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryingot ingot
-WORD_WEB ingot ingot ingot
-haʊʊʊʊʊʊʊ4
+- Noun: ingot (Derived forms: ingots)
+1. Metal that is cast in the shape of a block for convenient handling
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ingot";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They melted the gold ingot to make jewelry.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +922,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/l2FuvKTyRMQ?t=';
+    const double startSecondsend = 000000000000000000000000000222;
+    const String videoIdone = 'https://youtu.be/VTzKIs19eZE?t=';
+    const double startSecondsone = 000000000000000000000000000344;
+    const String videoIdtwo = 'https://youtu.be/O_KpLrHCAx0?t=';
+    const double startSecondstwo = 000000000000000000000000000201;
+    const String videoIdthree = 'https://youtu.be/4EG34YoRHs8?t=';
+    const double startSecondsthree = 000000000000000000000000000411;
+    const String videoIdfour = 'https://youtu.be/JIlZsuRc9jQ?t=';
+    const double startSecondsfour = 000000000000000000000000000154;
+    const String videoIdfive = 'https://youtu.be/qO9g1_BTz0o?t=';
+    const double startSecondsfive = 00000000000000000000000000033;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """ingot""",
                       // alsoEnglishWord: "also: ingot",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪŋɡət/""",
+                      americanText: """IpaUS: /ˈɪŋɡət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +987,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داڕشتە، قورسە، کەستەک
 """),
 // With short examples define "ingot", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچە کانزایەکی سەخت، بە تایبەتی زێڕ یان زیو، کە لە شێوەی خشتە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They melted the gold ingot to make jewelry.""",
+                      kurdishText:
+                          """پارچە زێڕەکەیان تاواندەوە بۆ درووستکردنی خشڵ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

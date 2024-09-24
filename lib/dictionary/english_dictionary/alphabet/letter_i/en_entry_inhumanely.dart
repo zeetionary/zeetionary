@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinhumanely inhumanely
-WORD_WEB inhumanely inhumanely inhumanely
-haʊʊʊʊʊʊʊ4
+- Adverb: inhumanely
+1. In an inhumane manner (- inhumanly)
+"the prisoners of war were treated inhumanely";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inhumanely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""They treated us inhumanely and just threw food at us.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The men have been accused of illegally and inhumanely bringing immigrants into the country.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/vS7hMricwm0?t=';
+    const double startSecondsend = 000000000000000000000000000235;
+    const String videoIdone = 'https://youtu.be/L4bff4LyuDM?t=';
+    const double startSecondsone = 000000000000000000000000000231;
+    const String videoIdtwo = 'https://youtu.be/n-5rTHtcv7Y?t=';
+    const double startSecondstwo = 000000000000000000000000000113;
+    const String videoIdthree = 'https://youtu.be/vG1lI1PxraI?t=';
+    const double startSecondsthree = 000000000000000000000000000537;
+    const String videoIdfour = 'https://youtu.be/lDQb-OxjjzU?t=';
+    const double startSecondsfour = 000000000000000000000000000141;
+    const String videoIdfive = 'https://youtu.be/4qvqCjhnkZA?t=';
+    const double startSecondsfive = 00000000000000000000000000048;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inhumanely""",
                       // alsoEnglishWord: "also: inhumanely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnhjuːˈmeɪnli/""",
+                      americanText: """IpaUS: /ˌɪnhjuːˈmeɪnli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌بەزەیی‌یانە، دڵڕەقانە
 """),
 // With short examples define "inhumanely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە گرنگی نەدەیت بە ئازار و کێشەی مرۆڤ و ئاژەڵانی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They treated us inhumanely and just threw food at us.""",
+                      kurdishText:
+                          """دڕندانە مامەڵەیان لەگەڵ کردین و تەنها خۆراکیان تێ‌فڕێداین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The men have been accused of illegally and inhumanely bringing immigrants into the country.""",
+                      kurdishText:
+                          """پیاوەکان تۆمەتبار کراون بە هێنانی کۆچبەران بە نایاسایی و دڕندانە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

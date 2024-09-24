@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinformant informant
-WORD_WEB informant informant informant
-haʊʊʊʊʊʊʊ4
+- Noun: informant (Derived forms: informants)
+1. A person who supplies information (- source)
+ 
+2. Someone who sees an event and reports what happened (- witness, witnesser)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "informant";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The journalist refused to reveal the identity of his informant.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""His informants were middle-class professional women.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SrDEtSlqJC4?t=';
+    const double startSecondsend = 0000000000000000000000000001449;
+    const String videoIdone = 'https://youtu.be/VrKW58MS12g?t=';
+    const double startSecondsone = 0000000000000000000000000001263;
+    const String videoIdtwo = 'https://youtu.be/380Zqbi9luo?t=';
+    const double startSecondstwo = 000000000000000000000000000306;
+    const String videoIdthree = 'https://youtu.be/jLIUkk6Esr0?t=';
+    const double startSecondsthree = 000000000000000000000000000757;
+    const String videoIdfour = 'https://youtu.be/lwP9H9qTuUY?t=';
+    const double startSecondsfour = 000000000000000000000000000607;
+    const String videoIdfive = 'https://youtu.be/N-FqJzC3tA8?t=';
+    const double startSecondsfive = 000000000000000000000000000957;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """informant""",
                       // alsoEnglishWord: "also: informant",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfɔːmənt/""",
+                      americanText: """IpaUS: /ɪnˈfɔːrmənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,24 +990,32 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: ئاگایی‌دەر، ئاگادەر، زانیاری‌دەر، سیخوڕ،	(زمانەوانی) قسەپێکەر، ئاخێوەر
+// """),
 // With short examples define "informant", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە زانیاریی نهێنی دەدات بە پۆلیس یان میدیا"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: informer"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The journalist refused to reveal the identity of his informant.""",
+                      kurdishText:
+                          """ڕۆژنامەنووسەکە ڕەتیکردەوە ناسنامەی زانیاری‌دەرەکە ئاشکرا بکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کەسێک کە زانیاری بە کەسێک دەدات لەسەر شتێک، بۆ نموونە بۆ یارمەتی لە توێژینەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His informants were middle-class professional women.""",
+                      kurdishText:
+                          """زانیاری‌دەرەکانی ژنانی پڕۆفیشناڵی چینی ناوەند بوون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

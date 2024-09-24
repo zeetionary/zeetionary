@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfirmary infirmary
-WORD_WEB infirmary infirmary infirmary
-haʊʊʊʊʊʊʊ4
+- Noun: infirmary (Derived forms: infirmaries)
+1. A health facility where patients receive treatment (- hospital)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infirmary";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Surgeons at the Radcliffe Infirmary successfully removed a blood clot from her brain.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """He had to remain in the college infirmary for about a fortnight.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/M5Vrar4w_CU?t=';
+    const double startSecondsend = 000000000000000000000000000267;
+    const String videoIdone = 'https://youtu.be/GLXj3Mm-C-k?t=';
+    const double startSecondsone = 000000000000000000000000000139;
+    const String videoIdtwo = 'https://youtu.be/ronquUhy0xE?t=';
+    const double startSecondstwo = 000000000000000000000000000597;
+    const String videoIdthree = 'https://youtu.be/gTCYcpdq6Eg?t=';
+    const double startSecondsthree = 00000000000000000000000000030;
+    const String videoIdfour = 'https://youtu.be/Lnd6gd_9NMw?t=';
+    const double startSecondsfour = 000000000000000000000000000247;
+    const String videoIdfive = 'https://youtu.be/ejFccNmL15g?t=';
+    const double startSecondsfive = 00000000000000000000000000024;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infirmary""",
                       // alsoEnglishWord: "also: infirmary",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfɜːməri/""",
+                      americanText: """IpaUS: /ɪnˈfɜːrməri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +992,25 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "infirmary", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) نەخۆشخانە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Surgeons at the Radcliffe Infirmary successfully removed a blood clot from her brain.""",
+                      kurdishText:
+                          """نەشتەرگەرانی نەخۆشخانەی ڕادکلیف بە سەرکەوتووی کڵۆیەکی خوێنیان لابرد لە مێشکی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ژوورێکی تایبەت لە قوتابخانە، زیندان، هتد بۆ ئەو کەسانەی کە نەخۆشن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He had to remain in the college infirmary for about a fortnight.""",
+                      kurdishText:
+                          """دەبوو لە ژووری نەخۆشانی کۆلێژەکە بمێنێتەوە بۆ نزیکەی دوو هەفتە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

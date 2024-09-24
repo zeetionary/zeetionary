@@ -9,7 +9,8 @@ class EnglishEntryinfrequency extends StatefulWidget {
   const EnglishEntryinfrequency({super.key});
 
   @override
-  State<EnglishEntryinfrequency> createState() => _EnglishEntryinfrequencyState();
+  State<EnglishEntryinfrequency> createState() =>
+      _EnglishEntryinfrequencyState();
 }
 
 class _EnglishEntryinfrequencyState extends State<EnglishEntryinfrequency> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfrequency infrequency
-WORD_WEB infrequency infrequency infrequency
-haʊʊʊʊʊʊʊ4
+- Noun: infrequency (Derived forms: infrequencies)
+1. Noteworthy scarcity (- rarity, rareness)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infrequency";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """We had to stay overnight here because of the infrequency of buses and trains to Montreal.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """He buys his mother expensive gifts to atone for the infrequency of his visits.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/cYsznAuvKLs?t=';
+    const double startSecondsend = 00000000000000000000000000099;
+    const String videoIdone = 'https://youtu.be/pJ_LUFBSoqM?t=';
+    const double startSecondsone = 000000000000000000000000000482;
+    const String videoIdtwo = 'https://youtu.be/C_B09FZwSbA?t=';
+    const double startSecondstwo = 000000000000000000000000000275;
+    const String videoIdthree = 'https://youtu.be/p2-8X9vEDRM?t=';
+    const double startSecondsthree = 0000000000000000000000000001625;
+    const String videoIdfour = 'https://youtu.be/LElhS5FV0lw?t=';
+    const double startSecondsfour = 000000000000000000000000000673;
+    const String videoIdfive = 'https://youtu.be/wEDW3Dzb1Uc?t=';
+    const double startSecondsfive = 000000000000000000000000000259;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infrequency""",
                       // alsoEnglishWord: "also: infrequency",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfriːkwənsi/""",
+                      americanText: """IpaUS: /ɪnˈfriːkwənsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "infrequency", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی کە شتێک زۆر زۆر ڕوونەدات """),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We had to stay overnight here because of the infrequency of buses and trains to Montreal.""",
+                      kurdishText:
+                          """پێویست بوو شەو لێرە بمێنینەوە بەهۆی کەمی پاس و شەمەندەفەر بۆ مۆنتریال.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He buys his mother expensive gifts to atone for the infrequency of his visits.""",
+                      kurdishText:
+                          """دیاری گران‌بەها بۆ دایکی دەکڕێت بۆ قەرەبووکردنەوەی کەمی سەردانەکانی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

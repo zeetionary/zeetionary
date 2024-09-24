@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinflict inflict
-WORD_WEB inflict inflict inflict
-haʊʊʊʊʊʊʊ4
+- Verb: inflict (Derived forms: inflicts, inflicting, inflicted)
+1. Make (someone) do something unpleasant (- bring down, visit, impose, obtrude)
+"The principal inflicted his rage on the students";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inflict";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,43 +85,46 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Heavy casualties were inflicted on the enemy.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Do you have to inflict that music on us?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""They surveyed the damage inflicted by the storm.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """It should be a criminal offence to inflict cruelty on any animal.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """Frightening cruelties were inflicted on child factory workers well into the 19th century.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts
+        .speak("""The accused clearly intended to inflict harm on him.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/-HyHZsa79LU?t=';
+    const double startSecondsend = 000000000000000000000000000639;
+    const String videoIdone = 'https://youtu.be/zqllxbPWKNI?t=';
+    const double startSecondsone = 0000000000000000000000000001730;
+    const String videoIdtwo = 'https://youtu.be/qjqh9UVfNNk?t=';
+    const double startSecondstwo = 0000000000000000000000000001334;
+    const String videoIdthree = 'https://youtu.be/8eq2vGEEbB4?t=';
+    const double startSecondsthree = 000000000000000000000000000264;
+    const String videoIdfour = 'https://youtu.be/JNpKUp5FTeY?t=';
+    const double startSecondsfour = 000000000000000000000000000139;
+    const String videoIdfive = 'https://youtu.be/UOc7xdRhAAY?t=';
+    const double startSecondsfive = 000000000000000000000000000354;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inflict""",
                       // alsoEnglishWord: "also: inflict",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈflɪkt/""",
+                      americanText: """IpaUS: /ɪnˈflɪkt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +995,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inflict", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) واکردنی ئەوەی کەسێک/شتێک تووشی شتێکی خراپ ببێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Heavy casualties were inflicted on the enemy.""",
+                      kurdishText: """زیانی قورس گەیەندرا بە دوژمن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Do you have to inflict that music on us?""",
+                      kurdishText:
+                          """پێویست دەکات ئەو میوزیکە بێ‌تامەمان تووش بکەیت؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1020,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They surveyed the damage inflicted by the storm.""",
+                      kurdishText:
+                          """ئەو زیانەیان پێوا کە زریانەکە درووستی کرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1031,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It should be a criminal offence to inflict cruelty on any animal.""",
+                      kurdishText:
+                          "دڕندەیی بەرامبەر ھەر ئاژەڵێک دەبێت کارێکی تاوانکاری بێت.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1042,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Frightening cruelties were inflicted on child factory workers well into the 19th century.""",
+                      kurdishText:
+                          "دڕندەیی سامناک بەسەر منداڵانی کرێکارانی کارگەکان دەھێنرا تاوەکو سەدەی نۆزدە.",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1044,8 +1053,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The accused clearly intended to inflict harm on him.""",
+                      kurdishText:
+                          """تاوانبارکراوەکە بە ئاشکرایی ویستی ئازاری پێبگەیەنێت.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfrequent infrequent
-WORD_WEB infrequent infrequent infrequent
-haʊʊʊʊʊʊʊ4
+- Adjective: infrequent
+1. Not frequent; not occurring regularly or often
+"infrequent outbursts of temper"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infrequent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Muggings are relatively infrequent in this area.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Some words are too infrequent to be worthy of inclusion in the dictionary.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/uBQJ9iYUgoU?t=';
+    const double startSecondsend = 000000000000000000000000000462;
+    const String videoIdone = 'https://youtu.be/WwhyZUlmaWA?t=';
+    const double startSecondsone = 0000000000000000000000000002975;
+    const String videoIdtwo = 'https://youtu.be/c0pS3Zx7Fc8?t=';
+    const double startSecondstwo = 000000000000000000000000000152;
+    const String videoIdthree = 'https://youtu.be/5-QejUTDCWw?t=';
+    const double startSecondsthree = 0000000000000000000000000002217;
+    const String videoIdfour = 'https://youtu.be/Zcrsgdl_hP0?t=';
+    const double startSecondsfour = 000000000000000000000000000297;
+    const String videoIdfive = 'https://youtu.be/jc8W-sj72fk?t=';
+    const double startSecondsfive = 00000000000000000000000000068;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infrequent""",
                       // alsoEnglishWord: "also: infrequent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfriːkwənt/""",
+                      americanText: """IpaUS: /ɪnˈfriːkwənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەم، کەم‌ڕووداو، دەگمەن، چۆنها، جارناجار
 """),
 // With short examples define "infrequent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بەشێوەیەکە زۆر زۆر ڕوونادات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: rare"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Muggings are relatively infrequent in this area.""",
+                      kurdishText: """قۆڵبڕین دەگمەنە لەم ناوچەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some words are too infrequent to be worthy of inclusion in the dictionary.""",
+                      kurdishText:
+                          """هەندێک وشە زۆر کەم بەکارهاتوون تاوەکو شایەنی لەخۆگرتن بن لە فەرهەنگەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

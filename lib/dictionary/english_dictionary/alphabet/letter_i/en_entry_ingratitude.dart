@@ -9,7 +9,8 @@ class EnglishEntryingratitude extends StatefulWidget {
   const EnglishEntryingratitude({super.key});
 
   @override
-  State<EnglishEntryingratitude> createState() => _EnglishEntryingratitudeState();
+  State<EnglishEntryingratitude> createState() =>
+      _EnglishEntryingratitudeState();
 }
 
 class _EnglishEntryingratitudeState extends State<EnglishEntryingratitude> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryingratitude ingratitude
-WORD_WEB ingratitude ingratitude ingratitude
-haʊʊʊʊʊʊʊ4
+- Noun: ingratitude (Derived forms: ingratitudes)
+1. A lack of gratitude (- ungratefulness)
+"no vice is universally as hateful as ingratitude";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ingratitude";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Her help was met with ingratitude and unkindness.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/khR5UIEK_mE?t=';
+    const double startSecondsend = 0000000000000000000000000005417;
+    const String videoIdone = 'https://youtu.be/KG6tlxmL0gk?t=';
+    const double startSecondsone = 000000000000000000000000000139;
+    const String videoIdtwo = 'https://youtu.be/JHUKkGfY7IY?t=';
+    const double startSecondstwo = 0000000000000000000000000002604;
+    const String videoIdthree = 'https://youtu.be/AcdOWKiKgWU?t=';
+    const double startSecondsthree = 000000000000000000000000000533;
+    const String videoIdfour = 'https://youtu.be/NaJNFnXMC1A?t=';
+    const double startSecondsfour = 000000000000000000000000000359;
+    const String videoIdfive = 'https://youtu.be/ok0G-tBTJvs?t=';
+    const double startSecondsfive = 000000000000000000000000000975;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """ingratitude""",
                       // alsoEnglishWord: "also: ingratitude",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈɡrætɪtjuːd/""",
+                      americanText: """IpaUS: /ɪnˈɡrætɪtuːd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێنەزانی، بێ‌ئەمەکی، سپڵەیی، بێ‌سفەتی، بێ‌چاووڕوویی، ناسپاسی
 """),
 // With short examples define "ingratitude", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە پیشانی نەدەیت کە سوپاسگوزاریت بۆ شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her help was met with ingratitude and unkindness.""",
+                      kurdishText:
+                          """یارمەتییەکەی بە بێ‌ئەمەکی و نادڵسۆزی وەڵام درایەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

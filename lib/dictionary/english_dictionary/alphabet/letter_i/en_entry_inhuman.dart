@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinhuman inhuman
-WORD_WEB inhuman inhuman inhuman
-haʊʊʊʊʊʊʊ4
+- Adjective: inhuman
+1. Without compunction or human feeling (- cold, cold-blooded, insensate)
+ 
+2. Belonging to or resembling something nonhuman
+"something dark and inhuman in form"; "a babel of inhuman noises"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inhuman";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +87,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""What she proposes is positively inhuman!""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The photos showed inhuman and degrading conditions.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""There was a strange inhuman sound.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/aTDG16Mh2_w?t=';
+    const double startSecondsend = 000000000000000000000000000647;
+    const String videoIdone = 'https://youtu.be/GkgXRyScubI?t=';
+    const double startSecondsone = 0000000000000000000000000001133;
+    const String videoIdtwo = 'https://youtu.be/j4kI2h3iotA?t=';
+    const double startSecondstwo = 0000000000000000000000000002792;
+    const String videoIdthree = 'https://youtu.be/E2rtQFAibEA?t=';
+    const double startSecondsthree = 0000000000000000000000000004672;
+    const String videoIdfour = 'https://youtu.be/a7DYaTxrDg8?t=';
+    const double startSecondsfour = 000000000000000000000000000501;
+    const String videoIdfive = 'https://youtu.be/EywZ5VGNZuQ?t=';
+    const double startSecondsfive = 0000000000000000000000000001009;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inhuman""",
                       // alsoEnglishWord: "also: inhuman",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈhjuːmən/""",
+                      americanText: """IpaUS: /ɪnˈhjuːmən/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دڕندانە، نامرۆڤانە، دڵڕەقانە، بێ‌بەزەیی‌یانە
 """),
 // With short examples define "inhuman", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە گرنگی نەدەیت بەو کەسانەی کە ئازار دەچێژن یان هاوخەمیان نەبیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """What she proposes is positively inhuman!""",
+                      kurdishText: """ئەوەی پێشنیاری دەکات تەواو دڕندانەیە!""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1008,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The photos showed inhuman and degrading conditions.""",
+                      kurdishText:
+                          """وێنەکان دۆخی دڕندانە و بێ‌ئەخلاقانەیان پیشان دەدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە وادەرناکەوێت هی مرۆڤ بێت بۆیە ترسێنەر بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """There was a strange inhuman sound.""",
+                      kurdishText: """دەنگێکی نامۆی نامرۆیی هات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

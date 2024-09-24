@@ -9,7 +9,8 @@ class EnglishEntryinfluential extends StatefulWidget {
   const EnglishEntryinfluential({super.key});
 
   @override
-  State<EnglishEntryinfluential> createState() => _EnglishEntryinfluentialState();
+  State<EnglishEntryinfluential> createState() =>
+      _EnglishEntryinfluentialState();
 }
 
 class _EnglishEntryinfluentialState extends State<EnglishEntryinfluential> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfluential influential
-WORD_WEB influential influential influential
-haʊʊʊʊʊʊʊ4
+ Adjective: influential
+1. Having or exercising influence or power
+"an influential newspaper"; "influential leadership for peace"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "influential";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +86,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """His conversation with the manager was influential in his decision to join United.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The museum exhibit featured portraits of influential blacks who shaped history.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Individually, students have little power, but collectively they can be more influential.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/zqllxbPWKNI?t=';
+    const double startSecondsend = 000000000000000000000000000637;
+    const String videoIdone = 'https://youtu.be/HxRUuGqqMG4?t=';
+    const double startSecondsone = 000000000000000000000000000221;
+    const String videoIdtwo = 'https://youtu.be/kBdfcR-8hEY?t=';
+    const double startSecondstwo = 000000000000000000000000000929;
+    const String videoIdthree = 'https://youtu.be/qCbfTN-caFI?t=';
+    const double startSecondsthree = 0000000000000000000000000001709;
+    const String videoIdfour = 'https://youtu.be/Bj6ulLJGPB8?t=';
+    const double startSecondsfour = 000000000000000000000000000228;
+    const String videoIdfive = 'https://youtu.be/K0j2dlBMzUs?t=';
+    const double startSecondsfive = 000000000000000000000000000458;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """influential""",
                       // alsoEnglishWord: "also: influential",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnfluˈenʃl/""",
+                      americanText: """IpaUS: /ˌɪnfluˈenʃl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەسەڵاتدار، بەتوانا، دەس‌ڕۆیشتوو، بەدەس، جێی‌باوەڕ، دەس‌درێژ، بەدەسەڵات، بەبایەخ، بەقەدر
 """),
 // With short examples define "influential", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە کاریگەریی زۆری هەیە لەسەر ک/شت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His conversation with the manager was influential in his decision to join United.""",
+                      kurdishText:
+                          """گفتووگۆکەی لەگەڵ ڕاهێنەرەکە کاریگەر بوو لە بڕیاری بۆ پەیوەندی کردن بە یونایتید.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The museum exhibit featured portraits of influential blacks who shaped history.""",
+                      kurdishText:
+                          "پێشانگای مۆزەخانەکە ژمارەیەک وێنەی کەسانی کاریگەری ڕەشپێست نمایش دەکات کە کاریگەرییان لەسەر مێژوو ھەبووە.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1021,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Individually, students have little power, but collectively they can be more influential.""",
+                      kurdishText:
+                          """تاک بە تاک، خوێندکاران دەسەڵاتی کەمیان هەیە، بەڵام پێکەوە دەکرێت کاریگەر بن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

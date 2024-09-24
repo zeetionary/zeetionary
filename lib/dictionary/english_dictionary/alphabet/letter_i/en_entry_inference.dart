@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinference inference
-WORD_WEB inference inference inference
-haʊʊʊʊʊʊʊ4
+- Noun: inference (Derived forms: inferences)
+1. The reasoning involved in drawing a conclusion or making a logical judgment on the basis of circumstantial evidence and prior conclusions rather than on the basis of direct observation (- illation)
+"a process of rational inference";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inference";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +85,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The clear inference is that the universe is expanding.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The value of data depends on our skill in drawing inferences from it.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He hid vital information from the press and, by inference, from the people.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/BN9iFX9BLSA?t=';
+    const double startSecondsend = 00000000000000000000000000055;
+    const String videoIdone = 'https://youtu.be/P8A4ivmCCk4?t=';
+    const double startSecondsone = 000000000000000000000000000172;
+    const String videoIdtwo = 'https://youtu.be/hcUAJNqxrUY?t=';
+    const double startSecondstwo = 000000000000000000000000000810;
+    const String videoIdthree = 'https://youtu.be/f2kEGj-S1Tc?t=';
+    const double startSecondsthree = 000000000000000000000000000650;
+    const String videoIdfour = 'https://youtu.be/DxREm3s1scA?t=';
+    const double startSecondsfour = 0000000000000000000000000006376;
+    const String videoIdfive = 'https://youtu.be/fDqBeXJ8Zx8?t=';
+    const double startSecondsfive = 000000000000000000000000000733;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inference""",
                       // alsoEnglishWord: "also: inference",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnfərəns/""",
+                      americanText: """IpaUS: /ˈɪnfərəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەڵێنجان، پێ‌پێبردن، بۆدەرکەوتن، ئەنجام‌گیری
 """),
 // With short examples define "inference", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شتێک کە دەتوانیت بیدۆزیتەوە لەوەی کە پێشووتر دەیزانی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: deduction"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The clear inference is that the universe is expanding.""",
+                      kurdishText:
+                          """هەڵێنجانی ڕوون ئەوەیە کە گەردوون لە کشانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1010,27 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The value of data depends on our skill in drawing inferences from it.""",
+                      kurdishText:
+                          """بەهای داتا پشت بە شارەزاییمان دەبەستێت لە گەشتن بە هەڵێنجان لێیەوە.""",
+                      englishNote:
+                          """This means data becomes valuable only when we have the ability to analyze it and make meaningful conclusions or insights based on the patterns and information it reveals.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی کە بۆچوونێک درووست بکەیت بەو زانیارییانەی کە پێشوەختە ئەیانزانیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He hid vital information from the press and, by inference, from the people (= it is logical to say so, from the same evidence).""",
+                      kurdishText:
+                          """زانیاریی گرنگی شاردەوە لە میدیا، و بە هەڵێنجان، لە خەڵکیش.""",
+                      englishNote:
+                          """This means he concealed important details from the media, and as a logical result, it can be concluded that he also kept this information from the public, based on the same reasoning.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

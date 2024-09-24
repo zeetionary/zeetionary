@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfirmity infirmity
-WORD_WEB infirmity infirmity infirmity
-haʊʊʊʊʊʊʊ4
+- Noun: infirmity (Derived forms: infirmities)
+1. The state of being weak in health or body (especially from old age) (- frailty, debility, feebleness, frailness, valetudinarianism)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infirmity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They may face sickness or infirmity.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +922,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/EH6vE97qIP4?t=';
+    const double startSecondsend = 0000000000000000000000000003102;
+    const String videoIdone = 'https://youtu.be/CzP23Zti-YI?t=';
+    const double startSecondsone = 0000000000000000000000000001328;
+    const String videoIdtwo = 'https://youtu.be/TDMd40a-A4c?t=';
+    const double startSecondstwo = 000000000000000000000000000378;
+    const String videoIdthree = 'https://youtu.be/NeaE_sSVxxQ?t=';
+    const double startSecondsthree = 000000000000000000000000000712;
+    const String videoIdfour = 'https://youtu.be/E6HR2vfnn9M?t=';
+    const double startSecondsfour = 000000000000000000000000000905;
+    const String videoIdfive = 'https://youtu.be/ih2Z3HEMvVM?t=';
+    const double startSecondsfive = 000000000000000000000000000396;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infirmity""",
                       // alsoEnglishWord: "also: infirmity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfɜːməti/""",
+                      americanText: """IpaUS: /ɪnˈfɜːrməti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +987,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لاوازی، بێ‌هێزی، پێچوویی، سستی، عەیب، کەم‌وکوڕی
 """),
 // With short examples define "infirmity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) نەخۆشی و لاوازی بۆ ماوەیەکی زۆر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They may face sickness or infirmity.""",
+                      kurdishText: """ڕەنگە تووشی نەخۆشی و پەککەوتەیی ببێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

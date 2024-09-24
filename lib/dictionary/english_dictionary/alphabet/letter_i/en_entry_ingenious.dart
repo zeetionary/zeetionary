@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryingenious ingenious
-WORD_WEB ingenious ingenious ingenious
-haʊʊʊʊʊʊʊ4
+- Adjective: ingenious
+1. Showing inventiveness and skill (- clever, cunning)
+"an ingenious solution to the problem";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ingenious";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +85,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His plots are always very ingenious.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """He used an ingenious contrivance to distract her and get her to sign the document without reading it.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He measured the room using an ingenious electronic device.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""She's very ingenious when it comes to finding excuses.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/sV6uuMAnJUE?t=';
+    const double startSecondsend = 000000000000000000000000000301;
+    const String videoIdone = 'https://youtu.be/Y8hi6A5MPVY?t=';
+    const double startSecondsone = 00000000000000000000000000018;
+    const String videoIdtwo = 'https://youtu.be/0IoJBV29zMg?t=';
+    const double startSecondstwo = 000000000000000000000000000479;
+    const String videoIdthree = 'https://youtu.be/qr4MSVxfYBE';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/UOc7xdRhAAY?t=';
+    const double startSecondsfour = 000000000000000000000000000199;
+    const String videoIdfive = 'https://youtu.be/D6V85qfsu3g?t=';
+    const double startSecondsfive = 0000000000000000000000000001165;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """ingenious""",
                       // alsoEnglishWord: "also: ingenious",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈdʒiːniəs/""",
+                      americanText: """IpaUS: /ɪnˈdʒiːniəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داهێنەر، بەهۆش، چارەدۆز، چارەساز، زیرەک، داهێنەرانە، شارەزایانە، وەستایانە، لێزانانە، زیرەکانە
 """),
 // With short examples define "ingenious", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە زۆر گونجاوە بۆ مەبەستێکی دیاریکراو و لە بیرۆکەی زیرەکانەوە درووست بووە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His plots are always very ingenious.""",
+                      kurdishText: """پلانەکانی هەمیشە داهێنەرانەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He used an ingenious contrivance to distract her and get her to sign the document without reading it.""",
+                      kurdishText:
+                          "تەڵەکەیەکی زیرەکانەی بەکارھێنا بۆ سەرقاڵکردنی و وای لێ بکات بەڵگەنامەکە واژۆ بکات بەبێ خوێندنەوەی.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,17 +1018,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He measured the room using an ingenious electronic device.""",
+                      kurdishText:
+                          "ژوورەکەی پێوا بە ئامێرێکی ئەلیکترۆنی ناوازە.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە کەسێک بیرۆکەی زیرەکانەی هەیە و زیرەکە لە داهێنانی شت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She's very ingenious when it comes to finding excuses.""",
+                      kurdishText:
+                          """زۆر بلیمەتە کە دێتە سەر دۆزینەوەی بەهانە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinflexible inflexible
-WORD_WEB inflexible inflexible inflexible
-haʊʊʊʊʊʊʊ4
+- Adjective: inflexible
+1. Incapable of adapting or changing to meet circumstances (- rigid, unbending)
+"an inflexible law";
+ 
+2. Incapable of change
+"a man of inflexible purpose"
+ 
+3. Not making concessions (- uncompromising, sturdy, down-the-line [informal])
+"took an inflexible stance in the peace talks";
+ 
+4. Resistant to being bent
+"an inflexible iron bar"; "an inflexible knife blade"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inflexible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +94,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The rules are too inflexible to allow for human error.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The seven-year period is not totally inflexible.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He's completely inflexible on the subject.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""She's a good teacher, but she can be rather inflexible.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +935,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/b4wRdoWpw0w?t=';
+    const double startSecondsend = 000000000000000000000000000648;
+    const String videoIdone = 'https://youtu.be/6i9UUvxhAlY?t=';
+    const double startSecondsone = 000000000000000000000000000416;
+    const String videoIdtwo = 'https://youtu.be/nmCpYdNfbzs?t=';
+    const double startSecondstwo = 000000000000000000000000000502;
+    const String videoIdthree = 'https://youtu.be/b1JlYZQG3lI?t=';
+    const double startSecondsthree = 0000000000000000000000000001012;
+    const String videoIdfour = 'https://youtu.be/UopANFTGexA?t=';
+    const double startSecondsfour = 000000000000000000000000000638;
+    const String videoIdfive = 'https://youtu.be/Oj0plwm_NMs?t=';
+    const double startSecondsfive = 000000000000000000000000000564;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +961,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inflexible""",
                       // alsoEnglishWord: "also: inflexible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfleksəbl/""",
+                      americanText: """IpaUS: /ɪnˈfleksəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1000,20 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەخت، دانەهاتوو، وشک، ڕەق، نەنووشتێنراو، نانووشتێنەوە، ناچەمێتەوە، لەچەمانەوەنەهاتوو، نەنەرم، نەگۆڕ، کەللەڕەق، سەرسەخت، لەسەرسوور
 """),
 // With short examples define "inflexible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ناکرێت بگۆڕدرێت یان گونجاو بکرێت بۆ دۆخێکی دیاریکراو"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: rigid"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The rules are too inflexible to allow for human error.""",
+                      kurdishText:
+                          """یاساکان زۆر نەگۆڕن کە ڕێگا بە هەڵە بدەن.""",
+                      englishNote:
+                          """This means the rules are rigid and do not accommodate mistakes or deviations that people might make, making it difficult for individuals to navigate situations where errors occur.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1021,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The seven-year period is not totally inflexible.""",
+                      kurdishText:
+                          """ماوە حەوت ساڵییەکە بە تەواوی نەگۆڕ نییە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە کەسێک ئامادە نییە بۆچوونی، بڕیاری، هتد یان شێوازی ئەنجامدانی کارەکانی بگۆڕێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He's completely inflexible on the subject.""",
+                      kurdishText: """تەواو سەرسەختە لەسەر بابەتەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1044,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She's a good teacher, but she can be rather inflexible.""",
+                      kurdishText:
+                          """مامۆستایەکی باش بەڵام دەکرێت کەمێک کەللەڕەق بێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

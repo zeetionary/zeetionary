@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: inferno (Derived forms: infernos)
+1. Any place of pain and turmoil (- hell, hell on earth, hellhole, snake pit, the pits)
+"the inferno of the engine room";
+ 
+2. A very intense and uncontrolled fire (- conflagration)
 
-EnglishEntryinferno inferno
-WORD_WEB inferno inferno inferno
-haʊʊʊʊʊʊʊ4
+- Noun: Inferno
+1. (Christianity) the abode of Satan and the forces of evil; where sinners suffer eternal punishment (- Hell, perdition, infernal region, nether region, pit)
+"Inferno is paved with good intentions";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inferno";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Three men managed to escape from the inferno.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The building was an inferno by the time the fire service arrived.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/xzZH151_wXo?t=';
+    const double startSecondsend = 000000000000000000000000000655;
+    const String videoIdone = 'https://youtu.be/NQZ5BfdjDv0?t=';
+    const double startSecondsone = 0000000000000000000000000001275;
+    const String videoIdtwo = 'https://youtu.be/cxn0l7ejTbc?t=';
+    const double startSecondstwo = 000000000000000000000000000475;
+    const String videoIdthree = 'https://youtu.be/auPYOsBejK4?t=';
+    const double startSecondsthree = 000000000000000000000000000216;
+    const String videoIdfour = 'https://youtu.be/8eq2vGEEbB4?t=';
+    const double startSecondsfour = 00000000000000000000000000018;
+    const String videoIdfive = 'https://youtu.be/dRLCZqEfJFA?t=';
+    const double startSecondsfive = 00000000000000000000000000021;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inferno""",
                       // alsoEnglishWord: "also: inferno",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfɜːnəʊ/""",
+                      americanText: """IpaUS: /ɪnˈfɜːrnəʊ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +994,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: (خوازە) جەهەنم، دۆزەخ، دۆژە، شوێنی جەهەنم‌ئاسا
+// """),
 // With short examples define "inferno", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئاگرێکی زۆر گەورە کە لە کۆنترۆڵ دەرچووە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Three men managed to escape from the inferno.""",
+                      kurdishText:
+                          """سێ کەس توانییان لە ئاگرەکە گەورەکە هەڵبێن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1013,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The building was an inferno by the time the fire service arrived.""",
+                      kurdishText:
+                          """بیناکە ئاگرێکی کۆنترۆڵنەکراو بوو کە ئاگر کوژێنەرەوە گەشتن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

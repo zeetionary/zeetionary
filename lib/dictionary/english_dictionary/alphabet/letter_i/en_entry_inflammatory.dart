@@ -9,7 +9,8 @@ class EnglishEntryinflammatory extends StatefulWidget {
   const EnglishEntryinflammatory({super.key});
 
   @override
-  State<EnglishEntryinflammatory> createState() => _EnglishEntryinflammatoryState();
+  State<EnglishEntryinflammatory> createState() =>
+      _EnglishEntryinflammatoryState();
 }
 
 class _EnglishEntryinflammatoryState extends State<EnglishEntryinflammatory> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinflammatory inflammatory
-WORD_WEB inflammatory inflammatory inflammatory
-haʊʊʊʊʊʊʊ4
+- Adjective: inflammatory
+1. Characterized or caused by inflammation
+"an inflammatory process"; "an inflammatory response"
+ 
+2. Arousing to action or rebellion (- incendiary, incitive, instigative, rabble-rousing, seditious)
+"By contrast, such people fear charismatic or inflammatory oratory because it seems to by-pass the rational faculties of the audience";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inflammatory";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The men were using inflammatory language/making inflammatory remarks about the other team's supporters.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/RN8uoBwRr1k?t=';
+    const double startSecondsend = 000000000000000000000000000384;
+    const String videoIdone = 'https://youtu.be/eqQnJIx17io?t=';
+    const double startSecondsone = 000000000000000000000000000235;
+    const String videoIdtwo = 'https://youtu.be/H-u6a66rTpQ?t=';
+    const double startSecondstwo = 0000000000000000000000000001029;
+    const String videoIdthree = 'https://youtu.be/66VdylXI0nQ?t=';
+    const double startSecondsthree = 0000000000000000000000000007;
+    const String videoIdfour = 'https://youtu.be/Yo8UzbQQH3k?t=';
+    const double startSecondsfour = 000000000000000000000000000829;
+    const String videoIdfive = 'https://youtu.be/WHnpp823BW8?t=';
+    const double startSecondsfive = 000000000000000000000000000179;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inflammatory""",
                       // alsoEnglishWord: "also: inflammatory",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈflæmətri/""",
+                      americanText: """IpaUS: /ɪnˈflæmətɔːri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بزوێنەر، هاندەرانە، ئاژاوەنەرەوە، داگیرسێنەر، ورووژێنەر
 """),
 // With short examples define "inflammatory", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە مەبەست لێی ئەوەیە هەستی بەهێزی تووڕەیی درووست بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The men were using inflammatory language/making inflammatory remarks about the other team's supporters.""",
+                      kurdishText:
+                          """پیاوەکان زمانی ئاژاوەنەرەوەیان بەکاردەهێنا سەبارەت بە هەوادارانی تیمەکەی دیکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

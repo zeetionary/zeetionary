@@ -9,7 +9,8 @@ class EnglishEntryinflammable extends StatefulWidget {
   const EnglishEntryinflammable({super.key});
 
   @override
-  State<EnglishEntryinflammable> createState() => _EnglishEntryinflammableState();
+  State<EnglishEntryinflammable> createState() =>
+      _EnglishEntryinflammableState();
 }
 
 class _EnglishEntryinflammableState extends State<EnglishEntryinflammable> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinflammable inflammable
-WORD_WEB inflammable inflammable inflammable
-haʊʊʊʊʊʊʊ4
+- Adjective: inflammable
+1. Easily ignited (- flammable)
+"Inflammable liquids were in drums or in export wooden cases having inside containers";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inflammable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""These gases are highly inflammable.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/F3rncxf4Or8?t=';
+    const double startSecondsend = 000000000000000000000000000118;
+    const String videoIdone = 'https://youtu.be/v5Zo0mUO-GE?t=';
+    const double startSecondsone = 00000000000000000000000000072;
+    const String videoIdtwo = 'https://youtu.be/Mvm8RTdJgq0?t=';
+    const double startSecondstwo = 000000000000000000000000000657;
+    const String videoIdthree = 'https://youtu.be/wdPWe6DSszA?t=';
+    const double startSecondsthree = 000000000000000000000000000364;
+    const String videoIdfour = 'https://youtu.be/-6ANOPGnfcU?t=';
+    const double startSecondsfour = 000000000000000000000000000976;
+    const String videoIdfive = 'https://youtu.be/_uYppDCWHjM?t=';
+    const double startSecondsfive = 000000000000000000000000000562;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inflammable""",
                       // alsoEnglishWord: "also: inflammable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈflæməbl/""",
+                      americanText: """IpaUS: /ɪnˈflæməbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: (زوو)گڕگرتوو، داگیرساو، سووتەنی، زووسووت، ئاورگرتوو، زوو دەیگرێ، زووگرتوو
 """),
 // With short examples define "inflammable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە ئاسان ئاگر دەگرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """These gases are highly inflammable.""",
+                      kurdishText: """ئەم گازانە گڕگرتوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

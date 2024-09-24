@@ -9,7 +9,8 @@ class EnglishEntryinfiltration extends StatefulWidget {
   const EnglishEntryinfiltration({super.key});
 
   @override
-  State<EnglishEntryinfiltration> createState() => _EnglishEntryinfiltrationState();
+  State<EnglishEntryinfiltration> createState() =>
+      _EnglishEntryinfiltrationState();
 }
 
 class _EnglishEntryinfiltrationState extends State<EnglishEntryinfiltration> {
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfiltration infiltration
-WORD_WEB infiltration infiltration infiltration
-haʊʊʊʊʊʊʊ4
+- Noun: infiltration (Derived forms: infiltrations)
+1. (military) a process in which individuals (or small groups) penetrate an area (especially the military penetration of enemy positions without detection)
+ 
+2. The slow passage of a liquid through a filtering medium (- percolation)
+"the infiltration of seawater through the lava";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infiltration";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Their infiltration into the organization was successful.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """It is important to manage moisture infiltration into buildings.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/VOzUnIu_GP0?t=';
+    const double startSecondsend = 000000000000000000000000000107;
+    const String videoIdone = 'https://youtu.be/bLApZfnLJoM?t=';
+    const double startSecondsone = 00000000000000000000000000045;
+    const String videoIdtwo = 'https://youtu.be/bG19b06NG_w?t=';
+    const double startSecondstwo = 000000000000000000000000000550;
+    const String videoIdthree = 'https://youtu.be/UpHOkHxpTvQ?t=';
+    const double startSecondsthree = 000000000000000000000000000164;
+    const String videoIdfour = 'https://youtu.be/ElQdUHSXkME?t=';
+    const double startSecondsfour = 000000000000000000000000000406;
+    const String videoIdfive = 'https://youtu.be/AS9-ITLhQxo?t=';
+    const double startSecondsfive = 00000000000000000000000000073;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infiltration""",
                       // alsoEnglishWord: "also: infiltration",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnfɪlˈtreɪʃn/""",
+                      americanText: """IpaUS: /ˌɪnfɪlˈtreɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +993,28 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تەشەنە، دزە(کردن)، چوونەنێو، پیاڕۆیشتن، پیاتێپەڕین،	پاڵاوتن
 """),
-// With short examples define "infiltration", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) چوونە ناو شوێنێک یان دامەزراوەیەک بە نهێنی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Their infiltration into the organization was successful.""",
+                      kurdishText:
+                          """دزەکردنە ناو دامەزراوەکە سەرکەوتوو بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) ئەوەی بە هێواشی تێپەڕیتە ناو شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is important to manage moisture infiltration into buildings.""",
+                      kurdishText:
+                          """گرنگە کە هاتنەژوورەوەی شێ بۆ ناو بیناکان کۆنترۆڵ بکرێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfinitely infinitely
-WORD_WEB infinitely infinitely infinitely
-haʊʊʊʊʊʊʊ4
+- Adverb: infinitely
+1. Without bounds (- boundlessly, immeasurably)
+"he is infinitely wealthy";
+ 
+2. Continuing forever without end (- endlessly)
+"there are infinitely many possibilities";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infinitely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Your English is infinitely better than my German.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Human beings can be infinitely stupid.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/daaDuC1kbds?t=';
+    const double startSecondsend = 000000000000000000000000000627;
+    const String videoIdone = 'https://youtu.be/3KC32Vymo0Q?t=';
+    const double startSecondsone = 0000000000000000000000000001315;
+    const String videoIdtwo = 'https://youtu.be/TfaMLqEh1qM?t=';
+    const double startSecondstwo = 0000000000000000000000000001125;
+    const String videoIdthree = 'https://youtu.be/WfVF-Ec4naQ?t=';
+    const double startSecondsthree = 000000000000000000000000000326;
+    const String videoIdfour = 'https://youtu.be/Ihoys69G56U?t=';
+    const double startSecondsfour = 000000000000000000000000000669;
+    const String videoIdfive = 'https://youtu.be/4J0xFUyz1nw?t=';
+    const double startSecondsfive = 000000000000000000000000000333;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infinitely""",
                       // alsoEnglishWord: "also: infinitely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnfɪnətli/""",
+                      americanText: """IpaUS: /ˈɪnfɪnətli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +992,26 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌ئەندازە، لە ڕادەبەدەر، یەکجار زۆر
 """),
 // With short examples define "infinitely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە ئاستێکی زۆر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Your English is infinitely better than my German.""",
+                      kurdishText:
+                          """ئینگلیزییەکەت زۆر باشترە لە ئەڵمانییەکەی من.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵکار) بەبێ سنوور"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Human beings can be infinitely stupid.""",
+                      kurdishText: """مرۆڤ دەکرێت بێ‌ئەندازە گەمژە بێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

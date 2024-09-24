@@ -9,7 +9,8 @@ class EnglishEntryinflammation extends StatefulWidget {
   const EnglishEntryinflammation({super.key});
 
   @override
-  State<EnglishEntryinflammation> createState() => _EnglishEntryinflammationState();
+  State<EnglishEntryinflammation> createState() =>
+      _EnglishEntryinflammationState();
 }
 
 class _EnglishEntryinflammationState extends State<EnglishEntryinflammation> {
@@ -52,13 +53,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinflammation inflammation
-WORD_WEB inflammation inflammation inflammation
-haʊʊʊʊʊʊʊ4
+- Noun: inflammation (Derived forms: inflammations)
+A response of body tissues to injury or irritation; characterized by pain and swelling and redness and heat (- redness, rubor [rare])
+ 
+2. The state of being emotionally aroused and worked up (- excitement, excitation, fervor [US], fervour [Brit, Cdn])
+"he tried to calm those who were in a state of extreme inflammation";
+ 
+3. Arousal to violent emotion (- inflaming)
+ 
+4. The act of setting something on fire (- ignition, firing, lighting, kindling)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inflammation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +92,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The doctor's notes recorded inflammation of the ear.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I used a cream to reduce the inflammation.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +931,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Cqbleas1mmo?t=';
+    const double startSecondsend = 000000000000000000000000000292;
+    const String videoIdone = 'https://youtu.be/Zj-dUiYYH64?t=';
+    const double startSecondsone = 000000000000000000000000000390;
+    const String videoIdtwo = 'https://youtu.be/vhmtoAYVRSo?t=';
+    const double startSecondstwo = 000000000000000000000000000222;
+    const String videoIdthree = 'https://youtu.be/weZ_BoMptLI?t=';
+    const double startSecondsthree = 00000000000000000000000000042;
+    const String videoIdfour = 'https://youtu.be/jJx-f_VZK2c?t=';
+    const double startSecondsfour = 00000000000000000000000000015;
+    const String videoIdfive = 'https://youtu.be/f3cQEMLnd_k?t=';
+    const double startSecondsfive = 000000000000000000000000000420;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inflammation""",
                       // alsoEnglishWord: "also: inflammation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnfləˈmeɪʃn/""",
+                      americanText: """IpaUS: /ˌɪnfləˈmeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +996,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سووربوونەوە، سووتانەوە، هەوکردن، ئاوسان
 """),
 // With short examples define "inflammation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دۆخێک کە بەشێکی جەستە سوور دەبێتەوە، دەئاوسێت و ئازاری دەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The doctor's notes recorded inflammation of the ear.""",
+                      kurdishText:
+                          """تێبینییەکانی پزیشکەکە سووربوونەوەی گوێیان تۆمار کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1014,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I used a cream to reduce the inflammation.""",
+                      kurdishText:
+                          """کرێمێکم بەکارهێنا بۆ کەمکردنەوەی سووربوونەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: infinite
+1. Having no limits or boundaries in time or space or extent or magnitude
+"the infinite ingenuity of man"; "infinite wealth"
+ 
+2. (of verbs) not having tense, person, or number (as a participle or gerund or infinitive) (- non-finite, nonfinite)
+"infinite verb form";
+ 
+3. Too numerous to be counted (- countless, innumerable, innumerous, multitudinous, myriad, numberless, uncounted, unnumberable, unnumbered, unnumerable)
+"an infinite number of reasons";
+ 
+4. Total and all-embracing
+"God's infinite wisdom"
+ 
+5. (mathematics) denotes a quantity or set larger than any finite number (- transfinite)
 
-EnglishEntryinfinite infinite
-WORD_WEB infinite infinite infinite
-haʊʊʊʊʊʊʊ4
+- Noun: infinite (Derived forms: infinites)
+1. The unlimited expanse in which everything is located (- space)
+"the boundless regions of the infinite";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infinite";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +100,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She explained the same thing again with infinite patience.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The infinite distances of space are too great for the human mind to comprehend.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He argued that all matter was infinitely divisible.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +941,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsend = 000000000000000000000000000273;
+    const String videoIdone = 'https://youtu.be/QcUey-DVYjk?t=';
+    const double startSecondsone = 0000000000000000000000000002113;
+    const String videoIdtwo = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondstwo = 0000000000000000000000000003676;
+    const String videoIdthree = 'https://youtu.be/DxL2HoqLbyA?t=';
+    const double startSecondsthree = 000000000000000000000000000499;
+    const String videoIdfour = 'https://youtu.be/YrMGIqecu0Y?t=';
+    const double startSecondsfour = 000000000000000000000000000576;
+    const String videoIdfive = 'https://youtu.be/dtp6b76pMak?t=';
+    const double startSecondsfive = 000000000000000000000000000347;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +967,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infinite""",
                       // alsoEnglishWord: "also: infinite",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnfɪnət/""",
+                      americanText: """IpaUS: /ˈɪnfɪnət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1006,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌دوایی، بێ‌کۆتایی، دیاری‌نەکراو، بێ‌سنوور، بێ‌بن، بێ‌دووماهی، لە ڕادەبەدەر، بێ‌ئەژمار، لە ئەندازبەدەر، بێ‌ڕادە
 """),
 // With short examples define "infinite", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) زۆر گەور ەکە سەختە بۆ پێوانە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: boundless"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She explained the same thing again with infinite patience.""",
+                      kurdishText:
+                          """هەمان شتی دووبارە ڕوونکردەوە بە هەمان پشوودرێژی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1024,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The infinite distances of space are too great for the human mind to comprehend.""",
+                      kurdishText:
+                          "مەودا بێ‌کۆتاکانی ئاسمان زۆر گەورەترن لەوەی مێشکی مرۆڤ لێی تێ بگات.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1035,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He argued that all matter was infinitely divisible.""",
+                      kurdishText:
+                          "مشتومڕی ئەوەی دەکرد کە ھەموو مادەیەک بێکۆتا لەدابەش‌ھاتووە.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

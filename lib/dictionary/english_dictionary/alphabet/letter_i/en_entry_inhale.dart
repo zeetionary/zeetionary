@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinhale inhale
-WORD_WEB inhale inhale inhale
-haʊʊʊʊʊʊʊ4
+- Verb: inhale (Derived forms: inhaled, inhaling, inhales)
+1. Draw deep into the lungs in by breathing
+"Clinton smoked marijuana but never inhaled"
+ 
+2. Draw in (air) (- inspire, breathe in)
+"Inhale deeply"; "inhale the fresh mountain air";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inhale";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +88,29 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She closed her eyes and inhaled deeply.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""It is dangerous to inhale ammonia fumes.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The day darkened to night and they inhaled the slight crispness of the air.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The diaphragm contracts when you inhale.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/-cPdImejxEQ?t=';
+    const double startSecondsend = 000000000000000000000000000257;
+    const String videoIdone = 'https://youtu.be/inpok4MKVLM?t=';
+    const double startSecondsone = 00000000000000000000000000049;
+    const String videoIdtwo = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondstwo = 0000000000000000000000000004707;
+    const String videoIdthree = 'https://youtu.be/O-6f5wQXSu8?t=';
+    const double startSecondsthree = 00000000000000000000000000066;
+    const String videoIdfour = 'https://youtu.be/Oij-BdIkPgQ?t=';
+    const double startSecondsfour = 000000000000000000000000000353;
+    const String videoIdfive = 'https://youtu.be/CupbRr2m_sM?t=';
+    const double startSecondsfive = 000000000000000000000000000843;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inhale""",
                       // alsoEnglishWord: "also: inhale",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈheɪl/""",
+                      americanText: """IpaUS: /ɪnˈheɪl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەناسەکێشان، نەفەسکێشان، هەڵمشتن
 """),
 // With short examples define "inhale", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) هەڵمژینی هەوا، گاز، دووکەڵ. هتد بۆ ناو سییەکانت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: breathe in"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She closed her eyes and inhaled deeply.""",
+                      kurdishText: """چاوەکانی داخست و بە قووڵی هەناسەی دا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is dangerous to inhale ammonia fumes.""",
+                      kurdishText: "ھەڵمژینی دووکەڵی ئەمۆنیا زیانبەخشە.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1020,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The day darkened to night and they inhaled the slight crispness of the air.""",
+                      kurdishText:
+                          "ڕۆژەکە تاریکی کرد بۆ شەو و کەمێک سەرمای کەشەکەیان ھەڵمژی.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1031,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The diaphragm contracts when you inhale.""",
+                      kurdishText: "ناوپەنچک گرژدەبێتەوە کە ھەناسە دەمژیت.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

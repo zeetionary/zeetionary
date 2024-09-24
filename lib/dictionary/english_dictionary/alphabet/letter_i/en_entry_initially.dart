@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinitially initially
-WORD_WEB initially initially initially
-haʊʊʊʊʊʊʊ4
+- Adverb: initially
+1. At the beginning (- ab initio, at first)
+"the employers, initially taken by surprise at the pace of developments, regained their second wind";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "initially";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +85,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Initially, the system worked well.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """He initially equivocated on the question of whether he was religious.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He was initially reluctant to join the project.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/_wNsZEqpKUA?t=';
+    const double startSecondsend = 0000000000000000000000000001206;
+    const String videoIdone = 'https://youtu.be/zqllxbPWKNI?t=';
+    const double startSecondsone = 000000000000000000000000000842;
+    const String videoIdtwo = 'https://youtu.be/QLq6GEiHqR8?t=';
+    const double startSecondstwo = 0000000000000000000000000002102;
+    const String videoIdthree = 'https://youtu.be/pTysrwci0pU?t=';
+    const double startSecondsthree = 0000000000000000000000000001218;
+    const String videoIdfour = 'https://youtu.be/Mx8JkGHaGUI?t=';
+    const double startSecondsfour = 0000000000000000000000000001259;
+    const String videoIdfive = 'https://youtu.be/vzKuobmi3iI?t=';
+    const double startSecondsfive = 00000000000000000000000000093;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """initially""",
                       // alsoEnglishWord: "also: initially",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈnɪʃəli/""",
+                      americanText: """IpaUS: /ɪˈnɪʃəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,11 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "initially", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) لە سەرەتادا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Initially, the system worked well.""",
+                      kurdishText: """لە سەرەتادا سیستەمەکە باش کاری کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1005,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He initially equivocated on the question of whether he was religious.""",
+                      kurdishText:
+                          """سەرەتا خۆی دزییەوە لە پرسیاری ئەوەی کە ئایا ئایینی بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1016,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was initially reluctant to join the project.""",
+                      kurdishText:
+                          """لە سەرەتادا نابەدڵ بوو کە پەیوەندی بە گرووپەکەوە بکات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

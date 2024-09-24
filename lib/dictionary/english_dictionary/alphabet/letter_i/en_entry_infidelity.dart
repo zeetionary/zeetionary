@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfidelity infidelity
-WORD_WEB infidelity infidelity infidelity
-haʊʊʊʊʊʊʊ4
+- Noun: infidelity (Derived forms: infidelities)
+1. The quality of being unfaithful (- unfaithfulness)
+"I forgave him his infidelity";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infidelity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She could not forgive his infidelities.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """His reputation has been damaged by allegations of marital infidelity.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/jxahNT2pHkg?t=';
+    const double startSecondsend = 000000000000000000000000000403;
+    const String videoIdone = 'https://youtu.be/XNN1Hbg9oNU?t=';
+    const double startSecondsone = 000000000000000000000000000636;
+    const String videoIdtwo = 'https://youtu.be/QLv7SkInz70?t=';
+    const double startSecondstwo = 000000000000000000000000000692;
+    const String videoIdthree = 'https://youtu.be/HbUGTcdFIio?t=';
+    const double startSecondsthree = 000000000000000000000000000615;
+    const String videoIdfour = 'https://youtu.be/3yi0FNwOYiI?t=';
+    const double startSecondsfour = 000000000000000000000000000250;
+    const String videoIdfive = 'https://youtu.be/KhBxCx11eck?t=';
+    const double startSecondsfive = 000000000000000000000000000446;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infidelity""",
                       // alsoEnglishWord: "also: infidelity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnfɪˈdeləti/""",
+                      americanText: """IpaUS: /ˌɪnfɪˈdeləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +988,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: کافری، بێ‌ئایینی، بێ‌دینی، بەدئایینی، دیندڕی، کفر،	پەیمان‌شکێنی، بێ‌بەڵێنی، خەیانەت، بێ‌وەفایی، زینا
+// """),
 // With short examples define "infidelity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە ڕاستگۆ نەبیت لەگەڵ هاوسەرەکەت بەوەی پەیوەندیی سێکسیت لەگەڵ کەسێکی دیکە هەبێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unfaithfulness"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She could not forgive his infidelities.""",
+                      kurdishText: """نەیدەتوانی لە خیانەتەکانی خۆش ببێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His reputation has been damaged by allegations of marital infidelity.""",
+                      kurdishText:
+                          """ناوبانگی زیانی پێگەشتووە بە تۆمەتی خیانەتی خێزانی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

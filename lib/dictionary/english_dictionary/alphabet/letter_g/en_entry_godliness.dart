@@ -147,7 +147,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """They employed their money and influence to promote godliness.""",
                       kurdishText:
-                          """پارە و خواناسییان بەکارھێنا بۆ برەودان بە خواناسی.""",
+                          """پارە و کاریگەرییان بەکارھێنا بۆ برەودان بە خواناسی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

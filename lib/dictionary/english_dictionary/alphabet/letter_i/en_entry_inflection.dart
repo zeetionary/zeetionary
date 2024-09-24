@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinflection inflection
-WORD_WEB inflection inflection inflection
-haʊʊʊʊʊʊʊ4
+- Noun: inflection (Derived forms: inflections)
+1. A change in the form of a word (usually by adding a suffix) to indicate a change in its grammatical function (- inflexion [Brit])
+ 
+2. The patterns of stress and intonation in a language (- prosody)
+ 
+3. Deviation from a straight or normal course (- flection, flexion)
+ 
+4. A manner of speaking in which the loudness, pitch or tone of the voice is modified (- modulation)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inflection";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """If you add the plural inflection "-s" to "dog" you get "dogs".""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She spoke slowly and without inflection.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/8FpPSMIB4uA?t=';
+    const double startSecondsend = 00000000000000000000000000055;
+    const String videoIdone = 'https://youtu.be/kElsSj8hky4?t=';
+    const double startSecondsone = 000000000000000000000000000138;
+    const String videoIdtwo = 'https://youtu.be/6_Vrg3zAKl4?t=';
+    const double startSecondstwo = 000000000000000000000000000255;
+    const String videoIdthree = 'https://youtu.be/QINII0eeJxc?t=';
+    const double startSecondsthree = 000000000000000000000000000252;
+    const String videoIdfour = 'https://youtu.be/m0aG6urHpSI?t=';
+    const double startSecondsfour = 000000000000000000000000000420;
+    const String videoIdfive = 'https://youtu.be/rjDX5ItsOnQ?t=';
+    const double startSecondsfive = 000000000000000000000000000679;
 
     return DefaultTabController(
       length: 4,
@@ -953,9 +954,9 @@ haʊʊʊʊʊʊʊ4
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """inflection""",
-                      // alsoEnglishWord: "also: inflection",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      alsoEnglishWord: "also: inflexion",
+                      britshText: """IpaUK: /ɪnˈflekʃn/""",
+                      americanText: """IpaUS: /ɪnˈflekʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +997,27 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inflection", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) گۆڕانێک لە شێوەی وشەیەک، بە تایبەتی کۆتاییەکەی، بەپێی ئەرکی ڕێزمانی وشەکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """If you add the plural inflection "-s" to "dog" you get "dogs".""",
+                      kurdishText:
+                          """ئەگەر پاشگری کۆی "-s" زیاد بکەیت بۆ "dog" ئەوا "dogs" ـت دەست دەکەوێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) گۆڕانێک لەوەی چەندە دەنگت بەرز یان نزمە کە قسە دەکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She spoke slowly and without inflection.""",
+                      kurdishText:
+                          """بە هێواشی و بەبێ گۆڕان لە بەرزی دەنگی قسەی کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

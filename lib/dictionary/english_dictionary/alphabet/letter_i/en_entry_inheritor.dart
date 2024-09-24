@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinheritor inheritor
-WORD_WEB inheritor inheritor inheritor
-haʊʊʊʊʊʊʊ4
+- Noun: inheritor (Derived forms: inheritors)
+1. A person who is entitled by law or by the terms of a will to inherit the estate of another (- heir, heritor, distributee [US])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inheritor";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""We are the inheritors of a great cultural tradition.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He became the inheritor of his family's estate.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/LJUl77rsFEw?t=';
+    const double startSecondsend = 000000000000000000000000000279;
+    const String videoIdone = 'https://youtu.be/PkJlTKUaF3Q?t=';
+    const double startSecondsone = 000000000000000000000000000751;
+    const String videoIdtwo = 'https://youtu.be/7DWWkU6Jerw?t=';
+    const double startSecondstwo = 000000000000000000000000000672;
+    const String videoIdthree = 'https://youtu.be/dZ_IwkAE2ls?t=';
+    const double startSecondsthree = 000000000000000000000000000255;
+    const String videoIdfour = 'https://youtu.be/WwIZPoGD2Cc?t=';
+    const double startSecondsfour = 000000000000000000000000000131;
+    const String videoIdfive = 'https://youtu.be/fq1o93Uo1fA?t=';
+    const double startSecondsfive = 000000000000000000000000000757;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inheritor""",
                       // alsoEnglishWord: "also: inheritor",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈherɪtə(r)/""",
+                      americanText: """IpaUS: /ɪnˈherɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +989,28 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەشبەر، میراتبەر، میراتگر
 """),
-// With short examples define "inheritor", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە کاریگەر دەبێت بە کار، باوەڕم هتد ـی ئەو کەسانەی کە لە پێشوودا ژیاون"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: heir"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We are the inheritors of a great cultural tradition.""",
+                      kurdishText: """ئێمە وەرگری نەریتی کەلتووری مەزنین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کەسێک کە پارە و سامان لە کەسێکەوە وەردەگرێت کە دەمرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He became the inheritor of his family's estate.""",
+                      kurdishText: """بوو بە میراتگری سامانی خێزانەکەی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

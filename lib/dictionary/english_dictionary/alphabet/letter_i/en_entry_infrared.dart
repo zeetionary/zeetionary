@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: infrared
+1. Having or employing wavelengths longer than light but shorter than radio waves; lying outside the visible spectrum at its red end
+"infrared radiation"; "infrared photography"
 
-EnglishEntryinfrared infrared
-WORD_WEB infrared infrared infrared
-haʊʊʊʊʊʊʊ4
+- Noun: infrared (Derived forms: infrareds)
+1. The infrared region of the electromagnetic spectrum; electromagnetic wave frequencies below the visible range (- infrared frequency)
+"they could sense radiation in the infrared";
+ 
+2. Electromagnetic radiation with wavelengths longer than visible light but shorter than radio waves (- infrared light, infrared radiation, infrared emission)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infrared";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +91,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Their pilots are guided by an infrared optical system that shows images clearly even at night.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Kou7ur5xt_4?t=';
+    const double startSecondsend = 000000000000000000000000000122;
+    const String videoIdone = 'https://youtu.be/AF8d72mA41M?t=';
+    const double startSecondsone = 000000000000000000000000000216;
+    const String videoIdtwo = 'https://youtu.be/dtp6b76pMak?t=';
+    const double startSecondstwo = 00000000000000000000000000028;
+    const String videoIdthree = 'https://youtu.be/1Un08ziq82Y?t=';
+    const double startSecondsthree = 000000000000000000000000000110;
+    const String videoIdfour = 'https://youtu.be/XRCprhlz4D8';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/i8caGm9Fmh0?t=';
+    const double startSecondsfive = 00000000000000000000000000023;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infrared""",
                       // alsoEnglishWord: "also: infrared",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnfrəˈred/""",
+                      americanText: """IpaUS: /ˌɪnfrəˈred/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +998,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "infrared", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە جۆرە شەپۆلێکی کارۆموگناتیسی هەیە کە لەسەر شەبەنگی ڕەنگەکان درێژترە لە سوور و نابیندرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Their pilots are guided by an infrared optical system that shows images clearly even at night.""",
+                      kurdishText:
+                          """فڕۆکەوانەکانیان سیستەمی بینینی ژێرسووریان پێدەدرێت کە وێنە بە ڕوونی پیشان دەدات تەنانەت لە شەویشدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

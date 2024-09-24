@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinhibited inhibited
-WORD_WEB inhibited inhibited inhibited
-haʊʊʊʊʊʊʊ4
+- Adjective: inhibited
+1. Held back, restrained or prevented
+"in certain conditions previously inhibited conditioned reactions can reappear"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inhibited";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The presence of strangers made her feel inhibited.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/X704ACXjfB0?t=';
+    const double startSecondsend = 000000000000000000000000000170;
+    const String videoIdone = 'https://youtu.be/TYDso5ZCKxo?t=';
+    const double startSecondsone = 000000000000000000000000000241;
+    const String videoIdtwo = 'https://youtu.be/-07WgsJvhMA?t=';
+    const double startSecondstwo = 000000000000000000000000000341;
+    const String videoIdthree = 'https://youtu.be/ySgRb33iH90?t=';
+    const double startSecondsthree = 0000000000000000000000000008738;
+    const String videoIdfour = 'https://youtu.be/7IoJl2qvCs8?t=';
+    const double startSecondsfour = 00000000000000000000000000089;
+    const String videoIdfive = 'https://youtu.be/s9yrMPIJHC8?t=';
+    const double startSecondsfive = 000000000000000000000000000889;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inhibited""",
                       // alsoEnglishWord: "also: inhibited",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈhɪbɪtɪd/""",
+                      americanText: """IpaUS: /ɪnˈhɪbɪtɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +992,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inhibited", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) ئەوەی نەتوانیت بە سرووشتی هەستەکانت دەرببڕیت بەهۆی ئەوەی باوەڕت بە خۆت نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The presence of strangers made her feel inhibited.""",
+                      kurdishText: """ئامادەیی کەسانی نامۆ وایلێکرد شەرم بکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

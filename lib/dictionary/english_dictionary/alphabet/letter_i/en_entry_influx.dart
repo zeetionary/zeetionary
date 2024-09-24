@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinflux influx
-WORD_WEB influx influx influx
-haʊʊʊʊʊʊʊ4
+- Noun: influx (Derived forms: influxes)
+1. The process of flowing in (- inflow)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "influx";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +84,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Many cities saw a large influx of migrant workers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """They feared cultural contamination from the influx of tourists.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Crime is soaring fuelled by an influx of drugs.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/eo62AEDwTKY?t=';
+    const double startSecondsend = 00000000000000000000000000028;
+    const String videoIdone = 'https://youtu.be/V2ec7EE0pB8?t=';
+    const double startSecondsone = 0000000000000000000000000001389;
+    const String videoIdtwo = 'https://youtu.be/9hv3CcJYMmU?t=';
+    const double startSecondstwo = 000000000000000000000000000523;
+    const String videoIdthree = 'https://youtu.be/RzG-yFh1XGs?t=';
+    const double startSecondsthree = 000000000000000000000000000163;
+    const String videoIdfour = 'https://youtu.be/nSMNKrJIm2I?t=';
+    const double startSecondsfour = 000000000000000000000000000332;
+    const String videoIdfive = 'https://youtu.be/ISqjBMXuBe4?t=';
+    const double startSecondsfive = 000000000000000000000000000705;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """influx""",
                       // alsoEnglishWord: "also: influx",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnflʌks/""",
+                      americanText: """IpaUS: /ˈɪnflʌks/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گوڕبوون، هەڵقوڵین، لێژبوونەوە، بۆ نێوەچوون، تێڕژان، ڕژانەنێو، لێشاو
 """),
 // With short examples define "influx", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە ڕێژەیەکی زۆر خەڵک، پارە، یان شت بگەنە شوێنێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Many cities saw a large influx of migrant workers.""",
+                      kurdishText:
+                          """زۆر شار لێشاوێک لە کرێکاری کۆچبەریان هەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They feared cultural contamination from the influx of tourists.""",
+                      kurdishText:
+                          "لە تێکچوونی کەلتووری دەترسان بەھۆی ژمارەی زۆری گەشتیارەوە.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1019,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Crime is soaring fuelled by an influx of drugs.""",
+                      kurdishText:
+                          """تاوان زیاد دەکات بەھۆی ڕێژەی زۆری مادەی ھۆشبەر.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

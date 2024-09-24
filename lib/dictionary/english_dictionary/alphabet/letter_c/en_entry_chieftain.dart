@@ -109,7 +109,7 @@ class EnglishEntrychieftain extends StatelessWidget {
                             englishText:
                                 "As a chieftain of the political party, he wielded considerable influence over its policies.",
                             kurdishText:
-                                "وەک قسەڕۆشتوویەکی پارتە سیاسییەکە، کاریگەری بەرچاوی ھەبوو لەسەر سیاسەتەکانی.",
+                                "وەک قسەڕۆشتوویەکی پارتە سیاسییەکە، دەسەڵاتی بەرچاوی ھەبوو لەسەر سیاسەتەکانی.",
                             onPressedBritish: () => speakchieftains2("en-GB"),
                             onPressedAmerican: () => speakchieftains2("en-US"),
                           ),

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryingratiate ingratiate
-WORD_WEB ingratiate ingratiate ingratiate
-haʊʊʊʊʊʊʊ4
+- Verb: ingratiate (Derived forms: ingratiated, ingratiates, ingratiating)
+1. Gain favour with somebody by deliberate efforts
+"Despite all his attempts to ingratiate himself with his prospective father-in-law, the young man found he could hardly do anything to please him"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ingratiate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The first part of his plan was to ingratiate himself with the members of the committee.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/1Z1KLpf_7tU?t=';
+    const double startSecondsend = 000000000000000000000000000934;
+    const String videoIdone = 'https://youtu.be/0IJSSBMLz6g?t=';
+    const double startSecondsone = 000000000000000000000000000111;
+    const String videoIdtwo = 'https://youtu.be/VYDaqto22NY?t=';
+    const double startSecondstwo = 000000000000000000000000000806;
+    const String videoIdthree = 'https://youtu.be/60jGRGXOXbU?t=';
+    const double startSecondsthree = 000000000000000000000000000193;
+    const String videoIdfour = 'https://youtu.be/3nso_KfY6AQ?t=';
+    const double startSecondsfour = 000000000000000000000000000708;
+    const String videoIdfive = 'https://youtu.be/5yanE03KV00?t=';
+    const double startSecondsfive = 000000000000000000000000000369;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """ingratiate""",
                       // alsoEnglishWord: "also: ingratiate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈɡreɪʃieɪt/""",
+                      americanText: """IpaUS: /ɪnˈɡreɪʃieɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "ingratiate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) کردنی شتێک بۆ ئەوەی کەسێک حەزت لێ بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The first part of his plan was to ingratiate himself with the members of the committee.""",
+                      kurdishText:
+                          """یەکەم بەشی پلانەکەی ئەوە بوو خۆی لای ئەندامانی لیژنەکە خۆشەویست بکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

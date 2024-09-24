@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinlaws in-laws
-WORD_WEB in-laws in-laws in-laws
-haʊʊʊʊʊʊʊ4
+- Noun: in-law (Derived forms: in-laws)
+1. A relative by marriage (- relative-in-law)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "in-laws";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""We're visiting my in-laws on Sunday.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +922,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/-gNqECgR-Vk?t=';
+    const double startSecondsend = 0000000000000000000000000001213;
+    const String videoIdone = 'https://youtu.be/l7g5qZ4Hqvg?t=';
+    const double startSecondsone = 000000000000000000000000000523;
+    const String videoIdtwo = 'https://youtu.be/Y_MwpagOWo0?t=';
+    const double startSecondstwo = 000000000000000000000000000345;
+    const String videoIdthree = 'https://youtu.be/ill2cgCyTUc?t=';
+    const double startSecondsthree = 000000000000000000000000000337;
+    const String videoIdfour = 'https://youtu.be/tKZ2ILu_EMc?t=';
+    const double startSecondsfour = 000000000000000000000000000414;
+    const String videoIdfive = 'https://youtu.be/5R65skWdg7Y?t=';
+    const double startSecondsfive = 000000000000000000000000000801;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """in-laws""",
                       // alsoEnglishWord: "also: in-laws",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪn lɔːz/""",
+                      americanText: """IpaUS: /ˈɪn lɔːz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +990,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "in-laws", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) خزەمەکانت بە هاوسەرگیری، بە تایبەتی دایک و باوکی ژن یان هاوسەرەکەت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """We're visiting my in-laws on Sunday.""",
+                      kurdishText:
+                          """ڕۆژی یەکشەممە سەردانی خزمانی خێزانم دەکەین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

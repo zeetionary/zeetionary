@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinflamed inflamed
-WORD_WEB inflamed inflamed inflamed
-haʊʊʊʊʊʊʊ4
+- Adjective: inflamed
+1. Resulting from inflammation; hot and swollen and reddened
+"eyes inflamed with crying"
+ 
+2. Lighted with red light as if with flames (- ablaze, reddened)
+"the inflamed clouds at sunset";
+ 
+3. (heraldry) adorned with tongues of flame
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inflamed";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +90,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Her joints are severely inflamed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""His finger was swollen and inflamed.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""An inflamed crowd shouted for change and justice.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ni5-3x6ofjc?t=';
+    const double startSecondsend = 00000000000000000000000000096;
+    const String videoIdone = 'https://youtu.be/WHnpp823BW8?t=';
+    const double startSecondsone = 000000000000000000000000000613;
+    const String videoIdtwo = 'https://youtu.be/H-iM_JhNzIQ?t=';
+    const double startSecondstwo = 0000000000000000000000000001131;
+    const String videoIdthree = 'https://youtu.be/f3cQEMLnd_k?t=';
+    const double startSecondsthree = 000000000000000000000000000426;
+    const String videoIdfour = 'https://youtu.be/RN8uoBwRr1k?t=';
+    const double startSecondsfour = 000000000000000000000000000387;
+    const String videoIdfive = 'https://youtu.be/DWmGArQBtFI?t=';
+    const double startSecondsfive = 000000000000000000000000000231;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inflamed""",
                       // alsoEnglishWord: "also: inflamed",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfleɪmd/""",
+                      americanText: """IpaUS: /ɪnˈfleɪmd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سوورەوەبوو، هەڵتۆقیو، هەڵبوو، تووڕە(بوو)
 """),
 // With short examples define "inflamed", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) سوور، بەئازار، و گەرم بەهۆی هەوکردن یان برین"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her joints are severely inflamed.""",
+                      kurdishText: """جومگەکانی بەتوندی سووربوونەتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1010,20 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His finger was swollen and inflamed.""",
+                      kurdishText: """پەنجەکانی هەڵاوساو و هەوکردوو بوون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) زۆر تووڕە بوو یان بەجۆش"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An inflamed crowd shouted for change and justice.""",
+                      kurdishText:
+                          """جەماوەرێکی تووڕە هاواریان دەکرد بۆ گۆڕانکاری و دادپەروەری.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

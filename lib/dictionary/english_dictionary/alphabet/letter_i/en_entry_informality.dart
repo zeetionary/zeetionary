@@ -9,7 +9,8 @@ class EnglishEntryinformality extends StatefulWidget {
   const EnglishEntryinformality({super.key});
 
   @override
-  State<EnglishEntryinformality> createState() => _EnglishEntryinformalityState();
+  State<EnglishEntryinformality> createState() =>
+      _EnglishEntryinformalityState();
 }
 
 class _EnglishEntryinformalityState extends State<EnglishEntryinformality> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinformality informality
-WORD_WEB informality informality informality
-haʊʊʊʊʊʊʊ4
+- Noun: informality (Derived forms: informalities)
+1. A manner that does not take forms and ceremonies seriously
+ 
+2. Freedom from constraint or embarrassment (- ease)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "informality";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He enjoyed the relative informality of the occasion.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""His early paintings display great informality.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/akPZjOZZVNk?t=';
+    const double startSecondsend = 000000000000000000000000000511;
+    const String videoIdone = 'https://youtu.be/kUjcTNljZt0?t=';
+    const double startSecondsone = 00000000000000000000000000052;
+    const String videoIdtwo = 'https://youtu.be/BFKzX7u-3yg?t=';
+    const double startSecondstwo = 000000000000000000000000000532;
+    const String videoIdthree = 'https://youtu.be/pR0ph5r9jmw?t=';
+    const double startSecondsthree = 000000000000000000000000000133;
+    const String videoIdfour = 'https://youtu.be/EuNguMnSKnA?t=';
+    const double startSecondsfour = 000000000000000000000000000680;
+    const String videoIdfive = 'https://youtu.be/auQxY4ZEqP0?t=';
+    const double startSecondsfive = 000000000000000000000000000461;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """informality""",
                       // alsoEnglishWord: "also: informality",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnfɔːˈmæləti/""",
+                      americanText: """IpaUS: /ˌɪnfɔːrˈmæləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +992,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نافەرمی‌بوون، بێ‌داب‌ودەستووری، خۆمانەیی، خۆمانەبوون، ڕەچاونەکردنی داب‌ودەستوور،	هەڵس‌وکەوتی خۆمانە یان بێ‌داب‌ودەستوور
 """),
 // With short examples define "informality", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هەڵسووکەوت و قسەی نافەرمی کە پابەندی یاسای توندی چۆنیەتی ڕەفتارکردن یان کردنی شت نابێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He enjoyed the relative informality of the occasion.""",
+                      kurdishText:
+                          """چێژی بینی لە تا ڕادەیەک نافەرمییەتیی بۆنەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ستایڵێک کە پابەندی یاسای توند نابێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His early paintings display great informality.""",
+                      kurdishText:
+                          """تابلۆ سەرەتاییەکانی نافەرمییەتیی گەورە پیشان دەدەن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

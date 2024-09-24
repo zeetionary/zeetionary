@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfertile infertile
-WORD_WEB infertile infertile infertile
-haʊʊʊʊʊʊʊ4
+- Adjective: infertile
+1. Incapable of reproducing (- sterile, unfertile)
+"an infertile couple";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infertile";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """It has been estimated that one in eight couples is infertile.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Poor farmers have little choice but to try to grow food in this infertile soil.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/yPnoyh04h_0?t=';
+    const double startSecondsend = 000000000000000000000000000553;
+    const String videoIdone = 'https://youtu.be/FoqHB7BMduw?t=';
+    const double startSecondsone = 000000000000000000000000000748;
+    const String videoIdtwo = 'https://youtu.be/cjmoiEakV9k?t=';
+    const double startSecondstwo = 000000000000000000000000000346;
+    const String videoIdthree = 'https://youtu.be/EkuV9oU3o40?t=';
+    const double startSecondsthree = 000000000000000000000000000400;
+    const String videoIdfour = 'https://youtu.be/IfYRzxeMdGs?t=';
+    const double startSecondsfour = 000000000000000000000000000388;
+    const String videoIdfive = 'https://youtu.be/sth0GSJdzFY?t=';
+    const double startSecondsfive = 000000000000000000000000000482;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infertile""",
                       // alsoEnglishWord: "also: infertile",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfɜːtaɪl/""",
+                      americanText: """IpaUS: /ɪnˈfɜːrtl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +990,31 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌پیت، بێ‌بەرهەم، بێ‌بڕشت،	نەزۆک، پەیچەڵ، ئەستێور، قسر، بایەر، نازەنوێر، بێ‌بڕشت، بێ‌مایە، بێ‌بەرهەم، بێ‌بەرەکەت
 """),
 // With short examples define "infertile", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە نەتوانن منداڵیان هەبێت یان وەچە بخەنەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It has been estimated that one in eight couples is infertile.""",
+                      kurdishText:
+                          """ئەوە خەمڵێندراوە یەک لە هەشتی هاوسەران نەزۆکن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) زەوییەک کە بەرهەمی باشی نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Poor farmers have little choice but to try to grow food in this infertile soil.""",
+                      kurdishText:
+                          """جووتیارە هەژارەکان هەڵبژاردەی دیکەیان نییە جگە لە چاندنی خواردن لەسەر ئەم زەوییە بێ‌بەرە.""",
+                      englishNote:
+                          """This means that due to limited options, poor farmers are forced to attempt growing crops in soil that lacks the nutrients needed for healthy plant growth, even though the land is not suitable for farming.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

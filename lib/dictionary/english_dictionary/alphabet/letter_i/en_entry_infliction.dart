@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfliction infliction
-WORD_WEB infliction infliction infliction
-haʊʊʊʊʊʊʊ4
+- Noun: infliction (Derived forms: inflictions)
+1. (tax) the act of imposing something (as a tax or an embargo) (- imposition)
+ 
+2. An act causing pain or damage
+ 
+3. Something or someone that causes annoyance, inconvenience, or makes life more difficult (- annoyance, bother, botheration [informal], pain, pain in the neck [informal], irritation, nuisance)
+"he's not a friend, he's an infliction";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infliction";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +89,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The infliction of pain was evident after the accident.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""His actions led to the infliction of serious injuries.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The infliction of fear can harm mental health.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -928,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/8PJGIEz5YJ4?t=';
+    const double startSecondsend = 0000000000000000000000000001780;
+    const String videoIdone = 'https://youtu.be/j4kI2h3iotA?t=';
+    const double startSecondsone = 0000000000000000000000000003088;
+    const String videoIdtwo = 'https://youtu.be/rwoPd2MHEh0?t=';
+    const double startSecondstwo = 0000000000000000000000000003701;
+    const String videoIdthree = 'https://youtu.be/RJQPthD9rx8?t=';
+    const double startSecondsthree = 000000000000000000000000000684;
+    const String videoIdfour = 'https://youtu.be/nKBKdJTadCc?t=';
+    const double startSecondsfour = 000000000000000000000000000330;
+    const String videoIdfive = 'https://youtu.be/mYNU8Atwx2A?t=';
+    const double startSecondsfive = 000000000000000000000000000610;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infliction""",
                       // alsoEnglishWord: "also: infliction",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈflɪkʃn/""",
+                      americanText: """IpaUS: /ɪnˈflɪkʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داسەپاندن، (بە زۆر) لەسەردانان، وەشاندن، (تێ)سرەواندن، لێدان، پیاکێشان، پێدان، پیادان،	سزا
 """),
 // With short examples define "infliction", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەوەی وابکەیت کەسێک/شتێک تووشی شتێکی خراپ ببێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The infliction of pain was evident after the accident.""",
+                      kurdishText: """بەسەرهاتنی ئازار ئاشکرا بوو لە دوای ڕووداوەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His actions led to the infliction of serious injuries.""",
+                      kurdishText: """کردارەکانی بوو بە هۆکاری تووشبوونی برینی توند.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1016,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The infliction of fear can harm mental health.""",
+                      kurdishText: """تووشکردن بە ترس دەکرێت زیان بە تەندرووستی دەروونی بگەیەنێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

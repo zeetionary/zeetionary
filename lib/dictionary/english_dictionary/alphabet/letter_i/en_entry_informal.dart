@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinformal informal
-WORD_WEB informal informal informal
-haʊʊʊʊʊʊʊ4
+- Adjective: informal
+1. Not formal
+"conservative people unaccustomed to informal dress"; "an informal free-and-easy manner"; "an informal gathering of friends"
+ 
+2. Used of spoken and written language
+ 
+3. Not officially recognized or controlled (- loose)
+"an informal agreement";
+ 
+4. Having or fostering a warm or friendly and informal atmosphere (- cozy [N. Amer], intimate, cosy [Brit, Cdn])
+"a relaxed informal manner";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "informal";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +93,38 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Discussions are held on an informal basis within the department.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """These meetings should remain purely informal, with no obligation on either side.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The aim of the trip was to make informal contact.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(""""Hi" is an informal way of greeting people.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""I changed into more informal clothes.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +934,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/65CFesU4KVQ?t=';
+    const double startSecondsend = 000000000000000000000000000381;
+    const String videoIdone = 'https://youtu.be/Xzv84ZdtlE0?t=';
+    const double startSecondsone = 000000000000000000000000000552;
+    const String videoIdtwo = 'https://youtu.be/lsbcN9-jU1Y?t=';
+    const double startSecondstwo = 000000000000000000000000000872;
+    const String videoIdthree = 'https://youtu.be/MqyJZsGFZ3M?t=';
+    const double startSecondsthree = 000000000000000000000000000101;
+    const String videoIdfour = 'https://youtu.be/-r_l-cTcWsE?t=';
+    const double startSecondsfour = 000000000000000000000000000101;
+    const String videoIdfive = 'https://youtu.be/PLt9fRYT92M?t=';
+    const double startSecondsfive = 00000000000000000000000000089;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """informal""",
                       // alsoEnglishWord: "also: informal",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfɔːml/""",
+                      americanText: """IpaUS: /ɪnˈfɔːrml/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +999,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نافەرمی، ناڕەسمی، بێ‌داب‌ودەستوور، بێ‌دێدی‌وبۆدی، ئاسایی، تایبەتی، خۆمانە، دۆستانە، سادە، ناڕواڵەتی، ناڕووکەشی،	(زمان، ئاخافتن و نووسین) نێو خەڵک، ڕەمەکی
 """),
 // With short examples define "informal", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) هاوڕێیانە؛ کە ڕێسای توند ناکەوێت لە ڕەفتار و کردنی شت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Discussions are held on an informal basis within the department.""",
+                      kurdishText:
+                          """گفتووگۆ لەسەر ئاستی نافەرمی ئەنجام دەدرێت لەناو بەشەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1017,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """These meetings should remain purely informal, with no obligation on either side.""",
+                      kurdishText:
+                          """ئەم چاوپێکەوتنانە دەبێت تەواو بە نافەرمی بمێننەوە و هیچ بەرپرسیاریەتییەک نەکەوێتە سەر هیچ لایەنێک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,26 +1028,34 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The aim of the trip was to make informal contact.""",
+                      kurdishText:
+                          """ئامانجی گەشتەکە درووستکردنی پەیوەندی نافەرمی بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) زمانی نافەرمی کە زیاتر بۆ گفتووگۆ بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """"Hi" is an informal way of greeting people.""",
+                      kurdishText:
+                          """"Hi" ڕێگایەکی نافەرمییە بۆ سڵاوکردن لە خەڵکی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) جلی نافەرمی کە زیاتر بۆ ماڵ یان کاتی حەسانەوە گونجاوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: casual"),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I changed into more informal clothes.""",
+                      kurdishText: """جلی زیاتر نافەرمیم لەبەر کرد.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

@@ -9,7 +9,8 @@ class EnglishEntryinhospitable extends StatefulWidget {
   const EnglishEntryinhospitable({super.key});
 
   @override
-  State<EnglishEntryinhospitable> createState() => _EnglishEntryinhospitableState();
+  State<EnglishEntryinhospitable> createState() =>
+      _EnglishEntryinhospitableState();
 }
 
 class _EnglishEntryinhospitableState extends State<EnglishEntryinhospitable> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinhospitable inhospitable
-WORD_WEB inhospitable inhospitable inhospitable
-haʊʊʊʊʊʊʊ4
+- Adjective: inhospitable
+1. Unfavourable to life or growth
+"the barren inhospitable desert"; "inhospitable mountain areas"
+ 
+2. Not hospitable
+"they are extremely inhospitable these days"; "her greeting was cold and inhospitable"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inhospitable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """They had to trek for miles through inhospitable countryside.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """I'll have to cook them a meal or they'll think I'm inhospitable.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oiLdWXLXDeA?t=';
+    const double startSecondsend = 000000000000000000000000000384;
+    const String videoIdone = 'https://youtu.be/DxREm3s1scA?t=';
+    const double startSecondsone = 0000000000000000000000000002167;
+    const String videoIdtwo = 'https://youtu.be/HJ56MYa9W8M?t=';
+    const double startSecondstwo = 000000000000000000000000000384;
+    const String videoIdthree = 'https://youtu.be/DWpQ_rDVBvw?t=';
+    const double startSecondsthree = 000000000000000000000000000147;
+    const String videoIdfour = 'https://youtu.be/W1ycx7K1PgI?t=';
+    const double startSecondsfour = 000000000000000000000000000111;
+    const String videoIdfive = 'https://youtu.be/K-9iQqrHgj8?t=';
+    const double startSecondsfive = 000000000000000000000000000890;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inhospitable""",
                       // alsoEnglishWord: "also: inhospitable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnhɒˈspɪtəbl/""",
+                      americanText: """IpaUS: /ˌɪnhɑːˈspɪtəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,24 +993,33 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: بەخیل، دەس‌قووچاو، پیسکە، بەرچاوتەنگ، میوان‌نەگر،	ناخۆش، بێ‌پەنا
+// """),
 // With short examples define "inhospitable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) شوێنێک کە سەخت بێت بۆ ژیان و مانەوە تێیدا"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unwelcoming"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They had to trek for miles through inhospitable countryside.""",
+                      kurdishText:
+                          """پێویست بوو چەندین میل لە دەشتوودەری ناخۆش ببڕن.""",
+                      englishNote:
+                          """This means they had to walk a long distance through rough, unfriendly terrain. The word "inhospitable" suggests the countryside was difficult to navigate, possibly due to harsh conditions like extreme weather, rocky ground, or a lack of shelter, making the journey uncomfortable or dangerous.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە باش نیت لەگەڵ میوان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I'll have to cook them a meal or they'll think I'm inhospitable.""",
+                      kurdishText:
+                          """دەبێت خواردنێکیان بۆ لێبنێم ئەگەرنا وەها بیردەکەنەوە کە میوان‌ڕاگر نیم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

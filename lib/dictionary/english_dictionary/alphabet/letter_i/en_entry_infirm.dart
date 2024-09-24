@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinfirm infirm
-WORD_WEB infirm infirm infirm
-haʊʊʊʊʊʊʊ4
+- Adjective: infirm (Derived forms: infirmer, infirmest)
+1. Lacking bodily or muscular strength or vitality (- decrepit, debile [archaic], feeble, rickety, sapless, weak, weakly)
+ 
+2. Lacking firmness of will, character or purpose
+"infirm of purpose; give me the daggers"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "infirm";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Father was becoming increasingly infirm.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The old and the infirm are the most susceptible to this disease.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hRwWxELXakA?t=';
+    const double startSecondsend = 000000000000000000000000000425;
+    const String videoIdone = 'https://youtu.be/ueuRpZYnkrA?t=';
+    const double startSecondsone = 000000000000000000000000000244;
+    const String videoIdtwo = 'https://youtu.be/Rz8ge4aw8Ws?t=';
+    const double startSecondstwo = 0000000000000000000000000001226;
+    const String videoIdthree = 'https://youtu.be/FoqHB7BMduw?t=';
+    const double startSecondsthree = 000000000000000000000000000975;
+    const String videoIdfour = 'https://youtu.be/PngGVt0ZKoc?t=';
+    const double startSecondsfour = 000000000000000000000000000427;
+    const String videoIdfive = 'https://youtu.be/PcSBOUpgngM?t=';
+    const double startSecondsfive = 000000000000000000000000000695;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """infirm""",
                       // alsoEnglishWord: "also: infirm",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈfɜːm/""",
+                      americanText: """IpaUS: /ɪnˈfɜːrm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +991,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێچوو، بێ‌هێز، بێ‌شیان، تێک‌چڕژاو، کز، پەک‌کەوتە، لاواز، سست، خاو و خلیچک، لەق، لۆق، شل‌وشەوێق، ناتوند، ناجێگیر، ناچەسپیو
 """),
 // With short examples define "infirm", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) نەخۆش و لاواز، ە تایبەتی بۆ ماوەیەکی زۆر یان لە ئەنجامی پیری"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Father was becoming increasingly infirm.""",
+                      kurdishText: """باوکە زیاتر و زیاتر پەک‌کەوتە دەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) ئەو کەسانەی کە بێ‌هێز و نەخۆشن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The old and the infirm are the most susceptible to this disease.""",
+                      kurdishText:
+                          """کەسانی پیر و پەک‌کەوتە زیاترین بەرکەوتوون بە نەخۆشییەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

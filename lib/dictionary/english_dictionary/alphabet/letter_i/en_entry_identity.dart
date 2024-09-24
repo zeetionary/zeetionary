@@ -1025,9 +1025,6 @@ ${englishMeaningConst.text}
                       children: [
                         MyExpansionTile(
                           children: [
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1037,9 +1034,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence2("en-GB"),
                               onPressedAmerican: () => speaksentence2("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1049,9 +1043,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence3("en-GB"),
                               onPressedAmerican: () => speaksentence3("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1061,9 +1052,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence5("en-GB"),
                               onPressedAmerican: () => speaksentence5("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1073,9 +1061,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence7("en-GB"),
                               onPressedAmerican: () => speaksentence7("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1085,9 +1070,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence8("en-GB"),
                               onPressedAmerican: () => speaksentence8("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1097,9 +1079,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence9("en-GB"),
                               onPressedAmerican: () => speaksentence9("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1108,9 +1087,6 @@ ${englishMeaningConst.text}
                               onPressedBritish: () => speaksentence10("en-GB"),
                               onPressedAmerican: () => speaksentence10("en-US"),
                             ),
-                            const DividerDefinition(),
-                            const DefinitionKurdish(
-                                text: """ژممر. (ناو) پننسە"""),
                             const DividerSentences(),
                             SentencesRow(
                               englishText:
@@ -1137,8 +1113,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1148,8 +1122,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1172,8 +1144,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence13("en-GB"),
                       onPressedAmerican: () => speaksentence13("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

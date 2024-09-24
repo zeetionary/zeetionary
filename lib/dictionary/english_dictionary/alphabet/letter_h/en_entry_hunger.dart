@@ -1012,8 +1012,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Hunger drove her to steal.""",
@@ -1031,8 +1029,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1042,8 +1038,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I was faint with hunger.""",
@@ -1051,8 +1045,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Her stomach was growling with hunger.""",
@@ -1071,8 +1063,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1082,8 +1072,6 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

@@ -132,7 +132,7 @@ class EnglishEntrybacterial extends StatelessWidget {
                             englishText:
                                 "My sore throat came from a bacterial infection.",
                             kurdishText:
-                                "ھەڵئاوسانی قوڕگم بەھۆی تووشبوون بە بەکتریاوە بوو.",
+                                "ھەڵئاوسانی قوڕگم بەھۆی نەخۆشی بەکتریاوە بوو.",
                             onPressedBritish: () => speakbacterials1("en-GB"),
                             onPressedAmerican: () => speakbacterials1("en-US"),
                           ),

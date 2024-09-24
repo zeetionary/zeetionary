@@ -131,6 +131,7 @@ class EnglishEntryblinker extends StatelessWidget {
                         children: [
                           const DefinitionKurdish(text: """
 ١. (ناو) لایتی سەر ئۆتۆمبێلێک کە دادەگیرسێنرێت و پرتەپرت دەکات بۆ ئاماژە بەوەی شۆفێرەکە لادەدات بەو ئاراستەیەدا"""),
+                          const AlsoEnglishckb(word: "ھەروەھا: indicator"),
                           SentencesRow(
                             englishText:
                                 "The driver forgot to use the blinker, causing confusion for others.",

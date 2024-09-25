@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinky inky
-WORD_WEB inky inky inky
-haʊʊʊʊʊʊʊ4
+- Adjective: inky (Derived forms: inkier, inkiest)
+1. Of the colour of black ink (- ink-black, inky-black)
+"At maturity, the mushroom turns into an inky black fluid that drips";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inky";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""It was night and the water looked cold and inky black.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""I ended up with inky fingers after signing all the forms.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/bTYV7aFC6KE?t=';
+    const double startSecondsend = 000000000000000000000000000137;
+    const String videoIdone = 'https://youtu.be/NQZ5BfdjDv0?t=';
+    const double startSecondsone = 000000000000000000000000000817;
+    const String videoIdtwo = 'https://youtu.be/E2rtQFAibEA?t=';
+    const double startSecondstwo = 00000000000000000000000000010306;
+    const String videoIdthree = 'https://youtu.be/pVXXtZtZ6Gs?t=';
+    const double startSecondsthree = 00000000000000000000000000017;
+    const String videoIdfour = 'https://youtu.be/M5Vrar4w_CU?t=';
+    const double startSecondsfour = 000000000000000000000000000115;
+    const String videoIdfive = 'https://youtu.be/KbkNGjfgqJU?t=';
+    const double startSecondsfive = 000000000000000000000000000467;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inky""",
                       // alsoEnglishWord: "also: inky",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪŋki/""",
+                      americanText: """IpaUS: /ˈɪŋki/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +993,25 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inky", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە وەک مەرەکەب ڕەشە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It was night and the water looked cold and inky black.""",
+                      kurdishText:
+                          """شەو بوو و ئاوەکە سارد و ڕەش ڕەش دیاربوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە بە مەرەکەب داپۆشراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I ended up with inky fingers after signing all the forms.""",
+                      kurdishText:
+                          """پەنجەی مەرەکەباویم هەبوو لە دوای ئەوەی فۆرمەکانم واژۆکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

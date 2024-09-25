@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinitiation initiation
-WORD_WEB initiation initiation initiation
-haʊʊʊʊʊʊʊ4
+- Noun: initiation (Derived forms: initiations)
+1. A formal entry into an organization, position or office (- induction, installation)
+"his initiation into the club";
+ 
+2. The act of starting something for the first time; introducing something new (- founding, foundation, institution, origination, creation, innovation, introduction, instauration, debut, first appearance, launching, unveiling, entry)
+"she looked forward to her initiation as an adult";
+ 
+3. Wisdom as evidenced by the possession of knowledge (- knowledgeability, knowledgeableness)
+"his dullness was due to lack of initiation";
+ 
+4. An act that sets in motion some course of events (- trigger, induction)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "initiation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +93,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The gym charges an initiation fee of £125.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """It is generally the police who deal with the initiation of criminal proceedings.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsend = 0000000000000000000000000002151;
+    const String videoIdone = 'https://youtu.be/fKewkAww5Ko?t=';
+    const double startSecondsone = 000000000000000000000000000837;
+    const String videoIdtwo = 'https://youtu.be/hCDzSR6bW10?t=';
+    const double startSecondstwo = 000000000000000000000000000647;
+    const String videoIdthree = 'https://youtu.be/iQ5GfDbjos8?t=';
+    const double startSecondsthree = 000000000000000000000000000578;
+    const String videoIdfour = 'https://youtu.be/qPUZo3dQSEM?t=';
+    const double startSecondsfour = 00000000000000000000000000067;
+    const String videoIdfive = 'https://youtu.be/HhSNbKezP64?t=';
+    const double startSecondsfive = 000000000000000000000000000556;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """initiation""",
                       // alsoEnglishWord: "also: initiation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˌnɪʃiˈeɪʃn/""",
+                      americanText: """IpaUS: /ɪˌnɪʃiˈeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +997,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەسپێک، سەرەتا، دەس‌پێکردن،	چوونەنێو، وەرگرتن،	خستنەکار، جێبەجێ‌کردن،	ناسیاوکردن، ناساندن، ئاشناکردن، پێ‌کردنەوە
 """),
 // With short examples define "initiation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە کەسێک ببێتە ئەندامی گرووپێک، زۆرجار بە بۆنەیەکی تایبەتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The gym charges an initiation fee of £125.""",
+                      kurdishText:
+                          """جیمەکە کرێی بە ئەندامبوونی ١٢٥ پاوەند وەردەگرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) کاری دەستپێکردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is generally the police who deal with the initiation of criminal proceedings.""",
+                      kurdishText:
+                          """بە شێوەیەکی گشتی پۆلیس ئەوەیە کە کە مامەڵە لەگەڵ دەستپێکردنی دادگایی کاری تاوانکاری دەکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinnovator innovator
-WORD_WEB innovator innovator innovator
-haʊʊʊʊʊʊʊ4
+- Noun: innovator (Derived forms: innovators)
+1. Someone who helps to open up a new line of research, technology or art (- pioneer, trailblazer, groundbreaker, path-breaker)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "innovator";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He was one of the greatest innovators of 20th century music.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SrDEtSlqJC4?t=';
+    const double startSecondsend = 000000000000000000000000000914;
+    const String videoIdone = 'https://youtu.be/UdgRUCVUts0?t=';
+    const double startSecondsone = 000000000000000000000000000428;
+    const String videoIdtwo = 'https://youtu.be/JN3KPFbWCy8?t=';
+    const double startSecondstwo = 0000000000000000000000000003485;
+    const String videoIdthree = 'https://youtu.be/YflDBkKutmM?t=';
+    const double startSecondsthree = 000000000000000000000000000174;
+    const String videoIdfour = 'https://youtu.be/U9jirFqex6g?t=';
+    const double startSecondsfour = 0000000000000000000000000001095;
+    const String videoIdfive = 'https://youtu.be/HcqCWiGyDvw?t=';
+    const double startSecondsfive = 000000000000000000000000000488;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """innovator""",
                       // alsoEnglishWord: "also: innovator",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnəveɪtə(r)/""",
+                      americanText: """IpaUS: /ˈɪnəveɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +988,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تازەگەر، تازەداهێن، داهێنەر
 """),
 // With short examples define "innovator", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) کەسێک یان کۆمپانیایەک کە داهێنان دەکات لە شتێک یان بیرۆکە، ڕێگا، یان شێوازی تازەی کردنی شت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was one of the greatest innovators of 20th century music.""",
+                      kurdishText: """یەکێک لە تازەگەرە هەرە گەورەکانی میوزیکی سەدەی بیستەم بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: inland
+1. Situated away from an area's coast or border
+ 
+2. Of concern to or concerning the internal affairs of a nation (- domestic)
+"inland issues such as tax rate and highway construction";
 
-EnglishEntryinland inland
-WORD_WEB inland inland inland
-haʊʊʊʊʊʊʊ4
+ -Adverb: inland
+1. Towards or into the interior of a region
+"the town is five miles inland"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inland";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The town lies a few kilometres inland.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""We travelled further inland the next day.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Business is booming in both inland and coastal resorts.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsend = 0000000000000000000000000001455;
+    const String videoIdone = 'https://youtu.be/UvjSXBqQe4A?t=';
+    const double startSecondsone = 000000000000000000000000000378;
+    const String videoIdtwo = 'https://youtu.be/H1KP4ztKK0A?t=';
+    const double startSecondstwo = 000000000000000000000000000709;
+    const String videoIdthree = 'https://youtu.be/VNZ0so0LCoM?t=';
+    const double startSecondsthree = 0000000000000000000000000001076;
+    const String videoIdfour = 'https://youtu.be/7EDflnGzjTY?t=';
+    const double startSecondsfour = 000000000000000000000000000173;
+    const String videoIdfive = 'https://youtu.be/7ziWrneMYss?t=';
+    const double startSecondsfive = 000000000000000000000000000406;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inland""",
                       // alsoEnglishWord: "also: inland",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnˈlænd/""",
+                      americanText: """IpaUS: /ˌɪnˈlænd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +998,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inland", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەرەو ناوەڕاستی وڵاتێک؛ دوور لە کەناراوەکانەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The town lies a few kilometres inland.""",
+                      kurdishText:
+                          """شارۆچکەکە چەند کیلۆمەترێک بەلای ناوەوەی دوورگەکەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1012,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We travelled further inland the next day.""",
+                      kurdishText:
+                          """ڕۆژی دواتر زیاتر بۆ ناوەوەی وڵاتەکە گەشتمان کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە کەوتووەتە نزیک ناوەوەی وڵاتێک نەک نزیک لە کەناراوەکانی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Business is booming in both inland and coastal resorts.""",
+                      kurdishText:
+                          """بازرگانی دەبووژێتەوە لە هەردوو هاوینەهەوارە ناوەکی و کەنارییەکان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

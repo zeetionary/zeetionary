@@ -13,6 +13,8 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 // import 'package:zeetionary/theme/pallete.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:styled_text/styled_text.dart';
+// import 'package:feedback_gitlab/feedback_gitlab.dart';
+import 'package:zeetionary/feedback.dart';
 
 class Constants {
   static const logo1Path = 'assets/images/zeetionary_one.png';
@@ -40,6 +42,15 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
       scrolledUnderElevation: 0,
       title: const ZeetionaryAppbarStyle(),
       leading: const BackIconOfAppbar(),
+      actions: [
+        IconButton(
+          icon: const FeedbackIcon(),
+          onPressed: () {
+                  createGitlabIssueFromFeedback(
+                      context); // Calls the function to upload feedback to GitLab
+                },
+        ),
+      ],
     );
   }
 
@@ -47,6 +58,21 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
   Size get preferredSize => const Size.fromHeight(_defaultHeight);
 
   static const double _defaultHeight = 60.0;
+}
+
+class FeedbackIcon extends ConsumerWidget {
+  const FeedbackIcon({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+    return Icon(
+      Icons.feedback,
+      size: textSize + 7,
+    );
+  }
 }
 
 class BackIconOfAppbar extends ConsumerWidget {

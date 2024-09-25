@@ -403,7 +403,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The only way to close this gap is to innovate.""",
                       kurdishText:
-                          """تەنھا ڕێگای کەمکردنەوەی ئەم جیاوازییە نوێگەریییە.""",
+                          """تەنھا ڕێگای کەمکردنەوەی ئەم جیاوازییە نوێگەری کردنە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),

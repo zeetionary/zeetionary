@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinnovative innovative
-WORD_WEB innovative innovative innovative
-haʊʊʊʊʊʊʊ4
+- Adjective: innovative
+1. Ahead of the times (- advanced, forward-looking, modern, forward-thinking)
+"is British industry innovative enough?";
+ 
+2. Being or producing something like nothing done or experienced or created before (- innovational, groundbreaking, innovatory, path-breaking)
+"stylistically innovative works"; "innovative members of the artistic community";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "innovative";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""There will be a prize for the most innovative design.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/t6cjpCND-Qk?t=';
+    const double startSecondsend = 000000000000000000000000000518;
+    const String videoIdone = 'https://youtu.be/IgF3OX8nT0w?t=';
+    const double startSecondsone = 000000000000000000000000000743;
+    const String videoIdtwo = 'https://youtu.be/fGMCjELDyUY?t=';
+    const double startSecondstwo = 00000000000000000000000000067;
+    const String videoIdthree = 'https://youtu.be/pTCgWVjB6UE?t=';
+    const double startSecondsthree = 000000000000000000000000000677;
+    const String videoIdfour = 'https://youtu.be/PsY8XDHnzCU?t=';
+    const double startSecondsfour = 000000000000000000000000000839;
+    const String videoIdfive = 'https://youtu.be/m3MgAOe2zSs?t=';
+    const double startSecondsfive = 00000000000000000000000000049;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """innovative""",
                       // alsoEnglishWord: "also: innovative",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnəveɪtɪv/, /ˈɪnəvətɪv/""",
+                      americanText: """IpaUS: /ˈɪnəveɪtɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داهێنەرانە، تازەگەرانە، تازەگەر، تازەداهێن، داهێنەر
 """),
 // With short examples define "innovative", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە داهێنانی شت یان بیرۆکە، ڕێگا، یان شێوازی تازەی کردنی شتێک دادەهێنێت یان بەکاری دەهێنێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: innovatory"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There will be a prize for the most innovative design.""",
+                      kurdishText:
+                          """خەڵاتێک دەبێت بۆ دەهێنەرانەترین دیزاین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

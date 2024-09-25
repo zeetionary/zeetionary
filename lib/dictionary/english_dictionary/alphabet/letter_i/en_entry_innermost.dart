@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinnermost innermost
-WORD_WEB innermost innermost innermost
-haʊʊʊʊʊʊʊ4
+- Adjective: innermost
+1. Being deepest within the self (- inmost)
+"one's innermost feelings";
+ 
+2. Situated or occurring farthest within (- inmost)
+"the innermost chamber";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "innermost";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""I could not express my innermost feelings to anyone.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The book reveals his innermost secrets.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The spacecraft will fly through the innermost rings of Saturn.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/g0amdIcZt5I?t=';
+    const double startSecondsend = 0000000000000000000000000001134;
+    const String videoIdone = 'https://youtu.be/Q1bSDnuIPbo?t=';
+    const double startSecondsone = 000000000000000000000000000706;
+    const String videoIdtwo = 'https://youtu.be/2IxD3WFHXxs?t=';
+    const double startSecondstwo = 000000000000000000000000000182;
+    const String videoIdthree = 'https://youtu.be/apmSXL43Xao?t=';
+    const double startSecondsthree = 000000000000000000000000000192;
+    const String videoIdfour = 'https://youtu.be/x9flq3vb9JU?t=';
+    const double startSecondsfour = 00000000000000000000000000036;
+    const String videoIdfive = 'https://youtu.be/QCQ_d0NOF4g?t=';
+    const double startSecondsfive = 000000000000000000000000000133;
 
     return DefaultTabController(
       length: 4,
@@ -953,9 +953,9 @@ haʊʊʊʊʊʊʊ4
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """innermost""",
-                      // alsoEnglishWord: "also: innermost",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      alsoEnglishWord: "also: inmost",
+                      britshText: """IpaUK: /ˈɪnəməʊst/""",
+                      americanText: """IpaUS: /ˈɪnərməʊst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +996,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "innermost", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە نهێنیترین یان تایبەتترینە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I could not express my innermost feelings to anyone.""",
+                      kurdishText:
+                          """نەمدەتوانی هەستە زۆر کەسییەکانم بۆ هیچ کەس دەرببڕم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1010,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The book reveals his innermost secrets.""",
+                      kurdishText:
+                          """کتێبەکە نهێنییە هەرە تایبەتەکانی ئاشکرا دەکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە نزیکترینە لە چەقی شتێکەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The spacecraft will fly through the innermost rings of Saturn.""",
+                      kurdishText:
+                          """کەشتییە ئاسمانییەکە دەفڕێت بەناو ئەڵقە هەرە ناوەکییەکانی زوحەل.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

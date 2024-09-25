@@ -10,6 +10,8 @@ import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/theme/pallete.dart';
 import 'package:flutter_advanced_drawer/flutter_advanced_drawer.dart';
+// import 'package:feedback_gitlab/feedback_gitlab.dart';
+import 'package:zeetionary/feedback.dart';
 
 class HomeScreenThree extends ConsumerStatefulWidget {
   const HomeScreenThree({super.key});
@@ -119,6 +121,28 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
                   Routemaster.of(context).push('/bookmarks-screen');
                 },
               ),
+              IconButton(
+                icon: Icon(
+                  Icons.feedback,
+                  size: textSize + 7,
+                ),
+                onPressed: () {
+                  createGitlabIssueFromFeedback(
+                      context); // Calls the function to upload feedback to GitLab
+                },
+              ),
+              // IconButton(
+              //   icon: Icon(
+              //     Icons.feedback,
+              //     size: textSize + 7,
+              //   ),
+              //   onPressed: () {
+              //     BetterFeedback.of(context).showAndUploadToGitLab(
+              //       projectId: '61998017',
+              //       apiToken: 'glpat-Ka4F7a__doGqZVez3erc',
+              //     );
+              //   },
+              // ),
             ],
           ),
         ),

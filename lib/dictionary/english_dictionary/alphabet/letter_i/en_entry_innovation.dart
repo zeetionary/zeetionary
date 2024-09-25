@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinnovation innovation
-WORD_WEB innovation innovation innovation
-haʊʊʊʊʊʊʊ4
+- Noun: innovation (Derived forms: innovations)
+1. A creation (a new device or process) resulting from study and experimentation (- invention)
+ 
+2. The creation of something in the mind (- invention, excogitation, conception, design, fiction)
+ 
+3. The act of starting something for the first time; introducing something new (- initiation, founding, foundation, institution, origination, creation, introduction, instauration, debut, first appearance, launching, unveiling, entry)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "innovation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,43 +88,46 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The company is very interested in product design and innovation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The company promotes a culture of innovation.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The country's eager embrace of modern technology led to rapid innovation.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """We want a company culture that welcomes ideas and encourages innovation.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""Such organizations need to foster innovation.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """She believed she had come up with one of the greatest innovations of modern times.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/x6btmJSRueE?t=';
+    const double startSecondsend = 00000000000000000000000000016;
+    const String videoIdone = 'https://youtu.be/cCP9vjp4kSg?t=';
+    const double startSecondsone = 000000000000000000000000000216;
+    const String videoIdtwo = 'https://youtu.be/ITuGdHxHi0A?t=';
+    const double startSecondstwo = 00000000000000000000000000026;
+    const String videoIdthree = 'https://youtu.be/iFcPqXxAUWM?t=';
+    const double startSecondsthree = 000000000000000000000000000264;
+    const String videoIdfour = 'https://youtu.be/fxGI8r8vAFk?t=';
+    const double startSecondsfour = 000000000000000000000000000534;
+    const String videoIdfive = 'https://youtu.be/jBnWZijMbMY?t=';
+    const double startSecondsfive = 000000000000000000000000000191;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """innovation""",
                       // alsoEnglishWord: "also: innovation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnəˈveɪʃn/""",
+                      americanText: """IpaUS: /ˌɪnəˈveɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +995,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داهێنان، تازەگەری، تازەداهێنی، گۆڕان،	شتی تازە، شتی تازەبابەت، باو یان ڕوسمی تازە
 """),
 // With short examples define "innovation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) داهێنانی شت یان بیرۆکە، ڕێگا، یان شێوازی تازەی کردنی شت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The company is very interested in product design and innovation.""",
+                      kurdishText:
+                          """کۆمپانیاکە زۆر حەزی بە دیزاینی بەرهەم و نوێگەرییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1013,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The company promotes a culture of innovation.""",
+                      kurdishText: "کۆمپانیاکە فەرھەنگی نوێگەری بڵاودەکاتەوە.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1023,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The country's eager embrace of modern technology led to rapid innovation.""",
+                      kurdishText:
+                          """باوەشکردنەوەی بەپەرۆشانەی وڵاتەکە بۆ تەکنەلۆژیای تازە بوو بە ھۆکاری پەرەسەندنی خێرا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1034,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We want a company culture that welcomes ideas and encourages innovation.""",
+                      kurdishText:
+                          """دۆخێکی کۆمپانیامان دەوێت کە ڕێز لە بیرۆکە بگرێت و ھانی پێشکەوتن بدات.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,17 +1045,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Such organizations need to foster innovation.""",
+                      kurdishText:
+                          """دامەزراوەی وەھا دەبێت ھانی نوێگەری بدەن.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) بیرۆکەیەکی تازە، شێوازی کردنی شتێک، هتد کە دۆزراوەتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She believed she had come up with one of the greatest innovations of modern times.""",
+                      kurdishText:
+                          """باوەڕی وابوو کە یەکێک لە گەورەترین نوێگەرییەکانی سەردەمی مۆدێرنی داهێنابوو.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),

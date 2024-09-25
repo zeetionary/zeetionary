@@ -338,7 +338,6 @@ ${englishMeaningConst.text}
                     SentencesRow(
                       englishText: """Did you have gas or an injection?""",
                       kurdishText: """ھەوات ھەڵمژی یان دەرزیت لێدرا؟""",
-                      englishNote: """Did you have gas or an injection?""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),

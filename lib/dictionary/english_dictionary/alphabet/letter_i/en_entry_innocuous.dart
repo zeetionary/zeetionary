@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinnocuous innocuous
-WORD_WEB innocuous innocuous innocuous
-haʊʊʊʊʊʊʊ4
+- Adjective: innocuous
+1. Not causing disapproval (- unobjectionable)
+"it was an innocuous remark"; "confined himself to innocuous generalities";
+ 
+2. Lacking intent or capacity to injure (- innocent)
+"an innocuous prank";
+ 
+3. Not injurious to physical or mental health
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "innocuous";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +90,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It seemed a perfectly innocuous remark.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The question appeared innocuous enough, but I still did not trust her.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The liquid looked fairly innocuous.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/LxdoC2sG1i4?t=';
+    const double startSecondsend = 000000000000000000000000000615;
+    const String videoIdone = 'https://youtu.be/MqyJZsGFZ3M?t=';
+    const double startSecondsone = 000000000000000000000000000127;
+    const String videoIdtwo = 'https://youtu.be/RZt7kE7PZMQ?t=';
+    const double startSecondstwo = 000000000000000000000000000445;
+    const String videoIdthree = 'https://youtu.be/EmT0i0xG6zg?t=';
+    const double startSecondsthree = 0000000000000000000000000002416;
+    const String videoIdfour = 'https://youtu.be/gRuarpWsKHY?t=';
+    const double startSecondsfour = 000000000000000000000000000158;
+    const String videoIdfive = 'https://youtu.be/cDFFis0j4JM?t=';
+    const double startSecondsfive = 000000000000000000000000000239;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """innocuous""",
                       // alsoEnglishWord: "also: innocuous",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈnɒkjuəs/""",
+                      americanText: """IpaUS: /ɪˈnɑːkjuəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌زیان، بێ‌مەترسی، بێ‌خەتەر، بێ‌وەی، بێ‌ئازار، بێ‌غەرەزانە
 """),
 // With short examples define "innocuous", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ئەگەری نییە یان مەبەست نییە لێی کەس بێزار بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It seemed a perfectly innocuous remark.""",
+                      kurdishText: """وەک لێدوانێکی تەواو بێ‌مەبەست دەرکەوت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1011,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The question appeared innocuous enough, but I still did not trust her.""",
+                      kurdishText:
+                          """پرسیارەکەی بەشی پێویست بێ‌زیان دەرکەوت، بەڵام هێشتا متمانەم پێی نەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە زیانبەخش یان مەترسیدار نییە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: harmless"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The liquid looked fairly innocuous.""",
+                      kurdishText: """شلەکە تا ڕادەیەکی زۆر بێ‌زیان دەرکەوت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

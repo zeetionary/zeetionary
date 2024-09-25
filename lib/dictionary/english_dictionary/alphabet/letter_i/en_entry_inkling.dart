@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinkling inkling
-WORD_WEB inkling inkling inkling
-haʊʊʊʊʊʊʊ4
+- Noun: inkling (Derived forms: inklings)
+1. A slight suggestion or vague understanding (- intimation, glimmering, glimmer)
+"he had no inkling what was about to happen";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inkling";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He had no inkling of what was going on.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/d3qOoYZppaQ?t=';
+    const double startSecondsend = 000000000000000000000000000920;
+    const String videoIdone = 'https://youtu.be/HdwzJLTLFqc?t=';
+    const double startSecondsone = 000000000000000000000000000190;
+    const String videoIdtwo = 'https://youtu.be/bw-DaU90gQo?t=';
+    const double startSecondstwo = 000000000000000000000000000289;
+    const String videoIdthree = 'https://youtu.be/3ulWkFs-OGM?t=';
+    const double startSecondsthree = 0000000000000000000000000001027;
+    const String videoIdfour = 'https://youtu.be/qadSvKa2eHY?t=';
+    const double startSecondsfour = 000000000000000000000000000350;
+    const String videoIdfive = 'https://youtu.be/kwz-Md6OoyA?t=';
+    const double startSecondsfive = 000000000000000000000000000888;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inkling""",
                       // alsoEnglishWord: "also: inkling",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪŋklɪŋ/""",
+                      americanText: """IpaUS: /ˈɪŋklɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +988,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەگوێ‌دادان، ئاماژە، سووکە زانیاری، سووکە ئاماژە، مێزە،	بیرۆکەی تەماوی
 """),
 // With short examples define "inkling", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەمێک زانیاری لەسەر شتێک کە ڕوودەدات یان خەریکە ڕووبدات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: suspicion"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He had no inkling of what was going on.""",
+                      kurdishText:
+                          """هیچ زانیاریی نەبوو کەسەر ئەوەی کە ڕوویدەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

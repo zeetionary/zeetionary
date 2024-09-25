@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinlet inlet
-WORD_WEB inlet inlet inlet
-haʊʊʊʊʊʊʊ4
+- Noun: inlet (Derived forms: inlets)
+1. An arm off of a larger body of water (often between rocky headlands)
+ 
+2. An opening through which fluid is admitted to a tube or container (- intake)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inlet";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The boat navigated the narrow inlet with great care.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Fr-qagv7ig0?t=';
+    const double startSecondsend = 0000000000000000000000000001046;
+    const String videoIdone = 'https://youtu.be/_rBO8neWw04?t=';
+    const double startSecondsone = 000000000000000000000000000544;
+    const String videoIdtwo = 'https://youtu.be/Ek1buV2HA68?t=';
+    const double startSecondstwo = 000000000000000000000000000238;
+    const String videoIdthree = 'https://youtu.be/D-L4NMHpBWs?t=';
+    const double startSecondsthree = 000000000000000000000000000183;
+    const String videoIdfour = 'https://youtu.be/mjeltClqfF0?t=';
+    const double startSecondsfour = 000000000000000000000000000481;
+    const String videoIdfive = 'https://youtu.be/M3whX_peJiY?t=';
+    const double startSecondsfive = 000000000000000000000000000134;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inlet""",
                       // alsoEnglishWord: "also: inlet",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnlet/""",
+                      americanText: """IpaUS: /ˈɪnlet/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inlet", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ناوچەیەکی تەسک لە ئاو کە لە دەریا، دەریاچەیەک، یان نێوان دوو دەرگەکەوە بەرەو وشکانی درێژ دەبێتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The boat navigated the narrow inlet with great care.""",
+                      kurdishText:
+                          """بەلەمەکە بە وریایی زۆرەوە بە دەرچە تەسکەکەدا تێپەڕی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

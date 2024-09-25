@@ -52,13 +52,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinner inner
-WORD_WEB inner inner inner
-haʊʊʊʊʊʊʊ4
+- Adjective: inner
+1. Located inward (- interior, internal)
+"Beethoven's manuscript looks like a bloody record of a tremendous inner battle";
+ 
+2. Innermost or essential (- internal, intimate)
+"the inner logic of Cubism";
+ 
+3. Confined to an exclusive group (- inside, privileged)
+"privy to inner knowledge";
+ 
+4. Exclusive to a centre; especially a centre of influence
+"inner regions of the organization"; "inner circles of government"
+ 
+5. (anatomy) inside or closer to the inside of the body
+"the inner ear"
+ 
+6. Located or occurring within or closer to a centre
+"an inner room"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inner";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +100,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Leading off the main hall is a series of small inner rooms.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She doesn't reveal much of her inner self.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""An inner voice told him that what he was doing was wrong.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +940,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
+    const String videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
+    const double startSecondsend = 0000000000000000000000000001165;
+    const String videoIdone = 'https://youtu.be/lVoGZiL-kns?t=';
+    const double startSecondsone = 000000000000000000000000000355;
+    const String videoIdtwo = 'https://youtu.be/dqcSk-EDrRo?t=';
+    const double startSecondstwo = 0000000000000000000000000001502;
+    const String videoIdthree = 'https://youtu.be/WDetHC86Dgo?t=';
     const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdfour = 'https://youtu.be/UuGpm01SPcA?t=';
+    const double startSecondsfour = 000000000000000000000000000427;
+    const String videoIdfive = 'https://youtu.be/a9m3GD0DbPY?t=';
+    const double startSecondsfive = 0000000000000000000000000001029;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +966,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inner""",
                       // alsoEnglishWord: "also: inner",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnə(r)/""",
+                      americanText: """IpaUS: /ˈɪnər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +1005,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: (لە) نێوەوە، لە ژوورەوە، دەروونی، ژوورەکی، نێوەکی، نامادی، مەعنەوی، مانایی، هەناوەکی
 """),
 // With short examples define "inner", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ناوەوە؛ بەرەو ناوەوە یان نزیک لە ناوەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Leading off the main hall is a series of small inner rooms.""",
+                      kurdishText:
+                          """لە هۆڵە سەرەکییەکەوە بچیت زنجیرەیەک لە ژووری ناخۆیی هەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) تایبەت و نهێنی؛ کە دەرنەبڕدراوە یان پیشانی کسی دیکە نەدراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She doesn't reveal much of her inner self.""",
+                      kurdishText: """زۆر لە کەسایەتییەکەی ناخی دەرناخات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1035,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An inner voice told him that what he was doing was wrong.""",
+                      kurdishText:
+                          """دەنێکی ناخی پێی گوت کە ئەوەی دەیکات هەڵەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

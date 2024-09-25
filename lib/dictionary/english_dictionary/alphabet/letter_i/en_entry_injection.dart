@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinjection injection
-WORD_WEB injection injection injection
-haʊʊʊʊʊʊʊ4
+- Noun: injection (Derived forms: injections)
+1. The forceful insertion of a substance under pressure
+ 
+2. Any solution that is injected (as into the skin) (- injectant)
+ 
+3. The act of putting a liquid into the body by means of a syringe (- shot, jab [Brit, informal])
+"the nurse gave him a flu injection";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "injection";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,43 +89,45 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He was treated with penicillin injections.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""An anaesthetic was administered by injection.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""In some US states execution is by lethal injection.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""Did you have gas or an injection?""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """The theatre faces closure unless it gets an urgent cash injection.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts
+        .speak("""The infrastructure requires a massive cash injection.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/1KgSp94nCZw?t=';
+    const double startSecondsend = 000000000000000000000000000603;
+    const String videoIdone = 'https://youtu.be/Zj-dUiYYH64?t=';
+    const double startSecondsone = 000000000000000000000000000617;
+    const String videoIdtwo = 'https://youtu.be/BuX6-lvUwd0?t=';
+    const double startSecondstwo = 000000000000000000000000000286;
+    const String videoIdthree = 'https://youtu.be/esJkln9wAEg?t=';
+    const double startSecondsthree = 000000000000000000000000000723;
+    const String videoIdfour = 'https://youtu.be/JX82wa5HkJg?t=';
+    const double startSecondsfour = 000000000000000000000000000302;
+    const String videoIdfive = 'https://youtu.be/Hw1X5oFPgro?t=';
+    const double startSecondsfive = 0000000000000000000000000001955;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """injection""",
                       // alsoEnglishWord: "also: injection",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈdʒekʃn/""",
+                      americanText: """IpaUS: /ɪnˈdʒekʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +995,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تێکردن، تێخستن، تێڕژاندن، تێڕشتن، لێدان، کردنەنێو، دەرزی‌لێدان، دەرزی‌وەشاندن، دەرزی، شرینقە
 """),
 // With short examples define "injection", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دەزری‌لێدان لە کەسێک بۆ پێدانی دەرمان یان مادەیەک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was treated with penicillin injections.""",
+                      kurdishText: """بە لێدانی پەنسیلین چارەسەر کرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1012,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An anaesthetic was administered by injection.""",
+                      kurdishText: """بەنجێک بە دەرزی‌لێدان لێدرا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1022,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In some US states execution is by lethal injection.""",
+                      kurdishText:
+                          """لە هەندێک ویلایەتی ئەمریکا کوشتن بە دەرزی‌لێدانی کوشندەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,17 +1033,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Did you have gas or an injection?""",
+                      kurdishText: """ھەوات ھەڵمژی یان دەرزیت لێدرا؟""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) بڕە پارەیەکی زۆر کە خەرج دەکرێت بۆ باشترکردنی دۆخێک، یارمەتیی بازرگانییەک، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The theatre faces closure unless it gets an urgent cash injection.""",
+                      kurdishText:
+                          """هۆڵە شانۆکە ڕووبەڕووی داخستن دەبێتەوە مەگەر ئەوەی کە یارمەتی کاشی دەستبەجێی وەربگرێت.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1044,8 +1055,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The infrastructure requires a massive cash injection.""",
+                      kurdishText:
+                          """ژێرخانە ئابوورییەکە پێویستی بە یارمەتیی کاشی زەبەلاح هەیە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),

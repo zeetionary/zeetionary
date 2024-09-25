@@ -14,6 +14,20 @@ import 'package:zeetionary/router/aa_router_main.dart';
 import 'package:zeetionary/dictionary/sentences/sentences_page.dart';
 import 'package:zeetionary/dictionary/sentences/kurdish_sentences.dart';
 
+import 'package:feedback/feedback.dart';
+import 'package:zeetionary/feedback.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
+
+
+// import 'dart:typed_data';
+// import 'package:flutter/foundation.dart' show kIsWeb;
+// import 'package:flutter/material.dart';
+// import 'package:flutter_email_sender/flutter_email_sender.dart';
+// import 'package:flutter_markdown/flutter_markdown.dart';
+// import 'package:http/http.dart' as http;
+// import 'package:path_provider/path_provider.dart';
+// import 'package:share_plus/share_plus.dart';
+
 // import 'dart:io';
 // import 'package:path/path.dart';
 // import 'package:path_provider/path_provider.dart';
@@ -167,21 +181,50 @@ class _MyAppState extends ConsumerState<MyApp> {
 
     return ref.watch(authStateChangeProvider).when(
       data: (data) {
-        return MaterialApp.router(
-          debugShowCheckedModeBanner: false,
-          title: 'Zeetionary App',
-          theme: Pallete.lightModeAppTheme, // Use system phone
-          darkTheme: Pallete.darkModeAppTheme,
-          themeMode: ref.watch(themeProvider),
-          routerDelegate: RoutemasterDelegate(
-            routesBuilder: (context) {
-              if (data != null) {
-                return loggedInRoute; // Send to home screen
-              }
-              return loggedOutRoute; // Send to login
-            },
+        return BetterFeedback(
+      // If custom feedback is not enabled, supply null and the default text
+      // feedback form will be used.
+      feedbackBuilder: (context, onSubmit, scrollController) =>
+          CustomFeedbackForm(
+        onSubmit: onSubmit,
+        scrollController: scrollController,
+      ),
+      theme: FeedbackThemeData(
+        background: Colors.grey,
+        feedbackSheetColor: Colors.grey[50]!,
+        drawColors: [
+          Colors.red,
+          Colors.green,
+          Colors.blue,
+          Colors.yellow,
+        ],
+      ),
+      darkTheme: FeedbackThemeData.dark(),
+      localizationsDelegates: [
+        GlobalFeedbackLocalizationsDelegate(),
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate,
+      ],
+      localeOverride: const Locale('en'),
+      mode: FeedbackMode.draw,
+      pixelRatio: 1,
+          child: MaterialApp.router(
+            debugShowCheckedModeBanner: false,
+            title: 'Zeetionary App',
+            theme: Pallete.lightModeAppTheme, // Use system phone
+            darkTheme: Pallete.darkModeAppTheme,
+            themeMode: ref.watch(themeProvider),
+            routerDelegate: RoutemasterDelegate(
+              routesBuilder: (context) {
+                if (data != null) {
+                  return loggedInRoute; // Send to home screen
+                }
+                return loggedOutRoute; // Send to login
+              },
+            ),
+            routeInformationParser: const RoutemasterParser(),
           ),
-          routeInformationParser: const RoutemasterParser(),
         );
       },
       error: (error, stackTrace) {

@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinnate innate
-WORD_WEB innate innate innate
-haʊʊʊʊʊʊʊ4
+ -Adjective: innate
+1. Being talented through inherited qualities (- natural, born)
+"an innate talent";
+ 
+2. Present at birth but not necessarily hereditary; acquired during foetal development (- congenital, inborn, indigenous)
+ 
+3. Not established by conditioning or learning (- unconditioned, unlearned)
+"an innate reflex";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "innate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +90,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He never lost his innate sense of fun.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Is a tendency towards violence an innate characteristic?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Many children seem to have an innate sense of justice.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/JTB5T5aldNo?t=';
+    const double startSecondsend = 000000000000000000000000000408;
+    const String videoIdone = 'https://youtu.be/ha2mLz-Xdpg?t=';
+    const double startSecondsone = 000000000000000000000000000670;
+    const String videoIdtwo = 'https://youtu.be/2ot7GKuEqas?t=';
+    const double startSecondstwo = 000000000000000000000000000557;
+    const String videoIdthree = 'https://youtu.be/gi6SYQyVIf8?t=';
+    const double startSecondsthree = 00000000000000000000000000081;
+    const String videoIdfour = 'https://youtu.be/gzjasvooSG8?t=';
+    const double startSecondsfour = 000000000000000000000000000620;
+    const String videoIdfive = 'https://youtu.be/atNiYtCTcPc?t=';
+    const double startSecondsfive = 000000000000000000000000000408;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """innate""",
                       // alsoEnglishWord: "also: innate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈneɪt/""",
+                      americanText: """IpaUS: /ɪˈneɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +995,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خۆماکی، سروشتی، زاتی، خۆڕسکی، زگماکی، نادەسکەوتی
 """),
 // With short examples define "innate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە کاتی لەدایکبوونەوە هەتە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He never lost his innate sense of fun.""",
+                      kurdishText: """هەرگیز هەستی خۆماکی خۆشی لەدەست نەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Is a tendency towards violence an innate characteristic?""",
+                      kurdishText:
+                          """ئایا حەزێکە بەرەو توندووتیژی یان خاسیەتێکی خۆڕسکی؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1022,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Many children seem to have an innate sense of justice.""",
+                      kurdishText:
+                          """زۆر منداڵ وەها دەردەکەون کە حەزێکی زگماکی دادپەروەرییان هەبێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

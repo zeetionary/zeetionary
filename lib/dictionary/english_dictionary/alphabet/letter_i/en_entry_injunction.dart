@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinjunction injunction
-WORD_WEB injunction injunction injunction
-haʊʊʊʊʊʊʊ4
+- Noun: injunction (Derived forms: injunctions)
+1. A formal command or admonition
+ 
+2. (law) a judicial remedy issued in order to prohibit a party from doing or continuing to do a certain activity (- enjoining, enjoinment, cease and desist order)
+"injunction were formerly obtained by writ but now by a judicial order";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "injunction";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +87,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She took out an injunction to prevent the press from publishing the information.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The court granted an injunction against the defendants.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The ordinary members will follow the injunction of the party leadership.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/1Y0F7zZ_Ws0?t=';
+    const double startSecondsend = 0000000000000000000000000001170;
+    const String videoIdone = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondsone = 0000000000000000000000000006822;
+    const String videoIdtwo = 'https://youtu.be/XEsNzQdq5LM?t=';
+    const double startSecondstwo = 000000000000000000000000000330;
+    const String videoIdthree = 'https://youtu.be/kuTxC9mIutM?t=';
+    const double startSecondsthree = 000000000000000000000000000140;
+    const String videoIdfour = 'https://youtu.be/PnO7pL-QWyc?t=';
+    const double startSecondsfour = 000000000000000000000000000434;
+    const String videoIdfive = 'https://youtu.be/0tYm41hb48o?t=';
+    const double startSecondsfive = 0000000000000000000000000002893;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """injunction""",
                       // alsoEnglishWord: "also: injunction",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈdʒʌŋkʃn/""",
+                      americanText: """IpaUS: /ɪnˈdʒʌŋkʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: فەرمان، فەروار،	گێڕانەوە، بەربەندی،	(ماف) دەستوور
 """),
 // With short examples define "injunction", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بڕیارێکی فەرمی کە لەلایەن دادگاوە دەدرێت بۆ ئەوەی شتێک بکرێت یان نەکرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She took out an injunction to prevent the press from publishing the information.""",
+                      kurdishText:
+                          """بڕیارێکی دەرکرد بۆ ڕێگری لەوەی میدیا زانیارییەکە بڵاوبکاتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1011,25 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The court granted an injunction against the defendants.""",
+                      kurdishText:
+                          """دادگا بڕیارێکی دژ بە بەرگریکاران دەرکرد.""",
+                      englishNote:
+                          """This means the court issued a legal order that prevents the defendants from taking a certain action. The word "injunction" refers to a ruling that restricts or prohibits specific behavior, ensuring the defendants must follow the court's directive to stop or avoid doing something.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئاگاداری یان فەرمان لە کەسێکەوە کە دەسەڵاتی هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The ordinary members will follow the injunction of the party leadership.""",
+                      kurdishText:
+                          """ئەندامە ئاساییەکان شوێن فەرمانی سەرکردایەتی پارتەکە دەکەون.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

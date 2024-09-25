@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinnards innards
-WORD_WEB innards innards innards
-haʊʊʊʊʊʊʊ4
+- Noun: innards
+1. Internal organs collectively (especially those in the abdominal cavity) (- viscera, entrails, insides)
+"'innards' is the plural form of 'viscus'";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "innards";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The doctor examined the innards of the patient carefully.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/vAInhpCWDUc?t=';
+    const double startSecondsend = 000000000000000000000000000494;
+    const String videoIdone = 'https://youtu.be/4zDZV-jGJ6w?t=';
+    const double startSecondsone = 000000000000000000000000000655;
+    const String videoIdtwo = 'https://youtu.be/Z0SzIkheaFg?t=';
+    const double startSecondstwo = 00000000000000000000000000086;
+    const String videoIdthree = 'https://youtu.be/Upqp21Dm5vg?t=';
+    const double startSecondsthree = 000000000000000000000000000217;
+    const String videoIdfour = 'https://youtu.be/bA6-VEVAzCE?t=';
+    const double startSecondsfour = 0000000000000000000000000001486;
+    const String videoIdfive = 'https://youtu.be/M9U692gPH44?t=';
+    const double startSecondsfive = 000000000000000000000000000345;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """innards""",
                       // alsoEnglishWord: "also: innards",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnədz/""",
+                      americanText: """IpaUS: /ˈɪnərdz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەناو، نێوسک، پزۆر، سی و جگەر
 """),
-// With short examples define "innards", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەشەکانی ناو جەستەی مرۆڤ یان ئاژەڵ، بە تایبەتی گەددە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: entrails، guts"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The doctor examined the innards of the patient carefully.""",
+                      kurdishText:
+                          """پزیشکەکە بەوریاییەوە پشکنینی کرد بۆ نێوسکی نەخۆشەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

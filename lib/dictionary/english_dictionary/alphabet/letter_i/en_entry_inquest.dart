@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinquest inquest
-WORD_WEB inquest inquest inquest
-haʊʊʊʊʊʊʊ4
+- Noun: inquest (Derived forms: inquests)
+1. An inquiry into the cause of an unexpected death
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inquest";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""An inquest was held to discover the cause of his death.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The court ordered a fresh inquest into the tragedy.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/nyVOi3X53bk?t=';
+    const double startSecondsend = 000000000000000000000000000379;
+    const String videoIdone = 'https://youtu.be/zwZY-PknSQw?t=';
+    const double startSecondsone = 0000000000000000000000000001057;
+    const String videoIdtwo = 'https://youtu.be/OnjI-FBdRTQ?t=';
+    const double startSecondstwo = 00000000000000000000000000018422;
+    const String videoIdthree = 'https://youtu.be/O-cKvhA9ZJ4?t=';
+    const double startSecondsthree = 0000000000000000000000000001140;
+    const String videoIdfour = 'https://youtu.be/NUxxB6Yvm4E?t=';
+    const double startSecondsfour = 000000000000000000000000000332;
+    const String videoIdfive = 'https://youtu.be/bH1xAbhlJSo?t=';
+    const double startSecondsfive = 000000000000000000000000000156;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inquest""",
                       // alsoEnglishWord: "also: inquest",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪŋkwest/""",
+                      americanText: """IpaUS: /ˈɪŋkwest/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێکۆڵینەوە، بەدواداچوون، دەستەی لێکۆڵینەوە
 """),
 // With short examples define "inquest", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) لێکۆڵینەوەیەکی فەرمی بۆ زانینی هۆکاری مردنی کەسێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An inquest was held to discover the cause of his death.""",
+                      kurdishText:
+                          """لێکۆڵینەوەیەک ئەنجام درا بۆ زانینی هۆکاری مردنی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The court ordered a fresh inquest into the tragedy.""",
+                      kurdishText:
+                          """دادگاکە بڕیاری دا بە لێکۆڵینەوەیەکی تازە بۆ تراژیدیاکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

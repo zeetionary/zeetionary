@@ -9,7 +9,8 @@ class EnglishEntryinopportunely extends StatefulWidget {
   const EnglishEntryinopportunely({super.key});
 
   @override
-  State<EnglishEntryinopportunely> createState() => _EnglishEntryinopportunelyState();
+  State<EnglishEntryinopportunely> createState() =>
+      _EnglishEntryinopportunelyState();
 }
 
 class _EnglishEntryinopportunelyState extends State<EnglishEntryinopportunely> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinopportunely inopportunely
-WORD_WEB inopportunely inopportunely inopportunely
-haʊʊʊʊʊʊʊ4
+- Adverb: inopportunely
+1. At an inconvenient time (- malapropos)
+"he arrived inopportunely just as we sat down for dinner";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inopportunely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His legs inopportunely failed him at times.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Her arrival was very inopportunely timed.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/FKnn-ca-1Aw';
+    const double startSecondsend = 0;
+    const String videoIdone = 'https://youtu.be/MmY23E-z5Ww?t=';
+    const double startSecondsone = 000000000000000000000000000155;
+    const String videoIdtwo = 'https://youtu.be/0DQngFvHWjY?t=';
+    const double startSecondstwo = 0000000000000000000000000002105;
+    const String videoIdthree = 'https://youtu.be/xqkkF0X5eAo?t=';
+    const double startSecondsthree = 0000000000000000000000000002870;
+    const String videoIdfour = 'https://youtu.be/r2IQ4_8FnMM?t=';
+    const double startSecondsfour = 000000000000000000000000000966;
+    const String videoIdfive = 'https://youtu.be/7hqzsj8Y0mo?t=';
+    const double startSecondsfive = 0000000000000000000000000001518;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inopportunely""",
                       // alsoEnglishWord: "also: inopportunely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈɒpətjuːnli/""",
+                      americanText: """IpaUS: /ɪnˌɑːpərˈtuːnli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناوەختانە، بە شێوەیەکی بێجێ
 """),
 // With short examples define "inopportunely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە لە کاتێکی خراپدا ڕوودەدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His legs inopportunely failed him at times.""",
+                      kurdishText:
+                          """لاقەکانی هەندێک جار لە کاتی ناوەختدا لەکار دەکەوتن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her arrival was very inopportunely timed.""",
+                      kurdishText: """گەشتنی لە کاتێکی زۆر ناوەخت بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

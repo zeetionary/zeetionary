@@ -9,7 +9,8 @@ class EnglishEntryinoculation extends StatefulWidget {
   const EnglishEntryinoculation({super.key});
 
   @override
-  State<EnglishEntryinoculation> createState() => _EnglishEntryinoculationState();
+  State<EnglishEntryinoculation> createState() =>
+      _EnglishEntryinoculationState();
 }
 
 class _EnglishEntryinoculationState extends State<EnglishEntryinoculation> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinoculation inoculation
-WORD_WEB inoculation inoculation inoculation
-haʊʊʊʊʊʊʊ4
+- Noun: inoculation (Derived forms: inoculations)
+1. Taking a vaccine as a precaution against contracting a disease (- vaccination, jab [Brit, informal], vax [informal])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inoculation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The disease can now be prevented by inoculation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He received a cholera inoculation.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/417Qbwn9yso?t=';
+    const double startSecondsend = 000000000000000000000000000263;
+    const String videoIdone = 'https://youtu.be/cfOSmkPjuMo?t=';
+    const double startSecondsone = 000000000000000000000000000492;
+    const String videoIdtwo = 'https://youtu.be/2lRE1Hqy-Xk?t=';
+    const double startSecondstwo = 000000000000000000000000000508;
+    const String videoIdthree = 'https://youtu.be/c3dDagZMALQ?t=';
+    const double startSecondsthree = 000000000000000000000000000966;
+    const String videoIdfour = 'https://youtu.be/5rRXj3rTHhY?t=';
+    const double startSecondsfour = 000000000000000000000000000589;
+    const String videoIdfive = 'https://youtu.be/3CuPqeIJr3U?t=';
+    const double startSecondsfive = 000000000000000000000000000542;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inoculation""",
                       // alsoEnglishWord: "also: inoculation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˌnɒkjuˈleɪʃn/""",
+                      americanText: """IpaUS: /ɪˌnɑːkjuˈleɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inoculation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پاراستنی ئاژەڵێک یان مرۆڤێک لە نەخۆشێیەک بە کوتانیان بە جۆرێکی لاواز لە نەخۆشییەکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The disease can now be prevented by inoculation.""",
+                      kurdishText:
+                          """نەخۆشییەکە ئێستا دەکرێت ڕێگری لێ بکرێت بە کوتان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He received a cholera inoculation.""",
+                      kurdishText: """کوتانی کۆلێرای وەرگرت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinnkeeper innkeeper
-WORD_WEB innkeeper innkeeper innkeeper
-haʊʊʊʊʊʊʊ4
+- Noun: innkeeper (Derived forms: innkeepers)
+1. The owner or manager of an inn (- host, boniface [archaic])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "innkeeper";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The innkeeper cleaned the guest rooms daily.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/xalEBNpnx1E?t=';
+    const double startSecondsend = 000000000000000000000000000320;
+    const String videoIdone = 'https://youtu.be/SqH0nJngy-c?t=';
+    const double startSecondsone = 0000000000000000000000000001306;
+    const String videoIdtwo = 'https://youtu.be/HBhXvLlB-kY?t=';
+    const double startSecondstwo = 0000000000000000000000000008781;
+    const String videoIdthree = 'https://youtu.be/j4kI2h3iotA?t=';
+    const double startSecondsthree = 0000000000000000000000000002451;
+    const String videoIdfour = 'https://youtu.be/fz5KrLjCZ1U?t=';
+    const double startSecondsfour = 000000000000000000000000000455;
+    const String videoIdfive = 'https://youtu.be/ATi3GdospAo?t=';
+    const double startSecondsfive = 0000000000000000000000000002314;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """innkeeper""",
                       // alsoEnglishWord: "also: innkeeper",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnkiːpə(r)/""",
+                      americanText: """IpaUS: /ˈɪnkiːpər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +988,12 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: میوان‌خانەدار، خانچی، مێوان‌خانەگێڕ، بەڕێوەبەری میوان‌خانە، خان‌چی، کاروان‌سەرادار
 """),
-// With short examples define "innkeeper", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) کەسێک کە خاوەنی میوانخانەیەکە یان بەڕێوەی دەبات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The innkeeper cleaned the guest rooms daily.""",
+                      kurdishText: """خاوەن میوانخانەکە ژووری میوانەکانی ڕۆژانە پاکدەکردەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

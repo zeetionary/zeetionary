@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinnuendo innuendo
-WORD_WEB innuendo innuendo innuendo
-haʊʊʊʊʊʊʊ4
+- Noun: innuendo (Derived forms: innuendos, innuendoes)
+1. An indirect (and usually malicious) implication (- insinuation)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "innuendo";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The song is full of sexual innuendo.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/3aG3WroJHlk?t=';
+    const double startSecondsend = 000000000000000000000000000132;
+    const String videoIdone = 'https://youtu.be/bnnRIrxGGX8?t=';
+    const double startSecondsone = 0000000000000000000000000001075;
+    const String videoIdtwo = 'https://youtu.be/EmT0i0xG6zg?t=';
+    const double startSecondstwo = 0000000000000000000000000002046;
+    const String videoIdthree = 'https://youtu.be/WwhyZUlmaWA?t=';
+    const double startSecondsthree = 0000000000000000000000000001884;
+    const String videoIdfour = 'https://youtu.be/o3QSAgwux5Q?t=';
+    const double startSecondsfour = 000000000000000000000000000578;
+    const String videoIdfive = 'https://youtu.be/K3OFzBEZuyM?t=';
+    const double startSecondsfive = 0000000000000000000000000001802;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """innuendo""",
                       // alsoEnglishWord: "also: innuendo",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnjuˈendəʊ/""",
+                      americanText: """IpaUS: /ˌɪnjuˈendəʊ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +988,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تانە، تەشەر، توانج، پلار، لاپلار، میت، ئاماژە
 """),
 // With short examples define "innuendo", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) لێدوانێکی ناڕاستەوخۆ سەبارەت بە ک/شت، زۆرجار شتێکی خراپە یان بێ‌ڕێزانە؛ ئەوەی لێدوانی لەم شێوەیە بدەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The song is full of sexual innuendo.""",
+                      kurdishText: """گۆرانییەکە پڕ لە توانجە لەسەر سێکس.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

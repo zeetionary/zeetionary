@@ -9,7 +9,8 @@ class EnglishEntryinordinately extends StatefulWidget {
   const EnglishEntryinordinately({super.key});
 
   @override
-  State<EnglishEntryinordinately> createState() => _EnglishEntryinordinatelyState();
+  State<EnglishEntryinordinately> createState() =>
+      _EnglishEntryinordinatelyState();
 }
 
 class _EnglishEntryinordinatelyState extends State<EnglishEntryinordinately> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinordinately inordinately
-WORD_WEB inordinately inordinately inordinately
-haʊʊʊʊʊʊʊ4
+- Adverb: inordinately
+1. To a surprising degree (- extraordinarily)
+"she was inordinately smart";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inordinately";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She was inordinately fond of her pets.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/41elK59iygE?t=';
+    const double startSecondsend = 0000000000000000000000000003935;
+    const String videoIdone = 'https://youtu.be/1jc30CC6Xiw?t=';
+    const double startSecondsone = 000000000000000000000000000198;
+    const String videoIdtwo = 'https://youtu.be/0vRlyPH6REM?t=';
+    const double startSecondstwo = 000000000000000000000000000144;
+    const String videoIdthree = 'https://youtu.be/Rxh_SVtyZqo?t=';
+    const double startSecondsthree = 0000000000000000000000000001876;
+    const String videoIdfour = 'https://youtu.be/IXu7tXixrtQ?t=';
+    const double startSecondsfour = 000000000000000000000000000474;
+    const String videoIdfive = 'https://youtu.be/e-PT9poDL3E?t=';
+    const double startSecondsfive = 000000000000000000000000000811;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inordinately""",
                       // alsoEnglishWord: "also: inordinately",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈɔːdɪnətli/""",
+                      americanText: """IpaUS: /ɪnˈɔːrdɪnətli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لە ڕادەبەدەر، بێ‌ئەندازە
 """),
 // With short examples define "inordinately", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە ئاستێکی زیاتر لە ئاسایی یان پێشبینیکراو"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: excessively"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She was inordinately fond of her pets.""",
+                      kurdishText:
+                          """لە ڕادەبەدەر هۆگری ئاژەڵە ماڵییەکانی بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

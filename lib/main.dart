@@ -207,7 +207,7 @@ class _MyAppState extends ConsumerState<MyApp> {
         GlobalWidgetsLocalizations.delegate,
       ],
       localeOverride: const Locale('en'),
-      mode: FeedbackMode.draw,
+      mode: FeedbackMode.navigate,
       pixelRatio: 1,
           child: MaterialApp.router(
             debugShowCheckedModeBanner: false,

@@ -952,7 +952,7 @@ ${englishMeaningConst.text}
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """innovative""",
-                      // alsoEnglishWord: "also: innovative",
+                      alsoEnglishWord: "also: innovatory",
                       britshText: """IpaUK: /ˈɪnəveɪtɪv/, /ˈɪnəvətɪv/""",
                       americanText: """IpaUS: /ˈɪnəveɪtɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),

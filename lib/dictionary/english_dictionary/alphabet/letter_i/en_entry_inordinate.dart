@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinordinate inordinate
-WORD_WEB inordinate inordinate inordinate
-haʊʊʊʊʊʊʊ4
+- Adjective: inordinate
+1. Beyond normal limits (- excessive, undue, unreasonable)
+"a book of inordinate length";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inordinate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The strike has led to inordinate delays.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """They spent an inordinate amount of time and money on the production.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/1KgSp94nCZw?t=';
+    const double startSecondsend = 000000000000000000000000000412;
+    const String videoIdone = 'https://youtu.be/qr4MSVxfYBE?t=';
+    const double startSecondsone = 000000000000000000000000000659;
+    const String videoIdtwo = 'https://youtu.be/XXnlVlkkkxM?t=';
+    const double startSecondstwo = 000000000000000000000000000162;
+    const String videoIdthree = 'https://youtu.be/5uxPYlvOlrE?t=';
+    const double startSecondsthree = 00000000000000000000000000029;
+    const String videoIdfour = 'https://youtu.be/gVjX4val91A?t=';
+    const double startSecondsfour = 000000000000000000000000000553;
+    const String videoIdfive = 'https://youtu.be/VAB9cUlGrRo';
+    const double startSecondsfive = 0;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inordinate""",
                       // alsoEnglishWord: "also: inordinate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈɔːdɪnət/""",
+                      americanText: """IpaUS: /ɪnˈɔːrdɪnət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لە ڕادەبەدەر، بێ‌ئەندازە، یەکجار زۆر، ناژیرانە، پەڕگیر
 """),
 // With short examples define "inordinate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) زیاتر لە ئاسایی یان ئەوەی کە پێشبینی کراوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: excessive"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The strike has led to inordinate delays.""",
+                      kurdishText:
+                          """ماگرتنەکە بووە بە هۆکاری دواکەوتنی لە ڕادەبەدەر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They spent an inordinate amount of time and money on the production.""",
+                      kurdishText:
+                          """کات و پارەیەکی زۆریان بە بەرهەمهێنان خەرج کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

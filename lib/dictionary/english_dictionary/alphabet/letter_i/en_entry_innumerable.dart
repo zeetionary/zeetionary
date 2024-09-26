@@ -9,7 +9,8 @@ class EnglishEntryinnumerable extends StatefulWidget {
   const EnglishEntryinnumerable({super.key});
 
   @override
-  State<EnglishEntryinnumerable> createState() => _EnglishEntryinnumerableState();
+  State<EnglishEntryinnumerable> createState() =>
+      _EnglishEntryinnumerableState();
 }
 
 class _EnglishEntryinnumerableState extends State<EnglishEntryinnumerable> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinnumerable innumerable
-WORD_WEB innumerable innumerable innumerable
-haʊʊʊʊʊʊʊ4
+- Adjective: innumerable
+1. Too numerous to be counted (- countless, infinite, innumerous, multitudinous, myriad, numberless, uncounted, unnumberable, unnumbered, unnumerable)
+"innumerable difficulties";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "innumerable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Innumerable books have been written on the subject.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/B9_RUwR3RFU?t=';
+    const double startSecondsend = 000000000000000000000000000475;
+    const String videoIdone = 'https://youtu.be/qX6NztnPU-4?t=';
+    const double startSecondsone = 000000000000000000000000000898;
+    const String videoIdtwo = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondstwo = 0000000000000000000000000002342;
+    const String videoIdthree = 'https://youtu.be/fTtEYzQYilU?t=';
+    const double startSecondsthree = 000000000000000000000000000432;
+    const String videoIdfour = 'https://youtu.be/sD0B-X9LJjs?t=';
+    const double startSecondsfour = 000000000000000000000000000199;
+    const String videoIdfive = 'https://youtu.be/fgcfgTTuku0?t=';
+    const double startSecondsfive = 00000000000000000000000000018;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """innumerable""",
                       // alsoEnglishWord: "also: innumerable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈnjuːmərəbl/""",
+                      americanText: """IpaUS: /ɪˈnuːmərəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێداد، بێ‌ئەژمار، لەژماردن‌نەهاتوو، لە ژماردن نایە، لە ڕادەبەدەر
 """),
 // With short examples define "innumerable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ئێجگار زۆر کە بتواندرێت ژمارە بکردرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: countless"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Innumerable books have been written on the subject.""",
+                      kurdishText:
+                          """کتێبی لە لەژماردن‌نەهاتوو لەسەر بابەتەکە نووسراون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

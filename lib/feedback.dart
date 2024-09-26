@@ -1,17 +1,19 @@
 import 'dart:convert';
 import 'dart:io';
 import 'dart:typed_data';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
 import 'package:feedback/feedback.dart';
-// import 'package:flutter/foundation.dart' show kIsWeb;
 import 'package:flutter/material.dart';
-// import 'package:flutter_email_sender/flutter_email_sender.dart';
-// import 'package:flutter_markdown/flutter_markdown.dart';
 import 'package:http/http.dart' as http;
 import 'package:path_provider/path_provider.dart';
+// import 'package:flutter/foundation.dart' show kIsWeb;
+// import 'package:flutter_email_sender/flutter_email_sender.dart';
+// import 'package:flutter_markdown/flutter_markdown.dart';
+// import 'package:zeetionary/theme/pallete.dart';
 // import 'package:share_plus/share_plus.dart';
 // import 'package:flutter_localizations/flutter_localizations.dart';
-
 
 Future<String> writeImageToStorage(Uint8List feedbackScreenshot) async {
   final Directory output = await getTemporaryDirectory();
@@ -97,7 +99,40 @@ enum FeedbackRating {
   good,
 }
 
-class CustomFeedbackForm extends StatefulWidget {
+// //
+// //
+// //
+// //
+// //
+// //
+// //
+// //
+
+// class CustomFeedbackForm extends StatefulWidget {
+//   const CustomFeedbackForm({
+//     super.key,
+//     required this.onSubmit,
+//     required this.scrollController,
+//   });
+
+//   final OnSubmit onSubmit;
+//   final ScrollController? scrollController;
+
+//   @override
+//   State<CustomFeedbackForm> createState() => _CustomFeedbackFormState();
+// }
+
+// class _CustomFeedbackFormState extends State<CustomFeedbackForm> {
+
+// //
+// //
+// //
+// //
+// //
+// //
+// //
+
+class CustomFeedbackForm extends ConsumerStatefulWidget {
   const CustomFeedbackForm({
     super.key,
     required this.onSubmit,
@@ -108,15 +143,20 @@ class CustomFeedbackForm extends StatefulWidget {
   final ScrollController? scrollController;
 
   @override
-  State<CustomFeedbackForm> createState() => _CustomFeedbackFormState();
+  ConsumerState<ConsumerStatefulWidget> createState() =>
+      _CustomFeedbackFormState();
 }
 
-class _CustomFeedbackFormState extends State<CustomFeedbackForm> {
+class _CustomFeedbackFormState extends ConsumerState<CustomFeedbackForm> {
+  _CustomFeedbackFormState();
+
   final CustomFeedback _customFeedback = CustomFeedback();
   String? selectedBugType; // Rename variable for clarity
 
   @override
   Widget build(BuildContext context) {
+    // final currentTheme = ref.watch(themeNotifierProvider);
+    final textSize = ref.watch(textSizeProvider) + 10;
     return Column(
       children: [
         Expanded(
@@ -131,10 +171,11 @@ class _CustomFeedbackFormState extends State<CustomFeedbackForm> {
                 children: [
                   DropdownButton<String>(
                     value: selectedBugType,
-                    hint: const Text(
-                      "Choose a bug type",
+                    hint: Text(
+                      "Feedback type",
                       style: TextStyle(
-                        color: Colors.green,
+                        color: Theme.of(context).primaryColor,
+                        fontSize: textSize,
                       ),
                     ),
                     items: <String>[
@@ -155,13 +196,29 @@ class _CustomFeedbackFormState extends State<CustomFeedbackForm> {
                       });
                     },
                   ),
-                  const Text(
-                    'What is your feedback?',
-                    style: TextStyle(
-                      color: Colors.green,
-                    ),
+                  const SizedBox(
+                    height: 10,
                   ),
+                  // Text(
+                  //   'What is your feedback?',
+                  //   style: TextStyle(
+                  //     color: Colors.green,
+                  //     fontSize: textSize,
+                  //   ),
+                  // ),
                   TextField(
+                    decoration: InputDecoration(
+                        focusedBorder: OutlineInputBorder(
+                          borderSide: BorderSide(
+                            color: Theme.of(context).highlightColor,
+                            width: 1.5,
+                          ),
+                        ),
+                        hintText: "Type explanation",
+                        hintStyle: TextStyle(
+                          color: Theme.of(context).primaryColor,
+                        )),
+                    maxLines: null,
                     onChanged: (newFeedback) =>
                         _customFeedback.feedbackText = newFeedback,
                   ),
@@ -184,7 +241,14 @@ class _CustomFeedbackFormState extends State<CustomFeedbackForm> {
                   );
                 }
               : null,
-          child: const Text('Submit'),
+          child: Text(
+            'Submit',
+            style: TextStyle(
+              // color: Colors.green,
+              color: Theme.of(context).highlightColor,
+              fontSize: textSize,
+            ),
+          ),
         ),
         const SizedBox(height: 8),
       ],

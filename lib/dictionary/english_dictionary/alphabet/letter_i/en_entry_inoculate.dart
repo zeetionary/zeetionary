@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinoculate inoculate
-WORD_WEB inoculate inoculate inoculate
-haʊʊʊʊʊʊʊ4
+- Verb: inoculate (Derived forms: inoculates, inoculated, inoculating)
+1. Introduce an idea or attitude into the mind of
+"My teachers inoculated me with their beliefs"
+ 
+2. Introduce a microorganism into
+ 
+3. (medicine) perform vaccinations or produce immunity in by inoculation (- immunize, immunise [Brit], vaccinate, vax [informal], jab [Brit, informal])
+"We inoculate against scarlet fever";
+ 
+4. Insert a bud for propagation
+ 
+5. Impregnate with the virus or germ of a disease in order to render immune
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inoculate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +94,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""My children have been inoculated against polio.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """There may be a shortage of flu vaccine to inoculate the elderly and other vulnerable groups.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +934,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/417Qbwn9yso?t=';
+    const double startSecondsend = 000000000000000000000000000141;
+    const String videoIdone = 'https://youtu.be/lF2sKFnuALw?t=';
+    const double startSecondsone = 000000000000000000000000000126;
+    const String videoIdtwo = 'https://youtu.be/cfOSmkPjuMo?t=';
+    const double startSecondstwo = 000000000000000000000000000918;
+    const String videoIdthree = 'https://youtu.be/DkS1pkKpILY?t=';
+    const double startSecondsthree = 000000000000000000000000000396;
+    const String videoIdfour = 'https://youtu.be/A5P6vJs1jmY?t=';
+    const double startSecondsfour = 000000000000000000000000000762;
+    const String videoIdfive = 'https://youtu.be/5rRXj3rTHhY?t=';
+    const double startSecondsfive = 000000000000000000000000000180;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inoculate""",
                       // alsoEnglishWord: "also: inoculate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪˈnɒkjuleɪt/""",
+                      americanText: """IpaUS: /ɪˈnɑːkjuleɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +999,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کوتان، پیتاندن، تێهەڵسوون، شەڵاڵ کردن
 """),
 // With short examples define "inoculate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) پاراستنی ئاژەڵێک یان مرۆڤێک لە نەخۆشێیەک بە کوتانیان بە جۆرێکی لاواز لە نەخۆشییەکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """My children have been inoculated against polio.""",
+                      kurdishText: """زۆر منداڵ دژ بە ئیفلیجی کوتراون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1016,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There may be a shortage of flu vaccine to inoculate the elderly and other vulnerable groups.""",
+                      kurdishText:
+                          """ڕەنگە کەماسییەک لە ڤاکسینی هەڵامەت هەبێت بۆ کوتانی بەتەمەنەکان و گرووپە لاوازەکان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

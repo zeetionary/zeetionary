@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinorganic inorganic
-WORD_WEB inorganic inorganic inorganic
-haʊʊʊʊʊʊʊ4
+- Adjective: inorganic
+1. (chemistry) relating or belonging to the class of compounds not having a carbon basis
+"hydrochloric and sulphuric acids are called inorganic substances"
+ 
+2. Lacking the properties characteristic of living organisms
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inorganic";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Rocks and minerals are inorganic.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/brofphmC7GI?t=';
+    const double startSecondsend = 0000000000000000000000000001297;
+    const String videoIdone = 'https://youtu.be/JhOU3FOyApM?t=';
+    const double startSecondsone = 00000000000000000000000000097;
+    const String videoIdtwo = 'https://youtu.be/RgpJPVoDZf8?t=';
+    const double startSecondstwo = 000000000000000000000000000657;
+    const String videoIdthree = 'https://youtu.be/W6aDNutZoB0?t=';
+    const double startSecondsthree = 0000000000000000000000000001505;
+    const String videoIdfour = 'https://youtu.be/T7tLon1n4qE?t=';
+    const double startSecondsfour = 00000000000000000000000000070;
+    const String videoIdfive = 'https://youtu.be/E2rtQFAibEA?t=';
+    const double startSecondsfive = 00000000000000000000000000010937;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inorganic""",
                       // alsoEnglishWord: "also: inorganic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnɔːˈɡænɪk/""",
+                      americanText: """IpaUS: /ˌɪnɔːrˈɡænɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inorganic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە مادەی زیندوو درووست نەبووە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Rocks and minerals are inorganic.""",
+                      kurdishText: """بەرد و مادە کانییەکان نائەندامیین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

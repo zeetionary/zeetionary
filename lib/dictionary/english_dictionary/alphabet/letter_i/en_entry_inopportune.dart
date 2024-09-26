@@ -9,7 +9,8 @@ class EnglishEntryinopportune extends StatefulWidget {
   const EnglishEntryinopportune({super.key});
 
   @override
-  State<EnglishEntryinopportune> createState() => _EnglishEntryinopportuneState();
+  State<EnglishEntryinopportune> createState() =>
+      _EnglishEntryinopportuneState();
 }
 
 class _EnglishEntryinopportuneState extends State<EnglishEntryinopportune> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinopportune inopportune
-WORD_WEB inopportune inopportune inopportune
-haʊʊʊʊʊʊʊ4
+- Adjective: inopportune
+1. Not opportune
+"arrived at a most inopportune hour"; "an inopportune visit"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inopportune";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They arrived at an inopportune moment.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""I'm sorry, you've called at an inopportune moment.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/q1oO5H8Gfr8?t=';
+    const double startSecondsend = 000000000000000000000000000498;
+    const String videoIdone = 'https://youtu.be/prVHU1fLR20?t=';
+    const double startSecondsone = 000000000000000000000000000529;
+    const String videoIdtwo = 'https://youtu.be/F5ozykwPYHI?t=';
+    const double startSecondstwo = 000000000000000000000000000524;
+    const String videoIdthree = 'https://youtu.be/EQoCDlnLN10?t=';
+    const double startSecondsthree = 000000000000000000000000000197;
+    const String videoIdfour = 'https://youtu.be/bhTRxyXtfUU?t=';
+    const double startSecondsfour = 000000000000000000000000000129;
+    const String videoIdfive = 'https://youtu.be/Mvm8RTdJgq0?t=';
+    const double startSecondsfive = 000000000000000000000000000464;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inopportune""",
                       // alsoEnglishWord: "also: inopportune",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈɒpətjuːn/""",
+                      americanText: """IpaUS: /ɪnˌɑːpərˈtuːn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێجێ، نابەجێ، بێ‌وەخت، ناوەخت، نالەبار، خراپ
 """),
 // With short examples define "inopportune", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە لە کاتێکی خراپدا ڕوودەدات"""),
+                    const AlsoEnglishckb(
+                        word: "ھەروەھا: inappropriate، inconvenient"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They arrived at an inopportune moment.""",
+                      kurdishText: """لە ساتێکی ناوەختدا هاتن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I'm sorry, you've called at an inopportune moment.""",
+                      kurdishText:
+                          """ببوورە، لە ساتێکی ناوەخت پەیوەندیت کردووە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

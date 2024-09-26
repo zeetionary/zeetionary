@@ -9,7 +9,8 @@ class EnglishEntryinoffensive extends StatefulWidget {
   const EnglishEntryinoffensive({super.key});
 
   @override
-  State<EnglishEntryinoffensive> createState() => _EnglishEntryinoffensiveState();
+  State<EnglishEntryinoffensive> createState() =>
+      _EnglishEntryinoffensiveState();
 }
 
 class _EnglishEntryinoffensiveState extends State<EnglishEntryinoffensive> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinoffensive inoffensive
-WORD_WEB inoffensive inoffensive inoffensive
-haʊʊʊʊʊʊʊ4
+- Adjective: inoffensive
+1. Not causing anger or annoyance (- unoffending)
+"inoffensive behaviour";
+ 
+2. Giving no offence
+"a quiet inoffensive man"; "a refreshing inoffensive stimulant"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inoffensive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He seemed like a quiet, inoffensive sort of a guy.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/8FpPSMIB4uA?t=';
+    const double startSecondsend = 0000000000000000000000000001455;
+    const String videoIdone = 'https://youtu.be/J0mZYeb4C8k?t=';
+    const double startSecondsone = 0000000000000000000000000001445;
+    const String videoIdtwo = 'https://youtu.be/Ya2_Khcdwsk?t=';
+    const double startSecondstwo = 000000000000000000000000000336;
+    const String videoIdthree = 'https://youtu.be/uczvIKDcnS4?t=';
+    const double startSecondsthree = 0000000000000000000000000001692;
+    const String videoIdfour = 'https://youtu.be/Sv7NP9LMU4Q?t=';
+    const double startSecondsfour = 000000000000000000000000000148;
+    const String videoIdfive = 'https://youtu.be/wSNYgHiB-N4?t=';
+    const double startSecondsfive = 000000000000000000000000000491;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inoffensive""",
                       // alsoEnglishWord: "also: inoffensive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnəˈfensɪv/""",
+                      americanText: """IpaUS: /ˌɪnəˈfensɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئارام، نیان، نەرم، هێمن، بێ‌وەی، بێ‌زەڕ، بێ‌ئازار،	عەیب‌لێ‌نەگیراو، بێ‌ئیراد
 """),
 // With short examples define "inoffensive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ئەگەری نییە کەس بێزار بکات یان هەستەکانی ئازار بدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He seemed like a quiet, inoffensive sort of a guy.""",
+                      kurdishText: """جۆرە کەسێکی بێ‌دەنگ و نەرم و نیان بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

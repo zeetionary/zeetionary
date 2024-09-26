@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: inquisition (Derived forms: inquisitions)
+1. A severe interrogation (often violating the rights or privacy of individuals)
 
-EnglishEntryinquisition inquisition
-WORD_WEB inquisition inquisition inquisition
-haʊʊʊʊʊʊʊ4
+- Noun: Inquisition
+1. A former tribunal of the Roman Catholic Church (1232-1820) created to discover and suppress heresy
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inquisition";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The Spanish Inquisition punished many people for heresy.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/qWNHsaszXpc?t=';
+    const double startSecondsend = 000000000000000000000000000752;
+    const String videoIdone = 'https://youtu.be/lDeFSOUHdH4?t=';
+    const double startSecondsone = 000000000000000000000000000778;
+    const String videoIdtwo = 'https://youtu.be/41phB_nAA_8?t=';
+    const double startSecondstwo = 000000000000000000000000000285;
+    const String videoIdthree = 'https://youtu.be/WLoVHyuYVBY?t=';
+    const double startSecondsthree = 000000000000000000000000000123;
+    const String videoIdfour = 'https://youtu.be/ew1edqVqCu0?t=';
+    const double startSecondsfour = 000000000000000000000000000158;
+    const String videoIdfive = 'https://youtu.be/8UVUnUnWfHI?t=';
+    const double startSecondsfive = 000000000000000000000000000410;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inquisition""",
                       // alsoEnglishWord: "also: inquisition",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪŋkwɪˈzɪʃn/""",
+                      americanText: """IpaUS: /ˌɪnkwɪˈzɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,12 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێکۆڵینەوە، پشکنین، ڤەکۆلین، لێ‌پرسینەوە، پەیجۆری
 """),
-// With short examples define "inquisition", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەو دامەزراوەیەی کە لەلایەن کڵێسای کاسۆلیکی ڕۆمانی درووستکرا بۆ سزادانی ئەو کەسانەی کە دژ بە باوەڕەکانی بوون، بە تایبەتی لە سەدەی پازدە بۆ حەڤدە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The Spanish Inquisition punished many people for heresy.""",
+                      kurdishText: """ئینکویزشنی ئیسپانی سزای زۆر کەسی دا بۆ کفرکردن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

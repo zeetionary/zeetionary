@@ -52,13 +52,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinscribe inscribe
-WORD_WEB inscribe inscribe inscribe
-haʊʊʊʊʊʊʊ4
+- Verb: inscribe (Derived forms: inscribing, inscribes, inscribed)
+1. Carve, cut, or etch into a material or surface (- scratch, engrave, grave [archaic])
+"the lovers inscribed their names into the bark of the tree";
+ 
+2. Register formally as a participant or member (- enroll [N. Amer], enter, enrol [Brit, Cdn], recruit)
+"The party inscribed many new members";
+ 
+3. (geometry) draw within a figure so as to touch in as many places as possible
+ 
+4. Write, engrave, or print as a lasting record
+ 
+5. Mark with one's signature (- autograph)
+"The author inscribed his book";
+ 
+6. Convert ordinary language into code (- code, encipher, cipher, cypher, encrypt, write in code)
+ 
+7. Address, (a work of literature) in a style less formal than a dedication
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inscribe";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +99,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His name was inscribed on the trophy.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The names of the king and queen were inscribed above the door.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +938,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/2D1kaTBUoAk?t=';
+    const double startSecondsend = 00000000000000000000000000066;
+    const String videoIdone = 'https://youtu.be/Ga1_2Zy5__s?t=';
+    const double startSecondsone = 000000000000000000000000000985;
+    const String videoIdtwo = 'https://youtu.be/urFChdLN6nA?t=';
+    const double startSecondstwo = 00000000000000000000000000046;
+    const String videoIdthree = 'https://youtu.be/asH6ny4ILzM?t=';
+    const double startSecondsthree = 0000000000000000000000000002;
+    const String videoIdfour = 'https://youtu.be/yb4fIHDgFFg?t=';
+    const double startSecondsfour = 00000000000000000000000000051;
+    const String videoIdfive = 'https://youtu.be/EXaDxl60rTQ?t=';
+    const double startSecondsfive = 0000000000000000000000000003083;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +964,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inscribe""",
                       // alsoEnglishWord: "also: inscribe",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈskraɪb/""",
+                      americanText: """IpaUS: /ɪnˈskraɪb/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1003,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نووسین، تۆمار کردن، کەندەکار کردن
 """),
 // With short examples define "inscribe", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) نووسین یان هەڵکۆڵینی ناوت، هتد لەسەر شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His name was inscribed on the trophy.""",
+                      englishNote:
+                          """Also: The trophy was inscribed with his name.""",
+                      kurdishText: """ناوی لەسەر جامەکە هەڵکۆڵدرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1021,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The names of the king and queen were inscribed above the door.""",
+                      kurdishText:
+                          """ناوی پاشا و شاژن لەسەر دەرگاکە هەڵکۆڵدران.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

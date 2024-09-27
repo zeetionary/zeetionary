@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: inset (Derived forms: insets)
+1. A small picture inserted within the bounds or a larger one
+ 
+2. An artifact that is inserted or is to be inserted (- insert)
+ 
+3. A piece of material used to strengthen or enlarge a garment (- gusset)
 
-EnglishEntryinset inset
-WORD_WEB inset inset inset
-haʊʊʊʊʊʊʊ4
+- Verb: inset (Derived forms: insetting, insets, inset)
+1. Set or place in
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inset";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""For the Shetland Islands, see inset.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The windows have beautiful stained glass insets.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The tables were inset with ceramic tiles.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/lf-KVEXIoqM?t=';
+    const double startSecondsend = 000000000000000000000000000346;
+    const String videoIdone = 'https://youtu.be/JuWF9G6SSi0?t=';
+    const double startSecondsone = 000000000000000000000000000522;
+    const String videoIdtwo = 'https://youtu.be/rr2XfL_df3o?t=';
+    const double startSecondstwo = 000000000000000000000000000467;
+    const String videoIdthree = 'https://youtu.be/YCjy9cU-3NA?t=';
+    const double startSecondsthree = 000000000000000000000000000341;
+    const String videoIdfour = 'https://youtu.be/Zrjp_F5FSjo?t=';
+    const double startSecondsfour = 000000000000000000000000000851;
+    const String videoIdfive = 'https://youtu.be/gvqZCMGjh3s?t=';
+    const double startSecondsfive = 000000000000000000000000000160;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inset""",
                       // alsoEnglishWord: "also: inset",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnset/""",
+                      americanText: """IpaUS: /ˈɪnset/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,32 +995,44 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەرخستە، پاشکۆ
 """),
 // With short examples define "inset", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) وێنەیەک، نەخشەیەک، هتد ــی گەورەتر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """For the Shetland Islands, see inset.""",
+                      kurdishText:
+                          """بۆ دوورگەکانی شێتلاند، بڕوانە لە نەخشە بچووکەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شتێک کە لەسەر یان ناو شتێکی دیکە زیاد دەکرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The windows have beautiful stained glass insets.""",
+                      kurdishText:
+                          """پەنجەرەکان پارچەی شووشەی ڕەنگینی جوانیان تێدایە.""",
+                      englishNote:
+                          """This means the windows contain sections of decorative, colored glass pieces embedded into the frames, creating a beautiful design.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) دانانی شتێک لە ڕووی شتێکی دیکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The tables were inset with ceramic tiles.""",
+                      kurdishText: """مێزەکە کاشیی سیرامیکی لێدرابوو.""",
+                      englishNote:
+                          """Also: Ceramic tiles were inset into the tables.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsanely insanely
-WORD_WEB insanely insanely insanely
-haʊʊʊʊʊʊʊ4
+- Adverb: insanely
+1. In an insane manner (- crazily, dementedly, madly)
+"she behaved insanely";
+ 
+2. (used as intensives) excessively (- madly, deadly, deucedly, devilishly)
+"insanely jealous";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insanely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He is insanely jealous.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She laughs insanely.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/e09xig209cQ?t=';
+    const double startSecondsend = 000000000000000000000000000258;
+    const String videoIdone = 'https://youtu.be/lex6USTugUU?t=';
+    const double startSecondsone = 000000000000000000000000000732;
+    const String videoIdtwo = 'https://youtu.be/AF8d72mA41M?t=';
+    const double startSecondstwo = 0000000000000000000000000001782;
+    const String videoIdthree = 'https://youtu.be/W2c86R-BOw0?t=';
+    const double startSecondsthree = 00000000000000000000000000055;
+    const String videoIdfour = 'https://youtu.be/O15kBAODBo4?t=';
+    const double startSecondsfour = 000000000000000000000000000211;
+    const String videoIdfive = 'https://youtu.be/svy8zw-2XRM?t=';
+    const double startSecondsfive = 0000000000000000000000000008;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insanely""",
                       // alsoEnglishWord: "also: insanely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈseɪnli/""",
+                      americanText: """IpaUS: /ɪnˈseɪnli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,24 +990,25 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: شێتانە، دەڵووئاسا
+// """),
 // With short examples define "insanely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە ئاستێکی زۆر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He is insanely jealous.""",
+                      kurdishText: """لەڕادەبەدەر حەسوودە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵکار) بە شێوەیەکی شێتانە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She laughs insanely.""",
+                      kurdishText: """شێتانە پێدەکەنێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

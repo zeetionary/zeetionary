@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsatiable insatiable
-WORD_WEB insatiable insatiable insatiable
-haʊʊʊʊʊʊʊ4
+- Adjective: insatiable
+1. Impossible to satisfy (- insatiate, unsatiable)
+"an insatiable demand for old buildings to restore";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insatiable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """There seems to be an insatiable demand for more powerful computers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The public seems to have an insatiable appetite for celebrity news.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/futIzImamM8?t=';
+    const double startSecondsend = 000000000000000000000000000387;
+    const String videoIdone = 'https://youtu.be/ZT3X1fYFViE?t=';
+    const double startSecondsone = 000000000000000000000000000130;
+    const String videoIdtwo = 'https://youtu.be/kw9Bd96c1ug?t=';
+    const double startSecondstwo = 000000000000000000000000000734;
+    const String videoIdthree = 'https://youtu.be/5Wq0yv73NpY?t=';
+    const double startSecondsthree = 000000000000000000000000000194;
+    const String videoIdfour = 'https://youtu.be/RzG-yFh1XGs?t=';
+    const double startSecondsfour = 00000000000000000000000000029;
+    const String videoIdfive = 'https://youtu.be/wVt7YCjF1AI?t=';
+    const double startSecondsfive = 0000000000000000000000000005;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insatiable""",
                       // alsoEnglishWord: "also: insatiable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈseɪʃəbl/""",
+                      americanText: """IpaUS: /ɪnˈseɪʃəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەتێرنەهاتوو، بەچەخۆرە، تێر نابێ، کەرەخۆرە، چاوچڵێس، چاوچنۆک، دنیاخۆرە، تێرنەبوو، تێرنەخۆرە، ڕازی‌نەبوو، قایل‌نەبوو
 """),
 // With short examples define "insatiable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە بەردەوام زیاتری دەوێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There seems to be an insatiable demand for more powerful computers.""",
+                      kurdishText:
+                          """وادیارە خواستی تێرنەبوو هەیە بۆ کۆمپیوتەری بەهێزتر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The public seems to have an insatiable appetite for celebrity news.""",
+                      kurdishText:
+                          """خەڵکی وادیارە حەزی تێرنەبوویان هەبێت بۆ هەواڵی کەسانی بەناوبانگ.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsensible insensible
-WORD_WEB insensible insensible insensible
-haʊʊʊʊʊʊʊ4
+- Adjective: insensible
+1. Unaware of or indifferent to (- unaffected)
+"insensible to the suffering around him";
+ 
+2. Barely able to be perceived (- indiscernible, undetectable)
+"an almost insensible change";
+ 
+3. Unresponsive to stimulation (- senseless, out of it)
+"he lay insensible where he had fallen";
+ 
+4. Incapable of physical sensation
+"insensible to pain"; "insensible earth"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insensible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +94,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""I think he's largely insensible to other people's pain.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""They were not insensible of the risks.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He was beaten till nearly insensible.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +933,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/WbwWn0m03lM?t=';
+    const double startSecondsend = 000000000000000000000000000619;
+    const String videoIdone = 'https://youtu.be/NB_ffEuRHHo?t=';
+    const double startSecondsone = 0000000000000000000000000001172;
+    const String videoIdtwo = 'https://youtu.be/62daivlrxLU?t=';
+    const double startSecondstwo = 0000000000000000000000000003164;
+    const String videoIdthree = 'https://youtu.be/fUtnT1bQr5A?t=';
+    const double startSecondsthree = 00000000000000000000000000031;
+    const String videoIdfour = 'https://youtu.be/RQmp5Owr48E?t=';
+    const double startSecondsfour = 000000000000000000000000000982;
+    const String videoIdfive = 'https://youtu.be/cAsr6HTELeQ?t=';
+    const double startSecondsfive = 0000000000000000000000000003271;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insensible""",
                       // alsoEnglishWord: "also: insensible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsensəbl/""",
+                      americanText: """IpaUS: /ɪnˈsensəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,32 +998,39 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: 	بێ‌هۆش(کەوتوو)، لەسەرخۆچوو، ئاگالەخۆنەبوو، بووراوە،	بێ‌هەست سڕ، تەزیو، کەسیرە،	نائاگادار، بێ‌خەبەر،	هەست‌پێنەکراو، بەرەبەرە،	بێ‌سۆز،	کەمتەرخەم، گوێ‌پێنەدەر، بەتەنگەوەنەبوو
 """),
 // With short examples define "insensible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە نەتوانیت هەست بە شتێک بکەیت یان کاردانەوەت بۆی هەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I think he's largely insensible to other people's pain.""",
+                      kurdishText:
+                          """پێموایە بە ئاستێکی زۆر بێ‌هەستن بەرامبەر بە ئازارەکانی خەڵکی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) بێ‌ئاگا لە شتێک یا دۆخێک کە ڕەنگە ڕووبدات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unaware"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They were not insensible of the risks.""",
+                      kurdishText: """بێ‌ئاگا نەبوون لە مەترسییەکان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) بێ‌هۆش بەهۆی برین، نەخۆشی، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was beaten till nearly insensible.""",
+                      kurdishText: """لێیدرا تاوەکو تاڕادەیەک بێ‌هۆش بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

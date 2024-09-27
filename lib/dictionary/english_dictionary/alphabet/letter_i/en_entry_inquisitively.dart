@@ -9,7 +9,8 @@ class EnglishEntryinquisitively extends StatefulWidget {
   const EnglishEntryinquisitively({super.key});
 
   @override
-  State<EnglishEntryinquisitively> createState() => _EnglishEntryinquisitivelyState();
+  State<EnglishEntryinquisitively> createState() =>
+      _EnglishEntryinquisitivelyState();
 }
 
 class _EnglishEntryinquisitivelyState extends State<EnglishEntryinquisitively> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinquisitively inquisitively
-WORD_WEB inquisitively inquisitively inquisitively
-haʊʊʊʊʊʊʊ4
+- Adverb: inquisitively
+1. With curiosity (- curiously, interrogatively)
+"the baby looked around inquisitively";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inquisitively";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Cath looked at her aunt inquisitively.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/OFkeKKszXTw?t=';
+    const double startSecondsend = 00000000000000000000000000021;
+    const String videoIdone = 'https://youtu.be/gqDkQ8XmP8Q?t=';
+    const double startSecondsone = 000000000000000000000000000438;
+    const String videoIdtwo = 'https://youtu.be/fWUAGfduUlg?t=';
+    const double startSecondstwo = 0000000000000000000000000002739;
+    const String videoIdthree = 'https://youtu.be/bu9YoasvU7w?t=';
+    const double startSecondsthree = 000000000000000000000000000254;
+    const String videoIdfour = 'https://youtu.be/xIrbmivRg7k?t=';
+    const double startSecondsfour = 0000000000000000000000000002091;
+    const String videoIdfive = 'https://youtu.be/i0ytVNxJM8E?t=';
+    const double startSecondsfive = 0000000000000000000000000003408;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inquisitively""",
                       // alsoEnglishWord: "also: inquisitively",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkwɪzətɪvli/""",
+                      americanText: """IpaUS: /ɪnˈkwɪzətɪvli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەپرسیارانە، لە ڕووی وردی‌یەوە، لە ڕووی خۆتێ‌هەڵقورتاندنەوە، خۆتێهەڵقورتێنەرانە
 """),
 // With short examples define "inquisitively", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ئەوە پیشان دەدات کە هوڵ دەدەیت بزانیت خەڵکانی دیکە چی دەکەن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Cath looked at her aunt inquisitively.""",
+                      kurdishText:
+                          """کاس بە خۆتێهەڵقورتێنەرانەوە سەیری پوری دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

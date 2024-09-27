@@ -94,7 +94,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She then subjected me to an inquisition about my romantic life.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -1001,11 +1001,11 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) ژمارەیەک پرسیار کە کەسێک لێتی دەکات بەتایبەتی کە بە شێوەیەکی ناشرین دەیکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She then subjected me to an inquisition about my romantic life.""",
+                      kurdishText: """دواتر دەستی کرد بە لێپێچینەوەیەک لێم لەسەر ژیانی ڕۆمانسیم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

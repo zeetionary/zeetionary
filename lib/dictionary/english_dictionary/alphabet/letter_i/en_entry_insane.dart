@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsane insane
-WORD_WEB insane insane insane
-haʊʊʊʊʊʊʊ4
+- Adjective: insane (Derived forms: insaner, insanest)
+1. Afflicted with or characteristic of mental derangement
+"was declared insane"; "insane laughter"
+ 
+2. Very foolish (- harebrained, mad)
+"took insane risks behind the wheel";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insane";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,78 +88,78 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I must have been insane to agree to the idea.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""It seems insane to cut the budget now.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The whole idea is quite insane.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""This job is driving me insane.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""She was driving me insane with her constant chatter.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""The prices are insane.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""It's insane how talented this guy is.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""We sold insane amounts of ice cream that day.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak("""Doctors certified him as insane.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""The prisoners were slowly going insane.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak("""This is a hospital for the insane.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/_wNsZEqpKUA?t=';
+    const double startSecondsend = 000000000000000000000000000667;
+    const String videoIdone = 'https://youtu.be/E47mx4rsVCI?t=';
+    const double startSecondsone = 00000000000000000000000000055;
+    const String videoIdtwo = 'https://youtu.be/s0hY04WnlWI?t=';
+    const double startSecondstwo = 000000000000000000000000000118;
+    const String videoIdthree = 'https://youtu.be/d3jiV6LLcpY?t=';
+    const double startSecondsthree = 000000000000000000000000000175;
+    const String videoIdfour = 'https://youtu.be/qWAagS_MANg?t=';
+    const double startSecondsfour = 0000000000000000000000000001462;
+    const String videoIdfive = 'https://youtu.be/55XJ1ObZKaM?t=';
+    const double startSecondsfive = 000000000000000000000000000147;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insane""",
                       // alsoEnglishWord: "also: insane",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈseɪn/""",
+                      americanText: """IpaUS: /ɪnˈseɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شێت، بێ‌ئەقڵ، گەوج، گەوجانە، شێتانە
 """),
 // With short examples define "insane", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) زۆر گەمژانە، شێتانە، یان مەترسیدار"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I must have been insane to agree to the idea.""",
+                      kurdishText:
+                          """دەبێت شیت بووبم بەم بیرۆکە ڕازی بووبم بەم بیرۆکەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It seems insane to cut the budget now.""",
+                      kurdishText:
+                          """ئەوە گەمژانە دیارە کە لە ئێستادا بودجەکە ببڕدرێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,17 +1020,18 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The whole idea is quite insane.""",
+                      kurdishText: """تەواوی بیرۆکەکە گەمژانە دیارە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) تەواو بێزار و تووڕە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """This job is driving me insane.""",
+                      kurdishText: """کارەکە شێتم دەکات.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,17 +1039,20 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was driving me insane with her constant chatter.""",
+                      kurdishText: """شێتی دەکردم بە فڵتەفڵتی بەردەوامی.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە جێگای سەرسامییە و زۆر سەڕسوڕهێنەرە؛ کە شتێک زۆر گەورە، بەرز، باش، هتد بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The prices are insane.""",
+                      kurdishText: """نرخەکان سەرسوڕهێنەرن (= زۆر گرانن).""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1053,8 +1060,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It's insane how talented this guy is.""",
+                      kurdishText: """سەرسوڕهێنەرە ئەم پیاوە چەند بەهرەدارە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1062,17 +1069,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We sold insane amounts of ice cream that day.""",
+                      kurdishText:
+                          """ئەو ڕۆژە ڕێژەیەکی ئێجگار زۆر لە ئایس کریممان فرۆشت.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ھاوەڵناو) هەبوونی کێشەیەکی تەندرووستی خراپ کە وادەکات کەسێک نەتوانێت بە شێوەی ئاسایی ڕەفتار یان بیرکردنەوە بکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Doctors certified him as insane.""",
+                      kurdishText: """پزیشکەکان بە شێت ناساندیان.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -1080,17 +1091,19 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The prisoners were slowly going insane.""",
+                      kurdishText: """زیندانییەکان بە هێواشی شێت دەبوون.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٥. (ھاوەڵناو) کەسانی شێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """This is a hospital for the insane.""",
+                      kurdishText: """ئەمە نەخۆشخانەیەکە بۆ کەسانی شێت.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),

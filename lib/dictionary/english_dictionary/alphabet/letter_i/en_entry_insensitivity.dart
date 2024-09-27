@@ -9,7 +9,8 @@ class EnglishEntryinsensitivity extends StatefulWidget {
   const EnglishEntryinsensitivity({super.key});
 
   @override
-  State<EnglishEntryinsensitivity> createState() => _EnglishEntryinsensitivityState();
+  State<EnglishEntryinsensitivity> createState() =>
+      _EnglishEntryinsensitivityState();
 }
 
 class _EnglishEntryinsensitivityState extends State<EnglishEntryinsensitivity> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsensitivity insensitivity
-WORD_WEB insensitivity insensitivity insensitivity
-haʊʊʊʊʊʊʊ4
+- Noun: insensitivity (Derived forms: insensitivities)
+1. The inability to respond to affective changes in your interpersonal environment (- insensitiveness)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insensitivity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +85,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """His comments demonstrate gross insensitivity towards people struggling to pay their bills.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Her opponents have said the remark shows insensitivity to the situation.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Diabetes begins as a cellular insensitivity to insulin.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/fZaS4WiexCQ?t=';
+    const double startSecondsend = 0000000000000000000000000001371;
+    const String videoIdone = 'https://youtu.be/swTnSWvOjRQ?t=';
+    const double startSecondsone = 00000000000000000000000000015;
+    const String videoIdtwo = 'https://youtu.be/mfRDndHtoNU?t=';
+    const double startSecondstwo = 00000000000000000000000000074;
+    const String videoIdthree = 'https://youtu.be/uazylGZ2hvQ?t=';
+    const double startSecondsthree = 000000000000000000000000000168;
+    const String videoIdfour = 'https://youtu.be/jrFqOD-lnxA?t=';
+    const double startSecondsfour = 0000000000000000000000000001843;
+    const String videoIdfive = 'https://youtu.be/zO0b-l-u7Yk?t=';
+    const double startSecondsfive = 000000000000000000000000000377;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insensitivity""",
                       // alsoEnglishWord: "also: insensitivity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌsensəˈtɪvəti/""",
+                      americanText: """IpaUS: /ɪnˌsensəˈtɪvəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,32 +991,41 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناهەستیاری،	گوێ‌لێنەبوون، گوێ‌پێنەدان، نادەربەستی، بێ‌خەیاڵی، سەرنج‌پێنەدان
 """),
 // With short examples define "insensitivity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کەمی گرنگی بۆ هەستی کەسانی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His comments demonstrate gross insensitivity towards people struggling to pay their bills.""",
+                      kurdishText:
+                          """لێدوانەکانی بێ‌هەستی زۆریان پیشان دا بۆ ئەو کەسانەی کە تەقەڵایانە خەرجییەکانیان دابین بکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) بێ‌ئاگایی بەرامبەر دۆخێکی گۆڕاو بۆیە کاردانەوەت نەبێت بۆی """),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her opponents have said the remark shows insensitivity to the situation.""",
+                      kurdishText:
+                          """ڕکابەرەکانی گوتوویانە کە لێدوانەکە بێ‌ئاگایی لە دۆخەکە پیشان دەدات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) نەبوونی توانای کاردانەوە بۆ شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Diabetes begins as a cellular insensitivity to insulin.""",
+                      kurdishText:
+                          """شەکرە دەست پێدەکات بە نادەربەستی خانە بەرامبەر بە ئینسۆلین.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

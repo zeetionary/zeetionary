@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsect insect
-WORD_WEB insect insect insect
-haʊʊʊʊʊʊʊ4
+ -Noun: insect (Derived forms: insects)
+1. Small air-breathing arthropod
+ 
+2. A person who has a nasty or unethical character undeserving of respect (- worm [informal], louse[2], dirt ball)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insect";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +86,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Most birds spend most of the day eating insects.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """There are about 30 million species of insects in the world.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The insecticide is lethal to all insect life.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/nMIifkRSs0I?t=';
+    const double startSecondsend = 00000000000000000000000000033;
+    const String videoIdone = 'https://youtu.be/2O7RV-4zYRs?t=';
+    const double startSecondsone = 00000000000000000000000000010;
+    const String videoIdtwo = 'https://youtu.be/Cnn9CfsYJqc?t=';
+    const double startSecondstwo = 00000000000000000000000000012;
+    const String videoIdthree = 'https://youtu.be/jrfn75QuOFg?t=';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/SeeNyOAcviI?t=';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/MXWhlkreKq8';
+    const double startSecondsfive = 0;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insect""",
                       // alsoEnglishWord: "also: insect",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnsekt/""",
+                      americanText: """IpaUS: /ˈɪnsekt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: 	مێروو، زندی، لە پۆلی،	(خوازە) جانەوەر، وەک گەنە، هەزارپێ، جاڵجاڵووکە و هتد،	کەسێکی سووک و هیچ‌وپووچ
 """),
 // With short examples define "insect", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هەر گیانلەبەرێکی بچووک کە جەستەی سێ بەشە و شەش لاقی هەیە، و زۆرجار باڵیان هەیە. مێرووچە و مێشهەنگ و مێش هەموویان مێروون."""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Most birds spend most of the day eating insects.""",
+                      kurdishText:
+                          """زۆر باڵندە زۆرینەی ڕۆژ بە خواردنی مێروو بەسەر دەبەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There are about 30 million species of insects in the world.""",
+                      kurdishText:
+                          """نزیکەی ٣٠ ملیۆن جۆری مێروو هەن لە جیهاندا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,11 +1020,14 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The insecticide is lethal to all insect life.""",
+                      kurdishText:
+                          """مێرووکوژەکە کوشندەیە بۆ هەموو مێرووەکان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

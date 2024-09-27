@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinroad inroad
-WORD_WEB inroad inroad inroad
-haʊʊʊʊʊʊʊ4
+- Noun: inroad (Derived forms: inroads)
+1. An encroachment or intrusion
+"they made inroads in the United States market"
+ 
+2. An invasion or hostile attack
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inroad";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """This deal is their first major inroad into the American market.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The government is definitely making inroads into the problem of unemployment.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/W2hRTTTpmr8?t=';
+    const double startSecondsend = 0000000000000000000000000001201;
+    const String videoIdone = 'https://youtu.be/BNpk_OGEGlA?t=';
+    const double startSecondsone = 000000000000000000000000000680;
+    const String videoIdtwo = 'https://youtu.be/4bxI803q6i8?t=';
+    const double startSecondstwo = 0000000000000000000000000003046;
+    const String videoIdthree = 'https://youtu.be/va1rzP2xIx4?t=';
+    const double startSecondsthree = 000000000000000000000000000107;
+    const String videoIdfour = 'https://youtu.be/O7kRQ5WCkpU?t=';
+    const double startSecondsfour = 000000000000000000000000000225;
+    const String videoIdfive = 'https://youtu.be/pJ_LUFBSoqM?t=';
+    const double startSecondsfive = 000000000000000000000000000394;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inroad""",
                       // alsoEnglishWord: "also: inroad",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnrəʊd/""",
+                      americanText: """IpaUS: /ˈɪnrəʊd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +995,16 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inroad", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شتێک کە بەدەست دەهێندرێت، بە تایبەتی بە کەمکردنەوەی هێز و سەرکەوتنی شتێکی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This deal is their first major inroad into the American market.""",
+                      kurdishText:
+                          """ئەم ڕێکەوتنە یەکەم پەلهاویشتنیانە بۆ ناو بازاڕی ئەمریکی.""",
+                      englishNote:
+                          """This means the deal is their first significant step or progress in entering the American market.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1012,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The government is definitely making inroads into the problem of unemployment.""",
+                      kurdishText:
+                          """حکومەت بەدڵنیاییەوە هەنگاو دەنێت بەرەو کێشەی بێ‌کاری.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

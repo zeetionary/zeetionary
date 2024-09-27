@@ -9,7 +9,8 @@ class EnglishEntryinsecticide extends StatefulWidget {
   const EnglishEntryinsecticide({super.key});
 
   @override
-  State<EnglishEntryinsecticide> createState() => _EnglishEntryinsecticideState();
+  State<EnglishEntryinsecticide> createState() =>
+      _EnglishEntryinsecticideState();
 }
 
 class _EnglishEntryinsecticideState extends State<EnglishEntryinsecticide> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsecticide insecticide
-WORD_WEB insecticide insecticide insecticide
-haʊʊʊʊʊʊʊ4
+- Noun: insecticide (Derived forms: insecticides)
+1. A chemical used to kill insects (- insect powder)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insecticide";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The insecticide is lethal to all insect life.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He sprayed insecticide to get rid of the ants.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ZqdU4KOZvnY?t=';
+    const double startSecondsend = 00000000000000000000000000023;
+    const String videoIdone = 'https://youtu.be/RDtN4pndR1E?t=';
+    const double startSecondsone = 0;
+    const String videoIdtwo = 'https://youtu.be/cZ3EVLQbA40?t=';
+    const double startSecondstwo = 00000000000000000000000000019;
+    const String videoIdthree = 'https://youtu.be/pFmtmO2cnlg?t=';
+    const double startSecondsthree = 000000000000000000000000000330;
+    const String videoIdfour = 'https://youtu.be/Yb26BBvAAWU?t=';
+    const double startSecondsfour = 000000000000000000000000000139;
+    const String videoIdfive = 'https://youtu.be/ToeWrGTGOOI?t=';
+    const double startSecondsfive = 000000000000000000000000000106;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insecticide""",
                       // alsoEnglishWord: "also: insecticide",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsektɪsaɪd/""",
+                      americanText: """IpaUS: /ɪnˈsektɪsaɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,12 +991,13 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "insecticide", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) مادەیەکی کیمیایی کە مێروو دەکوژێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The insecticide is lethal to all insect life.""",
+                      kurdishText:
+                          """مێرووکوژەکە کوشندەیە بۆ هەموو مێرووەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1005,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He sprayed insecticide to get rid of the ants.""",
+                      kurdishText:
+                          """مێرووکوژی ڕشت پرژاند بۆ کوشتنی مێرووەکان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

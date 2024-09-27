@@ -9,7 +9,8 @@ class EnglishEntryinsensitive extends StatefulWidget {
   const EnglishEntryinsensitive({super.key});
 
   @override
-  State<EnglishEntryinsensitive> createState() => _EnglishEntryinsensitiveState();
+  State<EnglishEntryinsensitive> createState() =>
+      _EnglishEntryinsensitiveState();
 }
 
 class _EnglishEntryinsensitiveState extends State<EnglishEntryinsensitive> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsensitive insensitive
-WORD_WEB insensitive insensitive insensitive
-haʊʊʊʊʊʊʊ4
+- Adjective: insensitive
+1. Not responsive to physical stimuli
+"insensitive to radiation"
+ 
+2. Deficient in human sensibility; not mentally or morally sensitive
+"insensitive to the needs of the patients"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insensitive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +89,37 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She's completely insensitive to my feelings.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She's completely insensitive to my feelings.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The government seems totally insensitive to the mood of the country.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""He seems completely insensitive to criticism.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """The machine is relatively insensitive to changes in the atmosphere.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/S-4rhjO6xYg?t=';
+    const double startSecondsend = 000000000000000000000000000681;
+    const String videoIdone = 'https://youtu.be/092PIJKKgFo?t=';
+    const double startSecondsone = 000000000000000000000000000343;
+    const String videoIdtwo = 'https://youtu.be/UbnulKZg3L8?t=';
+    const double startSecondstwo = 0000000000000000000000000009;
+    const String videoIdthree = 'https://youtu.be/DEDAjw9Ljrw?t=';
+    const double startSecondsthree = 0000000000000000000000000001661;
+    const String videoIdfour = 'https://youtu.be/x629nYBuLpY?t=';
+    const double startSecondsfour = 0000000000000000000000000001208;
+    const String videoIdfive = 'https://youtu.be/urjvZ02NtEg?t=';
+    const double startSecondsfive = 000000000000000000000000000903;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insensitive""",
                       // alsoEnglishWord: "also: insensitive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsensətɪv/""",
+                      americanText: """IpaUS: /ɪnˈsensətɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناهەستیار، بێ‌هەست، پێ‌نەزانیو، سڕ،	سەرنج‌پێنەدەر، کەمتەرخەم، گوێ‌پێنەدەر، نادەربەست، لامسەرلا، گوێ‌لێنەبوو، گوێ‌پێ‌نەبزواو
 """),
 // With short examples define "insensitive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ئەوەی کە گرنگی بە هەستی خەڵکی نەدەیت یان هەستی پێ نەکەیت، و بەو هۆکارەش ئازاری هەستەکانیان بدەیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unsympathetic"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She's completely insensitive to my feelings.""",
+                      kurdishText: """تەواو بێ هەستە بەرامبەر هەستەکانم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,26 +1012,34 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She's completely insensitive to my feelings.""",
+                      kurdishText: """شتێکی تەواو بێ‌هەستانە بوو بۆ گوتن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) ئەوەی کە بێ‌ئاگا بیت لە دۆخێکی گۆڕاو بۆیە کاردانەوەت نەبێت بۆیان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The government seems totally insensitive to the mood of the country.""",
+                      kurdishText:
+                          """حکومەت تەواو بێ‌ئاگایە لە کەشی وڵاتەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە نەتوانیت هەست بە شتێک بکەیت یان کاردانەوەت هەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He seems completely insensitive to criticism.""",
+                      kurdishText: """تەواو گوێ‌پێنەدەرە بە ڕەخنە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1047,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The machine is relatively insensitive to changes in the atmosphere.""",
+                      kurdishText:
+                          """ئامێرەکە تا ئاستێکی زۆر نادەربەستە بە گۆڕان لە بەرگەهەوا.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

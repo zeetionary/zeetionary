@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsanity insanity
-WORD_WEB insanity insanity insanity
-haʊʊʊʊʊʊʊ4
+- Noun: insanity (Derived forms: insanities)
+1. Relatively permanent disorder of the mind (- madness, craziness [informal])
+ 
+2. The quality of being rash and foolish (- folly, foolishness, craziness, madness, nuttiness [informal])
+"he lived on a knife-edge between genius and insanity";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insanity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +87,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He was found not guilty, by reason of insanity.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Hamlet feigns insanity to disguise his bloody motive.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Congress must put a stop to this insanity.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """It would be sheer insanity to attempt the trip in such bad weather.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/9vK1vtRJn24?t=';
+    const double startSecondsend = 000000000000000000000000000129;
+    const String videoIdone = 'https://youtu.be/OZdW1heGWFw?t=';
+    const double startSecondsone = 000000000000000000000000000166;
+    const String videoIdtwo = 'https://youtu.be/kElsSj8hky4?t=';
+    const double startSecondstwo = 000000000000000000000000000517;
+    const String videoIdthree = 'https://youtu.be/Oij-BdIkPgQ?t=';
+    const double startSecondsthree = 000000000000000000000000000966;
+    const String videoIdfour = 'https://youtu.be/mjCAyo2Litw?t=';
+    const double startSecondsfour = 000000000000000000000000000682;
+    const String videoIdfive = 'https://youtu.be/qCbfTN-caFI?t=';
+    const double startSecondsfive = 0000000000000000000000000001304;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insanity""",
                       // alsoEnglishWord: "also: insanity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsænəti/""",
+                      americanText: """IpaUS: /ɪnˈsænəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شێتی، گەوجی
 """),
 // With short examples define "insanity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی کەسێک شێت بێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: madness"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was found not guilty, by reason of insanity.""",
+                      kurdishText: """بە تاوانبار نەبیندرا بە هۆکاری شێتی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1010,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Hamlet feigns insanity to disguise his bloody motive.""",
+                      kurdishText:
+                          """هاملێت خۆی وەک شێت دەردەخات بۆ شاردنەوەی پاڵنەرە خراپەکانی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کارێک کە زۆر گەمژانە و تاڕادەیەک ترسناکە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: madness، lunacy"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Congress must put a stop to this insanity.""",
+                      kurdishText:
+                          """کۆنگرێس دەبێت ئەم نەزانییە کۆتایی پێبهێنێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1034,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It would be sheer insanity to attempt the trip in such bad weather.""",
+                      kurdishText:
+                          """ئەوپەڕی گەمژەیی دەبێت هەوڵ دەیت گەشتەکە بکەیت لەم کەشووهەوا خراپەدا.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

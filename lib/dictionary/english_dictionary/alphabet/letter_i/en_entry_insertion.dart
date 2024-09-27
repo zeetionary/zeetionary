@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsertion insertion
-WORD_WEB insertion insertion insertion
-haʊʊʊʊʊʊʊ4
+- Noun: insertion (Derived forms: insertions)
+1. A message (spoken or written) that is introduced or inserted (- interpolation)
+"with many insertions in the margins";
+ 
+2. The act of putting one thing into another (- introduction, intromission)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insertion";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +87,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """An examination is carried out before the insertion of the tube.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Acupuncture involves the insertion of needles into specific points of the body.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Any insertions you make should be enclosed in square brackets.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/tXjHb5QmDV0?t=';
+    const double startSecondsend = 000000000000000000000000000823;
+    const String videoIdone = 'https://youtu.be/sAiTuitN5b8?t=';
+    const double startSecondsone = 000000000000000000000000000388;
+    const String videoIdtwo = 'https://youtu.be/LsNg-KrFxCA?t=';
+    const double startSecondstwo = 000000000000000000000000000575;
+    const String videoIdthree = 'https://youtu.be/5fTd1aYzNHI?t=';
+    const double startSecondsthree = 000000000000000000000000000178;
+    const String videoIdfour = 'https://youtu.be/B5ytcg5pYEA?t=';
+    const double startSecondsfour = 0000000000000000000000000001060;
+    const String videoIdfive = 'https://youtu.be/KIxg2zxg1CQ?t=';
+    const double startSecondsfive = 000000000000000000000000000201;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insertion""",
                       // alsoEnglishWord: "also: insertion",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɜːʃn/""",
+                      americanText: """IpaUS: /ɪnˈsɜːrʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تێتەپاندن، تێخستن، تێنان، تێترنجاندن، تێبڕین، ئاخنین، تێ‌خنین، خستنەنێو، پێ‌وەکردن، شتی تێخراو یان تێترنجێنراو،	پاشکۆ، سەرخستە،	ئاگاداری، ئاگایی
 """),
 // With short examples define "insertion", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە شتێک بخەیتە ناو شتێکی دیکە؛ ئەو شتەی دەخرێتە ناو شتێکی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An examination is carried out before the insertion of the tube.""",
+                      kurdishText:
+                          """پشکنینێک ئەنجام درا پێش تێخستنی بۆرییەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1011,24 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Acupuncture involves the insertion of needles into specific points of the body.""",
+                      kurdishText:
+                          """دەرزی ئاژنین تێخستنی دەرزی بۆ ناو خاڵی دیاریکراوی جەستە دەگرێتەوە   .""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شتێک کە زیاد دەکرێتە ناو کتێبێک. نووسینێک، هتد؛ زیادکردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Any insertions you make should be enclosed in square brackets.""",
+                      kurdishText:
+                          """هەر زیادکردنێک کە ئەنجامی دەدەیت دەبێت لەناو کەوانەی گەورە بن.""",
+                      kurdishNote: """واتا کەوانەی [ـــ]""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

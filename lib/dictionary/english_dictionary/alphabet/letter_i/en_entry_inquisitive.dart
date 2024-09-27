@@ -9,7 +9,8 @@ class EnglishEntryinquisitive extends StatefulWidget {
   const EnglishEntryinquisitive({super.key});
 
   @override
-  State<EnglishEntryinquisitive> createState() => _EnglishEntryinquisitiveState();
+  State<EnglishEntryinquisitive> createState() =>
+      _EnglishEntryinquisitiveState();
 }
 
 class _EnglishEntryinquisitiveState extends State<EnglishEntryinquisitive> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinquisitive inquisitive
-WORD_WEB inquisitive inquisitive inquisitive
-haʊʊʊʊʊʊʊ4
+- Adjective: inquisitive
+1. Showing curiosity (- speculative, questioning, wondering)
+"if someone saw a man climbing a light post they might get inquisitive";
+ 
+2. Inquiring or appearing to inquire
+"the police are proverbially inquisitive"; "an inquisitive look"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inquisitive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +89,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Don't be so inquisitive. It's none of your business!""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""His inquisitive nature finally got the better of him.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The young man possessed a sharp and inquisitive mind.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/P8m-KThvtxA?t=';
+    const double startSecondsend = 000000000000000000000000000607;
+    const String videoIdone = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsone = 000000000000000000000000000270;
+    const String videoIdtwo = 'https://youtu.be/XXhc5UTxv5I?t=';
+    const double startSecondstwo = 000000000000000000000000000151;
+    const String videoIdthree = 'https://youtu.be/9HabyEoLBGs?t=';
+    const double startSecondsthree = 000000000000000000000000000155;
+    const String videoIdfour = 'https://youtu.be/jzLlsbdrwQk?t=';
+    const double startSecondsfour = 000000000000000000000000000595;
+    const String videoIdfive = 'https://youtu.be/7jjege3W92E?t=';
+    const double startSecondsfive = 000000000000000000000000000780;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inquisitive""",
                       // alsoEnglishWord: "also: inquisitive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈkwɪzətɪv/""",
+                      americanText: """IpaUS: /ɪnˈkwɪzətɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +995,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ورد، بەپرسیار، خۆتێ‌هەڵقورتێن، خۆتێوەردەر
 """),
 // With short examples define "inquisitive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە پرسیاری زۆر بکەیت و بتەوێت بزانیت کەسانی دیکە چی دەکەن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: curious"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Don't be so inquisitive. It's none of your business!""",
+                      kurdishText:
+                          """هێندە خۆتێ‌هەڵقورتێن مەبە. هیچ پەیوەندی بە تۆوە نییە!""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1014,25 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His inquisitive nature finally got the better of him.""",
+                      kurdishText:
+                          """سرووشتی خۆتێ‌هەڵقورتێنی لە کۆتاییدا تووشی کێشەی کرد.""",
+                      englishNote:
+                          """This means his natural curiosity (desire to know or learn something) eventually led him into trouble or a difficult situation.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە زۆر حەز بکەیت لەسەر شتی جیاواز بزانیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: enquiring"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The young man possessed a sharp and inquisitive mind.""",
+                      kurdishText:
+                          """پیاوە گەنجەکە مێشکێکی بیرتیژ بەپرسیاری هەبوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -9,7 +9,8 @@ class EnglishEntryinsensitively extends StatefulWidget {
   const EnglishEntryinsensitively({super.key});
 
   @override
-  State<EnglishEntryinsensitively> createState() => _EnglishEntryinsensitivelyState();
+  State<EnglishEntryinsensitively> createState() =>
+      _EnglishEntryinsensitivelyState();
 }
 
 class _EnglishEntryinsensitivelyState extends State<EnglishEntryinsensitively> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsensitively insensitively
-WORD_WEB insensitively insensitively insensitively
-haʊʊʊʊʊʊʊ4
+- Adverb: insensitively
+1. In an insensitive manner (- crassly)
+"the police officer questioned the woman rather insensitively about the attack";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insensitively";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The police handled the matter extremely insensitively.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The community feels it has been treated insensitively by the central government.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/gpbgIbXNkfc?t=';
+    const double startSecondsend = 00000000000000000000000000099;
+    const String videoIdone = 'https://youtu.be/vlPhAFixBL4?t=';
+    const double startSecondsone = 0000000000000000000000000002421;
+    const String videoIdtwo = 'https://youtu.be/xNTBF2JTx7U?t=';
+    const double startSecondstwo = 000000000000000000000000000569;
+    const String videoIdthree = 'https://youtu.be/klKmNtafBY0?t=';
+    const double startSecondsthree = 000000000000000000000000000120;
+    const String videoIdfour = 'https://youtu.be/ZKxetTClQj0?t=';
+    const double startSecondsfour = 000000000000000000000000000164;
+    const String videoIdfive = 'https://youtu.be/XXm4xYcNSlA?t=';
+    const double startSecondsfive = 0000000000000000000000000001591;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insensitively""",
                       // alsoEnglishWord: "also: insensitively",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsensətɪvli/""",
+                      americanText: """IpaUS: /ɪnˈsensətɪvli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گوێ‌پێنەدەرانە، کەمتەرخەمانە
 """),
 // With short examples define "insensitively", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە گرنگی بە هەستی خەڵکی نەدەیت یان هەستی پێ نەکەیت، و بەو هۆکارەش ئازاری هەستەکانیان بدەیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unsympathetically"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The police handled the matter extremely insensitively.""",
+                      kurdishText:
+                          """پۆلیس تەواو بە کەمتەرخەمانە مامەڵەی لەگەڵ کێشەکە کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The community feels it has been treated insensitively by the central government.""",
+                      kurdishText:
+                          """کۆمەڵگەکە هەست دەکەن بە کەمتەرخەمانە لەلایەن حکومەتی ناوەندی مامەڵەیان لەگەڵ کراوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryinsecure extends StatefulWidget {
-  const EnglishEntryinsecure({super.key});
+class EnglishEntryintimidate extends StatefulWidget {
+  const EnglishEntryintimidate({super.key});
 
   @override
-  State<EnglishEntryinsecure> createState() => _EnglishEntryinsecureState();
+  State<EnglishEntryintimidate> createState() => _EnglishEntryintimidateState();
 }
 
-class _EnglishEntryinsecureState extends State<EnglishEntryinsecure> {
+class _EnglishEntryintimidateState extends State<EnglishEntryintimidate> {
   @override
   void initState() {
     super.initState();
@@ -52,21 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Adjective: insecure
-1. Not firm or firmly fixed; likely to fail or give way
-"the hinge is insecure"
- 
-2. Lacking in security or safety (- unsafe)
-"an insecure future"; "his fortune was increasingly insecure";
- 
-3. Lacking self-confidence or assurance
-"an insecure person lacking mental stability"
- 
-4. Not safe from attack (- unsafe)
+
+EnglishEntryintimidate intimidate
+WORD_WEB intimidate intimidate intimidate
+haʊʊʊʊʊʊʊ4
 """,
   );
+// 188888880002200000000000
 
-  final String keyword = "insecure";
+  final String keyword = "intimidate";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -86,45 +80,43 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""insecure""");
+    await flutterTts.speak("""intimidate""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He's very insecure about his appearance.""");
+    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She felt nervous and insecure.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""He felt a little insecure about being left alone.""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts
-        .speak("""As an artist he was always financially insecure.""");
+    await flutterTts.speak("""speaksentence400""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        """Many people use insecure passwords or they use the same password for everything.""");
+    await flutterTts.speak("""speaksentence500""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -934,19 +926,21 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
+
     // 188888880002200000000000
-    const String videoIdend = 'https://youtu.be/hS2x1zl4rn0?t=';
-    const double startSecondsend = 000000000000000000000000000503;
-    const String videoIdone = 'https://youtu.be/TRGHIN2PGIA?t=';
-    const double startSecondsone = 00000000000000000000000000011;
-    const String videoIdtwo = 'https://youtu.be/kElsSj8hky4?t=';
-    const double startSecondstwo = 000000000000000000000000000481;
-    const String videoIdthree = 'https://youtu.be/lsbcN9-jU1Y?t=';
-    const double startSecondsthree = 0000000000000000000000000001176;
-    const String videoIdfour = 'https://youtu.be/AwodL8z2EtE?t=';
-    const double startSecondsfour = 000000000000000000000000000267;
-    const String videoIdfive = 'https://youtu.be/tETQaX2pIiE?t=';
-    const double startSecondsfive = 000000000000000000000000000265;
+    const String videoIdend = '';
+    const double startSecondsend = 000000000000000000000000000;
+    const String videoIdone = '';
+    const double startSecondsone = 000000000000000000000000000;
+    const String videoIdtwo = '';
+    const double startSecondstwo = 000000000000000000000000000;
+    const String videoIdthree = '';
+    const double startSecondsthree = 000000000000000000000000000;
+    const String videoIdfour = '';
+    const double startSecondsfour = 000000000000000000000000000;
+    const String videoIdfive = '';
+    const double startSecondsfive = 000000000000000000000000000;
+// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -958,10 +952,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """insecure""",
-                      // alsoEnglishWord: "also: insecure",
-                      britshText: """IpaUK: /ˌɪnsɪˈkjʊə(r)/""",
-                      americanText: """IpaUS: /ˌɪnsɪˈkjʊr/""",
+                      word: """intimidate""",
+                      // alsoEnglishWord: "also: intimidate",
+                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
+                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -999,16 +993,14 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: نەپارێزراو، بێ‌ئاسایش(ت)، بێ‌تەناهی، بێ‌ئەمان، ناسڵامەت، نادابین، بێ‌ئەمنیەت، نائەمن،	ناقایم، قرچۆک، ڕووخەک، لەق، فشەڵ، سست،	باوەڕپێ‌نەکراو، نادڵنیا، جێی ترس، لێ‌ڕانەبینراو، پشت‌پێ‌نەبەستراو، بێ‌باوەڕبەخۆ، لەخۆڕانەبینیو، نیگەران، ناڕەحەت
+کوردی: 
 """),
-// With short examples define "insecure", please follow LX instructions
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ھاوەڵناو) کە باوەڕت بە خۆت یان پەیوەندیت لەگەڵ کەسانی دیکە نەبێت"""),
+// With short examples define "intimidate", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText:
-                          """He's very insecure about his appearance.""",
-                      kurdishText: """زۆر ناڕەحەتە سەبارەت بە ڕووخساری.""",
+                      englishText: """// ssssssssssssssssssssssgggggggg55555
+""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1016,9 +1008,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She felt nervous and insecure.""",
-                      kurdishText:
-                          """هەستی بە شڵەژاوی و بێ‌باوەڕبەخۆیی دەکرد.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1026,27 +1017,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """He felt a little insecure about being left alone.""",
-                      kurdishText:
-                          """کەمێک شڵەژاو بوو سەبارەت بەوەی بە تەنها بێت.""",
-                      englishNote:
-                          """This means he felt uncertain, anxious, or lacking confidence about being by himself.""",
+                      englishText: """speaksentence300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(
-                        text:
-                            """٢. (ھاوەڵناو) کە پارێزراو یان سەلامەت نییە؛ کە ئەگەری هەیە بکەوێت"""),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """As an artist he was always financially insecure.""",
-                      kurdishText:
-                          """وەک هونەرمەندێک هەمیشە لە ڕووی داراییەوە بێ‌ئەمان بوو.""",
-                      englishNote:
-                          """This means he was often uncertain or unstable about his financial situation, lacking steady income or financial stability as an artist.""",
+                      englishText: """speaksentence400""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1054,10 +1035,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText:
-                          """Many people use insecure passwords or they use the same password for everything.""",
-                      kurdishText:
-                          """زۆر کەس تێپەڕەوشەی ناسڵامەت یان هەمان تێپەڕەوشە بۆ هەموو شتێک بەکاردەهێنن .""",
+                      englishText: """speaksentence500""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -2171,5 +2150,5 @@ ${englishMeaningConst.text}
   }
 }
 
-// end WORD_WEB 
-// end insecure
+// end WORD_WEB
+// end intimidate

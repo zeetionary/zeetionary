@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsecurely insecurely
-WORD_WEB insecurely insecurely insecurely
-haʊʊʊʊʊʊʊ4
+- Adverb: insecurely
+1. In a tentative and self-conscious manner
+"she always acts very insecurely in the presence of her father"
+ 
+2. In a manner involving risk
+"our positions here at the university are rather insecurely supported by grant money"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insecurely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Insecurely attached children might find it hard to make friends.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The shelves were insecurely fastened and fell to the floor.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The organization is inadequately and insecurely funded.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/CuIYD-zTEDc?t=';
+    const double startSecondsend = 000000000000000000000000000625;
+    const String videoIdone = 'https://youtu.be/nzlRCtQ5W8A?t=';
+    const double startSecondsone = 000000000000000000000000000428;
+    const String videoIdtwo = 'https://youtu.be/gMRph_BvHB4?t=';
+    const double startSecondstwo = 0000000000000000000000000001703;
+    const String videoIdthree = 'https://youtu.be/C_cb7kwRv-0?t=';
+    const double startSecondsthree = 000000000000000000000000000923;
+    const String videoIdfour = 'https://youtu.be/6-UOVYx9_wk?t=';
+    const double startSecondsfour = 000000000000000000000000000692;
+    const String videoIdfive = 'https://youtu.be/qMmgDeyhamI?t=';
+    const double startSecondsfive = 000000000000000000000000000495;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insecurely""",
                       // alsoEnglishWord: "also: insecurely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsɪˈkjʊəli/""",
+                      americanText: """IpaUS: /ˌɪnsɪˈkjʊrli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,24 +993,33 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: بێ‌ئاسایشانە، بە شێوەیەکی نائەمن، ناسڵامەتانە
+// """),
 // With short examples define "insecurely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ئەوە پیشان دەدات کە باوەڕت بە خۆت یان پەیوەندیت لەگەڵ کەسانی دیکە نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Insecurely attached children might find it hard to make friends.""",
+                      kurdishText:
+                          """ئەو منداڵانەی کە پەیوەندی بێ‌باوەڕانەیان هەیە ڕەنگە بە سەختی ببینن هاوڕێیەتی درووست بکەن.""",
+                      englishNote:
+                          """This means children with unstable emotional connections often struggle to build friendships or relate well to others.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە پارێزراو یان سەلامەت نییە؛ بە شێوەیەک کە ئەگەری هەیە بکەوێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The shelves were insecurely fastened and fell to the floor.""",
+                      kurdishText:
+                          """ڕەفەکان بە شلی بەسترابوون و کەوتنە سەر زەوییەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1027,12 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The organization is inadequately and insecurely funded.""",
+                      kurdishText:
+                          """دامەزراوەکە بە ناپێویست و نەپارێزراوانە بودجەی بۆ دابین دەکرێت.""",
+                      englishNote:
+                          """This means the organization does not have enough funding or financial support, making it unstable and vulnerable to financial issues.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

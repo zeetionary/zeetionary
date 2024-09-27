@@ -9,7 +9,8 @@ class EnglishEntryinscription extends StatefulWidget {
   const EnglishEntryinscription({super.key});
 
   @override
-  State<EnglishEntryinscription> createState() => _EnglishEntryinscriptionState();
+  State<EnglishEntryinscription> createState() =>
+      _EnglishEntryinscriptionState();
 }
 
 class _EnglishEntryinscriptionState extends State<EnglishEntryinscription> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinscription inscription
-WORD_WEB inscription inscription inscription
-haʊʊʊʊʊʊʊ4
+- Noun: inscription (Derived forms: inscriptions)
+1. Letters inscribed (especially words engraved or carved) on something (- lettering)
+ 
+2. (music) a short message (as in a book or musical work or on a photograph) dedicating it to someone or something (- dedication)
+ 
+3. The activity of inscribing (especially carving or engraving) letters or words
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inscription";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +89,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""There was an inscription carved over the door.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """There are no inscriptions or markings to identify the tombs.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The inscription bears the date 1655.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/J-K5OjAkiEA?t=';
+    const double startSecondsend = 0000000000000000000000000007;
+    const String videoIdone = 'https://youtu.be/twAP3buj9Og?t=';
+    const double startSecondsone = 0000000000000000000000000001109;
+    const String videoIdtwo = 'https://youtu.be/hapSlAP2xrc?t=';
+    const double startSecondstwo = 000000000000000000000000000427;
+    const String videoIdthree = 'https://youtu.be/UeRa9bEhgXg?t=';
+    const double startSecondsthree = 0000000000000000000000000001309;
+    const String videoIdfour = 'https://youtu.be/yA79KYMLUpI?t=';
+    const double startSecondsfour = 000000000000000000000000000229;
+    const String videoIdfive = 'https://youtu.be/HZq_HjKCRB4?t=';
+    const double startSecondsfive = 000000000000000000000000000124;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inscription""",
                       // alsoEnglishWord: "also: inscription",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈskrɪpʃn/""",
+                      americanText: """IpaUS: /ɪnˈskrɪpʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نووسراوە،	بەردەنووس،	هەڵکەندن،	نەخش،	پێدان، پێ‌بەخشین، پێشکەش‌کردن
 """),
 // With short examples define "inscription", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو وشانەی کە لە سەرەتای کتێبێک نووسراون یان یان هەڵکۆڵدراون لەسەر بەرد یان کانزا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There was an inscription carved over the door.""",
+                      kurdishText: """هۆڵکۆڵینێک داتاشرابوو لەسەر دەرگاکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There are no inscriptions or markings to identify the tombs.""",
+                      kurdishText:
+                          """هیچ هەڵکۆڵین یان نیشانەیەک نییە کە گۆڕەکان بناسێتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1022,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The inscription bears the date 1655.""",
+                      kurdishText: """هەڵکۆڵینەکە ساڵی ١٦٥٥ ـی لەسەرە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

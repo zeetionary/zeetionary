@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsistence insistence
-WORD_WEB insistence insistence insistence
-haʊʊʊʊʊʊʊ4
+- Noun: insistence (Derived forms: insistences)
+1. Continual and persistent demands (- insisting)
+ 
+2. The state of demanding notice or attention (- imperativeness, insistency, press, pressure)
+"the insistence of their hunger";
+ 
+2. The act of insisting on something (- insistency)
+"insistence on grammatical correctness is a conservative position";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insistence";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""At her insistence, the matter was dropped.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """No one was convinced by his insistence that he was not to blame.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/iI48g7YTZFA?t=';
+    const double startSecondsend = 000000000000000000000000000927;
+    const String videoIdone = 'https://youtu.be/OPEh7UWmfDc?t=';
+    const double startSecondsone = 000000000000000000000000000608;
+    const String videoIdtwo = 'https://youtu.be/runjda4La_4?t=';
+    const double startSecondstwo = 0000000000000000000000000001256;
+    const String videoIdthree = 'https://youtu.be/pzE9HZHJ_ME?t=';
+    const double startSecondsthree = 000000000000000000000000000984;
+    const String videoIdfour = 'https://youtu.be/ncMoQs_HNmY?t=';
+    const double startSecondsfour = 0000000000000000000000000004165;
+    const String videoIdfive = 'https://youtu.be/K7XKmrGwmgY?t=';
+    const double startSecondsfive = 000000000000000000000000000814;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insistence""",
                       // alsoEnglishWord: "also: insistence",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪstəns/""",
+                      americanText: """IpaUS: /ɪnˈsɪstəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەسەرسووربوون، هەتەری، پێچەقاندن، لەسەرڕۆیشتن، پێداگرتن، پێداگیری، وازنەهێنان، سمنجی، هەڵپێچان
 """),
 // With short examples define "insistence", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) داواکردنی یان گوتنی شتێک ە ڕەتکردنەوەی هەر دژبەری یان بیانوویەک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """At her insistence, the matter was dropped.""",
+                      kurdishText:
+                          """بە پێداگریی ئەو، بابەتەکە وازی لێهێندرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1012,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """No one was convinced by his insistence that he was not to blame.""",
+                      kurdishText:
+                          """هیچ کەس ڕازی نەبوو بە پێداگریی کە ئەو جێگای ڕەخنە نەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

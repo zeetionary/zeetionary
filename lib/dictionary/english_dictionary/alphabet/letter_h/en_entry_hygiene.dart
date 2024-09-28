@@ -1002,15 +1002,16 @@ ${englishMeaningConst.text}
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText:
-                          """The restaurant failed a hygiene inspection.""",
-                      kurdishText:
-                          """چێشتخانەکە لە پشکنینی پاک و خاوێنی دەرنەچوو.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
-                    ),
+                    // add_more_sentences
+                    // const DividerSentences(),
+                    // SentencesRow(
+                    //   englishText:
+                    //       """The restaurant failed a hygiene inspection.""",
+                    //   kurdishText:
+                    //       """چێشتخانەکە لە پشکنینی پاک و خاوێنی دەرنەچوو.""",
+                    //   onPressedBritish: () => speaksentence2("en-GB"),
+                    //   onPressedAmerican: () => speaksentence2("en-US"),
+                    // ),
                   ],
                 ),
               ),

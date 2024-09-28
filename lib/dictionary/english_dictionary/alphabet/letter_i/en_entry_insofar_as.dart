@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsofaras insofar as
-WORD_WEB insofar as insofar as insofar as
-haʊʊʊʊʊʊʊ4
+- Conjunction: insofar as
+- ​to the degree that
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insofar as";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He is correct, insofar as we have the facts.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I will help, insofar as I am able.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +922,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/DuFyGHgGIKg?t=';
+    const double startSecondsend = 000000000000000000000000000538;
+    const String videoIdone = 'https://youtu.be/SDkAGkd4NLc?t=';
+    const double startSecondsone = 000000000000000000000000000642;
+    const String videoIdtwo = 'https://youtu.be/mtDOr9UY-yk?t=';
+    const double startSecondstwo = 0000000000000000000000000006269;
+    const String videoIdthree = 'https://youtu.be/tYrdMjVXyNg?t=';
+    const double startSecondsthree = 000000000000000000000000000160;
+    const String videoIdfour = 'https://youtu.be/7D-gxaie6UI?t=';
+    const double startSecondsfour = 000000000000000000000000000556;
+    const String videoIdfive = 'https://youtu.be/eJ-WJssJgdg?t=';
+    const double startSecondsfive = 0000000000000000000000000003214;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insofar as""",
                       // alsoEnglishWord: "also: insofar as",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsəˈfɑːr əz/""",
+                      americanText: """IpaUS: /ˌɪnsəˈfɑːr əz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +987,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تا ئەو جێیەی، ئەوندەی کە
 """),
-// With short examples define "insofar as", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (لێکدەر) تا ئەو ئاستەی کە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He is correct, insofar as we have the facts.""",
+                      kurdishText:
+                          """ڕاستە، تا ئەو ئاستەی کە زانیاریمان هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1003,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I will help, insofar as I am able.""",
+                      kurdishText: """یارمەتی دەدەم هەتا بتوانم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

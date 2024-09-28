@@ -271,7 +271,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """He insisted on formal dress for dinner.""",
                       kurdishText:
-                          """پێداگیری کرد لەسەر جلوبەرگی فەرمی بۆ نانی نیوەڕۆ.""",
+                          """پێداگری کرد لەسەر جلوبەرگی فەرمی بۆ نانی نیوەڕۆ.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

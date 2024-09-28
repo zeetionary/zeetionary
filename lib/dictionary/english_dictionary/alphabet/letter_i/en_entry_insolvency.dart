@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsolvency insolvency
-WORD_WEB insolvency insolvency insolvency
-haʊʊʊʊʊʊʊ4
+- Noun: insolvency (Derived forms: insolvencies)
+1. The lack of financial resources
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insolvency";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The company is close to insolvency.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The country will face insolvency unless the government adopts cost-cutting measures.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/xX0ozxrZlEQ?t=';
+    const double startSecondsend = 000000000000000000000000000528;
+    const String videoIdone = 'https://youtu.be/cnfoTAxhpzQ?t=';
+    const double startSecondsone = 000000000000000000000000000327;
+    const String videoIdtwo = 'https://youtu.be/xrLrb1OQjGs?t=';
+    const double startSecondstwo = 0000000000000000000000000001403;
+    const String videoIdthree = 'https://youtu.be/hi9Rf0oLdHk?t=';
+    const double startSecondsthree = 0000000000000000000000000001815;
+    const String videoIdfour = 'https://youtu.be/vq4n3DXD7z0?t=';
+    const double startSecondsfour = 0000000000000000000000000003;
+    const String videoIdfive = 'https://youtu.be/0tJrla31t8I?t=';
+    const double startSecondsfive = 000000000000000000000000000711;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insolvency""",
                       // alsoEnglishWord: "also: insolvency",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɒlvənsi/""",
+                      americanText: """IpaUS: /ɪnˈsɑːlvənsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +988,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مایەپووچی، قەرزپێنەدانەوە، بەرشکست‌بوون، نابووتی،	داماویەتی
 """),
 // With short examples define "insolvency", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە نەتوانیت قەرزەکانت بدەیتەوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: bankruptcy"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The company is close to insolvency.""",
+                      kurdishText: """کۆمپانیاکە نزیکە لە مایەپووچی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1005,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The country will face insolvency unless the government adopts cost-cutting measures.""",
+                      kurdishText:
+                          """وڵاتەکە ڕووبەڕووی مایەپووچی دەبێتەوە مەگەر ئەوەی وڵاتەکە ڕێکاری کەمکردنەوەی خەرجی دەست پێبکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

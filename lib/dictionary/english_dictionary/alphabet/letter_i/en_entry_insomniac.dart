@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: insomniac (Derived forms: insomniacs)
+1. Someone who cannot sleep (- sleepless person)
 
-EnglishEntryinsomniac insomniac
-WORD_WEB insomniac insomniac insomniac
-haʊʊʊʊʊʊʊ4
+- Adjective: insomniac
+1. Without or unable to sleep (- sleepless, watchful)
+"insomniac old people";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insomniac";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He became an insomniac due to stress at work.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Jcp3BKtZC5w?t=';
+    const double startSecondsend = 00000000000000000000000000034;
+    const String videoIdone = 'https://youtu.be/5j-R06GLvvU?t=';
+    const double startSecondsone = 000000000000000000000000000673;
+    const String videoIdtwo = 'https://youtu.be/TmNARZonhvY?t=';
+    const double startSecondstwo = 00000000000000000000000000061;
+    const String videoIdthree = 'https://youtu.be/0j1YJ78oSaU?t=';
+    const double startSecondsthree = 00000000000000000000000000080;
+    const String videoIdfour = 'https://youtu.be/mFtItoFfUd8?t=';
+    const double startSecondsfour = 000000000000000000000000000552;
+    const String videoIdfive = 'https://youtu.be/tQDqlRQ7UJM?t=';
+    const double startSecondsfive = 00000000000000000000000000030;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insomniac""",
                       // alsoEnglishWord: "also: insomniac",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɒmniæk/""",
+                      americanText: """IpaUS: /ɪnˈsɑːmniæk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌خەو، خەوزڕاو، خەوڕەواو
 """),
-// With short examples define "insomniac", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە ناتوانێت بخەوێت بە ئاسانی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He became an insomniac due to stress at work.""",
+                      kurdishText: """بوو بە خەوزڕاوێک بەهۆی فشاری کارەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

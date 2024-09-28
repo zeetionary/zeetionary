@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsipid insipid
-WORD_WEB insipid insipid insipid
-haʊʊʊʊʊʊʊ4
+- Adjective: insipid
+1. Lacking taste, flavour or tang (- bland, flat, flavorless [US], flavourless [Brit, Cdn], savorless [US], savourless [Brit, Cdn], vapid)
+"insipid hospital food";
+ 
+2. Lacking interest, significance or impact (- jejune, wishy-washy [informal])
+"an insipid personality";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insipid";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The insipid coffee tasted watery.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""After an hour of insipid conversation, I left.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/E-POAKKH5IM?t=';
+    const double startSecondsend = 00000000000000000000000000096;
+    const String videoIdone = 'https://youtu.be/sY8aFSY2zv4?t=';
+    const double startSecondsone = 00000000000000000000000000010393;
+    const String videoIdtwo = 'https://youtu.be/ZFAL1g0lqpU?t=';
+    const double startSecondstwo = 000000000000000000000000000293;
+    const String videoIdthree = 'https://youtu.be/r6vxT9Y6CRs?t=';
+    const double startSecondsthree = 0000000000000000000000000002005;
+    const String videoIdfour = 'https://youtu.be/FCM-3jZ8dXY?t=';
+    const double startSecondsfour = 0000000000000000000000000004284;
+    const String videoIdfive = 'https://youtu.be/L4pqKCBQdoQ?t=';
+    const double startSecondsfive = 00000000000000000000000000072;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insipid""",
                       // alsoEnglishWord: "also: insipid",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪpɪd/""",
+                      americanText: """IpaUS: /ɪnˈsɪpɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +992,27 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌تام، بێ‌چێژ، بێ‌خوێ،	ناخۆش، ماندووکەر، وەڕەزکەر، ناسەرانج‌ڕاکێش، ناحەز، زەق
 """),
 // With short examples define "insipid", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە بە نزیکەیی هیچ تامی نییە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: flavourless"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The insipid coffee tasted watery.""",
+                      kurdishText: """قاوە بێتامەکە تامی ئاوی دەدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە جێگای سەرنجڕاکێش نییە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: dull"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """After an hour of insipid conversation, I left.""",
+                      kurdishText:
+                          """لە دوای یەک کاتژمێر لە گفتووگۆی وەڕەزکەر، ڕۆشتم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

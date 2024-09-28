@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: insolvent
+1. Unable to meet or discharge financial obligations
+"an insolvent person"; "an insolvent estate"
 
-EnglishEntryinsolvent insolvent
-WORD_WEB insolvent insolvent insolvent
-haʊʊʊʊʊʊʊ4
+- Noun: insolvent (Derived forms: insolvents)
+1. Someone who has insufficient assets to cover their debts (- bankrupt)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insolvent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The company has been declared insolvent.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/4cwXifDaCjE?t=';
+    const double startSecondsend = 0000000000000000000000000001433;
+    const String videoIdone = 'https://youtu.be/cnfoTAxhpzQ?t=';
+    const double startSecondsone = 000000000000000000000000000410;
+    const String videoIdtwo = 'https://youtu.be/hi9Rf0oLdHk?t=';
+    const double startSecondstwo = 000000000000000000000000000512;
+    const String videoIdthree = 'https://youtu.be/0tJrla31t8I?t=';
+    const double startSecondsthree = 000000000000000000000000000819;
+    const String videoIdfour = 'https://youtu.be/MbWo5Srm_M4?t=';
+    const double startSecondsfour = 000000000000000000000000000182;
+    const String videoIdfive = 'https://youtu.be/EgeV0n9L2es?t=';
+    const double startSecondsfive = 000000000000000000000000000559;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insolvent""",
                       // alsoEnglishWord: "also: insolvent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɒlvənt/""",
+                      americanText: """IpaUS: /ɪnˈsɑːlvənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مایەپووچ، قەرزپێنەدراوە، بەرشکست‌بوو، نابووت
 """),
 // With short examples define "insolvent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بەبێ پارەی پێویست بیت بۆ دانەوەی ئەوەی قەرزەکانت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: bankrupt"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The company has been declared insolvent.""",
+                      kurdishText: """کۆمپانیاکە بە مایەپووچ ڕاگەیەندراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

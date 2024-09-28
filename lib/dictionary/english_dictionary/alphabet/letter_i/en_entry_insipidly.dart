@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsipidly insipidly
-WORD_WEB insipidly insipidly insipidly
-haʊʊʊʊʊʊʊ4
+- Adverb: insipidly
+1. In an insipid manner
+"insipidly expressed thoughts"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insipidly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """I find most supermarket produce is hard, dry, and insipidly tasteless.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""It is an insipidly innocuous film.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oeMHMTAR_tY?t=';
+    const double startSecondsend = 00000000000000000000000000021;
+    const String videoIdone = 'https://youtu.be/gohKOJ7dieA?t=';
+    const double startSecondsone = 000000000000000000000000000972;
+    const String videoIdtwo = 'https://youtu.be/3kSXE9aENVE?t=';
+    const double startSecondstwo = 000000000000000000000000000140;
+    const String videoIdthree = 'https://youtu.be/1fl6jZRkkPI?t=';
+    const double startSecondsthree = 000000000000000000000000000444;
+    const String videoIdfour = 'https://youtu.be/QnQRFg4Vzus?t=';
+    const double startSecondsfour = 00000000000000000000000000010069;
+    const String videoIdfive = 'https://youtu.be/v3ymRPGMYes?t=';
+    const double startSecondsfive = 000000000000000000000000000117;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insipidly""",
                       // alsoEnglishWord: "also: insipidly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪpɪdli/""",
+                      americanText: """IpaUS: /ɪnˈsɪpɪdli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +992,27 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "insipidly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە بە نزیکەیی هیچ تامی نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I find most supermarket produce is hard, dry, and insipidly tasteless.""",
+                      kurdishText:
+                          """زۆرینەی بەرهەمی سوپەرمارکێت بە ڕەق، وشک، و بێ‌تامانە ناخۆش دەبینم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە جێگای سەرنجڕاکێش نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It is an insipidly innocuous film.""",
+                      kurdishText: """فیلمەکە ناخۆشانە بێ‌تامە.""",
+                      englishNote:
+                          """This means the film is bland and unexciting, with nothing offensive or impactful, making it forgettable and lacking in interest.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

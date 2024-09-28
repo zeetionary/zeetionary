@@ -52,13 +52,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinspire inspire
-WORD_WEB inspire inspire inspire
-haʊʊʊʊʊʊʊ4
+- Verb: inspire (Derived forms: inspired, inspires, inspiring)
+1. Heighten or intensify (- animate, invigorate, enliven, exalt)
+"These paintings inspire the imagination";
+ 
+2. Supply the inspiration for
+"The article about the artist inspired the exhibition of his recent work"
+ 
+3. Serve as the inciting cause of (- prompt, instigate)
+"She inspired me to call my relatives";
+ 
+4. Spur on or encourage especially by cheers and shouts (- cheer, root on [N. Amer, informal], urge, barrack [Austral, NZ], urge on, exhort)
+"The crowd inspired the demonstrating strikers";
+ 
+5. Fill with revolutionary ideas (- revolutionize, revolutionise [Brit])
+ 
+6. Draw in (air) (- inhale, breathe in)
+"The patient has trouble inspiring"; "The lung cancer patient cannot inspire air very well";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inspire";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -954,8 +966,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inspire""",
                       // alsoEnglishWord: "also: inspire",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈspaɪə(r)/""",
+                      americanText: """IpaUS: /ɪnˈspaɪər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

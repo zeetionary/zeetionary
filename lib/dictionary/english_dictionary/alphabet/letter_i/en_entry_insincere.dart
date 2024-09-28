@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsincere insincere
-WORD_WEB insincere insincere insincere
-haʊʊʊʊʊʊʊ4
+- Adjective: insincere
+1. Lacking sincerity
+"a charming but thoroughly insincere woman"; "their praise was extravagant and insincere"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insincere";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """And all this praise just because the poor man has died - doesn't it strike you as a bit insincere?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/WVzvTLSK5dY?t=';
+    const double startSecondsend = 00000000000000000000000000067;
+    const String videoIdone = 'https://youtu.be/Fkeltn6xVHs?t=';
+    const double startSecondsone = 000000000000000000000000000289;
+    const String videoIdtwo = 'https://youtu.be/QefprURGzzI?t=';
+    const double startSecondstwo = 000000000000000000000000000140;
+    const String videoIdthree = 'https://youtu.be/BItZw88qcpk?t=';
+    const double startSecondsthree = 00000000000000000000000000018;
+    const String videoIdfour = 'https://youtu.be/dLYUc5t6wag?t=';
+    const double startSecondsfour = 000000000000000000000000000587;
+    const String videoIdfive = 'https://youtu.be/ybM6nU9EU7Y?t=';
+    const double startSecondsfive = 00000000000000000000000000054;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insincere""",
                       // alsoEnglishWord: "also: insincere",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsɪnˈsɪə(r)/""",
+                      americanText: """IpaUS: /ˌɪnsɪnˈsɪr/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,17 +989,21 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕیایی‌باز، دووڕوو، ناڕاست، دووڕەنگ، ناسەرڕاستانە، ڕیایی‌بازانە، دووڕووانە، لە ڕووی قەلەودەلەوە
 """),
 // With short examples define "insincere", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە شتێک بڵێیت یان بکەیت کە باوەڕت پێی نییە یان مەبەستت نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """And all this praise just because the poor man has died - doesn't it strike you as a bit insincere?""",
+                      kurdishText:
+                          """هەموو ستایشکردنە تەنها لەبەرئەوەی پیاوە داماوەکە مردووە ـ ئەمە کەمێک وەک دووڕووی نایەتە پێش چاوت؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

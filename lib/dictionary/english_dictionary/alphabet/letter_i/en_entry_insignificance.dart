@@ -9,10 +9,12 @@ class EnglishEntryinsignificance extends StatefulWidget {
   const EnglishEntryinsignificance({super.key});
 
   @override
-  State<EnglishEntryinsignificance> createState() => _EnglishEntryinsignificanceState();
+  State<EnglishEntryinsignificance> createState() =>
+      _EnglishEntryinsignificanceState();
 }
 
-class _EnglishEntryinsignificanceState extends State<EnglishEntryinsignificance> {
+class _EnglishEntryinsignificanceState
+    extends State<EnglishEntryinsignificance> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsignificance insignificance
-WORD_WEB insignificance insignificance insignificance
-haʊʊʊʊʊʊʊ4
+- Noun: insignificance (Derived forms: insignificances)
+1. The quality of having little or no significance
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insignificance";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Her own problems paled into insignificance beside this terrible news.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Aoof8rEPQb0?t=';
+    const double startSecondsend = 000000000000000000000000000110;
+    const String videoIdone = 'https://youtu.be/YBx7ZT6FIrU?t=';
+    const double startSecondsone = 000000000000000000000000000195;
+    const String videoIdtwo = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondstwo = 00000000000000000000000000023792;
+    const String videoIdthree = 'https://youtu.be/vFANgWN2Ul0?t=';
+    const double startSecondsthree = 000000000000000000000000000577;
+    const String videoIdfour = 'https://youtu.be/wEPBoWJGfbU?t=';
+    const double startSecondsfour = 000000000000000000000000000277;
+    const String videoIdfive = 'https://youtu.be/PM7ap2CA_6U?t=';
+    const double startSecondsfive = 000000000000000000000000000592;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insignificance""",
                       // alsoEnglishWord: "also: insignificance",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsɪɡˈnɪfɪkəns/""",
+                      americanText: """IpaUS: /ˌɪnsɪɡˈnɪfɪkəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناگرنگی، پێشەم‌نەبوون، کەم‌گرنگی، بێ‌بایەخی، پڕوپووچی، بەکارنەهاتوویی، ئایەخی، هیچی، هیچەکەیی، بێ‌واتایی، بێ‌مانایی
 """),
 // With short examples define "insignificance", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە شتێک شایەنی گرنگی پێدان نەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her own problems paled into insignificance beside this terrible news.""",
+                      kurdishText:
+                          """کێشەکانی خۆی لە پاڵ هەواڵە دڵتەزێنەکەدا بە بێ‌بایەخی دەرکەوتن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsoluble insoluble
-WORD_WEB insoluble insoluble insoluble
-haʊʊʊʊʊʊʊ4
+- Adjective: insoluble
+1. (of a substance) incapable of being dissolved (- indissoluble)
+ 
+2. Without hope of solution
+"an insoluble problem"
+ 
+3. Admitting of no solution or explanation
+"an insoluble doubt"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insoluble";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The problem seemed insoluble.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""These chemicals are practically insoluble in water.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/K4Ze-Sp6aUE?t=';
+    const double startSecondsend = 000000000000000000000000000801;
+    const String videoIdone = 'https://youtu.be/uAJ6-X3ESS4?t=';
+    const double startSecondsone = 000000000000000000000000000350;
+    const String videoIdtwo = 'https://youtu.be/3eLVXX6aIig?t=';
+    const double startSecondstwo = 000000000000000000000000000370;
+    const String videoIdthree = 'https://youtu.be/HrBTbfrucGk?t=';
+    const double startSecondsthree = 000000000000000000000000000111;
+    const String videoIdfour = 'https://youtu.be/41IfdwLqtkA?t=';
+    const double startSecondsfour = 0000000000000000000000000002700;
+    const String videoIdfive = 'https://youtu.be/yMB2TvdmACU?t=';
+    const double startSecondsfive = 000000000000000000000000000367;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insoluble""",
                       // alsoEnglishWord: "also: insoluble",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɒljəbl/""",
+                      americanText: """IpaUS: /ɪnˈsɑːljəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +994,27 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەتوانەوەنەهاتوو، ناتوێتەوە، نەتواوە، نەتوواوە، ناچێتەوە، نەتوێنراو،	چارەسەرنەکراو، چارەسەر ناکرێ، بێ‌ڕێگاچارە، نەڕەواو
 """),
 // With short examples define "insoluble", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ناکرێت شیکار بکرێت یان تێگەشتنی بۆ بکرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The problem seemed insoluble.""",
+                      kurdishText: """کێشەکە چارەسەرنەکراو دیار بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە ناتوێتەوە لە شلە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """These chemicals are practically insoluble in water.""",
+                      kurdishText:
+                          """مادە کیمیاییەکان بە کرداری نەتواوەن لە ئاودا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

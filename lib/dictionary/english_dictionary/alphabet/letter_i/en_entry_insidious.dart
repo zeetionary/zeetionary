@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsidious insidious
-WORD_WEB insidious insidious insidious
-haʊʊʊʊʊʊʊ4
+- Adjective: insidious
+1. Beguiling but harmful
+"insidious pleasures"
+ 
+2. Intended to entrap
+ 
+3. Working or spreading in a hidden and usually injurious way (- pernicious, subtle)
+"glaucoma is an insidious disease";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insidious";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""High blood pressure is an insidious condition which has few symptoms.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/_9rucsh5brg?t=';
+    const double startSecondsend = 00000000000000000000000000015;
+    const String videoIdone = 'https://youtu.be/7Vm282YvOGw?t=';
+    const double startSecondsone = 0000000000000000000000000001023;
+    const String videoIdtwo = 'https://youtu.be/EmT0i0xG6zg?t=';
+    const double startSecondstwo = 0000000000000000000000000001607;
+    const String videoIdthree = 'https://youtu.be/8A3jiM2FNR8?t=';
+    const double startSecondsthree = 00000000000000000000000000055;
+    const String videoIdfour = 'https://youtu.be/4IaOeVgZ-wc?t=';
+    const double startSecondsfour = 000000000000000000000000000365;
+    const String videoIdfive = 'https://youtu.be/SHdc2DrprX0?t=';
+    const double startSecondsfive = 00000000000000000000000000021;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insidious""",
                       // alsoEnglishWord: "also: insidious",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪdiəs/""",
+                      americanText: """IpaUS: /ɪnˈsɪdiəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەفێڵ، بەئازار، ناپاک، پیس، بەزەڕ، خراپ، مەترسی‌دار، ئازاردەرانە، ناپاکانە، خاینانە،	بەرەبەرە، کەم‌کەم، هێواش، بێ‌دەنگ‌وهەرا
 """),
 // With short examples define "insidious", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بە هێواشی ڕوودەدات بەبێ ئەوەی هەستی پێ بکرێت، بەڵام زیانی خراپ دەگەیەنێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """High blood pressure is an insidious condition which has few symptoms.""",
+                      kurdishText: """فشاری خوێنی دۆخێکی خراپە کە کەم نیشانەی هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

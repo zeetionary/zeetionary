@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsistent insistent
-WORD_WEB insistent insistent insistent
-haʊʊʊʊʊʊʊ4
+- Adjective: insistent
+1. Repetitive and persistent (- repetitive)
+"the bluejay's insistent cry";
+ 
+2. Demanding attention (- clamant, crying, exigent, instant)
+"insistent hunger";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insistent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She didn't want to go but her brother was insistent.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Why are you so insistent that we leave tonight?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The insistent demands kept interrupting the meeting.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/lADBzq_CFwY?t=';
+    const double startSecondsend = 000000000000000000000000000741;
+    const String videoIdone = 'https://youtu.be/Js2UoMSumx4?t=';
+    const double startSecondsone = 000000000000000000000000000459;
+    const String videoIdtwo = 'https://youtu.be/xfLN3618gE8?t=';
+    const double startSecondstwo = 000000000000000000000000000296;
+    const String videoIdthree = 'https://youtu.be/LYUdnsIn5OU?t=';
+    const double startSecondsthree = 000000000000000000000000000517;
+    const String videoIdfour = 'https://youtu.be/djU7rduvo6s?t=';
+    const double startSecondsfour = 000000000000000000000000000309;
+    const String videoIdfive = 'https://youtu.be/runjda4La_4?t=';
+    const double startSecondsfive = 0000000000000000000000000001342;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insistent""",
                       // alsoEnglishWord: "also: insistent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪstənt/""",
+                      americanText: """IpaUS: /ɪnˈsɪstənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەسەرسوور، هەتەر، پێچەقاندوو، لەسەرڕۆیشتوو، پێداگرتوو، سەخت‌گر، پێداگیر، سمنج،	لەسەریەک، یەکبینە، بێ‌پسانەوە
 """),
 // With short examples define "insistent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ویستنی شتێک و بیانوو یان دژبەری ڕەتبکەیتەوە """),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She didn't want to go but her brother was insistent.""",
+                      kurdishText:
+                          """نەیدەویست بچێت بەڵام براکەی پێداگر بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1012,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Why are you so insistent that we leave tonight?""",
+                      kurdishText: """بۆچی پێداگری لەسەر ئەوەی ئەمشەو بچین؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە بۆ ماوەیەکی زۆر بەبێ وەستان بەردەوام دەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The insistent demands kept interrupting the meeting.""",
+                      kurdishText:
+                          """داوا بەردوامەکانی کۆبوونەوەکەی دەپچڕاند.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

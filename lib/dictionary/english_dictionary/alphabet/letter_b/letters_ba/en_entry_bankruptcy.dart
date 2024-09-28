@@ -135,6 +135,7 @@ class EnglishEntrybankruptcy extends StatelessWidget {
                           const DefinitionKurdish(
                               text:
                                   "١. (ناو) دۆخی بێ پارەیی بۆ دانەوەی ئەوەی قەرزاری"),
+                          const AlsoEnglishckb(word: "ھەروەھا: insolvency"),
                           SentencesRow(
                             englishText:
                                 "There could be further bankruptcies among small farmers.",

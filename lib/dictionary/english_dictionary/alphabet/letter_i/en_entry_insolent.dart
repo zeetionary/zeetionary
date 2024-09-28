@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsolent insolent
-WORD_WEB insolent insolent insolent
-haʊʊʊʊʊʊʊ4
+- Adjective: insolent
+1. Marked by casual disrespect (- impudent, snotty-nosed, flip)
+"the student was kept in for insolent behaviour";
+ 
+2. Unrestrained by convention or propriety (- audacious, barefaced, bodacious [N. Amer, informal], bald-faced, brassy, brazen, brazen-faced)
+"the modern world with its quick material successes and insolent belief in the boundless possibilities of progress";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insolent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His tone was insolent.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Students were often inattentive, sometimes even insolent, and showed relatively little interest in their work.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Ze9jxpur47M?t=';
+    const double startSecondsend = 000000000000000000000000000428;
+    const String videoIdone = 'https://youtu.be/83OQ9AqsYqU?t=';
+    const double startSecondsone = 000000000000000000000000000775;
+    const String videoIdtwo = 'https://youtu.be/P34ku_qSTHI?t=';
+    const double startSecondstwo = 00000000000000000000000000076;
+    const String videoIdthree = 'https://youtu.be/ip862UDIifQ?t=';
+    const double startSecondsthree = 0000000000000000000000000001086;
+    const String videoIdfour = 'https://youtu.be/3V-dmbxWcz4?t=';
+    const double startSecondsfour = 00000000000000000000000000010611;
+    const String videoIdfive = 'https://youtu.be/1jc30CC6Xiw?t=';
+    const double startSecondsfive = 000000000000000000000000000156;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insolent""",
                       // alsoEnglishWord: "also: insolent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnsələnt/""",
+                      americanText: """IpaUS: /ˈɪnsələnt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌شەرم، بێ‌حەیا، ڕوودار، ڕووهەڵماڵراو، بێ‌شەرمانە، سووکایەتی‌یانە
 """),
 // With short examples define "insolent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) تەواو بێ‌ڕێزانە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His tone was insolent.""",
+                      kurdishText: """تۆنی قسەکردنی بێ‌ڕێزانە بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Students were often inattentive, sometimes even insolent, and showed relatively little interest in their work.""",
+                      kurdishText:
+                          """قوتابییەکان زۆر جار بێ‌ئاگا بوون هەندێک جاریش بێ‌ڕێز، و بایەخێکی کەمیان بە کارەکانیان دەدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

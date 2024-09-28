@@ -134,7 +134,8 @@ class EnglishEntrybankrupt extends StatelessWidget {
 """),
                           const DefinitionKurdish(
                               text:
-                                  """١. (ھاوەڵناو) بەبێ پارەی پێویست بۆ دانەوەی ئەوەی قەرزاری"""),
+                                  """١. (ھاوەڵناو) کە بەبێ پارەی پێویست بیت بۆ دانەوەی ئەوەی قەرزەکانت"""),
+                          const AlsoEnglishckb(word: "ھەروەھا: insolvent"),
                           SentencesRow(
                             englishText:
                                 "She lost the house after she was made bankrupt.",

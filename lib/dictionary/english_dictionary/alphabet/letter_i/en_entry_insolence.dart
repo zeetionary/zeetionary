@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsolence insolence
-WORD_WEB insolence insolence insolence
-haʊʊʊʊʊʊʊ4
+- Noun: insolence (Derived forms: insolences)
+1. The trait of being rude and impertinent; inclined to take liberties (- crust, gall, impertinence, impudence, cheekiness, freshness)
+ 
+2. An offensive disrespectful impudent act
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insolence";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Her insolence cost her her job.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ijKAtzQY1wc?t=';
+    const double startSecondsend = 0000000000000000000000000002;
+    const String videoIdone = 'https://youtu.be/CwlTFQqdI3I?t=';
+    const double startSecondsone = 000000000000000000000000000154;
+    const String videoIdtwo = 'https://youtu.be/rGFmEJcTwwQ?t=';
+    const double startSecondstwo = 000000000000000000000000000529;
+    const String videoIdthree = 'https://youtu.be/7WEGIDZGZas?t=';
+    const double startSecondsthree = 00000000000000000000000000067;
+    const String videoIdfour = 'https://youtu.be/Nt4kCgt_Kj4?t=';
+    const double startSecondsfour = 000000000000000000000000000626;
+    const String videoIdfive = 'https://youtu.be/3V-dmbxWcz4?t=';
+    const double startSecondsfive = 0000000000000000000000000005805;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insolence""",
                       // alsoEnglishWord: "also: insolence",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnsələns/""",
+                      americanText: """IpaUS: /ˈɪnsələns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌شەرمی، ڕووداری، سووکایەتی، بێ‌ڕێزی، بێ‌حەیایی
 """),
 // With short examples define "insolence", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ڕەفتاری تەواو بێ‌ڕێزانە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her insolence cost her her job.""",
+                      kurdishText:
+                          """بێ‌ڕێزییەکەی بوو بە هۆکاری لەدەستچوونی کارەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

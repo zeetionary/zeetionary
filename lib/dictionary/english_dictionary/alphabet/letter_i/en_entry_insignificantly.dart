@@ -9,10 +9,12 @@ class EnglishEntryinsignificantly extends StatefulWidget {
   const EnglishEntryinsignificantly({super.key});
 
   @override
-  State<EnglishEntryinsignificantly> createState() => _EnglishEntryinsignificantlyState();
+  State<EnglishEntryinsignificantly> createState() =>
+      _EnglishEntryinsignificantlyState();
 }
 
-class _EnglishEntryinsignificantlyState extends State<EnglishEntryinsignificantly> {
+class _EnglishEntryinsignificantlyState
+    extends State<EnglishEntryinsignificantly> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsignificantly insignificantly
-WORD_WEB insignificantly insignificantly insignificantly
-haʊʊʊʊʊʊʊ4
+- Adverb: insignificantly
+1. In an insignificant manner
+"some people living insignificantly among us"
+ 
+2. Not to a significant degree or amount (- negligibly)
+"our budget will only be insignificantly affected by these new cuts";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insignificantly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Health officials dismiss the problem as insignificantly small.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/E01J_uAPM64?t=';
+    const double startSecondsend = 000000000000000000000000000243;
+    const String videoIdone = 'https://youtu.be/sY8aFSY2zv4?t=';
+    const double startSecondsone = 0000000000000000000000000005176;
+    const String videoIdtwo = 'https://youtu.be/UiBq5UKHnRs?t=';
+    const double startSecondstwo = 000000000000000000000000000241;
+    const String videoIdthree = 'https://youtu.be/yjeS0Q-KDvc?t=';
+    const double startSecondsthree = 0000000000000000000000000001896;
+    const String videoIdfour = 'https://youtu.be/FvGvE1P0_p0?t=';
+    const double startSecondsfour = 000000000000000000000000000471;
+    const String videoIdfive = 'https://youtu.be/U6fI3brP8V4?t=';
+    const double startSecondsfive = 0000000000000000000000000004084;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insignificantly""",
                       // alsoEnglishWord: "also: insignificantly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsɪɡˈnɪfɪkəntli/""",
+                      americanText: """IpaUS: /ˌɪnsɪɡˈnɪfɪkəntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناگرنگانە، هیچانە
 """),
 // With short examples define "insignificantly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە شتێک شایەنی گرنگی پێدان نەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Health officials dismiss the problem as insignificantly small.""",
+                      kurdishText:
+                          """بەرپرسە تەندرووستییەکان کێشەکەیان بە ناگرنگانە بچووک باسکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinspector inspector
-WORD_WEB inspector inspector inspector
-haʊʊʊʊʊʊʊ4
+- Noun: inspector (Derived forms: inspectors)
+1. A high ranking police officer
+ 
+2. An investigator who observes carefully (- examiner)
+"the inspector searched for clues";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inspector";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,50 +87,55 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He reached the rank of inspector.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""An inspector was sent to the scene of the incident.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Inspectors found that teaching standards were acceptable, but could be improved.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """The inspector found defects in the aircraft's construction.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""The document was duly signed by the inspector.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """A team of inspectors will be monitoring the efficiency of the new system.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak(
+        """Everything is hygienically wrapped, tested by health inspectors, and kept at a low temperature.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -926,21 +931,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/eT_Gzi0HN4E';
+    const double startSecondsend = 0;
+    const String videoIdone = 'https://youtu.be/1B9Kng2BN7s?t=';
+    const double startSecondsone = 0000000000000000000000000001832;
+    const String videoIdtwo = 'https://youtu.be/zz5MV_qB36Q?t=';
+    const double startSecondstwo = 000000000000000000000000000167;
+    const String videoIdthree = 'https://youtu.be/QLq6GEiHqR8?t=';
+    const double startSecondsthree = 000000000000000000000000000835;
+    const String videoIdfour = 'https://youtu.be/qg2nGY1aqlg?t=';
+    const double startSecondsfour = 0000000000000000000000000001370;
+    const String videoIdfive = 'https://youtu.be/wdLzMyqDuDY?t=';
+    const double startSecondsfive = 00000000000000000000000000012;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inspector""",
                       // alsoEnglishWord: "also: inspector",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈspektə(r)/""",
+                      americanText: """IpaUS: /ɪnˈspektər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +999,23 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inspector", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەفسەرێکی پلە ناوەند لە پۆلیسدا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He reached the rank of inspector.""",
+                      kurdishText: """گەشت بە پلەی پشکنەر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کەسێک کە کاری سەردانکردنی قوتابخانە، کارگە، هتد ــە بۆ پشکنین و زانینی ئەوەی یاساکان پەیڕەو دەکرێن و لە ستانداردێکی پەسەندکراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An inspector was sent to the scene of the incident.""",
+                      kurdishText: """پشکنەرێک نێردرا بۆ شوێنی ڕووداوەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1023,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Inspectors found that teaching standards were acceptable, but could be improved.""",
+                      kurdishText:
+                          "چاودێران بۆیان دەرکەوت کە ستانداردەکانی وانەوتنەوە خراپ نەبوون، بەڵام دەکرا باشتر کرابان.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1034,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The inspector found defects in the aircraft's construction.""",
+                      kurdishText:
+                          "پشکنەرەکە ھەڵەی دۆزییەوە لە درووستکردنی فڕۆکەکەدا.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1045,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The document was duly signed by the inspector.""",
+                      kurdishText:
+                          """بەڵگەنامەکە بە درووستی لەلایەن پشکنەرەکەوە واژۆکرا.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1044,8 +1056,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A team of inspectors will be monitoring the efficiency of the new system.""",
+                      kurdishText:
+                          """تیمێک لە پشکنەران چاودێریی کارامەیی سیستەمە تازەکە دەکەن.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1053,8 +1067,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Everything is hygienically wrapped, tested by health inspectors, and kept at a low temperature.""",
+                      kurdishText:
+                          """هەموو بە پاکی دەپێچرێتەوە، لەلایەن پشکنەرانی تەندرووستی دەپشکنرێت، و لە پلەی گەرمیی نزم هەڵدەگیرێت.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

@@ -172,7 +172,7 @@ ${englishMeaningConst.text}
                             englishText:
                                 "The Church insisted on abstention from all luxuries.",
                             kurdishText:
-                                "کڵێساکە پێداگیری دەکرد لە خۆبەدوورگرتن لە ھەموو جۆرە شتێکی جوان.",
+                                "کڵێساکە پێداگری دەکرد لە خۆبەدوورگرتن لە ھەموو جۆرە شتێکی جوان.",
                             onPressedBritish: () => speaka26983("en-GB"),
                             onPressedAmerican: () => speaka26983("en-US"),
                           ),

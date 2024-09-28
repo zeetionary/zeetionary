@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsight insight
-WORD_WEB insight insight insight
-haʊʊʊʊʊʊʊ4
+- Noun: insight (Derived forms: insights)
+1. Clear or deep perception of a situation (- penetration)
+ 
+2. A feeling of understanding (- perceptiveness, perceptivity)
+ 
+3. The clear (and often sudden) understanding of a complex situation (- brainstorm, brainwave)
+ 
+4. Grasping the inner nature of things intuitively (- sixth sense)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insight";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His work offers several useful insights.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Now is the time to apply the insights you have gained from your studies.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -109,56 +112,63 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """The study of Roman coinage provides insights into Roman history and culture.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """Jane Austen's correspondence with her sister provides insights into her life and thoughts.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """Demographical data from the 1950s provides insights into societal changes.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak(
+        """Her letters offer a fascinating insight into early Victorian family life.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak(
+        """A little less glibness and a little more insight would give the show more depth.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak(
+        """The study of Roman coinage provides insights into Roman history and culture.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak(
+        """The play offers some illuminating insights into the King’s character.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak("""She was a writer of great insight.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
@@ -926,21 +936,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/lGSOWwUvJiU?t=';
+    const double startSecondsend = 0000000000000000000000000001770;
+    const String videoIdone = 'https://youtu.be/hOUGNGWmN0k?t=';
+    const double startSecondsone = 00000000000000000000000000055;
+    const String videoIdtwo = 'https://youtu.be/DxL2HoqLbyA?t=';
+    const double startSecondstwo = 000000000000000000000000000236;
+    const String videoIdthree = 'https://youtu.be/5R65skWdg7Y?t=';
+    const double startSecondsthree = 0000000000000000000000000001782;
+    const String videoIdfour = 'https://youtu.be/0PufM6dW_to?t=';
+    const double startSecondsfour = 00000000000000000000000000078;
+    const String videoIdfive = 'https://youtu.be/fHsa9DqmId8?t=';
+    const double startSecondsfive = 000000000000000000000000000872;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +962,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insight""",
                       // alsoEnglishWord: "also: insight",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnsaɪt/""",
+                      americanText: """IpaUS: /ˈɪnsaɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,25 +1001,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بینین، بینشت، دەروون‌بینی، ڕاستی‌بینی، تێڕوانین، بینایی، ڕێبەدی‌کردن، ڕاستی‌تێگەیشتن، زووپێزانین، تێگەیشتوویی، تێگەیشتن، پێزانین
 """),
 // With short examples define "insight", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) تێگەشتنی ئەوەی شتێک چۆنە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His work offers several useful insights.""",
+                      kurdishText:
+                          """کارەکەی ژمارەیەک تێگەشتنی باش دەدات بە دەستەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
@@ -1026,8 +1027,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The study of Roman coinage provides insights into Roman history and culture.""",
+                      kurdishText:
+                          "لێکۆڵینەوە لە دراوی ڕۆم زانیاری دەدات بەدەستەوە لەسەر مێژوو و کەلتووری ڕۆم.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1038,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Jane Austen's correspondence with her sister provides insights into her life and thoughts.""",
+                      kurdishText:
+                          "نامەگۆڕینەوەی خەین ئۆستن لەگەڵ خوشکەکەی تێگەشتن دەدات بەدەستەوە لەسەر ژیان و بیرکردنەوەی.",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1044,8 +1049,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Demographical data from the 1950s provides insights into societal changes.""",
+                      kurdishText:
+                          "ئاماری دیموگرافییانە لە ١٩٥٠ ـیەکانەوە بەرچاوڕوونی بۆ گۆڕانە کۆمەڵایەتییەکان پیشان دەدات",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1053,8 +1060,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her letters offer a fascinating insight into early Victorian family life.""",
+                      kurdishText:
+                          """نامەکەی تێڕوانینێکی سەرنجڕاکێش دەبەخشێت بە سەرەتای ژیانی خێزانی سەردەمی شاژن ڤیکتۆریا.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1062,8 +1071,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A little less glibness and a little more insight would give the show more depth.""",
+                      kurdishText:
+                          """کەمێک کەمتر لە خەیاڵپڵاوی و تێڕوانینی زیاتر قووڵی زیاتر دەدات بە نمایشەکە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -1071,8 +1082,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The study of Roman coinage provides insights into Roman history and culture.""",
+                      kurdishText:
+                          "لێکۆڵینەوە لە دراوی ڕۆم زانیاری دەدات بەدەستەوە لەسەر مێژوو و کەلتووری ڕۆم.",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -1080,19 +1093,35 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The play offers some illuminating insights into the King’s character.""",
+                      kurdishText:
+                          """شانۆکە هەندێک تێگەشتنی ڕۆشن‌کەرەوە دەخاتە بەردەست لەسەر کەسایەتی پاشا.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) توانای بینین و تێگەشتن لە ڕاستی کەسێک یان دۆخێک"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: """She was a writer of great insight.""",
+                      kurdishText:
+                          """نووسەرێکی خاوەن توانای تێگەشتنی زۆر بوو.""",
+                      onPressedBritish: () => speaksentence11("en-GB"),
+                      onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence11("en-GB"),
-                      onPressedAmerican: () => speaksentence11("en-US"),
+                      englishText:
+                          """Now is the time to apply the insights you have gained from your studies.""",
+                      kurdishText:
+                          "ئێستا کاتی بەکارھێنانی ئەو توانایانەیە کە لە خوێندن فێریان بوویت.",
+                      onPressedBritish: () => speaksentence2("en-GB"),
+                      onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),

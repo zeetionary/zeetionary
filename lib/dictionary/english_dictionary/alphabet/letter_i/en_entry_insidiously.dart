@@ -9,7 +9,8 @@ class EnglishEntryinsidiously extends StatefulWidget {
   const EnglishEntryinsidiously({super.key});
 
   @override
-  State<EnglishEntryinsidiously> createState() => _EnglishEntryinsidiouslyState();
+  State<EnglishEntryinsidiously> createState() =>
+      _EnglishEntryinsidiouslyState();
 }
 
 class _EnglishEntryinsidiouslyState extends State<EnglishEntryinsidiously> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsidiously insidiously
-WORD_WEB insidiously insidiously insidiously
-haʊʊʊʊʊʊʊ4
+- Adverb: insidiously
+1. In a harmfully insidious manner (- perniciously)
+"these drugs act insidiously";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insidiously";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""This kind of advertising acts insidiously on young minds.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hSNWkRw53Jo?t=';
+    const double startSecondsend = 0000000000000000000000000008308;
+    const String videoIdone = 'https://youtu.be/zb7Bs98KmnY?t=';
+    const double startSecondsone = 00000000000000000000000000063;
+    const String videoIdtwo = 'https://youtu.be/Qyrjgf-_Vdk?t=';
+    const double startSecondstwo = 0000000000000000000000000004070;
+    const String videoIdthree = 'https://youtu.be/yD07jq5nYB0?t=';
+    const double startSecondsthree = 0000000000000000000000000003185;
+    const String videoIdfour = 'https://youtu.be/SYiYCEoofp4?t=';
+    const double startSecondsfour = 000000000000000000000000000228;
+    const String videoIdfive = 'https://youtu.be/UZBQ4oXhm-k?t=';
+    const double startSecondsfive = 000000000000000000000000000162;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insidiously""",
                       // alsoEnglishWord: "also: insidiously",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪdiəsli/""",
+                      americanText: """IpaUS: /ɪnˈsɪdiəsli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بە شێوەیەکی خراپ، ئازاردەرانە، ناپاکانە، خاینانە
 """),
 // With short examples define "insidiously", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە بە هێواشی ڕوودەدات بەبێ ئەوەی هەستی پێ بکرێت، بەڵام زیانی خراپ دەگەیەنێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This kind of advertising acts insidiously on young minds.""",
+                      kurdishText:
+                          """ئەم جۆرە لە بانگەشە بە شێوەیەکی خراپ کاریگەری دەبێت لەسەر کەسانی گەنج.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

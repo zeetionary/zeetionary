@@ -9,7 +9,8 @@ class EnglishEntryinsincerely extends StatefulWidget {
   const EnglishEntryinsincerely({super.key});
 
   @override
-  State<EnglishEntryinsincerely> createState() => _EnglishEntryinsincerelyState();
+  State<EnglishEntryinsincerely> createState() =>
+      _EnglishEntryinsincerelyState();
 }
 
 class _EnglishEntryinsincerelyState extends State<EnglishEntryinsincerely> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsincerely insincerely
-WORD_WEB insincerely insincerely insincerely
-haʊʊʊʊʊʊʊ4
+- Adverb: insincerely
+1. Without sincerity
+"she congratulated him somewhat insincerely"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insincerely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She smiled insincerely at Howard from time to time.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He sent his love insincerely to Kate and hung up.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/1X_KdkoGxSs?t=';
+    const double startSecondsend = 0000000000000000000000000003197;
+    const String videoIdone = 'https://youtu.be/ko938Us5gqQ?t=';
+    const double startSecondsone = 0000000000000000000000000001181;
+    const String videoIdtwo = 'https://youtu.be/OKEtoTKULyk?t=';
+    const double startSecondstwo = 00000000000000000000000000010;
+    const String videoIdthree = 'https://youtu.be/20FLVfybuRc?t=';
+    const double startSecondsthree = 0000000000000000000000000001633;
+    const String videoIdfour = 'https://youtu.be/aE5S-xl6lUc?t=';
+    const double startSecondsfour = 000000000000000000000000000396;
+    const String videoIdfive = 'https://youtu.be/U65142yh3PI?t=';
+    const double startSecondsfive = 0000000000000000000000000001167;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insincerely""",
                       // alsoEnglishWord: "also: insincerely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsɪnˈsɪəli/""",
+                      americanText: """IpaUS: /ˌɪnsɪnˈsɪrli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕیایی‌باز، دووڕوو، ناڕاست، دووڕەنگ، ناسەرڕاستانە، دووڕووانە
 """),
 // With short examples define "insincerely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە شتێک بڵێیت یان بکەیت کە باوەڕت پێی نییە یان مەبەستت نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She smiled insincerely at Howard from time to time.""",
+                      kurdishText:
+                          """جار جار بە ناڕاستانە پێکەنینی بۆ هاوارد دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He sent his love insincerely to Kate and hung up.""",
+                      kurdishText:
+                          """بە نابەدڵی بە کەیتی گوت خۆشم دەوێیت و دایخستەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -241,8 +241,7 @@ class KurdishMeaning extends StatelessWidget {
           SentencesRow(
             englishText:
                 "They insisted that the property had not been acquired corruptly.",
-            kurdishText:
-                "پێداگیریان دەکرد کە زەوییەکە بە خراپی بەدەستنەھاتووە.",
+            kurdishText: "پێداگریان دەکرد کە زەوییەکە بە خراپی بەدەستنەھاتووە.",
             onPressedBritish: () => speakcorruptlys2("en-GB"),
             onPressedAmerican: () => speakcorruptlys2("en-US"),
           ),

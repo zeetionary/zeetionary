@@ -9,7 +9,8 @@ class EnglishEntryinsignificant extends StatefulWidget {
   const EnglishEntryinsignificant({super.key});
 
   @override
-  State<EnglishEntryinsignificant> createState() => _EnglishEntryinsignificantState();
+  State<EnglishEntryinsignificant> createState() =>
+      _EnglishEntryinsignificantState();
 }
 
 class _EnglishEntryinsignificantState extends State<EnglishEntryinsignificant> {
@@ -52,13 +53,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsignificant insignificant
-WORD_WEB insignificant insignificant insignificant
-haʊʊʊʊʊʊʊ4
+- Adjective: insignificant
+1. Devoid of importance, meaning, or force (- unimportant)
+ 
+2. Signifying nothing
+"insignificant sounds"
+ 
+3. Of little importance, influence or power; of minor status (- peanut)
+"a minor, insignificant bureaucrat";
+ 
+4. Small and unimpressive (- dinky [informal])
+"an insignificant sum of money";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insignificant";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +94,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The levels of chemicals in the river are not insignificant.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """My own problems seem insignificant compared with other people's.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The novel suffers from a disjointed plot and insignificant characters.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +935,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/zqllxbPWKNI?t=';
+    const double startSecondsend = 00000000000000000000000000065;
+    const String videoIdone = 'https://youtu.be/hBmj4rs1KrI?t=';
+    const double startSecondsone = 00000000000000000000000000020;
+    const String videoIdtwo = 'https://youtu.be/wVyu7NB7W6Y?t=';
+    const double startSecondstwo = 0000000000000000000000000001649;
+    const String videoIdthree = 'https://youtu.be/9hdT8PgT19w?t=';
+    const double startSecondsthree = 000000000000000000000000000244;
+    const String videoIdfour = 'https://youtu.be/mr7FXvTSYpA?t=';
+    const double startSecondsfour = 00000000000000000000000000048;
+    const String videoIdfive = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsfive = 0000000000000000000000000006842;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +961,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insignificant""",
                       // alsoEnglishWord: "also: insignificant",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsɪɡˈnɪfɪkənt/""",
+                      americanText: """IpaUS: /ˌɪnsɪɡˈnɪfɪkənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1000,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناگرنگ، هیچەکە، تڕکەن، هیچ، بێ‌بایەخ، ناقابیل، پڕوپووچ، بێ‌ڕیز، بێ‌قەدر، بێ‌حورمەت، ناچیزە، ئایەخ، بەکارنەهاتوو، کەم، بێ‌واتا، بێ‌مانا
 """),
 // With short examples define "insignificant", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە شتێک شایەنی گرنگی پێدان نەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The levels of chemicals in the river are not insignificant.""",
+                      kurdishText:
+                          """ئاستی مادە کیمیاییەکان لە ڕووبارەکە ئەوە نییە ناگرنگ بێت.""",
+                      kurdishNote: """واتا بە ئاستێکە کە جێگای نیگەرانییە""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1017,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """My own problems seem insignificant compared with other people's.""",
+                      kurdishText:
+                          "کێشەکانی من بێ‌بایەخ دەردەکەون بەراورد بەوانەی کەسانی دیکە.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1028,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The novel suffers from a disjointed plot and insignificant characters.""",
+                      kurdishText:
+                          "ڕۆمانەکە کێشەی داڕشتنی بێ‌سەروبەری ھەیە لەگەڵ کارەکتەری ناگرنگ.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

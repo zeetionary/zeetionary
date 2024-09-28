@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsignia insignia
-WORD_WEB insignia insignia insignia
-haʊʊʊʊʊʊʊ4
+- Noun: insignia (Derived forms: insignias)
+1. A badge worn to show official position
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insignia";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His uniform bore the insignia of a captain.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +922,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/H7Quhnm-Z8A?t=';
+    const double startSecondsend = 000000000000000000000000000549;
+    const String videoIdone = 'https://youtu.be/vsMydMDi3rI?t=';
+    const double startSecondsone = 000000000000000000000000000749;
+    const String videoIdtwo = 'https://youtu.be/BBnlC9lrKVM?t=';
+    const double startSecondstwo = 000000000000000000000000000737;
+    const String videoIdthree = 'https://youtu.be/PhQksV8fbKw?t=';
+    const double startSecondsthree = 0000000000000000000000000001059;
+    const String videoIdfour = 'https://youtu.be/2IOyQlZRKhQ?t=';
+    const double startSecondsfour = 00000000000000000000000000073;
+    const String videoIdfive = 'https://youtu.be/GYNsox4n9l0?t=';
+    const double startSecondsfive = 000000000000000000000000000168;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insignia""",
                       // alsoEnglishWord: "also: insignia",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɪɡniə/""",
+                      americanText: """IpaUS: /ɪnˈsɪɡniə/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +987,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نیشانە، دروشم، بەرژەنگ، زناک، هێما، ئاڕم
 """),
 // With short examples define "insignia", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) نیشانە، باج، یان ئاماژەیەک کە پلە یان گرووپی کەسێک دیاری دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His uniform bore the insignia of a captain.""",
+                      kurdishText:
+                          """جلە یەکپۆشییەکەی پلەی کاپتنی لەسەر بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

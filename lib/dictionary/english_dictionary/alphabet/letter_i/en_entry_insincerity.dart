@@ -9,7 +9,8 @@ class EnglishEntryinsincerity extends StatefulWidget {
   const EnglishEntryinsincerity({super.key});
 
   @override
-  State<EnglishEntryinsincerity> createState() => _EnglishEntryinsincerityState();
+  State<EnglishEntryinsincerity> createState() =>
+      _EnglishEntryinsincerityState();
 }
 
 class _EnglishEntryinsincerityState extends State<EnglishEntryinsincerity> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsincerity insincerity
-WORD_WEB insincerity insincerity insincerity
-haʊʊʊʊʊʊʊ4
+- Noun: insincerity (Derived forms: insincerities)
+1. The quality of not being open or truthful; deceitful or hypocritical (- falseness, hollowness)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insincerity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She accused him of insincerity.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/H7haxkYwAaU?t=';
+    const double startSecondsend = 0000000000000000000000000001004;
+    const String videoIdone = 'https://youtu.be/0MMTa_tk5NM?t=';
+    const double startSecondsone = 00000000000000000000000000064;
+    const String videoIdtwo = 'https://youtu.be/uqWgRoV_QnY?t=';
+    const double startSecondstwo = 000000000000000000000000000490;
+    const String videoIdthree = 'https://youtu.be/lWeaWLxwQLo?t=';
+    const double startSecondsthree = 0000000000000000000000000001576;
+    const String videoIdfour = 'https://youtu.be/wudoSFuc4Dc?t=';
+    const double startSecondsfour = 00000000000000000000000000099;
+    const String videoIdfive = 'https://youtu.be/idZUsjVioDQ?t=';
+    const double startSecondsfive = 000000000000000000000000000649;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insincerity""",
                       // alsoEnglishWord: "also: insincerity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsɪnˈserəti/""",
+                      americanText: """IpaUS: /ˌɪnsɪnˈserəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,17 +988,19 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕیایی‌بازی، دووڕوویی، ناڕاستی، دووڕەنگی، ناسەرڕاستی، قەلەودەلە
 """),
 // With short examples define "insincerity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە شتێک بڵێیت یان بکەیت کە باوەڕت پێی نییە یان مەبەستت نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She accused him of insincerity.""",
+                      kurdishText: """بە دووڕووی تۆمەتباری کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

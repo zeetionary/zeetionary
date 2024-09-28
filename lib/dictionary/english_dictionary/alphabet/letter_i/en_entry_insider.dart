@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsider insider
-WORD_WEB insider insider insider
-haʊʊʊʊʊʊʊ4
+- Noun: insider (Derived forms: insiders)
+1. An officer of a corporation or others who have access to private information about the corporation's operations
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insider";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """According to insiders, the committee is having difficulty making up its mind.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SrDEtSlqJC4?t=';
+    const double startSecondsend = 000000000000000000000000000216;
+    const String videoIdone = 'https://youtu.be/0zXfDafyyao?t=';
+    const double startSecondsone = 000000000000000000000000000109;
+    const String videoIdtwo = 'https://youtu.be/g01YnqH-2ek?t=';
+    const double startSecondstwo = 00000000000000000000000000034;
+    const String videoIdthree = 'https://youtu.be/4Ep9N4tJjOc?t=';
+    const double startSecondsthree = 000000000000000000000000000940;
+    const String videoIdfour = 'https://youtu.be/ycFziHLcxdY?t=';
+    const double startSecondsfour = 000000000000000000000000000845;
+    const String videoIdfive = 'https://youtu.be/V2ec7EE0pB8?t=';
+    const double startSecondsfive = 0000000000000000000000000001584;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insider""",
                       // alsoEnglishWord: "also: insider",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsaɪdə(r)/""",
+                      americanText: """IpaUS: /ɪnˈsaɪdər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +991,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "insider", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە زۆر لەسەر گرووپێک یان دامەزراوەیەک دەزانێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """According to insiders, the committee is having difficulty making up its mind.""",
+                      kurdishText:
+                          """بەپێی سەرچاوە نزیکەکان/ناوخۆییەکان، لیژنەکە کێشەی هەیە لە بڕیاردان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

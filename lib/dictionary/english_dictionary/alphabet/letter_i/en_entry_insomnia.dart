@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsomnia insomnia
-WORD_WEB insomnia insomnia insomnia
-haʊʊʊʊʊʊʊ4
+- Noun: insomnia (Derived forms: insomnias)
+1. An inability to sleep; chronic sleeplessness
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insomnia";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She drank a sleeping draught to help with her insomnia.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/b1reY72ktEc?t=';
+    const double startSecondsend = 0000000000000000000000000001261;
+    const String videoIdone = 'https://youtu.be/8eq2vGEEbB4?t=';
+    const double startSecondsone = 000000000000000000000000000645;
+    const String videoIdtwo = 'https://youtu.be/OPVZcsdy9RY?t=';
+    const double startSecondstwo = 000000000000000000000000000124;
+    const String videoIdthree = 'https://youtu.be/ysTPxUZnZaU?t=';
+    const double startSecondsthree = 000000000000000000000000000485;
+    const String videoIdfour = 'https://youtu.be/K0j2dlBMzUs?t=';
+    const double startSecondsfour = 0000000000000000000000000001244;
+    const String videoIdfive = 'https://youtu.be/owMlmhvik_0?t=';
+    const double startSecondsfive = 000000000000000000000000000192;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insomnia""",
                       // alsoEnglishWord: "also: insomnia",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɒmniə/""",
+                      americanText: """IpaUS: /ɪnˈsɑːmniə/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,14 +991,17 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "insomnia", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) ئەوەی کە نەتوانیت بخەویت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She drank a sleeping draught to help with her insomnia.""",
+                      kurdishText:
+                          "گیراوەیەکی خەوی خواردەوە بۆ نەھێشتنی خەوزڕانەکەی.",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

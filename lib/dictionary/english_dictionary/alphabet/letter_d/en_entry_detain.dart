@@ -329,7 +329,6 @@ ${englishMeaningConst.text}
     });
   }
 
-// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Verb: detain (derived forms: detaining, detains, detained)

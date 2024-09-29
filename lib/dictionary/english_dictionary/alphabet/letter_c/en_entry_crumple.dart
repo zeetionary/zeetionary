@@ -317,7 +317,6 @@ ${englishMeaningConst.text}
     });
   }
 
-// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Verb: crumple (derived forms: crumpled, crumples, crumpling)

@@ -314,7 +314,6 @@ ${englishMeaningConst.text}
     });
   }
 
-// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Verb: devote (derived forms: devoting, devotes, devoted)

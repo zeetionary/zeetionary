@@ -293,7 +293,6 @@ ${englishMeaningConst.text}
     });
   }
 
-// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Verb: deplete (derived forms: depleting, depletes, depleted)

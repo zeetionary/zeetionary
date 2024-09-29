@@ -346,7 +346,6 @@ ${englishMeaningConst.text}
     });
   }
 
-// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Phrasal verb: derive from (derived forms: derives from, derived from, deriving from)

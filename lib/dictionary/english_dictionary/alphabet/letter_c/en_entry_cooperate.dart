@@ -219,7 +219,6 @@ ${englishMeaningConst.text}
     });
   }
 
-// Create an instance of EnglishMeaningConst with the desired text
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 - Verb: cooperate (derived forms: co-operates, co-operating, cooperated, co-operated, cooperating, cooperates)

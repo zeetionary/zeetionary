@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: instance (Derived forms: instances)
+1. An occurrence of something (- case, example)
+"another instance occurred yesterday";
+ 
+2. An item of information that is typical of a class or group (- example, illustration, representative, exemplum)
 
-EnglishEntryinstance instance
-WORD_WEB instance instance instance
-haʊʊʊʊʊʊʊ4
+- Verb: instance (Derived forms: instancing, instanced, instances)
+1. Clarify by giving an example of (- exemplify, illustrate, example [rare])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instance";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -954,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instance""",
                       // alsoEnglishWord: "also: instance",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnstəns/""",
+                      americanText: """IpaUS: /ˈɪnstəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

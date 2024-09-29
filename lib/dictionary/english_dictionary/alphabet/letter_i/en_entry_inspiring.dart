@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinspiring inspiring
-WORD_WEB inspiring inspiring inspiring
-haʊʊʊʊʊʊʊ4
+- Adjective: inspiring
+1. Stimulating or exalting to the spirit
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inspiring";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The book is less than inspiring.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""None of the leaders seems very inspiring.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +922,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/R_fZjGm2OrM?t=';
+    const double startSecondsend = 000000000000000000000000000155;
+    const String videoIdone = 'https://youtu.be/PXsZntwnArQ?t=';
+    const double startSecondsone = 00000000000000000000000000028;
+    const String videoIdtwo = 'https://youtu.be/Va_XMMR4R2I?t=';
+    const double startSecondstwo = 000000000000000000000000000427;
+    const String videoIdthree = 'https://youtu.be/7XLd9zX6PqU?t=';
+    const double startSecondsthree = 000000000000000000000000000462;
+    const String videoIdfour = 'https://youtu.be/ZvGFV1WoVeo?t=';
+    const double startSecondsfour = 000000000000000000000000000192;
+    const String videoIdfive = 'https://youtu.be/3RkhZgRNC1k?t=';
+    const double startSecondsfive = 0000000000000000000000000002077;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inspiring""",
                       // alsoEnglishWord: "also: inspiring",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈspaɪərɪŋ/""",
+                      americanText: """IpaUS: /ɪnˈspaɪərɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +987,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: 	سەرۆدەر،	هاندەر، هیواپێدەر، دڵگەرم‌کەر، ورووژێنەر
 """),
 // With short examples define "inspiring", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە هانت دەدات شتێک بکەیت یان هەستی پێ بکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The book is less than inspiring.""",
+                      kurdishText: """کتێبەکە زۆر جێگای هیوا نییە.""",
+                      englishNote:
+                          """This means the book is not very exciting or motivating, failing to generate much interest or enthusiasm.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1005,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """None of the leaders seems very inspiring.""",
+                      kurdishText:
+                          """هیچ کام لە سەرکردەکان زۆر هیوابەخش نین.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

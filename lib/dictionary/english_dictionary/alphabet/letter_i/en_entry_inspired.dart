@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinspired inspired
-WORD_WEB inspired inspired inspired
-haʊʊʊʊʊʊʊ4
+- Adjective: inspired
+1. Excellent, beautiful or creative (- divine, elysian)
+"an inspired performance";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inspired";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He has some truly inspired ideas about life.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Politically inspired violence spread across the city.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hS2x1zl4rn0?t=';
+    const double startSecondsend = 0000000000000000000000000001333;
+    const String videoIdone = 'https://youtu.be/7j5ul4XBjAI?t=';
+    const double startSecondsone = 000000000000000000000000000174;
+    const String videoIdtwo = 'https://youtu.be/aAByKcPJ5NQ?t=';
+    const double startSecondstwo = 0000000000000000000000000007;
+    const String videoIdthree = 'https://youtu.be/8CUUFpRYtN4?t=';
+    const double startSecondsthree = 000000000000000000000000000102;
+    const String videoIdfour = 'https://youtu.be/Unzc731iCUY?t=';
+    const double startSecondsfour = 0000000000000000000000000002230;
+    const String videoIdfive = 'https://youtu.be/57nZ7LaVAH0?t=';
+    const double startSecondsfive = 000000000000000000000000000107;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inspired""",
                       // alsoEnglishWord: "also: inspired",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈspaɪəd/""",
+                      americanText: """IpaUS: /ɪnˈspaɪərd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +989,32 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داهێنەر، تازەگەر،	ئیلهام‌کراو، سەرۆیی، ئاسمانی
 """),
 // With short examples define "inspired", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە خاسیەت و توانای باشی هەبێت؛ کە لە ئیلهامەوە سەرچاوەی گرتووە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He has some truly inspired ideas about life.""",
+                      kurdishText:
+                          """ژمارەیەک بیرۆکەی بەڕاستی داهێنەرانەی هەیە.""",
+                      englishNote:
+                          """This means his ideas about life are exceptionally creative, insightful, and full of original thought, making them stand out as remarkable.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) لەگەڵ هاوەڵکار بەکاردێت بۆ پیشاندانی ئەوەی شتێک چۆن درووست بووە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Politically inspired violence spread across the city.""",
+                      kurdishText:
+                          """توندووتیژیی سیاسی بە شارەکەدا بڵاوبوویەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

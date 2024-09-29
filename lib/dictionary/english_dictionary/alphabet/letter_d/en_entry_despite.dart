@@ -235,7 +235,7 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak("He had to laugh despite himself.");
   }
-  
+
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
@@ -316,7 +316,6 @@ ${englishMeaningConst.text}
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
-    // Update the state to reflect that TTS is stopped
     setState(() {
       isSpeaking = false;
     });

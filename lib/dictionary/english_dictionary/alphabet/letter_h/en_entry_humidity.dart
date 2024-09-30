@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شێداری، نماوی‌بوون، نم‌داری، خاوی، تەڕی، هێویتی
 """),
-// With short examples define "humidity", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) شێداری؛ ڕێژەی ئاو لە هەوادا"""),
                     SentencesRow(

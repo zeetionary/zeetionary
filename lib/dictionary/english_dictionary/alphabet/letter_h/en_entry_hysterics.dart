@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لێهاتنی پرکام، لێهاتن یان هێرشی هیستریا،	پێکەنینی شێتانە و کۆنتڕۆڵ‌نەکراو، پیران، گەشکە(لێهاتن)، پێکەنینی خۆپێ‌ڕانەگیراو، خش
 """),
-// With short examples define "hysterics", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەربڕینی ترس، جۆش‌وخرۆشی، یان تووڕەیی زۆر کە وادەکات کەسێک کۆنترۆڵی هەستەکانی لەدەست بدات و بگری، پێبکەنێت، هتد"""),

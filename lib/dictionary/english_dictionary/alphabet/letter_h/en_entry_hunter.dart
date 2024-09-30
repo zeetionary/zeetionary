@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕاوچی، نێچیرڤان، شکاروان، شکارچی
 """),
-// With short examples define "hunter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک یان ئاژەڵێک کە ئاژەڵ ڕاو دەکات"""),

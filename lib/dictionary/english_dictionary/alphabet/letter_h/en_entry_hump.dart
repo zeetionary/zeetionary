@@ -997,7 +997,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کۆپارە، ملک، هەنج، دووگەوشتر،	زەقایی، قیتایی، قوتکە،	کووڕی، پشت‌کۆمی،	تەپۆڵکە، زورک، تەپ، گوژمە، گرد
 """),
-// With short examples define "hump", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچەیەکی گەورە کە لە شتێکەوە دەرچووە، بە تایبەتی لە ڕووی زەوییەوە"""),

@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: instinct (Derived forms: instincts)
+1. Inborn pattern of behaviour often responsive to specific stimuli (- inherent aptitude)
+"altruistic instincts in social animals"; "the spawning instinct in salmon";
+ 
+2. An intuitive judgement or feeling about the best way to act, not based on rational conscious thought
+"Debbie's instinct was to distrust John"
 
-EnglishEntryinstinct instinct
-WORD_WEB instinct instinct instinct
-haʊʊʊʊʊʊʊ4
+- Adjective: instinct
+1. (followed by 'with') deeply filled or permeated (- replete, imbued)
+"words instinct with love";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instinct";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +92,38 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She did not seem to have any of the usual maternal instincts.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Children do not know by instinct the difference between right and wrong.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""His first instinct was to run away.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""I've always trusted my instincts in the past.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """It's best to follow your first instincts in matters like this.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +933,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/MGO4_8YRKro?t=';
+    const double startSecondsend = 000000000000000000000000000419;
+    const String videoIdone = 'https://youtu.be/lex6USTugUU?t=';
+    const double startSecondsone = 000000000000000000000000000788;
+    const String videoIdtwo = 'https://youtu.be/PkUg89kLLBE?t=';
+    const double startSecondstwo = 000000000000000000000000000572;
+    const String videoIdthree = 'https://youtu.be/D8tPkb98Fkk?t=';
+    const double startSecondsthree = 000000000000000000000000000433;
+    const String videoIdfour = 'https://youtu.be/8eq2vGEEbB4?t=';
+    const double startSecondsfour = 000000000000000000000000000380;
+    const String videoIdfive = 'https://youtu.be/g9QneAV4fVo?t=';
+    const double startSecondsfive = 000000000000000000000000000670;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instinct""",
                       // alsoEnglishWord: "also: instinct",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnstɪŋkt/""",
+                      americanText: """IpaUS: /ˈɪnstɪŋkt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +998,19 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زگماک(ـە)، ئینتستینکت، واڕسک،	پژەڵ، پاگەز، مەیل، ویست، ویست یان شارەزایی سروشتی، ئینتیوشێن، هۆشی سروشتی گیانەوەران، توانایی زگماکی، مرخ
 """),
 // With short examples define "instinct", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) خاسیەتێکی سرووشتی کە وادەکات مرۆڤ و ئاژەڵان بە شێوەیەکی دیاریکراو ڕەفتار بکەن بەو زانیاری و توانایەی کە لە لەدایکبوونەوە هەیانە نەک بە بیرکردنەوە و ڕاهێنان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She did not seem to have any of the usual maternal instincts.""",
+                      kurdishText:
+                          """وەها دەرنەدەکەوت کە هیچ هەستێکی سرووشتیی دایکایەتیی هەبێت.""",
+                      englishNote:
+                          """This means she didn't appear to show the typical natural feelings or behaviors associated with being a mother, such as nurturing or protecting.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1018,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Children do not know by instinct the difference between right and wrong.""",
+                      kurdishText:
+                          """منداڵان بە توانای سرووشتی جیاوازیی نێوان ڕاست و هەڵە نازانن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,17 +1029,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His first instinct was to run away.""",
+                      kurdishText: """یەکەم کاردانەوەیی سرووشتیی ڕاکردن بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) هەستێک کە وەهات لێدەکات شتیک بکەیت یان باوەڕ بکەیت شتێک ڕاستە، ئەگەرچی پشتی بە ڕاستی یان شتێکی عاقڵانی نەبەستووە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: intuition"),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I've always trusted my instincts in the past.""",
+                      kurdishText:
+                          """هەمیشە لە ڕابردوودا متمانەم بە هەستە زگماکییەکانم هەبووە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1051,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It's best to follow your first instincts in matters like this.""",
+                      kurdishText:
+                          """وەها باشترە شوێن یەکەمین هەستەکانت بکەویت لە بابەتی وەهادا.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

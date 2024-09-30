@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "horticultural", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە لێکۆڵینەوە کاری چاندنی گوڵ، سەوزە، و میوە"""),

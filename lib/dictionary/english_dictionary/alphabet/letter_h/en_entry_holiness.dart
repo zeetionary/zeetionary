@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پاکی، پیرۆزی، پیرۆزێتی، پاکژی، پارێزگاری
 """),
-// With short examples define "holiness", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) پیرۆزی"""),
                     SentencesRow(
                       englishText:

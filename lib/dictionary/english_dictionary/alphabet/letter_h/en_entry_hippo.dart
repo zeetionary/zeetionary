@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hippo", please follow LX instructions
                     CustomRichText(
                       textBeforeLink: "١. بڕوانە لە ",
                       linkText: "hippopotamus",

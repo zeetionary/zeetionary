@@ -1000,7 +1000,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەڵەک، کۆما، کۆگا، لۆدە، دەستە، کۆمەڵە، جەماعەت، تاقم، خڕبوونەوە، گردبوونەوە
 """),
-// With short examples define "huddle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) پێکەوە کۆبوونەوە، زۆرجار بەهۆی سەرما یان ترس"""),

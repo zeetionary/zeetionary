@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hugely", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە ئاستێکی زۆر"""),
                     SentencesRow(

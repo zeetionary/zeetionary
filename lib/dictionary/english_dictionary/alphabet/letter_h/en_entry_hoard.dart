@@ -997,7 +997,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پاشکەوتە، پاشەمەند، ڤەبوور، گەنج، گەنجینە، خەزێنە
 """),
-// With short examples define "hoard", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کۆمەڵێک لە پارە، خواردن، شتی گران‌بەها، هتد، بە تایبەتی کە بە نهێنی هێڵدراوەتەوە بۆ ئەوەی کەسانی دیکە نەیدۆزنەوە یان بیدزن"""),

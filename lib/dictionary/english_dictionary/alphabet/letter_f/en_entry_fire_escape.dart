@@ -141,7 +141,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fire escape", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پلیکانەیەک لە دەرەوەی بینایەک کە دەکرێت بەکاربێت لە حاڵەتی ئاگرکەوتنەوە"""),

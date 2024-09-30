@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fire brigade", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دامەزراوەیەک لە خەڵکی کە ڕاھێنانیان پێکراوە لە کوژاندنەوەی ئاگر و ڕزگارکردنی خەڵکی لەناو ئاگر"""),

@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hymn", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) گۆرانییەکی ئایینی"""),
                     SentencesRow(

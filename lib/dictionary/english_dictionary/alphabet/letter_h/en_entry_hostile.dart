@@ -1011,7 +1011,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕقەبەرانە، ڕقاوی، دوژمنانە، دوژمنکارانە، نەیارانە، پێکەوەدوژمن،	بەرهەڵست، دژبەر، دژ
 """),
-// With short examples define "hostile", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) دژبەر و دوژمنانە بەرامبەر بە یەکدی و هەبوونی ئامادەیی بۆ مشتومڕ یان شەڕ"""),

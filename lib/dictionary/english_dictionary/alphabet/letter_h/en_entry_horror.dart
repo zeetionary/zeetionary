@@ -1008,7 +1008,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ترس، لەرز، موچڕک، ددانەچۆقێ، تۆقان، بێزاری، قین‌لێ‌بوون، بێزلێ‌هاتنەوە، ترسناکی،	مایەی ترس و بێزاری،	مناڵی دانەکەوتوو و شەیتان، هەوهەوێن‌نەرەوە
 """),
-// With short examples define "horror", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) هەستی شۆک یان ترسێکی زۆر"""),
                     SentencesRow(

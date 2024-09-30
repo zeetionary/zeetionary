@@ -1004,7 +1004,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لەنگەر، لەنگەرگرتن، لەنگەرە، ڕاوێستان لە حەوادا، وەستان بە ئاسمانەوە، مانەوە لە ئاسمان‌دا، لەجێ‌دا باڵ‌لێدان
 """),
-// With short examples define "hover", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) کە هەلیکۆپتەرێک، باڵندەیەک، هتد لە ئاسماندا لە یەک شوێندا دەمێنێتەوە"""),

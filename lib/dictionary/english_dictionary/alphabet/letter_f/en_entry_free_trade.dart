@@ -141,7 +141,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کارداری ئازاد، بازرگانی سەربەست یان ئازاد
 """),
-// With short examples define "free trade", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سیستەمێکی بازرگانیی نێودەوڵەتی کە تێیدا ھیچ باج نییە لەسەر ھەناردە و ھاوردە"""),

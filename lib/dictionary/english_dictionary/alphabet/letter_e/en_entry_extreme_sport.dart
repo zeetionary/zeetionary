@@ -236,7 +236,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""She loves to travel and take part in extreme sports.""");
   }
 
-// With short examples define "extreme sport", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هەر سەعاتەی جارێ، هەر کاتژمێر، سەعات بە سەعات، هەمیشە، کاتژمێر بە کاتژمێر، هەر سەعات، هەر دەم، دەم بە دەم، لەپەسا
 """),
-// With short examples define "hourly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە هەموو کاتژمێرێک دەکرێت یان ڕوودەدات"""),

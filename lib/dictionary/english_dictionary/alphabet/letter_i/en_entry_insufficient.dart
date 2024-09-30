@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsufficient insufficient
-WORD_WEB insufficient insufficient insufficient
-haʊʊʊʊʊʊʊ4
+- Adjective: insufficient
+1. Of a quantity not able to fulfil a need or requirement (- deficient)
+"insufficient funds";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insufficient";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insufficient""",
                       // alsoEnglishWord: "also: insufficient",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsəˈfɪʃnt/""",
+                      americanText: """IpaUS: /ˌɪnsəˈfɪʃnt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

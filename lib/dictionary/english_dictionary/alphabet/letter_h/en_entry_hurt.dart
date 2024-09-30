@@ -1027,7 +1027,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زیان، وەی، زەرەر، ئێش، وەزەن، مەینەتی، بەڵا، ناڕەحەتی، ئازار، زەربە، گورز، برین یان ژانی لەش
 """),
-// With short examples define "hurt", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ئازاردان یان بریندارکردن"""),
                     SentencesRow(

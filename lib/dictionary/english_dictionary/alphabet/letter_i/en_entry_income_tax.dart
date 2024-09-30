@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "income tax", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بڕێک باج کە دەیدەیت بە حکومەت بەپێی ئەوەی چەند قازانج دەکەیت"""),

@@ -998,7 +998,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بارمتە، گرێو
 """),
-// With short examples define "hostage", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە وەک بارمتە گیراوە لەلایەن کەسێک یان گرووپێک و ئەگەری هەیە بریندار بکرێت یان بکوژرێت ئەگەر داواکانی کەس یان گرووپەکە جێبەجێ نەکرێت"""),

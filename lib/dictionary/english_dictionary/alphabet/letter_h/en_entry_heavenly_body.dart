@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "heavenly body", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) تەنێک کە لە بۆشایی ئاسماندایە، بە تایبەتی خۆر، مانگ، یان ھەسارەیەک"""),

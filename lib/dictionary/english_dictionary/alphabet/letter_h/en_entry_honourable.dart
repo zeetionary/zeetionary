@@ -1003,7 +1003,6 @@ Usage: Brit, Cdn (US: honorable)
                     const KurdishVocabulary(text: """
 کوردی: بەڕێز، گەورە، بەوەج، ڕووپاک، بەئابڕوو، ئابڕوودار، ڕووسپی، ڕووسوور، بەشەڕەف، بەئابڕووانە، ئابڕوومەندانە
 """),
-// With short examples define "honourable", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە شایەنی ڕێزە"""),
                     SentencesRow(

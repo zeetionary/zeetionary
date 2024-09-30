@@ -164,7 +164,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: (وەرزش) خەتا، ھەڵە،	تاوان، تاوان‌کاری، توندوتیژی، کوشتن‌کاری، پیاوکوژی
 """),
-// With short examples define "foul play", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کاری تاوانکاری یان توندووتیژی کە دەبێتە ھۆکاری مەرگی کەسێک"""),

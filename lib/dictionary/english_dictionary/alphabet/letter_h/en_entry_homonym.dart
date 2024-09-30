@@ -989,7 +989,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "homonym", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) وشەیەک کە وەک وشەیەکی دیکە دەنووسرێت یان دەخوێندرێتەوە بەڵام واتای جیاوازە، بۆ نموونە وشەی can بە واتای توانین و بە واتای لەقوتوونان"""),

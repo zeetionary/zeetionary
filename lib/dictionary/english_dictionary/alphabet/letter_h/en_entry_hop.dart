@@ -1015,7 +1015,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هەنگڵەشەلە، لەنگڕۆ، هەڵقون، قەنە، هەڵبەزهەڵبەز، هەڵبەزودابەز
 """),
-// With short examples define "hop", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ڕۆشتن بە بازدان لەسەر یەک لاق"""),
                     SentencesRow(

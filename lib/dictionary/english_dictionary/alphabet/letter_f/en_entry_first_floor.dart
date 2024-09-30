@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "first floor", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) لە بەریتانیا نھۆمی یەکەمی لە سەروو نھۆمی ئەرزییەوە"""),

@@ -997,7 +997,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: وادانان، گریمانە
 """),
-// With short examples define "hypothesis", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بیرۆکەیەک یان ڕوونکردنەوەیەک لەسەر شتێک کە پشت بە ڕاستی کەم دەبەستێت و هێشتا نەسەلمێنراوە"""),

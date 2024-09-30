@@ -1032,7 +1032,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هومێد، هومێدەوار، تەما، هیوا، ئاوات، ئارەزوو، هێڤی، مایەی هیواداری
 """),
-// With short examples define "hope", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ویستنی ڕوودانی شتێک و وابیرکردنەوە کە دەکرێت"""),

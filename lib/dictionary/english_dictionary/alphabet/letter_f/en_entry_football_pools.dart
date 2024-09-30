@@ -143,7 +143,6 @@ Usage: Brit
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "football pools", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گرەوکردن لە بەریتانیا لەسەر ئەنجامی یارییەکانی تۆپی پێ"""),

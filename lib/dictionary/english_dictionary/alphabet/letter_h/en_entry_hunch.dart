@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گومان، مەزندە، ڕاوێژ، پێ‌وابوون
 """),
-// With short examples define "hunch", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) نزمکردنەوەی بەشی سەرەوەی جەستەت بۆ پێشەوە و بەرزکردنەوەی شان و پشتت"""),

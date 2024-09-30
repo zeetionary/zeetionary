@@ -1031,7 +1031,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hunt", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) ڕاوکردن"""),
                     SentencesRow(
                       englishText: """Lions sometimes hunt alone.""",

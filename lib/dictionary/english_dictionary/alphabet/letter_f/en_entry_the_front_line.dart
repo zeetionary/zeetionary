@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "the front line", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ناوچەیەک کە تێیدا دوو دوژمن ڕووبەڕووی یەکدی دەبنەوە لە جەنگدا"""),

@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hyperlink", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێکی بەڵگەنامەیەکی ئەلیکترۆنی کە بەستراوە بە بەڵگەنامەیەکی دیکەوە یان بە شوێنێکی دیکەی هەمان بەڵگەنامە"""),

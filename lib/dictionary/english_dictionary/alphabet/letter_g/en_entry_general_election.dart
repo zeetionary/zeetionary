@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "general election", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ھەڵبژاردنی نوێنەرانی پەرلەمانی"""),
                     SentencesRow(

@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hypnotize", please follow LX instructions
                     const DividerDefinition(),
                     CustomRichText(
                       textBeforeLink: "١. درووستکردنی دۆخی ",

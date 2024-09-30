@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstead instead
-WORD_WEB instead instead instead
-haʊʊʊʊʊʊʊ4
+- Adverb: instead
+1. In place of, or as an alternative to (- alternatively, or else, in lieu)
+"Felix became a herpetologist instead";
+ 
+2. On the contrary (- rather)
+"he didn't call; instead, he wrote her a letter"; "used English terms instead of Latin ones";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instead";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +88,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Lee was ill so I went instead.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """She said nothing, preferring instead to save her comments till later.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""She wasn't sent to the court; instead she was cautioned.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """The UN resisted any tougher sanctions, opting instead for more time to give talks a chance.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
+    const double startSecondsend = 00000000000000000000000000068;
+    const String videoIdone = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsone = 0000000000000000000000000001437;
+    const String videoIdtwo = 'https://youtu.be/QLq6GEiHqR8?t=';
+    const double startSecondstwo = 0000000000000000000000000001687;
+    const String videoIdthree = 'https://youtu.be/lex6USTugUU?t=';
+    const double startSecondsthree = 000000000000000000000000000282;
+    const String videoIdfour = 'https://youtu.be/Ht0IbFNbfSY?t=';
+    const double startSecondsfour = 000000000000000000000000000110;
+    const String videoIdfive = 'https://youtu.be/iKv4oc2zbeA?t=';
+    const double startSecondsfive = 000000000000000000000000000597;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instead""",
                       // alsoEnglishWord: "also: instead",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsted/""",
+                      americanText: """IpaUS: /ɪnˈsted/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لە جیاتیدا، لە باتیدا
 """),
 // With short examples define "instead", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) لە جێگای ک/شت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Lee was ill so I went instead.""",
+                      kurdishText: """لی نەخۆش بوو بۆیە من لە جێگای چووم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She said nothing, preferring instead to save her comments till later.""",
+                      kurdishText:
+                          """هیچی نەگوت، لە جیاتیدا وەهای پێباش بوو لێدوانەکانی بۆ دواتر هەڵبگرێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1020,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She wasn't sent to the court; instead she was cautioned.""",
+                      kurdishText:
+                          "نەبردرا بۆ دادگا، لە جیاتیدا ھۆشداری پێدرا.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1031,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The UN resisted any tougher sanctions, opting instead for more time to give talks a chance.""",
+                      kurdishText:
+                          """نەتەوە یەکگرتووەکان دژ بە هەر گەمارۆیەکی دیکە بوو، لە جیاتیدا ئەوەی هەڵبژارد هەلێک بدات بە گفتووگۆکان.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

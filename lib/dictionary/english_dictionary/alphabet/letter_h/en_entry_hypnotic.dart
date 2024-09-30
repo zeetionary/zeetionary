@@ -996,7 +996,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hypnotic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە وات لێدەکات وا هەست بکەیت خەریکە دەخەویت"""),

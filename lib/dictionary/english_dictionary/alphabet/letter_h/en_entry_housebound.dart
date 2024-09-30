@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ماڵێ‌بەجێنەهێشتوو، ماڵکەوتە، خانەبگیر، خانەنشین، لە ماڵێ‌داکەوتوو
 """),
-// With short examples define "housebound", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە ناتوانیت ماڵەوە جێبهێڵیت بەهۆی نەخۆشی یان پیری؛ ئەو کەسانەی بەم شێوەیە دەژین"""),

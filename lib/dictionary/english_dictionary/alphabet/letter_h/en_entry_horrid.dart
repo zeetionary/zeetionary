@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ترسناک، ناحەز، ناشیرین، دزێو، خراپ، ناخۆش، بێزەون، شپرزە
 """),
-// With short examples define "horrid", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) زۆر ناخۆش و نا میهرەبانانە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: horrible"),

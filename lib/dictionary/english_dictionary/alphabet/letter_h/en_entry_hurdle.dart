@@ -999,7 +999,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پەرژین،	تەگەرە، دژواری، کۆسپ، ڕێگر، بەربەند
 """),
-// With short examples define "hurdle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) هەر یەک لەو پەرژینانەی کە ڕاکەرێک یان ئەسپێک باز دەدات بەسەریدا لە پێشبڕکێدا؛ وەرزشێک کە پەرژینی تێدایە"""),

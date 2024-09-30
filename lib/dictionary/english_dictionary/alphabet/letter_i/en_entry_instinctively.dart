@@ -9,7 +9,8 @@ class EnglishEntryinstinctively extends StatefulWidget {
   const EnglishEntryinstinctively({super.key});
 
   @override
-  State<EnglishEntryinstinctively> createState() => _EnglishEntryinstinctivelyState();
+  State<EnglishEntryinstinctively> createState() =>
+      _EnglishEntryinstinctivelyState();
 }
 
 class _EnglishEntryinstinctivelyState extends State<EnglishEntryinstinctively> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstinctively instinctively
-WORD_WEB instinctively instinctively instinctively
-haʊʊʊʊʊʊʊ4
+- Adverb: instinctively
+1. As a matter of instinct (- responsively, instinctually)
+"he instinctively grabbed the knife";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instinctively";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He knew instinctively that something was wrong.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
+    const double startSecondsend = 000000000000000000000000000668;
+    const String videoIdone = 'https://youtu.be/J8ZOttyAs9Y?t=';
+    const double startSecondsone = 000000000000000000000000000511;
+    const String videoIdtwo = 'https://youtu.be/jTRC_FMzLoo?t=';
+    const double startSecondstwo = 000000000000000000000000000435;
+    const String videoIdthree = 'https://youtu.be/XxOh12Uhg08?t=';
+    const double startSecondsthree = 0000000000000000000000000002099;
+    const String videoIdfour = 'https://youtu.be/iQ5GfDbjos8?t=';
+    const double startSecondsfour = 00000000000000000000000000078;
+    const String videoIdfive = 'https://youtu.be/H1S6UCX4RAA?t=';
+    const double startSecondsfive = 000000000000000000000000000148;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instinctively""",
                       // alsoEnglishWord: "also: instinctively",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈstɪŋktɪvli/""",
+                      americanText: """IpaUS: /ɪnˈstɪŋktɪvli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +989,17 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: زگماکانە، بە شێوەیەکی واڕسکی، واڕسکانە
+// """),
 // With short examples define "instinctively", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە بەکارهێنانی خاسیەتێکی سرووشتی کە وادەکات مرۆڤ و ئاژەڵان بە شێوەیەکی دیاریکراو ڕەفتار بکەن بەو زانیاری و توانایەی کە لە لەدایکبوونەوە هەیانە نەک بە بیرکردنەوە و ڕاهێنان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He knew instinctively that something was wrong.""",
+                      kurdishText: """خۆڕسکانە زانی شتێک هەڵەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

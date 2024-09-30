@@ -1002,7 +1002,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hob", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشی سەرەوەی تەباخێک کە لە سەری خواردن لێدەنرێت"""),

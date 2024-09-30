@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خێڵ،	ڕەوە، دەستە، لەشکر، پۆل، کۆمەڵ، خێزەرە، کەرەگەل
 """),
-// With short examples define "horde", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ڕێژەیەکی زۆر لە خەڵکی"""),
                     SentencesRow(

@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "firing line", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) بەرەی پێشەوەی جەنگ"""),
                     SentencesRow(

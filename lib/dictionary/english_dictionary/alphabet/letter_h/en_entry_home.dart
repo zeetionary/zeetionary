@@ -1062,7 +1062,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ماڵ، یانە،	خێزان، ماڵبات،	نیشتمان، وڵات، زێد،	سەرچاوە، لانکە، بنەما، ژێدەر، ئاخێزگە، جێ، ژیوارگە، بوو، جێوار، ژینار، ژینگە، بنەجێ، جێی سروشتی،	(لە کایەدا) شار
 """),
-// With short examples define "home", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ماڵ"""),
                     SentencesRow(
                       englishText:

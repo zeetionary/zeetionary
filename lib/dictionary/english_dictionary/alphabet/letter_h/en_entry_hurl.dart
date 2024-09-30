@@ -1003,7 +1003,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هەڵدان، خستن، هاویشتن، تووڕهەڵدان
 """),
-// With short examples define "hurl", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) فڕێدانی شتێک/کەسێک بە توندی و ئاراستەیەکی دیاریکراودا"""),

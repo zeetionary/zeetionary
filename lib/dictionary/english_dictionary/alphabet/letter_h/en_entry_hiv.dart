@@ -997,7 +997,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "HIV", please follow LX instructions
                     const DividerDefinition(),
                     CustomRichText(
                       textBeforeLink:

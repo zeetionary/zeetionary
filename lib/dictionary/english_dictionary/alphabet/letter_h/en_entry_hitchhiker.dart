@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hitchhiker", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە لە قەراغی شەقام دەوەستێت بۆ ئەوەی بێ‌بەرامبەر ئۆتۆمبێلێک بیگەیەنێت بە شوێنێک"""),

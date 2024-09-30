@@ -9,7 +9,8 @@ class EnglishEntryinstigation extends StatefulWidget {
   const EnglishEntryinstigation({super.key});
 
   @override
-  State<EnglishEntryinstigation> createState() => _EnglishEntryinstigationState();
+  State<EnglishEntryinstigation> createState() =>
+      _EnglishEntryinstigationState();
 }
 
 class _EnglishEntryinstigationState extends State<EnglishEntryinstigation> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstigation instigation
-WORD_WEB instigation instigation instigation
-haʊʊʊʊʊʊʊ4
+- Noun: instigation (Derived forms: instigations)
+1. The verbal act of urging on (- abetment, abettal)
+ 
+2. Deliberate and intentional triggering (of trouble or discord) (- fomentation)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instigation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +87,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It was done at his instigation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He was involved in the instigation of acts of terrorism""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """We are carrying on with the search at the President's direct instigation.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/y4DTW4B3Sjs?t=';
+    const double startSecondsend = 000000000000000000000000000773;
+    const String videoIdone = 'https://youtu.be/S0w6Ze7_UzA?t=';
+    const double startSecondsone = 000000000000000000000000000161;
+    const String videoIdtwo = 'https://youtu.be/hK5KkOC-8Vc?t=';
+    const double startSecondstwo = 00000000000000000000000000087;
+    const String videoIdthree = 'https://youtu.be/tFGodTJH4ws?t=';
+    const double startSecondsthree = 000000000000000000000000000753;
+    const String videoIdfour = 'https://youtu.be/Ahgcj8DrLiA?t=';
+    const double startSecondsfour = 000000000000000000000000000103;
+    const String videoIdfive = 'https://youtu.be/r07YXQNARow?t=';
+    const double startSecondsfive = 000000000000000000000000000651;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instigation""",
                       // alsoEnglishWord: "also: instigation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnstɪˈɡeɪʃn/""",
+                      americanText: """IpaUS: /ˌɪnstɪˈɡeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +991,16 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: فیت‌دان، هان‌دان، پێکردن، بزواندن، هارۆژاندن، هەڵخڕاندن، تەفرەدان، هەڵفریواندن، ورووژاندن، گاڵ‌دان، خرۆشاندن
+// """),
 // With short examples define "instigation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بوون بە هۆکاری ڕوودان یان دەستپێکردنی شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It was done at his instigation.""",
+                      kurdishText: """بە فیتی ئەو کرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was involved in the instigation of acts of terrorism""",
+                      kurdishText: """بەژداربوو لە نانەوەی کاری تیرۆریستی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1018,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We are carrying on with the search at the President's direct instigation.""",
+                      kurdishText:
+                          """بەردەوام دەبین لە گەڕانەکە لەسەر داوای ڕاستەوخۆی سەرۆک.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

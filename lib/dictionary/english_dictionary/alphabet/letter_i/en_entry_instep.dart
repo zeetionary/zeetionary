@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstep instep
-WORD_WEB instep instep instep
-haʊʊʊʊʊʊʊ4
+- Noun: instep (Derived forms: insteps)
+1. The arch of the foot
+ 
+2. The part of a shoe or stocking that covers the arch of the foot
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instep";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The shoes fit tightly around the instep.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/2rFT4SiqL8s?t=';
+    const double startSecondsend = 000000000000000000000000000126;
+    const String videoIdone = 'https://youtu.be/uKFO_x8C2ek?t=';
+    const double startSecondsone = 000000000000000000000000000218;
+    const String videoIdtwo = 'https://youtu.be/pdjrOK5R36M?t=';
+    const double startSecondstwo = 000000000000000000000000000414;
+    const String videoIdthree = 'https://youtu.be/tETp0Pg_k0c?t=';
+    const double startSecondsthree = 0000000000000000000000000001033;
+    const String videoIdfour = 'https://youtu.be/WTFOAa599yo?t=';
+    const double startSecondsfour = 000000000000000000000000000852;
+    const String videoIdfive = 'https://youtu.be/Z1ebBZ4ld3c?t=';
+    const double startSecondsfive = 000000000000000000000000000519;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instep""",
                       // alsoEnglishWord: "also: instep",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnstep/""",
+                      americanText: """IpaUS: /ˈɪnstep/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەرپێ، ڕووپێ، بەری پێ
 """),
-// With short examples define "instep", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەشی سەرەوەی پێ؛ ئەو بەشەی پێڵاو کە سەرپێ دادەپۆشێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The shoes fit tightly around the instep.""",
+                      kurdishText:
+                          """پێڵاوەکان بە گونجاوی دەگونجێن لەسەر پێ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

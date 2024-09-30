@@ -996,7 +996,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hundredth", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ژمارەی پلەی) ١٠٠هەم"""),
                     SentencesRow(

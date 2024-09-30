@@ -9,7 +9,8 @@ class EnglishEntryinstructive extends StatefulWidget {
   const EnglishEntryinstructive({super.key});
 
   @override
-  State<EnglishEntryinstructive> createState() => _EnglishEntryinstructiveState();
+  State<EnglishEntryinstructive> createState() =>
+      _EnglishEntryinstructiveState();
 }
 
 class _EnglishEntryinstructiveState extends State<EnglishEntryinstructive> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstructive instructive
-WORD_WEB instructive instructive instructive
-haʊʊʊʊʊʊʊ4
+- Adjective: instructive
+1. Serving to instruct, enlighten or inform (- informative)
+"They gave instructive music lessons to the children";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instructive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It was a most instructive experience.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """It is instructive to see how other countries are tackling the problem.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/9UHIWVtAdhY?t=';
+    const double startSecondsend = 00000000000000000000000000024;
+    const String videoIdone = 'https://youtu.be/851aS_abQG4?t=';
+    const double startSecondsone = 000000000000000000000000000382;
+    const String videoIdtwo = 'https://youtu.be/-6HOdHEeosc?t=';
+    const double startSecondstwo = 0000000000000000000000000001723;
+    const String videoIdthree = 'https://youtu.be/foYyeGLf9yU?t=';
+    const double startSecondsthree = 0000000000000000000000000002992;
+    const String videoIdfour = 'https://youtu.be/shTEMKZQ3rY?t=';
+    const double startSecondsfour = 000000000000000000000000000181;
+    const String videoIdfive = 'https://youtu.be/SgCJeoDNmYU?t=';
+    const double startSecondsfive = 0000000000000000000000000002284;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instructive""",
                       // alsoEnglishWord: "also: instructive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈstrʌktɪv/""",
+                      americanText: """IpaUS: /ɪnˈstrʌktɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: فێرکەر، ئاگاپێدەر، بەسوود، پڕزانیاری، ئاگایی‌دەر
 """),
 // With short examples define "instructive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە زانیاریی زۆری بەسوودی تێدایە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It was a most instructive experience.""",
+                      kurdishText: """ئەزموونێکی زۆر بەسوود بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1006,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is instructive to see how other countries are tackling the problem.""",
+                      kurdishText:
+                          """بەسوودە ببینیت وڵاتانی دیکە چۆن ڕووبەڕووی کێشەکەوە دەبنەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

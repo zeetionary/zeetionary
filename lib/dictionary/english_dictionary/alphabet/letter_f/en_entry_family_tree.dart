@@ -235,7 +235,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""How far back can you trace your family tree?""");
   }
 
-// With short examples define "family tree", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

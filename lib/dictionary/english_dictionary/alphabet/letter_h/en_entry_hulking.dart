@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زەبەلاح، زلە، گەپ، قەبە، گمتە، ناقۆڵا، نابار، نالەبار، ناتەرز، ناهەموار، بەلان، کەرکەنۆڵ، تەژە
 """),
-// With short examples define "hulking", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) زۆر گەورە و قورس"""),
                     SentencesRow(

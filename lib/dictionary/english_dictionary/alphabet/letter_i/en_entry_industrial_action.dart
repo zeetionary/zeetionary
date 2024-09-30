@@ -994,7 +994,6 @@ Usage: Brit (N. Amer: job action)
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "industrial action", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ناڕەزایی کرێکاران بەرا،بەر خاوەن کارەکانیان، بە تایبەتی کە لە کار دەوەستن"""),

@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "guinea pig", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئاژەڵێکی بچووکی گوێ کورت کە کلکی نییە"""),

@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: میوانگری، میوانداری، بەنانی، بەوەجاخی، وەجاخداری، میوان‌پەروەری
 """),
-// With short examples define "hospitality", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ڕەفتاری باش لەگەڵ میوان"""),
                     SentencesRow(

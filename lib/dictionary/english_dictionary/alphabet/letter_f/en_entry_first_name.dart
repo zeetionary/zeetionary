@@ -155,7 +155,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "first name", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو ناوەی کە بە کەسێک دەدرێت کە دێتە دونیاوە"""),

@@ -1005,7 +1005,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hybrid", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ئاژەڵ یان ڕووەک کە لە دوو جۆری جیاوازی گیانلەبەرەوە درووست بووە"""),

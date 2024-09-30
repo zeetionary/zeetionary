@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstantly instantly
-WORD_WEB instantly instantly instantly
-haʊʊʊʊʊʊʊ4
+- Adverb: instantly
+1. Without delay or hesitation; with no time intervening (- immediately, straightaway, straight off, directly, now, right away, at once, forthwith, like a shot [informal], right off the bat [N. Amer, informal], instantaneously, outright, in a flash, tout de suite)
+"he answered instantly";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instantly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +85,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Her voice is instantly recognizable.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Instantly I felt at home with her big smile and friendly face.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """She can pick up a tune instantly on the piano. It's a gift.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Kou7ur5xt_4?t=';
+    const double startSecondsend = 00000000000000000000000000031;
+    const String videoIdone = 'https://youtu.be/MnExgQ81fhU?t=';
+    const double startSecondsone = 000000000000000000000000000397;
+    const String videoIdtwo = 'https://youtu.be/9TugA_z5vQE?t=';
+    const double startSecondstwo = 000000000000000000000000000362;
+    const String videoIdthree = 'https://youtu.be/DWmGArQBtFI?t=';
+    const double startSecondsthree = 00000000000000000000000000075;
+    const String videoIdfour = 'https://youtu.be/dtp6b76pMak?t=';
+    const double startSecondsfour = 0000000000000000000000000001305;
+    const String videoIdfive = 'https://youtu.be/g-7ZWPCWv0U?t=';
+    const double startSecondsfive = 000000000000000000000000000515;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instantly""",
                       // alsoEnglishWord: "also: instantly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnstəntli/""",
+                      americanText: """IpaUS: /ˈɪnstəntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەسبەجێ، کت‌وپڕ، لەڕێوە، لەجێ
 """),
 // With short examples define "instantly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵکار) پننسە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her voice is instantly recognizable.""",
+                      kurdishText: """دەنگی دەسبەجێ دەکرا بناسرابایەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1004,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Instantly I felt at home with her big smile and friendly face.""",
+                      kurdishText:
+                          """دەستبەجێ ھەستم بەوە کرد وەک ئەوەی لە ماڵەوە بە بزە گەورەکەی و ڕووخسارە دۆستانەکەی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1015,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She can pick up a tune instantly on the piano. It's a gift.""",
+                      kurdishText:
+                          """ڕاستەوخۆ دەتوانێت ئاوازێکی پیانۆ بناسێتەوە. ئەوە بەھرەیەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

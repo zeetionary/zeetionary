@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "homicidal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە ئەگەری هەیە کەسێک بکوژێت یان وا لە کەسێک بکات کەسێک بکوژێت"""),

@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نووساوی، گیراوی، گڕی
 """),
-// With short examples define "hoarseness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی دەنگی کەسێک دانووساو بێت بەهۆی ئەوەی قوڕگی گیرا بێت"""),

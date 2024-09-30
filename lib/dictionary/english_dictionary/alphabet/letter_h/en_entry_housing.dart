@@ -1003,7 +1003,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ماڵ، جێگا، جێگە، جێ‌وڕێ،	نیشتەجێ‌کردن، دابین‌کردنی ماڵ یان خانوو، دابین‌کردنی جێ،	پەنا، جێ‌پەنا،	جێگا، تاقە،	بەرگ، سەر، سەرقاپ، داپۆشە، سەرپۆش،	سەرزین، زین‌پۆش، بەرگەزین
 """),
-// With short examples define "housing", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو ماڵانەی کە خەڵکی تێیدا دەژین، بە تایبەتی کە باس لە جۆر، نرخ، یان دۆخیان دەکرێت"""),

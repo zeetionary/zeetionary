@@ -142,7 +142,6 @@ Usage: Brit, Cdn (US: American plan)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "full board", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جۆرێکی مانەوە لە ھوتێل کە ھەموو ژەمە خواردنێکی لەگەڵە"""),

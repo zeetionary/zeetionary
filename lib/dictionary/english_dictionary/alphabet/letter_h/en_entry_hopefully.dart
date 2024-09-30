@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هیوادارانە، بە هومێدەواری(یەوە)،	هیوادارم، بە هومێدی خودا، بە پشتیوانی خودا، خوا حەزکا
 """),
-// With short examples define "hopefully", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بۆ دەربڕینی ویستی ئەوەی کە دەتەوێت ڕووبدات"""),

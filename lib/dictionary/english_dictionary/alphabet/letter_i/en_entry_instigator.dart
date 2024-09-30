@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstigator instigator
-WORD_WEB instigator instigator instigator
-haʊʊʊʊʊʊʊ4
+- Noun: instigator (Derived forms: instigators)
+1. Someone who deliberately foments trouble (- provoker, inciter, instigant, firebrand)
+"she was the instigator of their quarrel";
+ 
+2. A person who initiates a course of action (- initiator)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instigator";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The instigators of the disturbance have not yet been identified.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/F2xv4fba65U?t=';
+    const double startSecondsend = 00000000000000000000000000049;
+    const String videoIdone = 'https://youtu.be/jJJ7YTt_C4M?t=';
+    const double startSecondsone = 000000000000000000000000000255;
+    const String videoIdtwo = 'https://youtu.be/nbBHdhFs1q0?t=';
+    const double startSecondstwo = 000000000000000000000000000238;
+    const String videoIdthree = 'https://youtu.be/axQGMmRew4k?t=';
+    const double startSecondsthree = 000000000000000000000000000119;
+    const String videoIdfour = 'https://youtu.be/9uH8-Gj8XrM?t=';
+    const double startSecondsfour = 000000000000000000000000000922;
+    const String videoIdfive = 'https://youtu.be/tkD6QfeRil8?t=';
+    const double startSecondsfive = 000000000000000000000000000405;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instigator""",
                       // alsoEnglishWord: "also: instigator",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnstɪɡeɪtə(r)/""",
+                      americanText: """IpaUS: /ˈɪnstɪɡeɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +994,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "instigator", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە دەبێتە هۆکاری ڕوودانی شتێک، بە تایبەتی شتێکی خراپ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The instigators of the disturbance have not yet been identified.""",
+                      kurdishText:
+                          """هاندەرانی ئاژاوەکە هێشتا نەناسراونەتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

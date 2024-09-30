@@ -1010,7 +1010,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مرۆڤایەتی، مرۆڤی، ئادەمی، سەربە مرۆڤ
 """),
-// With short examples define "human", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) مرۆڤ"""),
                     SentencesRow(
                       englishText: """Dogs can hear much better than humans.""",

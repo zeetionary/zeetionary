@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hydrogen", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) توخمێکی کیمیایی کە سووکترین گازە و لەگەڵ ئۆکسجین یەکدەگرێت بۆ درووستکردنی ئاو"""),

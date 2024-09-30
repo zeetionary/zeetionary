@@ -141,7 +141,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گۆرانی ناوچەیی، سترانی خۆجێیی، گۆرانی گەل
 """),
-// With short examples define "folk song", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گۆرانییەک کە بە شێوازی نەریتی کۆمەڵگایەک یان وڵاتێک گوتراوە"""),

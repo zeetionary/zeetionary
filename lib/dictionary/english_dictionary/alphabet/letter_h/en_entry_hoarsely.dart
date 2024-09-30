@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەنگ‌نووساوانە، بە دەنگی نووساوەوە
 """),
-// With short examples define "hoarsely", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) قسەکردن بە دەنگێکی توند و گڕ کە دەنگت دانوساوە و قوڕگت گیراوە"""),

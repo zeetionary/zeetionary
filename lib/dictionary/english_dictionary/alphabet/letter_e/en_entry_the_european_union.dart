@@ -238,7 +238,6 @@ class KurdishMeaning extends StatelessWidget {
         """Which countries have joined the European Union since 2004?""");
   }
 
-// With short examples define "the European Union", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -926,7 +926,6 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
     const String videoIdend = '';
     const double startSecondsend = 000000000000000000000000000;
@@ -995,7 +994,6 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "the injured", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555

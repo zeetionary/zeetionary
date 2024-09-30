@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەرکاری ناڕاستەوخۆ، تەواوکەری بەیاریدە
 """),
-// With short examples define "indirect object", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ناوێک، ناوێکی داڕێژراو، یان جێناوێک لە ڕستەیەک کە زۆرجار بە دوای کاردا دێت و کارێکی بەسەردا دێت یان بۆی دەکرێت"""),

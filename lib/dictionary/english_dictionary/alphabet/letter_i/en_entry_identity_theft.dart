@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "identity theft", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەکارهێنانی ناسنامەی کەسی کەسێکی دیکە بۆ بەدەستهێنانی قەرزی بانکی یان دەرکردنی پارە لە هەژماری بانکی"""),

@@ -997,7 +997,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "horseshoe", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە ئاسنێک کە بە بزمار دەدرێت لە سمی ئەسپێک"""),

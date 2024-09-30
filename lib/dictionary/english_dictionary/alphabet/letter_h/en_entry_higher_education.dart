@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خوێندنی بەرز، خوێندنی باڵا، خوێندنی زانکۆیی
 """),
-// With short examples define "higher education", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خوێندن لە زانکۆ، بە تایبەتی بۆ بڕوانامە"""),

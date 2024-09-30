@@ -1041,7 +1041,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نەخۆش‌خانە، خەستەخانە، تیمارخانە، بیمارستان
 """),
-// With short examples define "hospital", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بینایەکی گەورەی کە نەخۆشی بۆ دەبردرێت"""),

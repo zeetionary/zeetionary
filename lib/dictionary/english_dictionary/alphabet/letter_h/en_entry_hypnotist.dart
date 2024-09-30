@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hypnotist", please follow LX instructions
                     const DividerDefinition(),
                     CustomRichText(
                       textBeforeLink: "١. کەسێک کە کاری ",

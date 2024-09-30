@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کانەزێڕ،	(خوازە) گەنج، خەزێنە،	کاروکاسپی پڕداھات، کاری پڕقازانج یان پڕخێر
 """),
-// With short examples define "gold mine", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) شوێنێک کە زێڕ لە زەوی دەردەھێنرێت"""),
                     SentencesRow(

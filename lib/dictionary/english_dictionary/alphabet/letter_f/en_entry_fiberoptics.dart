@@ -144,7 +144,6 @@ Usage: US (elsewhere: fibreoptics)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fiber optics", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەکارھێنانی ڕیشاڵی شووشەیی بۆ ناردنی زانیاری لە شێوەی شەپۆلی ڕووناکی"""),

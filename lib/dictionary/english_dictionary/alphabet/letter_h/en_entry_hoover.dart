@@ -1001,7 +1001,6 @@ Usage: Brit
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hoover", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) خاوێنکردنەوە بە گسکی کارەبایی"""),
                     SentencesRow(

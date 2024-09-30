@@ -990,7 +990,6 @@ A capacious bag or basket
                     const KurdishVocabulary(text: """
 کوردی: جانتا، جامەدانە، کیف، ساک
 """),
-// With short examples define "holdall", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جانتایەکی گەورە بۆ جل، هتد لە کاتی گەشتدا کە لە قوماشی بەهێز یان چەرمی نەرم درووستکراوە"""),

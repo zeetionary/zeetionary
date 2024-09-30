@@ -1000,7 +1000,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "human right", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مافێکی سەرەتایی، بۆ نموونە ئەوەی کەسێک بە میهرەبانانە و بە یەکسانی مامەڵەی لەگەڵ بکڕیت"""),

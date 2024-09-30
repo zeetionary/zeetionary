@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەردەس، کارەکەر، فەڕاش، بنەوان، کەیبانوو
 """),
-// With short examples define "housekeeper", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک، زۆرجار ژنێک، کە کاری کڕینی پێداویستی، خواردن لێنان، پاککردنەوە، هتد ئەنجام دەدات لە ماڵی کەسێکی دیکە یان پەیمانگایەک؛ کەسێک لە هوتێلێک کە ژوورەکان پاکدەکاتەوە"""),

@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرسپا، سەرئەرتەش، سەرلەشکر
 """),
-// With short examples define "field marshal", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەفسەرێک کە بەرزترین پێگەی لە سوپای بەریتانیا ھەیە"""),

@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "hard copy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) زانیاریی سەر کۆمپیوتەر کە چاپکراوە"""),

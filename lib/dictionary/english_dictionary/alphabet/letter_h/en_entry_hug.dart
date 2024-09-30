@@ -1003,7 +1003,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: باوەش‌پیاکردن، لە باوەش‌گرتن، لەئامێزگرتن، باوەش، ئامێز
 """),
-// With short examples define "hug", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) لەباوەش گرتنی کەسێک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: embrace"),

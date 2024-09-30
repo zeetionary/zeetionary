@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هەراهەرا، هەوهەو، جەنجاڵی، قاڵەقاڵ، قیڕەوهەرا، بگرەوبەردە، پشێوی، شلوقی
 """),
-// With short examples define "hubbub", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەنگی بەرز کە بەهۆی قسەکردنی خەڵکی پێکەوە درووست دەبێت"""),

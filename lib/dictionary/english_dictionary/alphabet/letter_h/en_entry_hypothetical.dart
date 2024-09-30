@@ -996,7 +996,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: وادانەرانە، گریمانەیی، گریمانەکی، لەسەر بنچینەی وادانان، سەربە وادانان، وادانراو
 """),
-// With short examples define "hypothetical", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە پشت دەبەستێت بە بیرۆکەیەک یان ڕوونکردنەوەیەک کە خەیاڵ کراوە نەک ڕاستی بێت"""),

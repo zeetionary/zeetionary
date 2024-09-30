@@ -237,7 +237,6 @@ class KurdishMeaning extends StatelessWidget {
         """We got married secretly and then presented our parents with a fait accompli.""");
   }
 
-// With short examples define "fait accompli", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

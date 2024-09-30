@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: بە شێوەیەکی زیاناوی، زیان‌گەیێنەرانە
 // """),
-// With short examples define "hurtfully", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە بێزار و دڵشکاوت دەکات"""),

@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕێسای بنەڕەتی، یاسای زێڕین، بنەمای زێڕین، بنچینەی سەرەکی
 """),
-// With short examples define "golden rule", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بنەمایەکی گرنگ کە دەبێت لەبەرچاو بگیرێت لە پێناو سەرکەوتن کە شتێک دەکرێت"""),

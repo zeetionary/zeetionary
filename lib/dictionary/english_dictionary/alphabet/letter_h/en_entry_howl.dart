@@ -1011,7 +1011,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لوورە، قرووسکە، حاچە، ناڵە، هاوار، قیژە، قوولە، وژە، وژەوژ، هەرا، گوڕڕە، چریکە، زیڕە، زیکە
 """),
-// With short examples define "howl", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) کە سەگێک، گورگێک، هتد دەنگێکی درێژی بەرز دەردەکات"""),

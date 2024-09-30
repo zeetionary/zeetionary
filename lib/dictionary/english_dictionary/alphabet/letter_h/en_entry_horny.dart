@@ -998,7 +998,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شاخی، لەشاخ(دروس‌کراو)، شاخ‌ئاسا، لەشاخ‌چوو، شێوەشاخ، شاخدار،	ڕەق، سەخت، زبر، ڕەقیتەبەستوو، پیناوی،	حەشەری، حەککەیی، ڕەپ‌کردوو، زۆربزواو
 """),
-// With short examples define "horny", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) ورووژاو لە ڕووی سێکسییەوە"""),
                     SentencesRow(

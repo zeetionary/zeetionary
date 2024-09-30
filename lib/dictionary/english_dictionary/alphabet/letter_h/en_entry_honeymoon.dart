@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "honeymoon", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) گەشتی دوو خۆشەویست کە تازە هاوسەرگیرییان کردووە"""),

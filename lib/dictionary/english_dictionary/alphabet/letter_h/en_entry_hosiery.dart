@@ -990,7 +990,6 @@ Usage: Brit, Cdn
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hosiery", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) زیاتر لە فرۆشگا بەکاردێت بۆ جلی تەنک و گۆرەوی کورت و درێژ"""),

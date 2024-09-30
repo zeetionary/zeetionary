@@ -149,7 +149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مانگی چاردە، مانگی پڕ، ھەلاب، مانگی شەوی چاردە
 """),
-// With short examples define "full moon", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مانگ کە وەک بازنەیەکی تەواو دەردەکەوێت"""),

@@ -996,7 +996,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کۆخ، کۆختە، قۆلیت، کولیت، هۆلک، خانووچکە
 """),
-// With short examples define "hut", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خانوو یان پەناگەیەکی بچووکی سادە درووستکراو"""),

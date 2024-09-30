@@ -158,7 +158,6 @@ Usage: Brit (N. Amer: main street)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "high street", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شەقامی سەرەکی شارێک کە زۆرینەی فرۆشگا، بانک، ھتد ــی تێدایە"""),

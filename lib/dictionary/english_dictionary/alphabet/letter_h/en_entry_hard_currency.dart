@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "hard currency", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارەیەک کە بە ئاسانی دەگۆڕدرێتەوە بە پارەی وڵاتانی دیکە بەھۆی ئەوەی نرخی جێگیرە"""),

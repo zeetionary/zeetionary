@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hypnosis", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دۆخێکی بێ‌ئاگایی کە تێیدا کەسێک هێشتا دەتوانێت ببینێت و ببیستێت و هێشتا شوێن فەرمان بکەوێت و وەڵامی پرسیار بداتەوە"""),

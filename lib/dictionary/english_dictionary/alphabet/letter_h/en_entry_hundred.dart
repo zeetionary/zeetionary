@@ -1016,7 +1016,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hundred", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ژمارە) ژمارە ١٠٠"""),
                     SentencesRow(
                       englishText:

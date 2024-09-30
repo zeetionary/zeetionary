@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "homestay", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مانەوەی خێزان یان گەشتیار لە ماڵی خێزانێک بە کرێ؛ ماڵێک کە بەم شێوەیە"""),

@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "golden jubilee", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) پەنجایەمین ساڵیادی شتێک"""),
                     SentencesRow(

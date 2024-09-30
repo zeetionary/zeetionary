@@ -989,7 +989,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hovercraft", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پێڕۆیەک کە کەمێک لە سەرەوەی ڕووی ئاو یان زەوی دەڕوات"""),

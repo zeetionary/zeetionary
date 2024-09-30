@@ -244,7 +244,6 @@ class KurdishMeaning extends StatelessWidget {
         """She thought she was pregnant, but it turned out to be a false alarm.""");
   }
 
-// With short examples define "false alarm", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -153,7 +153,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "hiding place", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێک کە تێیدا کەسێک/شتێک دەکرێت بشاردرێتەوە"""),

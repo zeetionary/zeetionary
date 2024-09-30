@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The bus broke down en route from Boston to New York.""");
   }
 
-// With short examples define "en route", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

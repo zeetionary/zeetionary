@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: میوانگرانە، بە گەرمی، لە ڕووی میوان‌گری‌یەوە
 """),
-// With short examples define "hospitably", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) میواندۆستانە؛ کە دڵخۆشیت بە هەبوونی میوان"""),

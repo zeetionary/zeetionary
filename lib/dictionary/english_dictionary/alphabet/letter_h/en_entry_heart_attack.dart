@@ -152,7 +152,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "heart attack", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دۆخێکی تەندرووستی لەناکاو کە تێیدا چوونی خوێن بۆ دڵ دەوەستێت و ھەندێک جار دەبێتە ھۆکاری مەرگ"""),

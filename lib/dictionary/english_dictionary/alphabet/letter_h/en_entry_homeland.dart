@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نیشتمان، وڵاتی باوباپیران، وڵات، زێد
 """),
-// With short examples define "homeland", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەو وڵاتەی کەسێک تێیدا لەدایکبوو"""),
                     SentencesRow(

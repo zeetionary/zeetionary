@@ -1038,7 +1038,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "horse", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ئەسپ"""),
                     SentencesRow(
                       englishText: """He mounted his horse and rode off.""",

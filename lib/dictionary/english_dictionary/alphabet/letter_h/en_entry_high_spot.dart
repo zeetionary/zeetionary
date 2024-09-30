@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "high spot", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) باشترین یان سەرنجڕاکێشترین بەشی شتێک"""),

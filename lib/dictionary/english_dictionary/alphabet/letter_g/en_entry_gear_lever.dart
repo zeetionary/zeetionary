@@ -144,7 +144,6 @@ Usage: Brit, Cdn (US: gearshift)
                     const KurdishVocabulary(text: """
 کوردی: دەسکەگێڕ، دەسکی گێڕ، دەندەمیل، میل‌دەندە، دەسکەدەندە
 """),
-// With short examples define "gear lever", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) دەسکێک بۆ گۆڕینی گێڕی پێڕۆیەک"""),
                     SentencesRow(

@@ -238,7 +238,6 @@ class KurdishMeaning extends StatelessWidget {
         """They give free advice on contraception at the family planning clinic.""");
   }
 
-// With short examples define "family planning", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

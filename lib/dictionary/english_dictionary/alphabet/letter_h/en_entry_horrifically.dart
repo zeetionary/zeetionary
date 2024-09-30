@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "horrifically", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەکی ترسناک؛ بە شێوەیەک کە تەواو خراپە و تووشی شۆکت دەکات یان دەتترسێنێت"""),

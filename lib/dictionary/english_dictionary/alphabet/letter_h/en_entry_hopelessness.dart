@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناهومێدی، بێ‌هیوایی، دڵساردی، لێقەوماوی، قوڕبەسەری
 """),
-// With short examples define "hopelessness", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی کە هیچ هیوایەکت نەبێت"""),
                     SentencesRow(

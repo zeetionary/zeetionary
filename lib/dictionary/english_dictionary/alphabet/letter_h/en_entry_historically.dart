@@ -998,7 +998,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لەباری مێژوویی‌یەوە، لە بواری دیرۆکەوە
 """),
-// With short examples define "historically", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە ڕابردووەوە"""),

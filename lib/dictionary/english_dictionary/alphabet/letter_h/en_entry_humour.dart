@@ -1011,7 +1011,6 @@ Usage: Brit, Cdn (US: humor)
                     const KurdishVocabulary(text: """
 کوردی: شلەی ناو لەش،	شۆخی، جەفەنگ، حەنەک، گاڵتە، خوو
 """),
-// With short examples define "humour", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی شتێک پێکەنیناوی"""),
                     SentencesRow(

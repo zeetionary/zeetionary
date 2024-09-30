@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "help desk", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خزمەتگوزارییەک، زۆرجار لە کۆمپانیایەکی بازرگانی، کە یارمەتی پێشکەش دەکات"""),

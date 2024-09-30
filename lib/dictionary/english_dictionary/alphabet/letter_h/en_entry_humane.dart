@@ -996,7 +996,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵسۆز، بەبەزەیی، مرۆڤایەتی، مرۆڤی
 """),
-// With short examples define "humane", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ئەوەی کە میهرەبان بیت لەگەڵ مرۆڤ و ئاژەڵ بەوەی دڵنیایی بکەیت کە زیاتر لە پێویست ئازار ناچێژن"""),

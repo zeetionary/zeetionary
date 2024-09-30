@@ -9,7 +9,8 @@ class EnglishEntryinsubordinate extends StatefulWidget {
   const EnglishEntryinsubordinate({super.key});
 
   @override
-  State<EnglishEntryinsubordinate> createState() => _EnglishEntryinsubordinateState();
+  State<EnglishEntryinsubordinate> createState() =>
+      _EnglishEntryinsubordinateState();
 }
 
 class _EnglishEntryinsubordinateState extends State<EnglishEntryinsubordinate> {
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsubordinate insubordinate
-WORD_WEB insubordinate insubordinate insubordinate
-haʊʊʊʊʊʊʊ4
+- Adjective: insubordinate
+1. Disposed to or engaged in defiance of established authority (- resistant, resistive)
+ 
+2. Not submissive to authority
+"a history of insubordinate behaviour"; "insubordinate boys"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insubordinate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """We shall take action against city employees who are insubordinate, or who are discourteous to the public.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/BuYLZigga7U?t=';
+    const double startSecondsend = 000000000000000000000000000240;
+    const String videoIdone = 'https://youtu.be/Ze9jxpur47M?t=';
+    const double startSecondsone = 000000000000000000000000000429;
+    const String videoIdtwo = 'https://youtu.be/HQvM7IhrtYo?t=';
+    const double startSecondstwo = 000000000000000000000000000373;
+    const String videoIdthree = 'https://youtu.be/tJlDuBxWV8I?t=';
+    const double startSecondsthree = 000000000000000000000000000379;
+    const String videoIdfour = 'https://youtu.be/ygf9cukqHW8?t=';
+    const double startSecondsfour = 000000000000000000000000000748;
+    const String videoIdfive = 'https://youtu.be/Wr-uQpR44x8?t=';
+    const double startSecondsfive = 000000000000000000000000000909;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insubordinate""",
                       // alsoEnglishWord: "also: insubordinate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsəˈbɔːdɪnət/""",
+                      americanText: """IpaUS: /ˌɪnsəˈbɔːrdɪnət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەربزێو، ناگوێڕایەڵ، یاخی، سەرکێش، سەرچەوت، سەرپێچی‌کەر، سەرهەڵداو
 """),
 // With short examples define "insubordinate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە ڕەتی بکەیتەوە گوێڕایەڵی فەرمان بیت یان ڕێز پیشان بدەیت بۆ کەسانی پلەر بەرزتر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We shall take action against city employees who are insubordinate, or who are discourteous to the public.""",
+                      kurdishText:
+                          """دەبێت هەنگاو بگرینە بەر دژ بەو کارمەندانەی شارەکە کە ناگوێڕایەڵن، یان بێ‌ئەدەبن بەرامبەر خەڵکی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

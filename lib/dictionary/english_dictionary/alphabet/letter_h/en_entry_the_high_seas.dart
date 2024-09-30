@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "the high seas", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو بەشانەی زەریاکان کە ھیچ وڵاتێک مافی یاسایی بەسەریانەوە نییە"""),

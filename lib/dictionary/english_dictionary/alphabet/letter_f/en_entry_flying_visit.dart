@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەردان یان دیدەنی‌یەکی کورت، کورتەسەردان، کورتەسەرکێشی
 """),
-// With short examples define "flying visit", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) سەردانێکی کورت"""),
                     SentencesRow(

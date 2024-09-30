@@ -141,7 +141,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ویست، ھێز یان توانایی بڕیاردان، بڕیاربەدەستی
 """),
-// With short examples define "free will", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە ئەو شتانە بکەیت کە دەتەوێت بەبێ کۆنترۆڵی خودا، قەدەر، یان ھەلومەرج"""),

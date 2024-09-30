@@ -1007,7 +1007,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hush", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) گوتن بە کەسێک کە بێ‌دەنگ بێت"""),
                     SentencesRow(

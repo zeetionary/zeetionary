@@ -158,7 +158,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "the first person", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کۆمەڵە جێناوی کەسی یەکەم کە قسەکەر خۆی یان قسەکەر و ژمارەیەک کەسی دیکە دەگرێتەوە"""),

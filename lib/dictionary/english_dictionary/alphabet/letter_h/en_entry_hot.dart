@@ -1063,7 +1063,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەتین، گەرم، داغ، داخ،	(هەزوێڵە) توند، توندوتیژ، تیژ،	توند، توندوتیژ، سەخت،	بەگوڕ، گەرم‌وگوڕ، بەتاو، بەتین،	زووتووڕە، جینگزی، هەڵتۆز، سەرتوند، فیشەکی،	(هەواڵەکان) تازە، نوێ، تازەهاتوو، گەرم، مۆر،	شارەزا، سەرەندەرکردوو، لێزان،	(موسیقا بەتایبەت جاز) بەسۆز، ڕادیۆئەکتیڤ،	پڕمەترسی، مەترسیدار،	(شت) دزێتی، دزراو
 """),
-// With short examples define "hot", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) گەرم"""),
                     SentencesRow(
                       englishText: """It's hot today, isn't it?""",

@@ -210,7 +210,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "first class", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) باشترین جێگاکانی سەر شەمەندەفەر، فڕۆکە، یان کەشتی"""),

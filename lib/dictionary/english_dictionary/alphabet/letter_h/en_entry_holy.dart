@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پیرۆز، خودایی، دینی، پاک، پاکژ، پارێزگار، بەدین، لەخواترس
 """),
-// With short examples define "holy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پەیوەندیدار بە خودا یان ئایینێکی دیاریکراو"""),

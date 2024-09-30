@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پشت‌کۆم، پشت‌کووڕ، پشت‌چەماو، کووڕ، قووچەلی
 """),
-// With short examples define "hunchbacked", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە کەسێک پشتی کووڕ بووبێت بەهۆی چەمانەوەی ناسرووشتی لە بڕبڕەی پشتی"""),

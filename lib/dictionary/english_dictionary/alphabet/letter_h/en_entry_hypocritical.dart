@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕیایی‌باز، دووڕوو، ڕووبین، ڕووبینانە، دووڕووانە
 """),
-// With short examples define "hypocritical", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بە شێوەیەک بیت کە ڕەفتارەکانت پێچەوانەی ئەو باوەڕ و ستانداردانە بێت کە بانگەشەی بۆ دەکەیت"""),

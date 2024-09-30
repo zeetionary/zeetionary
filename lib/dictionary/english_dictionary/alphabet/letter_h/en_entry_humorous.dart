@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێکەنینی، خۆش، نوکتەبێژ، گاڵتەباز، پەند، ئۆین(باز)، قسەخۆش، شۆخی‌باز
 """),
-// With short examples define "humorous", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) پێکەنیناوی"""),
                     SentencesRow(
                       englishText:

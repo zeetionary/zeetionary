@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەیبانوو، بنەوان، ماڵدار، ژنی ماڵەوە
 """),
-// With short examples define "housewife", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ژنێک کە لە ماڵەوە دەمێنێت بۆ خواردن لێنان، پاککردنەوە، ئاگابوون لە منداڵەکانی،، هتد لەکاتێکدا هاوسەرەکەی کار دەکات"""),

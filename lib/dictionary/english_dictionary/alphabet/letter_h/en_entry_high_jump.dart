@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەرزەباز، بازی بەرز، کەڵەمباز
 """),
-// With short examples define "high jump", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) یارییەکی وەرزشی کە تێیدا وەرزشوانان ھەوڵ دەدەن بەسەر ستوونێکدا باز بدەن کە زیاتر و زیاتر بەرز دەکرێتەوە"""),

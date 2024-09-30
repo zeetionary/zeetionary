@@ -1001,7 +1001,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تانجی، تاژی، سەگی ڕاو
 """),
-// With short examples define "hound", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سەگێک کە بۆ ڕاوکردن بەکاردێت و دەتوانێت خێرا ڕابکات، و توانای بۆنکردنی باشی هەیە"""),

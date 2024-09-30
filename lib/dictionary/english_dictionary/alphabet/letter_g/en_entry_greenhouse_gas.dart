@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "greenhouse gas", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ھەر یەک لەو گازانەی کە وەھا دادەنرێن ببنە ھۆکاری گەرمبوونی بەرگەھەوای زەوی، بە تایبەتی دووەم ئۆکسیدی کاربۆن"""),

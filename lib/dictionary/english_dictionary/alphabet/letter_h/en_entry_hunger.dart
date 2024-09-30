@@ -1001,7 +1001,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: برسێتی، برچی‌بوون، خورێنی، ئاورای، نێزاتی،	خولیا، ئارەزووی بەهێز، تامەزرۆیی، کەڵکەڵە
 """),
-// With short examples define "hunger", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) برسییەتی"""),
                     const AlsoEnglishckb(word: "ھەروەھا: starvation"),
                     SentencesRow(

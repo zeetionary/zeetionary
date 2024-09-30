@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstructor instructor
-WORD_WEB instructor instructor instructor
-haʊʊʊʊʊʊʊ4
+- Noun: instructor (Derived forms: instructors)
+1. A person whose occupation is teaching (- teacher, educator)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instructor";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She felt nervous in front of her driving instructor.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsend = 0000000000000000000000000003757;
+    const String videoIdone = 'https://youtu.be/wVyu7NB7W6Y?t=';
+    const double startSecondsone = 000000000000000000000000000438;
+    const String videoIdtwo = 'https://youtu.be/jTRC_FMzLoo?t=';
+    const double startSecondstwo = 000000000000000000000000000449;
+    const String videoIdthree = 'https://youtu.be/_braqNPY0hM?t=';
+    const double startSecondsthree = 00000000000000000000000000096;
+    const String videoIdfour = 'https://youtu.be/kIwF0z9W5pE?t=';
+    const double startSecondsfour = 00000000000000000000000000033;
+    const String videoIdfive = 'https://youtu.be/iQ5GfDbjos8?t=';
+    const double startSecondsfive = 000000000000000000000000000180;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instructor""",
                       // alsoEnglishWord: "also: instructor",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈstrʌktə(r)/""",
+                      americanText: """IpaUS: /ɪnˈstrʌktər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +988,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: فێرکار، مامۆستا، ڕاهێنەر
 """),
 // With short examples define "instructor", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە شارەزاییەکی کرداری یان وەرزشێک فێری کەسێک دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She felt nervous in front of her driving instructor.""",
+                      kurdishText:
+                          """هەستی بە شڵەژاوی دەکرد لە پێش فێرکاری شۆفێرییەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hydraulic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کە لە ڕێگای بۆرییەوە لەژێر فشاردا دەجووڵێت؛ کە ئامێرێک بەم شێوەیە کار دەکات"""),

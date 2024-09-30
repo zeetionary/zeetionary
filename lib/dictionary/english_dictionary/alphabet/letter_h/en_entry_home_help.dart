@@ -991,7 +991,6 @@ Usage: Brit
                     const KurdishVocabulary(text: """
 کوردی: دواکەیبانوو، ئاوەڵ‌کەیبانوو، یاریدەدەری کەیبانووی ماڵ
 """),
-// With short examples define "home help", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە کاری یارمەتیدانی کەسانی نەخۆش و بەتەمەنە لە خواردن لێنان، پاککردنەوە، هتد"""),

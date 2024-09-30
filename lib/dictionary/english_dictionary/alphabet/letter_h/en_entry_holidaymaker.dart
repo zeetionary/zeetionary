@@ -995,7 +995,6 @@ Usage: Brit, Cdn (US: vacationist)
                     const KurdishVocabulary(text: """
 کوردی: ڕێبوار، شاران‌گەڕ، توریست، گەڕوان
 """),
-// With short examples define "holidaymaker", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە بۆ گەشت و پشوو سەردانی شوێنێک دەکات"""),

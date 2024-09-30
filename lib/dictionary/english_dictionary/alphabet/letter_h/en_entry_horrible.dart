@@ -997,7 +997,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ترسناک، سامناک، ترسێنەر، ئەرژەنگ، پڕوەی، وەی، بێزەون، کرێت، ناخۆش، ناحەز، شپرزە، خراپ
 """),
-// With short examples define "horrible", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) زۆر خراپ یان ناخۆش"""),
                     SentencesRow(

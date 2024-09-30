@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hospice", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) نەخۆشخانە بۆ ئەو کەسانەی کە خەریکە دەمرن، بە تایبەتی بەهۆی شێرپەنجە"""),

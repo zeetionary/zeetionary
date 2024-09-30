@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پرکامی، لە ئەنجامی پرکام،	شێتانە، ورووژاو، (نافەرمی، زۆر) پێکەنینی، شاگەشکە، گاڵتەجاڕ، ژان‌پێکەر
 """),
-// With short examples define "hysterical", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) لە دۆخی تەواو بەجۆشی، گریان، پێکەنین، هتد بەبێ کۆنترۆڵ"""),

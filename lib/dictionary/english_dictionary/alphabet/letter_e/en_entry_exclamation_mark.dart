@@ -244,7 +244,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""The letter was peppered with exclamation marks.""");
   }
 
-// With short examples define "exclamation mark", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

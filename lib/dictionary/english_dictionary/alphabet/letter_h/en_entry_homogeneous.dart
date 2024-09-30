@@ -996,7 +996,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هاوڕەگەز، هاوتوخم، چونیەک، هاوجۆر، یەک‌شێوە، یەک‌جۆر، یەک‌دەست، هاوشێوە،	لێکچووو
 """),
-// With short examples define "homogeneous", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) پێکهاتوو لە خەڵک یان شت کە هەموویان هەمان شێوە یان جۆرن"""),

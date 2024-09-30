@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: وێسگە یان بنکەی ئاگرکوژاندنەوە
 """),
-// With short examples define "fire station", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بینایەک کە بەشی ئاگرکوژێنەوەی لێیە"""),

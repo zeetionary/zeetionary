@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "firing squad", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ژمارەیەک سەرباز کە فەرمانیان پێکراوە تەقەبکەن لە کەسێکی تاوانبار و بیکوژن """),

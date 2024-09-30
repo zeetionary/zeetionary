@@ -168,7 +168,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "hard core", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) ھەبوونی باوەڕێکی نەگۆڕ"""),
                     SentencesRow(

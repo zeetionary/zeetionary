@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "foreign exchange", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سیستەمی ئاڵووگۆڕی دراو؛ شوێنێک کە لێی دەتوانیت دراو بگۆڕیتەوە"""),

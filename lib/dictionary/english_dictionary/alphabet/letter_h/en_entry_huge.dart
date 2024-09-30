@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: زەبەلاح، یەکجار زلە، کەڵ، فیلەتەن، کەتە، زەلام، زۆر، (زۆر)گەورە، گەپ، نەترەبۆق
 """),
-// With short examples define "huge", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) تەواو گەورە لە بڕ یان ئەندازە"""),

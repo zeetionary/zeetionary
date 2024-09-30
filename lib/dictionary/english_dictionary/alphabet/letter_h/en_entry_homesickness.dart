@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەردی دووری، خەمی دوورەوڵاتی، دڵتەنگی‌کردن بۆ وڵات، کۆلیلی، غەریبی، دڵپڕی
 """),
-// With short examples define "homesickness", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دڵتەنگی بەهۆی ئەوەی دووریت لە ماڵ و بیری خێزان و هاوڕێکانی دەکەیت"""),

@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "general strike", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) مانگرتنی گشتی"""),
                     SentencesRow(
                       englishText:

@@ -1008,7 +1008,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: لاشەی کەشتی، پەیکەری کەشتی
 // """),
-// With short examples define "hull", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشی سەرەکی ژێرەوەی کەشتی کە دەچێتە ژێر ئاو"""),

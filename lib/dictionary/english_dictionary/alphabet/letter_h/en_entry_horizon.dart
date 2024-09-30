@@ -1001,7 +1001,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئاسۆ، ئاسۆگ، کەلەپۆ، پەراوێزی ئاسمان، کەناری ئاسمان، باهو، سوێگە، دید، ڕوانگە
 """),
-// With short examples define "horizon", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دوورترین مەودا کە چاو بیبینێت کە تێیدا ئاسمان وەها دەردەکەوێت بەر دەریا یان زەوی بکەوێت"""),

@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hygienically", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە پاک و بەبێ بەکتریا بێت بۆیە ئەگەری کەم بێت نەخۆشی بگوازێتەوە"""),

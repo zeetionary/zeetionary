@@ -998,7 +998,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناهومێدانە، دڵساردانە، بێ‌هیوایانە
 """),
-// With short examples define "hopelessly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە ئاستێکی زۆر، یان بەبێ هیچ هیوایەک کە دۆخێک باش ببێت"""),

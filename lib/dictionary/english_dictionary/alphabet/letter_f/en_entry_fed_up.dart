@@ -250,7 +250,6 @@ class KurdishMeaning extends StatelessWidget {
         """In the end, I just got fed up with his constant complaining.""");
   }
 
-// With short examples define "fed up", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -989,7 +989,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕاستی تاڵ، ڕاستی ناخۆش
 """),
-// With short examples define "home truth", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕاستییەکی ناخۆش لەسەر کەسێک، کە زۆرجار کەسێکی دیکە پێی دەڵێت"""),

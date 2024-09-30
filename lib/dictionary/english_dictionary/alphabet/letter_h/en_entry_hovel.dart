@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کۆختە، کەلاوە، کاز، کووخ، مالک، کون، قۆختە
 """),
-// With short examples define "hovel", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ماڵێک کە گونجاو نییە بۆ ژیان چونکە لە دۆخی زۆر خراپە یان پیسە"""),

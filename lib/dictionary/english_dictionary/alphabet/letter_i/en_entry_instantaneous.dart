@@ -9,7 +9,8 @@ class EnglishEntryinstantaneous extends StatefulWidget {
   const EnglishEntryinstantaneous({super.key});
 
   @override
-  State<EnglishEntryinstantaneous> createState() => _EnglishEntryinstantaneousState();
+  State<EnglishEntryinstantaneous> createState() =>
+      _EnglishEntryinstantaneousState();
 }
 
 class _EnglishEntryinstantaneousState extends State<EnglishEntryinstantaneous> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstantaneous instantaneous
-WORD_WEB instantaneous instantaneous instantaneous
-haʊʊʊʊʊʊʊ4
+- Adjective: instantaneous
+1. Occurring with no delay (- instant)
+"relief was instantaneous";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instantaneous";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Death was almost instantaneous.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/R_fZjGm2OrM?t=';
+    const double startSecondsend = 000000000000000000000000000336;
+    const String videoIdone = 'https://youtu.be/dqcSk-EDrRo?t=';
+    const double startSecondsone = 000000000000000000000000000962;
+    const String videoIdtwo = 'https://youtu.be/Fa13JKGG0ds?t=';
+    const double startSecondstwo = 000000000000000000000000000724;
+    const String videoIdthree = 'https://youtu.be/3RkhZgRNC1k?t=';
+    const double startSecondsthree = 000000000000000000000000000518;
+    const String videoIdfour = 'https://youtu.be/UvjSXBqQe4A?t=';
+    const double startSecondsfour = 000000000000000000000000000318;
+    const String videoIdfive = 'https://youtu.be/-BeTq99LqUo?t=';
+    const double startSecondsfive = 000000000000000000000000000662;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instantaneous""",
                       // alsoEnglishWord: "also: instantaneous",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnstənˈteɪniəs/""",
+                      americanText: """IpaUS: /ˌɪnstənˈteɪniəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەسبەجێ، دەست‌وبرد، لەڕێوە، کت‌ومت، کت‌وپڕ
 """),
 // With short examples define "instantaneous", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە دەسبەجێ ڕوودەدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Death was almost instantaneous.""",
+                      kurdishText: """مردن تاڕادەیەکی زۆر دەسبەجێ بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

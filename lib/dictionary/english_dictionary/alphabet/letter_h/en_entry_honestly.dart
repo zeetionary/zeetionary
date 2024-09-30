@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سەرڕاستانە، بە شێوەیەکی ڕاست، بە ڕاستی، بە سەرڕاستی،	باوەڕ بکە، بڕوا بکە، ڕاستت بوێ، درۆت لەگەڵ ناکەم، بە ڕاستمە
 """),
-// With short examples define "honestly", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە شێوەیەکی ڕاستگۆیانە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: dishonestly"),

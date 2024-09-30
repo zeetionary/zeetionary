@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕاستی، دروستی، سەرڕاستی، ڕاست‌گۆیی، بێ‌خەوشی، پاکی، دەسپاکی
 """),
-// With short examples define "honesty", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ئەوەی ڕاستگۆ بیت"""),
                     SentencesRow(

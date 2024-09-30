@@ -236,7 +236,6 @@ class KurdishMeaning extends StatelessWidget {
         """I committed a faux pas that my friends have never let me forget.""");
   }
 
-// With short examples define "faux pas", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خەوتنگا، جێ‌خەو، میوان‌خانە
 """),
-// With short examples define "hostel", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بینایەک کە جێگای مانەوەی هەرزان و خواردن دابین دەکات بۆ خوێندکاران، گەشتیاران، و کرێکاران"""),

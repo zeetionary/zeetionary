@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دڵتەنگی نیشتمان، غەریب، کۆلیل، دڵپڕ
 """),
-// With short examples define "homesick", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) دڵتەنگ بەهۆی ئەوەی دووریت لە ماڵ و بیری خێزان و هاوڕێکانی دەکەیت"""),

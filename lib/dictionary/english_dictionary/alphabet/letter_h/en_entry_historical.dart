@@ -1012,7 +1012,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مێژوویی، دیرۆکی، سەربە مێژوو
 """),
-// With short examples define "historical", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) پەیوەندیدار بە مێژوو"""),
                     SentencesRow(

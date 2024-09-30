@@ -996,7 +996,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئۆخەیش! خەیش! چاکە! عیو!، ئافەرەم، دەست‌خۆش، بژیت، هوریا
 """),
-// With short examples define "hooray", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بۆ گوتنی ئەوەی کە دڵخۆشیت یان ڕازیت بە شتێک"""),

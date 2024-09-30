@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "heavy industry", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پیشەسازی درووستکردنی ئۆتۆمبێل، کانزا، کەلووپەلی قورس، ھتد بە ئامێری گەورە"""),

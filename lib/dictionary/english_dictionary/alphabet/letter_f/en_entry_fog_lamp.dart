@@ -148,7 +148,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گڵۆپ یا چرای مژبڕ (تەم‌بڕ)، چرامژ، چرای لەمژکارکردوو
 """),
-// With short examples define "fog lamp", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕووناککەرەوەیەکی زۆر ڕۆشن لە پێشەوەی ئۆتۆمبێلێک کە یارمەتیدەر دەبێت بۆ بینین یان ئەوەی ببیندرێت لە تەمدا"""),

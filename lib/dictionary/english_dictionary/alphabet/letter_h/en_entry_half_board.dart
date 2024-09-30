@@ -145,7 +145,6 @@ Usage: Brit, Cdn (US: modified American plan)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "half board", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جۆرێک مانەوە لە ھوتێل کە نانی بەیانی و ئێوارەی لەگەڵە"""),

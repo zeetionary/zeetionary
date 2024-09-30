@@ -998,7 +998,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: میوانگر، وەجاغدار، میوان‌پەروەر، بەخزمەت، بەنان، نان‌دەر، نان‌بدەر، نان‌دار، میوان‌دۆست
 """),
-// With short examples define "hospitable", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) میواندۆست؛ کە دڵخۆشە بە هەبوونی میوان"""),

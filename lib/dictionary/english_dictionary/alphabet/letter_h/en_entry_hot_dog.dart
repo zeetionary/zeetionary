@@ -997,7 +997,6 @@ Usage: N. Amer, informal
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hot dog", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) سۆسجێکی گەرم لە نانێکی لوولەدا"""),
                     SentencesRow(

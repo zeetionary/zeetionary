@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "freezing point", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پلەی بەستنی ئاو کە سفری سیلیزییە؛ ئەو پلەیەی کە شلەیەک تێیدا دەیبەستێت"""),

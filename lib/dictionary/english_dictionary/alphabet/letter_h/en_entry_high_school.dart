@@ -166,7 +166,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "high school", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) لە ئەمریکا و ژمارەیەک وڵات خوێندنگایەکە بۆ منداڵانی تەمەن ١٤ بۆ ١٨ ساڵان؛ لە ئینگلتەرە، وێڵز، و ئێرلەندای باکوور لە ناوی ئەو قوتابخانانە بەکاردێت کە بۆ منداڵانی ١١ بۆ ١٨ ساڵانن"""),

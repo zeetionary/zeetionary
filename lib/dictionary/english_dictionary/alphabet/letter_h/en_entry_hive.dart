@@ -1005,7 +1005,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەلوو، کەنوو، خڵێف، گوربک، پلوورە، شانەی هەنگ
 """),
-// With short examples define "hive", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) شوێنی ژیانی مێشهەنگ"""),
                     const AlsoEnglishckb(word: "ھەروەھا: beehive"),

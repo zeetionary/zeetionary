@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hurtle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ڕۆشتن زۆر بە خێرایی بە ئاراستەیەکدا"""),

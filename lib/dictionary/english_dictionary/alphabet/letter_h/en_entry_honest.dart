@@ -1015,7 +1015,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕاست، سەرڕاست، پیاوچاک، پاک‌سرشت، بێ‌خەوش، ساغ، دروست، ڕاست‌گۆ، سەرڕاستانە، بەڕێز، پاک، دەسپاک، ڕەوا، حەڵاڵ
 """),
-// With short examples define "honest", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) هەمیشە گوتنی ڕاستی و هەرگیز نەگوتنی درۆ یان دزیکردن"""),

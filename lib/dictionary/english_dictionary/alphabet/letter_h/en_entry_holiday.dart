@@ -1014,7 +1014,6 @@ Usage: Brit, Cdn
                     const KurdishVocabulary(text: """
 کوردی: پشوو، وچان، پێندان، ڕۆژی بێکاری، ڕۆژانی پشوو
 """),
-// With short examples define "holiday", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ماوەیەک کە لە کار یان قوتابخانە نیت"""),

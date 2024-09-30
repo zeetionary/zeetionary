@@ -997,7 +997,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە پەلە، بە پڕتاو، بە هەڵەداوان
 """),
-// With short examples define "hotfoot", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بەخێرایی و پەلەپەل"""),
                     SentencesRow(

@@ -996,7 +996,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لاشە یان کەلاکی کەشتی، زەبەلاح، زلە
 """),
-// With short examples define "hulk", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشی سەرەکی لاشەی شتێک کە چی دیکە بەکارنایەت"""),

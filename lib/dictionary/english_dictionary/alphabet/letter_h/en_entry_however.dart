@@ -1007,7 +1007,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هەر چۆنێ بێ، هەرچەند، بە هەر شێوەیێ، هەرچەن(د)ێ، سەرەڕای ئەوەش، لەگەڵ ئەوەش، بەڵام، هەر چۆنێ
 """),
-// With short examples define "however", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بۆ گوتنی شتێک کە دژ بە شتێکی دیکە کە تازەگی گوتراوە"""),

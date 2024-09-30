@@ -9,10 +9,12 @@ class EnglishEntryinstrumentalist extends StatefulWidget {
   const EnglishEntryinstrumentalist({super.key});
 
   @override
-  State<EnglishEntryinstrumentalist> createState() => _EnglishEntryinstrumentalistState();
+  State<EnglishEntryinstrumentalist> createState() =>
+      _EnglishEntryinstrumentalistState();
 }
 
-class _EnglishEntryinstrumentalistState extends State<EnglishEntryinstrumentalist> {
+class _EnglishEntryinstrumentalistState
+    extends State<EnglishEntryinstrumentalist> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstrumentalist instrumentalist
-WORD_WEB instrumentalist instrumentalist instrumentalist
-haʊʊʊʊʊʊʊ4
+- Noun: instrumentalist (Derived forms: instrumentalists)
+1. Someone who plays a music as a profession (- musician, player, muso [Brit, informal])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instrumentalist";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He was one of the finest instrumentalists of his day.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/KNJSkg6KqrI?t=';
+    const double startSecondsend = 00000000000000000000000000048;
+    const String videoIdone = 'https://youtu.be/sB5sEsFEIb8?t=';
+    const double startSecondsone = 00000000000000000000000000020;
+    const String videoIdtwo = 'https://youtu.be/IdTCLumZusY?t=';
+    const double startSecondstwo = 000000000000000000000000000567;
+    const String videoIdthree = 'https://youtu.be/amuNqpiGhYY?t=';
+    const double startSecondsthree = 000000000000000000000000000324;
+    const String videoIdfour = 'https://youtu.be/-f8GcFCxeP8?t=';
+    const double startSecondsfour = 000000000000000000000000000381;
+    const String videoIdfive = 'https://youtu.be/4Omkh8QFAdg?t=';
+    const double startSecondsfive = 000000000000000000000000000157;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instrumentalist""",
                       // alsoEnglishWord: "also: instrumentalist",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnstrəˈmentəlɪst/""",
+                      americanText: """IpaUS: /ˌɪnstrəˈmentəlɪst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "instrumentalist", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کەسێک کە ئامێرێکی میوزیکی دەژەنێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was one of the finest instrumentalists of his day.""",
+                      kurdishText:
+                          """یەکێک لە باشترین میوزیکژەنەکانی سەردەمی خۆی بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

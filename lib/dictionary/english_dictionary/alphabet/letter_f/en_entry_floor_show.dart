@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "floor show", please follow LX instructions
                     DefinitionKurdish(
                         text:
                             """١. (ناو) ژمارەیەک نمایشی گۆرانیبێژان، سەماکاران، ھتد لە چێشتخانەیەک، یانەیەک، لەسەر زەوی، نەک لەسەر ستەیج"""),

@@ -989,7 +989,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەڵەگا، چەقۆکێش، لات
 """),
-// With short examples define "hooligan", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێکی گەبجی سەربەکێشە کە ڕەفتاری توندووتیژ دەکات، و زۆرجار بە گرووپ پێکەوە دەگەڕێن"""),

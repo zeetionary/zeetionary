@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕێڕەوی فڕین، فڕینەڕێ، ڕێگای فڕین
 """),
-// With short examples define "flight path", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو ڕێگایەی فڕۆکە بە ئاسماندا گەشتی پێدا دەکات"""),

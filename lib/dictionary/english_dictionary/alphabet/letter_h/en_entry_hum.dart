@@ -1013,7 +1013,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ویزە، ویزەویز، ڤڕەڤڕ، هاڕەهاڕ، ویرەویر، نێورین، منگەمنگ،	بۆنی ناخۆش، بۆگەن
 """),
-// With short examples define "hum", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) گۆرانی گوتن بە لێوی داخراوەوە"""),
                     SentencesRow(

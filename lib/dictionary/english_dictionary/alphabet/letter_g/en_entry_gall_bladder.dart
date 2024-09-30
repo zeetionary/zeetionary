@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "gall bladder", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەندامێک کە گرێدراوەوە بە جگەرەوە تێیدا زراو ھەڵگیراوە"""),

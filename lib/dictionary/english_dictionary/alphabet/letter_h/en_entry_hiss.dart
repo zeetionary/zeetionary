@@ -1003,7 +1003,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جیز، گیز، فیشکە، فسەفس، فسکەفسک، فیشک‌وهۆڕ، فشە، فشەفش
 """),
-// With short examples define "hiss", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) دەرکردنی دەنگێکی وەک پیتی س ــی درێژ"""),

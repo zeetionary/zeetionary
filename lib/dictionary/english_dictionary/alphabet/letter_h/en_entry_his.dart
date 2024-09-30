@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "his", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناسێنەر) سەر بە ژنێک یا کچێک کە پێشووتر باسکراوە یان ناسراوە"""),

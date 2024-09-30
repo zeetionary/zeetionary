@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ترسناک، ترسێنەر، ناخۆش، شپرزە، سامناک
 """),
-// With short examples define "horrific", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە تەواو خراپە و تووشی شۆکت دەکات"""),

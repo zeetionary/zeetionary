@@ -998,7 +998,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hothouse", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بینایەکی گەرم بۆ چاندنی ئەو ڕووەکانەی کە پێویستییان بە دۆخی تایبەتە"""),

@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: institute
+1. Set up or lay the groundwork for (- establish, found, plant, constitute)
+"institute a new department";
+ 
+2. Advance or set forth in court (- bring)
+"institute proceedings";
 
-EnglishEntryinstitute institute
-WORD_WEB institute institute institute
-haʊʊʊʊʊʊʊ4
+- Noun: institute (Derived forms: instituted, institutes, instituting)
+1. An association organized to promote art, science or education
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "institute";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,43 +91,46 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The report was compiled by Germany's five leading economic research institutes.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The course is offered at six colleges and institutes of higher education.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She was a senior researcher at the institute.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""They could institute criminal proceedings against you.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""The Church was seen as divinely instituted.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """She formally instituted divorce proceedings against her husband.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -926,21 +933,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/HAnw168huqA?t=';
+    const double startSecondsend = 000000000000000000000000000702;
+    const String videoIdone = 'https://youtu.be/-UrdExQW0cs?t=';
+    const double startSecondsone = 0000000000000000000000000001065;
+    const String videoIdtwo = 'https://youtu.be/3KC32Vymo0Q';
+    const double startSecondstwo = 0;
+    const String videoIdthree = 'https://youtu.be/9aWYJugVTs4?t=';
+    const double startSecondsthree = 000000000000000000000000000461;
+    const String videoIdfour = 'https://youtu.be/ha2mLz-Xdpg?t=';
+    const double startSecondsfour = 0000000000000000000000000003137;
+    const String videoIdfive = 'https://youtu.be/5d6SEQQbwtU?t=';
+    const double startSecondsfive = 000000000000000000000000000268;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """institute""",
                       // alsoEnglishWord: "also: institute",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnstɪtjuːt/""",
+                      americanText: """IpaUS: /ˈɪnstɪtuːt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +998,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دامەزرە، دامەزراوە، بنیات، ئامۆژگا، دەزگا،	ڕێکخراوە،	کۆمەڵە، ئەنجومەن، جەرگە، کۆڕ،	ئەنیستیتۆ، دەزگا
 """),
 // With short examples define "institute", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دامەزراوەیەک کە ئامانجێکی دیاریکراوی هەیە، بە تایبەتی یەکێک کە پەیوەندیدارە بە پەروەردە؛ بینای دامەزراوەیەکی وەها"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The report was compiled by Germany's five leading economic research institutes.""",
+                      kurdishText:
+                          """ڕاپۆرتەکە لەلایەن پێنج لە دامەزراوەکانی توێژینەوەی ئەڵمانیا کۆکرایەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1016,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The course is offered at six colleges and institutes of higher education.""",
+                      kurdishText:
+                          """کۆرسەکە لە شەش کۆلێژ و پەیمانگای خوێندنی باڵا دەگوترێتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,17 +1027,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was a senior researcher at the institute.""",
+                      kurdishText: """ئەندامێکی باڵا بوو لە دامەزراوەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) دەستپێکردنی سیاسەتێک، سیستەمێک، هتد یان دەستپێکردنی پڕۆسەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They could institute criminal proceedings against you.""",
+                      kurdishText:
+                          """دەتوانن پڕۆسەی تاوانکاری دژت دەست پێبکەن.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1050,12 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The Church was seen as divinely instituted.""",
+                      kurdishText:
+                          """کڵێساکە لەلایەن بوونێکی پیرۆزەوە درووستکرا.""",
+                      englishNote:
+                          """This means the Church was regarded as being established or created by divine authority or guidance, believed to be ordained by a higher power.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1044,8 +1063,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She formally instituted divorce proceedings against her husband.""",
+                      kurdishText:
+                          """بە فەرمی پڕۆسەی جیابوونەوەی دژ بە هاوسەرەکەی دەستپێکرد.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),

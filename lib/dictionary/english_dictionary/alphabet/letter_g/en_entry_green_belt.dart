@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "green belt", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ناوچەیەکی کراوە بە دەوری شارێکدا کە تێیدا کۆنترۆڵی توند ھەیە لەسەر بنیاتنانی نیشتەجێبوون"""),

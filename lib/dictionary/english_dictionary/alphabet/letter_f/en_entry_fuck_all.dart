@@ -150,7 +150,6 @@ Usage: Brit, vulgar
                     const KurdishVocabulary(text: """
 کوردی: ھیچ، ھیچ پۆخێ، ھیچ گوویێ
 """),
-// With short examples define "fuck all", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) ھیچ شتێک؛ """),
                     SentencesRow(
                       englishText: """You've done fuck all today.""",

@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئەقڵی بەکردەوە، باش‌دادگەری، باش‌بڕیاردان، توانایی دەکردنی بڕیارێکی دروست
 """),
-// With short examples define "good sense", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) توانای ئەوەی بڕیاری درووست بدەیت لەسەر شتێک"""),

@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چون، چونکە، لەبەر ئەوە کە، تا ئەو جێگای کە
 """),
-// With short examples define "inasmuch as", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (لێکدەر) بۆ زیادکردنی لێوانێک بۆ شتێک کە گوتووتە، و ئەوەی چۆن ڕاستە؛ بۆ گوتنی شتێک کە ڕوونی دەکاتەوە کە چۆن یان بۆچی شتێکی تر کە گوتووتە ڕاستە"""),

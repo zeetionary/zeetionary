@@ -236,7 +236,6 @@ class KurdishMeaning extends StatelessWidget {
         """After a number of false starts, she finally found a job she liked.""");
   }
 
-// With short examples define "false start", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

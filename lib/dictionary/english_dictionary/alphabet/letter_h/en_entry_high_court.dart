@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دادگای باڵا، دادگای بەرز
 """),
-// With short examples define "high court", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دادگای ئینگلتەرە و وێڵز کە مامەڵە لەگەڵ توندترین کەیسە ناتاوانکارییەکان دەکات"""),

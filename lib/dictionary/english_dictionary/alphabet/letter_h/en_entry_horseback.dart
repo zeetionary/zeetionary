@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سوارە، لەسەرئەسپ‌سوار، لەسەر پشتی ئەسپ
 """),
-// With short examples define "horseback", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) لە کاتی ئەسپسواری"""),
                     SentencesRow(

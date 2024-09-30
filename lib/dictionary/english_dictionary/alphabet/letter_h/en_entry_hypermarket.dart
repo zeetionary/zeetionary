@@ -992,7 +992,6 @@ Usage: Brit
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hypermarket", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) فرۆشگایەکی گەورە کە لە دەرەوەی سەنتەری شارۆچکە"""),

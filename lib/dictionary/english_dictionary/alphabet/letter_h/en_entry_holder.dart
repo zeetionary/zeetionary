@@ -1000,7 +1000,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خاوەن، خێو، خودان، ساحەب، ڕاگر
 """),
-// With short examples define "holder", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە ئەو شتەی هەیە کە باسکراوە یان خاوەندارێتی دەکات"""),

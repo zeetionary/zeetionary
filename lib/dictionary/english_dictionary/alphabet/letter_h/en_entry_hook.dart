@@ -1040,7 +1040,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قولاپ، قوڵف، چنگاڵ، لارە، قەبەنگ
 """),
-// With short examples define "hook", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پارچە کانزا، پلاستیک، یان وایەرێکی چەماوە کە بەکاردێت بۆ هەڵواسینی شت، راوکردنی ماسی، هتد"""),

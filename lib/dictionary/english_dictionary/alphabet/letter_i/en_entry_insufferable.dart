@@ -9,7 +9,8 @@ class EnglishEntryinsufferable extends StatefulWidget {
   const EnglishEntryinsufferable({super.key});
 
   @override
-  State<EnglishEntryinsufferable> createState() => _EnglishEntryinsufferableState();
+  State<EnglishEntryinsufferable> createState() =>
+      _EnglishEntryinsufferableState();
 }
 
 class _EnglishEntryinsufferableState extends State<EnglishEntryinsufferable> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsufferable insufferable
-WORD_WEB insufferable insufferable insufferable
-haʊʊʊʊʊʊʊ4
+- Adjective: insufferable
+1. Unbearably arrogant or conceited
+"insufferable insolence"
+ 
+2. Too extreme to bear (- unsufferable)
+"the insufferable heat of August in a New York apartment with no air conditioning";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insufferable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He’s insufferable!""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/k7YVxLLIuGM?t=';
+    const double startSecondsend = 000000000000000000000000000275;
+    const String videoIdone = 'https://youtu.be/Mx8JkGHaGUI?t=';
+    const double startSecondsone = 0000000000000000000000000001610;
+    const String videoIdtwo = 'https://youtu.be/AopuVtzNJo8?t=';
+    const double startSecondstwo = 000000000000000000000000000394;
+    const String videoIdthree = 'https://youtu.be/K0j2dlBMzUs?t=';
+    const double startSecondsthree = 0000000000000000000000000001487;
+    const String videoIdfour = 'https://youtu.be/-P5m5rqL7gM?t=';
+    const double startSecondsfour = 000000000000000000000000000310;
+    const String videoIdfive = 'https://youtu.be/v-eLrAw-gGc?t=';
+    const double startSecondsfive = 000000000000000000000000000417;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insufferable""",
                       // alsoEnglishWord: "also: insufferable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsʌfrəbl/""",
+                      americanText: """IpaUS: /ɪnˈsʌfrəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەرنەبردوو، خۆنەگرتوو، تاقەت‌نەهێنەر، لەخۆگرتن‌نەهاتوو، (لێ)هەڵنەکردوو، (لەگەڵی) هەڵناکرێ، لە تاقەت‌بەدەر، دەرنابرێ، سەخت، (زۆر) ناخۆش
 """),
 // With short examples define "insufferable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) تەواو بێزارکەر و ناخۆش کە سەخت بێت بەرگەی بگریت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unbearable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He’s insufferable!""",
+                      kurdishText: """زۆر بێزارکەرە!""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

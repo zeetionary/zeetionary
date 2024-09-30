@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "free radical", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەتۆم یان گرووپێک ئەتۆم کە کە سەر بە جووتێک نییە و بە ئاسانی بەژداری دەکات لە کارلێکی کیمیایی"""),

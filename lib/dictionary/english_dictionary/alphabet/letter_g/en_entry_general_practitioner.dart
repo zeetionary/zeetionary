@@ -144,7 +144,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نۆژدار یان پزشکی گشتی
 """),
-// With short examples define "general practitioner", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پزیشکێک کە چارەسەری گشتی پزیشکی دەدات بەو نەخۆشانەی کە لە ناوچەیەکی جیاواز دەژین"""),

@@ -992,10 +992,9 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "the Inland Revenue", please follow LX instructions
+//                     const KurdishVocabulary(text: """
+// کوردی: 
+// """),
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555

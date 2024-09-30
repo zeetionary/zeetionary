@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مانگرتن لە خۆراک، مانگرتنی خواردن
 """),
-// With short examples define "hunger strike", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی بۆ ماوەیەک نان نەخۆیت بۆ ناڕەزایی دەربڕین"""),

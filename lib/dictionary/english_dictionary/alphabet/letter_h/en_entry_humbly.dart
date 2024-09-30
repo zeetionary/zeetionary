@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بێ‌دەمارانە، خاکەڕایانە، سەرکزانە
 """),
-// With short examples define "humbly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە وەها بیربکەیتەوە کە وەک کەسانی دیکە گرنگ نیت"""),

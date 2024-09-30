@@ -1026,7 +1026,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کون، بوودڕ، خرەک (لە دیوار و...)، کونج، کەلەبەر، کەلێن، چاڵ، قوڵکە، کەندڕ، قولیر،	تەنگ‌وچەڵەمە، گیروگرفت، گێچەڵ، ئاستەنگ،	(هی گیانەوەران) کون، گووف، بوودڕ 
 """),
-// With short examples define "hole", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) کون یان چاڵ"""),
                     SentencesRow(
                       englishText: """He dug a deep hole in the garden.""",

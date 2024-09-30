@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تامەزۆریانە، بە برسێتی
 """),
-// With short examples define "hungrily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە ئەوە پیشان دەدات دەتەوێت شتێک بخۆیت"""),

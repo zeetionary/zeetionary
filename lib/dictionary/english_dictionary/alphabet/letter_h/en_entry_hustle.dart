@@ -1009,7 +1009,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پاڵ، پاڵنان، شان، تەکان،	پاڵەپەستۆ، شانەترنجێ،	پەلە، لەز،	چالاکی، پڕکاری، شلوقی، جم‌وجۆڵ، کار،	فێڵ‌وفەرەج، هەڵفریواندن، لەخشتەبردن، دسبڕی
 """),
-// With short examples define "hustle", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ئەوەی وا بکەیت کەسێک خێرا بجووڵیت بەوەی پاڵی بنێیت"""),

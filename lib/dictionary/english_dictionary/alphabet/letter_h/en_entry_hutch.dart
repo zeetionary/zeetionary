@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: قەفەس، بێرکم، ڕکە، سیپ، سنووق
 """),
-// With short examples define "hutch", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) قەفەزێک بۆ کەروێشک و ئاژەڵی بچووک"""),
                     SentencesRow(

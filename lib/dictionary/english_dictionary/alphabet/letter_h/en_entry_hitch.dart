@@ -1018,7 +1018,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەکان، پاڵ،	گرێ (قوڵفە)،	وێستان،	گیر، کێشە، گرێ، قۆرت، گرفت
 """),
-// With short examples define "hitch", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کەسێک بە بێ‌بەرامبەر بتگەیەنێتە شوێنێک بە ئۆتۆمبێل"""),

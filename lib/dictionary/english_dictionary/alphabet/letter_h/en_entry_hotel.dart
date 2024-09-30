@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hotel", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) هوتێل؛ بینایەک کە تێیدا خەڵکی دەمێننەوە بۆ ماوەیەکی کەم لە ژوورێکی و نانی لێ دەخۆن"""),

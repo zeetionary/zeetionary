@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەڵەگایی، چەقوکێشی، لات‌بازاڕی، لاتیگەری
 """),
-// With short examples define "hooliganism", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕەفتاری توندووتیژانە و دەنگەدەنگ لە شوێنی گشتی"""),

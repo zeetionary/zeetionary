@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕق‌ھەستاو، تووڕە، سوورەوەبوو، تێکچوو، ناڕەحەت
 """),
-// With short examples define "het up", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) شڵەژاو، بەجۆش، یان کەمێک تووڕە"""),

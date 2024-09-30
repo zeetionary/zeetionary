@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hockey", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) یارییەک کە لەلایەن دوو تیمی ١١ کەسییەوە دەکرێت بە داری چەماوە و تۆپێکی سەختەوە و هەر تیمێک هەوڵ دەدات تۆپەکە بخاتە گۆڵی تیمەکەی دیکەوە"""),

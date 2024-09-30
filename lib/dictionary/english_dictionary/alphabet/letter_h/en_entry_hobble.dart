@@ -1003,7 +1003,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hobble", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) ڕێکردن بە سەختی، بە تایبەتی بەهۆی ئەوەی لاقت ئازاری هەیە"""),

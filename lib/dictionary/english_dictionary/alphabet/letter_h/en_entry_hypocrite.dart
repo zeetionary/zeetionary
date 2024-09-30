@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کەسێکی ڕیایی‌باز، بنیادەمی دووڕوو، مرۆی ڕواڵەت‌باز
 """),
-// With short examples define "hypocrite", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە ڕەفتاری پێچەوانەی ئەو باوەڕ و ستانداردانەیە کە بانگەشەی بۆ دەکات"""),

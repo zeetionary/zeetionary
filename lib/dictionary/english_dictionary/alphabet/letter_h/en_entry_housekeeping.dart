@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ماڵداری، بنەوانی، خانەداری، خەرج‌وباری ماڵ
 """),
-// With short examples define "housekeeping", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کاری چاودێری ماڵ، بە تایبەتی کاری بازاڕکردن و دارایی"""),

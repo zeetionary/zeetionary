@@ -257,7 +257,6 @@ class KurdishMeaning extends StatelessWidget {
     await flutterTts.speak("""They had a fairy-tale wedding.""");
   }
 
-// With short examples define "fairy tale", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

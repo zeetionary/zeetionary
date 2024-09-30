@@ -1032,7 +1032,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مێژوو، دیرۆک، زووینە،	سەربردە، ڕابووری
 """),
-// With short examples define "history", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕابردوو؛ هەموو ئەو ڕووداوانەی لە ڕابردوودا ڕوویانداوە"""),

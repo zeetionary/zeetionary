@@ -1000,7 +1000,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "humanity", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) خەڵکی بە گشتی"""),
                     SentencesRow(
                       englishText:

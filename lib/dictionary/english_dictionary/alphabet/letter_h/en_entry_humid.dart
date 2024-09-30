@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: شێدار، نماوی، نم‌دار، هێوی، خاو، هیی، تەڕ، هیت
 """),
-// With short examples define "humid", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
                       englishText:

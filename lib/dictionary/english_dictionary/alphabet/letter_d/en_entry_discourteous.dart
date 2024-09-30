@@ -244,6 +244,7 @@ class KurdishMeaning extends StatelessWidget {
             onPressedBritish: () => speakdiscourteouss2("en-GB"),
             onPressedAmerican: () => speakdiscourteouss2("en-US"),
           ),
+          // add_more_sentences
         ],
       ),
     );

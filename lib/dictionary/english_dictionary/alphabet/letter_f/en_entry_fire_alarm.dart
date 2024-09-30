@@ -157,7 +157,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fire alarm", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) زەنگ یان ئامێرێک کە خەڵکی ئاگادار دەکاتەوە لە بوونی ئاگر لە بینایەک"""),

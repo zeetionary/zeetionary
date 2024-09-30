@@ -997,7 +997,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هیچ، ماندووکەر، شەکەت‌کەر
 """),
-// With short examples define "humdrum", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بێزارکەرە و هەمیشە هەمان شێوەیە"""),

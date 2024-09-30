@@ -1015,7 +1015,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کڵاو،	(دووکەڵ‌کێش و هتد) کڵاوفەڕەنگی، سەر،	(ماشێن) کاپووت، سەر،	دەمامک،	بەرگ، بەرگەماشێن، سەرپۆش
 """),
-// With short examples define "hood", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کڵاوێک کە بەشی پشتەوە و سەرەوەی سەر دابپۆشێت"""),

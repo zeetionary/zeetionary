@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "global warming", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) زیادبوونی گەرمبوونی بەرگەھەوای زەوی بەھۆی زۆربوونی ژمارەیەک گازەوە، بە تایبەتی دووەم ئۆکسیدی"""),

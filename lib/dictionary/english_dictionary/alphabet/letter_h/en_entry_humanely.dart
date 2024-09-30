@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "humanely", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە میهرەبان بیت لەگەڵ مرۆڤ و ئاژەڵ بەوەی دڵنیایی بکەیت کە زیاتر لە پێویست ئازار ناچێژن"""),

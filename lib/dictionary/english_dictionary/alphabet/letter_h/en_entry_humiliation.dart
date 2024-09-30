@@ -999,7 +999,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سووکی، چروکی، خوێڕیەتی، سەرشۆڕی، بێ‌ئابڕوویی، لووت‌شکاوی، چاوشۆڕی، هیچ‌وپووچی، سووک‌کردن، سووکایەتی(پێکردن)، لووت‌شکاندن، ڕووشکاندن، کردن بە پەڕۆی بێ‌نوێژی
 """),
-// With short examples define "humiliation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە هەست بە شەرمەزاری بکەیت بەهۆی ئەوەی ڕێزی خەڵکیت لەدەستداوە"""),

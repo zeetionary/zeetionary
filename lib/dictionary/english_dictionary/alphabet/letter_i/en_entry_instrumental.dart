@@ -9,7 +9,8 @@ class EnglishEntryinstrumental extends StatefulWidget {
   const EnglishEntryinstrumental({super.key});
 
   @override
-  State<EnglishEntryinstrumental> createState() => _EnglishEntryinstrumentalState();
+  State<EnglishEntryinstrumental> createState() =>
+      _EnglishEntryinstrumentalState();
 }
 
 class _EnglishEntryinstrumentalState extends State<EnglishEntryinstrumental> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstrumental instrumental
-WORD_WEB instrumental instrumental instrumental
-haʊʊʊʊʊʊʊ4
+- Adjective: instrumental
+1. Serving or acting as a means or aid (- implemental, subservient)
+"instrumental in solving the crime";
+ 
+2. Relating to or designed for or performed on musical instruments
+"instrumental compositions"; "an instrumental ensemble"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instrumental";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """He was instrumental in bringing about an end to the conflict.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The songs are largely instrumental.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oCt7g0fWWyw?t=';
+    const double startSecondsend = 000000000000000000000000000100;
+    const String videoIdone = 'https://youtu.be/HAnw168huqA?t=';
+    const double startSecondsone = 000000000000000000000000000698;
+    const String videoIdtwo = 'https://youtu.be/RkBFVR7lfj8?t=';
+    const double startSecondstwo = 000000000000000000000000000207;
+    const String videoIdthree = 'https://youtu.be/CyWZ7lCifso?t=';
+    const double startSecondsthree = 000000000000000000000000000925;
+    const String videoIdfour = 'https://youtu.be/Gfj5f0GVLZ0?t=';
+    const double startSecondsfour = 000000000000000000000000000662;
+    const String videoIdfive = 'https://youtu.be/JN3KPFbWCy8?t=';
+    const double startSecondsfive = 0000000000000000000000000006112;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instrumental""",
                       // alsoEnglishWord: "also: instrumental",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnstrəˈmentl/""",
+                      americanText: """IpaUS: /ˌɪnstrəˈmentl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +996,24 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "instrumental", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) گرنگ لە ڕوودانی شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was instrumental in bringing about an end to the conflict.""",
+                      kurdishText:
+                          """ڕۆڵێکی گرنگی هەبوو لە کۆتاییهێنان بە ململانێکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە بە ئامێری میوزیکی درووست دەکرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The songs are largely instrumental.""",
+                      kurdishText: """گۆرانییەکان زیاتر میوزیکین.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

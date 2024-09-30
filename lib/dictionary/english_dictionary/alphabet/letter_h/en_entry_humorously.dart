@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پێکەنینی‌یانە، خۆش، شۆخی‌یانە، بەشۆخی
 """),
-// With short examples define "humorously", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بە شێوەیەک کە پێکەنیناوییە"""),
                     SentencesRow(

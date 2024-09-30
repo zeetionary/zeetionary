@@ -9,7 +9,8 @@ class EnglishEntryinsufficiency extends StatefulWidget {
   const EnglishEntryinsufficiency({super.key});
 
   @override
-  State<EnglishEntryinsufficiency> createState() => _EnglishEntryinsufficiencyState();
+  State<EnglishEntryinsufficiency> createState() =>
+      _EnglishEntryinsufficiencyState();
 }
 
 class _EnglishEntryinsufficiencyState extends State<EnglishEntryinsufficiency> {
@@ -52,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsufficiency insufficiency
-WORD_WEB insufficiency insufficiency insufficiency
-haʊʊʊʊʊʊʊ4
+- Noun: insufficiency (Derived forms: insufficiencies)
+1. A lack of competence (- inadequacy)
+"pointed out the insufficiencies in my report";
+ 
+2. (pathology) inability of a bodily part or organ to function normally
+ 
+3. Lack of an adequate quantity or number (- inadequacy, deficiency)
+"the insufficiency of unemployment benefits";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insufficiency";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +91,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Sometimes we blame all our problems on an insufficiency of money.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/4EkKhkSNjWY?t=';
+    const double startSecondsend = 000000000000000000000000000725;
+    const String videoIdone = 'https://youtu.be/ha2mLz-Xdpg?t=';
+    const double startSecondsone = 000000000000000000000000000974;
+    const String videoIdtwo = 'https://youtu.be/EmReBWrC17g?t=';
+    const double startSecondstwo = 000000000000000000000000000646;
+    const String videoIdthree = 'https://youtu.be/YJQSuUZdcV4?t=';
+    const double startSecondsthree = 000000000000000000000000000746;
+    const String videoIdfour = 'https://youtu.be/0ZFtHzZqYDY?t=';
+    const double startSecondsfour = 000000000000000000000000000418;
+    const String videoIdfive = 'https://youtu.be/pUukStoZYio?t=';
+    const double startSecondsfive = 000000000000000000000000000686;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insufficiency""",
                       // alsoEnglishWord: "also: insufficiency",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsəˈfɪʃənsi/""",
+                      americanText: """IpaUS: /ˌɪnsəˈfɪʃənsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +995,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەمی، کەمایی، کێماسی، بەش‌نەکردوویی، کورت‌هێنان، کەمی‌هێنان، ناتەواوی، عەیب، کەم‌وکوڕی
 """),
 // With short examples define "insufficiency", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە شتێکی بەشی پێویست گەورە، گرنگ، یان بەهێز نەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Sometimes we blame all our problems on an insufficiency of money.""",
+                      kurdishText:
+                          """هەندێک جار هەموو کێشەکانمان دەخەینە سەر کەمی پارە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

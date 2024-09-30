@@ -142,7 +142,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "fire drill", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ڕاھێنانی ئەوەی دەبێت چی بکەیت بۆ ھەڵھاتن لە بینایەکی ئاگرگرتوو"""),

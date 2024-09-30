@@ -9,10 +9,12 @@ class EnglishEntryinstantaneously extends StatefulWidget {
   const EnglishEntryinstantaneously({super.key});
 
   @override
-  State<EnglishEntryinstantaneously> createState() => _EnglishEntryinstantaneouslyState();
+  State<EnglishEntryinstantaneously> createState() =>
+      _EnglishEntryinstantaneouslyState();
 }
 
-class _EnglishEntryinstantaneouslyState extends State<EnglishEntryinstantaneously> {
+class _EnglishEntryinstantaneouslyState
+    extends State<EnglishEntryinstantaneously> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstantaneously instantaneously
-WORD_WEB instantaneously instantaneously instantaneously
-haʊʊʊʊʊʊʊ4
+- Adverb: instantaneously
+1. Without delay or hesitation; with no time intervening (- immediately, instantly, straightaway, straight off, directly, now, right away, at once, forthwith, like a shot [informal], right off the bat [N. Amer, informal], outright, in a flash, tout de suite)
+"he answered instantaneously";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instantaneously";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Electronic copies can be sent around the world almost instantaneously.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/bHIhgxav9LY?t=';
+    const double startSecondsend = 000000000000000000000000000702;
+    const String videoIdone = 'https://youtu.be/nsnyl8llfH4?t=';
+    const double startSecondsone = 000000000000000000000000000203;
+    const String videoIdtwo = 'https://youtu.be/oI_X2cMHNe0?t=';
+    const double startSecondstwo = 000000000000000000000000000382;
+    const String videoIdthree = 'https://youtu.be/7XLd9zX6PqU?t=';
+    const double startSecondsthree = 000000000000000000000000000236;
+    const String videoIdfour = 'https://youtu.be/6ta_sftSfIw?t=';
+    const double startSecondsfour = 000000000000000000000000000283;
+    const String videoIdfive = 'https://youtu.be/QcUey-DVYjk?t=';
+    const double startSecondsfive = 0000000000000000000000000001043;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instantaneously""",
                       // alsoEnglishWord: "also: instantaneously",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnstənˈteɪniəsli/""",
+                      americanText: """IpaUS: /ˌɪnstənˈteɪniəsli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەسبەجێ، کت‌وپڕ، لەڕێوە
 """),
 // With short examples define "instantaneously", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵکار) دەسبەجێ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Electronic copies can be sent around the world almost instantaneously.""",
+                      kurdishText:
+                          """کۆپییە ئەلیکترۆنییەکە دەکرێت تاڕادەیەک دەسبەجێ بە جیهاندا بنێردرێن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

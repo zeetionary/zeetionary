@@ -1006,7 +1006,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hire", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) پێدانی کارێک بە کەسێک"""),
                     SentencesRow(

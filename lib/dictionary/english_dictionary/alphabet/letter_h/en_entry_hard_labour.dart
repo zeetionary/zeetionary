@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کاری زۆرەملی، بێگاری، سۆژە
 """),
-// With short examples define "hard labour", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سزای لە زینداندا کە کاری زۆر سەخت لەخۆدەگرێت"""),

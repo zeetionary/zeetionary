@@ -1149,7 +1149,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گرتن، چنگ‌لێ‌گیرکردن، دەس‌پێوەگرتن،	ڕاگرتن،	جێ‌پێ، جێ‌دەس، جێگای گرتن،	پەنا، جێ‌پەنا، داڵدە،	قەڵا، کەلات،	زیندان، بەندی‌خانە،	دەس‌ڕۆیشتوویی، دەسەڵات، هێز، کۆنتڕۆڵ،	(زۆرانبازی) هۆڵد،	دەسک، دەسەگیرە
 """),
-// With short examples define "hold", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) گرتنی کەسێک/شتێک"""),
                     SentencesRow(

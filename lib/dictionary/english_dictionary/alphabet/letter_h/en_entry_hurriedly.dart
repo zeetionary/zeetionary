@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە پەلە، بە پڕتاو، بە پەلەپڕوزکێ، بە تاڵووکە، بە تاو
 """),
-// With short examples define "hurriedly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بەشێوەیەک کە بە خێرایی دەکرێت بەهۆی نەبوونی کاتی پێویست"""),

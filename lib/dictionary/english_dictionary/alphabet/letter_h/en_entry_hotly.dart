@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە تینەوە، بە گەرمی، گەرم‌وگوڕانە، توند، بە توندی، بە تووڕەیی
 """),
-// With short examples define "hotly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) کە بە تووڕەیی یان جۆش و خرۆشییەوە دەکرێت بە هەستی بەهێزەوە"""),

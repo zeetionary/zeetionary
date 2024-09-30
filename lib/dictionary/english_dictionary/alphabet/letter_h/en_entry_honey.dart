@@ -999,7 +999,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هەنگوین، ئازیزەکەم، خۆشەویستەکەم، باوانەکەم
 """),
-// With short examples define "honey", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەکی زەردی مەیلەو قاوەیی شیرین لە مێشهەنگ درووستی دەکەن"""),

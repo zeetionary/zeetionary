@@ -1020,7 +1020,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خانەخوێ، میواندار، مازووڤان، پێشکەش‌کار، بەڕێوەبەر
 """),
-// With short examples define "host", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە خەڵکی دیکە بانگهێشت دەکات بۆ ماڵەکەی"""),

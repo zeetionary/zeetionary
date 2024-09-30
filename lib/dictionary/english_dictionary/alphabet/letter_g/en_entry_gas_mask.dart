@@ -141,7 +141,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دەمامکی گازی، دەمامکی دژی گازی ژاراوی
 """),
-// With short examples define "gas mask", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەمامکێک کە لەسەر ڕووخسار دادەنرێت بۆ پاراستن لە گازی ژەھراوی"""),

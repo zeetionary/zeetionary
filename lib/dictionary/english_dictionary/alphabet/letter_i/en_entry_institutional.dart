@@ -9,7 +9,8 @@ class EnglishEntryinstitutional extends StatefulWidget {
   const EnglishEntryinstitutional({super.key});
 
   @override
-  State<EnglishEntryinstitutional> createState() => _EnglishEntryinstitutionalState();
+  State<EnglishEntryinstitutional> createState() =>
+      _EnglishEntryinstitutionalState();
 }
 
 class _EnglishEntryinstitutionalState extends State<EnglishEntryinstitutional> {
@@ -52,13 +53,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstitutional institutional
-WORD_WEB institutional institutional institutional
-haʊʊʊʊʊʊʊ4
+- Adjective: institutional
+1. Relating to, constituting or involving an institution
+"institutional policy"
+ 
+2. Organized as or forming an institution
+"institutional religion"
+ 
+3. Characteristic or suggestive of an institution especially in being uniform or dull or unimaginative (- uninteresting)
+"institutional food";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "institutional";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +92,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The hospital provides typically awful institutional food.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The hotel rooms are rather drab and institutional.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsend = 0000000000000000000000000007225;
+    const String videoIdone = 'https://youtu.be/IfYRzxeMdGs?t=';
+    const double startSecondsone = 00000000000000000000000000064;
+    const String videoIdtwo = 'https://youtu.be/LHqbfJ3tq4Y?t=';
+    const double startSecondstwo = 000000000000000000000000000136;
+    const String videoIdthree = 'https://youtu.be/zQCTeGKHsVc?t=';
+    const double startSecondsthree = 0000000000000000000000000001020;
+    const String videoIdfour = 'https://youtu.be/tYrdMjVXyNg?t=';
+    const double startSecondsfour = 0000000000000000000000000007122;
+    const String videoIdfive = 'https://youtu.be/_OpC4fH3mEk?t=';
+    const double startSecondsfive = 000000000000000000000000000827;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """institutional""",
                       // alsoEnglishWord: "also: institutional",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnstɪˈtjuːʃənl/""",
+                      americanText: """IpaUS: /ˌɪnstɪˈtuːʃənl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,23 +1000,33 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "institutional", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) پەیوەندیدار بە دامەزراوەیەکی گەورە کە ئامانجێکی دیاریکراوی هەیە، بۆ نموونە زانکۆ یان بانک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The hospital provides typically awful institutional food.""",
+                      kurdishText:
+                          """نەخۆشخانەکە خواردنی چاوەڕوانکراوی دامەزراوەیەک پێشکەش دەکات.""",
+                      englishNote:
+                          """This means the hospital serves food that is generally low in quality and unappetizing, often associated with large institutions where meals are mass-produced and lack variety or taste.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) وەک یان لە شوێنێک کە تێیدا خەڵکی دەنێردرێن کە چاودێری بکرێن، بۆ نموونە نەخۆشخانە یان نەخۆشخانەی دەروونی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The hotel rooms are rather drab and institutional.""",
+                      kurdishText:
+                          """ژوورەکانی هوتێلەکە ناخۆش و وەک دەمەزراوەی حکومەمی وەهان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    // skipped_meaning
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

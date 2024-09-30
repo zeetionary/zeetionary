@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەزیان، زیاناوی، بەئازار، بەئێش، بەژان، بەسوێ، ناڕەحەت‌کەر
 """),
-// With short examples define "hurtful", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە بێزار و دڵشکاوت دەکات"""),
                     const AlsoEnglishckb(word: "ھەروەھا: unkind"),

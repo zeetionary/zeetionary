@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "homophobic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) هەبوونی ڕق و مامەڵەی خراپ لەگەڵ کەسانی هاوڕەگەزخواز"""),

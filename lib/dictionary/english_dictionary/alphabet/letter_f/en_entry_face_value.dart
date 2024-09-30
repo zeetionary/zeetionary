@@ -236,7 +236,6 @@ class KurdishMeaning extends StatelessWidget {
         """Tickets were changing hands at three times their face value.""");
   }
 
-// With short examples define "face value", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

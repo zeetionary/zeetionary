@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەوەر، ناوەند، چەق، ناوجەرگە، گرنگ
 """),
-// With short examples define "hub", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) فڕۆکەخانەیەک، وێستگەیەک، هتد کە زۆر خزمەتگوزاری پێشکەش دەکات"""),

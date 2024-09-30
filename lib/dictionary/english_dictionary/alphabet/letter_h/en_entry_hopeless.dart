@@ -1002,7 +1002,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ناهومێد، بێ‌هیوا، دڵسارد،	دڵساردانە،	هیوابڕ، دڵساردکەرەوە،	بێ‌سوود، بێ‌قازانج، بێ‌ئەنجام،	لێنەهاتوو، دەسەوسان، بەکارنەهاتوو، هیچ‌لەدەس‌نەهاتوو.	چارەنەکراو، لەچارەبەدەر
 """),
-// With short examples define "hopeless", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە هیچ هیوایەک نەبێت بۆ ڕوودانی شتێک"""),

@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەدنیازی، بەدنیاری،	ڕقەبەری، کینەبەرایەتی، پیش، ڕق، قین، کین، دوژمنایەتی
 """),
-// With short examples define "ill will", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) هەستی خراپ و توند بەرامبەر کەسێک"""),
                     SentencesRow(

@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گل‌دانەوە، هەڵگرتن، پاشەکەوت‌کردن،	ماڵ‌گری، ماڵ‌هەڵگری، دیوار، نەردە، پەرژین (کاتی)، دیواری تەختەیی، تەختەبەند،	تەختەئاگاداری، تەختەئاگایی
 """),
-// With short examples define "hoarding", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) سەکۆیەکی گەورە لە ڕووی دەرەوەی دیواری بینایەک کە ڕیکلامی لەسەر پیشان دەدرێت"""),

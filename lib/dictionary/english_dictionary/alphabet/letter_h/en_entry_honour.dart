@@ -1026,7 +1026,6 @@ Usage: Brit, Cdn (US: honor)
                     const KurdishVocabulary(text: """
 کوردی: شانازی، ڕێز، حورمەت، سەربەرزی، ڕووسپێتی، نێوباشی، ئابڕوو، گەورەیی، ئابوور،	نامووس، حەیا، شەڕەف، ڕووسووری، داوێن‌پاکی،	مایەی شانازی
 """),
-// With short examples define "honour", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) ڕێزی زۆر بۆ کەسێک"""),
                     SentencesRow(

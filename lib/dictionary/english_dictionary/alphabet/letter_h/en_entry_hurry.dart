@@ -1009,7 +1009,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پەلە، لەز، پڕتاو، زوو، پەلەپڕوزکێ، تاوەتڕێ
 """),
-// With short examples define "hurry", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) پەلەکردن بەهۆی ئەوەی کاتی پێویست نییە"""),
@@ -1054,7 +1053,6 @@ ${englishMeaningConst.text}
                         text:
                             """٢. (کردار) چوون بە خێرایی ب ەئاراستەیەکی دیاریکراودا"""),
                     const AlsoEnglishckb(word: "ھەروەھا: rush"),
-
                     SentencesRow(
                       englishText:
                           """He picked up his bags and hurried across the courtyard.""",

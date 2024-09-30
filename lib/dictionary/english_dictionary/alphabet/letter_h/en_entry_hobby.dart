@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: حەزکاری، سەرقاڵی، سەرگەرمی، کار بۆ خۆشی
 """),
-// With short examples define "hobby", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) چالاکییەک کە بۆ خۆشی دەیکەیت کە کار ناکەیت"""),

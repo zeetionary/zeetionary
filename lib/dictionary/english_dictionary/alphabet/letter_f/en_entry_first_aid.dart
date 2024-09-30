@@ -150,7 +150,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "first aid", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) فریاکەوتنی سەرەتایی؛ یەکەم چارەسەر کە دەدرێت بە کەسێک پێش ئەوەی پزیشک بگات یان ببرێت بۆ نەخۆشخانە"""),

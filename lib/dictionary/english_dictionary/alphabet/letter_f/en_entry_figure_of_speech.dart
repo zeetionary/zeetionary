@@ -151,7 +151,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: خوازە، ئیستعارە، ڕاگوێست، مەجاز، خواستەمەنی،	وێچواندن، شوبھاندن
 // """),
-// With short examples define "figure of speech", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) وشەیەک یان دەستەواژەیەک کە جیاواز لە واتای ئاسایی بەکاردێت بۆ درووستکردنی کاریگەری یان وێنەیەکی دەروونی"""),

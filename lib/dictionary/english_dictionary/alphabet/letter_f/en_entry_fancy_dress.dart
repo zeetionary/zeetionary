@@ -242,7 +242,6 @@ class KurdishMeaning extends StatelessWidget {
         .speak("""Many of the marathon runners compete in fancy dress.""");
   }
 
-// With short examples define "fancy dress", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

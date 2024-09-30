@@ -1000,7 +1000,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مێژوویی، دیرۆکی، گرنگ، بەنێوبانگ یان گرنگ لەباری مێژوویی‌یەوە
 """),
-// With short examples define "historic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە لە مێژوودا گرنگە؛ کە دەکرێت بچێتە مێژووەوە"""),

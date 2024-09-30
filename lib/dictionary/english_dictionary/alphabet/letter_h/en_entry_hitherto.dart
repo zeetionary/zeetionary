@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تا ئێستا، هەتانووکە
 """),
-// With short examples define "hitherto", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) تا ئێستا؛ تا ئەو کاتەی قسەی لەسەر دەکەیت"""),

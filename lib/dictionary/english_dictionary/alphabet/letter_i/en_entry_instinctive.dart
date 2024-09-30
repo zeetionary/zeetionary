@@ -9,7 +9,8 @@ class EnglishEntryinstinctive extends StatefulWidget {
   const EnglishEntryinstinctive({super.key});
 
   @override
-  State<EnglishEntryinstinctive> createState() => _EnglishEntryinstinctiveState();
+  State<EnglishEntryinstinctive> createState() =>
+      _EnglishEntryinstinctiveState();
 }
 
 class _EnglishEntryinstinctiveState extends State<EnglishEntryinstinctive> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstinctive instinctive
-WORD_WEB instinctive instinctive instinctive
-haʊʊʊʊʊʊʊ4
+- Adjective: instinctive
+1. Unthinking; prompted by (or as if by) instinct (- natural, instinctual, gut)
+"offering to help was as instinctive as breathing";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "instinctive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She's an instinctive player.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""My instinctive reaction was to deny everything.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/fHsa9DqmId8?t=';
+    const double startSecondsend = 000000000000000000000000000162;
+    const String videoIdone = 'https://youtu.be/E5J_ARKyftA?t=';
+    const double startSecondsone = 00000000000000000000000000081;
+    const String videoIdtwo = 'https://youtu.be/zFleLL5zlaI?t=';
+    const double startSecondstwo = 0000000000000000000000000001012;
+    const String videoIdthree = 'https://youtu.be/v9tM_YHvhuA?t=';
+    const double startSecondsthree = 000000000000000000000000000259;
+    const String videoIdfour = 'https://youtu.be/d-yWx772qFU?t=';
+    const double startSecondsfour = 000000000000000000000000000333;
+    const String videoIdfive = 'https://youtu.be/TfzEPtLPnP4?t=';
+    const double startSecondsfive = 000000000000000000000000000121;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """instinctive""",
                       // alsoEnglishWord: "also: instinctive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈstɪŋktɪv/""",
+                      americanText: """IpaUS: /ɪnˈstɪŋktɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زگماک(ـە)یی، ئینستینکتیڤ، پێوەندی بە زگماکەوە هەیە، واڕسکی،	خۆنەویستە، خۆبەخۆ
 """),
 // With short examples define "instinctive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە پشتی بە خاسیەتێکی سرووشتی بەستووە کە وادەکات مرۆڤ و ئاژەڵان بە شێوەیەکی دیاریکراو ڕەفتار بکەن بەو زانیاری و توانایەی کە لە لەدایکبوونەوە هەیانە نەک بە بیرکردنەوە و ڕاهێنان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She's an instinctive player.""",
+                      kurdishText: """یاریزانێکی سرووشتییە.""",
+                      englishNote:
+                          """This means she plays naturally and skillfully, relying on her gut feelings and quick decisions without overthinking.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,12 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """My instinctive reaction was to deny everything.""",
+                      kurdishText:
+                          """کاردانەوەی سرووشتیم ئەوە بوو نکۆڵی لە هەموو شت بکەم.""",
+                      englishNote:
+                          """This means my immediate, automatic response was to reject or deny everything, without thinking it through.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

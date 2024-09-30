@@ -1008,7 +1008,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: نەرم، سەرکز، سووک، چروک، بێ‌دەمار، بێ‌فیز، خاکی، خاکینە، خاکینە و خۆڵینە، خاکەڕا، بێ‌هەوا، خاک‌وخۆڵی، بێ‌دەمارانە، بێ‌پۆزانە، خاکەڕایانە،	چکۆلانە، هەژارانە، فەقیرانە، دەروێشی
 """),
-// With short examples define "humble", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە وەها بیربکەیتەوە کە وەک کەسانی دیکە گرنگ نیت"""),

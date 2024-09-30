@@ -1001,7 +1001,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: سادە، بێ‌غەل‌وغەش، بێ‌قەلەودەلە، ئاسایی
 """),
-// With short examples define "homely", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) شوێنێک کە ئاسوودەت دەکات، وەک ئەوەی لە ماڵ خۆتان بیت"""),

@@ -995,7 +995,6 @@ Usage: Brit, Cdn (US: honorably)
                     const KurdishVocabulary(text: """
 کوردی: بەڕێزانە، بەئابڕووانە، لە ڕووی ڕێزەوە
 """),
-// With short examples define "honourably", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە شایەنی ڕێز و ستایشە"""),

@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕیایی، ڕیایی‌بازی، ڕواڵەت، دووڕووویی، ڕووبینی
 """),
-// With short examples define "hypocrisy", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کە کەسێک ڕەفتاری پێچەوانەی ئەو باوەڕ و ستانداردانە بێت کە بانگەشەی بۆ دەکات"""),

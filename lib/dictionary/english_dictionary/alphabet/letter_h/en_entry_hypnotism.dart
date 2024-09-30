@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hypnotism", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کەسێک بخەیتە دۆخێکی بێ‌ئاگایی کە تێیدا هێشتا دەتوانێت ببینێت و ببیستێت و هێشتا شوێن فەرمان بکەوێت و وەڵامی پرسیار بداتەوە"""),

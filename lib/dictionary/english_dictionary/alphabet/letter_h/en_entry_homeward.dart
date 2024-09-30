@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە ڕێگای ماڵەوە، ڕووەوماڵ، بەرەو ماڵێ
 """),
-// With short examples define "homeward", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵکار) بەرەو ماڵەوە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: life"),

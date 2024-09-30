@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "garden centre", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێک کە ڕووەک، تۆو، کەرەستەی باخچە، ھتد دەفرۆشێت"""),

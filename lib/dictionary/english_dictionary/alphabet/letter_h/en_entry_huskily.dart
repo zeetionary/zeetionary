@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بە دەنگ نووساوی(یەوە)، دەنگ‌نووساوانە، دەنگ‌گیراوانە
 """),
-// With short examples define "huskily", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە دەنگێکی گڕ، نزم، و توند، کە هەندێکجار بە شێوەیەکە کە خۆشە"""),

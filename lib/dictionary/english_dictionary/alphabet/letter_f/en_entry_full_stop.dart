@@ -141,7 +141,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خاڵ، پنت، نوقتە،	بێ‌سەرەدەر، بن‌بەست، تەواو ڕاوێستان، چەق‌بەست
 """),
-// With short examples define "full stop", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) خاڵێکە کە لە کۆتایی ڕستەیەک ڕستە بەکاردێت بۆ گوتنی ئەوەی ھیچی دیکە نییە بۆ گوتن"""),

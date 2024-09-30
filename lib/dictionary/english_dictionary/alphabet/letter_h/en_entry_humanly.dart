@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "humanly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) بە توانای مرۆڤەوە؛ بە شێوەیەک کە لە مرۆڤانە چاوەڕێ دەکرێت"""),

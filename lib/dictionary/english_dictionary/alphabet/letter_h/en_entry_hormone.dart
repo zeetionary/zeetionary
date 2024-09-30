@@ -991,7 +991,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hormone", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) مادەیەکی کیمیایی لە لەش یان ڕووەکدا کە هانی گەشە دەدات یان یارمەتی خانە و شانەکان دەدات لە گەشەدا"""),

@@ -1000,7 +1000,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هیوادار، تەماوەر، هومێدەوار، پڕهیوا، بەتەما، ئاواتەخواز، هێڤی‌خاز، هیوادەر، ورەپێدەر
 """),
-// With short examples define "hopeful", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) هەبوونی باوەڕی ئەوەی کە ئەوەی دەتەوێت ڕوودەدات"""),

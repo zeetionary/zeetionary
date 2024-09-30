@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: کڵاودار، دەمامک‌دار، بەدەمامک
 """),
-// With short examples define "hooded", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) هەبوونی کڵاو یان کلێتە لەسەردا"""),

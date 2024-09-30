@@ -1000,7 +1000,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چنگاڵ‌ئاسا، قولاپ‌ئاسا، سەرچەماو، قولاپی، قولاپدار،	گیرۆدە، ئالوودە، فێر،	کوشتەومردە، شێت‌وشەیدا، دڵبەستە
 """),
-// With short examples define "hooked", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ھاوەڵناو) کە وەک قولاپ چەماوەتەوە"""),
                     SentencesRow(

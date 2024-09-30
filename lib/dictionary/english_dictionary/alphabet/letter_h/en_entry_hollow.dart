@@ -1020,7 +1020,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: هوڵۆڵ، کلۆر، نێوبەتاڵ، ناوخاڵی، خلۆخە، پووچەڵ، پووچەک، بۆش، پووک، واڵا، ڤالا،	ڕوچوو، داکەوتوو، بەچاڵاچوو، بەقووڵاچوو، قووڵ، چاڵ،	درۆ، بێ‌بایەخ، فشە، بێ‌نرخ، ناڕاستەقینە، هیچ‌وپووچ، هیچ، قووڵی، چاڵی، قووڵایی، قوڵکە، دۆڵ، شیو، بوودڕ، چاڵ
 """),
-// With short examples define "hollow", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) هەبوونی چاڵ یان بۆشاییەک لە ناوەوە"""),

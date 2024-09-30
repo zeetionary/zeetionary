@@ -214,7 +214,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "have to", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کاری مۆداڵ) بۆ گوتنی ئەوەی دەبێت شتێک بکەیت"""),

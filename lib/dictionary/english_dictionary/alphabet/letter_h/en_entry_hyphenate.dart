@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hyphenate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) پێکەوە لکاندنی دوو وشە بە یەکدییەوە بە نیشانەی (-)"""),

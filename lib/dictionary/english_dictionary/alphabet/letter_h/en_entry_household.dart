@@ -998,7 +998,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خێزان، زاروزێچ، بنەماڵە، ناوماڵ، کەس‌وکار
 """),
-// With short examples define "household", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) تەواوی ئەو کەسانەی لە ماڵێکدا دەژین"""),

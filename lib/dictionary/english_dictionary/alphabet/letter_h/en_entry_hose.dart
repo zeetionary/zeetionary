@@ -1006,7 +1006,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hose", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) سۆندە"""),
                     const AlsoEnglishckb(word: "ھەروەھا:  hosepipe"),
                     SentencesRow(

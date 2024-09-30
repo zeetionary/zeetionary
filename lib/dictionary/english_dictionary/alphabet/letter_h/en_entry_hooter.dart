@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hooter", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دەنگەدەنگ؛ ئامێرێک کە دەنگی ئاگادارکردنەوە لێدەدات"""),

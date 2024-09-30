@@ -997,7 +997,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ڕووگرژی، بەدخوویی، تووڕەیی، قەڵسی، ناڕەحەتی
 """),
-// With short examples define "huff", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (کردار) گوتنی شتێک یان دەنگەدەنگ درووستکردن بەهۆی ئەوەی بێزاریت"""),

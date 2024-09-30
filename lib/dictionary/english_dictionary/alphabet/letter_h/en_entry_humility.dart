@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: خاکەڕایی، بێ‌پۆزی، بێ‌فیزی، بێ‌دەماری، سەرکزی، خاکینەیی، خۆشکێنی
 """),
-// With short examples define "humility", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەوەی کە وەها بیربکەیتەوە کە وەک کەسانی دیکە گرنگ نیت"""),

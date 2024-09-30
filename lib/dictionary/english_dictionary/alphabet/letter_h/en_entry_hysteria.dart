@@ -996,7 +996,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: پرکام، شاگەشکە، شێت‌گیری،	هەڵس‌وکەوت، ڕەفتار،	ورووژان،	پێکەنین، سۆز و قیژەی کۆنتڕۆڵ‌نەکراو و شێتانە، فێ، گەشکە
 """),
-// With short examples define "hysteria", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) دۆخێک کە تێیدا کەسێک جۆش‌وخرۆشی، ترس، یان تووڕەیی هەیە، یان کە گرووپێک خەڵک کۆنترۆڵی هەستەکانیان لەدەست دەدەن و هاوار دەکەن، پێدەکەنن، هتد"""),

@@ -995,7 +995,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: مێژوونووس، مێژوووان، دیرۆک‌ڤان،	مێژووزان
 // """),
-// With short examples define "historian", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە لەسەر مێژوو دەنووسێت یان لێکۆڵینەوەی لێ دەکات"""),

@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: گڕ، نووساو، گیراو
 """),
-// With short examples define "hoarse", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە کەسێک دەنگی دانووساوە، زۆرجار بەهۆی ئەوەی قوڕگی گیراوە؛ دەنگێک کە لەم شێوەیە"""),

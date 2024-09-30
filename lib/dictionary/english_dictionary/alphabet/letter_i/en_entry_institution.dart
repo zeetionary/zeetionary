@@ -9,7 +9,8 @@ class EnglishEntryinstitution extends StatefulWidget {
   const EnglishEntryinstitution({super.key});
 
   @override
-  State<EnglishEntryinstitution> createState() => _EnglishEntryinstitutionState();
+  State<EnglishEntryinstitution> createState() =>
+      _EnglishEntryinstitutionState();
 }
 
 class _EnglishEntryinstitutionState extends State<EnglishEntryinstitution> {
@@ -52,13 +53,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinstitution institution
-WORD_WEB institution institution institution
-haʊʊʊʊʊʊʊ4
+- Noun: institution (Derived forms: institutions)
+1. An organization founded and united for a specific purpose (- establishment)
+ 
+2. An establishment consisting of a building or complex of buildings where an organization for the promotion of some cause is situated
+ 
+3. A custom that for a long time has been an important feature of some group or society
+"the institution of marriage"; "the institution of slavery"; "he had become an institution in the theatre"
+ 
+4. The act of starting something for the first time; introducing something new (- initiation, founding, foundation, origination, creation, innovation, introduction, instauration, debut, first appearance, launching, unveiling, entry)
+ 
+5. A hospital for mentally incompetent or unbalanced person (- mental hospital, psychiatric hospital, mental institution, mental home, insane asylum, asylum)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "institution";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,50 +94,55 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The deal is backed by one of the country's largest financial institutions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The system is targeted mainly at academic and research institutions.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""They had him committed to an institution.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""We want this to be like a home, not an institution.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""Football is a national institution in this country.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts
+        .speak("""American laws once protected the institution of slavery.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak(
+        """The institution of the Freedom of Information Act has had a significant effect.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -926,21 +938,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsend = 0000000000000000000000000001428;
+    const String videoIdone = 'https://youtu.be/LJNtfyq3TDE?t=';
+    const double startSecondsone = 000000000000000000000000000612;
+    const String videoIdtwo = 'https://youtu.be/f5jwTft6654?t=';
+    const double startSecondstwo = 000000000000000000000000000514;
+    const String videoIdthree = 'https://youtu.be/Y5F_ha7d-PI?t=';
+    const double startSecondsthree = 000000000000000000000000000201;
+    const String videoIdfour = 'https://youtu.be/BuX6-lvUwd0?t=';
+    const double startSecondsfour = 000000000000000000000000000116;
+    const String videoIdfive = 'https://youtu.be/DuFyGHgGIKg?t=';
+    const double startSecondsfive = 000000000000000000000000000329;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +964,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """institution""",
                       // alsoEnglishWord: "also: institution",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnstɪˈtjuːʃn/""",
+                      americanText: """IpaUS: /ˌɪnstɪˈtuːʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1003,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دامەزراندن، دانان، داڕشتن، بنیات‌نان،	ڕێکخراوە، دامەزراوە، کۆمەڵە، کۆڕ، دەزگا، ئەنیستیتۆ، دەزگای کۆمەڵایەتی، کەڤنەشۆپ، ڕێ‌وشوێن
 """),
 // With short examples define "institution", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دامەزراوەیەکی گەورە کە ئامانجێکی دیاریکراوی هەیە، بۆ نموونە زانکۆ یان بانک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The deal is backed by one of the country's largest financial institutions.""",
+                      kurdishText:
+                          """ڕێکەوتنەکە پشتگیری دەکرێت لەلایەن یەکێک لە دامەزراوە گەورەترینەکانی وڵاتەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1021,24 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The system is targeted mainly at academic and research institutions.""",
+                      kurdishText:
+                          """سیستەمە بە شێوەی سەرەکی بۆ دامەزراوە ئەکادیمی و توێژینەوەکانە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) نەخۆشخانە، زیندان، هتد کە خەڵکی تێیدا دەمێننەوە و چاودێری دەکرێن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They had him committed to an institution.""",
+                      kurdishText: """خستیانە دامەزراوەیەکەوە.""",
+                      englishNote:
+                          """This means they placed him in a facility, such as a hospital or mental health institution, for long-term care or treatment, typically because he couldn't care for himself.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,17 +1046,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We want this to be like a home, not an institution.""",
+                      kurdishText:
+                          """دەمانەوێت ئەمە وەک ماڵ بێت، نەک نەخۆشخانەی دەروونی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) نەریت یان سیستەمێک کە ماوەیەکی زۆر دەبێت لەناو کۆمەڵە خەڵکێکی دیاریکراودا بوونی هەبووە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Football is a national institution in this country.""",
+                      kurdishText:
+                          """تۆپی‌پێ بۆنەیەکی نیشتیمانییە لەم وڵاتە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1044,17 +1070,25 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """American laws once protected the institution of slavery.""",
+                      kurdishText:
+                          """یاساکانی ئەمریکا سەردەمانێک نەریتی کۆیلایەتییان دەپاراست.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ناو) دەستپێکردنی سیاسەتێک، سیستەمێک، هتد یان دەستپێکردنی پڕۆسەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The institution of the Freedom of Information Act has had a significant effect.""",
+                      kurdishText:
+                          """ناساندنی یاسای ئازادیی زانیاری کاریگەرییەکی گەورەی هەبووە.""",
+                      englishNote:
+                          "This means the creation or establishment of the Freedom of Information Act has greatly influenced how information is accessed and shared, leading to important changes. This is a law that gives people the right to request and obtain access to American government records and information, promoting transparency. It allows individuals to know what the government is doing, ensuring accountability, with some exceptions for sensitive or classified materials.",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

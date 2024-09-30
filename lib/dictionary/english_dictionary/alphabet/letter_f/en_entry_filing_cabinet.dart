@@ -143,7 +143,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: جێ‌فایل، قەفەسە، جێ‌تۆمارە
 """),
-// With short examples define "filing cabinet", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شوێنێکی گەورە کە بۆ ھەڵگرتنی فایل بەکاردێت"""),

@@ -1003,7 +1003,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دوژمنایەتی، دوژمن‌کاری، ڕقەبەرایەتی، کینەبەرایەتی، ڕق‌لێک‌گێڕان،	دژایەتی، بەرهەڵست‌کاری، بەرهەڵست‌گەری
 """),
-// With short examples define "hostility", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) هەڵسوکەوت و ڕەفتاری دژبەر بە کەسێک"""),

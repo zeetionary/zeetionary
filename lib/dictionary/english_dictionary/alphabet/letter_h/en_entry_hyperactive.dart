@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئارام لێ‌هەڵگیراو، بە عەرزەوەگیرنەبوو، نەسرەوتوو، هەدانەداو، دانەکەوتوو، زۆربزۆز، یەکجار هاروهاج (بەتایبەت مناڵ)، پڕکار، یەکجار چالاک، زۆرکار، بزووسک
 """),
-// With short examples define "hyperactive", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە منداڵێک زۆر چالاکە و تەنها بۆ ماوەیەکی کەم بە دانیشتووی دەمێنێتەوە"""),

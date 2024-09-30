@@ -144,7 +144,6 @@ Usage: Brit, Cdn (US: gray matter)
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "grey matter", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) زیرەکی کەسێک"""),
                     SentencesRow(
                       englishText:

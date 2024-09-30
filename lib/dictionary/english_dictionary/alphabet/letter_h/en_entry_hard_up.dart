@@ -161,7 +161,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "hard up", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) ھەبوونی پارەیەکی کەم، بە تایبەتی بۆ ماوەیەکی کەم"""),

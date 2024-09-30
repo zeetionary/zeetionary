@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ترسناکانە، سامناکانە، تۆقێنەرانە، بە شێوەیێکی ترسناک
 """),
-// With short examples define "horribly", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵکار) بە شێوەیەک کە زۆر خراپ یان ناخۆشە"""),

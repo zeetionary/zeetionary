@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "inferiority complex", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) هەستی ئەوەی کە وەک کەسانی باش، زیرەک، یان گرنگ نییت"""),

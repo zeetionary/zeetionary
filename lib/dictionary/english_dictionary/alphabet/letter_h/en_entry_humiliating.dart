@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مایەی سەرشۆڕی، ئابڕووبەرە، سووکی‌هێنەر، نەنگ
 """),
-// With short examples define "humiliating", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە وا لە کەسێک دەکات هەست بە شەرم بکات"""),

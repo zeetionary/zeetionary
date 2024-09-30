@@ -1067,7 +1067,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: لێدان، پیاکێشان، گورز،	لێکەوتن، پێکا، ئەنگاوتن، لێدان، لێکدان، پێکادان، پێکاکێشان،	سەرکەوتن،	کاری سەرکەوتووانە،	کوشتن،	لێدانی تۆپ (لە بەیسبۆڵ‌دا)،	تانە، تەشەر، پلار، توانج
 """),
-// With short examples define "hit", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) لێدان لە کەسێک/شتێک"""),
                     SentencesRow(

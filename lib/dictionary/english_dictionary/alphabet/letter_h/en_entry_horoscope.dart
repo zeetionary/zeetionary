@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "horoscope", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پێشبینیکردنی چارەنووسی کەسێک بە پشت بەستن بە شوێنی ئەستێرە و ئەستێرەکان کە ئەو کەسە لەدایکبوو"""),

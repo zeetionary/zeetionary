@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: دۆندرمە، بەستەنی، بەستنی، بەستوولە
 """),
-// With short examples define "ice cream", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) جۆرە خواردنێکی شیرینی بەستوو کە درووست دەکرێت لە چەوری شیر، تامی میوە، چکلێت، هتد و وەک شیرینی دەخورێت"""),

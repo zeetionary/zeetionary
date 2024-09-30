@@ -992,7 +992,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "horrify", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) ترساندن یان تۆقاندن"""),
                     const AlsoEnglishckb(word: "ھەروەھا: appal"),

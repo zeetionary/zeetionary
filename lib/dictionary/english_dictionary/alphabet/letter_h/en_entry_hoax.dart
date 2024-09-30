@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: فێڵ، درۆ، تەڵەکە، شۆخی یا گاڵتەی هەڵفریوێنەر، کەڵەک
 """),
-// With short examples define "hoax", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کارێک کە بۆ ئەوەیە کەسێک باوەڕ بە شتێک بکات کە ڕاست نییە"""),

@@ -994,7 +994,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: چۆن، چلۆن، چاڤا، بۆچی، لەبەرچی، چما، چەند، چەندە، تا چ ڕادەیێ، تا چ ئەندازەیێ
 """),
-// With short examples define "how", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) چۆن"""),
                     SentencesRow(
                       englishText: """How does it work?""",

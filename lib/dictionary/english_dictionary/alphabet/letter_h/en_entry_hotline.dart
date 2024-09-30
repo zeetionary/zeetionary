@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hotline", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) هێڵی تەلەفۆنی تایبەت کە خەڵکی دەتوانن بەکاری بهێنن بۆ دەستکەوتنی زانیاری یان قسەی لەگەڵ بکەن لەسەر شتێک"""),

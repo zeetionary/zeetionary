@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: بەپەلە، بەلەز، بەپڕتاو
 """),
-// With short examples define "hurried", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) کە بە خێرایی دەکرێت بەهۆی نەبوونی کاتی پێویست"""),

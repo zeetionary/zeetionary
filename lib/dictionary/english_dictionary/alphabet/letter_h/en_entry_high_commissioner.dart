@@ -154,7 +154,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "High Commissioner", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کەسێک کە لەلایەن وڵاتێکەوە دەنێردرێت بۆ وڵاتێکی دیکە بۆ پاراستنی بەرژەوەندییەکانی وڵاتەکەی خۆی (کە ھەردوو وڵاتەکە سەر بە ئیمپراتۆرییەتی کۆنی بەریتانین)"""),

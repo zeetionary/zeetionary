@@ -1003,7 +1003,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئاڵقە، ڕەوق، چەمەرە، کەوە، کەمە، گەو، دەوربەست
 """),
-// With short examples define "hoop", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەڵقەیەکی گەورە لە پلاستیک، دار، یان ئاسن"""),

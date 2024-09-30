@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "guided missile", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ھاوەڵناو) مووشەکێک کە دەکرێت لە ئاسماندا لە دوای ھاویشتن ئاراستەکەی بگۆڕدرێت"""),

@@ -236,7 +236,6 @@ class KurdishMeaning extends StatelessWidget {
         """Each bedroom in the hotel has a bathroom en suite/an en-suite bathroom.""");
   }
 
-// With short examples define "en suite", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

@@ -1001,7 +1001,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hoof", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) بەشی سەختی خوارەوەی پێی ژمارەیەک ئاژەڵ، وەک ئەسپ"""),

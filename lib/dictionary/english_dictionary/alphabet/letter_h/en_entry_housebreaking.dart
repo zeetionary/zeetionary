@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی: دزی، چەتەیی، ماڵبڕی
 // """),
-// With short examples define "housebreaking", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کاری چوونە ماڵێک و دزیکردن لێی"""),
                     SentencesRow(

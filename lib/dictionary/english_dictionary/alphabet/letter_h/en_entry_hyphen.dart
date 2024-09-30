@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: تەقەڵ، کورتەهێڵ، هێڵۆچکە، نیشانەی پێکەوەبەستن، هایفن
 """),
-// With short examples define "hyphen", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) نیشانە (-) کە بەکاردێت بۆ پێکەوەلکاندنی دوو وشە بە یەکدییەوە، بۆ نموونە back-up، بۆ پیشاندانی ئەوەی وشەیەک دابەشکراوە بەسەر کۆتایی دێڕێک و سەرەتای دێڕی دواتر، یان گوتنی ئەوەی شتێک نەنووسراوە، بۆ نموونە لە short- و long-term"""),

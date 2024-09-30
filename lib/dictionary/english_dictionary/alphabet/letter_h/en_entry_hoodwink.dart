@@ -993,7 +993,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hoodwink", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (کردار) فریودانی کەسێک"""),
                     SentencesRow(

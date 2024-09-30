@@ -991,7 +991,6 @@ Usage: Brit
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hire purchase", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) شێوازی کڕینی شتێک کە سەرەتا پێشەکییەک دەدەیت و دواتر بە بەش بەش ئەوی دیکەی دەدەیت"""),

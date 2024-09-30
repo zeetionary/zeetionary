@@ -146,7 +146,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "greenhouse effect", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کێشەی زیادبوونی لەسەرەخۆی بەرگەھەوای زەوی بەھۆی زۆربوونی گازی وەک دووەم ئۆکسیدی کاربۆن لە دەورووبەری زەوی کە وا دەکات گەرمی پەنگ بخواتەوە"""),

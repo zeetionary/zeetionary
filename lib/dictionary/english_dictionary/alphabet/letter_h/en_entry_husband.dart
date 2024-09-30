@@ -999,7 +999,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: مێرد، مێر، شوو
 """),
-// With short examples define "husband", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) پیاوێک کە کەسێک هاوسەرگیری لەگەڵ کردووە"""),

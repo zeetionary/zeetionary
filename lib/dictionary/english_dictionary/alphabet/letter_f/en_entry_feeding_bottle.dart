@@ -237,7 +237,6 @@ class KurdishMeaning extends StatelessWidget {
         """The survey reveals that 80% of dads help with the bottle-feeding.""");
   }
 
-// With short examples define "feeding bottle", please follow LX instructions
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(

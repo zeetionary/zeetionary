@@ -997,7 +997,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئاسۆیی، پۆیی، کەنارەیی، تەرازی،	ڕاستەوڕاست، تەراز، ڕێک، تەخت
 """),
-// With short examples define "horizontal", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) ئاسۆیی"""),
                     SentencesRow(
                       englishText:

@@ -990,7 +990,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "housework", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) کاری چاودێری ماڵەوە، بۆ نموونە پاککردنەوە و چێشت لێنان"""),

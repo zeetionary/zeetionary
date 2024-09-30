@@ -1006,7 +1006,6 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "hour", please follow LX instructions
                     const DefinitionKurdish(
                         text: """١. (ناو) کاتژمێر؛ ٦٠ خولەک"""),
                     SentencesRow(

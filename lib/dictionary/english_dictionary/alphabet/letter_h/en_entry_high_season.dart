@@ -145,7 +145,6 @@ ${englishMeaningConst.text}
 //                     const KurdishVocabulary(text: """
 // کوردی:
 // """),
-// With short examples define "high season", please follow LX instructions
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) ئەو کاتەی ساڵ کە ھوتێل یان ھاوینەھەوارێک زۆرترین سەردانکاری دەبێت"""),

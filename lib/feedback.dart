@@ -167,34 +167,45 @@ class _CustomFeedbackFormState extends ConsumerState<CustomFeedbackForm> {
               ListView(
                 controller: widget.scrollController,
                 padding: EdgeInsets.fromLTRB(
-                    16, widget.scrollController != null ? 40 : 16, 16, 0),
+                    16, widget.scrollController != null ? 12 : 16, 16, 0),
                 children: [
-                  DropdownButton<String>(
-                    value: selectedBugType,
-                    hint: Text(
-                      "Feedback type",
-                      style: TextStyle(
-                        color: Theme.of(context).primaryColor,
-                        fontSize: textSize,
-                      ),
+                  Theme(
+                    data: Theme.of(context).copyWith(
+                      // canvasColor: Colors.white,
+                      canvasColor: Theme.of(context).scaffoldBackgroundColor,
                     ),
-                    items: <String>[
-                      'Translation Error',
-                      // 'Exa',
-                      'Android bug',
-                      'iOS bug',
-                      'Other',
-                    ].map((String value) {
-                      return DropdownMenuItem<String>(
-                        value: value,
-                        child: Text(value),
-                      );
-                    }).toList(),
-                    onChanged: (newValue) {
-                      setState(() {
-                        selectedBugType = newValue;
-                      });
-                    },
+                    child: DropdownButton<String>(
+                      iconEnabledColor: Colors.blue[300],
+                      value: selectedBugType,
+                      hint: Text(
+                        "Feedback type",
+                        style: TextStyle(
+                          color: Colors.blue[300],
+                          fontSize: textSize - 6,
+                        ),
+                      ),
+                      items: <String>[
+                        'Translation Error',
+                        'Android bug',
+                        'iOS bug',
+                        'Other',
+                      ].map((String value) {
+                        return DropdownMenuItem<String>(
+                          value: value,
+                          child: Text(
+                            value,
+                            style: TextStyle(
+                              color: Colors.blue[300],
+                            ),
+                          ),
+                        );
+                      }).toList(),
+                      onChanged: (newValue) {
+                        setState(() {
+                          selectedBugType = newValue;
+                        });
+                      },
+                    ),
                   ),
                   const SizedBox(
                     height: 10,
@@ -208,16 +219,26 @@ class _CustomFeedbackFormState extends ConsumerState<CustomFeedbackForm> {
                   // ),
                   TextField(
                     decoration: InputDecoration(
-                        focusedBorder: OutlineInputBorder(
-                          borderSide: BorderSide(
-                            color: Theme.of(context).highlightColor,
-                            width: 1.5,
-                          ),
+                      enabledBorder: const OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Color.fromARGB(63, 33, 149,
+                              243), // Define border color when not focused
+                          width: 1.5,
                         ),
-                        hintText: "Type explanation",
-                        hintStyle: TextStyle(
-                          color: Theme.of(context).primaryColor,
-                        )),
+                      ),
+                      focusedBorder: const OutlineInputBorder(
+                        borderSide: BorderSide(
+                          color: Color.fromARGB(63, 33, 149,
+                              243), // Define border color when focused
+                          width: 1.5,
+                        ),
+                      ),
+                      hintText: "Type explanation",
+                      hintStyle: TextStyle(
+                        color: Colors.blue[300],
+                        fontSize: textSize - 6,
+                      ),
+                    ),
                     maxLines: null,
                     onChanged: (newFeedback) =>
                         _customFeedback.feedbackText = newFeedback,
@@ -244,9 +265,9 @@ class _CustomFeedbackFormState extends ConsumerState<CustomFeedbackForm> {
           child: Text(
             'Submit',
             style: TextStyle(
-              // color: Colors.green,
-              color: Theme.of(context).highlightColor,
-              fontSize: textSize,
+              color: Colors.blue[300],
+              // color: Theme.of(context).primaryColor,
+              fontSize: textSize - 3,
             ),
           ),
         ),

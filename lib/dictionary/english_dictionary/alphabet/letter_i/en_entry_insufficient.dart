@@ -9,7 +9,8 @@ class EnglishEntryinsufficient extends StatefulWidget {
   const EnglishEntryinsufficient({super.key});
 
   @override
-  State<EnglishEntryinsufficient> createState() => _EnglishEntryinsufficientState();
+  State<EnglishEntryinsufficient> createState() =>
+      _EnglishEntryinsufficientState();
 }
 
 class _EnglishEntryinsufficientState extends State<EnglishEntryinsufficient> {
@@ -85,15 +86,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The management paid insufficient attention to working conditions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I’m afraid we have insufficient evidence.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -924,7 +925,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
     const String videoIdend = '';
     const double startSecondsend = 000000000000000000000000000;
@@ -938,7 +938,6 @@ ${englishMeaningConst.text}
     const double startSecondsfour = 000000000000000000000000000;
     const String videoIdfive = '';
     const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -991,14 +990,18 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەم، بەش‌نەکردوو، ناتەواو، بەس نییە، کورت‌هێناو
 """),
 // With short examples define "insufficient", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە شتێک بەشی پێویست گەورە، گرنگ، یان بەهێز نەبێت بۆ مەبەستێکی دیاریکراو"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: inadequate"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The management paid insufficient attention to working conditions.""",
+                      kurdishText:
+                          """بەڕێوەبەرایەتی سەرنجی کەمی دا بە دۆخی کارکردن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1006,11 +1009,13 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I’m afraid we have insufficient evidence.""",
+                      kurdishText: """بەداخەوەم کە بەڵگەی کەممان هەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

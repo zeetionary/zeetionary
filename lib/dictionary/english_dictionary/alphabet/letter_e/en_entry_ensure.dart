@@ -278,6 +278,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (کردار) دڵنیایی کردنەوە، بۆ نموونە لە ڕوودانی شتێک"""),
+          const AlsoEnglishckb(word: "ھەروەھا: insure"),
           SentencesRow(
             englishText: """The book ensured his success.""",
             kurdishText: """کتێبەکە سەرکەوتنیی مسۆگەر کرد.""",

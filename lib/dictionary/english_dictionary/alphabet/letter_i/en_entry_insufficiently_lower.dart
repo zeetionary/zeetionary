@@ -9,10 +9,12 @@ class EnglishEntryinsufficiently extends StatefulWidget {
   const EnglishEntryinsufficiently({super.key});
 
   @override
-  State<EnglishEntryinsufficiently> createState() => _EnglishEntryinsufficientlyState();
+  State<EnglishEntryinsufficiently> createState() =>
+      _EnglishEntryinsufficientlyState();
 }
 
-class _EnglishEntryinsufficientlyState extends State<EnglishEntryinsufficiently> {
+class _EnglishEntryinsufficientlyState
+    extends State<EnglishEntryinsufficiently> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsufficiently insufficiently
-WORD_WEB insufficiently insufficiently insufficiently
-haʊʊʊʊʊʊʊ4
+- Adverb: insufficiently
+1. To an insufficient degree
+"he was insufficiently prepared"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insufficiently";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The army was insufficiently strong to make further advances.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/j4kI2h3iotA?t=';
+    const double startSecondsend = 0000000000000000000000000003077;
+    const String videoIdone = 'https://youtu.be/7D-gxaie6UI?t=';
+    const double startSecondsone = 000000000000000000000000000270;
+    const String videoIdtwo = 'https://youtu.be/woD6RYptp58?t=';
+    const double startSecondstwo = 0000000000000000000000000001293;
+    const String videoIdthree = 'https://youtu.be/MfPHZFsw40M?t=';
+    const double startSecondsthree = 000000000000000000000000000357;
+    const String videoIdfour = 'https://youtu.be/um9aGTAU0lg?t=';
+    const double startSecondsfour = 0000000000000000000000000001089;
+    const String videoIdfive = 'https://youtu.be/GXgGR8KxFao?t=';
+    const double startSecondsfive = 0000000000000000000000000006860;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insufficiently""",
                       // alsoEnglishWord: "also: insufficiently",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsəˈfɪʃntli/""",
+                      americanText: """IpaUS: /ˌɪnsəˈfɪʃntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +990,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: کەم، ناتەواوانە، نە بە شێوەیەکی بەش‌کردوو
+// """),
 // With short examples define "insufficiently", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە ئاستێک کە شتێک بەشی پێویست گەورە، گرنگ، یان بەهێز نەبێت بۆ مەبەستێکی دیاریکراو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The army was insufficiently strong to make further advances.""",
+                      kurdishText:
+                          """سوپاکە بە کەمی بەهێز بوو کە پێشڕەوی زیاتر بکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

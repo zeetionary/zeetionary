@@ -52,13 +52,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: insult (Derived forms: insults, insulted, insulting)
+1. Treat, mention, or speak to rudely (- diss [informal], affront, dis [informal])
+"He insulted her with his rude remarks";
+ 
+2. Show contempt for
+"don't insult my intelligence"
 
-EnglishEntryinsult insult
-WORD_WEB insult insult insult
-haʊʊʊʊʊʊʊ4
+- Noun: insult (Derived forms: insults)
+1. A rude expression intended to offend or hurt (- abuse, revilement, contumely [archaic], vilification)
+"they yelled insults at the visiting team";
+ 
+2. A deliberately offensive act or something producing the effect of deliberate disrespect (- affront)
+"turning his back on me was a deliberate insult";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insult";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +95,38 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The crowd were shouting insults at the police.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""His comments were seen as an insult to the president.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""I have never been so insulted in my life!""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""You insult my intelligence!""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """I felt deeply insulted that she hadn't asked me to the meeting.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +936,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wwTPr4RjgAs?t=';
+    const double startSecondsend = 00000000000000000000000000090;
+    const String videoIdone = 'https://youtu.be/5ygau__Ntno?t=';
+    const double startSecondsone = 00000000000000000000000000067;
+    const String videoIdtwo = 'https://youtu.be/YQHqL2itOXU?t=';
+    const double startSecondstwo = 00000000000000000000000000099;
+    const String videoIdthree = 'https://youtu.be/P4tDxQby99A?t=';
+    const double startSecondsthree = 000000000000000000000000000153;
+    const String videoIdfour = 'https://youtu.be/xYG9ZmpfiVI?t=';
+    const double startSecondsfour = 0000000000000000000000000008;
+    const String videoIdfive = 'https://youtu.be/KN8jCXr_NM4?t=';
+    const double startSecondsfive = 00000000000000000000000000023;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +962,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insult""",
                       // alsoEnglishWord: "also: insult",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnsʌlt/""",
+                      americanText: """IpaUS: /ˈɪnsʌlt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1001,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سووکایەتی، بێ‌ڕێزی، ڕەف، بێ‌حورمەتی
 """),
 // With short examples define "insult", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) قسەیەک یان کارێک کە دەکرێت بۆ سووکایەتی کردن بە کەسێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The crowd were shouting insults at the police.""",
+                      kurdishText: """جەماوەرەکە قسەیان بە پۆلیس دەگوت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1018,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His comments were seen as an insult to the president.""",
+                      kurdishText:
+                          """لێدوانەکانی وەک سوکایەتییەک بە پۆلیس بیندران.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) سوکایەتی کردنی بە کەسێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I have never been so insulted in my life!""",
+                      kurdishText:
+                          """هەرگیز هێندە سوکایەتیم پێنەکراوە لە ژیانمدا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1041,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You insult my intelligence! (= you are treating me as if I am stupid)""",
+                      kurdishText: """گاڵتەت بە زیرەکییەکەم کرد!""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1051,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I felt deeply insulted that she hadn't asked me to the meeting.""",
+                      kurdishText:
+                          """بە قووڵی هەستم بە سووکایەتی کرد کە بانگی نەکردبووم بۆ چاوپێکەوتنەکە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

@@ -52,10 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: insurgent
+1. In opposition to a civil authority or government (- seditious, subversive)
 
-EnglishEntryinsurgent insurgent
-WORD_WEB insurgent insurgent insurgent
-haʊʊʊʊʊʊʊ4
+- Noun: insurgent (Derived forms: insurgents)
+1. A person who takes part in an armed rebellion against the constituted authority (especially in the hope of improving conditions) (- insurrectionist, freedom fighter, rebel)
+"a lying traitorous insurgent";
+ 
+3. A member of an irregular armed force that fights a stronger force by sabotage and harassment (- guerrilla, guerilla, irregular)
 """,
   );
 // 188888880002200000000000
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insurgent""",
                       // alsoEnglishWord: "also: insurgent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈsɜːdʒənt/""",
+                      americanText: """IpaUS: /ɪnˈsɜːrdʒənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

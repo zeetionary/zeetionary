@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsulation insulation
-WORD_WEB insulation insulation insulation
-haʊʊʊʊʊʊʊ4
+- Noun: insulation (Derived forms: insulations)
+1. The state of being isolated or detached (- insularity, insularism, detachment)
+"the insulation of England was preserved by the English Channel";
+ 
+2. Insulating material that reduces or prevents the transmission of heat or sound or electricity (- insulant)
+ 
+3. The act of protecting something by surrounding it with material that reduces or prevents the transmission of sound or heat or electricity
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insulation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Better insulation of your home will help to reduce heating bills.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ANEwt4WtBAQ';
+    const double startSecondsend = 0;
+    const String videoIdone = 'https://youtu.be/8_gYDCZOc8s';
+    const double startSecondsone = 0;
+    const String videoIdtwo = 'https://youtu.be/OUYCbQSErAU';
+    const double startSecondstwo = 0;
+    const String videoIdthree = 'https://youtu.be/jpdPf7T8DNA';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/c6ckECokvIg?t=';
+    const double startSecondsfour = 9;
+    const String videoIdfive = 'https://youtu.be/sZeEyys_D1w?t=';
+    const double startSecondsfive = 00000000000000000000000000013;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insulation""",
                       // alsoEnglishWord: "also: insulation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsjuˈleɪʃn/""",
+                      americanText: """IpaUS: /ˌɪnsəˈleɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +996,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "insulation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی شتێک بە مادەیەک بپارێزیت کە ڕێگا دەگرێت لەوەی گەرمی، دەنگ، کارەبا، هتد بەناویدا تێپەڕێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Better insulation of your home will help to reduce heating bills.""",
+                      kurdishText:
+                          """عەزلکردنی باشتری ماڵەکەت یارمەتیت دەدات بۆ کەمکردنەوەی تێچووی گەرمکردنەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

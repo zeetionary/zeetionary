@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsularity insularity
-WORD_WEB insularity insularity insularity
-haʊʊʊʊʊʊʊ4
+- Noun: insularity (Derived forms: insularities)
+1. The state of being isolated or detached (- insulation, insularism, detachment)
+"the insularity of England was preserved by the English Channel";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insularity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """People enjoy the peace but also feel the insularity of village life.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """She longed to escape the stifling insularity of her existence.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ascPhiXcpss?t=';
+    const double startSecondsend = 000000000000000000000000000989;
+    const String videoIdone = 'https://youtu.be/dgj16KSgtIE?t=';
+    const double startSecondsone = 000000000000000000000000000751;
+    const String videoIdtwo = 'https://youtu.be/lW3Dl2nA4M4?t=';
+    const double startSecondstwo = 00000000000000000000000000082;
+    const String videoIdthree = 'https://youtu.be/v_wVO_icQbw?t=';
+    const double startSecondsthree = 000000000000000000000000000467;
+    const String videoIdfour = 'https://youtu.be/DOr21EFOyGI?t=';
+    const double startSecondsfour = 000000000000000000000000000881;
+    const String videoIdfive = 'https://youtu.be/tBw3IsQsf4c?t=';
+    const double startSecondsfive = 0000000000000000000000000001252;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insularity""",
                       // alsoEnglishWord: "also: insularity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsjuˈlærəti/""",
+                      americanText: """IpaUS: /ˌɪnsəˈlærəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +993,29 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "insularity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە تەنها گرنگی بە وڵات، باوەڕ، هتد ــی خۆت بدەیت و گرنگی بە ئەوانی نەدەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """People enjoy the peace but also feel the insularity of village life.""",
+                      kurdishText:
+                          """خەڵکی حەزیان بە بێ‌کێشەییەکەیەتی بەڵام هەروەها هەستیش دەکەن بە داخراوی ژیانی گوند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی کە پەیوەندیت لەگەڵ کەسانی دیکە کەم بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She longed to escape the stifling insularity of her existence.""",
+                      kurdishText:
+                          """ئاواتەخواز بوو لە گۆشەگیریی خەفەکەری ژیانی هەڵبێت.""",
+                      englishNote:
+                          """This means she deeply desired to break free from the isolation and limitations in her life, which made her feel confined and restricted, preventing her from experiencing the broader world and opportunities outside her current situation.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

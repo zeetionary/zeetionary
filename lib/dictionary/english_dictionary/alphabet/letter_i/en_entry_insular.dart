@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsular insular
-WORD_WEB insular insular insular
-haʊʊʊʊʊʊʊ4
+- Adjective: insular
+1. Suggestive of the isolated life of an island
+"an exceedingly insular man; so deeply private as to seem inaccessible to the scrutiny of a novelist"
+ 
+2. Narrowly restricted in outlook or scope (- parochial)
+"insular attitudes toward foreigners";
+ 
+3. Relating to or characteristic of or situated on an island
+"insular territories"; "Hawaii's insular culture"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insular";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The British are often accused of being insular.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""She grew up in a small town with an insular life.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Many species live in the coastal and insular areas.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/aTMsfOcHiJg?t=';
+    const double startSecondsend = 000000000000000000000000000658;
+    const String videoIdone = 'https://youtu.be/Qm4cAaAFhEs?t=';
+    const double startSecondsone = 0000000000000000000000000001012;
+    const String videoIdtwo = 'https://youtu.be/SR7BA3xEmDo?t=';
+    const double startSecondstwo = 000000000000000000000000000299;
+    const String videoIdthree = 'https://youtu.be/Pl8B55MqOQo?t=';
+    const double startSecondsthree = 0000000000000000000000000001791;
+    const String videoIdfour = 'https://youtu.be/v8Nv4rTKlMM?t=';
+    const double startSecondsfour = 0000000000000000000000000001000;
+    const String videoIdfive = 'https://youtu.be/Ot6Irvxn-v4?t=';
+    const double startSecondsfive = 00000000000000000000000000046;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insular""",
                       // alsoEnglishWord: "also: insular",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪnsjələ(r)/""",
+                      americanText: """IpaUS: /ˈɪnsələr/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,33 +996,43 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: دوڕگەیی، دوڕگەئاسا، شێوەدوڕگە، دوڕگەنشین، وەکوو دوڕگەنشینان، شێوەگرئاڤ،	لاتەریک، تەنیا(کەوتوو)، کەنارنشین،	بیرتەسک، بیرگرژ، بیرتەنگ، بێرتەسکانە
+// """),
 // With short examples define "insular", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە تەنها گرنگی بە وڵات، باوەڕ، هتد ــی خۆت بدەیت و گرنگی بە ئەوانی نەدەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The British are often accused of being insular.""",
+                      kurdishText:
+                          """بەریتانییەکان زۆرجار بە داخراوی تۆمەتبار دەکرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە پەیوەندیت لەگەڵ کەسانی دیکە کەم بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She grew up in a small town with an insular life.""",
+                      kurdishText:
+                          """لە شارۆچکەیەکی بچووک بە ژیانێکی گۆشەگیرەوە گەورە بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) پەیوەندیدار بە دوورگە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Many species live in the coastal and insular areas.""",
+                      kurdishText:
+                          """زۆر چەشنە ئاژەڵ لە ناوچە کەناراوی و دوورگەییەکان دەژین.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

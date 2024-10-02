@@ -18,15 +18,19 @@ class RedditSlide extends StatelessWidget {
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
-              const SliverAppBar(
+              SliverAppBar(
                 pinned: true,
                 floating: true,
                 snap: false,
                 automaticallyImplyLeading: false,
-                title: ZeetionaryAppbar(),
+                title: const ZeetionaryAppbar(),
                 bottom: TabBar(
+                  labelStyle: TextStyle(color: Theme.of(context).primaryColor),
+                  // labelStyle: TextStyle(color: Colors.black),
+                  indicatorColor:
+                      Theme.of(context).primaryColor.withOpacity(0.2),
                   isScrollable: true,
-                  tabs: [
+                  tabs: const [
                     Tab(text: 'English Learning'),
                     Tab(text: 'Discussion'),
                     Tab(text: 'EFL Grammar'),

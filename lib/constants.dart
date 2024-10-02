@@ -46,9 +46,9 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
         IconButton(
           icon: const FeedbackIcon(),
           onPressed: () {
-                  createGitlabIssueFromFeedback(
-                      context); // Calls the function to upload feedback to GitLab
-                },
+            createGitlabIssueFromFeedback(
+                context); // Calls the function to upload feedback to GitLab
+          },
         ),
       ],
     );
@@ -1309,7 +1309,9 @@ class CustomTabBarNew extends ConsumerWidget implements PreferredSizeWidget {
     // final currentTheme = ref.watch(themeNotifierProvider);
     // final textSize = ref.watch(textSizeProvider) + 20;
     return TabBar(
+      isScrollable: false,
       // indicatorColor: Theme.of(context).scaffoldBackgroundColor,
+      labelStyle: TextStyle(color: Theme.of(context).primaryColor),
       indicatorColor: Theme.of(context).primaryColor.withOpacity(0.2),
       // indicatorColor: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.5),
       // indicatorColor: Colors.red,

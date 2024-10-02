@@ -26,15 +26,13 @@ import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 //   }
 // }
 
+// final ThemeData currentTheme;
+// (zee): https://chat.openai.com/c/fd57b2af-b7b6-472a-98fd-aea0551587d1
+
 class QuizScreen extends ConsumerStatefulWidget {
-  // final ThemeData currentTheme;
-
-  // (zee): https://chat.openai.com/c/fd57b2af-b7b6-472a-98fd-aea0551587d1
-
   const QuizScreen({super.key});
 
   @override
-  // _QuizScreenState createState() => _QuizScreenState();
   ConsumerState<ConsumerStatefulWidget> createState() => _QuizScreenState();
 }
 

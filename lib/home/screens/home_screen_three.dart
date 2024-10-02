@@ -292,6 +292,23 @@ class MyDrawer extends StatelessWidget {
               child: SingleChildScrollView(
                 child: Column(
                   children: [
+                    ListTile(
+                      title: Text(
+                        "Online",
+                        style: TextStyle(
+                          fontSize: textSize + 3,
+                          color: Theme.of(context).primaryColor,
+                        ),
+                      ),
+                      leading: Icon(
+                        Icons.search,
+                        color: Theme.of(context).primaryColor,
+                      ),
+                      onTap: () {
+                        Routemaster.of(context)
+                            .push('/english-online-dics');
+                      },
+                    ),
                     const SizedBox(
                       height: 5,
                     ),

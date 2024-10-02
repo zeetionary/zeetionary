@@ -519,7 +519,11 @@ class _DictionaryScreenEnglishState
                       ? ''
                       : shuffledWords[_shuffleCurrentIndex],
                   hintStyle: TextStyle(fontSize: textSize),
-                  prefixIcon: Icon(Icons.search, size: textSize + 5),
+                  prefixIcon: Icon(
+                    Icons.search,
+                    size: textSize + 5,
+                    color: Theme.of(context).primaryColor,
+                  ),
                   suffixIcon: Row(
                     mainAxisSize: MainAxisSize.min,
                     children: [
@@ -537,7 +541,11 @@ class _DictionaryScreenEnglishState
                             ),
                             child: Padding(
                               padding: const EdgeInsets.all(3.0),
-                              child: Icon(Icons.clear, size: textSize + 5),
+                              child: Icon(
+                                Icons.clear,
+                                size: textSize + 5,
+                                color: Theme.of(context).primaryColor,
+                              ),
                             ),
                           ),
                           onPressed: clearSearch,
@@ -557,6 +565,7 @@ class _DictionaryScreenEnglishState
                             padding: const EdgeInsets.all(3.0),
                             child: Icon(
                               isAlphabetFilterExpanded ? Icons.abc : Icons.abc,
+                              color: Theme.of(context).primaryColor,
                               size: textSize + 5,
                             ),
                           ),
@@ -590,6 +599,7 @@ class _DictionaryScreenEnglishState
                               // ? Icons.arrow_drop_up
                               // : Icons.arrow_drop_down,
                               size: textSize + 5,
+                              color: Theme.of(context).primaryColor,
                             ),
                           ),
                         ),

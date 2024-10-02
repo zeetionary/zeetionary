@@ -19,6 +19,7 @@ import 'package:zeetionary/home/screens/reddit/reddit_linguistics.dart';
 import 'package:zeetionary/home/screens/reddit/reddit_discussion.dart';
 import 'package:zeetionary/home/screens/reddit/reddit_etymology.dart';
 import 'package:zeetionary/home/screens/text_to_speech/tts.dart';
+import 'package:zeetionary/home/screens/online_dics/online_dics.dart';
 import 'package:zeetionary/dictionary/sentences/sentences_page.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/home/screens/home_screen_three.dart';
@@ -158,6 +159,9 @@ Map<String, PageBuilder> getRoutesMainTwo() {
     "/bookmarks-screen": (_) => _blP(const BookmarksScreen()),
     //
     "/tts-screen": (_) => _blP(const TTSPage()),
+    //
+    // "/english-online-dics": (_) => _blP(const DictionarySearch()),
+    "/english-online-dics": (_) => _blP(const DictionarySearchScreen()),
     //
     "/grammar-screen": (_) => _blP(const GrammarScreen()),
     //

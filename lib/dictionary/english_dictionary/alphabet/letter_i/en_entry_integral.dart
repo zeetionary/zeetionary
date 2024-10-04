@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: integral
+1. Existing as an essential constituent or characteristic (- built-in, constitutional, inbuilt, inherent)
+ 
+2. Complete, not damaged or missing elements; with all connections and parts (- entire, intact)
+"The human body does not function as a collection of separate parts but rather as an integral whole";
+ 
+3. Of or denoted by an integer
 
-EnglishEntryintegral integral
-WORD_WEB integral integral integral
-haʊʊʊʊʊʊʊ4
+- Noun: integral (Derived forms: integrals/ˈɪntɪɡrəl/, /ɪnˈteɡrəl/)
+1. The result of a mathematical integration; F(x) is the integral of f(x) if dF/dx = f(x)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "integral";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +92,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Music is an integral part of the school's curriculum.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Practical experience is integral to the course.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""All rooms have a flat-screen TV with integral DVD-player.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +933,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/xVQxvthAcLU?t=';
+    const double startSecondsend = 0000000000000000000000000001745;
+    const String videoIdone = 'https://youtu.be/IgF3OX8nT0w?t=';
+    const double startSecondsone = 000000000000000000000000000485;
+    const String videoIdtwo = 'https://youtu.be/9yjZpBq1XBE?t=';
+    const double startSecondstwo = 0000000000000000000000000001879;
+    const String videoIdthree = 'https://youtu.be/rWVAzS5duAs?t=';
+    const double startSecondsthree = 000000000000000000000000000326;
+    const String videoIdfour = 'https://youtu.be/d6iQrh2TK98?t=';
+    const double startSecondsfour = 000000000000000000000000000904;
+    const String videoIdfive = 'https://youtu.be/RN8uoBwRr1k?t=';
+    const double startSecondsfive = 000000000000000000000000000170;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """integral""",
                       // alsoEnglishWord: "also: integral",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntɪɡrəl/, /ɪnˈteɡrəl/""",
+                      americanText: """IpaUS: /ˈɪntɪɡrəl/, /ɪnˈteɡrəl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +998,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێکهێنەر، دامەزرێنەر، دانەبڕاو،	پێویست، تەواوکەر، تەواو، ڕەبەق،	دروست، ناکەرت
 """),
 // With short examples define "integral", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە بەشێکی سەرەکی شتێک بێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Music is an integral part of the school's curriculum.""",
+                      kurdishText:
+                          """میوزیک بەشێکی پێکهێنەری پڕۆگرامی قوتابخانەکەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1015,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Practical experience is integral to the course.""",
+                      kurdishText:
+                          """ئەزموونی کرداری بەشێکی سەرەکی کۆرسەکەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە بەشێکە لە شتێک، نەک بە جیا دابین بکرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """All rooms have a flat-screen TV with integral DVD-player.""",
+                      kurdishText:
+                          """هەموو ژوورەکان شاشەیەکی فلاتی تەلەفیزیۆنیان هەیە لەگەڵ خوێنەرەوەی دی‌ڤی‌دی خۆیان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinteger integer
-WORD_WEB integer integer integer
-haʊʊʊʊʊʊʊ4
+- Noun: integer (Derived forms: integers)
+1. Any of the natural numbers (positive or negative) or zero (- whole number)
+"an integer is a number that is not a fraction";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "integer";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Enter any positive integer between 0 and 255.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/-UrdExQW0cs?t=';
+    const double startSecondsend = 000000000000000000000000000545;
+    const String videoIdone = 'https://youtu.be/d6iQrh2TK98?t=';
+    const double startSecondsone = 000000000000000000000000000498;
+    const String videoIdtwo = 'https://youtu.be/d86ws7mQYIg?t=';
+    const double startSecondstwo = 000000000000000000000000000596;
+    const String videoIdthree = 'https://youtu.be/LmpAntNjPj0?t=';
+    const double startSecondsthree = 00000000000000000000000000010;
+    const String videoIdfour = 'https://youtu.be/SAaESb4wTCM?t=';
+    const double startSecondsfour = 000000000000000000000000000416;
+    const String videoIdfive = 'https://youtu.be/tRaq4aYPzCc?t=';
+    const double startSecondsfive = 000000000000000000000000000632;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """integer""",
                       // alsoEnglishWord: "also: integer",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntɪdʒə(r)/""",
+                      americanText: """IpaUS: /ˈɪntɪdʒər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +991,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "integer", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ژمارەیەکی تەواو، بۆ نموونە ١، ٢، ٣، و نەک ٣,٥"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Enter any positive integer between 0 and 255.""",
+                      kurdishText:
+                          """هەر ژمارەیەکی تەواوی پۆزەتیڤ لە نێوان ٠ و ٢٥٥ بنووسە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

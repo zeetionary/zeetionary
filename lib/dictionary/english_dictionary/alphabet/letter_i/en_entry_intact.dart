@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintact intact
-WORD_WEB intact intact intact
-haʊʊʊʊʊʊʊ4
+- Adjective: intact
+1. Complete, not damaged or missing elements; with all connections and parts (- integral, entire)
+"fought to keep the union intact";
+ 
+2. (of a woman) having the hymen unbroken (- inviolate [archaic])
+"she was intact, virginal";
+ 
+3. (used of domestic animals) sexually competent (- entire)
+"an intact horse";
+ 
+4. Undamaged in any way
+"the vase remained intact despite rough handling"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intact";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +94,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He emerged from the trial with his reputation intact.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Most of the house remains intact even after two hundred years.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +934,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/W2hRTTTpmr8?t=';
+    const double startSecondsend = 0000000000000000000000000001839;
+    const String videoIdone = 'https://youtu.be/kTaYet07Ioo?t=';
+    const double startSecondsone = 000000000000000000000000000539;
+    const String videoIdtwo = 'https://youtu.be/nsnyl8llfH4?t=';
+    const double startSecondstwo = 00000000000000000000000000083;
+    const String videoIdthree = 'https://youtu.be/g9QneAV4fVo?t=';
+    const double startSecondsthree = 000000000000000000000000000176;
+    const String videoIdfour = 'https://youtu.be/_mUvG6x53VM?t=';
+    const double startSecondsfour = 0000000000000000000000000007;
+    const String videoIdfive = 'https://youtu.be/Pon4Zux5MaQ?t=';
+    const double startSecondsfive = 000000000000000000000000000657;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intact""",
                       // alsoEnglishWord: "also: intact",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtækt/""",
+                      americanText: """IpaUS: /ɪnˈtækt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +999,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەس‌لێنەدراو، تێکنەچوو، سەربەمۆر، دەق‌نەشکاو، هەڵنەپچڕاو، خراپ‌نەبوو، زیان لێنەکەوتوو، تەواو، بێ‌خەوش، بێ‌عەیب، ساغ، پارێزراو
 """),
 // With short examples define "intact", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە تەواوە و زیانی پێنەگەشتووە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: undamaged"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He emerged from the trial with his reputation intact.""",
+                      kurdishText:
+                          """لە دانیشتنەکەی دادگا دەرچوو بەبێ زیان بەناوبانگی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,11 +1018,14 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Most of the house remains intact even after two hundred years.""",
+                      kurdishText:
+                          """زۆرینەی خانووەکە ساغ ماوەتەوە تەنانەت دوای دوو سەد ساڵیش.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

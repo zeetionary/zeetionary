@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintegrally integrally
-WORD_WEB integrally integrally integrally
-haʊʊʊʊʊʊʊ4
+- Adverb: integrally
+1. In an integral manner
+"The integral domain A is said to be integrally closed"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "integrally";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Pascal has been integrally involved in the whole process from start to finish.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/sY8aFSY2zv4?t=';
+    const double startSecondsend = 0000000000000000000000000006680;
+    const String videoIdone = 'https://youtu.be/hLTtih9od7k?t=';
+    const double startSecondsone = 00000000000000000000000000051;
+    const String videoIdtwo = 'https://youtu.be/UNHtj7QtCdk?t=';
+    const double startSecondstwo = 000000000000000000000000000708;
+    const String videoIdthree = 'https://youtu.be/ascPhiXcpss?t=';
+    const double startSecondsthree = 000000000000000000000000000994;
+    const String videoIdfour = 'https://youtu.be/5JXBoex_Q9A?t=';
+    const double startSecondsfour = 000000000000000000000000000357;
+    const String videoIdfive = 'https://youtu.be/EVFAZ8ZjMcY?t=';
+    const double startSecondsfive = 0000000000000000000000000001608;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """integrally""",
                       // alsoEnglishWord: "also: integrally",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntɪɡrəli/,  /ɪnˈteɡrəli/""",
+                      americanText: """IpaUS: /ˈɪntɪɡrəli/,  /ɪnˈteɡrəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "integrally", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە بەشێکی سەرەکیی شتێکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Pascal has been integrally involved in the whole process from start to finish.""",
+                      kurdishText:
+                          """پاسکال بە شێوەی سەرەکی بەژداربووە لە تەواوی پڕۆسەکە لە سەرەتا تا کۆتایی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

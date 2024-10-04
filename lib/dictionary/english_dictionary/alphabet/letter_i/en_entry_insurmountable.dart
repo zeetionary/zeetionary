@@ -9,10 +9,12 @@ class EnglishEntryinsurmountable extends StatefulWidget {
   const EnglishEntryinsurmountable({super.key});
 
   @override
-  State<EnglishEntryinsurmountable> createState() => _EnglishEntryinsurmountableState();
+  State<EnglishEntryinsurmountable> createState() =>
+      _EnglishEntryinsurmountableState();
 }
 
-class _EnglishEntryinsurmountableState extends State<EnglishEntryinsurmountable> {
+class _EnglishEntryinsurmountableState
+    extends State<EnglishEntryinsurmountable> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsurmountable insurmountable
-WORD_WEB insurmountable insurmountable insurmountable
-haʊʊʊʊʊʊʊ4
+- Adjective: insurmountable
+1. Not capable of being surmounted or overcome (- unsurmountable)
+"insurmountable disadvantages";
+ 
+2. Impossible to surmount (- insuperable)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insurmountable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """They were now faced with insurmountable technical problems.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/DxREm3s1scA?t=';
+    const double startSecondsend = 0000000000000000000000000004217;
+    const String videoIdone = 'https://youtu.be/nT3VGI0V5Rs?t=';
+    const double startSecondsone = 000000000000000000000000000627;
+    const String videoIdtwo = 'https://youtu.be/9dnN82DsQ2k?t=';
+    const double startSecondstwo = 000000000000000000000000000451;
+    const String videoIdthree = 'https://youtu.be/VLk4F1thAp0?t=';
+    const double startSecondsthree = 000000000000000000000000000512;
+    const String videoIdfour = 'https://youtu.be/S5SdA64snP4?t=';
+    const double startSecondsfour = 000000000000000000000000000181;
+    const String videoIdfive = 'https://youtu.be/-xofptVHF1A?t=';
+    const double startSecondsfive = 000000000000000000000000000793;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insurmountable""",
                       // alsoEnglishWord: "also: insurmountable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsəˈmaʊntəbl/""",
+                      americanText: """IpaUS: /ˌɪnsərˈmaʊntəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەسەرداسەرنەکەوتوو، نەبەزیو، ناتوانی بەسەری‌دا زاڵ بی، نابەزێنرێ، چارەسەرنەکراو، نەڕەواو، جێبەجێ نابێ، نەڕەوێنراو
 """),
 // With short examples define "insurmountable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کێشەیەک، سەختییەک، هتد کە ناتوانرێت چارەسەر بکرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: insuperable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They were now faced with insurmountable technical problems.""",
+                      kurdishText:
+                          """ئێستا ڕووبەڕووی کێشەی تەکنیکی چارەسەرنەکراو بوونەتەوە..""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

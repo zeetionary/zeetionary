@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintellect intellect
-WORD_WEB intellect intellect intellect
-haʊʊʊʊʊʊʊ4
+- Noun: intellect (Derived forms: intellects)
+1. Knowledge and intellectual ability (- mind)
+"he has a keen intellect";
+ 
+2. The capacity for rational thought, inference or discrimination (- reason, understanding)
+"we are told that man is endowed with intellect and capable of distinguishing good from evil";
+ 
+3. A person who uses the mind creatively (- intellectual)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intellect";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She has a formidable intellect.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/dPicox3QWC0?t=';
+    const double startSecondsend = 000000000000000000000000000136;
+    const String videoIdone = 'https://youtu.be/Sbp_EeBk-As?t=';
+    const double startSecondsone = 0000000000000000000000000002358;
+    const String videoIdtwo = 'https://youtu.be/E44kFkyl_Y8?t=';
+    const double startSecondstwo = 000000000000000000000000000101;
+    const String videoIdthree = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsthree = 000000000000000000000000000513;
+    const String videoIdfour = 'https://youtu.be/-Mkp4oavz2M?t=';
+    const double startSecondsfour = 000000000000000000000000000301;
+    const String videoIdfive = 'https://youtu.be/mW-C7WE1xOs?t=';
+    const double startSecondsfive = 000000000000000000000000000409;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intellect""",
                       // alsoEnglishWord: "also: intellect",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntəlekt/""",
+                      americanText: """IpaUS: /ˈɪntəlekt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هێزی تێگەیشتن، ئەقڵ، عەقڵ، توانایی بەڵگەهێنانەوە و تێگەیشتن بە شێوەیێکی بابەتی، ئاوەز، هۆش، تێگەیشتن، بیرمەند، بەئاوەز، تێگەیشتوو، ژیر، ئاقڵ، ئەقڵ‌مەند،	ئاقڵان، ژیران
 """),
 // With short examples define "intellect", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) توانای بیرکردنەوە بە درووستی و لۆژیکی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She has a formidable intellect.""",
+                      kurdishText: """ژیرییەکی .""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

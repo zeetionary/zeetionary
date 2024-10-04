@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: intangible
+1. Hard to pin down or identify
+"an intangible feeling of impending disaster"
+ 
+2. Lacking substance or reality; incapable of being touched or seen (- nonphysical)
+"that intangible thing--the soul";
+ 
+3. (of especially business assets) not having physical substance or intrinsic productive value
+"intangible assets such as good will"
+ 
+4. Incapable of being perceived by the senses especially the sense of touch (- impalpable)
+"the intangible constituent of energy";
 
-EnglishEntryintangible intangible
-WORD_WEB intangible intangible intangible
-haʊʊʊʊʊʊʊ4
+- Noun: intangible (Derived forms: intangibles)
+1. Assets that are saleable though not material or physical (- intangible asset)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intangible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +97,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Creativity is an intangible we're looking for in an employee.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """She has that intangible quality which you might call charisma.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The benefits are intangible.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +937,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/y9nBhv0lq1s?t=';
+    const double startSecondsend = 0000000000000000000000000001123;
+    const String videoIdone = 'https://youtu.be/B8BnOEOOBa0?t=';
+    const double startSecondsone = 000000000000000000000000000439;
+    const String videoIdtwo = 'https://youtu.be/YflDBkKutmM?t=';
+    const double startSecondstwo = 000000000000000000000000000114;
+    const String videoIdthree = 'https://youtu.be/C8U23AS1irY?t=';
+    const double startSecondsthree = 00000000000000000000000000081;
+    const String videoIdfour = 'https://youtu.be/UjtwYNnVOQU?t=';
+    const double startSecondsfour = 000000000000000000000000000399;
+    const String videoIdfive = 'https://youtu.be/10_Oz1Csi_Q?t=';
+    const double startSecondsfive = 000000000000000000000000000765;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +963,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intangible""",
                       // alsoEnglishWord: "also: intangible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtændʒəbl/""",
+                      americanText: """IpaUS: /ɪnˈtændʒəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +1002,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەست‌پێنەکراو، دەس‌لێنەدراو، بەردەست ناکەوێ، نەبینراو، نەرم،	نامادی، نابابەتی،	نادیار، شاراوە، نائاشکرا، ئاڵۆز، تەماوی، لەتێگەیشتن‌نەهاتوو
 """),
 // With short examples define "intangible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) شتێک کە بە شێوەی فیزیکی بوونی نییە بەڵام هێشتا بۆ کۆمپانیایەک گرنگە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Creativity is an intangible we're looking for in an employee.""",
+                      kurdishText:
+                          """داهێنەری خاسیەتێکە کە چاوەڕێی دەکەین لە کارمەندێکدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە بوونی هەیە بەڵام دەستی لێنادرێت؛ کە سەختە باس بکرێت، تێگەشتنی بۆ بکرێت، یان بپێورێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She has that intangible quality which you might call charisma.""",
+                      kurdishText:
+                          """ئەو خاسیەتە نەبینراوەی هەیە کە دەکرێت پێی بگوترێت کاریزما.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,7 +1033,7 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
+                      englishText: """The benefits are intangible.""",
                       kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),

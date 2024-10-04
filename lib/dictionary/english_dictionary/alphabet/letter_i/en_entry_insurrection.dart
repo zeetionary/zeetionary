@@ -9,7 +9,8 @@ class EnglishEntryinsurrection extends StatefulWidget {
   const EnglishEntryinsurrection({super.key});
 
   @override
-  State<EnglishEntryinsurrection> createState() => _EnglishEntryinsurrectionState();
+  State<EnglishEntryinsurrection> createState() =>
+      _EnglishEntryinsurrectionState();
 }
 
 class _EnglishEntryinsurrectionState extends State<EnglishEntryinsurrection> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinsurrection insurrection
-WORD_WEB insurrection insurrection insurrection
-haʊʊʊʊʊʊʊ4
+- Noun: insurrection (Derived forms: insurrections)
+1. Organized opposition to authority; a conflict in which one faction tries to wrest control from another (- rebellion, revolt, rising, uprising)
+"military security has been stepped up since the recent insurrection";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insurrection";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He led an armed insurrection against the regime.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""There was a popular insurrection against the police.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/LJ0Hfc8hvpE?t=';
+    const double startSecondsend = 000000000000000000000000000477;
+    const String videoIdone = 'https://youtu.be/-I6YmMAThZ8?t=';
+    const double startSecondsone = 000000000000000000000000000665;
+    const String videoIdtwo = 'https://youtu.be/A7beCOs4yAw?t=';
+    const double startSecondstwo = 000000000000000000000000000448;
+    const String videoIdthree = 'https://youtu.be/4oXZXT3D0UE?t=';
+    const double startSecondsthree = 000000000000000000000000000271;
+    const String videoIdfour = 'https://youtu.be/bolyiGMcjBs?t=';
+    const double startSecondsfour = 00000000000000000000000000075;
+    const String videoIdfive = 'https://youtu.be/XB2W_kw62u8?t=';
+    const double startSecondsfive = 00000000000000000000000000059;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """insurrection""",
                       // alsoEnglishWord: "also: insurrection",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnsəˈrekʃn/""",
+                      americanText: """IpaUS: /ˌɪnsəˈrekʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +994,15 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "insurrection", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دۆخێک کە تێیدا خەڵکێکی زۆر هەوڵ دەدەن کۆنترۆڵی سیاسیی وڵاتەکەیان بکەن بە توندوتیژی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: uprising"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He led an armed insurrection against the regime.""",
+                      kurdishText:
+                          """سەرهەڵدانێکی چەکداریی دژ بە ڕژێمەکە دەستپێکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There was a popular insurrection against the police.""",
+                      kurdishText: """سەرهەڵدانێکی گەورە هەبوو دژ بە پۆلیس.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintegrity integrity
-WORD_WEB integrity integrity integrity
-haʊʊʊʊʊʊʊ4
+- Noun: integrity (Derived forms: integrities)
+1. Moral soundness
+"he expects to find in us the common honesty and integrity of men of business"; "they admired his scrupulous professional integrity"
+ 
+2. An undivided or unbroken completeness or totality with nothing wanting (- unity, wholeness)
+"the integrity of the nervous system is required for normal development";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "integrity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,43 +88,45 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She behaved with absolute integrity.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """I would never do anything to compromise the integrity of the company.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She has great personal integrity.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""I have no doubts at all about his integrity.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """Nuclear weapons have the capability to destroy the physical integrity of our planet.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """The country is fighting to preserve its territorial integrity.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/nRafaCcfrcI?t=';
+    const double startSecondsend = 000000000000000000000000000396;
+    const String videoIdone = 'https://youtu.be/Pl8AJAt3TDg?t=';
+    const double startSecondsone = 000000000000000000000000000176;
+    const String videoIdtwo = 'https://youtu.be/0ST4_hmop9Y?t=';
+    const double startSecondstwo = 0000000000000000000000000001796;
+    const String videoIdthree = 'https://youtu.be/nGrB-5ieeMU?t=';
+    const double startSecondsthree = 000000000000000000000000000299;
+    const String videoIdfour = 'https://youtu.be/1Gxrwh4zGPg?t=';
+    const double startSecondsfour = 0000000000000000000000000001306;
+    const String videoIdfive = 'https://youtu.be/Ihoys69G56U?t=';
+    const double startSecondsfive = 000000000000000000000000000549;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """integrity""",
                       // alsoEnglishWord: "also: integrity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈteɡrəti/""",
+                      americanText: """IpaUS: /ɪnˈteɡrəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دروستی، ڕاستی، سەرڕاستی،	تەواوێتی، دابەش‌نەبوویی، یەک‌پارچەیی، شێوەی تەواو
 """),
 // With short examples define "integrity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە سەرڕاست بیت و بەهای بەهێزی ئەخلاقیت هەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She behaved with absolute integrity.""",
+                      kurdishText: """بە ئەوپەڕی سەرڕاستییەوە ڕەفتاری کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I would never do anything to compromise the integrity of the company.""",
+                      kurdishText:
+                          """هەگیز هیچ شتێک ناکەم کە لە شکۆی کۆمپانیاکە بدەم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1021,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She has great personal integrity.""",
+                      kurdishText: """سەرڕاستیی کەسی زۆری هەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,17 +1030,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I have no doubts at all about his integrity.""",
+                      kurdishText:
+                          """بە هیچ شێوەیەک هیچ گومانێکم نییە سەبارەت بە سەرڕاستیی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ناو) یەکگرتوویی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unity"),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Nuclear weapons have the capability to destroy the physical integrity of our planet.""",
+                      kurdishText:
+                          """چەکە ئەتۆمییەکان توانایان هەیە یەکگرتوویی فیزیکی هەسارەکەمان وێران بکەن.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1044,8 +1052,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The country is fighting to preserve its territorial integrity.""",
+                      kurdishText:
+                          """وڵاتەکە دەجەنگێت بۆ ئەوەی یەکگرتوویی خاکەکەی بپارێزێت.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),

@@ -62,7 +62,6 @@ ${englishMeaningConst.text}
 3. A member of an irregular armed force that fights a stronger force by sabotage and harassment (- guerrilla, guerilla, irregular)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "insurgent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -91,15 +90,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""All approaches to the capital are now under the control of the insurgents.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The army fought insurgent groups in the region.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -932,19 +930,18 @@ ${englishMeaningConst.text}
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/qCbfTN-caFI?t=';
+    const double startSecondsend = 000000000000000000000000000718;
+    const String videoIdone = 'https://youtu.be/-L7o6HtX8Vg?t=';
+    const double startSecondsone = 000000000000000000000000000969;
+    const String videoIdtwo = 'https://youtu.be/P6bVl47kdNk?t=';
+    const double startSecondstwo = 000000000000000000000000000496;
+    const String videoIdthree = 'https://youtu.be/mICxKmCjF-4?t=';
+    const double startSecondsthree = 000000000000000000000000000135;
+    const String videoIdfour = 'https://youtu.be/rvoJXBqLILM?t=';
+    const double startSecondsfour = 000000000000000000000000000355;
+    const String videoIdfive = 'https://youtu.be/ko6qiSKXAGA?t=';
+    const double startSecondsfive = 0000000000000000000000000001099;
 
     return DefaultTabController(
       length: 4,
@@ -1000,22 +997,22 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "insurgent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە دژ بە حکومەت یان سوپای وڵاتی خۆی شەڕ دەکات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: rebellious"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence1("en-GB"),
-                      onPressedAmerican: () => speaksentence1("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The army fought insurgent groups in the region.""",
+                      kurdishText: """سوپا لە هەرێمەکە جەنگی دژ بە هێزە یاخیبووەکان کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """٢. (ناو) کەسێک کە دژ بە حکومەت یان سوپای وڵاتی خۆی شەڕ دەکات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: rebel"),
+                    SentencesRow(
+                      englishText: """All approaches to the capital are now under the control of the insurgents.""",
+                      kurdishText: """هەموو ڕێگاکان بەرەو پایتەخت ئێستا لەژێر دەسەڵاتی یاخیبووەکانن.""",
+                      onPressedBritish: () => speaksentence1("en-GB"),
+                      onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),

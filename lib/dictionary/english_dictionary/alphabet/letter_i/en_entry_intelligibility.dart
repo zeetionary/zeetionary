@@ -9,10 +9,12 @@ class EnglishEntryintelligibility extends StatefulWidget {
   const EnglishEntryintelligibility({super.key});
 
   @override
-  State<EnglishEntryintelligibility> createState() => _EnglishEntryintelligibilityState();
+  State<EnglishEntryintelligibility> createState() =>
+      _EnglishEntryintelligibilityState();
 }
 
-class _EnglishEntryintelligibilityState extends State<EnglishEntryintelligibility> {
+class _EnglishEntryintelligibilityState
+    extends State<EnglishEntryintelligibility> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintelligibility intelligibility
-WORD_WEB intelligibility intelligibility intelligibility
-haʊʊʊʊʊʊʊ4
+- Noun: intelligibility (Derived forms: intelligibilities)
+1. The quality of language that is comprehensible
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intelligibility";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Neruda became so popular due to the quality and intelligibility of his poetry.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/VYJtb2YXae8?t=';
+    const double startSecondsend = 000000000000000000000000000208;
+    const String videoIdone = 'https://youtu.be/qBy63yKkoqQ?t=';
+    const double startSecondsone = 00000000000000000000000000018;
+    const String videoIdtwo = 'https://youtu.be/a3u_HgOAse8?t=';
+    const double startSecondstwo = 00000000000000000000000000013;
+    const String videoIdthree = 'https://youtu.be/DySrreILcrc?t=';
+    const double startSecondsthree = 000000000000000000000000000297;
+    const String videoIdfour = 'https://youtu.be/WbaggvooEZU?t=';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/B6s7J-lu0WI?t=';
+    const double startSecondsfive = 000000000000000000000000000198;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intelligibility""",
                       // alsoEnglishWord: "also: intelligibility",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌtelɪdʒəˈbɪləti/""",
+                      americanText: """IpaUS: /ɪnˌtelɪdʒəˈbɪləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئاسانی، لەتێگەیشتن‌هاتوویی، ڕوونی
 """),
 // With short examples define "intelligibility", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی شتێک ئاسان بێت بۆ تێگەشتن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Neruda became so popular due to the quality and intelligibility of his poetry.""",
+                      kurdishText:
+                          """نێروودا زۆر بەناوبانگ بوو بە خاسیەت و ئاسانی هۆنراوەکانی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

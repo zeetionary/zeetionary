@@ -52,13 +52,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: intensive
+1. Tending to give force or emphasis
+"an intensive adverb"
+ 
+2. Of agriculture; intended to increase productivity of a fixed area by expending more capital and labour
+"intensive agriculture"; "intensive conditions"
+ 
+3. Characterized by a high degree or intensity; often used as a combining form
+"the questioning was intensive"; "intensive care"; "research-intensive"; "a labour-intensive industry"
 
-EnglishEntryintensive intensive
-WORD_WEB intensive intensive intensive
-haʊʊʊʊʊʊʊ4
+- Noun: intensive (Derived forms: intensives)
+1. A modifier that has little meaning except to intensify the meaning it modifies (- intensifier)
+"'up' in 'finished up' is an intensive";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intensive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +95,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Intensive bombing had reduced the city to rubble.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +935,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
+    const double startSecondsend = 0000000000000000000000000001360;
+    const String videoIdone = 'https://youtu.be/GYMF5mhuBUE?t=';
+    const double startSecondsone = 000000000000000000000000000417;
+    const String videoIdtwo = 'https://youtu.be/TRGHIN2PGIA';
+    const double startSecondstwo = 0;
+    const String videoIdthree = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsthree = 000000000000000000000000000173;
+    const String videoIdfour = 'https://youtu.be/Sbp_EeBk-As?t=';
+    const double startSecondsfour = 0000000000000000000000000001463;
+    const String videoIdfive = 'https://youtu.be/iqhK6QGehtQ?t=';
+    const double startSecondsfive = 000000000000000000000000000742;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intensive""",
                       // alsoEnglishWord: "also: intensive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtensɪv/""",
+                      americanText: """IpaUS: /ɪnˈtensɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +999,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خەست، خەست‌وخۆڵ، لەسەریەک، قورس، توند، چڕ، تیژ، سەخت، چڕوپڕ، تێروتەسەل،	(ڕێزمان، ئاوەڵناو و ئاوەڵکار) بەهێزکەر، زیادکەر، جەختی
 """),
 // With short examples define "intensive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە ژمارەیەکی زۆر کار و چالاکی لە ماوەیەکی کەم لەخۆ دەگرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Intensive bombing had reduced the city to rubble.""",
+                      kurdishText: """بۆمبارانی ڕژد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

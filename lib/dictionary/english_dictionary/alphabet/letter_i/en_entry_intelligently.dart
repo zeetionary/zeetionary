@@ -9,7 +9,8 @@ class EnglishEntryintelligently extends StatefulWidget {
   const EnglishEntryintelligently({super.key});
 
   @override
-  State<EnglishEntryintelligently> createState() => _EnglishEntryintelligentlyState();
+  State<EnglishEntryintelligently> createState() =>
+      _EnglishEntryintelligentlyState();
 }
 
 class _EnglishEntryintelligentlyState extends State<EnglishEntryintelligently> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintelligently intelligently
-WORD_WEB intelligently intelligently intelligently
-haʊʊʊʊʊʊʊ4
+- Adverb: intelligently
+1. In an intelligent manner
+"she acted intelligently in this difficult situation"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intelligently";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She spoke intelligently on the subject.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Smart cards can store large amounts of data and interact intelligently with a smart card reader.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/0Anx3VQ2dcc?t=';
+    const double startSecondsend = 0000000000000000000000000002641;
+    const String videoIdone = 'https://youtu.be/f7QWMUCMYOE?t=';
+    const double startSecondsone = 000000000000000000000000000908;
+    const String videoIdtwo = 'https://youtu.be/3PX2d3Zwutg?t=';
+    const double startSecondstwo = 000000000000000000000000000493;
+    const String videoIdthree = 'https://youtu.be/9yjZpBq1XBE?t=';
+    const double startSecondsthree = 0000000000000000000000000002407;
+    const String videoIdfour = 'https://youtu.be/EN6jtHIqeTg?t=';
+    const double startSecondsfour = 000000000000000000000000000731;
+    const String videoIdfive = 'https://youtu.be/DSQG0zvR6dk?t=';
+    const double startSecondsfive = 0000000000000000000000000001120;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intelligently""",
                       // alsoEnglishWord: "also: intelligently",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtelɪdʒəntli/""",
+                      americanText: """IpaUS: /ɪnˈtelɪdʒəntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +990,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ژیرانە، ئاقڵانە، زیرەکانە، تێگەیشتووانە
 """),
 // With short examples define "intelligently", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەک کە باش بیت لە توانای فێربوون، تێگەشتن، و بیرکردنەوە بە شێوەیەکی لۆژیکی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She spoke intelligently on the subject.""",
+                      kurdishText: """ژیرانە لەسەر بابەتەکە قسەی دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بەشێوەیەک کە ئامێرێک کە دەتوانێت زانیاری کۆگا بکات و لە دۆخی تازەدا بەکاری بهێنێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Smart cards can store large amounts of data and interact intelligently with a smart card reader.""",
+                      kurdishText:
+                          """کاردە زیرەکەکان دەتوانن ڕێژەیەکی زۆر لە داتا کۆبکەنەوە و زیرەکانە مامەڵە بکەن لەگەڵ خوێنەرەوەیەکی کاردی زیرەک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

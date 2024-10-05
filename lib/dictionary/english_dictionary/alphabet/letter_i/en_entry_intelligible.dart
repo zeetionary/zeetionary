@@ -9,7 +9,8 @@ class EnglishEntryintelligible extends StatefulWidget {
   const EnglishEntryintelligible({super.key});
 
   @override
-  State<EnglishEntryintelligible> createState() => _EnglishEntryintelligibleState();
+  State<EnglishEntryintelligible> createState() =>
+      _EnglishEntryintelligibleState();
 }
 
 class _EnglishEntryintelligibleState extends State<EnglishEntryintelligible> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintelligible intelligible
-WORD_WEB intelligible intelligible intelligible
-haʊʊʊʊʊʊʊ4
+- Adjective: intelligible
+1. Capable of being apprehended or understood (- apprehensible, graspable, perceivable, understandable)
+"how can science be made intelligible to non-scientists?";
+ 
+2. Well articulated or enunciated, and loud enough to be heard distinctly
+"intelligible pronunciation"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intelligible";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""His lecture was readily intelligible to all the students.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The child’s speech was barely intelligible.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/G2wPCbazMjQ?t=';
+    const double startSecondsend = 000000000000000000000000000455;
+    const String videoIdone = 'https://youtu.be/VYJtb2YXae8?t=';
+    const double startSecondsone = 000000000000000000000000000233;
+    const String videoIdtwo = 'https://youtu.be/Y63dBBlHlSk?t=';
+    const double startSecondstwo = 000000000000000000000000000231;
+    const String videoIdthree = 'https://youtu.be/-aSdFrPnlRg?t=';
+    const double startSecondsthree = 0000000000000000000000000001113;
+    const String videoIdfour = 'https://youtu.be/iZd1aQ7TY9c?t=';
+    const double startSecondsfour = 000000000000000000000000000515;
+    const String videoIdfive = 'https://youtu.be/H5yvhP-9mik?t=';
+    const double startSecondsfive = 000000000000000000000000000272;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intelligible""",
                       // alsoEnglishWord: "also: intelligible",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtelɪdʒəbl/""",
+                      americanText: """IpaUS: /ɪnˈtelɪdʒəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئاسان، سادە، لەتێگەیشتن‌هاتوو، لە تێگەیشتن دێ، ڕوون، ڕۆشن، دیار، (فەلسەفە) تەنیا بە ئەقڵ لە تێگەیشتن دێ
 """),
 // With short examples define "intelligible", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە ئاسانە بۆ تێگەشتن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: understandable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His lecture was readily intelligible to all the students.""",
+                      kurdishText:
+                          """وانەکانی تەواو ئاسان بوون بۆ هەموو خوێندکاران.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1011,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The child’s speech was barely intelligible.""",
+                      kurdishText: """قسەی منداڵەکە بە ئەستەم ڕوون بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

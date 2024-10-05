@@ -9,7 +9,8 @@ class EnglishEntryintellectual extends StatefulWidget {
   const EnglishEntryintellectual({super.key});
 
   @override
-  State<EnglishEntryintellectual> createState() => _EnglishEntryintellectualState();
+  State<EnglishEntryintellectual> createState() =>
+      _EnglishEntryintellectualState();
 }
 
 class _EnglishEntryintellectualState extends State<EnglishEntryintellectual> {
@@ -52,13 +53,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: intellectual (Derived forms: intellectuals)
+1. A person who uses the mind creatively (- intellect)
 
-EnglishEntryintellectual intellectual
-WORD_WEB intellectual intellectual intellectual
-haʊʊʊʊʊʊʊ4
+- Adjective: intellectual
+1. Appealing to or using the intellect
+"satire is an intellectual weapon"; "intellectual workers engaged in creative literary or artistic or scientific labour"; "has tremendous intellectual sympathy for oppressed people"; "coldly intellectual"; "sort of the intellectual type"; "intellectual literature"
+ 
+2. Involving intelligence rather than emotions or instinct (- cerebral)
+ 
+3. Of or associated with or requiring the use of the mind (- rational, noetic)
+"intellectual problems";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intellectual";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,50 +94,54 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Gifted children typically show great intellectual curiosity and a wide range of interests.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """I don't think he has the intellectual skills necessary to study at this level.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He has a reputation for rudeness and intellectual arrogance.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Education creates intellectual capital to convert into economic rewards.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""She considered everyone her intellectual inferior.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""She's very intellectual.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""He was a leading intellectual of his day.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -926,21 +937,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/b1reY72ktEc?t=';
+    const double startSecondsend = 0000000000000000000000000001284;
+    const String videoIdone = 'https://youtu.be/Cqbleas1mmo?t=';
+    const double startSecondsone = 000000000000000000000000000480;
+    const String videoIdtwo = 'https://youtu.be/F0jr-HQeT74?t=';
+    const double startSecondstwo = 000000000000000000000000000299;
+    const String videoIdthree = 'https://youtu.be/Y5F_ha7d-PI';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/BuX6-lvUwd0?t=';
+    const double startSecondsfour = 000000000000000000000000000122;
+    const String videoIdfive = 'https://youtu.be/e-or_D-qNqM?t=';
+    const double startSecondsfive = 000000000000000000000000000241;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +963,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intellectual""",
                       // alsoEnglishWord: "also: intellectual",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈlektʃuəl/""",
+                      americanText: """IpaUS: /ˌɪntəˈlektʃuəl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1002,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئەقڵانی، عەقڵانی، ئاوەزمەندانە، ئەقڵی، عەقڵی، فکری، هزری، بیری، هۆشی، زەینی، مێنتاڵ،	ئاقڵانە، ژیرانە،	ژیر، ئەقڵ‌مەند، ئاقڵ، عاقڵ، تێگەیشتوو، ڕۆشنبیر، ڕووناکبیر، بیریار، هزرڤان
 """),
 // With short examples define "intellectual", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) پەیوەندیدار بە توانای کەسێک بۆ بیرکردنەوە بەشێوەیەکی لۆژیکی و ئەوەی لە شتەکان تێبگات؛ پەیوەندیدار بە بەکارهێنانی ئەم توانایە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: mental"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Gifted children typically show great intellectual curiosity and a wide range of interests.""",
+                      kurdishText:
+                          """منداڵە بەهرەدار بە شێوەیەکی ئاسایی حەزێکی زۆری زیرەکانەیان هەیە و بایەخ بە بوارێکی فراوان لە حەز دەدەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1021,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I don't think he has the intellectual skills necessary to study at this level.""",
+                      kurdishText:
+                          """پێموانییە ئەو شارەزاییە هزرییانەی هەبێت کە پێویستن بۆ خوێندن لەم ئاستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1032,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He has a reputation for rudeness and intellectual arrogance.""",
+                      kurdishText:
+                          "ناسراوە بەوەی کەسێکی بێ‌ڕێزە و خۆی بە زیرەکتر لە کەسانی تر دادەنێت.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1043,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Education creates intellectual capital to convert into economic rewards.""",
+                      kurdishText:
+                          "پەروەردە سەرنایەیەکی بیرمەندانە درووست دەکات کە دەکرێت بکرێت بە پاداشتی ئابووری.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,26 +1054,33 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She considered everyone her intellectual inferior.""",
+                      kurdishText: """هەموو کەسی بە کەم ژیرتر لە خۆی دادەنا.""",
+                      englishNote:
+                          """This means she believed that all others were less intelligent or less capable than her in terms of knowledge and reasoning.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە باش پەروەردە کراوە چێژ لە چالاکییانە دەبیێت کە تێیدا دەبێت بە جدی بیربکەیتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She's very intellectual.""",
+                      kurdishText: """زۆر ڕۆشنبیرە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) کەسێکی ڕۆشنبیر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was a leading intellectual of his day.""",
+                      kurdishText: """ڕۆشنبیرێکی گرنگی سەردەمەکەی بوو.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintensify intensify
-WORD_WEB intensify intensify intensify
-haʊʊʊʊʊʊʊ4
+- Verb: intensify (Derived forms: intensified, intensifying, intensifies)
+1. Increase in extent or intensity (- escalate, step up)
+"The Allies intensified the bombing";
+ 
+2. Make more intense, stronger, or more marked (- compound, heighten, deepen)
+"The efforts were intensified"; "Her rudeness intensified his dislike for her";
+ 
+3. Become more intense (- deepen)
+"The debate intensified";
+ 
+4. (photography) make the chemically affected part of (a negative) denser or more opaque in order produce a stronger contrast between light and dark
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intensify";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +93,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Violence intensified during the night.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The fighting in the area has intensified sharply.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/h4CyhQqAPpk?t=';
+    const double startSecondsend = 000000000000000000000000000707;
+    const String videoIdone = 'https://youtu.be/wMmy2MlH55U?t=';
+    const double startSecondsone = 000000000000000000000000000696;
+    const String videoIdtwo = 'https://youtu.be/wMRG9O1PQBU?t=';
+    const double startSecondstwo = 000000000000000000000000000266;
+    const String videoIdthree = 'https://youtu.be/olHw-8py9K0?t=';
+    const double startSecondsthree = 00000000000000000000000000048;
+    const String videoIdfour = 'https://youtu.be/BmwVxj6E2KE?t=';
+    const double startSecondsfour = 000000000000000000000000000393;
+    const String videoIdfive = 'https://youtu.be/y9nBhv0lq1s?t=';
+    const double startSecondsfive = 0000000000000000000000000001026;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intensify""",
                       // alsoEnglishWord: "also: intensify",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtensɪfaɪ/""",
+                      americanText: """IpaUS: /ɪnˈtensɪfaɪ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +1000,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intensify", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (کردار) زیابوون لە بڕ یان ئاست"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: heighten"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Violence intensified during the night.""",
+                      kurdishText: """توندووتیژی دوێنێ شەو زیادی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1013,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The fighting in the area has intensified sharply.""",
+                      kurdishText: """شەڕ لە ناوچەکە چڕبوویەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

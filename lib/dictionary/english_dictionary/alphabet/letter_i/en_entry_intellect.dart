@@ -97,14 +97,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""A teacher recognized her outstanding intellect.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """She was one of the most formidable intellects of her time.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -928,7 +930,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
     const String videoIdend = 'https://youtu.be/dPicox3QWC0?t=';
     const double startSecondsend = 000000000000000000000000000136;
@@ -997,10 +998,12 @@ ${englishMeaningConst.text}
 کوردی: هێزی تێگەیشتن، ئەقڵ، عەقڵ، توانایی بەڵگەهێنانەوە و تێگەیشتن بە شێوەیێکی بابەتی، ئاوەز، هۆش، تێگەیشتن، بیرمەند، بەئاوەز، تێگەیشتوو، ژیر، ئاقڵ، ئەقڵ‌مەند،	ئاقڵان، ژیران
 """),
 // With short examples define "intellect", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) توانای بیرکردنەوە بە درووستی و لۆژیکی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) توانای بیرکردنەوە بە درووستی و لۆژیکی"""),
                     SentencesRow(
                       englishText: """She has a formidable intellect.""",
-                      kurdishText: """ژیرییەکی .""",
+                      kurdishText: """ژیرییەکی ناوازەی هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1011,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A teacher recognized her outstanding intellect.""",
+                      kurdishText:
+                          """مامۆستایەک زیرەکییە بێ‌هاوتاکەی درک پێکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) کەسێکی زۆر زیرەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was one of the most formidable intellects of her time.""",
+                      kurdishText: """یەکێک لە بلیمەتەکانی سەردەمی خۆی بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

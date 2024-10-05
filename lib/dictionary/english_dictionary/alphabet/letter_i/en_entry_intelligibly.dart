@@ -9,7 +9,8 @@ class EnglishEntryintelligibly extends StatefulWidget {
   const EnglishEntryintelligibly({super.key});
 
   @override
-  State<EnglishEntryintelligibly> createState() => _EnglishEntryintelligiblyState();
+  State<EnglishEntryintelligibly> createState() =>
+      _EnglishEntryintelligiblyState();
 }
 
 class _EnglishEntryintelligiblyState extends State<EnglishEntryintelligibly> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintelligibly intelligibly
-WORD_WEB intelligibly intelligibly intelligibly
-haʊʊʊʊʊʊʊ4
+- Adverb: intelligibly
+1. In an intelligible manner (- clearly, understandably)
+"the foreigner spoke to us quite intelligibly";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intelligibly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Students must take care to speak intelligibly and clearly.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/NEMpcTxcMPE?t=';
+    const double startSecondsend = 000000000000000000000000000298;
+    const String videoIdone = 'https://youtu.be/_FRXE1L_PbI?t=';
+    const double startSecondsone = 000000000000000000000000000711;
+    const String videoIdtwo = 'https://youtu.be/DNYAZe_u6v4?t=';
+    const double startSecondstwo = 000000000000000000000000000175;
+    const String videoIdthree = 'https://youtu.be/LadYxRUJvY4?t=';
+    const double startSecondsthree = 000000000000000000000000000677;
+    const String videoIdfour = 'https://youtu.be/q-ZaD2JBcAE?t=';
+    const double startSecondsfour = 000000000000000000000000000580;
+    const String videoIdfive = 'https://youtu.be/xsG8Xpr3cZI?t=';
+    const double startSecondsfive = 000000000000000000000000000795;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intelligibly""",
                       // alsoEnglishWord: "also: intelligibly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtelɪdʒəbli/""",
+                      americanText: """IpaUS: /ɪnˈtelɪdʒəbli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intelligibly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ئاسانە بۆ تێگەشتن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Students must take care to speak intelligibly and clearly.""",
+                      kurdishText:
+                          """خوێندکاران دەبێت وریا بن کە بە ئاسانی و ڕوونی قسە بکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

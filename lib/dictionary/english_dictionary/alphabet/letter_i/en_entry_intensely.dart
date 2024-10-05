@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintensely intensely
-WORD_WEB intensely intensely intensely
-haʊʊʊʊʊʊʊ4
+- Adverb: intensely
+1. To a high degree; extremely; in high concentration or density
+"he worked intensely"; "it was intensely hot"; "the sky was intensely blue"
+ 
+2. To a great depth psychologically or emotionally (- profoundly, deeply)
+"she loved him intensely";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intensely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She disliked him intensely.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """A team of firefighters worked intensely for more than half an hour to free him.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He looked intensely into her eyes.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oD9BaNAH-eE?t=';
+    const double startSecondsend = 0000000000000000000000000001988;
+    const String videoIdone = 'https://youtu.be/zqllxbPWKNI?t=';
+    const double startSecondsone = 000000000000000000000000000305;
+    const String videoIdtwo = 'https://youtu.be/NpBPm0b9deQ?t=';
+    const double startSecondstwo = 000000000000000000000000000757;
+    const String videoIdthree = 'https://youtu.be/oHSehKtDyoI?t=';
+    const double startSecondsthree = 000000000000000000000000000255;
+    const String videoIdfour = 'https://youtu.be/Xpv-sEKl1B4?t=';
+    const double startSecondsfour = 00000000000000000000000000068;
+    const String videoIdfive = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsfive = 0000000000000000000000000002204;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intensely""",
                       // alsoEnglishWord: "also: intensely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtensli/""",
+                      americanText: """IpaUS: /ɪnˈtensli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,32 +992,40 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بە توندی، بەڕشتانە
 """),
 // With short examples define "intensely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەکی زۆر گەورە؛ بەشێوەیەکی زۆر بەهێز"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: extremely"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She disliked him intensely.""",
+                      kurdishText: """ئێجگار زۆر ڕقی لێی بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بەشێوەیەک کە جدی بێت و بڕێکی زۆر کار لە ماوەیەکی کەم لەخۆ بگرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A team of firefighters worked intensely for more than half an hour to free him.""",
+                      kurdishText:
+                          """تیمێک لە کەسانی ئاگرکوژێنەرەوە بۆ زیاتر لە نیو کاتژمێر بە ڕژدی هەوڵیان دا بۆ ڕزگارکردنی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵکار) بەشێوەیەک کە هەستی زۆر بەهێزی هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He looked intensely into her eyes.""",
+                      kurdishText: """بە سۆزەوە سەیری چاوەکانیی دەکرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

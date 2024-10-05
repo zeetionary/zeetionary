@@ -9,10 +9,12 @@ class EnglishEntryintensification extends StatefulWidget {
   const EnglishEntryintensification({super.key});
 
   @override
-  State<EnglishEntryintensification> createState() => _EnglishEntryintensificationState();
+  State<EnglishEntryintensification> createState() =>
+      _EnglishEntryintensificationState();
 }
 
-class _EnglishEntryintensificationState extends State<EnglishEntryintensification> {
+class _EnglishEntryintensificationState
+    extends State<EnglishEntryintensification> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintensification intensification
-WORD_WEB intensification intensification intensification
-haʊʊʊʊʊʊʊ4
+- Noun: intensification (Derived forms: intensifications)
+1. Action that makes something stronger or more extreme
+ 
+2. (photography) the act of increasing the contrast of (a photographic film)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intensification";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The raid was the latest intensification in the use of force.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Intensification of agriculture has had a devastating effect on wildlife.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/nmxELJUWFBw?t=';
+    const double startSecondsend = 000000000000000000000000000179;
+    const String videoIdone = 'https://youtu.be/gozU3CUIizs?t=';
+    const double startSecondsone = 000000000000000000000000000679;
+    const String videoIdtwo = 'https://youtu.be/_qDIfaNIPYU?t=';
+    const double startSecondstwo = 00000000000000000000000000054;
+    const String videoIdthree = 'https://youtu.be/UAeJHAFjwPM?t=';
+    const double startSecondsthree = 000000000000000000000000000374;
+    const String videoIdfour = 'https://youtu.be/1hQjWI-afE4?t=';
+    const double startSecondsfour = 00000000000000000000000000066;
+    const String videoIdfive = 'https://youtu.be/s-C9GC59W3c?t=';
+    const double startSecondsfive = 000000000000000000000000000600;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intensification""",
                       // alsoEnglishWord: "also: intensification",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌtensɪfɪˈkeɪʃn/""",
+                      americanText: """IpaUS: /ɪnˌtensɪfɪˈkeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +993,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خەست‌کردنەوە، توندکردن، سەختاندن، حوجەت‌پێدان، تیژکردن، زۆرکردن، زیادکردن، بەهێزکردن
 """),
 // With short examples define "intensification", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی کە لە بڕ یان ئاست زیاد بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The raid was the latest intensification in the use of force.""",
+                      kurdishText:
+                          """هێرشەکە تازەترین چڕبوونەوەی بەکارهێنانی هێز بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی کە ڕێگای کشتووکاڵ زیاتر هەوڵ بدات زۆرترین بەرهەمی لەسەر کەمترین خاک هەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Intensification of agriculture has had a devastating effect on wildlife.""",
+                      kurdishText:
+                          """چڕبوونەوەی کشتووکاڵ کاریگەریی ڕووخێنەری لەسەر ژیانی کێوی هەبووە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

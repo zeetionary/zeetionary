@@ -9,7 +9,8 @@ class EnglishEntryintelligent extends StatefulWidget {
   const EnglishEntryintelligent({super.key});
 
   @override
-  State<EnglishEntryintelligent> createState() => _EnglishEntryintelligentState();
+  State<EnglishEntryintelligent> createState() =>
+      _EnglishEntryintelligentState();
 }
 
 class _EnglishEntryintelligentState extends State<EnglishEntryintelligent> {
@@ -52,13 +53,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintelligent intelligent
-WORD_WEB intelligent intelligent intelligent
-haʊʊʊʊʊʊʊ4
+- Adjective: intelligent
+1. Having the capacity for thought and reason especially to a high degree
+"is there intelligent life in the universe?"
+ 
+2. Possessing sound knowledge (- well-informed, clued-up [Brit, informal], savvy [informal])
+"intelligent readers";
+ 
+3. Exercising or showing good judgment (- healthy, levelheaded, level-headed, sound)
+"an intelligent solution";
+ 
+4. Endowed with the capacity to reason (- reasoning, thinking)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intelligent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +94,38 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He's a highly intelligent man.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She asked a lot of intelligent questions.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He should be able to solve the problem. He's reasonably intelligent.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Elephants are intelligent creatures and enjoy interacting with humans.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""Intelligent robots help with surgery in hospitals.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +935,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/raSeaAeryWE?t=';
+    const double startSecondsend = 000000000000000000000000000162;
+    const String videoIdone = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsone = 000000000000000000000000000759;
+    const String videoIdtwo = 'https://youtu.be/Va_XMMR4R2I?t=';
+    const double startSecondstwo = 000000000000000000000000000511;
+    const String videoIdthree = 'https://youtu.be/cqidD7kVnxY?t=';
+    const double startSecondsthree = 0000000000000000000000000001412;
+    const String videoIdfour = 'https://youtu.be/60FM9WjkXtA?t=';
+    const double startSecondsfour = 0000000000000000000000000001002;
+    const String videoIdfive = 'https://youtu.be/8RZtjBGLa3Q?t=';
+    const double startSecondsfive = 000000000000000000000000000245;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +961,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intelligent""",
                       // alsoEnglishWord: "also: intelligent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtelɪdʒənt/""",
+                      americanText: """IpaUS: /ɪnˈtelɪdʒənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1000,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەسەرهۆش، بەهۆش، زەین‌ڕوون، تێگەیشتوو، ژیر، بەئاوەز، ئاقڵ، زیرەک، زرنگ، وریا، زیرەکانە، بەهۆشانە
 """),
 // With short examples define "intelligent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) باش لە توانای فێربوون، تێگەشتن، و بیرکردنەوە بە شێوەیەکی لۆژیکی؛ هەبوونی ئەم توانایە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He's a highly intelligent man.""",
+                      kurdishText: """پیاوێکی تەواو زیرەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1016,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She asked a lot of intelligent questions.""",
+                      kurdishText: """زۆر پرسیاری ژیرانەی دەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,26 +1026,39 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He should be able to solve the problem. He's reasonably intelligent.""",
+                      kurdishText:
+                          """دەبێت بتوانێت ئەم کێشەیە چارەسەر بکات. بە ئاستێکی باش زیرەکە.""",
+                      englishNote:
+                          """This means he is fairly smart, so he is likely capable of finding a solution to the problem based on his level of intelligence.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    // add_more_sentences
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) ئاژەڵێک، گیانلەبەرێک، هتد کە بتوانێت تێبگات و فێر ببێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Elephants are intelligent creatures and enjoy interacting with humans.""",
+                      kurdishText:
+                          """فیل گیانلەبەری زیرەکە و حەزیان بە مامەڵە لەگەڵ مرۆڤە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) ئامێرێک کە دەتوانێت زانیاری کۆگا بکات و لە دۆخی تازەدا بەکاری بهێنێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Intelligent robots help with surgery in hospitals.""",
+                      kurdishText:
+                          """ڕۆبۆتی زیرەک لە نەشتەرگەریدا بەژدار دەبن لە نەخۆشخانەکان.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

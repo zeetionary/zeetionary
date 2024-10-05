@@ -9,10 +9,12 @@ class EnglishEntryintellectually extends StatefulWidget {
   const EnglishEntryintellectually({super.key});
 
   @override
-  State<EnglishEntryintellectually> createState() => _EnglishEntryintellectuallyState();
+  State<EnglishEntryintellectually> createState() =>
+      _EnglishEntryintellectuallyState();
 }
 
-class _EnglishEntryintellectuallyState extends State<EnglishEntryintellectually> {
+class _EnglishEntryintellectuallyState
+    extends State<EnglishEntryintellectually> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintellectually intellectually
-WORD_WEB intellectually intellectually intellectually
-haʊʊʊʊʊʊʊ4
+- Adverb: intellectually
+1. Of or relating to the intellect
+"intellectually gifted children"; "intellectually influenced"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intellectually";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She was lively and dexterous intellectually.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/dLNTb2zfh3Q?t=';
+    const double startSecondsend = 00000000000000000000000000014;
+    const String videoIdone = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsone = 000000000000000000000000000904;
+    const String videoIdtwo = 'https://youtu.be/DxREm3s1scA?t=';
+    const double startSecondstwo = 0000000000000000000000000001008;
+    const String videoIdthree = 'https://youtu.be/p7iwXvBnbIE?t=';
+    const double startSecondsthree = 000000000000000000000000000525;
+    const String videoIdfour = 'https://youtu.be/sY8aFSY2zv4?t=';
+    const double startSecondsfour = 0000000000000000000000000005268;
+    const String videoIdfive = 'https://youtu.be/aABFIzfg72A?t=';
+    const double startSecondsfive = 0000000000000000000000000001623;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intellectually""",
                       // alsoEnglishWord: "also: intellectually",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈlektʃuəli/""",
+                      americanText: """IpaUS: /ˌɪntəˈlektʃuəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەباری ئەقڵانی(یان عەقڵانی‌یەوە)، لەباری هزری(یەوە)
 """),
 // With short examples define "intellectually", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەک کە پەیوەندیدارە بە توانای کەسێک بۆ بیرکردنەوە بەشێوەیەکی لۆژیکی و ئەوەی لە شتەکان تێبگات؛ بەشێوەیەک کە پەیوەندیدارە بە بەکارهێنانی ئەم توانایە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: mentally"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was lively and dexterous intellectually.""",
+                      kurdishText: "لەلایەنی ھزرییەوە چالاک و شارەزا بوو.",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

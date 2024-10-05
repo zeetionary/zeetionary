@@ -372,6 +372,25 @@ class MyDrawer extends StatelessWidget {
                     ),
                     ListTile(
                       title: Text(
+                        "Quiz two",
+                        style: TextStyle(
+                          fontSize: textSize + 3,
+                          color: Theme.of(context).primaryColor,
+                        ),
+                      ),
+                      leading: Icon(
+                        Icons.quiz,
+                        color: Theme.of(context).primaryColor,
+                      ),
+                      onTap: () {
+                        Routemaster.of(context).push('/quiz-screen-two');
+                      },
+                    ),
+                    const SizedBox(
+                      height: 5,
+                    ),
+                    ListTile(
+                      title: Text(
                         "TTS",
                         style: TextStyle(
                           fontSize: textSize + 3,

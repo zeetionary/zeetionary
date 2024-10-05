@@ -236,3 +236,18 @@ class _MyAppState extends ConsumerState<MyApp> {
     );
   }
 }
+
+
+    // - assets/questions.json
+    // - assets/sentences.db
+    // - assets/kurdish_sentences.db
+    // - assets/images/google.png
+    // - assets/images/kurd_one.png
+    // - assets/images/uk_one.png
+    // - assets/images/girl.jpg
+    // - assets/images/boy_two.jpg
+    // - assets/images/youtube_one.png
+    // - assets/images/zee_splash.png
+    // - assets/images/zeetionary_one.png
+    // - assets/images/zeetionary_three.png
+    // - assets/good_morning.mp3

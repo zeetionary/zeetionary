@@ -5,6 +5,7 @@ import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/home_screen_logout.dart';
 import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/home/screens/reddit/reddit_slides.dart';
+import 'package:zeetionary/quiz/quiz_screen_three/quiz_screen_three.dart';
 import 'package:zeetionary/quiz/quiz_screen_two.dart';
 import 'package:zeetionary/home/screens/bookmarks/bookmarks_screen.dart';
 import 'package:zeetionary/home/screens/history_screens/history_screen.dart';
@@ -170,6 +171,10 @@ Map<String, PageBuilder> getRoutesMainTwo() {
     "/settings-screen": (_) => _blP(const SettingsPage()),
     //
     '/quiz-screen': (_) => _blP(QuizScreen()),
+    //
+    '/quiz-screen-two': (_) => _blP(QuizScreenJsonJsonHome()),
+    //
+    '/quiz-screen-two/quiz-screen': (_) => _blP(QuizScreenJson()),
     //
     '/irregular-verbs-screen': (_) => _blP(const IrregularVerbsScreen()),
     //

@@ -9,7 +9,8 @@ class EnglishEntryinterjection extends StatefulWidget {
   const EnglishEntryinterjection({super.key});
 
   @override
-  State<EnglishEntryinterjection> createState() => _EnglishEntryinterjectionState();
+  State<EnglishEntryinterjection> createState() =>
+      _EnglishEntryinterjectionState();
 }
 
 class _EnglishEntryinterjectionState extends State<EnglishEntryinterjection> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterjection interjection
-WORD_WEB interjection interjection interjection
-haʊʊʊʊʊʊʊ4
+- Noun: interjection (Derived forms: interjections)
+1. An abrupt emphatic exclamation expressing emotion (- ejaculation)
+ 
+2. The action of interjecting or interposing an action or remark that interrupts (- interposition, interpolation, interpellation)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interjection";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(""""Hey!" is an interjection.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/MTDjXr7cUnY?t=';
+    const double startSecondsend = 00000000000000000000000000069;
+    const String videoIdone = 'https://youtu.be/lfkjm2YRG-Q?t=';
+    const double startSecondsone = 0000000000000000000000000001361;
+    const String videoIdtwo = 'https://youtu.be/CHjVz6nHh7Y?t=';
+    const double startSecondstwo = 0000000000000000000000000006067;
+    const String videoIdthree = 'https://youtu.be/kjN4uH3nRCA?t=';
+    const double startSecondsthree = 0000000000000000000000000002;
+    const String videoIdfour = 'https://youtu.be/5Ik-KQFm9oQ?t=';
+    const double startSecondsfour = 000000000000000000000000000517;
+    const String videoIdfive = 'https://youtu.be/l30sADfDiM8?t=';
+    const double startSecondsfive = 0000000000000000000000000001831;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interjection""",
                       // alsoEnglishWord: "also: interjection",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈdʒekʃn/""",
+                      americanText: """IpaUS: /ˌɪntərˈdʒekʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "interjection", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دەنگ، وشە، یان واژەیەکی کورت کە هەستێک پیشان دەدات، بۆ نموونە ئۆف، ئاخ، ئاه، هتد"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: exclamation"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """"Hey!" is an interjection.""",
+                      kurdishText: """"Hey!" واژەیەکی سەرسووڕمانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintercom intercom
-WORD_WEB intercom intercom intercom
-haʊʊʊʊʊʊʊ4
+- Noun: intercom (Derived forms: intercoms)
+1. A communication system linking different rooms within a building or ship etc (- intercommunication system)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intercom";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Mr Jack’s arrival was announced over the intercom.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""They called him on the intercom.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/YLmDE_JYUNU?t=';
+    const double startSecondsend = 000000000000000000000000000240;
+    const String videoIdone = 'https://youtu.be/8eq2vGEEbB4?t=';
+    const double startSecondsone = 000000000000000000000000000211;
+    const String videoIdtwo = 'https://youtu.be/V2ec7EE0pB8?t=';
+    const double startSecondstwo = 0000000000000000000000000002167;
+    const String videoIdthree = 'https://youtu.be/aiw3QftXOJc?t=';
+    const double startSecondsthree = 000000000000000000000000000143;
+    const String videoIdfour = 'https://youtu.be/l6PlMpncVuc?t=';
+    const double startSecondsfour = 000000000000000000000000000624;
+    const String videoIdfive = 'https://youtu.be/YvfYK0EEhK4?t=';
+    const double startSecondsfive = 00000000000000000000000000036;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intercom""",
                       // alsoEnglishWord: "also: intercom",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntəkɒm/""",
+                      americanText: """IpaUS: /ˈɪntərkɑːm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +991,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intercom", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) سیستەمێکی پەیوەندی ناوخۆیی لەناو فڕۆکەیەک، ئۆفیسێکم هتد؛ ئەو ئامێرەی کە بەکاری دێنیت بۆ بەکارهێنانی ئەم سیستەمە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Mr Jack’s arrival was announced over the intercom.""",
+                      kurdishText:
+                          """گەشتنی بەڕێز جاک بە ئینتەرکۆم ڕاگەیەندرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1006,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They called him on the intercom.""",
+                      kurdishText: """بە ئینتەرکۆم پەیوەندییان پێوە کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

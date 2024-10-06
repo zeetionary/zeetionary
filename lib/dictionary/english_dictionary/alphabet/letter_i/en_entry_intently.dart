@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintently intently
-WORD_WEB intently intently intently
-haʊʊʊʊʊʊʊ4
+- Adverb: intently
+1. With strained or eager attention (- raptly)
+"stood watching intently"; "listened intently";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intently";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She looked at him intently.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I listened intently to what she had to say.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/or9O1y_wQSg?t=';
+    const double startSecondsend = 0000000000000000000000000001228;
+    const String videoIdone = 'https://youtu.be/PhQksV8fbKw?t=';
+    const double startSecondsone = 0000000000000000000000000001851;
+    const String videoIdtwo = 'https://youtu.be/ZSTnDqXy8pg?t=';
+    const double startSecondstwo = 00000000000000000000000000073;
+    const String videoIdthree = 'https://youtu.be/xU0TmQ56v0U?t=';
+    const double startSecondsthree = 000000000000000000000000000391;
+    const String videoIdfour = 'https://youtu.be/gMws8ueXJ7U?t=';
+    const double startSecondsfour = 000000000000000000000000000552;
+    const String videoIdfive = 'https://youtu.be/_k29OMTEPnc?t=';
+    const double startSecondsfive = 000000000000000000000000000411;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intently""",
                       // alsoEnglishWord: "also: intently",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtentli/""",
+                      americanText: """IpaUS: /ɪnˈtentli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +988,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەپەرۆشانە، تامەزرۆیانە،	بە بڕیارەوە، لە ڕووی بڕیارەوە
 """),
 // With short examples define "intently", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە حەز و سەرنجی زۆرەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She looked at him intently.""",
+                      kurdishText: """بە پەرۆشەوە سەیریی دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1003,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I listened intently to what she had to say.""",
+                      kurdishText: """بە پەرۆشەوە گوێم گرت لەوەی دەیگوت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

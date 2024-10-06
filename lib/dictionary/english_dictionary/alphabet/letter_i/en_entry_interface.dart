@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: interface (Derived forms: interfaces)
+1. (chemistry) a surface forming a common boundary between two things (two objects, liquids or chemical phases)
+ 
+2. (computing) a program that controls a display for the user (usually on a computer monitor) and that allows the user to interact with the system (- user interface)
+ 
+3. The overlap where two theories or phenomena affect each other or have links with each other
+"the interface between chemistry and biology"
+ 
+4. (computing) computer circuit consisting of the hardware and associated circuitry that links one device with another (especially a computer and a hard disk drive or other peripherals) (- port)
 
-EnglishEntryinterface interface
-WORD_WEB interface interface interface
-haʊʊʊʊʊʊʊ4
+- Verb: interface (Derived forms: interfaced, interfaces, interfacing)
+1. (computing) to connect with an interface
+ 
+2. Interact
+"I think you should try to interface with sales department"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interface";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +97,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The new version of the program comes with a much better user interface than the original.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """We need a clearer interface between management and the workforce.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The new system interfaces with existing telephone equipment.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +938,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SrDEtSlqJC4?t=';
+    const double startSecondsend = 000000000000000000000000000690;
+    const String videoIdone = 'https://youtu.be/pFEB0chiuJA?t=';
+    const double startSecondsone = 000000000000000000000000000244;
+    const String videoIdtwo = 'https://youtu.be/qg2nGY1aqlg?t=';
+    const double startSecondstwo = 0000000000000000000000000002076;
+    const String videoIdthree = 'https://youtu.be/UoSSCUMk-7I?t=';
+    const double startSecondsthree = 000000000000000000000000000208;
+    const String videoIdfour = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsfour = 000000000000000000000000000141;
+    const String videoIdfive = 'https://youtu.be/mrkAmmMakMg?t=';
+    const double startSecondsfive = 000000000000000000000000000137;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +964,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interface""",
                       // alsoEnglishWord: "also: interface",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntəfeɪs/""",
+                      americanText: """IpaUS: /ˈɪntərfeɪs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,32 +1003,42 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خاڵی هاوبەش، ڕووی هاوبەش، ئاستی هاوبەش، هاوڕوو، جەمسەر، خاڵی پێک‌گەیشتن
 """),
 // With short examples define "interface", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شێوازی دەرکەوتنی داتا و زانیاری لەسەر پڕۆگرامێکی کۆمپیوتەری، بۆ نموونە وێبسایتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The new version of the program comes with a much better user interface (= way of showing information to a user) than the original.""",
+                      kurdishText:
+                          """وەشانە تازەکەی پڕۆگرامەکە ڕووکارێکی بەکارهێنەریی زۆر باشتری هەیە وەک لەوەی سەرەتا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەو خاڵەی کە دوو بابەت، سیستەم، هتد تێیدا کار لە یەکدی دەکەن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We need a clearer interface between management and the workforce.""",
+                      kurdishText:
+                          """پێویستیمان بە کارلێکی زیاتر هەیە لە نێوان بەڕێوەبەرایەتی و دەستی کار.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) پەیوەست بە شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The new system interfaces with existing telephone equipment.""",
+                      kurdishText:
+                          """سیستەمە تازە پەیوەست دەبێت بە ئامێری هەبووی تەلەفۆن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

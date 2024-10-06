@@ -9,7 +9,8 @@ class EnglishEntryinterception extends StatefulWidget {
   const EnglishEntryinterception({super.key});
 
   @override
-  State<EnglishEntryinterception> createState() => _EnglishEntryinterceptionState();
+  State<EnglishEntryinterception> createState() =>
+      _EnglishEntryinterceptionState();
 }
 
 class _EnglishEntryinterceptionState extends State<EnglishEntryinterception> {
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterception interception
-WORD_WEB interception interception interception
-haʊʊʊʊʊʊʊ4
+- Noun: interception (Derived forms: interceptions)
+1. The act of intercepting; preventing something from proceeding or arriving
+"he resorted to the interception of his daughter's letters"; "he claimed that the interception of one missile by another would be impossible"
+ 
+2. (American football) the act of catching a football by a player on the opposing team
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interception";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The missile defence system resulted in the successful interception of five of the six rockets.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Following the interception, the team swept down the ice to score.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/NyldBcq3X50?t=';
+    const double startSecondsend = 000000000000000000000000000438;
+    const String videoIdone = 'https://youtu.be/AGqUCKin4X0?t=';
+    const double startSecondsone = 000000000000000000000000000564;
+    const String videoIdtwo = 'https://youtu.be/ZSu4rCizyUM?t=';
+    const double startSecondstwo = 0000000000000000000000000002917;
+    const String videoIdthree = 'https://youtu.be/Tgr7LTRWkLo?t=';
+    const double startSecondsthree = 000000000000000000000000000758;
+    const String videoIdfour = 'https://youtu.be/hrZQ4g4V8Ck?t=';
+    const double startSecondsfour = 000000000000000000000000000613;
+    const String videoIdfive = 'https://youtu.be/Hh-yZLpMmGA?t=';
+    const double startSecondsfive = 000000000000000000000000000704;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interception""",
                       // alsoEnglishWord: "also: interception",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈsepʃn/""",
+                      americanText: """IpaUS: /ˌɪntərˈsepʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +993,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕاوێستاندن، ڕاگرتن، ڕێ‌لێگرتن، سەرڕێ‌پێگرتن، جڵەوگیری، جڵەوگرتن، بەرەوبڕێ، پێشەبڕکێ، ڕێ‌لێبڕین، نەهێشتن، کۆسپ‌خستنەڕێ
 """),
 // With short examples define "interception", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی ڕێگری بکەیت لە ک/شت لە گەشتن بە شوێنێک کە بۆی دەچێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The missile defence system resulted in the successful interception of five of the six rockets.""",
+                      kurdishText:
+                          """سیستەمە دژە موشەکییەکە بوو بە هۆکاری ڕێگری لە پێنج لە شەشی ڕۆکێتەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی کە تۆپ بگریت کاتێک بۆ یاریزانێکی دیکەی تیمی بەرامبەر هەڵدەدرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Following the interception, the team swept down the ice to score.""",
+                      kurdishText:
+                          """دوای گرتنەکە، تیمەکە بە شەختەکەدا ڕۆشتن بۆ خاڵ تۆمارکردن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -248,6 +248,29 @@ class _CustomFeedbackFormState extends ConsumerState<CustomFeedbackForm> {
             ],
           ),
         ),
+        // TextButton(
+        //   onPressed: selectedBugType != null
+        //       ? () {
+        //           String title =
+        //               '$selectedBugType: ${_customFeedback.feedbackText ?? ''}';
+        //           widget.onSubmit(
+        //             title, // Use the title as the feedback text
+        //             extras: {
+        //               'bug_type': selectedBugType,
+        //               ..._customFeedback.toMap(),
+        //             },
+        //           );
+        //         }
+        //       : null,
+        //   child: Text(
+        //     'Submit',
+        //     style: TextStyle(
+        //       color: Colors.blue[300],
+        //       // color: Theme.of(context).primaryColor,
+        //       fontSize: textSize - 3,
+        //     ),
+        //   ),
+        // ),
         TextButton(
           onPressed: selectedBugType != null
               ? () {
@@ -262,11 +285,20 @@ class _CustomFeedbackFormState extends ConsumerState<CustomFeedbackForm> {
                   );
                 }
               : null,
+          style: ButtonStyle(
+            // Set the text color based on whether the button is enabled or disabled
+            foregroundColor: WidgetStateProperty.resolveWith<Color>(
+              (Set<WidgetState> states) {
+                if (states.contains(WidgetState.disabled)) {
+                  return Colors.green; // Green color when disabled
+                }
+                return Colors.blue[300]!; // Light blue color when enabled
+              },
+            ),
+          ),
           child: Text(
             'Submit',
             style: TextStyle(
-              color: Colors.blue[300],
-              // color: Theme.of(context).primaryColor,
               fontSize: textSize - 3,
             ),
           ),

@@ -9,7 +9,8 @@ class EnglishEntryintentional extends StatefulWidget {
   const EnglishEntryintentional({super.key});
 
   @override
-  State<EnglishEntryintentional> createState() => _EnglishEntryintentionalState();
+  State<EnglishEntryintentional> createState() =>
+      _EnglishEntryintentionalState();
 }
 
 class _EnglishEntryintentionalState extends State<EnglishEntryintentional> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintentional intentional
-WORD_WEB intentional intentional intentional
-haʊʊʊʊʊʊʊ4
+- Adjective: intentional
+1. Characterized by conscious design or purpose (- knowing, deliberate)
+"intentional damage";
+ 
+2. Done, made or performed with purpose and intent (- designed, unintentional)
+"style...is more than the deliberate and intentional creation";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intentional";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +89,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""I'm sorry I left you off the list—it wasn't intentional.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """It is difficult to prove whether their actions were negligent or intentional.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""She felt she was a victim of intentional discrimination.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hFZFjoX2cGg?t=';
+    const double startSecondsend = 000000000000000000000000000122;
+    const String videoIdone = 'https://youtu.be/-6vzjjIrRK8?t=';
+    const double startSecondsone = 00000000000000000000000000041;
+    const String videoIdtwo = 'https://youtu.be/inpok4MKVLM?t=';
+    const double startSecondstwo = 0000000000000000000000000002;
+    const String videoIdthree = 'https://youtu.be/W2hRTTTpmr8?t=';
+    const double startSecondsthree = 0000000000000000000000000001855;
+    const String videoIdfour = 'https://youtu.be/OgFcz6klaeg?t=';
+    const double startSecondsfour = 0000000000000000000000000001078;
+    const String videoIdfive = 'https://youtu.be/nWZMfPP34g8?t=';
+    const double startSecondsfive = 00000000000000000000000000042;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intentional""",
                       // alsoEnglishWord: "also: intentional",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtenʃənl/""",
+                      americanText: """IpaUS: /ɪnˈtenʃənl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +995,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئانقەست، بەمەبەست، پێوەبوو
 """),
 // With short examples define "intentional", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە بە مەبەست دەکرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: deliberate، intended"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I'm sorry I left you off the list—it wasn't intentional.""",
+                      kurdishText:
+                          """ببوورە کە لە لیستەکە ناوم نەهێنایت ـ بەمەبەست نەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1013,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is difficult to prove whether their actions were negligent or intentional.""",
+                      kurdishText:
+                          """سەختە بسەلمێندرێت کارەکانیان لە کەمتەرخەمی بوو یان بەمەبەست.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1024,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She felt she was a victim of intentional discrimination.""",
+                      kurdishText:
+                          """هەستی کرد کە قوربانی جیاکاریی بەمەبەست بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

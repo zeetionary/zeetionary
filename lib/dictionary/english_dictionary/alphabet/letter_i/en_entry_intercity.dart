@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintercity intercity
-WORD_WEB intercity intercity intercity
-haʊʊʊʊʊʊʊ4
+- Adjective: intercity
+1. Travelling between cities
+"an intercity train"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intercity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They took an intercity bus to London.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/0vRlyPH6REM?t=';
+    const double startSecondsend = 000000000000000000000000000456;
+    const String videoIdone = 'https://youtu.be/uAG4zCsiA_w?t=';
+    const double startSecondsone = 000000000000000000000000000255;
+    const String videoIdtwo = 'https://youtu.be/gMtH7WCoQ6s?t=';
+    const double startSecondstwo = 000000000000000000000000000165;
+    const String videoIdthree = 'https://youtu.be/eBH52cpZS-k?t=';
+    const double startSecondsthree = 000000000000000000000000000474;
+    const String videoIdfour = 'https://youtu.be/dCZzb366Tqw?t=';
+    const double startSecondsfour = 000000000000000000000000000543;
+    const String videoIdfive = 'https://youtu.be/dmpyV4Yf8b0?t=';
+    const double startSecondsfive = 000000000000000000000000000273;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intercity""",
                       // alsoEnglishWord: "also: intercity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈsɪti/""",
+                      americanText: """IpaUS: /ˌɪntərˈsɪti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,12 +990,12 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "intercity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە نێوان شاردا هاتووچۆ دەکات بەبێ وەستانی زۆر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They took an intercity bus to London.""",
+                      kurdishText: """پاسێکی نێوشاری گرت بۆ لەندەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

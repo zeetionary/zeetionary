@@ -9,7 +9,8 @@ class EnglishEntryintercourse extends StatefulWidget {
   const EnglishEntryintercourse({super.key});
 
   @override
-  State<EnglishEntryintercourse> createState() => _EnglishEntryintercourseState();
+  State<EnglishEntryintercourse> createState() =>
+      _EnglishEntryintercourseState();
 }
 
 class _EnglishEntryintercourseState extends State<EnglishEntryintercourse> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintercourse intercourse
-WORD_WEB intercourse intercourse intercourse
-haʊʊʊʊʊʊʊ4
+- Noun: intercourse (Derived forms: intercourses)
+1. Communication between individuals (- social intercourse)
+ 
+2. Sexual activity between individuals, especially the insertion of a man's penis into a woman's vagina until orgasm and ejaculation occur (- sexual intercourse, sex act, copulation, coitus, coition, sexual congress, sexual relation, relation, carnal knowledge)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intercourse";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +87,30 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The prosecution stated that intercourse had occurred on several occasions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He admitted that intercourse had taken place.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She denied having had intercourse with him.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""Life is a pleasant blend of work and social intercourse.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/-C3CjOkF-jY?t=';
+    const double startSecondsend = 000000000000000000000000000198;
+    const String videoIdone = 'https://youtu.be/WDetHC86Dgo?t=';
+    const double startSecondsone = 000000000000000000000000000262;
+    const String videoIdtwo = 'https://youtu.be/xbIdoL_Zm0c?t=';
+    const double startSecondstwo = 000000000000000000000000000633;
+    const String videoIdthree = 'https://youtu.be/cMBrvHsFD_8?t=';
+    const double startSecondsthree = 000000000000000000000000000626;
+    const String videoIdfour = 'https://youtu.be/0foq0Krn9yI';
+    const double startSecondsfour = 0;
+    const String videoIdfive = 'https://youtu.be/41agvCBlicE?t=';
+    const double startSecondsfive = 000000000000000000000000000402;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intercourse""",
                       // alsoEnglishWord: "also: intercourse",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntəkɔːs/""",
+                      americanText: """IpaUS: /ˈɪntərkɔːrs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +995,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intercourse", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) سێکس؛ جووتبوون"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The prosecution stated that intercourse had occurred on several occasions.""",
+                      kurdishText:
+                          """لێکۆڵینەوەک ئاماژەی بەوە کرد کە جووتبوون چەند جارێک ڕوویدابوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He admitted that intercourse had taken place.""",
+                      kurdishText: """دانی بەوەدا نا کە جووتبوون ڕوویدابوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,17 +1019,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She denied having had intercourse with him.""",
+                      kurdishText: """نکۆڵی لەوە کرد سێکسی لەگەڵی کردبێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) پەیوەندیی نێوان خەڵکی، وڵاتان، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Life is a pleasant blend of work and social intercourse.""",
+                      kurdishText:
+                          """ژیان تێکەڵەیەکی خۆشی کار و پەیوەندیی کۆمەڵایەتییە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

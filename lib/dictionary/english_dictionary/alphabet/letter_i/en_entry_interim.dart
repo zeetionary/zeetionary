@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterim interim
-WORD_WEB interim interim interim
-haʊʊʊʊʊʊʊ4
+- Adjective: interim
+1. Serving during an intermediate interval of time
+"an interim agreement"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interim";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +85,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The vice-president took power in the interim period before the election.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He only holds the post on an interim basis.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The injured passenger received an interim award of £50 000 damages.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/at_1INOoKps?t=';
+    const double startSecondsend = 000000000000000000000000000184;
+    const String videoIdone = 'https://youtu.be/CeSAjK2CBEA?t=';
+    const double startSecondsone = 00000000000000000000000000068;
+    const String videoIdtwo = 'https://youtu.be/kzgFwZEAHZQ?t=';
+    const double startSecondstwo = 0000000000000000000000000002937;
+    const String videoIdthree = 'https://youtu.be/OK8IAAvpYKw?t=';
+    const double startSecondsthree = 000000000000000000000000000853;
+    const String videoIdfour = 'https://youtu.be/5c_YoU0Kdvk?t=';
+    const double startSecondsfour = 000000000000000000000000000488;
+    const String videoIdfive = 'https://youtu.be/oXPhvh4eGcM?t=';
+    const double startSecondsfive = 000000000000000000000000000688;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interim""",
                       // alsoEnglishWord: "also: interim",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntərɪm/""",
+                      americanText: """IpaUS: /ˈɪntərɪm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "interim", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ئامانج لێی بۆ ماوەیەکی کەمە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The vice-president took power in the interim period before the election.""",
+                      kurdishText:
+                          """جێگری سەرۆک دەسەڵاتی وەرگرت لە ماوەی کاربەڕێکەری پێش هەڵبژاردن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1008,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He only holds the post on an interim basis.""",
+                      kurdishText:
+                          """پۆستەکەی تەنها لەسەر بناغەی کاربەڕێکەری هەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە دەخەمڵێندرێت پێش ئەوەی ئەنجامی ڕاستی شتێک بزاندرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: provisional"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The injured passenger received an interim award of £50 000 damages.""",
+                      kurdishText:
+                          """گەشتیارە بریندارەکە بڕی ٥٠٠٠٠ پاوەند قەرەبووی کاتیی وەرگرت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

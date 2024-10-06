@@ -17,27 +17,6 @@
   },
   {
     "id": 3,
-    "question": "What is the synonym of 'happy'?",
-    "options": ["sad", "elated", "angry", "tired"],
-    "answer": "elated",
-    "tags": ["vocabulary", "easy"],
-    "type": "multiple_choice"
-  },
-  {
-    "id": 4,
-    "question": "Choose the correct sentence.",
-    "options": [
-      "He don't like apples.",
-      "He doesn't likes apples.",
-      "He doesn't like apples.",
-      "He don't likes apples."
-    ],
-    "answer": "He doesn't like apples.",
-    "tags": ["grammar", "hard"],
-    "type": "multiple_choice"
-  },
-  {
-    "id": 5,
     "question": "Watch the video and fill in the blank: Are you ___ with this?",
     "videoId": "XZVHmRvfDHM",
     "start": 11,
@@ -47,112 +26,7 @@
     "type": "video_fill_in_blank"
   },
   {
-    "id": 6,
-    "question": "Iraq.",
-    "options": [
-      "Baghdad.",
-      "He doesn't likes apples.",
-      "He doesn't like apples.",
-      "He don't likes apples."
-    ],
-    "answer": "He doesn't like apples.",
-    "tags": ["grammar", "hard"],
-    "type": "multiple_choice"
-  },
-  {
-    "id": 7,
-    "question": "Iran.",
-    "options": [
-      "Tehran.",
-      "He doesn't likes apples.",
-      "He doesn't like apples.",
-      "He don't likes apples."
-    ],
-    "answer": "He doesn't like apples.",
-    "tags": ["grammar", "hard"],
-    "type": "multiple_choice"
-  },
-  {
-    "id": 8,
-    "question": "Spain.",
-    "options": [
-      "Medrid.",
-      "He doesn't likes apples.",
-      "He doesn't like apples.",
-      "He don't likes apples."
-    ],
-    "answer": "He doesn't like apples.",
-    "tags": ["grammar", "hard"],
-    "type": "multiple_choice"
-  },
-  {
-    "id": 9,
-    "question": "Russia,",
-    "options": [
-      "Moscow",
-      "He doesn't likes apples.",
-      "He doesn't like apples.",
-      "He don't likes apples."
-    ],
-    "answer": "He doesn't like apples.",
-    "tags": ["grammar", "hard"],
-    "type": "multiple_choice"
-  },
-  {
-    "id": 10,
-    "question": "China.",
-    "options": [
-      "Beijing.",
-      "He doesn't likes apples.",
-      "He doesn't like apples.",
-      "He don't likes apples."
-    ],
-    "answer": "He doesn't like apples.",
-    "tags": ["grammar", "hard"],
-    "type": "multiple_choice"
-  },
-  {
-    "id": 11,
-    "question": "Watch the video and fill in the blank: Are you ___ with this?",
-    "videoId": "9sRQQRiltrE",
-    "start": 22,
-    "end": 25,
-    "answer": "kidding",
-    "tags": ["videos"],
-    "type": "video_fill_in_blank"
-  },
-  {
-    "id": 12,
-    "question": "Watch the video and fill in the blank: Are you ___ with this?",
-    "videoId": "_spuxXnul0U",
-    "start": 33,
-    "end": 37,
-    "answer": "kidding",
-    "tags": ["videos"],
-    "type": "video_fill_in_blank"
-  },
-  {
-    "id": 13,
-    "question": "Watch the video and fill in the blank: Are you ___ with this?",
-    "videoId": "RxAtuMu_ph4",
-    "start": 44,
-    "end": 50,
-    "answer": "kidding",
-    "tags": ["videos"],
-    "type": "video_fill_in_blank"
-  },
-  {
-    "id": 14,
-    "question": "Watch the video and fill in the blank: Are you ___ with this?",
-    "videoId": "XZVHmRvfDHM",
-    "start": 65,
-    "end": 70,
-    "answer": "kidding",
-    "tags": ["videos"],
-    "type": "video_fill_in_blank"
-  },
-  {
-    "id": 15,
+    "id": 4,
     "question": "What did she say?",
     "videoId": "hS2x1zl4rn0",
     "start": 24,

@@ -9,7 +9,8 @@ class EnglishEntryinteresting extends StatefulWidget {
   const EnglishEntryinteresting({super.key});
 
   @override
-  State<EnglishEntryinteresting> createState() => _EnglishEntryinterestingState();
+  State<EnglishEntryinteresting> createState() =>
+      _EnglishEntryinterestingState();
 }
 
 class _EnglishEntryinterestingState extends State<EnglishEntryinteresting> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinteresting interesting
-WORD_WEB interesting interesting interesting
-haʊʊʊʊʊʊʊ4
+- Adjective: interesting
+1. Arousing or holding the attention
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interesting";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +85,32 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The article raises several interesting questions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The father has the most interesting character arc in the series.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """She browsed the shelves for something interesting to read.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Comparison with other oil-producing countries is extremely interesting.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/rPe4yziWiOg?t=';
+    const double startSecondsend = 000000000000000000000000000330;
+    const String videoIdone = 'https://youtu.be/hFZFjoX2cGg?t=';
+    const double startSecondsone = 000000000000000000000000000355;
+    const String videoIdtwo = 'https://youtu.be/Pto9L7kjuSM?t=';
+    const double startSecondstwo = 0000000000000000000000000007;
+    const String videoIdthree = 'https://youtu.be/Ht0IbFNbfSY?t=';
+    const double startSecondsthree = 00000000000000000000000000041;
+    const String videoIdfour = 'https://youtu.be/GNf1MAMK6ak?t=';
+    const double startSecondsfour = 000000000000000000000000000215;
+    const String videoIdfive = 'https://youtu.be/c3hh1AYMo7o';
+    const double startSecondsfive = 0;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interesting""",
                       // alsoEnglishWord: "also: interesting",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntrəstɪŋ/, /ˈɪntrestɪŋ/""",
+                      americanText: """IpaUS: /ˈɪntrəstɪŋ/, /ˈɪntrestɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +995,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "interesting", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) سەرنجڕاکێش بەهۆی تایبەت یان نامۆیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The article raises several interesting questions.""",
+                      kurdishText:
+                          """وتارەکە ژمارەیەک پرسیاری سەرنجڕاکێش درووست دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The father has the most interesting character arc in the series.""",
+                      kurdishText:
+                          "باوکەکە سەرنجڕاکێشترین چیرۆکی ھەیە لە زنجیرەکەدا.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1021,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She browsed the shelves for something interesting to read.""",
+                      kurdishText:
+                          "ڕووانی لە ڕەفەکان بۆ شتێکی سەرنجڕاکێش کە بیخوێنێتەوە.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,11 +1032,13 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Comparison with other oil-producing countries is extremely interesting.""",
+                      kurdishText:
+                          "بەراوردکاری لەگەڵ وڵاتانی دیکەی بەرھەمھێنەری نەوت سەرنجڕاکشە.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
+                    ), // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

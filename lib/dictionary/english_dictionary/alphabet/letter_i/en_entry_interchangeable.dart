@@ -9,10 +9,12 @@ class EnglishEntryinterchangeable extends StatefulWidget {
   const EnglishEntryinterchangeable({super.key});
 
   @override
-  State<EnglishEntryinterchangeable> createState() => _EnglishEntryinterchangeableState();
+  State<EnglishEntryinterchangeable> createState() =>
+      _EnglishEntryinterchangeableState();
 }
 
-class _EnglishEntryinterchangeableState extends State<EnglishEntryinterchangeable> {
+class _EnglishEntryinterchangeableState
+    extends State<EnglishEntryinterchangeable> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterchangeable interchangeable
-WORD_WEB interchangeable interchangeable interchangeable
-haʊʊʊʊʊʊʊ4
+- Adjective: interchangeable
+1. (mathematics, logic) such that the arguments or roles can be interchanged
+"the arguments of the symmetric relation, 'is a sister of,' are interchangeable"
+ 
+2. Capable of replacing or changing places with something else; permitting mutual substitution without loss of function or suitability (- exchangeable, similar, standardized, standardised [Brit])
+"interchangeable parts";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interchangeable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The two words are virtually interchangeable.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The V8 engines are all interchangeable with each other.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/-L7o6HtX8Vg?t=';
+    const double startSecondsend = 000000000000000000000000000454;
+    const String videoIdone = 'https://youtu.be/3RkhZgRNC1k?t=';
+    const double startSecondsone = 000000000000000000000000000898;
+    const String videoIdtwo = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondstwo = 0000000000000000000000000001634;
+    const String videoIdthree = 'https://youtu.be/Oz9zw7-_vhM?t=';
+    const double startSecondsthree = 000000000000000000000000000279;
+    const String videoIdfour = 'https://youtu.be/7jD5Gkh4K34?t=';
+    const double startSecondsfour = 000000000000000000000000000478;
+    const String videoIdfive = 'https://youtu.be/RQYuyHNLPTQ?t=';
+    const double startSecondsfive = 000000000000000000000000000907;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interchangeable""",
                       // alsoEnglishWord: "also: interchangeable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈtʃeɪndʒəbl/""",
+                      americanText: """IpaUS: /ˌɪntərˈtʃeɪndʒəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەگۆڕینەوەهاتوو، جێگۆڕکێ‌یان پێ دەکرێ، دەگۆڕدرێنەوە، لەئاڵ‌وگۆڕهاتوو؛ هاوواتا
 """),
 // With short examples define "interchangeable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە دەکرێت بگۆڕدرێنەوە؛ کە دەکرێت لە شوێنی یەکدی بەکاربێن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The two words are virtually interchangeable (= have almost the same meaning).""",
+                      kurdishText: """دوو وشەکە تا ئاستێکی زۆر هاوواتان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The V8 engines are all interchangeable with each other.""",
+                      kurdishText:
+                          """بزوێنەرە V8 ییەکان هەموویان تا ئاستێکی زۆر لەگۆڕینەوەهاتوون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

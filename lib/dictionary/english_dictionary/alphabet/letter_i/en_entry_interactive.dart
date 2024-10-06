@@ -9,7 +9,8 @@ class EnglishEntryinteractive extends StatefulWidget {
   const EnglishEntryinteractive({super.key});
 
   @override
-  State<EnglishEntryinteractive> createState() => _EnglishEntryinteractiveState();
+  State<EnglishEntryinteractive> createState() =>
+      _EnglishEntryinteractiveState();
 }
 
 class _EnglishEntryinteractiveState extends State<EnglishEntryinteractive> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinteractive interactive
-WORD_WEB interactive interactive interactive
-haʊʊʊʊʊʊʊ4
+- Adjective: interactive
+1. Capable of acting on or influencing each other (- interactional)
+ 
+2. Used especially of drugs or muscles that work together so the total effect is greater than the sum of the two (or more) (- synergistic)
+ 
+3. (computing) responding to or communicating with the user
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interactive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The program is fully interactive.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The school believes in interactive teaching methods.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SrDEtSlqJC4?t=';
+    const double startSecondsend = 00000000000000000000000000050;
+    const String videoIdone = 'https://youtu.be/AF8d72mA41M?t=';
+    const double startSecondsone = 0000000000000000000000000001978;
+    const String videoIdtwo = 'https://youtu.be/GVsUOuSjvcg?t=';
+    const double startSecondstwo = 0000000000000000000000000001272;
+    const String videoIdthree = 'https://youtu.be/toVfvRhWbj8?t=';
+    const double startSecondsthree = 0000000000000000000000000001310;
+    const String videoIdfour = 'https://youtu.be/Is1IWMPNqh4?t=';
+    const double startSecondsfour = 0000000000000000000000000001356;
+    const String videoIdfive = 'https://youtu.be/57nZ7LaVAH0?t=';
+    const double startSecondsfive = 00000000000000000000000000038;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interactive""",
                       // alsoEnglishWord: "also: interactive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntərˈæktɪv/""",
+                      americanText: """IpaUS: /ˌɪntərˈæktɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,24 +992,29 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: کارلێکی‌یانە، کارلێک‌کەر، پێوەندی‌یانە، کار و کاردانەوەیی، پەرچەکرداری‌یانە
+// """),
 // With short examples define "interactive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ڕێگا دەدات زانیاری بەردەوام هاتووچۆ بکات بە نێوان کۆمپیوتەر یان ئامێرێکی دیکە و بەکارهێنەر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The program is fully interactive.""",
+                      kurdishText: """پڕۆگرامەکە تەواو ئینتراکتیڤە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە ئەوە لەخۆ دەگرێت خەڵکی پێکەوە کار بکەن و کاریگەرییان لەسەر یەکدی هەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The school believes in interactive teaching methods.""",
+                      kurdishText:
+                          """قوتابخانەکە باوەڕی بە ڕێبازەکانی فێرکردنی بەشداریپێکەر هەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

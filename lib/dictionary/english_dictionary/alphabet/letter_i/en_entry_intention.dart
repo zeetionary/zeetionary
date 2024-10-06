@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintention intention
-WORD_WEB intention intention intention
-haʊʊʊʊʊʊʊ4
+- Noun: intention (Derived forms: intentions)
+1. An anticipated outcome that is intended or that guides your planned actions (- purpose, intent, aim, design)
+"good intentions are not enough";
+ 
+2. (usually plural) the goal with respect to a marriage proposal
+"his intentions are entirely honourable"
+ 
+3. An act of intending; a volition that you intend to carry out
+"my intention changed once I saw her"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intention";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +91,39 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I have no intention of going to the wedding.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """We welcome the government's affirmation of its intention to act.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """You would never have guessed his intentions from the benign expression on his face.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """He believed that her kindness was merely a camouflage for her real intentions.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """The newspaper denies any intention to defame the senator’s reputation.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +933,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/sDmeXdC3myg?t=';
+    const double startSecondsend = 000000000000000000000000000463;
+    const String videoIdone = 'https://youtu.be/hn4mxYDmWgo?t=';
+    const double startSecondsone = 000000000000000000000000000361;
+    const String videoIdtwo = 'https://youtu.be/bHMmniN2ovM?t=';
+    const double startSecondstwo = 000000000000000000000000000199;
+    const String videoIdthree = 'https://youtu.be/kmvmL4Zm7Nc?t=';
+    const double startSecondsthree = 00000000000000000000000000091;
+    const String videoIdfour = 'https://youtu.be/OP7l1n_8Lh4?t=';
+    const double startSecondsfour = 00000000000000000000000000020;
+    const String videoIdfive = 'https://youtu.be/pTk9HnIwEYU?t=';
+    const double startSecondsfive = 000000000000000000000000000366;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intention""",
                       // alsoEnglishWord: "also: intention",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtenʃn/""",
+                      americanText: """IpaUS: /ɪnˈtenʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +998,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نیاز، نیهات، خەیاڵ، مەبەست، خەیاڵ، خواست، ئامانج،	بڕیار،	واتا، واتە، مانا، چەمک، نێوەرۆک
 """),
 // With short examples define "intention", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی مەبەستتە بیکەیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: intent"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I have no intention of going to the wedding.""",
+                      kurdishText:
+                          """هیچ نیازی چوونم بۆ ئاهەنگی هاوسەرگیرییەکە نییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1016,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We welcome the government's affirmation of its intention to act.""",
+                      kurdishText:
+                          "پێشوازی دەکەین لە پشت‌ڕاست‌کردنەوەی حکومەت لەوەی کەوا نیازی ھەیە ھەنگاو بنێت.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1027,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You would never have guessed his intentions from the benign expression on his face.""",
+                      kurdishText:
+                          "ھەرگیز نەتدەتوانی ھەست بە نیازەکانی بکەیت لە دەربڕینە بێوەییەکانی سەر ڕووخساری.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1038,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He believed that her kindness was merely a camouflage for her real intentions.""",
+                      kurdishText:
+                          "باوەڕی وابوو میھرەبانییەکەی تەنھا داپۆشەرێک بوو مەرامە ڕاستییەکانی.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,11 +1049,14 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The newspaper denies any intention to defame the senator’s reputation.""",
+                      kurdishText:
+                          "ڕۆژنامەکە نکۆڵی لە ھەر نیازێک بۆ ناوزڕاندنی ناوبانگی سیناتۆرەکە دەکات.",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
+                    // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

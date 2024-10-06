@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: inter (Derived forms: interred, interring, inters)
+1. Place in a grave or tomb (- bury, entomb, inhume, lay to rest, ensepulchre [Brit, Cdn, literary], ensepulcher [US, literary], tomb)
+"Stalin was interred behind the Kremlin wall on Red Square";
 
-EnglishEntryinter inter
-WORD_WEB inter inter inter
-haʊʊʊʊʊʊʊ4
+- Prefix: inter-
+1. Between, among
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inter";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The princess was interred on an island in the middle of a lake.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Fon7og7w4Yw?t=';
+    const double startSecondsend = 000000000000000000000000000102;
+    const String videoIdone = 'https://youtu.be/CupbRr2m_sM?t=';
+    const double startSecondsone = 0000000000000000000000000001346;
+    const String videoIdtwo = 'https://youtu.be/VMmdeMzXKMI?t=';
+    const double startSecondstwo = 00000000000000000000000000049;
+    const String videoIdthree = 'https://youtu.be/tyixMpuGEL8?t=';
+    const double startSecondsthree = 0000000000000000000000000001156;
+    const String videoIdfour = 'https://youtu.be/eFReTj2KsM0?t=';
+    const double startSecondsfour = 0000000000000000000000000001227;
+    const String videoIdfive = 'https://youtu.be/xHvVhhFvLtY?t=';
+    const double startSecondsfive = 000000000000000000000000000178;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inter""",
                       // alsoEnglishWord: "also: inter",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtɜː(r)/""",
+                      americanText: """IpaUS: /ɪnˈtɜːr/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +995,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inter", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (کردار) ناشتنی کەسێکی مردوو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The princess was interred on an island in the middle of a lake.""",
+                      kurdishText:
+                          """شازادە خاتوونەکە لەسەر دوورگەیەک لە ناوەڕاستی دەریاچەیەک نێژرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

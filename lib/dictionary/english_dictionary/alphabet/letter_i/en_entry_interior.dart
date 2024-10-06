@@ -52,13 +52,31 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: interior (Derived forms: interiors)
+1. The region that is inside of something (- inside)
+ 
+2. The inner or enclosed surface of something (- inside)
 
-EnglishEntryinterior interior
-WORD_WEB interior interior interior
-haʊʊʊʊʊʊʊ4
+- Adjective: interior
+1. Situated within or suitable for inside a building
+"an interior scene"; "interior decoration"; "an interior bathroom without windows"
+ 
+2. Inside the country
+"the British Home Office has broader responsibilities than the United States Department of the Interior"; (- home, internal, national)
+ 
+3. Located inward (- inner, internal)
+"she thinks she has no soul, no interior life, but the truth is that she has no access to it";
+ 
+4. Inside and toward a centre
+"interior regions of the earth"
+ 
+5. Of or coming from the middle of a region or country (- midland, upcountry)
+"interior districts";
+
+- Noun: Interior
+1. The United States federal department charged with conservation and the development of natural resources; created in 1849 (- Department of the Interior, Interior Department, DoI)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interior";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +105,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The original interior of the hotel has been replaced.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """People rarely travel into the interior of Australia alone.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The Minister of the Interior visited the border today.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +946,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/NFtQOxjWfaA?t=';
+    const double startSecondsend = 000000000000000000000000000195;
+    const String videoIdone = 'https://youtu.be/7j5ul4XBjAI?t=';
+    const double startSecondsone = 000000000000000000000000000148;
+    const String videoIdtwo = 'https://youtu.be/V3NGBo2M1Ps?t=';
+    const double startSecondstwo = 00000000000000000000000000077;
+    const String videoIdthree = 'https://youtu.be/NFtQOxjWfaA?t=';
+    const double startSecondsthree = 000000000000000000000000000195;
+    const String videoIdfour = 'https://youtu.be/OZ_xhkg32nk?t=';
+    const double startSecondsfour = 000000000000000000000000000616;
+    const String videoIdfive = 'https://youtu.be/DxL2HoqLbyA?t=';
+    const double startSecondsfive = 000000000000000000000000000890;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +972,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interior""",
                       // alsoEnglishWord: "also: interior",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtɪəriə(r)/""",
+                      americanText: """IpaUS: /ɪnˈtɪriər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,32 +1011,41 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نێوەکی، نێوخۆیی، ناوخۆیی، ناوەندی، دوور لە سنوور، لە کەنار دوور،	بەشی نێوەوە، ناوان، ناوەڕاست، نێوەوە، هەندەروون، دەروون، هوندر، ژوورەوە،	ناوچە دوور لە سنوورەکان، ناوچە ناوەندی‌یەکان، ناوچەکانی نێوەوە
 """),
 // With short examples define "interior", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) بەشی ناوەوەی شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The original interior of the hotel has been replaced.""",
+                      kurdishText: """ناوەوەی سەرەتای هوتێلەکە گۆڕدراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) بەشی ناوەوەی وڵاتێک یان کیشوەرێک کە زۆر لە کەناراوەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """People rarely travel into the interior of Australia alone.""",
+                      kurdishText:
+                          """خەڵکی بە دەگمەن دەچن بۆ ناوەندی ئوسترالیا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کاری ناوخۆیی وڵاتێک نەک دەرەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The Minister of the Interior visited the border today.""",
+                      kurdishText:
+                          """وەزیری ناوخۆ ئەمڕۆ سەردانی سەر سنووری کرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

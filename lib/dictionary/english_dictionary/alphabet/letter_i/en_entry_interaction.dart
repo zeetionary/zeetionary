@@ -9,7 +9,8 @@ class EnglishEntryinteraction extends StatefulWidget {
   const EnglishEntryinteraction({super.key});
 
   @override
-  State<EnglishEntryinteraction> createState() => _EnglishEntryinteractionState();
+  State<EnglishEntryinteraction> createState() =>
+      _EnglishEntryinteractionState();
 }
 
 class _EnglishEntryinteractionState extends State<EnglishEntryinteraction> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinteraction interaction
-WORD_WEB interaction interaction interaction
-haʊʊʊʊʊʊʊ4
+- Noun: interaction (Derived forms: interactions)
+1. A mutual or reciprocal action; interacting
+ 
+2. (physics) the transfer of energy between elementary particles or between an elementary particle and a field or between fields; mediated by gauge bosons (- fundamental interaction)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interaction";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """There's not enough interaction between the management and the workers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """An electromagnetic wave is created as a result of the interaction between an electric field and a magnetic field.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/PmlRbfSavbI?t=';
+    const double startSecondsend = 000000000000000000000000000604;
+    const String videoIdone = 'https://youtu.be/-6vzjjIrRK8?t=';
+    const double startSecondsone = 0000000000000000000000000001420;
+    const String videoIdtwo = 'https://youtu.be/oI_X2cMHNe0?t=';
+    const double startSecondstwo = 000000000000000000000000000464;
+    const String videoIdthree = 'https://youtu.be/blOrY-nEGaE?t=';
+    const double startSecondsthree = 00000000000000000000000000039;
+    const String videoIdfour = 'https://youtu.be/QcUey-DVYjk?t=';
+    const double startSecondsfour = 000000000000000000000000000789;
+    const String videoIdfive = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsfive = 0000000000000000000000000001847;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interaction""",
                       // alsoEnglishWord: "also: interaction",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntərˈækʃn/""",
+                      americanText: """IpaUS: /ˌɪntərˈækʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +992,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کارلێک(کردن)، کارلێکترکردن، پەرچەکردار، کار و کاردانەوە، کاریگەری یان کردەوەی دوولایەنە یان دووقۆڵی،	پێوەندی
 """),
 // With short examples define "interaction", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) مامەڵە کردن لەگەڵ کەسێک، بە تایبەتی کە کار یان یاری دەکەیت، یان کاتی لەگەڵ بەسەر دەبەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There's not enough interaction between the management and the workers.""",
+                      kurdishText:
+                          """بەشی پێویست مامەڵە نییە لە نێوان بەڕێوەبەرایەتی و کرێکاران.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) هەبوونی کاریگەری لەسەر شتێکی دیکە دەبێت یان دوو شت کاریگەرییان لەسەر یەکدی دەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An electromagnetic wave is created as a result of the interaction between an electric field and a magnetic field.""",
+                      kurdishText:
+                          """شەپۆلی کارۆموگناتیسی بەرھەم دێت لە ئەنجامی بەرکەوتنی نێوان بواری کارەبایی و بواری موگناتیسی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -95,21 +95,24 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Intensive bombing had reduced the city to rubble.""");
+    await flutterTts
+        .speak("""Intensive bombing had reduced the city to rubble.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """His disappearance has been the subject of intensive investigation.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Traditionally reared animals grow more slowly than those reared under intensive farming conditions.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -933,7 +936,6 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
     const String videoIdend = 'https://youtu.be/VrKW58MS12g?t=';
     const double startSecondsend = 0000000000000000000000000001360;
@@ -1002,28 +1004,39 @@ ${englishMeaningConst.text}
 کوردی: خەست، خەست‌وخۆڵ، لەسەریەک، قورس، توند، چڕ، تیژ، سەخت، چڕوپڕ، تێروتەسەل،	(ڕێزمان، ئاوەڵناو و ئاوەڵکار) بەهێزکەر، زیادکەر، جەختی
 """),
 // With short examples define "intensive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە ژمارەیەکی زۆر کار و چالاکی لە ماوەیەکی کەم لەخۆ دەگرێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ژمارەیەکی زۆر کار و چالاکی لە ماوەیەکی کەم لەخۆ دەگرێت"""),
                     SentencesRow(
-                      englishText: """Intensive bombing had reduced the city to rubble.""",
-                      kurdishText: """بۆمبارانی ڕژد.""",
+                      englishText:
+                          """Intensive bombing had reduced the city to rubble.""",
+                      kurdishText:
+                          """بۆمبارانی خەست شارەکەی کردووە بە کەلاوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) تەواو و زۆر ورد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His disappearance has been the subject of intensive investigation.""",
+                      kurdishText:
+                          """ونبوونی بووە بە بابەتی لێکۆڵینەوەی ورد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) شێوازێکی کشتووکاڵ کە ئامانجییەتی هەرچەندە زۆر بکرێت بەرهەمی هەبێت بە بەکارهێنانی کەمترین زەوی یان پارە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Traditionally reared animals grow more slowly than those reared under intensive farming conditions.""",
+                      kurdishText:
+                          """ئاژەڵانی بە سرووشتی گەورەکراو هێواشتر گەشە دەکەن وەک لەوانەی کە لە دۆخی چڕی کشتووکاڵی گەورە دەکرێن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

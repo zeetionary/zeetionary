@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterested interested
-WORD_WEB interested interested interested
-haʊʊʊʊʊʊʊ4
+- Adjective: interested
+1. Having or showing interest; especially curiosity or fascination or concern
+"an interested audience"; "interested in sports"; "was interested to hear about her family"; "interested in knowing who was on the telephone"; "interested spectators"
+ 
+2. Involved in or affected by or having a claim to or share in (- concerned)
+"the interested parties met to discuss the business";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interested";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +88,38 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I'm very interested in history.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He sounded genuinely interested.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """We would be interested to hear your views on this subject.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""As an interested party, I was not allowed to vote.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """There were representatives of all the interested parties at the public meeting.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hS2x1zl4rn0?t=';
+    const double startSecondsend = 0000000000000000000000000001083;
+    const String videoIdone = 'https://youtu.be/a_TSR_v07m0?t=';
+    const double startSecondsone = 000000000000000000000000000697;
+    const String videoIdtwo = 'https://youtu.be/QLq6GEiHqR8?t=';
+    const double startSecondstwo = 000000000000000000000000000255;
+    const String videoIdthree = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsthree = 00000000000000000000000000098;
+    const String videoIdfour = 'https://youtu.be/9TugA_z5vQE?t=';
+    const double startSecondsfour = 000000000000000000000000000110;
+    const String videoIdfive = 'https://youtu.be/7nGz7xgGJzc?t=';
+    const double startSecondsfive = 00000000000000000000000000025;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interested""",
                       // alsoEnglishWord: "also: interested",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntrəstɪd/, /ˈɪntrestɪd/""",
+                      americanText: """IpaUS: /ˈɪntrəstɪd/, /ˈɪntrestɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دڵبەستە، هۆگر، تامەزرۆ،	کە قازانجی تیایەتی،	لاگرانە، بە غەرەزەوە، نادادپەروەرانە
 """),
 // With short examples define "interested", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) ئەوەی کە حەزت بۆ شتێک هەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I'm very interested in history.""",
+                      kurdishText: """زۆر تامەزرۆی مێژووم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He sounded genuinely interested.""",
+                      kurdishText: """بەڕاستی بەتامەزرۆ دیار بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,17 +1018,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We would be interested to hear your views on this subject.""",
+                      kurdishText:
+                          """حەز دەکەین سەرنجت لەسەر بابەتەکە بزانین.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) لە پێگەیەک کە سوود لە دۆخێک ببینیت یان کاریگەر ببیت پێی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """As an interested party, I was not allowed to vote.""",
+                      kurdishText:
+                          """وەک لایەنێکی بەرژەوەندیدار، ڕێگام پێنەدرا دەنگ بدەم.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1042,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There were representatives of all the interested parties at the public meeting.""",
+                      kurdishText:
+                          """نوێنەرانی هەموو پارتە خاوەن بەرژەوەندییەکان لە کۆبوونەوەکە بوون.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

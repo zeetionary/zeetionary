@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: interlock (Derived forms: interlocks)
+1. A device that prevents an automotive engine from starting (- ignition interlock)
+"car theives know how to bypass the ignition interlock";
+ 
+2. The act of interlocking or meshing (- mesh, meshing, interlocking)
+"an interlock of arms by the police held the crowd in check";
 
-EnglishEntryinterlock interlock
-WORD_WEB interlock interlock interlock
-haʊʊʊʊʊʊʊ4
+- Verb: interlock (Derived forms: interlocked, interlocking, interlocks)
+1. Coordinate in such a way that all parts work together effectively (- mesh, intermesh)
+ 
+2. Hold in a locking position (- lock, interlace)
+"He interlocked his hands around her neck";
+ 
+3. Become engaged or intermeshed with one another (- lock)
+"They were interlocked in embrace";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interlock";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +97,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Once the parts are interlocked, the structure stands firm.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +936,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/dOyJqGtP-wU?t=';
+    const double startSecondsend = 000000000000000000000000000180;
+    const String videoIdone = 'https://youtu.be/RQYuyHNLPTQ?t=';
+    const double startSecondsone = 000000000000000000000000000544;
+    const String videoIdtwo = 'https://youtu.be/z_Ke0hiYEm4?t=';
+    const double startSecondstwo = 000000000000000000000000000542;
+    const String videoIdthree = 'https://youtu.be/9ttxmg2nBOQ?t=';
+    const double startSecondsthree = 000000000000000000000000000454;
+    const String videoIdfour = 'https://youtu.be/d1n01lO7V04?t=';
+    const double startSecondsfour = 0000000000000000000000000001071;
+    const String videoIdfive = 'https://youtu.be/Ty-m4pm8oog?t=';
+    const double startSecondsfive = 000000000000000000000000000562;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +962,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interlock""",
                       // alsoEnglishWord: "also: interlock",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈlɒk/""",
+                      americanText: """IpaUS: /ˌɪntərˈlɑːk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1001,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێکەوەبەستراوی، لێک‌هەڵپێکراوی، بەیەکاچوویی، پێکاچوویی، پێکەوەگرێ‌دراوی، تێک‌گیراوی، تێک‌ئاڵاوی، پێکەوەبەندی
 """),
 // With short examples define "interlock", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) پێکەوە گرێدان یان گونجاندن بە توندی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Once the parts are interlocked, the structure stands firm.""",
+                      kurdishText:
+                          """کە بەشەکان پێکەوە لکاون، چێوەکە بە پتەوی دەوەستێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

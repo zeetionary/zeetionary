@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: interlude (Derived forms: interludes)
+1. An intervening period or episode
+ 
+2. (music) a brief show (music or dance etc) inserted between the sections of a longer performance (- intermezzo, entr'acte)
 
-EnglishEntryinterlude interlude
-WORD_WEB interlude interlude interlude
-haʊʊʊʊʊʊʊ4
+- Verb: interlude (Derived forms: interluding, interludes, interluded)
+1. (music) perform an interlude
+"The guitar player interluded with a beautiful improvisation"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interlude";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -954,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interlude""",
                       // alsoEnglishWord: "also: interlude",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntəluːd/""",
+                      americanText: """IpaUS: /ˈɪntərluːd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

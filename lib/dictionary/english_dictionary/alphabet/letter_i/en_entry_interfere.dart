@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterfere interfere
-WORD_WEB interfere interfere interfere
-haʊʊʊʊʊʊʊ4
+- Verb: interfere (Derived forms: interfered, interfering, interferes)
+1. Come between so as to be hindrance or obstacle
+"Your talking interferes with my work!"
+ 
+2. Get involved, so as to alter or hinder an action, or through force or threat of force (- intervene, step in, interpose)
+"Why did the U.S. not interfere earlier in WW II?";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interfere";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """I wish my parents would stop interfering and let me make my own decisions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""If you try and interfere in my life, I'll leave.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The courts are reluctant to interfere in these matters.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/-L7o6HtX8Vg?t=';
+    const double startSecondsend = 000000000000000000000000000341;
+    const String videoIdone = 'https://youtu.be/q8HRGiUeZwc?t=';
+    const double startSecondsone = 000000000000000000000000000219;
+    const String videoIdtwo = 'https://youtu.be/gjySnrspD7E?t=';
+    const double startSecondstwo = 0000000000000000000000000002843;
+    const String videoIdthree = 'https://youtu.be/lsbcN9-jU1Y?t=';
+    const double startSecondsthree = 000000000000000000000000000898;
+    const String videoIdfour = 'https://youtu.be/_9prH7NFmLI?t=';
+    const double startSecondsfour = 000000000000000000000000000350;
+    const String videoIdfive = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsfive = 0000000000000000000000000002612;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interfere""",
                       // alsoEnglishWord: "also: interfere",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈfɪə(r)/""",
+                      americanText: """IpaUS: /ˌɪntərˈfɪr/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +997,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "interfere", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) بەژداری کردن لە دۆخێک ئەوەی هەوڵ بدەیت کاریگەریت هەبێت لەسەری"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I wish my parents would stop interfering and let me make my own decisions.""",
+                      kurdishText:
+                          """بەهیوام دایبابم لە دەستێوەردان بوەستن و بهێڵن بڕیاری خۆم بدەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1012,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """If you try and interfere in my life, I'll leave.""",
+                      kurdishText:
+                          """ئەگەر هەوڵ بدەیت دەستوەربدەیتە ژیانم، دەچم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,11 +1023,13 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The courts are reluctant to interfere in these matters.""",
+                      kurdishText:
+                          """دادگاکان نابەدڵن دەستوەربدەنە ئەم بابەتانە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
+                    ), // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

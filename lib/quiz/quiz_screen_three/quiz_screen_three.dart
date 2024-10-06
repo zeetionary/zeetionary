@@ -10,6 +10,188 @@ import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 
+enum QuestionType {
+  multipleChoice,
+  fillInBlank,
+  videoFillInBlank,
+  videoOptions
+} // Added videoOptions
+
+class Question {
+  final int id;
+  final String question;
+  final List<String>? options;
+  final String answer;
+  final List<String> tags;
+  final QuestionType type;
+  final String? videoId;
+  final int? start;
+  final int? end;
+
+  Question({
+    required this.id,
+    required this.question,
+    this.options,
+    required this.answer,
+    required this.tags,
+    required this.type,
+    this.videoId,
+    this.start,
+    this.end,
+  });
+
+  factory Question.fromJson(Map<String, dynamic> json) {
+    QuestionType qType;
+    switch (json['type']) {
+      case 'multiple_choice':
+        qType = QuestionType.multipleChoice;
+        break;
+      case 'fill_in_blank':
+        qType = QuestionType.fillInBlank;
+        break;
+      case 'video_fill_in_blank':
+        qType = QuestionType.videoFillInBlank;
+        break;
+      case 'video_options': // Added handling for video_options
+        qType = QuestionType.videoOptions;
+        break;
+      default:
+        qType = QuestionType.multipleChoice;
+    }
+
+    return Question(
+      id: json['id'],
+      question: json['question'],
+      options:
+          json['options'] != null ? List<String>.from(json['options']) : null,
+      answer: json['answer'],
+      tags: List<String>.from(json['tags']),
+      type: qType,
+      videoId: json['videoId'],
+      start: json['start'],
+      end: json['end'],
+    );
+  }
+}
+
+// Provider to load questions from JSON
+final questionsProvider = FutureProvider<List<Question>>((ref) async {
+  final String response =
+      await rootBundle.loadString('assets/questions_two.json');
+  final List<dynamic> data = json.decode(response);
+  return data.map((json) => Question.fromJson(json)).toList();
+});
+
+// Provider for selected tags
+final selectedTagsProvider = StateProvider<List<String>>((ref) => []);
+
+// Provider for answered question IDs
+final answeredQuestionsProvider =
+    StateNotifierProvider<AnsweredQuestionsNotifier, Set<int>>((ref) {
+  final storageService = ref.watch(storageServiceProvider);
+  return AnsweredQuestionsNotifier(storageService);
+});
+
+// Notifier for answered questions
+class AnsweredQuestionsNotifier extends StateNotifier<Set<int>> {
+  final StorageService storageService;
+  int correctAnswers = 0; // Track correct answers
+  int wrongAnswers = 0; // Track wrong answers
+
+  AnsweredQuestionsNotifier(this.storageService) : super({}) {
+    loadAnsweredQuestions();
+  }
+
+  Future<void> loadAnsweredQuestions() async {
+    state = await storageService.getAnsweredQuestions();
+  }
+
+  Future<void> addAnsweredQuestion(int id, bool isCorrect) async {
+    state = {...state, id};
+    await storageService.addAnsweredQuestion(id, isCorrect);
+
+    // Update the counts based on the correctness
+    if (isCorrect) {
+      correctAnswers++;
+    } else {
+      wrongAnswers++;
+    }
+  }
+
+  Future<void> reset() async {
+    state = {};
+    correctAnswers = 0; // Reset correct answers count
+    wrongAnswers = 0; // Reset wrong answers count
+    await storageService.reset();
+  }
+
+  int getCorrectAnswers() => correctAnswers;
+  int getWrongAnswers() => wrongAnswers;
+}
+
+// Provider for storage service
+final storageServiceProvider = Provider<StorageService>((ref) {
+  return StorageService();
+});
+
+class StorageService {
+  static const String answeredQuestionsKey = 'answered_questions';
+  static const String correctAnswersKey = 'correct_answers';
+  static const String wrongAnswersKey = 'wrong_answers';
+  static const String totalAnsweredKey = 'total_answered';
+
+  Future<Set<int>> getAnsweredQuestions() async {
+    final prefs = await SharedPreferences.getInstance();
+    final ids = prefs.getStringList(answeredQuestionsKey) ?? [];
+    return ids.map(int.parse).toSet();
+  }
+
+  Future<void> addAnsweredQuestion(int id, bool isCorrect) async {
+    final prefs = await SharedPreferences.getInstance();
+    final ids = prefs.getStringList(answeredQuestionsKey) ?? [];
+    if (!ids.contains(id.toString())) {
+      ids.add(id.toString());
+      await prefs.setStringList(answeredQuestionsKey, ids);
+    }
+
+    // Update correct/wrong counts
+    if (isCorrect) {
+      final correct = prefs.getInt(correctAnswersKey) ?? 0;
+      await prefs.setInt(correctAnswersKey, correct + 1);
+    } else {
+      final wrong = prefs.getInt(wrongAnswersKey) ?? 0;
+      await prefs.setInt(wrongAnswersKey, wrong + 1);
+    }
+
+    // Update total answered
+    final total = prefs.getInt(totalAnsweredKey) ?? 0;
+    await prefs.setInt(totalAnsweredKey, total + 1);
+  }
+
+  Future<int> getCorrectAnswers() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(correctAnswersKey) ?? 0;
+  }
+
+  Future<int> getWrongAnswers() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(wrongAnswersKey) ?? 0;
+  }
+
+  Future<int> getTotalAnswered() async {
+    final prefs = await SharedPreferences.getInstance();
+    return prefs.getInt(totalAnsweredKey) ?? 0;
+  }
+
+  Future<void> reset() async {
+    final prefs = await SharedPreferences.getInstance();
+    await prefs.remove(answeredQuestionsKey);
+    await prefs.remove(correctAnswersKey);
+    await prefs.remove(wrongAnswersKey);
+    await prefs.remove(totalAnsweredKey);
+  }
+}
+
 class QuizScreenJsonJsonHome extends ConsumerWidget {
   const QuizScreenJsonJsonHome({super.key});
 
@@ -112,22 +294,6 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
                                 ? Colors.blueAccent
                                 : Theme.of(context).canvasColor,
                             borderRadius: BorderRadius.circular(8),
-                            // boxShadow: [
-                            //   BoxShadow(
-                            //     color: Theme.of(context).highlightColor,
-                            //     spreadRadius: 2,
-                            //     blurRadius: 1,
-                            //     offset: const Offset(0, 3),
-                            //   ),
-                            // ],
-                            // boxShadow: [
-                            //   BoxShadow(
-                            //     color: Theme.of(context).highlightColor,
-                            //     spreadRadius: 1,
-                            //     blurRadius: 1,
-                            //     offset: const Offset(0, 3),
-                            //   ),
-                            // ],
                           ),
                           child: Center(
                             child: Text(
@@ -181,8 +347,6 @@ class QuizScreenJson extends ConsumerStatefulWidget {
   const QuizScreenJson({super.key});
 
   @override
-  // _QuizScreenJsonState createState() => _QuizScreenJsonState();
-
   ConsumerState<ConsumerStatefulWidget> createState() => _QuizScreenJsonState();
 }
 
@@ -190,8 +354,7 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
   late List<Question> _filteredQuestions;
   int _currentIndex = 0;
   bool _isLoading = true;
-  bool _hasAnswered =
-      false; // Flag to track if the question has been answered or time is up
+  bool _hasAnswered = false;
 
   @override
   void initState() {
@@ -402,7 +565,7 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
                     flex: 3,
                     child: TimerWidget(
                       key: ValueKey(currentQuestion.id),
-                      duration: 4500,
+                      duration: 45,
                       onTimeUp: _onTimeUp,
                     ),
                   ),
@@ -425,64 +588,6 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
         ),
       ),
     );
-  }
-}
-
-class StorageService {
-  static const String answeredQuestionsKey = 'answered_questions';
-  static const String correctAnswersKey = 'correct_answers';
-  static const String wrongAnswersKey = 'wrong_answers';
-  static const String totalAnsweredKey = 'total_answered';
-
-  Future<Set<int>> getAnsweredQuestions() async {
-    final prefs = await SharedPreferences.getInstance();
-    final ids = prefs.getStringList(answeredQuestionsKey) ?? [];
-    return ids.map(int.parse).toSet();
-  }
-
-  Future<void> addAnsweredQuestion(int id, bool isCorrect) async {
-    final prefs = await SharedPreferences.getInstance();
-    final ids = prefs.getStringList(answeredQuestionsKey) ?? [];
-    if (!ids.contains(id.toString())) {
-      ids.add(id.toString());
-      await prefs.setStringList(answeredQuestionsKey, ids);
-    }
-
-    // Update correct/wrong counts
-    if (isCorrect) {
-      final correct = prefs.getInt(correctAnswersKey) ?? 0;
-      await prefs.setInt(correctAnswersKey, correct + 1);
-    } else {
-      final wrong = prefs.getInt(wrongAnswersKey) ?? 0;
-      await prefs.setInt(wrongAnswersKey, wrong + 1);
-    }
-
-    // Update total answered
-    final total = prefs.getInt(totalAnsweredKey) ?? 0;
-    await prefs.setInt(totalAnsweredKey, total + 1);
-  }
-
-  Future<int> getCorrectAnswers() async {
-    final prefs = await SharedPreferences.getInstance();
-    return prefs.getInt(correctAnswersKey) ?? 0;
-  }
-
-  Future<int> getWrongAnswers() async {
-    final prefs = await SharedPreferences.getInstance();
-    return prefs.getInt(wrongAnswersKey) ?? 0;
-  }
-
-  Future<int> getTotalAnswered() async {
-    final prefs = await SharedPreferences.getInstance();
-    return prefs.getInt(totalAnsweredKey) ?? 0;
-  }
-
-  Future<void> reset() async {
-    final prefs = await SharedPreferences.getInstance();
-    await prefs.remove(answeredQuestionsKey);
-    await prefs.remove(correctAnswersKey);
-    await prefs.remove(wrongAnswersKey);
-    await prefs.remove(totalAnsweredKey);
   }
 }
 
@@ -756,28 +861,6 @@ class YouTubeVideosContainerEnd extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return SingleChildScrollView(
-      // child: Column(
-      //   children: [
-      //     Container(
-      //       margin: const EdgeInsets.only(top: 2.0, left: 2, right: 2),
-      //       padding: const EdgeInsets.all(2.0),
-      //       child: ClipRRect(
-      //         borderRadius: BorderRadius.circular(12.0),
-      //         child: YoutubePlayer(
-      //           controller: controller,
-      //           aspectRatio: 16 / 9,
-      //         ),
-      //       ),
-      //     ),
-      //     const SizedBox(height: 10),
-      //     ElevatedButton(
-      //       onPressed: onReloadVideo,
-      //       child: const Icon(
-      //         Icons.replay,
-      //       ),
-      //     ),
-      //   ],
-      // ),
       child: Stack(
         alignment: Alignment.center,
         children: [
@@ -825,8 +908,6 @@ class QuestionWidget extends StatefulWidget {
   });
 
   @override
-  // _QuestionWidgetState createState() => _QuestionWidgetState();
-
   State<QuestionWidget> createState() => _QuestionWidgetState();
 }
 
@@ -1099,7 +1180,9 @@ class _QuestionWidgetState extends State<QuestionWidget> {
                       option,
                       style: TextStyle(
                         fontSize: 18,
-                        color: widget.isLocked ? Colors.grey : Colors.black,
+                        color: widget.isLocked
+                            ? Theme.of(context).highlightColor
+                            : Theme.of(context).primaryColor,
                       ),
                     ),
                   ),
@@ -1198,132 +1281,6 @@ class _TimerWidgetState extends State<TimerWidget>
           style: const TextStyle(fontSize: 16, fontWeight: FontWeight.bold),
         ),
       ],
-    );
-  }
-}
-
-// Provider to load questions from JSON
-final questionsProvider = FutureProvider<List<Question>>((ref) async {
-  final String response =
-      await rootBundle.loadString('assets/questions_two.json');
-  final List<dynamic> data = json.decode(response);
-  return data.map((json) => Question.fromJson(json)).toList();
-});
-
-// Provider for selected tags
-final selectedTagsProvider = StateProvider<List<String>>((ref) => []);
-
-// Provider for answered question IDs
-final answeredQuestionsProvider =
-    StateNotifierProvider<AnsweredQuestionsNotifier, Set<int>>((ref) {
-  final storageService = ref.watch(storageServiceProvider);
-  return AnsweredQuestionsNotifier(storageService);
-});
-
-// Notifier for answered questions
-class AnsweredQuestionsNotifier extends StateNotifier<Set<int>> {
-  final StorageService storageService;
-  int correctAnswers = 0; // Track correct answers
-  int wrongAnswers = 0; // Track wrong answers
-
-  AnsweredQuestionsNotifier(this.storageService) : super({}) {
-    loadAnsweredQuestions();
-  }
-
-  Future<void> loadAnsweredQuestions() async {
-    state = await storageService.getAnsweredQuestions();
-  }
-
-  Future<void> addAnsweredQuestion(int id, bool isCorrect) async {
-    state = {...state, id};
-    await storageService.addAnsweredQuestion(id, isCorrect);
-
-    // Update the counts based on the correctness
-    if (isCorrect) {
-      correctAnswers++;
-    } else {
-      wrongAnswers++;
-    }
-  }
-
-  Future<void> reset() async {
-    state = {};
-    correctAnswers = 0; // Reset correct answers count
-    wrongAnswers = 0; // Reset wrong answers count
-    await storageService.reset();
-  }
-
-  int getCorrectAnswers() => correctAnswers;
-  int getWrongAnswers() => wrongAnswers;
-}
-
-// Provider for storage service
-final storageServiceProvider = Provider<StorageService>((ref) {
-  return StorageService();
-});
-
-// models/question.dart
-
-enum QuestionType {
-  multipleChoice,
-  fillInBlank,
-  videoFillInBlank,
-  videoOptions
-} // Added videoOptions
-
-class Question {
-  final int id;
-  final String question;
-  final List<String>? options;
-  final String answer;
-  final List<String> tags;
-  final QuestionType type;
-  final String? videoId;
-  final int? start;
-  final int? end;
-
-  Question({
-    required this.id,
-    required this.question,
-    this.options,
-    required this.answer,
-    required this.tags,
-    required this.type,
-    this.videoId,
-    this.start,
-    this.end,
-  });
-
-  factory Question.fromJson(Map<String, dynamic> json) {
-    QuestionType qType;
-    switch (json['type']) {
-      case 'multiple_choice':
-        qType = QuestionType.multipleChoice;
-        break;
-      case 'fill_in_blank':
-        qType = QuestionType.fillInBlank;
-        break;
-      case 'video_fill_in_blank':
-        qType = QuestionType.videoFillInBlank;
-        break;
-      case 'video_options': // Added handling for video_options
-        qType = QuestionType.videoOptions;
-        break;
-      default:
-        qType = QuestionType.multipleChoice;
-    }
-
-    return Question(
-      id: json['id'],
-      question: json['question'],
-      options:
-          json['options'] != null ? List<String>.from(json['options']) : null,
-      answer: json['answer'],
-      tags: List<String>.from(json['tags']),
-      type: qType,
-      videoId: json['videoId'],
-      start: json['start'],
-      end: json['end'],
     );
   }
 }

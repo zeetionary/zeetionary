@@ -9,7 +9,8 @@ class EnglishEntryinterchange extends StatefulWidget {
   const EnglishEntryinterchange({super.key});
 
   @override
-  State<EnglishEntryinterchange> createState() => _EnglishEntryinterchangeState();
+  State<EnglishEntryinterchange> createState() =>
+      _EnglishEntryinterchangeState();
 }
 
 class _EnglishEntryinterchangeState extends State<EnglishEntryinterchange> {
@@ -52,13 +53,30 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: interchange (Derived forms: interchanges)
+1. A junction of highways on different levels that permits traffic to move from one to another without crossing traffic streams
+ 
+2. Mutual interaction; the activity of reciprocating or exchanging (especially information) (- reciprocation, give-and-take)
+ 
+3. The act of changing one thing for another thing (- exchange)
+"there was an interchange of prisoners";
+ 
+4. Reciprocal transfer of equivalent sums of money (especially the currencies of different countries) (- exchange)
+"he earns his living from the interchange of currency";
 
-EnglishEntryinterchange interchange
-WORD_WEB interchange interchange interchange
-haʊʊʊʊʊʊʊ4
+- Verb: interchange (Derived forms: interchanging, interchanges, interchanged)
+1. Put in the place of another; switch seemingly equivalent items (- substitute, replace, exchange, sub [informal])
+"synonyms can be interchanged without changing the context's meaning";
+ 
+2. Give to, and receive from, one another (- exchange, change)
+"We have been interchanging letters for a year";
+ 
+3. Cause to change places (- counterchange, transpose)
+"interchange this screw for one of a smaller size";
+ 
+4. Reverse (a direction, attitude, or course of action) (- tack, switch, alternate, flip, flip-flop)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interchange";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +105,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """An international medical conference was established for the interchange of new ideas and approaches.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Data is interchanged between browser and server without any change in display.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The front and rear tyres interchange.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""I interchanged the front tyres with the rear ones.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +946,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hGkVxIyKnEA?t=';
+    const double startSecondsend = 000000000000000000000000000562;
+    const String videoIdone = 'https://youtu.be/A0sM6xVAY-A?t=';
+    const double startSecondsone = 00000000000000000000000000050;
+    const String videoIdtwo = 'https://youtu.be/ZZWMxwcFZOc?t=';
+    const double startSecondstwo = 000000000000000000000000000177;
+    const String videoIdthree = 'https://youtu.be/K-Ina_WW4Yc?t=';
+    const double startSecondsthree = 0000000000000000000000000001399;
+    const String videoIdfour = 'https://youtu.be/-1h-ovrtigY?t=';
+    const double startSecondsfour = 000000000000000000000000000131;
+    const String videoIdfive = 'https://youtu.be/1Z1KLpf_7tU?t=';
+    const double startSecondsfive = 000000000000000000000000000977;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +972,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interchange""",
                       // alsoEnglishWord: "also: interchange",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntətʃeɪndʒ/""",
+                      americanText: """IpaUS: /ˈɪntərtʃeɪndʒ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,32 +1011,41 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گۆڕین، گۆڕینەوە، ئاڵ‌وگۆڕ، ئاڵشت (بەتایبەت بیر و بۆچوون)،	پێک‌گەیشتنەوە، یەکتربڕین
 """),
 // With short examples define "interchange", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەشکردن یان گۆڕینەوەی شتێک، بەتایبەتی بیرۆکە و زانیاری"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An international medical conference was established for the interchange of new ideas and approaches.""",
+                      kurdishText:
+                          """کۆنفرانسێکی تەندرووستی نێودەوڵەتی بەسترا بۆ گۆڕینەوەی بیرۆکە و ڕێگا تازەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) بەشکردن و گۆڕینەوەی بیرۆکە و زانیاری"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Data is interchanged between browser and server without any change in display.""",
+                      kurdishText:
+                          """داتا دەگۆڕدرێتەوە وێبگەڕ و سێرڤەر بەبێ هیچ گۆڕانێک لە پیشاندان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (کردار) گۆڕینەوەی دوو کەس یان شت یان کە بکرێت بگۆڕدرێنەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The front and rear tyres interchange.""",
+                      kurdishText: """تایەکانی پێش و پاش بە یەکدی دەکەن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1053,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I interchanged the front tyres with the rear ones.""",
+                      kurdishText:
+                          """تایەکانی پێشەوەم لەگەڵ ئەوانەی دواوە گۆڕییەوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

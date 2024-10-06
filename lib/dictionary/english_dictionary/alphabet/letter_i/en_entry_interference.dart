@@ -9,7 +9,8 @@ class EnglishEntryinterference extends StatefulWidget {
   const EnglishEntryinterference({super.key});
 
   @override
-  State<EnglishEntryinterference> createState() => _EnglishEntryinterferenceState();
+  State<EnglishEntryinterference> createState() =>
+      _EnglishEntryinterferenceState();
 }
 
 class _EnglishEntryinterferenceState extends State<EnglishEntryinterference> {
@@ -52,13 +53,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterference interference
-WORD_WEB interference interference interference
-haʊʊʊʊʊʊʊ4
+- Noun: interference (Derived forms: interferences)
+1. Act or process of interfering in the affairs of others when it is unwanted or annoying (- intrusion, meddling)
+"she was annoyed by the neighbour's interference";
+ 
+2. A policy of intervening in the affairs of other countries (- intervention)
+ 
+3. The act of hindering, obstructing or impeding (- hindrance, hinderance)
+ 
+4. Electrical or acoustic activity that can disturb communication (- noise, disturbance)
+ 
+5. Any obstruction that impedes or is burdensome (- hindrance, hinderance, hitch, preventive, preventative, encumbrance, incumbrance)
+ 
+6. (American football) blocking a player's path with your body
+"he ran interference for the quarterback"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interference";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +97,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """They resent foreign interference in the internal affairs of their country.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I will not tolerate such gross interference.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The law is designed to prevent interference by local police.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +937,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/XHXLbp7x3MM?t=';
+    const double startSecondsend = 000000000000000000000000000738;
+    const String videoIdone = 'https://youtu.be/DuFyGHgGIKg?t=';
+    const double startSecondsone = 000000000000000000000000000870;
+    const String videoIdtwo = 'https://youtu.be/gd5yB9Vmd6I?t=';
+    const double startSecondstwo = 00000000000000000000000000047;
+    const String videoIdthree = 'https://youtu.be/l8AkHXUQ94w?t=';
+    const double startSecondsthree = 000000000000000000000000000607;
+    const String videoIdfour = 'https://youtu.be/Q1bSDnuIPbo?t=';
+    const double startSecondsfour = 000000000000000000000000000343;
+    const String videoIdfive = 'https://youtu.be/EDx5OFOiQ-I?t=';
+    const double startSecondsfive = 0000000000000000000000000001022;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +963,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interference""",
                       // alsoEnglishWord: "also: interference",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈfɪərəns/""",
+                      americanText: """IpaUS: /ˌɪntərˈfɪrəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1002,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەس‌تێوەردان، دەسکاری، مایی‌تێکردن، خۆتێوەردان، دەس‌تێخستن، خوتێکەڵ‌کردن، خۆتێ‌هەڵقوتاندن،	پێکاچوون، بەیەکاچوون، چوونەنێویەک،	ململانێ، کێشە، پێکادان
 """),
 // With short examples define "interference", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە تێکەڵ بە دۆخێک ببیت و هەوڵ بدەیت کاریگەری درووست بکەیت لەسەری"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They resent foreign interference in the internal affairs of their country.""",
+                      kurdishText:
+                          """ڕقیان لە دەستێوەردانی دەرەکییە لە بابەتە ناوخۆییەکانی وڵاتەکەیان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1020,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I will not tolerate such gross interference.""",
+                      kurdishText: """بەرگەی دەستێوەردانی وەها زەق ناگرم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1030,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The law is designed to prevent interference by local police.""",
+                      kurdishText:
+                          """یاساکە دیزاین کراوە بۆ ئەوەی ڕێگری لەلایەن پۆلیسی خۆجێی بگرێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

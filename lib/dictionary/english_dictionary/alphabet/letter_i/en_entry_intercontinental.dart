@@ -9,10 +9,12 @@ class EnglishEntryintercontinental extends StatefulWidget {
   const EnglishEntryintercontinental({super.key});
 
   @override
-  State<EnglishEntryintercontinental> createState() => _EnglishEntryintercontinentalState();
+  State<EnglishEntryintercontinental> createState() =>
+      _EnglishEntryintercontinentalState();
 }
 
-class _EnglishEntryintercontinentalState extends State<EnglishEntryintercontinental> {
+class _EnglishEntryintercontinentalState
+    extends State<EnglishEntryintercontinental> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintercontinental intercontinental
-WORD_WEB intercontinental intercontinental intercontinental
-haʊʊʊʊʊʊʊ4
+- Adjective: intercontinental
+1. Extending or taking place between or among continents
+"intercontinental exploration"; "intercontinental flights"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intercontinental";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""They booked an intercontinental flight to Asia.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/xX0ozxrZlEQ?t=';
+    const double startSecondsend = 000000000000000000000000000359;
+    const String videoIdone = 'https://youtu.be/3E17wr77ffM?t=';
+    const double startSecondsone = 00000000000000000000000000026;
+    const String videoIdtwo = 'https://youtu.be/EH6vE97qIP4?t=';
+    const double startSecondstwo = 0000000000000000000000000002361;
+    const String videoIdthree = 'https://youtu.be/4MqK90Aq8bE?t=';
+    const double startSecondsthree = 000000000000000000000000000201;
+    const String videoIdfour = 'https://youtu.be/3AvoV8GodbU?t=';
+    const double startSecondsfour = 000000000000000000000000000319;
+    const String videoIdfive = 'https://youtu.be/5r90DYjZ76g?t=';
+    const double startSecondsfive = 000000000000000000000000000374;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intercontinental""",
                       // alsoEnglishWord: "also: intercontinental",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˌkɒntɪˈnentl/""",
+                      americanText: """IpaUS: /ˌɪntərˌkɑːntɪˈnentl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,12 +993,13 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "intercontinental", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) لە نێوان کیشوەرەکان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They booked an intercontinental flight to Asia.""",
+                      kurdishText:
+                          """گەشتێکی نێوان‌کیشوەرییان بۆ ئاسیا حجز کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

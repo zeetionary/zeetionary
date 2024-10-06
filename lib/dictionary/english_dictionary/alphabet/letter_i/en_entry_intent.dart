@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: intent (Derived forms: intents)
+1. An anticipated outcome that is intended or that guides your planned actions (- purpose, intention, aim, design)
+"his intent was to provide a new translation";
+ 
+2. The intended meaning of a communication (- purport, spirit)
 
-EnglishEntryintent intent
-WORD_WEB intent intent intent
-haʊʊʊʊʊʊʊ4
+- Adjective: intent
+1. Giving or marked by complete attention to (- captive, absorbed, engrossed, enwrapped, wrapped, rapt)
+"so intent on this fantastic...narrative that she hardly stirred";
+ 
+2. Characterized by great determination (- determined)
+"a struggle against an intent enemy";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,71 +94,72 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She denies possessing the drug with intent to supply.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He was charged with wounding with intent.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""His intent is clearly not to placate his critics.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""His eyes were suddenly intent.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""His face filled with an intent curiosity.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""Her gaze was suddenly intent.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""They were intent on murder.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""Are you intent upon destroying my reputation?""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak("""The bright brown eyes were intent on Marie.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""She was very intent on her work.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
@@ -926,21 +934,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/mY3SEMTROas?t=';
+    const double startSecondsend = 000000000000000000000000000314;
+    const String videoIdone = 'https://youtu.be/TRGHIN2PGIA?t=';
+    const double startSecondsone = 000000000000000000000000000939;
+    const String videoIdtwo = 'https://youtu.be/b_rjBWmc1iQ?t=';
+    const double startSecondstwo = 0000000000000000000000000005324;
+    const String videoIdthree = 'https://youtu.be/fn--IVarumw?t=';
+    const double startSecondsthree = 0000000000000000000000000001127;
+    const String videoIdfour = 'https://youtu.be/3hurvRBoYgM?t=';
+    const double startSecondsfour = 000000000000000000000000000572;
+    const String videoIdfive = 'https://youtu.be/VNZ0so0LCoM?t=';
+    const double startSecondsfive = 000000000000000000000000000829;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intent""",
                       // alsoEnglishWord: "also: intent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtent/""",
+                      americanText: """IpaUS: /ɪnˈtent/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +999,19 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەپەرۆش، تامەزرۆ،	(بە)ڕشت، شێلگیر، مجد، سوور، بەبڕیار،	سەرنج‌پێداو، چڕەوەبوو،	(یەکجار) سەرگەرم، سەرقاڵ، پڕکار، خەریک، دەس‌نەپەرژاو، دەس‌گیراو،	نیاز، خەیاڵ، مەبەست، ئامانج،	بڕیار،	واتا، مانا، چەمک
 """),
 // With short examples define "intent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی مەبەستتە بیکەیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: intention"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She denies possessing the drug with intent to supply.""",
+                      kurdishText:
+                          """نکۆڵی لە هەبوونی مادە هۆشبەرەکە کرد بە ئامانجی کڕین و فرۆشتن.""",
+                      englishNote:
+                          "This means she says that she does not have the drug and did not plan to give or sell it to others. The phrase focuses on her rejection of the accusation, claiming she has no involvement in possessing the drug for distribution purposes.",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1019,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was charged with wounding with intent.""",
+                      kurdishText: """تاوانبار کرا بە بریندارکردن بە مەبەست.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,17 +1029,20 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His intent is clearly not to placate his critics.""",
+                      kurdishText:
+                          """مەبەستی بە ڕوونی ئەوەیە ڕەخنەگرانی هێور بکاتەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە حەز و نیازی بەهێزی هەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His eyes were suddenly intent.""",
+                      kurdishText: """چاوەکانی لەناکاو بەپەرۆش بوون.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1050,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His face filled with an intent curiosity.""",
+                      kurdishText: """ڕووخساری پڕبوو لە تامەزرۆیی بەهێز.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1044,17 +1060,19 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her gaze was suddenly intent.""",
+                      kurdishText: """نیگای لەناکاو توند بوو.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) شێلگیر لە کردنی شتێک، بە تایبەتی شتێک کە زیان بە کەسانی دیکە دەگەیەنێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They were intent on murder.""",
+                      kurdishText: """سوور بوون لەسەر کوشتن.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1062,17 +1080,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Are you intent upon destroying my reputation?""",
+                      kurdishText: """سووریت لەسەر لەناوبردنی ناوبانگم؟""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ھاوەڵناو) کە تەواوی سەرنجت بە شتێک بدەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The bright brown eyes were intent on Marie.""",
+                      kurdishText: """چاوە قاوەییە گەشەکان لەسەر ماری بوون.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -1080,8 +1102,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She was very intent on her work.""",
+                      kurdishText: """زۆر بەپەرۆش بوو لە کارەکەیدا.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),

@@ -9,7 +9,8 @@ class EnglishEntryintentionally extends StatefulWidget {
   const EnglishEntryintentionally({super.key});
 
   @override
-  State<EnglishEntryintentionally> createState() => _EnglishEntryintentionallyState();
+  State<EnglishEntryintentionally> createState() =>
+      _EnglishEntryintentionallyState();
 }
 
 class _EnglishEntryintentionallyState extends State<EnglishEntryintentionally> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintentionally intentionally
-WORD_WEB intentionally intentionally intentionally
-haʊʊʊʊʊʊʊ4
+- Adverb: intentionally
+1. With intention; in an intentional manner (- deliberately, designedly, on purpose, purposely, advisedly, by choice, by design)
+"he used that word intentionally";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intentionally";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She would never intentionally hurt anyone.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I kept my statement intentionally vague.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/4U-u4CsnygA?t=';
+    const double startSecondsend = 00000000000000000000000000098;
+    const String videoIdone = 'https://youtu.be/Js2UoMSumx4?t=';
+    const double startSecondsone = 000000000000000000000000000865;
+    const String videoIdtwo = 'https://youtu.be/sAiTuitN5b8?t=';
+    const double startSecondstwo = 000000000000000000000000000182;
+    const String videoIdthree = 'https://youtu.be/tFSgH_cUm2E?t=';
+    const double startSecondsthree = 000000000000000000000000000353;
+    const String videoIdfour = 'https://youtu.be/mrkAmmMakMg?t=';
+    const double startSecondsfour = 000000000000000000000000000352;
+    const String videoIdfive = 'https://youtu.be/UvjSXBqQe4A?t=';
+    const double startSecondsfive = 000000000000000000000000000717;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intentionally""",
                       // alsoEnglishWord: "also: intentionally",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtenʃənəli/""",
+                      americanText: """IpaUS: /ɪnˈtenʃənəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بە ئانقەست، بەمەبەستانە، دانستە، پێوەبووانە
 """),
 // With short examples define "intentionally", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەک کە بە مەبەست دەکرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She would never intentionally hurt anyone.""",
+                      kurdishText: """هەرگیز بە ئانقەست ئازاری کەسی نەدەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1006,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I kept my statement intentionally vague.""",
+                      kurdishText:
+                          """لێدوانەکەمم بە مەبەست بە ناڕوون هێشتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

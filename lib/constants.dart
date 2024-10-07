@@ -37,7 +37,7 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppBarWidget();
+    return const AppBarWidget();
   }
 
   @override
@@ -55,9 +55,9 @@ class AppBarWidget extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final language = ref.watch(languageProvider);
 
-    Alignment alignment = language == AppLanguage.english
-        ? Alignment.topLeft
-        : Alignment.topRight;
+    // Alignment alignment = language == AppLanguage.english
+    //     ? Alignment.topLeft
+    //     : Alignment.topRight;
 
     // Alignment alignmenttwo = language == AppLanguage.english
     //     ? Alignment.topRight
@@ -1776,6 +1776,17 @@ class IPAofEnglish extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final textSize = ref.watch(textSizeProvider);
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     return Container(
       // height: 16,
       constraints: const BoxConstraints(maxWidth: 300),
@@ -1790,11 +1801,17 @@ class IPAofEnglish extends ConsumerWidget {
               // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
               showCloseIcon: true,
               closeIconColor: Theme.of(context).primaryColor,
-              content: Text(
-                'IPA copied',
-                style: TextStyle(
-                    fontSize: textSize + 1,
-                    color: Theme.of(context).primaryColor),
+              content: Align(
+                alignment: alignment,
+                child: Directionality(
+                  textDirection: textDirection,
+                  child: Text(
+                    isKurdish ? 'ئای‌پی‌ئەی لەبەرگیرایەوە' : 'IPA copied',
+                    style: TextStyle(
+                        fontSize: textSize + 1,
+                        color: Theme.of(context).primaryColor),
+                  ),
+                ),
               ),
               behavior: SnackBarBehavior.floating,
             ),
@@ -1835,6 +1852,9 @@ class KurdishVocabulary extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final textSize = ref.watch(textSizeProvider);
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
     return Padding(
       padding: const EdgeInsets.all(0.1),
       child: Column(
@@ -1859,7 +1879,9 @@ class KurdishVocabulary extends ConsumerWidget {
                         content: Directionality(
                           textDirection: TextDirection.rtl,
                           child: Text(
-                            'وشەوواتا لەبەرگیرایەوە',
+                            isKurdish
+                                ? 'وشەوواتا لەبەرگیرایەوە'
+                                : 'Vocabulary copied',
                             style: TextStyle(
                                 fontSize: textSize + 1,
                                 color: Theme.of(context).primaryColor),
@@ -2093,6 +2115,9 @@ class _DefinitionKurdishState extends ConsumerState<DefinitionKurdish>
   Widget build(BuildContext context) {
     final textSize = ref.watch(textSizeProvider);
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: Column(
@@ -2128,7 +2153,9 @@ class _DefinitionKurdishState extends ConsumerState<DefinitionKurdish>
                           content: Directionality(
                             textDirection: TextDirection.rtl,
                             child: Text(
-                              'پێناسەی کوردی لەبەرگیرایەوە',
+                              isKurdish
+                                  ? 'پێناسەی کوردی لەبەرگیرایەوە'
+                                  : 'Kurdish meaning copied',
                               style: TextStyle(
                                   fontSize: textSize + 1,
                                   color: Theme.of(context).primaryColor),
@@ -2462,6 +2489,17 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
   Widget build(BuildContext context) {
     final textSize = ref.watch(textSizeProvider);
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: Column(
@@ -2481,11 +2519,19 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
                         // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
                         showCloseIcon: true,
                         closeIconColor: Theme.of(context).primaryColor,
-                        content: Text(
-                          'English sentence copied',
-                          style: TextStyle(
-                              fontSize: textSize + 1,
-                              color: Theme.of(context).primaryColor),
+                        content: Align(
+                          alignment: alignment,
+                          child: Directionality(
+                            textDirection: textDirection,
+                            child: Text(
+                              isKurdish
+                                  ? 'ڕستەی ئینگلیزی لەبەرگیرایەوە'
+                                  : 'English sentence copied',
+                              style: TextStyle(
+                                  fontSize: textSize + 1,
+                                  color: Theme.of(context).primaryColor),
+                            ),
+                          ),
                         ),
                         behavior: SnackBarBehavior.floating,
                       ),
@@ -2617,6 +2663,17 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
   Widget build(BuildContext context) {
     final textSize = ref.watch(textSizeProvider);
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     return Padding(
       padding: const EdgeInsets.symmetric(horizontal: 10.0),
       child: Column(
@@ -2650,13 +2707,18 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
                           // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
                           showCloseIcon: true,
                           closeIconColor: Theme.of(context).primaryColor,
-                          content: Directionality(
-                            textDirection: TextDirection.rtl,
-                            child: Text(
-                              'ڕستەی کوردی لەبەرگیرایەوە',
-                              style: TextStyle(
-                                  fontSize: textSize + 1,
-                                  color: Theme.of(context).primaryColor),
+                          content: Align(
+                            alignment: alignment,
+                            child: Directionality(
+                              textDirection: textDirection,
+                              child: Text(
+                                isKurdish
+                                    ? 'ڕستەی کوردی لەبەرگیرایەوە'
+                                    : 'Kurdish sentence copied',
+                                style: TextStyle(
+                                    fontSize: textSize + 1,
+                                    color: Theme.of(context).primaryColor),
+                              ),
                             ),
                           ),
                           behavior: SnackBarBehavior.floating,
@@ -2939,6 +3001,17 @@ class EnglishMeaningConst extends ConsumerWidget {
   Widget build(BuildContext context, WidgetRef ref) {
     final textSize = ref.watch(textSizeProvider);
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     return SingleChildScrollView(
       child: Padding(
         padding: const EdgeInsets.only(
@@ -2955,11 +3028,19 @@ class EnglishMeaningConst extends ConsumerWidget {
                     // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
                     showCloseIcon: true,
                     closeIconColor: Theme.of(context).primaryColor,
-                    content: Text(
-                      'English meaning copied',
-                      style: TextStyle(
-                          fontSize: textSize + 1,
-                          color: Theme.of(context).primaryColor),
+                    content: Align(
+                      alignment: alignment,
+                      child: Directionality(
+                        textDirection: textDirection,
+                        child: Text(
+                          isKurdish
+                              ? 'پێناسەی ئینگلیزی لەبەرگیرایەوە'
+                              : 'English meaning copied',
+                          style: TextStyle(
+                              fontSize: textSize + 1,
+                              color: Theme.of(context).primaryColor),
+                        ),
+                      ),
                     ),
                     behavior: SnackBarBehavior.floating,
                   ),

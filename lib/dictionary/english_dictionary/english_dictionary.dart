@@ -181,6 +181,17 @@ class _DictionaryScreenEnglishState
     final prefs = await SharedPreferences.getInstance();
     final textSize = ref.watch(textSizeProvider);
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     setState(() {
       final englishFavouritesList =
           prefs.getStringList('english favourites')?.toSet() ?? {};
@@ -195,11 +206,19 @@ class _DictionaryScreenEnglishState
             // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
-            content: Text(
-              'Favourite removed: $wordWithoutTimestamp',
-              style: TextStyle(
-                fontSize: textSize + 1,
-                color: Theme.of(context).primaryColor,
+            content: Align(
+              alignment: alignment,
+              child: Directionality(
+                textDirection: textDirection,
+                child: Text(
+                  isKurdish
+                      ? 'وشەی دڵخواز سڕایەوە: $wordWithoutTimestamp'
+                      : 'Favourite removed: $wordWithoutTimestamp',
+                  style: TextStyle(
+                    fontSize: textSize + 1,
+                    color: Theme.of(context).primaryColor,
+                  ),
+                ),
               ),
             ),
             behavior: SnackBarBehavior.floating,
@@ -213,11 +232,19 @@ class _DictionaryScreenEnglishState
             // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
-            content: Text(
-              'Favourite added: $wordWithoutTimestamp',
-              style: TextStyle(
-                fontSize: textSize + 1,
-                color: Theme.of(context).primaryColor,
+            content: Align(
+              alignment: alignment,
+              child: Directionality(
+                textDirection: textDirection,
+                child: Text(
+                  isKurdish
+                      ? 'وشەی دڵخواز زیاد کرا: $wordWithoutTimestamp'
+                      : 'Favourite added: $wordWithoutTimestamp',
+                  style: TextStyle(
+                    fontSize: textSize + 1,
+                    color: Theme.of(context).primaryColor,
+                  ),
+                ),
               ),
             ),
             behavior: SnackBarBehavior.floating,

@@ -1,8 +1,8 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/english_dictionary_logout/english_dictionary_navigation_routes_logout.dart';
-import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/english_dictionary_logout/english_dictionary_tile_and_card_logout.dart';
+import 'package:zeetionary/firebase/features/auth/screen/logout_screens/home_screen_logout/english_dictionary_logout/english_dictionary_navigation_routes_logout.dart';
+import 'package:zeetionary/firebase/features/auth/screen/logout_screens/home_screen_logout/english_dictionary_logout/english_dictionary_tile_and_card_logout.dart';
 
 class EnglishDictionaryNavigationLogout extends StatelessWidget {
   final List<String> words;

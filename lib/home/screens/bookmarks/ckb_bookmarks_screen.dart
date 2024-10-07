@@ -105,58 +105,71 @@ class _KurdishFavouritesScreenState
   }
 
   Future<void> _clearKurdishFavourites() async {
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     // Show a confirmation dialog
     bool confirmed = await showDialog(
       context: context,
       builder: (BuildContext context) {
         final textSize = ref.watch(textSizeProvider) + 2;
-        return AlertDialog(
-          title: Directionality(
-            textDirection: TextDirection.rtl,
-            child: Text(
-              'دڵنیایی کردنەوە',
-              style: TextStyle(
-                fontSize: textSize + 4,
-              ),
-            ),
-          ),
-          content: Directionality(
-            textDirection: TextDirection.rtl,
-            child: Text(
-              'دەتەوێت ھەموو وشە دڵخوازەکان بسڕیتەوە؟',
-              style: TextStyle(
-                fontSize: textSize,
-              ),
-            ),
-          ),
-          actions: <Widget>[
-            TextButton(
-              onPressed: () {
-                Navigator.of(context)
-                    .pop(true); // Dismiss the dialog and return true
-              },
-              child: Text(
-                'بەڵێ',
+        return Align(
+          alignment: alignment,
+          child: Directionality(
+            textDirection: textDirection,
+            child: AlertDialog(
+              title: Text(
+                isKurdish ? 'دڵنیایی کردنەوە' : 'Confirmation',
                 style: TextStyle(
-                  fontSize: textSize - 2,
-                  color: Colors.red,
+                  fontSize: textSize + 4,
                 ),
               ),
-            ),
-            TextButton(
-              onPressed: () {
-                Navigator.of(context)
-                    .pop(false); // Dismiss the dialog and return false
-              },
-              child: Text(
-                'نەخێر',
+              content: Text(
+                isKurdish
+                    ? 'دەتەوێت ھەموو وشە کوردییە دڵخوازەکان بسڕیتەوە؟'
+                    : 'Do you really want to clear all Kurdish favourites?',
                 style: TextStyle(
-                  fontSize: textSize - 2,
-                  color: Theme.of(context).primaryColor,
+                  fontSize: textSize,
                 ),
               ),
+              actions: <Widget>[
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context)
+                        .pop(false); // Dismiss the dialog and return false
+                  },
+                  child: Text(
+                    isKurdish ? 'نەخێر' : 'No',
+                    style: TextStyle(
+                      fontSize: textSize - 2,
+                      color: Theme.of(context).primaryColor,
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context)
+                        .pop(true); // Dismiss the dialog and return true
+                  },
+                  child: Text(
+                    isKurdish ? 'بەڵێ' : 'Yes',
+                    style: TextStyle(
+                      fontSize: textSize - 2,
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+              ],
             ),
-          ],
+          ),
         );
       },
     );
@@ -183,9 +196,9 @@ class _KurdishFavouritesScreenState
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
             content: Directionality(
-              textDirection: TextDirection.rtl,
+              textDirection: textDirection,
               child: Text(
-                'ھەموو وشە دڵخوازەکان سڕدرانەوە',
+                isKurdish ? 'دڵخوازەکان سڕانەوە' : 'Favourites cleared',
                 style: TextStyle(
                   color: Theme.of(context).primaryColor,
                   fontSize: textSize + 1,

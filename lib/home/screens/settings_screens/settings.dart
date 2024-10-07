@@ -230,48 +230,68 @@ class SettingsPage extends ConsumerWidget {
       builder: (BuildContext context) {
         final textSize = ref.watch(textSizeProvider) + 2;
 
-        return AlertDialog(
-          title: Text(
-            'Delete Account',
-            style: TextStyle(
-              fontSize: textSize + 2,
-            ),
-          ),
-          content: Text(
-            """Account deletion is permanent. You will lose your purchase of the app.""",
-            style: TextStyle(
-              fontSize: textSize,
-            ),
-          ),
-          actions: <Widget>[
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop();
-              },
-              child: Text(
-                'Cancel',
+        final language = ref.watch(languageProvider);
+        final isKurdish = language == AppLanguage.kurdish;
+
+        Alignment alignment = language == AppLanguage.english
+            ? Alignment.topLeft
+            : Alignment.topRight;
+
+        // Determine text direction based on language
+        TextDirection textDirection = language == AppLanguage.english
+            ? TextDirection.ltr
+            : TextDirection.rtl;
+
+        return Align(
+          alignment: alignment,
+          child: Directionality(
+            textDirection: textDirection,
+            child: AlertDialog(
+              title: Text(
+                isKurdish ? 'هەژمار بسڕەوە' : 'Delete Account',
                 style: TextStyle(
-                  fontSize: textSize,
-                  color: Theme.of(context).primaryColor,
+                  fontSize: textSize + 2,
                 ),
               ),
-            ),
-            TextButton(
-              onPressed: () {
-                // Navigator.of(context).pop();
-                deleteAccount(context, ref);
-                // Routemaster.of(context).pop("/settings-screen");
-                Routemaster.of(context).replace("/");
-              },
-              child: Text(
-                'Delete',
+              content: Text(
+                isKurdish
+                    ? 'سڕینەوەی هەژمار هەمیشەییە. کڕینی ئەپەکە لەدەست دەدەیت'
+                    : """Account deletion is permanent. You will lose your purchase of the app.""",
                 style: TextStyle(
                   fontSize: textSize,
-                  color: Colors.red,
                 ),
               ),
+              actions: <Widget>[
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop();
+                  },
+                  child: Text(
+                    isKurdish ? 'مەیسڕەوە' : 'Do not delete',
+                    style: TextStyle(
+                      fontSize: textSize,
+                      color: Theme.of(context).primaryColor,
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {
+                    // Navigator.of(context).pop();
+                    deleteAccount(context, ref);
+                    // Routemaster.of(context).pop("/settings-screen");
+                    Routemaster.of(context).replace("/");
+                  },
+                  child: Text(
+                    isKurdish ? 'بیسڕەوە' : 'Delete it',
+                    style: TextStyle(
+                      fontSize: textSize,
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+              ],
             ),
-          ],
+          ),
         );
       },
     );
@@ -293,13 +313,13 @@ class SettingsPage extends ConsumerWidget {
         ? Alignment.topLeft
         : Alignment.topRight;
 
-    Alignment alignmenttwo = language == AppLanguage.english
-        ? Alignment.topRight
-        : Alignment.topLeft;
-
     // Determine text direction based on language
     TextDirection textDirection =
         language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
+    // Alignment alignmenttwo = language == AppLanguage.english
+    //     ? Alignment.topRight
+    //     : Alignment.topLeft;
 
     // Language options
     // final languages = {
@@ -325,6 +345,7 @@ class SettingsPage extends ConsumerWidget {
             child: Directionality(
               textDirection: textDirection,
               child: ExpansionTile(
+                iconColor: Theme.of(context).primaryColor,
                 leading: Icon(
                   Icons.text_increase,
                   // Icons.text_fields,
@@ -373,6 +394,7 @@ class SettingsPage extends ConsumerWidget {
             child: Directionality(
               textDirection: textDirection,
               child: ExpansionTile(
+                iconColor: Theme.of(context).primaryColor,
                 leading: Icon(
                   Icons.dark_mode,
                   // Icons.wb_sunny,
@@ -433,6 +455,7 @@ class SettingsPage extends ConsumerWidget {
             child: Directionality(
               textDirection: textDirection,
               child: ExpansionTile(
+                iconColor: Theme.of(context).primaryColor,
                 leading: Icon(
                   Icons.text_increase,
                   // Icons.text_fields,
@@ -467,8 +490,8 @@ class SettingsPage extends ConsumerWidget {
                             backgroundColor: language == lang
                                 ? (lang == AppLanguage.english
                                     ? Colors.blue.withOpacity(0.4)
-                                    : null)
-                                // : Colors.pink.withOpacity(0.4))
+                                    // : null)
+                                    : Colors.blue.withOpacity(0.4))
                                 : null,
                           ),
                           child: Text(
@@ -496,9 +519,16 @@ class SettingsPage extends ConsumerWidget {
             child: Directionality(
               textDirection: textDirection,
               child: ExpansionTile(
-                leading: const Icon(
-                  Icons.logout,
-                  color: Colors.red,
+                iconColor: Theme.of(context).primaryColor,
+                leading: Transform(
+                  alignment: Alignment.center,
+                  transform: isKurdish
+                      ? Matrix4.rotationY(3.14159)
+                      : Matrix4.identity(),
+                  child: const Icon(
+                    Icons.logout,
+                    color: Colors.red,
+                  ),
                 ),
                 title: Text(
                   isKurdish

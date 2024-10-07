@@ -28,51 +28,71 @@ class _GrammarHistoryScreenState extends ConsumerState<GrammarHistoryScreen> {
   Future<void> clearEnglishHistory(BuildContext context) async {
     final textSize = ref.watch(textSizeProvider);
     SharedPreferences prefs = await SharedPreferences.getInstance();
+
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     bool confirmClear = await showDialog(
       context: context,
       builder: (BuildContext context) {
         final textSize = ref.watch(textSizeProvider) + 2;
-        return AlertDialog(
-          title: Text(
-            'Confirmation',
-            style: TextStyle(
-              fontSize: textSize + 4,
-            ),
-            textDirection: TextDirection.ltr,
-          ),
-          content: Text(
-            'Do you really want to clear search history?',
-            style: TextStyle(
-              fontSize: textSize,
-            ),
-            textDirection: TextDirection.ltr,
-          ),
-          actions: <Widget>[
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop(false);
-              },
-              child: Text(
-                'No',
+        return Align(
+          alignment: alignment,
+          child: Directionality(
+            textDirection: textDirection,
+            child: AlertDialog(
+              title: Text(
+                isKurdish ? 'دڵنیایی کردنەوە' : 'Confirmation',
                 style: TextStyle(
-                  fontSize: textSize - 2,
-                  color: Theme.of(context).primaryColor,
+                  fontSize: textSize + 4,
                 ),
+                textDirection: textDirection,
               ),
-            ),
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop(true);
-              },
-              child: Text(
-                'Yes',
+              content: Text(
+                isKurdish
+                    ? 'دەتەوێت ھەموو گەڕانەکانی پێشووی وشەی ڕێزمان بسڕیتەوە؟'
+                    : 'Do you really want to clear Grammar search history?',
                 style: TextStyle(
-                  fontSize: textSize - 2,
-                  color: Colors.red,
+                  fontSize: textSize,
                 ),
+                textDirection: textDirection,
               ),
+              actions: <Widget>[
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop(false);
+                  },
+                  child: Text(
+                    isKurdish ? 'نەخێر' : 'No',
+                    style: TextStyle(
+                      fontSize: textSize - 2,
+                      color: Theme.of(context).primaryColor,
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop(true);
+                  },
+                  child: Text(
+                    isKurdish ? 'بەڵێ' : 'Yes',
+                    style: TextStyle(
+                      fontSize: textSize - 2,
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+              ],
             ),
-          ],
+          ),
         );
       },
     );
@@ -85,7 +105,7 @@ class _GrammarHistoryScreenState extends ConsumerState<GrammarHistoryScreen> {
 
     //   ScaffoldMessenger.of(context).showSnackBar(const SnackBar(
     //     content: Directionality(
-    //       textDirection: TextDirection.ltr,
+    //       textDirection: textDirection,
     //       child: Text('History cleared'),
     //     ),
     //   ));
@@ -96,14 +116,16 @@ class _GrammarHistoryScreenState extends ConsumerState<GrammarHistoryScreen> {
       if (!context.mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-            backgroundColor: Theme.of(context).canvasColor,
-            // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+          backgroundColor: Theme.of(context).canvasColor,
+          // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           showCloseIcon: true,
           closeIconColor: Theme.of(context).primaryColor,
           content: Directionality(
-            textDirection: TextDirection.ltr,
+            textDirection: textDirection,
             child: Text(
-              'History cleared',
+              isKurdish
+                  ? 'مێژووی ڕێزمان پاککرایەوە'
+                  : 'Grammar history cleared',
               style: TextStyle(
                 fontSize: textSize + 1,
                 color: Theme.of(context).primaryColor,

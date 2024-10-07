@@ -234,11 +234,11 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
         ? Alignment.topLeft
         : Alignment.topRight;
 
-    Alignment alignmenttwo = language == AppLanguage.english
-        ? Alignment.topRight
-        : Alignment.topLeft;
+    // Alignment alignmenttwo = language == AppLanguage.english
+    //     ? Alignment.topRight
+    //     : Alignment.topLeft;
 
-    // Determine text direction based on language
+    // // Determine text direction based on language
     TextDirection textDirection =
         language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
 
@@ -258,38 +258,61 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
                   // Show confirmation dialog
                   showDialog(
                     context: context,
-                    builder: (context) => AlertDialog(
-                      title:
-                          Text(isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress'),
-                      content: const Text(
-                          'Are you sure you want to reset your progress?'),
-                      actions: [
-                        TextButton(
-                          onPressed: () => Navigator.pop(context),
-                          child: Text(
-                            'Cancel',
-                            style: TextStyle(
-                              color: Colors.green,
-                              fontSize: textSize,
+                    builder: (context) => Align(
+                      alignment: alignment,
+                      child: Directionality(
+                        textDirection: textDirection,
+                        child: AlertDialog(
+                          title: Directionality(
+                            textDirection: textDirection,
+                            child: Text(
+                              isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
+                              style: TextStyle(
+                                fontSize: textSize + 6,
+                                color: Theme.of(context).primaryColor,
+                              ),
+                              textDirection: textDirection,
                             ),
                           ),
-                        ),
-                        TextButton(
-                          onPressed: () {
-                            ref
-                                .read(answeredQuestionsProvider.notifier)
-                                .reset();
-                            Navigator.pop(context);
-                          },
-                          child: Text(
-                            'Reset',
+                          content: Text(
+                            isKurdish
+                                ? 'دڵنیایت دەتەوێت لە سەرەتاوە دەست پێبکەیت؟'
+                                : 'Are you sure you want to reset your progress?',
                             style: TextStyle(
-                              color: Colors.red,
-                              fontSize: textSize,
+                              color: Theme.of(context).primaryColor,
+                              fontSize: textSize + 2,
                             ),
+                            textDirection: textDirection,
                           ),
+                          actions: [
+                            TextButton(
+                              onPressed: () => Navigator.pop(context),
+                              child: Text(
+                                isKurdish ? 'نەخێر' : 'No',
+                                style: TextStyle(
+                                  fontSize: textSize,
+                                  color: Colors.green,
+                                ),
+                              ),
+                            ),
+                            TextButton(
+                              onPressed: () {
+                                ref
+                                    .read(answeredQuestionsProvider.notifier)
+                                    .reset();
+                                Navigator.pop(context);
+                              },
+                              child: Text(
+                                isKurdish ? 'بەڵێ' : 'Yes',
+                                style: TextStyle(
+                                  fontSize: textSize,
+                                  color: Colors.red,
+                                ),
+                              ),
+                            ),
+                          ],
                         ),
-                      ],
+                      ),
                     ),
                   );
                 },
@@ -432,6 +455,17 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
     if (_hasAnswered) return; // Prevent multiple answers
     _hasAnswered = true; // Set the flag to prevent further answers
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    // Alignment alignment = language == AppLanguage.english
+    //     ? Alignment.topLeft
+    //     : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     bool isCorrect =
         userAnswer.trim().toLowerCase() == question.answer.trim().toLowerCase();
 
@@ -458,28 +492,43 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
               size: 60,
             ),
             const SizedBox(height: 10),
-            Text(
-              isCorrect ? 'Correct!' : 'Wrong!',
-              style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            Directionality(
+              textDirection: textDirection,
+              child: Text(
+                isKurdish
+                    ? isCorrect
+                        ? 'ڕاستە!'
+                        : 'هەڵە!'
+                    : isCorrect
+                        ? 'Correct!'
+                        : 'Wrong!',
+                style:
+                    const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              ),
             ),
             const SizedBox(height: 10),
-            Wrap(
-              children: [
-                const Text(
-                  'The correct answer is: ',
-                  style: TextStyle(
-                    fontSize: 18,
+            Directionality(
+              textDirection: textDirection,
+              child: Wrap(
+                children: [
+                  Text(
+                    isKurdish
+                        ? 'وەڵامی ڕاست بریتییە لە: '
+                        : 'The correct answer is: ',
+                    style: const TextStyle(
+                      fontSize: 18,
+                    ),
                   ),
-                ),
-                Text(
-                  // '${question.answer}',
-                  question.answer,
-                  style: const TextStyle(
-                    fontSize: 18,
-                    fontWeight: FontWeight.bold,
+                  Text(
+                    // '${question.answer}',
+                    question.answer,
+                    style: const TextStyle(
+                      fontSize: 18,
+                      fontWeight: FontWeight.bold,
+                    ),
                   ),
-                ),
-              ],
+                ],
+              ),
             ),
             const Spacer(),
             ElevatedButton(
@@ -487,7 +536,7 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
                 Navigator.pop(context);
                 _nextQuestion();
               },
-              child: const Text('Next Question'),
+              child: Text(isKurdish ? 'پرسیاری دواتر' : 'Next Question'),
             ),
           ],
         ),
@@ -496,6 +545,17 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
   }
 
   void _nextQuestion() {
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    // Alignment alignment = language == AppLanguage.english
+    //     ? Alignment.topLeft
+    //     : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     if (_currentIndex < _filteredQuestions.length - 1) {
       setState(() {
         _currentIndex++;
@@ -506,15 +566,19 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
       showDialog(
         context: context,
         builder: (context) => AlertDialog(
-          title: const Text('Quiz Completed'),
-          content: const Text('You have answered all selected questions.'),
+          title: Text(isKurdish ? 'کیوز تەواو بوو' : 'Quiz Completed'),
+          content: Directionality(
+              textDirection: textDirection,
+              child: Text(isKurdish
+                  ? 'هەموو پرسیارەکانت وەڵام داوەتەوە.'
+                  : 'You have answered all selected questions.')),
           actions: [
             TextButton(
               onPressed: () {
                 Navigator.pop(context);
                 Routemaster.of(context).pop();
               },
-              child: const Text('OK'),
+              child: Text(isKurdish ? 'باشە' : 'OK'),
             ),
           ],
         ),
@@ -523,6 +587,17 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
   }
 
   void _onTimeUp() {
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    // Alignment alignment = language == AppLanguage.english
+    //     ? Alignment.topLeft
+    //     : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     if (_hasAnswered) return; // Prevent multiple triggers
     _hasAnswered = true; // Set the flag to prevent further answers
 
@@ -545,14 +620,23 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
               size: 60,
             ),
             const SizedBox(height: 10),
-            const Text(
-              'Time is up!',
-              style: TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+            Directionality(
+              textDirection: textDirection,
+              child: Text(
+                isKurdish ? 'کات تەواو بوو' : 'Time is up!',
+                style:
+                    const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
+              ),
             ),
             const SizedBox(height: 10),
-            Text(
-              'The correct answer is: ${currentQuestion.answer}',
-              style: const TextStyle(fontSize: 18),
+            Directionality(
+              textDirection: textDirection,
+              child: Text(
+                isKurdish
+                    ? 'وەڵامی ڕاست بریتییە لە: '
+                    : 'The correct answer is: ${currentQuestion.answer}',
+                style: const TextStyle(fontSize: 18),
+              ),
             ),
             const Spacer(),
             ElevatedButton(
@@ -560,7 +644,7 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
                 Navigator.pop(context);
                 _nextQuestion();
               },
-              child: const Text('Next Question'),
+              child: Text(isKurdish ? 'پرسیاری دواتر' : 'Next Question'),
             ),
           ],
         ),
@@ -570,6 +654,12 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
 
   @override
   Widget build(BuildContext context) {
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     if (_isLoading) {
       return const Scaffold(
         appBar: ZeetionaryAppbar(),
@@ -578,21 +668,20 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
     }
 
     if (_filteredQuestions.isEmpty) {
-      return const Scaffold(
-        appBar: ZeetionaryAppbar(),
+      return Scaffold(
+        appBar: const ZeetionaryAppbar(),
         body: Center(
-          child: Text('No more questions available.'),
+          child: Directionality(
+            textDirection: textDirection,
+            child: Text(isKurdish
+                ? 'پرسیاری دیکە بەردەست نییە.'
+                : 'No more questions available.'),
+          ),
         ),
       );
     }
 
     final currentQuestion = _filteredQuestions[_currentIndex];
-
-    final language = ref.watch(languageProvider);
-
-    // Determine text direction based on language
-    TextDirection textDirection =
-        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
 
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
@@ -739,8 +828,14 @@ class ClearPointsWidgets extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final textSize = ref.watch(textSizeProvider);
+
     final language = ref.watch(languageProvider);
     final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
 
 // Determine text direction based on language
     TextDirection textDirection =
@@ -753,48 +848,70 @@ class ClearPointsWidgets extends ConsumerWidget {
           // Show confirmation dialog
           showDialog(
             context: context,
-            builder: (context) => AlertDialog(
-              title: Text(
-                isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
-                style: TextStyle(
-                  color: Theme.of(context).primaryColor,
-                ),
-              ),
-              content: Text(
-                'Are you sure you want to reset your progress?',
-                style: TextStyle(
-                  color: Theme.of(context).primaryColor,
-                ),
-              ),
-              actions: [
-                TextButton(
-                  onPressed: () => Navigator.pop(context),
-                  child: const Text(
-                    'Cancel',
-                    style: TextStyle(
-                      color: Colors.green,
+            builder: (context) => Align(
+              alignment: alignment,
+              child: Directionality(
+                textDirection: textDirection,
+                child: AlertDialog(
+                  title: Directionality(
+                    textDirection: textDirection,
+                    child: Text(
+                      isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
+                      style: TextStyle(
+                        fontSize: textSize + 6,
+                        color: Theme.of(context).primaryColor,
+                      ),
+                      textDirection: textDirection,
                     ),
                   ),
-                ),
-                TextButton(
-                  onPressed: () {
-                    ref.read(answeredQuestionsProvider.notifier).reset();
-                    Navigator.pop(context);
-                  },
-                  child: const Text(
-                    'Reset',
+                  content: Text(
+                    isKurdish
+                        ? 'دڵنیایت دەتەوێت لە سەرەتاوە دەست پێبکەیت؟'
+                        : 'Are you sure you want to reset your progress?',
                     style: TextStyle(
-                      color: Colors.red,
+                      color: Theme.of(context).primaryColor,
+                      fontSize: textSize + 2,
                     ),
+                    textDirection: textDirection,
                   ),
+                  actions: [
+                    TextButton(
+                      onPressed: () => Navigator.pop(context),
+                      child: Text(
+                        isKurdish ? 'نەخێر' : 'No',
+                        style: TextStyle(
+                          fontSize: textSize,
+                          color: Colors.green,
+                        ),
+                      ),
+                    ),
+                    TextButton(
+                      onPressed: () {
+                        ref.read(answeredQuestionsProvider.notifier).reset();
+                        Navigator.pop(context);
+                      },
+                      child: Text(
+                        isKurdish ? 'بەڵێ' : 'Yes',
+                        style: TextStyle(
+                          fontSize: textSize,
+                          color: Colors.red,
+                        ),
+                      ),
+                    ),
+                  ],
                 ),
-              ],
+              ),
             ),
           );
         },
-        icon: Icon(
-          Icons.refresh,
-          color: Theme.of(context).primaryColor,
+        icon: Transform(
+          alignment: Alignment.center,
+          transform:
+              isKurdish ? Matrix4.rotationY(3.14159) : Matrix4.identity(),
+          child: Icon(
+            Icons.refresh,
+            color: Theme.of(context).primaryColor,
+          ),
         ),
         label: Text(
           isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
@@ -971,7 +1088,7 @@ class YouTubeVideosContainerEnd extends StatelessWidget {
   }
 }
 
-class QuestionWidget extends StatefulWidget {
+class QuestionWidget extends ConsumerStatefulWidget {
   final Question question;
   final Function(String?) onAnswer;
   final bool isLocked;
@@ -984,10 +1101,11 @@ class QuestionWidget extends StatefulWidget {
   });
 
   @override
-  State<QuestionWidget> createState() => _QuestionWidgetState();
+  ConsumerState<ConsumerStatefulWidget> createState() => _QuestionWidgetState();
 }
 
-class _QuestionWidgetState extends State<QuestionWidget> {
+class _QuestionWidgetState extends ConsumerState<QuestionWidget> {
+  _QuestionWidgetState();
   final TextEditingController _textController = TextEditingController();
   String? _userInput;
   YoutubePlayerController? _youtubeController;
@@ -1040,43 +1158,51 @@ class _QuestionWidgetState extends State<QuestionWidget> {
       final options = List<String>.from(widget.question.options!);
       options.shuffle();
 
-      return Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(widget.question.question,
-              style:
-                  const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-          const SizedBox(height: 20),
-          Expanded(
-            child: ListView.builder(
-              itemCount: options.length,
-              itemBuilder: (context, index) {
-                final option = options[index];
-                return GestureDetector(
-                  onTap: widget.isLocked ? null : () => _submitAnswer(option),
-                  child: Card(
-                    elevation: 2,
-                    margin: const EdgeInsets.symmetric(vertical: 8),
-                    shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(8)),
-                    child: Padding(
-                      padding: const EdgeInsets.all(16.0),
-                      child: Text(
-                        option,
-                        style: TextStyle(
-                          fontSize: 18,
-                          color: widget.isLocked
-                              ? Theme.of(context).highlightColor
-                              : Theme.of(context).primaryColor,
+      return Align(
+        alignment: Alignment.center, // Aligns the entire Column at the center
+
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(
+              widget.question.question,
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 20),
+            Expanded(
+              child: ListView.builder(
+                itemCount: options.length,
+                itemBuilder: (context, index) {
+                  final option = options[index];
+                  return GestureDetector(
+                    onTap: widget.isLocked ? null : () => _submitAnswer(option),
+                    child: Card(
+                      elevation: 2,
+                      margin: const EdgeInsets.symmetric(vertical: 8),
+                      shape: RoundedRectangleBorder(
+                          borderRadius: BorderRadius.circular(8)),
+                      child: Padding(
+                        padding: const EdgeInsets.all(16.0),
+                        child: Text(
+                          option,
+                          style: TextStyle(
+                            fontSize: 18,
+                            color: widget.isLocked
+                                ? Theme.of(context).highlightColor
+                                : Theme.of(context).primaryColor,
+                          ),
+                          textAlign: TextAlign.center,
                         ),
                       ),
                     ),
-                  ),
-                );
-              },
+                  );
+                },
+              ),
             ),
-          ),
-        ],
+          ],
+        ),
       );
     } else if (widget.question.type == QuestionType.fillInBlank) {
       return _buildFillInBlank();
@@ -1090,105 +1216,76 @@ class _QuestionWidgetState extends State<QuestionWidget> {
   }
 
   Widget _buildFillInBlank() {
-    return Column(
-      crossAxisAlignment: CrossAxisAlignment.start,
-      children: [
-        Text(widget.question.question,
-            style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold)),
-        const SizedBox(height: 20),
-        TextField(
-          controller: _textController,
-          decoration: InputDecoration(
-            focusedBorder: OutlineInputBorder(
-              borderSide: BorderSide(
-                color: Theme.of(context).highlightColor,
-                width: 1.5,
-              ),
-            ),
-            enabledBorder: OutlineInputBorder(
-              borderSide: BorderSide(
-                color: Theme.of(context).primaryColor,
-                width: 0.4,
-              ),
-            ),
-            border: const OutlineInputBorder(),
-            hintText: 'Answer here',
-            hintStyle: const TextStyle(fontSize: 18),
-            // labelText: 'Your Answer',
-          ),
-          enabled: !widget.isLocked,
-          onChanged: (value) {
-            if (!widget.isLocked) {
-              setState(() {
-                _userInput = value;
-              });
-            }
-          },
-          onSubmitted:
-              widget.isLocked ? null : (value) => _submitAnswer(_userInput),
-        ),
-        const SizedBox(height: 20),
-        ElevatedButton(
-          onPressed: (widget.isLocked ||
-                  _userInput == null ||
-                  _userInput!.trim().isEmpty)
-              ? null
-              : () => _submitAnswer(_userInput),
-          style: ElevatedButton.styleFrom(
-            shadowColor: Theme.of(context).highlightColor,
-            minimumSize: const Size(double.infinity, 50),
-          ),
-          child: Text(
-            'Submit',
-            style: TextStyle(
-              color: Theme.of(context).highlightColor,
-            ),
-          ),
-        ),
-      ],
-    );
-  }
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
 
-  Widget _buildVideoFillInBlank() {
-    return SingleChildScrollView(
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
+    return Align(
+      alignment: Alignment.center, // Aligns the entire Column at the center
+
       child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
+        // mainAxisAlignment: MainAxisAlignment.center,
+        crossAxisAlignment: CrossAxisAlignment.center,
         children: [
           Text(
             widget.question.question,
             style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+            textAlign: TextAlign.center,
           ),
-          const SizedBox(height: 30),
-          TextField(
-            controller: _textController,
-            decoration: InputDecoration(
-              focusedBorder: OutlineInputBorder(
-                borderSide: BorderSide(
-                  color: Theme.of(context).highlightColor,
-                  width: 1.5,
+          const SizedBox(height: 20),
+          Align(
+            alignment: alignment,
+            child: Directionality(
+              textDirection: textDirection,
+              child: TextField(
+                controller: _textController,
+                decoration: InputDecoration(
+                  focusedBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Theme.of(context).highlightColor,
+                      width: 1.5,
+                    ),
+                  ),
+                  enabledBorder: OutlineInputBorder(
+                    borderSide: BorderSide(
+                      color: Theme.of(context).primaryColor,
+                      width: 0.4,
+                    ),
+                  ),
+                  border: const OutlineInputBorder(),
+                  hintText: isKurdish ? "لێرە وەڵام بدەرەوە" : 'Answer here',
+                  hintStyle: const TextStyle(fontSize: 18),
+                  // labelText: 'Your Answer',
+                  suffixIcon: IconButton(
+                    icon: const Icon(Icons.clear),
+                    onPressed: () {
+                      _textController.clear();
+                      setState(() {
+                        _userInput = '';
+                      });
+                    },
+                  ),
                 ),
+                enabled: !widget.isLocked,
+                onChanged: (value) {
+                  if (!widget.isLocked) {
+                    setState(() {
+                      _userInput = value;
+                    });
+                  }
+                },
+                onSubmitted: widget.isLocked
+                    ? null
+                    : (value) => _submitAnswer(_userInput),
               ),
-              enabledBorder: OutlineInputBorder(
-                borderSide: BorderSide(
-                  color: Theme.of(context).primaryColor,
-                  width: 0.4,
-                ),
-              ),
-              border: const OutlineInputBorder(),
-              hintText: 'Answer here',
-              hintStyle: const TextStyle(fontSize: 18),
-              // labelText: 'Your Answer',
             ),
-            enabled: !widget.isLocked,
-            onChanged: (value) {
-              if (!widget.isLocked) {
-                setState(() {
-                  _userInput = value;
-                });
-              }
-            },
-            onSubmitted:
-                widget.isLocked ? null : (value) => _submitAnswer(_userInput),
           ),
           const SizedBox(height: 20),
           ElevatedButton(
@@ -1198,26 +1295,125 @@ class _QuestionWidgetState extends State<QuestionWidget> {
                 ? null
                 : () => _submitAnswer(_userInput),
             style: ElevatedButton.styleFrom(
+              shadowColor: Theme.of(context).highlightColor,
               minimumSize: const Size(double.infinity, 50),
             ),
             child: Text(
-              'Submit',
+              isKurdish ? "وەڵام بدەرەوە" : 'Submit',
               style: TextStyle(
                 color: Theme.of(context).highlightColor,
               ),
+              textAlign: TextAlign.center,
             ),
           ),
-          const SizedBox(height: 20),
-          if (_youtubeController != null)
-            SizedBox(
-              height: 300,
-              width: double.infinity,
-              child: QuizYoutubePlayer(
-                key: ValueKey(widget.question.videoId),
-                question: widget.question,
+        ],
+      ),
+    );
+  }
+
+  Widget _buildVideoFillInBlank() {
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
+    return SingleChildScrollView(
+      child: Align(
+        alignment: Alignment.center,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(
+              widget.question.question,
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 30),
+            Align(
+              alignment: alignment,
+              child: Directionality(
+                textDirection: textDirection,
+                child: TextField(
+                  controller: _textController,
+                  decoration: InputDecoration(
+                    focusedBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Theme.of(context).highlightColor,
+                        width: 1.5,
+                      ),
+                    ),
+                    enabledBorder: OutlineInputBorder(
+                      borderSide: BorderSide(
+                        color: Theme.of(context).primaryColor,
+                        width: 0.4,
+                      ),
+                    ),
+                    border: const OutlineInputBorder(),
+                    // hintText: 'Answer here',
+                    hintText: isKurdish ? 'لێرە وەڵام بدەرەوە' : 'Answer here',
+                    hintStyle: const TextStyle(fontSize: 18),
+                    // labelText: 'Your Answer',
+                    suffixIcon: IconButton(
+                      icon: const Icon(Icons.clear),
+                      onPressed: () {
+                        _textController.clear();
+                        setState(() {
+                          _userInput = '';
+                        });
+                      },
+                    ),
+                  ),
+                  enabled: !widget.isLocked,
+                  onChanged: (value) {
+                    if (!widget.isLocked) {
+                      setState(() {
+                        _userInput = value;
+                      });
+                    }
+                  },
+                  onSubmitted: widget.isLocked
+                      ? null
+                      : (value) => _submitAnswer(_userInput),
+                ),
               ),
             ),
-        ],
+            const SizedBox(height: 20),
+            ElevatedButton(
+              onPressed: (widget.isLocked ||
+                      _userInput == null ||
+                      _userInput!.trim().isEmpty)
+                  ? null
+                  : () => _submitAnswer(_userInput),
+              style: ElevatedButton.styleFrom(
+                minimumSize: const Size(double.infinity, 50),
+              ),
+              child: Text(
+                isKurdish ? 'وەڵام بدەرەوە' : 'Submit',
+                style: TextStyle(
+                  color: Theme.of(context).highlightColor,
+                ),
+                textAlign: TextAlign.center,
+              ),
+            ),
+            const SizedBox(height: 20),
+            if (_youtubeController != null)
+              SizedBox(
+                height: 300,
+                width: double.infinity,
+                child: QuizYoutubePlayer(
+                  key: ValueKey(widget.question.videoId),
+                  question: widget.question,
+                ),
+              ),
+          ],
+        ),
       ),
     );
   }
@@ -1227,56 +1423,62 @@ class _QuestionWidgetState extends State<QuestionWidget> {
     options.shuffle(); // Shuffle options for this question type
 
     return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          Text(
-            widget.question.question,
-            style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
-          ),
-          const SizedBox(height: 20),
-          ListView.builder(
-            itemCount: options.length,
-            shrinkWrap: true, // Important to avoid height issues
-            physics:
-                const NeverScrollableScrollPhysics(), // Disable inner scrolling
-            itemBuilder: (context, index) {
-              final option = options[index];
-              return GestureDetector(
-                onTap: widget.isLocked ? null : () => _submitAnswer(option),
-                child: Card(
-                  elevation: 2,
-                  margin: const EdgeInsets.symmetric(vertical: 8),
-                  shape: RoundedRectangleBorder(
-                    borderRadius: BorderRadius.circular(8),
-                  ),
-                  child: Padding(
-                    padding: const EdgeInsets.all(16.0),
-                    child: Text(
-                      option,
-                      style: TextStyle(
-                        fontSize: 18,
-                        color: widget.isLocked
-                            ? Theme.of(context).highlightColor
-                            : Theme.of(context).primaryColor,
+      child: Align(
+        alignment: Alignment.center,
+        child: Column(
+          mainAxisAlignment: MainAxisAlignment.center,
+          crossAxisAlignment: CrossAxisAlignment.center,
+          children: [
+            Text(
+              widget.question.question,
+              style: const TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
+              textAlign: TextAlign.center,
+            ),
+            const SizedBox(height: 20),
+            ListView.builder(
+              itemCount: options.length,
+              shrinkWrap: true, // Important to avoid height issues
+              physics:
+                  const NeverScrollableScrollPhysics(), // Disable inner scrolling
+              itemBuilder: (context, index) {
+                final option = options[index];
+                return GestureDetector(
+                  onTap: widget.isLocked ? null : () => _submitAnswer(option),
+                  child: Card(
+                    elevation: 2,
+                    margin: const EdgeInsets.symmetric(vertical: 8),
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                    child: Padding(
+                      padding: const EdgeInsets.all(16.0),
+                      child: Text(
+                        option,
+                        style: TextStyle(
+                          fontSize: 18,
+                          color: widget.isLocked
+                              ? Theme.of(context).highlightColor
+                              : Theme.of(context).primaryColor,
+                        ),
+                        textAlign: TextAlign.center,
                       ),
                     ),
                   ),
-                ),
-              );
-            },
-          ),
-          const SizedBox(height: 20),
-          if (_youtubeController != null)
-            SizedBox(
-              height: 300,
-              width: double.infinity,
-              child: QuizYoutubePlayer(
-                key: ValueKey(widget.question.videoId),
-                question: widget.question,
-              ),
+                );
+              },
             ),
-        ],
+            const SizedBox(height: 20),
+            if (_youtubeController != null)
+              SizedBox(
+                height: 300,
+                width: double.infinity,
+                child: QuizYoutubePlayer(
+                  key: ValueKey(widget.question.videoId),
+                  question: widget.question,
+                ),
+              ),
+          ],
+        ),
       ),
     );
   }

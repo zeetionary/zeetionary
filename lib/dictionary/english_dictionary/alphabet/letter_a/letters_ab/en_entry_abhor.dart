@@ -152,7 +152,7 @@ ${englishMeaningConst.text}
                       child: CustomColumnWidget(
                         children: [
                           const KurdishVocabulary(text: """
-کوردی: ڕق‌لێ‌بوون، بێزکردنەوە،
+کوردی: ڕق‌لێ‌بوون، بێزکردنەوە
 """),
                           const DefinitionKurdish(
                               text:

@@ -61,9 +61,9 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
         ? Alignment.topLeft
         : Alignment.topRight;
 
-    Alignment alignmenttwo = language == AppLanguage.english
-        ? Alignment.topRight
-        : Alignment.topLeft;
+    // Alignment alignmenttwo = language == AppLanguage.english
+    //     ? Alignment.topRight
+    //     : Alignment.topLeft;
 
     // Determine text direction based on language
     TextDirection textDirection =
@@ -280,9 +280,9 @@ class MyDrawer extends ConsumerWidget {
 
     final isKurdish = language == AppLanguage.kurdish;
 
-    Alignment alignment = language == AppLanguage.english
-        ? Alignment.topLeft
-        : Alignment.topRight;
+    // Alignment alignment = language == AppLanguage.english
+    //     ? Alignment.topLeft
+    //     : Alignment.topRight;
 
     // Determine text direction based on language
     TextDirection textDirection =

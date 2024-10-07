@@ -18,56 +18,74 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
 
   Future<void> clearKurdishHistory(BuildContext context) async {
     SharedPreferences prefs = await SharedPreferences.getInstance();
-        final textSize = ref.watch(textSizeProvider);
+    final textSize = ref.watch(textSizeProvider);
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
 
     // Show a dialog to confirm clearing kurdish history
     bool confirmClear = await showDialog(
       context: context,
       builder: (BuildContext context) {
         final textSize = ref.watch(textSizeProvider) + 2;
-        return AlertDialog(
-          title: Text(
-            'دڵنیایی‌ کردنەوە',
-            style: TextStyle(
-              fontSize: textSize + 4,
-            ),
-            textDirection: TextDirection.rtl,
-          ),
-          // content: const Text(''),
-          content: Text(
-            'دەتەوێت ھەموو گەڕانەکانی پێشوو بسڕیتەوە؟',
-            style: TextStyle(
-              fontSize: textSize,
-            ),
-            textDirection: TextDirection.rtl,
-          ),
-          actions: <Widget>[
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop(true);
-              },
-              child: Text(
-                'بەڵێ',
+        return Align(
+          alignment: alignment,
+          child: Directionality(
+            textDirection: textDirection,
+            child: AlertDialog(
+              title: Text(
+                isKurdish ? 'دڵنیایی کردنەوە' : 'Confirmation',
                 style: TextStyle(
-                  fontSize: textSize - 2,
-                  color: Colors.red,
+                  fontSize: textSize + 4,
                 ),
+                textDirection: textDirection,
               ),
-            ),
-            TextButton(
-              onPressed: () {
-                Navigator.of(context).pop(false);
-              },
-              child: Text(
-                'نەخێر',
+              // content: const Text(''),
+              content: Text(
+                isKurdish
+                    ? 'دەتەوێت ھەموو گەڕانەکانی پێشووی وشەی کوردی بسڕیتەوە؟'
+                    : 'Do you really want to clear Kurdish search history?',
                 style: TextStyle(
-                  fontSize: textSize - 2,
-                  color: Theme.of(context).primaryColor,
+                  fontSize: textSize,
                 ),
+                textDirection: textDirection,
               ),
+              actions: <Widget>[
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop(false);
+                  },
+                  child: Text(
+                    isKurdish ? 'نەخێر' : 'No',
+                    style: TextStyle(
+                      fontSize: textSize - 2,
+                      color: Theme.of(context).primaryColor,
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context).pop(true);
+                  },
+                  child: Text(
+                    isKurdish ? 'بەڵێ' : 'Yes',
+                    style: TextStyle(
+                      fontSize: textSize - 2,
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+              ],
             ),
-          ],
+          ),
         );
       },
     );
@@ -82,18 +100,17 @@ class _KurdishHistoryScreenState extends ConsumerState<KurdishHistoryScreen> {
       if (!context.mounted) return;
       ScaffoldMessenger.of(context).showSnackBar(
         SnackBar(
-            backgroundColor: Theme.of(context).canvasColor,
-            // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
+          backgroundColor: Theme.of(context).canvasColor,
+          // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
           showCloseIcon: true,
           closeIconColor: Theme.of(context).primaryColor,
           content: Directionality(
-            textDirection: TextDirection.rtl,
+            textDirection: textDirection,
             child: Text(
-              'مێژوو پاککرایەوە',
+              isKurdish ? 'مێژووی کوردی پاککرایەوە' : 'Kurdish history cleared',
               style: TextStyle(
                 color: Theme.of(context).primaryColor,
-                                          fontSize: textSize + 1,
-
+                fontSize: textSize + 1,
               ),
             ),
           ),

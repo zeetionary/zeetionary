@@ -18,13 +18,26 @@ class _EnglishEntrycrackdownState extends State<EnglishEntrycrackdown> {
     return DefaultTabController(
       length: 3,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
         body: NestedScrollView(
           headerSliverBuilder: (context, innerBoxIsScrolled) {
             return [
               const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
-                  background: EntryAndIPA(),
+                  background: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          height: 90,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            EntryAndIPA(),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
                 bottom: CustomTabBarNew(
                   tabs: [

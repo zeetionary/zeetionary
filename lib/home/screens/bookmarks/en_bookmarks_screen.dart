@@ -102,53 +102,72 @@ class _EnglishfavouritesScreenState
   }
 
   Future<void> _clearenglishfavourites() async {
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     // Show a confirmation dialog
     bool confirmed = await showDialog(
       context: context,
       builder: (BuildContext context) {
         final textSize = ref.watch(textSizeProvider) + 2;
 
-        return AlertDialog(
-          title: Text(
-            'Confirmation',
-            style: TextStyle(
-              fontSize: textSize + 4,
-            ),
-          ),
-          content: Text(
-            'Do you really want to clear all favourites?',
-            style: TextStyle(
-              fontSize: textSize,
-            ),
-          ),
-          actions: <Widget>[
-            TextButton(
-              onPressed: () {
-                Navigator.of(context)
-                    .pop(false); // Dismiss the dialog and return false
-              },
-              child: Text(
-                'No',
+        return Align(
+          alignment: alignment,
+          child: Directionality(
+            textDirection: textDirection,
+            child: AlertDialog(
+              title: Text(
+                isKurdish ? 'دڵنیایی کردنەوە' : 'Confirmation',
                 style: TextStyle(
-                  fontSize: textSize - 2,
-                  color: Theme.of(context).primaryColor,
+                  fontSize: textSize + 4,
                 ),
               ),
-            ),
-            TextButton(
-              onPressed: () {
-                Navigator.of(context)
-                    .pop(true); // Dismiss the dialog and return true
-              },
-              child: Text(
-                'Yes',
+              content: Text(
+                isKurdish
+                    ? 'دەتەوێت ھەموو وشە ئینگلیزییە دڵخوازەکان بسڕیتەوە؟'
+                    : 'Do you really want to clear all English favourites?',
                 style: TextStyle(
-                  fontSize: textSize - 2,
-                  color: Colors.red,
+                  fontSize: textSize,
                 ),
               ),
+              actions: <Widget>[
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context)
+                        .pop(false); // Dismiss the dialog and return false
+                  },
+                  child: Text(
+                    isKurdish ? 'نەخێر' : 'No',
+                    style: TextStyle(
+                      fontSize: textSize - 2,
+                      color: Theme.of(context).primaryColor,
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {
+                    Navigator.of(context)
+                        .pop(true); // Dismiss the dialog and return true
+                  },
+                  child: Text(
+                    isKurdish ? 'بەڵێ' : 'Yes',
+                    style: TextStyle(
+                      fontSize: textSize - 2,
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+              ],
             ),
-          ],
+          ),
         );
       },
     );
@@ -174,11 +193,15 @@ class _EnglishfavouritesScreenState
             // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
-            content: Text(
-              'Favourites cleared',
-              style: TextStyle(
-                fontSize: textSize + 1,
-                color: Theme.of(context).primaryColor,
+            content: Directionality(
+              textDirection: textDirection,
+
+              child: Text(
+                isKurdish ? 'دڵخوازەکان سڕانەوە' : 'Favourites cleared',
+                style: TextStyle(
+                  fontSize: textSize + 1,
+                  color: Theme.of(context).primaryColor,
+                ),
               ),
             ),
             behavior: SnackBarBehavior.floating,

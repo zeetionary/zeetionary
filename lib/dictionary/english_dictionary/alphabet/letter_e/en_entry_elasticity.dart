@@ -29,7 +29,21 @@ class _EnglishEntryelasticityState extends State<EnglishEntryelasticity> {
             return [
               const CustomSliverAppBar(
                 flexibleSpace: FlexibleSpaceBar(
-                  background: EntryAndIPA(),
+                  background: SingleChildScrollView(
+                    child: Column(
+                      children: [
+                        SizedBox(
+                          height: 90,
+                        ),
+                        Column(
+                          crossAxisAlignment: CrossAxisAlignment.start,
+                          children: [
+                            EntryAndIPA(),
+                          ],
+                        ),
+                      ],
+                    ),
+                  ),
                 ),
                 bottom: CustomTabBarNew(
                   tabs: [

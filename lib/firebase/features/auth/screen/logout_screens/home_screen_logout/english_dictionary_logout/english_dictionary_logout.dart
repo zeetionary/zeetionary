@@ -4,8 +4,8 @@ import 'dart:math';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:shared_preferences/shared_preferences.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
-import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/english_dictionary_logout/english_dictionary_list_logout.dart';
-import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/english_dictionary_logout/english_dictionary_navigation_logout.dart';
+import 'package:zeetionary/firebase/features/auth/screen/logout_screens/home_screen_logout/english_dictionary_logout/english_dictionary_list_logout.dart';
+import 'package:zeetionary/firebase/features/auth/screen/logout_screens/home_screen_logout/english_dictionary_logout/english_dictionary_navigation_logout.dart';
 
 class DictionaryScreenEnglishLogout extends ConsumerStatefulWidget {
   const DictionaryScreenEnglishLogout({super.key});
@@ -62,6 +62,17 @@ class _DictionaryScreenEnglishLogoutState
     final prefs = await SharedPreferences.getInstance();
     final textSize = ref.watch(textSizeProvider);
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     setState(() {
       final englishFavouritesList =
           prefs.getStringList('english favourites')?.toSet() ?? {};
@@ -76,11 +87,19 @@ class _DictionaryScreenEnglishLogoutState
             // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
-            content: Text(
-              'Favourite removed: $wordWithoutTimestamp',
-              style: TextStyle(
-                color: Theme.of(context).primaryColor,
-                fontSize: textSize + 1,
+            content: Align(
+              alignment: alignment,
+              child: Directionality(
+                textDirection: textDirection,
+                child: Text(
+                  isKurdish
+                      ? 'وشەی دڵخواز سڕایەوە: $wordWithoutTimestamp'
+                      : 'Favourite removed: $wordWithoutTimestamp',
+                  style: TextStyle(
+                    color: Theme.of(context).primaryColor,
+                    fontSize: textSize + 1,
+                  ),
+                ),
               ),
             ),
             behavior: SnackBarBehavior.floating,
@@ -94,11 +113,19 @@ class _DictionaryScreenEnglishLogoutState
             // backgroundColor: Theme.of(context).scaffoldBackgroundColor,
             showCloseIcon: true,
             closeIconColor: Theme.of(context).primaryColor,
-            content: Text(
-              'Favourite added: $wordWithoutTimestamp',
-              style: TextStyle(
-                color: Theme.of(context).primaryColor,
-                fontSize: textSize + 1,
+            content: Align(
+              alignment: alignment,
+              child: Directionality(
+                textDirection: textDirection,
+                child: Text(
+                  isKurdish
+                      ? 'وشەی دڵخواز زیاد کرا: $wordWithoutTimestamp'
+                      : 'Favourite added: $wordWithoutTimestamp',
+                  style: TextStyle(
+                    color: Theme.of(context).primaryColor,
+                    fontSize: textSize + 1,
+                  ),
+                ),
               ),
             ),
             behavior: SnackBarBehavior.floating,

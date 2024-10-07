@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
+import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/theme/pallete.dart';
 import 'package:zeetionary/firebase/core/common/loader.dart';
 import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
@@ -16,6 +17,25 @@ class LoginScreen extends ConsumerWidget {
   @override
   Widget build(BuildContext context, WidgetRef ref) {
     final isLoading = ref.watch(authControllerProvider);
+
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    // Alignment alignment = language == AppLanguage.english
+    //     ? Alignment.topLeft
+    //     : Alignment.topRight;
+
+    Alignment alignmenttwo = language == AppLanguage.english
+        ? Alignment.topRight
+        : Alignment.topLeft;
+
+    // Determine text direction based on language
+    // TextDirection textDirection =
+    //     language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
+    // Determine text direction based on language
+    TextDirection textDirectiontwo =
+        language == AppLanguage.english ? TextDirection.rtl : TextDirection.ltr;
 
     return Scaffold(
       // appBar: AppBar(
@@ -55,21 +75,29 @@ class LoginScreen extends ConsumerWidget {
                 const SizedBox(height: 20),
                 Padding(
                   padding: const EdgeInsets.all(18.0),
-                  child: ElevatedButton.icon(
-                    onPressed: () => signInWithGoogle(context, ref),
-                    icon: Image.asset(
-                      Constants.googlePath,
-                      width: 52,
-                    ),
-                    label: const Text(
-                      'بچۆ ژوورەوە بە گووگڵ',
-                      style: TextStyle(fontSize: 20, color: Colors.white),
-                    ),
-                    style: ElevatedButton.styleFrom(
-                      backgroundColor: Pallete.greyColor,
-                      minimumSize: const Size(double.infinity, 60),
-                      shape: RoundedRectangleBorder(
-                        borderRadius: BorderRadius.circular(20),
+                  child: Align(
+                    alignment: alignmenttwo,
+                    child: Directionality(
+                      textDirection: textDirectiontwo,
+                      child: ElevatedButton.icon(
+                        onPressed: () => signInWithGoogle(context, ref),
+                        icon: Image.asset(
+                          Constants.googlePath,
+                          width: 52,
+                        ),
+                        label: Text(
+                          isKurdish
+                              ? 'بچۆ ژوورەوە بە گووگڵ'
+                              : 'Sign in with Google',
+                          style: const TextStyle(fontSize: 20, color: Colors.white),
+                        ),
+                        style: ElevatedButton.styleFrom(
+                          backgroundColor: Pallete.greyColor,
+                          minimumSize: const Size(double.infinity, 60),
+                          shape: RoundedRectangleBorder(
+                            borderRadius: BorderRadius.circular(20),
+                          ),
+                        ),
                       ),
                     ),
                   ),

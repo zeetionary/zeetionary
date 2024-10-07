@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "question": "Choose the correct form of the verb: She ___ to the market every Saturday.",
+    "question": "Choose the correct form of the verb:\n\nShe ___ to the market every Saturday.",
     "options": ["goes", "go", "gone", "going"],
     "answer": "goes",
     "tags": ["grammar", "easy"],
@@ -9,7 +9,7 @@
   },
   {
     "id": 2,
-    "question": "Fill in the blank: I have lived here ___ five years.",
+    "question": "Fill in the blank:\n\nI have lived here ___ five years.",
     "options": null,
     "answer": "for",
     "tags": ["grammar", "fill_in_blank", "medium"],
@@ -17,7 +17,7 @@
   },
   {
     "id": 3,
-    "question": "Watch the video and fill in the blank: Are you ___ with this?",
+    "question": "Watch the video and fill in the blank:\n\nAre you ___ with this?",
     "videoId": "XZVHmRvfDHM",
     "start": 11,
     "end": 15,

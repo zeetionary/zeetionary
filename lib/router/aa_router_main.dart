@@ -2,7 +2,13 @@
 
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
-import 'package:zeetionary/firebase/features/auth/screen/home_screen_logout/home_screen_logout.dart';
+import 'package:zeetionary/firebase/features/auth/screen/logout_screens/home_screen_logout/home_screen_logout.dart';
+import 'package:zeetionary/firebase/features/auth/screen/logout_screens/logout_settings/logout_settings.dart';
+
+
+
+
+
 import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/home/screens/reddit/reddit_slides.dart';
 import 'package:zeetionary/quiz/quiz_screen_three/quiz_screen_three.dart';
@@ -169,6 +175,8 @@ Map<String, PageBuilder> getRoutesMainTwo() {
     "/english-sentences-page": (_) => _blP(const SentencesPage()),
     //
     "/settings-screen": (_) => _blP(const SettingsPage()),
+    //
+    "/settings-screen-logout": (_) => _blP(const SettingsPageLogout()),
     //
     '/quiz-screen': (_) => _blP(QuizScreen()),
     //

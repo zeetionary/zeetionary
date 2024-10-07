@@ -157,6 +157,18 @@ class _CustomFeedbackFormState extends ConsumerState<CustomFeedbackForm> {
   Widget build(BuildContext context) {
     // final currentTheme = ref.watch(themeNotifierProvider);
     final textSize = ref.watch(textSizeProvider) + 10;
+
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     return Column(
       children: [
         Expanded(
@@ -174,37 +186,44 @@ class _CustomFeedbackFormState extends ConsumerState<CustomFeedbackForm> {
                       // canvasColor: Colors.white,
                       canvasColor: Theme.of(context).scaffoldBackgroundColor,
                     ),
-                    child: DropdownButton<String>(
-                      iconEnabledColor: Colors.blue[300],
-                      value: selectedBugType,
-                      hint: Text(
-                        "Feedback type",
-                        style: TextStyle(
-                          color: Colors.blue[300],
-                          fontSize: textSize - 6,
-                        ),
-                      ),
-                      items: <String>[
-                        'Translation Error',
-                        'Android bug',
-                        'iOS bug',
-                        'Other',
-                      ].map((String value) {
-                        return DropdownMenuItem<String>(
-                          value: value,
-                          child: Text(
-                            value,
+                    child: Align(
+                      alignment: alignment,
+                      child: Directionality(
+                        textDirection: textDirection,
+                        child: DropdownButton<String>(
+                          iconEnabledColor: Colors.blue[300],
+                          value: selectedBugType,
+                          hint: Text(
+                            isKurdish ? 'جۆری فیدباک' : "Feedback type",
                             style: TextStyle(
                               color: Colors.blue[300],
+                              fontSize: textSize - 6,
                             ),
                           ),
-                        );
-                      }).toList(),
-                      onChanged: (newValue) {
-                        setState(() {
-                          selectedBugType = newValue;
-                        });
-                      },
+                          items: <String>[
+                            isKurdish ? 'هەڵەی وەرگێڕان' : 'Translation Error',
+                            isKurdish ? 'هەڵەی ڕێنووس' : 'Typo',
+                            isKurdish ? 'کێشەی ئەندرۆید' : 'Android bug',
+                            isKurdish ? 'کێشەی ئای‌ئۆ‌ئێس' : 'iOS bug',
+                            isKurdish ? 'شتی تر' : 'Other',
+                          ].map((String value) {
+                            return DropdownMenuItem<String>(
+                              value: value,
+                              child: Text(
+                                value,
+                                style: TextStyle(
+                                  color: Colors.blue[300],
+                                ),
+                              ),
+                            );
+                          }).toList(),
+                          onChanged: (newValue) {
+                            setState(() {
+                              selectedBugType = newValue;
+                            });
+                          },
+                        ),
+                      ),
                     ),
                   ),
                   const SizedBox(
@@ -217,31 +236,39 @@ class _CustomFeedbackFormState extends ConsumerState<CustomFeedbackForm> {
                   //     fontSize: textSize,
                   //   ),
                   // ),
-                  TextField(
-                    decoration: InputDecoration(
-                      enabledBorder: const OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Color.fromARGB(63, 33, 149,
-                              243), // Define border color when not focused
-                          width: 1.5,
+                  Align(
+                    alignment: alignment,
+                    child: Directionality(
+                      textDirection: textDirection,
+                      child: TextField(
+                        decoration: InputDecoration(
+                          enabledBorder: const OutlineInputBorder(
+                            borderSide: BorderSide(
+                              color: Color.fromARGB(63, 33, 149,
+                                  243), // Define border color when not focused
+                              width: 1.5,
+                            ),
+                          ),
+                          focusedBorder: const OutlineInputBorder(
+                            borderSide: BorderSide(
+                              color: Color.fromARGB(63, 33, 149,
+                                  243), // Define border color when focused
+                              width: 1.5,
+                            ),
+                          ),
+                          hintText: isKurdish
+                              ? 'ڕوونکردنەوە بنووسە'
+                              : "Type explanation",
+                          hintStyle: TextStyle(
+                            color: Colors.blue[300],
+                            fontSize: textSize - 6,
+                          ),
                         ),
-                      ),
-                      focusedBorder: const OutlineInputBorder(
-                        borderSide: BorderSide(
-                          color: Color.fromARGB(63, 33, 149,
-                              243), // Define border color when focused
-                          width: 1.5,
-                        ),
-                      ),
-                      hintText: "Type explanation",
-                      hintStyle: TextStyle(
-                        color: Colors.blue[300],
-                        fontSize: textSize - 6,
+                        maxLines: null,
+                        onChanged: (newFeedback) =>
+                            _customFeedback.feedbackText = newFeedback,
                       ),
                     ),
-                    maxLines: null,
-                    onChanged: (newFeedback) =>
-                        _customFeedback.feedbackText = newFeedback,
                   ),
                 ],
               ),
@@ -290,14 +317,14 @@ class _CustomFeedbackFormState extends ConsumerState<CustomFeedbackForm> {
             foregroundColor: WidgetStateProperty.resolveWith<Color>(
               (Set<WidgetState> states) {
                 if (states.contains(WidgetState.disabled)) {
-                  return Colors.green; // Green color when disabled
+                  return Colors.grey; // Green color when disabled
                 }
-                return Colors.blue[300]!; // Light blue color when enabled
+                return Colors.blue[300]!;
               },
             ),
           ),
           child: Text(
-            'Submit',
+            isKurdish ? 'بینێرە' : 'Submit',
             style: TextStyle(
               fontSize: textSize - 3,
             ),

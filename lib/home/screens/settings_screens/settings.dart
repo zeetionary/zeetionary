@@ -9,6 +9,41 @@ import 'package:zeetionary/firebase/core/utils.dart';
 import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dart';
 // import 'dart:ui' as ui; // Add this import
 
+//
+//
+//
+//
+//
+//
+//
+//
+
+// Define supported languages
+enum AppLanguage { english, kurdish }
+
+// LanguageNotifier manages the current language state
+class LanguageNotifier extends StateNotifier<AppLanguage> {
+  LanguageNotifier() : super(AppLanguage.english);
+
+  void setLanguage(AppLanguage language) {
+    state = language;
+  }
+}
+
+// Define a provider for the LanguageNotifier
+final languageProvider = StateNotifierProvider<LanguageNotifier, AppLanguage>(
+  (ref) => LanguageNotifier(),
+);
+
+//
+//
+//
+//
+//
+//
+//
+//
+
 // Theme Provider (zee; created system follow theme) https://chat.openai.com/c/e0708e57-3dee-4ffb-91b0-2b6358190057
 
 // Theme Provider
@@ -231,163 +266,299 @@ class SettingsPage extends ConsumerWidget {
     final themeMode = ref.watch(themeProvider);
     final textSize = ref.watch(textSizeProvider);
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    Alignment alignmenttwo = language == AppLanguage.english
+        ? Alignment.topRight
+        : Alignment.topLeft;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
+    // Language options
+    // final languages = {
+    //   AppLanguage.english: 'English',
+    //   AppLanguage.kurdish: 'کوردی',
+    // };
+
+    // Define the drawer
+    // final drawer = AppDrawer();
+
+    // // Language options
+    // final languages = {
+    //   AppLanguage.english: 'English',
+    //   AppLanguage.kurdish: 'کوردی',
+    // };
+
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
       body: Column(
         children: [
-          ExpansionTile(
-            leading: Icon(
-              Icons.text_increase,
-              // Icons.text_fields,
-              color: Theme.of(context).primaryColor,
-            ),
-            title: Text(
-              'Text Size',
-              style: TextStyle(
-                fontSize: textSize + 2,
-              ),
-            ),
-            initiallyExpanded: isSliderExpanded,
-            onExpansionChanged: (expanded) =>
-                ref.read(isSliderExpandedProvider.notifier).state = expanded,
-            children: [
-              const SizedBox(
-                height: 10,
-              ),
-              SliderTheme(
-                data: SliderThemeData(
-                  activeTrackColor: Colors.blue.withOpacity(0.8),
-                  inactiveTrackColor:
-                      Theme.of(context).primaryColor.withOpacity(0.3),
-                  thumbColor: Theme.of(context).primaryColor.withOpacity(0.7),
-                  overlayColor: Theme.of(context).primaryColor.withOpacity(0.6),
-                  thumbShape:
-                      const RoundSliderThumbShape(enabledThumbRadius: 8),
+          Align(
+            alignment: alignment,
+            child: Directionality(
+              textDirection: textDirection,
+              child: ExpansionTile(
+                leading: Icon(
+                  Icons.text_increase,
+                  // Icons.text_fields,
+                  color: Theme.of(context).primaryColor,
                 ),
-                child: TextSizeSlider(
-                  value: ref.watch(textSizeProvider),
-                  onChanged: (newSize) => updateTextSize(ref, newSize),
+                title: Text(
+                  isKurdish ? 'قەبارەی وشە' : 'Text Size',
+                  style: TextStyle(
+                    fontSize: textSize + 2,
+                  ),
                 ),
+                initiallyExpanded: isSliderExpanded,
+                onExpansionChanged: (expanded) => ref
+                    .read(isSliderExpandedProvider.notifier)
+                    .state = expanded,
+                children: [
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  SliderTheme(
+                    data: SliderThemeData(
+                      activeTrackColor: Colors.blue.withOpacity(0.8),
+                      inactiveTrackColor:
+                          Theme.of(context).primaryColor.withOpacity(0.3),
+                      thumbColor:
+                          Theme.of(context).primaryColor.withOpacity(0.7),
+                      overlayColor:
+                          Theme.of(context).primaryColor.withOpacity(0.6),
+                      thumbShape:
+                          const RoundSliderThumbShape(enabledThumbRadius: 8),
+                    ),
+                    child: TextSizeSlider(
+                      value: ref.watch(textSizeProvider),
+                      onChanged: (newSize) => updateTextSize(ref, newSize),
+                    ),
+                  ),
+                ],
               ),
-            ],
+            ),
           ),
           // const SizedBox(
           //   height: 20,
           // ),
-          ExpansionTile(
-            leading: Icon(
-              Icons.dark_mode,
-              // Icons.wb_sunny,
-              color: Theme.of(context).primaryColor,
-            ),
-            title: Text(
-              'Select Theme',
-              style: TextStyle(
-                fontSize: textSize + 2,
-              ),
-              // style: TextStyle(
-              //   color: Theme.of(context).primaryColor.withOpacity(0.9),
-              // ),
-            ),
-            initiallyExpanded: true,
-            children: [
-              const SizedBox(
-                height: 10,
-              ),
-              SingleChildScrollView(
-                scrollDirection: Axis.horizontal,
-                child: Row(
-                  mainAxisAlignment: MainAxisAlignment.spaceEvenly,
-                  children: ThemeMode.values.map((mode) {
-                    return ElevatedButton(
-                      onPressed: () {
-                        themeNotifier.setThemeMode(mode);
-                      },
-                      style: ElevatedButton.styleFrom(
-                        backgroundColor: themeMode == mode
-                            ? Colors.blue.withOpacity(0.4)
-                            : null,
-                        // : Colors.blue.withOpacity(0.2),
-                      ),
-                      child: Text(
-                        _getThemeDisplayName(mode),
-                        style: TextStyle(
-                          fontSize: textSize - 2,
-                          color:
-                              Theme.of(context).primaryColor.withOpacity(0.9),
-                        ),
-                      ),
-                    );
-                  }).toList(),
+          Align(
+            alignment: alignment,
+            child: Directionality(
+              textDirection: textDirection,
+              child: ExpansionTile(
+                leading: Icon(
+                  Icons.dark_mode,
+                  // Icons.wb_sunny,
+                  color: Theme.of(context).primaryColor,
                 ),
+                title: Text(
+                  isKurdish ? 'دۆخ هەڵبژێرە' : 'Select Theme',
+                  style: TextStyle(
+                    fontSize: textSize + 2,
+                  ),
+                  // style: TextStyle(
+                  //   color: Theme.of(context).primaryColor.withOpacity(0.9),
+                  // ),
+                ),
+                initiallyExpanded: true,
+                children: [
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: ThemeMode.values.map((mode) {
+                        return ElevatedButton(
+                          onPressed: () {
+                            themeNotifier.setThemeMode(mode);
+                          },
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: themeMode == mode
+                                ? Colors.blue.withOpacity(0.4)
+                                : null,
+                            // : Colors.blue.withOpacity(0.2),
+                          ),
+                          child: Text(
+                            _getThemeDisplayName(mode, language),
+                            style: TextStyle(
+                              fontSize: textSize - 2,
+                              color: Theme.of(context)
+                                  .primaryColor
+                                  .withOpacity(0.9),
+                            ),
+                          ),
+                        );
+                      }).toList(),
+                    ),
+                  ),
+                ],
               ),
-            ],
+            ),
+          ),
+          //
+          //
+          //
+          //
+          Align(
+            alignment: alignment,
+            child: Directionality(
+              textDirection: textDirection,
+              child: ExpansionTile(
+                leading: Icon(
+                  Icons.text_increase,
+                  // Icons.text_fields,
+                  color: Theme.of(context).primaryColor,
+                ),
+                title: Text(
+                  isKurdish ? 'زمان' : 'Language',
+                  style: TextStyle(
+                    fontSize: textSize + 2,
+                  ),
+                ),
+                initiallyExpanded: isSliderExpanded,
+                onExpansionChanged: (expanded) => ref
+                    .read(isSliderExpandedProvider.notifier)
+                    .state = expanded,
+                children: [
+                  const SizedBox(
+                    height: 10,
+                  ),
+                  SingleChildScrollView(
+                    scrollDirection: Axis.horizontal,
+                    child: Row(
+                      mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+                      children: AppLanguage.values.map((lang) {
+                        return ElevatedButton(
+                          onPressed: () {
+                            ref
+                                .read(languageProvider.notifier)
+                                .setLanguage(lang);
+                          },
+                          style: ElevatedButton.styleFrom(
+                            backgroundColor: language == lang
+                                ? (lang == AppLanguage.english
+                                    ? Colors.blue.withOpacity(0.4)
+                                    : null)
+                                // : Colors.pink.withOpacity(0.4))
+                                : null,
+                          ),
+                          child: Text(
+                            lang == AppLanguage.english ? 'English' : 'کوردی',
+                            style: TextStyle(
+                              fontSize: textSize - 2,
+                              color: Theme.of(context)
+                                  .primaryColor
+                                  .withOpacity(0.9),
+                            ),
+                          ),
+                        );
+                      }).toList(),
+                    ),
+                  ),
+                ],
+              ),
+            ),
           ),
           // const SizedBox(
           //   height: 30,
           // ),
-          ExpansionTile(
-            leading: const Icon(
-              Icons.logout,
-              color: Colors.red,
-            ),
-            title: Text(
-              'Log Out or Delete Account',
-              style: TextStyle(
-                fontSize: textSize + 2,
-                color: Colors.red,
-              ),
-            ),
-            initiallyExpanded: isLogoutExpanded,
-            onExpansionChanged: (expanded) =>
-                ref.read(isLogoutExpandedProvider.notifier).state = expanded,
-            children: [
-              const SizedBox(
-                height: 10,
-              ),
-              ListTile(
+          Align(
+            alignment: alignment,
+            child: Directionality(
+              textDirection: textDirection,
+              child: ExpansionTile(
+                leading: const Icon(
+                  Icons.logout,
+                  color: Colors.red,
+                ),
                 title: Text(
-                  'Tap to log out',
+                  isKurdish
+                      ? 'بچۆ دەرەوە یان هەژمارەکەت بسڕەوە'
+                      : 'Log Out or Delete Account',
                   style: TextStyle(
-                    fontSize: textSize,
+                    fontSize: textSize + 2,
                     color: Colors.red,
                   ),
                 ),
-                // leading: const Icon(
-                //   Icons.logout,
-                //   color: Colors.red,
-                // ),
-                // onTap: () => logOut(ref),
-                onTap: () {
-                  logOut(ref);
-                  Routemaster.of(context).pop("/settings-screen");
-                },
-              ),
-              ListTile(
-                title: Text(
-                  'Tap to delete account',
-                  style: TextStyle(
-                    fontSize: textSize,
-                    color: Colors.red,
+                initiallyExpanded: isLogoutExpanded,
+                onExpansionChanged: (expanded) => ref
+                    .read(isLogoutExpandedProvider.notifier)
+                    .state = expanded,
+                children: [
+                  const SizedBox(
+                    height: 10,
                   ),
-                ),
-                onTap: () => showDeleteConfirmationDialog(context, ref),
+                  ListTile(
+                    title: Text(
+                      isKurdish
+                          ? 'ئێرە دابگرە بۆ چوونە دەرەوە'
+                          : 'Tap to log out',
+                      style: TextStyle(
+                        fontSize: textSize,
+                        color: Colors.red,
+                      ),
+                    ),
+                    // leading: const Icon(
+                    //   Icons.logout,
+                    //   color: Colors.red,
+                    // ),
+                    // onTap: () => logOut(ref),
+                    onTap: () {
+                      logOut(ref);
+                      Routemaster.of(context).pop("/settings-screen");
+                    },
+                  ),
+                  ListTile(
+                    title: Text(
+                      isKurdish
+                          ? "ئێرە دابگرە بۆ سڕینەوەی هەژمار"
+                          : 'Tap to delete account',
+                      style: TextStyle(
+                        fontSize: textSize,
+                        color: Colors.red,
+                      ),
+                    ),
+                    onTap: () => showDeleteConfirmationDialog(context, ref),
+                  ),
+                ],
               ),
-            ],
+            ),
           ),
         ],
       ),
     );
   }
 
-  String _getThemeDisplayName(ThemeMode mode) {
+  // String _getThemeDisplayName(ThemeMode mode) {
+  //   switch (mode) {
+  //     case ThemeMode.system:
+  //       return 'System';
+  //     case ThemeMode.light:
+  //       return 'Light';
+  //     case ThemeMode.dark:
+  //       return 'Dark';
+  //     default:
+  //       return '';
+  //   }
+  // }
+
+  String _getThemeDisplayName(ThemeMode mode, AppLanguage language) {
     switch (mode) {
       case ThemeMode.system:
-        return 'System';
+        return language == AppLanguage.english ? 'System' : 'سیستەم';
       case ThemeMode.light:
-        return 'Light';
+        return language == AppLanguage.english ? 'Light' : 'ڕۆشن';
       case ThemeMode.dark:
-        return 'Dark';
+        return language == AppLanguage.english ? 'Dark' : 'تاریک';
       default:
         return '';
     }

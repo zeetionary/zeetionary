@@ -351,28 +351,28 @@ class MyDrawer extends StatelessWidget {
                     // const SizedBox(
                     //   height: 5,
                     // ),
+                    // ListTile(
+                    //   title: Text(
+                    //     "Quiz",
+                    //     style: TextStyle(
+                    //       fontSize: textSize + 3,
+                    //       color: Theme.of(context).primaryColor,
+                    //     ),
+                    //   ),
+                    //   leading: Icon(
+                    //     Icons.quiz,
+                    //     color: Theme.of(context).primaryColor,
+                    //   ),
+                    //   onTap: () {
+                    //     Routemaster.of(context).push('/quiz-screen');
+                    //   },
+                    // ),
+                    // const SizedBox(
+                    //   height: 5,
+                    // ),
                     ListTile(
                       title: Text(
                         "Quiz",
-                        style: TextStyle(
-                          fontSize: textSize + 3,
-                          color: Theme.of(context).primaryColor,
-                        ),
-                      ),
-                      leading: Icon(
-                        Icons.quiz,
-                        color: Theme.of(context).primaryColor,
-                      ),
-                      onTap: () {
-                        Routemaster.of(context).push('/quiz-screen');
-                      },
-                    ),
-                    const SizedBox(
-                      height: 5,
-                    ),
-                    ListTile(
-                      title: Text(
-                        "Quiz two",
                         style: TextStyle(
                           fontSize: textSize + 3,
                           color: Theme.of(context).primaryColor,

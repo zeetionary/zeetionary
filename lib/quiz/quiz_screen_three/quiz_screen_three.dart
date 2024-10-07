@@ -40,7 +40,7 @@ class Question {
     this.end,
   });
 
-  factory Question.fromJson(Map<String, dynamic> json) {
+  factory Question.fromJson(Map<String, dynamic> json, AppLanguage language) {
     QuestionType qType;
     switch (json['type']) {
       case 'multiple_choice':
@@ -59,13 +59,18 @@ class Question {
         qType = QuestionType.multipleChoice;
     }
 
+    List<String> originalTags = List<String>.from(json['tags']);
+
+    // Translate the tags based on the selected language
+    List<String> translatedTags = translateTags(originalTags, language);
+
     return Question(
       id: json['id'],
       question: json['question'],
       options:
           json['options'] != null ? List<String>.from(json['options']) : null,
       answer: json['answer'],
-      tags: List<String>.from(json['tags']),
+      tags: translatedTags, // Use translated tags
       type: qType,
       videoId: json['videoId'],
       start: json['start'],
@@ -74,12 +79,37 @@ class Question {
   }
 }
 
+Map<String, String> arabicTagTranslations = {
+  "grammar": "ڕێزمان",
+  "easy": "ئاسان",
+  "medium": "مام ناوەند",
+  "fill_in_blank": "بۆشایی",
+  "videos": "ڤیدۆ",
+  // "easy": "ئاسان",
+  // "easy": "ئاسان",
+  // "easy": "ئاسان",
+  // "easy": "ئاسان",
+  // "easy": "ئاسان",
+  // Add other tag translations here
+};
+
+List<String> translateTags(List<String> tags, AppLanguage language) {
+  if (language == AppLanguage.kurdish) {
+    return tags.map((tag) => arabicTagTranslations[tag] ?? tag).toList();
+  }
+  return tags; // Return original tags if not Arabic
+}
+
 // Provider to load questions from JSON
 final questionsProvider = FutureProvider<List<Question>>((ref) async {
   final String response =
       await rootBundle.loadString('assets/questions_two.json');
   final List<dynamic> data = json.decode(response);
-  return data.map((json) => Question.fromJson(json)).toList();
+
+  final AppLanguage language =
+      ref.watch(languageProvider); // Get the current language
+
+  return data.map((json) => Question.fromJson(json, language)).toList();
 });
 
 // Provider for selected tags
@@ -197,6 +227,21 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    Alignment alignmenttwo = language == AppLanguage.english
+        ? Alignment.topRight
+        : Alignment.topLeft;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     final textSize = ref.watch(textSizeProvider);
     final questionsAsync = ref.watch(questionsProvider);
     final answered = ref.watch(answeredQuestionsProvider);
@@ -214,7 +259,8 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
                   showDialog(
                     context: context,
                     builder: (context) => AlertDialog(
-                      title: const Text('Reset Progress'),
+                      title:
+                          Text(isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress'),
                       content: const Text(
                           'Are you sure you want to reset your progress?'),
                       actions: [
@@ -247,7 +293,7 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
                     ),
                   );
                 },
-                child: const Text('Reset Progress'),
+                child: Text(isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress'),
               ),
             );
           }
@@ -326,7 +372,7 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
                     minimumSize: const Size(double.infinity, 50),
                   ),
                   child: Text(
-                    "Let's Start the Quiz",
+                    isKurdish ? "کیوز دەست پێبکە" : "Let's Start the Quiz",
                     style: TextStyle(
                       color: Theme.of(context).primaryColor,
                     ),
@@ -542,6 +588,12 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
 
     final currentQuestion = _filteredQuestions[_currentIndex];
 
+    final language = ref.watch(languageProvider);
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
     return Scaffold(
       appBar: const ZeetionaryAppbar(),
       body: Padding(
@@ -551,25 +603,28 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
             // Move ProgressWidget inside Scaffold
             Padding(
               padding: const EdgeInsets.symmetric(horizontal: 8.0),
-              child: Row(
-                mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                children: [
-                  const Expanded(
-                    flex: 6,
-                    child: TotalPointsAndAnswers(),
-                  ),
-                  const SizedBox(
-                    width: 10,
-                  ),
-                  Expanded(
-                    flex: 3,
-                    child: TimerWidget(
-                      key: ValueKey(currentQuestion.id),
-                      duration: 45,
-                      onTimeUp: _onTimeUp,
+              child: Directionality(
+                textDirection: textDirection,
+                child: Row(
+                  mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                  children: [
+                    const Expanded(
+                      flex: 6,
+                      child: TotalPointsAndAnswers(),
                     ),
-                  ),
-                ],
+                    const SizedBox(
+                      width: 10,
+                    ),
+                    Expanded(
+                      flex: 3,
+                      child: TimerWidget(
+                        key: ValueKey(currentQuestion.id),
+                        duration: 45,
+                        onTimeUp: _onTimeUp,
+                      ),
+                    ),
+                  ],
+                ),
               ),
             ),
 
@@ -621,31 +676,42 @@ class TotalPointsAndAnswers extends ConsumerWidget {
     final answeredQuestions = ref.watch(answeredQuestionsProvider);
     ref.watch(storageServiceProvider);
 
-    return Row(
-      mainAxisAlignment: MainAxisAlignment.spaceAround,
-      children: [
-        _buildStat('Total', answeredQuestions.length.toString(), Colors.blue),
-        const SizedBox(
-          width: 20,
-        ),
-        _buildStat(
-            'Correct',
-            ref
-                .watch(answeredQuestionsProvider.notifier)
-                .getCorrectAnswers()
-                .toString(),
-            Colors.green),
-        const SizedBox(
-          width: 20,
-        ),
-        _buildStat(
-            'Wrong',
-            ref
-                .watch(answeredQuestionsProvider.notifier)
-                .getWrongAnswers()
-                .toString(),
-            Colors.red),
-      ],
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
+    return Directionality(
+      textDirection: textDirection,
+      child: Row(
+        mainAxisAlignment: MainAxisAlignment.spaceAround,
+        children: [
+          _buildStat(isKurdish ? "هەموو" : 'Total',
+              answeredQuestions.length.toString(), Colors.blue),
+          const SizedBox(
+            width: 20,
+          ),
+          _buildStat(
+              isKurdish ? "ڕاست" : 'Correct',
+              ref
+                  .watch(answeredQuestionsProvider.notifier)
+                  .getCorrectAnswers()
+                  .toString(),
+              Colors.green),
+          const SizedBox(
+            width: 20,
+          ),
+          _buildStat(
+              isKurdish ? "هەڵە" : 'Wrong',
+              ref
+                  .watch(answeredQuestionsProvider.notifier)
+                  .getWrongAnswers()
+                  .toString(),
+              Colors.red),
+        ],
+      ),
     );
   }
 
@@ -673,62 +739,72 @@ class ClearPointsWidgets extends ConsumerWidget {
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
-    return ElevatedButton.icon(
-      onPressed: () {
-        // Show confirmation dialog
-        showDialog(
-          context: context,
-          builder: (context) => AlertDialog(
-            title: Text(
-              'Reset Progress',
-              style: TextStyle(
-                color: Theme.of(context).primaryColor,
-              ),
-            ),
-            content: Text(
-              'Are you sure you want to reset your progress?',
-              style: TextStyle(
-                color: Theme.of(context).primaryColor,
-              ),
-            ),
-            actions: [
-              TextButton(
-                onPressed: () => Navigator.pop(context),
-                child: const Text(
-                  'Cancel',
-                  style: TextStyle(
-                    color: Colors.green,
-                  ),
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
+// Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
+    return Directionality(
+      textDirection: textDirection,
+      child: ElevatedButton.icon(
+        onPressed: () {
+          // Show confirmation dialog
+          showDialog(
+            context: context,
+            builder: (context) => AlertDialog(
+              title: Text(
+                isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
+                style: TextStyle(
+                  color: Theme.of(context).primaryColor,
                 ),
               ),
-              TextButton(
-                onPressed: () {
-                  ref.read(answeredQuestionsProvider.notifier).reset();
-                  Navigator.pop(context);
-                },
-                child: const Text(
-                  'Reset',
-                  style: TextStyle(
-                    color: Colors.red,
-                  ),
+              content: Text(
+                'Are you sure you want to reset your progress?',
+                style: TextStyle(
+                  color: Theme.of(context).primaryColor,
                 ),
               ),
-            ],
-          ),
-        );
-      },
-      icon: Icon(
-        Icons.refresh,
-        color: Theme.of(context).primaryColor,
-      ),
-      label: Text(
-        'Reset Progress',
-        style: TextStyle(
+              actions: [
+                TextButton(
+                  onPressed: () => Navigator.pop(context),
+                  child: const Text(
+                    'Cancel',
+                    style: TextStyle(
+                      color: Colors.green,
+                    ),
+                  ),
+                ),
+                TextButton(
+                  onPressed: () {
+                    ref.read(answeredQuestionsProvider.notifier).reset();
+                    Navigator.pop(context);
+                  },
+                  child: const Text(
+                    'Reset',
+                    style: TextStyle(
+                      color: Colors.red,
+                    ),
+                  ),
+                ),
+              ],
+            ),
+          );
+        },
+        icon: Icon(
+          Icons.refresh,
           color: Theme.of(context).primaryColor,
         ),
-      ),
-      style: ElevatedButton.styleFrom(
-        backgroundColor: Theme.of(context).canvasColor,
+        label: Text(
+          isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
+          style: TextStyle(
+            color: Theme.of(context).primaryColor,
+          ),
+        ),
+        style: ElevatedButton.styleFrom(
+          backgroundColor: Theme.of(context).canvasColor,
+        ),
       ),
     );
   }

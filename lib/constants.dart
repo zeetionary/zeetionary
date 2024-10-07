@@ -37,27 +37,55 @@ class ZeetionaryAppbar extends StatelessWidget implements PreferredSizeWidget {
 
   @override
   Widget build(BuildContext context) {
-    return AppBar(
-      // centerTitle: true,
-      scrolledUnderElevation: 0,
-      title: const ZeetionaryAppbarStyle(),
-      leading: const BackIconOfAppbar(),
-      actions: [
-        IconButton(
-          icon: const FeedbackIcon(),
-          onPressed: () {
-            createGitlabIssueFromFeedback(
-                context); // Calls the function to upload feedback to GitLab
-          },
-        ),
-      ],
-    );
+    return AppBarWidget();
   }
 
   @override
   Size get preferredSize => const Size.fromHeight(_defaultHeight);
 
   static const double _defaultHeight = 60.0;
+}
+
+class AppBarWidget extends ConsumerWidget {
+  const AppBarWidget({
+    super.key,
+  });
+
+  @override
+  Widget build(BuildContext context, WidgetRef ref) {
+    final language = ref.watch(languageProvider);
+
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
+
+    // Alignment alignmenttwo = language == AppLanguage.english
+    //     ? Alignment.topRight
+    //     : Alignment.topLeft;
+
+    // Determine text direction based on language
+    TextDirection textDirection =
+        language == AppLanguage.english ? TextDirection.ltr : TextDirection.rtl;
+
+    return Directionality(
+      textDirection: textDirection,
+      child: AppBar(
+        // centerTitle: true,
+        scrolledUnderElevation: 0,
+        title: const ZeetionaryAppbarStyle(),
+        leading: const BackIconOfAppbar(),
+        actions: [
+          IconButton(
+            icon: const FeedbackIcon(),
+            onPressed: () {
+              createGitlabIssueFromFeedback(
+                  context); // Calls the function to upload feedback to GitLab
+            },
+          ),
+        ],
+      ),
+    );
+  }
 }
 
 class FeedbackIcon extends ConsumerWidget {
@@ -166,8 +194,11 @@ class _ZeetionaryAppbarStyleState extends ConsumerState<ZeetionaryAppbarStyle> {
     // final currentTheme = ref.watch(themeNotifierProvider);
     final textSize = ref.watch(textSizeProvider) + 10;
 
+    final language = ref.watch(languageProvider);
+    final isKurdish = language == AppLanguage.kurdish;
+
     return Text(
-      "Dictionary",
+      isKurdish ? "فەرهەنگ" : "Dictionary",
       style: TextStyle(
         fontSize: textSize, // Adjust font size as needed
         fontWeight: FontWeight.bold, // Adjust font weight as needed

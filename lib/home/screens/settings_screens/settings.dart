@@ -22,11 +22,31 @@ import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dar
 enum AppLanguage { english, kurdish }
 
 // LanguageNotifier manages the current language state
+// LanguageNotifier manages the current language state and saves to SharedPreferences
 class LanguageNotifier extends StateNotifier<AppLanguage> {
-  LanguageNotifier() : super(AppLanguage.english);
+  LanguageNotifier() : super(AppLanguage.english) {
+    _loadLanguageFromPrefs(); // Load the language from SharedPreferences on init
+  }
+
+  Future<void> _loadLanguageFromPrefs() async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    String? languageCode = prefs.getString('app_language');
+
+    if (languageCode != null) {
+      state =
+          languageCode == 'english' ? AppLanguage.english : AppLanguage.kurdish;
+    }
+  }
+
+  Future<void> _saveLanguageToPrefs(AppLanguage language) async {
+    SharedPreferences prefs = await SharedPreferences.getInstance();
+    await prefs.setString('app_language',
+        language == AppLanguage.english ? 'english' : 'kurdish');
+  }
 
   void setLanguage(AppLanguage language) {
     state = language;
+    _saveLanguageToPrefs(language); // Save to SharedPreferences
   }
 }
 

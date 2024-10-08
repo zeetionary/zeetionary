@@ -1,3 +1,4 @@
+// // end dopsum1
 // import 'package:flutter/material.dart';
 // import 'package:flutter_tts/flutter_tts.dart';
 // import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -52,8 +53,8 @@
 
 //   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
 //     text: """
-// IpaUK
 // EnglishEntrydopsum1 dopsum1
+// IpaUK
 // """,
 //   );
 // // 188888880002200
@@ -81,17 +82,15 @@
 //     await flutterTts.speak("""dopsum1""");
 //   }
 
+
 //   @override
 //   Widget build(BuildContext context) {
 
-//     const String videoId = '';
-//     const double startSeconds = 000000000000000000000000000;
 // EnglishMeaning(),
 
 //     return DefaultTabController(
 //       length: 4,
 //       child: Scaffold(
-//         appBar: const ZeetionaryAppbar(),
 //         body: NestedScrollView(
 //           headerSliverBuilder: (context, innerBoxIsScrolled) {
 //             return [
@@ -139,8 +138,8 @@
 //               SingleChildScrollView(
 //                 child: CustomColumnWidget(
 //                   children: [
-
-//                   ],
+                    
+                  
 //                 ),
 //               ),
 //               Consumer(
@@ -222,16 +221,19 @@
 
 
 
+// final EnglishMeaningConst englishMe
 
 
-//     text: """
 
 
-// // // // ZeetionaryAppbar(),
-// // // //         body: Padding(
+// //     text: """
 
-// // // import 'package:flutter/material.dart';
-// // // import 'package:flutter_tts/flutter_tts.dart';
-// // // import 'package:youtube_player_iframe/youtube_player_iframe.dart';
-// // // import 'package:zeetionary/constants.dart';
+
+// // ZeetionaryAppbar(),
+// //         body: Padding(
+
+// // import 'package:flutter/material.dart';
+// // import 'package:flutter_tts/flutter_tts.dart';
+// // import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+// // import 'package:zeetionary/constants.dart';
 

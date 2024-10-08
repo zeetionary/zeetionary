@@ -487,8 +487,8 @@ class SettingsPageLogout extends ConsumerWidget {
                 ),
                 title: Text(
                   isKurdish
-                      ? 'بچۆ دەرەوە یان هەژمارەکەت بسڕەوە'
-                      : 'Log Out or Delete Account',
+                      ? 'هەژمارەکەت بسڕەوە'
+                      : 'Delete Account',
                   style: TextStyle(
                     fontSize: textSize + 2,
                     color: Colors.red,

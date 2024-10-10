@@ -9,7 +9,8 @@ class EnglishEntryintermarriage extends StatefulWidget {
   const EnglishEntryintermarriage({super.key});
 
   @override
-  State<EnglishEntryintermarriage> createState() => _EnglishEntryintermarriageState();
+  State<EnglishEntryintermarriage> createState() =>
+      _EnglishEntryintermarriageState();
 }
 
 class _EnglishEntryintermarriageState extends State<EnglishEntryintermarriage> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintermarriage intermarriage
-WORD_WEB intermarriage intermarriage intermarriage
-haʊʊʊʊʊʊʊ4
+- Noun: intermarriage (Derived forms: intermarriages)
+1. Marriage to a person belonging to a tribe or group other than your own as required by custom or law (- exogamy)
+ 
+2. Marriage within one's own tribe or group as required by custom or law (- endogamy, inmarriage)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intermarriage";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Have ethnic tensions in the area been reduced by intermarriage?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Intermarriage between close relatives is prohibited in most societies.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/32S6zMOx-Y0?t=';
+    const double startSecondsend = 000000000000000000000000000498;
+    const String videoIdone = 'https://youtu.be/RseBL4eC0ok?t=';
+    const double startSecondsone = 000000000000000000000000000323;
+    const String videoIdtwo = 'https://youtu.be/r4wLXNydzeY?t=';
+    const double startSecondstwo = 00000000000000000000000000011960;
+    const String videoIdthree = 'https://youtu.be/uFc9p6Gi2qY?t=';
+    const double startSecondsthree = 000000000000000000000000000213;
+    const String videoIdfour = 'https://youtu.be/fKrrlVdFFrw?t=';
+    const double startSecondsfour = 000000000000000000000000000193;
+    const String videoIdfive = 'https://youtu.be/BPVjLfO3dNk?t=';
+    const double startSecondsfive = 000000000000000000000000000912;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intermarriage""",
                       // alsoEnglishWord: "also: intermarriage",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈmærɪdʒ/""",
+                      americanText: """IpaUS: /ˌɪntərˈmærɪdʒ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +995,27 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intermarriage", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هاوسەرگیری نێوان ژنان و پیاوان لە نەتەوە، ئایین، یان ڕەگەزی جیاوازەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Have ethnic tensions in the area been reduced by intermarriage?""",
+                      kurdishText:
+                          """تەنگژەی ئیتنیکی لە ناوچەکە کەمبووەتەوە بەهۆی هاوسەرگیریی نێوان گروپەکانەوە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) هاوسەرگیری لە نێوان ئەندامانی هەمان خێزان یان گرووپ"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Intermarriage between close relatives is prohibited in most societies.""",
+                      kurdishText:
+                          """هاوسەرگیری نێوان خزمانی نزیک لە زۆر کۆمەڵگەدا قەدەغەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -9,7 +9,8 @@ class EnglishEntryintermediary extends StatefulWidget {
   const EnglishEntryintermediary({super.key});
 
   @override
-  State<EnglishEntryintermediary> createState() => _EnglishEntryintermediaryState();
+  State<EnglishEntryintermediary> createState() =>
+      _EnglishEntryintermediaryState();
 }
 
 class _EnglishEntryintermediaryState extends State<EnglishEntryintermediary> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintermediary intermediary
-WORD_WEB intermediary intermediary intermediary
-haʊʊʊʊʊʊʊ4
+- Noun: intermediary (Derived forms: intermediaries)
+1. A negotiator who acts as a link between parties (- mediator, go-between, intermediator, intercessor, intermediate)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intermediary";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +85,32 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """All talks have so far been conducted through an intermediary.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""She agreed to act as intermediary between the two groups.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He played an intermediary role in the dispute.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Mountains were seen as an intermediary realm between heaven and earth.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/JX82wa5HkJg?t=';
+    const double startSecondsend = 0000000000000000000000000001561;
+    const String videoIdone = 'https://youtu.be/Y_N0AxCzVLg?t=';
+    const double startSecondsone = 000000000000000000000000000299;
+    const String videoIdtwo = 'https://youtu.be/EH6vE97qIP4?t=';
+    const double startSecondstwo = 000000000000000000000000000821;
+    const String videoIdthree = 'https://youtu.be/LtPM7zkXlW8?t=';
+    const double startSecondsthree = 000000000000000000000000000832;
+    const String videoIdfour = 'https://youtu.be/jxLkbJozKbY?t=';
+    const double startSecondsfour = 00000000000000000000000000050;
+    const String videoIdfive = 'https://youtu.be/jKi7xGE4BEw?t=';
+    const double startSecondsfive = 000000000000000000000000000375;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intermediary""",
                       // alsoEnglishWord: "also: intermediary",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈmiːdiəri/""",
+                      americanText: """IpaUS: /ˌɪntərˈmiːdieri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناوبژی‌وان، یەک‌خەر، نێوگژی‌وان، ناڤ‌بەر، ناونجی‌گەر،	نێوبژی‌کەرانە، یەک‌خەرانە، نێونجی‌کەرانە، ناوگژی‌وانانە،	ناوەندی، ناوەند، نێوەن، ناوەنی، نێوەڕاست، مابەین، ناوگ، نێوان، ناڤین
 """),
 // With short examples define "intermediary", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک یان دامەزراوەیەک کە یارمەتی کەس یان دامەزراوەی دیکە بۆ درووستکردنی ڕێککەوتن بەوەی کە پەیوەندی لە نێوانیان درووست بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """All talks have so far been conducted through an intermediary.""",
+                      kurdishText:
+                          """هەموو گفتووگۆکان تا ئێستا لە ڕێگای ناوبژیکارێکەوە جێبەجێکراون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,26 +1010,34 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She agreed to act as intermediary between the two groups.""",
+                      kurdishText:
+                          """ڕازی بوو ببێت بە ناوبژیوانی نێوان دوو گرووپەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە وەک ناوبژیوان کار بکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He played an intermediary role in the dispute.""",
+                      kurdishText: """ڕۆڵی ناوبژیوانی لە کێشەکە بینی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە کەوتووەتە نێوان دوو شوێن، کات، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Mountains were seen as an intermediary realm between heaven and earth.""",
+                      kurdishText:
+                          """چیاکان وەک ناوچەی ناوەندی نێوان بەهەشت و زەوی دەبینران.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

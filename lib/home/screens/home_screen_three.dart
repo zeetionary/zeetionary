@@ -26,10 +26,10 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
 
   static final List<Widget> _widgetOptions = <Widget>[
     const DictionaryScreenEnglish(),
-    const DictionaryScreenKurdish(),
     const SentencesPage(),
-    const KurdishSentencesScreen(),
     const GrammarScreen(),
+    const KurdishSentencesScreen(),
+    const DictionaryScreenKurdish(),
   ];
 
   void _onItemTapped(int index) {
@@ -107,7 +107,7 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
       drawer: drawer,
       child: Scaffold(
         appBar: PreferredSize(
-          preferredSize: const Size.fromHeight(40.0),
+          preferredSize: const Size.fromHeight(45.0),
           child: Align(
             alignment: alignment,
             child: Directionality(
@@ -117,7 +117,7 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
                 // centerTitle: true,
                 scrolledUnderElevation: 0,
                 // backgroundColor: Colors.grey.withOpacity(0.1),
-                title: const ZeetionaryAppbarStyle(),
+                title: const ZeetionaryAppbarStyleadvertwo(),
                 // title: Image.asset(
                 //   'assets/images/zeetionary_three.png',
                 //   width: 200,
@@ -209,32 +209,6 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
             ),
             NavigationDestination(
               selectedIcon: Icon(
-                Icons.bookmark_outlined,
-                size: textSize + 11,
-                color: Theme.of(context).primaryColor,
-              ),
-              icon: Icon(
-                Icons.bookmark,
-                size: textSize + 8,
-                color: Theme.of(context).primaryColor,
-              ),
-              label: isKurdish ? "کوردی" : 'Kurdish',
-            ),
-            NavigationDestination(
-              selectedIcon: Icon(
-                Icons.search_outlined,
-                size: textSize + 11,
-                color: Theme.of(context).primaryColor,
-              ),
-              icon: Icon(
-                Icons.search,
-                size: textSize + 8,
-                color: Theme.of(context).primaryColor,
-              ),
-              label: isKurdish ? "ڕستەکان" : 'Sentences',
-            ),
-            NavigationDestination(
-              selectedIcon: Icon(
                 Icons.search_outlined,
                 size: textSize + 11,
                 color: Theme.of(context).primaryColor,
@@ -258,6 +232,32 @@ class _HomeScreenThreeState extends ConsumerState<HomeScreenThree> {
                 color: Theme.of(context).primaryColor,
               ),
               label: isKurdish ? "ڕێزمان" : 'Grammar',
+            ),
+            NavigationDestination(
+              selectedIcon: Icon(
+                Icons.search_outlined,
+                size: textSize + 11,
+                color: Theme.of(context).primaryColor,
+              ),
+              icon: Icon(
+                Icons.search,
+                size: textSize + 8,
+                color: Theme.of(context).primaryColor,
+              ),
+              label: isKurdish ? "ڕستەکان" : 'Sentences',
+            ),
+            NavigationDestination(
+              selectedIcon: Icon(
+                Icons.bookmark_outlined,
+                size: textSize + 11,
+                color: Theme.of(context).primaryColor,
+              ),
+              icon: Icon(
+                Icons.bookmark,
+                size: textSize + 8,
+                color: Theme.of(context).primaryColor,
+              ),
+              label: isKurdish ? "کوردی" : 'Kurdish',
             ),
           ],
         ),

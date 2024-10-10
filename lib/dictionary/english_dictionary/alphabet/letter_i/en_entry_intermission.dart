@@ -9,7 +9,8 @@ class EnglishEntryintermission extends StatefulWidget {
   const EnglishEntryintermission({super.key});
 
   @override
-  State<EnglishEntryintermission> createState() => _EnglishEntryintermissionState();
+  State<EnglishEntryintermission> createState() =>
+      _EnglishEntryintermissionState();
 }
 
 class _EnglishEntryintermissionState extends State<EnglishEntryintermission> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintermission intermission
-WORD_WEB intermission intermission intermission
-haʊʊʊʊʊʊʊ4
+- Noun: intermission (Derived forms: intermissions)
+1. The act of suspending activity temporarily
+ 
+2. A time interval during which there is a temporary cessation of something (- pause, break, interruption, suspension)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intermission";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +87,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Coffee was served during the intermission.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""After intermission, the second band played.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The war lasted without intermission for a hundred years.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/KDthN45L57Q?t=';
+    const double startSecondsend = 000000000000000000000000000621;
+    const String videoIdone = 'https://youtu.be/FSHITL5oedk?t=';
+    const double startSecondsone = 000000000000000000000000000711;
+    const String videoIdtwo = 'https://youtu.be/nQ4R94HF3GA?t=';
+    const double startSecondstwo = 000000000000000000000000000739;
+    const String videoIdthree = 'https://youtu.be/ODjhSF53LiI?t=';
+    const double startSecondsthree = 000000000000000000000000000753;
+    const String videoIdfour = 'https://youtu.be/aBppb2quqkE?t=';
+    const double startSecondsfour = 000000000000000000000000000366;
+    const String videoIdfive = 'https://youtu.be/hmNw_zZ4BZY?t=';
+    const double startSecondsfive = 000000000000000000000000000269;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intermission""",
                       // alsoEnglishWord: "also: intermission",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈmɪʃn/""",
+                      americanText: """IpaUS: /ˌɪntərˈmɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +994,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intermission", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ماوەیەکی کەم لە نێوان بەشەکانی فیلمێک، شانۆیەک، هتد"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Coffee was served during the intermission.""",
+                      kurdishText: """قاوە لە وچانەکەدا پێشکەش کرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1008,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """After intermission, the second band played.""",
+                      kurdishText:
+                          """لە دوای وچانەکە، باندی دووەم دەستیان پێکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ماوەیەک کە تێیدا شتێک دەوەستێت پێش ئەوەی دووبارە دەست پێبکاتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The war lasted without intermission for a hundred years.""",
+                      kurdishText:
+                          """جەنگەکە بەبێ دابڕان بۆ سەد ساڵ بەردەوام بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -316,7 +316,39 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
                     ),
                   );
                 },
-                child: Text(isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress'),
+                // If all questions answered
+                child: Column(
+                  children: [
+                    const TotalPointsAndAnswers(),
+                    const SizedBox(
+                      height: 20,
+                    ),
+                    Directionality(
+                      textDirection: textDirection,
+                      child: Row(
+                        children: [
+                          Transform(
+                            alignment: Alignment.center,
+                            transform: isKurdish
+                                ? Matrix4.rotationY(3.14159)
+                                : Matrix4.identity(),
+                            child: Icon(
+                              Icons.refresh,
+                              color: Theme.of(context).primaryColor,
+                            ),
+                          ),
+                          Text(
+                            isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
+                            style: TextStyle(
+                              fontSize: textSize + 4,
+                              color: Theme.of(context).primaryColor,
+                            ),
+                          ),
+                        ],
+                      ),
+                    ),
+                  ],
+                ),
               ),
             );
           }
@@ -548,9 +580,9 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
     final language = ref.watch(languageProvider);
     final isKurdish = language == AppLanguage.kurdish;
 
-    // Alignment alignment = language == AppLanguage.english
-    //     ? Alignment.topLeft
-    //     : Alignment.topRight;
+    Alignment alignment = language == AppLanguage.english
+        ? Alignment.topLeft
+        : Alignment.topRight;
 
     // Determine text direction based on language
     TextDirection textDirection =
@@ -565,22 +597,28 @@ class _QuizScreenJsonState extends ConsumerState<QuizScreenJson> {
       // Quiz completed
       showDialog(
         context: context,
-        builder: (context) => AlertDialog(
-          title: Text(isKurdish ? 'کیوز تەواو بوو' : 'Quiz Completed'),
-          content: Directionality(
-              textDirection: textDirection,
-              child: Text(isKurdish
-                  ? 'هەموو پرسیارەکانت وەڵام داوەتەوە.'
-                  : 'You have answered all selected questions.')),
-          actions: [
-            TextButton(
-              onPressed: () {
-                Navigator.pop(context);
-                Routemaster.of(context).pop();
-              },
-              child: Text(isKurdish ? 'باشە' : 'OK'),
+        builder: (context) => Align(
+          alignment: alignment,
+          child: Directionality(
+            textDirection: textDirection,
+            child: AlertDialog(
+              title: Text(isKurdish ? 'کیوز تەواو بوو' : 'Quiz Completed'),
+              content: Directionality(
+                  textDirection: textDirection,
+                  child: Text(isKurdish
+                      ? 'هەموو پرسیارەکانت وەڵام داوەتەوە.'
+                      : 'You have answered all selected questions.')),
+              actions: [
+                TextButton(
+                  onPressed: () {
+                    Navigator.pop(context);
+                    Routemaster.of(context).pop();
+                  },
+                  child: Text(isKurdish ? 'باشە' : 'OK'),
+                ),
+              ],
             ),
-          ],
+          ),
         ),
       );
     }
@@ -916,6 +954,7 @@ class ClearPointsWidgets extends ConsumerWidget {
         label: Text(
           isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
           style: TextStyle(
+            fontSize: textSize + 4,
             color: Theme.of(context).primaryColor,
           ),
         ),

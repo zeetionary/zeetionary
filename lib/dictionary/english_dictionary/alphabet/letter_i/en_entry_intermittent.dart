@@ -9,7 +9,8 @@ class EnglishEntryintermittent extends StatefulWidget {
   const EnglishEntryintermittent({super.key});
 
   @override
-  State<EnglishEntryintermittent> createState() => _EnglishEntryintermittentState();
+  State<EnglishEntryintermittent> createState() =>
+      _EnglishEntryintermittentState();
 }
 
 class _EnglishEntryintermittentState extends State<EnglishEntryintermittent> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintermittent intermittent
-WORD_WEB intermittent intermittent intermittent
-haʊʊʊʊʊʊʊ4
+- Adjective: intermittent
+1. Stopping and starting at irregular intervals
+"intermittent rain showers"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intermittent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""A day of intermittent rainstorms followed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""There had been twenty years of intermittent warfare.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/jFk-L7Wcg0g?t=';
+    const double startSecondsend = 000000000000000000000000000228;
+    const String videoIdone = 'https://youtu.be/CsTmgX32Uk8?t=';
+    const double startSecondsone = 000000000000000000000000000334;
+    const String videoIdtwo = 'https://youtu.be/sY8aFSY2zv4?t=';
+    const double startSecondstwo = 0000000000000000000000000007617;
+    const String videoIdthree = 'https://youtu.be/FqdxxSWKmw4?t=';
+    const double startSecondsthree = 00000000000000000000000000071;
+    const String videoIdfour = 'https://youtu.be/LQ8JOsc3-wU?t=';
+    const double startSecondsfour = 000000000000000000000000000274;
+    const String videoIdfive = 'https://youtu.be/08mwXICY4JM?t=';
+    const double startSecondsfive = 000000000000000000000000000775;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intermittent""",
                       // alsoEnglishWord: "also: intermittent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈmɪtənt/""",
+                      americanText: """IpaUS: /ˌɪntərˈmɪtənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تاوتاو، پچڕپچڕ، نایەکبینە، نەلەسەریەک، ناهەمیشە، جاروبار، ناوەناوە، بەنۆرە، جارجارە
 """),
 // With short examples define "intermittent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بۆ ماوەیەک دەست پێبکات و بوەستێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: sporadic"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A day of intermittent rainstorms followed.""",
+                      kurdishText: """ڕۆژێک لە ڕەهێڵەی توند بە دوایدا هات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There had been twenty years of intermittent warfare.""",
+                      kurdishText: """بیست ساڵ لە شەڕی پچڕپچڕ هەبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -9,7 +9,8 @@ class EnglishEntryinterminable extends StatefulWidget {
   const EnglishEntryinterminable({super.key});
 
   @override
-  State<EnglishEntryinterminable> createState() => _EnglishEntryinterminableState();
+  State<EnglishEntryinterminable> createState() =>
+      _EnglishEntryinterminableState();
 }
 
 class _EnglishEntryinterminableState extends State<EnglishEntryinterminable> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterminable interminable
-WORD_WEB interminable interminable interminable
-haʊʊʊʊʊʊʊ4
+- Adjective: interminable
+1. Tiresomely long; seemingly without end (- endless, eternal, unending)
+"an interminable sermon";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interminable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It took an interminable time.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""It was a day of interminable meetings.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/7Ocqa9SrqN8?t=';
+    const double startSecondsend = 000000000000000000000000000663;
+    const String videoIdone = 'https://youtu.be/KJU6ZK4EWVw?t=';
+    const double startSecondsone = 000000000000000000000000000451;
+    const String videoIdtwo = 'https://youtu.be/zpwRA9KQnWU?t=';
+    const double startSecondstwo = 000000000000000000000000000337;
+    const String videoIdthree = 'https://youtu.be/CRBhL7ctydE?t=';
+    const double startSecondsthree = 000000000000000000000000000441;
+    const String videoIdfour = 'https://youtu.be/B08iDMXYtR8?t=';
+    const double startSecondsfour = 00000000000000000000000000084;
+    const String videoIdfive = 'https://youtu.be/oBxFfTzXcJQ?t=';
+    const double startSecondsfive = 000000000000000000000000000285;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interminable""",
                       // alsoEnglishWord: "also: interminable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtɜːmɪnəbl/""",
+                      americanText: """IpaUS: /ɪnˈtɜːrmɪnəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دوور و درێژ (و وەڕەزکەر)، ماوەیەکی زۆر، تەواونەبوو، کۆتایی‌پێنەهاتوو، بێ‌کۆتایی، لەدوایی‌نەهاتوو
 """),
 // With short examples define "interminable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە زۆر بەردەوام دەبێت بۆیە ناخۆش یان بێزارکەرە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: endless"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It took an interminable time.""",
+                      kurdishText: """کاتێکی بێ‌کۆتای خایاند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1006,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It was a day of interminable meetings.""",
+                      kurdishText: """ڕۆژێک بوو لە چاوپێکەوتنی درێژ و ناخۆش.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -90,22 +90,23 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Apart from a brief interlude of peace, the war lasted nine years.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """She knew that their romantic interlude would soon be drawing to a close.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""There will now be a short interlude.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -929,21 +930,19 @@ ${englishMeaningConst.text}
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/TVe5XPU10Zc?t=';
+    const double startSecondsend = 000000000000000000000000000394;
+    const String videoIdone = 'https://youtu.be/tyixMpuGEL8?t=';
+    const double startSecondsone = 000000000000000000000000000153;
+    const String videoIdtwo = 'https://youtu.be/9TimmdqACAs?t=';
+    const double startSecondstwo = 000000000000000000000000000218;
+    const String videoIdthree = 'https://youtu.be/ajbooXnvsE8?t=';
+    const double startSecondsthree = 000000000000000000000000000455;
+    const String videoIdfour = 'https://youtu.be/JN3KPFbWCy8?t=';
+    const double startSecondsfour = 0000000000000000000000000003032;
+    const String videoIdfive = 'https://youtu.be/ElQdUHSXkME?t=';
+    const double startSecondsfive = 00000000000000000000000000037;
 
     return DefaultTabController(
       length: 4,
@@ -996,14 +995,17 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئەنتراکت، پشوو، پێل، ماوە، وچان، هەڵوەستە
 """),
 // With short examples define "interlude", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ماوەی نێوان دوو ڕووداو کە تێیدا شتێکی دیکە ڕوودەدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Apart from a brief interlude of peace, the war lasted nine years.""",
+                      kurdishText:
+                          """بەدەر لە وچانێکی کەم لە ئاشتی، جەنگەکە نۆ ساڵی خایاند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1011,17 +1013,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She knew that their romantic interlude would soon be drawing to a close.""",
+                      kurdishText:
+                          """دەیزانی ماوە ڕۆمانسییەکەیان زوو کۆتایی دێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ماوەی نێوان بەشەکانی فیلمێک، شانۆیەک، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """There will now be a short interlude.""",
+                      kurdishText: """ئێستا وچانێکی کورت دەبێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

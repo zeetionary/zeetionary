@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintermarry intermarry
-WORD_WEB intermarry intermarry intermarry
-haʊʊʊʊʊʊʊ4
+- Verb: intermarry (Derived forms: intermarrying, intermarries, intermarried)
+1. Marry within the same ethnic, social, or family group
+"A man now having one or more children by a woman, shall afterwards intermarry with her"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intermarry";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """It was common for Christians and Muslims to intermarry in Ethiopia.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Families have intermarried over the decades so that husbands and wives commonly are stepsiblings and cousins.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/qKtHwc3mMY8?t=';
+    const double startSecondsend = 00000000000000000000000000086;
+    const String videoIdone = 'https://youtu.be/z3uvnwBMTdY?t=';
+    const double startSecondsone = 0000000000000000000000000006315;
+    const String videoIdtwo = 'https://youtu.be/v8Nv4rTKlMM?t=';
+    const double startSecondstwo = 0000000000000000000000000001029;
+    const String videoIdthree = 'https://youtu.be/YS9fStaTYXU?t=';
+    const double startSecondsthree = 000000000000000000000000000952;
+    const String videoIdfour = 'https://youtu.be/pzXJi9-1SUs?t=';
+    const double startSecondsfour = 0000000000000000000000000002421;
+    const String videoIdfive = 'https://youtu.be/XY_RldJvCWs?t=';
+    const double startSecondsfive = 000000000000000000000000000983;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intermarry""",
                       // alsoEnglishWord: "also: intermarry",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈmæri/""",
+                      americanText: """IpaUS: /ˌɪntərˈmæri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +993,27 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intermarry", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) هاوسەرگیری لەگەڵ کەسێک لە نەتەوە، ئایین، یان ڕەگەزی جیاوازەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It was common for Christians and Muslims to intermarry in Ethiopia.""",
+                      kurdishText:
+                          """باوبوو بۆ مەسیحی و موسڵمانان لە ئەسیوپیا هاوسەرگیری بکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) هاوسەرگیری لەگەڵ ئەندامانی هەمان خێزان یان گرووپ"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Families have intermarried over the decades so that husbands and wives commonly are stepsiblings and cousins.""",
+                      kurdishText:
+                          """خێزانەکان بۆ چەندین دەیەیە هاوسەرگیریان لەگەڵ یەکدی کردووە بە شێوەیەک هاوسەران و ژنان بە شێوەیەکی باو زڕ خوشک و برا و ئامۆزان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

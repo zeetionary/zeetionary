@@ -9,7 +9,8 @@ class EnglishEntryintermediate extends StatefulWidget {
   const EnglishEntryintermediate({super.key});
 
   @override
-  State<EnglishEntryintermediate> createState() => _EnglishEntryintermediateState();
+  State<EnglishEntryintermediate> createState() =>
+      _EnglishEntryintermediateState();
 }
 
 class _EnglishEntryintermediateState extends State<EnglishEntryintermediate> {
@@ -52,13 +53,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: intermediate
+1. Lying between two extremes in time, space or state
+"going from sitting to standing without intermediate pushes with the hands"; "intermediate stages in a process"; "intermediate stops on the route"; "an intermediate range plane"
+ 
+2. Around the middle of a scale of evaluation (- average, medium)
+"intermediate capacity";
 
-EnglishEntryintermediate intermediate
-WORD_WEB intermediate intermediate intermediate
-haʊʊʊʊʊʊʊ4
+- Noun: intermediate (Derived forms: intermediates)
+1. A substance formed during a chemical process before the desired product is obtained
+ 
+2. A negotiator who acts as a link between parties (- mediator, go-between, intermediator, intermediary, intercessor)
+
+- Verb: intermediate (Derived forms: intermediates, intermediating, intermediated)
+1. Act between parties with a view to reconciling differences (- intercede, mediate, liaise, arbitrate)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intermediate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +97,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Liquid crystals are considered to be intermediate between liquid and solid.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """This novel is too difficult for intermediate students of English.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +937,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/rWVAzS5duAs?t=';
+    const double startSecondsend = 000000000000000000000000000705;
+    const String videoIdone = 'https://youtu.be/oiLdWXLXDeA?t=';
+    const double startSecondsone = 000000000000000000000000000711;
+    const String videoIdtwo = 'https://youtu.be/6T_-DiAzYBc?t=';
+    const double startSecondstwo = 00000000000000000000000000056;
+    const String videoIdthree = 'https://youtu.be/15D_LWIguL8?t=';
+    const double startSecondsthree = 000000000000000000000000000351;
+    const String videoIdfour = 'https://youtu.be/YkS1U5lfSRw?t=';
+    const double startSecondsfour = 000000000000000000000000000580;
+    const String videoIdfive = 'https://youtu.be/tILIeNjbH1E?t=';
+    const double startSecondsfive = 000000000000000000000000000305;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +963,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intermediate""",
                       // alsoEnglishWord: "also: intermediate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈmiːdiət/""",
+                      americanText: """IpaUS: /ˌɪntərˈmiːdiət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +1002,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناوین، نێوەڕاست، نێوەند، ناوەند، ناوەندی، نێوبڕ، لەنێوان، مابەین، لەبەین،	مام‌ناوەند، نێونجی، ناونجی، نێوانە، ناوەندی، هەڵکەوتوو لە نێوان دوو شت‌دا،	ناوبژی‌وان، یەک‌خەر، نێوگژی‌وان، ناڤبەر، ناونجی‌کار
 """),
 // With short examples define "intermediate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە نێوان دوو شوێن، شت، یان دۆخدایە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Liquid crystals are considered to be intermediate between liquid and solid.""",
+                      kurdishText:
+                          """کریستاڵی شل بە ناوەند لە نێوان شلی و ڕەقی دادەنرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) هەبوونی هەندێک زانیاری کە مام‌ناوەندە؛ کە سەرەتا نییە بەڵام زۆریش نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This novel is too difficult for intermediate students of English.""",
+                      kurdishText:
+                          """ئەم ڕۆمانە زۆر گرانە بۆ خوێندکارانی مام‌ناوەندی ئینگلیزی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

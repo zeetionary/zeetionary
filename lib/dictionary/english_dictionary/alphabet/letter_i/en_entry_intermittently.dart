@@ -9,10 +9,12 @@ class EnglishEntryintermittently extends StatefulWidget {
   const EnglishEntryintermittently({super.key});
 
   @override
-  State<EnglishEntryintermittently> createState() => _EnglishEntryintermittentlyState();
+  State<EnglishEntryintermittently> createState() =>
+      _EnglishEntryintermittentlyState();
 }
 
-class _EnglishEntryintermittentlyState extends State<EnglishEntryintermittently> {
+class _EnglishEntryintermittentlyState
+    extends State<EnglishEntryintermittently> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintermittently intermittently
-WORD_WEB intermittently intermittently intermittently
-haʊʊʊʊʊʊʊ4
+- Adverb: intermittently
+1. In an intermittent manner
+"intermittently we questioned the barometer"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intermittently";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Protests continued intermittently throughout November.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/R6reyiSpKuw?t=';
+    const double startSecondsend = 000000000000000000000000000503;
+    const String videoIdone = 'https://youtu.be/a_TSR_v07m0?t=';
+    const double startSecondsone = 000000000000000000000000000325;
+    const String videoIdtwo = 'https://youtu.be/V-jmSjy2ArM?t=';
+    const double startSecondstwo = 000000000000000000000000000571;
+    const String videoIdthree = 'https://youtu.be/1ykJaIhCIWg?t=';
+    const double startSecondsthree = 000000000000000000000000000472;
+    const String videoIdfour = 'https://youtu.be/AGqUCKin4X0?t=';
+    const double startSecondsfour = 000000000000000000000000000197;
+    const String videoIdfive = 'https://youtu.be/f9dEf6fPQVs?t=';
+    const double startSecondsfive = 000000000000000000000000000181;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intermittently""",
                       // alsoEnglishWord: "also: intermittently",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈmɪtəntli/""",
+                      americanText: """IpaUS: /ˌɪntərˈmɪtəntli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تاوتاو، تاوەتاوە، تاوتاوانە، بە نۆرە
 """),
 // With short examples define "intermittently", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە بۆ ماوەیەک دەست پێبکات و بوەستێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: sporadically"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Protests continued intermittently throughout November.""",
+                      kurdishText:
+                          """خۆپیشاندانەکان تاوتاو لە تەواوی تشرینی دووەمدا بەردەوام بوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

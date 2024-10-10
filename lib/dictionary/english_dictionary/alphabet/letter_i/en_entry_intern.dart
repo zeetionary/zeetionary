@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: intern (Derived forms: interns)
+1. An advanced student or graduate in medicine gaining supervised practical experience (- interne [Brit], houseman [Brit], medical intern [Brit])
+ 
+2. A student who works (often without pay) in order to gain experience
 
-EnglishEntryintern intern
-WORD_WEB intern intern intern
-haʊʊʊʊʊʊʊ4
+- Verb: intern (Derived forms: interned, interning, interns)
+1. Deprive of freedom
+"During WW II, Japanese were interned in camps in the West"
+
+2. Work as an intern
+"The young doctor is interning at the medical centre this year"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intern";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +93,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They were interned by the government for the duration of the war.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Microsoft came to Harvard Business School to recruit summer interns.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He began work at the White House as an unpaid intern.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -928,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/nFlgYVkcNu0?t=';
+    const double startSecondsend = 000000000000000000000000000554;
+    const String videoIdone = 'https://youtu.be/Pon4Zux5MaQ?t=';
+    const double startSecondsone = 000000000000000000000000000780;
+    const String videoIdtwo = 'https://youtu.be/LwZIxGAG8xA';
+    const double startSecondstwo = 0;
+    const String videoIdthree = 'https://youtu.be/ZPFo_dXzwKE?t=';
+    const double startSecondsthree = 00000000000000000000000000044;
+    const String videoIdfour = 'https://youtu.be/_h95pZQiKwI?t=';
+    const double startSecondsfour = 0000000000000000000000000001086;
+    const String videoIdfive = 'https://youtu.be/Lp5uh6ztGJo?t=';
+    const double startSecondsfive = 000000000000000000000000000283;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intern""",
                       // alsoEnglishWord: "also: intern",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtɜːn/""",
+                      americanText: """IpaUS: /ɪnˈtɜːrn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +1000,19 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intern", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (کردار) زیندانی کردنی کەسێک لە کاتی جەنگ بۆ هۆکاری سیاسی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They were interned by the government for the duration of the war.""",
+                      kurdishText: """لەلایەن حکومەتەوە بۆ ماوەی جەنگەکە زیندانی کران.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) خوێندکار یان تازە دەرچوویەکی زانکۆ کە ئەزموونی کرداری وەردەگرێت لە کارێک، زۆرجار بەبێ پارە، بۆ نموونە لە ماوەی پشووی هاوینە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Microsoft came to Harvard Business School to recruit summer interns.""",
+                      kurdishText: """مایکرۆسۆفت هات بۆ سکووڵی بازرگانی هارڤار بۆ وەرگرتنی خوێندکاری هاوینە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1020,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He began work at the White House as an unpaid intern.""",
+                      kurdishText: """وەک .""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

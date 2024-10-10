@@ -88,7 +88,7 @@ class _HomeScreenThreeLogoutState extends ConsumerState<HomeScreenThreeLogout> {
       drawer: drawer,
       child: Scaffold(
         appBar: PreferredSize(
-          preferredSize: const Size.fromHeight(40.0),
+          preferredSize: const Size.fromHeight(45.0),
           child: Align(
             alignment: alignment,
             child: Directionality(
@@ -98,7 +98,7 @@ class _HomeScreenThreeLogoutState extends ConsumerState<HomeScreenThreeLogout> {
                 // centerTitle: true,
                 scrolledUnderElevation: 0,
                 // backgroundColor: Colors.grey.withOpacity(0.1),
-                title: const ZeetionaryAppbarStyle(),
+                title: const ZeetionaryAppbarStyleadvertwo(),
                 // title: Image.asset(
                 //   'assets/images/zeetionary_three.png',
                 //   width: 200,

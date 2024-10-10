@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinternship internship
-WORD_WEB internship internship internship
-haʊʊʊʊʊʊʊ4
+- Noun: internship (Derived forms: internships)
+1. The position of a medical intern
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "internship";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He served his internship at Garfield Hospital.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/_BbaiH17hOU?t=';
+    const double startSecondsend = 000000000000000000000000000612;
+    const String videoIdone = 'https://youtu.be/W-ZuKp8P7gA?t=';
+    const double startSecondsone = 0000000000000000000000000001572;
+    const String videoIdtwo = 'https://youtu.be/OoJsPvmFixU?t=';
+    const double startSecondstwo = 000000000000000000000000000403;
+    const String videoIdthree = 'https://youtu.be/6AF4hTDXLlA?t=';
+    const double startSecondsthree = 000000000000000000000000000112;
+    const String videoIdfour = 'https://youtu.be/-YR2TxHkb4c?t=';
+    const double startSecondsfour = 000000000000000000000000000270;
+    const String videoIdfive = 'https://youtu.be/rCIz-lbxtCU?t=';
+    const double startSecondsfive = 000000000000000000000000000504;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """internship""",
                       // alsoEnglishWord: "also: internship",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntɜːnʃɪp/""",
+                      americanText: """IpaUS: /ˈɪntɜːrnʃɪp/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +991,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "internship", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ماوەیەک کە تێیدا خوێندکار یان تازە دەرچوویەکی زانکۆ ئەزموونی کرداری وەردەگرێت لە کارێک، بۆ نموونە لە ماوەی پشووی هاوینە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He served his internship at Garfield Hospital.""",
+                      kurdishText:
+                          """ئەو خولی ڕاهێنانی لە نەخۆشخانەی گارفیڵد ئەنجام دا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

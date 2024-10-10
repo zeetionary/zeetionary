@@ -9,10 +9,12 @@ class EnglishEntryinterpretation extends StatefulWidget {
   const EnglishEntryinterpretation({super.key});
 
   @override
-  State<EnglishEntryinterpretation> createState() => _EnglishEntryinterpretationState();
+  State<EnglishEntryinterpretation> createState() =>
+      _EnglishEntryinterpretationState();
 }
 
-class _EnglishEntryinterpretationState extends State<EnglishEntryinterpretation> {
+class _EnglishEntryinterpretationState
+    extends State<EnglishEntryinterpretation> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterpretation interpretation
-WORD_WEB interpretation interpretation interpretation
-haʊʊʊʊʊʊʊ4
+- Noun: interpretation (Derived forms: interpretations)
+1. A mental representation of the meaning or significance of something (- reading, version)
+ 
+2. The act of interpreting something as expressed in an artistic performance (- rendition, rendering)
+"her interpretation of Milton's verse was extraordinarily moving";
+ 
+3. An explanation that results from interpreting something
+"the report included his interpretation of the forensic evidence"
+ 
+4. An explanation of something that is not immediately obvious (- interpreting, rendition, rendering)
+"the edict was subject to many interpretations";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interpretation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +95,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Her evidence suggests a different interpretation of the events.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """It is not possible for everyone to put their own interpretation on the law.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Dreams are open to interpretation.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""Most modern historians support this interpretation.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +936,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/OOg-4mtA3Zo?t=';
+    const double startSecondsend = 00000000000000000000000000018;
+    const String videoIdone = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsone = 000000000000000000000000000130;
+    const String videoIdtwo = 'https://youtu.be/VNZ0so0LCoM?t=';
+    const double startSecondstwo = 000000000000000000000000000654;
+    const String videoIdthree = 'https://youtu.be/9GR3XSuInYE?t=';
+    const double startSecondsthree = 0000000000000000000000000001379;
+    const String videoIdfour = 'https://youtu.be/K3v5wFMQRqs?t=';
+    const double startSecondsfour = 0000000000000000000000000002712;
+    const String videoIdfive = 'https://youtu.be/kY8stpY4rrc?t=';
+    const double startSecondsfive = 000000000000000000000000000117;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +962,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interpretation""",
                       // alsoEnglishWord: "also: interpretation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌtɜːprəˈteɪʃn/""",
+                      americanText: """IpaUS: /ɪnˌtɜːrprəˈteɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1001,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕوون‌کردنەوە، ڕۆشن‌کردنەوە، لێکدانەوە، واتالێکدانەوە، ڕاڤە، شی‌کردنەوە، شرۆڤەکردن
 """),
 // With short examples define "interpretation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) شێوازی دیاریکراوی تێگەشتن بۆ شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her evidence suggests a different interpretation of the events.""",
+                      kurdishText:
+                          """بەڵگەکەی پێشنیاری لێکدانەوەیەکی تازە بۆ ڕووداوەکان دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1018,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is not possible for everyone to put their own interpretation on the law.""",
+                      kurdishText:
+                          """ناکرێت هەر کەس تێگەشتنی خۆی بۆ یاساکە هەبێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1029,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Dreams are open to interpretation (= they can be explained in different ways).""",
+                      kurdishText:
+                          """خەون دەکرێت لێکدانەوەی جیاوازی بۆ بکرێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,11 +1040,13 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Most modern historians support this interpretation.""",
+                      kurdishText:
+                          """زۆرینەی مێژوونووسانی سەردەم پشتیوانی ئەم لێکدانەوەیە دەکەن.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
+                    ), // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

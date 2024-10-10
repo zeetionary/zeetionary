@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintestinal intestinal
-WORD_WEB intestinal intestinal intestinal
-haʊʊʊʊʊʊʊ4
+- Adjective: intestinal
+1. Of or relating to or inside the intestines (- enteric, enteral)
+"intestinal disease";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intestinal";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The doctor examined her intestinal health.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/X3TAROotFfM?t=';
+    const double startSecondsend = 000000000000000000000000000647;
+    const String videoIdone = 'https://youtu.be/tMKXbLBgkEc?t=';
+    const double startSecondsone = 000000000000000000000000000549;
+    const String videoIdtwo = 'https://youtu.be/cL9RyGqwcbA?t=';
+    const double startSecondstwo = 00000000000000000000000000073;
+    const String videoIdthree = 'https://youtu.be/5q6VjTASV8I?t=';
+    const double startSecondsthree = 000000000000000000000000000201;
+    const String videoIdfour = 'https://youtu.be/u_1sVri3b2w?t=';
+    const double startSecondsfour = 000000000000000000000000000152;
+    const String videoIdfive = 'https://youtu.be/w5K2ZoPVD5E?t=';
+    const double startSecondsfive = 000000000000000000000000000167;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intestinal""",
                       // alsoEnglishWord: "also: intestinal",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtestɪnl/, /ˌɪnteˈstaɪnl/""",
+                      americanText: """IpaUS: /ɪnˈtestɪnl/, /ˌɪnteˈstaɪnl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +988,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕیخۆڵەیی، سەربە ڕیخۆڵە، ناوزگ
 """),
-// With short examples define "intestinal", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) پەیوەندیدار بە ڕیخۆڵەکان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The doctor examined her intestinal health.""",
+                      kurdishText:
+                          """پزیشکەکە پشکنینی تەندرووستیی ڕیخۆڵەیی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

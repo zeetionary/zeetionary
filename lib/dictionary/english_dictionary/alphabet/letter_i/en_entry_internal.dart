@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinternal internal
-WORD_WEB internal internal internal
-haʊʊʊʊʊʊʊ4
+- Adjective: internal
+1. Happening or arising or located within some limits or especially surface
+"internal organs"; "internal mechanism of a toy"; "internal party manoeuvring"
+ 
+2. Occurring within an institution or community (- intragroup)
+"internal squabbling within the corporation";
+ 
+3. Inside the country (- home, interior, national)
+"the nation's internal politics";
+ 
+4. Located inward (- inner, interior)
+"an internal sense of righteousness";
+ 
+5. Innermost or essential (- inner, intimate)
+"the internal contradictions of the theory";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "internal";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,57 +97,63 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""An internal wall has been removed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Temperature is an indication of an object's internal energy level.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He sustained injuries to his arms, legs, and several internal organs.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""The internal logic of her argument is undeniable.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """The company has launched an internal investigation into the claims.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak(
+        """Does the bank to have adequate records, systems and internal controls?""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak(
+        """He accused the US of trying to interfere in his country's internal affairs.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak(
+        """Nations should be left to resolve their own internal difficulties.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -926,21 +942,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wMmy2MlH55U?t=';
+    const double startSecondsend = 000000000000000000000000000329;
+    const String videoIdone = 'https://youtu.be/SrDEtSlqJC4?t=';
+    const double startSecondsone = 000000000000000000000000000117;
+    const String videoIdtwo = 'https://youtu.be/Fr-qagv7ig0?t=';
+    const double startSecondstwo = 0000000000000000000000000001206;
+    const String videoIdthree = 'https://youtu.be/DfSnHyIryeY?t=';
+    const double startSecondsthree = 000000000000000000000000000289;
+    const String videoIdfour = 'https://youtu.be/J-K5OjAkiEA?t=';
+    const double startSecondsfour = 000000000000000000000000000283;
+    const String videoIdfive = 'https://youtu.be/8eq2vGEEbB4?t=';
+    const double startSecondsfive = 000000000000000000000000000279;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +968,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """internal""",
                       // alsoEnglishWord: "also: internal",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtɜːnl/""",
+                      americanText: """IpaUS: /ɪnˈtɜːrnl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1007,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نێوخۆیی، ناوخۆ، لەنێوەوە، ژوورەوە، لە ناوەوە، نێوەوە(یی)،	نێوەوەی لەش، هەناو،	سەربە کاروبار یان چالاکی‌یەکانی نێوخۆی وڵاتێ،	هەناوی، زاتی، نێوەکی، خۆماکی، ژوورەکی، هۆشی، زەینی، نابابەتی
 """),
 // With short examples define "internal", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) پەیوەندیدار بە ناوەوەی شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """An internal wall has been removed.""",
+                      kurdishText: """دیوارێکی ناوەوە لابراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,35 +1022,46 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Temperature is an indication of an object's internal energy level.""",
+                      kurdishText:
+                          """پلەی گەرمی دەرخەری ئاستی وزەی ناوەکی شتێکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) پەیوەندیدار بە ناوەوەی جەستە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He sustained injuries to his arms, legs, and several internal organs.""",
+                      kurdishText:
+                          """تووشی برین بوو لە باڵەکانی، لاقەکانی، و ژمارەیەک ئەندامی ناوەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) پەیوەندیدار بە هزری مرۆڤ"""),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The internal logic of her argument is undeniable.""",
+                      kurdishText:
+                          """لۆژیکی هزری ئارگیومێنتەکەی نکۆڵی لێنەکراوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ھاوەڵناو) کە تەنها ئەو کەسانە لەخۆ دەگرێت کە بەشێکن لە دامەزراوەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The company has launched an internal investigation into the claims.""",
+                      kurdishText:
+                          """کۆمپانیاکە لێکۆڵینەوەیەکی ناوخۆیی لەسەر بانگەشەکان دەست پێکردووە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1044,17 +1069,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Does the bank to have adequate records, systems and internal controls?""",
+                      kurdishText:
+                          """بانکەکە بەشی پێویست تۆمار، سیستەم، و کۆنترۆڵی ناوخۆیی هەیە؟""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٥. (ھاوەڵناو) پەیوەندیدار بە ناوخۆی وڵاتێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: domestic"),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He accused the US of trying to interfere in his country's internal affairs.""",
+                      kurdishText:
+                          """ئەمریکای تۆمەتبار کرد بە بە هەوڵ دان بۆ دەستوەردان لە کارە ناوخۆییەکانی وڵاتەکەی.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1062,8 +1092,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Nations should be left to resolve their own internal difficulties.""",
+                      kurdishText:
+                          """وڵاتان دەبێت وازیان لێ بهێندرێت کە سەختییە ناوخۆییەکانی خۆیان چارەسەر بکەن.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),

@@ -316,29 +316,34 @@ class _ZeetionaryAppbarStyleadvertwoState extends ConsumerState
     super.initState();
     _controller = AnimationController(
       vsync: this,
-      duration: const Duration(seconds: 45), // Total cycle duration
+      duration: const Duration(seconds: 40), // Total cycle duration
     );
 
     _textOpacity = TweenSequence<double>([
       TweenSequenceItem(
-          tween: Tween(begin: 0.0, end: 1.0), weight: 2), // fade in for this
+          tween: Tween(begin: 0.0, end: 1.0),
+          weight: 2), // A // fade in for this
       TweenSequenceItem(
-          tween: ConstantTween(1.0), weight: 29), // appear for this
+          tween: ConstantTween(1.0), weight: 24.5), // B // appear for this
       TweenSequenceItem(
-          tween: Tween(begin: 1.0, end: 0.0), weight: 1), // fade out in this
+          tween: Tween(begin: 1.0, end: 0.0),
+          weight: 0.5), // C // fade out in this
       TweenSequenceItem(
-          tween: ConstantTween(0.0), weight: 13), // disappear for this
+          tween: ConstantTween(0.0),
+          weight: 13), // D = E + G + H // disappear for this
     ]).animate(_controller);
 
     _imageOpacity = TweenSequence<double>([
       TweenSequenceItem(
-          tween: Tween(begin: 1.0, end: 0.0), weight: 1), // fade out in this
+          tween: Tween(begin: 1.0, end: 0.0),
+          weight: 1), // E // fade out in this
       TweenSequenceItem(
-          tween: ConstantTween(0.0), weight: 32), // invisible for this
+          tween: ConstantTween(0.0),
+          weight: 27), // F = A + B + C // invisible for this
       TweenSequenceItem(
-          tween: Tween(begin: 0.0, end: 1.0), weight: 1), // fade in this
+          tween: Tween(begin: 0.0, end: 1.0), weight: 0.5), // G // fade in this
       TweenSequenceItem(
-          tween: ConstantTween(1.0), weight: 11), // appear for this
+          tween: ConstantTween(1.0), weight: 11.5), // H // appear for this
     ]).animate(_controller);
 
     _controller.repeat();
@@ -422,8 +427,6 @@ class ConstantContainer extends StatelessWidget {
     );
   }
 }
-
-
 
 class CustomTabBarSliver extends StatelessWidget
     implements PreferredSizeWidget {
@@ -573,8 +576,6 @@ class UkIconForTab extends ConsumerWidget {
   }
 }
 
-
-
 class ListViewSeparator extends StatelessWidget {
   const ListViewSeparator({
     super.key,
@@ -588,10 +589,6 @@ class ListViewSeparator extends StatelessWidget {
     );
   }
 }
-
-
-
-
 
 class CustomTabBarNew extends ConsumerWidget implements PreferredSizeWidget {
   final List<Widget> tabs;
@@ -730,8 +727,6 @@ class CustomTabBar extends ConsumerWidget {
   }
 }
 
-
-
 class CustomFloatingActionButton extends ConsumerWidget {
   final VoidCallback onPressed;
 
@@ -809,8 +804,6 @@ class CustomFloatingActionButtonPlayer extends ConsumerWidget {
   }
 }
 
-
-
 class CustomAlertDialog extends ConsumerWidget {
   final String title;
   final String content;
@@ -846,11 +839,6 @@ class CustomAlertDialog extends ConsumerWidget {
     );
   }
 }
-
-
-
-
-
 
 class EmptyPageIcon extends StatefulWidget {
   final String text;
@@ -1024,8 +1012,6 @@ class _EmptyPageIconState extends State<EmptyPageIcon>
 //     );
 //   }
 // }
-
-
 
 // conversations
 // conversations
@@ -1261,4 +1247,3 @@ class CustomConversationsRight extends ConsumerWidget {
     );
   }
 }
-

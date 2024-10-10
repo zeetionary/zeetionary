@@ -9,7 +9,8 @@ class EnglishEntryintimidation extends StatefulWidget {
   const EnglishEntryintimidation({super.key});
 
   @override
-  State<EnglishEntryintimidation> createState() => _EnglishEntryintimidationState();
+  State<EnglishEntryintimidation> createState() =>
+      _EnglishEntryintimidationState();
 }
 
 class _EnglishEntryintimidationState extends State<EnglishEntryintimidation> {
@@ -52,13 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintimidation intimidation
-WORD_WEB intimidation intimidation intimidation
-haʊʊʊʊʊʊʊ4
+- Noun: intimidation (Derived forms: intimidations)
+1. The act of intimidating a weaker person to make them do something (- bullying)
+ 
+2. The feeling of discouragement in the face of someone's superior fame, wealth or status etc.
+ 
+3. The feeling of being intimidated; being made to feel afraid or timid
+ 
+4. A communication that makes you afraid to try something (- determent, deterrence)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intimidation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +91,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The campaign of violence and intimidation against them intensifies daily.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/CtWqv0Z3ErM?t=';
+    const double startSecondsend = 000000000000000000000000000637;
+    const String videoIdone = 'https://youtu.be/60FM9WjkXtA?t=';
+    const double startSecondsone = 0000000000000000000000000001048;
+    const String videoIdtwo = 'https://youtu.be/qqZ_SH9N3Xo?t=';
+    const double startSecondstwo = 0000000000000000000000000001448;
+    const String videoIdthree = 'https://youtu.be/OyuIAUlL5IU?t=';
+    const double startSecondsthree = 000000000000000000000000000155;
+    const String videoIdfour = 'https://youtu.be/hDNiNdsPHNA?t=';
+    const double startSecondsfour = 00000000000000000000000000093;
+    const String videoIdfive = 'https://youtu.be/QICB_puGtYo?t=';
+    const double startSecondsfive = 0000000000000000000000000001886;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intimidation""",
                       // alsoEnglishWord: "also: intimidation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌtɪmɪˈdeɪʃn/""",
+                      americanText: """IpaUS: /ɪnˌtɪmɪˈdeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +995,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ترساندن، تۆقاندن، هەڕەشە(لێ‌کردن)، گەف، چاوترسێن‌کردن
 """),
 // With short examples define "intimidation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کەسێک بترسێنیت یان هەڕەشەی لێ بکەیت بۆ ئەوەی ئەوە بکات کە دەتەوێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The campaign of violence and intimidation against them intensifies daily.""",
+                      kurdishText:
+                          """کەمپینی توندووتیژی و ترساندن دژیان بەشێوەیەکی ڕۆژانە زیاد دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

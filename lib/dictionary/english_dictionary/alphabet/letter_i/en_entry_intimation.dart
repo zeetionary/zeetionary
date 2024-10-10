@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintimation intimation
-WORD_WEB intimation intimation intimation
-haʊʊʊʊʊʊʊ4
+- Noun: intimation (Derived forms: intimations)
+1. An indirect suggestion (- hint, breath)
+ 
+2. A slight suggestion or vague understanding (- inkling, glimmering, glimmer)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intimation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """There was no intimation from his doctor that his condition was serious.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondsend = 0000000000000000000000000009842;
+    const String videoIdone = 'https://youtu.be/mJW78y4CNIo?t=';
+    const double startSecondsone = 000000000000000000000000000783;
+    const String videoIdtwo = 'https://youtu.be/V8bD7ovxIuc?t=';
+    const double startSecondstwo = 0000000000000000000000000002944;
+    const String videoIdthree = 'https://youtu.be/J6P1BaAM6r4?t=';
+    const double startSecondsthree = 000000000000000000000000000970;
+    const String videoIdfour = 'https://youtu.be/8LXZTU9UbSc?t=';
+    const double startSecondsfour = 0000000000000000000000000002174;
+    const String videoIdfive = 'https://youtu.be/6V1eMvGGcXQ?t=';
+    const double startSecondsfive = 0000000000000000000000000006658;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intimation""",
                       // alsoEnglishWord: "also: intimation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntɪˈmeɪʃn/""",
+                      americanText: """IpaUS: /ˌɪntɪˈmeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئاماژە، مێزە، تێگەیاندن، بەگوێ‌دادان، حاڵی‌کردن، ئاگایی، ئاگادارکردنەوە، دانەزانین، پێ‌وتن، ڕاگەیاندن
 """),
 // With short examples define "intimation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە شتێک دەرببڕیت یان ئاشکرای بکەیت، زیاتر بە ناڕاستەوخۆ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There was no intimation from his doctor that his condition was serious.""",
+                      kurdishText:
+                          """هیچ ئاماژەیەک نەبوو لە پزیشکەکەی کە دۆخەکەی سەخت بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

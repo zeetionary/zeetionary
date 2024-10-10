@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintimacy intimacy
-WORD_WEB intimacy intimacy intimacy
-haʊʊʊʊʊʊʊ4
+- Noun: intimacy (Derived forms: intimacies)
+1. Close or warm friendship (- familiarity, closeness)
+"the absence of fences created a mysterious intimacy in which no one knew privacy";
+ 
+2. A usually secretive or illicit sexual relationship (- affair, affaire, liaison, involvement, amour)
+ 
+3. A feeling of being intimate and belonging together (- closeness)
+"their intimacy grew as the night wore on";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intimacy";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +90,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The old intimacy between them had gone for ever.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He enjoys an intimacy with the president.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The noise destroyed the intimacy of their conversation.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """Intimacy between teachers and students is not recommended.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +931,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/CYvjC94jDu4?t=';
+    const double startSecondsend = 00000000000000000000000000060;
+    const String videoIdone = 'https://youtu.be/irWodlcSBbQ?t=';
+    const double startSecondsone = 000000000000000000000000000407;
+    const String videoIdtwo = 'https://youtu.be/oRg7kCVZ3cc?t=';
+    const double startSecondstwo = 00000000000000000000000000066;
+    const String videoIdthree = 'https://youtu.be/MPS2fwRMFgM?t=';
+    const double startSecondsthree = 000000000000000000000000000103;
+    const String videoIdfour = 'https://youtu.be/3DxCHzPFbaU?t=';
+    const double startSecondsfour = 000000000000000000000000000136;
+    const String videoIdfive = 'https://youtu.be/hMgMASVsA9Y?t=';
+    const double startSecondsfive = 0000000000000000000000000003422;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intimacy""",
                       // alsoEnglishWord: "also: intimacy",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntɪməsi/""",
+                      americanText: """IpaUS: /ˈɪntɪməsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +996,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گەرم‌وگوڕی، دۆستایەتی، سەروسەخت، نزیکی، تێکەڵی، پێوەندی نزیک،	هاوجێیی، نزیکی، پێوەندی سێکسی
 """),
 // With short examples define "intimacy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە پەیوەندییەکی نزیکی کەسی یان سێکسیت لەگەڵ کەسێک هەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The old intimacy between them had gone for ever.""",
+                      kurdishText:
+                          """دۆستایەتییە کۆنەکەی نێوانیان بۆ هەمیشە تەواو بووبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,28 +1014,34 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Intimacy between teachers and students is not recommended.""",
+                      kurdishText:
+                          """پەیوەندیی نێوان مامۆستا و خوێندکار پەسەندکراو نییە.""",
+                      onPressedBritish: () => speaksentence4("en-GB"),
+                      onPressedAmerican: () => speaksentence4("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          """He enjoys an intimacy with the president.""",
+                      kurdishText: """حەزی بە گەرموگووڕییە لەگەڵ سەرۆک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) کەشێکی تایبەت و ئاسوودەبەخش"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The noise destroyed the intimacy of their conversation.""",
+                      kurdishText:
+                          """دەنگەدەنگەکە کەشی گفتوگۆکەیانی لەناوبرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence4("en-GB"),
-                      onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),

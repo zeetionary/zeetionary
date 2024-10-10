@@ -9,7 +9,8 @@ class EnglishEntryinterrogation extends StatefulWidget {
   const EnglishEntryinterrogation({super.key});
 
   @override
-  State<EnglishEntryinterrogation> createState() => _EnglishEntryinterrogationState();
+  State<EnglishEntryinterrogation> createState() =>
+      _EnglishEntryinterrogationState();
 }
 
 class _EnglishEntryinterrogationState extends State<EnglishEntryinterrogation> {
@@ -52,13 +53,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterrogation interrogation
-WORD_WEB interrogation interrogation interrogation
-haʊʊʊʊʊʊʊ4
+- Noun: interrogation (Derived forms: interrogations)
+1. A sentence of inquiry that asks for a reply (- question, interrogative, interrogative sentence, query)
+"he had trouble phrasing his interrogations";
+ 
+2. A transmission that will trigger an answering transmission from a transponder
+ 
+3. Formal systematic questioning (- examination, interrogatory)
+ 
+4. An instance of questioning (- question, inquiry, enquiry [Brit, Cdn], query)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interrogation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +92,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He confessed after four days under interrogation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """She hated her parents' endless interrogations about where she'd been.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""One by one they were taken for interrogation.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ZoLU3-dhoY0?t=';
+    const double startSecondsend = 00000000000000000000000000083;
+    const String videoIdone = 'https://youtu.be/fGMCjELDyUY?t=';
+    const double startSecondsone = 0000000000000000000000000001932;
+    const String videoIdtwo = 'https://youtu.be/wVyu7NB7W6Y?t=';
+    const double startSecondstwo = 0000000000000000000000000001537;
+    const String videoIdthree = 'https://youtu.be/THIGSnMP3io?t=';
+    const double startSecondsthree = 000000000000000000000000000926;
+    const String videoIdfour = 'https://youtu.be/MITeeIbCatY?t=';
+    const double startSecondsfour = 0000000000000000000000000001505;
+    const String videoIdfive = 'https://youtu.be/VFR37y1-81M?t=';
+    const double startSecondsfive = 0000000000000000000000000001548;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interrogation""",
                       // alsoEnglishWord: "also: interrogation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌterəˈɡeɪʃn/""",
+                      americanText: """IpaUS: /ɪnˌterəˈɡeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -998,9 +1002,10 @@ haʊʊʊʊʊʊʊ4
 // With short examples define "interrogation", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He confessed after four days under interrogation.""",
+                      kurdishText:
+                          """دانپێدانانی ئەنجام دا لە دوای چوار ڕۆژ لە لێپێچینەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1013,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She hated her parents' endless interrogations about where she'd been.""",
+                      kurdishText:
+                          """ڕقی لە لێپێچینەوەی بێ‌کۆتایی دایبابی بوو لەسەر ئەوەی لە کوێ بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1024,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """One by one they were taken for interrogation.""",
+                      kurdishText: """یەک بە یەک بردراین بۆ لێپێچینەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

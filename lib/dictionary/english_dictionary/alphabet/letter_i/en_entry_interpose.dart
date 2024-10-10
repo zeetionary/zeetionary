@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterpose interpose
-WORD_WEB interpose interpose interpose
-haʊʊʊʊʊʊʊ4
+- Verb: interpose (Derived forms: interposed, interposing, interposes)
+1. Be or come between
+"An interposing thicket blocked their way"
+ 
+2. To put forth by way of intervention
+"God interposed death"
+ 
+3. To insert between other elements (- interject, come in, put in, throw in, inject)
+"She interposed clever remarks";
+ 
+4. Get involved, so as to alter or hinder an action, or through force or threat of force (- intervene, step in, interfere)
+"Why did the U.S. not interpose earlier in WW II?";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interpose";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +94,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""‘Just a minute,’ Charles interposed. ‘How do you know?’""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """He quickly interposed himself between Mel and the doorway.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +934,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/8YXg8oIVaaQ?t=';
+    const double startSecondsend = 000000000000000000000000000105;
+    const String videoIdone = 'https://youtu.be/_rR3jBjmJhc?t=';
+    const double startSecondsone = 000000000000000000000000000271;
+    const String videoIdtwo = 'https://youtu.be/4GjXq2Sr55Q?t=';
+    const double startSecondstwo = 000000000000000000000000000510;
+    const String videoIdthree = 'https://youtu.be/8Yz1pqX_eC0?t=';
+    const double startSecondsthree = 000000000000000000000000000601;
+    const String videoIdfour = 'https://youtu.be/41x0EjkxATU?t=';
+    const double startSecondsfour = 0000000000000000000000000004432;
+    const String videoIdfive = 'https://youtu.be/Jw3h3Vie73w?t=';
+    const double startSecondsfive = 0000000000000000000000000002316;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interpose""",
                       // alsoEnglishWord: "also: interpose",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈpəʊz/""",
+                      americanText: """IpaUS: /ˌɪntərˈpəʊz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +1002,26 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "interpose", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) زیادکردنی پرسیار یان لێدوانێک بۆ ناو گفتووگۆیەک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """‘Just a minute,’ Charles interposed. ‘How do you know?’""",
+                      kurdishText:
+                          """چارڵز پچڕاندی و گوتی 'تەنها خولەکێک، چۆن دەزانیت؟'""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) دانانی ک/شت لە نێوان دوو کەس یان شت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He quickly interposed himself between Mel and the doorway.""",
+                      kurdishText: """زوو خۆی خستە نێوان مێل و دەرگاکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

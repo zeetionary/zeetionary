@@ -9,7 +9,8 @@ class EnglishEntryintervening extends StatefulWidget {
   const EnglishEntryintervening({super.key});
 
   @override
-  State<EnglishEntryintervening> createState() => _EnglishEntryinterveningState();
+  State<EnglishEntryintervening> createState() =>
+      _EnglishEntryinterveningState();
 }
 
 class _EnglishEntryinterveningState extends State<EnglishEntryintervening> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintervening intervening
-WORD_WEB intervening intervening intervening
-haʊʊʊʊʊʊʊ4
+- Adjective: intervening
+1. Occurring or falling between events or points in time
+"so much had happened during the intervening years"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intervening";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Little had changed in the intervening years.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ebQU7GipJcA?t=';
+    const double startSecondsend = 00000000000000000000000000029;
+    const String videoIdone = 'https://youtu.be/hFL6qRIJZ_Y?t=';
+    const double startSecondsone = 0000000000000000000000000001086;
+    const String videoIdtwo = 'https://youtu.be/gjIv_u4zmck?t=';
+    const double startSecondstwo = 000000000000000000000000000518;
+    const String videoIdthree = 'https://youtu.be/KAJsdgTPJpU';
+    const double startSecondsthree = 0;
+    const String videoIdfour = 'https://youtu.be/O177L4pu2jg?t=';
+    const double startSecondsfour = 000000000000000000000000000272;
+    const String videoIdfive = 'https://youtu.be/4GJtGpvE1sQ?t=';
+    const double startSecondsfive = 000000000000000000000000000467;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intervening""",
                       // alsoEnglishWord: "also: intervening",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈviːnɪŋ/""",
+                      americanText: """IpaUS: /ˌɪntərˈviːnɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لە ماوەی، لە میانەی، لە نێوان
 """),
 // With short examples define "intervening", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە نێوان دوو ڕووداو، ڕێکەوت، شت، هتد بوونی هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Little had changed in the intervening years.""",
+                      kurdishText: """کەم شت گۆڕاوە لەو ساڵانەی نێواندا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

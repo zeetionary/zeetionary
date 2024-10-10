@@ -9,7 +9,8 @@ class EnglishEntryintersection extends StatefulWidget {
   const EnglishEntryintersection({super.key});
 
   @override
-  State<EnglishEntryintersection> createState() => _EnglishEntryintersectionState();
+  State<EnglishEntryintersection> createState() =>
+      _EnglishEntryintersectionState();
 }
 
 class _EnglishEntryintersectionState extends State<EnglishEntryintersection> {
@@ -52,13 +53,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintersection intersection
-WORD_WEB intersection intersection intersection
-haʊʊʊʊʊʊʊ4
+- Noun: intersection (Derived forms: intersections)
+1. A point where lines intersect (- intersection point, point of intersection)
+ 
+2. A junction where one street or road crosses another (- crossroad, crossway [N. Amer], crossing, carrefour)
+ 
+3. A point or set of points common to two or more geometric configurations
+ 
+4. The set of elements common to two or more sets (- product, Cartesian product)
+"the set of red hats is the intersection of the set of hats and the set of red things";
+ 
+5. A representation of common ground between theories or phenomena (- overlap, convergence)
+ 
+6. The act of intersecting (as joining by causing your path to intersect your target's path)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intersection";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +96,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Traffic lights have been placed at all major intersections.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """It is a busy intersection, almost invariably clogged with traffic.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +936,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/9QtZD0LDhls';
+    const double startSecondsend = 0;
+    const String videoIdone = 'https://youtu.be/DaeSHIcGPak?t=';
+    const double startSecondsone = 00000000000000000000000000025;
+    const String videoIdtwo = 'https://youtu.be/TKtZ1asVwtA?t=';
+    const double startSecondstwo = 00000000000000000000000000024;
+    const String videoIdthree = 'https://youtu.be/Ar95A0iC1Hw?t=';
+    const double startSecondsthree = 000000000000000000000000000297;
+    const String videoIdfour = 'https://youtu.be/k7YVxLLIuGM?t=';
+    const double startSecondsfour = 00000000000000000000000000024;
+    const String videoIdfive = 'https://youtu.be/FSHITL5oedk?t=';
+    const double startSecondsfive = 000000000000000000000000000165;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +962,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intersection""",
                       // alsoEnglishWord: "also: intersection",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntəsekʃn/""",
+                      americanText: """IpaUS: /ˈɪntərsekʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1001,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: یەکتربڕین، هاوبڕی،	چوا(ڕ)ڕیانە، چواررێ‌یان، دوڕیان، دووڕێ‌یان، شوێنی یەکتربڕین، خاڵی یەکتربڕین، جەمسەر
 """),
 // With short examples define "intersection", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شوێنێک کە تێیدا دوو ڕێگا، هێڵ، هتد یان زیاتر یەکتری دەبڕن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Traffic lights have been placed at all major intersections.""",
+                      kurdishText:
+                          """ترافیک لایت لە هەموو یەکتربڕەکان دانراون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1019,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is a busy intersection, almost invariably clogged with traffic.""",
+                      kurdishText:
+                          """یەکتربڕێکی قەرەباڵغە کە هەمیشە پڕە لە ترافیک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

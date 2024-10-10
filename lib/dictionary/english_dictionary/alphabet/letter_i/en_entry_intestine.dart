@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintestine intestine
-WORD_WEB intestine intestine intestine
-haʊʊʊʊʊʊʊ4
+- Noun: intestine (Derived forms: intestines)
+1. The part of the alimentary canal between the stomach and the anus (- bowel, gut)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intestine";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Antibodies from the mother's milk line the baby's intestines and prevent infection.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/owKtZffVzPw';
+    const double startSecondsend = 0;
+    const String videoIdone = 'https://youtu.be/Fdgc2eaSzuM';
+    const double startSecondsone = 0;
+    const String videoIdtwo = 'https://youtu.be/l1SgmMXszEM';
+    const double startSecondstwo = 0;
+    const String videoIdthree = 'https://youtu.be/TGrJ0WB_1qQ?t=';
+    const double startSecondsthree = 000000000000000000000000000238;
+    const String videoIdfour = 'https://youtu.be/1v8BH5Hj3dU?t=';
+    const double startSecondsfour = 00000000000000000000000000041;
+    const String videoIdfive = 'https://youtu.be/EMY_1D0yndI?t=';
+    const double startSecondsfive = 00000000000000000000000000024;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intestine""",
                       // alsoEnglishWord: "also: intestine",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtestɪn/""",
+                      americanText: """IpaUS: /ɪnˈtestɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +991,16 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intestine", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بۆرییەکی درێژ لە نێوان گەدە و کۆم. خواردن لە گەدەوە بۆ ڕیخۆڵە باریکە و دواتر ڕیخۆڵە ئەستوورە دەچێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Antibodies from the mother's milk line the baby's intestines and prevent infection.""",
+                      kurdishText:
+                          """دژەتەنەکانی شیری دایک ڕیخۆڵەکانی منداڵ دادەپۆشن و ڕێگری لە نەخۆشی دەکەن.""",
+                      englishNote:
+                          """This means antibodies found in the mother's milk create a protective layer inside the baby's intestines, helping to block harmful infections from entering or spreading.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

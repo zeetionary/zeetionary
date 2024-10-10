@@ -9,7 +9,8 @@ class EnglishEntryintersperse extends StatefulWidget {
   const EnglishEntryintersperse({super.key});
 
   @override
-  State<EnglishEntryintersperse> createState() => _EnglishEntryintersperseState();
+  State<EnglishEntryintersperse> createState() =>
+      _EnglishEntryintersperseState();
 }
 
 class _EnglishEntryintersperseState extends State<EnglishEntryintersperse> {
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintersperse intersperse
-WORD_WEB intersperse intersperse intersperse
-haʊʊʊʊʊʊʊ4
+- Verb: intersperse (Derived forms: interspersed, interspersing, intersperses)
+1. Place at intervals in or among
+"intersperse exclamation marks in the text"
+ 
+2. Introduce one's writing or speech with certain expressions (- interlard)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intersperse";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Lectures will be interspersed with practical demonstrations.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Interspersed in the narrative are the personal stories of several important women architects.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/qSFcXtl9WyU?t=';
+    const double startSecondsend = 000000000000000000000000000366;
+    const String videoIdone = 'https://youtu.be/R6reyiSpKuw?t=';
+    const double startSecondsone = 000000000000000000000000000385;
+    const String videoIdtwo = 'https://youtu.be/NL_2q0W48-I?t=';
+    const double startSecondstwo = 000000000000000000000000000249;
+    const String videoIdthree = 'https://youtu.be/K-Ina_WW4Yc?t=';
+    const double startSecondsthree = 0000000000000000000000000001395;
+    const String videoIdfour = 'https://youtu.be/CUbeQ7Q3s2Q?t=';
+    const double startSecondsfour = 000000000000000000000000000117;
+    const String videoIdfive = 'https://youtu.be/d6ai8ZGoYjY?t=';
+    const double startSecondsfive = 00000000000000000000000000054;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intersperse""",
                       // alsoEnglishWord: "also: intersperse",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈspɜːs/""",
+                      americanText: """IpaUS: /ˌɪntərˈspɜːrs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +996,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intersperse", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) دانانی شتێک لە شتێکی دیکەدا یان لە نێوان شتی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Lectures will be interspersed with practical demonstrations.""",
+                      kurdishText:
+                          """وانەکان ڕوونکردنەوەی کردارییان تێدەخرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Interspersed in the narrative are the personal stories of several important women architects.""",
+                      kurdishText:
+                          """ئەوەی خراوەتە گێڕانەوەکە چیرۆکی کەسی ژمارەیەک ژنە ئەندازیاری گرنگە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

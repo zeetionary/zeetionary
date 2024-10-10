@@ -9,7 +9,8 @@ class EnglishEntryinterrogate extends StatefulWidget {
   const EnglishEntryinterrogate({super.key});
 
   @override
-  State<EnglishEntryinterrogate> createState() => _EnglishEntryinterrogateState();
+  State<EnglishEntryinterrogate> createState() =>
+      _EnglishEntryinterrogateState();
 }
 
 class _EnglishEntryinterrogateState extends State<EnglishEntryinterrogate> {
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterrogate interrogate
-WORD_WEB interrogate interrogate interrogate
-haʊʊʊʊʊʊʊ4
+- Verb: interrogate (Derived forms: interrogated, interrogates, interrogating)
+1. (broadcast medium) transmit (a signal) for setting off an appropriate response, as in telecommunication
+ 
+2. Pose a series of questions to (- question)
+"The suspect was interrogated by the police";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interrogate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He was interrogated by the police for over 12 hours.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Soon after we arrived, I was interrogated about my parents and our home life.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/9afhwb6rIZw';
+    const double startSecondsend = 0;
+    const String videoIdone = 'https://youtu.be/THIGSnMP3io?t=';
+    const double startSecondsone = 000000000000000000000000000542;
+    const String videoIdtwo = 'https://youtu.be/vg7qbp_KIcA?t=';
+    const double startSecondstwo = 00000000000000000000000000012;
+    const String videoIdthree = 'https://youtu.be/fBTjbGfHx0s?t=';
+    const double startSecondsthree = 000000000000000000000000000441;
+    const String videoIdfour = 'https://youtu.be/AqqaYs7LjlM?t=';
+    const double startSecondsfour = 000000000000000000000000000745;
+    const String videoIdfive = 'https://youtu.be/Jt5WpKRPIlE?t=';
+    const double startSecondsfive = 000000000000000000000000000457;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interrogate""",
                       // alsoEnglishWord: "also: interrogate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈterəɡeɪt/""",
+                      americanText: """IpaUS: /ɪnˈterəɡeɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +996,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "interrogate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) پرسیارکردنێکی زۆر لە کەسێک بۆ ماوەیەکی زۆر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was interrogated by the police for over 12 hours.""",
+                      kurdishText:
+                          """بۆ سەروو ١٢ کاتژمێر لەلایەن پۆلیسەوە لێپێچینەوەی لێکرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Soon after we arrived, I was interrogated about my parents and our home life.""",
+                      kurdishText:
+                          """هەر گەشتم پرسیارێکی زۆرم لێکرا لەسەر دایبابم و ژیانی ماڵەوەم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

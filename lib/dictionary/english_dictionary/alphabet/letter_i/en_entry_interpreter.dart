@@ -9,7 +9,8 @@ class EnglishEntryinterpreter extends StatefulWidget {
   const EnglishEntryinterpreter({super.key});
 
   @override
-  State<EnglishEntryinterpreter> createState() => _EnglishEntryinterpreterState();
+  State<EnglishEntryinterpreter> createState() =>
+      _EnglishEntryinterpreterState();
 }
 
 class _EnglishEntryinterpreterState extends State<EnglishEntryinterpreter> {
@@ -52,13 +53,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterpreter interpreter
-WORD_WEB interpreter interpreter interpreter
-haʊʊʊʊʊʊʊ4
+- Noun: interpreter (Derived forms: interpreters)
+1. Someone who mediates between speakers of different languages (- translator)
+ 
+2. Someone who uses art to represent something
+"his paintings reveal a sensitive interpreter of nature"; "she was famous as an interpreter of Shakespearean roles"
+ 
+3. An advocate who represents someone else's policy or purpose (- spokesperson, representative, voice)
+ 
+4. (computing) a program that translates and executes source language statements one line at a time (- interpretive program)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interpreter";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +92,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Speaking through an interpreter, the President said that the talks were going well.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Susan acted as interpreter for us.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +931,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/F_7QXlXpytM?t=';
+    const double startSecondsend = 000000000000000000000000000112;
+    const String videoIdone = 'https://youtu.be/knjliFs3gR8?t=';
+    const double startSecondsone = 000000000000000000000000000264;
+    const String videoIdtwo = 'https://youtu.be/IxhGjDyBT30?t=';
+    const double startSecondstwo = 000000000000000000000000000162;
+    const String videoIdthree = 'https://youtu.be/zOyDwBvxAyA?t=';
+    const double startSecondsthree = 000000000000000000000000000959;
+    const String videoIdfour = 'https://youtu.be/z096HXz0gso?t=';
+    const double startSecondsfour = 000000000000000000000000000571;
+    const String videoIdfive = 'https://youtu.be/HGOBQPFzWKo?t=';
+    const double startSecondsfive = 0000000000000000000000000004692;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interpreter""",
                       // alsoEnglishWord: "also: interpreter",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtɜːprətə(r)/""",
+                      americanText: """IpaUS: /ɪnˈtɜːrprətər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +999,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "interpreter", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە قسەی کەسێک وەردەگێڕێت لەگەڵ قسەکردندا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Speaking through an interpreter, the President said that the talks were going well.""",
+                      kurdishText:
+                          """لە ڕێگەی وەرگێڕێکەوە، سەرۆک گوتی کارەکان بەباشی دەچوون بەڕێوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1014,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Susan acted as interpreter for us.""",
+                      kurdishText: """سوزان وەک وەرگێڕ کاری بۆمان کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

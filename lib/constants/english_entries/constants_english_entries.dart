@@ -11,7 +11,6 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 // import 'package:feedback_gitlab/feedback_gitlab.dart';
 import 'package:zeetionary/constants/constants_others.dart';
 
-
 class EntryPageColumn extends StatelessWidget {
   final String word;
   final String? alsoEnglishWord;
@@ -102,62 +101,6 @@ class CustomSliverAppBar extends StatelessWidget {
   }
 }
 
-// // no decoration --- no animation
-// class EntryTitle extends StatelessWidget {
-//   final String word;
-
-//   const EntryTitle({super.key, required this.word});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Expanded(
-//       child: Padding(
-//         padding: const EdgeInsets.symmetric(horizontal: 4.0),
-//         child: Text(
-//           word,
-//           style: const TextStyle(fontSize: 24, fontWeight: FontWeight.bold),
-//         ),
-//       ),
-//     );
-//   }
-// }
-
-// // decoration --- no animation
-
-// class EntryTitle extends ConsumerWidget {
-//   final String word;
-
-//   const EntryTitle({super.key, required this.word});
-
-//   @override
-//   Widget build(BuildContext context, WidgetRef ref) {
-//     // final currentTheme = ref.watch(themeNotifierProvider);
-//     return Expanded(
-//       child: Padding(
-//         padding: const EdgeInsets.symmetric(horizontal: 10.0),
-//         child: Container(
-//           decoration: BoxDecoration(
-//             color: Theme.of(context).primaryColor
-//                 .withOpacity(0.05), // Add a background color
-//             borderRadius: BorderRadius.circular(12.0), // Add rounded corners
-//           ),
-//           child: Center(
-//             child: Text(
-//               word,
-//               style: TextStyle(
-//                 fontSize: 26,
-//                 fontWeight: FontWeight.bold,
-//                 color: Theme.of(context).primaryColor
-//                     .withOpacity(0.8), // Set text color to white
-//               ),
-//             ),
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
-
 class EntryTitle extends ConsumerStatefulWidget {
   final String word;
 
@@ -202,68 +145,6 @@ class _EntryTitleState extends ConsumerState<EntryTitle>
         // child: Container(
         child: ConstantContainer(
           margin: const EdgeInsets.only(left: 4.0, right: 4.0),
-          // height: 30,
-          // decoration: BoxDecoration(
-          //   // color: Theme.of(context).primaryColor.withOpacity(0.01),
-          //   // gradient: LinearGradient(
-          //   //   begin: Alignment.topLeft,
-          //   //   end: Alignment.bottomRight,
-          //   //   colors: [
-          //   //     Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
-          //   //     Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
-          //   //     // Theme.of(context).primaryColor.withOpacity(0.05),
-          //   //     // Theme.of(context).primaryColor.withOpacity(0.09),
-          //   //     // Colors.red.shade800.withOpacity(0.09),
-          //   //     // Colors.red.shade800.withOpacity(0.07),
-          //   //     // Theme.of(context).primaryColor.withOpacity(0.08),
-          //   //     // Theme.of(context).primaryColor.withOpacity(0.05),
-          //   //   ],
-          //   // ),
-          //   borderRadius: const BorderRadius.only(
-          //     topLeft: Radius.circular(12.0),
-          //     bottomRight: Radius.circular(12.0),
-          //   ),
-          //   border: Border.all(
-          //     color: Theme.of(context).highlightColor.withOpacity(0.2),
-          //     // color: Theme.of(context).primaryColor.withOpacity(0.18),
-          //     // color: Colors.blue.withOpacity(0.3),
-          //     width: 1.0,
-          //     style: BorderStyle.solid,
-          //   ),
-          // ),
-          // decoration: BoxDecoration(
-          //   color: Colors.blue.shade800.withOpacity(0.1),
-          //   // color: Colors.blue.withOpacity(
-          //   //     0.05), // Replace with your desired background color
-          //   borderRadius: const BorderRadius.only(
-          //     topLeft: Radius.circular(12.0),
-          //     bottomRight: Radius.circular(12.0),
-          //   ),
-          //   border: Border.all(
-          //     color: Theme.of(context).primaryColor.withOpacity(0.5),
-          //     // color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
-          //     width: 2.0,
-          //   ),
-          // ),
-          //   BoxDecoration(
-          //   gradient: LinearGradient(
-          //     colors: [
-          //       Colors.blue.shade200.withOpacity(0.1),
-          //       Colors.blue.shade700.withOpacity(0.2)
-          //       // Theme.of(context).scaffoldBackgroundColor.withOpacity(0.3),
-          //       // Theme.of(context).scaffoldBackgroundColor.withOpacity(0.1),
-          //     ],
-          //   ),
-          //   borderRadius: const BorderRadius.only(
-          //     topLeft: Radius.circular(12.0),
-          //     bottomRight: Radius.circular(12.0),
-          //   ),
-          //   border: Border.all(
-          //     color: Colors.blue.shade800.withOpacity(0.4),
-          //     // color: Theme.of(context).scaffoldBackgroundColor.withOpacity(0.9),
-          //     width: 2.0,
-          //   ),
-          // ),
           child: Center(
             child: AnimatedBuilder(
               animation: _controller,
@@ -387,23 +268,6 @@ class AlsoEnglishckblink extends ConsumerWidget {
     );
   }
 }
-
-// class IPAofEnglish extends StatelessWidget {
-//   final String text;
-
-//   const IPAofEnglish({super.key, required this.text});
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return Container(
-//       constraints: const BoxConstraints(maxWidth: 300),
-//       child: Text(
-//         text,
-//         style: const TextStyle(fontSize: 18),
-//       ),
-//     );
-//   }
-// }
 
 class IPAofEnglish extends ConsumerWidget {
   final String text;
@@ -552,58 +416,6 @@ class KurdishVocabulary extends ConsumerWidget {
         ],
       ),
     );
-    // return Padding(
-    //   padding: const EdgeInsets.all(0.1),
-    //   child: Column(
-    //     children: [
-    //       GestureDetector(
-    //         // Wrap Text with GestureDetector
-    //         onLongPress: () {
-    //           Clipboard.setData(ClipboardData(text: text));
-    //           ScaffoldMessenger.of(context).showSnackBar(
-    //             SnackBar(
-    //               content: Directionality(
-    //                 textDirection: TextDirection.rtl,
-    //                 child: Text(
-    //                   'وشەوواتا لەبەرگیرایەوە',
-    //                   style: TextStyle(
-    //                     fontSize: textSize + 1,
-    //                   ),
-    //                 ),
-    //               ),
-    //             ),
-    //           );
-    //         },
-    //         child: Column(
-    //           children: [
-    //             VocabularyExpansionTile(
-    //               children: [
-    //                 Padding(
-    //                   padding: const EdgeInsets.only(
-    //                     left: 1,
-    //                     right: 28,
-    //                   ),
-    //                   child: Text(
-    //                     text,
-    //                     style: TextStyle(
-    //                       fontSize: textSize + 2, // change size back to + 2
-    //                       // fontWeight: FontWeight.w800,
-    //                     ),
-    //                     textAlign: TextAlign.right,
-    //                     textDirection: TextDirection.rtl,
-    //                   ),
-    //                 ),
-    //               ],
-    //             ),
-    //           ],
-    //         ),
-    //       ),
-    //       const SizedBox(
-    //         width: 10,
-    //       ),
-    //     ],
-    //   ),
-    // );
   }
 }
 
@@ -839,31 +651,6 @@ class _DefinitionKurdishState extends ConsumerState<DefinitionKurdish>
                     ),
                   ),
                 ),
-                // child: Container(
-                //   decoration: BoxDecoration(
-                //     color: Theme.of(context).primaryColor.withOpacity(0.01),
-                //     border: Border.all(
-                //       color: Theme.of(context).primaryColor.withOpacity(0.18),
-                //       width: 1.0,
-                //     ),
-                //     borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-                //   ),
-                //   child: Padding(
-                //     padding: const EdgeInsets.all(8.0),
-                //     child: Directionality(
-                //       textDirection: TextDirection.rtl,
-                //       child: Text(
-                //         '${widget.note}',
-                //         textDirection: TextDirection.rtl,
-                //         textAlign: TextAlign.right,
-                //         style: TextStyle(
-                //           fontSize: textSize + 2,
-                //           fontWeight: FontWeight.w500,
-                //         ),
-                //       ),
-                //     ),
-                //   ),
-                // ),
               ),
             ),
         ],
@@ -871,44 +658,6 @@ class _DefinitionKurdishState extends ConsumerState<DefinitionKurdish>
     );
   }
 }
-
-// class DefinitionKurdish extends ConsumerWidget {
-//   final String text;
-
-//   const DefinitionKurdish({super.key, required this.text});
-
-//   @override
-//   Widget build(BuildContext context, WidgetRef ref) {
-//     final textSize = ref.watch(textSizeProvider);
-
-//     return Padding(
-//       padding: const EdgeInsets.symmetric(horizontal: 10.0),
-//       child: GestureDetector(
-//         // Wrap Text with GestureDetector
-//         onLongPress: () {
-//           Clipboard.setData(ClipboardData(text: text));
-//           ScaffoldMessenger.of(context).showSnackBar(
-//             const SnackBar(
-//               content: Directionality(
-//                 textDirection: TextDirection.rtl,
-//                 child: Text('پێناسەی کوردی لەبەرگیرایەوە'),
-//               ),
-//             ),
-//           );
-//         },
-//         child: Text(
-//           text,
-//           style: TextStyle(
-//             fontSize: textSize + 2,
-//             fontWeight: FontWeight.w500,
-//           ),
-//           textAlign: TextAlign.right,
-//           textDirection: TextDirection.rtl,
-//         ),
-//       ),
-//     );
-//   }
-// }
 
 class LinkInfo {
   final int start;
@@ -1061,51 +810,6 @@ class CustomRichText extends ConsumerWidget {
   }
 }
 
-// How to use it
-
-// CustomRichText(
-//           textBeforeLink: 'Tap ',
-//           linkText: 'here',
-//           textAfterLink: ' to continue',
-//           onTap: () {
-//              Routemaster.of(context).push("/english-current_page/returned_page");
-//           },
-//         ),
-
-// class ExampleSentenceEnglish extends ConsumerWidget {
-//   // (personal; text can be copied) https://bard.google.com/chat/590d23e62de86007
-//   final String text;
-
-//   const ExampleSentenceEnglish({super.key, required this.text});
-
-//   @override
-//   Widget build(BuildContext context, WidgetRef ref) {
-//     final textSize = ref.watch(textSizeProvider) + 1;
-
-//     return Padding(
-//       padding: const EdgeInsets.symmetric(horizontal: 4.0),
-//       child: GestureDetector(
-//         // Wrap Text with GestureDetector
-//         onLongPress: () {
-//           Clipboard.setData(ClipboardData(text: text));
-//           ScaffoldMessenger.of(context).showSnackBar(
-//             const SnackBar(content: Text('English sentence copied')),
-//           );
-//         },
-//         child: Align(
-//           alignment: Alignment.topLeft,
-//           child: Text(
-//             text,
-//             style: TextStyle(fontSize: textSize, fontWeight: FontWeight.w400),
-//             textDirection: TextDirection.ltr,
-//             textAlign: TextAlign.left,
-//           ),
-//         ),
-//       ),
-//     );
-//   }
-// }
-
 class ExampleSentenceEnglish extends ConsumerStatefulWidget {
   final String text;
   final String? note;
@@ -1216,69 +920,12 @@ class _ExampleSentenceEnglishState extends ConsumerState<ExampleSentenceEnglish>
                   ),
                 ),
               ),
-              // child: Container(
-              //   decoration: BoxDecoration(
-              //     color: Theme.of(context).primaryColor.withOpacity(0.01),
-              //     border: Border.all(
-              //       color: Theme.of(context).primaryColor.withOpacity(0.18),
-              //       width: 1.0,
-              //     ),
-              //     borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-              //   ),
-              //   child: Padding(
-              //     padding: const EdgeInsets.all(8.0),
-              //     child: Text(
-              //       '${widget.note}',
-              //       textDirection: TextDirection.ltr,
-              //       textAlign: TextAlign.left,
-              //       style: TextStyle(
-              //         fontSize: textSize + 1,
-              //         fontWeight: FontWeight.w400,
-              //       ),
-              //     ),
-              //   ),
-              // ),
             ),
         ],
       ),
     );
   }
 }
-
-// class ExampleSentenceKurdish extends ConsumerWidget {
-//   final String text;
-
-//   const ExampleSentenceKurdish({super.key, required this.text});
-
-//   @override
-//   Widget build(BuildContext context, WidgetRef ref) {
-//     final textSize = ref.watch(textSizeProvider) + 1;
-
-//     return Align(
-//       alignment: Alignment.topRight,
-//       child: GestureDetector(
-//         // Wrap Text with GestureDetector
-//         onLongPress: () {
-//           Clipboard.setData(ClipboardData(text: text));
-//           ScaffoldMessenger.of(context).showSnackBar(
-//             const SnackBar(
-//               content: Directionality(
-//                 textDirection: TextDirection.rtl,
-//                 child: Text('ڕستەی کوردی لەبەرگیرایەوە'),
-//               ),
-//             ),
-//           );
-//         },
-//         child: Text(
-//           text,
-//           style: TextStyle(fontSize: textSize),
-//           textDirection: TextDirection.rtl,
-//           textAlign: TextAlign.right,
-//         ),
-//       ),
-//     );
-//   }
-// }
 
 class ExampleSentenceKurdish extends ConsumerStatefulWidget {
   final String text;
@@ -1399,31 +1046,6 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
                     ),
                   ),
                 ),
-                // child: Container(
-                //   decoration: BoxDecoration(
-                //     color: Theme.of(context).primaryColor.withOpacity(0.01),
-                //     border: Border.all(
-                //       color: Theme.of(context).primaryColor.withOpacity(0.18),
-                //       width: 1.0,
-                //     ),
-                //     borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-                //   ),
-                //   child: Padding(
-                //     padding: const EdgeInsets.all(8.0),
-                //     child: Directionality(
-                //       textDirection: TextDirection.rtl,
-                //       child: Text(
-                //         '${widget.note}',
-                //         textDirection: TextDirection.rtl,
-                //         textAlign: TextAlign.right,
-                //         style: TextStyle(
-                //           fontSize: textSize + 1,
-                //           fontWeight: FontWeight.w400,
-                //         ),
-                //       ),
-                //     ),
-                //   ),
-                // ),
               ),
             ),
         ],
@@ -1432,26 +1054,7 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
   }
 }
 
-// class CustomIconButtonBritish extends StatelessWidget {
-//   final VoidCallback? onPressed;
 
-//   const CustomIconButtonBritish({
-//     super.key,
-//     this.onPressed,
-//   });
-
-//   @override
-//   Widget build(BuildContext context) {
-//     return IconButton(
-//       iconSize: 18,
-//       icon: const Icon(
-//         Icons.record_voice_over,
-//         color: Colors.blue,
-//       ),
-//       onPressed: onPressed,
-//     );
-//   }
-// }
 
 class CustomIconButtonBritish extends ConsumerWidget {
   final VoidCallback? onPressed;
@@ -1637,22 +1240,6 @@ class _EnglishButtonTTSState extends ConsumerState<EnglishButtonTTS>
             left: 10.0, right: 10.0, top: 18.0, bottom: 18.0),
         child: ConstantContainer(
           height: textSize + 28,
-          // decoration: BoxDecoration(
-          //   // color: Theme.of(context).primaryColor.withOpacity(0.04),
-          //   border: Border.all(
-          //     color: Theme.of(context).primaryColor.withOpacity(0.2),
-          //     width: 1.0, // Adjust the border width
-          //   ),
-          //   // boxShadow: [
-          //   //   BoxShadow(
-          //   //     color: Theme.of(context).primaryColor.withOpacity(0.2),
-          //   //     spreadRadius: 2,
-          //   //     blurRadius: 4,
-          //   //     offset: Offset(0, 2), // Add a subtle shadow
-          //   //   ),
-          //   // ],
-          //   borderRadius: BorderRadius.circular(51.0),
-          // ),
           child: Row(
             mainAxisAlignment: MainAxisAlignment.spaceEvenly,
             children: [
@@ -1769,29 +1356,6 @@ class _MyExpansionTileState extends ConsumerState<MyExpansionTile>
     return ConstantContainer(
       // height: 45, // adds black and yellow lines
       margin: const EdgeInsets.all(12.0),
-      // decoration: _isExpanded
-      //     ? BoxDecoration(
-      //         color: Theme.of(context).highlightColor.withOpacity(0.04),
-      //         // color: Theme.of(context).primaryColor.withOpacity(0.01),
-      //         border: Border.all(
-      //           // color: Theme.of(context).primaryColor.withOpacity(0.18),
-      //           color: Theme.of(context).highlightColor.withOpacity(0.2),
-      //           // color: Colors.blue.withOpacity(0.9),
-      //           width: 1.0,
-      //         ),
-      //         borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-      //       )
-      //     : BoxDecoration(
-      //         color: Theme.of(context).highlightColor.withOpacity(0.04),
-      //         // color: Theme.of(context).primaryColor.withOpacity(0.01),
-      //         border: Border.all(
-      //           color: Theme.of(context).highlightColor.withOpacity(0.2),
-      //           // color: Colors.blue.withOpacity(0.9),
-      //           width: 1.0,
-      //         ),
-      //         borderRadius: const BorderRadius.all(Radius.circular(8.0)),
-      //       ),
-      // // : null, // or nothing
       child: Column(
         crossAxisAlignment: CrossAxisAlignment.end,
         children: [

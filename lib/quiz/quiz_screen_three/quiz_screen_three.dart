@@ -317,37 +317,43 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
                   );
                 },
                 // If all questions answered
-                child: Column(
-                  children: [
-                    const TotalPointsAndAnswers(),
-                    const SizedBox(
-                      height: 20,
-                    ),
-                    Directionality(
-                      textDirection: textDirection,
-                      child: Row(
-                        children: [
-                          Transform(
-                            alignment: Alignment.center,
-                            transform: isKurdish
-                                ? Matrix4.rotationY(3.14159)
-                                : Matrix4.identity(),
-                            child: Icon(
-                              Icons.refresh,
-                              color: Theme.of(context).primaryColor,
-                            ),
+                child: Center(
+                  child: Column(
+                    mainAxisSize: MainAxisSize.min,
+                    children: [
+                      const TotalPointsAndAnswers(),
+                      const SizedBox(height: 20),
+                      Align(
+                        alignment: Alignment.center,
+                        child: Directionality(
+                          textDirection: textDirection,
+                          child: Row(
+                            mainAxisSize: MainAxisSize.min,
+                            children: [
+                              Transform(
+                                alignment: Alignment.center,
+                                transform: isKurdish
+                                    ? Matrix4.rotationY(3.14159)
+                                    : Matrix4.identity(),
+                                child: Icon(
+                                  Icons.refresh,
+                                  color: Theme.of(context).primaryColor,
+                                ),
+                              ),
+                              const SizedBox(width: 8),
+                              Text(
+                                isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
+                                style: TextStyle(
+                                  fontSize: textSize + 4,
+                                  color: Theme.of(context).primaryColor,
+                                ),
+                              ),
+                            ],
                           ),
-                          Text(
-                            isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
-                            style: TextStyle(
-                              fontSize: textSize + 4,
-                              color: Theme.of(context).primaryColor,
-                            ),
-                          ),
-                        ],
+                        ),
                       ),
-                    ),
-                  ],
+                    ],
+                  ),
                 ),
               ),
             );

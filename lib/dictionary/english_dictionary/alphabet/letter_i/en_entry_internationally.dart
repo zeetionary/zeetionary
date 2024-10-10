@@ -9,10 +9,12 @@ class EnglishEntryinternationally extends StatefulWidget {
   const EnglishEntryinternationally({super.key});
 
   @override
-  State<EnglishEntryinternationally> createState() => _EnglishEntryinternationallyState();
+  State<EnglishEntryinternationally> createState() =>
+      _EnglishEntryinternationallyState();
 }
 
-class _EnglishEntryinternationallyState extends State<EnglishEntryinternationally> {
+class _EnglishEntryinternationallyState
+    extends State<EnglishEntryinternationally> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinternationally internationally
-WORD_WEB internationally internationally internationally
-haʊʊʊʊʊʊʊ4
+- Adverb: internationally
+1. Worldwide (- globally)
+"She is internationally known";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "internationally";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She has lectured widely both nationally and internationally.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""They are planning to expand the business internationally.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/HxRUuGqqMG4?t=';
+    const double startSecondsend = 00000000000000000000000000032;
+    const String videoIdone = 'https://youtu.be/Cqbleas1mmo?t=';
+    const double startSecondsone = 000000000000000000000000000782;
+    const String videoIdtwo = 'https://youtu.be/XrTDwpLECtA?t=';
+    const double startSecondstwo = 000000000000000000000000000177;
+    const String videoIdthree = 'https://youtu.be/iFcPqXxAUWM?t=';
+    const double startSecondsthree = 000000000000000000000000000527;
+    const String videoIdfour = 'https://youtu.be/7dZmeh_28Eo?t=';
+    const double startSecondsfour = 000000000000000000000000000427;
+    const String videoIdfive = 'https://youtu.be/H-iM_JhNzIQ?t=';
+    const double startSecondsfive = 00000000000000000000000000088;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """internationally""",
                       // alsoEnglishWord: "also: internationally",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈnæʃnəli/""",
+                      americanText: """IpaUS: /ˌɪntərˈnæʃnəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +995,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "internationally", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەک کە دوو وڵات یان زیاتر لەخۆ دەگرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She has lectured widely both nationally and internationally.""",
+                      kurdishText:
+                          """بە شێوەی فراوان چی لە ناوخۆی وڵات و چی بە نێودەوڵەتی وانەی گوتووەتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They are planning to expand the business internationally.""",
+                      kurdishText:
+                          """پلانیان هەیە بازرگانییەکە بەشێوەیەکی نێودەوڵەتی فراوان بکەن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

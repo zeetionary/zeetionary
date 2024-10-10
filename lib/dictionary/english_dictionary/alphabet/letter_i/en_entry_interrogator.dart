@@ -9,7 +9,8 @@ class EnglishEntryinterrogator extends StatefulWidget {
   const EnglishEntryinterrogator({super.key});
 
   @override
-  State<EnglishEntryinterrogator> createState() => _EnglishEntryinterrogatorState();
+  State<EnglishEntryinterrogator> createState() =>
+      _EnglishEntryinterrogatorState();
 }
 
 class _EnglishEntryinterrogatorState extends State<EnglishEntryinterrogator> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterrogator interrogator
-WORD_WEB interrogator interrogator interrogator
-haʊʊʊʊʊʊʊ4
+- Noun: interrogator (Derived forms: interrogators)
+1. A questioner who is excessively harsh (- inquisitor)
+"Torquemada was the interrogator general for the Spanish Inquisition";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interrogator";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""His interrogators finally forced him to confess.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/4kEil-H7490?t=';
+    const double startSecondsend = 000000000000000000000000000387;
+    const String videoIdone = 'https://youtu.be/wf6x4FHTMKo?t=';
+    const double startSecondsone = 0000000000000000000000000001928;
+    const String videoIdtwo = 'https://youtu.be/zwZY-PknSQw?t=';
+    const double startSecondstwo = 000000000000000000000000000613;
+    const String videoIdthree = 'https://youtu.be/sY8aFSY2zv4?t=';
+    const double startSecondsthree = 00000000000000000000000000010947;
+    const String videoIdfour = 'https://youtu.be/qWNHsaszXpc?t=';
+    const double startSecondsfour = 000000000000000000000000000734;
+    const String videoIdfive = 'https://youtu.be/PuYJQsIJzhg?t=';
+    const double startSecondsfive = 0000000000000000000000000009;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interrogator""",
                       // alsoEnglishWord: "also: interrogator",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈterəɡeɪtə(r)/""",
+                      americanText: """IpaUS: /ɪnˈterəɡeɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "interrogator", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە پرسیارێکی زۆر بۆ ماوەیەکی درێژ لە کەسێک دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His interrogators finally forced him to confess.""",
+                      kurdishText:
+                          """لێکۆڵەرەکانی لەکۆتاییدا ناچاریان کرد دانپێدانان ئەنجام بدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

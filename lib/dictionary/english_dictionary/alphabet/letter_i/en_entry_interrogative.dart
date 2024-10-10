@@ -9,7 +9,8 @@ class EnglishEntryinterrogative extends StatefulWidget {
   const EnglishEntryinterrogative({super.key});
 
   @override
-  State<EnglishEntryinterrogative> createState() => _EnglishEntryinterrogativeState();
+  State<EnglishEntryinterrogative> createState() =>
+      _EnglishEntryinterrogativeState();
 }
 
 class _EnglishEntryinterrogativeState extends State<EnglishEntryinterrogative> {
@@ -52,13 +53,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: interrogative (Derived forms: interrogatives)
+1. A sentence of inquiry that asks for a reply (- question, interrogation, interrogative sentence, query)
+"he asked a direct interrogative sentence";
+ 
+2. Some linguists consider interrogative sentences to constitute a mood (- interrogative mood)
 
-EnglishEntryinterrogative interrogative
-WORD_WEB interrogative interrogative interrogative
-haʊʊʊʊʊʊʊ4
+- Adjective: interrogative
+1. (grammar) relating to verbs in the so-called interrogative mood
+"not all questions have an interrogative construction"
+ 
+2. Relating to the use of or having the nature of an interrogation (- interrogatory)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interrogative";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +94,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Is this an interrogative sentence?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """We are learning how to use interrogative pronouns in questions.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(""""Who" and "why" are interrogatives.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +933,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/btBw70HAys4?t=';
+    const double startSecondsend = 0000000000000000000000000004872;
+    const String videoIdone = 'https://youtu.be/LA7UrT1KnMM?t=';
+    const double startSecondsone = 000000000000000000000000000493;
+    const String videoIdtwo = 'https://youtu.be/N91UVg_BDwY?t=';
+    const double startSecondstwo = 0000000000000000000000000001152;
+    const String videoIdthree = 'https://youtu.be/acq2t90fEa0?t=';
+    const double startSecondsthree = 000000000000000000000000000498;
+    const String videoIdfour = 'https://youtu.be/IuDSRs_lZBk?t=';
+    const double startSecondsfour = 00000000000000000000000000023;
+    const String videoIdfive = 'https://youtu.be/-FH5vkLY-LE?t=';
+    const double startSecondsfive = 000000000000000000000000000313;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interrogative""",
                       // alsoEnglishWord: "also: interrogative",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈrɒɡətɪv/""",
+                      americanText: """IpaUS: /ˌɪntəˈrɑːɡətɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,32 +998,40 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پرسیاری، پرسیارکار، پرسیارلێکەر، پرسیارکارانە
 """),
 // With short examples define "interrogative", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە پرسیار دەکات یان لە شێوەی پرسیارە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Is this an interrogative sentence?""",
+                      kurdishText: """ئەمە ڕستەیەکی پرسیارییە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە لە پرسیاردا بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We are learning how to use interrogative pronouns in questions.""",
+                      kurdishText:
+                          """فێردەبین چۆن جێناوی پرسیاری لە ڕستەدا بەکاربێنین.""",
+                      englishNote:
+                          """Note: common interrogative pronouns include "who," "what," "which," "whom," and "whose.\"""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) وشە یان ڕستەیەک کە لە کاتی پرسیاردا بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """"Who" and "why" are interrogatives.""",
+                      kurdishText: """"Who" و "why" جێناوی پرسیارین.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

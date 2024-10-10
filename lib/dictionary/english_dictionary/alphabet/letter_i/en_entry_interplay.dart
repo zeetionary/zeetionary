@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterplay interplay
-WORD_WEB interplay interplay interplay
-haʊʊʊʊʊʊʊ4
+- Noun: interplay (Derived forms: interplays)
+1. Reciprocal action and reaction
+"the interplay of these conjoined yet opposed factors"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interplay";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Our personalities result from the complex interplay between our genes and our environment.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/h8VHaNeuw3o?t=';
+    const double startSecondsend = 000000000000000000000000000716;
+    const String videoIdone = 'https://youtu.be/QKIobyk6Isc?t=';
+    const double startSecondsone = 000000000000000000000000000249;
+    const String videoIdtwo = 'https://youtu.be/wG8gYDWj-mg?t=';
+    const double startSecondstwo = 000000000000000000000000000240;
+    const String videoIdthree = 'https://youtu.be/9euW5iCjKDo?t=';
+    const double startSecondsthree = 000000000000000000000000000451;
+    const String videoIdfour = 'https://youtu.be/FKTicVgp8zU?t=';
+    const double startSecondsfour = 000000000000000000000000000189;
+    const String videoIdfive = 'https://youtu.be/K4Ze-Sp6aUE?t=';
+    const double startSecondsfive = 0000000000000000000000000005390;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interplay""",
                       // alsoEnglishWord: "also: interplay",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntəpleɪ/""",
+                      americanText: """IpaUS: /ˈɪntərpleɪ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +992,17 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "interplay", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شێوازی کاریگەری دوو یان زیاتر لە شت یان کەس کار لە یەکدی دەکەن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: interaction"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Our personalities result from the complex interplay between our genes and our environment.""",
+                      kurdishText:
+                          """کەسایەتیمان درووست دەبێت کاریگەریی ئاڵۆزی جینەکانمان و ژینگەمان.""",
+                      englishNote:
+                          """This means our character traits and behaviors are shaped by a combination of our inherited genetic makeup (the traits we get from our parents) and the external factors around us (like how we’re raised, our culture, or life experiences).""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

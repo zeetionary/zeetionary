@@ -52,13 +52,42 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: intimate (Derived forms: intimated, intimates, intimating)
+1. Give to understand (- adumbrate, insinuate)
+"I intimated that I did not like his wife";
+ 
+2. Imply as a possibility (- suggest)
+"The evidence intimates a need for more clarification";
 
-EnglishEntryintimate intimate
-WORD_WEB intimate intimate intimate
-haʊʊʊʊʊʊʊ4
+- Adjective: intimate
+1. Marked by close acquaintance, association, or familiarity
+"intimate friend"; "intimate relations between economics, politics, and legal principles"
+ 
+2. Concerning things deeply private and personal (- private)
+"intimate correspondence";
+ 
+3. Having or fostering a warm or friendly and informal atmosphere (- cozy [N. Amer], informal, cosy [Brit, Cdn])
+"an intimate cocktail lounge"; "the small room was cosy and intimate";
+ 
+4. Having mutual interests or affections; of established friendship (- familiar)
+"pretending she is on an intimate footing with those she slanders";
+ 
+5. Used euphemistically to refer to the genitals
+"he touched her intimate parts"
+ 
+6. Involved in a sexual relationship (- sexual)
+"the intimate relations between husband and wife"; "she had been intimate with many men";
+ 
+7. Innermost or essential (- inner, internal)
+"the intimate structure of matter";
+ 
+8. Thoroughly acquainted through study or experience (- knowledgeable, versed, knowledgable)
+"this girl, so intimate with nature";
+
+- Noun: intimate (Derived forms: intimates)
+1. Someone to whom private matters are confided (- confidant)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intimate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,50 +116,56 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""We're not on intimate terms with our neighbours.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The article revealed intimate details about his family life.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He knew an intimate little cafe where they would not be disturbed.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""He has an intimate knowledge of the English countryside.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """The story highlights an intimate connection between love and trust.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts
+        .speak("""He has already intimated to us his intention to retire.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts
+        .speak("""He was a wartime minister and intimate of Churchill.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -926,21 +961,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/HDntl7yzzVI?t=';
+    const double startSecondsend = 0000000000000000000000000001140;
+    const String videoIdone = 'https://youtu.be/ea4Tq7HB7kU?t=';
+    const double startSecondsone = 000000000000000000000000000206;
+    const String videoIdtwo = 'https://youtu.be/6YxGCccOEHc?t=';
+    const double startSecondstwo = 000000000000000000000000000101;
+    const String videoIdthree = 'https://youtu.be/cqidD7kVnxY?t=';
+    const double startSecondsthree = 00000000000000000000000000059;
+    const String videoIdfour = 'https://youtu.be/qg2nGY1aqlg?t=';
+    const double startSecondsfour = 0000000000000000000000000001797;
+    const String videoIdfive = 'https://youtu.be/ViSE3F7KT68?t=';
+    const double startSecondsfive = 00000000000000000000000000050;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +987,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intimate""",
                       // alsoEnglishWord: "also: intimate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntɪmət/""",
+                      americanText: """IpaUS: /ˈɪntɪmət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,68 +1026,94 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گەرم‌وگوڕ، یەکماڵ، گیانی‌گیانی، نزیک، تێکەڵاو، تێکەڵ، خۆشەویست،	تایبەتی، خۆیی، پێرسۆناڵ، دۆستانە،	پڕوردەکاری، قووڵ، دوورودرێژ، چڕوپڕ، ورد، تەواو،	هەبوونی پێوەندی سێکسی، هەبوونی سەروساخت
 """),
 // With short examples define "intimate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) هەبوونی پەیوەندییەکی نزیک و دۆستانە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We're not on intimate terms with our neighbours.""",
+                      kurdishText:
+                          """لە دۆخی تێکەڵاوی نیین لەگەڵ دراوسێکانمان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) تایبەت و کەسی، زۆرجار بە شێوەی سێکسی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The article revealed intimate details about his family life.""",
+                      kurdishText:
+                          """وتارەکە وردەکاریی کەسی ئاشکرا لەسەر ژیانی خێزانیی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە هاندەرە بۆ پەیوەندیی نزیک و کەسی، زۆرجار بە سرووشتی سێکسییەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He knew an intimate little cafe where they would not be disturbed.""",
+                      kurdishText:
+                          """سەبارەت بە قاوەخانەیەکی بچووکی گەرم‌وگوڕ دەزانی کە تێیدا بێزار ناکرێن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ھاوەڵناو) بە وردەکاریی زۆرەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He has an intimate knowledge of the English countryside.""",
+                      kurdishText:
+                          """زانیاری وردی لەسەر دەشت‌ودەری ئینگلیز هەیە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٥. (ھاوەڵناو) زۆر نزیک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The story highlights an intimate connection between love and trust.""",
+                      kurdishText:
+                          """چیرۆکەکە تیشک دەخاتە سەر پەیوەندییەکی نزیکی نێوان خۆشەویستی و متمانە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (کردار) گوتن بە کەسێک بیر لە چی دەکەیتەوە یان مەبەستت چییە"""),
+                    const AlsoEnglishckb(
+                        word: "ھەروەھا: let it be known/make it known that…"),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He has already intimated to us his intention to retire.""",
+                      kurdishText:
+                          """پێشوەختە ویستی خانەنشێنبوونی پێمان گوتووە.""",
+                      englishNote:
+                          """Also: He has already intimated (that) he intends to retire.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٧. (ناو) هاوڕێیەکی نزیک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was a wartime minister and intimate of Churchill.""",
+                      kurdishText:
+                          """وەزیرێکی کاتی جەنگ و دۆستی نزیکی چەرچڵ بوو.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

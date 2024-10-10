@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintersect intersect
-WORD_WEB intersect intersect intersect
-haʊʊʊʊʊʊʊ4
+- Verb: intersect (Derived forms: intersected, intersects, intersecting)
+1. Meet at a point (- cross)
+"The roads intersect under the bridge";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intersect";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +85,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The lines intersect at right angles.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The path intersected with a busy road.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The gardens are intersected by gravel paths.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/KT18KJouHWg?t=';
+    const double startSecondsend = 000000000000000000000000000737;
+    const String videoIdone = 'https://youtu.be/_0RTH57v66I?t=';
+    const double startSecondsone = 000000000000000000000000000575;
+    const String videoIdtwo = 'https://youtu.be/MBsQOTvWL3Q?t=';
+    const double startSecondstwo = 000000000000000000000000000183;
+    const String videoIdthree = 'https://youtu.be/3KC32Vymo0Q?t=';
+    const double startSecondsthree = 0000000000000000000000000001537;
+    const String videoIdfour = 'https://youtu.be/qh7dgSldw-w?t=';
+    const double startSecondsfour = 000000000000000000000000000117;
+    const String videoIdfive = 'https://youtu.be/A0sM6xVAY-A?t=';
+    const double startSecondsfive = 00000000000000000000000000074;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intersect""",
                       // alsoEnglishWord: "also: intersect",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈsekt/""",
+                      americanText: """IpaUS: /ˌɪntərˈsekt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +991,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intersect", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) گەشتن بە یەکدی یان تێپەڕین بە لای یەکدیدا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The lines intersect at right angles.""",
+                      kurdishText: """هێڵەکان بە گۆشەی ڕاست یەکدی دەبڕن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1004,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The path intersected with a busy road.""",
+                      kurdishText:
+                          """ڕێگاکە لەگەڵ شەقامێکی قەرەباڵغ یەکیان دەبڕی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) دابەشکردنی ناوچەیەک بە دانانی X ــێک تێیدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The gardens are intersected by gravel paths.""",
+                      kurdishText: """باخچەکان دابەشکران بە ڕێگای زیخ.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

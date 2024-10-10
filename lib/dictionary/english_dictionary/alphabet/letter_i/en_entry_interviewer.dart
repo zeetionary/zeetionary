@@ -9,7 +9,8 @@ class EnglishEntryinterviewer extends StatefulWidget {
   const EnglishEntryinterviewer({super.key});
 
   @override
-  State<EnglishEntryinterviewer> createState() => _EnglishEntryinterviewerState();
+  State<EnglishEntryinterviewer> createState() =>
+      _EnglishEntryinterviewerState();
 }
 
 class _EnglishEntryinterviewerState extends State<EnglishEntryinterviewer> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinterviewer interviewer
-WORD_WEB interviewer interviewer interviewer
-haʊʊʊʊʊʊʊ4
+- Noun: interviewer (Derived forms: interviewers)
+1. A person who conducts an interview
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "interviewer";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Try and anticipate what the interviewers will ask.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The interviewer had not realized that was an emotionally charged issue in this community.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Ys1EjAGzuDk?t=';
+    const double startSecondsend = 0000000000000000000000000001532;
+    const String videoIdone = 'https://youtu.be/raSeaAeryWE?t=';
+    const double startSecondsone = 0000000000000000000000000002632;
+    const String videoIdtwo = 'https://youtu.be/OoJsPvmFixU?t=';
+    const double startSecondstwo = 0000000000000000000000000001054;
+    const String videoIdthree = 'https://youtu.be/_9rucsh5brg?t=';
+    const double startSecondsthree = 000000000000000000000000000424;
+    const String videoIdfour = 'https://youtu.be/89cXbrLB52c?t=';
+    const double startSecondsfour = 000000000000000000000000000561;
+    const String videoIdfive = 'https://youtu.be/aCPNlZ7bvRc?t=';
+    const double startSecondsfive = 000000000000000000000000000116;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """interviewer""",
                       // alsoEnglishWord: "also: interviewer",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntəvjuːə(r)/""",
+                      americanText: """IpaUS: /ˈɪntərvjuːər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دیمانەسازدەر، دیمانەڕێکخەر، دیدارکار، چاوپێکەوتن‌کار
 """),
 // With short examples define "interviewer", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو کەسەی لە چاوپێکەوتنێک پرسیار دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Try and anticipate what the interviewers will ask.""",
+                      kurdishText:
+                          "ھەوڵ‌بدە پێشبینی بکە دیدارکاران چی پرسیارێک دەکەن.",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The interviewer had not realized that was an emotionally charged issue (= causing strong feelings) in this community.""",
+                      kurdishText:
+                          """چاوپێکەوتن‌کارەکە نەیزانی کە ئەوە بابەتێکی ھەست‌بزوێن لەم کۆمەڵگەیەدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

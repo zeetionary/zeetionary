@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintestate intestate
-WORD_WEB intestate intestate intestate
-haʊʊʊʊʊʊʊ4
+- Adjective: intestate
+1. (law) having made no legally valid will before death or not disposed of by a legal will
+"he died intestate"; "intestate property"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intestate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Many people die intestate because they thought they were too young to make a will.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Gq6s6W0yVWk?t=';
+    const double startSecondsend = 000000000000000000000000000165;
+    const String videoIdone = 'https://youtu.be/4anVYVJvtBI?t=';
+    const double startSecondsone = 000000000000000000000000000605;
+    const String videoIdtwo = 'https://youtu.be/FdSe-YvTFe0?t=';
+    const double startSecondstwo = 00000000000000000000000000047;
+    const String videoIdthree = 'https://youtu.be/hlfv4puOXUA?t=';
+    const double startSecondsthree = 00000000000000000000000000088;
+    const String videoIdfour = 'https://youtu.be/P3bqYF6cVe0?t=';
+    const double startSecondsfour = 00000000000000000000000000074;
+    const String videoIdfive = 'https://youtu.be/x3k01A7hWG0?t=';
+    const double startSecondsfive = 0000000000000000000000000001657;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intestate""",
                       // alsoEnglishWord: "also: intestate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtesteɪt/""",
+                      americanText: """IpaUS: /ɪnˈtesteɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +992,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intestate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە کەسێک وەسیەتی نەکردووە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Many people die intestate because they thought they were too young to make a will.""",
+                      kurdishText:
+                          """زۆر کەس بە بێ‌وەسیەت دەمرن چونکە وایان بیرکردووەتەوە زۆر گەنجن کە وەسیەت بنووسن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

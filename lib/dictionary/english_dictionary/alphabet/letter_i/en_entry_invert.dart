@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinvert invert
-WORD_WEB invert invert invert
-haʊʊʊʊʊʊʊ4
+- Verb: invert (Derived forms: inverting, inverted, inverts)
+1. (music) make an inversion (in a musical composition)
+"here the theme is inverted"
+ 
+2. Turn around the position, order, relation, or condition of (- reverse)
+"when forming a question, invert the subject and the verb";
+ 
+3. Turn inside out or upside down (- turn back, reverse)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "invert";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""In questions, the subject and verb are often inverted.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The shape looked like an inverted V.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Lkl9_3-jX6c?t=';
+    const double startSecondsend = 000000000000000000000000000253;
+    const String videoIdone = 'https://youtu.be/SEZu7K5tGxw?t=';
+    const double startSecondsone = 00000000000000000000000000028;
+    const String videoIdtwo = 'https://youtu.be/-UrdExQW0cs?t=';
+    const double startSecondstwo = 000000000000000000000000000984;
+    const String videoIdthree = 'https://youtu.be/fez7X_oevNs?t=';
+    const double startSecondsthree = 00000000000000000000000000095;
+    const String videoIdfour = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsfour = 000000000000000000000000000680;
+    const String videoIdfive = 'https://youtu.be/pTk9HnIwEYU?t=';
+    const double startSecondsfive = 000000000000000000000000000233;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """invert""",
                       // alsoEnglishWord: "also: invert",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈvɜːt/""",
+                      americanText: """IpaUS: /ɪnˈvɜːrt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تاقی پێچەوانە، تاقی هەڵگەڕاوە، تاقی سەروبن
 """),
 // With short examples define "invert", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) گۆڕینی پێگەی ئاسایی شتێک، بە هەڵگەڕاندنەوەی سەرەوخواری"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In questions, the subject and verb are often inverted.""",
+                      kurdishText:
+                          """لە پرسیاردا، بکەر و کردار پێچەوانە دەبنەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1012,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The shape looked like an inverted V.""",
+                      kurdishText: """شێوەکە وەک V ـیەکی هەڵگەڕاوەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

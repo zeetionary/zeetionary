@@ -9,7 +9,8 @@ class EnglishEntryintrinsically extends StatefulWidget {
   const EnglishEntryintrinsically({super.key});
 
   @override
-  State<EnglishEntryintrinsically> createState() => _EnglishEntryintrinsicallyState();
+  State<EnglishEntryintrinsically> createState() =>
+      _EnglishEntryintrinsicallyState();
 }
 
 class _EnglishEntryintrinsicallyState extends State<EnglishEntryintrinsically> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintrinsically intrinsically
-WORD_WEB intrinsically intrinsically intrinsically
-haʊʊʊʊʊʊʊ4
+- Adverb: intrinsically
+1. With respect to its inherent nature (- per se, in and of itself, as such)
+"this statement is interesting intrinsically";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intrinsically";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Salary increase is intrinsically linked to performance.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""There is nothing intrinsically wrong with the idea.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ZOvyn72x6kQ?t=';
+    const double startSecondsend = 000000000000000000000000000268;
+    const String videoIdone = 'https://youtu.be/c9_20kflptY?t=';
+    const double startSecondsone = 000000000000000000000000000293;
+    const String videoIdtwo = 'https://youtu.be/v9tM_YHvhuA?t=';
+    const double startSecondstwo = 000000000000000000000000000676;
+    const String videoIdthree = 'https://youtu.be/VspjfNMPHyc?t=';
+    const double startSecondsthree = 0000000000000000000000000001049;
+    const String videoIdfour = 'https://youtu.be/uAPTWTmlc8Q?t=';
+    const double startSecondsfour = 000000000000000000000000000463;
+    const String videoIdfive = 'https://youtu.be/6T_-DiAzYBc?t=';
+    const double startSecondsfive = 000000000000000000000000000756;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intrinsically""",
                       // alsoEnglishWord: "also: intrinsically",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtrɪnzɪkli/""",
+                      americanText: """IpaUS: /ɪnˈtrɪnzɪkli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بە شێوەیەکی خۆماکی یان زاتی، خۆی لە خۆی‌دا
 """),
 // With short examples define "intrinsically", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە سەر بە سرووشتی ڕاستەقینەی ک/شتە، یان بەشێکە لێی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Salary increase is intrinsically linked to performance.""",
+                      kurdishText:
+                          """زیادبوونی مووچە بە شێوەیەکی بنەڕەتی پەیوەندی بە توانای کارکردن هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There is nothing intrinsically wrong with the idea (= it is good in itself but there may be outside circumstances which mean it is not suitable).""",
+                      kurdishText:
+                          """هیچ هەڵەیەک نییە سەبارەت بە خودی بیرۆکەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

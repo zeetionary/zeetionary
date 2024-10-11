@@ -52,13 +52,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinversion inversion
-WORD_WEB inversion inversion inversion
-haʊʊʊʊʊʊʊ4
+- Noun: inversion (Derived forms: inversions)
+1. The layer of air near the earth is cooler than an overlying layer
+ 
+2. Abnormal condition in which an organ is turned inward or inside out (as when the upper part of the uterus is pulled into the cervical canal after childbirth)
+ 
+3. A chemical process in which the direction of optical rotation of a substance is reversed from dextrorotatory to levorotary or vice versa
+ 
+4. (genetics) a kind of mutation in which the order of the genes in a section of a chromosome is reversed
+ 
+5. The reversal of the normal order of words (- anastrophe)
+ 
+5. (counterpoint) a variation of a melody or part in which ascending intervals are replaced by descending intervals and vice versa
+ 
+6. A term formerly used to mean taking on the gender role of the opposite sex (- sexual inversion)
+ 
+7. Turning upside down; setting on end (- upending)
+ 
+8. The act of turning inside out (- eversion, everting)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inversion";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +100,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Her account of the case was an inversion of the facts.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +939,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/9SKuFe2SERs?t=';
+    const double startSecondsend = 000000000000000000000000000173;
+    const String videoIdone = 'https://youtu.be/d6iQrh2TK98?t=';
+    const double startSecondsone = 000000000000000000000000000357;
+    const String videoIdtwo = 'https://youtu.be/oJLA8iNUV-0?t=';
+    const double startSecondstwo = 000000000000000000000000000875;
+    const String videoIdthree = 'https://youtu.be/pLcqJ2DclEg?t=';
+    const double startSecondsthree = 000000000000000000000000000432;
+    const String videoIdfour = 'https://youtu.be/ba-HMvDn_vU?t=';
+    const double startSecondsfour = 0000000000000000000000000004516;
+    const String videoIdfive = 'https://youtu.be/r7xsYgTeM2Q?t=';
+    const double startSecondsfive = 000000000000000000000000000284;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +965,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inversion""",
                       // alsoEnglishWord: "also: inversion",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈvɜːʃn/""",
+                      americanText: """IpaUS: /ɪnˈvɜːrʒn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1004,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئاوەژوویی، بەراوەژوویی، هەڵاوگێڕی، پێچەوانەیی، سەروبنی، هەڵگێڕانەوە، سەرەونخون‌کردن، پشتەوڕووکردن، بە پشتاخستن، سەروبن‌کردن، هەڵگەڕانەوە، هەڵگێڕانەوە
 """),
 // With short examples define "inversion", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) گۆڕینی ڕیزبەندی یان پێگەی شتێک بۆ پێجەوانەکەی، یان هەڵگەڕاندنەوەی سەرەوخواری شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her account of the case was an inversion of the facts (= it said the opposite of what really happened).""",
+                      kurdishText:
+                          """گێڕانەوەکەی بۆ کەیسەکە پێچەوانەی ڕاستییەکانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

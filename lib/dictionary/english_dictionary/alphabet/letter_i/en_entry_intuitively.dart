@@ -9,7 +9,8 @@ class EnglishEntryintuitively extends StatefulWidget {
   const EnglishEntryintuitively({super.key});
 
   @override
-  State<EnglishEntryintuitively> createState() => _EnglishEntryintuitivelyState();
+  State<EnglishEntryintuitively> createState() =>
+      _EnglishEntryintuitivelyState();
 }
 
 class _EnglishEntryintuitivelyState extends State<EnglishEntryintuitively> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintuitively intuitively
-WORD_WEB intuitively intuitively intuitively
-haʊʊʊʊʊʊʊ4
+- Adverb: intuitively
+1. In an intuitive manner
+"inventors seem to have chosen intuitively a combination of explosive and aggressive sounds as warning signals to be used on automobiles"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intuitively";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Intuitively, she knew that he was lying.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """In early tests, the patient was able to control the device intuitively.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/3RkhZgRNC1k?t=';
+    const double startSecondsend = 0000000000000000000000000001217;
+    const String videoIdone = 'https://youtu.be/dtp6b76pMak?t=';
+    const double startSecondsone = 0000000000000000000000000001544;
+    const String videoIdtwo = 'https://youtu.be/b5fNif_WGdc?t=';
+    const double startSecondstwo = 000000000000000000000000000998;
+    const String videoIdthree = 'https://youtu.be/d0LRV27wGDE?t=';
+    const double startSecondsthree = 000000000000000000000000000215;
+    const String videoIdfour = 'https://youtu.be/3i1lNJPY-4Q?t=';
+    const double startSecondsfour = 0000000000000000000000000001323;
+    const String videoIdfive = 'https://youtu.be/6T_-DiAzYBc?t=';
+    const double startSecondsfive = 000000000000000000000000000164;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intuitively""",
                       // alsoEnglishWord: "also: intuitively",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtuːɪtɪvli/""",
+                      americanText: """IpaUS: /ɪnˈtuːɪtɪvli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,20 +993,28 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intuitively", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەوەی کە هەستەکانت بەکاربهێنیت نەک بە بەکارهێنانی ڕاستییەکان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Intuitively, she knew that he was lying.""",
+                      kurdishText: """کتوپڕ، زانی کە درۆ دەکات.""",
+                      englishNote:
+                          """This means she had a natural understanding or feeling that he was not telling the truth, without needing any concrete evidence or logical reasoning to support her belief.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە پێویستی بە زانیاری ئاڵۆز نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In early tests, the patient was able to control the device intuitively.""",
+                      kurdishText:
+                          """لە تاقیکردنەوە سەرەتاکان، نەخۆشەکە دەیتوانی بە ئاسانی ئامێرەکە کۆنترۆڵ بکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

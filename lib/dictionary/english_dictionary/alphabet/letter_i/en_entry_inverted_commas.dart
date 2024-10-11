@@ -9,10 +9,12 @@ class EnglishEntryinvertedcommas extends StatefulWidget {
   const EnglishEntryinvertedcommas({super.key});
 
   @override
-  State<EnglishEntryinvertedcommas> createState() => _EnglishEntryinvertedcommasState();
+  State<EnglishEntryinvertedcommas> createState() =>
+      _EnglishEntryinvertedcommasState();
 }
 
-class _EnglishEntryinvertedcommasState extends State<EnglishEntryinvertedcommas> {
+class _EnglishEntryinvertedcommasState
+    extends State<EnglishEntryinvertedcommas> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinvertedcommas inverted commas
-WORD_WEB inverted commas inverted commas inverted commas
-haʊʊʊʊʊʊʊ4
+- Noun: inverted commas
+Usage: Brit (N. Amer: quotation mark)
+1. A punctuation mark used to attribute the enclosed text to someone else (- quotation mark, quote)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inverted commas";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """He put the entire phrase in inverted commas to show that it wasn't his.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/zJ-LqeX_fLU?t=';
+    const double startSecondsend = 0000000000000000000000000006648;
+    const String videoIdone = 'https://youtu.be/teytUQexPoI?t=';
+    const double startSecondsone = 000000000000000000000000000127;
+    const String videoIdtwo = 'https://youtu.be/F_5sV8s9ZEA?t=';
+    const double startSecondstwo = 000000000000000000000000000544;
+    const String videoIdthree = 'https://youtu.be/ZCjsnopmYdw?t=';
+    const double startSecondsthree = 00000000000000000000000000013;
+    const String videoIdfour = 'https://youtu.be/9fpztV4oMd4?t=';
+    const double startSecondsfour = 0000000000000000000000000001900;
+    const String videoIdfive = 'https://youtu.be/itLIM38k2r0?t=';
+    const double startSecondsfive = 0000000000000000000000000001334;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inverted commas""",
                       // alsoEnglishWord: "also: inverted commas",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌvɜːtɪd ˈkɒməz/""",
+                      americanText: """IpaUS: /ɪnˌvɜːrtɪd ˈkɑːməz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +994,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "inverted commas", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) جووتە کۆمایەک، (‘  ’) یان ( “ ” )، کە لە دەوری وشەیەک، ڕستەیەک، هتد دانراوە بۆ پیشاندانی ئەوەی کەسێک چی گوتووە یان نووسیوە، ئەوەی کە ناو کۆماکان سەردێڕە، یان بە شێوەیەکی نامۆ بەکاری دەهێنیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He put the entire phrase in inverted commas to show that it wasn't his.""",
+                      kurdishText:
+                          """تەواوی دەستەواژەکەی خستە کۆمای بۆ پیشاندانی ئەوەی کە هی ئەو نەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

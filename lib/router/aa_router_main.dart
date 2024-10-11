@@ -3,7 +3,7 @@
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/firebase/features/auth/screen/logout_screens/home_screen_logout/home_screen_logout.dart';
-import 'package:zeetionary/firebase/features/auth/screen/logout_screens/logout_settings/logout_settings.dart';
+// import 'package:zeetionary/firebase/features/auth/screen/logout_screens/logout_settings/logout_settings.dart';
 
 
 
@@ -176,7 +176,7 @@ Map<String, PageBuilder> getRoutesMainTwo() {
     //
     "/settings-screen": (_) => _blP(const SettingsPage()),
     //
-    "/settings-screen-logout": (_) => _blP(const SettingsPageLogout()),
+    // "/settings-screen-logout": (_) => _blP(const SettingsPageLogout()),
     //
     '/quiz-screen': (_) => _blP(QuizScreen()),
     //

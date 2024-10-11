@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintruder intruder
-WORD_WEB intruder intruder intruder
-haʊʊʊʊʊʊʊ4
+- Noun: intruder (Derived forms: intruders)
+1. Someone who intrudes on the privacy or property of another without permission (- interloper, trespasser)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intruder";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The intruder fired at least one more shot at the guard and then fled.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The people in the room seemed to regard her as an unwelcome intruder.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/S6EU1-QJGhE?t=';
+    const double startSecondsend = 000000000000000000000000000282;
+    const String videoIdone = 'https://youtu.be/NZ74oFctP_g';
+    const double startSecondsone = 0;
+    const String videoIdtwo = 'https://youtu.be/OyuIAUlL5IU?t=';
+    const double startSecondstwo = 000000000000000000000000000107;
+    const String videoIdthree = 'https://youtu.be/aCPNlZ7bvRc?t=';
+    const double startSecondsthree = 0000000000000000000000000005;
+    const String videoIdfour = 'https://youtu.be/Un1gfVckcVw?t=';
+    const double startSecondsfour = 000000000000000000000000000988;
+    const String videoIdfive = 'https://youtu.be/pLwHTqU2r_Y?t=';
+    const double startSecondsfive = 000000000000000000000000000393;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intruder""",
                       // alsoEnglishWord: "also: intruder",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtruːdə(r)/""",
+                      americanText: """IpaUS: /ɪnˈtruːdər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +989,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خۆپیاکردوو (بەبێ دەستوور)، مزاحیم، ئاوەکی، خۆداکوتەرە، خۆتێ‌هەڵقورتێن، دڕدوک،	دز، چەتە
 """),
 // With short examples define "intruder", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە بە نایاسایی دەچێتە شوێنێک یان ناوچەیەک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The intruder fired at least one more shot at the guard and then fled.""",
+                      kurdishText:
+                          """خۆپیاکردووەکە بە لایەنی کەمەوە فیشەکێکی تری نا بە پاسەوانەکەوە و دواتر هەڵهات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کەسێک کە دەچێتە شوێنێک کە نابێت لێی بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The people in the room seemed to regard her as an unwelcome intruder.""",
+                      kurdishText:
+                          """خەڵکی ناو ژوورەکە وەها دیاربوون کە بە خۆپیاکردوویەکی پێشوازی لێنەکراو بیبینن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -9,7 +9,8 @@ class EnglishEntryinvalidation extends StatefulWidget {
   const EnglishEntryinvalidation({super.key});
 
   @override
-  State<EnglishEntryinvalidation> createState() => _EnglishEntryinvalidationState();
+  State<EnglishEntryinvalidation> createState() =>
+      _EnglishEntryinvalidationState();
 }
 
 class _EnglishEntryinvalidationState extends State<EnglishEntryinvalidation> {
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinvalidation invalidation
-WORD_WEB invalidation invalidation invalidation
-haʊʊʊʊʊʊʊ4
+- Noun: invalidation (Derived forms: invalidations)
+1. (law) a formal termination (of a relationship or a judicial proceeding etc) (- annulment)
+ 
+2. When a person's thoughts and feelings are rejected, ignored, or judged.
+"Invalidation is emotionally upsetting for anyone, but particularly hurtful for someone who is emotionally sensitive."
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "invalidation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Voting fraud led to the invalidation of the election.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """This finding constitutes the invalidation of many traditional approaches.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/PyIyxeMXKeg?t=';
+    const double startSecondsend = 00000000000000000000000000078;
+    const String videoIdone = 'https://youtu.be/wbrbrzT56pU?t=';
+    const double startSecondsone = 00000000000000000000000000020;
+    const String videoIdtwo = 'https://youtu.be/8qgIFD0PaWo?t=';
+    const double startSecondstwo = 0000000000000000000000000006724;
+    const String videoIdthree = 'https://youtu.be/VaVLaPTMECo?t=';
+    const double startSecondsthree = 0000000000000000000000000001680;
+    const String videoIdfour = 'https://youtu.be/QDRcCvKlKwg?t=';
+    const double startSecondsfour = 000000000000000000000000000171;
+    const String videoIdfive = 'https://youtu.be/LyEDDY3A6v4?t=';
+    const double startSecondsfive = 00000000000000000000000000050;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """invalidation""",
                       // alsoEnglishWord: "also: invalidation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌvælɪˈdeɪʃn/""",
+                      americanText: """IpaUS: /ɪnˌvælɪˈdeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +993,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەڵوەشاندن، پووچەڵ‌کردن، بەتاڵ‌کردنەوە، بێ‌باوەڕاندن، پووچ‌کردنەوە، پووچاندن، لەبرەوخستن، بێ‌بایەخ‌کردن
 """),
 // With short examples define "invalidation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە بەڵگەنامەیەک، ڕێکەوتنێک، هەڵبژاردنێک، هتد بە نافەرمی و پەسەندنەکراو دەبنێیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Voting fraud led to the invalidation of the election.""",
+                      kurdishText:
+                          """ساختەکاریی هەڵبژاردن بوو بە هۆکاری پووچەڵکردنەوەی هەڵبژاردنەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) سەلماندنی ئەوەی کە چیرۆکێک، ئارگیومێنتێک، هتد هەڵەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This finding constitutes the invalidation of many traditional approaches.""",
+                      kurdishText:
+                          """دۆزینەوەکە هاوتایە لەگەڵ بەدرۆخستنی چەندین ڕێگای کۆن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

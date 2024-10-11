@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: invalid
+1. No longer valid
+"the licence is invalid"
+ 
+2. Having no cogency or legal force
+"invalid reasoning"; "an invalid driver's licence"
 
-EnglishEntryinvalid invalid
-WORD_WEB invalid invalid invalid
-haʊʊʊʊʊʊʊ4
+- Noun: invalid (Derived forms: invalids)
+1. Someone who is incapacitated by a chronic illness or injury (- shut-in)
+
+- Verb: invalid (Derived forms: invalids, invaliding, invalided)
+1. Force to retire, remove from active duty, as of firemen
+ 
+2. Injure permanently (- disable, incapacitate, handicap)
+"He was invalided in a car accident";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "invalid";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +97,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The treaty was declared invalid because it had not been ratified.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""This action would render the agreement invalid.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The judge dismissed the case due to an invalid argument.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +938,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/hOUGNGWmN0k?t=';
+    const double startSecondsend = 000000000000000000000000000959;
+    const String videoIdone = 'https://youtu.be/V-4NPyqpTOA?t=';
+    const double startSecondsone = 000000000000000000000000000312;
+    const String videoIdtwo = 'https://youtu.be/TRGHIN2PGIA?t=';
+    const double startSecondstwo = 0000000000000000000000000001231;
+    const String videoIdthree = 'https://youtu.be/29n2bv7F6uc?t=';
+    const double startSecondsthree = 000000000000000000000000000704;
+    const String videoIdfour = 'https://youtu.be/ZThc79RtIeI?t=';
+    const double startSecondsfour = 0000000000000000000000000004064;
+    const String videoIdfive = 'https://youtu.be/6J5ZJJs7H8g?t=';
+    const double startSecondsfive = 0000000000000000000000000001276;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +964,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """invalid""",
                       // alsoEnglishWord: "also: invalid",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈvælɪd/""",
+                      americanText: """IpaUS: /ɪnˈvælɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +1003,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: باوەڕپێنەکراو، بێ‌باوەڕ، بێ‌بایەخ، بێ‌نرخ، درۆ، نادروست، بێ‌بڕەو، بەکارنەهاتوو، بێکارە، پەسندنەکراو، هەڵوەشاو، بەتاڵەوەبوو، بێ‌بنچینە، پووچەڵ
 """),
 // With short examples define "invalid", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە ڕووی یاسایی یان فەرمی پەسەندکراو نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The treaty was declared invalid because it had not been ratified.""",
+                      kurdishText:
+                          """پەیماننامەکە بە بەتاڵەوەبوو دانرا چونکە پەسەند نەکرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,20 +1021,25 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This action would render the agreement invalid.""",
+                      kurdishText: """ئەم کارە ڕێکەوتنەکە بە بێ‌بڕەو دادەنا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە پشت بە ڕاستی نابەستێت بۆیە ڕاست نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The judge dismissed the case due to an invalid argument.""",
+                      kurdishText:
+                          """دادوەرەکە کەیسەکەی پشتگوێ خست بەهۆی ئارگیومێنتی بێ‌برەو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
+                    ), // skipped_meaning
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

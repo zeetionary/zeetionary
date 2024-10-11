@@ -9,7 +9,8 @@ class EnglishEntryintrospective extends StatefulWidget {
   const EnglishEntryintrospective({super.key});
 
   @override
-  State<EnglishEntryintrospective> createState() => _EnglishEntryintrospectiveState();
+  State<EnglishEntryintrospective> createState() =>
+      _EnglishEntryintrospectiveState();
 }
 
 class _EnglishEntryintrospectiveState extends State<EnglishEntryintrospective> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintrospective introspective
-WORD_WEB introspective introspective introspective
-haʊʊʊʊʊʊʊ4
+- Adjective: introspective
+1. Given to examining own sensory and perceptual experiences (- introverted, self-examining)
+"The doctors spoke of introspective self-consciousness";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "introspective";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She is famous for her introspective songs about failed relationships.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """There were a lot of family problems and Jim became increasingly introspective.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oJyxh6Hnnmk?t=';
+    const double startSecondsend = 000000000000000000000000000650;
+    const String videoIdone = 'https://youtu.be/dNKQYjsxgPU?t=';
+    const double startSecondsone = 000000000000000000000000000118;
+    const String videoIdtwo = 'https://youtu.be/pNTwRSKVJLc?t=';
+    const double startSecondstwo = 00000000000000000000000000096;
+    const String videoIdthree = 'https://youtu.be/Sx3ORAO1Y6s?t=';
+    const double startSecondsthree = 00000000000000000000000000018;
+    const String videoIdfour = 'https://youtu.be/TPNmf6ZlfR4?t=';
+    const double startSecondsfour = 000000000000000000000000000340;
+    const String videoIdfive = 'https://youtu.be/L_Guz73e6fw?t=';
+    const double startSecondsfive = 0000000000000000000000000001033;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """introspective""",
                       // alsoEnglishWord: "also: introspective",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntrəˈspektɪv/""",
+                      americanText: """IpaUS: /ˌɪntrəˈspektɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +994,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "introspective", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) پەیوەندیدار بە لێکۆڵینەوەی ورد لە بیرکردنەوەکانت، هەستەکانت، و هۆکارەکانت بۆ ڕەفتارکردن بۆ شێوەیەکی دیاریکراو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She is famous for her introspective songs about failed relationships.""",
+                      kurdishText:
+                          """بەناوبانگە بۆ گۆرانییە بۆخەداچوونەوەکانی لەسەر پەیوەندیی شکستخواردوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There were a lot of family problems and Jim became increasingly introspective.""",
+                      kurdishText:
+                          """زۆر کێشەی خێزانی هەبوون و جیم تەواو بەخۆیداچوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

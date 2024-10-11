@@ -9,7 +9,8 @@ class EnglishEntryintrospection extends StatefulWidget {
   const EnglishEntryintrospection({super.key});
 
   @override
-  State<EnglishEntryintrospection> createState() => _EnglishEntryintrospectionState();
+  State<EnglishEntryintrospection> createState() =>
+      _EnglishEntryintrospectionState();
 }
 
 class _EnglishEntryintrospectionState extends State<EnglishEntryintrospection> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintrospection introspection
-WORD_WEB introspection introspection introspection
-haʊʊʊʊʊʊʊ4
+- Noun: introspection (Derived forms: introspections)
+1. The contemplation of your own thoughts and desires and conduct (- self-contemplation, self-examination)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "introspection";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """His defeat in the world championship led to a long period of introspection.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/zqkf2U5jcE0?t=';
+    const double startSecondsend = 000000000000000000000000000145;
+    const String videoIdone = 'https://youtu.be/HBhXvLlB-kY?t=';
+    const double startSecondsone = 0000000000000000000000000008722;
+    const String videoIdtwo = 'https://youtu.be/zrqqrQmeQS4?t=';
+    const double startSecondstwo = 00000000000000000000000000083;
+    const String videoIdthree = 'https://youtu.be/CAmQ5ODJJfA?t=';
+    const double startSecondsthree = 0000000000000000000000000003151;
+    const String videoIdfour = 'https://youtu.be/UlY4TnCdL0s?t=';
+    const double startSecondsfour = 000000000000000000000000000168;
+    const String videoIdfive = 'https://youtu.be/UeH426gwVRc?t=';
+    const double startSecondsfive = 000000000000000000000000000855;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """introspection""",
                       // alsoEnglishWord: "also: introspection",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntrəˈspekʃn/""",
+                      americanText: """IpaUS: /ˌɪntrəˈspekʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "introspection", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) لێکۆڵینەوەی ورد لە بیرکردنەوەکانت، هەستەکانت، و هۆکارەکانت بۆ ڕەفتارکردن بۆ شێوەیەکی دیاریکراو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His defeat in the world championship led to a long period of introspection.""",
+                      kurdishText:
+                          """شکستی لە پاڵەوانێتییە جیهانییەکە گەیاندی بە ماوەیەکی درێژ لە بەخۆداچوونەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintrusive intrusive
-WORD_WEB intrusive intrusive intrusive
-haʊʊʊʊʊʊʊ4
+- Adjective: intrusive
+1. Tending to intrude (especially upon privacy)
+"she felt her presence there was intrusive"
+ 
+2. (geology) of rock material; forced while molten into cracks between layers of other rock
+ 
+3. Thrusting inward
+"an intrusive arm of the sea"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intrusive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The constant presence of the media was very intrusive.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/FQ4hvLqNfqo?t=';
+    const double startSecondsend = 0000000000000000000000000001538;
+    const String videoIdone = 'https://youtu.be/Sbp_EeBk-As?t=';
+    const double startSecondsone = 0000000000000000000000000001056;
+    const String videoIdtwo = 'https://youtu.be/Upqp21Dm5vg?t=';
+    const double startSecondstwo = 000000000000000000000000000331;
+    const String videoIdthree = 'https://youtu.be/BaVpeJlcQzg?t=';
+    const double startSecondsthree = 0000000000000000000000000001664;
+    const String videoIdfour = 'https://youtu.be/bH-TlC0111Q?t=';
+    const double startSecondsfour = 000000000000000000000000000175;
+    const String videoIdfive = 'https://youtu.be/H-u6a66rTpQ?t=';
+    const double startSecondsfive = 000000000000000000000000000266;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intrusive""",
                       // alsoEnglishWord: "also: intrusive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtruːsɪv/""",
+                      americanText: """IpaUS: /ɪnˈtruːsɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +997,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intrusive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە زۆر ڕووبەڕووە، ئاسانە بۆ تێگەشتن، هتد بە شێوەیەک کە بیزارکەرە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The constant presence of the media was very intrusive.""",
+                      kurdishText:
+                          """ئامادەیی بەردەوامی میدیا زۆر بەجێگای مزاحیم بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

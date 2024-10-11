@@ -9,7 +9,8 @@ class EnglishEntryinvestiture extends StatefulWidget {
   const EnglishEntryinvestiture({super.key});
 
   @override
-  State<EnglishEntryinvestiture> createState() => _EnglishEntryinvestitureState();
+  State<EnglishEntryinvestiture> createState() =>
+      _EnglishEntryinvestitureState();
 }
 
 class _EnglishEntryinvestitureState extends State<EnglishEntryinvestiture> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinvestiture investiture
-WORD_WEB investiture investiture investiture
-haʊʊʊʊʊʊʊ4
+- Noun: investiture (Derived forms: investitures)
+1. The ceremony of installing a new monarch (- coronation, enthronement, enthronization, enthronisation [Brit])
+ 
+2. The ceremonial act of clothing someone in the insignia of an office; the formal promotion of a person to an office or rank (- investment)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "investiture";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The investiture of the new president will take place this evening.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/h3fKFocGkkk?t=';
+    const double startSecondsend = 000000000000000000000000000295;
+    const String videoIdone = 'https://youtu.be/Cln0J87vulU?t=';
+    const double startSecondsone = 000000000000000000000000000600;
+    const String videoIdtwo = 'https://youtu.be/6NB91zHe7UU?t=';
+    const double startSecondstwo = 0000000000000000000000000001058;
+    const String videoIdthree = 'https://youtu.be/vtem1jDziL0?t=';
+    const double startSecondsthree = 000000000000000000000000000197;
+    const String videoIdfour = 'https://youtu.be/EZbzCp8HtRQ?t=';
+    const double startSecondsfour = 00000000000000000000000000037;
+    const String videoIdfive = 'https://youtu.be/O9GvZhDC9CM?t=';
+    const double startSecondsfive = 000000000000000000000000000707;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """investiture""",
                       // alsoEnglishWord: "also: investiture",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈvestɪtʃə(r)/""",
+                      americanText: """IpaUS: /ɪnˈvestɪtʃər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +994,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "investiture", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کەسێک بە فەرمی نازناوێکی فەرمی یان دەسەڵاتی تایبەتی پێبدرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The investiture of the new president will take place this evening.""",
+                      kurdishText:
+                          """ڕێوڕەسمی دەستبەکاربوونی سەرۆکی تازە ئەم ئێوارەیە بەڕێوە دەچێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

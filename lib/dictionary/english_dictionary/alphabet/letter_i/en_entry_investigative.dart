@@ -9,7 +9,8 @@ class EnglishEntryinvestigative extends StatefulWidget {
   const EnglishEntryinvestigative({super.key});
 
   @override
-  State<EnglishEntryinvestigative> createState() => _EnglishEntryinvestigativeState();
+  State<EnglishEntryinvestigative> createState() =>
+      _EnglishEntryinvestigativeState();
 }
 
 class _EnglishEntryinvestigativeState extends State<EnglishEntryinvestigative> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinvestigative investigative
-WORD_WEB investigative investigative investigative
-haʊʊʊʊʊʊʊ4
+- Adjective: investigative
+1. Designed to find information or ascertain facts (- fact-finding, investigatory)
+"investigative reporting";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "investigative";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The article was an excellent piece of investigative journalism.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The police have full investigatory powers.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/lGSOWwUvJiU?t=';
+    const double startSecondsend = 0000000000000000000000000001574;
+    const String videoIdone = 'https://youtu.be/Y5F_ha7d-PI?t=';
+    const double startSecondsone = 000000000000000000000000000495;
+    const String videoIdtwo = 'https://youtu.be/2Hq4CtLfnZs?t=';
+    const double startSecondstwo = 0000000000000000000000000001018;
+    const String videoIdthree = 'https://youtu.be/LQpLMvC7Et0?t=';
+    const double startSecondsthree = 000000000000000000000000000124;
+    const String videoIdfour = 'https://youtu.be/4_jkeWgtZ18?t=';
+    const double startSecondsfour = 000000000000000000000000000219;
+    const String videoIdfive = 'https://youtu.be/8mCcM-PUmLM?t=';
+    const double startSecondsfive = 000000000000000000000000000250;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """investigative""",
                       // alsoEnglishWord: "also: investigative",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈvestɪɡətɪv/""",
+                      americanText: """IpaUS: /ɪnˈvestɪɡeɪtɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێکۆڵینەوەیی، لێ‌توێژەرانە
 """),
 // With short examples define "investigative", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ئەوە لەخۆدەگرێت لێکۆڵینەوە لە ڕاستییەکانی دۆخێک، تاوانێک، هتد بکرێت بۆ زانینی ڕاستییەکان"""),
+                    const AlsoEnglishckb(word: "ھەروەھا کەمتر: investigatory"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The article was an excellent piece of investigative journalism.""",
+                      kurdishText:
+                          """وتارەکە نووسینێکی باشی ڕۆژنامەنووسی بنکۆڵکاری بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The police have full investigatory powers.""",
+                      kurdishText:
+                          """پۆلیس دەسەڵاتی لێکۆڵینەوەی تەواویان هەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

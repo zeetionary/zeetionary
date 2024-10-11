@@ -9,10 +9,12 @@ class EnglishEntrytheinlandrevenue extends StatefulWidget {
   const EnglishEntrytheinlandrevenue({super.key});
 
   @override
-  State<EnglishEntrytheinlandrevenue> createState() => _EnglishEntrytheinlandrevenueState();
+  State<EnglishEntrytheinlandrevenue> createState() =>
+      _EnglishEntrytheinlandrevenueState();
 }
 
-class _EnglishEntrytheinlandrevenueState extends State<EnglishEntrytheinlandrevenue> {
+class _EnglishEntrytheinlandrevenueState
+    extends State<EnglishEntrytheinlandrevenue> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrytheinlandrevenue the Inland Revenue
-WORD_WEB the Inland Revenue the Inland Revenue the Inland Revenue
-haʊʊʊʊʊʊʊ4
+- Noun: the Inland Revenue
+Usage: UK
+1. A board of the British government that administers and collects major direct taxes (- IR [UK])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "the Inland Revenue";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Inland Revenue ensures companies pay their taxes.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/us7u9HDRT1k?t=';
+    const double startSecondsend = 0000000000000000000000000003307;
+    const String videoIdone = 'https://youtu.be/O1JuKasJ-vY?t=';
+    const double startSecondsone = 000000000000000000000000000432;
+    const String videoIdtwo = 'https://youtu.be/fcN0BXzK8bg?t=';
+    const double startSecondstwo = 0000000000000000000000000002883;
+    const String videoIdthree = 'https://youtu.be/PfYYraMgiBA?t=';
+    const double startSecondsthree = 000000000000000000000000000371;
+    const String videoIdfour = 'https://youtu.be/Pg13IKAAcNw?t=';
+    const double startSecondsfour = 000000000000000000000000000304;
+    const String videoIdfive = 'https://youtu.be/1dUzb6RwOa8?t=';
+    const double startSecondsfive = 000000000000000000000000000147;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """the Inland Revenue""",
                       // alsoEnglishWord: "also: the Inland Revenue",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ði ˌɪnlænd ˈrevənjuː/""",
+                      americanText: """IpaUS: /ði ˌɪnlænd ˈrevənuː/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,13 +991,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
 //                     const KurdishVocabulary(text: """
-// کوردی: 
+// کوردی:
 // """),
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو بەشەی حکومەتی بەریتانیا کە تاوەکو ساڵی ٢٠٠٥ بەرپرسی کۆکردنەوەی باج بوو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Inland Revenue ensures companies pay their taxes.""",
+                      kurdishText:
+                          """دەزگای باج دڵنیایی دەکردەوە کە کۆمپانیاکان پارەی باج دەدەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

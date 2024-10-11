@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: invariable
+1. Not liable to or capable of change
+"an invariable temperature"; "an invariable rule"; "his invariable courtesy"
 
-EnglishEntryinvariable invariable
-WORD_WEB invariable invariable invariable
-haʊʊʊʊʊʊʊ4
+- Noun: invariable (Derived forms: invariables)
+1. A quantity that does not vary (- constant, constant quantity)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "invariable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Her routine was invariable.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Michael's invariable reaction was anger and a reluctance to try anything new.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/LFaTLCqBi4A?t=';
+    const double startSecondsend = 000000000000000000000000000172;
+    const String videoIdone = 'https://youtu.be/yFqpWGL_EQE?t=';
+    const double startSecondsone = 000000000000000000000000000372;
+    const String videoIdtwo = 'https://youtu.be/ycmqorBo-Ts?t=';
+    const double startSecondstwo = 000000000000000000000000000720;
+    const String videoIdthree = 'https://youtu.be/XbPI6vjMtsM?t=';
+    const double startSecondsthree = 000000000000000000000000000183;
+    const String videoIdfour = 'https://youtu.be/GMeLHAuyxIw?t=';
+    const double startSecondsfour = 00000000000000000000000000018;
+    const String videoIdfive = 'https://youtu.be/jCPSxk7T0OA?t=';
+    const double startSecondsfive = 000000000000000000000000000218;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """invariable""",
                       // alsoEnglishWord: "also: invariable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈveəriəbl/""",
+                      americanText: """IpaUS: /ɪnˈveriəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەگۆڕان‌نەهاتوو، نەگۆڕ، ناگۆڕێ، هەرئەوە، چەسپیو، جێگیر، هەمیشەیی
 """),
 // With short examples define "invariable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە هەمیشە هەمان شێوەیە؛ کە هەرگیز ناگۆڕێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unchanging"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her routine was invariable.""",
+                      kurdishText: """ڕۆتینەکەی نەگۆڕ بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Michael's invariable reaction was anger and a reluctance to try anything new.""",
+                      kurdishText:
+                          """کاردانەوەی نەگۆڕی مایکڵ تووڕەیی و نابەدڵی بوو بۆ تاقیکردنەوەی هەر شتێکی تازە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

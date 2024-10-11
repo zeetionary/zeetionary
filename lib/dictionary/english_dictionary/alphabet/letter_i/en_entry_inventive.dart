@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinventive inventive
-WORD_WEB inventive inventive inventive
-haʊʊʊʊʊʊʊ4
+- Adjective: inventive
+1. (used of persons or artifacts) marked by independence and creativity in thought or action (- imaginative)
+"had an inventive turn of mind"; "inventive ceramics"; "an inventive device";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inventive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She has a highly inventive mind.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He is famous for his zany, inventive books for children.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/m3MgAOe2zSs?t=';
+    const double startSecondsend = 000000000000000000000000000500;
+    const String videoIdone = 'https://youtu.be/-mgqMpWKEBk?t=';
+    const double startSecondsone = 000000000000000000000000000147;
+    const String videoIdtwo = 'https://youtu.be/HZryl5nJr00?t=';
+    const double startSecondstwo = 000000000000000000000000000882;
+    const String videoIdthree = 'https://youtu.be/ShMRAN78598?t=';
+    const double startSecondsthree = 000000000000000000000000000176;
+    const String videoIdfour = 'https://youtu.be/ill2cgCyTUc?t=';
+    const double startSecondsfour = 000000000000000000000000000627;
+    const String videoIdfive = 'https://youtu.be/J2eU4Ol3IDU?t=';
+    const double startSecondsfive = 00000000000000000000000000022;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inventive""",
                       // alsoEnglishWord: "also: inventive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈventɪv/""",
+                      americanText: """IpaUS: /ɪnˈventɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +989,27 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داهێنەر، دروست‌کەر، سازکەر، داهێنەرانە
 """),
 // With short examples define "inventive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بتوانێت بیر لە بیرۆکەی تازە و سەرنجڕاکێش بکاتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She has a highly inventive mind.""",
+                      kurdishText: """هزرێکی زۆر داهێنەرانەی هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) تازە و سەرنجڕاکێش"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He is famous for his zany, inventive books for children.""",
+                      kurdishText:
+                          """بەناوبانگە بۆ کتێبە نامۆ و داهێنەرانەکانی بۆ منداڵان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

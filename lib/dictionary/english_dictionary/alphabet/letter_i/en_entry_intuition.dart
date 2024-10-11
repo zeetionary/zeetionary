@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintuition intuition
-WORD_WEB intuition intuition intuition
-haʊʊʊʊʊʊʊ4
+- Noun: intuition (Derived forms: intuitions)
+1. Instinctive knowing (without the use of rational processes)
+ 
+2. An impression that something might be the case (- hunch, suspicion)
+"he had an intuition that something had gone wrong";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intuition";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +87,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Intuition told her that he had spoken the truth.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Her intuition told her that he was unhappy.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """I had an intuition that something awful was about to happen.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""He had an intuition that his mother wasn't very well.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/AF8d72mA41M?t=';
+    const double startSecondsend = 0000000000000000000000000001967;
+    const String videoIdone = 'https://youtu.be/UuGpm01SPcA?t=';
+    const double startSecondsone = 00000000000000000000000000082;
+    const String videoIdtwo = 'https://youtu.be/-7bIDbaU_zQ?t=';
+    const double startSecondstwo = 000000000000000000000000000908;
+    const String videoIdthree = 'https://youtu.be/DxL2HoqLbyA?t=';
+    const double startSecondsthree = 0000000000000000000000000001602;
+    const String videoIdfour = 'https://youtu.be/GVsUOuSjvcg?t=';
+    const double startSecondsfour = 0000000000000000000000000001256;
+    const String videoIdfive = 'https://youtu.be/-UrdExQW0cs?t=';
+    const double startSecondsfive = 0000000000000000000000000001422;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intuition""",
                       // alsoEnglishWord: "also: intuition",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntjuˈɪʃn/""",
+                      americanText: """IpaUS: /ˌɪntuˈɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دیناو، شهود،	تێگەیشتنی ڕاستەوخۆ، پێزانینی کت‌وپڕ، زیرەکی، ژیری،	پێ‌وابوون، گومان، مەزندە
 """),
 // With short examples define "intuition", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) توانای زانینی شتێک بە بەکارهێنانی هەستەکانت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Intuition told her that he had spoken the truth.""",
+                      kurdishText: """هەستەکانی پێی گوت کە ڕاستیی گوتووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1010,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her intuition told her that he was unhappy.""",
+                      kurdishText: """هەستەکانی پێی گوت کە دڵتەنگ بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) بیرۆکەیەک یان هەستێکی بەهێز کە شتێک راستە ئەگەرچی ناتوانیت ڕوونی بکەیتەوە بۆچی وایە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I had an intuition that something awful was about to happen.""",
+                      kurdishText:
+                          """پێزانینی کت‌وپڕم هەبوو کە شتێکی خراپ ڕوودەدات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1033,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He had an intuition that his mother wasn't very well.""",
+                      kurdishText:
+                          """پێزانینی کت‌وپڕی هەبوو کە دایکی زۆر باش نییە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

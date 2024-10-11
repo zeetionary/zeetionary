@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinvader invader
-WORD_WEB invader invader invader
-haʊʊʊʊʊʊʊ4
+- Noun: invader (Derived forms: invaders)
+1. Someone who enters by force in order to conquer (- encroacher)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "invader";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They prepared to repel the invaders.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +922,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wPQzenQMxKs?t=';
+    const double startSecondsend = 000000000000000000000000000277;
+    const String videoIdone = 'https://youtu.be/Fa13JKGG0ds?t=';
+    const double startSecondsone = 000000000000000000000000000242;
+    const String videoIdtwo = 'https://youtu.be/e-V_MDVgISo?t=';
+    const double startSecondstwo = 00000000000000000000000000079;
+    const String videoIdthree = 'https://youtu.be/Ex6Xw83rszo?t=';
+    const double startSecondsthree = 000000000000000000000000000101;
+    const String videoIdfour = 'https://youtu.be/BlacyJsokzo?t=';
+    const double startSecondsfour = 00000000000000000000000000036;
+    const String videoIdfive = 'https://youtu.be/zS4VSQNGr_A?t=';
+    const double startSecondsfive = 000000000000000000000000000109;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """invader""",
                       // alsoEnglishWord: "also: invader",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈveɪdə(r)/""",
+                      americanText: """IpaUS: /ɪnˈveɪdər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +987,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هێرشکەر، دەس‌درێژکەر، داگیرکەر
 """),
 // With short examples define "invader", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) سوپا یان وڵاتێک کە دەچێتە وڵاتێکی دیکە بە بەکارهێنانی هێز"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They prepared to repel the invaders.""",
+                      kurdishText:
+                          """ئامادەکارییان کرد بەرپەرچدانەوەی داگیرکەران.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

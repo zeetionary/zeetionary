@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinventor inventor
-WORD_WEB inventor inventor inventor
-haʊʊʊʊʊʊʊ4
+- Noun: inventor (Derived forms: inventors)
+1. Someone who is the first to think of or make something (- discoverer, artificer)
+"although not the inventor he must be recognized as the perfecter of this technique";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inventor";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He made a career as an inventor of quick-selling gadgets.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Alfred Nobel was the inventor of dynamite.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/IgF3OX8nT0w?t=';
+    const double startSecondsend = 000000000000000000000000000418;
+    const String videoIdone = 'https://youtu.be/DEFD9TSHg_A?t=';
+    const double startSecondsone = 00000000000000000000000000064;
+    const String videoIdtwo = 'https://youtu.be/vFymKqUwodY?t=';
+    const double startSecondstwo = 00000000000000000000000000090;
+    const String videoIdthree = 'https://youtu.be/lRW6CYfhei0?t=';
+    const double startSecondsthree = 000000000000000000000000000841;
+    const String videoIdfour = 'https://youtu.be/n5CPMf5eC_s?t=';
+    const double startSecondsfour = 000000000000000000000000000821;
+    const String videoIdfive = 'https://youtu.be/iFcPqXxAUWM?t=';
+    const double startSecondsfive = 00000000000000000000000000028;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inventor""",
                       // alsoEnglishWord: "also: inventor",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈventə(r)/""",
+                      americanText: """IpaUS: /ɪnˈventər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داهێنەر، سازکەر، دروست‌کەر
 """),
 // With short examples define "inventor", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کەسێک کە شتێکی داهێناوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He made a career as an inventor of quick-selling gadgets.""",
+                      kurdishText:
+                          """کارێکی پێکەوەنا وەک داهێنەری ئامێرە خێرا فرۆشەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,11 +1006,12 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Alfred Nobel was the inventor of dynamite.""",
+                      kurdishText: """ئەلفرێد نۆبڵ داهێنەری داینمایت بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
-                    ),
+                    ), // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

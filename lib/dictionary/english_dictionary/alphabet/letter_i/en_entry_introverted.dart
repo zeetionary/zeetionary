@@ -9,7 +9,8 @@ class EnglishEntryintroverted extends StatefulWidget {
   const EnglishEntryintroverted({super.key});
 
   @override
-  State<EnglishEntryintroverted> createState() => _EnglishEntryintrovertedState();
+  State<EnglishEntryintroverted> createState() =>
+      _EnglishEntryintrovertedState();
 }
 
 class _EnglishEntryintrovertedState extends State<EnglishEntryintroverted> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintroverted introverted
-WORD_WEB introverted introverted introverted
-haʊʊʊʊʊʊʊ4
+- Adjective: introverted (- introspective, self-examining)
+1. Given to examining own sensory and perceptual experiences
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "introverted";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Her teachers perceived her as shy and introverted.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/MGO4_8YRKro?t=';
+    const double startSecondsend = 000000000000000000000000000215;
+    const String videoIdone = 'https://youtu.be/Mp11EzxCOG4?t=';
+    const double startSecondsone = 000000000000000000000000000266;
+    const String videoIdtwo = 'https://youtu.be/d6S0u8VENOE?t=';
+    const double startSecondstwo = 000000000000000000000000000797;
+    const String videoIdthree = 'https://youtu.be/tqX4jKktiS0?t=';
+    const double startSecondsthree = 000000000000000000000000000603;
+    const String videoIdfour = 'https://youtu.be/DG8rPBlbOrY?t=';
+    const double startSecondsfour = 000000000000000000000000000277;
+    const String videoIdfive = 'https://youtu.be/8PJGIEz5YJ4?t=';
+    const double startSecondsfive = 000000000000000000000000000682;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """introverted""",
                       // alsoEnglishWord: "also: introverted",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntrəvɜːtɪd/""",
+                      americanText: """IpaUS: /ˈɪntrəvɜːrtɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "introverted", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە کەسێکی بێدەنگ بیت و زیاتر حەز بکەیت بە هەست و بیرکردنەوەی خۆت وەک ئەوەی کات لەگەل کەسانی دیکە بەسەر ببەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Her teachers perceived her as shy and introverted.""",
+                      kurdishText:
+                          """مامۆستاکانی وەک شەرمن و گۆشەگیر دەیان بینی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

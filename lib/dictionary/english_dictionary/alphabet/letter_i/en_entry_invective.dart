@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinvective invective
-WORD_WEB invective invective invective
-haʊʊʊʊʊʊʊ4
+- Noun: invective (Derived forms: invectives)
+1. Abusive or venomous language used to express blame or censure or bitter deep-seated ill will (- vituperation, vitriol)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "invective";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The gesture infuriated him and he let out a stream of invective.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/7uHGlfeCBbE?t=';
+    const double startSecondsend = 000000000000000000000000000931;
+    const String videoIdone = 'https://youtu.be/PcDznK9vd_w?t=';
+    const double startSecondsone = 000000000000000000000000000443;
+    const String videoIdtwo = 'https://youtu.be/Ij3g_HGwb5M?t=';
+    const double startSecondstwo = 000000000000000000000000000975;
+    const String videoIdthree = 'https://youtu.be/dyi0ZcEyBNE?t=';
+    const double startSecondsthree = 000000000000000000000000000575;
+    const String videoIdfour = 'https://youtu.be/jesx32dzTqY?t=';
+    const double startSecondsfour = 00000000000000000000000000093;
+    const String videoIdfive = 'https://youtu.be/9p3K1U46VvE?t=';
+    const double startSecondsfive = 000000000000000000000000000365;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """invective""",
                       // alsoEnglishWord: "also: invective",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈvektɪv/""",
+                      americanText: """IpaUS: /ɪnˈvektɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +988,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پڕژان (بەقسە)، تانە، قسەی ناشیاو
 """),
 // With short examples define "invective", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) زمانی ناشرین و قسەی خراپ کە کەسێک بە دەنگی بەرز دەیڵێت کە تووڕەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The gesture infuriated him and he let out a stream of invective.""",
+                      kurdishText:
+                          """ئاماژەکە تووڕەی کرد و دوونیایەک لە جوێنی فڕێدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinvariably invariably
-WORD_WEB invariably invariably invariably
-haʊʊʊʊʊʊʊ4
+- Adverb: invariably
+1. Without variation or change, in every case (- constantly, always)
+"invariably kind and gracious";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "invariably";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """This acute infection of the brain is almost invariably fatal.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""This is not invariably the case.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/j4kI2h3iotA?t=';
+    const double startSecondsend = 0000000000000000000000000002488;
+    const String videoIdone = 'https://youtu.be/wJa5Ch0O4BI?t=';
+    const double startSecondsone = 0000000000000000000000000001546;
+    const String videoIdtwo = 'https://youtu.be/TpY7B00Pqf8?t=';
+    const double startSecondstwo = 000000000000000000000000000560;
+    const String videoIdthree = 'https://youtu.be/Solb9uA-tgQ?t=';
+    const double startSecondsthree = 00000000000000000000000000011037;
+    const String videoIdfour = 'https://youtu.be/y7voToyTmOE?t=';
+    const double startSecondsfour = 000000000000000000000000000745;
+    const String videoIdfive = 'https://youtu.be/2OQu9q70YkE?t=';
+    const double startSecondsfive = 00000000000000000000000000061;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """invariably""",
                       // alsoEnglishWord: "also: invariably",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈveəriəbli/""",
+                      americanText: """IpaUS: /ɪnˈveriəbli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەمیشە، نەگۆڕانە
 """),
 // With short examples define "invariably", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵکار) هەمیشە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: without fail"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This acute infection of the brain is almost invariably fatal.""",
+                      kurdishText:
+                          """ئەم نەخۆشییە لەناکاوەی مێشک بەنزیکەیی هەمیشەیی کوشندەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1006,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """This is not invariably the case.""",
+                      kurdishText: """ئەمە هەمیشە کەیسەکە نییە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintuitive intuitive
-WORD_WEB intuitive intuitive intuitive
-haʊʊʊʊʊʊʊ4
+- Adjective: intuitive
+1. Spontaneously derived from or prompted by a natural tendency
+"an intuitive revulsion"
+ 
+2. Obtained through intuition rather than from reasoning or observation (- nonrational, visceral)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intuitive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He had an intuitive sense of what the reader wanted.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """She was an intuitive person, quickly understanding what people wanted and needed.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/nsnyl8llfH4?t=';
+    const double startSecondsend = 000000000000000000000000000225;
+    const String videoIdone = 'https://youtu.be/dtp6b76pMak?t=';
+    const double startSecondsone = 000000000000000000000000000531;
+    const String videoIdtwo = 'https://youtu.be/oI_X2cMHNe0?t=';
+    const double startSecondstwo = 000000000000000000000000000310;
+    const String videoIdthree = 'https://youtu.be/3RkhZgRNC1k?t=';
+    const double startSecondsthree = 0000000000000000000000000001148;
+    const String videoIdfour = 'https://youtu.be/pTCgWVjB6UE?t=';
+    const double startSecondsfour = 000000000000000000000000000589;
+    const String videoIdfive = 'https://youtu.be/pz52gPH3ou4?t=';
+    const double startSecondsfive = 000000000000000000000000000718;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intuitive""",
                       // alsoEnglishWord: "also: intuitive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtjuːɪtɪv/""",
+                      americanText: """IpaUS: /ɪnˈtuːɪtɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,26 +992,32 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مەزندەیی، لە ڕووی گومانەوە، پێوابووانە،	ڕاستەوخۆتێگەیشتوو، دیناوی، ژیرانە
 """),
 // With short examples define "intuitive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بەدەست هێندراوە بە بەکارهێنانی هەستەکانت نەک بەکارهێنانی ڕاستییەکان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He had an intuitive sense of what the reader wanted.""",
+                      kurdishText:
+                          """هەستێکی ڕاستەوخۆتێگەیشتووی هەبوو کە خوێنەر چی دەوێت.""",
+                      englishNote:
+                          """This means he naturally understood what the reader desired without needing to think about it deeply or analyze it. His understanding came from a gut feeling or instinct rather than logical reasoning.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
-                    ),
+                    // skipped_meaning
+                    // const DividerDefinition(),
+                    // const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە بتوانیت هەستەکانت بەکاربهێنیت نەک سەیری ڕاستییەکان بکەیت"""),
+                    // const DividerSentences(),
+                    // SentencesRow(
+                    //   englishText: """She was an intuitive person, quickly understanding what people wanted and needed.""",
+                    //   kurdishText: """کەسێکی .""",
+                    //   onPressedBritish: () => speaksentence2("en-GB"),
+                    //   onPressedAmerican: () => speaksentence2("en-US"),
+                    // ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

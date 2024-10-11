@@ -9,7 +9,8 @@ class EnglishEntryintroductory extends StatefulWidget {
   const EnglishEntryintroductory({super.key});
 
   @override
-  State<EnglishEntryintroductory> createState() => _EnglishEntryintroductoryState();
+  State<EnglishEntryintroductory> createState() =>
+      _EnglishEntryintroductoryState();
 }
 
 class _EnglishEntryintroductoryState extends State<EnglishEntryintroductory> {
@@ -52,13 +53,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintroductory introductory
-WORD_WEB introductory introductory introductory
-haʊʊʊʊʊʊʊ4
+- Adjective: introductory
+1. Serving to open or begin
+"began the slide show with some introductory remarks"
+ 
+2. Serving as a base or starting point (- basic)
+"an introductory art course";
+ 
+3. Serving as an introduction or preface (- prefatorial, prefatory)
+"The introductory remarks of the author lacked detail";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "introductory";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +92,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """I'd like to make some introductory remarks before beginning the lecture.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The booklist at the end of the chapter contains some introductory reading on the subject.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/JcpboMScfIY?t=';
+    const double startSecondsend = 000000000000000000000000000279;
+    const String videoIdone = 'https://youtu.be/v1desDduz5M?t=';
+    const double startSecondsone = 000000000000000000000000000109;
+    const String videoIdtwo = 'https://youtu.be/drhDGeNauuo?t=';
+    const double startSecondstwo = 0000000000000000000000000001422;
+    const String videoIdthree = 'https://youtu.be/63tQ7yGmsmI?t=';
+    const double startSecondsthree = 000000000000000000000000000642;
+    const String videoIdfour = 'https://youtu.be/doCEDlMy0m8?t=';
+    const double startSecondsfour = 000000000000000000000000000173;
+    const String videoIdfive = 'https://youtu.be/Euj852jIfsg?t=';
+    const double startSecondsfive = 00000000000000000000000000047;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """introductory""",
                       // alsoEnglishWord: "also: introductory",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntrəˈdʌktəri/""",
+                      americanText: """IpaUS: /ˌɪntrəˈdʌktəri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +997,31 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئامادەیی، سەرەتایی، وەکوو پێشەکی
 """),
 // With short examples define "introductory", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە سەرەتای شتێک نووسراوە یان گوتراوە وەک ناساندن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: opening"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I'd like to make some introductory remarks before beginning the lecture.""",
+                      kurdishText:
+                          """حەز دەکەم چەند قسەیەکی پێشەکی بکەم پێش دەست پێکردنی وانەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە مەبەست لێی ئەوەیە ببێتە بە ناساندن بۆ ئەو کەسانەی کە هەرگیز چالاکییەکانیان ئەنجام نەداوە یان لەسەر بابەتێک نازانن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The booklist at the end of the chapter contains some introductory reading on the subject.""",
+                      kurdishText:
+                          """لیستی کتێبەکان لە کۆتایی بەشەکە هەندێک خوێندنەوەی ناسێنەر لەسەر بابەتەکە لەخۆدەگرن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

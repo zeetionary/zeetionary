@@ -9,7 +9,8 @@ class EnglishEntryinvestigator extends StatefulWidget {
   const EnglishEntryinvestigator({super.key});
 
   @override
-  State<EnglishEntryinvestigator> createState() => _EnglishEntryinvestigatorState();
+  State<EnglishEntryinvestigator> createState() =>
+      _EnglishEntryinvestigatorState();
 }
 
 class _EnglishEntryinvestigatorState extends State<EnglishEntryinvestigator> {
@@ -52,13 +53,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryinvestigator investigator
-WORD_WEB investigator investigator investigator
-haʊʊʊʊʊʊʊ4
+- Noun: investigator (Derived forms: investigators)
+1. A scientist who devotes himself to doing research (- research worker, researcher)
+"The investigator tried to dress up the uninteresting data";
+ 
+2. Someone who investigates
+ 
+3. A police officer who investigates crimes (- detective, tec, police detective)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "investigator";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Investigators have studied the possible effects of contamination.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/eTvrSLFWmLo?t=';
+    const double startSecondsend = 000000000000000000000000000243;
+    const String videoIdone = 'https://youtu.be/lYu1ysDULwA?t=';
+    const double startSecondsone = 000000000000000000000000000645;
+    const String videoIdtwo = 'https://youtu.be/VrKW58MS12g?t=';
+    const double startSecondstwo = 0000000000000000000000000001191;
+    const String videoIdthree = 'https://youtu.be/Mx8JkGHaGUI?t=';
+    const double startSecondsthree = 0000000000000000000000000001702;
+    const String videoIdfour = 'https://youtu.be/raSeaAeryWE?t=';
+    const double startSecondsfour = 0000000000000000000000000001581;
+    const String videoIdfive = 'https://youtu.be/XEZfGlyLQnA?t=';
+    const double startSecondsfive = 000000000000000000000000000611;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """investigator""",
                       // alsoEnglishWord: "also: investigator",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈvestɪɡeɪtə(r)/""",
+                      americanText: """IpaUS: /ɪnˈvestɪɡeɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تاوان‌پرس، لێ‌پرسینکار، بەدواداچوو، پشکێنەر، توێژەر، لێکۆڵەر، تاوان‌دۆز
 """),
 // With short examples define "investigator", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە لێکۆڵینەوە لە ڕووداو یان تاوانێک دەکات بۆ دۆزینەوەی ڕاستییەکان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Investigators have studied the possible effects of contamination.""",
+                      kurdishText:
+                          """لێکۆڵەران توێژینەوەیان کردووە لەسەر کاریگەرییە ڕێتێچووەکانی پیسبوون کردووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

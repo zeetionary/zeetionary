@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: inverse
+1. Reversed (turned backward) in order, nature or effect (- reverse)
+ 
+2. (mathematics) opposite in nature, effect or relation to another quantity
+"a term is in inverse proportion to another term if it increases (or decreases) as the other decreases (or increases)"
 
-EnglishEntryinverse inverse
-WORD_WEB inverse inverse inverse
-haʊʊʊʊʊʊʊ4
+- Noun: inverse (Derived forms: inverses)
+1. Something inverted in sequence, character or effect (- opposite)
+"when the direct approach failed he tried the inverse";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "inverse";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """A person's wealth is often in inverse proportion to their happiness.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """There is often an inverse relationship between the power of the tool and how easy it is to use.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Dividing by two is the inverse of multiplying by two.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/kElsSj8hky4?t=';
+    const double startSecondsend = 000000000000000000000000000465;
+    const String videoIdone = 'https://youtu.be/lGSOWwUvJiU?t=';
+    const double startSecondsone = 0000000000000000000000000001407;
+    const String videoIdtwo = 'https://youtu.be/QcUey-DVYjk?t=';
+    const double startSecondstwo = 000000000000000000000000000752;
+    const String videoIdthree = 'https://youtu.be/JHjXwicEwQo?t=';
+    const double startSecondsthree = 000000000000000000000000000535;
+    const String videoIdfour = 'https://youtu.be/ha2mLz-Xdpg?t=';
+    const double startSecondsfour = 0000000000000000000000000001724;
+    const String videoIdfive = 'https://youtu.be/HY_OIwideLg?t=';
+    const double startSecondsfive = 000000000000000000000000000124;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """inverse""",
                       // alsoEnglishWord: "also: inverse",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪnˈvɜːs/""",
+                      americanText: """IpaUS: /ˌɪnˈvɜːrs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +997,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەڵاوگێڕ، بەرڤاژی، سەروبن، بەراوەژوو، ئاوەژوو، پێچەوانە
 """),
 // With short examples define "inverse", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە بڕ یان پێگە دژ بە شتێکی دیکەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A person's wealth is often in inverse proportion to their happiness (= the more money they have, the less happy they are).""",
+                      kurdishText:
+                          """سامانی کەسێک زۆرجار لە ئاستی دژ بە خۆشبەختییەتی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1015,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There is often an inverse relationship between the power of the tool and how easy it is to use.""",
+                      kurdishText:
+                          """زۆرجار پەیوەندییەکی پێچەوانە هەیە لە نێوان هێزی ئامێرەکە و چەندە ئاسانە بەکاربێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) پێچەوانەی تەواوی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Dividing by two is the inverse of multiplying by two.""",
+                      kurdishText:
+                          """دابەشکردن بەسەر دوو پێچەوانەی لێکدانە لەگەڵ دوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

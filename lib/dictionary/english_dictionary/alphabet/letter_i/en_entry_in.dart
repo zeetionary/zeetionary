@@ -466,518 +466,21 @@ ${englishMeaningConst.text}
     await flutterTts.speak("""Short skirts are in again.""");
   }
 
-  Future<void> speaksentence50(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_5000""");
-  }
-
-  Future<void> speaksentence51(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence5100""");
-  }
-
-  Future<void> speaksentence52(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence5200""");
-  }
-
-  Future<void> speaksentence53(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence5300""");
-  }
-
-  Future<void> speaksentence54(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence5400""");
-  }
-
-  Future<void> speaksentence55(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence5500""");
-  }
-
-  Future<void> speaksentence56(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence5600""");
-  }
-
-  Future<void> speaksentence57(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence5700""");
-  }
-
-  Future<void> speaksentence58(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence5800""");
-  }
-
-  Future<void> speaksentence59(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence5900""");
-  }
-
-  Future<void> speaksentence60(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_6000""");
-  }
-
-  Future<void> speaksentence61(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6100""");
-  }
-
-  Future<void> speaksentence62(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6200""");
-  }
-
-  Future<void> speaksentence63(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6300""");
-  }
-
-  Future<void> speaksentence64(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6400""");
-  }
-
-  Future<void> speaksentence65(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6500""");
-  }
-
-  Future<void> speaksentence66(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6600""");
-  }
-
-  Future<void> speaksentence67(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6700""");
-  }
-
-  Future<void> speaksentence68(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6800""");
-  }
-
-  Future<void> speaksentence69(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6900""");
-  }
-
-  Future<void> speaksentence70(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_7000""");
-  }
-
-  Future<void> speaksentence71(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence7100""");
-  }
-
-  Future<void> speaksentence72(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence7200""");
-  }
-
-  Future<void> speaksentence73(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence7300""");
-  }
-
-  Future<void> speaksentence74(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence7400""");
-  }
-
-  Future<void> speaksentence75(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence7500""");
-  }
-
-  Future<void> speaksentence76(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence7600""");
-  }
-
-  Future<void> speaksentence77(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence7700""");
-  }
-
-  Future<void> speaksentence78(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence7800""");
-  }
-
-  Future<void> speaksentence79(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence7900""");
-  }
-
-  Future<void> speaksentence80(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_8000""");
-  }
-
-  Future<void> speaksentence81(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence8100""");
-  }
-
-  Future<void> speaksentence82(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence8200""");
-  }
-
-  Future<void> speaksentence83(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence8300""");
-  }
-
-  Future<void> speaksentence84(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence8400""");
-  }
-
-  Future<void> speaksentence85(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence8500""");
-  }
-
-  Future<void> speaksentence86(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence8600""");
-  }
-
-  Future<void> speaksentence87(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence8700""");
-  }
-
-  Future<void> speaksentence88(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence8800""");
-  }
-
-  Future<void> speaksentence89(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence8900""");
-  }
-
-  Future<void> speaksentence90(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_9000""");
-  }
-
-  Future<void> speaksentence91(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence9100""");
-  }
-
-  Future<void> speaksentence92(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence9200""");
-  }
-
-  Future<void> speaksentence93(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence9300""");
-  }
-
-  Future<void> speaksentence94(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence9400""");
-  }
-
-  Future<void> speaksentence95(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence9500""");
-  }
-
-  Future<void> speaksentence96(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence9600""");
-  }
-
-  Future<void> speaksentence97(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence9700""");
-  }
-
-  Future<void> speaksentence98(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence9800""");
-  }
-
-  Future<void> speaksentence99(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence9900""");
-  }
-
-  Future<void> speaksentence100(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence__10000""");
-  }
-
-  Future<void> speaksentence101(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10100""");
-  }
-
-  Future<void> speaksentence102(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10200""");
-  }
-
-  Future<void> speaksentence103(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10300""");
-  }
-
-  Future<void> speaksentence104(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10400""");
-  }
-
-  Future<void> speaksentence105(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10500""");
-  }
-
-  Future<void> speaksentence106(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10600""");
-  }
-
-  Future<void> speaksentence107(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10700""");
-  }
-
-  Future<void> speaksentence108(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10800""");
-  }
-
-  Future<void> speaksentence109(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_10900""");
-  }
-
-  Future<void> speaksentence110(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11000""");
-  }
-
-  Future<void> speaksentence111(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11100""");
-  }
-
-  Future<void> speaksentence112(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11200""");
-  }
-
-  Future<void> speaksentence113(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11300""");
-  }
-
-  Future<void> speaksentence114(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11400""");
-  }
-
-  Future<void> speaksentence115(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11500""");
-  }
-
-  Future<void> speaksentence116(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11600""");
-  }
-
-  Future<void> speaksentence117(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11700""");
-  }
-
-  Future<void> speaksentence118(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11800""");
-  }
-
-  Future<void> speaksentence119(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_11900""");
-  }
-
-  Future<void> speaksentence120(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_12000""");
-  }
-
   @override
   Widget build(BuildContext context) {
     // 188888880002200
-    const String videoIdend = 'https://youtu.be/hTqtGJwsJVE?t=';
-    const double startSecondsend = 0000000000000000000000000001692;
-    const String videoIdone = 'https://youtu.be/XZVHmRvfDHM?t=';
-    const double startSecondsone = 00000000000000000000000000047;
-    const String videoIdtwo = 'https://youtu.be/L94M4xQcPYk?t=';
-    const double startSecondstwo = 00000000000000000000000000029;
-    const String videoIdthree = 'https://youtu.be/8bWRjajx-LE?t=';
-    const double startSecondsthree = 00000000000000000000000000078;
-    const String videoIdfour = 'https://youtu.be/wizgxRBfVTY?t=';
-    const double startSecondsfour = 00000000000000000000000000011;
-    const String videoIdfive = 'https://youtu.be/G4BxOhJOmUw?t=';
-    const double startSecondsfive = 000000000000000000000000000237;
+    const String videoIdend = 'hTqtGJwsJVE';
+    const double startSecondsend = 1692;
+    const String videoIdone = 'XZVHmRvfDHM';
+    const double startSecondsone = 47;
+    const String videoIdtwo = 'L94M4xQcPYk';
+    const double startSecondstwo = 29;
+    const String videoIdthree = '8bWRjajx-LE';
+    const double startSecondsthree = 78;
+    const String videoIdfour = 'wizgxRBfVTY';
+    const double startSecondsfour = 11;
+    const String videoIdfive = 'G4BxOhJOmUw';
+    const double startSecondsfive = 237;
 
     return DefaultTabController(
       length: 4,
@@ -1058,7 +561,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ئامراز) لە شێوەی شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was lying in bed.""",
                       kurdishText: """لە جێ‌خەودا کەوتبوو.""",
@@ -1082,7 +584,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ئامراز) بۆ ناو شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He dipped his brush in the paint.""",
                       kurdishText: """فڵچەکەیی کرد بە بۆیەکەدا.""",
@@ -1100,7 +601,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ئامراز) کە بەشێک یان تەواوی ک/شت پێکدەهێنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """There are 31 days in May.""",
                       kurdishText: """٣١ ڕۆژ هەیە لە ئایاردا.""",
@@ -1118,10 +618,10 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ئامراز) لە ماوەی کاتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I'm getting forgetful in my old age.""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      kurdishText:
+                          """لەم ساڵانەی دواییدا خەریکە کەم‌ھۆش دەبم.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -1143,7 +643,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ئامراز) لە دوای ماوەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It will be ready in a week's time (= one week from now).""",
@@ -1162,7 +661,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ئامراز) بۆ ماوەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I haven't seen him in years.""",
                       kurdishText: """چەندین ساڵ دەبێت نەمدیوە.""",
@@ -1181,7 +679,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ئامراز) بە لەبەرکردنی شتێکەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was all in black.""",
                       kurdishText: """بە تەواوی جلی ڕەشی پۆشیبوو.""",
@@ -1192,10 +689,9 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ئامراز) بۆ باسکردنی شتێک کە لە هەموو لایەکتە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He was sitting alone in the darkness.""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      kurdishText: """بە تەنها لە تاریکییەکەدا دانیشتبوو.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -1210,7 +706,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (ئامراز) بۆ پیشاندانی ئەو زمان، مادە، هتد ــەی بەکارهاتووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Put it in writing.""",
                       kurdishText: """بە نووسین بیڵێ.""",
@@ -1241,7 +736,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ئامراز) بۆ پیشاندانی دۆخی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The daffodils were in full bloom.""",
                       kurdishText: """نێرگزەکان لە چرۆی تەواودا بوون.""",
@@ -1265,7 +759,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (ئامراز) بەژداربوو لە شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He has acted in many plays.""",
                       kurdishText: """لە زۆر شانۆدا بەژداری کردووە.""",
@@ -1276,7 +769,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (ئامراز) بۆ پیشاندانی کار و پیشەی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's in computers.""",
                       kurdishText: """کاری کۆمپیوتەر دەکات.""",
@@ -1294,7 +786,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (ئامراز) بۆ پیشاندانی شێوە، جۆر، ڕێکخستن، یان بڕی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They sat in rows.""",
                       kurdishText: """بە ڕیز دانیشتن.""",
@@ -1320,7 +811,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (ئامراز) بۆ پیشاندانی ئەو کوالێتییە یان شتە کە بڕیارێک دەدرێت لەسەری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was not lacking in courage.""",
                       kurdishText: """کەم نەبوو لە بوێری.""",
@@ -1330,7 +820,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٦. (ئامراز) لە کاتی کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In all the commotion I forgot to tell him the news.""",
@@ -1352,7 +841,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٧. (ئامراز) بۆ ناساندنی ناوی کەسێک کە کوالێتییەکی دیاریکراوی هەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We're losing a very good engineer in Jen.""",
@@ -1366,7 +854,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٨. (هاوەڵکار) بۆ ناو شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She opened the door and went in.""",
                       kurdishText: """دەرگاکەی کردەوە و چووە ناوەوە.""",
@@ -1386,7 +873,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٩. (هاوەڵکار) لەناو شتێک، مادەیەک، یان شوێنێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I can't drink coffee with milk in.""",
                       kurdishText: """ناتوانم قاوە بخۆمەوە شیری تێدا بێت.""",
@@ -1403,7 +889,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٠. (هاوەڵکار) لە ماڵەوە یان لە شوێنی کار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Nobody was in when we called.""",
                       kurdishText:
@@ -1422,7 +907,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢١. (هاوەڵکار) لەو شوێنەی لە پاس، شەمەندەفەر، هتد دادەبەزیت یان سەردەکەویت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The bus is due in (= it should arrive) at six.""",
@@ -1432,7 +916,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢٢. (هاوەڵکار) وەرگرتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Applications must be in by April 30.""",
                       kurdishText:
@@ -1443,7 +926,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٣. (هاوەڵکار) شەپۆل بەرەو وشكانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Is the tide coming in or going out?""",
                       kurdishText: """شەپۆلەکە دێت یان دەچێت؟""",
@@ -1453,7 +935,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٤. (هاوەڵکار) هەڵبژێردراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Several new councillors got in at the last election.""",
@@ -1465,7 +946,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٥. (هاوەڵناو) بەناوبانگ و مۆدە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Purple is the in colour this spring.""",
                       kurdishText: """مۆر ڕەنگی باوە ئەم بەهارە.""",

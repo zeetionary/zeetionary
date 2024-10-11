@@ -992,9 +992,9 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: 
+// """),
 // With short examples define "dopsum1", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(

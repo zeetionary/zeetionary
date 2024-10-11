@@ -9,7 +9,8 @@ class EnglishEntryintransitive extends StatefulWidget {
   const EnglishEntryintransitive({super.key});
 
   @override
-  State<EnglishEntryintransitive> createState() => _EnglishEntryintransitiveState();
+  State<EnglishEntryintransitive> createState() =>
+      _EnglishEntryintransitiveState();
 }
 
 class _EnglishEntryintransitiveState extends State<EnglishEntryintransitive> {
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: intransitive
+1. (grammar) designating a verb that does not require or cannot take a direct object
 
-EnglishEntryintransitive intransitive
-WORD_WEB intransitive intransitive intransitive
-haʊʊʊʊʊʊʊ4
+- Noun: intransitive (Derived forms: intransitives)
+1. A verb (or verb construction) that does not take an object (- intransitive verb, intransitive verb form)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intransitive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The verb ‘die’, as in ‘He died suddenly’, is intransitive.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/MWJIScUJSAU?t=';
+    const double startSecondsend = 00000000000000000000000000034;
+    const String videoIdone = 'https://youtu.be/AGsLrtjfE_M?t=';
+    const double startSecondsone = 0;
+    const String videoIdtwo = 'https://youtu.be/NI9mtgAlanc?t=';
+    const double startSecondstwo = 000000000000000000000000000397;
+    const String videoIdthree = 'https://youtu.be/4oXwlvjld_o?t=';
+    const double startSecondsthree = 000000000000000000000000000350;
+    const String videoIdfour = 'https://youtu.be/mJYrc6oya7c?t=';
+    const double startSecondsfour = 000000000000000000000000000495;
+    const String videoIdfive = 'https://youtu.be/745WT5bcFwA?t=';
+    const double startSecondsfive = 000000000000000000000000000155;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intransitive""",
                       // alsoEnglishWord: "also: intransitive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtrænzətɪv/""",
+                      americanText: """IpaUS: /ɪnˈtrænzətɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +995,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intransitive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە کردارێک پێویستی بە بەرکاری ڕاستەوخۆ نەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The verb ‘die’, as in ‘He died suddenly’, is intransitive.""",
+                      kurdishText:
+                          """کاری 'مرد'، وەک لە 'لەناکاو مرد'، تێنەپەڕە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

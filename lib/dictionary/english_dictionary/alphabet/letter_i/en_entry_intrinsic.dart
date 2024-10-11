@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintrinsic intrinsic
-WORD_WEB intrinsic intrinsic intrinsic
-haʊʊʊʊʊʊʊ4
+- Adjective: intrinsic
+1. Belonging to a thing by its very nature (- intrinsical)
+"form was treated as something intrinsic, as the very essence of the thing";
+ 
+2. (anatomy) situated within or belonging solely to the organ or body part on which it acts
+"intrinsic muscles"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intrinsic";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -928,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/X3TAROotFfM?t=';
+    const double startSecondsend = 000000000000000000000000000203;
+    const String videoIdone = 'https://youtu.be/S6rDvbQ-mz4?t=';
+    const double startSecondsone = 000000000000000000000000000430;
+    const String videoIdtwo = 'https://youtu.be/I-GpS5PCcLc?t=';
+    const double startSecondstwo = 000000000000000000000000000951;
+    const String videoIdthree = 'https://youtu.be/MecVr3Bz4o0?t=';
+    const double startSecondsthree = 0000000000000000000000000002393;
+    const String videoIdfour = 'https://youtu.be/CzP23Zti-YI?t=';
+    const double startSecondsfour = 0000000000000000000000000001187;
+    const String videoIdfive = 'https://youtu.be/HQKy1KJpSVc?t=';
+    const double startSecondsfive = 000000000000000000000000000708;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intrinsic""",
                       // alsoEnglishWord: "also: intrinsic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtrɪnzɪk/""",
+                      americanText: """IpaUS: /ɪnˈtrɪnzɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

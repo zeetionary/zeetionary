@@ -9,7 +9,8 @@ class EnglishEntryintricately extends StatefulWidget {
   const EnglishEntryintricately({super.key});
 
   @override
-  State<EnglishEntryintricately> createState() => _EnglishEntryintricatelyState();
+  State<EnglishEntryintricately> createState() =>
+      _EnglishEntryintricatelyState();
 }
 
 class _EnglishEntryintricatelyState extends State<EnglishEntryintricately> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintricately intricately
-WORD_WEB intricately intricately intricately
-haʊʊʊʊʊʊʊ4
+- Adverb: intricately
+1. With elaboration (- elaborately, in an elaborate way)
+"it was intricately spelled out";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intricately";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The hijacking operation was intricately planned.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ihwAF-zahsA?t=';
+    const double startSecondsend = 0000000000000000000000000001271;
+    const String videoIdone = 'https://youtu.be/x6a4hMyiwBo?t=';
+    const double startSecondsone = 000000000000000000000000000335;
+    const String videoIdtwo = 'https://youtu.be/HtLddZHaXOk?t=';
+    const double startSecondstwo = 00000000000000000000000000080;
+    const String videoIdthree = 'https://youtu.be/tyixMpuGEL8?t=';
+    const double startSecondsthree = 0000000000000000000000000001825;
+    const String videoIdfour = 'https://youtu.be/sw4T62rNmoA?t=';
+    const double startSecondsfour = 000000000000000000000000000102;
+    const String videoIdfive = 'https://youtu.be/6OuJzGA0Umg?t=';
+    const double startSecondsfive = 000000000000000000000000000381;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intricately""",
                       // alsoEnglishWord: "also: intricately",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntrɪkətli/""",
+                      americanText: """IpaUS: /ˈɪntrɪkətli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +993,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intricately", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ژمارەیەکی زۆر بەشی جیاواز و وردەکاریی بچووکی هەیە کە پێکەوە دەگونجێن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The hijacking operation was intricately planned.""",
+                      kurdishText:
+                          """ئۆپەراسیۆنی ڕفاندنەکە بە ئاڵۆزی پلانی بۆ دانرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

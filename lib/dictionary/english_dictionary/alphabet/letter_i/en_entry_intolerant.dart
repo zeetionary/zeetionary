@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintolerant intolerant
-WORD_WEB intolerant intolerant intolerant
-haʊʊʊʊʊʊʊ4
+- Adjective: intolerant
+1. Unwilling to tolerate difference of opinion
+ 
+2. Narrow-minded about cherished opinions (- illiberal)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intolerant";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He was deeply intolerant of all opposition.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""My husband is severely gluten intolerant.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/1oSuoFwPX4E?t=';
+    const double startSecondsend = 000000000000000000000000000102;
+    const String videoIdone = 'https://youtu.be/gGILiLTenR8?t=';
+    const double startSecondsone = 000000000000000000000000000114;
+    const String videoIdtwo = 'https://youtu.be/EHVtZsCZ1TA?t=';
+    const double startSecondstwo = 00000000000000000000000000081;
+    const String videoIdthree = 'https://youtu.be/Muv7K0aXteA?t=';
+    const double startSecondsthree = 000000000000000000000000000242;
+    const String videoIdfour = 'https://youtu.be/88bD9f2MivI?t=';
+    const double startSecondsfour = 000000000000000000000000000647;
+    const String videoIdfive = 'https://youtu.be/GDwOi7HpHtQ?t=';
+    const double startSecondsfive = 00000000000000000000000000089;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intolerant""",
                       // alsoEnglishWord: "also: intolerant",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtɒlərənt/""",
+                      americanText: """IpaUS: /ɪnˈtɑːlərənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +989,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناسنگ‌فراوان، ناپشوودرێژ، پشووکورت، پشووتەنگ، دەرنەبردوو، هەڵنەکردوو، ژێربارنەچوو، قەبووڵ‌نەکردوو، مل‌دانەنەواندوو، قایل‌نەبوو،	بیرتەسک، بیرتەنگ، بەرچاوتەنگ، دەمارگرژ
 """),
 // With short examples define "intolerant", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بیرۆکە و شێوازی ڕەفتارکردن قبووڵ نەکەیەت کە لە خۆت جیاواز بێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was deeply intolerant of all opposition.""",
+                      kurdishText:
+                          """تەواو قایل‌نەبوو بوو بە هەموو بەرهەڵستییەک.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە نەتوانیت خواردنی دیاریکراو، یان دەرمانی دیاریکراو بخۆیت بەبێ ئەوەی نەخۆش بکەویت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """My husband is severely gluten intolerant.""",
+                      kurdishText: """هاوسەرەکەم تەواو هەستیارە بە گلوتین.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

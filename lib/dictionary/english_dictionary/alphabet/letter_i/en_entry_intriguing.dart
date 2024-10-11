@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintriguing intriguing
-WORD_WEB intriguing intriguing intriguing
-haʊʊʊʊʊʊʊ4
+- Adjective: intriguing
+1. Disturbingly provocative (- challenging)
+"an intriguing smile";
+ 
+2. Capable of arousing interest or curiosity
+"our team came up with some most intriguing finds"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intriguing";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""These discoveries raise intriguing questions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""It all sounds very intriguing.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/WUjVPIEtJd0?t=';
+    const double startSecondsend = 000000000000000000000000000222;
+    const String videoIdone = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsone = 0000000000000000000000000001135;
+    const String videoIdtwo = 'https://youtu.be/kTaYet07Ioo?t=';
+    const double startSecondstwo = 000000000000000000000000000338;
+    const String videoIdthree = 'https://youtu.be/_WGmcdPSSsg?t=';
+    const double startSecondsthree = 00000000000000000000000000051;
+    const String videoIdfour = 'https://youtu.be/SwQhKFMxmDY?t=';
+    const double startSecondsfour = 0000000000000000000000000003692;
+    const String videoIdfive = 'https://youtu.be/S3ksC_8jGuc?t=';
+    const double startSecondsfive = 00000000000000000000000000052;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intriguing""",
                       // alsoEnglishWord: "also: intriguing",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: intriguing""",
+                      americanText: """IpaUS: intriguing""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خۆش، سەرنج‌ڕاکێش، تەلەسماوی، سەیر
 """),
 // With short examples define "intriguing", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) زۆر سەرنجڕاکێش بەهۆی ئەوەی نامۆیە یان وەڵامێکی ڕوونی نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """These discoveries raise intriguing questions.""",
+                      kurdishText:
+                          """دۆزینەوەکان پرسیاری سەرنجڕاکێش دەورووژێنن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It all sounds very intriguing.""",
+                      kurdishText: """هەمووی زۆر سەرنجڕاکێش دیارن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

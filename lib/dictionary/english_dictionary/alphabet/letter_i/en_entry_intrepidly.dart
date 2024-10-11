@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintrepidly intrepidly
-WORD_WEB intrepidly intrepidly intrepidly
-haʊʊʊʊʊʊʊ4
+- Adverb: intrepidly
+1. Without fear (- fearlessly, dauntlessly)
+"intrepidly, he led the troops into combat";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intrepidly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Many believe a person must pursue their one “true love” intrepidly.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/lkYsCvTR_FA?t=';
+    const double startSecondsend = 000000000000000000000000000260;
+    const String videoIdone = 'https://youtu.be/XeF-hRAfaUQ?t=';
+    const double startSecondsone = 0000000000000000000000000001564;
+    const String videoIdtwo = 'https://youtu.be/JPxGCyLrTJk?t=';
+    const double startSecondstwo = 000000000000000000000000000125;
+    const String videoIdthree = 'https://youtu.be/cK43gsND4GQ?t=';
+    const double startSecondsthree = 0000000000000000000000000003047;
+    const String videoIdfour = 'https://youtu.be/0M2JtUtpmFo?t=';
+    const double startSecondsfour = 000000000000000000000000000169;
+    const String videoIdfive = 'https://youtu.be/lkYsCvTR_FA?t=';
+    const double startSecondsfive = 000000000000000000000000000261;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intrepidly""",
                       // alsoEnglishWord: "also: intrepidly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtrepɪdli/""",
+                      americanText: """IpaUS: /ɪnˈtrepɪdli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەترسانە، بێ‌باکانە، ئازایانە، چاونەترسانە
 """),
 // With short examples define "intrepidly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەکی زۆر بوێرانە؛ بە شێوەیەکی نەترس لە مەترسی و سەختی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Many believe a person must pursue their one “true love” intrepidly.""",
+                      kurdishText:
+                          """زۆر کەس باوەڕیان وایە کەسێک دەبێت شوێن تاکە 'خۆشەویستی ڕاستەقینە' ـی بکەوێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

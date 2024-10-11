@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: intrigue (Derived forms: intrigues)
+1. A crafty and involved plot to achieve your (usually sinister) ends (- machination)
+ 
+2. A clandestine love affair
 
-EnglishEntryintrigue intrigue
-WORD_WEB intrigue intrigue intrigue
-haʊʊʊʊʊʊʊ4
+- Verb: intrigue (Derived forms: intrigued, intrigues, intriguing)
+1. Cause to be interested or curious (- fascinate)
+ 
+2. Plot something harmful; scheme in an underhand manner (- scheme, connive)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intrigue";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +91,38 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The idea intrigued her.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""You've really intrigued me—tell me more!""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The group decided to intrigue and ruin her reputation.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """The young hero steps into a web of intrigue in the academic world.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """I soon learnt about all the intrigues and scandals that went on in the little town.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/qg2nGY1aqlg?t=';
+    const double startSecondsend = 000000000000000000000000000112;
+    const String videoIdone = 'https://youtu.be/tsxmyL7TUJg?t=';
+    const double startSecondsone = 000000000000000000000000000490;
+    const String videoIdtwo = 'https://youtu.be/rk95JDlI9es?t=';
+    const double startSecondstwo = 000000000000000000000000000222;
+    const String videoIdthree = 'https://youtu.be/43uTBB574g4?t=';
+    const double startSecondsthree = 00000000000000000000000000011;
+    const String videoIdfour = 'https://youtu.be/_h95pZQiKwI?t=';
+    const double startSecondsfour = 000000000000000000000000000966;
+    const String videoIdfive = 'https://youtu.be/xjmXzYdxuTQ?t=';
+    const double startSecondsfive = 0000000000000000000000000005;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intrigue""",
                       // alsoEnglishWord: "also: intrigue",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtriːɡ/""",
+                      americanText: """IpaUS: /ɪnˈtriːɡ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +997,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پیلان، داونانەوە، فێڵ‌وتەڵەکە، سازوباز، کەین‌وبەین، نەخشە،	پێوەندی لەبنەوە یان نهێنی
 """),
 // With short examples define "intrigue", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) واکردنی ئەوەی کەسێک حەزێکی زۆری هەبێت و بیەوێت لەسەر شتێک بزانێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The idea intrigued her.""",
+                      kurdishText: """بیرۆکەکە سەرنجیی ڕاکێشا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,35 +1013,49 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You've really intrigued me—tell me more!""",
+                      kurdishText:
+                          """بە ڕاستی سەرنجمت ڕاکێشاوە ـ زیاترم پێ بڵێ.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) بە نهێنی پلاندانان لەگەڵ خەڵکی دیکە بۆ بۆ زیان گەیاندن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The group decided to intrigue and ruin her reputation.""",
+                      kurdishText:
+                          """گرووپەکە بڕیاریان دا پلان دابڕێژن و ناوبانگی لەکەدار بکەن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) کاری پلاندانانی نهێنی بۆ بەدەستهێنانی شتێک، زۆرجار بە خەڵەتاندنی خەڵکی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The young hero steps into a web of intrigue in the academic world.""",
+                      kurdishText:
+                          """پاڵەوانە گەنجەکە هەنگاو دەنێتە نێو تۆڕێکی پیلانگێڕی لە جیهانی ئەکادیمیدا..""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ھاوەڵناو) پیلان یان پەیوەندی، بە تایبەتی کە تێیدا کەسێکی دیکە دەخەڵێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I soon learnt about all the intrigues and scandals that went on in the little town.""",
+                      kurdishText:
+                          """زوو ئاگادار بووم لەو پیلان و ئابڕووچوونانەی ناو شارۆچکە بچووکەکە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

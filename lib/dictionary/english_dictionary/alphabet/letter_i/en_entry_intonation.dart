@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintonation intonation
-WORD_WEB intonation intonation intonation
-haʊʊʊʊʊʊʊ4
+- Noun: intonation (Derived forms: intonations)
+1. Rise and fall of the voice pitch (- modulation, pitch contour)
+ 
+2. Singing by a soloist of the opening piece of plainsong
+ 
+3. The act of singing in a monotonous tone (- chanting)
+ 
+4. The production of musical tones (by voice or instrument); especially the exactitude of the pitch relations
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intonation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""In English, some questions have a rising intonation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He’s studying intonation patterns in children’s speech.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/UvIkojfQDxA?t=';
+    const double startSecondsend = 00000000000000000000000000090;
+    const String videoIdone = 'https://youtu.be/H1KP4ztKK0A?t=';
+    const double startSecondsone = 000000000000000000000000000567;
+    const String videoIdtwo = 'https://youtu.be/8Z01336nDlU?t=';
+    const double startSecondstwo = 000000000000000000000000000403;
+    const String videoIdthree = 'https://youtu.be/epqYft12nV4?t=';
+    const double startSecondsthree = 000000000000000000000000000616;
+    const String videoIdfour = 'https://youtu.be/waeXBCUkuL8?t=';
+    const double startSecondsfour = 000000000000000000000000000181;
+    const String videoIdfive = 'https://youtu.be/v7hz64aVcRw?t=';
+    const double startSecondsfive = 000000000000000000000000000111;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intonation""",
                       // alsoEnglishWord: "also: intonation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪntəˈneɪʃn/""",
+                      americanText: """IpaUS: /ˌɪntəˈneɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +998,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intonation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەرزبوون و نزمبوونی دەنگ لە کاتی قسەکردندا، بە تایبەتی کە کار دەکاتە سەر ئەو مەبەستەی دەردەبڕدرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In English, some questions have a rising intonation.""",
+                      kurdishText:
+                          """لە ئینگلیزیدا، هەندێک پرسیار ئاوازی بەرزبوونیان هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1013,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He’s studying intonation patterns in children’s speech.""",
+                      kurdishText:
+                          """لێکۆڵینەوە لە شێوازەکانی ئاواز دەکات لە دەنگی منداڵدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

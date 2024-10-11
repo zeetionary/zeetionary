@@ -9,7 +9,8 @@ class EnglishEntryintoxicated extends StatefulWidget {
   const EnglishEntryintoxicated({super.key});
 
   @override
-  State<EnglishEntryintoxicated> createState() => _EnglishEntryintoxicatedState();
+  State<EnglishEntryintoxicated> createState() =>
+      _EnglishEntryintoxicatedState();
 }
 
 class _EnglishEntryintoxicatedState extends State<EnglishEntryintoxicated> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintoxicated intoxicated
-WORD_WEB intoxicated intoxicated intoxicated
-haʊʊʊʊʊʊʊ4
+- Adjective: intoxicated
+1. Stupefied or excited by a chemical substance (especially alcohol) (- drunk, inebriated, ripped [informal], gone, inebriate, skunked [informal])
+"a noisy crowd of intoxicated sailors";
+ 
+2. Elated or emboldened as if under the influence of alcohol (- drunk)
+"felt intoxicated by her success";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intoxicated";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She was charged with driving while intoxicated.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Intoxicated by success, she wanted to go further.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/JcpboMScfIY?t=';
+    const double startSecondsend = 0000000000000000000000000005185;
+    const String videoIdone = 'https://youtu.be/IlU-zDU6aQ0?t=';
+    const double startSecondsone = 000000000000000000000000000562;
+    const String videoIdtwo = 'https://youtu.be/S4qvPouh1gE?t=';
+    const double startSecondstwo = 0000000000000000000000000001345;
+    const String videoIdthree = 'https://youtu.be/F0jr-HQeT74?t=';
+    const double startSecondsthree = 00000000000000000000000000093;
+    const String videoIdfour = 'https://youtu.be/pXWyeg2GFBc?t=';
+    const double startSecondsfour = 000000000000000000000000000337;
+    const String videoIdfive = 'https://youtu.be/bPwnDyW26gk?t=';
+    const double startSecondsfive = 000000000000000000000000000455;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intoxicated""",
                       // alsoEnglishWord: "also: intoxicated",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtɒksɪkeɪtɪd/""",
+                      americanText: """IpaUS: /ɪnˈtɑːksɪkeɪtɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +994,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مەست، لاکەوتە، کەیل، شاگەشکە، هەژیو، ورووژاو، سەرخۆش
 """),
 // With short examples define "intoxicated", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە لە ژێر کاریگەریی مادەی هۆشبەر یان کحوولیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She was charged with driving while intoxicated.""",
+                      kurdishText: """تاوانبار کرا بە شؤفێری بە سەرخۆشی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) زۆر خرۆشاو بە شتێک، کە نەتوانیت بە ڕوونی بیر بکەیتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Intoxicated by success, she wanted to go further.""",
+                      kurdishText:
+                          """بەوەی مەست بووبوو بە سەرکەوتن، دەیویست زیاتر بچێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -9,7 +9,8 @@ class EnglishEntryintolerable extends StatefulWidget {
   const EnglishEntryintolerable({super.key});
 
   @override
-  State<EnglishEntryintolerable> createState() => _EnglishEntryintolerableState();
+  State<EnglishEntryintolerable> createState() =>
+      _EnglishEntryintolerableState();
 }
 
 class _EnglishEntryintolerableState extends State<EnglishEntryintolerable> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintolerable intolerable
-WORD_WEB intolerable intolerable intolerable
-haʊʊʊʊʊʊʊ4
+- Adjective: intolerable
+1. Incapable of being tolerated or endured (- unbearable, unendurable)
+"an intolerable degree of sentimentality";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intolerable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The heat was intolerable.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Her behaviour has become intolerable.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/eaQfEP45LEs?t=';
+    const double startSecondsend = 000000000000000000000000000303;
+    const String videoIdone = 'https://youtu.be/bhdZmR0CJJo?t=';
+    const double startSecondsone = 000000000000000000000000000361;
+    const String videoIdtwo = 'https://youtu.be/OHOkdEBpwDc?t=';
+    const double startSecondstwo = 000000000000000000000000000665;
+    const String videoIdthree = 'https://youtu.be/0num7Zb4iu4?t=';
+    const double startSecondsthree = 000000000000000000000000000365;
+    const String videoIdfour = 'https://youtu.be/Ku5C9vpaG4k?t=';
+    const double startSecondsfour = 000000000000000000000000000864;
+    const String videoIdfive = 'https://youtu.be/bl9DuMLr9k8?t=';
+    const double startSecondsfive = 000000000000000000000000000198;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intolerable""",
                       // alsoEnglishWord: "also: intolerable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtɒlərəbl/""",
+                      americanText: """IpaUS: /ɪnˈtɑːlərəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەرنەبردوو، خۆنەگرتوو، بەرگەنەگرتوو، تاقەت‌نەهێنەر، لەخۆگرتن‌نەهاتوو، (لێ)هەڵنەکردوو، (لەگەڵی) هەڵناکری، دەرنابری، لە تاقەت‌بەدەر، سەخت، قورس، دژوار، (زۆر) ناخۆش
 """),
 // With short examples define "intolerable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە هێندە خراپ بێت بەرگەی ناگریت؛ تەواو پەسەندنەکراو"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unbearable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The heat was intolerable.""",
+                      kurdishText: """گەرماکە ئێجگار پڕووقێنەر بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1006,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her behaviour has become intolerable.""",
+                      kurdishText: """ڕەفتاری تەواو پەسەندنەکراو بووە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

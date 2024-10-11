@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintranet intranet
-WORD_WEB intranet intranet intranet
-haʊʊʊʊʊʊʊ4
+- Noun: intranet (Derived forms: intranets)
+1. A restricted computer network; a private network created using World Wide Web software
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intranet";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """I'll post the agenda for next week's meeting on the intranet.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/ybNh-K2ZCAA?t=';
+    const double startSecondsend = 000000000000000000000000000622;
+    const String videoIdone = 'https://youtu.be/EkwdBXovh4s?t=';
+    const double startSecondsone = 000000000000000000000000000194;
+    const String videoIdtwo = 'https://youtu.be/2yJqjTiwpxM?t=';
+    const double startSecondstwo = 000000000000000000000000000634;
+    const String videoIdthree = 'https://youtu.be/lK_b-aMLa9g?t=';
+    const double startSecondsthree = 000000000000000000000000000272;
+    const String videoIdfour = 'https://youtu.be/3GYbhatmQ6I?t=';
+    const double startSecondsfour = 00000000000000000000000000061;
+    const String videoIdfive = 'https://youtu.be/VIiRfTX8pFc?t=';
+    const double startSecondsfive = 000000000000000000000000000454;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intranet""",
                       // alsoEnglishWord: "also: intranet",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntrənet/""",
+                      americanText: """IpaUS: /ˈɪntrənet/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +991,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intranet", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) تۆڕێکی کۆمپیوتەری کە تایبەتە بە کۆمپانیایەک، زانکۆیەک، هتد"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I'll post the agenda for next week's meeting on the intranet.""",
+                      kurdishText:
+                          """کارنامەی کۆبوونەوەی هەفتەی داهاتوو لەسەر ئینتەرنێتی ناوەکی پۆست دەکەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

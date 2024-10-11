@@ -9,7 +9,8 @@ class EnglishEntryintoxication extends StatefulWidget {
   const EnglishEntryintoxication({super.key});
 
   @override
-  State<EnglishEntryintoxication> createState() => _EnglishEntryintoxicationState();
+  State<EnglishEntryintoxication> createState() =>
+      _EnglishEntryintoxicationState();
 }
 
 class _EnglishEntryintoxicationState extends State<EnglishEntryintoxication> {
@@ -52,13 +53,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintoxication intoxication
-WORD_WEB intoxication intoxication intoxication
-haʊʊʊʊʊʊʊ4
+- Noun: intoxication (Derived forms: intoxications)
+1. The physiological state produced by a poison or other toxic substance (- poisoning, toxic condition)
+ 
+2. A temporary state resulting from excessive consumption of alcohol (- drunkenness, inebriation, inebriety, tipsiness, insobriety)
+ 
+3. Excitement and elation beyond the bounds of sobriety
+"the intoxication of wealth and power"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intoxication";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +90,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The driver showed no signs of intoxication.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Severe intoxication can lead to death.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""I felt the intoxication of youth.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/JcpboMScfIY?t=';
+    const double startSecondsend = 0000000000000000000000000005190;
+    const String videoIdone = 'https://youtu.be/y4DTW4B3Sjs?t=';
+    const double startSecondsone = 000000000000000000000000000546;
+    const String videoIdtwo = ' https://youtu.be/Lsv8jps7H9k?t=';
+    const double startSecondstwo = 00000000000000000000000000037;
+    const String videoIdthree = 'https://youtu.be/p70E1GxMP3o?t=';
+    const double startSecondsthree = 000000000000000000000000000721;
+    const String videoIdfour = 'https://youtu.be/4DQv80biYbs?t=';
+    const double startSecondsfour = 00000000000000000000000000076;
+    const String videoIdfive = 'https://youtu.be/U8XeKPr2Y9s?t=';
+    const double startSecondsfive = 00000000000000000000000000083;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intoxication""",
                       // alsoEnglishWord: "also: intoxication",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˌtɒksɪˈkeɪʃn/""",
+                      americanText: """IpaUS: /ɪnˌtɑːksɪˈkeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +993,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ژاراوی‌بوون،	مەستی، کەیلی، سەرمەستی، سەرخۆشی، شاگەشکەیی، لەخۆبوونەوە
 """),
 // With short examples define "intoxication", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە کە لە ژێر کاریگەریی مادەی هۆشبەر یان کحوول بیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The driver showed no signs of intoxication.""",
+                      kurdishText:
+                          """شۆفێرەکە هیچ ئاماژەیەکی سەرخۆشی تێدا نەبوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,17 +1011,19 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Severe intoxication can lead to death.""",
+                      kurdishText: """مەستی زۆر دەکرێت ببێتە هۆکاری مەرگ.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی کە زۆر خرۆشاو بیت بە شتێک، کە نەتوانیت بە ڕوونی بیر بکەیتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I felt the intoxication of youth.""",
+                      kurdishText: """هەستم بە سەرمەستیی گەنجی کرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

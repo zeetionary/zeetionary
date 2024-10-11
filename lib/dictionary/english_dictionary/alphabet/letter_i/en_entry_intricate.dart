@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintricate intricate
-WORD_WEB intricate intricate intricate
-haʊʊʊʊʊʊʊ4
+- Adjective: intricate
+1. Having many complexly arranged elements; elaborate
+"intricate lacework"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intricate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,57 +85,63 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The intricate process of creating cartoon animation requires skill and creativity.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Flocks of blackbirds filled the sky, creating intricate patterns as they migrated.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """She admired the intricate details of the cornice in the historic house.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """The building has intricate geometric designs on several of the walls.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""The engraving on the ring was intricate.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts
+        .speak("""She decorated her hands with intricate henna designs.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak(
+        """She admired the intricate details of the cornice in the historic house.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts
+        .speak("""He admired the intricate design of the honeycomb.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -926,21 +930,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/Cln0J87vulU?t=';
+    const double startSecondsend = 000000000000000000000000000608;
+    const String videoIdone = 'https://youtu.be/ewLpXw6uN28?t=';
+    const double startSecondsone = 000000000000000000000000000505;
+    const String videoIdtwo = 'https://youtu.be/TVKNpjnqeg0?t=';
+    const double startSecondstwo = 000000000000000000000000000466;
+    const String videoIdthree = 'https://youtu.be/0zXfDafyyao?t=';
+    const double startSecondsthree = 000000000000000000000000000110;
+    const String videoIdfour = 'https://youtu.be/NUzDLpSkQTg?t=';
+    const double startSecondsfour = 000000000000000000000000000283;
+    const String videoIdfive = 'https://youtu.be/L1kYZHnHS0E?t=';
+    const double startSecondsfive = 000000000000000000000000000321;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intricate""",
                       // alsoEnglishWord: "also: intricate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪntrɪkət/""",
+                      americanText: """IpaUS: /ˈɪntrɪkət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -996,11 +998,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "intricate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ژمارەیەکی زۆر بەشی جیاواز و وردەکاریی بچووکی هەیە کە پێکەوە دەگونجێن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The intricate process of creating cartoon animation requires skill and creativity.""",
+                      kurdishText:
+                          "پڕۆسەی ئاڵۆزی درووستکردنی ئەنیمەیشنی کارتۆنی پێویستی بە شارەزایی و تازەگەرییە.",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1013,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Flocks of blackbirds filled the sky, creating intricate patterns as they migrated.""",
+                      kurdishText:
+                          "دەستە ڕەشیشە ئاسمانیان پڕکرد و شێوەی ئاڵۆزیان درووستکرد کە کۆچیان دەکرد.",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1017,8 +1024,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She admired the intricate details of the cornice in the historic house.""",
+                      kurdishText:
+                          "سەرسام بوو بە وردەکارییە ئاڵۆزەکەی پاسارەی خانووە مێژووییەکە.",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1026,8 +1035,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The building has intricate geometric designs on several of the walls.""",
+                      kurdishText:
+                          "بیناکە ژمارەیەک دیزاینی ئەندازەیی ئاڵۆزی ھەیە لە ھەندێک لاوە.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1035,8 +1046,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The engraving on the ring was intricate.""",
+                      kurdishText: """وێنەی سەر ئەڵقەکە ئاڵۆز بوو.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1044,8 +1056,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She decorated her hands with intricate henna designs.""",
+                      kurdishText:
+                          """دەستەکانی ڕازاندەوە بە دیزاینی ئاڵۆزی خەنە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1053,8 +1067,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She admired the intricate details of the cornice in the historic house.""",
+                      kurdishText:
+                          "سەرسام بوو بە وردەکارییە ئاڵۆزەکەی پاسارەی خانووە مێژووییەکە.",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1062,8 +1078,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He admired the intricate design of the honeycomb.""",
+                      kurdishText:
+                          """سەرسام بوو بە دیزاینی ئاڵۆزی شانە هەنگەکە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),

@@ -9,7 +9,8 @@ class EnglishEntryintolerance extends StatefulWidget {
   const EnglishEntryintolerance({super.key});
 
   @override
-  State<EnglishEntryintolerance> createState() => _EnglishEntryintoleranceState();
+  State<EnglishEntryintolerance> createState() =>
+      _EnglishEntryintoleranceState();
 }
 
 class _EnglishEntryintoleranceState extends State<EnglishEntryintolerance> {
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintolerance intolerance
-WORD_WEB intolerance intolerance intolerance
-haʊʊʊʊʊʊʊ4
+- Noun: intolerance (Derived forms: intolerances)
+1. Impatience with annoyances
+"his intolerance of interruptions"
+ 
+2. Unwillingness to recognize and respect differences in opinions or beliefs
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intolerance";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""We do not have room for hatred, intolerance, and bigotry.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Amy has an intolerance to dairy products.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/bQcgpANAP3Q?t=';
+    const double startSecondsend = 000000000000000000000000000174;
+    const String videoIdone = 'https://youtu.be/4RM2HtvLSLs?t=';
+    const double startSecondsone = 00000000000000000000000000095;
+    const String videoIdtwo = 'https://youtu.be/aidZYUvWfPg?t=';
+    const double startSecondstwo = 00000000000000000000000000029;
+    const String videoIdthree = 'https://youtu.be/cQEZDYFLkj4?t=';
+    const double startSecondsthree = 0000000000000000000000000003503;
+    const String videoIdfour = 'https://youtu.be/QsfdqxqMzNc?t=';
+    const double startSecondsfour = 000000000000000000000000000764;
+    const String videoIdfive = 'https://youtu.be/bqcX2PvmwK0?t=';
+    const double startSecondsfive = 000000000000000000000000000577;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intolerance""",
                       // alsoEnglishWord: "also: intolerance",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtɒlərəns/""",
+                      americanText: """IpaUS: /ɪnˈtɑːlərəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +992,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناسنگ‌فراوانی، ناپشوودرێژی، دەرنەبردن، هەڵنەکردن، بەرگەنەگرتن، تاقەت‌نەهێنان،	ژێربارنەچوون، قایل‌نەبوون،	بیرتەسکی، دەمارگرژی
 """),
 // With short examples define "intolerance", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە بیرۆکە و شێوازی ڕەفتارکردن قبووڵ نەکەیەت کە لە خۆت جیاواز بێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We do not have room for hatred, intolerance, and bigotry.""",
+                      kurdishText:
+                          """هیچ جێگامان نییە بۆ ڕق، بیرتەسکی، و دەمارگرژی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی کە نەتوانیت خواردنی دیاریکراو، یان دەرمانی دیاریکراو بخۆیت بەبێ ئەوەی نەخۆش بکەویت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Amy has an intolerance to dairy products.""",
+                      kurdishText:
+                          """ئەیمی هەستیاری بە بەرهەمە شیرەمەنییەکان هەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryintrepid intrepid
-WORD_WEB intrepid intrepid intrepid
-haʊʊʊʊʊʊʊ4
+- Adjective: intrepid
+1. Invulnerable to fear or intimidation (- audacious, brave, dauntless, fearless, hardy, unfearing)
+"intrepid pioneers";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "intrepid";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Traders and missionaries often proved themselves to be intrepid explorers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/vOxFgZaD0tQ?t=';
+    const double startSecondsend = 00000000000000000000000000040;
+    const String videoIdone = 'https://youtu.be/VPURs2iP9YY?t=';
+    const double startSecondsone = 0000000000000000000000000001077;
+    const String videoIdtwo = 'https://youtu.be/0EPY1CKFecs?t=';
+    const double startSecondstwo = 000000000000000000000000000121;
+    const String videoIdthree = 'https://youtu.be/edbWdVkJUuE?t=';
+    const double startSecondsthree = 000000000000000000000000000653;
+    const String videoIdfour = 'https://youtu.be/SHx4xVhfS3w?t=';
+    const double startSecondsfour = 00000000000000000000000000052;
+    const String videoIdfive = 'https://youtu.be/nlzQU2X9EqA?t=';
+    const double startSecondsfive = 000000000000000000000000000107;
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """intrepid""",
                       // alsoEnglishWord: "also: intrepid",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ɪnˈtrepɪd/""",
+                      americanText: """IpaUS: /ɪnˈtrepɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌باک، نەترس، بەجەرگ، نەبەرد، ئازا، چاونەترس
 """),
 // With short examples define "intrepid", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) زۆر بوێر؛ نەترس لە مەترسی و سەختی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: fearless"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Traders and missionaries often proved themselves to be intrepid explorers.""",
+                      kurdishText:
+                          """بازرگانان و مژدەبەران زۆرجار گەڕیدەی چاونەترس بوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

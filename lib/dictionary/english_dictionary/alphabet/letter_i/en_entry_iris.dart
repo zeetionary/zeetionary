@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryiris extends StatefulWidget {
+  const EnglishEntryiris({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryiris> createState() => _EnglishEntryirisState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryirisState extends State<EnglishEntryiris> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Noun: iris (Derived forms: irises, irides)
+1. Plants with sword-shaped leaves and erect stalks bearing bright-coloured flowers composed of three petals and three drooping sepals (- flag, fleur-de-lis, sword lily)
+ 
+2. Muscular diaphragm that controls the size of the pupil which in turn controls the amount of light that enters the eye; it forms the coloured portion of the eye
+ 
+3. Diaphragm consisting of thin overlapping plates that can be adjusted to change the diameter of a central opening (- iris diaphragm)
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "iris";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +81,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""iris""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The doctor examined my iris for any damage.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She picked a yellow iris from the field.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/7xRit3yRim0?t=';
+    const double startSecondsend = 00000000000000000000000000019;
+    const String videoIdone = 'https://youtu.be/e-or_D-qNqM?t=';
+    const double startSecondsone = 000000000000000000000000000145;
+    const String videoIdtwo = 'https://youtu.be/DghVLzEhnFs?t=';
+    const double startSecondstwo = 00000000000000000000000000065;
+    const String videoIdthree = 'https://youtu.be/zpDuNzO_rwA?t=';
+    const double startSecondsthree = 000000000000000000000000000758;
+    const String videoIdfour = 'https://youtu.be/kd33UVZhnAA?t=';
+    const double startSecondsfour = 000000000000000000000000000145;
+    const String videoIdfive = 'https://youtu.be/7hEPj13PUGc?t=';
+    const double startSecondsfive = 000000000000000000000000000252;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +950,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """iris""",
+                      // alsoEnglishWord: "also: iris",
+                      britshText: """IpaUK: /ˈaɪrɪs/""",
+                      americanText: """IpaUS: /ˈaɪrɪs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,24 +990,29 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: ڕەشێنکە، بیلبیلە، ڕەشێنە
+// """),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو بەشە ڕەنگینەی چاو کە دەوری ڕەشێنەی چاوی داوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The doctor examined my iris for any damage.""",
+                      kurdishText:
+                          """پزیشکەکە ڕەنگینەی چاومی پشکنی بۆ هەر زیانێک.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ڕووەکێک کە گوڵی سپی، مۆر، یان زەردی هەیە لەگەل گەڵای تەنکی درێژ"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She picked a yellow iris from the field.""",
+                      kurdishText: """پزلاقێکی زەردی لە کێڵگەکە لێکردەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2151,4 +2154,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end iris

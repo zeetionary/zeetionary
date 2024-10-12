@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryirrelevance extends StatefulWidget {
+  const EnglishEntryirrelevance({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryirrelevance> createState() =>
+      _EnglishEntryirrelevanceState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryirrelevanceState extends State<EnglishEntryirrelevance> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Noun: irrelevance (Derived forms: irrelevances)
+1. The lack of a relation of something to the matter at hand (- irrelevancy)
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "irrelevance";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +78,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""irrelevance""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The irrelevance of the curriculum to children’s daily life is an issue.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""His idea was rejected as an irrelevance.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/qCbfTN-caFI';
+    const double startSecondsend = 3367;
+    const String videoIdone = 'https://youtu.be/5-QejUTDCWw';
+    const double startSecondsone = 2692;
+    const String videoIdtwo = 'https://youtu.be/EHkFFA5iGlc';
+    const double startSecondstwo = 336;
+    const String videoIdthree = 'https://youtu.be/DcWqzZ3I2cY?t=';
+    const double startSecondsthree = 0000000000000000000000000004891;
+    const String videoIdfour = 'https://youtu.be/sD0B-X9LJjs?t=';
+    const double startSecondsfour = 000000000000000000000000000366;
+    const String videoIdfive = 'https://youtu.be/MJlVAIKb6o8?t=';
+    const double startSecondsfive = 00000000000000000000000000025;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +948,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """irrelevance""",
+                      // alsoEnglishWord: "also: irrelevance",
+                      britshText: """IpaUK: /ɪˈreləvəns/""",
+                      americanText: """IpaUS: /ɪˈreləvəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +989,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناپێوەندی‌داری، پێوەنەبەستراوی، بێ‌پێوەندی، بەرپێوەنەدان، بێجێیی، بێ‌دەخڵی، کار بەوەوەنەبوون
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "irrelevance", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەمی گرنگی بۆ دۆخێک، یان پەیوەندی پێوەی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The irrelevance of the curriculum to children’s daily life is an issue.""",
+                      kurdishText:
+                          """بێ‌پێوەندی پڕۆگرامی خوێندنەکە بە ژیانی منداڵانەوە کێشەیەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شتێک کە گرنگ نییە بۆ دۆخێک یان پەیوەندیی نییە پێوەی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His idea was rejected as an irrelevance.""",
+                      kurdishText: """بیرۆکەی وەک ناگرنگ ڕەتکرایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2151,4 +2153,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end irrelevance

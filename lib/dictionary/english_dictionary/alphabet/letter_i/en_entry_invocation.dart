@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryinvocation extends StatefulWidget {
+  const EnglishEntryinvocation({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryinvocation> createState() => _EnglishEntryinvocationState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryinvocationState extends State<EnglishEntryinvocation> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Noun: invocation (Derived forms: invocations)
+1. A prayer asking God's help as part of a religious service (- supplication)
+ 
+2. An incantation used in conjuring or summoning a devil
+ 
+3. Calling up a spirit or devil (- conjuring, conjuration, conjury)
+ 
+4. The act of appealing for help
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "invocation";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +83,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""invocation""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """As an outspoken atheist, she didn't want to sit through a Christian invocation when she graduated.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/b0KbZl4upQQ?t=';
+    const double startSecondsend = 00000000000000000000000000047;
+    const String videoIdone = 'https://youtu.be/JUnWk4s4_js?t=';
+    const double startSecondsone = 000000000000000000000000000187;
+    const String videoIdtwo = 'https://youtu.be/P43wVDiZs8k?t=';
+    const double startSecondstwo = 000000000000000000000000000824;
+    const String videoIdthree = 'https://youtu.be/1X_KdkoGxSs?t=';
+    const double startSecondsthree = 00000000000000000000000000013399;
+    const String videoIdfour = 'https://youtu.be/XJ0SMDQZrCQ?t=';
+    const double startSecondsfour = 0000000000000000000000000003683;
+    const String videoIdfive = 'https://youtu.be/TDKfqpnFoeQ?t=';
+    const double startSecondsfive = 000000000000000000000000000701;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +953,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """invocation""",
+                      // alsoEnglishWord: "also: invocation",
+                      britshText: """IpaUK: /ˌɪnvəˈkeɪʃn/""",
+                      americanText: """IpaUS: /ˌɪnvəˈkeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +994,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داوای یارمەتی، بەزەیی‌پیاهاتن، داوێن‌گرتن، دەسەوداوێن، داوێن‌گیری، پاڕانەوە، تکاکردن، کڕووزانەوە، پەنابردنەبەر، هانابردن،	دۆعا، نزا،	وێرد، دێوبەند، نووشتە (خوێندنەوە)،	بانگ‌کردن، لێ‌گێڕانەوە
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "invocation", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی داوای یارمەتی لە خودا یان کەسێکی دەسەڵاتدار بکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """As an outspoken atheist, she didn't want to sit through a Christian invocation when she graduated.""",
+                      kurdishText:
+                          """وەک بێ‌دینێک، نەیویست دابنیشێت لە کاتی پاڕانەوەی مەسیحییان لەکاتی تەواوکردنی خوێندن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2151,4 +2155,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end invocation

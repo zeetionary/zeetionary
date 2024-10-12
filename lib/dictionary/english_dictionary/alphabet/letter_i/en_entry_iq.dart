@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryiq extends StatefulWidget {
+  const EnglishEntryiq({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryiq> createState() => _EnglishEntryiqState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryiqState extends State<EnglishEntryiq> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Noun: I.Q.
+1. A measure of a person's intelligence as indicated by an intelligence test; the ratio of a person's mental age to their chronological age (multiplied by 100) (- intelligence quotient, IQ)
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "IQ";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +77,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""IQ""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Children with very low/high IQs often have problems at school.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/pTysrwci0pU?t=';
+    const double startSecondsend = 0000000000000000000000000001270;
+    const String videoIdone = 'https://youtu.be/bGqvimnOTeg?t=';
+    const double startSecondsone = 00000000000000000000000000017;
+    const String videoIdtwo = 'https://youtu.be/FkKPsLxgpuY';
+    const double startSecondstwo = 0;
+    const String videoIdthree = 'https://youtu.be/Y5F_ha7d-PI?t=';
+    const double startSecondsthree = 000000000000000000000000000318;
+    const String videoIdfour = 'https://youtu.be/YCnFYvL17v4?t=';
+    const double startSecondsfour = 000000000000000000000000000743;
+    const String videoIdfive = 'https://youtu.be/L2gT8fbEq54?t=';
+    const double startSecondsfive = 000000000000000000000000000107;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +947,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """IQ""",
+                      // alsoEnglishWord: "also: IQ",
+                      britshText: """IpaUK: /ˌaɪ ˈkjuː/""",
+                      americanText: """IpaUS: /ˌaɪ ˈkjuː/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +987,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
+// With short examples define "IQ", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پێوانی زیرەکیی کەسێک بە سەیرکردنی ئەنجام وەڵامدانەوەی ژمارەیەک پرسیاری تایبەت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Children with very low/high IQs often have problems at school.""",
+                      kurdishText:
+                          """منداڵان بە ئای‌کیوی زۆر نزم/بەرز زۆرجار کێشەیان هەیە لە قوتابخانە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2151,4 +2149,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end IQ

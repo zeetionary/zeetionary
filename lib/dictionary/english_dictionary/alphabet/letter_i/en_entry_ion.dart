@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryion extends StatefulWidget {
+  const EnglishEntryion({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryion> createState() => _EnglishEntryionState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryionState extends State<EnglishEntryion> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Noun: ion (Derived forms: ions)
+1. A particle that is electrically charged (positive or negative); an atom or molecule or group that has lost or gained one or more electrons
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "ion";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +77,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""ion""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Water can break into hydrogen and hydroxide ions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/oI_X2cMHNe0?t=';
+    const double startSecondsend = 000000000000000000000000000188;
+    const String videoIdone = 'https://youtu.be/hUBsxCcJeUc?t=';
+    const double startSecondsone = 000000000000000000000000000417;
+    const String videoIdtwo = 'https://youtu.be/JxGP9cYbwdk?t=';
+    const double startSecondstwo = 00000000000000000000000000070;
+    const String videoIdthree = 'https://youtu.be/4-1psMHSpKs?t=';
+    const double startSecondsthree = 000000000000000000000000000308;
+    const String videoIdfour = 'https://youtu.be/TVrlbMrEcCY?t=';
+    const double startSecondsfour = 0000000000000000000000000006;
+    const String videoIdfive = 'https://youtu.be/G5McJw4KkG8?t=';
+    const double startSecondsfive = 00000000000000000000000000018;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +947,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """ion""",
+                      // alsoEnglishWord: "also: ion",
+                      britshText: """IpaUK: /ˈaɪən/, /ˈaɪɒn/""",
+                      americanText: """IpaUS: /ˈaɪən/, /ˈaɪɑːn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +987,17 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەتۆم یان تەنۆلکەیەکی بارگەی کارەبایی پۆزەتیڤ یان نێگەتیڤ کە ڕوودەدات بەهۆی لەدەستدان یان بەدەستهێنانی یەک ئەلیکترۆن یان زیاتر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Water can break into hydrogen and hydroxide ions.""",
+                      kurdishText:
+                          """ئاو دەکرێت دابەش ببێت بۆ ئایۆنەکانی هایدرۆجین و هایدرۆکساید.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2151,4 +2148,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end ion

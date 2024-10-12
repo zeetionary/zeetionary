@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryirregular extends StatefulWidget {
+  const EnglishEntryirregular({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryirregular> createState() => _EnglishEntryirregularState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryirregularState extends State<EnglishEntryirregular> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,41 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: irregular
+1. Not occurring at a regular rate or fixed intervals (- unpredictable)
+"an irregular heartbeat";
+ 
+2. Failing to meet a standard of manufacture due to an imperfection
+"an irregular pair of jeans"
+ 
+3. Deviating from normal expectations; somewhat odd, strange, or abnormal (- atypical)
+"highly irregular behaviour";
+ 
+4. Lacking continuity or regularity (- temporary)
+"an irregular worker";
+ 
+5. (of a surface or shape); not level or flat or symmetrical
+"walking was difficult on the irregular cobblestoned surface"
+ 
+6. Independent in behaviour or thought (- maverick, unorthodox)
+"she led a somewhat irregular private life";
+ 
+7. Contrary to rule or accepted order or general practice
+"irregular hiring practices"
+ 
+8. (used of the military) not belonging to or engaged in by regular army forces
+"irregular troops"; "irregular warfare"
+ 
+9. (of solids) not having clear dimensions that can be measured; volume must be determined with the principle of liquid displacement
 
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Noun: irregular (Derived forms: irregulars)
+1. A member of an irregular armed force that fights a stronger force by sabotage and harassment (- guerrilla, guerilla, insurgent)
+ 
+2. Merchandise that has imperfections; usually sold at a reduced price without the brand name (- second)
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "irregular";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,36 +106,38 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""irregular""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The cells are slightly irregular in shape.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He visited his parents at irregular intervals.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """It is highly irregular for an elected representative to hold such a post.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """That is the pattern for most verbs, but some verbs are irregular and behave differently.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -926,21 +954,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/1KgSp94nCZw?t=';
+    const double startSecondsend = 00000000000000000000000000067;
+    const String videoIdone = 'https://youtu.be/XeHl5Y7m1xM?t=';
+    const double startSecondsone = 000000000000000000000000000428;
+    const String videoIdtwo = 'https://youtu.be/DRZ3tWu-DzY?t=';
+    const double startSecondstwo = 00000000000000000000000000028;
+    const String videoIdthree = 'https://youtu.be/d6iQrh2TK98?t=';
+    const double startSecondsthree = 000000000000000000000000000616;
+    const String videoIdfour = 'https://youtu.be/3i1lNJPY-4Q?t=';
+    const double startSecondsfour = 000000000000000000000000000252;
+    const String videoIdfive = 'https://youtu.be/wPclF09XnDk?t=';
+    const double startSecondsfive = 000000000000000000000000000325;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +978,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """irregular""",
+                      // alsoEnglishWord: "also: irregular",
+                      britshText: """IpaUK: /ɪˈreɡjələ(r)/""",
+                      americanText: """IpaUS: /ɪˈreɡjələr/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,41 +1019,56 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناڕێک، ناڕێک‌وپێک، کۆڵ، شێواو، شپرزە، نائاسایی، ناعەدەتی
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "irregular", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بە شێوەیەکی ڕاست ڕێکنەخراوە؛ کە شێوەیەکی ڕێک و سافی نییە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: uneven"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The cells are slightly irregular in shape.""",
+                      kurdishText: """خانەکان کەمێک ناڕێکن لە شێوەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە لەو کاتانەدا ڕوونادات کە هەمان ماوە لە نێوانیاندا هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He visited his parents at irregular intervals.""",
+                      kurdishText:
+                          """لە ماوە ماوەی ناڕێکدا سەردانی دایبابیی دەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە بە پێی یاسا پێشینەییەکان نییە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: abnormal"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is highly irregular for an elected representative to hold such a post.""",
+                      kurdishText:
+                          """تا ڕادەیەکی زۆر نامۆیە بۆ نوێنەرێکی هەڵبژێردراو پێگەیەکی وەهای هەبێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (ھاوەڵناو) کە بە شێوەی ئاسایی درووست نەبووە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """That is the pattern for most verbs, but some verbs are irregular and behave differently.""",
+                      kurdishText:
+                          """ئەمە شێوەکەیە بۆ زۆرینەی کردارەکان، بەڵام هەندێک کردار ناڕێکن و بە جیاوازی ڕەفتار دەکەن.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -2151,4 +2192,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end irregular

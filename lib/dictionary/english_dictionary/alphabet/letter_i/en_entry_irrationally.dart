@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryirrationally extends StatefulWidget {
+  const EnglishEntryirrationally({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryirrationally> createState() =>
+      _EnglishEntryirrationallyState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryirrationallyState extends State<EnglishEntryirrationally> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adverb: irrationally
+1. In an irrational manner
+"they acted irrationally"
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "irrationally";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +79,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""irrationally""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """People often behave irrationally when they are under stress.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/BPGgyputhpA?t=';
+    const double startSecondsend = 0000000000000000000000000001247;
+    const String videoIdone = 'https://youtu.be/HDntl7yzzVI?t=';
+    const double startSecondsone = 000000000000000000000000000722;
+    const String videoIdtwo = 'https://youtu.be/3mugPH2_qRo?t=';
+    const double startSecondstwo = 0000000000000000000000000002537;
+    const String videoIdthree = 'https://youtu.be/GTo6yvJ5SCM?t=';
+    const double startSecondsthree = 000000000000000000000000000121;
+    const String videoIdfour = 'https://youtu.be/8vo8_NOHvSo?t=';
+    const double startSecondsfour = 000000000000000000000000000400;
+    const String videoIdfive = 'https://youtu.be/SDkAGkd4NLc?t=';
+    const double startSecondsfive = 0000000000000000000000000001032;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +949,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """irrationally""",
+                      // alsoEnglishWord: "also: irrationally",
+                      britshText: """IpaUK: /ɪˈræʃnəli/""",
+                      americanText: """IpaUS: /ɪˈræʃnəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نالۆژیکانە، بە شێوەیەکی نالۆژیکی، ناژیرانە
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "irrationally", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە پشتی بە بیرکردنەوەی ڕوون و لۆژیکیانە نەبەستووە یان بەکاریان ناهێنێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unreasonably"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """People often behave irrationally when they are under stress.""",
+                      kurdishText:
+                          """خەڵکی زۆرجار نا عاقڵانی بیردەکەنەوە کە لە ژێر فشارن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2151,4 +2152,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end irrationally

@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryinvoluntary extends StatefulWidget {
+  const EnglishEntryinvoluntary({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryinvoluntary> createState() =>
+      _EnglishEntryinvoluntaryState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryinvoluntaryState extends State<EnglishEntryinvoluntary> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +53,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adjective: involuntary
+1. Not subject to the control of the will (- nonvoluntary, unvoluntary)
+"involuntary servitude"; "an involuntary shudder"; "It (becoming a hero) was involuntary. They sank my boat"; "involuntary manslaughter";
+ 
+2. (physiology) controlled by the autonomic nervous system; without conscious control
+"involuntary muscles"; "gave an involuntary start"
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "involuntary";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +82,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""involuntary""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """A sharp tap on the knee usually causes an involuntary movement of the lower leg.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The company announced involuntary redundancies.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/rtAAjKBH9GU?t=';
+    const double startSecondsend = 000000000000000000000000000977;
+    const String videoIdone = 'https://youtu.be/PkUg89kLLBE?t=';
+    const double startSecondsone = 0000000000000000000000000001708;
+    const String videoIdtwo = 'https://youtu.be/xfLN3618gE8?t=';
+    const double startSecondstwo = 000000000000000000000000000308;
+    const String videoIdthree = 'https://youtu.be/05gCLHlpzTU?t=';
+    const double startSecondsthree = 0000000000000000000000000001540;
+    const String videoIdfour = 'https://youtu.be/J0mZYeb4C8k?t=';
+    const double startSecondsfour = 0000000000000000000000000001317;
+    const String videoIdfive = 'https://youtu.be/-oHGafLPvEE?t=';
+    const double startSecondsfive = 0000000000000000000000000002523;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +953,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """involuntary""",
+                      // alsoEnglishWord: "also: involuntary",
+                      britshText: """IpaUK: /ɪnˈvɒləntri/""",
+                      americanText: """IpaUS: /ɪnˈvɑːlənteri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +994,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خۆنەویست، خۆنەویستە، خۆنەخواستە، بەدەس‌خۆنەبوو،	زۆرەملی، ناچاری، تەنگەتاوی
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "involuntary", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) جووڵەیەک کە لەناکاوە و مەبەستت نییە ڕووبدات یان ناتوانیت کۆنترۆڵی بکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A sharp tap on the knee usually causes an involuntary movement of the lower leg.""",
+                      kurdishText:
+                          """کێشانێکی توند بە ئەژنۆدا زۆرجار دەبێتە هۆکاری جووڵەیەکی خۆنەویست لە بەشی خوارەوەی لاق.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە ڕوودەدات بەبێ ئەوەی ئەو کەسەی کە بەژدارە بیەوێت ڕووبدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The company announced involuntary redundancies.""",
+                      kurdishText:
+                          """کۆمپانیاکە کەمکردنەوەی ناچاریی ڕاگەیاند.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2151,4 +2159,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end involuntary

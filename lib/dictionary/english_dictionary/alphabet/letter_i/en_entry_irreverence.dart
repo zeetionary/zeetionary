@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryirreverence extends StatefulWidget {
+  const EnglishEntryirreverence({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryirreverence> createState() =>
+      _EnglishEntryirreverenceState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryirreverenceState extends State<EnglishEntryirreverence> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Noun: irreverence (Derived forms: irreverences)
+1. An irreverent mental attitude
+ 
+2. A disrespectful act (- violation)
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "irreverence";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +80,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""irreverence""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The book is written with good humour and irreverence.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She has an irreverence that is refreshing.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'kbZHQ2ZF6jE';
+    const double startSecondsend = 301;
+    const String videoIdone = '72AAlCa1Nko';
+    const double startSecondsone = 817;
+    const String videoIdtwo = 'eWHN7pBRzIo';
+    const double startSecondstwo = 23;
+    const String videoIdthree = 'dkwqfjEanqM';
+    const double startSecondsthree = 231;
+    const String videoIdfour = 'aStcsitN97Q';
+    const double startSecondsfour = 766;
+    const String videoIdfive = 'WefqSN8dqOU';
+    const double startSecondsfive = 111;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +950,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """irreverence""",
+                      // alsoEnglishWord: "also: irreverence",
+                      britshText: """IpaUK: /ɪˈrevərəns/""",
+                      americanText: """IpaUS: /ɪˈrevərəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,26 +991,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌ڕێزی(کردن)، بێ‌حورمەتی، حورمەت‌شکاندن
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "irreverence", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەمی ڕێز بۆ ک/شت کە کەسانی دیکە ڕێزی دەگرن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The book is written with good humour and irreverence.""",
+                      kurdishText:
+                          """کتێبەکە بە گاڵتەئامێزی باش و بێ‌ڕێزی نووسراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
-                    ),
+                    // add_more_sentences
+                    // const DividerSentences(),
+                    // SentencesRow(
+                    //   englishText: """She has an irreverence that is refreshing.""",
+                    //   kurdishText: """بێ‌ڕێزییەکی هەیە.""",
+                    //   englishNote: """This means she shows a playful disrespect for serious matters, which feels new and pleasantly surprising, breaking away from traditional attitudes.""",
+                    //   onPressedBritish: () => speaksentence2("en-GB"),
+                    //   onPressedAmerican: () => speaksentence2("en-US"),
+                    // ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
@@ -2151,4 +2152,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end irreverence

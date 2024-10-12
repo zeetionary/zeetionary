@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryirreparable extends StatefulWidget {
+  const EnglishEntryirreparable({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryirreparable> createState() =>
+      _EnglishEntryirreparableState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryirreparableState extends State<EnglishEntryirreparable> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adjective: irreparable
+1. Impossible to repair, rectify, or amend
+"irreparable harm"; "an irreparable mistake"; "irreparable damages"
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "irreparable";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +79,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""irreparable""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Her death is an irreparable loss.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/gyerAQT4C-U?t=';
+    const double startSecondsend = 00000000000000000000000000047;
+    const String videoIdone = 'https://youtu.be/O2h2RzkWY3c?t=';
+    const double startSecondsone = 000000000000000000000000000106;
+    const String videoIdtwo = 'https://youtu.be/OzUVy-TO6KQ?t=';
+    const double startSecondstwo = 000000000000000000000000000906;
+    const String videoIdthree = 'https://youtu.be/XXVXmR6j3Kc?t=';
+    const double startSecondsthree = 0000000000000000000000000003188;
+    const String videoIdfour = 'https://youtu.be/HrpiX8D_1Qo?t=';
+    const double startSecondsfour = 000000000000000000000000000756;
+    const String videoIdfive = 'https://youtu.be/HrpiX8D_1Qo?t=';
+    const double startSecondsfive = 000000000000000000000000000757;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +948,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """irreparable""",
+                      // alsoEnglishWord: "also: irreparable",
+                      britshText: """IpaUK: /ɪˈrepərəbl/""",
+                      americanText: """IpaUS: /ɪˈrepərəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +989,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: قەرەبوونەکراو، لەقەرەبوونەهاتوو، چاک‌نەکراو، چاک نابێتەوە
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "irreparable", please follow LX instructions
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) زۆر خراپ کە چاک بکرێتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her death is an irreparable loss.""",
+                      kurdishText: """مردنی لەدەستچوونێکی ساڕێژنەبووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2151,4 +2147,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end irreparable

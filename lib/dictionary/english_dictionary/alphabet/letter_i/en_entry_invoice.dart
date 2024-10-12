@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryinvoice extends StatefulWidget {
+  const EnglishEntryinvoice({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryinvoice> createState() => _EnglishEntryinvoiceState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryinvoiceState extends State<EnglishEntryinvoice> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: invoice (Derived forms: invoices)
+1. An itemized statement of money owed for goods shipped or services rendered (- bill, account)
+"he paid his invoice and left";
 
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Verb: invoice (Derived forms: invoices, invoiced, invoicing)
+1. Send a bill to
+"She invoiced the company for her expenses"
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "invoice";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +82,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""invoice""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Payment will be made within 28 days after receipt of the invoice.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Please pay the final invoice within two weeks.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +929,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/SUc87t6yIF8?t=';
+    const double startSecondsend = 0000000000000000000000000003468;
+    const String videoIdone = 'https://youtu.be/SrDEtSlqJC4?t=';
+    const double startSecondsone = 000000000000000000000000000850;
+    const String videoIdtwo = 'https://youtu.be/RjAx-Ei_b78?t=';
+    const double startSecondstwo = 000000000000000000000000000514;
+    const String videoIdthree = 'https://youtu.be/wVyu7NB7W6Y?t=';
+    const double startSecondsthree = 000000000000000000000000000699;
+    const String videoIdfour = 'https://youtu.be/u9zaDWOKLXU?t=';
+    const double startSecondsfour = 000000000000000000000000000174;
+    const String videoIdfive = 'https://youtu.be/kPshZQQuslg?t=';
+    const double startSecondsfive = 000000000000000000000000000521;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +953,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """invoice""",
+                      // alsoEnglishWord: "also: invoice",
+                      britshText: """IpaUK: /ˈɪnvɔɪs/""",
+                      americanText: """IpaUS: /ˈɪnvɔɪs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +993,19 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
+// With short examples define "invoice", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) لیستێکی ئەو کەلووپەلانەی فرۆشراون، ئەو کارانەی کراون، هتد و ئەوە پیشان دەدات کە دەبێت چەند پارە بدەیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: bill"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Payment will be made within 28 days after receipt of the invoice.""",
+                      kurdishText:
+                          """پارەدان ئەنجام دەدرێت لە ماوەی ٢٨ ڕۆژ لە دوای وەرگرتنی پسوولەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1013,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Please pay the final invoice within two weeks.""",
+                      kurdishText:
+                          """تکایە پارەی پسوولەی کۆتایی بدە لە ماوەی دوو هەفتەدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2151,4 +2158,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end invoice

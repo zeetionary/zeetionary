@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryinvigilate extends StatefulWidget {
+  const EnglishEntryinvigilate({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryinvigilate> createState() => _EnglishEntryinvigilateState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryinvigilateState extends State<EnglishEntryinvigilate> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Verb: invigilate  in'vi-ju,leyt (Derived forms: invigilated, invigilates, invigilating)
+1. Usage: Brit
+Watch over (students taking an exam, to prevent cheating) (- proctor [N. Amer])
+"teachers have to invigilate exams";
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "invigilate";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +79,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""invigilate""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Miss Jekyll will be invigilating (your chemistry exam) today.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -928,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   Widget build(BuildContext context) {
 
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/LrjZxpk3OwI?t=';
+    const double startSecondsend = 00000000000000000000000000036;
+    const String videoIdone = 'https://youtu.be/TtkBgdnWiEw?t=';
+    const double startSecondsone = 000000000000000000000000000720;
+    const String videoIdtwo = 'https://youtu.be/yag45rjle40?t=';
+    const double startSecondstwo = 000000000000000000000000000387;
+    const String videoIdthree = 'https://youtu.be/srkoo8JZG3A?t=';
+    const double startSecondsthree = 0000000000000000000000000001158;
+    const String videoIdfour = 'https://youtu.be/9vyQeSHcpsg?t=';
+    const double startSecondsfour = 000000000000000000000000000524;
+    const String videoIdfive = 'https://youtu.be/iDvfbiKCzY8?t=';
+    const double startSecondsfive = 0000000000000000000000000001189;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +949,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """invigilate""",
+                      // alsoEnglishWord: "also: invigilate",
+                      britshText: """IpaUK: /ɪnˈvɪdʒɪleɪt/""",
+                      americanText: """IpaUS: /ɪnˈvɪdʒɪleɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +989,15 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: 
+// """),
+// With short examples define "invigilate", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (کردار) چاودێری خەڵکی لە کاتی تاقیکردنەوە بۆ ئەوەی دڵنیابیتەوە کە هەموو ئەو شتانەیان هەیە کە پێویستییانە، پابەند دەبن بە یاساکان، هتد"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: proctor"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Miss Jekyll will be invigilating (your chemistry exam) today.""",
+                      kurdishText: """خاتوو جێکیڵ ئەمڕۆ چاودێریی تاقیکردنەوەی کیمیاتان دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2151,4 +2148,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end invigilate

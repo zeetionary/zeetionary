@@ -46,6 +46,19 @@ import 'package:zeetionary/constants.dart';
 
 // More sentences is NOT done
 
+
+// replace videos
+
+// all together
+
+// const String videoId(\w+) = 'https:\/\/youtu\.be\/([^?]+)\?t=(\d+)';
+// const String videoId$1 = '$2'; const double startSeconds$1 = $3;
+
+// This is better and
+
+// const String videoId(\w+) = 'https:\/\/youtu\.be\/([^?]+)\?t=(\d+)';\s*const double startSeconds\1 = 0+;
+// const String videoId$1 = '$2';\n    const double startSeconds$1 = $3;
+
 enum TtsState { playing } // final EnglishMeaningConst
 
 class EnglishEntryaback extends StatefulWidget {

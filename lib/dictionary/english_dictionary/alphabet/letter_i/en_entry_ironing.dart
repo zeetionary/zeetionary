@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryironing extends StatefulWidget {
+  const EnglishEntryironing({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryironing> createState() => _EnglishEntryironingState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryironingState extends State<EnglishEntryironing> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Noun: ironing (Derived forms: ironings)
+1. Garments (clothes or linens) that are to be (or have been) ironed
+"there was a basketful of ironing to do"
+ 
+2. The work of using heat to smooth washed clothes in order to remove any wrinkles
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "ironing";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +80,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""ironing""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I must do some/the ironing tonight.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """There is a huge pile of ironing to be done, but I just can't face it tonight.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/UhofrrMdLns?t=';
+    const double startSecondsend = 000000000000000000000000000335;
+    const String videoIdone = 'https://youtu.be/okeeKqcmQkw?t=';
+    const double startSecondsone = 000000000000000000000000000222;
+    const String videoIdtwo = 'https://youtu.be/BYl8SUYHNnM?t=';
+    const double startSecondstwo = 000000000000000000000000000480;
+    const String videoIdthree = 'https://youtu.be/Pu-R4ASAD2I?t=';
+    const double startSecondsthree = 000000000000000000000000000143;
+    const String videoIdfour = 'https://youtu.be/4G3ntNytm9U?t=';
+    const double startSecondsfour = 000000000000000000000000000122;
+    const String videoIdfive = 'https://youtu.be/EnxdmWiEj3Y?t=';
+    const double startSecondsfive = 000000000000000000000000000392;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +950,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """ironing""",
+                      // alsoEnglishWord: "also: ironing",
+                      britshText: """IpaUK: /ˈaɪənɪŋ/""",
+                      americanText: """IpaUS: /ˈaɪərnɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,24 +990,27 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
+// With short examples define "ironing", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) ئوتووکردن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I must do some/the ironing tonight.""",
+                      kurdishText: """دەبێت ئەمشەو هەندێک ئوتووکردن بکەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەو جلانەی کە دەبێت ئوتوو بکرێن یان تازە ئوتوو کراون"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There is a huge pile of ironing to be done, but I just can't face it tonight.""",
+                      kurdishText:
+                          """چینێکی گەورە لە جل بۆ ئووتوو بکرێت، بەڵام ئەمشەو ناتوانم بیکەم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2151,4 +2152,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end ironing

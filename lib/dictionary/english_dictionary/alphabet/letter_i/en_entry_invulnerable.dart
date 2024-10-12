@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryinvulnerable extends StatefulWidget {
+  const EnglishEntryinvulnerable({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryinvulnerable> createState() =>
+      _EnglishEntryinvulnerableState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryinvulnerableState extends State<EnglishEntryinvulnerable> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adjective: invulnerable
+1. Immune to attack; impregnable
+"gunners raked the beach from invulnerable positions on the cliffs"
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "invulnerable";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +79,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""invulnerable""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Parents may seem invulnerable to their children.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The submarine is invulnerable to attack while at sea.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +926,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/8A3jiM2FNR8?t=';
+    const double startSecondsend = 000000000000000000000000000296;
+    const String videoIdone = 'https://youtu.be/pLwHTqU2r_Y?t=';
+    const double startSecondsone = 0000000000000000000000000001543;
+    const String videoIdtwo = 'https://youtu.be/lBYxXSUDV8o?t=';
+    const double startSecondstwo = 000000000000000000000000000669;
+    const String videoIdthree = 'https://youtu.be/4mjvZrLnlCg?t=';
+    const double startSecondsthree = 000000000000000000000000000259;
+    const String videoIdfour = 'https://youtu.be/63yNAJSeVEE?t=';
+    const double startSecondsfour = 000000000000000000000000000209;
+    const String videoIdfive = 'https://youtu.be/cfDDFbX46i8?t=';
+    const double startSecondsfive = 000000000000000000000000000773;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +950,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """invulnerable""",
+                      // alsoEnglishWord: "also: invulnerable",
+                      britshText: """IpaUK: /ɪnˈvʌlnərəbl/""",
+                      americanText: """IpaUS: /ɪnˈvʌlnərəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بریندارنەکراو، لەبریندارنەهاتوو، لێ‌نەدراو، زەربەلێ‌نەکەوتوو، هیچ‌لێ‌نەهاتوو، زەفەرپێ‌نەبراو، زەربەلێ‌نەدراو، پارێزراو، لەشکان‌نەهاتوو، ناشکێ، دەس‌بۆنەبراو
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "invulnerable", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ناکرێت زیانی پێ بگەیەندرێت یان ببەزێندرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Parents may seem invulnerable to their children.""",
+                      kurdishText:
+                          """دایبابان ڕەنگە نەبەزیو بن لە چاوی منداڵەکانیان .""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The submarine is invulnerable to attack while at sea.""",
+                      kurdishText:
+                          """ژێردەریاکە پارێزراوە لە هێرش لە کاتێکدا لە دەریادایە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2151,4 +2154,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end invulnerable

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryirksome extends StatefulWidget {
+  const EnglishEntryirksome({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryirksome> createState() => _EnglishEntryirksomeState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryirksomeState extends State<EnglishEntryirksome> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adjective: irksome
+1. Causing irritation or annoyance (- annoying, bothersome, galling, irritating, nettlesome, pesky [informal], pestering, pestiferous, plaguy, plaguey, teasing, vexatious, vexing, niggly, dratted [informal])
+ 
+2. So lacking in interest as to cause mental weariness (- boring, deadening, dull, ho-hum [informal], slow, tedious, tiresome, wearisome, unamusing, deadly [informal], draggy [informal], mind-numbing)
+"what an irksome task the writing of long letters is";
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "irksome";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +80,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""irksome""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I found the restrictions irksome.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +925,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/rqwX-4VLkuw?t=';
+    const double startSecondsend = 000000000000000000000000000385;
+    const String videoIdone = 'https://youtu.be/BbCJ1DiJ_Cs?t=';
+    const double startSecondsone = 000000000000000000000000000228;
+    const String videoIdtwo = 'https://youtu.be/IsdX3-MHrUM?t=';
+    const double startSecondstwo = 000000000000000000000000000531;
+    const String videoIdthree = 'https://youtu.be/N0U-XEmKPKg?t=';
+    const double startSecondsthree = 000000000000000000000000000960;
+    const String videoIdfour = 'https://youtu.be/OjIEHMfO-t4?t=';
+    const double startSecondsfour = 000000000000000000000000000142;
+    const String videoIdfive = 'https://youtu.be/k7J3AwgQCLU?t=';
+    const double startSecondsfive = 0000000000000000000000000001445;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +949,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """irksome""",
+                      // alsoEnglishWord: "also: irksome",
+                      britshText: """IpaUK: /ˈɜːksəm/""",
+                      americanText: """IpaUS: /ˈɜːrksəm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +990,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناخۆش، ماندووکەر، وەڕەس‌کەر
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "irksome", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) بێزارکەر"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: tiresome"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I found the restrictions irksome.""",
+                      kurdishText: """سنووردارکردنەکانم بە بێزارکەر دەبینی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2151,4 +2148,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end irksome

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryislam extends StatefulWidget {
+  const EnglishEntryislam({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryislam> createState() => _EnglishEntryislamState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryislamState extends State<EnglishEntryislam> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +53,14 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
+EnglishEntryislam Islam
+WORD_WEB Islam Islam Islam
 haʊʊʊʊʊʊʊ4
 """,
   );
 // 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "Islam";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,7 +80,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""Islam""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -926,7 +926,6 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
     const String videoIdend = '';
     const double startSecondsend = 000000000000000000000000000;
@@ -952,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
+                      word: """Islam""",
+                      // alsoEnglishWord: "also: Islam",
                       britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
                       americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
@@ -992,10 +991,10 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "dopsum1", please follow LX instructions
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
+// With short examples define "Islam", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555
@@ -2151,4 +2150,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end Islam

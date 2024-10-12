@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryirregularity extends StatefulWidget {
+  const EnglishEntryirregularity({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryirregularity> createState() =>
+      _EnglishEntryirregularityState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryirregularityState extends State<EnglishEntryirregularity> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +53,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Noun: irregularity (Derived forms: irregularities)
+1. Behaviour that breaches the rule, etiquette, custom or morality (- abnormality)
+ 
+2. Not characterized by a fixed principle or rate; at irregular intervals (- unregularity)
+ 
+3. An irregular asymmetry in shape; an irregular spatial pattern (- geometrical irregularity)
+ 
+4. Irregular and infrequent or difficult evacuation of the bowels; can be a symptom of intestinal obstruction or diverticulitis (- constipation)
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "irregularity";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,29 +84,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""irregularity""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Irregularities occur when there is no central control.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The doctor detected a slight irregularity in his heartbeat.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The paint will cover any irregularity in the surface of the walls.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,21 +932,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/eq3zolkk-DU?t=';
+    const double startSecondsend = 00000000000000000000000000058;
+    const String videoIdone = 'https://youtu.be/M6XiFKB7j0w?t=';
+    const double startSecondsone = 000000000000000000000000000551;
+    const String videoIdtwo = 'https://youtu.be/NrFlhSNdDDk?t=';
+    const double startSecondstwo = 000000000000000000000000000342;
+    const String videoIdthree = 'https://youtu.be/TcSpBAZvMhI?t=';
+    const double startSecondsthree = 000000000000000000000000000971;
+    const String videoIdfour = 'https://youtu.be/CDKASJDakiA?t=';
+    const double startSecondsfour = 0000000000000000000000000002018;
+    const String videoIdfive = 'https://youtu.be/kw-48p178CY?t=';
+    const double startSecondsfive = 000000000000000000000000000138;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +956,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """irregularity""",
+                      // alsoEnglishWord: "also: irregularity",
+                      britshText: """IpaUK: /ɪˌreɡjəˈlærəti/""",
+                      americanText: """IpaUS: /ɪˌreɡjəˈlærəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,32 +997,43 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ناڕێکی، نارێک‌وپێکی، شێواوی، شپرزەیی، ناتەختی، ناگۆڕایی، شتی ناڕێک
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "irregularity", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) چالاکییەک یان کارێک کە بە پێی یاسا باوەکان نییە، یان ئاسایی نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Irregularities occur when there is no central control.""",
+                      kurdishText:
+                          """ناڕێکی ڕوودەدات کە هیچ کۆنترۆڵێکی ناوەندی نییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شتێک کە لە ماوە ماوەی ڕێکدا ڕوونادات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The doctor detected a slight irregularity in his heartbeat.""",
+                      kurdishText:
+                          """پزیشکەکە تێبینیی ناڕێکییەکی کەمی کرد لە لێدانی دڵیدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) شتێک کە لووس یان ڕێک نییە لە شێوەدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The paint will cover any irregularity in the surface of the walls.""",
+                      kurdishText:
+                          """بۆیەکە هەر ناڕێکییەک لە ڕووی دیوارەکان دادەپۆشێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2151,4 +2166,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end irregularity

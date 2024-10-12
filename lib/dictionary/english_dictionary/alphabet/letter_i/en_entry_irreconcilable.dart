@@ -5,14 +5,16 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryirreconcilable extends StatefulWidget {
+  const EnglishEntryirreconcilable({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryirreconcilable> createState() =>
+      _EnglishEntryirreconcilableState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryirreconcilableState
+    extends State<EnglishEntryirreconcilable> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +54,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adjective: irreconcilable
+1. Impossible to reconcile (- unreconcilable)
+"irreconcilable differences";
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "irreconcilable";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +80,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""irreconcilable""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The break-up was due to irreconcilable differences.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """These practices are irreconcilable with the law of the Church.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/2OQu9q70YkE?t=';
+    const double startSecondsend = 000000000000000000000000000145;
+    const String videoIdone = 'https://youtu.be/pZbN1x_wgq8?t=';
+    const double startSecondsone = 000000000000000000000000000154;
+    const String videoIdtwo = 'https://youtu.be/kdh_rcSU41g?t=';
+    const double startSecondstwo = 0000000000000000000000000001669;
+    const String videoIdthree = 'https://youtu.be/UO4d8F1kuuc?t=';
+    const double startSecondsthree = 000000000000000000000000000512;
+    const String videoIdfour = 'https://youtu.be/351JCOvKcYw?t=';
+    const double startSecondsfour = 00000000000000000000000000058;
+    const String videoIdfive = 'https://youtu.be/0tYm41hb48o?t=';
+    const double startSecondsfive = 0000000000000000000000000004261;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +951,12 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """irreconcilable""",
+                      // alsoEnglishWord: "also: irreconcilable",
+                      britshText:
+                          """IpaUK: /ɪˌrekənˈsaɪləbl/, /ɪˈrekənsaɪləbl/""",
+                      americanText:
+                          """IpaUS: /ɪˌrekənˈsaɪləbl/, /ɪˈrekənsaɪləbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,23 +994,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئاشتەوەنەبوو، ڕێک‌نەکەوتوو، ئاشتیان نابێتەوە، پێکنەهاتوو، پێکەوەنەسازاو، پێکەوەهەڵنەکردوو، پێکەوە ناسازێن، پێکەوەنەگونجاو، جۆردەرنەهاتوو، ناکۆک، یەک‌نەکەوتوو، دژ
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "irreconcilable", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە جیاوازی یان ناکۆکی هێندە گەورەن چارەسەر ناکرێن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The break-up was due to irreconcilable differences.""",
+                      kurdishText:
+                          """جیابوونەوەکە بەهۆی جیاوازیی چارەسەرنەکراو بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە بیرۆکەیەک یان بۆچوونێک دژ بە یەکێکی دیکە بێت و نەکرێت کەسێک پێکەوە هەردووکیانی هەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """These practices are irreconcilable with the law of the Church.""",
+                      kurdishText:
+                          """ئەم کارانە پێکەوەنەسازاون لەگەڵ یاسای کڵێسا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2151,4 +2159,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end irreconcilable

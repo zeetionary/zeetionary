@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryiodine extends StatefulWidget {
+  const EnglishEntryiodine({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryiodine> createState() => _EnglishEntryiodineState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryiodineState extends State<EnglishEntryiodine> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Noun: iodine (Derived forms: iodines)
+1. A nonmetallic element belonging to the halogens; used especially in medicine and photography and in dyes; occurs naturally only in combination in small quantities (as in sea water or rocks) (- iodin, I, atomic number 53)
+ 
+2. A tincture consisting of a solution of iodine in ethyl alcohol; applied topically to wounds as an antiseptic (- tincture of iodine)
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "iodine";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +79,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""iodine""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The doctor applied iodine to the cut.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +924,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/m1GEPsSVpZY?t=';
+    const double startSecondsend = 000000000000000000000000000196;
+    const String videoIdone = 'https://youtu.be/7nGz7xgGJzc?t=';
+    const double startSecondsone = 000000000000000000000000000139;
+    const String videoIdtwo = 'https://youtu.be/9s9UXXAmlTg?t=';
+    const double startSecondstwo = 000000000000000000000000000551;
+    const String videoIdthree = 'https://youtu.be/OCFmQd15SRo?t=';
+    const double startSecondsthree = 000000000000000000000000000862;
+    const String videoIdfour = 'https://youtu.be/mBqpaAKtnXE?t=';
+    const double startSecondsfour = 000000000000000000000000000405;
+    const String videoIdfive = 'https://youtu.be/d-97pEeP0LY?t=';
+    const double startSecondsfive = 000000000000000000000000000741;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +948,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """iodine""",
+                      // alsoEnglishWord: "also: iodine",
+                      britshText: """IpaUK: /ˈaɪədiːn/""",
+                      americanText: """IpaUS: /ˈaɪədaɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +988,15 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) توخمێکی کیمیایی کە لە ئاوی دەریادا هەیە و هەندێک جار ئەو شلەیەی کە تێیدایە لەسەر برین بەکاردێت بۆ ڕێگری لە هەوکردن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The doctor applied iodine to the cut.""",
+                      kurdishText: """پزیشکەکە ئایۆدینی لەسەر برینەکە دانا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2151,4 +2147,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end iodine

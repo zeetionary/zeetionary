@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryironic extends StatefulWidget {
+  const EnglishEntryironic({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryironic> createState() => _EnglishEntryironicState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryironicState extends State<EnglishEntryironic> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adjective: ironic
+1. Humorously sarcastic or mocking (- dry, ironical, wry)
+"an ironic remark often conveys an intended meaning obliquely";
+ 
+2. Characterized by often poignant difference or incongruity between what is expected and what actually is (- ironical)
+"madness, an ironic fate for such a clear thinker";
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "ironic";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +81,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""ironic""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He was greeted with ironic cheers from opposition MPs.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """It's ironic that she became a teacher—she used to hate school.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +928,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/wknSc6HRUMI?t=';
+    const double startSecondsend = 000000000000000000000000000462;
+    const String videoIdone = 'https://youtu.be/lex6USTugUU?t=';
+    const double startSecondsone = 000000000000000000000000000862;
+    const String videoIdtwo = 'https://youtu.be/Am1lDj2mUVY?t=';
+    const double startSecondstwo = 000000000000000000000000000839;
+    const String videoIdthree = 'https://youtu.be/HAnw168huqA?t=';
+    const double startSecondsthree = 0000000000000000000000000002771;
+    const String videoIdfour = 'https://youtu.be/ur-hDqFb0HM?t=';
+    const double startSecondsfour = 000000000000000000000000000457;
+    const String videoIdfive = 'https://youtu.be/Oz9zw7-_vhM?t=';
+    const double startSecondsfive = 000000000000000000000000000881;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +952,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """ironic""",
+                      // alsoEnglishWord: "also: ironic",
+                      britshText: """IpaUK: /aɪˈrɒnɪk/""",
+                      americanText: """IpaUS: /aɪˈrɑːnɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,24 +992,31 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی:
+// """),
+// With short examples define "ironic", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ئەوە پیشان دەدات کە مەبەستت پێچەوانەی ئەوەیە کە دەیڵێیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was greeted with ironic cheers from opposition MPs.""",
+                      kurdishText:
+                          """بە قریوەی توانجاوییەوە لەلایەن ئەندامانی ئۆپۆزسیۆنەوە پێشوازی لێکرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) نامۆ و پێکەنیناوی چونکە زۆر پێچەوانەی ئەوەیە کە پێشبینیت دەکرد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It's ironic that she became a teacher—she used to hate school.""",
+                      kurdishText:
+                          """جێگای تەنزە کە بوو بە مامۆستا ـ جاران ڕقی لە قوتابخانە بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2151,4 +2158,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end ironic

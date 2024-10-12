@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryinvincible extends StatefulWidget {
+  const EnglishEntryinvincible({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryinvincible> createState() => _EnglishEntryinvincibleState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryinvincibleState extends State<EnglishEntryinvincible> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adjective: invincible
+1. Incapable of being overcome or subdued (- unbeatable, unvanquishable, undefeatable)
+"her invincible spirit"; "an invincible army";
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "invincible";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +78,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""invincible""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The team seemed invincible.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +923,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/lex6USTugUU?t=';
+    const double startSecondsend = 000000000000000000000000000686;
+    const String videoIdone = 'https://youtu.be/_wNsZEqpKUA?t=';
+    const double startSecondsone = 0000000000000000000000000001227;
+    const String videoIdtwo = 'https://youtu.be/7ME1lkuBnCk?t=';
+    const double startSecondstwo = 000000000000000000000000000398;
+    const String videoIdthree = 'https://youtu.be/kElsSj8hky4?t=';
+    const double startSecondsthree = 000000000000000000000000000265;
+    const String videoIdfour = 'https://youtu.be/hhvjKAQv2cs?t=';
+    const double startSecondsfour = 0000000000000000000000000001232;
+    const String videoIdfive = 'https://youtu.be/g5ymJNLURRI?t=';
+    const double startSecondsfive = 000000000000000000000000000968;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +947,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """invincible""",
+                      // alsoEnglishWord: "also: invincible",
+                      britshText: """IpaUK: /ɪnˈvɪnsəbl/""",
+                      americanText: """IpaUS: /ɪnˈvɪnsəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +988,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەشکان‌نەهاتوو، نەبەز(یو)، بەسەردازاڵ‌نەبوو، نابەزێ، ناشکێنرێ، بەهێز، کۆڵی پێ‌نادرێ، بەقەوەت، نەبەرد، کۆڵنەدەر
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "invincible", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) زۆر بەهێز کە شکستی پێ بهێندرێت یان بگۆڕدرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: unconquerable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The team seemed invincible.""",
+                      kurdishText: """تیمەکە نەبەزیو دیاربوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2151,4 +2148,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end invincible

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryinviolable extends StatefulWidget {
+  const EnglishEntryinviolable({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryinviolable> createState() => _EnglishEntryinviolableState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryinviolableState extends State<EnglishEntryinviolable> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adjective: inviolable
+1. Immune to attack; incapable of being tampered with (- impregnable, secure, strong, unassailable, unattackable)
+"fortifications that made the frontier inviolable";
+ 
+2. Must be kept safe, held in respect and free from violation or damage (- inviolate, sacrosanct)
+"Western ethical thinking singled out human life as inviolable";
+ 
+3. Not capable of being violated or infringed (- absolute, infrangible)
+"inviolable human rights";
+ 
+4. Incapable of being transgressed or dishonoured (- irrefrangible)
+"the person of the king is inviolable"; "an inviolable oath";
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "inviolable";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +87,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""inviolable""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Everyone has an inviolable right to protection by a fair legal system.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -926,21 +933,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/P43wVDiZs8k?t=';
+    const double startSecondsend = 000000000000000000000000000219;
+    const String videoIdone = 'https://youtu.be/SUsqnD9-42g?t=';
+    const double startSecondsone = 000000000000000000000000000104;
+    const String videoIdtwo = 'https://youtu.be/dFH6q1hJMfo?t=';
+    const double startSecondstwo = 000000000000000000000000000427;
+    const String videoIdthree = 'https://youtu.be/RY7hjt5Gi-E?t=';
+    const double startSecondsthree = 00000000000000000000000000075;
+    const String videoIdfour = 'https://youtu.be/_r0htm5uHPQ?t=';
+    const double startSecondsfour = 0000000000000000000000000001939;
+    const String videoIdfive = 'https://youtu.be/2QJuEq-tRGE?t=';
+    const double startSecondsfive = 00000000000000000000000000096;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +957,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """inviolable""",
+                      // alsoEnglishWord: "also: inviolable",
+                      britshText: """IpaUK: /ɪnˈvaɪələbl/""",
+                      americanText: """IpaUS: /ɪnˈvaɪələbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +997,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: پیرۆز، جێی‌ڕێز، پێشێل‌نەکراو، نەبەزێنراو، نابێ بشکێنێرێ، دەبێ بپارێزرێ، پارێزراو
+// """),
+// With short examples define "inviolable", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە دەبێت ڕێزی لێ بگیردرێت و نەشکێندرێت یان هێرشی نەکرێتە سەر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Everyone has an inviolable right to protection by a fair legal system.""",
+                      kurdishText:
+                          """هەموو کەس مافێکی پارێزراوی هەیە بۆ ئەوەی بپارێزرێت لە سیستەمێکی یاسایی دادپەروەر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2151,4 +2159,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end inviolable

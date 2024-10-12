@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrydopsum1 extends StatefulWidget {
-  const EnglishEntrydopsum1({super.key});
+class EnglishEntryinviolate extends StatefulWidget {
+  const EnglishEntryinviolate({super.key});
 
   @override
-  State<EnglishEntrydopsum1> createState() => _EnglishEntrydopsum1State();
+  State<EnglishEntryinviolate> createState() => _EnglishEntryinviolateState();
 }
 
-class _EnglishEntrydopsum1State extends State<EnglishEntrydopsum1> {
+class _EnglishEntryinviolateState extends State<EnglishEntryinviolate> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrydopsum1 dopsum1
-WORD_WEB dopsum1 dopsum1 dopsum1
-haʊʊʊʊʊʊʊ4
+- Adjective: inviolate
+1. Must be kept safe, held in respect and free from violation or damage (- inviolable, sacrosanct)
+"Western ethical thinking singled out human life as inviolate";
+ 
+2. [archaic] (of a woman) having the hymen unbroken (- intact)
+"she was inviolate, virginal";
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "dopsum1";
+  final String keyword = "inviolate";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +81,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""dopsum1""");
+    await flutterTts.speak("""inviolate""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Their privacy remained inviolate.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """For centuries the tomb lay inviolate until, by chance, it was discovered by two miners.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,21 +927,19 @@ haʊʊʊʊʊʊʊ4
 
   @override
   Widget build(BuildContext context) {
-
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'https://youtu.be/B3kb5DXKV_A?t=';
+    const double startSecondsend = 000000000000000000000000000368;
+    const String videoIdone = 'https://youtu.be/wXeIjKtupGY?t=';
+    const double startSecondsone = 000000000000000000000000000772;
+    const String videoIdtwo = 'https://youtu.be/cfbCUN8ymyY?t=';
+    const double startSecondstwo = 0000000000000000000000000001281;
+    const String videoIdthree = 'https://youtu.be/pE2VIj7ozyA?t=';
+    const double startSecondsthree = 00000000000000000000000000045;
+    const String videoIdfour = 'https://youtu.be/Cn8nEMwDhmY?t=';
+    const double startSecondsfour = 00000000000000000000000000072;
+    const String videoIdfive = 'https://youtu.be/Gm4vcpHkGNo?t=';
+    const double startSecondsfive = 0000000000000000000000000002862;
 
     return DefaultTabController(
       length: 4,
@@ -952,10 +951,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """dopsum1""",
-                      // alsoEnglishWord: "also: dopsum1",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """inviolate""",
+                      // alsoEnglishWord: "also: inviolate",
+                      britshText: """IpaUK: /ɪnˈvaɪələt/""",
+                      americanText: """IpaUS: /ɪnˈvaɪələt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -993,14 +992,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پیرۆز، پارێزراو، نەبەزێنراو، حورمەت‌ڕاگیراو، نەشکێنراو، ڕەچاوکراو، بێ‌ڕێزنەبوو، بێ‌ڕێزی‌پێ‌نەکراو، دەس‌تێوەرنەدراو، دروست‌ڕاگیراو، پێشێل‌نەکراو، نەگۆڕاو
 """),
-// With short examples define "dopsum1", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "inviolate", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە پیرۆز بووە یان دەبێت پیرۆز بێت، و نابێت لەناوببرێت یان هێرشی بکرێتە سەر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Their privacy remained inviolate.""",
+                      kurdishText: """ژیانی کەسییان بە پارێزراوی مایەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1008,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """For centuries the tomb lay inviolate until, by chance, it was discovered by two miners.""",
+                      kurdishText:
+                          """بۆ چەندین سەدە گۆڕەکە بە پارێزراوی مایەوە تاوەکو، بە ڕێکەوت، لەلایەن دوو کرێکاری کان دۆزرایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2151,4 +2153,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end dopsum1
+// end inviolate

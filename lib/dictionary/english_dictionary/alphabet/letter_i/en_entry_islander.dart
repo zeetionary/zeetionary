@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryislander islander
-WORD_WEB islander islander islander
-haʊʊʊʊʊʊʊ4
+- Noun: islander (Derived forms: islanders)
+1. An inhabitant of an island (- island-dweller)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "islander";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The islanders celebrate their own festivals.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/5-OxB22rLHI?t=175';
     const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/JN3KPFbWCy8?t=1813';
     const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/H1KP4ztKK0A?t=834';
     const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/MHkmeDQNBJ0?t=332';
     const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/IOgq4Nk2H8w?t=126';
     const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/kmo6lZcdkO0?t=794';
     const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """islander""",
                       // alsoEnglishWord: "also: islander",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈaɪləndə(r)/""",
+                      americanText: """IpaUS: /ˈaɪləndər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,15 +986,16 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-//                     const KurdishVocabulary(text: """
-// کوردی:
-// """),
-// With short examples define "islander", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const KurdishVocabulary(text: """
+کوردی: دوڕگەنشین، دوڕگەژی، دوورگەنشین، دانیشتووی دوڕگە
+"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کەسێک کە لەسەر دوورگەیەک دەژی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The islanders celebrate their own festivals.""",
+                      kurdishText:
+                          """دوورگەنشینەکان فیستیڤاڵی خۆیان پیرۆز دەکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

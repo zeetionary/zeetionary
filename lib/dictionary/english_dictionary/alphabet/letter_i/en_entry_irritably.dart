@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryirritably irritably
-WORD_WEB irritably irritably irritably
-haʊʊʊʊʊʊʊ4
+- Adverb: irritably
+1. In a petulant manner (- testily, petulantly, pettishly, waspishly, crabbily)
+ 
+2. In an irritable manner
+"she had become irritably exact"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "irritably";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She sighed, and tapped her fingers irritably on the table.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Sue turned irritably back to the window.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Hj_rA0dhr2I?t=3156';
     const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/9rL5VsooQyI?t=1530';
     const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/LIImP_edkK0?t=502';
     const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/TVUQa2zeS18?t=41';
     const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/tz_Z_Dpn3-A?t=1031';
     const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/bdmZq4ooHpI?t=800';
     const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """irritably""",
                       // alsoEnglishWord: "also: irritably",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪrɪtəbli/""",
+                      americanText: """IpaUS: /ˈɪrɪtəbli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +994,13 @@ haʊʊʊʊʊʊʊ4
 // کوردی:
 // """),
 // With short examples define "irritably", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە بێزاری و تووڕەیی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She sighed, and tapped her fingers irritably on the table.""",
+                      kurdishText:
+                          """ئاهێکی هەڵکێشا و بە تووڕەییەوە پەنجەی کێشا بە مێزەکەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1008,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Sue turned irritably back to the window.""",
+                      kurdishText: """بە تووڕەییەوە ڕووی کردەوە پەنجەرەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

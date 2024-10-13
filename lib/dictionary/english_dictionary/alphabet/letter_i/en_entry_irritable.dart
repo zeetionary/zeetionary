@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryirritable irritable
-WORD_WEB irritable irritable irritable
-haʊʊʊʊʊʊʊ4
+- Adjective: irritable
+1. Easily irritated or annoyed (- cranky [informal], fractious, nettlesome, peevish, peckish [N. Amer, informal], pettish, petulant, scratchy, testy, tetchy, techy, pouty, narky [Brit, slang])
+"an incorrigibly irritable young man";
+ 
+2. (pathology) abnormally sensitive to a stimulus
+ 
+3. (physiology) capable of responding to stimuli (- excitable)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "irritable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Be careful what you say - he's rather irritable today.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/n7WH7A2v7OU?t=448';
     const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/_0RTH57v66I?t=786';
     const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Sbp_EeBk-As?t=366';
     const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/twde2vxuHEw?t=904';
     const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/owMlmhvik_0?t=499';
     const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/wJa5Ch0O4BI?t=3158';
     const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """irritable""",
                       // alsoEnglishWord: "also: irritable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪrɪtəbl/""",
+                      americanText: """IpaUS: /ˈɪrɪtəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,15 +992,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-//                     const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                    const KurdishVocabulary(text: """
+کوردی: زووتووڕە، توند، تەنگەتیلکە، سەرگەرم، زووورووژاو، زووهەڵچوو، فیشەکی، سەرتوند، زووڕەنجاو
+"""),
 // With short examples define "irritable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە ئاسان تووڕە ببیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: bad-tempered"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Be careful what you say - he's rather irritable today.""",
+                      kurdishText:
+                          """وریابە چی دەڵێیت ـ ئەمڕۆ کەمێک زووهەڵچووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

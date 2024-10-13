@@ -1260,8 +1260,8 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_h/en_en
 // en_entry_irritably.dart' show EnglishEntryirritably
 // en_entry_irritate.dart' show EnglishEntryirritate
 // en_entry_irritation.dart' show EnglishEntryirritation
-// en_entry_islam.dart' show EnglishEntryislam
-// en_entry_islamic.dart' show EnglishEntryislamic
+// en_entry_islam.dart' show EnglishEntryislam //////// Islam
+// en_entry_islamic.dart' show EnglishEntryislamic //////// Islamic
 // en_entry_island.dart' show EnglishEntryisland
 // en_entry_islander.dart' show EnglishEntryislander
 // en_entry_isle.dart' show EnglishEntryisle

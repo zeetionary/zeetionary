@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryisland island
-WORD_WEB island island island
-haʊʊʊʊʊʊʊ4
+- Noun: island (Derived forms: islands)
+1. A land mass (smaller than a continent) that is surrounded by water
+ 
+2. A zone or area resembling an island
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "island";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +86,37 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""We spent a week on the Greek island of Kos.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He owns a house on the island.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The best beaches are on the southern tip of the island.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""Fiji is a small South Pacific island nation.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """They were forced to leave their island home and start a new life on the mainland.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/jxk259Eqnks?t=419';
     const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/s3B-qp3U5G0?t=630';
     const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/zqllxbPWKNI?t=68';
     const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/IOgq4Nk2H8w?t=52';
     const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/f7aXzBuRTKU?t=27';
     const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/WzAe7t_o0Mw?t=60';
     const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """island""",
                       // alsoEnglishWord: "also: island",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈaɪlənd/""",
+                      americanText: """IpaUS: /ˈaɪlənd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,15 +990,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-//                     const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                    const KurdishVocabulary(text: """
+کوردی: دوڕگە، گرئاڤ، ئاد، ئاویگە
+"""),
 // With short examples define "island", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچە زەوییەک کە لە هەموو لایەکەوە بە ئاو دەوردراوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We spent a week on the Greek island of Kos.""",
+                      kurdishText:
+                          """هەفتەیەکمان لە دوورگە یۆنانییەکانی کۆس بەسەر برد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1009,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He owns a house on the island.""",
+                      kurdishText: """خانوویەکی هەیە لەسەر دوورگەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1018,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The best beaches are on the southern tip of the island.""",
+                      kurdishText:
+                          """باشترین کەناراوەکان لەسەر خاڵی باشووری دوورگەکەن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,8 +1029,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Fiji is a small South Pacific island nation.""",
+                      kurdishText:
+                          """فیجی وڵاتێکی بچووکی دوورگەیی باشووری زەریای هێمنە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1034,11 +1040,15 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They were forced to leave their island home and start a new life on the mainland.""",
+                      kurdishText:
+                          """ناچار کران ماڵیان لەسەر دوورگەکە بەجێبهێڵن و لەسەر بەشی سەرەکی بژین.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
+                    // add_more_sentences
+                    // skipped_meaning
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

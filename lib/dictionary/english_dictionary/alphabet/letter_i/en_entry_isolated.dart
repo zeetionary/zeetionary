@@ -52,13 +52,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryisolated isolated
-WORD_WEB isolated isolated isolated
-haʊʊʊʊʊʊʊ4
+- Adjective: isolated
+1. Not close together in time (- stray)
+"isolated instances of rebellion";
+ 
+2. Being or feeling set or kept apart from others (- detached, separated, set-apart, out on a limb)
+"could not remain the isolated figure he had been";
+ 
+3. Marked by separation of or from usually contiguous elements (- disjunct)
+"little isolated worlds, as abruptly disjunct and unexpected as a palm-shaded well in the Sahara";
+ 
+4. Cut off or left behind (- marooned, stranded)
+"an isolated pawn";
+ 
+5. Under forced isolation especially for health reasons (- quarantined)
+"isolated patients";
+ 
+6. Remote and separate physically or socially (- apart, obscure, out on a limb)
+"tiny isolated villages remote from centres of civilization";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "isolated";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +100,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Few visitors come to the isolated village in winter.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I felt very isolated in my new job.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""Elderly people easily become socially isolated.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""The police said the attack was an isolated incident.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +942,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/UuGpm01SPcA?t=352';
     const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/AF8d72mA41M?t=242';
     const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/zqllxbPWKNI?t=669';
     const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/hOUGNGWmN0k?t=721';
     const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/-6vzjjIrRK8?t=1263';
     const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/-L7o6HtX8Vg?t=709';
     const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +967,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """isolated""",
                       // alsoEnglishWord: "also: isolated",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈaɪsəleɪtɪd/""",
+                      americanText: """IpaUS: /ˈaɪsəleɪtɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,24 +1005,29 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-//                     const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                    const KurdishVocabulary(text: """
+کوردی: لاتەریک، گۆشەگیر، تەنیا، تاک‌وتەنیا،	چەپەک، دوورەدەس، لاپەڕ،	تاک، تاق، جیا، لێک‌جیا، دابڕاو
+"""),
 // With short examples define "isolated", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: remote"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Few visitors come to the isolated village in winter.""",
+                      kurdishText:
+                          """ڕێژەیەکی کەم ساردانکار هەموو زستانێک دێنە گوندەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە پەیوەندی زۆری لەگەڵ خەڵکی، وڵاتان، هتد ـی دیکە نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I felt very isolated in my new job.""",
+                      kurdishText:
+                          """لە کارەکەمدا هەستی زۆرم بە دابڕاوی دەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,17 +1035,25 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Elderly people easily become socially isolated.""",
+                      kurdishText:
+                          """کەسانی بەتەمەن بە ئاسانی لە لایەنی کۆمەڵایەتییەوە دابڕاو دەبن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) کە یەک جار ڕوویداوە و پەیوەندی بە شتی دیکە نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The police said the attack was an isolated incident.""",
+                      kurdishText:
+                          """پۆلیس گوتی هێرشەکە ڕووداوێکی سەربەخۆ بووە.""",
+                      englishNote:
+                          "This means the police believe the attack was a one-time event, unrelated to any other occurrences, and not part of a larger pattern or ongoing issue.",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

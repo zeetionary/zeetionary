@@ -52,13 +52,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryirritation irritation
-WORD_WEB irritation irritation irritation
-haʊʊʊʊʊʊʊ4
+- Noun: irritation (Derived forms: irritations)
+1. The psychological state of being irritated or annoyed (- annoyance, vexation, botheration [informal])
+ 
+2. A sudden outburst of anger (- pique, temper)
+"his irritation sparked like damp firewood";
+ 
+3. (pathology) abnormal sensitivity to stimulation
+"any food produced irritation of the stomach"
+ 
+4. The neural or electrical arousal of an organ or muscle or gland (- excitation, innervation)
+ 
+5. An uncomfortable feeling of mental painfulness or distress (- discomfort, soreness)
+ 
+6. Unfriendly behaviour that causes anger or resentment (- aggravation, provocation)
+ 
+7. The act of troubling or annoying someone (- annoyance, annoying, vexation)
+ 
+8. Something or someone that causes annoyance, inconvenience, or makes life more difficult (- annoyance, bother, botheration [informal], pain, infliction, pain in the neck [informal], nuisance)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "irritation";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +100,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""That kind of behaviour is sure to cause irritation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """It is an antiseptic cream suitable for minor skin irritations.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +941,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/CB-J8nI_y78?t=203';
     const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Cg10exNmf7I?t=219';
     const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/p3O6bKdPLbw?t=2824';
     const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/OnED0eTNVoA?t=655';
     const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/f9SA25OukyM?t=220';
     const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/udI0QnkMRi4?t=389';
     const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +966,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """irritation""",
                       // alsoEnglishWord: "also: irritation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪrɪˈteɪʃn/""",
+                      americanText: """IpaUS: /ˌɪrɪˈteɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,24 +1004,31 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-//                     const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                    const KurdishVocabulary(text: """
+کوردی: ناڕەحەتی، ڕق‌هەستاندن، ورووژاندن، تین‌دان، ئارۆزان، جهنین، تووڕەکردن،	ڕەنجان، دڵمەندی، دڵ‌ئێشان،	سووتانەوە، کزانەوە، چزانەوە
+"""),
 // With short examples define "irritation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە بێزار بیت، زیاتر بەوەی کە کەسێک شتێک بەردەوام بکات یان شتێک بەردەوام ڕووبدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """That kind of behaviour is sure to cause irritation.""",
+                      kurdishText:
+                          """ئەو جۆرە ڕەفتارە بێگومان بێزاری درووست دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی پێستت یان بەشێکی جەستەت ئازاری هەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is an antiseptic cream suitable for minor skin irritations.""",
+                      kurdishText:
+                          """کرێمێکی دژە بەکتریایە کە گونجاوە بۆ ئازاری کەمی پێست.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

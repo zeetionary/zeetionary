@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryisle isle
-WORD_WEB isle isle isle
-haʊʊʊʊʊʊʊ4
+- Noun: isle (Derived forms: isles)
+1. A small island (- islet)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "isle";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Explore the more remote Caribbean isles.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
-    const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
-    const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
-    const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
-    const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
-    const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
-    const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdend = 'ad8r2D9lRZM';
+    const double startSecondsend = 12;
+    const String videoIdone = 'RNtnTcE7Qjs';
+    const double startSecondsone = 5;
+    const String videoIdtwo = 'XL1732UY_JY';
+    const double startSecondstwo = 0;
+    const String videoIdthree = 'PoNCG3PZKII';
+    const double startSecondsthree = 7;
+    const String videoIdfour = 'H1KP4ztKK0A';
+    const double startSecondsfour = 105;
+    const String videoIdfive = 'kbCah6yhYRs';
+    const double startSecondsfive = 81;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """isle""",
                       // alsoEnglishWord: "also: isle",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /aɪl/""",
+                      americanText: """IpaUS: /aɪl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,15 +986,16 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-//                     const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                    const KurdishVocabulary(text: """
+کوردی: دوڕگە، دوورگە، گرئاڤ، ئاد
+"""),
 // With short examples define "isle", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) دوورگە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Explore the more remote Caribbean isles.""",
+                      kurdishText:
+                          """بگەڕێ بە دوورگە زیاتر دوورەکانی کاریبی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

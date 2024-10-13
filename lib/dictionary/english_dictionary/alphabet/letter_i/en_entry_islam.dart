@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryislam Islam
-WORD_WEB Islam Islam Islam
-haʊʊʊʊʊʊʊ4
+- Noun: Islam (Derived forms: Islams)
+1. The monotheistic religious system of Muslims founded in Arabia in the 7th century and based on the teachings of Muhammad as laid down in the Koran (- Islamism, Mohammedanism, Muhammadanism, Muslimism)
+"Islam is a complete way of life, not a Sunday religion";
+ 
+2. The civilization of Muslims collectively which is governed by the Muslim religion (- Muslimism)
+"Islam is predominant in northern Africa, the Middle East, Pakistan, and Indonesia";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "Islam";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +88,32 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Followers of Islam are known as Muslims, or Moslems.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """In Islam there are five essential religious duties, called the Pillars of Islams.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The religious studies course covers Christianity, Islam, Hinduism and Judaism.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """The name for God in Islam is Allah, proclaimed by Mohammed as the sole God, the creator and sustainer of all things.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/CiRBQ3frG6U?t=621';
     const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/auPYOsBejK4?t=1429';
     const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/-aSdFrPnlRg?t=2578';
     const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/_4xyf0fOd4I?t=606';
     const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Y4Zdx97A63s?t=92';
     const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/Sew4rctKghY?t=16';
     const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """Islam""",
                       // alsoEnglishWord: "also: Islam",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈɪzlɑːm/, /ɪzˈlɑːm/""",
+                      americanText: """IpaUS: /ˈɪzlɑːm/, /ɪzˈlɑːm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +998,14 @@ haʊʊʊʊʊʊʊ4
 // کوردی:
 // """),
 // With short examples define "Islam", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئایینی موسڵمانان کە پشتی بەو باوەڕە بەستووە کە یەک خودا هەیە لە ڕێگەی موحەممەد وەک پەیامبەری ئەڵڵا نێردراوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Followers of Islam are known as Muslims, or Moslems.""",
+                      kurdishText:
+                          """شوێنکەتووانی ئیسلام بە موسڵمان ناسراون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1013,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In Islam there are five essential religious duties, called the Pillars of Islams.""",
+                      kurdishText:
+                          """لە ئیسلامدا پێنج ئەرکی ئایینی سەرەکی هەن، کە پێیان دەگوترێت کۆڵەکەکانی ئیسلام.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1024,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The religious studies course covers Christianity, Islam, Hinduism and Judaism.""",
+                      kurdishText:
+                          """کۆرسی خوێندنە ئایینییەکە باس لە مەسیحییەت، ئیسلام، هیندۆسییەت، و جودایزم.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,8 +1035,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The name for God in Islam is Allah, proclaimed by Mohammed as the sole God, the creator and sustainer of all things.""",
+                      kurdishText:
+                          """ناوی خودا لە ئیسلامدا ئەڵڵایە، کە لەلایەن موحەممەدەوە ناوهێندراوە وەک تاکە خودا، دروستکەر و ڕاگری هەموو شتێک.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

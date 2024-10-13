@@ -53,13 +53,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryirritability irritability
-WORD_WEB irritability irritability irritability
-haʊʊʊʊʊʊʊ4
+- Noun: irritability (Derived forms: irritabilities)
+1. An irritable petulant feeling (- crossness, fretfulness, fussiness, peevishness, petulance, choler)
+ 
+2. Excessive sensitivity of an organ or body part (- excitability)
+ 
+3. A disposition to exhibit uncontrolled anger (- temper, biliousness, peevishness, pettishness, snappishness, surliness, snappiness)
+"his irritability was well known to all his employees";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "irritability";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -88,15 +90,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Lack of vitamin B in the diet causes irritability.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Symptoms may include depression, irritability, and anxiety.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -928,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/QjLOWQqy2MU?t=226';
     const double startSecondsend = 000000000000000000000000000;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/CURLWPCxe-c?t=122';
     const double startSecondsone = 000000000000000000000000000;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Sbp_EeBk-As?t=1625';
     const double startSecondstwo = 000000000000000000000000000;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/YBx7ZT6FIrU?t=122';
     const double startSecondsthree = 000000000000000000000000000;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/v4r71kEdYME?t=986';
     const double startSecondsfour = 000000000000000000000000000;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/VNLSCuI4P0w?t=214';
     const double startSecondsfive = 000000000000000000000000000;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -954,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """irritability""",
                       // alsoEnglishWord: "also: irritability",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌɪrɪtəˈbɪləti/""",
+                      americanText: """IpaUS: /ˌɪrɪtəˈbɪləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,15 +992,14 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-//                     const KurdishVocabulary(text: """
-// کوردی:
-// """),
+                    const KurdishVocabulary(text: """
+کوردی: زووتووڕەیی، سەرگەرمی، توندی، تەنگەتیلکەیی، زووورووژاوی، سەرتوندی، زووڕەنجاوی
+"""),
 // With short examples define "irritability", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەوەی کە زوو تووڕە ببیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Lack of vitamin B in the diet causes irritability.""",
+                      kurdishText: """کەمی ڤیتامین B لە خواردندا دەبێتە هۆکاری زووتووڕەیی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1008,8 +1007,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Symptoms may include depression, irritability, and anxiety.""",
+                      kurdishText: """نیشانەکان ڕەنگە خەمۆکی، زووتووڕەیی، و بێزاری لەخۆ بگرن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

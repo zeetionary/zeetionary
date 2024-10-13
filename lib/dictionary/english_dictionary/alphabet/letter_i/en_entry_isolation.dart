@@ -52,10 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryisolation isolation
-WORD_WEB isolation isolation isolation
-haʊʊʊʊʊʊʊ4
+- Noun: isolation (Derived forms: isolations)
+1. A state of separation between persons or groups
+ 
+2. A feeling of being disliked and alone
+ 
+3. The act of isolating something; setting something apart from others (- closing off)
+ 
+4. (psychiatry) a defence mechanism in which memory of an unacceptable act or impulse is separated from the emotion originally associated with it
+ 
+5. A country's withdrawal from international politics
+"he opposed a policy of American isolation"
 """,
   );
 // 188888880002200000000000
@@ -953,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """isolation""",
                       // alsoEnglishWord: "also: isolation",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌaɪsəˈleɪʃn/""",
+                      americanText: """IpaUS: /ˌaɪsəˈleɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

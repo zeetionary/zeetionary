@@ -161,40 +161,7 @@ class EnglishEntrycalypso extends StatelessWidget {
               const Expanded(
                 child: TabBarView(
                   children: [
-                    EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-//                     SingleChildScrollView(
-//                       // DOPSUM: KURDISH MEANING
-//                       child: Column(
-//                         crossAxisAlignment: CrossAxisAlignment.end,
-//                         children: [
-//                           const DividerDefinition(),
-//                           const DefinitionKurdish(text: """
-// کوردی:
-
-// ١. (ھاوەڵناو) پێنناسە"""),
-//                           Row(
-//                             children: [
-//                               const ExampleSentenceEnglish(
-//                                   text:
-//                                       "speakcalypsos111111111111111111111111111111111"),
-//                               const ExampleSentenceKurdish(
-//                                   text: "رستە_رستە_رستە_رستە."),
-//                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "calypso", follow LX strictly
-//                               Column(
-//                                 children: [
-//                                   CustomIconButtonBritish(
-//                                     onPressed: () => speakcalypsos1("en-GB"),
-//                                   ),
-//                                   CustomIconButtonAmerican(
-//                                     onPressed: () => speakcalypsos1("en-US"),
-//                                   ),
-//                                 ],
-//                               ),
-//                             ],
-//                           ),
-//                         ],
-//                       ),
-//                     ),
+                    EnglishMeaning(),
                     YouTubeScroller(
                       children: [
                         YoutubeEmbeddedone(),

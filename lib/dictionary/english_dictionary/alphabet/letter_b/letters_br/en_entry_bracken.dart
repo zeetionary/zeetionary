@@ -127,26 +127,6 @@ class EnglishEntrybracken extends StatelessWidget {
                           DividerDefinition(),
                           DefinitionKurdish(text: """
 ١. (ناو) گیایەک کە گەڵای گەورەی ھەیە لەسەر گرد و لە دارستانەکان دەڕووێت، و قاوەیی دەبێت لە پاییزدا"""),
-                          // Row(
-                          //   children: [
-                          //     const ExampleSentenceEnglish(
-                          //         text:
-                          //             "speakbrackens111111111111111111111111111111111"),
-                          //     ExampleSentenceKurdish(
-                          //         text: "رستە_رستە_رستە_رستە."),
-                          //     const CustomSizedBoxForTTS(),
-                          //     Column(
-                          //       children: [
-                          //         CustomIconButtonBritish(
-                          //           onPressed: () => speakbrackens1("en-GB"),
-                          //         ),
-                          //         CustomIconButtonAmerican(
-                          //           onPressed: () => speakbrackens1("en-US"),
-                          //         ),
-                          //       ],
-                          //     ),
-                          //   ],
-                          // ),
                         ],
                       ),
                     ),

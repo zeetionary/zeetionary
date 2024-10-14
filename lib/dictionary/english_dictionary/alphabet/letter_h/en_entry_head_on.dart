@@ -214,7 +214,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ھاوەڵناو) بە شێوەیەک کە کە تێیدا خەڵکی بۆچوونی توند دەردەبڕن و ڕاسەتەوخۆ مامەڵە لەگەڵ شتێک دەکەن"""),
+                            """٤. (ھاوەڵکار) بە شێوەیەک کە کە تێیدا خەڵکی بۆچوونی توند دەردەبڕن و ڕاسەتەوخۆ مامەڵە لەگەڵ شتێک دەکەن"""),
                     SentencesRow(
                       englishText:
                           """We should have sat down and addressed the issues head-on.""",

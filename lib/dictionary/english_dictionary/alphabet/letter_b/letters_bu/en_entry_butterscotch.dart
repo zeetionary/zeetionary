@@ -162,40 +162,7 @@ class EnglishEntrybutterscotch extends StatelessWidget {
               const Expanded(
                 child: TabBarView(
                   children: [
-                    EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-//                     SingleChildScrollView(
-//                       // DOPSUM: KURDISH MEANING
-//                       child: Column(
-//                         crossAxisAlignment: CrossAxisAlignment.end,
-//                         children: [
-//                           const DividerDefinition(),
-//                           const DefinitionKurdish(text: """
-// کوردی:
-
-// ١. (ناو) شیرینییەکی ڕەقی قاوەیی کاڵ کە بە کوڵاندنی کەرە و شەکری قاوەیی درووست دەکرێت"""),
-//                           Row(
-//                             children: [
-//                               const ExampleSentenceEnglish(
-//                                   text:
-//                                       "speakbutterscotchs111111111111111111111111111111111"),
-//                               ExampleSentenceKurdish(
-//                                   text: "رستە_رستە_رستە_رستە."),
-//                               const CustomSizedBoxForTTS(), // With short examples extensively define the word "butterscotch", follow LX strictly
-//                               Column(
-//                                 children: [
-//                                   CustomIconButtonBritish(
-//                                     onPressed: () => speakbutterscotchs1("en-GB"),
-//                                   ),
-//                                   CustomIconButtonAmerican(
-//                                     onPressed: () => speakbutterscotchs1("en-US"),
-//                                   ),
-//                                 ],
-//                               ),
-//                             ],
-//                           ),
-//                         ],
-//                       ),
-//                     ),
+                    EnglishMeaning(),
                     YouTubeScroller(
                       children: [
                         YoutubeEmbeddedone(),

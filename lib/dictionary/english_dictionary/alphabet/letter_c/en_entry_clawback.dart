@@ -77,47 +77,7 @@ class EnglishEntryclawback extends StatelessWidget {
               const Expanded(
                 child: TabBarView(
                   children: [
-                    EnglishMeaning(), // DOPSUM: ENGLISH MEANING IS BELOW
-                    // skipped_kurdish
-//                     SingleChildScrollView(
-//                       // DOPSUM: KURDISH MEANING
-//                       child: Column(
-//                         crossAxisAlignment: CrossAxisAlignment.end,
-//                         children: [
-//                           const DividerDefinition(),
-//                           const KurdishVocabulary(text: """
-// کوردی:
-// """),
-//                           const DefinitionKurdish(
-//                               text: "١. (ھاوەڵناو) پێنناسە"),
-//                           Row(
-//                             children: [
-//                               const Expanded(
-//                                 child: Column(
-//                                   children: [
-//                                     ExampleSentenceEnglish(
-//                                         text:
-//                                             "// speakclawbacks111111111111111111111111111111111"),
-//                                     ExampleSentenceKurdish(
-//                                         text: "رستە_رستە_رستە_رستە."),
-//                                   ],
-//                                 ),
-//                               ),
-//                               const CustomSizedBoxForTTS(), //                               Column(
-//                                 children: [
-//                                   CustomIconButtonBritish(
-//                                     onPressed: () => speakclawbacks1("en-GB"),
-//                                   ),
-//                                   CustomIconButtonAmerican(
-//                                     onPressed: () => speakclawbacks1("en-US"),
-//                                   ),
-//                                 ],
-//                               ),
-//                             ],
-//                           ),
-//                         ],
-//                       ),
-//                     ),
+                    EnglishMeaning(),
                     YouTubeScroller(
                       children: [
                         YoutubeEmbeddedone(),

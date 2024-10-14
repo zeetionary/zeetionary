@@ -88,33 +88,6 @@ class EnglishEntrycitizensband extends StatelessWidget {
                           DefinitionKurdish(
                               text:
                                   "١. (ناو) ڕێژەیەک لە شەپۆل کە خەڵکی لە ڕێگەیەوە دەتوانن قسە لەگەڵ یەکدی بکەن لە دووری کەمەوە"),
-                          // Row(
-                          //   children: [
-                          //     const Expanded(
-                          //       child: Column(
-                          //         children: [
-                          //           ExampleSentenceEnglish(
-                          //               text:
-                          //                   "speakCitizensbands111111111111111111111111111111111"),
-                          //           ExampleSentenceKurdish(
-                          //               text: "رستە_رستە_رستە_رستە."),
-                          //         ],
-                          //       ),
-                          //     ),
-                          //     const CustomSizedBoxForTTS(), // With short examples define "Citizens’ Band", please follow LX instructions
-                          //     Column(
-                          //       children: [
-                          //         CustomIconButtonBritish(
-                          //           onPressed: () => speakCitizensbands1("en-GB"),
-                          //         ),
-                          //         CustomIconButtonAmerican(
-                          //           onPressed: () => speakCitizensbands1("en-US"),
-                          //         ),
-                          //       ],
-                          //     ),
-                          //   ],
-                          // ),
-                          // add_sentence
                         ],
                       ),
                     ),

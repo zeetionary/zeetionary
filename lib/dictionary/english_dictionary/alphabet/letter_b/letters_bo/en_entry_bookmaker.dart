@@ -138,22 +138,6 @@ class EnglishEntrybookmaker extends StatelessWidget {
                           DefinitionKurdish(
                               text:
                                   """١. (ناو) کەسێک کە گرەو وەردەگرێت لەسەر پێشبڕکێ و دواتر پارە دەدات بە لایەنی براوە"""),
-                          // Row(
-                          //   children: [
-                          //     const ExampleSentenceEnglish(
-                          //         text:
-                          //             "speakbookmakers111111111111111111111111111111111"),
-                          //     ExampleSentenceKurdish(
-                          //         text: "رستە_رستە_رستە_رستە."),
-                          //     const CustomSizedBoxForTTS(),
-                          //     CustomIconButtonBritish(
-                          //       onPressed: () => speakbookmakers1("en-GB"),
-                          //     ),
-                          //     CustomIconButtonAmerican(
-                          //       onPressed: () => speakbookmakers1("en-US"),
-                          //     ),
-                          //   ],
-                          // ),
                         ],
                       ),
                     ),

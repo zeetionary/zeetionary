@@ -160,6 +160,7 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١. (ناو) یارییەک کە وەک تۆپی پێ وایە و یاریزانەکان لەسەر سەهۆڵ بە دارێک لە تۆپەکە دەدەن"""),
+                            const AlsoEnglishckb(word: "ھەروەھا: hockey"),
                     SentencesRow(
                       englishText:
                           """They watched an intense ice hockey game last night.""",

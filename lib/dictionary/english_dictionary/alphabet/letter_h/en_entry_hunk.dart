@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پیاوێک کە گەورە و بەهێزە و لە ڕووی سێکسییەوە جوانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's a real hunk.""",
                       kurdishText: """جوانچاکێکی تەواوە.""",

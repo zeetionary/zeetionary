@@ -207,7 +207,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە پشتگوێ دەخرێت وەک ئەوەی نەکرێت ببیندرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Homeless people feel that they are invisible.""",

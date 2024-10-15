@@ -394,7 +394,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) پەیوەندیدار بە لێکۆڵینەوە لە مێژوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The historical records of the period are, at best, fragmentary.""",
@@ -433,7 +432,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کتێبێک. فیلمێک، هتد کە باس لە مێژوو دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She specializes in historical novels set in 18th-century England.""",

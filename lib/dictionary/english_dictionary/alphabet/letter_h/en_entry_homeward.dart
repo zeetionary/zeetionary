@@ -195,7 +195,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە بەرەو ماڵەوە دەچێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It happened when she was on the homeward flight back to the UK.""",

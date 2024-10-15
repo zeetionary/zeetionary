@@ -410,7 +410,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) هەبوون یان هەستکردن بە ئازار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """My feet hurt.""",
                       kurdishText: """پێیەکانم ئازاریان هەیە.""",
@@ -449,7 +448,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی کەسێک دڵتەنگ یان بێزار بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """What really hurt was that he never answered my letter.""",
@@ -493,7 +491,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) هەستکردن بە دڵتەنگی یان بێزاری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I know you're hurting and I want to help you.""",
@@ -506,7 +503,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) هەبوونی کاریگەریی خراپ لەسەر کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hard work never hurt anyone.""",
                       kurdishText:
@@ -527,7 +523,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (هاوەڵناو) کە لە ڕووی جەستەییەوە برینداریت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Steve didn't look seriously hurt.""",
                       kurdishText: """ستیڤ بە سەختی بریندار دیارنەبوو.""",
@@ -545,7 +540,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (هاوەڵناو) ئەوەی بێزار یان دڵشکاو بیت بە شتێک کە کەسێک کردوویەتی یان گوتوویەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You have every right to feel hurt.""",
                       kurdishText:
@@ -565,7 +559,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) هەستێکی ناخۆش بەهۆی ئەوەی کەسێک خراپ مامەڵەی لەگەڵ کردوویت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There was hurt and real anger in her voice.""",

@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بەشێکی چەماوەی گەورە لەسەر پشتی ژمارەیەک ئاژەڵ، بە تایبەتی وشتر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Some types of camel have two humps and others have one.""",
@@ -205,7 +204,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) هەڵگرتنی شتێکی قورس"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I've been humping furniture around all day.""",

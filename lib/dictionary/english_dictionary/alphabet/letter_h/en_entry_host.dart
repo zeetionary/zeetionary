@@ -281,7 +281,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) وڵاتێک، شارێک، یان دامەزراوەیەک کە میوانداری بۆنەیەک دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The college is playing host to a group of visiting Russian scientists.""",
@@ -315,7 +314,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ئاژەڵ یان ڕووەکێک کە یەکێکی دیکە لەسەری دەژیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The bacteria form clusters in the gut of the host animal.""",
@@ -327,7 +325,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) ڕێژەیەکی زۆر لە خەڵکی یان شت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Lavender oil can relieve a whole host of ailments.""",
@@ -339,7 +336,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) ڕێکخستنی بۆنەیەک وەک میواندار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """South Africa hosted the World Cup finals.""",
@@ -361,7 +357,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) بوون بە پێشکەشکاری پڕۆگرامێکی تەلەفیزیۆنی، ڕادیۆیی، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Charlie Rose will host tonight's show.""",
                       kurdishText:
@@ -373,7 +368,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) ڕێکخستنی بۆنەیەک کە میوانت بانگهێشت کردووە بۆی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Whose turn is it to host?""",
                       kurdishText: """نۆرەی کێیە میوانداری بکات؟""",

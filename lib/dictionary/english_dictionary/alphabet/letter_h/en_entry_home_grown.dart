@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە لە وڵات، شار، شارۆچکە، هتد ــی خۆت درووستکراوە، لەدایکبووە، پەروەردە کراوە، یان ڕاهێنراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The team has a wealth of home-grown talent.""",

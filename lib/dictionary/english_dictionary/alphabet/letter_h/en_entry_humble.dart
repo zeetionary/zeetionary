@@ -253,7 +253,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) بۆ گوتنی ئەوەی کە وەک کەسانی دیکە گرنگ نیت، بەڵام ئەوە لە دڵەوە نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In my humble opinion, you were in the wrong.""",
@@ -274,7 +273,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) هەبوونی پلە یان پێگەی کۆمەڵایەتی نزم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He is intensely proud of his humble background.""",

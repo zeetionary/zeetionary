@@ -2,12 +2,9 @@
 
 import 'package:flutter/material.dart';
 import 'package:routemaster/routemaster.dart';
+import 'package:zeetionary/firebase/features/auth/screen/login_screen.dart';
 import 'package:zeetionary/firebase/features/auth/screen/logout_screens/home_screen_logout/home_screen_logout.dart';
 // import 'package:zeetionary/firebase/features/auth/screen/logout_screens/logout_settings/logout_settings.dart';
-
-
-
-
 
 import 'package:zeetionary/grammar/grammar_screen.dart';
 import 'package:zeetionary/home/screens/reddit/reddit_slides.dart';
@@ -72,6 +69,7 @@ final Map<String, PageBuilder> allRoutesLogout = {
 Map<String, PageBuilder> getRoutesMainLogout() {
   return {
     "/": (_) => _blP(const HomeScreenThreeLogout()),
+    "/login-screen": (_) => _blP(const LoginScreen()),
   };
 }
 

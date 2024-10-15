@@ -255,7 +255,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) هاوار یان پێکەنینێکی بەرز"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The suggestion was greeted by hoots of laughter.""",
@@ -268,7 +267,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) دۆخێک یان کەسێک کە زۆر بە پێکەنیناوی دەبینیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You ought to meet her—she's a hoot!""",
                       kurdishText: """دەبێت بیبینیت ـ زۆر قۆشمەیە!.""",
@@ -278,7 +276,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) هۆرنی ئۆتۆمبێل"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She gave three short hoots as she passed by.""",
@@ -289,7 +286,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) دەنگی کوندەپەپوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We heard a hoot coming from the trees.""",
                       kurdishText:

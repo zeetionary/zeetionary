@@ -227,7 +227,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵکار) بە هیواوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hens pecked hopefully at the dusty floor.""",

@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شێوازی تەواو بەجۆش و زیادەڕۆیی لە کاردانەوە بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is still so much hysteria surrounding the issue.""",

@@ -490,7 +490,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کونێک لە سەرێک بۆ سەرەکەی دیکەی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We drilled a hole through the wall.""",
                       kurdishText: """کونێکمان بە دیوارەکەدا کەند.""",
@@ -543,7 +542,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) لانەی ئاژەڵێکی بچووک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The animal refused to be enticed from its hole.""",
@@ -583,7 +581,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) کونی گۆڕەپانی یاریی گۆڵف"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The ball rolled into the hole and she had won.""",
@@ -596,7 +593,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) هەڵەیەک لە پلانێک، چیرۆکێک، یاسایەک، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I don't believe what she says—her story is full of holes.""",
@@ -618,7 +614,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) شوێن یان پێگەیەک کە دەبێت زوو پڕ چونکە کەسێک/شتێک لەوێ نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """After his wife left, there was a gaping hole in his life.""",
@@ -630,7 +625,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) درووستکردنی کونێک لە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The ship had been holed by a missile.""",
                       kurdishText: """کەشتییەکە بە مووشەکێک کونی تێکرابوو.""",
@@ -641,7 +635,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) خستنی تۆپ بۆ ناو کونی یاریگا لە تۆپی یاریی گۆڵف"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She holed out from 25 feet.""",
                       kurdishText: """تۆپەکەی خستە کونەکەوە لە ٢٥ پێوە.""",

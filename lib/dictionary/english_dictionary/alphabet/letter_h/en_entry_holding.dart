@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بڕێک کاڵایەک کە لەلایەن کەسێک، مۆزەخانەیەک، کتێبخانەیەک، هتد خاوەنداری دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The holding has been housed in the museum since 2002.""",

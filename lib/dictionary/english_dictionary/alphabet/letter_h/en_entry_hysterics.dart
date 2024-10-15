@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) پێکەنینی کۆنترۆڵ‌نەکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She had the audience in hysterics.""",
                       kurdishText: """خەڵکەکەی خستە خشەی پێکەنین.""",

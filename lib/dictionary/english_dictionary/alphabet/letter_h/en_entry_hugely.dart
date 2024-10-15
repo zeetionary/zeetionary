@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ھاوەڵکار) زۆر زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Cooking is a hugely important part of French culture.""",

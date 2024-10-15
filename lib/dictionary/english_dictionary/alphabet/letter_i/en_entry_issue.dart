@@ -448,7 +448,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کێشەیەک یان نیگەرانییەک کە کەسێک لەگەڵ شتێک هەیەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """If you have any issues, please call this number.""",
@@ -504,7 +503,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) یەکێک لەو چاپانەی گۆڤارێک یان ڕۆژنامەیەک کە بڵاودەبێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The article appeared in issue 25.""",
                       kurdishText: """وتارەکە لە وەشانی ٢٥ ـدا بڵاوکرایەوە.""",
@@ -515,7 +513,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ژمارە یان کۆمەڵە شتێک کە پێکەوە بەردەست دەبن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The company is planning a new share issue.""",
@@ -528,7 +525,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ئەوەی شتێک بڵاوبکەیتەوە یان بەردەستی بخەیت بۆ خەڵکی بۆ ئەوەی بیکڕن یان بەکاری بهێنن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I bought a set of the tickets on the date of issue.""",
@@ -541,7 +537,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) ئەوەی کە بە فەرمی شتێک بۆ خەڵکی بڵاوبکەیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The issue of a joint statement addressed global concerns.""",
@@ -553,7 +548,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) بە فەرمی بڵاوکردنەوەی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They issued a joint statement denying the charges.""",
@@ -592,7 +586,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) پێدانی شتێک بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The authorities refused to issue him a visa.""",
@@ -621,7 +614,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) دەستپێکردنی پڕۆسەیەکی یاسایی دژ بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A warrant has been issued for his arrest.""",
@@ -642,7 +634,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (کردار) بەرهەمهێنانی شتێکی وەک گۆڤار، وتار، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We issue a monthly newsletter.""",
                       kurdishText: """هەواڵ‌نامەیەکی مانگانە بڵاودەکەینەوە.""",

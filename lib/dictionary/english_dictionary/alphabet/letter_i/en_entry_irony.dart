@@ -207,7 +207,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بەکارهێنانی وشە کە پێچەوانەی ئەوە دەڵێن کە مەبەستتە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She congratulated him with gentle irony.""",

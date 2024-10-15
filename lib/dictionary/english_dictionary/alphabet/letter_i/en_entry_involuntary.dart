@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ڕوودەدات بەبێ ئەوەی ئەو کەسەی کە بەژدارە بیەوێت ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The company announced involuntary redundancies.""",

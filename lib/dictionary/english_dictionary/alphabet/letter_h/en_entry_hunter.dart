@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کەسێک کە بۆ شتێک دەگەڕێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The outlaw was tracked down and killed by bounty hunters.""",

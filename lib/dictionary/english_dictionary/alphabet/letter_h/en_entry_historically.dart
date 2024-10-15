@@ -248,7 +248,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) کە پەیوەندیدارە بە لێکۆڵینەوە لە مێژوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The Magna Carta is a historically significant document.""",

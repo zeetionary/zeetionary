@@ -813,7 +813,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) دانانی دەستت لەسەر بەشێکی جەستتە، زۆرجار بەهۆی ئەوەی ئازاری هەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She groaned and held her head.""",
                       kurdishText: """دەیناڵاند و دەستی خۆی گرتبوو.""",
@@ -832,7 +831,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) ڕاگرتنی کەسێک/شتێک لە شوێنێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hold your head up.""",
                       kurdishText: """سەرت بە بەرزی ڕابگرە.""",
@@ -874,7 +872,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) ڕاگرتنی کێشی کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I don't think that branch will hold your weight.""",
@@ -895,7 +892,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) هەبوونی جێگای پێویست بۆ کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This barrel holds 25 litres.""",
                       kurdishText: """ئەم بەرمیلە ٢٥ لیتر دەگرێت.""",
@@ -912,7 +908,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (کردار) هەبوون یان پێشکەشکردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I don't know what the future holds.""",
                       kurdishText: """نازانم داهاتوو چی لە هەگبەیە.""",
@@ -932,7 +927,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) هەبوونی چاوپێکەوتنێک، پێشبڕکێیەک، گفتووگۆیەک، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Each month she holds a meeting with her entire staff.""",
@@ -979,7 +973,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) هەبوونی شتێک کە بەدەستتهێناوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Who holds the world record for the long jump?""",
@@ -1000,7 +993,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) هەبوونی کار یان پێگەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How long has he held office?""",
                       kurdishText: """چەند دەبێت بەرپرسە؟""",
@@ -1038,7 +1030,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (کردار) ڕاگرتنی کەسێک و ئەوەی ڕێگای پێ نەدەیت بچێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Police are holding two men in connection with last Thursday's bank raid.""",
@@ -1073,7 +1064,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (کردار) ڕاگرتنی سەرنج یان حەزی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There wasn't much in the museum to hold my attention.""",
@@ -1094,7 +1084,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (کردار) ڕاگرتنی شتێک لە هەمان ئاست، بڕ، خێرایی، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hold your speed at 70.""",
                       kurdishText: """خێراییت لە ٧٠ ڕابگرە.""",
@@ -1140,7 +1129,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (کردار) پاراستنی شتێک بۆ ئەوەی دواتر بەکاربێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Employees do not have access to personal records held on computer.""",
@@ -1153,7 +1141,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (کردار) وەستان تاوەکو قسە لەگەڵ ئەو کەسە دەکەیت کە پەیوەندیت پێوە کردووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She asked me to hold the line.""",
                       kurdishText: """داوای لێم کرد لەسەر هێڵ بم.""",
@@ -1164,7 +1151,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (کردار) خاوەندارێتی کردن یان هەبوونی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Employees hold 30% of the shares.""",
                       kurdishText: """کارمەندان ٣٠٪ ـی پشکەکانیان هەیە.""",
@@ -1191,7 +1177,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """١٦. (ناو) پننسە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The rebels held the radio station.""",
                       kurdishText:
@@ -1211,7 +1196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٧. (کردار) مانەوە بە بەهێزی و لە شوێنی خۆت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They were afraid the dam wouldn't hold.""",
@@ -1222,7 +1206,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٨. (کردار) مانەوە بە هەمان شێوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How long will the fine weather hold?""",
                       kurdishText: """چەندە کەشە خۆشەکە دەمێنێتەوە؟""",
@@ -1242,7 +1225,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٩. (کردار) هەبوونی باوەڕ یان بۆچوونێک لەسەر کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He holds strange views on education.""",
                       kurdishText: """دیدی نامۆی هەیە لەسەر پەروەردە.""",
@@ -1260,7 +1242,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢٠. (کردار) وادانانی ئەوەی شتێک ڕاستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I still hold that the government's economic policies are mistaken.""",
@@ -1291,7 +1272,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢١. (ناو) ڕاگرتنی کەسێک شتێک/شتێک؛ شێوازی ڕاگرتنی کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His hold on her arm tightened.""",
                       kurdishText: """دەستگرتنی لە قۆڵی توندتر بوو..""",
@@ -1320,7 +1300,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢٢. (ناو) شێوازێکی دیاریکراوی گرتنی کەسێک، بە تایبەتی لە شەڕ یان وەرزشێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He still had me in a tight hold.""",
                       kurdishText: """هێشتا لە چنگی توندیدا بووم.""",
@@ -1340,7 +1319,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢٣. (ناو) کاریگەری، هێز، یان کۆنترۆڵ بەسەر کەسێک/شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He struggled to get a hold of his anger.""",
@@ -1371,7 +1349,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢٤. (ناو) شوێنێک کە دەتوانیت دەست یان پێتی لێ گیر بکەیت لە کاتی سەرکەوتن بەسەر شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She put her foot firmly in the hold and pulled herself up.""",

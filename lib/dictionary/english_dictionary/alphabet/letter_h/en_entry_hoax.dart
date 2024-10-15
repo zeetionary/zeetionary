@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) فریودانی کەسێک بەوەی وابکەیت باوەڕ بە شتێکی ساختە بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He hoaxed us by sending a friend instead of coming himself. We’d never met him so we had no reason to think it wasn’t him.""",

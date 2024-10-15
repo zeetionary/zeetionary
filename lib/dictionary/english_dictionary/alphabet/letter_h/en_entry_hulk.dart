@@ -192,7 +192,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) لاشەی کەشتییەک کە لە شوێنێک ڕاگیراوە و وەک زیندانی بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We know of the worries about a return to prison hulks.""",
@@ -204,7 +203,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) کەسێکی زۆر گەورە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Henry's a real hulk of a man.""",
                       kurdishText: """هێندری هەیکەلێکی گەورەیە.""",

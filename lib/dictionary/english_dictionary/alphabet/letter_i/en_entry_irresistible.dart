@@ -209,7 +209,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) زۆر سەرنجڕاکێش کە پێتوایە دەبێت هەتبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The bright colours were irresistible to the baby.""",

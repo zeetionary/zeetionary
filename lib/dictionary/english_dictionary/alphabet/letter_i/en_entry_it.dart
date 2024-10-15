@@ -472,7 +472,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (جێناو) بۆ ئاماژە کردن بە منداڵێک، بە تایبەتی کە ڕەگەزی نازانرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her baby's due next month. She hopes it will be a boy.""",
@@ -484,7 +483,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (جێناو) بۆ ناساندنی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It's your mother on the phone.""",
                       kurdishText: """دایکت لەسەر هێڵە.""",
@@ -518,7 +516,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (جێناو) لە شوێنی بکەری کردار بەکاردێت کە باسی کات، ڕێکەوت، دووری، کەشووهەوا، هتد دەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It's ten past twelve.""",
                       kurdishText: """دە لایداوە لە دوازدە.""",
@@ -566,7 +563,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (جێناو) بۆ باسکردنی ڕاستی یان دۆخێک کە پێشوەختە زانراوە یان ڕوودەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """When the factory closes, it will mean 500 people losing their jobs.""",
@@ -586,7 +582,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (جێناو) لە شوێنی بکەر یان بەرکاری کردارێک بەکاردێت کە بکەر یان بەرکارە ڕاستییەکە لە کۆتایی ڕستەکەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Does it matter what colour it is?""",
                       kurdishText: """گرنگی هەیە چی ڕەنگێکە؟""",
@@ -634,7 +629,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (جێناو) بەکاردێت کە باسی دۆخێک دەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """If it's convenient I can come tomorrow.""",
@@ -660,7 +654,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (جێناو) بۆ جەختکردنەوە لە هەر بەشێکی ڕستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It's Jim who's the clever one.""",
                       kurdishText: """ئەوە جیمە کە زیرەکەکەیە.""",
@@ -688,7 +681,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (جێناو) ڕێک ئەوەی پێویستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In this business, either you've got it or you haven't.""",

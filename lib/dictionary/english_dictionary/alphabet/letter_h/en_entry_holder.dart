@@ -220,7 +220,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە ئەو شتەی هەڵگرتووە کە باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The pen holder keeps the desk organized.""",

@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەوەی کەسێک ناشرین بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He joked about the homeliness of the reporters.""",

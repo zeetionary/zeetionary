@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە لەو کاتانەدا ڕوونادات کە هەمان ماوە لە نێوانیاندا هەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """His heart started beating irregularly.""",
                       kurdishText: """دڵی دەستی کرد بە لێدان بە ناڕێکی.""",
@@ -206,7 +205,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵکار) کە بە پێی یاسا باوەکان نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It seems that the minister acted irregularly.""",

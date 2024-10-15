@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) نامۆ و پێکەنیناوی چونکە زۆر پێچەوانەی ئەوەیە کە پێشبینیت دەکرد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's ironic that she became a teacher—she used to hate school.""",

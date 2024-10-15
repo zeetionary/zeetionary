@@ -222,7 +222,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ئەوەی دەست و لاقت لە دەوری خۆت کۆبکەیتەوە لەبەر ئەوەی سەرماتە یان ترساویت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I huddled under a blanket on the floor.""",
@@ -235,7 +234,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) هەبوونی گفتووگۆیەکی تایبەت لە گرووپێکی بچووکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The President and his advisers huddled at the end of the table.""",
@@ -248,7 +246,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) گرووپێکی بچووک لە خەڵکی، بینا، یان شت کە لە نزیکی یەکدین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """People stood around in huddles.""",
                       kurdishText: """خەڵکی بە کۆمەڵ وەستابوون.""",

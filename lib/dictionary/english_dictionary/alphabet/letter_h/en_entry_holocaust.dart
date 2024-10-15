@@ -185,7 +185,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کوشتنی ملیۆنان جوو لەلایەن نازییەکانەوە لە پێش و ماوەی دووەم جەنگی جیهانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her grandparents were killed during the Holocaust.""",

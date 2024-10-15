@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) شتێک، بۆ نموونە مووشەکێک، کە دەتوانێت ئەو شوێنە بدۆزێتەوە کە ئاراستەی کراوە؛ ئامێرێک کە شەپۆلێک دەربدات کە وابکات بدۆزێرێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The president's car is equipped with a homing device.""",

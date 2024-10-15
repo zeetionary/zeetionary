@@ -1,5 +1,8 @@
+// ignore_for_file: avoid_print, use_build_context_synchronously
+
 import 'package:flutter/material.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 import 'package:zeetionary/home/screens/settings_screens/settings.dart';
 import 'package:zeetionary/theme/pallete.dart';
@@ -10,9 +13,24 @@ import 'package:zeetionary/firebase/features/auth/controller/auth_controller.dar
 class LoginScreen extends ConsumerWidget {
   const LoginScreen({super.key});
 
-  void signInWithGoogle(BuildContext context, WidgetRef ref) {
+  void signInWithGoogleAndPop(BuildContext context, WidgetRef ref) {
     ref.read(authControllerProvider.notifier).signInWithGoogle(context);
+    Routemaster.of(context).pop("/login-screen");
   }
+
+  // void signInWithGoogleAndPop(BuildContext context, WidgetRef ref) async {
+  //   try {
+  //     // Show a loading indicator (optional)
+  //     await ref.read(authControllerProvider.notifier).signInWithGoogle(context);
+
+  //     // Once sign-in is successful, pop the login screen
+  //     Routemaster.of(context).pop("/login-screen");
+  //   } catch (e) {
+  //     // Handle errors if sign-in fails
+  //     print('Error signing in: $e');
+  //     // You could also show an error dialog or notification here
+  //   }
+  // }
 
   @override
   Widget build(BuildContext context, WidgetRef ref) {
@@ -38,20 +56,22 @@ class LoginScreen extends ConsumerWidget {
         language == AppLanguage.english ? TextDirection.rtl : TextDirection.ltr;
 
     return Scaffold(
-      // appBar: AppBar(
-      //   actions: [
-      //     TextButton(
-      //       onPressed: () {},
-      //       child: const Text(
-      //         'چۆنیەتیی بەکارھێنان',
-      //         style: TextStyle(
-      //           color: Colors.red,
-      //           fontWeight: FontWeight.bold,
-      //         ),
-      //       ),
-      //     ),
-      //   ],
-      // ),
+      // appBar: const ZeetionaryAppbar(),
+      appBar: AppBar(
+        title: const ZeetionaryAppbarStyle(),
+        // actions: [
+        //   TextButton(
+        //     onPressed: () {},
+        //     child: const Text(
+        //       'چۆنیەتیی بەکارھێنان',
+        //       style: TextStyle(
+        //         color: Colors.red,
+        //         fontWeight: FontWeight.bold,
+        //       ),
+        //     ),
+        //   ),
+        // ],
+      ),
       body: isLoading
           ? const Loader()
           : Column(
@@ -80,7 +100,7 @@ class LoginScreen extends ConsumerWidget {
                     child: Directionality(
                       textDirection: textDirectiontwo,
                       child: ElevatedButton.icon(
-                        onPressed: () => signInWithGoogle(context, ref),
+                        onPressed: () => signInWithGoogleAndPop(context, ref),
                         icon: Image.asset(
                           Constants.googlePath,
                           width: 52,
@@ -89,7 +109,8 @@ class LoginScreen extends ConsumerWidget {
                           isKurdish
                               ? 'بچۆ ژوورەوە بە گووگڵ'
                               : 'Sign in with Google',
-                          style: const TextStyle(fontSize: 20, color: Colors.white),
+                          style: const TextStyle(
+                              fontSize: 20, color: Colors.white),
                         ),
                         style: ElevatedButton.styleFrom(
                           backgroundColor: Pallete.greyColor,

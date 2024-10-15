@@ -284,7 +284,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) دانانی شتێک لە دەوری جەستەت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She sat in the chair, hugging her knees.""",
@@ -296,7 +295,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) نزیک مانەوە لە شتێک بۆ مەودایەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The track hugs the coast for a mile.""",
                       kurdishText:
@@ -306,7 +304,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ناو) لەباوەش‌گرتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She gave her mother a big hug.""",
                       kurdishText: """باوەشێکی گەورەی بە دایکیدا کرد.""",

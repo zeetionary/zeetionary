@@ -193,7 +193,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە ئەوە پیشان دەدات حەزی زۆرت بۆ شتێک هەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He kissed her hungrily.""",
                       kurdishText: """تامەزرۆییانە ماجی کرد.""",

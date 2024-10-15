@@ -244,7 +244,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) هەستی برسییەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The meal had not satisfied his hunger.""",
                       kurdishText: """ژەمە خواردنەکە برسییەتیی تێر نەکرد.""",
@@ -277,7 +276,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) حەزی زۆر بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has an insatiable hunger for knowledge.""",

@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) سەگێکی گەورەی بەهێز کە فەرووی ئەستووری هەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The husky ran through the snow with ease.""",

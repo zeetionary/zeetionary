@@ -225,7 +225,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (جێناو) بۆ جەختکردنەوە لە ئاژەڵێک، شتێک، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The village itself is pretty, but the surrounding countryside is rather dull.""",

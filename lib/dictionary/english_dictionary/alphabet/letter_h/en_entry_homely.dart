@@ -211,7 +211,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) سادە و باش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her homely cooking reminds me of my childhood.""",

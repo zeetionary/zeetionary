@@ -297,7 +297,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) بەکارهێنانی شتێک زۆر بە وریایی و دڵنیایی کردنەوە لەوەی بەفیڕۆی نادەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Times are hard and we have to husband our resources""",

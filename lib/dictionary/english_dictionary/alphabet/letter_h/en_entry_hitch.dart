@@ -271,7 +271,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) بەرزکردنەوەی خۆت بۆ شوێنێکی بەرزتر یان ئەو شوێنەی باسکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She hitched herself up.""",
                       kurdishText: """خۆی بەرزکردەوە.""",
@@ -288,7 +287,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) بەستنەوەی شتێک بە شتێکی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She hitched the pony to the gate.""",
                       kurdishText: """ئەسپۆکەکەی بەستە دەروازەکەوە.""",
@@ -299,7 +297,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) کێشە یان سەختییەک کە دواکەوتنێکی کورت درووست دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The ceremony went off without a hitch.""",
                       kurdishText: """بۆنەکە بەبێ کێشە بەڕێوەچوو.""",

@@ -248,7 +248,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) دەرکردنی دەنگێکی بەرز کە تووڕەیت، لە ئازاردایت، هتد یان کە شتێک بە پێکەنیناوی دەبینیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The child howled in pain.""",
                       kurdishText: """منداڵەکە دەیناڵاند لە ئازاردا.""",
@@ -268,7 +267,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی با خێرا هەڵبکات و دەنگێکی بەرز دەربکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The wind was howling around the house.""",
                       kurdishText: """بایەکە هاژەی دێت بە دەوری ماڵەکەدا.""",
@@ -278,7 +276,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) گوتنی شتێک بە بەرزی و تووڕەیی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The crowd howled its displeasure.""",
                       kurdishText: """خەڵکەکە ناڕەزایی خۆیان دەربڕی.""",
@@ -289,7 +286,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) دەنگێکی بەرزی درێژ کە سەگێک، گورگێک، هتد دەری دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He leaves his dog shut up in the house all day, and we can hear its howls.""",
@@ -302,7 +298,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) دەنگێکی بەرز کە ئەوە پیشان دەدات کە تووڕەیت، لە ئازاریت، هتد یان شتێک بە پێکەنیناوی دەبینیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She let out a howl of pain.""",
                       kurdishText: """ناڵەیەکی ئازاری دەرکرد.""",
@@ -321,7 +316,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ناو) دەنگی هاژە و گیڤەی با"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They listened to the howl of the wind through the trees.""",

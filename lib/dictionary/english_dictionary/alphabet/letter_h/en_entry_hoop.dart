@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) گوارەیەک لە شێوەی ئەڵقە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was wearing large gold hoops in her ears.""",
@@ -217,7 +216,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) سەبەتەی یاریی باسکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I threw it down to the receiver and the ball went right in the hoop.""",
@@ -228,7 +226,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ناو) یاریی باسکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was while playing hoops that she broke her foot.""",

@@ -207,7 +207,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) پاشەکەوتکردنی ڕێژەیەکی زۆر لە پارە، خواردن، هتد، زۆرجار بە نهێنی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The prisoners used to hoard scraps of food in secret places.""",

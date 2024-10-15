@@ -226,7 +226,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) هۆرنی ئۆتۆمبێل"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Impatient horn blasts began to sound behind him.""",

@@ -234,7 +234,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) بازدان بەسەر شتێک کە ڕادەکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She had to hurdle over three fences to reach the finishing line.""",

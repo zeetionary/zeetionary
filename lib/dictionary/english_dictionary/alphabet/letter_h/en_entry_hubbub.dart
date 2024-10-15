@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دۆخێک کە تێیدا ڕێژەیەکی زۆر لە دەنگەدەنگ و چالاکی هەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Once the hubbub of the election had died down, it was back to normal for the president.""",

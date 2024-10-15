@@ -212,7 +212,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) بەستنی دوو لاقی ئەسپێک بە یەکەوە بۆ ئەوەی ڕانەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The horse’s hind legs had been hobbled.""",
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ئەوەی سەختی بکەیت بۆ کەسێک شتێک بکات یان شتێک ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Our work is hobbled by the amount of bureaucracy involved.""",

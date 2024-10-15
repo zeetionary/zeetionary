@@ -257,7 +257,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) زۆر سەرکەوتوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I think this band is going to be huge.""",
                       kurdishText: """پێموایە ئەم باندە زۆر سەرکەوتوو دەبێت.""",

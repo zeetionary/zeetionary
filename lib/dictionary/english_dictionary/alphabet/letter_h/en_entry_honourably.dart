@@ -199,7 +199,6 @@ Usage: Brit, Cdn (US: honorably)
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە ڕێگا بە کەسێک دەدات ناوی باشی و ڕێزی کەسانی دیکە بپارێزێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was honourably discharged from the army on medical grounds.""",

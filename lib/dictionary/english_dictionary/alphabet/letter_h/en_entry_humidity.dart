@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دۆخێک کە تێیدا کەشووهەوا شێدار و گەرمە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These plants need heat and humidity to grow well.""",

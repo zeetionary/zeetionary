@@ -289,7 +289,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) لە سەردەمێکی مێژووی؛ سەردەمێک کە تێیدا مێژوو ڕوویدەدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In historic times, wars shaped the borders of nations.""",
@@ -302,7 +301,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) تاوانێک کە لە ڕابردوودا ڕوویداوە بەڵام ئەوکاتە مامەڵەی لەگەڵ نەکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is still more to be done to right the historic injustice of slavery.""",

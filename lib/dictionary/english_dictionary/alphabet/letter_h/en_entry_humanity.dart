@@ -249,7 +249,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی مرۆڤ بیت نەک خودا، ئاژەڵ، یان ئامێر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The story was used to emphasize the humanity of Jesus.""",
@@ -262,7 +261,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەوەی کە میهرەبان بیت لەگەڵ مرۆڤ و ئاژەڵ بەوەی دڵنیایی بکەیت کە زیاتر لە پێویست ئازار ناچێژن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The judge was praised for his courage and humanity.""",
@@ -275,7 +273,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) ئەو بابەتانەی کە دەکۆڵنەوە لە شێوازی بیرکردنەوە و ڕەفتاری مرۆڤن، بۆ نموونە زمان، ئەدەب، مێژوو، و فەلسەفە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The college offers a wide range of courses in the arts and humanities.""",

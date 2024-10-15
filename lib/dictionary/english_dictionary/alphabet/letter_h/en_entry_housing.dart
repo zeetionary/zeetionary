@@ -364,7 +364,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) کاری دابینکردنی ماڵ بۆ خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We must find a way to solve the city's housing crisis.""",

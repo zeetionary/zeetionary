@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بیرۆکەیەک یان بۆچوونێک دژ بە یەکێکی دیکە بێت و نەکرێت کەسێک پێکەوە هەردووکیانی هەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """These practices are irreconcilable with the law of the Church.""",

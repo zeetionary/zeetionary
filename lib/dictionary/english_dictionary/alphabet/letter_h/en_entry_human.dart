@@ -297,7 +297,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) پەیوەندیدار بە مرۆڤ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Human remains (= the body of a dead person) were found inside the house.""",
@@ -354,7 +353,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) هەبوونی ئەو حەز و لاوازییانەی کە هی مرۆڤن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's only human to want the best for your children.""",
@@ -367,7 +365,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) هەبوونی هەمان هەست و سۆزی کەسانی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He's really very human when you get to know him.""",

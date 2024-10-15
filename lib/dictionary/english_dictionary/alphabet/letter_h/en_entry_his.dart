@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (جێناو) کە هی پیاو یان کوڕێکە یان بۆی دەگەڕێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He took my hand in his.""",
                       kurdishText: """دەستمی لە هی خۆیدا گرت.""",

@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) واکردنی ئەوەی دۆخێک، دامەزراوەیەک، هتد سەرکەتوو و لێهاتوو بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They are looking into ways of invigorating the department.""",

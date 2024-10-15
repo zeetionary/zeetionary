@@ -227,7 +227,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) دەرکردنی دەنگێکی وەک پیتی س ــی درێژ بۆ دەربڕینی ناڕەزایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """People in the audience were hissing their disapproval.""",
@@ -240,7 +239,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) گوتنی شتێک بە دەنگێکی لەسەرەخۆی تووڕەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """‘Leave me alone!’ she hissed.""",
                       kurdishText: """بە لەسەرەخۆیی گوتی 'وازم لێ بهێنە!'""",
@@ -251,7 +249,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) دەنگێک وەک پیتی س ــی درێژ کە زۆرجار بۆ دەربڕینی ناڕەزایی بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The performance was met with boos and hisses.""",

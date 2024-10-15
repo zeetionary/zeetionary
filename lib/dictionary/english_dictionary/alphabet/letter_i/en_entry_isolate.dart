@@ -230,7 +230,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ئەوەی خۆت لە خەڵکی دیکە داببڕیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You need to isolate for five days if you test positive.""",
@@ -243,7 +242,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) جیاکردنەوەی بەشێکی دۆخێک، کێشەیەک، بیرۆکەیەک، هتد بۆ ئەوەی بزانیت چۆنە و بە جودایی مامەڵەی لەگەڵ بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It is possible to isolate a number of factors that contributed to her downfall.""",

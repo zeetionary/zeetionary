@@ -334,7 +334,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) لێدانێک توند بەوەی ئانیشکت چەماوەتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A left hook to the jaw ended the match in seconds.""",
@@ -347,7 +346,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شێوازێکی لێدان لە تۆپ کە بچەمێتەوە وەک ئەوەی ڕاست بچێت، کە زۆرجار بە هەڵە دەکرێت لە گۆڵفدا بەڵام لە کریکیت بە ئەنقەستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She mistimed a hook and was caught.""",
                       kurdishText:
@@ -361,7 +359,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) شتێک کە سەرنجی خەڵکی ڕادەکێشێت بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The images are used as a hook to get children interested in science.""",
@@ -374,7 +371,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) بەستن یان هەڵواسین بە قولاپ یان شتێکی کە وەک قولاپە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We hooked the trailer to the back of the car.""",
@@ -393,7 +389,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) گیرکردنی شتێک، زیاتر لاقت یان باڵت، لە شتێکی دیکە بۆ ئەوەی خۆتی پێوە ببەستیت یان بیجووڵێنیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He hooked his foot under the stool and dragged it over.""",
@@ -427,7 +422,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (کردار) گرتنی ماسی بە قولاپ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It was the biggest fish I ever hooked.""",
                       kurdishText:
@@ -448,7 +442,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (کردار) لێدان لە تۆپ بە شێوەیەک بەرەو یەک لا بچێت وەک ئەوەی ڕاست بچێت (زۆرجار بە هەڵە دەکرێت لە گۆڵفدا بەڵام لە وەرزشەکانی دیکە بە ئەنقەستە)"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Try and hook the ball around the defenders.""",

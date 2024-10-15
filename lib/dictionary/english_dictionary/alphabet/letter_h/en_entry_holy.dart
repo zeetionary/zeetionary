@@ -227,7 +227,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) باش لەلایەنی ئەخلاقی و ئایینییەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He tries to live a holy life.""",
                       kurdishText: """هەوڵ دەدات ژیانێکی پیرۆزانە بژی.""",
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) بۆ گوتنی ئەوەی سەرسام، ترساو، هتد ــیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Holy cow! What was that?""",
                       kurdishText: """وای خودا! ئەوە چی بوو؟""",

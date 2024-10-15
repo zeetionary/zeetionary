@@ -286,7 +286,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) بە کرێ گرتنی کەسێک بۆ ماوەیەکی کەمی بۆ کردنی کارێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Workers were hired by the day.""",
                       kurdishText:
@@ -315,7 +314,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) پێدانی پارە بۆ بە قەرزوەرگرتنی شتێک بۆ ماوەیەکی کەم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We hired a car from a local firm.""",
                       kurdishText:
@@ -336,7 +334,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی پارە بدەیت بۆ بەکارهێنانی شتێک بۆ ماوەیەکی کەم"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The price includes the hire of the hall.""",
@@ -356,7 +353,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) کەسێک کە تازە کارێکی لە کۆمپانیایەک پێدراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """New hires get raises after a set period of time.""",

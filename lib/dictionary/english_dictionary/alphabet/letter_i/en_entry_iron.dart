@@ -255,7 +255,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئامێرێک کە خوارەکەی تەختە، گەرم دەکرێت، و بەکاردێت بۆ نەرمکردنی جل"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I just need to run an iron over my shirt, then I'm ready.""",
@@ -271,7 +270,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) زنجیر و شتی دیکەی قورس کە لە ئاسن درووستکراون و لە دەست و لاقی زیندانییان دەبەسترێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was common practice for the prisoners to be clapped in irons (= tied with chains).""",
@@ -283,7 +281,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) ئوتووکردنی جل"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He was ironing when I arrived.""",
                       kurdishText: """ئوتووی دەکرد کە گەشتم.""",
@@ -302,7 +299,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) زۆر بەهێز و شێلگیر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She was known as the ‘Iron Lady’.""",
                       kurdishText: """بە 'خانمی پۆڵایین' ناسراو بوو.""",

@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) هەبوونی دۆخی باش کە ڕێگا دەدات بە ژیان و گەشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It's difficult to think of a less hospitable environment than the surface of the moon.""",

@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە گرنگ نییە بۆ دۆخێک یان پەیوەندیی نییە پێوەی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His idea was rejected as an irrelevance.""",

@@ -253,108 +253,109 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
           // Check if all questions have been answered
           if (answered.length == questions.length) {
             return Center(
-              child: ElevatedButton(
-                onPressed: () {
-                  // Show confirmation dialog
-                  showDialog(
-                    context: context,
-                    builder: (context) => Align(
-                      alignment: alignment,
-                      child: Directionality(
-                        textDirection: textDirection,
-                        child: AlertDialog(
-                          title: Directionality(
+              child: Column(
+                crossAxisAlignment: CrossAxisAlignment.center,
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  const TotalPointsAndAnswers(),
+                  const SizedBox(
+                    height: 24,
+                  ),
+                  ElevatedButton(
+                    onPressed: () {
+                      // Show confirmation dialog
+                      showDialog(
+                        context: context,
+                        builder: (context) => Align(
+                          alignment: alignment,
+                          child: Directionality(
                             textDirection: textDirection,
-                            child: Text(
-                              isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
-                              style: TextStyle(
-                                fontSize: textSize + 6,
-                                color: Theme.of(context).primaryColor,
-                              ),
-                              textDirection: textDirection,
-                            ),
-                          ),
-                          content: Text(
-                            isKurdish
-                                ? 'دڵنیایت دەتەوێت لە سەرەتاوە دەست پێبکەیت؟'
-                                : 'Are you sure you want to reset your progress?',
-                            style: TextStyle(
-                              color: Theme.of(context).primaryColor,
-                              fontSize: textSize + 2,
-                            ),
-                            textDirection: textDirection,
-                          ),
-                          actions: [
-                            TextButton(
-                              onPressed: () => Navigator.pop(context),
-                              child: Text(
-                                isKurdish ? 'نەخێر' : 'No',
-                                style: TextStyle(
-                                  fontSize: textSize,
-                                  color: Colors.green,
+                            child: AlertDialog(
+                              title: Directionality(
+                                textDirection: textDirection,
+                                child: Text(
+                                  isKurdish
+                                      ? "بگەڕێوە سەرەتا"
+                                      : 'Reset Progress',
+                                  style: TextStyle(
+                                    fontSize: textSize + 6,
+                                    color: Theme.of(context).primaryColor,
+                                  ),
+                                  textDirection: textDirection,
                                 ),
                               ),
-                            ),
-                            TextButton(
-                              onPressed: () {
-                                ref
-                                    .read(answeredQuestionsProvider.notifier)
-                                    .reset();
-                                Navigator.pop(context);
-                              },
-                              child: Text(
-                                isKurdish ? 'بەڵێ' : 'Yes',
+                              content: Text(
+                                isKurdish
+                                    ? 'دڵنیایت دەتەوێت لە سەرەتاوە دەست پێبکەیت؟'
+                                    : 'Are you sure you want to reset your progress?',
                                 style: TextStyle(
-                                  fontSize: textSize,
-                                  color: Colors.red,
+                                  color: Theme.of(context).primaryColor,
+                                  fontSize: textSize + 2,
                                 ),
+                                textDirection: textDirection,
                               ),
+                              actions: [
+                                TextButton(
+                                  onPressed: () => Navigator.pop(context),
+                                  child: Text(
+                                    isKurdish ? 'نەخێر' : 'No',
+                                    style: TextStyle(
+                                      fontSize: textSize,
+                                      color: Colors.green,
+                                    ),
+                                  ),
+                                ),
+                                TextButton(
+                                  onPressed: () {
+                                    ref
+                                        .read(
+                                            answeredQuestionsProvider.notifier)
+                                        .reset();
+                                    Navigator.pop(context);
+                                  },
+                                  child: Text(
+                                    isKurdish ? 'بەڵێ' : 'Yes',
+                                    style: TextStyle(
+                                      fontSize: textSize,
+                                      color: Colors.red,
+                                    ),
+                                  ),
+                                ),
+                              ],
                             ),
-                          ],
+                          ),
                         ),
+                      );
+                    },
+                    // If all questions answered
+                    child: Directionality(
+                      textDirection: textDirection,
+                      child: Row(
+                        mainAxisSize: MainAxisSize.min,
+                        children: [
+                          Transform(
+                            alignment: Alignment.center,
+                            transform: isKurdish
+                                ? Matrix4.rotationY(3.14159)
+                                : Matrix4.identity(),
+                            child: Icon(
+                              Icons.refresh,
+                              color: Theme.of(context).primaryColor,
+                            ),
+                          ),
+                          const SizedBox(width: 8),
+                          Text(
+                            isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
+                            style: TextStyle(
+                              fontSize: textSize + 4,
+                              color: Theme.of(context).primaryColor,
+                            ),
+                          ),
+                        ],
                       ),
                     ),
-                  );
-                },
-                // If all questions answered
-                child: Center(
-                  child: Column(
-                    mainAxisSize: MainAxisSize.min,
-                    children: [
-                      const TotalPointsAndAnswers(),
-                      const SizedBox(height: 20),
-                      Align(
-                        alignment: Alignment.center,
-                        child: Directionality(
-                          textDirection: textDirection,
-                          child: Row(
-                            mainAxisSize: MainAxisSize.min,
-                            children: [
-                              Transform(
-                                alignment: Alignment.center,
-                                transform: isKurdish
-                                    ? Matrix4.rotationY(3.14159)
-                                    : Matrix4.identity(),
-                                child: Icon(
-                                  Icons.refresh,
-                                  color: Theme.of(context).primaryColor,
-                                ),
-                              ),
-                              const SizedBox(width: 8),
-                              Text(
-                                isKurdish ? "بگەڕێوە سەرەتا" : 'Reset Progress',
-                                style: TextStyle(
-                                  fontSize: textSize + 4,
-                                  color: Theme.of(context).primaryColor,
-                                ),
-                              ),
-                            ],
-                          ),
-                        ),
-                      ),
-                    ],
                   ),
-                ),
+                ],
               ),
             );
           }
@@ -369,53 +370,56 @@ class QuizScreenJsonJsonHome extends ConsumerWidget {
                 // Move ProgressWidget inside Scaffold
                 const ProgressWidget(),
                 const SizedBox(height: 10),
-                Expanded(
-                  child: GridView.builder(
-                    gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
-                      crossAxisCount:
-                          MediaQuery.of(context).size.width > 600 ? 4 : 2,
-                      mainAxisSpacing: 10,
-                      crossAxisSpacing: 10,
-                      childAspectRatio: 3,
-                    ),
-                    itemCount: tags.length,
-                    itemBuilder: (context, index) {
-                      final tag = tags[index];
-                      final isSelected =
-                          ref.watch(selectedTagsProvider).contains(tag);
-                      return GestureDetector(
-                        onTap: () {
-                          final notifier =
-                              ref.read(selectedTagsProvider.notifier);
-                          if (isSelected) {
-                            notifier.state = List.from(notifier.state)
-                              ..remove(tag);
-                          } else {
-                            notifier.state = List.from(notifier.state)
-                              ..add(tag);
-                          }
-                        },
-                        child: Container(
-                          decoration: BoxDecoration(
-                            color: isSelected
-                                ? Colors.blueAccent
-                                : Theme.of(context).canvasColor,
-                            borderRadius: BorderRadius.circular(8),
-                          ),
-                          child: Center(
-                            child: Text(
-                              tag.replaceAll('_', ' ').toUpperCase(),
-                              style: TextStyle(
-                                color: isSelected
-                                    ? Theme.of(context).primaryColor
-                                    : Theme.of(context).highlightColor,
-                                fontWeight: FontWeight.bold,
+                Directionality(
+                  textDirection: textDirection,
+                  child: Expanded(
+                    child: GridView.builder(
+                      gridDelegate: SliverGridDelegateWithFixedCrossAxisCount(
+                        crossAxisCount:
+                            MediaQuery.of(context).size.width > 600 ? 4 : 2,
+                        mainAxisSpacing: 10,
+                        crossAxisSpacing: 10,
+                        childAspectRatio: 3,
+                      ),
+                      itemCount: tags.length,
+                      itemBuilder: (context, index) {
+                        final tag = tags[index];
+                        final isSelected =
+                            ref.watch(selectedTagsProvider).contains(tag);
+                        return GestureDetector(
+                          onTap: () {
+                            final notifier =
+                                ref.read(selectedTagsProvider.notifier);
+                            if (isSelected) {
+                              notifier.state = List.from(notifier.state)
+                                ..remove(tag);
+                            } else {
+                              notifier.state = List.from(notifier.state)
+                                ..add(tag);
+                            }
+                          },
+                          child: Container(
+                            decoration: BoxDecoration(
+                              color: isSelected
+                                  ? Colors.blueAccent
+                                  : Theme.of(context).canvasColor,
+                              borderRadius: BorderRadius.circular(8),
+                            ),
+                            child: Center(
+                              child: Text(
+                                tag.replaceAll('_', ' ').toUpperCase(),
+                                style: TextStyle(
+                                  color: isSelected
+                                      ? Theme.of(context).primaryColor
+                                      : Theme.of(context).highlightColor,
+                                  fontWeight: FontWeight.bold,
+                                ),
                               ),
                             ),
                           ),
-                        ),
-                      );
-                    },
+                        );
+                      },
+                    ),
                   ),
                 ),
                 const SizedBox(height: 20),

@@ -25,8 +25,8 @@ class EnglishDictionary extends StatelessWidget {
       controller: scrollController,
       itemCount: words.length,
       separatorBuilder: (BuildContext context, int index) {
-                  return const ListViewSeparator();
-                },
+        return const ListViewSeparator();
+      },
       itemBuilder: (BuildContext context, int index) {
         return ListTileEnglish(
           wordsEnglish: words[index],

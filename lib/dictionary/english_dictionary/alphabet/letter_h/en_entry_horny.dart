@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) سەرنجڕاکێش لەلایەنی سێکسییەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """You look horny in that skirt.""",
                       kurdishText: """بەو تەنوورەیەوە سەرنجڕاکێش دیاریت.""",
@@ -211,7 +210,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە لە مادەی سەختی وەک شاخ درووستکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Birds have horny beaks.""",
                       kurdishText: """باڵندە دەنووکی سەختی هەیە.""",
@@ -221,7 +219,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) سەخت و زبر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His horny hands were evidence of his daily hard work.""",

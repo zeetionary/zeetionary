@@ -242,7 +242,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) وەستان لە شوێنێک، بە تایبەتی لە نزیک کەسێک، بەشێوەیەکی شەرمنانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He hovered over her, waiting for an answer.""",
@@ -262,7 +261,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) وەستان بە نزیکی لە کەسێکەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Temperatures hovered around freezing.""",
                       kurdishText: """پلەی گەرمی لە دەوری بەستن دەسووڕایەوە.""",

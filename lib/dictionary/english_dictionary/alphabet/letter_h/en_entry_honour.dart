@@ -436,7 +436,6 @@ Usage: Brit, Cdn (US: honor)
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) زانین و کردنی ئەوەی لە ڕووی ئەخلاقییەوە ڕاستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Proving his innocence has become a matter of honour.""",
@@ -456,7 +455,6 @@ Usage: Brit, Cdn (US: honor)
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ناو) ناوبانگی باش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The family honour is at stake.""",
                       kurdishText: """شکۆی خێزانەکە لە مەترسییە.""",
@@ -493,7 +491,6 @@ Usage: Brit, Cdn (US: honor)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) کەسێک یان شتێک کە جێگای شانازییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She is an honour to the profession.""",
                       kurdishText: """جێگای شانازییە بۆ کارەکە.""",
@@ -504,7 +501,6 @@ Usage: Brit, Cdn (US: honor)
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) خەڵات، نازناوی فەرمی، هتد کە دەدرێت بە کەسێک وەک پاداشتی شتێک کە کردوویەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She received nearly every honour bestowed upon a poet.""",
@@ -533,7 +529,6 @@ Usage: Brit, Cdn (US: honor)
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) کۆرسێکی زانکۆ کە لە ئاستێکی باڵاترە وەک لە هی ئاسایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I took an honors class in English.""",
                       kurdishText: """کۆرسێکی باڵام لە ئینگلیزی وەرگرت.""",
@@ -544,7 +539,6 @@ Usage: Brit, Cdn (US: honor)
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) ئەوەی لە تاقیکردنەوەیەک، قوتابخانەیەک یان زانکۆیەک دەربچیت بە نمرەیەکی بەرزەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She graduated with honours in June 1970.""",
@@ -557,7 +551,6 @@ Usage: Brit, Cdn (US: honor)
                     const DefinitionKurdish(
                         text:
                             """٩. (ناو) نازناوێک کە لەگەڵ داوەرێک قسە دەکەیت یان لەگەڵ سەرۆک شارەوانییەکی ئەمریکا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """No more questions, Your Honour.""",
                       kurdishText: """پرسیاری تر نییە، گەورەم.""",
@@ -567,7 +560,6 @@ Usage: Brit, Cdn (US: honor)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (کردار) پیشاندانی ڕێز بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It was a simple ceremony to honour the Goddess of water.""",
@@ -597,7 +589,6 @@ Usage: Brit, Cdn (US: honor)
                     const DefinitionKurdish(
                         text:
                             """١١. (کردار) پێدانی ستایشی فەرمی، خەڵات، یان نازناوێک بە کەسێک بۆ شتێک کە کردوویەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has never been properly honoured in her own country.""",
@@ -626,7 +617,6 @@ Usage: Brit, Cdn (US: honor)
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (کردار) کردنی ئەوەی کە بەڵێنت داوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I have every intention of honouring our contract.""",

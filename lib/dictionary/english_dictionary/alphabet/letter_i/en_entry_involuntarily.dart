@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک بەبێ ئەوەی ئەو کەسەی کە بەژدارە بیەوێت ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was involuntarily committed for psychiatric treatment.""",

@@ -233,7 +233,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەوەی تەنها بیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Many unemployed people experience feelings of isolation and depression.""",

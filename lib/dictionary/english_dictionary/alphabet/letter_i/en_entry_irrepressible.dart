@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) زۆر بەهێز کە ناوەستێندرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Even the rain failed to dampen his irrepressible spirits.""",

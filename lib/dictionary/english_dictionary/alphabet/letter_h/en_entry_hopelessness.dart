@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی دۆخێک تەواو خراپ بێت و هیچ هیوایەک نەبێت بۆ باش بوون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I find the hopelessness of the situation very depressing.""",
@@ -202,7 +201,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەوەی کەسێک زۆر خراپ بێت یان هیچ شارەزایی نەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His hopelessness at remembering names meant that he had to look them up in his book.""",

@@ -227,7 +227,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە هیوا پیشان دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She gave him a hopeful smile before the interview.""",

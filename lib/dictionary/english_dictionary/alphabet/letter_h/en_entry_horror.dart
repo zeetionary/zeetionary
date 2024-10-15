@@ -329,7 +329,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەزموونێکی زۆر ناخۆش و ترسێنەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The UN has been slow to condemn the horrors being perpetrated by the regime.""",
@@ -368,7 +367,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) سرووشتی زۆر خراپی شتێک """),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In his dreams he relives the horror of the attack.""",
@@ -390,7 +388,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) هەستێکی بەهێزی ترس یان ڕق لە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Most people have a horror of speaking in public.""",
@@ -402,7 +399,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) فیلم یان کتێبی ترسناک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The horror movie had a blood-curdling scene that left everyone terrified.""",

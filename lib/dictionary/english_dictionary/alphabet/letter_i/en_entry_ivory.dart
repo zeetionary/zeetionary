@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) شتێک کە لە عاج درووستکراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Of an evening she would entertain them by tinkling the ivories (= playing the piano).""",

@@ -207,7 +207,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) بۆ بانگکردنی کەسێک کە خۆشت دەوێت یان حەزت لێیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Have you seen my keys, honey?""",
                       kurdishText: """کلیلەکانمت دیوە، ئازیزم؟""",
@@ -218,7 +217,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کەسێک کە خۆشت دەوێت یان حەزت لێیەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He can be a real honey when he wants to be.""",

@@ -200,7 +200,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) جۆرە بۆچوون یان باوەڕێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Politicians of all hues wish to get controversy off the agenda so that they can discuss the real issues.""",

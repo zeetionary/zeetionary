@@ -330,7 +330,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بۆ پرسین لە تەندرووستی کەسێک و ئەوەی دۆخی چۆنە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How are you?""",
                       kurdishText: """چۆنیت؟""",
@@ -362,7 +361,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بۆ پرسین لەوەی شتێک سەرکەوتووە یان خۆشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How was your trip?""",
                       kurdishText: """گەشتەکەت چۆن بوو؟""",
@@ -380,7 +378,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵکار) پێش هاوەڵناو یان هاوەڵکارێک بەکاردێت بۆ پرسین لە ڕێژە، ئاست، هتد ــی شتێک یان تەمەنی کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How often do you go swimming?""",
                       kurdishText: """چەندە زۆر دەچیتە مەلەوانی؟""",
@@ -420,7 +417,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵکار) بۆ دەربڕینی سەرسوڕمان، خۆشی، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """How kind of you to help!""",
                       kurdishText: """چەند لە میهرەبانیتە یارمەتی بدەیت!""",

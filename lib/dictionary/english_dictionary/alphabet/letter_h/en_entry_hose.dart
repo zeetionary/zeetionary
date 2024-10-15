@@ -225,7 +225,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) شۆردن یان ئاو پرژاندن بە سۆندە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Firemen hosed the burning car.""",
                       kurdishText:

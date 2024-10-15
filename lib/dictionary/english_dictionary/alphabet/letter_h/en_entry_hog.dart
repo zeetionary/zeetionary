@@ -203,7 +203,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) قۆرخکردنی زۆرینەی شتێک بۆ خۆت و ڕێگری لەوەی کەسانی دیکە بەکاری بهێنن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He's always hogging the bathroom.""",
                       kurdishText: """هەمیشە گەرماوەکەی خۆرخکردووە.""",

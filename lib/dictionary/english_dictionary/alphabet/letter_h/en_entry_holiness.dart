@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) نازناوێک کە بەکاردێت لە کاتی قسەکردن لەگەڵ کەسێکی ئایینی گرنگ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Yes, Your Holiness.""",
                       kurdishText: """بەڵی، خاوەن پایە.""",

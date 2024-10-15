@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) پێڵووی چاو کە گەورەیە و زیاتر لە ئاسایی چاو دادەپۆشێت و وادەکات چاو وەها دەربکەوێت کە نیوەی داخراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He watched her from under hooded eyelids.""",

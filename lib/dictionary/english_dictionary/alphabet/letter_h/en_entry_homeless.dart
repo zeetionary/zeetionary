@@ -223,7 +223,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ئەو کەسانەی کە ماڵیان نییە بۆ ژیان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The homeless sometimes have to sleep in the streets.""",

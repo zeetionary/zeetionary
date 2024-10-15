@@ -205,7 +205,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە بەرەو ناو یان چەقی شتێکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The force pushes the object in an inward direction.""",
@@ -217,7 +216,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵکار) بەرەو ناو یان چەقی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The door opens inward.""",
                       kurdishText: """دەرگاکە بەرەو ناوەوە دەکرێتەوە.""",
@@ -227,7 +225,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵکار) بەرەو خۆت و بیرکردنەوەکانت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """After the accident, her thoughts began to turn inwards (= to her own interests or problems).""",

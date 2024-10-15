@@ -341,7 +341,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ئەوەی خواردنی پێویست نەبێت بیخۆیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Thousands are going hungry because of the failure of this year's harvest.""",
@@ -371,7 +370,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) ئەو کەسانەی خواردنی پێویستییان نییە بۆ خواردن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hungry gathered at the food distribution center.""",
@@ -383,7 +381,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) کە برسیت دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """All this gardening is hungry work.""",
                       kurdishText: """ئەم هەموو باخدارییە کاری برسی‌هێنەرە.""",
@@ -393,7 +390,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ھاوەڵناو) هەبوونی حەزی زۆر بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Both parties are hungry for power.""",
                       kurdishText: """هەردوو پارتەکە برسی دەسەڵاتن.""",

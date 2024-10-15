@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو بەشەی هوتێل، نەخۆشخانە، بینایەک، هتد کە بەرپرسی پاککردنەوەی ژوورەکان، هتد ــە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Call housekeeping and ask them to bring us some clean towels.""",

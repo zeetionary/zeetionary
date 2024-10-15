@@ -265,7 +265,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) بەتوندی ڕەتکردنەوەی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The proposals have provoked a hostile response from opposition parties.""",
@@ -287,7 +286,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) ئەوەی وابکات سەختتر بێت بۆ کەسێک شتێک بەدەست بهێنێت یان شتێک ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The desert’s hostile conditions make plant growth tough.""",
@@ -299,7 +297,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) کە سەر بە سوپای دوژمنە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Traveling through hostile territory requires caution.""",

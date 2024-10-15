@@ -309,7 +309,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) سنووری حەز، زانیاری، و ئارەزووەکانت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """What annoys me about these girls is their complacency - they seem to have no desire to expand their horizons.""",

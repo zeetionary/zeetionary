@@ -291,7 +291,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) کە دۆخێک، بۆنەیەک، یان چالاکییەک ک/شت لەخۆ بگرێت، ئەوا بەژداری تێدا دەکەن یان کاریگەر دەبن پێی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There was a serious incident involving a group of youths.""",
@@ -304,7 +303,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) واکردنی ئەوەی کەسێک بەژداری لە شتێک بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We want to involve as many people as possible in the celebrations.""",

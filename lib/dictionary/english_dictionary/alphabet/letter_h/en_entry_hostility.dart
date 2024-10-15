@@ -266,7 +266,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دژبەری توند بەرامبەر بە پلان، بیرۆکەیەک، یان دۆخێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The proposal was met with outright hostility.""",
@@ -287,7 +286,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ناو) شەڕکردن لە جەنگێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Hostilities were resumed later that year.""",

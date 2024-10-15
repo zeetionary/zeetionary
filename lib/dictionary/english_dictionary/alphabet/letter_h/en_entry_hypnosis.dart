@@ -178,7 +178,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) ئەوەی کەسێک بخەیتە ئەم دۆخەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hypnosis helped him give up smoking.""",
                       kurdishText:

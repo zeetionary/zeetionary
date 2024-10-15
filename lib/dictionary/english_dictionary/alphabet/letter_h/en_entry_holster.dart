@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) دانانی دەمانچە لە بەرگەکەی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He holstered his gun and walked away.""",
                       kurdishText: """چەکەکەیی خستە بەرگەکەی و ڕۆشت.""",

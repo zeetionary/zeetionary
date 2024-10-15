@@ -302,7 +302,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی کەسێک بانگهێشت بکەیت یان بانگهێشت بکرێیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He produced an official letter of invitation.""",
@@ -330,7 +329,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کارتێک یان پارچە کاغەزێک کە بەکاری دێنیت بۆ بانگهێشتی خەڵکی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We've already sent out the invitations.""",
@@ -342,7 +340,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) شتێک کە هانی کەسێک دەدات شتێک بکات، یان هانی ڕوودانی شتێک دەدات، زۆرجار شتێکی خراپ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Leaving the doors unlocked is an open invitation to burglars.""",

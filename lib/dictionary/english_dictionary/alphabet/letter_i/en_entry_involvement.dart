@@ -277,7 +277,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی کات و سەرنجی زۆر بدەیت بە شتێک کە گرنگی پێدەدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The new album came out of her growing involvement with contemporary music.""",
@@ -290,7 +289,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) پەیوەندییەکی نزیک لەگەڵ کەسێک، بە تایبەتی سۆزداری یانن سێکسی لەگەڵ کەسێک کە هاوسەرگیریت لەگەڵ نەکردووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He spoke openly about his involvement with the singer.""",

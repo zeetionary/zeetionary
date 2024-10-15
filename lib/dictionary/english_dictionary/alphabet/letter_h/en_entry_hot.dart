@@ -605,7 +605,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە کەسێک گەرمای بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Is anyone too hot?""",
                       kurdishText: """هیچ کەس زۆر گەرمایەتی؟""",
@@ -656,7 +655,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) کە وات لێدەکات گەرمات ببێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """London was hot and dusty.""",
                       kurdishText: """لەندەن گەرما و خۆڵاوی بوو.""",
@@ -687,7 +685,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) خواردنی توون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He brought out a plate of sausages covered in hot mustard.""",
@@ -707,7 +704,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ھاوەڵناو) کە ژمارەیەکی زۆر مشتومڕ، چالاکی، و هەست و سۆز لەخۆ دەگرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Today we enter the hottest phase of the election campaign.""",
@@ -737,7 +733,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ھاوەڵناو) کە سەخت یان ترسناکە بۆ مامەڵە لەگەڵ کردن و وادەکات هەست بە نیگەرانی یان نائاسوودەیی بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They're making life hot for her.""",
                       kurdishText: """ژیان سەخت دەکەن بۆی.""",
@@ -757,7 +752,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ھاوەڵناو) کە تازە، بەجۆشهێنەر، و زۆر بەناوبانگە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This is one of the hottest clubs in town.""",
@@ -779,7 +773,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ھاوەڵناو) زۆر تازە و پێشتر نەبینراو کە خۆشە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I've got some hot gossip for you!""",
                       kurdishText: """چەند قسەڵۆکێکی گەرم‌وگوڕم پێیە بۆت.""",
@@ -789,7 +782,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (ھاوەڵناو) کە ئەگەری هەیە سەرکەوتوو بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Do you have any hot tips for today's race?""",
@@ -801,7 +793,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (ھاوەڵناو) زۆر باش لە کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Don't ask me—I'm not too hot on British history.""",
@@ -813,7 +804,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (ھاوەڵناو) کەسێک کە زوو تووڕە دەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He had a hot temper and his colleagues learned to approach him with caution.""",
@@ -826,7 +816,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٢. (ھاوەڵناو) کە ورووژانی جەستەیی درووست دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's really hot!""",
                       kurdishText: """بە ڕاستی ورووژێنەرە!""",
@@ -844,7 +833,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (ھاوەڵناو) کە دیمەن، قسە، هتد ــی شۆکهێنەر لەخۆ دەگرێت کە دەکرێت تووڕەیی درووست بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Some of the nude scenes were regarded as too hot for children.""",
@@ -857,7 +845,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (ھاوەڵناو) دڵنیایی کردنەوەی ئەوەی کە شتێک زۆر گرنگە و دەبێت هەمیشە بکرێت یان ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They're very hot on punctuality at work.""",

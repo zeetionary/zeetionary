@@ -628,7 +628,6 @@ Usage: Brit, Cdn
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) بەسەربردنی پشوویەک لە شوێنێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We often holidayed together.""",
                       kurdishText: """زۆرجار پشوومان پێکەوە بەسەر دەبرد.""",

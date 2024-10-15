@@ -248,7 +248,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) زۆرکردن لە کەسێک لە بڕیاردان پێش ئەوەی ئامادە یان دڵنیا بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """All the family felt that Stephen had been hustled into the engagement by Claire.""",
@@ -261,7 +260,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) فرۆشتن یان بەدەستهێنانی شتێک، زۆرجار بە نایاسایی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They survive by hustling on the streets.""",
@@ -273,7 +271,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) دەنگەدەنگی خەڵکێکی زۆر لە یەک شوێندا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We escaped from the hustle and bustle of the city for the weekend.""",
@@ -286,7 +283,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ئەوەی کەسێک شتێک بەدەست بهێنێت بە فێڵ و تەڵەکەبازی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is a long list of hustles used to avoid the draft.""",

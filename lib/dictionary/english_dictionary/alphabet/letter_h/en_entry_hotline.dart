@@ -181,7 +181,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) هێڵی تەلەفۆنی سەرۆکی وڵاتان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hotline to the White House is always open.""",

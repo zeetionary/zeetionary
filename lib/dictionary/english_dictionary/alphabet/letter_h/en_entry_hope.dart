@@ -723,7 +723,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) هەبوونی ویستی کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We're hoping to address all these issues.""",
@@ -736,7 +735,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) هەستی ئەوەی بتەوێت شتێکی دیاریکراو ڕووبدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Don't lose hope—we'll find her.""",
                       kurdishText: """هیوا لەدەست مەدە ـ دەیدۆزینەوە.""",
@@ -779,7 +777,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) هەبوونی هۆکارێک بۆ باوەڕ بەوەی شتێکی باش ڕوودەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The future is not without hope.""",
                       kurdishText: """داهاتوو بێ هوومێد نییە.""",
@@ -885,7 +882,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) کەسێک/شتێک کە یارمەتیت دەدات ئەوە بەدەست بخەیت کە دەتەوێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The operation was Kelly's only hope of survival.""",

@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە کەسێک سواری ئەسپ دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I went horseback riding (= riding on a horse for enjoyment) with my brother.""",

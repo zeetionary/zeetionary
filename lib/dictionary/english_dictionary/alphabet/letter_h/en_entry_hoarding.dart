@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پەرژینێکی کاتی کە لە دەوری پارچە زەوییەک دادەنرێت تاوەکو بینایەک درووست دەکرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A hoarding was placed around the roadwork zone.""",
@@ -202,7 +201,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەوەی ڕێژەیەکی زۆر لە پارە، خواردن، هتد کۆبکەیتەوە، زۆرجار بەنهێنی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The food shortages have been exacerbated by hoarding.""",

@@ -241,7 +241,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کلێتە کە لەەری لەسەری کەسێک دەکرێت بۆ ئەوەی نەناسرێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The detainees were led away with black hoods over their heads.""",
@@ -254,7 +253,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) لە ئینگلیزی بەریتانی بریتییە لە بەشی سەرەوەی ئۆتۆمبێل، هتد کە دەکرێت هەڵبدرێتەوە یان دابدرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We drove all the way with the hood down.""",
@@ -280,7 +278,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) داپۆشەر بۆ پاراستن، بۆ نموونە لەسەر ئامێرێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The photographer always attaches a lens hood for outdoor photos.""",

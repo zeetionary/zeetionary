@@ -339,7 +339,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) کە کاتێکی زۆر بە ک/شت بدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She was deeply involved with the local hospital.""",
@@ -378,7 +377,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) هەبوونی پەیوەندییەکی کەسی نزیک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They're not romantically involved.""",
                       kurdishText: """سۆزدارییانە پەیوەندییان نییە.""",

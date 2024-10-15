@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بە شێوەیەک کە نامۆ و پێکەنیناوییە چونکە زۆر پێچەوانەی ئەوەیە کە پێشبینیت دەکرد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Ironically, the book she felt was her worst sold more copies than any of her others.""",

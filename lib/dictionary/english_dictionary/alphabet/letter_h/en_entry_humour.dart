@@ -235,7 +235,6 @@ Usage: Brit, Cdn (US: humor)
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) دۆخی هەست و هزرت لە کاتێکی دیاریکراودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The meeting dissolved in ill humour.""",
                       kurdishText:
@@ -249,7 +248,6 @@ Usage: Brit, Cdn (US: humor)
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ڕازی بوون بە هیواکانی کەسێک، ئەگەرچی نەگونجاو بن، بۆ ئەوەی دڵخۆشی بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She thought it best to humour him rather than get into an argument.""",

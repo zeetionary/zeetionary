@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک کە لە شوێنێکەوە بۆ شوێنێکی دیکە گەشت بکات، بە تایبەتی بۆ دۆزینەوەی کار"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He lived as an itinerant, earning or begging his bread as he went.""",

@@ -324,10 +324,10 @@ class _ZeetionaryAppbarStyleadvertwoState extends ConsumerState
           tween: Tween(begin: 0.0, end: 1.0),
           weight: 2), // A // fade in for this
       TweenSequenceItem(
-          tween: ConstantTween(1.0), weight: 24.5), // B // appear for this
+          tween: ConstantTween(1.0), weight: 24.7), // B // appear for this
       TweenSequenceItem(
           tween: Tween(begin: 1.0, end: 0.0),
-          weight: 0.5), // C // fade out in this
+          weight: 0.3), // C // fade out in this
       TweenSequenceItem(
           tween: ConstantTween(0.0),
           weight: 13), // D = E + G + H // disappear for this
@@ -341,9 +341,9 @@ class _ZeetionaryAppbarStyleadvertwoState extends ConsumerState
           tween: ConstantTween(0.0),
           weight: 27), // F = A + B + C // invisible for this
       TweenSequenceItem(
-          tween: Tween(begin: 0.0, end: 1.0), weight: 0.5), // G // fade in this
+          tween: Tween(begin: 0.0, end: 1.0), weight: 0.3), // G // fade in this
       TweenSequenceItem(
-          tween: ConstantTween(1.0), weight: 11.5), // H // appear for this
+          tween: ConstantTween(1.0), weight: 11.7), // H // appear for this
     ]).animate(_controller);
 
     _controller.repeat();

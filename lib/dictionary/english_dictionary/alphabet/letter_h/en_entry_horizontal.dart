@@ -214,7 +214,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) لە شێوەی ئاسۆییدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Rotate it slowly from the horizontal into a vertical position.""",

@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بۆ جەختکردنەوە لەوەی ئەوەی دەیڵێیت ڕاستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I didn't tell anyone, honestly!""",
                       kurdishText: """بە هیچ کەسم نەگوت، بە ڕاستی.""",
@@ -216,7 +215,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵکار) بۆ گوتنی ئەوەی شتێک خراپە و بێزاری پێی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Honestly! Whatever will they think of next?""",

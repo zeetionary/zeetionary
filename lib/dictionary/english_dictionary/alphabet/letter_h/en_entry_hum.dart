@@ -234,7 +234,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) دەرکردنی دەنگێک نزمی بەردەوام"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The computers were humming in the background.""",
@@ -245,7 +244,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) دەستپێکردنی چالاکی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Things were beginning to hum.""",
                       kurdishText: """شتەکان تاویان دەسەند.""",
@@ -263,7 +261,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) دەنگێکی نزمی بەردەوام"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The room filled with the hum of conversation.""",

@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) هەستێک کە شتێک ڕاستە ئەگەرچی هیچ بەڵگەت نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It seemed that the doctor's hunch had been right.""",

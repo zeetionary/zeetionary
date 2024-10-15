@@ -68,7 +68,6 @@ class EntryPageColumn extends StatelessWidget {
   }
 }
 
-
 // // decoration and animation https://chat.openai.com/c/34cd41ff-6232-4eb7-9c26-e00b688e867b
 
 class CustomSliverAppBar extends StatelessWidget {
@@ -1054,8 +1053,6 @@ class _ExampleSentenceKurdishState extends ConsumerState<ExampleSentenceKurdish>
   }
 }
 
-
-
 class CustomIconButtonBritish extends ConsumerWidget {
   final VoidCallback? onPressed;
 
@@ -1187,8 +1184,6 @@ class EnglishMeaningConst extends ConsumerWidget {
   }
 }
 
-
-
 class CustomSizedBoxForTTS extends StatelessWidget {
   const CustomSizedBoxForTTS({
     super.key,
@@ -1201,7 +1196,6 @@ class CustomSizedBoxForTTS extends StatelessWidget {
     );
   }
 }
-
 
 class EnglishButtonTTS extends ConsumerStatefulWidget {
   final Function(String) onBritishPressed;

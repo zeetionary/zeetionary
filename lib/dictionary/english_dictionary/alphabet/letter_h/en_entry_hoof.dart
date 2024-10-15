@@ -189,7 +189,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) لێدان لە تۆپێک زۆر بە توندی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The defender hoofed the ball up the field.""",

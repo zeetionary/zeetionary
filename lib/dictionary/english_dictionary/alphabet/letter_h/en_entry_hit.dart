@@ -637,7 +637,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (کردار) پێداکێشان"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The boy was hit by a speeding car.""",
                       kurdishText: """ئۆتۆمبێلێکی تیژڕەو کێشای بە کوڕەکەدا.""",
@@ -672,7 +671,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (کردار) بەرکەوتنی فیشەک، بۆمب، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The town was hit by bombs again last night.""",
@@ -715,7 +713,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (کردار) لێدان لە تۆپێک بە دارێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I hit the ball too hard and it went out of the court.""",
@@ -736,7 +733,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (کردار) پەنجەنان بە شتێک، بۆ نموونە دوگمەیەک، بۆ بەکارخستنی ئامێرێک، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hit the brakes!""",
                       kurdishText: """پێ بنێ برێکدا!""",
@@ -763,7 +759,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (کردار) هەبوونی کاریگەرییەکی خراپ لەسەر کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The tax increases will certainly hit the poor.""",
@@ -817,7 +812,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) هێرشکردنە سەر کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We hit the enemy when they least expected it.""",
@@ -829,7 +823,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٩. (کردار) گەشتنە شوێنێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The President hits town tomorrow.""",
                       kurdishText: """سەرۆک سبەی دەگاتە شارۆچکەکە.""",
@@ -866,7 +859,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (کردار) گەشتنە ئاستێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Temperatures hit 40° yesterday.""",
                       kurdishText: """پلەی گەرمی گەشت بە ٤٠ پلە دوێنێ.""",
@@ -886,7 +878,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١١. (کردار) ئەزموونکردنی شتێکی سەخت یان ناخۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We seem to have hit a problem.""",
                       kurdishText: """وادیارە کێشەیەکمان تووشبووە.""",
@@ -905,7 +896,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (کردار) لەناکاو هاتن بە مێشکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The idea hit me like a tornado.""",
                       kurdishText: """بیرۆکەکە وەک تۆرنادۆ هات بۆم.""",
@@ -934,7 +924,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (کردار) ئەوەی بە بەرفراوانی بەردەست بێت بۆ فرۆشتن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her shocking autobiography is about to hit the streets.""",
@@ -946,7 +935,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٤. (ناو) لێدان لە شتێک بە دەست یان بە شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Give it a good hit.""",
                       kurdishText: """لێدانێکی باشی بکە.""",
@@ -964,7 +952,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (ناو) ئەوەی کە شتێک کە فڕێدراوە لە شتێک بدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """One of the tanks took a direct hit.""",
                       kurdishText:
@@ -993,7 +980,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٦. (ناو) کەسێک یان شتێک کە زۆر بەناوبانگە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Her new series is a smash hit.""",
                       kurdishText: """زنجیرە تازەکەی زۆر بەناوبانگە.""",
@@ -1013,7 +999,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٧. (ناو) تۆمار یان گۆرانییەکی سەرکەوتووی پۆپ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She played all her old hits.""",
                       kurdishText:
@@ -1034,7 +1019,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٨. (ناو) ئەوەی کە پەڕەیەکی ئینتەرنێت سەردان دەکرێت یان فایلێک دادەبەزێندرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Our website is getting a lot of hits from the USA.""",
@@ -1047,7 +1031,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٩. (ناو) ئەوەی کە زانیارییەک بدۆزیتەوە کە لەگەڵ گەڕانێکی سەر ئینتەرنێت دەگونجێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The search generated 1 848 hits.""",
                       kurdishText: """گەڕانەکە 1848 ئەنجامی دۆزییەوە.""",

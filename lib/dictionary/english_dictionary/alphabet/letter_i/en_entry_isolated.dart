@@ -197,7 +197,8 @@ ${englishMeaningConst.text}
 کوردی: لاتەریک، گۆشەگیر، تەنیا، تاک‌وتەنیا،	چەپەک، دوورەدەس، لاپەڕ،	تاک، تاق، جیا، لێک‌جیا، دابڕاو
 """),
 // With short examples define "isolated", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە دوورە لە هی دیکە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە دوورە لە هی دیکە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: remote"),
                     SentencesRow(
                       englishText:
@@ -211,7 +212,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە پەیوەندی زۆری لەگەڵ خەڵکی، وڵاتان، هتد ـی دیکە نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I felt very isolated in my new job.""",
                       kurdishText:
@@ -232,7 +232,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە یەک جار ڕوویداوە و پەیوەندی بە شتی دیکە نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The police said the attack was an isolated incident.""",

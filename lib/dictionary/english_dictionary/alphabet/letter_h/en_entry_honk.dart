@@ -228,7 +228,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (کردار) ڕشانەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He honked (up) all over the floor.""",
                       kurdishText: """بە هەموو زەوییەکەدا ڕشانەوە.""",
@@ -238,7 +237,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) کە قاز دەقیقێنێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """A flock of geese honked near the pond.""",
                       kurdishText:

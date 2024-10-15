@@ -187,7 +187,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شوێن یان دۆخێک کە گونجاوە بۆ گەشەی خێرای کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """In the hothouse atmosphere of college there are plenty of opportunities for falling in love.""",

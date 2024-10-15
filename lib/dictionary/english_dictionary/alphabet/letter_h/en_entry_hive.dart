@@ -194,7 +194,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو مێشهەنگانەی کە لە کەلوویەکدا دەژین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It is a tiny insect that infects bees and eventually kills whole hives.""",

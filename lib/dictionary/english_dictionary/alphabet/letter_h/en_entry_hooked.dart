@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) هەبوونی پێویستی بە شتێک کە خراپە بۆت، بە تایبەتی مادەی هۆشبەر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's completely hooked on TV.""",
                       kurdishText: """تەواو گیرۆدەی تەلەفیزیۆنە.""",
@@ -221,7 +220,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵناو) هەبوونی حەزێکی زۆر بۆ شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I was hooked after two episodes.""",
                       kurdishText: """لە دوای دوو ئەڵقە دڵبەستە بووم.""",

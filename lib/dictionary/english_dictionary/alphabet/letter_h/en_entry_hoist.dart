@@ -202,7 +202,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە بۆ بەرزکردنەوەی شتی قورس بەکاردێت، یان وەستانی ئەو کەسانەی ناتوانن بوەستن یان ڕێ بکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The workers used a hoist to lift the steel beams.""",

@@ -482,7 +482,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) بینایەک کە بۆ مەبەستێکی تایبەتی بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We built a new henhouse for the chickens.""",
@@ -494,7 +493,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) لە ناوی بینای ئۆفیسدا بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Their offices are on the second floor of Chester House.""",
@@ -507,7 +505,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) کۆمپانیایەک کە جۆرە بازرگانییەکی دیاریکراو ئەنجام دەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The publishing house made its name by encouraging first-time writers.""",
@@ -519,7 +516,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) چێشتخانەیەک یان قاوەخانە/چاخانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """We met at the coffee house downtown.""",
                       kurdishText:
@@ -531,7 +527,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) کۆمەڵە کەسێک کە کۆدەبنەوە و یاساکانی وڵاتێکی دیاریکراو دادەنێن؛ لە بەریتانیا هەر یەک لە دوو خانەکەی پەرلەمانە؛ لە ئەمریکا ئەنجوومەنی نوێنەرانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Legislation requires approval by both houses of parliament.""",
@@ -544,7 +539,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) کۆمەڵە کەسێک کە باس لە شتێک دەکەن لە دیبەیتێکی فەرمی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I urge the house to vote against the motion.""",
@@ -557,7 +551,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (کردار) دابینکردنی شوێنی مانەوە بۆ کەس یان ئاژەڵێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The government is committed to housing the refugees.""",
@@ -596,7 +589,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٠. (کردار) بوون بەو شوێنەی کە شتێک هەڵدەگیرێت یان شتێک لێیەوە کار دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The library houses a collection of 15 000 books.""",

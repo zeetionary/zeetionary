@@ -528,7 +528,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ژمارە) ژمارەیەکی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """If I've said it once, I've said it a hundred times.""",
@@ -743,7 +742,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ژمارە) ژمارەکانی ١٠٠-٩٩٩"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The number of suspects arrested is now in the hundreds.""",
@@ -755,7 +753,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ژمارە) ساڵەکانی سەدەیەکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The house was built in the sixteen hundreds.""",

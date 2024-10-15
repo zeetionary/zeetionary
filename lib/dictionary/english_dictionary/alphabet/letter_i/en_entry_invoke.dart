@@ -211,7 +211,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) ناوهێنانی کەسێک، نموونەیەک، هتد بۆ پشتگیری بۆچوونەکانت، بیرۆکەکانت، هتد یان وەک هۆکار بۆ کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She invoked several eminent scholars to back up her argument.""",
@@ -224,7 +223,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) ناوهێنانی کەسێکی دیاریکراو بۆ ئەوەی خەڵکی هەست بە شتێکی دیاریکراو یان بە شێوەیەکی دیاریکراو هەنگاو بنێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """His name was invoked as a symbol of the revolution.""",
@@ -236,7 +234,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (کردار) داواکردنی یارمەتی، بە تایبەتی لە خودا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Their sacred dance is performed to invoke ancient gods.""",
@@ -249,7 +246,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) واکردن لە کەسێک کە هەستێکی دیاریکراوی هەبێت یان خەیاڵی دیمەنێکی دیاریکراو بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The opening paragraph invokes a vision of England in the early Middle Ages.""",

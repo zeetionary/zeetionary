@@ -592,7 +592,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) مێژووی شوێن، بابەت، هتد ــێکی دیاریکراو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She is an expert in the history of the United States.""",
@@ -720,7 +719,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) لێکۆڵینەوە لە مێژوو، بە تایبەتی وەک بابەتێک لە قوتابخانە یان زانکۆ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's studying art history.""",
                       kurdishText: """مێژووی هونەر دەخوێنێت.""",
@@ -801,7 +799,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) گێڕانەوەی قسەیی یان نووسراوی ڕووداوەکانی ڕابردوو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's writing a new history of Europe.""",
                       kurdishText:
@@ -813,7 +810,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ئەو ڕاستییانەی کە زانراون سەبارەت بە ڕابردووی کەسێک/شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I know nothing about his personal history.""",
@@ -877,7 +873,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) تۆمارێکی شتێک کە بە بەردەوامی لە ڕابردووی کەسێک، خێزانێک، یان شوێنێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He has a history of violent crime.""",
                       kurdishText: """مێژوویەک لە تاوانی دڕندەیی هەیە.""",
@@ -948,7 +943,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) تۆماری ئەو پەڕانەی کە سەیرت کردوون لە وێبگەڕێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Clearing your browser history prevents websites from following and tracking your actions.""",
@@ -961,7 +955,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) پەیوەندیی نێوان دوو کەس، گرووپ، کۆمپانیا، هتد کە لە ڕابردوودا و بۆ ماوەیەک بەردەوام بووە، بە تایبەتی کە ئاڵۆزە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Sure there's history between Anna and me, like you said.""",

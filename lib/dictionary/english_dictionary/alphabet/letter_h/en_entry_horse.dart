@@ -1271,7 +1271,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) پێشبڕکێی ئەسپسواری"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He lost a lot of money on the horses (= by gambling on races).""",

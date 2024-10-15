@@ -294,7 +294,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) کە ئاژەڵێک دەجووڵێت بە بەکارهێنانی هەموو لاقەکانی پێکەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """A robin was hopping around on the path.""",
@@ -313,7 +312,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) چوونە شوێنێک بە خێرایی و لەناکاو"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Hop in, I'll drive you home.""",
                       kurdishText: """سەرکەوە، دەتگەیەنمە ماڵەوە.""",
@@ -347,7 +345,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (کردار) چوونە سەر فڕۆکەیەک، پاسێک، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I hopped a plane for New York.""",
                       kurdishText: """سەرکەوتمە ناو فڕۆکەیەک بۆ نیویۆرک.""",
@@ -358,7 +355,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (کردار) گۆڕینی چالاکییەک یان بابەتێک بۆ یەکێکی دیکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She’s always hopping from one project to the next.""",
@@ -380,7 +376,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) بازێکی کورت لەلایەن کەسێکەوە لەسەر یەک لاق یان لەلایەن ئاژەڵێکەوە لەسەر هەموو لاقەکانی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """With his feet tied together he could only move in little hops.""",
@@ -392,7 +387,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ناو) گەشتێکی کورت، بە تایبەتی بە فڕۆکە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It's only a short hop to Paris.""",
                       kurdishText: """تەنها کورتە گەشتێکە بۆ پاریس.""",
@@ -403,7 +397,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) ڕووەکێکی پیاهەڵگژ کە گوڵی شێوە قووچەقی سەوزی هەیە؛ گوڵی ئەم ڕووەکە کە وشککراوە و لە درووستکردنی بیرە بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Almost 80% of the nation's hops are grown in this area.""",

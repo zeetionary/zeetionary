@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شتێک کە لە ماوە ماوەی ڕێکدا ڕوونادات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The doctor detected a slight irregularity in his heartbeat.""",
@@ -209,7 +208,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شتێک کە لووس یان ڕێک نییە لە شێوەدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The paint will cover any irregularity in the surface of the walls.""",

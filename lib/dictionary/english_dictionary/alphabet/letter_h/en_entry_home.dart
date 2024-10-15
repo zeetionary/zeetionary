@@ -639,7 +639,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) خانوویەک یان فلاتێک کە وەک سامانێکی فرۆشتن بیری لێدەکەیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He'd always dreamed of owning his own home.""",
@@ -695,7 +694,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ئەو شوێنەی کە لێی لەدایکبوویت و هەست دەکەیت بەشێکیت لێی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I often think about my friends back home.""",
@@ -725,7 +723,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) خێزانێک کە پێکەوە دەژین"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She came from a violent home.""",
                       kurdishText: """سەر بە خێزانێکی توندووتیژە.""",
@@ -770,7 +767,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) شوێنێک بۆ ئەو کەسانەی کە ناتوانن چاودێری خۆیان بکەن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She has lived in a home since she was six.""",
@@ -801,7 +797,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٦. (ناو) شوێنێک کە تێیدا ئەو ئاژەڵە ماڵییانە چاودێری دەکرێن کە خاوەنیان نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Volunteers clean the cats' home every day.""",
@@ -813,7 +808,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ناو) شوێنی ژیانی ڕووەک یان ئاژەڵێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This region is the home of many species of wild flower.""",
@@ -840,7 +834,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (ناو) شوێنی پاراستنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We haven't found a home for all our books yet.""",
@@ -853,7 +846,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٩. (ناو) شوێنێک کە بۆ یەکەمجار شتێکی لێ دۆزراوەتەوە، درووستکراوە، یان داهێنراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Many visit Greece, the home of democracy, to see historic sites.""",
@@ -865,7 +857,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٠. (هاوەڵکار) بەرەو ماڵەوە؛ لە ماڵەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Come on, it's time to go home.""",
                       kurdishText: """یەڵڵا، کاتی چوونە ماڵەوەیە.""",
@@ -915,7 +906,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١١. (هاوەڵکار) بۆ شوێنی درووست"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He drove the ball home (= scored a goal) from 15 metres.""",
@@ -927,7 +917,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """١٢. (هاوەڵناو) پەیوەندیدار بە ماڵەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """We offer customers a free home delivery service.""",
@@ -958,7 +947,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٣. (هاوەڵناو) کە لە ماڵەوە درووستکراوە یان بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She missed her mother's home cooking.""",
                       kurdishText: """بیری خواردنی ماڵەوەی دایکیی دەکرد.""",
@@ -990,7 +978,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """١٥. (هاوەڵناو) پەیوەندیدار بە یاریگای تیمێک خۆی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Rangers were playing in front of their home crowd.""",

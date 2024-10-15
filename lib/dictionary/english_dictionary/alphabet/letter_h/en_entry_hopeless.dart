@@ -320,7 +320,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ھاوەڵناو) کەسێک کە هیچ هیوایەکی نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She felt lonely and hopeless.""",
                       kurdishText: """هەستی بە تەنهایی و بێ‌هیوایی دەکرد.""",

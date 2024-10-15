@@ -257,7 +257,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە وات لێ دەکات هەست بە ترسێکی زۆر بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She woke from a horrible nightmare.""",
                       kurdishText: """لە شەوەیەکی زۆر ناخۆش خەبەری بوویەوە.""",
@@ -268,7 +267,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کەسێک یان ڕەفتاری کە زۆر خراپ بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """What a horrible thing to say!""",
                       kurdishText: """چی شتێکی نەشیاو بۆ گوتن!""",

@@ -256,7 +256,6 @@ Usage: archaic
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٢. (ناو) یەک شت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Can I pay for each item separately?""",
                       kurdishText: """دەتوانم بە جیایی پارەی هەر شتێک بدەم؟""",
@@ -285,7 +284,6 @@ Usage: archaic
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) یەک بڕگە هەواڵ لەسەر ڕۆژنامە، تەلەفیزیۆن، ئینتەرنێت، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The following news item may be of interest to you.""",

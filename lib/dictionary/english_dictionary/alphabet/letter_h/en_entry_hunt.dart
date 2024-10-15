@@ -333,7 +333,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (کردار) گەڕان بۆ کەسێک بۆ گرتنی یان زیان گەیاندن پێی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Police are hunting an escaped criminal.""",
@@ -345,7 +344,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) گەڕان بۆ کەسێک/شتێک کە سەختە بدۆزرێتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hunt is on for a suitable candidate.""",
@@ -366,7 +364,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) ڕاوکردنی ئاژەڵ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """As the story begins, three young men are preparing to go on a fox hunt.""",

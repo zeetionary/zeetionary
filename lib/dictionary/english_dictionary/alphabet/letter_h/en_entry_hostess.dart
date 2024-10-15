@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ژنێک کە لە یانەیەکی شەوانە پێشوازی لە خەڵک دەکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hostess guided us to our table at the club.""",
@@ -201,7 +200,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ژنە پێشکەشکاری پڕۆگرامێکی تەلەفیزیۆنی، ڕادیۆیی، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The hostess asked the guest interesting questions.""",

@@ -267,7 +267,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) گوتنی شتی خراپ بە کەسێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Rival fans hurled abuse at each other.""",
                       kurdishText:

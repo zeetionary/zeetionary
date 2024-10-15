@@ -306,7 +306,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) بەشی چاڵی جەستە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was an elderly man with hollow cheeks.""",
@@ -327,7 +326,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) کە دەنگێک دەردەکات وەک ئەوەی کە دەکێشیت بە شتێکی بەتاڵدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """This tree trunk sounds hollow.""",
                       kurdishText: """قەدی دارەکە بەتاڵ دیارە.""",
@@ -337,7 +335,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) کە لە دڵەوە نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She gave a slightly hollow laugh.""",
                       kurdishText: """پێکەنینێکی کەمێک درۆی کرد.""",
@@ -356,7 +353,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) کە بەهای ڕاستەقینەی نییە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He won something of a hollow victory when his opponent was forced to withdraw with a serious injury.""",
@@ -367,7 +363,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٦. (ناو) چاڵ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The wheelbarrow got stuck in a hollow.""",
                       kurdishText: """عەڕابەکە چەقی لە چاڵێکدا.""",
@@ -394,7 +389,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٧. (ناو) بۆشاییەکی بەتاڵ یان چاڵ لە شتێکدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The squirrel disappeared into a hollow at the base of the tree.""",
@@ -406,7 +400,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٨. (کردار) چاڵکردنە ناو شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The stairs have been hollowed by centuries of use.""",

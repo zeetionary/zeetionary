@@ -218,7 +218,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) کە پێست یان بەشێکی جەستەت ئازار بدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """At first my contact lenses irritated my eyes.""",

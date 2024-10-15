@@ -206,7 +206,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) بە هێواشی هێمنکردنەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She tenderly hushed the baby in her arms.""",
@@ -219,7 +218,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ماوەیەک لە بێ‌دەنگی لە دوای دەنگەدەنگی زۆر یان کە شتێک ڕوودەدات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There was a deathly hush in the theatre.""",

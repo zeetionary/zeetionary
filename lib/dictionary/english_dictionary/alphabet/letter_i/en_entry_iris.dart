@@ -182,7 +182,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ڕووەکێک کە گوڵی سپی، مۆر، یان زەردی هەیە لەگەل گەڵای تەنکی درێژ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She picked a yellow iris from the field.""",

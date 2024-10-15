@@ -428,7 +428,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ماوەی نزیکەی یەک کاتژمێر کە بۆ بۆنەیەکی تایبەت بەکاردێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """I try to spend my lunch hour walking.""",
                       kurdishText:
@@ -440,7 +439,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) ماوەیەکی دیاریکراو کە تێیدا خەڵکی کار دەکەن، ئۆفیسێک کراوەیە، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Our opening hours are from 8.00 to 6.00.""",
@@ -493,7 +491,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٤. (ناو) ماوەیەکی زۆر"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """It took hours getting there.""",
                       kurdishText: """ماوەیەکی زۆری ویست ویست بگەینە ئەوێ.""",
@@ -518,7 +515,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٥. (ناو) ماوەیەکی دیاریکراوی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """You can't turn him away at this hour of the night.""",
@@ -536,7 +532,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٦. (ناو) کاتی ڕوودانی شتێکی گرنگ"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This was often thought of as the country's finest hour.""",
@@ -565,7 +560,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٧. (ناو) کاتی سەری کاتژمێر، بۆ نموونە کە کاتژمێر ٦ یان ٧ ــی تەواوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The clock struck the hour.""",
                       kurdishText: """کاتژمێرەکە کەوتە سەر سەری کاتژمێر.""",
@@ -583,7 +577,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٨. (ناو) بەکاردێت کە کات بە شێوەی ٢٤ کاتژمێری دەردەبڕدرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The first missile was launched at 2300 hours (= at 11 p.m.).""",

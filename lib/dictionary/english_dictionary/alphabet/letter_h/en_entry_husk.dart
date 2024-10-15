@@ -183,7 +183,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) لێکردنەوەی توێکڵی دەغڵودان، تۆو، کاکڵدار، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Farmers husk the corn by hand.""",
                       kurdishText:

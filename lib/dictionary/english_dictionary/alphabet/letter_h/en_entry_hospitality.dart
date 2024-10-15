@@ -198,7 +198,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) خواردن و خواردنەوە کە لەلایەن دامەزراوەیەکەوە دەدرێت بە میوانان، کڕیاران، هتد"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Their company organizes corporate hospitality tents at major sporting events.""",

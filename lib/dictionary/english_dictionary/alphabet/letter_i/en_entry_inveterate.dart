@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە بۆ ماوەیەکی زۆرە کراوە و ناگۆڕدرێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Her inveterate hostility made it hard to reach peace.""",

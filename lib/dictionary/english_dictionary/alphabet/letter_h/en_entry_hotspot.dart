@@ -201,7 +201,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) شوێنێک کە جۆرێکی دیاریکراو لە کێشە و مەترسی تێدایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They identified eight pollution hotspots at the mouth of the Thames.""",
@@ -214,7 +213,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ناو) شوێنێک کە ڕێژەیەکی زۆر لە چالاکی و خۆشی و تێدایە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """This summer’s vacation hot spot is Alaska.""",
@@ -226,7 +224,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ناو) شوێنێک کە زۆر گەرم و وشکە کە ئاگری لێ کەوتووەتەوە یان ئەگەری هەیە ئاگری تێ بەربێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Fire crews worked to douse hotspots left by two fires that consumed acres of forest.""",

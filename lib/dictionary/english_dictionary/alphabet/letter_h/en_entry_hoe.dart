@@ -184,7 +184,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) بەکارهێنانی خاکڕن لە باخدا"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I hoed the ground where I wanted to plant sunflowers.""",

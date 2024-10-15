@@ -188,7 +188,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) ڕووداوێکی کە تێیدا شۆفێرەکە ناوەستێت بۆ یارمەتی"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He struck and killed a pedestrian in a hit-and-run accident.""",
@@ -201,7 +200,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) هێرشێکی لەناکاو کە تێیدا کەسانی هێرشکار بەبێ زیان دەتوانن هەڵبێن"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Insurgents continued hit-and-run attacks.""",

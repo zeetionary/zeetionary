@@ -331,7 +331,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٥. (ناو) ئەو بەشانەی قژ کە کاڵترن لە بەشەکانی دیکە، زۆرجار بەهۆی مادەی کیمیایی کە لێی دراوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """She’s had blonde highlights put into her hair.""",

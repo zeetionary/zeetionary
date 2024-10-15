@@ -204,7 +204,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) گرنگترین بەشی شوێن یان چالاکییەک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """The kitchen was the hub of family life.""",

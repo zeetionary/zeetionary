@@ -225,7 +225,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە لەو کاتانەدا ڕوونادات کە هەمان ماوە لە نێوانیاندا هەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He visited his parents at irregular intervals.""",
@@ -251,7 +250,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) کە بە شێوەی ئاسایی درووست نەبووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """That is the pattern for most verbs, but some verbs are irregular and behave differently.""",

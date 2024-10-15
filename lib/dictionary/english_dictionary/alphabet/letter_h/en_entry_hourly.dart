@@ -199,7 +199,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) بڕێک کە بۆ هەر کاتژمێرێک وەری دەگریت یان دەیدەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The teachers were paid an hourly rate.""",
                       kurdishText:
@@ -210,7 +209,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵکار) هەموو کاتژمێرێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Reapply sunscreen hourly and after swimming.""",

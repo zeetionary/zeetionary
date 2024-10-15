@@ -196,7 +196,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) بەسەربردنی مانگی هەنگوینی لە شوێنێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """They are honeymooning in Paris.""",
                       kurdishText: """لە مانگی هەنگوینین لە پاریس.""",

@@ -221,7 +221,6 @@ Usage: Brit, Cdn (US: honorable)
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵناو) کە ستانداردی ئەخلاقی بەرزی هەیە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He was an honourable man who could not lie.""",
@@ -243,7 +242,6 @@ Usage: Brit, Cdn (US: honorable)
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) کە ڕێگا بە کەسێک دەدات شکۆی بپارێزێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """They urged her to do the honourable thing and resign.""",

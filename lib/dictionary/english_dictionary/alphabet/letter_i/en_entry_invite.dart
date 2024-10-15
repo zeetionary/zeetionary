@@ -298,7 +298,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """My mother invited a few friends that she hadn't seen for 20 years.""",
                       kurdishText:
-                          """دایکم ژمارەیەک هاوڕێی بانگهێشت کرد کە ٢٠ ساڵە نەیدیون.""",
+                          """دایکم ژمارەیەک هاوڕێی بانگهێشت کرد کە ٢٠ ساڵە نەیدیبوون.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -323,7 +323,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (کردار) بە فەرمی داواکردن لە کەسێک کە بچێتە شوێنێک یان شتێک بکات"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """Successful candidates will be invited for interview next week.""",

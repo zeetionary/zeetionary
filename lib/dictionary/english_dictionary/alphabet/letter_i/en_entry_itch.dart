@@ -230,7 +230,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (کردار) ئەوەی زۆر بتەوێت شتێک بکەیت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """The crowd was itching for a fight.""",
                       kurdishText: """خەڵکەکە ئارەزووی شەڕیان هەبووە.""",
@@ -246,7 +245,6 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """٣. (ناو) خورانی پێست"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """I've got an itch on the back of my neck.""",
@@ -257,7 +255,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٤. (ناو) حەزی زۆر بۆ کردنی شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She has an itch to travel.""",
                       kurdishText: """ئارەزوویەکی زۆری هەیە بۆ گەشتکردن.""",

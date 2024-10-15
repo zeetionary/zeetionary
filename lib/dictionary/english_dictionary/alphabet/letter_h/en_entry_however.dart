@@ -224,7 +224,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ھاوەڵکار) لەگەڵ هاوەڵناو یان هاوەڵکار بەکاردێت بۆ گوتنی 'بە هەر ئاستێک'"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He wanted to take no risks, however small.""",
@@ -254,7 +253,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٣. (ھاوەڵکار) بە هەر شێوەیەک بێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """However you look at it, it's going to cost a lot.""",

@@ -186,7 +186,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) کەسێک، بە تایبەتی پیاوێک، حەزی بە کەسانی هەمان ڕەگەزە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He came out as a homosexual after his mother died.""",

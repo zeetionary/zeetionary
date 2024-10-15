@@ -197,7 +197,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەوەی پێستت یان بەشێکی جەستەت ئازاری هەبێت"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """It is an antiseptic cream suitable for minor skin irritations.""",

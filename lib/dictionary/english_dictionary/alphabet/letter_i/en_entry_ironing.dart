@@ -179,7 +179,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) ئەو جلانەی کە دەبێت ئوتوو بکرێن یان تازە ئوتوو کراون"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """There is a huge pile of ironing to be done, but I just can't face it tonight.""",

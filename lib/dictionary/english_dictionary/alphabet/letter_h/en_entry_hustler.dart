@@ -180,7 +180,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ناو) لە ئەمریکا واتا لەشفرۆش"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """He met a hustler at the train station.""",
                       kurdishText:

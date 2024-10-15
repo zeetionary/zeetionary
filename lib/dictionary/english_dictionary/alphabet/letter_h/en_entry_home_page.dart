@@ -179,7 +179,6 @@ Derived forms: homepages, home pages
                     const DefinitionKurdish(
                         text:
                             """٢. (ناو) پەڕەی سەرەکی کە لەسەر وێبگەڕەکەت دەردەکەوێت کاتێک دەیکەیتەوە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """To make this your home page, click here.""",

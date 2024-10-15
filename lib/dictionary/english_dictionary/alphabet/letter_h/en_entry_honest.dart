@@ -287,7 +287,6 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text: """٢. (ھاوەڵناو) گوتنی ڕاستی لەسەر شتێک"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """Thank you for being so honest with me.""",
                       kurdishText:
@@ -366,7 +365,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٣. (ھاوەڵناو) هەبوونی هزر و هەڵسووکەوتی ڕاشکاوانە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText: """She's got an honest face.""",
                       kurdishText: """ڕووخسارێکی ڕاستگۆیانەی هەیە.""",
@@ -384,7 +382,6 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(
                         text:
                             """٤. (ھاوەڵناو) کە بە کاری سەخت بەدەست هاتووە"""),
-                    const DividerSentences(),
                     SentencesRow(
                       englishText:
                           """He hasn't done an honest day's work in his life.""",

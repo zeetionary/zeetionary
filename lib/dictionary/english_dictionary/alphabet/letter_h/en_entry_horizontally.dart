@@ -165,7 +165,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Cut the cake in half horizontally and spread jam on one half.""",
                       kurdishText:
-                          """کێکەکە لە نیوەدا بە ئاسۆیی ببڕە و دۆشاو بکە بەسەر نیوەیدا.""",
+                          """کێکەکە لە نیوەدا بە ئاسۆیی ببڕە و مرەبا بکە بەسەر نیوەیدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

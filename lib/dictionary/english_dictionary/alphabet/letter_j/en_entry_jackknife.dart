@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jackknife (Derived forms: jackknives)
+1. A large knife with one or more folding blades (- clasp knife)
+ 
+2. A dive in which the diver bends to touch the ankles before straightening out
 
-EnglishEntryjackknife jackknife
-WORD_WEB jackknife jackknife jackknife
-haʊʊʊʊʊʊʊ4
+- Verb: jackknife (Derived forms: jackknifes, jackknifed, jackknifing)
+1. (sport) dive into the water bending the body at the waist at a right angle, like a jackknife
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jackknife";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The old man sharpened his jackknife by the fire.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The oil tanker jackknifed after skidding on the ice.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/tBGlc9wLG_s?t=488';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/-50mMT7PHoY?t=356';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/g4g_CIoocQY?t=803';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/H3w2mhm7Ixw?t=318';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/AYoLQuaqdac?t=5654';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/M6ivxBcLJu4?t=335';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jackknife""",
                       // alsoEnglishWord: "also: jackknife",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒæknaɪf/""",
+                      americanText: """IpaUS: /ˈdʒæknaɪf/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,21 +996,28 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "jackknife", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) چەقۆیەک کە دەمەکەی قەد دەکرێتە ناو دەسکەکەی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: clasp knife"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The old man sharpened his jackknife by the fire.""",
+                      kurdishText:
+                          """پیاوە پیرەکە لە نزیک ئاگرەکە چەقۆ گیرفانییەکەیی تیژ دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) کە لۆرییەک کەوا لە دوو بەش پێکهاتووە، شۆفێرەکەی کۆنترۆڵی لەدەستداوە بە شێوەیەک کە ژمارە ٧ ـی درووستکردووە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The oil tanker jackknifed after skidding on the ice.""",
+                      kurdishText:
+                          """تانکەری نەوتەکە دوای خلیسکان لەسەر سەهۆڵەکە چەمایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

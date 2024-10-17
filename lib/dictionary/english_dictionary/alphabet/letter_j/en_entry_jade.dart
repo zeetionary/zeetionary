@@ -52,13 +52,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jade (Derived forms: jades)
+1. A semiprecious gemstone that takes a high polish; is usually green but sometimes whitish; consists of jadeite or nephrite (- jadestone)
+ 
+2. A light green colour varying from bluish green to yellowish green (- jade green)
+ 
+3. An old or over-worked horse (- hack, nag, plug [N. Amer, informal])
+ 
+4. [archaic] A promiscuous or disreputable woman (- hussy [informal], loose woman [informal], fornicatrix [informal])
 
-EnglishEntryjade jade
-WORD_WEB jade jade jade
-haʊʊʊʊʊʊʊ4
+- Verb: jade (Derived forms: jading, jades, jaded)
+1. Lose interest or become bored with something or somebody (- tire, pall, weary, fatigue)
+"I'm so jaded of your mother and her complaints about my food";
+ 
+2. Exhaust or get tired through overuse or great strain or stress (- tire, wear upon, tire out, wear, weary, wear out, outwear, wear down, fag out [Brit, informal], fag [informal], fatigue, knacker [Brit, informal])
+
+- Adjective: jade
+1. Of something having the colour of jade; especially varying from bluish green to yellowish green (- jade-green)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jade";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +99,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The jewellery is crafted from carved jade and bone.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He showed me his collection of Chinese jade.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Dressed in jade green with a matching hat, the Queen was stunning.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +940,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/qDofYXwCMjk?t=2316';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/SfR0ZTdwpRA?t=633';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Go6n6QWlYkw?t=61';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/am9W9VJFAo0?t=82';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/kqa09KH4weQ?t=553';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/aeZ7esmQcm4?t=752';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +965,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jade""",
                       // alsoEnglishWord: "also: jade",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒeɪd/""",
+                      americanText: """IpaUS: /dʒeɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,29 +1007,38 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jade", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەردێکی سەخت کە زۆرجار سەوزە و بۆ درووستکردنی شتی جوان بەکاردێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The jewellery is crafted from carved jade and bone.""",
+                      kurdishText:
+                          """خشڵەکە لە یەشمی هەڵکۆڵراو و ئێسک درووست کراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) ئەو شتانەی لەم بەردە درووستکراون"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He showed me his collection of Chinese jade.""",
+                      kurdishText:
+                          """کۆکراوەی کەرەستە یەشمە چینییەکانیی پێم پیشان دا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) ڕەنگی سەوزی ڕۆشن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Dressed in jade green with a matching hat, the Queen was stunning.""",
+                      kurdishText:
+                          """بەوەی کە جلی سەوزی کاڵی لەبەربوو لەگەڵ کڵاوێکی لێکچوو، شاژن سەرنجڕاکێش بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

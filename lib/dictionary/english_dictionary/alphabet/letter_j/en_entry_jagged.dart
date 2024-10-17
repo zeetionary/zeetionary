@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjagged jagged
-WORD_WEB jagged jagged jagged
-haʊʊʊʊʊʊʊ4
+- Adjective: jagged
+1. Having a sharply uneven surface or outline (- jaggy, scraggy)
+"the jagged outline of the crags";
+ 
+2. Having an irregularly notched or toothed margin as though gnawed (- erose, jaggy, notched, toothed)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jagged";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The floor was covered with jagged pieces of glass from smashed bottles.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/ozK2PASalL4?t=3118';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/TshXa3lGqQ8?t=5092';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/p98zTJowU5k?t=249';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/XTk0iROhSOc?t=2452';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/x09IsbVZeXo?t=366';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/7We_HAYds5g?t=6198';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jagged""",
                       // alsoEnglishWord: "also: jagged",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒæɡɪd/""",
+                      americanText: """IpaUS: /ˈdʒæɡɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ددانەددانە، گرنج‌گرنج، گڕنی‌گڕنی، بڕگەبڕگە، ناڕێک، نووک‌تیژ، تیژ، نوکاوی، نوکدار، چوکڵەدار، قیت، زۆپ، گت
 """),
 // With short examples define "jagged", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) بە قەراغی زبر و نووکدار و تیژ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The floor was covered with jagged pieces of glass from smashed bottles.""",
+                      kurdishText:
+                          """زەوییەکە پڕبوو لە پارچەی تیژی شووشەی بوتڵی شکاو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

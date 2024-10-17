@@ -368,7 +368,7 @@ class KurdishMeaning extends StatelessWidget {
                   "١. (ناو) کێکێکی بچووک کە بە برژاندنی ھەویر درووست دەکرێت و زۆرجار لە شێوەی ئەڵقەیەک یان بازنەییە و پڕ دەکرێت لە دۆشاو"),
           SentencesRow(
             englishText: "May I have a jam doughnut, please?",
-            kurdishText: "تکایە دەکرێت دۆنەتێکی دۆشاوم بەیتێ؟",
+            kurdishText: "تکایە دەکرێت دۆنەتێکی مرەبام بەیتێ؟",
             onPressedBritish: () => speakdoughnuts1("en-GB"),
             onPressedAmerican: () => speakdoughnuts1("en-US"),
           ),

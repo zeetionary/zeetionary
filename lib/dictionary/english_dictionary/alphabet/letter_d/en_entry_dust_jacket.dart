@@ -367,6 +367,7 @@ class KurdishMeaning extends StatelessWidget {
           const DefinitionKurdish(
               text:
                   """١. (ناو) بەرگێکی کتێب کە وەک پارێزەر بەکاردێت بەڵام دەکرێت لێبکرێتەوە"""),
+          const AlsoEnglishckb(word: "ھەروەھا: jacket"),
           SentencesRow(
             englishText:
                 """She removed the dust jacket before reading the book.""",

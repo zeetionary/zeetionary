@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
@@ -52,13 +53,27 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jacket (Derived forms: jackets)
+1. A short coat
+ 
+2. An outer wrapping or casing
+"phonograph records were sold in cardboard jackets"
+ 
+3. (dentistry) dental appliance consisting of an artificial crown for a broken or decayed tooth (- crown, crownwork, jacket crown, cap)
+"tomorrow my dentist will fit me for a jacket crown";
+ 
+4. The outer skin of a potato
+ 
+5. The tough metal shell casing for certain kinds of ammunition
 
-EnglishEntryjacket jacket
-WORD_WEB jacket jacket jacket
-haʊʊʊʊʊʊʊ4
+- Verb: jacket (Derived forms: jacketed, jackets, jacketing)
+1. Provide with a thermally non-conducting cover
+"The tubing needs to be jacketed"
+ 
+2. Put a jacket on
+"The men were jacketed"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jacket";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +102,30 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I have to wear a jacket and tie to work.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She felt cold, so she put on her jacket.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He pulled his passport from his inside jacket pocket.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""Can you put the record back in its jacket, please?""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +943,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/e8Db1wZAZaw';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/JyXZjTh11nE?t=36';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/dcio8mXpC94?t=49';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/GFNwZmJCnBo?t=121';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/QCdqHswGS5A?t=8';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/t_0aE0VBJzQ?t=54';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +968,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jacket""",
                       // alsoEnglishWord: "also: jacket",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒækɪt/""",
+                      americanText: """IpaUS: /ˈdʒækɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +1010,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jacket", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچە جلێک کە بەسەر جلی دیکە لە بەشی سەرەوەی جەستە لەبەر دەکرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I have to wear a jacket and tie to work.""",
+                      kurdishText:
+                          """دەبێت چاکەت و بۆینباخ بۆ کار لەبەر بکەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1025,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She felt cold, so she put on her jacket.""",
+                      kurdishText:
+                          """هەستی بە سەرما کرد، بۆیە چاکەتەکەیی لەبەرکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,17 +1036,31 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He pulled his passport from his inside jacket pocket.""",
+                      kurdishText:
+                          """پاسپۆرتەکەیی لە باخەڵی چاکەتەکەی دەرهێنا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    CustomRichText(
+                      textBeforeLink: "٢. بڕوانە لە ",
+                      linkText: "dust jacket",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context)
+                            .push("/english-jacket/dustjacket");
+                      },
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """٣. (ناو) پارێزەری شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Can you put the record back in its jacket, please?""",
+                      kurdishText:
+                          """تکایە دەتوانیت تۆمارەکە بخەیتەوە پارێزەرەکەی؟.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

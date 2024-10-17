@@ -188,7 +188,7 @@ Verb: funnel (derived forms: funnels, funnelled, funnelling, funneling, funneled
                       englishText:
                           """After you grind the coffee, use a funnel to pour it into the jar.""",
                       kurdishText:
-                          """لە دوای ئەوەی قاوەکە دەھاریت، ڕەحەتییەک بەکاربھێنە بۆ ئەوەی بیڕژێنیتە دۆڵکەیەکەوە.""",
+                          """لە دوای ئەوەی قاوەکە دەھاریت، ڕەحەتییەک بەکاربھێنە بۆ ئەوەی بیڕژێنیتە شووشەکەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,10 +52,9 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjauntily jauntily
-WORD_WEB jauntily jauntily jauntily
-haʊʊʊʊʊʊʊ4
+- Adverb: jauntily
+1. In a jaunty fashionable manner
+"his hat sat jauntily on his full brown hair"
 """,
   );
 // 188888880002200000000000
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jauntily""",
                       // alsoEnglishWord: "also: jauntily",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒɔːntɪli/""",
+                      americanText: """IpaUS: /ˈdʒɔːntɪli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

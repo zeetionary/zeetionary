@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jaundice (Derived forms: jaundices)
+1. Yellowing of the skin and the whites of the eyes caused by an accumulation of bile pigment (bilirubin) in the blood; can be a symptom of gallstones or liver infection or anaemia (- icterus)
+ 
+2. A rough and bitter manner (- bitterness, acrimony, acerbity, tartness, thorniness)
 
-EnglishEntryjaundice jaundice
-WORD_WEB jaundice jaundice jaundice
-haʊʊʊʊʊʊʊ4
+- Verb: jaundice (Derived forms: jaundiced, jaundices, jaundicing)
+1. Distort adversely
+"Jealousy had jaundiced his judgment"
+ 
+2. Affect with, or as if with, jaundice
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jaundice";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +92,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The baby showed signs of jaundice after birth.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/KpzTxZpiVBg?t=320';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/GT0YaDVJAkI?t=328';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/cw59Pu9fyeU?t=844';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Xr16EIWI0U0?t=220';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/9IqLhJPSnr4?t=2156';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/QYR7aNknTp4?t=420';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jaundice""",
                       // alsoEnglishWord: "also: jaundice",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒɔːndɪs/""",
+                      americanText: """IpaUS: /ˈdʒɔːndɪs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,15 +995,17 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
-// With short examples define "jaundice", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: زەردوویی، بەزەک،	ڕق و کینە گێڕان، کینەگێڕی، ڕق‌لێ‌سووان
+// """),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دۆخێکی تەندرووستی کە تێیدا پێست و بەشە سپییەکانی چاو زەرد دەبنەوە لە ئەنجامی نەخۆشییەکی جگەر یان خوێن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The baby showed signs of jaundice after birth.""",
+                      kurdishText:
+                          """لە دوای لەدایکبوون منداڵەکە نیشانەکانی زەردووی تێدا بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

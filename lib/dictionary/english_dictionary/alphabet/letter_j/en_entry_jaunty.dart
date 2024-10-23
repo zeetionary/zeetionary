@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjaunty jaunty
-WORD_WEB jaunty jaunty jaunty
-haʊʊʊʊʊʊʊ4
+- Adjective: jaunty (Derived forms: jauntier, jauntiest)
+1. Marked by up-to-dateness in dress and manners (- dapper, dashing, natty [informal], raffish, rakish, spiffy [N. Amer, informal], snappy [informal], spruce, pert)
+"a jaunty red hat";
+ 
+2. Having a cheerful, lively, and self-confident air (- chipper, debonair, debonaire)
+"walked with a jaunty step"; "a jaunty optimist";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jaunty";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """When he came back his hat was at a jaunty angle and he was smiling.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/CIWKjBMYfBw?t=231';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/9VWDqq4JsrA?t=80';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/7MqWS5kI4Kg?t=1491';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/0LjZ5GZuub8?t=488';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ohzFHI3PIW4';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/f0F-wxDjfIo?t=151';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jaunty""",
                       // alsoEnglishWord: "also: jaunty",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒɔːnti/""",
+                      americanText: """IpaUS: /ˈdʒɔːnti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +992,19 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەرخۆش، بەکەیف، شاد، بەدەماخ، دڵ‌خۆش، لەگەش، بەگوڕ، لەجۆش
 """),
 // With short examples define "jaunty", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ئەوە پیشان دەدات کە هەست بە متمانە دەکەیت و خۆشحاڵیت بە خۆت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """When he came back his hat was at a jaunty angle and he was smiling.""",
+                      kurdishText:
+                          """کە هاتەوە کڵاوەکەی بە گۆشەیەکی بەکەیفدا بوو و بزەی دەکرد.""",
+                      englishNote:
+                          """This means when he returned, his hat was tilted in a playful or stylish way, and he had a cheerful, self-satisfied expression. The word "jaunty" highlights his confident, carefree attitude.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

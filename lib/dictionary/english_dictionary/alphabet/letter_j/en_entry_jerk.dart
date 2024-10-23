@@ -52,13 +52,34 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: jerk (Derived forms: jerking, jerked, jerks)
+1. Pull, or move with a sudden movement (- yank [informal], hoick [informal])
+"He turned the handle and jerked the door open";
+ 
+2. Move with abrupt, seemingly uncontrolled motions (- twitch)
+"The patient's legs were jerking";
+ 
+3. Make an uncontrolled, short, jerky motion (- twitch)
+ 
+4. Jump vertically, with legs stiff and back arched (- buck, hitch)
+ 
+5. Throw or toss with a quick motion (- flick)
+"jerk his head";
 
-EnglishEntryjerk jerk
-WORD_WEB jerk jerk jerk
-haʊʊʊʊʊʊʊ4
+- Noun: jerk (Derived forms: jerking, jerked, jerks)
+1. [informal] A dull stupid fatuous person (- dork [informal])
+ 
+2. An abrupt spasmodic movement (- jerking, jolt, saccade)
+ 
+3. (mechanics) the rate of change of acceleration
+ 
+4. Meat (especially beef) cut in strips and dried in the sun (- jerky, jerked meat)
+ 
+5. Raising a weight from shoulder height to above the head by straightening the arms
+ 
+6. A sudden abrupt pull (- tug)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jerk";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +108,35 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She jerked her head up.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The bus jerked to a halt.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She sat up with a jerk.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""He was acting like a complete jerk.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""What kind of a jerk would do that?""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +947,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Sbp_EeBk-As?t=1198';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Y4E8qEDi_xg?t=178';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/b1reY72ktEc?t=1348';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/OgMFtn_iFZc?t=8';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/dfuPBC-v5NE?t=1306';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/LO9hUrEjLM4?t=66';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +972,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jerk""",
                       // alsoEnglishWord: "also: jerk",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒɜːk/""",
+                      americanText: """IpaUS: /dʒɜːrk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1011,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: (توند) تەکان، ڕاتڵەکان، ڕاتەکان، پاڵ، ڕاوەشان، لەقاندن
 """),
 // With short examples define "jerk", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) جووڵان یان جووڵاندن بە جووڵەیەکی کورتی لەناکاوی بەهێز"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She jerked her head up.""",
+                      kurdishText: """سەری ڕاتەکاندە سەرەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,26 +1027,29 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The bus jerked to a halt.""",
+                      kurdishText: """پاسەکە ڕاتڵەکا و وەستا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) جووڵەیەکی کورتی لەناکاوی بەهێز"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: jolt"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She sat up with a jerk.""",
+                      kurdishText: """بە تەکانێک ڕاستبوویەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) کەسێکی گەمژە یان کە شتێکی هەڵەی کردووە یان گوتووە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was acting like a complete jerk.""",
+                      kurdishText: """وەک گەمژەیەکی تەواو ڕەفتاری دەکرد.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1034,8 +1057,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """What kind of a jerk would do that?""",
+                      kurdishText: """چی گوێدرێژێک ئەوە دەکات؟""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

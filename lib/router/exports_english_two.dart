@@ -2566,7 +2566,6 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_i/en_en
 // en_entry_jelly.dart' show EnglishEntryjelly
 // en_entry_jellyfish.dart' show EnglishEntryjellyfish
 // en_entry_jeopardize.dart' show EnglishEntryjeopardize
-// en_entry_jeopardy.dart' show EnglishEntryjeopardy
 // en_entry_jerk.dart' show EnglishEntryjerk
 // en_entry_jerky.dart' show EnglishEntryjerky
 // en_entry_jersey.dart' show EnglishEntryjersey

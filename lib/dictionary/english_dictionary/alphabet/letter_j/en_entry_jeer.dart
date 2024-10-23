@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: jeer (Derived forms: jeered, jeers, jeering)
+1. Shout or laugh at with contempt and derision (- scoff, flout, barrack [Brit], gibe)
+"The crowd jeered at the speaker";
 
-EnglishEntryjeer jeer
-WORD_WEB jeer jeer jeer
-haʊʊʊʊʊʊʊ4
+- Noun: jeer (Derived forms: jeers)
+1. Showing your contempt by derision (- jeering, mockery, scoff, scoffing)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jeer";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The audience jeered loudly when he came on stage.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The police were jeered at by the waiting crowd.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He walked on to the stage to be greeted with jeers and whistles.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/8ckxhlDFNkg?t=131';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/qWNHsaszXpc?t=324';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/U_dDpmoQjqg?t=175';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/c2nVilB8QeY?t=950';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/XwqAInN9HWI?t=1106';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/e2YshZZHQCE?t=27';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jeer""",
                       // alsoEnglishWord: "also: jeer",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒɪə(r)/""",
+                      americanText: """IpaUS: /dʒɪr/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +994,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تیتاڵی، گاڵتە، شۆخی، تانە، تەشەر، توانج، پلار
 """),
 // With short examples define "jeer", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) پێکەنین بە کەسێک یان هاوارکردن بە سەریدا بۆ پیشاندانی ئەوەی ڕێزی ناگریت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: taunt"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The audience jeered loudly when he came on stage.""",
+                      kurdishText:
+                          """خەڵکەکە بە دەنگی بەرز هاواریان کرد کە هاتە سەر سەکۆکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1013,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The police were jeered at by the waiting crowd.""",
+                      kurdishText:
+                          """پۆلیس هاواریان بەسەردا کرا لەلایەن جەماوەرە وەستاوەکەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) قسەیەکی بێڕێزانە کە کەسێک بە دەنگی بەرز بە کەسێک دەڵێت بۆ پیشاندانی ئەوەی کە ڕێزی ناگرێت یان حەزی لێی نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He walked on to the stage to be greeted with jeers and whistles.""",
+                      kurdishText:
+                          """چووە سەر سەکۆکە و بە  تەشەر و پێکەنین پێشوازی لێکرا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

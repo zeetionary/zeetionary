@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jazz (Derived forms: jazzes)
+1. Empty rhetoric, insincere or exaggerated talk (- wind, malarkey, malarky, idle words, nothingness)
+"don't give me any of that jazz";
+ 
+2. A genre of popular music that originated in New Orleans around 1900 and developed through increasingly complex styles
+ 
+3. A style of dance music popular in the 1920s; similar to New Orleans jazz but played by large bands
 
-EnglishEntryjazz jazz
-WORD_WEB jazz jazz jazz
-haʊʊʊʊʊʊʊ4
+- Verb: jazz (Derived forms: jazzing, jazzes, jazzed)
+1. (music) play something in the style of jazz
+ 
+2. [US, vulgar] Have sexual intercourse (- sleep together, love, make love, sleep with, have sex, know [archaic], do it [informal], be intimate, have intercourse, lie with [archaic], bed [informal], get it on [informal])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jazz";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +94,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """I've never really gone in for classical music, but I love jazz.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I wish there was more jazz on the radio.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""They booked a jazz band for their wedding.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +934,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/S-4rhjO6xYg?t=272';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/AAGIi62-sAU?t=1268';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/_GFkHA5EZdE?t=327';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/TRGHIN2PGIA?t=219';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/0zXfDafyyao?t=701';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/oMF6pIglmmk?t=407';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jazz""",
                       // alsoEnglishWord: "also: jazz",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒæz/""",
+                      americanText: """IpaUS: /dʒæz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +1001,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jazz", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) جۆرە میوزیکێکی کە ڕیتمی بەهێزی هەیە و زۆرجار گۆرانیبێژەکان سەرسەرەکی کار دەکەن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I've never really gone in for classical music, but I love jazz.""",
+                      kurdishText:
+                          """لە ڕاستیدا هەرگیز حەزم بە میوزیکی کلاسیک نەبووە، بەڵام حەزم بە جازە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1016,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I wish there was more jazz on the radio.""",
+                      kurdishText: """بەهیوام جازی زیاتر هەبێت لەسەر ڕادیۆ.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,11 +1026,14 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They booked a jazz band for their wedding.""",
+                      kurdishText:
+                          """باندێکی جازیان حچز کرد بۆ ئاهەنگی هاوسەرگیرییان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
+                    // add_more_sentences
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

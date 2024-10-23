@@ -57,7 +57,6 @@ ${englishMeaningConst.text}
 "his hat sat jauntily on his full brown hair"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jauntily";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -86,15 +85,15 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He set off jauntily, whistling to himself.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The last song was jauntily performed by the actors.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -926,19 +925,18 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/IC4L_l3SJhI?t=293';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/439X1hJ_j9w?t=2103';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/jsvYHV8oP60?t=722';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/nWD5X8zRMAQ?t=2319';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/R1529d9Df4s?t=172';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/wuWPw4HrNmA?t=907';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -994,20 +992,27 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "jauntily", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ئەوە پیشان دەدات کە هەست بە متمانە دەکەیت و خۆشحاڵیت بە خۆت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: cheerfully"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He set off jauntily, whistling to himself.""",
+                      kurdishText:
+                          """بە کەیف خۆشییەوە دەستی بە گەشتەکەی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵکار) بە دڵخۆشێیەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The last song was jauntily performed by the actors.""",
+                      kurdishText:
+                          """کۆتا گۆرانی بە کەیفەوە لەلایەن نمایشکارانەوە پێشکەش کرا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

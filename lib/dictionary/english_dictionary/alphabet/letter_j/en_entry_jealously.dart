@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjealously jealously
-WORD_WEB jealously jealously jealously
-haʊʊʊʊʊʊʊ4
+- Adverb: jealously
+1. With jealousy
+"he guarded his privacy jealously"
+ 
+2. With jealousy; in an envious manner (- enviously, covetously)
+"he looked at his friend's new car jealously";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jealously";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +88,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Matt watched jealously as his girlfriend and Jake walked to class together.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She eyed Natalia jealously.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """The organization has always guarded its political independence jealously.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/b8poqc0SFG0?t=743';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/5nrCMPyooFc?t=60';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Xw1C5T-fH2Y?t=54';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Uh9xSA2gOZQ?t=769';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/GXgGR8KxFao?t=1233';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/mm8nHolL0aM?t=664';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jealously""",
                       // alsoEnglishWord: "also: jealously",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒeləsli/""",
+                      americanText: """IpaUS: /ˈdʒeləsli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,29 +996,38 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jealously", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە تووڕە یان دڵتەنگ بیت بەهۆی ئەوەی کەسێک کە حەزت لێیە یان خۆشت دەوێت حەزی لە کەسێکی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Matt watched jealously as his girlfriend and Jake walked to class together.""",
+                      kurdishText:
+                          """مات بە بەخیلانە سەیری دەکرد کە دۆستە کچەکەی و جەیک پێکەوە هاتنە پۆل.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بە شێوەیەک کە هەست بە تووڕەیی یان دڵتەنگی دەکەیت چونکە حەز دەکەیت شتێکت هەبێت کەسێکی دیکە هەیەتی"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: enviously"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She eyed Natalia jealously.""",
+                      kurdishText: """بە ئیرەییەوە سەیری ناتالیای دەکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵکار) بە شێوەیەک کە بتەوێت شتێک بپارێزیت چونکە وات لێدەکات هەست بە شانازی بکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The organization has always guarded its political independence jealously.""",
+                      kurdishText:
+                          """دامەزراوەکە هەمیشە سەربەخۆیی سیاسیی بەئاگاییەوە پاراستووە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

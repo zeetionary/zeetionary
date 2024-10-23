@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jelly (Derived forms: jellies)
+1. Fruit-flavoured dessert made from liquid set with gelatin (- jello [N. Amer], Jell-O [N. Amer])
+ 
+2. A preserve made of the jelled juice of fruit
+ 
+3. An edible jelly (sweet or pungent) made with gelatin and used as a dessert or salad base or a coating for foods (- gelatin)
+ 
+4. Any substance having the consistency of jelly or gelatin
 
-EnglishEntryjelly jelly
-WORD_WEB jelly jelly jelly
-haʊʊʊʊʊʊʊ4
+- Verb: jelly (Derived forms: jellying, jellied, jellies)
+1. Make into jelly (- jellify)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jelly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +93,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I was shaking like a jelly before my exam.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Leave the jelly in the fridge to set.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/W2hRTTTpmr8?t=505';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/qWAagS_MANg?t=535';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/DPZzrlFCD_I?t=248';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/YGKRraZXp_4?t=2';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/J3vNJ30tWxg?t=24';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/C7fJ1VcxSd0?t=27';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jelly""",
                       // alsoEnglishWord: "also: jelly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒeli/""",
+                      americanText: """IpaUS: /ˈdʒeli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +999,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jelly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) خواردنێکی ڕوونی شیرینی سارد کە لە جیلاتین، شەکر، و شەربەتی میوە درووست بووە و دەشڵەقێتەوە کە دەجووڵێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I was shaking like a jelly before my exam.""",
+                      kurdishText: """پێش تاقیکردنەوە وەک جەلی دەلەرزیم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1013,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Leave the jelly in the fridge to set.""",
+                      kurdishText:
+                          """جەلییەکە لە ساردکەرەوەکە جێبهێڵە با ڕەق ببێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

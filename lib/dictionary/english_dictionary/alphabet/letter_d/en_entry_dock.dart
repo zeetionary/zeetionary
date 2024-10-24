@@ -444,7 +444,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The dock was bustling with activity as passengers disembarked from the ferry.",
             kurdishText:
-                "کەڵەرەکە پڕ لە جموجۆڵ بوو کە گەشتیارەکان لە بەلەمەکە دادەبەزین.",
+                "کەڵەرەکە پڕ لە جموجۆڵ بوو کە گەشتیارەکان کە لە بەلەمەکە دادەبەزین.",
             onPressedBritish: () => speakdocks4("en-GB"),
             onPressedAmerican: () => speakdocks4("en-US"),
           ),

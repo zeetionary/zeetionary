@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjetty jetty
-WORD_WEB jetty jetty jetty
-haʊʊʊʊʊʊʊ4
+- Noun: jetty (Derived forms: jetties)
+1. A protective structure of stone or concrete; extends from shore into the water to prevent a beach from washing away (- breakwater, groin, groyne, mole, bulwark, seawall)
+ 
+2. A small pier or platform extending from the short at which boats can be moored
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jetty";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""We walked along the jetty to watch the sunset.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/9IM1AEbnGX4?t=776';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/rVZ7Qea-bRA?t=823';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/vEsZeHfv73U?t=188';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/lt-YG_NTYQo?t=1329';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/7Ma7QnIPpYY?t=239';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/4tBXTnDPpiA?t=617';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jetty""",
                       // alsoEnglishWord: "also: jetty",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒeti/""",
+                      americanText: """IpaUS: /ˈdʒeti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +990,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەڵەرە، شەپۆل‌ڕەوێن، شەپۆل‌گێڕەوە، ئاوگێڕەوە، دیوارەشەپۆل،	جێگای بارخستن، باراوێژ
 """),
-// With short examples define "jetty", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) سەکۆیەک کە درووست دەکرێت بەسەر دەریا یان ڕووباورێکدا کە بەلەمی پێوە دەبەسترێت یان خەڵکی لێیەوە دەتوانن بچنە ناو بەلەم و دابەزن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: dock"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We walked along the jetty to watch the sunset.""",
+                      kurdishText:
+                          """بە درێژایی کەڵەرەکە ڕێمان کرد بۆ سەیرکردنی خۆرئاوابوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -2571,7 +2571,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_i/en_en
 // en_entry_jersey.dart' show EnglishEntryjersey
 // en_entry_jest.dart' show EnglishEntryjest
 // en_entry_jet.dart' show EnglishEntryjet
-// en_entry_jet_black.dart' show EnglishEntryjetblack //////// jet-black
+// en_entry_jetblack.dart' show EnglishEntryjetblack //////// jetblack
 // en_entry_jet_engine.dart' show EnglishEntryjetengine //////// jet engine
 // en_entry_jet_lag.dart' show EnglishEntryjetlag //////// jet lag
 // en_entry_the_jet_set.dart' show EnglishEntrythejetset //////// the jet set

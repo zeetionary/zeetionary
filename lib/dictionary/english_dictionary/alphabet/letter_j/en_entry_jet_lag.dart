@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjetlag jet lag
-WORD_WEB jet lag jet lag jet lag
-haʊʊʊʊʊʊʊ4
+- Noun: jet lag
+1. Fatigue and sleep disturbance resulting from disruption of the body's normal circadian rhythm as a result of jet travel
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jet lag";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """I’m still suffering from jet lag after my trip to Australia.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/HGsjNOOaRXg?t=466';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/kjulGt3rolY?t=32';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Fr-qagv7ig0?t=30';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/owMlmhvik_0?t=740';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/nd5--EqzLPY?t=440';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/dl5FHmL_6rE?t=28';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jet lag""",
                       // alsoEnglishWord: "also: jet lag",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒet læɡ/""",
+                      americanText: """IpaUS: /ˈdʒet læɡ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,15 +987,18 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: ماندوویی فڕین، جێت‌بردوویی، ماندوویی ڕێگا
+// """),
 // With short examples define "jet lag", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە ماندوو بیت و کەمێک شڵەژاو بیت لە دوای گەشتێکی درێژی سەر فڕۆکە، بە تایبەتی جیاوازی زۆری کات هەیە لە نێوان ئەو دوو شوێنەی گەشتەکەت دەستی پێکردووە و کۆتایی هاتووە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I’m still suffering from jet lag after my trip to Australia.""",
+                      kurdishText:
+                          """هێشتا تووشی شەکەتی گەشتم لە دوای گەشتەکەم بۆ ئوسترالیا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

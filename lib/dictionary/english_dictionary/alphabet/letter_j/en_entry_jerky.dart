@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: jerky (Derived forms: jerkier, jerkiest)
+1. Lacking a steady rhythm (- arrhythmic, jerking, arhythmic)
+ 
+2. Marked by abrupt transitions (- choppy)
+"jerky prose";
+ 
+3. Having or revealing stupidity (- anserine, dopy, dopey, foolish, goosey, goosy, gooselike)
+"ridiculous jerky behaviour";
 
-EnglishEntryjerky jerky
-WORD_WEB jerky jerky jerky
-haʊʊʊʊʊʊʊ4
+- Noun: jerky 
+1. Meat (especially beef) cut in strips and dried in the sun (- jerked meat, jerk)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jerky";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +93,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The disease causes sudden jerky movements of the hands and legs.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I love the spicy flavor of this jerky.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/E991yX1WiEI?t=102';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Fr-qagv7ig0?t=566';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/XG8b7WhANNA?t=1075';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/1uNpjqH-mQQ?t=460';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/6noCpwaFbVw?t=1013';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/Sbp_EeBk-As?t=717';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jerky""",
                       // alsoEnglishWord: "also: jerky",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒɜːki/""",
+                      americanText: """IpaUS: /ˈdʒɜːrki/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +996,21 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پچڕپچڕ، ناڕێک، تەکان‌تەکان، پڕهەڵبەزودابەز، پڕتەکان، تەکاناوی، گەوج، کەر
 """),
-// With short examples define "jerky", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە لەناکاو دەست پێدەکات و دەجووڵێت و لەسەرخۆیی دەجووڵێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The disease causes sudden jerky movements of the hands and legs.""",
+                      kurdishText: """نەخۆشییەکە دەبێتە هۆکاری جووڵەی لەناکاوی پچڕپچڕی دەستەکان و لاقەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) گۆشتێک کە بڕدراوە بۆ پارچەی درێژی باریک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I love the spicy flavor of this jerky.""",
+                      kurdishText: """حەزم لە تامی توونی ئەم گۆشتەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

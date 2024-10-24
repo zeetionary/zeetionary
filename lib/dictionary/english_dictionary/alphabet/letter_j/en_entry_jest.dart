@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jest (Derived forms: jests)
+1. A humorous anecdote or remark intended to provoke laughter (- joke, gag, laugh, jape)
+"he laughed unpleasantly at his own jest";
+ 
+2. Activity characterized by good humour (- joke, jocularity)
 
-EnglishEntryjest jest
-WORD_WEB jest jest jest
-haʊʊʊʊʊʊʊ4
+- Verb: jest (Derived forms: jests, jesting, jested)
+1. Tell a joke; speak humorously (- joke)
+"He often jests even when he appears serious";
+ 
+2. Act in a funny or teasing way (- joke)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jest";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +93,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His proposal was no jest - he was completely sincere.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/pZbN1x_wgq8?t=338';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/PQl82pAgnLo?t=86';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/COD9hcTpGWQ?t=172';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/booTTAIvKf8?t=567';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/O4ciwjHVHYg?t=4042';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/4IwhyQryXws?t=286';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jest""",
                       // alsoEnglishWord: "also: jest",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒest/""",
+                      americanText: """IpaUS: /dʒest/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +996,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شۆخی، جەفەنگ، حەنەک، مایەی پێکەنینی، بەزم، قۆشمە، تیز، گاڵتە
 """),
 // With short examples define "jest", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) شتێک کە دەکرێت یان دەگوترێت بۆ ئەوەی خەڵکی پێبکەنن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: joke"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His proposal was no jest - he was completely sincere.""",
+                      kurdishText: """پێشنیارەکەی گاڵتە نەبوو _ تەواو جدی بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -1089,7 +1089,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """Scott gave him a sharp left jab to the ribs.""",
                       kurdishText:
-                          """سکۆت مشتێکی توندی بە دەستی چەپی کێشا بە پەراسوویدا.""",
+                          """سکۆت سیخورمەیەکی توندی بە دەستی چەپی کێشا بە پەراسوویدا.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

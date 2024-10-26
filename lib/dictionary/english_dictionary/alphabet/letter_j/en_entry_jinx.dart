@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jinx (Derived forms: jinxes)
+1. A person believed to bring bad luck to those around him (- jonah)
+ 
+2. An evil spell (- hex, curse, whammy, mozz [Austral, informal])
+"a witch put a jinx on his whole family";
 
-EnglishEntryjinx jinx
-WORD_WEB jinx jinx jinx
-haʊʊʊʊʊʊʊ4
+- Verb: jinx (Derived forms: jinxes, jinxing, jinxed)
+1. Cast a spell over someone or something; put a hex on someone or something (- hex, bewitch, glamour, witch, enchant)
+ 
+2. Foredoom to failure
+"This project is jinxed!"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jinx";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +93,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""I don't want to jinx anything by making promises.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I'm convinced there's a jinx on this car.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The injury jinx has struck Real Madrid.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/rg3Y3tCmBWo?t=121';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/M5UXhj-dEjc?t=321';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/vUbIA9zjTSs?t=785';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/AAeRZX6ann8?t=170';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/722Q-KVyZ1o?t=483';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/kS6YJJfBYag?t=500';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jinx""",
                       // alsoEnglishWord: "also: jinx",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒɪŋks/""",
+                      americanText: """IpaUS: /dʒɪŋks/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +1000,29 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jinx", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) هێنانی بەختی خراپ بە شێوەیەکی نەخوازراو"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I don't want to jinx anything by making promises.""",
+                      kurdishText:
+                          """نامەوێت نەگریسی بهێنم بەوەی بەڵێن بدەم.""",
+                      englishNote:
+                          """This means the person doesn’t want to bring bad luck or cause things to go wrong by making promises, as they feel that speaking about something too soon might negatively affect the outcome.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) بەختی خراپ؛ ک/شت کە باوەڕ وایە بەختی خراپ دەهێنێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I'm convinced there's a jinx on this car.""",
+                      kurdishText:
+                          """قەناعەتم هێناوە کە نەگریسییەک لەم ئۆتۆمبێلە هەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1030,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The injury jinx has struck Real Madrid.""",
+                      kurdishText: """نەهامەتی پێکان تووشی ڕیاڵ مەدرید بووە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

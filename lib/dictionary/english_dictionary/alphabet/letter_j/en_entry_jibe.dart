@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jibe (Derived forms: jibes)
+1. An aggressive remark directed at a person like a missile and intended to have a telling effect (- shot, shaft, slam, dig [informal], barb, gibe)
+"his parting jibe was 'drop dead'";
 
-EnglishEntryjibe jibe
-WORD_WEB jibe jibe jibe
-haʊʊʊʊʊʊʊ4
+- Verb: jibe (Derived forms: jibed, jibing, jibes)
+1. Be compatible, similar or consistent; coincide in their characteristics (- match, fit, correspond, check, gibe, tally, agree, marry up, marry)
+ 
+2. Shift from one side of the ship to the other (- gybe [Brit, Cdn], jib, change course)
+"The sail jibed wildly";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jibe";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """He made several cheap jibes at his opponent during the interview.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He jibed repeatedly at the errors they had made.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Your statement doesn't jibe with the facts.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/vE2rEQBU8kM?t=300';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/n-U2BaSMvjk?t=227';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/BuaKzm7Kq9Q?t=966';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/vAgiHreswj0?t=702';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/iYecSHbkrtI?t=425';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/Ezthd6A3tiw?t=267';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jibe""",
                       // alsoEnglishWord: "also: jibe",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒaɪb/""",
+                      americanText: """IpaUS: /dʒaɪb/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +996,41 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گاڵتە، شۆخی، تیتاڵی، تیز، پلار، تانە، تەشەر، توانج، تانووت
 """),
 // With short examples define "jibe", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) قسەیەکی ناشرین یان توند بەرامبەر کەسێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He made several cheap jibes at his opponent during the interview.""",
+                      kurdishText:
+                          """هەندێک توانجی هیچی دا لە ڕکابەرەکەی لە چاوپێکەوتنەکەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) گوتنی شتێک کە ئامانج لێی ئەوەیە کەسێک بە گەمژە دەربخات یان شەرمەزاری بکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He jibed repeatedly at the errors they had made.""",
+                      kurdishText:
+                          """بەردەوام توانجی دەدا لەو هەڵانەی کردبوویان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) ئەوەی هاوشێوەی شتێک بیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Your statement doesn't jibe with the facts.""",
+                      kurdishText: """قسەکەت لەگەڵ ڕاستییەکان ناگونجێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

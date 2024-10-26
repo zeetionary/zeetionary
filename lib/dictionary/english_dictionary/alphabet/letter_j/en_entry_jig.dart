@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jig (Derived forms: jigs)
+1. Any of various old rustic dances involving kicking and leaping
+ 
+2. Music in three-four time for dancing a jig (- gigue)
+ 
+3. A fisherman's lure with one or more hooks that is jerked up and down in the water
+ 
+4. A device that holds a piece of machine work and guides the tools operating on it
 
-EnglishEntryjig jig
-WORD_WEB jig jig jig
-haʊʊʊʊʊʊʊ4
+- Verb: jig (Derived forms: jigging, jigged, jigs)
+1. Dance a quick dance with leaping and kicking motions
+ 
+2. Move up and down repeatedly in a quick, short movement (- bob)
+ 
+3. Use or fit with a jig
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jig";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +97,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The band played a lively jig for the crowd.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He jigged up and down with excitement.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +936,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/OIo2Ie1HwHY?t=1577';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Yt9sPsdml7g?t=214';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/V3NGBo2M1Ps?t=426';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/qVfJheBp7Ys?t=1106';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/_2LApgOJe5k?t=382';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/FBhYAQEVEZE?t=409';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +961,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jig""",
                       // alsoEnglishWord: "also: jig",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒɪɡ/""",
+                      americanText: """IpaUS: /dʒɪɡ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,21 +1002,24 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "jig", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) سەمایەکی خێرای بەجۆش"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The band played a lively jig for the crowd.""",
+                      kurdishText:
+                          """باندەکە کورتە سەمایەکی بەجۆشیان بۆ خەڵکەکە ئەنجام دا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) جووڵان یان واکردنی ئەوەی کەسێک بجووڵێت بە بە جووڵەی خێرای کورت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He jigged up and down with excitement.""",
+                      kurdishText: """لە خۆشیدا هەڵبەز و دابەزی بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

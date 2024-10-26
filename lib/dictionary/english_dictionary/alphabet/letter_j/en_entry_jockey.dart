@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jockey (Derived forms: jockeys)
+1. Someone employed to ride horses in horse races
+ 
+2. An operator of some vehicle, machine or apparatus
+"he's a truck jockey"; "a computer jockey"; "a disc jockey"
 
-EnglishEntryjockey jockey
-WORD_WEB jockey jockey jockey
-haʊʊʊʊʊʊʊ4
+- Verb: jockey (Derived forms: jockeys, jockeying, jockeyed)
+1. Defeat someone through trickery or deceit (- cheat, chouse, shaft [informal], screw [informal], chicane)
+ 
+2. Compete (for an advantage or a position)
+ 
+3. Ride a racehorse as a professional jockey
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jockey";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +94,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Which jockey will be riding tomorrow?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """Several key figures are already jockeying to succeed the leader.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +934,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/1WNs8KQ8pJU?t=318';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/7OeeHz0uNdM?t=260';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/EQdeHNWf-0I?t=368';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/3-0-81q-fGo?t=1118';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/rUXG_p64Lzo?t=73';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/3HrDf6nra-I?t=48';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jockey""",
                       // alsoEnglishWord: "also: jockey",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒɒki/""",
+                      americanText: """IpaUS: /ˈdʒɑːki/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +1001,25 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jockey", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە ئەسپسواری دەکات لە پێشبڕکێدا، بە تایبەتی وەک پیشەیەک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Which jockey will be riding tomorrow?""",
+                      kurdishText: """چی سوارەیەک سبەی سوارچاکی دەکات؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) تاقیکردنەوەی هەموو ڕێگاکانی بردنەوە بەسەر کەسێکدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Several key figures are already jockeying to succeed the leader.""",
+                      kurdishText:
+                          """ژمارەیەک کەسایەتی دیار لە ئێستاوە ململانێیانە بۆ شوێنگرتنەوەی سەرکردەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jingle (Derived forms: jingles)
+1. A metallic sound (- jangle)
+"the jingle of coins";
+ 
+2. A comic verse of irregular measure (- doggerel, doggerel verse, doggrel)
+"he had heard some silly jingle that kept running through his mind";
 
-EnglishEntryjingle jingle
-WORD_WEB jingle jingle jingle
-haʊʊʊʊʊʊʊ4
+- Verb: jingle (Derived forms: jingles, jingling, jingled)
+1. Make a sound typical of metallic objects (- jingle-jangle, jangle)
+"The keys were jingling in his pocket";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jingle";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +92,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He heard a jingle of keys at the door.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """I wrote a song which they’re thinking of using as a jingle.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""A bell jingled as he entered the shop.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/nmCpYdNfbzs?t=344';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/HMX-wa3mVkc?t=628';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/_GFkHA5EZdE?t=337';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/I0-XDmuh7HA?t=25';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ukiD7YyCK9g?t=17';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/omcNGrnt7Sg?t=293';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jingle""",
                       // alsoEnglishWord: "also: jingle",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒɪŋɡl/""",
+                      americanText: """IpaUS: /ˈdʒɪŋɡl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +996,39 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خڕە، تەقە، تەق‌وکوت، خڕەخڕ، زرینگە، زرینگ‌وهۆڕ، جرینگەجرینگ
 """),
 // With short examples define "jingle", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دەنگێک کە وەک هی زەنگە درووست دەبێت کە کانزا بەر یەکدی دەکەون"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He heard a jingle of keys at the door.""",
+                      kurdishText: """گوێی لە خڕەی کلیل بوو لای دەرگاکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) گۆرانییەکی کورت کە ئاسان بیردێتەوە و لە ڕیکلامدا بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I wrote a song which they’re thinking of using as a jingle.""",
+                      kurdishText:
+                          """گۆرانییەکم نووسی کە بیر لەوە دەکەنەوە وەک گۆرانی ڕیکلام بەکاری بهێنن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (کردار) درووستکردنی دەنگێکی خۆشی ئارام وەک هی زەنگ"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """A bell jingled as he entered the shop.""",
+                      kurdishText: """زەنگێک زرینگەی هات کە چووە فرۆشگاکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

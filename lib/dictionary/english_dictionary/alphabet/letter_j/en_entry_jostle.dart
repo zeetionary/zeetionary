@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: jostle (Derived forms: jostled, jostles, jostling)
+1. Make one's way by jostling, pushing, or shoving
+"We had to jostle our way to the front of the platform"
+ 
+2. Come into rough contact with while moving (- shove)
+"The passengers jostled each other in the overcrowded train";
 
-EnglishEntryjostle jostle
-WORD_WEB jostle jostle jostle
-haʊʊʊʊʊʊʊ4
+- Noun: jostle (Derived forms: jostles)
+1. The act of jostling (forcing your way by pushing) (- jostling)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jostle";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The visiting president was jostled by angry demonstrators.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The class giggled and jostled each other.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Gs26bZTRkdU?t=390';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/crY-q80MfJU?t=367';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/dcnPK1HYSqQ?t=1040';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/IifdsfniFS0?t=1556';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/f9PFge1Dtpg?t=566';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/MaA29LZLAHQ?t=122';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jostle""",
                       // alsoEnglishWord: "also: jostle",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒɒsl/""",
+                      americanText: """IpaUS: /ˈdʒɑːsl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +998,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jostle", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) پاڵنانی توند بە کەسێکەوە لەناو جەماوەرێک لە خەڵکیدا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The visiting president was jostled by angry demonstrators.""",
+                      kurdishText:
+                          """سەرۆکە سەردانکارەکە لەلایەنە خۆپیشاندەرە تووڕەکانەوە پاڵی پێوەنرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1013,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The class giggled and jostled each other.""",
+                      kurdishText:
+                          """پۆلەکە پێدەکەنین و پاڵیان بەیەکەوە دەنا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

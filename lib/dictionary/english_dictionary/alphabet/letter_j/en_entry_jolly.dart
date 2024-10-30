@@ -52,13 +52,30 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: jolly (Derived forms: jolliest, jollier)
+1. Full of or showing high-spirited merriment (- gay, jocund [formal], jovial, merry, mirthful)
+"the jolly crowd at the reunion"; "jolly old Saint Nick";
 
-EnglishEntryjolly jolly
-WORD_WEB jolly jolly jolly
-haʊʊʊʊʊʊʊ4
+- Noun: jolly (Derived forms: jollies)
+1. [Brit, NZ, informal] A happy party
+ 
+2. A yawl used by a ship's sailors for general work (- jolly boat)
+
+- Verb: jolly (Derived forms: jollying, jollied, jollies)
+Usage: informal
+1. Be silly or tease one another (- kid [informal], chaff, josh [informal], banter)
+"After we relaxed, we just jollied around";
+ 
+2. Cause (somebody) to feel happier or more cheerful (- cheer, cheer up, jolly along [informal], jolly up [informal], buck up [informal])
+ 
+3. Become cheerful (- cheer, cheer up, buck up [informal])
+
+- Adverb: jolly
+Usage: Brit, informal
+1. To certain extent or degree (- reasonably, moderately, pretty [informal], somewhat, fairly, middling, passably, middlingly, averagely)
+"jolly decent of him";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jolly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +104,36 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He had a round, jolly face.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""We spent a very jolly evening together.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""That's a jolly good idea.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""That's a jolly nice scarf you're wearing.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""He hasn't come here for a jolly; he's come to win.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +944,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/xHI57s2tvDE?t=31';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/qg2nGY1aqlg?t=423';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/amdbtHvSeeA?t=421';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/bcdEFos9YQQ?t=1438';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/YLmDE_JYUNU?t=216';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/8qBnrS9-d4M?t=64';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +969,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jolly""",
                       // alsoEnglishWord: "also: jolly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒɒli/""",
+                      americanText: """IpaUS: /ˈdʒɑːli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +1008,33 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی:  یەکجار، زۆر، گەلێ، فرە، بەکەیف، ڕووبەپێکەنین، ڕووخۆش، بەدەماخ، خۆش، سەرخۆش، کەمێ مەست، بەگوڕ، شاد
 """),
 // With short examples define "jolly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) دڵخۆش و بەجۆش"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He had a round, jolly face.""",
+                      kurdishText: """ڕووخسارێکی خڕی بەجۆشی هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) خۆش"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We spent a very jolly evening together.""",
+                      kurdishText: """ئێوارەیەکی خۆشمان پێکەوە بەسەر برد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵکار) زۆر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """That's a jolly good idea.""",
+                      kurdishText: """بیرۆکەیەکی زۆر باشە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,17 +1042,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """That's a jolly nice scarf you're wearing.""",
+                      kurdishText: """لەچکێکی زۆر جوانە پۆشیوتە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ناو) گەشت یان بۆنەیەک کە بۆ خۆشییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He hasn't come here for a jolly; he's come to win.""",
+                      kurdishText:
+                          """بۆ خۆشی نەهاتووە بۆ ئێرە؛ بۆ بردنەوە هاتووە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

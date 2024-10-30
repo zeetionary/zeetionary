@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjoker joker
-WORD_WEB joker joker joker
-haʊʊʊʊʊʊʊ4
+- Noun: joker (Derived forms: jokers)
+1. A person who enjoys telling or playing jokes (- jokester, funster [informal], wisecracker, quipster)
+ 
+2. A person who does something thoughtless or annoying (- turkey [informal])
+"some joker is blocking the driveway";
+ 
+3. An inconspicuous clause in a document or bill that affects its meaning in a way that is not immediately apparent
+"when I demanded my money he showed me the joker in the contract"
+ 
+4. A playing card that is usually printed with a picture of a jester
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "joker";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +92,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He’s always been a bit of a joker.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Some joker keeps setting off the fire alarm.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/x3HbbzHK5Mc?t=15';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/wknSc6HRUMI?t=321';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/fC_Z5HlK9Pw?t=149';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/qJl1p0W5-y4?t=679';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/TfH85qWVilQ?t=671';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/rIhOPOzlvTA?t=34';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """joker""",
                       // alsoEnglishWord: "also: joker",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒəʊkə(r)/""",
+                      americanText: """IpaUS: /ˈdʒəʊkər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +995,27 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شۆخی‌باز، قۆشمە، قسەخۆش، نوکتەبێژ
 """),
 // With short examples define "joker", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە حەزی بە نوکتە و گاڵتەجاڕییە بۆ ئەوەی خەڵکی پێبکەنن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He’s always been a bit of a joker.""",
+                      kurdishText: """بەردەوام کەمێک گاڵتەجاڕ بووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) کەسێکی بێزارکەر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some joker keeps setting off the fire alarm.""",
+                      kurdishText:
+                          """بێزارکەرێک بەردەوام زەنگی ئاگرەکە چالاک دەکات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

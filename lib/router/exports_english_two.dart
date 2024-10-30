@@ -2612,7 +2612,6 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_i/en_en
 // en_entry_jolly.dart' show EnglishEntryjolly
 // en_entry_jolt.dart' show EnglishEntryjolt
 // en_entry_jostle.dart' show EnglishEntryjostle
-// en_entry_jot.dart' show EnglishEntryjot
 // en_entry_jotter.dart' show EnglishEntryjotter
 // en_entry_journal.dart' show EnglishEntryjournal
 // en_entry_journalism.dart' show EnglishEntryjournalism

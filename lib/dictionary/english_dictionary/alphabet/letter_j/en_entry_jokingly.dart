@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjokingly jokingly
-WORD_WEB jokingly jokingly jokingly
-haʊʊʊʊʊʊʊ4
+- Adverb: jokingly
+1. In jest (- jestingly)
+"I asked him jokingly whether he thought he could drive the Calcutta-Peshawar express";
+ 
+2. Not seriously (- facetiously, tongue-in-cheek)
+"I meant it jokingly";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jokingly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She suggested jokingly that they should sell the family car and all buy bikes instead.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/cMBrvHsFD_8?t=1321';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Ihoys69G56U?t=32';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/PhNUjg9X4g8?t=91';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/66VdylXI0nQ?t=120';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/pLwHTqU2r_Y?t=612';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/oiLdWXLXDeA?t=347';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jokingly""",
                       // alsoEnglishWord: "also: jokingly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒəʊkɪŋli/""",
+                      americanText: """IpaUS: /ˈdʒəʊkɪŋli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +995,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jokingly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە شێوەیەک کە بە گاڵتەوەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She suggested jokingly that they should sell the family car and all buy bikes instead.""",
+                      kurdishText:
+                          """بە گاڵتەوە گوتی کە دەبێت ئۆتۆمبێلی خێزانەکە بفرۆشن و هەموویان پاسکیل بکڕن لە جیاتیدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

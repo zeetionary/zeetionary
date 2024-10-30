@@ -140,25 +140,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: بێزار، بێزراو، بێزەون، قێزەون، ناشیرین، ناحەز، دزێو
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ھاوەڵناو) شتێک کە نەگونجاوە و ڕقت لا درووستدەکات"""),
-                          SentencesRow(
-                            englishText:
-                                "Racism is abhorrent to a civilized society.",
-                            kurdishText:
-                                "ڕەگەزپەرستی بێزراوە لە کۆمەڵگایەکی شارستانیدا.",
-                            onPressedBritish: () => speakab63("en-GB"),
-                            onPressedAmerican: () => speakab63("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) شتێک کە نەگونجاوە و ڕقت لا درووستدەکات"""),
+                    SentencesRow(
+                      englishText:
+                          "Racism is abhorrent to a civilized society.",
+                      kurdishText:
+                          "ڕەگەزپەرستی بێزراوە لە کۆمەڵگایەکی شارستانیدا.",
+                      onPressedBritish: () => speakab63("en-GB"),
+                      onPressedAmerican: () => speakab63("en-US"),
                     ),
                   ],
                 ),

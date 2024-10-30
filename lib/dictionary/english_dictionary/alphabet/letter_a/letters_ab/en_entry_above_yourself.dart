@@ -133,14 +133,8 @@ Idiom: above yourself
               const SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          DefinitionKurdish(text: """
+                    DefinitionKurdish(text: """
 ١. کاتێک کە خۆت بە زیاتر لەوەی ھەیت دەزانیت"""),
-                        ],
-                      ),
-                    ),
                   ],
                 ),
               ),

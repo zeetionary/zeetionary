@@ -146,26 +146,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: نائاسایی بوون، سەیربوون، ڕیزپەڕێتی، ناوازەیی، دۆخێکی نائاسایی
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) تایبەتمەندییەکی کەسێک/شتێک کە ئاسایی نییە و زیانی ھەیە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "miscarriage can be caused by fetal abnormality",
-                            kurdishText:
-                                "لەبارچوون ئەکرێت ڕووبدات بەھۆی نائاساییبوونی ئاوڵەمە.",
-                            onPressedBritish: () => speaka64("en-GB"),
-                            onPressedAmerican: () => speaka64("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) تایبەتمەندییەکی کەسێک/شتێک کە ئاسایی نییە و زیانی ھەیە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "miscarriage can be caused by fetal abnormality",
+                      kurdishText:
+                          "لەبارچوون ئەکرێت ڕووبدات بەھۆی نائاساییبوونی ئاوڵەمە.",
+                      onPressedBritish: () => speaka64("en-GB"),
+                      onPressedAmerican: () => speaka64("en-US"),
                     ),
                   ],
                 ),

@@ -160,33 +160,27 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: لە، لەنێو، لەژوور، سوار (ی)، لەسەر، لەبان (کەشتی، فڕۆکە، شەمەندەفەر و ھتد)
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ئامراز، ھاوەڵکار) لەسەر یان ناو کەشتی، فڕۆکە، پاس، یان شمەندەفەر"
-                                  ""),
-                          SentencesRow(
-                            englishText: "He was already aboard the plane.",
-                            kurdishText: "پێشوەختە لەناو فڕۆکەکە بوو.",
-                            onPressedBritish: () => speaka28("en-GB"),
-                            onPressedAmerican: () => speaka28("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "The plane crashed, killing all 157 passengers aboard.",
-                            kurdishText:
-                                "فڕۆکەکە تێکشکا و ھەموو ١٥٧ سەرنشینەکەی گیانیان لەدەستدا.",
-                            onPressedBritish: () => speaka37("en-GB"),
-                            onPressedAmerican: () => speaka37("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ئامراز، ھاوەڵکار) لەسەر یان ناو کەشتی، فڕۆکە، پاس، یان شمەندەفەر"
+                            ""),
+                    SentencesRow(
+                      englishText: "He was already aboard the plane.",
+                      kurdishText: "پێشوەختە لەناو فڕۆکەکە بوو.",
+                      onPressedBritish: () => speaka28("en-GB"),
+                      onPressedAmerican: () => speaka28("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "The plane crashed, killing all 157 passengers aboard.",
+                      kurdishText:
+                          "فڕۆکەکە تێکشکا و ھەموو ١٥٧ سەرنشینەکەی گیانیان لەدەستدا.",
+                      onPressedBritish: () => speaka37("en-GB"),
+                      onPressedAmerican: () => speaka37("en-US"),
                     ),
                   ],
                 ),

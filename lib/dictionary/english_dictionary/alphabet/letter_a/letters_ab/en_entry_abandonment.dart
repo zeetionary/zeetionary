@@ -146,26 +146,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: بەجێ‌ھێشتن، تەنیاخستنەوە، تەنیامانەوە، وەلانان، پشت(لێ)ھەڵکردن، چۆڵ‌کردن، تەرک‌کردن، چاوپۆشین، وازلێ‌ھێنان، بەنیوەچڵی‌ھێشتنەوە، دەس(لێ)ھەڵگرتن، تەواونەکردن، ناتەواوھێشتنەوە، دەس(ت)ڕاگرتن، لێ‌گەڕان، دەس(ت)لێ‌بەردان، دەست‌بەرداری، دەس(ت)کێشانەوە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کرداری ژێھێشتنی کەسێک بەبێ ویستی گەڕانەوە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "Their childhood abandonment by their mother affected their lives greatly.",
-                            kurdishText:
-                                "دەستبەرداربوون لێیان لەلایەن دایکیان لە تەمەنی منداڵیدا کاریگەری زۆری لەسەریان ھەبوو.",
-                            onPressedBritish: () => speakaba12("en-GB"),
-                            onPressedAmerican: () => speakaba12("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) کرداری ژێھێشتنی کەسێک بەبێ ویستی گەڕانەوە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "Their childhood abandonment by their mother affected their lives greatly.",
+                      kurdishText:
+                          "دەستبەرداربوون لێیان لەلایەن دایکیان لە تەمەنی منداڵیدا کاریگەری زۆری لەسەریان ھەبوو.",
+                      onPressedBritish: () => speakaba12("en-GB"),
+                      onPressedAmerican: () => speakaba12("en-US"),
                     ),
                   ],
                 ),

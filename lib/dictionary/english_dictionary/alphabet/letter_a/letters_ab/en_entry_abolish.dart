@@ -140,24 +140,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ھەڵوەشاندنەوە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) بە فەرمی کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"
-                                  ""),
-                          SentencesRow(
-                            englishText: "This tax should be abolished.",
-                            kurdishText: "ئەم باجە دەبێت کۆتایی بێت.",
-                            onPressedBritish: () => speaka34("en-GB"),
-                            onPressedAmerican: () => speaka34("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (کردار) بە فەرمی کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"
+                            ""),
+                    SentencesRow(
+                      englishText: "This tax should be abolished.",
+                      kurdishText: "ئەم باجە دەبێت کۆتایی بێت.",
+                      onPressedBritish: () => speaka34("en-GB"),
+                      onPressedAmerican: () => speaka34("en-US"),
                     ),
                   ],
                 ),

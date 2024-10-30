@@ -181,54 +181,45 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: کەم‌تەرخەمی، گوێ‌پێ‌نەدان، بێ‌جڵەوی، بەربەڕەڵایی، پشت‌گوێ‌خستن، بێ‌خەیاڵی، ئالۆرێتی، وازلێھێنان، وەلانان
 """),
-                          const DefinitionKurdish(
-                              text: "١. (کردار) جێھێشتنی کەسێک/شتێک" ""),
-                          SentencesRow(
-                            englishText:
-                                "The baby had been abandoned by its mother.",
-                            kurdishText: "منداڵەکە لەلایەن دایکی جێھێڵدرابوو.",
-                            onPressedBritish: () => speak145632("en-GB"),
-                            onPressedAmerican: () => speak145632("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Snow forced many drivers to abandon their vehicles.",
-                            kurdishText:
-                                "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن.",
-                            onPressedBritish: () => speak4522369("en-GB"),
-                            onPressedAmerican: () => speak4522369("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٢. (کردار) وەستان لە کردنی شتێک"),
-                          SentencesRow(
-                            englishText:
-                                "They abandoned the match because of rain.",
-                            kurdishText:
-                                "یارییەکەیان وەستاند بەھۆی باران بارین.",
-                            onPressedBritish: () => speak112547("en-GB"),
-                            onPressedAmerican: () => speak112547("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ناو) وەستان لە باوەڕبوون بە شتێک"),
-                          SentencesRow(
-                            englishText:
-                                "Germany abandoned its political leaders after WWII.",
-                            kurdishText:
-                                "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لە دوای جەنگی دووەمی جیھان.",
-                            onPressedBritish: () => speaka664("en-GB"),
-                            onPressedAmerican: () => speaka664("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (کردار) جێھێشتنی کەسێک/شتێک" ""),
+                    SentencesRow(
+                      englishText: "The baby had been abandoned by its mother.",
+                      kurdishText: "منداڵەکە لەلایەن دایکی جێھێڵدرابوو.",
+                      onPressedBritish: () => speak145632("en-GB"),
+                      onPressedAmerican: () => speak145632("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "Snow forced many drivers to abandon their vehicles.",
+                      kurdishText:
+                          "بەفر ژمارەیەکی زۆر شۆفێری ناچارکرد ئۆتۆمبێلەکانیان بەجێبھێڵن.",
+                      onPressedBritish: () => speak4522369("en-GB"),
+                      onPressedAmerican: () => speak4522369("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: "٢. (کردار) وەستان لە کردنی شتێک"),
+                    SentencesRow(
+                      englishText: "They abandoned the match because of rain.",
+                      kurdishText: "یارییەکەیان وەستاند بەھۆی باران بارین.",
+                      onPressedBritish: () => speak112547("en-GB"),
+                      onPressedAmerican: () => speak112547("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: "٣. (ناو) وەستان لە باوەڕبوون بە شتێک"),
+                    SentencesRow(
+                      englishText:
+                          "Germany abandoned its political leaders after WWII.",
+                      kurdishText:
+                          "ئەڵمانیا دەستبەرداری سەرکردایەتییەکەی بوو لە دوای جەنگی دووەمی جیھان.",
+                      onPressedBritish: () => speaka664("en-GB"),
+                      onPressedAmerican: () => speaka664("en-US"),
                     ),
                   ],
                 ),

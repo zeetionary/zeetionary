@@ -143,23 +143,16 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ماڵ، خانوو، بنکە، ئێورگە، ھێورگە، مەکۆ، جێگا، جێ، شوێن، جێ‌وڕێ، زێد، ئارا، ڕێ‌وشوێن
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) شوێنی ژیانی کەسێک" ""),
-                          SentencesRow(
-                            englishText:
-                                "You are most welcome to my humble abode.",
-                            kurdishText: "زۆر بەخێربێیت بۆ وارگە سادەکەم.",
-                            onPressedBritish: () => speakab247("en-GB"),
-                            onPressedAmerican: () => speakab247("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) شوێنی ژیانی کەسێک" ""),
+                    SentencesRow(
+                      englishText: "You are most welcome to my humble abode.",
+                      kurdishText: "زۆر بەخێربێیت بۆ وارگە سادەکەم.",
+                      onPressedBritish: () => speakab247("en-GB"),
+                      onPressedAmerican: () => speakab247("en-US"),
                     ),
                   ],
                 ),

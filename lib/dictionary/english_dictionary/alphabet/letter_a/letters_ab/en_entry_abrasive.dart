@@ -153,36 +153,28 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: کڕێنەر، کڕەک، داخورێنەر، سوێنەر، زبرە، خاوێن‌کەرەوە، داتاشەر، لووس‌کەر، مشت‌وماڵ‌دەر، ژان‌بەدڵ‌گەیێن، جەرگبڕ، دڵ‌شکێن، ناخۆش، توندوتیژ، کەرەسە یا مەتریاڵی سوێنەر، ماکی سوواندن، سوێنە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ھاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن"""),
-                          SentencesRow(
-                            englishText:
-                                "The cleaner has a mildly abrasive action.",
-                            kurdishText:
-                                "پاککەرەوەکە کەمێک کاری داتاشینیش دەکات.",
-                            onPressedBritish: () => speakab321("en-GB"),
-                            onPressedAmerican: () => speakab321("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) شتێک کە زبرە و بەکاردێت بۆ پاککردنەوە یان لووسکردن"""),
+                    SentencesRow(
+                      englishText: "The cleaner has a mildly abrasive action.",
+                      kurdishText: "پاککەرەوەکە کەمێک کاری داتاشینیش دەکات.",
+                      onPressedBritish: () => speakab321("en-GB"),
+                      onPressedAmerican: () => speakab321("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) کەسێک کە ڕەفتاری دڵشکێن و خراپە"""),
-                          SentencesRow(
-                            englishText:
-                                "Throughout his career he was known for his abrasive manner.",
-                            kurdishText:
-                                "بە درێژایی کارەکەی بەوە ناسراوبوو کە ڕەفتاری توند و خراپە.",
-                            onPressedBritish: () => speakab254("en-GB"),
-                            onPressedAmerican: () => speakab254("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "Throughout his career he was known for his abrasive manner.",
+                      kurdishText:
+                          "بە درێژایی کارەکەی بەوە ناسراوبوو کە ڕەفتاری توند و خراپە.",
+                      onPressedBritish: () => speakab254("en-GB"),
+                      onPressedAmerican: () => speakab254("en-US"),
                     ),
                   ],
                 ),

@@ -139,19 +139,13 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کرداری لێکدراو) کاتێک شتێک ڕێژەیەکی زۆر لە شتێکی تێدایە"""),
-                          SentencesRow(
-                            englishText: "The lakes abound in fish.",
-                            kurdishText: "دەریاچەکە پڕە لە ماسی.",
-                            onPressedBritish: () => speaka25("en-GB"),
-                            onPressedAmerican: () => speaka25("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "The lakes abound in fish.",
+                      kurdishText: "دەریاچەکە پڕە لە ماسی.",
+                      onPressedBritish: () => speaka25("en-GB"),
+                      onPressedAmerican: () => speaka25("en-US"),
                     ),
                   ],
                 ),

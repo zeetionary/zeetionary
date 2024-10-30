@@ -167,49 +167,42 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ڕوومژی، مژڕوویی، مژین، ھەڵمژین، ھەڵچنین، داچەکان، (لەخۆ)گرتن، مژۆکی، سەرنج ڕاکێشان، دڵبەستە بوون، دڵ‌پێدان
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) ھەڵمژینی شلە، گاس، یان ھەر مادەیەکی دیکە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "Vitamin D is necessary to aid the absorption of calcium from food.",
-                            kurdishText:
-                                "ڤیتامین D پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە.",
-                            onPressedBritish: () => speaka3591("en-GB"),
-                            onPressedAmerican: () => speaka3591("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) ھەڵمژینی شلە، گاس، یان ھەر مادەیەکی دیکە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "Vitamin D is necessary to aid the absorption of calcium from food.",
+                      kurdishText:
+                          "ڤیتامین D پێویستە بۆ یارمەتیی ھەڵمژینی کالسیۆم لە خۆراکەوە.",
+                      onPressedBritish: () => speaka3591("en-GB"),
+                      onPressedAmerican: () => speaka3591("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) پڕۆسەی گرتنەخۆی گروپێکی بچووک لەلایەن یەکێکی گەورەترەوە """),
-                          SentencesRow(
-                            englishText:
-                                "the absorption of the town into the Leeds City Region",
-                            kurdishText:
-                                "گرتنەخۆی شارۆچکەکە لەلایەن ھەرێمی شاری لیدزەوە.",
-                            onPressedBritish: () => speakab3618("en-GB"),
-                            onPressedAmerican: () => speakab3618("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "the absorption of the town into the Leeds City Region",
+                      kurdishText:
+                          "گرتنەخۆی شارۆچکەکە لەلایەن ھەرێمی شاری لیدزەوە.",
+                      onPressedBritish: () => speakab3618("en-GB"),
+                      onPressedAmerican: () => speakab3618("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ناو) کاتێک کەسێک زۆر حەز لە شتێک دەکات """),
-                          SentencesRow(
-                            englishText:
-                                "His work suffered because of his total absorption in sport.",
-                            kurdishText:
-                                "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی لە وەرزشدا.",
-                            onPressedBritish: () => speaka36948("en-GB"),
-                            onPressedAmerican: () => speaka36948("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "His work suffered because of his total absorption in sport.",
+                      kurdishText:
+                          "کارەکەی زیانی پێگەیشت بەھۆی ڕۆچوونی لە وەرزشدا.",
+                      onPressedBritish: () => speaka36948("en-GB"),
+                      onPressedAmerican: () => speaka36948("en-US"),
                     ),
                   ],
                 ),

@@ -213,88 +213,80 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: چەوت یان خراپ بەکارھێنان، خراپ جووڵانەوە، ھەڵس‌وکەوتی خراپ، بە توندوتیژی جووڵانەوە، جنێو، دەم‌چەوتی، ڕەف، سخێف، دەس‌درێژی (ڕەگەزی)، ئەشکەنجەی لەشی/جەستەیی
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) بەکارھێنانی شتێک بەشێوەیەکی خراپ"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The legal system in this country is open to abuse.",
-                            kurdishText:
-                                "سیستەمی دادوەری لەم وڵاتە ئەکرێت خراپ بەکاربێت.",
-                            onPressedBritish: () => speaka26935("en-GB"),
-                            onPressedAmerican: () => speaka26935("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "He was arrested on charges of corruption and abuse of power.",
-                            kurdishText:
-                                "دەستگیرکرا بە تۆمەتەکانی گەندڵی و خراپ بەکارھێنانی دەسەڵات.",
-                            onPressedBritish: () => speaka45961("en-GB"),
-                            onPressedAmerican: () => speaka45961("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ناو) بەکارھێنانی شتێک بەشێوەیەکی خراپ"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "The legal system in this country is open to abuse.",
+                      kurdishText:
+                          "سیستەمی دادوەری لەم وڵاتە ئەکرێت خراپ بەکاربێت.",
+                      onPressedBritish: () => speaka26935("en-GB"),
+                      onPressedAmerican: () => speaka26935("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "He was arrested on charges of corruption and abuse of power.",
+                      kurdishText:
+                          "دەستگیرکرا بە تۆمەتەکانی گەندڵی و خراپ بەکارھێنانی دەسەڵات.",
+                      onPressedBritish: () => speaka45961("en-GB"),
+                      onPressedAmerican: () => speaka45961("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) مامەڵەی خراپ لەگەڵ کەسێک"""),
-                          SentencesRow(
-                            englishText:
-                                "She suffered years of physical abuse.",
-                            kurdishText:
-                                "بۆ چەندین ساڵ بەدەست توندوتیژی جەستەییەوە ناڵاندی.",
-                            onPressedBritish: () => speaka25641("en-GB"),
-                            onPressedAmerican: () => speaka25641("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText: "She suffered years of physical abuse.",
+                      kurdishText:
+                          "بۆ چەندین ساڵ بەدەست توندوتیژی جەستەییەوە ناڵاندی.",
+                      onPressedBritish: () => speaka25641("en-GB"),
+                      onPressedAmerican: () => speaka25641("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ناو) قسەی چەوت و ناشرین و لەلایەن کەسێکی توڕەوە"""),
-                          SentencesRow(
-                            englishText:
-                                "The man burst into a torrent of foul-mouthed racist abuse.",
-                            kurdishText:
-                                "پیاوەکە دەستیکرد بە ژمارەیەکی زۆر لە قسەی پیسی ڕەگەزپەرستییانە.",
-                            onPressedBritish: () => speaka14582("en-GB"),
-                            onPressedAmerican: () => speaka14582("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The man burst into a torrent of foul-mouthed racist abuse.",
+                      kurdishText:
+                          "پیاوەکە دەستیکرد بە ژمارەیەکی زۆر لە قسەی پیسی ڕەگەزپەرستییانە.",
+                      onPressedBritish: () => speaka14582("en-GB"),
+                      onPressedAmerican: () => speaka14582("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٤. (کردار) بەکارھێنانی شتێک بە خراپی، یان بەکارھێنانی شتێکی خراپ کە زیانی بۆ جەستە ھەیە"""),
-                          SentencesRow(
-                            englishText:
-                                "People who abuse alcohol over a long period will develop health problems.",
-                            kurdishText:
-                                "ئەو کەسانەی کە کە کحوول بۆ ماوەیەکی زۆر بەکاردێنن کێشەی تەندرووستییان بۆ درووستدەبێت.",
-                            onPressedBritish: () => speaka1258("en-GB"),
-                            onPressedAmerican: () => speaka1258("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "People who abuse alcohol over a long period will develop health problems.",
+                      kurdishText:
+                          "ئەو کەسانەی کە کە کحوول بۆ ماوەیەکی زۆر بەکاردێنن کێشەی تەندرووستییان بۆ درووستدەبێت.",
+                      onPressedBritish: () => speaka1258("en-GB"),
+                      onPressedAmerican: () => speaka1258("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٥. (کردار) بەکارھێنانی زانیاری یان دەسەڵات بەشێوەیەکی خراپ"""),
-                          SentencesRow(
-                            englishText:
-                                "She abused her position as principal by giving jobs to her friends.",
-                            kurdishText:
-                                "پێگەکەی خراپ بەکارھێنا وەک بەڕێوەبەرێک بە پێدانی کار بە ھاوڕێکانی.",
-                            onPressedBritish: () => speaka15876("en-GB"),
-                            onPressedAmerican: () => speaka15876("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "She abused her position as principal by giving jobs to her friends.",
+                      kurdishText:
+                          "پێگەکەی خراپ بەکارھێنا وەک بەڕێوەبەرێک بە پێدانی کار بە ھاوڕێکانی.",
+                      onPressedBritish: () => speaka15876("en-GB"),
+                      onPressedAmerican: () => speaka15876("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٦. (کردار) دەستدرێژیکردنە سەر کەسێک، زۆرجار دەستدرێژی سێکسی"""),
-                          SentencesRow(
-                            englishText: "The boy had been sexually abused.",
-                            kurdishText: "کوڕەکە دەستدرێژیی سێکسی کرابووە سەر.",
-                            onPressedBritish: () => speaka5741("en-GB"),
-                            onPressedAmerican: () => speaka5741("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "The boy had been sexually abused.",
+                      kurdishText: "کوڕەکە دەستدرێژیی سێکسی کرابووە سەر.",
+                      onPressedBritish: () => speaka5741("en-GB"),
+                      onPressedAmerican: () => speaka5741("en-US"),
                     ),
                   ],
                 ),

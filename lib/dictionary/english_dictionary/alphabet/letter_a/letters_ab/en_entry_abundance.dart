@@ -145,27 +145,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: زۆری، فراوانی، فرەیی، فت‌وفراوانی، بۆشی، پیت، بەرەکەت، ھەرزانی، زۆر و زەبەنی، بەونی، فەرێحی، زیاتر لە پێویست بوون
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کاتێک شتێک بوونی ھەیە زیاد لە پێویست"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The country has an abundance of natural resources.",
-                            kurdishText:
-                                "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە.",
-                            onPressedBritish: () => speaka15967("en-GB"),
-                            onPressedAmerican: () => speaka15967("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) کاتێک شتێک بوونی ھەیە زیاد لە پێویست"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "The country has an abundance of natural resources.",
+                      kurdishText: "وڵاتەکە ڕێژەیەکی زۆر سامانی سرووشتی ھەیە.",
+                      onPressedBritish: () => speaka15967("en-GB"),
+                      onPressedAmerican: () => speaka15967("en-US"),
                     ),
                   ],
                 ),

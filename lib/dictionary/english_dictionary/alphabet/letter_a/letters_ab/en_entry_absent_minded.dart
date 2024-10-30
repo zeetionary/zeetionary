@@ -141,21 +141,13 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. کەسێکە خەیاڵپڵاو کە بیر لە شتی تر دەکاتەوە وەک لەوەی کە لە دەوروبەریەتی"""),
-                          SentencesRow(
-                            englishText:
-                                "Grandpa’s becoming quite absent-minded.",
-                            kurdishText: "باپیرە خەریکە خەیاڵپڵاو دەبێت.",
-                            onPressedBritish: () => speaka3254("en-GB"),
-                            onPressedAmerican: () => speaka3254("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "Grandpa’s becoming quite absent-minded.",
+                      kurdishText: "باپیرە خەریکە خەیاڵپڵاو دەبێت.",
+                      onPressedBritish: () => speaka3254("en-GB"),
+                      onPressedAmerican: () => speaka3254("en-US"),
                     ),
                   ],
                 ),

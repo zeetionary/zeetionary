@@ -141,26 +141,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: سڕینەوە، ھەڵوەشانەوە، ھەڵوەشاندنەوە، پووکاندنەوە، پووچ‌کردنەوە بەتاڵ‌کردنەوە، ھەڵگرتن، نەھێشتن، لە بڕەوخستن، پووچەڵ کردنەوە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The report recommended the complete abolition of the tax.",
-                            kurdishText:
-                                "ڕاپۆرتەکە پێشنیاری بە تەواوی ھەڵوەشاندنی باجەکەی دەکرد.",
-                            onPressedBritish: () => speakab24("en-GB"),
-                            onPressedAmerican: () => speakab24("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) کۆتایی پێھێنانی یاسایەک، سیستەمێک، یان دامەزراوەیەک"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "The report recommended the complete abolition of the tax.",
+                      kurdishText:
+                          "ڕاپۆرتەکە پێشنیاری بە تەواوی ھەڵوەشاندنی باجەکەی دەکرد.",
+                      onPressedBritish: () => speakab24("en-GB"),
+                      onPressedAmerican: () => speakab24("en-US"),
                     ),
                   ],
                 ),

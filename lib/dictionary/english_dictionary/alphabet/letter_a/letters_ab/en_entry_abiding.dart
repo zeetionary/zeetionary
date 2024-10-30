@@ -141,26 +141,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: جێگیر، ھەمیشەیی، نەگۆڕ، سەقامگیر، بەردەوام، چەقبەستوو
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) کاتێک ھەستێک یان باوەڕێک بۆ ماوەیەکی زۆر بەبێ گۆڕان بەردەوام دەبێت"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "He is an artist with an abiding concern for humanity.",
-                            kurdishText:
-                                "ھونەرمەندێکە بە بە ھۆگرییەکی ھەمیشەییەوە بۆ مرۆڤایەتی.",
-                            onPressedBritish: () => speaka625("en-GB"),
-                            onPressedAmerican: () => speaka625("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) کاتێک ھەستێک یان باوەڕێک بۆ ماوەیەکی زۆر بەبێ گۆڕان بەردەوام دەبێت"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "He is an artist with an abiding concern for humanity.",
+                      kurdishText:
+                          "ھونەرمەندێکە بە بە ھۆگرییەکی ھەمیشەییەوە بۆ مرۆڤایەتی.",
+                      onPressedBritish: () => speaka625("en-GB"),
+                      onPressedAmerican: () => speaka625("en-US"),
                     ),
                   ],
                 ),

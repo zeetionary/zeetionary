@@ -143,27 +143,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: نەرم‌ڕەو، مام‌ناوەند، نادەسبڵاو، ئەندازەڕەو، کەم‌خۆر، پارێزگر، پارێزگار، خۆگر، بەپارێز، ئەندازەخۆر
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. کەسێک کە خۆی لەو شتانە بەدووردەگرێت کە چێژ دەبەخشن، بۆ نموونە مادە کحوولییەکان"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "He was a hard-working man with abstemious habits.",
-                            kurdishText:
-                                "پیاوێکی زەحمەتکێش بوو کە خۆی لە حەز و ویستەکانی بەدووردەگرت.",
-                            onPressedBritish: () => speakab75891("en-GB"),
-                            onPressedAmerican: () => speakab75891("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. کەسێک کە خۆی لەو شتانە بەدووردەگرێت کە چێژ دەبەخشن، بۆ نموونە مادە کحوولییەکان"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "He was a hard-working man with abstemious habits.",
+                      kurdishText:
+                          "پیاوێکی زەحمەتکێش بوو کە خۆی لە حەز و ویستەکانی بەدووردەگرت.",
+                      onPressedBritish: () => speakab75891("en-GB"),
+                      onPressedAmerican: () => speakab75891("en-US"),
                     ),
                   ],
                 ),

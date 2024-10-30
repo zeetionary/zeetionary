@@ -141,9 +141,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
                           const KurdishVocabulary(text: """
 کوردی: ھەڵھاتن، ڕاکردن
 """),
@@ -162,9 +159,6 @@ ${englishMeaningConst.text}
                         ],
                       ),
                     ),
-                  ],
-                ),
-              ),
               Consumer(
                 builder: (context, ref, child) {
                   if (filteredSentences.isEmpty) {

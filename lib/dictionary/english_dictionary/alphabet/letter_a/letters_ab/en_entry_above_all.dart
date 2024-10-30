@@ -143,20 +143,14 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. بە تایبەتی، لە سەروو ھەموو شتێک"""),
-                          SentencesRow(
-                            englishText: "Above all, keep in touch.",
-                            kurdishText:
-                                "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم.",
-                            onPressedBritish: () => speaka2196("en-GB"),
-                            onPressedAmerican: () => speaka2196("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "Above all, keep in touch.",
+                      kurdishText:
+                          "لە سەروو ھەموو شتێک، لە پەیوەندیدا بە لەگەڵم.",
+                      onPressedBritish: () => speaka2196("en-GB"),
+                      onPressedAmerican: () => speaka2196("en-US"),
                     ),
                   ],
                 ),

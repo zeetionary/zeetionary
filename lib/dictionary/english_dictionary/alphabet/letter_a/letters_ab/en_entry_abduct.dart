@@ -143,24 +143,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: مرۆڤ ڕفاندن، مرۆ(ڤ)دزی، ھەڵگرتن، فڕاندن، ڕفاندن
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) بردنی کەسێک بەزۆر و نایاسایی" ""),
-                          SentencesRow(
-                            englishText:
-                                "He had attempted to abduct the two children.",
-                            kurdishText: "ھەوڵیدابوو دوو منداڵ بڕفێنێت.",
-                            onPressedBritish: () => speaka2285("en-GB"),
-                            onPressedAmerican: () => speaka2285("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (کردار) بردنی کەسێک بەزۆر و نایاسایی" ""),
+                    SentencesRow(
+                      englishText:
+                          "He had attempted to abduct the two children.",
+                      kurdishText: "ھەوڵیدابوو دوو منداڵ بڕفێنێت.",
+                      onPressedBritish: () => speaka2285("en-GB"),
+                      onPressedAmerican: () => speaka2285("en-US"),
                     ),
                   ],
                 ),

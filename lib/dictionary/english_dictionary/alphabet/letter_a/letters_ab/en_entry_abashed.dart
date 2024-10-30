@@ -145,26 +145,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: تریقەوەبوو، بەخۆداشکاو، شەرم‌داگرتوو، خەجاڵەتبار، شەرمەزار، ڕووزەرد، سەرلێ‌شێواو، تاساو، پەشۆکاو، دەس(ە)پاچە، عەبەسراو، واق‌وڕماو
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) شەرمەزار بەھۆی شتێک کە کردووتە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "He glanced at Juliet accusingly and she looked abashed.",
-                            kurdishText:
-                                "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو.",
-                            onPressedBritish: () => speak25476("en-GB"),
-                            onPressedAmerican: () => speak25476("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) شەرمەزار بەھۆی شتێک کە کردووتە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "He glanced at Juliet accusingly and she looked abashed.",
+                      kurdishText:
+                          "بە چاوی گومانەوە لە جولیای دەڕوانی و ئەویش شەرمەزار بوو.",
+                      onPressedBritish: () => speak25476("en-GB"),
+                      onPressedAmerican: () => speak25476("en-US"),
                     ),
                   ],
                 ),

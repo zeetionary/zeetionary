@@ -141,27 +141,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: سفر یان ھیچی ڕەھا (273/15 پلەی سانتی‌گراد)
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) ئەو پلەی ساردییەی کە باوەڕ وایە نزمترینە بتوانرێت بەدەستبھێندرێت"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "We repeat the process until we reache the value of absolute zero.",
-                            kurdishText:
-                                "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا.",
-                            onPressedBritish: () => speakabs2531("en-GB"),
-                            onPressedAmerican: () => speakabs2531("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) ئەو پلەی ساردییەی کە باوەڕ وایە نزمترینە بتوانرێت بەدەستبھێندرێت"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "We repeat the process until we reache the value of absolute zero.",
+                      kurdishText:
+                          "پڕۆسەکە دووبارە دەکەینەوە تا دەگەین بە سفری ڕەھا.",
+                      onPressedBritish: () => speakabs2531("en-GB"),
+                      onPressedAmerican: () => speakabs2531("en-US"),
                     ),
                   ],
                 ),

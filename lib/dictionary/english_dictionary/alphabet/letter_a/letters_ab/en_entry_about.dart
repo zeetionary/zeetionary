@@ -234,121 +234,112 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: نزیکەی، لە دەوروبەری، بە مەزندە، سەرلە، لەبارەی، لەمەڕ، دەوروبەر، دەوروپشت، دۆرمادۆر، بە ھەر لا، لێرە و لەوێ، خەریکی، سەرقاڵی، مژولی، خەریک، پێچەوانەی، بەرڤاژی، 
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ئامراز) دەربارەی شتێک" ""),
-                          SentencesRow(
-                            englishText: "Tell me all about it.",
-                            kurdishText: "ھەموو شتێکم پێ بڵێ لەسەری.",
-                            onPressedBritish: () => speaka225("en-GB"),
-                            onPressedAmerican: () => speaka225("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "What's she so angry about?",
-                            kurdishText: "لەسەر چییە وا تووڕەیە؟",
-                            onPressedBritish: () => speaka337("en-GB"),
-                            onPressedAmerican: () => speaka337("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "There's something about this business that is not quite right.",
-                            kurdishText:
-                                "شتێک دەربارەی ئەم ئیشە لە جێگەی خۆی نییە.",
-                            onPressedBritish: () => speaka5541("en-GB"),
-                            onPressedAmerican: () => speaka5541("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ئامراز) دەربارەی شتێک" ""),
+                    SentencesRow(
+                      englishText: "Tell me all about it.",
+                      kurdishText: "ھەموو شتێکم پێ بڵێ لەسەری.",
+                      onPressedBritish: () => speaka225("en-GB"),
+                      onPressedAmerican: () => speaka225("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "What's she so angry about?",
+                      kurdishText: "لەسەر چییە وا تووڕەیە؟",
+                      onPressedBritish: () => speaka337("en-GB"),
+                      onPressedAmerican: () => speaka337("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "There's something about this business that is not quite right.",
+                      kurdishText: "شتێک دەربارەی ئەم ئیشە لە جێگەی خۆی نییە.",
+                      onPressedBritish: () => speaka5541("en-GB"),
+                      onPressedAmerican: () => speaka5541("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ئامراز) بەکاردێت بۆ باسکردنی ئامانجی شتێک"""),
-                          SentencesRow(
-                            englishText:
-                                "Movies are all about making money these days.",
-                            kurdishText:
-                                "لەم سەردەمەدا ئامانج لە ھەموو فیلمەکان قازانجە.",
-                            onPressedBritish: () => speaka327("en-GB"),
-                            onPressedAmerican: () => speaka327("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "Movies are all about making money these days.",
+                      kurdishText:
+                          "لەم سەردەمەدا ئامانج لە ھەموو فیلمەکان قازانجە.",
+                      onPressedBritish: () => speaka327("en-GB"),
+                      onPressedAmerican: () => speaka327("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ئامراز) سەرقاڵبوون بە شتێک"""),
-                          SentencesRow(
-                            englishText:
-                                "Everywhere people were going about their daily business.",
-                            kurdishText:
-                                "لە ھەموو شوێنێک خەڵکی سەرقاڵی ژیانی ڕۆزانەیانن.",
-                            onPressedBritish: () => speaka557("en-GB"),
-                            onPressedAmerican: () => speaka557("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "Everywhere people were going about their daily business.",
+                      kurdishText:
+                          "لە ھەموو شوێنێک خەڵکی سەرقاڵی ژیانی ڕۆزانەیانن.",
+                      onPressedBritish: () => speaka557("en-GB"),
+                      onPressedAmerican: () => speaka557("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٤. (ئامراز) بە ژمارەیەک لادا"""),
-                          SentencesRow(
-                            englishText:
-                                "We wandered about the town for an hour or so.",
-                            kurdishText:
-                                "نزیکەی کاتژمێرێک بە شارۆچکەکەدا سووڕاینەوە.",
-                            onPressedBritish: () => speaka25("en-GB"),
-                            onPressedAmerican: () => speaka25("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "We wandered about the town for an hour or so.",
+                      kurdishText:
+                          "نزیکەی کاتژمێرێک بە شارۆچکەکەدا سووڕاینەوە.",
+                      onPressedBritish: () => speaka25("en-GB"),
+                      onPressedAmerican: () => speaka25("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٥. (ئامراز) بە ژمارەیەک لادا"""),
-                          SentencesRow(
-                            englishText:
-                                "We wandered about the town for an hour or so.",
-                            kurdishText:
-                                "نزیکەی کاتژمێرێک بە شارۆچکەکەدا سووڕاینەوە.",
-                            onPressedBritish: () => speaka25("en-GB"),
-                            onPressedAmerican: () => speaka25("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "We wandered about the town for an hour or so.",
+                      kurdishText:
+                          "نزیکەی کاتژمێرێک بە شارۆچکەکەدا سووڕاینەوە.",
+                      onPressedBritish: () => speaka25("en-GB"),
+                      onPressedAmerican: () => speaka25("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٦. (ھاوەڵکار) بەنزیکەیی"""),
-                          SentencesRow(
-                            englishText: "They waited (for) about an hour.",
-                            kurdishText: "بە نزیکەیی یەک کاتژمێر چاوەڕێ بوون.",
-                            onPressedBritish: () => speaka54("en-GB"),
-                            onPressedAmerican: () => speaka54("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText: "They waited (for) about an hour.",
+                      kurdishText: "بە نزیکەیی یەک کاتژمێر چاوەڕێ بوون.",
+                      onPressedBritish: () => speaka54("en-GB"),
+                      onPressedAmerican: () => speaka54("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٧. (ھاوەڵکار) زۆر نزیک لە"""),
-                          SentencesRow(
-                            englishText: "I'm just about ready.",
-                            kurdishText: "یەک تۆزم ماوە.",
-                            onPressedBritish: () => speaka994("en-GB"),
-                            onPressedAmerican: () => speaka994("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText: "I'm just about ready.",
+                      kurdishText: "یەک تۆزم ماوە.",
+                      onPressedBritish: () => speaka994("en-GB"),
+                      onPressedAmerican: () => speaka994("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٩. (ھاوەڵکار) بە زۆر لادا"""),
-                          SentencesRow(
-                            englishText:
-                                "The children were rushing about in the garden.",
-                            kurdishText:
-                                "منداڵەکان بە باخجەکەدا ھاتوچۆیان بوو.",
-                            onPressedBritish: () => speaka34("en-GB"),
-                            onPressedAmerican: () => speaka34("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The children were rushing about in the garden.",
+                      kurdishText: "منداڵەکان بە باخجەکەدا ھاتوچۆیان بوو.",
+                      onPressedBritish: () => speaka34("en-GB"),
+                      onPressedAmerican: () => speaka34("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ١٠. (ھاوەڵکار) بە ھەڕەمەکی"""),
-                          SentencesRow(
-                            englishText:
-                                "Her books were lying about on the floor.",
-                            kurdishText: "کتێبەکانی لەسەر زەوییەکە کەوتبوون.",
-                            onPressedBritish: () => speaka2247("en-GB"),
-                            onPressedAmerican: () => speaka2247("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "Her books were lying about on the floor.",
+                      kurdishText: "کتێبەکانی لەسەر زەوییەکە کەوتبوون.",
+                      onPressedBritish: () => speaka2247("en-GB"),
+                      onPressedAmerican: () => speaka2247("en-US"),
                     ),
                   ],
                 ),

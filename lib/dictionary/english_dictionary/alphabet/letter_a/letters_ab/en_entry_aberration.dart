@@ -151,35 +151,29 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: لادان، ڕێ‌ھەڵەکردن، لاڕێیی، لەرێ دەرچوون، ھەڵچوون، گومڕایی، خریایی‌بوون، گرفت، تێکچوون، کێشە، کەم‌وکوڕی
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) شتێک یان ڕەفتارێک کە ئاسایی و گونجاو نییە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "a temporary aberration of his exhausted mind",
-                            kurdishText:
-                                "ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو.",
-                            onPressedBritish: () => speakab996("en-GB"),
-                            onPressedAmerican: () => speakab996("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "A childless woman was regarded as an aberration, almost a social outcast.",
-                            kurdishText:
-                                "ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو.",
-                            onPressedBritish: () => speakab16("en-GB"),
-                            onPressedAmerican: () => speakab16("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) شتێک یان ڕەفتارێک کە ئاسایی و گونجاو نییە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "a temporary aberration of his exhausted mind",
+                      kurdishText:
+                          "ھەڵچوونێکی کاتی بەھۆی ئەوەی مێشکی ماندوو بوو.",
+                      onPressedBritish: () => speakab996("en-GB"),
+                      onPressedAmerican: () => speakab996("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "A childless woman was regarded as an aberration, almost a social outcast.",
+                      kurdishText:
+                          "ژنێکی بێ منداڵ بە شتێکی نائاسایی دادەنرا، تا ئاستی دوورەپەرێزخراو.",
+                      onPressedBritish: () => speakab16("en-GB"),
+                      onPressedAmerican: () => speakab16("en-US"),
                     ),
                   ],
                 ),

@@ -144,26 +144,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: کورتکردنەوە، زەوتکردن
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "She has been asked to abridge the novel for radio.",
-                            kurdishText:
-                                "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە.",
-                            onPressedBritish: () => speakab2561("en-GB"),
-                            onPressedAmerican: () => speakab2561("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (کردار) کورتکردنەوەی کتێبێک یان شانۆیەک بە لابردنی ھەندێک بەشی"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "She has been asked to abridge the novel for radio.",
+                      kurdishText:
+                          "داوای لێکراوە ڕۆمانەکە بۆ ڕادیۆیەکە کورتبکاتەوە.",
+                      onPressedBritish: () => speakab2561("en-GB"),
+                      onPressedAmerican: () => speakab2561("en-US"),
                     ),
                   ],
                 ),

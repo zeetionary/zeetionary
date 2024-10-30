@@ -143,24 +143,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: کەم‌بوونەوە، سووک‌بوونەوە، داشکان، نیشتنەوە، ھاتنەخوارێ، دابەزین، نزم‌بوونەوە، دامرکان،	نەھێشتن، لابردن، پێش‌گرتن
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) دامرکاندنەوەی شتێک" ""),
-                          SentencesRow(
-                            englishText:
-                                "The city spends £9 million a year on air pollution abatement.",
-                            kurdishText:
-                                "شارەکە ساڵانە ٩ ملیۆن پاوەند خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا.",
-                            onPressedBritish: () => speakabatements1("en-GB"),
-                            onPressedAmerican: () => speakabatements1("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) دامرکاندنەوەی شتێک" ""),
+                    SentencesRow(
+                      englishText:
+                          "The city spends £9 million a year on air pollution abatement.",
+                      kurdishText:
+                          "شارەکە ساڵانە ٩ ملیۆن پاوەند خەرج دەکات بۆ کەمکردنەوەی پیسبوونی بەرگەھەوا.",
+                      onPressedBritish: () => speakabatements1("en-GB"),
+                      onPressedAmerican: () => speakabatements1("en-US"),
                     ),
                   ],
                 ),

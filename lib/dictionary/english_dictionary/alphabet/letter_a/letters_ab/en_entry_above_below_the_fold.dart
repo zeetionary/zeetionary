@@ -135,17 +135,11 @@ ${englishMeaningConst.text}
               const SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
                           DefinitionKurdish(text: """
 ١. کاتێک شتێک لە شوێنێک دەردەکەوێت کە بە ئاسانی دەبینرێت یان نابینرێت"""),
                         ],
                       ),
                     ),
-                  ],
-                ),
-              ),
               Consumer(
                 builder: (context, ref, child) {
                   if (filteredSentences.isEmpty) {

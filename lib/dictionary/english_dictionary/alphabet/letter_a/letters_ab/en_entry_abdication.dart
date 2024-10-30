@@ -142,26 +142,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: دەست‌لێ‌کێشانەوە، دەست‌لێ‌ھەڵگرتن، وازلێ‌ھێنان (لە پاتشایەتی)، ڕاقەتاندن، کارڤەکێشان، دەست‌پێ‌کێشانەوە، لێ‌سەندنەوە (بەرپرسایەتی)
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کرداری وازھێنان لە پۆستی پاشایی یان شاژنی"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "the chain of events leading to the king's abdication",
-                            kurdishText:
-                                "ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو.",
-                            onPressedBritish: () => speakab1125("en-GB"),
-                            onPressedAmerican: () => speakab1125("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) کرداری وازھێنان لە پۆستی پاشایی یان شاژنی"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "the chain of events leading to the king's abdication",
+                      kurdishText:
+                          "ئەو زنجیرە ڕووداوانەی کە دەرەنجامەکەی وازھێنانی پاشا بوو.",
+                      onPressedBritish: () => speakab1125("en-GB"),
+                      onPressedAmerican: () => speakab1125("en-US"),
                     ),
                   ],
                 ),

@@ -140,25 +140,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: دایکە سەرۆکی دەیر، سەردەیر، (ژنە)ڕەبەنی مەزن
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) ژنە ڕەبەنێک کە سەرۆکی کڵێسایەکە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The abbess oversaw the daily activities of the abbey, ensuring that everything ran smoothly.",
-                            kurdishText:
-                                "ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو.",
-                            onPressedBritish: () => speak1155485("en-GB"),
-                            onPressedAmerican: () => speak1155485("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) ژنە ڕەبەنێک کە سەرۆکی کڵێسایەکە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "The abbess oversaw the daily activities of the abbey, ensuring that everything ran smoothly.",
+                      kurdishText:
+                          "ژنە ڕەبەنەکە سەرپەرشتی چالاکییەکانی ڕۆژانەی کڵێساکەی دەکرد بۆ دڵنیابوون لەوەی ھەموو شتێک بێ کێشە بەڕێوەدەچوو.",
+                      onPressedBritish: () => speak1155485("en-GB"),
+                      onPressedAmerican: () => speak1155485("en-US"),
                     ),
                   ],
                 ),

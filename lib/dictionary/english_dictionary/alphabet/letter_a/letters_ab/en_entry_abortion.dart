@@ -162,45 +162,39 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: لەباربردن، ھەڵکەندن، بەرخستن، بەرپێ‌خستن، بەراویتن، بەراویتە بوون
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کرداری کۆتاییھێنان بە دووگیانی لە قۆناغەکانی سەرەتا؛ لەباربردن"
-                                  ""),
-                          SentencesRow(
-                            englishText: "the country's strict abortion laws",
-                            kurdishText:
-                                "یاسا توندەکانی وڵاتەکە سەبارەت بە لەباربردن.",
-                            onPressedBritish: () => speaka449("en-GB"),
-                            onPressedAmerican: () => speaka449("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) کرداری کۆتاییھێنان بە دووگیانی لە قۆناغەکانی سەرەتا؛ لەباربردن"
+                            ""),
+                    SentencesRow(
+                      englishText: "the country's strict abortion laws",
+                      kurdishText:
+                          "یاسا توندەکانی وڵاتەکە سەبارەت بە لەباربردن.",
+                      onPressedBritish: () => speaka449("en-GB"),
+                      onPressedAmerican: () => speaka449("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) پڕۆسەی تەندرووستی بۆ لەباربردنی منداڵ"""),
-                          SentencesRow(
-                            englishText: "She decided to have an abortion.",
-                            kurdishText: "بڕیاریدا پڕۆسەی لەباربردن ئەنجامبدا.",
-                            onPressedBritish: () => speaka112("en-GB"),
-                            onPressedAmerican: () => speaka112("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText: "She decided to have an abortion.",
+                      kurdishText: "بڕیاریدا پڕۆسەی لەباربردن ئەنجامبدا.",
+                      onPressedBritish: () => speaka112("en-GB"),
+                      onPressedAmerican: () => speaka112("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ناو) کردەی لەدایکبوونی منداڵی پێشوەختە بە مردوویی؛ لەبارچوون"""),
-                          SentencesRow(
-                            englishText:
-                                "Higher amounts of caffeine may be associated with increased rates of abortion and low birthweight.",
-                            kurdishText:
-                                "ڕێژەی زۆری کافین دەکرێت ببەسترێتەوە بە ژمارەی زۆری لەبارچوون و کێش کەمی لە کاتی لەدایکبوون.",
-                            onPressedBritish: () => speaka692("en-GB"),
-                            onPressedAmerican: () => speaka692("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "Higher amounts of caffeine may be associated with increased rates of abortion and low birthweight.",
+                      kurdishText:
+                          "ڕێژەی زۆری کافین دەکرێت ببەسترێتەوە بە ژمارەی زۆری لەبارچوون و کێش کەمی لە کاتی لەدایکبوون.",
+                      onPressedBritish: () => speaka692("en-GB"),
+                      onPressedAmerican: () => speaka692("en-US"),
                     ),
                   ],
                 ),

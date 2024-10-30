@@ -148,30 +148,24 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەک کە جێگەی بەزەییە بەڵام ھیچیش ناتوانرێت بکرێت"""),
-                          SentencesRow(
-                            englishText:
-                                "The government has abjectly failed to read the mood of the nation.",
-                            kurdishText:
-                                "حکومەت بە بێ باکییەوە شکستی ھێناوە لە تێگەشتن لە خواستی خەڵکی.",
-                            onPressedBritish: () => speaka364("en-GB"),
-                            onPressedAmerican: () => speaka364("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The government has abjectly failed to read the mood of the nation.",
+                      kurdishText:
+                          "حکومەت بە بێ باکییەوە شکستی ھێناوە لە تێگەشتن لە خواستی خەڵکی.",
+                      onPressedBritish: () => speaka364("en-GB"),
+                      onPressedAmerican: () => speaka364("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. بەشێوەیەک کە ڕێزی خۆت ناگری"""),
-                          SentencesRow(
-                            englishText: "He apologized abjectly.",
-                            kurdishText: "بەبێ ڕێزییەوە داوای لێبووردنی کرد.",
-                            onPressedBritish: () => speaka367("en-GB"),
-                            onPressedAmerican: () => speaka367("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "He apologized abjectly.",
+                      kurdishText: "بەبێ ڕێزییەوە داوای لێبووردنی کرد.",
+                      onPressedBritish: () => speaka367("en-GB"),
+                      onPressedAmerican: () => speaka367("en-US"),
                     ),
                   ],
                 ),

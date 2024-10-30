@@ -150,30 +150,24 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) ڕقبوون لە شتێک تا ئەو ئاستەی حەز ناکەیت لەگەڵیان بیت"""),
-                          SentencesRow(
-                            englishText:
-                                "I can't abide people with no sense of humour.",
-                            kurdishText:
-                                "ناتوانم لەگەڵ ئەو کەسانە بم کە ھیچ گاڵتە و گەپ نازانن.",
-                            onPressedBritish: () => speaka62("en-GB"),
-                            onPressedAmerican: () => speaka62("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "I can’t abide people who look down on others.",
-                            kurdishText:
-                                "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دیکە دەکەن.",
-                            onPressedBritish: () => speaka92("en-GB"),
-                            onPressedAmerican: () => speaka92("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "I can't abide people with no sense of humour.",
+                      kurdishText:
+                          "ناتوانم لەگەڵ ئەو کەسانە بم کە ھیچ گاڵتە و گەپ نازانن.",
+                      onPressedBritish: () => speaka62("en-GB"),
+                      onPressedAmerican: () => speaka62("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "I can’t abide people who look down on others.",
+                      kurdishText:
+                          "ناتوانم لەگەڵ ئەو کەسانە بم کە بە کەم سەیری کەسانی دیکە دەکەن.",
+                      onPressedBritish: () => speaka92("en-GB"),
+                      onPressedAmerican: () => speaka92("en-US"),
                     ),
                   ],
                 ),

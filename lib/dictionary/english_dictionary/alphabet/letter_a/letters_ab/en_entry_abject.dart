@@ -149,24 +149,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: جێی بەزەیی، گوناح، زۆر خراپ، ناخۆش، سووک، نزم، چروک، ناکەس، تەرەس، ھیچ، تڕۆ، ملکەچ، خوێڕی، سەرشۆڕ
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) خراپ و بەبێ ھیوا" ""),
-                          SentencesRow(
-                            englishText:
-                                "the most abject slaves joined in the revolt",
-                            kurdishText:
-                                "ئەو کۆیلانەی لە خراپترین بارودۆخدا بوون پەیوەندییان کرد بە شۆڕشەکەوە.",
-                            onPressedBritish: () => speakab61("en-GB"),
-                            onPressedAmerican: () => speakab61("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) خراپ و بەبێ ھیوا" ""),
+                    SentencesRow(
+                      englishText:
+                          "the most abject slaves joined in the revolt",
+                      kurdishText:
+                          "ئەو کۆیلانەی لە خراپترین بارودۆخدا بوون پەیوەندییان کرد بە شۆڕشەکەوە.",
+                      onPressedBritish: () => speakab61("en-GB"),
+                      onPressedAmerican: () => speakab61("en-US"),
                     ),
                   ],
                 ),

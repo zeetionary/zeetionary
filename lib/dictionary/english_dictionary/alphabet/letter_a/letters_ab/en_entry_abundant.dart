@@ -147,32 +147,24 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: زۆر، زۆر و زەبەند، زیاد، فرە، فراوان، بەون، بێ‌ژمار، بۆش، فت‌وفراوان، بەپیت، بەبەرەکەت، فەرێح، فت‌وفراوان، گەلێک، پڕ، لێواولێو، پڕاوپڕ، زیاتر لە پێویست
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) کاتێک شتێک ئێجگار زۆرە" ""),
-                          SentencesRow(
-                            englishText: "Fish are abundant in the lake.",
-                            kurdishText: "ماسی ئێجگار زۆرە لە دەریاچەکە.",
-                            onPressedBritish: () => speaka96852("en-GB"),
-                            onPressedAmerican: () => speaka96852("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "We have abundant evidence to prove his guilt.",
-                            kurdishText:
-                                "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی.",
-                            onPressedBritish: () => speaka15742("en-GB"),
-                            onPressedAmerican: () => speaka15742("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) کاتێک شتێک ئێجگار زۆرە" ""),
+                    SentencesRow(
+                      englishText: "Fish are abundant in the lake.",
+                      kurdishText: "ماسی ئێجگار زۆرە لە دەریاچەکە.",
+                      onPressedBritish: () => speaka96852("en-GB"),
+                      onPressedAmerican: () => speaka96852("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "We have abundant evidence to prove his guilt.",
+                      kurdishText: "بەڵگەی زۆرمان ھەیە بۆ سەلماندنی تاوانەکەی.",
+                      onPressedBritish: () => speaka15742("en-GB"),
+                      onPressedAmerican: () => speaka15742("en-US"),
                     ),
                   ],
                 ),

@@ -142,25 +142,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: زۆرینەی ڕەھا یان ئەبسولوت
 """),
-                          const DefinitionKurdish(
-                              text: "١. زیاتر لە نیوەی دەنگدەران" ""),
-                          SentencesRow(
-                            englishText:
-                                "280 seats are needed for an absolute majority in the National Assembly.",
-                            kurdishText:
-                                "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەنجوومەنی نیشتیمانی.",
-                            onPressedBritish: () => speaka2147("en-GB"),
-                            onPressedAmerican: () => speaka2147("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. زیاتر لە نیوەی دەنگدەران" ""),
+                    SentencesRow(
+                      englishText:
+                          "280 seats are needed for an absolute majority in the National Assembly.",
+                      kurdishText:
+                          "ڕێژەی ٢٨٠ کورسی پێویستن بۆ بردنەوەی زۆرینەی ڕەھا لە ئەنجوومەنی نیشتیمانی.",
+                      onPressedBritish: () => speaka2147("en-GB"),
+                      onPressedAmerican: () => speaka2147("en-US"),
                     ),
                   ],
                 ),

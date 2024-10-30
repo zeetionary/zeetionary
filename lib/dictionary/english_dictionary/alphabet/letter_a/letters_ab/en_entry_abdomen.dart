@@ -141,19 +141,13 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: "١. (ناو) گەددە"),
-                          SentencesRow(
-                            englishText:
-                                "// speakabdomens111111111111111111111111111111111",
-                            kurdishText: "رستە_رستە_رستە_رستە.",
-                            onPressedBritish: () => speakabdomens1("en-GB"),
-                            onPressedAmerican: () => speakabdomens1("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(text: "١. (ناو) گەددە"),
+                    SentencesRow(
+                      englishText:
+                          "// speakabdomens111111111111111111111111111111111",
+                      kurdishText: "رستە_رستە_رستە_رستە.",
+                      onPressedBritish: () => speakabdomens1("en-GB"),
+                      onPressedAmerican: () => speakabdomens1("en-US"),
                     ),
                   ],
                 ),

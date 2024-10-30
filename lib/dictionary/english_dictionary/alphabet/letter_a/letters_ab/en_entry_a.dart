@@ -227,104 +227,97 @@ Noun: A
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (ئامراز) پێش ناوی ژمێردراو یان تاک بەکاردێت لە کاتی ئاماژە بۆ کەسانێک یان ئەو شتانەی کە پێشوەختە باس نەکراون"""),
-                          SentencesRow(
-                            englishText: "I can only carry two at a time.",
-                            kurdishText:
-                                "لە یەک کاتدا تەنھا دەتوانم دووان ھەڵبگرم.",
-                            onPressedBritish: () => speak142574("en-GB"),
-                            onPressedAmerican: () => speak142574("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "There's a visitor for you.",
-                            kurdishText: "میوانێکت ھەیە.",
-                            onPressedBritish: () => speak48652("en-GB"),
-                            onPressedAmerican: () => speak48652("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "I went there on an auspicious day.",
-                            kurdishText: "لە ڕۆژێکی پیرۆزدا چوومە ئەوێ.",
-                            onPressedBritish: () => speakan142574("en-GB"),
-                            onPressedAmerican: () => speakan142574("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "There's an animal on the street.",
-                            kurdishText: "ئاژەڵێک لەسەر شەقامەکەیە.",
-                            onPressedBritish: () => speakan48652("en-GB"),
-                            onPressedAmerican: () => speakan48652("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٢. (ئامراز) بەکاردێت بۆ ئەوەی نیشانی بدات کە کەسێک/شتێک ئەندامی گروپێک یان پیشەیەکە"),
-                          SentencesRow(
-                            englishText: "She's a Buddhist.",
-                            kurdishText: "ئەو بوودییە.",
-                            onPressedBritish: () => speak45287("en-GB"),
-                            onPressedAmerican: () => speak45287("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "She's an atheist.",
-                            kurdishText: "ئەو بێ‌دینە.",
-                            onPressedBritish: () => speakan45287("en-GB"),
-                            onPressedAmerican: () => speakan45287("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٣. (ئامراز) بەکاردێت بۆ گشتگیریکردن"),
-                          SentencesRow(
-                            englishText: "A lion is a dangerous animal.",
-                            kurdishText: "شێر ئاژەڵێکی دڕندەیە.",
-                            onPressedBritish: () => speak197524("en-GB"),
-                            onPressedAmerican: () => speak197524("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "A lion is an animal.",
-                            kurdishText: "شێر ئاژەڵێکە.",
-                            onPressedBritish: () => speakan197524("en-GB"),
-                            onPressedAmerican: () => speakan197524("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک ھاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت"),
-                          SentencesRow(
-                            englishText: "a good knowledge of French.",
-                            kurdishText: "زانیارییەکی باشی زمانی فەرەنسی.",
-                            onPressedBritish: () => speak475968("en-GB"),
-                            onPressedAmerican: () => speak475968("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text:
-                                  "٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەھێندرێن"),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(
-                              text: "٦. لە جیاتی ژمارە یەک بەکاردێت"),
-                          SentencesRow(
-                            englishText: "I have a pen.",
-                            kurdishText: "پێنووسێکم ھەیە.",
-                            onPressedBritish: () => speak63328("en-GB"),
-                            onPressedAmerican: () => speak63328("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "I have an apple.",
-                            kurdishText: "سێوێکم ھەیە.",
-                            onPressedBritish: () => speakan63328("en-GB"),
-                            onPressedAmerican: () => speakan63328("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "I can only carry two at a time.",
+                      kurdishText: "لە یەک کاتدا تەنھا دەتوانم دووان ھەڵبگرم.",
+                      onPressedBritish: () => speak142574("en-GB"),
+                      onPressedAmerican: () => speak142574("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "There's a visitor for you.",
+                      kurdishText: "میوانێکت ھەیە.",
+                      onPressedBritish: () => speak48652("en-GB"),
+                      onPressedAmerican: () => speak48652("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "I went there on an auspicious day.",
+                      kurdishText: "لە ڕۆژێکی پیرۆزدا چوومە ئەوێ.",
+                      onPressedBritish: () => speakan142574("en-GB"),
+                      onPressedAmerican: () => speakan142574("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "There's an animal on the street.",
+                      kurdishText: "ئاژەڵێک لەسەر شەقامەکەیە.",
+                      onPressedBritish: () => speakan48652("en-GB"),
+                      onPressedAmerican: () => speakan48652("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            "٢. (ئامراز) بەکاردێت بۆ ئەوەی نیشانی بدات کە کەسێک/شتێک ئەندامی گروپێک یان پیشەیەکە"),
+                    SentencesRow(
+                      englishText: "She's a Buddhist.",
+                      kurdishText: "ئەو بوودییە.",
+                      onPressedBritish: () => speak45287("en-GB"),
+                      onPressedAmerican: () => speak45287("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "She's an atheist.",
+                      kurdishText: "ئەو بێ‌دینە.",
+                      onPressedBritish: () => speakan45287("en-GB"),
+                      onPressedAmerican: () => speakan45287("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: "٣. (ئامراز) بەکاردێت بۆ گشتگیریکردن"),
+                    SentencesRow(
+                      englishText: "A lion is a dangerous animal.",
+                      kurdishText: "شێر ئاژەڵێکی دڕندەیە.",
+                      onPressedBritish: () => speak197524("en-GB"),
+                      onPressedAmerican: () => speak197524("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "A lion is an animal.",
+                      kurdishText: "شێر ئاژەڵێکە.",
+                      onPressedBritish: () => speakan197524("en-GB"),
+                      onPressedAmerican: () => speakan197524("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            "٤. (ئامراز) پێش ناوی نەژمێردراو بەکاردێت کاتێک ھاوەڵناوێک لە پێشیان یان دەستەواژەیەک لە دوایان دێت"),
+                    SentencesRow(
+                      englishText: "a good knowledge of French.",
+                      kurdishText: "زانیارییەکی باشی زمانی فەرەنسی.",
+                      onPressedBritish: () => speak475968("en-GB"),
+                      onPressedAmerican: () => speak475968("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text:
+                            "٥. (ئامراز) لە پێش ئەو ناوانە بەکاردێت کە پێکەوە ناودەھێندرێن"),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(
+                        text: "٦. لە جیاتی ژمارە یەک بەکاردێت"),
+                    SentencesRow(
+                      englishText: "I have a pen.",
+                      kurdishText: "پێنووسێکم ھەیە.",
+                      onPressedBritish: () => speak63328("en-GB"),
+                      onPressedAmerican: () => speak63328("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "I have an apple.",
+                      kurdishText: "سێوێکم ھەیە.",
+                      onPressedBritish: () => speakan63328("en-GB"),
+                      onPressedAmerican: () => speakan63328("en-US"),
                     ),
                   ],
                 ),

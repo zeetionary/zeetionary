@@ -150,34 +150,27 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پڕلەجنێو، دەم‌ھەراش، پڕ لە قسەی ساردوسووک، توندوتیژانە، دەم‌شڕ، دەم‌پیس، دەم‌چەوت، دەم‌دڕاو، زمان‌شڕ، جنێوفرۆش، دەم‌بەجنێو، زمان‌درێژ
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) بێ ڕێز و توندوتیژ" ""),
-                          SentencesRow(
-                            englishText: "He became abusive when he was drunk.",
-                            kurdishText: "کە دەیخواردەوە توندوتیژ دەبوو.",
-                            onPressedBritish: () => speakab582("en-GB"),
-                            onPressedAmerican: () => speakab582("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) بێ ڕێز و توندوتیژ" ""),
+                    SentencesRow(
+                      englishText: "He became abusive when he was drunk.",
+                      kurdishText: "کە دەیخواردەوە توندوتیژ دەبوو.",
+                      onPressedBritish: () => speakab582("en-GB"),
+                      onPressedAmerican: () => speakab582("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بارودۆخێک کە توندوتیژی تێدایە"""),
-                          SentencesRow(
-                            englishText:
-                                "After many years in an abusive relationship, she left her husband.",
-                            kurdishText:
-                                "لە دوای چەندین ساڵ لەناو پەیوەندیدییەکی توندوتیژانە، ھاوسەرەکەی جێھێشت.",
-                            onPressedBritish: () => speaka1574("en-GB"),
-                            onPressedAmerican: () => speaka1574("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "After many years in an abusive relationship, she left her husband.",
+                      kurdishText:
+                          "لە دوای چەندین ساڵ لەناو پەیوەندیدییەکی توندوتیژانە، ھاوسەرەکەی جێھێشت.",
+                      onPressedBritish: () => speaka1574("en-GB"),
+                      onPressedAmerican: () => speaka1574("en-US"),
                     ),
                   ],
                 ),

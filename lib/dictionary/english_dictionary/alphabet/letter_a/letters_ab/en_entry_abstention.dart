@@ -148,36 +148,29 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: خۆبواردن، خودداری(کردن)، خۆڕاگرتن، نەکردن، لەخۆگرتنەوە، پێش‌خۆگرتن
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) بەژاداری نەکردن لە دەنگدان" ""),
-                          SentencesRow(
-                            englishText:
-                                "Voter abstention is seen as the only real form of dissent in elections.",
-                            kurdishText:
-                                "لە ھەڵبژاردندا، بایکۆت بە تەنھا جۆری ڕاستیی ناڕەزایی دەربڕین دێت.",
-                            onPressedBritish: () => speaka26971("en-GB"),
-                            onPressedAmerican: () => speaka26971("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ناو) بەژاداری نەکردن لە دەنگدان" ""),
+                    SentencesRow(
+                      englishText:
+                          "Voter abstention is seen as the only real form of dissent in elections.",
+                      kurdishText:
+                          "لە ھەڵبژاردندا، بایکۆت بە تەنھا جۆری ڕاستیی ناڕەزایی دەربڕین دێت.",
+                      onPressedBritish: () => speaka26971("en-GB"),
+                      onPressedAmerican: () => speaka26971("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) خۆبەدوورگرتن لە شتێک کە حەزت لێیە"""),
-                          SentencesRow(
-                            englishText:
-                                "The Church insisted on abstention from all luxuries.",
-                            kurdishText:
-                                "کڵێساکە پێداگری دەکرد لە خۆبەدوورگرتن لە ھەموو جۆرە شتێکی جوان.",
-                            onPressedBritish: () => speaka26983("en-GB"),
-                            onPressedAmerican: () => speaka26983("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "The Church insisted on abstention from all luxuries.",
+                      kurdishText:
+                          "کڵێساکە پێداگری دەکرد لە خۆبەدوورگرتن لە ھەموو جۆرە شتێکی جوان.",
+                      onPressedBritish: () => speaka26983("en-GB"),
+                      onPressedAmerican: () => speaka26983("en-US"),
                     ),
                   ],
                 ),

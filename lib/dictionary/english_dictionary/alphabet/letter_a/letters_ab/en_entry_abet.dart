@@ -140,21 +140,15 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) یارمەتیدان و ھاندانی کەسێک بۆ کردنی کارێکی ھەڵە"""),
-                          SentencesRow(
-                            englishText:
-                                "He was abetted in the deception by his wife.",
-                            kurdishText:
-                                "لەلایەن ژنەکەی ھاندرا بۆ کردنی تەڵەکەبازییەکە.",
-                            onPressedBritish: () => speakabe42("en-GB"),
-                            onPressedAmerican: () => speakabe42("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "He was abetted in the deception by his wife.",
+                      kurdishText:
+                          "لەلایەن ژنەکەی ھاندرا بۆ کردنی تەڵەکەبازییەکە.",
+                      onPressedBritish: () => speakabe42("en-GB"),
+                      onPressedAmerican: () => speakabe42("en-US"),
                     ),
                   ],
                 ),

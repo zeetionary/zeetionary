@@ -159,41 +159,33 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: بێزاوی، قێزەون، ناپەسند، پیس، یەکجار ناخۆش
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) زۆر قێزەون" ""),
-                          SentencesRow(
-                            englishText:
-                                "The judge described the attack as an abominable crime.",
-                            kurdishText:
-                                "دادوەرەکە ھێرشەکەی بە بێزراو پێناسەکرد.",
-                            onPressedBritish: () => speakabo85("en-GB"),
-                            onPressedAmerican: () => speakabo85("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "We were served the most abominable coffee.",
-                            kurdishText: "ناخۆشترین قاوەمان پێشکەشکرا.",
-                            onPressedBritish: () => speakabo27("en-GB"),
-                            onPressedAmerican: () => speakabo27("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "I think you are utterly selfish and your behaviour has been abominable.",
-                            kurdishText:
-                                "پێموایە زۆر خۆپەرستیت و ڕەفتارەکانت زۆر ناشرین بوونە.",
-                            onPressedBritish: () => speaka345("en-GB"),
-                            onPressedAmerican: () => speaka345("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) زۆر قێزەون" ""),
+                    SentencesRow(
+                      englishText:
+                          "The judge described the attack as an abominable crime.",
+                      kurdishText: "دادوەرەکە ھێرشەکەی بە بێزراو پێناسەکرد.",
+                      onPressedBritish: () => speakabo85("en-GB"),
+                      onPressedAmerican: () => speakabo85("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "We were served the most abominable coffee.",
+                      kurdishText: "ناخۆشترین قاوەمان پێشکەشکرا.",
+                      onPressedBritish: () => speakabo27("en-GB"),
+                      onPressedAmerican: () => speakabo27("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "I think you are utterly selfish and your behaviour has been abominable.",
+                      kurdishText:
+                          "پێموایە زۆر خۆپەرستیت و ڕەفتارەکانت زۆر ناشرین بوونە.",
+                      onPressedBritish: () => speaka345("en-GB"),
+                      onPressedAmerican: () => speaka345("en-US"),
                     ),
                   ],
                 ),

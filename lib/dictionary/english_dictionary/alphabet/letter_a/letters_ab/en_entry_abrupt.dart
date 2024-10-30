@@ -156,36 +156,28 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: کتوپڕ، ناکاو، چاوەڕوان‌نەکراو، بێ‌ڕەوشت، زۆر لێژ، تەلان، لاپێ، سەرەولێژی توند، سەرەوخواری، توندە، سینەکێش، لە پڕ، لە ناکاو، لە ناخافڵ، لە پڕتاو، کتوپڕ، کوت‌ومت(انە)، چاوەڕوان‌نەکراوانە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ھاوەڵناو) لەناکاو و چاوەڕواننەکراو"""),
-                          SentencesRow(
-                            englishText:
-                                "The accident brought his career to an abrupt end.",
-                            kurdishText:
-                                "ڕووداوەکە کارەکەی ھێنایە کۆتاییەکی لەناکاو.",
-                            onPressedBritish: () => speaka2583("en-GB"),
-                            onPressedAmerican: () => speaka2583("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) لەناکاو و چاوەڕواننەکراو"""),
+                    SentencesRow(
+                      englishText:
+                          "The accident brought his career to an abrupt end.",
+                      kurdishText:
+                          "ڕووداوەکە کارەکەی ھێنایە کۆتاییەکی لەناکاو.",
+                      onPressedBritish: () => speaka2583("en-GB"),
+                      onPressedAmerican: () => speaka2583("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) قسەکردن بەشێوەیەکی ناشرین، زۆرجار بە بەکارھێنانی وشەی کەمتر لەوەی پێویستە"""),
-                          SentencesRow(
-                            englishText:
-                                "She was very abrupt with me in our meeting.",
-                            kurdishText:
-                                "زۆر توند بوو لەگەڵم لە چاوپێکەوتنەکە.",
-                            onPressedBritish: () => speaka2179("en-GB"),
-                            onPressedAmerican: () => speaka2179("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "She was very abrupt with me in our meeting.",
+                      kurdishText: "زۆر توند بوو لەگەڵم لە چاوپێکەوتنەکە.",
+                      onPressedBritish: () => speaka2179("en-GB"),
+                      onPressedAmerican: () => speaka2179("en-US"),
                     ),
                   ],
                 ),

@@ -147,34 +147,28 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: جێھێشتنی تەختی شاھانە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) وازھێنان لە پۆستی پاشایی، شاژنی، یان ئیمپراتۆری"
-                                  ""),
-                          SentencesRow(
-                            englishText: "He abdicated in favour of his son.",
-                            kurdishText:
-                                "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی.",
-                            onPressedBritish: () => speakab576("en-GB"),
-                            onPressedAmerican: () => speakab576("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "She was forced to abdicate the throne of Spain.",
-                            kurdishText:
-                                "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت.",
-                            onPressedBritish: () => speakab5346("en-GB"),
-                            onPressedAmerican: () => speakab5346("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (کردار) وازھێنان لە پۆستی پاشایی، شاژنی، یان ئیمپراتۆری"
+                            ""),
+                    SentencesRow(
+                      englishText: "He abdicated in favour of his son.",
+                      kurdishText:
+                          "وازی لە تەختی شاھانە ھێنا لە بەرژەوەندی کوڕەکەی.",
+                      onPressedBritish: () => speakab576("en-GB"),
+                      onPressedAmerican: () => speakab576("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "She was forced to abdicate the throne of Spain.",
+                      kurdishText:
+                          "ناچارکرا واز لە تەختی شاھانەیی ئیسپانیا بھێنێت.",
+                      onPressedBritish: () => speakab5346("en-GB"),
+                      onPressedAmerican: () => speakab5346("en-US"),
                     ),
                   ],
                 ),

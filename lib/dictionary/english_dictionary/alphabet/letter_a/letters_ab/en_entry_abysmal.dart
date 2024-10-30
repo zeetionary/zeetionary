@@ -146,23 +146,16 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: یەکجار خراپ، شپرزە، ترسناک، ھیچ، بازاڕی، ئایەخ، ستانداردنزم
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) شتێک کە زۆر خراپ بێت" ""),
-                          SentencesRow(
-                            englishText: "His manners are abysmal.",
-                            kurdishText: "ھەڵسوکەوتی زۆر خراپە.",
-                            onPressedBritish: () => speaka1547("en-GB"),
-                            onPressedAmerican: () => speaka1547("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) شتێک کە زۆر خراپ بێت" ""),
+                    SentencesRow(
+                      englishText: "His manners are abysmal.",
+                      kurdishText: "ھەڵسوکەوتی زۆر خراپە.",
+                      onPressedBritish: () => speaka1547("en-GB"),
+                      onPressedAmerican: () => speaka1547("en-US"),
                     ),
                   ],
                 ),

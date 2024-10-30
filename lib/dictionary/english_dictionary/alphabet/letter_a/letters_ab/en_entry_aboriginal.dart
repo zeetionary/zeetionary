@@ -157,34 +157,28 @@ A member of the people living in Australia when Europeans arrived (= Aborigine, 
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: (مرۆڤ، ڕووەک یان گیانەوەر) ڕەسەن، بوومی، خۆجێیی، ناوچەیی، خۆماڵی، سەرەتانشین، دانیشتووانی ڕەسەنی ئەوسترالیا، 
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ئوسترالیا"
-                                  ""),
-                          SentencesRow(
-                            englishText: "the issue of Aboriginal land rights",
-                            kurdishText:
-                                "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا.",
-                            onPressedBritish: () => speaka254("en-GB"),
-                            onPressedAmerican: () => speaka254("en-US"),
-                          ),
-                          const DividerSentences(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ئوسترالیا"
+                            ""),
+                    SentencesRow(
+                      englishText: "the issue of Aboriginal land rights",
+                      kurdishText:
+                          "کێشەی مافی خاوەندارێتیی زەوی لەلایەن دانیشتووانی ڕەسەنی ئوسترالیا.",
+                      onPressedBritish: () => speaka254("en-GB"),
+                      onPressedAmerican: () => speaka254("en-US"),
+                    ),
+                    const DividerSentences(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) پەیوەندیدار بە دانیشتووانی ڕەسەنی ناوچەیەک پێش ئەوەی ئەورووپییەکان تێیدا دەربکەون"""),
-                          SentencesRow(
-                            englishText: "the aboriginal peoples of Canada",
-                            kurdishText: "دانیشتووانی ڕەسەنی کەنەدا.",
-                            onPressedBritish: () => speakab252("en-GB"),
-                            onPressedAmerican: () => speakab252("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "the aboriginal peoples of Canada",
+                      kurdishText: "دانیشتووانی ڕەسەنی کەنەدا.",
+                      onPressedBritish: () => speakab252("en-GB"),
+                      onPressedAmerican: () => speakab252("en-US"),
                     ),
                   ],
                 ),

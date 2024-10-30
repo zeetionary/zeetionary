@@ -168,44 +168,38 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: توانا، بەتوانا، توانادار، خورت، لێوەشاو، لێھاتوو، بەکارھاتوو، ژێھاتی، شارەزا
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) ھەبوونی بەھرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "You must be able to speak French for this job.",
-                            kurdishText:
-                                "بۆ ئەم کارە دەبێت بتوانی بە فەرەنسی قسەبکەیت.",
-                            onPressedBritish: () => speaka321("en-GB"),
-                            onPressedAmerican: () => speaka321("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "We're still able to get visas to come and go from Thailand.",
-                            kurdishText:
-                                "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین.",
-                            onPressedBritish: () => speaka324("en-GB"),
-                            onPressedAmerican: () => speaka324("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Are you really willing and able to do what is necessary?",
-                            kurdishText:
-                                "ئامادەیت و توانات ھەیە ھەرچی بکەیت کە پێویست بێت؟",
-                            onPressedBritish: () => speaka358("en-GB"),
-                            onPressedAmerican: () => speaka358("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) ھەبوونی بەھرەمەندی، زانیاری، یان شارەزایی بۆ ئەنجامدانی کارێک"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "You must be able to speak French for this job.",
+                      kurdishText:
+                          "بۆ ئەم کارە دەبێت بتوانی بە فەرەنسی قسەبکەیت.",
+                      onPressedBritish: () => speaka321("en-GB"),
+                      onPressedAmerican: () => speaka321("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "We're still able to get visas to come and go from Thailand.",
+                      kurdishText:
+                          "ھێشتا دەتوانین ڤیزا وەربگرین بۆ ئەوەی ھاتووچۆی تایلەند بکەین.",
+                      onPressedBritish: () => speaka324("en-GB"),
+                      onPressedAmerican: () => speaka324("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "Are you really willing and able to do what is necessary?",
+                      kurdishText:
+                          "ئامادەیت و توانات ھەیە ھەرچی بکەیت کە پێویست بێت؟",
+                      onPressedBritish: () => speaka358("en-GB"),
+                      onPressedAmerican: () => speaka358("en-US"),
                     ),
                   ],
                 ),

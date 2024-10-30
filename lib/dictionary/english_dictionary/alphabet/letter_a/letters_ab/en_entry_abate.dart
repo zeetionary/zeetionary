@@ -142,24 +142,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: دامرکان، داکوژان، ئارام‌گرتن
 """),
-                          const DefinitionKurdish(
-                              text: "١. (کردار) لەدەستدانی ھێز و لاوازبوون" ""),
-                          SentencesRow(
-                            englishText:
-                                "The storm showed no signs of abating.",
-                            kurdishText:
-                                "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا.",
-                            onPressedBritish: () => speak1142566("en-GB"),
-                            onPressedAmerican: () => speak1142566("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (کردار) لەدەستدانی ھێز و لاوازبوون" ""),
+                    SentencesRow(
+                      englishText: "The storm showed no signs of abating.",
+                      kurdishText:
+                          "زریانەکە ھیچ ئاماژەیەکی دامرکانی پیشان نەدەدا.",
+                      onPressedBritish: () => speak1142566("en-GB"),
+                      onPressedAmerican: () => speak1142566("en-US"),
                     ),
                   ],
                 ),

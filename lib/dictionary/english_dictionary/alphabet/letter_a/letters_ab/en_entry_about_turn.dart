@@ -140,21 +140,15 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. بە تەواوی گۆڕینی بۆچوون، ڕەفتار، یان پلان"""),
-                          SentencesRow(
-                            englishText:
-                                "The government did an about-turn over nuclear energy.",
-                            kurdishText:
-                                "حکومەت بە تەواوی پلانەکانی گۆڕی لەسەر وزەی ئەتۆمی.",
-                            onPressedBritish: () => speaka3775("en-GB"),
-                            onPressedAmerican: () => speaka3775("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "The government did an about-turn over nuclear energy.",
+                      kurdishText:
+                          "حکومەت بە تەواوی پلانەکانی گۆڕی لەسەر وزەی ئەتۆمی.",
+                      onPressedBritish: () => speaka3775("en-GB"),
+                      onPressedAmerican: () => speaka3775("en-US"),
                     ),
                   ],
                 ),

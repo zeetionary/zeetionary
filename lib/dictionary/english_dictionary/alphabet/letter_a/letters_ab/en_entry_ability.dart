@@ -174,62 +174,56 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: توانایی، تواناداری، خورتی، زۆخ، وزە، بنگە، بار، یارا، پەک، لێوەشاوەیی، شیاوێتی، بەکارھاتوویی، لێھاتوویی، جەوھەر، بەھرەمەندی، بەھرە
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) توانای ئەنجامدانی کارێک" ""),
-                          SentencesRow(
-                            englishText:
-                                "People with the disease may lose their ability to communicate.",
-                            kurdishText:
-                                "خەڵکی بەم نەخۆشییەوە ڕەنگە توانای قسەکردن لەدەستبدەن.",
-                            onPressedBritish: () => speaka678("en-GB"),
-                            onPressedAmerican: () => speaka678("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "This program has the ability to adapt to its user.",
-                            kurdishText:
-                                "ئەم پڕۆگرامە توانای ئەوەی ھەیە لەگەڵ بەکارھێنەر خۆی بگونجێنێت.",
-                            onPressedBritish: () => speaka325("en-GB"),
-                            onPressedAmerican: () => speaka325("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "She has an uncanny ability to predict what consumers will want.",
-                            kurdishText:
-                                "توانایەکی بێ وێنەی ھەیە لە پێشبینیکردنی ئەوەی کڕیاران چییان دەوێت.",
-                            onPressedBritish: () => speaka953("en-GB"),
-                            onPressedAmerican: () => speaka953("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ناو) توانای ئەنجامدانی کارێک" ""),
+                    SentencesRow(
+                      englishText:
+                          "People with the disease may lose their ability to communicate.",
+                      kurdishText:
+                          "خەڵکی بەم نەخۆشییەوە ڕەنگە توانای قسەکردن لەدەستبدەن.",
+                      onPressedBritish: () => speaka678("en-GB"),
+                      onPressedAmerican: () => speaka678("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "This program has the ability to adapt to its user.",
+                      kurdishText:
+                          "ئەم پڕۆگرامە توانای ئەوەی ھەیە لەگەڵ بەکارھێنەر خۆی بگونجێنێت.",
+                      onPressedBritish: () => speaka325("en-GB"),
+                      onPressedAmerican: () => speaka325("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "She has an uncanny ability to predict what consumers will want.",
+                      kurdishText:
+                          "توانایەکی بێ وێنەی ھەیە لە پێشبینیکردنی ئەوەی کڕیاران چییان دەوێت.",
+                      onPressedBritish: () => speaka953("en-GB"),
+                      onPressedAmerican: () => speaka953("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) ئاستی ھەبوونی شارەزاییەک یان زانیاری"""),
-                          SentencesRow(
-                            englishText:
-                                "A woman of her ability will easily find a job.",
-                            kurdishText:
-                                "ژنێک بەو توانایەی ئەوەوە بە ئاسانی کارێک دەدۆزێتەوە.",
-                            onPressedBritish: () => speaka458("en-GB"),
-                            onPressedAmerican: () => speaka458("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "It's important to discover the natural abilities of each child.",
-                            kurdishText:
-                                "دۆزینەوەی توانای سرووشتی ھەر یەک لە منداڵەکان شتێکی گرنگە.",
-                            onPressedBritish: () => speaka634("en-GB"),
-                            onPressedAmerican: () => speaka634("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "A woman of her ability will easily find a job.",
+                      kurdishText:
+                          "ژنێک بەو توانایەی ئەوەوە بە ئاسانی کارێک دەدۆزێتەوە.",
+                      onPressedBritish: () => speaka458("en-GB"),
+                      onPressedAmerican: () => speaka458("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "It's important to discover the natural abilities of each child.",
+                      kurdishText:
+                          "دۆزینەوەی توانای سرووشتی ھەر یەک لە منداڵەکان شتێکی گرنگە.",
+                      onPressedBritish: () => speaka634("en-GB"),
+                      onPressedAmerican: () => speaka634("en-US"),
                     ),
                   ],
                 ),

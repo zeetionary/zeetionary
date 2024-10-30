@@ -144,27 +144,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: کورتکردنەوە، کورتەکردنەوە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (کردار) کورتکردنەوەی وشە یان ناو، زۆرجار بە تەنھا بەکارھێنانی پیتەکانی سەرەتا"""),
-                          SentencesRow(
-                            englishText:
-                                "When taking notes, it's helpful to abbreviate long phrases to save time and space.",
-                            kurdishText:
-                                "کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین.",
-                            onPressedBritish: () =>
-                                speakabbreviate1125("en-GB"),
-                            onPressedAmerican: () =>
-                                speakabbreviate1125("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) کورتکردنەوەی وشە یان ناو، زۆرجار بە تەنھا بەکارھێنانی پیتەکانی سەرەتا"""),
+                    SentencesRow(
+                      englishText:
+                          "When taking notes, it's helpful to abbreviate long phrases to save time and space.",
+                      kurdishText:
+                          "کاتێک تێبینی دەنووسیت، واباشە دەستەواژە درێژەکان کورتبکەیتەوە بۆ گەڕاندنەوەی کات و مەودای نووسین.",
+                      onPressedBritish: () => speakabbreviate1125("en-GB"),
+                      onPressedAmerican: () => speakabbreviate1125("en-US"),
                     ),
                   ],
                 ),

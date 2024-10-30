@@ -177,60 +177,52 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: گڕگرتوو، داگیرساو، ئاورگرتوو، ئاورتێبەربوو، کڵپەکردوو، ھەڵبوو، سوورەوەبوو، تووڕە، بریقەدار، ڕۆشن، ڕووناک، بەشەوق
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) سووتان بەخێرایی و بەھێزی" ""),
-                          SentencesRow(
-                            englishText: "The whole building was soon ablaze.",
-                            kurdishText: "تەواوی بیناکە زوو بوو بە بڵێسە.",
-                            onPressedBritish: () => speak258("en-GB"),
-                            onPressedAmerican: () => speak258("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Cars and buses were set ablaze during the riot.",
-                            kurdishText:
-                                "ئۆتۆمبێل و پاسەکان لە ئاژاوەکەدا ئاگر تێبەردران.",
-                            onPressedBritish: () => speaka256("en-GB"),
-                            onPressedAmerican: () => speaka256("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) سووتان بەخێرایی و بەھێزی" ""),
+                    SentencesRow(
+                      englishText: "The whole building was soon ablaze.",
+                      kurdishText: "تەواوی بیناکە زوو بوو بە بڵێسە.",
+                      onPressedBritish: () => speak258("en-GB"),
+                      onPressedAmerican: () => speak258("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "Cars and buses were set ablaze during the riot.",
+                      kurdishText:
+                          "ئۆتۆمبێل و پاسەکان لە ئاژاوەکەدا ئاگر تێبەردران.",
+                      onPressedBritish: () => speaka256("en-GB"),
+                      onPressedAmerican: () => speaka256("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) ڕۆشن و پڕ لە ڕەنگ"""),
-                          SentencesRow(
-                            englishText:
-                                "The trees were ablaze with the colours of autumn.",
-                            kurdishText: "دارەکان پڕ لە ڕەنگی پایز بوون.",
-                            onPressedBritish: () => speakab37("en-GB"),
-                            onPressedAmerican: () => speakab37("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "Every window was ablaze with light.",
-                            kurdishText: "پەنجەرەکان پڕ لە ڕۆشنایی بوون.",
-                            onPressedBritish: () => speaka614("en-GB"),
-                            onPressedAmerican: () => speaka614("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The trees were ablaze with the colours of autumn.",
+                      kurdishText: "دارەکان پڕ لە ڕەنگی پایز بوون.",
+                      onPressedBritish: () => speakab37("en-GB"),
+                      onPressedAmerican: () => speakab37("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "Every window was ablaze with light.",
+                      kurdishText: "پەنجەرەکان پڕ لە ڕۆشنایی بوون.",
+                      onPressedBritish: () => speaka614("en-GB"),
+                      onPressedAmerican: () => speaka614("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) پڕ لە ھەست و جۆشوخرۆشی"""),
-                          SentencesRow(
-                            englishText:
-                                "He turned to her, his eyes ablaze with love.",
-                            kurdishText:
-                                "ڕووی تێکرد بە چاوی پڕ لە خۆشەویستییەوە.",
-                            onPressedBritish: () => speaka241("en-GB"),
-                            onPressedAmerican: () => speaka241("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "He turned to her, his eyes ablaze with love.",
+                      kurdishText: "ڕووی تێکرد بە چاوی پڕ لە خۆشەویستییەوە.",
+                      onPressedBritish: () => speaka241("en-GB"),
+                      onPressedAmerican: () => speaka241("en-US"),
                     ),
                   ],
                 ),

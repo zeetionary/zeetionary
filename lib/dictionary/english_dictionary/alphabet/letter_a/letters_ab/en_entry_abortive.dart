@@ -152,33 +152,26 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: بێھوودە، بێ‌ئەنجام، سەرنەکەوتوو، تێ‌شکاو، بەفیڕۆ، بێ‌بەر، سەرنەگرتوو، نەزۆک، ھەڵنەداو، پەرەنەسەندوو، ڕاگیراو لە پەرەسەندن یان گەشەسەندن‌دا
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) کارێکی شکستخواردوو" ""),
-                          SentencesRow(
-                            englishText:
-                                "He tried to set up a meeting but his efforts proved abortive.",
-                            kurdishText:
-                                "ھەوڵیدا کە کۆبوونەوەیەک ڕێکبخات، بەڵام ھەوڵەکانی بێ ئەنجام بوون.",
-                            onPressedBritish: () => speaka364("en-GB"),
-                            onPressedAmerican: () => speaka364("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "There was an abortive attempt to overthrow the government.",
-                            kurdishText:
-                                "ھەوڵێکی نەزۆک ھەبوو بۆ ڕووخاندنی حکومەت.",
-                            onPressedBritish: () => speakab961("en-GB"),
-                            onPressedAmerican: () => speakab961("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) کارێکی شکستخواردوو" ""),
+                    SentencesRow(
+                      englishText:
+                          "He tried to set up a meeting but his efforts proved abortive.",
+                      kurdishText:
+                          "ھەوڵیدا کە کۆبوونەوەیەک ڕێکبخات، بەڵام ھەوڵەکانی بێ ئەنجام بوون.",
+                      onPressedBritish: () => speaka364("en-GB"),
+                      onPressedAmerican: () => speaka364("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "There was an abortive attempt to overthrow the government.",
+                      kurdishText: "ھەوڵێکی نەزۆک ھەبوو بۆ ڕووخاندنی حکومەت.",
+                      onPressedBritish: () => speakab961("en-GB"),
+                      onPressedAmerican: () => speakab961("en-US"),
                     ),
                   ],
                 ),

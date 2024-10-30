@@ -143,22 +143,16 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: زگی، سگی، ورگی، ناوزگ، ماسوولکەکانی زگ، کۆمەڵە ماسوولکەی سگ
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) پەیوەندیدار بە سک" ""),
-                          SentencesRow(
-                            englishText: "abdominal pains",
-                            kurdishText: "سک ئێشە.",
-                            onPressedBritish: () => speakabdo5536("en-GB"),
-                            onPressedAmerican: () => speakabdo5536("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) پەیوەندیدار بە سک" ""),
+                    SentencesRow(
+                      englishText: "abdominal pains",
+                      kurdishText: "سک ئێشە.",
+                      onPressedBritish: () => speakabdo5536("en-GB"),
+                      onPressedAmerican: () => speakabdo5536("en-US"),
                     ),
                   ],
                 ),

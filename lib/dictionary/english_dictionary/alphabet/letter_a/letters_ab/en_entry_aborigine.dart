@@ -136,9 +136,6 @@ ${englishMeaningConst.text}
               const SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
                           DefinitionKurdish(text: """
 ١. (ناو) بنەنشین یا دانیشتووی ڕەسەنی ئەوسترالیا"""),
                           DividerDefinition(),
@@ -146,10 +143,7 @@ ${englishMeaningConst.text}
 ٢. (ناو) بنەنشین یا دانیشتووی ڕەسەنی وڵاتێک"""),
                         ],
                       ),
-                    )
-                  ],
-                ),
-              ),
+                    ),
               Consumer(
                 builder: (context, ref, child) {
                   if (filteredSentences.isEmpty) {

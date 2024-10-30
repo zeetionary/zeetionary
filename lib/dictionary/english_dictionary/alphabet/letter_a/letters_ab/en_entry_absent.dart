@@ -153,26 +153,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: نائامادە، نالێرە، ون، بزر، نادیار، دیارنەبوو، نەھاتوو، نەپەیدا، نەبوو(ن)، نییە، لەبوون‌بەدەر، وڕ، کاس، گێژ، ھۆش‌بڵاو، ھۆش‌پەرت
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) ئامادەنەبوو لە شوێنێک بە ھۆکارێک"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "He was absent from work for two weeks.",
-                            kurdishText: "بۆ ماوەی دوو ھەفتە لە کار نەبوو.",
-                            onPressedBritish: () => speaka3691("en-GB"),
-                            onPressedAmerican: () => speaka3691("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) ئامادەنەبوو لە شوێنێک بە ھۆکارێک"
+                            ""),
+                    SentencesRow(
+                      englishText: "He was absent from work for two weeks.",
+                      kurdishText: "بۆ ماوەی دوو ھەفتە لە کار نەبوو.",
+                      onPressedBritish: () => speaka3691("en-GB"),
+                      onPressedAmerican: () => speaka3691("en-US"),
                     ),
                   ],
                 ),

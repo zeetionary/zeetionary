@@ -148,34 +148,27 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ڕق‌لێ‌بوون، بێزکردنەوە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) ڕقبوون لە شتێک بەھۆی ئەوەی نەگونجاوە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "Most decent people abhor corruption in government.",
-                            kurdishText:
-                                "ھەرکەسێک خاوەنی ئابڕوو بێت دژی گەندەڵی دەبێت لە حکومەتدا.",
-                            onPressedBritish: () => speaka64("en-GB"),
-                            onPressedAmerican: () => speaka64("en-US"),
-                          ),
-                          SentencesRow(
-                            englishText:
-                                "She abhors any form of cruelty towards animals.",
-                            kurdishText:
-                                "ڕقی لە ھەموو جارە توندوتیژییەکە دژ بە ئاژەڵان.",
-                            onPressedBritish: () => speaka246("en-GB"),
-                            onPressedAmerican: () => speaka246("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (کردار) ڕقبوون لە شتێک بەھۆی ئەوەی نەگونجاوە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "Most decent people abhor corruption in government.",
+                      kurdishText:
+                          "ھەرکەسێک خاوەنی ئابڕوو بێت دژی گەندەڵی دەبێت لە حکومەتدا.",
+                      onPressedBritish: () => speaka64("en-GB"),
+                      onPressedAmerican: () => speaka64("en-US"),
+                    ),
+                    SentencesRow(
+                      englishText:
+                          "She abhors any form of cruelty towards animals.",
+                      kurdishText:
+                          "ڕقی لە ھەموو جارە توندوتیژییەکە دژ بە ئاژەڵان.",
+                      onPressedBritish: () => speaka246("en-GB"),
+                      onPressedAmerican: () => speaka246("en-US"),
                     ),
                   ],
                 ),

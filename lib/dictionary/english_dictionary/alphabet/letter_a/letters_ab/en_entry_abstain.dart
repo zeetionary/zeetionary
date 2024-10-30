@@ -150,36 +150,27 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: خۆبەدوورگرتن، خۆپاراستن،
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (کردار) بێ‌لایەن بوون لە دەنگداندا"""),
-                          SentencesRow(
-                            englishText:
-                                "Ten people voted in favour, five against and two abstained.",
-                            kurdishText:
-                                "دە کەس بە بەڵێ دەنگیاندا، پێنج بە نەخێر، و دووانیش بێلایەن بوون.",
-                            onPressedBritish: () => speaka26987("en-GB"),
-                            onPressedAmerican: () => speaka26987("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: """١. (کردار) بێ‌لایەن بوون لە دەنگداندا"""),
+                    SentencesRow(
+                      englishText:
+                          "Ten people voted in favour, five against and two abstained.",
+                      kurdishText:
+                          "دە کەس بە بەڵێ دەنگیاندا، پێنج بە نەخێر، و دووانیش بێلایەن بوون.",
+                      onPressedBritish: () => speaka26987("en-GB"),
+                      onPressedAmerican: () => speaka26987("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (کردار) خۆبەدوورگرتن لە شتێک کە حەزت لێیە، بەھۆی ئەوەی خراپە"""),
-                          SentencesRow(
-                            englishText: "to abstain from alcohol/sex/drugs",
-                            kurdishText:
-                                "خۆبەدوورگرتن لە کحول/سێکس/مادەی ھۆشبەر.",
-                            onPressedBritish: () => speaka23485("en-GB"),
-                            onPressedAmerican: () => speaka23485("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "to abstain from alcohol/sex/drugs",
+                      kurdishText: "خۆبەدوورگرتن لە کحول/سێکس/مادەی ھۆشبەر.",
+                      onPressedBritish: () => speaka23485("en-GB"),
+                      onPressedAmerican: () => speaka23485("en-US"),
                     ),
                   ],
                 ),

@@ -141,25 +141,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پارێزگرتن، پێش‌خۆگرتن، خودداری، پارێزگری، خۆڕاگری، خۆڕاگرتن، خۆلێ‌نەدان، خۆدوورگرتن، خۆلێ‌بواردن (بەتایبەت خواردن و خواردنەوە)
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. کرداری خۆپارێزی لەو شتانەی کە حەزت لێیە، بۆ نموونە مادە کحوولییەکان و سێکس"
-                                  ""),
-                          SentencesRow(
-                            englishText: "total abstinence from alcohol",
-                            kurdishText: "خۆبەدوورگرتنی تەواو لە کحوول.",
-                            onPressedBritish: () => speaka25891("en-GB"),
-                            onPressedAmerican: () => speaka25891("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. کرداری خۆپارێزی لەو شتانەی کە حەزت لێیە، بۆ نموونە مادە کحوولییەکان و سێکس"
+                            ""),
+                    SentencesRow(
+                      englishText: "total abstinence from alcohol",
+                      kurdishText: "خۆبەدوورگرتنی تەواو لە کحوول.",
+                      onPressedBritish: () => speaka25891("en-GB"),
+                      onPressedAmerican: () => speaka25891("en-US"),
                     ),
                   ],
                 ),

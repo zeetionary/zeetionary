@@ -140,25 +140,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ڕق‌لێ‌بوون، بێزاری، قین‌لێ‌بوون، بێزلێ‌ھاتنەوە، بێزکردن، بێزراوی، نەفرین
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) ڕقێک کە ھەتە بۆ شتێک بەھۆی ئەوەی نەگونجاوە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "He had an abhorrence of waste of any kind.",
-                            kurdishText: "ڕقی لە ھەموو جۆرە بەفیڕۆدانێک بوو.",
-                            onPressedBritish: () => speaka634("en-GB"),
-                            onPressedAmerican: () => speaka634("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) ڕقێک کە ھەتە بۆ شتێک بەھۆی ئەوەی نەگونجاوە"
+                            ""),
+                    SentencesRow(
+                      englishText: "He had an abhorrence of waste of any kind.",
+                      kurdishText: "ڕقی لە ھەموو جۆرە بەفیڕۆدانێک بوو.",
+                      onPressedBritish: () => speaka634("en-GB"),
+                      onPressedAmerican: () => speaka634("en-US"),
                     ),
                   ],
                 ),

@@ -150,36 +150,28 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: داخوران، داکڕان، داشۆران، داتاشین، داڕووشان، ڕووشان، لێخستن، (دا)سووان
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) بەشێکی جەستە کە کڕاوە بە شتێکی زبردا"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "He suffered cuts and abrasions to the face.",
-                            kurdishText:
-                                "تووشی برین و داڕووشان بوو لەسەر ڕووخساری.",
-                            onPressedBritish: () => speaka3269("en-GB"),
-                            onPressedAmerican: () => speaka3269("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ناو) بەشێکی جەستە کە کڕاوە بە شتێکی زبردا"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "He suffered cuts and abrasions to the face.",
+                      kurdishText: "تووشی برین و داڕووشان بوو لەسەر ڕووخساری.",
+                      onPressedBritish: () => speaka3269("en-GB"),
+                      onPressedAmerican: () => speaka3269("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) زیان گەشتن بەڕووی شتێ بەھۆی داڕووشان"""),
-                          SentencesRow(
-                            englishText:
-                                "Diamonds have extreme resistance to abrasion.",
-                            kurdishText: "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان.",
-                            onPressedBritish: () => speaka6247("en-GB"),
-                            onPressedAmerican: () => speaka6247("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "Diamonds have extreme resistance to abrasion.",
+                      kurdishText: "ئەڵماس بەرگری زۆری ھەیە بۆ داڕووشان.",
+                      onPressedBritish: () => speaka6247("en-GB"),
+                      onPressedAmerican: () => speaka6247("en-US"),
                     ),
                   ],
                 ),

@@ -141,23 +141,17 @@ Noun: abduction (derived forms: abductions)
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: فڕاندن یان ڕفاندنی مرۆڤ، ھەڵگرتن، مرۆدزی
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ناو) کرداری ڕفاندنی کەسێک بەشێوەی نایاسایی و بەکارھێنانی ‌یز"""),
-                          SentencesRow(
-                            englishText: "child abduction",
-                            kurdishText: "منداڵ ڕفاندن",
-                            onPressedBritish: () => speakab664("en-GB"),
-                            onPressedAmerican: () => speakab664("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کرداری ڕفاندنی کەسێک بەشێوەی نایاسایی و بەکارھێنانی ‌یز"""),
+                    SentencesRow(
+                      englishText: "child abduction",
+                      kurdishText: "منداڵ ڕفاندن",
+                      onPressedBritish: () => speakab664("en-GB"),
+                      onPressedAmerican: () => speakab664("en-US"),
                     ),
                   ],
                 ),

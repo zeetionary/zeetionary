@@ -143,25 +143,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: مژەر، مژۆک، ھەڵمژ، ھەڵمژێنەر، ھەڵمژەر، کێشەر، ئاوگر، ئاوکێش، شێگر، وشک‌کەرەوە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) ھەبوونی توانای ھەڵمژین، بەتایبەتی ھەڵمژینی شلە"
-                                  ""),
-                          SentencesRow(
-                            englishText: "The towels are highly absorbent.",
-                            kurdishText: "خاولییەکان زۆر ھەڵمژن.",
-                            onPressedBritish: () => speaka2473("en-GB"),
-                            onPressedAmerican: () => speaka2473("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) ھەبوونی توانای ھەڵمژین، بەتایبەتی ھەڵمژینی شلە"
+                            ""),
+                    SentencesRow(
+                      englishText: "The towels are highly absorbent.",
+                      kurdishText: "خاولییەکان زۆر ھەڵمژن.",
+                      onPressedBritish: () => speaka2473("en-GB"),
+                      onPressedAmerican: () => speaka2473("en-US"),
                     ),
                   ],
                 ),

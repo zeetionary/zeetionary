@@ -154,34 +154,26 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ناژیرانە، بێ‌ئەقڵانە، پڕوپووچ، بێجێ، نالۆژیکی، گاڵتەجاڕ، پێکەنیناوی، بێ‌واتا، بێ‌مانا، نەشیاو، ھیچ‌وپووچ، گەوجانە، پووچەکە، 
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵناو) شتێکی گاڵتەجاڕانە" ""),
-                          SentencesRow(
-                            englishText:
-                                "That uniform makes the guards look absurd.",
-                            kurdishText:
-                                "جلە یەکپۆشییەکە وا لە سەربازەکان دەکات گاڵتەجاڕانە دەربکەون.",
-                            onPressedBritish: () => speaka49275("en-GB"),
-                            onPressedAmerican: () => speaka49275("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Of course it's not true, what an absurd idea.",
-                            kurdishText:
-                                "بە دڵنیاییەوە ڕاست نییە، چی بیرۆکەیەکی گاڵتەجاڕانەیە.",
-                            onPressedBritish: () => speaka69853("en-GB"),
-                            onPressedAmerican: () => speaka69853("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵناو) شتێکی گاڵتەجاڕانە" ""),
+                    SentencesRow(
+                      englishText: "That uniform makes the guards look absurd.",
+                      kurdishText:
+                          "جلە یەکپۆشییەکە وا لە سەربازەکان دەکات گاڵتەجاڕانە دەربکەون.",
+                      onPressedBritish: () => speaka49275("en-GB"),
+                      onPressedAmerican: () => speaka49275("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "Of course it's not true, what an absurd idea.",
+                      kurdishText:
+                          "بە دڵنیاییەوە ڕاست نییە، چی بیرۆکەیەکی گاڵتەجاڕانەیە.",
+                      onPressedBritish: () => speaka69853("en-GB"),
+                      onPressedAmerican: () => speaka69853("en-US"),
                     ),
                   ],
                 ),

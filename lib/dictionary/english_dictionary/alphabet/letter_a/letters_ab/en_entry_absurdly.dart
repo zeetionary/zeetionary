@@ -140,24 +140,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ناژیرانە، پڕوپووچانە، بەشێوەیەکی نالۆژیکی، گاڵتەجاڕانە، بە شێوەیەکی پێکەنینی
 """),
-                          const DefinitionKurdish(
-                              text: "١. بە ئاستێک کە جێگەی باوەڕ نییە" ""),
-                          SentencesRow(
-                            englishText:
-                                "The paintings were sold for absurdly high prices.",
-                            kurdishText: "تابلۆکان بەنرخی ئێجگار بەرز فرۆشران.",
-                            onPressedBritish: () => speaka41758("en-GB"),
-                            onPressedAmerican: () => speaka41758("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. بە ئاستێک کە جێگەی باوەڕ نییە" ""),
+                    SentencesRow(
+                      englishText:
+                          "The paintings were sold for absurdly high prices.",
+                      kurdishText: "تابلۆکان بەنرخی ئێجگار بەرز فرۆشران.",
+                      onPressedBritish: () => speaka41758("en-GB"),
+                      onPressedAmerican: () => speaka41758("en-US"),
                     ),
                   ],
                 ),

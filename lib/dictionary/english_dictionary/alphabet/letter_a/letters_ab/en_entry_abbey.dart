@@ -143,24 +143,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: دێر، دەیر، کلێسەی نێو دەیر، جێگەی عیبادەتی مەسیحییەکان، کلێسا، کەنیسە، کنیسە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کڵێسایەکی گەورە لەگەڵ بینای دیکە لە دەوریدا کە تێیدا ڕەبەنەکان تێیدا دەژین"
-                                  ""),
-                          SentencesRow(
-                            englishText: "a ruined abbey",
-                            kurdishText: "کڵێسایەکی وێرانە",
-                            onPressedBritish: () => speakabbey11452("en-GB"),
-                            onPressedAmerican: () => speakabbey11452("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) کڵێسایەکی گەورە لەگەڵ بینای دیکە لە دەوریدا کە تێیدا ڕەبەنەکان تێیدا دەژین"
+                            ""),
+                    SentencesRow(
+                      englishText: "a ruined abbey",
+                      kurdishText: "کڵێسایەکی وێرانە",
+                      onPressedBritish: () => speakabbey11452("en-GB"),
+                      onPressedAmerican: () => speakabbey11452("en-US"),
                     ),
                   ],
                 ),

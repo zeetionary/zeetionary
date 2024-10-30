@@ -142,23 +142,16 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: کورت‌کردنەوە، کورتاندن، کورت‌بڕینەوە، سەرھێشتنەوە، قارس‌کردن، لێ‌دەرھێنان، کورت‌کراوی، کورتەوەکراوی
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) شێوەی کورتکراوەی شتێک" ""),
-                          SentencesRow(
-                            englishText:
-                                "What's the abbreviation for this word?",
-                            kurdishText: "کورتکراوەی ئەم وشەیە چییە؟",
-                            onPressedBritish: () => speaka852("en-GB"),
-                            onPressedAmerican: () => speaka852("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) شێوەی کورتکراوەی شتێک" ""),
+                    SentencesRow(
+                      englishText: "What's the abbreviation for this word?",
+                      kurdishText: "کورتکراوەی ئەم وشەیە چییە؟",
+                      onPressedBritish: () => speaka852("en-GB"),
+                      onPressedAmerican: () => speaka852("en-US"),
                     ),
                   ],
                 ),

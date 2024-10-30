@@ -140,26 +140,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: سەرۆکی دەیر (دێر، کڵێسا)، پیری دەیر، گەورەی دەیر
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) پیاوێک کە سەرۆکایەتی کڵێسایەک دەکات"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "Under the abbot's leadership, the monastery flourished as a center of prayer and learning.",
-                            kurdishText:
-                                "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون.",
-                            onPressedBritish: () => speakabbot112456("en-GB"),
-                            onPressedAmerican: () => speakabbot112456("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) پیاوێک کە سەرۆکایەتی کڵێسایەک دەکات"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "Under the abbot's leadership, the monastery flourished as a center of prayer and learning.",
+                      kurdishText:
+                          "لە دەمی سەرۆکایەتی ڕەبەنەکە، کڵیساکە پەرەیسەند وەک ناوەندێکی نزاکردن و فێربوون.",
+                      onPressedBritish: () => speakabbot112456("en-GB"),
+                      onPressedAmerican: () => speakabbot112456("en-US"),
                     ),
                   ],
                 ),

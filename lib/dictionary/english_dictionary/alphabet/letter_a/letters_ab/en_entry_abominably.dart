@@ -143,19 +143,13 @@ Adverb: abominably
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (ھاوەڵکار) بەشێوەیەکی زۆر خراپ"""),
-                          SentencesRow(
-                            englishText: "She treated him abominably.",
-                            kurdishText: "زۆر بەخراپی مامەڵەی لەگەڵ کرد.",
-                            onPressedBritish: () => speaka752("en-GB"),
-                            onPressedAmerican: () => speaka752("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "She treated him abominably.",
+                      kurdishText: "زۆر بەخراپی مامەڵەی لەگەڵ کرد.",
+                      onPressedBritish: () => speaka752("en-GB"),
+                      onPressedAmerican: () => speaka752("en-US"),
                     ),
                   ],
                 ),

@@ -141,25 +141,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: شپرزانە، بەشێوەیەکی یەکجار خراپ، زۆر خراپ
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵکار) بە شێوەیەکی زۆر خراپ" ""),
-                          SentencesRow(
-                            englishText:
-                                "The government has failed abysmally to deliver on its promises.",
-                            kurdishText:
-                                "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی.",
-                            onPressedBritish: () => speakab2147("en-GB"),
-                            onPressedAmerican: () => speakab2147("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵکار) بە شێوەیەکی زۆر خراپ" ""),
+                    SentencesRow(
+                      englishText:
+                          "The government has failed abysmally to deliver on its promises.",
+                      kurdishText:
+                          "حکومەت بەخراپی شکستیھێناوە لە جێبەجێکردنی بەڵێنەکانی.",
+                      onPressedBritish: () => speakab2147("en-GB"),
+                      onPressedAmerican: () => speakab2147("en-US"),
                     ),
                   ],
                 ),

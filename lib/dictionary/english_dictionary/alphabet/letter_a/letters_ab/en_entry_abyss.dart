@@ -141,27 +141,19 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: قووڵایی، بێ‌بنی، چاڵی بێ‌بن، یەکجار قووڵ، کەندڕ، نغرۆ؟، کەندەڵان، کەلێن (زۆر قووڵ)
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) چاڵێکی قووڵ کە پێدەچێت کۆتایی نەبێت"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "They took a long look into the abyss before deciding whether to jump.",
-                            kurdishText:
-                                "سەیرێکی زۆری چاڵەکەیان کرد پێش ئەوەی بڕیار بدەن لەسەر بازدان.",
-                            onPressedBritish: () => speaka24691("en-GB"),
-                            onPressedAmerican: () => speaka24691("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) چاڵێکی قووڵ کە پێدەچێت کۆتایی نەبێت"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "They took a long look into the abyss before deciding whether to jump.",
+                      kurdishText:
+                          "سەیرێکی زۆری چاڵەکەیان کرد پێش ئەوەی بڕیار بدەن لەسەر بازدان.",
+                      onPressedBritish: () => speaka24691("en-GB"),
+                      onPressedAmerican: () => speaka24691("en-US"),
                     ),
                   ],
                 ),

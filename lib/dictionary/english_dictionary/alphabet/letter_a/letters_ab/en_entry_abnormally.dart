@@ -140,23 +140,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: نائاسایییانە، ناسروشتییانە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ھاوەڵکار) بەشێوەیەک کە جیاوازە لە شێوازی ئاسایی بۆ جۆرێک کە جێگەی نیگەرانییە"""),
-                          SentencesRow(
-                            englishText: "abnormally high blood pressure",
-                            kurdishText: "پەستانی نائاسایی بەرز لە خوێندا.",
-                            onPressedBritish: () => speaka97("en-GB"),
-                            onPressedAmerican: () => speaka97("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەک کە جیاوازە لە شێوازی ئاسایی بۆ جۆرێک کە جێگەی نیگەرانییە"""),
+                    SentencesRow(
+                      englishText: "abnormally high blood pressure",
+                      kurdishText: "پەستانی نائاسایی بەرز لە خوێندا.",
+                      onPressedBritish: () => speaka97("en-GB"),
+                      onPressedAmerican: () => speaka97("en-US"),
                     ),
                   ],
                 ),

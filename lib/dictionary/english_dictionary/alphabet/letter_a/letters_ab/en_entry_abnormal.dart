@@ -161,43 +161,34 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: نائاسایی، سەیر، ڕیزپەڕ، ناسروشتی، ناعەدەتی، ناوازە، ناوێزە، کاوش
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) شتێک کە جیاوازە لە شێوازی ئاسایی، بەتایبەت شتێک کە جێگەی نیگەرانییە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "abnormal levels of sugar in the blood",
-                            kurdishText: "ڕێژەی نائاسایی شەکر لە خوێندا.",
-                            onPressedBritish: () => speakab24("en-GB"),
-                            onPressedAmerican: () => speakab24("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "They thought his behaviour was abnormal.",
-                            kurdishText:
-                                "وایان بیرکردەوە ڕەفتارەکانی نائاسایی بێت.",
-                            onPressedBritish: () => speaka91("en-GB"),
-                            onPressedAmerican: () => speaka91("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "The ship was blown off course by abnormal weather conditions.",
-                            kurdishText:
-                                "کەشتییەکە ڕێڕەوی خۆی لەدەستدا بەھۆی کەشوھەوای نائاسایی.",
-                            onPressedBritish: () => speaka25("en-GB"),
-                            onPressedAmerican: () => speaka25("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) شتێک کە جیاوازە لە شێوازی ئاسایی، بەتایبەت شتێک کە جێگەی نیگەرانییە"
+                            ""),
+                    SentencesRow(
+                      englishText: "abnormal levels of sugar in the blood",
+                      kurdishText: "ڕێژەی نائاسایی شەکر لە خوێندا.",
+                      onPressedBritish: () => speakab24("en-GB"),
+                      onPressedAmerican: () => speakab24("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "They thought his behaviour was abnormal.",
+                      kurdishText: "وایان بیرکردەوە ڕەفتارەکانی نائاسایی بێت.",
+                      onPressedBritish: () => speaka91("en-GB"),
+                      onPressedAmerican: () => speaka91("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "The ship was blown off course by abnormal weather conditions.",
+                      kurdishText:
+                          "کەشتییەکە ڕێڕەوی خۆی لەدەستدا بەھۆی کەشوھەوای نائاسایی.",
+                      onPressedBritish: () => speaka25("en-GB"),
+                      onPressedAmerican: () => speaka25("en-US"),
                     ),
                   ],
                 ),

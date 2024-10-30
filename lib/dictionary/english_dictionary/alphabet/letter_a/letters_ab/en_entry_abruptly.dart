@@ -140,20 +140,14 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. شتێک لەناکاو و بەشێوەییەکی چاوەڕواننەکراو ڕووبدات"""),
-                          SentencesRow(
-                            englishText: "The interview ended abruptly.",
-                            kurdishText:
-                                "چاوپێکەوتنەکە بەشێوەیەکی چاوەڕواننەکراو کۆتایی ھات.",
-                            onPressedBritish: () => speaka2416("en-GB"),
-                            onPressedAmerican: () => speaka2416("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "The interview ended abruptly.",
+                      kurdishText:
+                          "چاوپێکەوتنەکە بەشێوەیەکی چاوەڕواننەکراو کۆتایی ھات.",
+                      onPressedBritish: () => speaka2416("en-GB"),
+                      onPressedAmerican: () => speaka2416("en-US"),
                     ),
                   ],
                 ),

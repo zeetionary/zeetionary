@@ -163,48 +163,40 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پچڕاندن، کوژاندنەوە، لەباربردن، لابردن، وەستاندن، کۆتاییپێھێنان (کۆتاییپێھێنانی بەئەنقەستی جێبەجێکردنی بەرنامە لەبەر سەرھەڵدانی ھەڵە)
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (کردار) کۆتایی ھێنان بە دووگیانی و ڕێگریکردن لە گەشە و لەدایکبوونی کۆرپەلە؛ لەباربردن"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "She aborted the child due to health issues.",
-                            kurdishText:
-                                "منداڵەکەی لەباربرد بەھۆی بارودۆخی تەندرووستییەوە.",
-                            onPressedBritish: () => speaka22("en-GB"),
-                            onPressedAmerican: () => speaka22("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            "١. (کردار) کۆتایی ھێنان بە دووگیانی و ڕێگریکردن لە گەشە و لەدایکبوونی کۆرپەلە؛ لەباربردن"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "She aborted the child due to health issues.",
+                      kurdishText:
+                          "منداڵەکەی لەباربرد بەھۆی بارودۆخی تەندرووستییەوە.",
+                      onPressedBritish: () => speaka22("en-GB"),
+                      onPressedAmerican: () => speaka22("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (کردار) منداڵبوونی پێشوەختە بەجۆرێک کە منداڵەکە ڕزگاری نەبێت"""),
-                          SentencesRow(
-                            englishText:
-                                "The virus can cause pregnant animals to abort.",
-                            kurdishText:
-                                "ڤایرۆسەکە دەتوانێت وا لە ئاژەڵی دووگیان بکات پێشوەختە بەچکەکەیان بە مردووی ببێت.",
-                            onPressedBritish: () => speakab885("en-GB"),
-                            onPressedAmerican: () => speakab885("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "The virus can cause pregnant animals to abort.",
+                      kurdishText:
+                          "ڤایرۆسەکە دەتوانێت وا لە ئاژەڵی دووگیان بکات پێشوەختە بەچکەکەیان بە مردووی ببێت.",
+                      onPressedBritish: () => speakab885("en-GB"),
+                      onPressedAmerican: () => speakab885("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (کردار) کۆتاییپێھێنان بە شتێک پێش ئەوەی تەواو بێت، زۆرجار بەھۆی ئەوەی شکستی دەھێنا"""),
-                          SentencesRow(
-                            englishText:
-                                "The plan was aborted at the last minute.",
-                            kurdishText:
-                                "پلانەکە لە کۆتا خولەکەکاندا پوچەڵکرایەوە.",
-                            onPressedBritish: () => speakab33("en-GB"),
-                            onPressedAmerican: () => speakab33("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "The plan was aborted at the last minute.",
+                      kurdishText: "پلانەکە لە کۆتا خولەکەکاندا پوچەڵکرایەوە.",
+                      onPressedBritish: () => speakab33("en-GB"),
+                      onPressedAmerican: () => speakab33("en-US"),
                     ),
                   ],
                 ),

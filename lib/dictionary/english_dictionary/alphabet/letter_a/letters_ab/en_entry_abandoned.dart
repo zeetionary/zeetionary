@@ -153,36 +153,29 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: بەتەنیاکەوتوو، بەجێ‌ماو، وازلێ‌ھێنراو، وەلانراو، دەس‌لێ‌ھەڵگیراو، لاتەریک، وێڵ‌کراو، چۆڵ‌کراو، پشت‌لێ‌ھەڵکراو، بەجێ‌ھێڵراو
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) شتێک کە جێھێڵدراوە و چیتر بەکارناھێندرێت"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The child was found abandoned but unharmed.",
-                            kurdishText:
-                                "منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو.",
-                            onPressedBritish: () => speakabandoned1577("en-GB"),
-                            onPressedAmerican: () =>
-                                speakabandoned1577("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "There was an abandoned supermarket trolley in the middle of the road.",
-                            kurdishText:
-                                "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێت لە ناوەڕاستی شەقامەکە بوو.",
-                            onPressedBritish: () => speakabandoned47("en-GB"),
-                            onPressedAmerican: () => speakabandoned47("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) شتێک کە جێھێڵدراوە و چیتر بەکارناھێندرێت"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "The child was found abandoned but unharmed.",
+                      kurdishText:
+                          "منداڵەکە بە جێھێڵدراوی دۆزرایەوە، بەڵام بێ زیان بوو.",
+                      onPressedBritish: () => speakabandoned1577("en-GB"),
+                      onPressedAmerican: () => speakabandoned1577("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText:
+                          "There was an abandoned supermarket trolley in the middle of the road.",
+                      kurdishText:
+                          "گالیسکەیەکی جێھێڵدراوی سوپەرمارکێت لە ناوەڕاستی شەقامەکە بوو.",
+                      onPressedBritish: () => speakabandoned47("en-GB"),
+                      onPressedAmerican: () => speakabandoned47("en-US"),
                     ),
                   ],
                 ),

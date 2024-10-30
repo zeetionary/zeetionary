@@ -147,35 +147,25 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: زۆر، بە زۆر و زەبەندی، بە ئاشکرایی، بە ڕوونی
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ھاوەڵکار) تا ئاستێکی زۆر" ""),
-                          SentencesRow(
-                            englishText:
-                                "She made her wishes abundantly clear.",
-                            kurdishText: "خۆزگەکانی تەواو ئاشکرا کرد.",
-                            onPressedBritish: () => speakab25963("en-GB"),
-                            onPressedAmerican: () => speakab25963("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: "١. (ھاوەڵکار) تا ئاستێکی زۆر" ""),
+                    SentencesRow(
+                      englishText: "She made her wishes abundantly clear.",
+                      kurdishText: "خۆزگەکانی تەواو ئاشکرا کرد.",
+                      onPressedBritish: () => speakab25963("en-GB"),
+                      onPressedAmerican: () => speakab25963("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) بە ژمارەیەکی زۆر"""),
-                          SentencesRow(
-                            englishText:
-                                "Calcium is found most abundantly in milk.",
-                            kurdishText:
-                                "کالسیۆم بە ژمارەیەکی زۆر لە شیردا ھەیە.",
-                            onPressedBritish: () => speaka15247("en-GB"),
-                            onPressedAmerican: () => speaka15247("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "Calcium is found most abundantly in milk.",
+                      kurdishText: "کالسیۆم بە ژمارەیەکی زۆر لە شیردا ھەیە.",
+                      onPressedBritish: () => speaka15247("en-GB"),
+                      onPressedAmerican: () => speaka15247("en-US"),
                     ),
                   ],
                 ),

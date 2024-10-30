@@ -144,22 +144,15 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) بە فەرمی پاککردنەوەی کەسێک لە تۆمەت"""),
-                          SentencesRow(
-                            englishText:
-                                "The court absolved him of all responsibility for the accident.",
-                            kurdishText:
-                                "دادگا پاکیکردەوە/بێبەریکرد لە ھەر بەرپرسیاریەتییەک بۆ ڕووداوەکە.",
-                            onPressedBritish: () => speakabsolve5555("en-GB"),
-                            onPressedAmerican: () => speakabsolve5555("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "The court absolved him of all responsibility for the accident.",
+                      kurdishText:
+                          "دادگا پاکیکردەوە/بێبەریکرد لە ھەر بەرپرسیاریەتییەک بۆ ڕووداوەکە.",
+                      onPressedBritish: () => speakabsolve5555("en-GB"),
+                      onPressedAmerican: () => speakabsolve5555("en-US"),
                     ),
                   ],
                 ),

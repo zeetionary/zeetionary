@@ -190,60 +190,53 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ڕووت، ھەڵماڵراو، ئابستراکت، مانایی، ئایدیاڵ، خەیاڵی، ئەندێشەیی، ناکرداری، ناکۆنکرێت، بیردۆزی، تیۆریک
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ھاوەڵناو) پشتبەستوو بە ئایدیا گشتییەکان، نەک کەسێک، شتێک، یان بارودۆخێکیی تایبەت"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "The research shows that pre-school children are capable of thinking in abstract terms.",
-                            kurdishText:
-                                "توێژینەوەکە دەریخستووە کە ئەو منداڵانەی لە قوتابخانە نین توانای بیرکردنەوەیان ھەیە بە بەکارھێنانی خەیاڵیان.",
-                            onPressedBritish: () => speaka29867("en-GB"),
-                            onPressedAmerican: () => speaka29867("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ھاوەڵناو) پشتبەستوو بە ئایدیا گشتییەکان، نەک کەسێک، شتێک، یان بارودۆخێکیی تایبەت"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "The research shows that pre-school children are capable of thinking in abstract terms.",
+                      kurdishText:
+                          "توێژینەوەکە دەریخستووە کە ئەو منداڵانەی لە قوتابخانە نین توانای بیرکردنەوەیان ھەیە بە بەکارھێنانی خەیاڵیان.",
+                      onPressedBritish: () => speaka29867("en-GB"),
+                      onPressedAmerican: () => speaka29867("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) شتێک کە تەنھا وەک ئایدیا بوونی ھەیە، نەک بەشێوەی فیزیایی """),
-                          SentencesRow(
-                            englishText:
-                                "We may talk of beautiful things but beauty itself is abstract.",
-                            kurdishText:
-                                "دەتوانین باس لە شتە جوانەکان بکەین، بەڵام جوانی خۆی واتاییە.",
-                            onPressedBritish: () => speaka78946("en-GB"),
-                            onPressedAmerican: () => speaka78946("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "We may talk of beautiful things but beauty itself is abstract.",
+                      kurdishText:
+                          "دەتوانین باس لە شتە جوانەکان بکەین، بەڵام جوانی خۆی واتاییە.",
+                      onPressedBritish: () => speaka78946("en-GB"),
+                      onPressedAmerican: () => speaka78946("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) جۆرێکی ھونەر کە شتەکان وەک خۆیان پیشان نادا، بەڵکو بەو جۆرەی ھونەرمەندەکە دەیانبینێت """),
-                          SentencesRow(
-                            englishText:
-                                "the work of American abstract artists like Mark Rothko",
-                            kurdishText:
-                                "کارەکانی ھونەرمەندە ئەبستراکتییە ئەمریکییەکانی وەک مارک رۆسکۆ.",
-                            onPressedBritish: () => speaka259874("en-GB"),
-                            onPressedAmerican: () => speaka259874("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "the work of American abstract artists like Mark Rothko",
+                      kurdishText:
+                          "کارەکانی ھونەرمەندە ئەبستراکتییە ئەمریکییەکانی وەک مارک رۆسکۆ.",
+                      onPressedBritish: () => speaka259874("en-GB"),
+                      onPressedAmerican: () => speaka259874("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٤. (کردار) سڕینەوەی شتێک لە شوێنێک """),
-                          SentencesRow(
-                            englishText:
-                                "Their plan is to abstract 8 million gallons of water from the river.",
-                            kurdishText:
-                                "پلانەکەیان ئەوەبوو کە ھەشت ملیۆن گاڵۆن ئاو لە ڕووبارەکە دەربکەن.",
-                            onPressedBritish: () => speaka65897("en-GB"),
-                            onPressedAmerican: () => speaka65897("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "Their plan is to abstract 8 million gallons of water from the river.",
+                      kurdishText:
+                          "پلانەکەیان ئەوەبوو کە ھەشت ملیۆن گاڵۆن ئاو لە ڕووبارەکە دەربکەن.",
+                      onPressedBritish: () => speaka65897("en-GB"),
+                      onPressedAmerican: () => speaka65897("en-US"),
                     ),
                   ],
                 ),

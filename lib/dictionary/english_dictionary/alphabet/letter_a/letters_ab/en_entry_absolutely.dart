@@ -157,40 +157,33 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: مسۆگەرانە، بێ‌گومان، سەداسەد، یەک‌پارچە، ڕەھایانە، بەشێوەیەکی ڕەھا، بێ‌مەرج، بێ‌شەرت‌ومەرج، بێ‌ئەملاوئەولا، بێ‌چەندوچۆن، بەتەواوەتی
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی شتێک بە تەواوی ڕاستە"""),
-                          SentencesRow(
-                            englishText: "You're absolutely right.",
-                            kurdishText: "بە تەواوی ڕاست دەکەیت.",
-                            onPressedBritish: () => speaka8632("en-GB"),
-                            onPressedAmerican: () => speaka8632("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText: "The place was absolutely packed.",
-                            kurdishText: "شوێنەکە بە تەواوی پڕبوو.",
-                            onPressedBritish: () => speakab7569("en-GB"),
-                            onPressedAmerican: () => speakab7569("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەکاردێت بۆ جەختکردنەوە لەوەی شتێک بە تەواوی ڕاستە"""),
+                    SentencesRow(
+                      englishText: "You're absolutely right.",
+                      kurdishText: "بە تەواوی ڕاست دەکەیت.",
+                      onPressedBritish: () => speaka8632("en-GB"),
+                      onPressedAmerican: () => speaka8632("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "The place was absolutely packed.",
+                      kurdishText: "شوێنەکە بە تەواوی پڕبوو.",
+                      onPressedBritish: () => speakab7569("en-GB"),
+                      onPressedAmerican: () => speakab7569("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵکار) لەگەڵ ھاوەڵناو بەکاردێت بۆ دەربڕینی ھەست بە تەواوی"""),
-                          SentencesRow(
-                            englishText: "She absolutely adores you.",
-                            kurdishText: "بە تەواوی حەزی لێتە.",
-                            onPressedBritish: () => speaka2143("en-GB"),
-                            onPressedAmerican: () => speaka2143("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "She absolutely adores you.",
+                      kurdishText: "بە تەواوی حەزی لێتە.",
+                      onPressedBritish: () => speaka2143("en-GB"),
+                      onPressedAmerican: () => speaka2143("en-US"),
                     ),
                   ],
                 ),

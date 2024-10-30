@@ -139,24 +139,17 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: دمەڵ، دومەڵ، کوان، مادە، سۆ، کولک، پزرک، ناسۆر، گۆنر
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ناو) بەشێکی ھەڵئاوساو و بە ئازاری پێست کە پڕە لە شلەی زەرد"""),
-                          SentencesRow(
-                            englishText:
-                                "He had a painful abscess on his hand.",
-                            kurdishText: "دومەڵێکی گەورەی ھەبوو لەسەر دەستی.",
-                            onPressedBritish: () => speakabscesss1("en-GB"),
-                            onPressedAmerican: () => speakabscesss1("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەشێکی ھەڵئاوساو و بە ئازاری پێست کە پڕە لە شلەی زەرد"""),
+                    SentencesRow(
+                      englishText: "He had a painful abscess on his hand.",
+                      kurdishText: "دومەڵێکی گەورەی ھەبوو لەسەر دەستی.",
+                      onPressedBritish: () => speakabscesss1("en-GB"),
+                      onPressedAmerican: () => speakabscesss1("en-US"),
                     ),
                   ],
                 ),

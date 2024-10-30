@@ -185,66 +185,54 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ڕەھا، ناڕێژەیی، پەتی، ڕەبەق، تەواو، بێ‌ئەملاوئەولا، سەداسەد، بێ‌چەندوچۆن، گومان‌لێ‌نەکراو، مسۆگەر، بێ‌مەرج، دیاری‌نەکراو، نەبەستراو، بەرھەڵدا، ناپێبەند، ئازاد، بێ‌ئەندازە، بێ‌ڕادە، بێ‌سنوور
 """),
-                          const DefinitionKurdish(
-                              text: """١. (ھاوەڵناو) بە تەواوی"""),
-                          SentencesRow(
-                            englishText:
-                                "I've joined a class for absolute beginners.",
-                            kurdishText:
-                                "بەشداری وانەیەکم کردووە کە بۆ ئاستی تەواو سەرەتایە.",
-                            onPressedBritish: () => speaka6254("en-GB"),
-                            onPressedAmerican: () => speaka6254("en-US"),
-                          ),
-                          const DividerSentences(),
-                          SentencesRow(
-                            englishText:
-                                "Clean water is an absolute necessity.",
-                            kurdishText:
-                                "ئاوی پاک پێویستییەکی تەواو سەرەتایییە.",
-                            onPressedBritish: () => speaka2569("en-GB"),
-                            onPressedAmerican: () => speaka2569("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) بە تەواوی"""),
+                    SentencesRow(
+                      englishText:
+                          "I've joined a class for absolute beginners.",
+                      kurdishText:
+                          "بەشداری وانەیەکم کردووە کە بۆ ئاستی تەواو سەرەتایە.",
+                      onPressedBritish: () => speaka6254("en-GB"),
+                      onPressedAmerican: () => speaka6254("en-US"),
+                    ),
+                    const DividerSentences(),
+                    SentencesRow(
+                      englishText: "Clean water is an absolute necessity.",
+                      kurdishText: "ئاوی پاک پێویستییەکی تەواو سەرەتایییە.",
+                      onPressedBritish: () => speaka2569("en-GB"),
+                      onPressedAmerican: () => speaka2569("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) بەکاردێت بۆ جەختکردنەوە"""),
-                          SentencesRow(
-                            englishText:
-                                "We must keep costs to an absolute minimum.",
-                            kurdishText:
-                                "دەبێت نرخەکان بە ئەوپەڕی نزمی بھێڵینەوە.",
-                            onPressedBritish: () => speaka7415("en-GB"),
-                            onPressedAmerican: () => speaka7415("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText: "We must keep costs to an absolute minimum.",
+                      kurdishText: "دەبێت نرخەکان بە ئەوپەڕی نزمی بھێڵینەوە.",
+                      onPressedBritish: () => speaka7415("en-GB"),
+                      onPressedAmerican: () => speaka7415("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ھاوەڵناو) نەگۆڕ بەبێ ئەوەی گومانی لەسەر بێت"""),
-                          SentencesRow(
-                            englishText:
-                                "He taught us that the laws of physics were absolute.",
-                            kurdishText: "فێری کردین کە یاساکانی فیزیا نەگۆڕن.",
-                            onPressedBritish: () => speaka6587("en-GB"),
-                            onPressedAmerican: () => speaka6587("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "He taught us that the laws of physics were absolute.",
+                      kurdishText: "فێری کردین کە یاساکانی فیزیا نەگۆڕن.",
+                      onPressedBritish: () => speaka6587("en-GB"),
+                      onPressedAmerican: () => speaka6587("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٤. (ھاوەڵناو) گەشتن بە کۆتایی"""),
-                          SentencesRow(
-                            englishText:
-                                "The divorce became absolute last week.",
-                            kurdishText:
-                                "جیابوونەوەکەیان ھەفتەی ڕابردوو گەشت بە کۆتایی.",
-                            onPressedBritish: () => speakab2541("en-GB"),
-                            onPressedAmerican: () => speakab2541("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "The divorce became absolute last week.",
+                      kurdishText:
+                          "جیابوونەوەکەیان ھەفتەی ڕابردوو گەشت بە کۆتایی.",
+                      onPressedBritish: () => speakab2541("en-GB"),
+                      onPressedAmerican: () => speakab2541("en-US"),
                     ),
                   ],
                 ),

@@ -140,25 +140,18 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: (کەس) نادیار، نائامادە، نەھاتە، ناپەیدا، نالێرە، نەھاتوو
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) کەسێکی نائامادە" ""),
-                          SentencesRow(
-                            englishText:
-                                "There are several absentees from school this week, because a lot of people have flu.",
-                            kurdishText:
-                                "ژمارەیەک کەس نەھاتوون بۆ خوێندنگە ئەم ھەفتە بەھۆی ئەوەی ژمارەیەکی زۆر خەڵک ئەنفلۆنزایان ھەیە.",
-                            onPressedBritish: () => speaka3546("en-GB"),
-                            onPressedAmerican: () => speaka3546("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) کەسێکی نائامادە" ""),
+                    SentencesRow(
+                      englishText:
+                          "There are several absentees from school this week, because a lot of people have flu.",
+                      kurdishText:
+                          "ژمارەیەک کەس نەھاتوون بۆ خوێندنگە ئەم ھەفتە بەھۆی ئەوەی ژمارەیەکی زۆر خەڵک ئەنفلۆنزایان ھەیە.",
+                      onPressedBritish: () => speaka3546("en-GB"),
+                      onPressedAmerican: () => speaka3546("en-US"),
                     ),
                   ],
                 ),

@@ -140,26 +140,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: قەساب‌خانە، کوشتارگا، کوشتنگا، کوشتارخانە
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) پشوێنێک کە ئاژەڵان تێیدا دەکوژرێن بە مەبەستی فرۆشتنی گۆشتەکەیان"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin.",
-                            kurdishText:
-                                "ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن.",
-                            onPressedBritish: () => speakabattoir2215("en-GB"),
-                            onPressedAmerican: () => speakabattoir2215("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) پشوێنێک کە ئاژەڵان تێیدا دەکوژرێن بە مەبەستی فرۆشتنی گۆشتەکەیان"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "Some people prefer to purchase meat directly from the abattoir to ensure its freshness and origin.",
+                      kurdishText:
+                          "ھەندێک کەس پێیان باشترە کە گۆشت ڕاستەوخۆ لە قەسابخانەکە بکڕن بۆ ئەوەی لە پاکی و سەرچاوەکەی دڵنیابن.",
+                      onPressedBritish: () => speakabattoir2215("en-GB"),
+                      onPressedAmerican: () => speakabattoir2215("en-US"),
                     ),
                   ],
                 ),

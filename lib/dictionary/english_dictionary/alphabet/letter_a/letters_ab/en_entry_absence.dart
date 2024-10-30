@@ -156,10 +156,6 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
                           const KurdishVocabulary(text: """
 کوردی: نەبوون، نەبوونی، نائامادەیی، نالێرەیی، نەھاتن، دووری، دیارنەبوون، بزرێتی، ناپەیدایی، نادیاری، نەھاتوویی، دژی
 """),
@@ -189,9 +185,6 @@ ${englishMeaningConst.text}
                         ],
                       ),
                     ),
-                  ],
-                ),
-              ),
               Consumer(
                 builder: (context, ref, child) {
                   if (filteredSentences.isEmpty) {

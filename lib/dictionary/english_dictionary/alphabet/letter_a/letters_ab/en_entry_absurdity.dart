@@ -143,27 +143,20 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: پڕوپووچێتی، ناژیرانەیی، نالۆژیکی، ھیچێتی، ھیچەکەیی، بێ‌واتایی، بێ‌مانایی، قسەی ھیچەکە، بێھوودەیی
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) شتێک کە تەواو گاڵتەجاڕانەیە و ھیچ لۆژیکی تێدا نییە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "It was only later that she could see the absurdity of the situation.",
-                            kurdishText:
-                                "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت.",
-                            onPressedBritish: () => speaka27416("en-GB"),
-                            onPressedAmerican: () => speaka27416("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (ناو) شتێک کە تەواو گاڵتەجاڕانەیە و ھیچ لۆژیکی تێدا نییە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "It was only later that she could see the absurdity of the situation.",
+                      kurdishText:
+                          "تەنھا لە دواتردا بوو کە پڕوپووچێتی بارودۆخەکەی بۆدەرکەوت.",
+                      onPressedBritish: () => speaka27416("en-GB"),
+                      onPressedAmerican: () => speaka27416("en-US"),
                     ),
                   ],
                 ),

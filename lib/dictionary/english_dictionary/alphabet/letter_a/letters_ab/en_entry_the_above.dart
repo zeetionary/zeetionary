@@ -140,22 +140,15 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. شتێک یان کەسێک کە لە سەرەوە باسکراوە"""),
-                          SentencesRow(
-                            englishText:
-                                "Please notify us if the above is not correct.",
-                            kurdishText:
-                                "تکایە ئاگادارمان بکەوە ئەگەر ئەوەی لە سەرەوە نووسراوە ڕاست نییە.",
-                            onPressedBritish: () => speakT3514("en-GB"),
-                            onPressedAmerican: () => speakT3514("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "Please notify us if the above is not correct.",
+                      kurdishText:
+                          "تکایە ئاگادارمان بکەوە ئەگەر ئەوەی لە سەرەوە نووسراوە ڕاست نییە.",
+                      onPressedBritish: () => speakT3514("en-GB"),
+                      onPressedAmerican: () => speakT3514("en-US"),
                     ),
                   ],
                 ),

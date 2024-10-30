@@ -142,19 +142,13 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    SingleChildScrollView(
-                      child: CustomColumnWidget(
-                        children: [
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(text: """
 ١. (کردار) کاتێک شتێک بوونی ھەیە بە ژمارەیەکی زۆر"""),
-                          SentencesRow(
-                            englishText: "Stories about his travels abound.",
-                            kurdishText: "گێڕانەوەکان دەربارەی گەشتەکانی زۆرن.",
-                            onPressedBritish: () => speaka321("en-GB"),
-                            onPressedAmerican: () => speaka321("en-US"),
-                          ),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText: "Stories about his travels abound.",
+                      kurdishText: "گێڕانەوەکان دەربارەی گەشتەکانی زۆرن.",
+                      onPressedBritish: () => speaka321("en-GB"),
+                      onPressedAmerican: () => speaka321("en-US"),
                     ),
                   ],
                 ),

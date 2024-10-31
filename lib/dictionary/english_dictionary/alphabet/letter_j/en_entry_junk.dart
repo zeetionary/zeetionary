@@ -52,13 +52,27 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: junk (Derived forms: junks)
+1. A collection of miscellaneous items of little value
+ 
+2. [informal] Worthless material that is to be disposed of (- rubbish, trash, scrap)
+ 
+3. [informal] A product or production of poor quality (- trash, clinker [N. Amer, informal])
+ 
+4. The remains of something that has been destroyed or broken up (- debris, dust, rubble, detritus)
+ 
+5. Any of various Chinese boats with a high poop and lugsails
+ 
+6. [informal] Statements or beliefs that are untrue or make no sense (- bunk [informal], bunkum [informal], buncombe [informal], guff [informal], rot [informal], hogwash [informal], flapdoodle [N. Amer, informal], rhubarb [Brit, informal], Irish bull [slang], bull [slang], bilge [informal], nonsense, jive [N. Amer, informal], folderol, rubbish [informal], tripe [informal], trumpery [archaic], trash [informal], wish-wash [informal], applesauce [N. Amer, informal], codswallop [Brit, informal], falderal)
+ 
+7. [informal] A narcotic that is considered a hard drug; a highly addictive morphine derivative; intravenous injection provides the fastest and most intense rush (- heroin, diacetylmorphine, diamorphine)
 
-EnglishEntryjunk junk
-WORD_WEB junk junk junk
-haʊʊʊʊʊʊʊ4
+- Verb: junk (Derived forms: junked, junks, junking)
+Usage: informal
+1. Dispose of (something useless or old) (- trash, scrap)
+"junk an old car";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "junk";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,19 +941,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/T48_SrFCdaQ?t=379';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/8eq2vGEEbB4?t=456';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/lGSOWwUvJiU?t=787';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/mBbOF8LVCj4?t=175';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Ir3eJ1t13fk?t=1404';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/GYCI58pMGuQ?t=529';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +966,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """junk""",
                       // alsoEnglishWord: "also: junk",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒʌŋk/""",
+                      americanText: """IpaUS: /dʒʌŋk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,10 +1005,12 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شڕەوشاتاڵ، شڕەوبڕە، کرت‌مرت، هیچەکەوپووچەکە، کۆنە، وردەوپردە،	ئاسنەواڵە
 """),
 // With short examples define "junk", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو شتانەی کە بەبێ نرخ و بەها سەیر دەکرێن"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555
 """,

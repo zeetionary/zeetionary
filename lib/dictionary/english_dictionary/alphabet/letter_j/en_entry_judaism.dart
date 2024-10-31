@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjudaism Judaism
-WORD_WEB Judaism Judaism Judaism
-haʊʊʊʊʊʊʊ4
+- Noun: Judaism
+1. The monotheistic religion of the Jews having its spiritual and ethical principles embodied chiefly in the Torah and in the Talmud
+ 
+2. Jews collectively who practice a religion based on the Torah and the Talmud (- Hebraism, Jewish religion)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "Judaism";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Y4Zdx97A63s?t=90';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/pQG-oIMSbco?t=250';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/aDMjgOYOcDw?t=2375';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/rKrNfTKiG-M?t=1121';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/C8U23AS1irY?t=241';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/yYqlI__PniY?t=55';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """Judaism""",
                       // alsoEnglishWord: "also: Judaism",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒuːdeɪɪzəm/""",
+                      americanText: """IpaUS: /ˈdʒuːdiɪzəm/, /ˈdʒuːdeɪɪzəm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,7 +993,9 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "Judaism", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئایینی خەڵکانی جوو کە پشتی بە پێنج یەکەمین کتێبەکانی ئینجیل و تەلموود بەستووە"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555
 """,

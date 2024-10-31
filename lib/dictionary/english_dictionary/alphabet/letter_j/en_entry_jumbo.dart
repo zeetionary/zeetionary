@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: jumbo
+1. Of great mass; huge and bulky (- elephantine, gargantuan, giant)
+"a jumbo jet"; "jumbo shrimp";
 
-EnglishEntryjumbo jumbo
-WORD_WEB jumbo jumbo jumbo
-haʊʊʊʊʊʊʊ4
+- Noun: jumbo (Derived forms: jumbos)
+Usage: informal
+1. A very large jet plane (- jumbojet, jumbo jet)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jumbo";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""They boarded a jumbo jet for the flight to Tokyo.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""They ordered a jumbo pizza for the group.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/yyv2gOHMGEc?t=628';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/T48_SrFCdaQ?t=59';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/GjMmsEwIcl0?t=70';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/96K9MBvGDeA?t=51';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/yhviJ9vB7Zg?t=633';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/y9nBhv0lq1s?t=2517';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jumbo""",
                       // alsoEnglishWord: "also: jumbo",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒʌmbəʊ/""",
+                      americanText: """IpaUS: /ˈdʒʌmbəʊ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,21 +995,26 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "jumbo", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) فڕۆکەیەک کە دەتوانێت چەند سەد گەشتیارێک هەڵبگرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They boarded a jumbo jet for the flight to Tokyo.""",
+                      kurdishText:
+                          """چوونە فڕۆکەیەکی زەبەلاح بۆ گەشتەکەی تۆکیۆ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) زۆر گەورە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They ordered a jumbo pizza for the group.""",
+                      kurdishText:
+                          """داوای پیتزایەکی زەبەلاحیان کرد بۆ گرووپەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

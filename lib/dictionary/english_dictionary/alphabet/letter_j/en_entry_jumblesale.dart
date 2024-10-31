@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjumblesale jumble sale
-WORD_WEB jumble sale jumble sale jumble sale
-haʊʊʊʊʊʊʊ4
+- Noun: jumble sale (Derived forms: jumble sales)
+Usage: Brit, Cdn (US: rummage sale)
+1. A sale of donated articles (- rummage sale [N. Amer])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jumble sale";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I bought it at a jumble sale.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """They're holding a jumble sale in the village hall on Saturday in aid of charity.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/cAJWeA9U7n4?t=1836';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/FEQapUh7GjE?t=116';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/V0ndjdWuxzI?t=115';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/iT-lSyIHI_U?t=209';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/lqXePrSE1R0?t=297';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/r0myFoYi3d8?t=1613';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jumble sale""",
                       // alsoEnglishWord: "also: jumble sale",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒʌmbl seɪl/""",
+                      americanText: """IpaUS: /ˈdʒʌmbl seɪl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jumble sale", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) فرۆشتنی شتی کۆن و بەکارهاتووی وەک جلوبەرگ بۆ بەدەستخستنی پارە بۆ کڵێسا، قوتابخانە، یان دامەزراوەیەک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: rummage sale"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I bought it at a jumble sale.""",
+                      kurdishText:
+                          """لە هەڕاجێکی کەلوپەلی کۆن و بەکارهاتوو کڕیم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1007,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They're holding a jumble sale in the village hall on Saturday in aid of charity.""",
+                      kurdishText:
+                          """هەڕاجییەکی کەلوپەلی کۆن ئەنجام دەدەن لە هۆڵی گوندەکە لە ڕۆژی شەممە بۆ یارمەتیی دامەزراوەیەکی خێرخوازی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

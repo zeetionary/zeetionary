@@ -52,13 +52,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjumper jumper
-WORD_WEB jumper jumper jumper
-haʊʊʊʊʊʊʊ4
+- Noun: jumper (Derived forms: jumpers)
+1. A person who jumps
+"as the jumper neared the ground he lost control"; "the jumper's parachute opened"
+ 
+2. An athlete who competes at jumping
+"he is one hell of a jumper"
+ 
+3. [Brit] A crocheted or knitted garment covering the upper part of the body (- sweater [Brit], jersey)
+ 
+4. [N. Amer] A coverall worn by children
+ 
+5. A small connector used to make temporary electrical connections
+ 
+6. [Brit] A loose jacket or blouse worn by workmen
+ 
+7. [N. Amer] A sleeveless dress resembling an apron; worn over other clothing (- pinafore, pinny [Brit, informal])
+ 
+8. (basketball) a player releases the basketball at the high point of a jump (- jump shot)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jumper";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +100,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She bought a new jumper for the cold days.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She had her jumper on inside out.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He's a good jumper.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""Edwards says the horse is a good jumper.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +939,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/544DTGHIBM0?t=1023';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/9TugA_z5vQE?t=856';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/hFZFjoX2cGg?t=858';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/jJA3dYwIB3s?t=180';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/AUaJ8pDlxi8?t=1016';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/daaDuC1kbds?t=10';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +964,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jumper""",
                       // alsoEnglishWord: "also: jumper",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒʌmpə(r)/""",
+                      americanText: """IpaUS: /ˈdʒʌmpər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +1005,13 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "jumper", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچە جلێک کە بۆ بەشی سەرەوەی جەستەیە و لە لۆکە یان خوری درووستکراوە، قۆڵی درێژی هەیە و هیچ دووگمەی نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She bought a new jumper for the cold days.""",
+                      kurdishText: """مجەسەمێکی تازەی کڕی بۆ ڕۆژە ساردەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1019,19 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She had her jumper on inside out.""",
+                      kurdishText: """بە هەڵگەڕاوەیی مجەسەمەکەیی لەبەربوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    // skipped_meaning
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) ک/شت کە باز دەدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He's a good jumper.""",
+                      kurdishText: """بازدەرێکی باشە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,8 +1039,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Edwards says the horse is a good jumper.""",
+                      kurdishText: """ئێدواردز دەڵێت ئەسپەکە بازدەرێکی باشە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

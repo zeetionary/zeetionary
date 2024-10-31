@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjumpy jumpy
-WORD_WEB jumpy jumpy jumpy
-haʊʊʊʊʊʊʊ4
+- Adjective: jumpy (Derived forms: jumpier, jumpiest)
+1. Causing or characterized by jolts and irregular movements (- rough, rocky, bumpy, jolty, jolting)
+ 
+2. Being in a tense state (- edgy, high-strung, highly strung, jittery, nervy, overstrung, restive, uptight [informal], squirrelly [N. Amer, informal])
+"jumpy parents are sensitive themselves";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jumpy";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""What's the matter? You're so jumpy this evening.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/ms1K9ajf760?t=32';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/ill2cgCyTUc?t=1325';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/0buEATF5M0A?t=448';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/B8VObDUWYOc?t=585';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/uxwg_VGhIl4?t=186';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/SsgGBYTVkXw?t=362';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jumpy""",
                       // alsoEnglishWord: "also: jumpy",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒʌmpi/""",
+                      americanText: """IpaUS: /ˈdʒʌmpi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نگەران، دڵ‌لەدوا، ئارام‌لێ‌هەڵگیراو، بێ‌ئۆقرە، تاولێ‌هەڵگیراو، نائارام، شڵەژاو، تێکچوو، هەژیو
 """),
 // With short examples define "jumpy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) نیگەران و دوودڵ، بەتایبەتی بەهۆی ئەوەی پێتوایە شتێکی خراپ ڕوودەدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """What's the matter? You're so jumpy this evening.""",
+                      kurdishText:
+                          """کێشە چییە؟ زۆر نیگەران دیاریت ئەم ئێوارەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

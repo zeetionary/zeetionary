@@ -52,13 +52,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jumble (Derived forms: jumbles)
+1. A confused multitude of things (- clutter, muddle, fuddle, mare's nest, welter, smother, scramble)
+ 
+2. Small flat ring-shaped cake or cookie (- jumbal)
+ 
+3. A theory or argument made up of miscellaneous or incongruous ideas (- patchwork, hodgepodge [N. Amer, informal], hotchpotch)
+ 
+4. [Brit] Items for a jumble sale
 
-EnglishEntryjumble jumble
-WORD_WEB jumble jumble jumble
-haʊʊʊʊʊʊʊ4
+- Verb: jumble (Derived forms: jumbled, jumbles, jumbling)
+1. Be all mixed up or jumbled together (- mingle)
+"His words jumbled";
+ 
+2. Assemble without order or sense (- confuse, mix up)
+"She jumbles the words when she is supposed to write a sentence";
+ 
+3. Bring into random order (- scramble, throw together)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jumble";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +99,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Books, shoes and clothes were jumbled together on the floor.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""The letters in these words have been jumbled up.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The essay was a meaningless jumble of ideas.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""The city centre was a jumble of old buildings.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +941,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/aDMjgOYOcDw?t=1657';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/ErPsyBUCijM?t=1024';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/tCqwT2MqLxI?t=375';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/7dECuSPMie8?t=2014';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/PRadTIgXr_U?t=1364';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/SAaESb4wTCM?t=639';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +966,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jumble""",
                       // alsoEnglishWord: "also: jumble",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒʌmbl/""",
+                      americanText: """IpaUS: /ˈdʒʌmbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1005,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شێواوی، شپرزەیی، تێکەولێکەیی، کۆما، لۆدە، کۆنە، شڕەوبڕە
 """),
 // With short examples define "jumble", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (کردار) تێکەڵکردنی شت بە شێواوی و خراپ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Books, shoes and clothes were jumbled together on the floor.""",
+                      kurdishText:
+                          """کتێب، پێڵاو، و جلوبەرگ لەسەر زەوییەکە کەوتبوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1022,21 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The letters in these words have been jumbled up.""",
+                      kurdishText: """پیتەکانی ئەم وشانە تێکدراون.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) تێکەڵەیەکی ناڕێک لە شت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The essay was a meaningless jumble of ideas.""",
+                      kurdishText:
+                          """داڕشتنەکە شپرزەییەکی بێواتا لە بیرۆکە بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,8 +1044,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The city centre was a jumble of old buildings.""",
+                      kurdishText:
+                          """سەنتەری شارەکە شپرزەییەک لە بینای کۆن بوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

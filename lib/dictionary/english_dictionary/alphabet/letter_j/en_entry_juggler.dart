@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjuggler juggler
-WORD_WEB juggler juggler juggler
-haʊʊʊʊʊʊʊ4
+- Noun: juggler (Derived forms: jugglers)
+1. A performer who juggles objects and performs tricks of manual dexterity
+"an adept juggler"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "juggler";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """At the moment the President is like a juggler with a lot of balls in the air at once.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Z4H2W-k2j84?t=360';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Q8vNtLhdvqM?t=799';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/K0j2dlBMzUs?t=471';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/R8N-PKiyGpM?t=99';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/tkLZYEIslWM?t=381';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/ZThc79RtIeI?t=3702';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """juggler""",
                       // alsoEnglishWord: "also: juggler",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒʌɡlə(r)/""",
+                      americanText: """IpaUS: /ˈdʒʌɡlər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "juggler", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە سێ یان زیاتر لە شتێک، بۆ نموونە تۆپ، فڕێ دەدات و دووبارە دەیان گرێتەوە بە خێرایی یەک بە یەک، بەوەی کە بەردەوام دانەیەکیان لە حەوادا بمێنێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """At the moment the President is like a juggler with a lot of balls in the air at once.""",
+                      kurdishText:
+                          """لە ئێستادا سەرۆک وەک جەگلەرێک وایە کە ژمارەیەک تۆپی لە حەوادا هەبێت لە هەمان کاتدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjuncture juncture
-WORD_WEB juncture juncture juncture
-haʊʊʊʊʊʊʊ4
+- Noun: juncture (Derived forms: junctures)
+1. An event that occurs at a critical time (- occasion)
+"at such junctures he always had an impulse to leave";
+ 
+2. A crisis situation or point in time when a critical decision must be made (- critical point, crossroads, climacteric)
+"at that juncture he had no idea what to do";
+ 
+3. The shape or manner in which things come together and a connection is made (- articulation, join, joint, junction)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "juncture";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The battle had reached a crucial juncture.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """At this juncture, I would like to make an important announcement.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/SwQhKFMxmDY?t=6211';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/MnExgQ81fhU?t=831';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/6_Vrg3zAKl4?t=449';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/GfhrEEcqKlA?t=168';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/SzQmpY0KIAc?t=898';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/Gfj5f0GVLZ0?t=136';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """juncture""",
                       // alsoEnglishWord: "also: juncture",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒʌŋktʃə(r)/""",
+                      americanText: """IpaUS: /ˈdʒʌŋktʃər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +994,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بارودۆخ، کاودان، ڕەوش، قۆناخ، سەروبەند، کات
 """),
 // With short examples define "juncture", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) خاڵێکی دیاریکراو لە چالاکییەک یان زنجیرە ڕووداوێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The battle had reached a crucial juncture.""",
+                      kurdishText: """شەڕەکە گەشت بوو بە خاڵێکی گرنگ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1011,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """At this juncture, I would like to make an important announcement.""",
+                      kurdishText:
+                          """لەم خاڵەدا، دەمەوێت ڕاگەیاندنێکی گرنگ ئەنجام بدەم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

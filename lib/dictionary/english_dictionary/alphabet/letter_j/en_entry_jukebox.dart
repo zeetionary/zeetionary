@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjukebox jukebox
-WORD_WEB jukebox jukebox jukebox
-haʊʊʊʊʊʊʊ4
+- Noun: jukebox (Derived forms: jukeboxes)
+1. A cabinet containing an automatic record player; records are played by inserting a coin (- nickelodeon [N. Amer])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jukebox";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Their favourite song was playing on the jukebox.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/-Je79iRtTTE?t=237';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/vx09_4cEzlM?t=618';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/aiw3QftXOJc?t=104';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/5kew9mlFD3E?t=557';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/hQ3GW7lVBWY?t=514';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/hIyqLdKBAlc?t=406';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jukebox""",
                       // alsoEnglishWord: "also: jukebox",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒuːkbɒks/""",
+                      americanText: """IpaUS: /ˈdʒuːkbɑːks/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "jukebox", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئامێرێک لە یانەیەک، باڕێک، هتد کە گۆرانییەک دەڵێت کە هەڵتبژاردووە لە دوای ئەوەی دراوێک دەخەیتە ناوی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Their favourite song was playing on the jukebox.""",
+                      kurdishText:
+                          """گۆرانیی دڵخوازیان لەسەر جوکبۆکسەکە لێدەدرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

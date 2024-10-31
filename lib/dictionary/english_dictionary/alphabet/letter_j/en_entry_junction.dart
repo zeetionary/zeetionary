@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryjumper extends StatefulWidget {
-  const EnglishEntryjumper({super.key});
+class EnglishEntryjunction extends StatefulWidget {
+  const EnglishEntryjunction({super.key});
 
   @override
-  State<EnglishEntryjumper> createState() => _EnglishEntryjumperState();
+  State<EnglishEntryjunction> createState() => _EnglishEntryjunctionState();
 }
 
-class _EnglishEntryjumperState extends State<EnglishEntryjumper> {
+class _EnglishEntryjunctionState extends State<EnglishEntryjunction> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjumper jumper
-WORD_WEB jumper jumper jumper
-haʊʊʊʊʊʊʊ4
+- Noun: junction (Derived forms: junctions)
+1. The place where two or more things come together
+ 
+2. The state of being joined together (- conjunction, conjugation, colligation)
+ 
+3. The shape or manner in which things come together and a connection is made (- articulation, join, joint, juncture)
+ 
+4. Something that joins or connects (- conjunction)
+ 
+5. An act of joining or adjoining things (- adjunction)
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "jumper";
+  final String keyword = "junction";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,29 +85,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""jumper""");
+    await flutterTts.speak("""junction""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The most complicated motorway interchange in Britain is known as Spaghetti Junction.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """In the 19th century the town became an important railway junction.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """Damage to the junction between nerves and muscles can lead to weakness.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +934,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/oI_X2cMHNe0?t=590';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/EHJNGdFll4o?t=803';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/AF8d72mA41M?t=1322';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/aJbdYcCFp50?t=234';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/A0sM6xVAY-A?t=54';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/CmBzCnCj2XY?t=296';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -951,10 +957,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """jumper""",
-                      // alsoEnglishWord: "also: jumper",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """junction""",
+                      // alsoEnglishWord: "also: junction",
+                      britshText: """IpaUK: /ˈdʒʌŋkʃn/""",
+                      americanText: """IpaUS: /ˈdʒʌŋkʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +998,19 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێک‌بەستن، پێکەوەلکاندن، یەک‌خستن، پێک‌گەیاندن، پێک‌بەستراوی، پێوەست‌بوون، لکین، پێک‌بەستران، پێک‌گەیشتن، لێک‌گرێ‌دران، یەک‌گرتن،	شوێنی پێکەوەبەستران، جەمسەر، شوێنی پێک‌گەیشتنەوە یا لق‌لێبوونەوە، پێوەستگا، یەکتربڕین،	دوڕیانە، چوارڕێ‌یانە
 """),
-// With short examples define "jumper", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "junction", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو شوێنەی دوو یان زیاتر لە ڕێگا یان ڕێگای شەمەندەفەر تێیدا ب یەکدی دەگەن"""),
+                    const AlsoEnglishckb(
+                        word: "ھەروەھا ئینگلیزیی ئەمریکی: intersection"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The most complicated motorway interchange in Britain is known as Spaghetti Junction.""",
+                      kurdishText:
+                          """ئاڵۆزترین یەکتربڕی جووت ساید لە بەریتانیا بە یەکتربڕی سپاگێتی ناسراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1018,23 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In the 19th century the town became an important railway junction.""",
+                      kurdishText:
+                          """لە سەدەی ١٩ شارۆچکەکە بوو بە یەکتربرێکی گرنگی ڕێگای شەمەندەفەر.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شوێنێک کە تێیدا دوو یان زیاتر لە کێبڵ، ڕووبار، یان شتی دیکە تێیدا بە یەکدی دەگەن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Damage to the junction between nerves and muscles can lead to weakness.""",
+                      kurdishText:
+                          """زیان بە یەکتربڕی نێوان دەمار و ماسولکەکان دەکرێت ببێتە هۆکاری لاوازی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2150,4 +2167,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end jumper
+// end junction

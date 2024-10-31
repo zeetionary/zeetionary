@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjubilant jubilant
-WORD_WEB jubilant jubilant jubilant
-haʊʊʊʊʊʊʊ4
+- Adjective: jubilant
+1. Joyful and proud especially because of triumph or success (- exultant, exulting, prideful, rejoicing, triumphal, triumphant)
+"jubilant crowds filled the streets on VJ Day";
+ 
+2. Full of high-spirited delight (- elated, gleeful, joyful, cock-a-hoop [informal], gleesome [archaic], on top of the world [informal])
+"a jubilant heart";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jubilant";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The fans were in jubilant mood after the victory.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/f66GfsKPTUg?t=731';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/e_gkEviOWIk?t=1263';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/sV6uuMAnJUE?t=1167';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/FP6iyVJ70OU?t=763';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/DtX7CW5_Qco?t=302';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/-sbmgOiQWjc?t=213';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jubilant""",
                       // alsoEnglishWord: "also: jubilant",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒuːbɪlənt/""",
+                      americanText: """IpaUS: /ˈdʒuːbɪlənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەرمەست، سەرخۆش، یەکجار بەکەیف (لەبەر سەرکەوتنی لە شتێ)، سەرکەوتووانە
 """),
 // With short examples define "jubilant", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە خۆشی زۆرت هەیە بەهۆی سەرکەوتنەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The fans were in jubilant mood after the victory.""",
+                      kurdishText: """هەوادارەکان لە کەشێکی سەرمەستی بوون لە دوای بردنەوەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

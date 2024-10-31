@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjudicial judicial
-WORD_WEB judicial judicial judicial
-haʊʊʊʊʊʊʊ4
+- Adjective: judicial
+1. Decreed by or proceeding from a court of justice
+"a judicial decision"
+ 
+2. Expressing careful judgment (- discriminative)
+"a biography ...appreciative and yet judicial in purpose";
+ 
+3. Belonging or appropriate to the office of a judge
+"judicial robes"
+ 
+4. Relating to the administration of justice or the function of a judge (- juridical, juridic)
+"judicial system";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "judicial";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +94,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The Supreme Court ordered a judicial inquiry into the deaths.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """He applied for a judicial review to challenge the court’s decision.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +935,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/oOAyQUBithQ?t=1217';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/okAAL53Rj_0?t=339';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/AAGIi62-sAU?t=1369';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/6bTpbDL5dcg?t=113';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/kvHHa_6zVxU?t=63';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/4IaOeVgZ-wc?t=3381';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """judicial""",
                       // alsoEnglishWord: "also: judicial",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒuˈdɪʃl/""",
+                      americanText: """IpaUS: /dʒuˈdɪʃl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +999,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دادی، دادگەری‌یانە، دادوەری‌یانە، دادپرسی‌یانە، دەرچوو لە (لایەن) دادگاوە، ڕەوایی، سەربە دادگا،	لێوەشاو، ژیرانە هەڵسەنگێنراو یان لێکەوەدراو، ڕەخنەگرانە،	بێ‌لایەن، لانەگر، بێ‌لایەنانە،	سەربە دادگا، دادگایی،	دادگەر، دادوەر، ناوبژێوان
 """),
 // With short examples define "judicial", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) پەیوەندیدار بە دادگا، دادوەرێک، یان بڕیاری یاسایی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The Supreme Court ordered a judicial inquiry into the deaths.""",
+                      kurdishText:
+                          """دادگای باڵا بڕیاری دا بۆ لێکۆڵینەوەیەکی یاسایی لەسەر گیان لەدەستدانەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1017,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He applied for a judicial review to challenge the court’s decision.""",
+                      kurdishText:
+                          """داوای پێداچوونەوەیەکی یاسایی کرد بۆ تانەدان لە بڕیاری دادگا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

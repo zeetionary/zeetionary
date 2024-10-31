@@ -9,7 +9,8 @@ class EnglishEntryjudiciously extends StatefulWidget {
   const EnglishEntryjudiciously({super.key});
 
   @override
-  State<EnglishEntryjudiciously> createState() => _EnglishEntryjudiciouslyState();
+  State<EnglishEntryjudiciously> createState() =>
+      _EnglishEntryjudiciouslyState();
 }
 
 class _EnglishEntryjudiciouslyState extends State<EnglishEntryjudiciously> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjudiciously judiciously
-WORD_WEB judiciously judiciously judiciously
-haʊʊʊʊʊʊʊ4
+- Adverb: judiciously
+1. In a judicious manner
+"let's use these intelligence tests judiciously"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "judiciously";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """This report shows we acted judiciously with taxpayer money.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/3bZVk0LpilM?t=131';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/hG0ROjzgEA0?t=330';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Solb9uA-tgQ?t=12638';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/6ZH0efG6lKs?t=581';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/DIjBvtI8628?t=1075';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/vd2dtkMINIw?t=2862';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """judiciously""",
                       // alsoEnglishWord: "also: judiciously",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒuˈdɪʃəsli/""",
+                      americanText: """IpaUS: /dʒuˈdɪʃəsli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +990,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئاقڵانە، ژیرانە، لە ڕووی ئاوەزەوە، ئەقڵمەندانە
 """),
 // With short examples define "judiciously", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە شێوەیەکی وریایی و ژیرانە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This report shows we acted judiciously with taxpayer money.""",
+                      kurdishText:
+                          """ئەم ڕاپۆرتە ئەوە پیشان دەدا ژیرانە کارمان کرد بە پارەی باجدەران.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: jut (Derived forms: juts)
+1. Something that bulges out or is protuberant or projects from its surroundings (- bulge, bump, hump, swelling, gibbosity, gibbousness, prominence, protuberance, protrusion, extrusion, excrescence)
+ 
+2. The act of projecting out from something (- protrusion, projection, jutting)
 
-EnglishEntryjut jut
-WORD_WEB jut jut jut
-haʊʊʊʊʊʊʊ4
+- Verb: jut (Derived forms: juts, jutted, jutting)
+1. Extend out in space (- stick out, protrude, jut out, project)
+"His sharp nose jutted out";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "jut";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""A row of small windows jutted out from the roof.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """A large ship was docked at the pier that jutted out into the harbor.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/kt75MJHCFk4?t=264';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/NZLbTuBDhJg?t=178';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/-hAyE9BfseE?t=384';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/-OpUg0GDrII?t=95';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/CAmQ5ODJJfA?t=5284';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/iZx04fmxdfA?t=1686';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """jut""",
                       // alsoEnglishWord: "also: jut",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /dʒʌt/""",
+                      americanText: """IpaUS: /dʒʌt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +995,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەرپەڕیوی، ڕەت‌بوویی، قوتەوەبوویی، پێشوەچوویی، زگ‌دان، پێشوەهاتوویی، ورگ‌دان، دەرپۆقیوی
 """),
 // With short examples define "jut", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) زیاتر دەرچوون لە دەورووبەری ڕوویەک، شتێک، هتد"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: protrude، project"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A row of small windows jutted out from the roof.""",
+                      kurdishText:
+                          """ڕیزێک لە پەنجەرەی بچووک لە سەربانەکەوە دەرچووبوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1014,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A large ship was docked at the pier that jutted out into the harbor.""",
+                      kurdishText:
+                          """کەشتییەکی گەورە وەستێندرابوو لەو لەنگەرگایەی کە لە بەندەرەکە دەرچووبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

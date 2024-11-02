@@ -5,14 +5,15 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryjustifiable extends StatefulWidget {
-  const EnglishEntryjustifiable({super.key});
+class EnglishEntryjustifiably extends StatefulWidget {
+  const EnglishEntryjustifiably({super.key});
 
   @override
-  State<EnglishEntryjustifiable> createState() => _EnglishEntryjustifiableState();
+  State<EnglishEntryjustifiably> createState() =>
+      _EnglishEntryjustifiablyState();
 }
 
-class _EnglishEntryjustifiableState extends State<EnglishEntryjustifiable> {
+class _EnglishEntryjustifiablyState extends State<EnglishEntryjustifiably> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjustifiable justifiable
-WORD_WEB justifiable justifiable justifiable
-haʊʊʊʊʊʊʊ4
+- Adverb: justifiably
+1. With good reason
+"he is justifiably bitter"
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "justifiable";
+  final String keyword = "justifiably";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +79,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""justifiable""");
+    await flutterTts.speak("""justifiably""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The university can be justifiably proud of its record.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/_RfHNxiXffA?t=206';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/IEdMpK3fMPU?t=722';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/J2eU4Ol3IDU?t=154';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/z3P0kTcM8iw?t=297';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/SY86xyG-hDY?t=666';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/6BTJ7feX0aQ?t=1994';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -951,10 +949,12 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """justifiable""",
-                      // alsoEnglishWord: "also: justifiable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """justifiably""",
+                      // alsoEnglishWord: "also: justifiably",
+                      britshText:
+                          """IpaUK: /ˌdʒʌstɪˈfaɪəbli/, /ˈdʒʌstɪfaɪəbli/""",
+                      americanText:
+                          """IpaUS: /ˌdʒʌstɪˈfaɪəbli/, /ˈdʒʌstɪfaɪəbli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +992,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەپاساوهاتووانە، بە حەق، بەرحەقانە، بەجێ
 """),
-// With short examples define "justifiable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "justifiably", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بۆ هۆکارێکی باش، و بۆیە بە شێوەیەک کە پەسەندکراوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: legitimately"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The university can be justifiably proud of its record.""",
+                      kurdishText:
+                          """زانکۆکە دەکرێت لەپاساوهاتووانە شانازی بکات بە ڕابردووی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2150,4 +2154,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end justifiable
+// end justifiably

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjuxtapose juxtapose
-WORD_WEB juxtapose juxtapose juxtapose
-haʊʊʊʊʊʊʊ4
+- Verb: juxtapose
+1. Place side by side (Derived forms: juxtaposed, juxtaposes, juxtaposing)
+"The fauvists juxtaposed strong colours"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "juxtapose";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The exhibition juxtaposes Picasso's early drawings with some of his later works.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/EDAs7OMeQTo?t=351';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Z2btCqHejx4?t=148';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/3LN3__G2yGo?t=547';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Aruca1m4nYg?t=702';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/hsNpP5uuiaU?t=1487';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/lcWSrIiR1tY?t=650';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """juxtapose""",
                       // alsoEnglishWord: "also: juxtapose",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌdʒʌkstəˈpəʊz/""",
+                      americanText: """IpaUS: /ˌdʒʌkstəˈpəʊz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "juxtapose", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) دانانی خەڵکی یان شت لە تەنیشت یەکدی، بە تایبەتی بۆ پیشاندانی جیاوازی یان پەیوەندی تازە لە نێوانیان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The exhibition juxtaposes Picasso's early drawings with some of his later works.""",
+                      kurdishText:
+                          """پێشانگاکە وێنە سەرەتاییەکانی پیکاسۆ  بەراورد دەکات بە کارەکانی دواتری.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

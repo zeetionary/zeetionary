@@ -9,7 +9,8 @@ class EnglishEntryjuxtaposition extends StatefulWidget {
   const EnglishEntryjuxtaposition({super.key});
 
   @override
-  State<EnglishEntryjuxtaposition> createState() => _EnglishEntryjuxtapositionState();
+  State<EnglishEntryjuxtaposition> createState() =>
+      _EnglishEntryjuxtapositionState();
 }
 
 class _EnglishEntryjuxtapositionState extends State<EnglishEntryjuxtaposition> {
@@ -52,13 +53,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjuxtaposition juxtaposition
-WORD_WEB juxtaposition juxtaposition juxtaposition
-haʊʊʊʊʊʊʊ4
+- Noun: juxtaposition (Derived forms: juxtapositions)
+1. The act of positioning close together (or side by side) (- apposition, collocation)
+"it is the result of the juxtaposition of contrasting colours";
+ 
+2. A side-by-side position
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "juxtaposition";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The juxtaposition of these different ideas creates a rich musical world.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/DSQG0zvR6dk?t=140';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/oHSehKtDyoI?t=1106';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/3n99jqOdeSw?t=158';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/sY8aFSY2zv4?t=5954';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/3LN3__G2yGo?t=734';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/oU0uNGUxdyo?t=178';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """juxtaposition""",
                       // alsoEnglishWord: "also: juxtaposition",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌdʒʌkstəpəˈzɪʃn/""",
+                      americanText: """IpaUS: /ˌdʒʌkstəpəˈzɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +992,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خستنەپاڵ، (لە)پاڵیەک‌دانان، (لە)پەنای یەک‌دانان، (لە)نزیک یەک‌دانان، پێکەوەدانان، لای یەک‌دانان، ڕیزکردن پێکەوەنووساندن
 """),
 // With short examples define "juxtaposition", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی خەڵکی یان شت لە تەنیشت یەکدی دابنێیت، بە تایبەتی بۆ پیشاندانی جیاوازی یان پەیوەندی تازە لە نێوانیان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The juxtaposition of these different ideas creates a rich musical world.""",
+                      kurdishText:
+                          """دانانی ئەم بیرۆکە جیاوازانە جیهانێکی میوزیکی دەوڵەمەند درووست دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

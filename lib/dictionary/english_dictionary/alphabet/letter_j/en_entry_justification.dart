@@ -9,7 +9,8 @@ class EnglishEntryjustification extends StatefulWidget {
   const EnglishEntryjustification({super.key});
 
   @override
-  State<EnglishEntryjustification> createState() => _EnglishEntryjustificationState();
+  State<EnglishEntryjustification> createState() =>
+      _EnglishEntryjustificationState();
 }
 
 class _EnglishEntryjustificationState extends State<EnglishEntryjustification> {
@@ -52,13 +53,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjustification justification
-WORD_WEB justification justification justification
-haʊʊʊʊʊʊʊ4
+- Noun: justification (Derived forms: justifications)
+1. Something (such as a fact or circumstance) that shows an action to be reasonable or necessary
+"he considered misrule a justification for revolution"
+ 
+2. A statement in explanation of some action or belief
+ 
+3. The act of defending, explaining or making excuses for by reasoning
+"the justification of barbarous means by holy ends"
+ 
+4. (typography) the alignment of text with page margins:to the left margin (left justification), the right margin (right justification), or both margins (full justification)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "justification";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +93,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """I can see no possible justification for increasing taxes any further.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """I could find no real justification for the proposed reorganization.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""He was getting angry—and with some justification.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +935,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/S4qvPouh1gE?t=2628';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/FQ4hvLqNfqo?t=719';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/dtp6b76pMak?t=918';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/5nrCMPyooFc?t=120';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/kBdfcR-8hEY?t=2144';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/VNZ0so0LCoM?t=660';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """justification""",
                       // alsoEnglishWord: "also: justification",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌdʒʌstɪfɪˈkeɪʃn/""",
+                      americanText: """IpaUS: /ˌdʒʌstɪfɪˈkeɪʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +999,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پاساودان، بیانووهێنانەوە، خۆپەڕاندنەوە، سەلماندن، هۆهێناوە، هۆ، بیانوو، بەڵگە، ڕەوابوون، دروست‌بوون، ڕاست‌بوون، بەجێ‌بوون، بەرحەقی
 """),
 // With short examples define "justification", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) هۆکاری باش کە بۆچی شتێک بوونی هەیە یان دەکرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I can see no possible justification for increasing taxes any further.""",
+                      kurdishText:
+                          """هیچ بیانوویەک نابینم بۆ زیادکردنی باج زیاتر لەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1017,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I could find no real justification for the proposed reorganization.""",
+                      kurdishText:
+                          """هیچ هۆیەکم نەدەبینی بۆ دووبارە ڕێکخستنەوە پێشنیارکراوەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1028,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was getting angry—and with some justification.""",
+                      kurdishText:
+                          """خەریک بوو تووڕە دەبوو ـ و هۆی خۆی هەبوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

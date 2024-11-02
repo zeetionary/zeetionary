@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: juvenile
+1. Displaying or suggesting a lack of maturity (- adolescent, jejune, puerile)
+"their behaviour was juvenile";
+ 
+2. Of or relating to or characteristic of or appropriate for children or young people
+"juvenile diabetes"; "juvenile fashions"
 
-EnglishEntryjuvenile juvenile
-WORD_WEB juvenile juvenile juvenile
-haʊʊʊʊʊʊʊ4
+- Noun: juvenile (Derived forms: juveniles)
+1. A young person, not fully developed (- juvenile person)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "juvenile";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +91,38 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """What can be done to help these juvenile delinquents turn away from crime?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Juvenile crabs hide in sand to avoid predators.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Don't be so juvenile!""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""Most of the suspects were juveniles under the age of 17.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""The juveniles have lighter-coloured feathers.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/LwZIxGAG8xA?t=376';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/YLmDE_JYUNU?t=460';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/yRmOWcWdQAo?t=201';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ce28TIoa4ao?t=1161';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/bFEj-6tBZeA?t=2950';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/tExo3ovEBWQ?t=2222';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """juvenile""",
                       // alsoEnglishWord: "also: juvenile",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒuːvənaɪl/""",
+                      americanText: """IpaUS: /ˈdʒuːvənl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,50 +997,65 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مناڵ، تازەلاو (لە زۆربەی وڵاتان‌دا کەم‌تر لە 18 ساڵ)،	(لە گیانەوەران‌دا) بێچوو، بەچکە، جووچک، جووجەڵە،	کتێبی مناڵان
 """),
 // With short examples define "juvenile", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) پەیوەندیدار بە کەسانی تازەلاو کە هێشتە گەورە نین"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """What can be done to help these juvenile delinquents turn away from crime?""",
+                      kurdishText:
+                          """چی دەکرێت بکرێت تاوەکو ئەم تاوانکارە تازەلاوانە لە تاوان دووربن؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) پەیوەندیدار بە باڵندە و ئاژەڵی تازە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Juvenile crabs hide in sand to avoid predators.""",
+                      kurdishText:
+                          """قرژاڵی گەنج خۆیان لە خۆڵ دەشارنەوە بۆ دووربوون لە ڕاوکەران.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ھاوەڵناو) گەمژانە و زیاتر ئەوەی لە منداڵێک بوەشێتەوە نەک گەورە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: childish"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Don't be so juvenile!""",
+                      kurdishText: """هێندە منداڵ مەبە!""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ناو) کەسێکی گەنج کە هێشتا گەورە نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Most of the suspects were juveniles under the age of 17.""",
+                      kurdishText:
+                          """زۆرێک لە گومانلێکراوان تازەلاوان بوون لە خوار ١٧ ساڵ.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٥. (ناو) باڵندە یان ئاژەڵێکی گەنج"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The juveniles have lighter-coloured feathers.""",
+                      kurdishText:
+                          """باڵندە گەنجەکان پەڕی ڕەنگ کاڵتریان هەیە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

@@ -300,11 +300,11 @@ class EnglishEntrybond extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٢. (ناو) ڕێککەوتنێک لەلایەنی حکومەتێک یان بانکێکەوە کە سووت پێبدات بۆ ئەو پارەیەی بە قەرز پێیان دەدەیت"),
+                                  "٢. (ناو) ڕێککەوتنێک لەلایەن حکومەتێک یان بانکێکەوە کە سووت پێبدات بۆ ئەو پارەیەی بە قەرز پێیان دەدەیت"),
                           SentencesRow(
                             englishText: "The bonds were redeemed in 2002.",
                             kurdishText:
-                                "گرێبەستەکان لە ساڵی ٢٠٠٢ پاککرانەوە (قەرزەکان درانەوە).",
+                                "بۆندەکان لە ساڵی ٢٠٠٢ پاککرانەوە (قەرزەکان درانەوە).",
                             onPressedBritish: () => speakbonds5("en-GB"),
                             onPressedAmerican: () => speakbonds5("en-US"),
                           ),
@@ -320,7 +320,7 @@ class EnglishEntrybond extends StatelessWidget {
                           const DividerDefinition(),
                           const DefinitionKurdish(
                               text:
-                                  "٤. (ناو) بڕێک ڕێککەوتنێکی یاسایی کە بەپێی ئەوە بانکێک پارەت پێدەدات بۆ بەکارھێنان و بەدرێژایی چەندین ساڵ دەیدەیتەوە"),
+                                  "٤. (ناو) ڕێککەوتنێکی یاسایی کە بەپێی ئەوە بانکێک پارەت پێدەدات بۆ بەکارھێنان و بەدرێژایی چەندین ساڵ دەیدەیتەوە"),
                           SentencesRow(
                             englishText:
                                 "We had to take out a second bond on the property.",

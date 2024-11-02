@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjunkbond junk bond
-WORD_WEB junk bond junk bond junk bond
-haʊʊʊʊʊʊʊ4
+- Noun: junk bond (Derived forms: junk bonds)
+1. A (speculative) bond with a credit rating of BB or lower; issued for leveraged buyouts and other takeovers by companies with questionable credi (- high-yield bond)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "junk bond";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """If companies issuing junk bonds default on payments, bondholders have little legal recourse to get their investment back.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/hcGSaBok-p0?t=276';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/JpA2jiDTYVY?t=806';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/0tJrla31t8I?t=2698';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/SBpunCHR-nc?t=186';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/pQorwSbpD5k?t=1489';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/BfBVp0nakes?t=133';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """junk bond""",
                       // alsoEnglishWord: "also: junk bond",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈdʒʌŋk bɒnd/""",
+                      americanText: """IpaUS: /ˈdʒʌŋk bɑːnd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "junk bond", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) جۆرێک لە بۆند کە سووی زۆری لەگەڵە بەهۆی ئەوەی مەترسیدارە و زۆرجار ئەنجام دەدرێت بۆ بەدەستهێنانی پارە بەخێرایی بۆ کڕینی پشک لە کۆمپانیایەکی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """If companies issuing junk bonds default on payments, bondholders have little legal recourse to get their investment back.""",
+                      kurdishText:
+                          """ئەگەر کۆمپانیاکان بۆندی خێرا دەدەن نەتوانن پارە بدەنەوە، خاوەن بۆندەکان ڕێگای یاسایی کەمیان هەیە بۆ گەڕاندنەوەی وەبەرهێنانەکانیان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

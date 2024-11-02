@@ -9,7 +9,8 @@ class EnglishEntryjustifiable extends StatefulWidget {
   const EnglishEntryjustifiable({super.key});
 
   @override
-  State<EnglishEntryjustifiable> createState() => _EnglishEntryjustifiableState();
+  State<EnglishEntryjustifiable> createState() =>
+      _EnglishEntryjustifiableState();
 }
 
 class _EnglishEntryjustifiableState extends State<EnglishEntryjustifiable> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjustifiable justifiable
-WORD_WEB justifiable justifiable justifiable
-haʊʊʊʊʊʊʊ4
+- Adjective: justifiable
+1. Capable of being justified
+"Detective Fix showed very justifiable impatience"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "justifiable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +86,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She took a justifiable pride in her son's achievements.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The rule is justifiable on safety grounds.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""We consider this action justifiable.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/auPYOsBejK4?t=868';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/W_E9wivFlpE?t=198';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/kBdfcR-8hEY?t=2314';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/lgCUhPmPjUQ?t=372';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/E2rtQFAibEA';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/0oYdq6ri6eg?t=2';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,10 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """justifiable""",
                       // alsoEnglishWord: "also: justifiable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText:
+                          """IpaUK: /ˌdʒʌstɪˈfaɪəbl/, /ˈdʒʌstɪfaɪəbl/""",
+                      americanText:
+                          """IpaUS: /ˌdʒʌstɪˈfaɪəbl/, /ˈdʒʌstɪfaɪəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +992,18 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لەپاساوهاتوو، پاساودراو، ڕەوا، ڕاست، دروست، جێی‌پەسند، بەجێ، ژیرانە، بەرحەق
 """),
 // With short examples define "justifiable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە بوونی هەیە یان ئەنجام دراوە بۆ هۆکارێکی باش، و بۆیە پەسەندکراوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: legitimate"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She took a justifiable pride in her son's achievements.""",
+                      kurdishText:
+                          """شانازی درووستی بە بەدەستهێنانەکانی کوڕەکەی دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1011,9 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The rule is justifiable on safety grounds.""",
+                      kurdishText: """یاساکە ڕەوایە بە پاساوی سەلامەتی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1021,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """We consider this action justifiable.""",
+                      kurdishText: """ئەم کردارە بە ڕەوا دەبینین.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

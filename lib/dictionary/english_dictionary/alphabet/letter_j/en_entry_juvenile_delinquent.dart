@@ -9,10 +9,12 @@ class EnglishEntryjuveniledelinquent extends StatefulWidget {
   const EnglishEntryjuveniledelinquent({super.key});
 
   @override
-  State<EnglishEntryjuveniledelinquent> createState() => _EnglishEntryjuveniledelinquentState();
+  State<EnglishEntryjuveniledelinquent> createState() =>
+      _EnglishEntryjuveniledelinquentState();
 }
 
-class _EnglishEntryjuveniledelinquentState extends State<EnglishEntryjuveniledelinquent> {
+class _EnglishEntryjuveniledelinquentState
+    extends State<EnglishEntryjuveniledelinquent> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryjuveniledelinquent juvenile delinquent
-WORD_WEB juvenile delinquent juvenile delinquent juvenile delinquent
-haʊʊʊʊʊʊʊ4
+- Noun: juvenile delinquent (Derived forms: juvenile delinquents)
+1. A young offender (- delinquent)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "juvenile delinquent";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Schools work to help juvenile delinquents change their behavior.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/CcG7rQ9NVD0?t=326';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/0H5QZvOqlJM?t=171';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/ZoZT8-HqI64?t=282';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/JSg6eOmgvW8?t=1548';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/cOl3PsfSc_E?t=404';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/HQlB4jSy-3Q?t=1291';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """juvenile delinquent""",
                       // alsoEnglishWord: "also: juvenile delinquent",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌdʒuːvənaɪl dɪˈlɪŋkwənt/""",
+                      americanText: """IpaUS: /ˌdʒuːvənl dɪˈlɪŋkwənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +990,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: مناڵی تاوانکار، خراپکار یان گوناهکارێکی مناڵ، تازەلاوی گوناهکار
 """),
-// With short examples define "juvenile delinquent", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) منداڵێکی تازەلاو کە تاوانبارە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Schools work to help juvenile delinquents change their behavior.""",
+                      kurdishText:
+                          """قوتابخانەکان کاردەکەن بۆ یارمەتیدانی منداڵانی تاوانکار کە ڕەفتاریان بگۆڕن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

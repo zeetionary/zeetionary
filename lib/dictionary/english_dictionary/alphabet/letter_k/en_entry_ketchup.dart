@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryketchup ketchup
-WORD_WEB ketchup ketchup ketchup
-haʊʊʊʊʊʊʊ4
+- Noun: ketchup (Derived forms: ketchups)
+1. Thick seasoned sauce made with tomatoes and vinegar, used as a condiment (- catsup [N. Amer], cetchup [non-standard], tomato ketchup)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ketchup";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Do you want some ketchup with your sandwich?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/7EnWiGYT1g4?t=87';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/z4L2E6_Gmkk?t=478';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/3cxHwQl9pNM?t=85';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/HUXzbefQzWY?t=142';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/dJxP85txY9I?t=2531';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/v6rC2c3gr9U?t=105';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """ketchup""",
                       // alsoEnglishWord: "also: ketchup",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈketʃəp/""",
+                      americanText: """IpaUS: /ˈketʃəp/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +990,15 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "ketchup", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) سۆسێکی خەستی سارد کە لە تەماتە درووست دەکرێت"""),
+                    const AlsoEnglishckb(
+                        word: "ھەروەھا ئینگلیزیی ئەمریکی: catsup"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Do you want some ketchup with your sandwich?""",
+                      kurdishText: """هەندێک کەچەپت دەوێت لەگەڵ لەفەکەت؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

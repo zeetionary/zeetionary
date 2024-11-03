@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: kennel (Derived forms: kennels)
+1. Outbuilding that serves as a shelter for a dog (- doghouse, dog house)
 
-EnglishEntrykennel kennel
-WORD_WEB kennel kennel kennel
-haʊʊʊʊʊʊʊ4
+- Verb: kennel (Derived forms: kennelling, kennelled, kenneling, kenneled, kennels)
+1. Put up in a kennel
+"kennel a dog"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kennel";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She put her dog in the kennel for the night.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""We put the dog in kennels when we go away.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/TTM4y5-Onc4?t=102';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/8sQDCdiuX9U?t=196';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/1JlqrXqKKRs?t=107';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/_0FunV5l57s?t=388';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/BHnqRoEXu5o?t=261';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/aHzeP7V01do?t=85';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kennel""",
                       // alsoEnglishWord: "also: kennel",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkenl/""",
+                      americanText: """IpaUS: /ˈkenl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,21 +993,25 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "kennel", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) هێلانەی سەگ"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: doghouse"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She put her dog in the kennel for the night.""",
+                      kurdishText: """بۆ شەوەکە سەگەکەیی خستە کونەسەگەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شوێنێک کە خەڵکی سەگی تێدا جێدێڵن کە دەچن بۆ پشوو"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We put the dog in kennels when we go away.""",
+                      kurdishText:
+                          """سەگەکە دەخەینە دایەنگەی سەگ کە دەچین بۆ گەشت/شوێنی دیکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

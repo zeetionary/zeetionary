@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykangaroo kangaroo
-WORD_WEB kangaroo kangaroo kangaroo
-haʊʊʊʊʊʊʊ4
+- Noun: kangaroo (Derived forms: kangaroos)
+1. Any of several herbivorous leaping marsupials of Australia and New Guinea having large powerful hind legs and a long thick tail (- roo [Austral, informal])
+"the indigenous fauna of Australia includes the kangaroo";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kangaroo";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Kangaroos can jump immense distances.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Gbj6RTVdKK8';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/XVbcU5YYoIE?t=2';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/fsEIxVYHUWE?t=13';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/CmTovo7kyIM';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/mCtSiImXpRo?t=401';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/a_en4qR0NT4?t=372';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kangaroo""",
                       // alsoEnglishWord: "also: kangaroo",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌkæŋɡəˈruː/""",
+                      americanText: """IpaUS: /ˌkæŋɡəˈruː/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kangaroo", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئاژەڵێکی گەورەی ئوسترالییە کە کلک و قاچی پشتەوەی بەهێزە و بە بازدان دەجووڵێت. مێینەکە بەچکەکانی لە گیرفانێکی ناو پێستی لە پێشەوەی جەستەیدا هەڵدەگرێت."""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Kangaroos can jump immense distances.""",
+                      kurdishText: """کەنگەر دەکرێت بە مەودای زۆر باز بدەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

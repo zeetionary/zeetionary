@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykaraoke karaoke
-WORD_WEB karaoke karaoke karaoke
-haʊʊʊʊʊʊʊ4
+- Noun: karaoke (Derived forms: karaokes)
+1. Singing popular songs accompanied by a recording of an orchestra (usually in bars or nightclubs)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "karaoke";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Karaoke lets people feel like rock stars.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/544DTGHIBM0?t=834';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/m4riEU1_Bgo?t=319';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/esfChb49_Rk?t=309';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/gEabswbUNdw?t=287';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/r8PAYm5GUMg?t=160';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/An7sfxf1m5k?t=252';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """karaoke""",
                       // alsoEnglishWord: "also: karaoke",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌkæriˈəʊki/""",
+                      americanText: """IpaUS: /ˌkæriˈəʊki/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +989,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "karaoke", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئامێرێک کە تەنها میوزیکی گۆرانی بەناوبانگ لێدەدات و خەڵکی دەتوانن وشەکان بڵێنەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Karaoke lets people feel like rock stars.""",
+                      kurdishText:
+                          """کاریۆوکی وەها دەکات خەڵکی وەک ئەستێرەکانی ڕۆک هەست بکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

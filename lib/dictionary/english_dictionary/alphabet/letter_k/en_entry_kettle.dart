@@ -52,13 +52,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: kettle (Derived forms: kettles)
+1. A container for boiling water, with a lid, spout and handle
+"I'll put the kettle on to make some tea"
+ 
+2. A metal pot for stewing or boiling; usually has a lid (- boiler)
+ 
+3. The quantity a kettle will hold (- kettleful)
+ 
+4. (geology) a hollow (typically filled by a lake) that results from the melting of a mass of ice trapped in glacial deposits (- kettle hole)
+ 
+5. A large hemispherical brass or copper percussion instrument with a drumhead that can be tuned by adjusting the tension on it (- kettledrum, tympanum, tympani, timpani)
+ 
+6. A pit or hole produced by wear or weathering (especially in a road surface) (- pothole, chuckhole [US])
 
-EnglishEntrykettle kettle
-WORD_WEB kettle kettle kettle
-haʊʊʊʊʊʊʊ4
+- Verb: kettle (Derived forms: kettling, kettles, kettled)
+Usage: UK
+1. Use police to contain demonstrators in a small area
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kettle";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +99,22 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I'll put the kettle on and make some tea.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I'll just boil the kettle.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """She made herself a sandwich while she waited for the kettle to boil.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +939,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/xVQxvthAcLU?t=862';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/DWmGArQBtFI?t=423';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Mx8JkGHaGUI?t=2231';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/98UBT3Iw7i8?t=320';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ANbhxA4xJ3g?t=60';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/gjySnrspD7E?t=2244';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +964,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kettle""",
                       // alsoEnglishWord: "also: kettle",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈketl/""",
+                      americanText: """IpaUS: /ˈketl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +1006,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kettle", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کاسەیەک کە ئاوی تێدا دەکوڵێنیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I'll put the kettle on (= start boiling some water) and make some tea.""",
+                      kurdishText:
+                          """کترییەکە دەخەمە کار و هەندێک چا لێدەنێم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1020,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I'll just boil the kettle.""",
+                      kurdishText: """کترییەکە دێنمە کوڵان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1029,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She made herself a sandwich while she waited for the kettle to boil.""",
+                      kurdishText:
+                          """لەفەیەکی بۆ خۆی کرد کە دەوەستا کترییەکە بکوڵێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

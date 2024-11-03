@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykestrel kestrel
-WORD_WEB kestrel kestrel kestrel
-haʊʊʊʊʊʊʊ4
+- Noun: kestrel (Derived forms: kestrels)
+1. Small North American falcon (- sparrow hawk, American kestrel, Falco sparverius)
+ 
+2. Small Old World falcon that hovers in the air against a wind (- Falco tinnunculus)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kestrel";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/tdGPyv_CMbk?t=315';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/C3IxejS3EgM?t=466';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/31mjq2bdAxI?t=1337';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/zO-_Bk7Ul3U';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/RIP_XFpQy1s';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/_bU57QztRww';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kestrel""",
                       // alsoEnglishWord: "also: kestrel",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkestrəl/""",
+                      americanText: """IpaUS: /ˈkestrəl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,14 +993,16 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kestrel", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
-                    SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence1("en-GB"),
-                      onPressedAmerican: () => speaksentence1("en-US"),
-                    ),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) باڵندەیەکی ڕاوکەری بچووک لە خێزانی باز"""),
+//                     SentencesRow(
+//                       englishText: """// ssssssssssssssssssssssgggggggg55555
+// """,
+//                       kurdishText: """رستە_رستە_رستە__رستە.""",
+//                       onPressedBritish: () => speaksentence1("en-GB"),
+//                       onPressedAmerican: () => speaksentence1("en-US"),
+//                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

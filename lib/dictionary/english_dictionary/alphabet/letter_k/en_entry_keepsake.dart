@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrykeeping extends StatefulWidget {
-  const EnglishEntrykeeping({super.key});
+class EnglishEntrykeepsake extends StatefulWidget {
+  const EnglishEntrykeepsake({super.key});
 
   @override
-  State<EnglishEntrykeeping> createState() => _EnglishEntrykeepingState();
+  State<EnglishEntrykeepsake> createState() => _EnglishEntrykeepsakeState();
 }
 
-class _EnglishEntrykeepingState extends State<EnglishEntrykeeping> {
+class _EnglishEntrykeepsakeState extends State<EnglishEntrykeepsake> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykeeping keeping
-WORD_WEB keeping keeping keeping
-haʊʊʊʊʊʊʊ4
+- Noun: keepsake (Derived forms: keepsakes)
+1. Something of sentimental value (- souvenir, token, relic)
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "keeping";
+  final String keyword = "keepsake";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +77,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""keeping""");
+    await flutterTts.speak("""keepsake""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""My aunt gave me one of her brooches as a keepsake.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/7xuIDl4LE9A?t=82';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/FARXrLsBNJY?t=564';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/h_OeMVcol1g?t=1116';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/8aBdJQhwKz0?t=193';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/WDnCj1s3Qjo?t=51';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/wK7xcWFgHoA?t=57';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -951,10 +947,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """keeping""",
-                      // alsoEnglishWord: "also: keeping",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """keepsake""",
+                      // alsoEnglishWord: "also: keepsake",
+                      britshText: """IpaUK: /ˈkiːpseɪk/""",
+                      americanText: """IpaUS: /ˈkiːpseɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +990,16 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "keeping", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "keepsake", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شتێکی بچووک کە کەسێک پێت دەدات وەک یادگاری"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: memento"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """My aunt gave me one of her brooches as a keepsake.""",
+                      kurdishText:
+                          """پوورم یەکێک لە سەرسنگەکانیی پێمدا وەک یادگاری.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2150,4 +2150,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end keeping
+// end keepsake

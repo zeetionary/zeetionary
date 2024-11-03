@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: keel (Derived forms: keels)
+1. One of the main longitudinal beams (or plates) of the hull of a vessel; can extend vertically into the water to provide lateral stability
+ 
+2. A projection or ridge that suggests a keel
+ 
+3. The median ridge on the breastbone of birds that fly
 
-EnglishEntrykeel keel
-WORD_WEB keel keel keel
-haʊʊʊʊʊʊʊ4
+- Verb: keel (Derived forms: keeled, keeling, keels)
+1. Walk as if unable to control one's movements (- stagger, reel, lurch, swag, careen)
+"The drunken man keeled into the room";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "keel";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +92,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""They inspected the keel before launching the boat.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""A strong wave made the ship keel during the race.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/1oa6VziZH78?t=770';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/UrkPC81_QfU?t=331';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/cykdSb7xqI4?t=67';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/4Nr1AgIfajI?t=94';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/NZLbTuBDhJg?t=149';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/gGCZ96ayj_4?t=442';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """keel""",
                       // alsoEnglishWord: "also: keel",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /kiːl/""",
+                      americanText: """IpaUS: /kiːl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,21 +999,26 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "keel", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچە ئاسن یان تەختەیەکی درێژ بە ژێری کەشتییەکدا کە لەسەری چوارچێوەکەی درووست دەکرێت و هەندێکجار لە چوارچێوەکەوە دەردەچێت بۆ پاراستنی بە هێمنی بە ئاودا و ئەوەی بە لادا نەکەوێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They inspected the keel before launching the boat.""",
+                      kurdishText:
+                          """کاریتەی بنی کەشتییەکەیان پشکنی پێش ئەوەی بیخەنە ئاو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) کەوتن بە لادا"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: capsize"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A strong wave made the ship keel during the race.""",
+                      kurdishText:
+                          """شەپۆلێکی بەهێز وایکرد کەشتییەکە بکەوێت لە کاتی گەشتەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

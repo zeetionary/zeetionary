@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykernel kernel
-WORD_WEB kernel kernel kernel
-haʊʊʊʊʊʊʊ4
+- Noun: kernel (Derived forms: kernels)
+1. The inner and usually edible part of a seed, grain, nut or fruit stone (- meat)
+"black walnut kernels are difficult to get out of the shell";
+ 
+2. A single whole grain of a cereal
+"a kernel of corn"
+ 
+3. The choicest or most essential or most vital part of some idea or experience (- substance, core, center [US], centre [Brit, Cdn], essence, gist, heart, heart and soul, inwardness, marrow, meat, nub, pith, sum, nitty-gritty)
+"the kernel of the prosecutor's argument";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kernel";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She removed the kernel from the sunflower seed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""There may be a kernel of truth in what she said.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Ip0XlEmJafk?t=277';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/SwQhKFMxmDY?t=6888';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Fr-qagv7ig0?t=1206';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/JWIcb6coDbw?t=117';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/2VrsmahNcfI?t=362';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/fM9hYzJnao0?t=735';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kernel""",
                       // alsoEnglishWord: "also: kernel",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkɜːnl/""",
+                      americanText: """IpaUS: /ˈkɜːrnl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +996,27 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کاکڵ، کرۆک، ناوک، ناو، توو، تۆو، دەنک
 """),
-// With short examples define "kernel", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەشی ناوەوەی میوەیەکی کاکڵدار یان تۆوێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She removed the kernel from the sunflower seed.""",
+                      kurdishText: """کاکڵی تۆوی گوڵەبەڕۆژەکەی لێکردەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) بەشی سەرەکیی بابەت یان بیرۆکەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There may be a kernel of truth (= a small amount of truth) in what she said.""",
+                      kurdishText:
+                          """دەکرێت هەندێک ڕاستی هەبێت لەوەی کە گوتی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

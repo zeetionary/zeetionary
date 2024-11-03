@@ -9,7 +9,8 @@ class EnglishEntrykaleidoscope extends StatefulWidget {
   const EnglishEntrykaleidoscope({super.key});
 
   @override
-  State<EnglishEntrykaleidoscope> createState() => _EnglishEntrykaleidoscopeState();
+  State<EnglishEntrykaleidoscope> createState() =>
+      _EnglishEntrykaleidoscopeState();
 }
 
 class _EnglishEntrykaleidoscopeState extends State<EnglishEntrykaleidoscope> {
@@ -52,13 +53,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykaleidoscope kaleidoscope
-WORD_WEB kaleidoscope kaleidoscope kaleidoscope
-haʊʊʊʊʊʊʊ4
+- Noun: kaleidoscope (Derived forms: kaleidoscopes)
+1. A complex pattern of constantly changing colours and shapes
+ 
+2. An optical toy in a tube; it produces symmetrical patterns as bits of coloured glass are reflected by mirrors
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kaleidoscope";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She loved the colors in her new kaleidoscope.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The street bazaar was a kaleidoscope of colours, smells, and sounds.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Av5ADJVUD_c?t=380';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/ZJtXkh4P5GM?t=23';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/qVfJheBp7Ys?t=259';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/EYXvWIITuMQ?t=289';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/p2asguzWKVI?t=702';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/6Ps13XeDdcg?t=124';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kaleidoscope""",
                       // alsoEnglishWord: "also: kaleidoscope",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /kəˈlaɪdəskəʊp/""",
+                      americanText: """IpaUS: /kəˈlaɪdəskəʊp/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,21 +993,27 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "kaleidoscope", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) یارییەک کە پێکهاتووە لە بۆرییەک کە لە پارچەی شل لە شووشەی ڕەنگاوڕەنگ و شووشە لە کۆتاییەکەیدا و سەیری دەکەیت. کاتێک بۆرییەکە دەسوڕێندرێتەوە، پارچە شووشەکان دەجووڵێن و نەخشی جیاواز دروست دەکەن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She loved the colors in her new kaleidoscope.""",
+                      kurdishText:
+                          """حەزی بە ڕەنگەکانی کڵایدۆسکۆپە تازەکەی بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) دۆخێک، شێوەیەک، هتد کە لە زۆر بەشی جیاوازی پێکهاتووە و هەمیشە دەگۆڕێن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The street bazaar was a kaleidoscope of colours, smells, and sounds.""",
+                      kurdishText:
+                          """بازاڕە شەقامییەکە فرەڕەنگییەک لە ڕەنگ، بۆن، و دەنگ بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

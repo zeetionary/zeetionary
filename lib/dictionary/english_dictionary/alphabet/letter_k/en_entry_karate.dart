@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykarate karate
-WORD_WEB karate karate karate
-haʊʊʊʊʊʊʊ4
+- Noun: karate (Derived forms: karates)
+1. A traditional Japanese system of unarmed combat; sharp blows and kicks are given to pressure-sensitive points on the body of the opponent
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "karate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She has a brown belt in karate.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/CK78QUMcZL8?t=215';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/S-4rhjO6xYg?t=849';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/jtoq3S48Pgk?t=2825';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/l0g9BChDvHE';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/oLkOK6fpXVw';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/biMWkeus54A?t=33';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """karate""",
                       // alsoEnglishWord: "also: karate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /kəˈrɑːti/""",
+                      americanText: """IpaUS: /kəˈrɑːti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +990,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "karate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شێوازێکی شەڕکردنی ژاپۆنی کە تێیدا دەست و قاچت وەک چەک بەکاردێنیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She has a brown belt in karate.""",
+                      kurdishText: """پشتێی قاوەیی هەیە لە کاراتیدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

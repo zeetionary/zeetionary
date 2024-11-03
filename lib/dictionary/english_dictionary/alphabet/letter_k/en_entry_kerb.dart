@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykerb kerb
-WORD_WEB kerb kerb kerb
-haʊʊʊʊʊʊʊ4
+- Noun: kerb (Derived forms: kerbs)
+Usage: Brit (N. Amer: curb)
+1. An edge between a pavement and a roadway consisting of a line of curbstones (usually forming part of a gutter) (- curb [US], curbing [N. Amer])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kerb";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The bus mounted the kerb and hit a tree.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/tqUH_R3APas?t=289';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/eP73ZgtK6cc?t=275';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Sjg4nI4svyk?t=18';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/EW1_TIs_6Tw?t=154';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/A-f5r53sNmY?t=153';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/h-I6HFQXquU?t=322';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kerb""",
                       // alsoEnglishWord: "also: kerb",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /kɜːb/""",
+                      americanText: """IpaUS: /kɜːrb/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,15 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kerb", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) قەراغی ڕەسیفێک لەسەر شەقام"),
+                    const AlsoEnglishckb(
+                        word: "ھەروەھا ئینگلیزیی ئەمریکی: curb"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The bus mounted the kerb (= went onto the pavement) and hit a tree.""",
+                      kurdishText:
+                          """پاسەکە چووە سەر قەراغی ڕەسیفێک و کێشای بە درەختێکدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykebab kebab
-WORD_WEB kebab kebab kebab
-haʊʊʊʊʊʊʊ4
+- Noun: kebab (Derived forms: kebabs)
+1. Cubes of meat marinated and cooked on a skewer usually with vegetables (- kabob, shish kebab)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kebab";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He enjoyed his kebab with rice and salad.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/nE-GAMcqAPQ';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/tQrCl4cESfQ?t=29';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/1wZl9hXyfLo?t=85';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/WSafea3qEFo?t=4';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/LRSu_ajZ1NE?t=18';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/5Ur3b4PH8MA?t=66';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kebab""",
                       // alsoEnglishWord: "also: kebab",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /kɪˈbæb/""",
+                      americanText: """IpaUS: /kɪˈbɑːb/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +989,13 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "kebab", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچە گۆشتی بچووک کە لەسەر شیش یان پارچە دارێک ئامادە دەکرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He enjoyed his kebab with rice and salad.""",
+                      kurdishText: """کەبابەکەیی لەگەڵ برنج و زەڵاتە خوارد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

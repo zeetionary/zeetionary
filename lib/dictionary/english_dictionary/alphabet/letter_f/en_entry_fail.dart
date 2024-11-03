@@ -690,7 +690,7 @@ class KurdishMeaning extends StatelessWidget {
           const DividerSentences(),
           SentencesRow(
             englishText: """Sadly, his kidneys had failed.""",
-            kurdishText: """بەداخەوە، گورچیلەکانی وەستاون.""",
+            kurdishText: """بەداخەوە، گورچیلەکانی وەستابوون.""",
             onPressedBritish: () => speaksentence23("en-GB"),
             onPressedAmerican: () => speaksentence23("en-US"),
           ),

@@ -952,7 +952,7 @@ haʊʊʊʊʊʊʊ4
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """kilogram""",
-                      // alsoEnglishWord: "also: kilogram",
+                      alsoEnglishWord: "also: kg",
                       britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
                       americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),

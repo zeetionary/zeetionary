@@ -2696,7 +2696,6 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_i/en_en
 // en_entry_keyring.dart' show EnglishEntrykeyring //////// key ring
 // en_entry_keyword.dart' show EnglishEntrykeyword
 // en_entry_keyedup.dart' show EnglishEntrykeyedup //////// keyed up
-// en_entry_kg.dart' show EnglishEntrykg
 // en_entry_khaki.dart' show EnglishEntrykhaki
 // en_entry_kibbutz.dart' show EnglishEntrykibbutz
 // en_entry_kick.dart' show EnglishEntrykick

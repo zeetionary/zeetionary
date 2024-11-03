@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykickoff kick-off
-WORD_WEB kick-off kick-off kick-off
-haʊʊʊʊʊʊʊ4
+- Noun: kick-off (Derived forms: kick-offs)
+1. (football) a kick from the centre of the field to start a football game or to resume it after a score
+ 
+2. The time when something begins (- beginning, commencement, first, outset, get-go [N. Amer], start, starting time, showtime, offset)
+"she knew from the kickoff that he was the man for her";
+ 
+3. A start given to contestants (- send-off, start-off)
+"I was there with my parents at the kickoff";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kick-off";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The kick-off is at 3.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/i7mqjhOYL-8?t=310';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/KhBxCx11eck?t=686';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/pNCOA8AUxdw?t=12';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/9pRFTLDtgeQ?t=530';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/OJJcrjv15wo?t=37';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/XNbgOsppe5U?t=733';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kick-off""",
                       // alsoEnglishWord: "also: kick-off",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkɪk ɒf/""",
+                      americanText: """IpaUS: /ˈkɪk ɔːf/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +996,11 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kick-off", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) سەرەتای یاریی تۆپی‌پێ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The kick-off is at 3.""",
+                      kurdishText: """دەستپێکردن لە کاتژمێر ٣ ــیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: kipper (Derived forms: kippers)
+1. Salted and smoked herring (- kippered herring)
+ 
+2. A male salmon during the spawning season
 
-EnglishEntrykipper kipper
-WORD_WEB kipper kipper kipper
-haʊʊʊʊʊʊʊ4
+- Verb: kipper (Derived forms: kippered, kippering, kippers)
+1. Cure fish by salting and smoking
+"kippered salmon"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kipper";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He bought a kipper from the fish market.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Uly8iW-oowE?t=4416';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/4MNDB6uJIQg?t=1366';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/78lfgJ-NKII?t=269';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/6I8s88MgNwE?t=5524';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/zDdAPHuRGN0?t=140';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/jplu6t__Y78?t=683';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kipper""",
                       // alsoEnglishWord: "also: kipper",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkɪpə(r)/""",
+                      americanText: """IpaUS: /ˈkɪpər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +995,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "kipper", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) جۆرە ماسییەک کە لە خوێدا پارێزراوە و دواتر ئامادە کراوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He bought a kipper from the fish market.""",
+                      kurdishText:
+                          """ماسییەکی وشکەوەکراوی کڕی لە بازاڕی ماسییەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

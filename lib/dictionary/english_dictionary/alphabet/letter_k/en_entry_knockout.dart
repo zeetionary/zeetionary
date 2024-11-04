@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: knockout
+1. Very strong or vigorous (- hard, severe)
+"a knockout punch";
 
-EnglishEntryknockout knockout
-WORD_WEB knockout knockout knockout
-haʊʊʊʊʊʊʊ4
+- Noun: knockout (Derived forms: knockouts)
+1. A blow that renders the opponent unconscious (- KO, kayo [informal])
+ 
+2. [informal] An outstanding example of its kind (- beauty, beaut [informal], lulu [informal], killer [informal], blinder [Brit, informal], cracker [Brit, informal])
+"his roses were knockouts";
+ 
+3. [informal] A very attractive or seductive looking woman (- smasher [Brit, informal], stunner [informal], beauty, ravisher, sweetheart, peach [informal], lulu [informal], looker [informal], mantrap [informal], dish [Brit, informal], patootie [US, informal], babe [informal], honey [informal], hotty [informal], fox [informal], hottie [informal])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "knockout";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/WXNmSruTWIA?t=197';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/BnWGXDcW1B8?t=118';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/hRSGxw2AQnk?t=1071';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/MyoLGimYQHE?t=300';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/WlVT3bpkTqE?t=1197';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/BPGgyputhpA?t=1318';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """knockout""",
                       // alsoEnglishWord: "also: knockout",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈnɒkaʊt/""",
+                      americanText: """IpaUS: /ˈnɑːkaʊt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

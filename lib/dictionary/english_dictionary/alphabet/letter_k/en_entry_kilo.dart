@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: kilo (Derived forms: kilos)
+1. One thousand grams; the basic unit of mass adopted under the Système International d'Unités (- kilogram, kg, kilogramme [Brit, Cdn])
+"a kilo is approximately 2.2 pounds";
 
-EnglishEntrykilo kilo
-WORD_WEB kilo kilo kilo
-haʊʊʊʊʊʊʊ4
+- Combining form: kilo- 
+1. One thousand
+ 
+2. (computing) a factor of 2^10, 1024
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kilo";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """He was arrested at the airport with a kilo of heroin secreted in his clothing.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""A human can hear sounds up to about 20 kilohertz.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/E0WT1HtB-Sc?t=606';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/iib_imkZ5fk?t=164';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/oI_X2cMHNe0?t=1079';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Sq7RMukT_sY?t=94';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/HYzSQZdBWVQ?t=49';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/NpSkrZRlGbk?t=18';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kilo""",
                       // alsoEnglishWord: "also: kilo",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkiːləʊ/""",
+                      americanText: """IpaUS: /ˈkiːləʊ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +998,25 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kilo", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) یەکەی پێوانی کێش؛ ١٠٠٠ گرام"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was arrested at the airport with a kilo of heroin secreted in his clothing.""",
+                      kurdishText:
+                          """لە فڕۆکەخانەکە دەستگیرکرا بە کیلۆیەک هیرۆینەوە کە لە جلەکەی شاردرابوویەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (لێکدەر) هەزارجاری ئەو شتەی باسکراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A human can hear sounds up to about 20 kilohertz.""",
+                      kurdishText:
+                          """مرۆڤ دەنگ دەبیستێت تاوەکو ٢٠ کیلۆهێرتز.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

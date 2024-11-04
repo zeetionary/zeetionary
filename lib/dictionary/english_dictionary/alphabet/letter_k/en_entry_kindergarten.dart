@@ -9,7 +9,8 @@ class EnglishEntrykindergarten extends StatefulWidget {
   const EnglishEntrykindergarten({super.key});
 
   @override
-  State<EnglishEntrykindergarten> createState() => _EnglishEntrykindergartenState();
+  State<EnglishEntrykindergarten> createState() =>
+      _EnglishEntrykindergartenState();
 }
 
 class _EnglishEntrykindergartenState extends State<EnglishEntrykindergarten> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykindergarten kindergarten
-WORD_WEB kindergarten kindergarten kindergarten
-haʊʊʊʊʊʊʊ4
+- Noun: kindergarten (Derived forms: kindergartens)
+1. A preschool for children age 4 to 6 to prepare them for primary school (- kindie [Austral, NZ], kindy [Austral, NZ])
+"The child developed beautifully in her new kindergarten";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kindergarten";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """James is in kindergarten now, but he's moving up to infant school this autumn.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""She teaches reading to students in kindergarten.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/ofa6N7TYOoQ';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/gbiW8ACtOcQ';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/lieFOzjLHM8?t=9';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/gSRO2LTJirw';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/3RRleUll4gc?t=15';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/8Uh8h1iLSig';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kindergarten""",
                       // alsoEnglishWord: "also: kindergarten",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkɪndəɡɑːtn/""",
+                      americanText: """IpaUS: /ˈkɪndərɡɑːrtn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +994,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kindergarten", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) باخچەی ساوایان بۆ منداڵانی پێنج ساڵ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """James is in kindergarten now, but he's moving up to infant school this autumn.""",
+                      kurdishText:
+                          """جەیمس ئێستا لە باخچەی ساوایانە، بەڵام ئەم پاییزە دەچێتە قوتابخانەی منداڵان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1009,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She teaches reading to students in kindergarten.""",
+                      kurdishText:
+                          """خوێندنەوە فێری منداڵان دەکات لە باخچەی ساوایان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

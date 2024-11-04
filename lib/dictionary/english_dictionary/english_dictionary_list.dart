@@ -9583,6 +9583,7 @@ final List<String> allWordsEnglish = [
   "Jesus",
   "Jesus Christ",
   "kilogram",
+  "km",
   "lead astray",
   "life coach",
   "light bulb",

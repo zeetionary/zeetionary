@@ -7250,7 +7250,7 @@
 //   "/english-call": (_) => _blP(EnglishEntrycall()),
 //   "/english-caller": (_) => _blP(EnglishEntrycaller()),
 //   "/english-call-up": (_) => _blP(EnglishEntrycallup()),
-//   "/english-call-box": (_) => _blP(EnglishEntrycallbox()),
+//   "/english-callbox": (_) => _blP(EnglishEntrycallbox()),
 //   "/english-call-girl": (_) => _blP(EnglishEntrycallgirl()),
 //   "/english-calligraphy": (_) => _blP(EnglishEntrycalligraphy()),
 //   "/english-calling": (_) => _blP(EnglishEntrycalling()),

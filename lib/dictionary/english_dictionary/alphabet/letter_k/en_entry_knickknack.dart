@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryknickknack knick-knack
-WORD_WEB knick-knack knick-knack knick-knack
-haʊʊʊʊʊʊʊ4
+- Noun: knickknack (Derived forms: knickknacks)
+1. A small, inexpensive, mass-produced article (- novelty)
+ 
+2. Miscellaneous curios (- bric-a-brac, nicknack, knickknackery, whatnot)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "knick-knack";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """There were no photographs, no knick-knacks: just a simple table and chairs.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/v_pjQkiXOng?t=128';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/5wxs_WNwDJE?t=252';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/1lTYPvArbGo?t=114';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ynRZhbd-9o0';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/_m997oklpKM?t=751';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/PWIjHjGATA0?t=570';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """knick-knack""",
                       // alsoEnglishWord: "also: knick-knack",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈnɪk næk/""",
+                      americanText: """IpaUS: /ˈnɪk næk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +993,15 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "knick-knack", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچەیەکی ڕازاندنەوەی ماڵ کە بەهای کەمە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: ornament"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """There were no photographs, no knick-knacks: just a simple table and chairs.""",
+                      kurdishText:
+                          """هیچ وێنە و ڕازاندنەوە نووب: تەنها مێزێکی سادە و کورسی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

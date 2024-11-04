@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: knight (Derived forms: knights)
+1. Originally a person of noble birth trained to arms and chivalry; today in Great Britain a person honoured by the sovereign for personal merit
+ 
+2. (chess) a chessman shaped to resemble the head of a horse; can move two squares horizontally and one vertically (or vice versa) (- horse)
 
-EnglishEntryknight knight
-WORD_WEB knight knight knight
-haʊʊʊʊʊʊʊ4
+- Verb: knight (Derived forms: knighting, knighted, knights)
+1. Raise (someone) to knighthood (- dub)
+"The Beatles were knighted";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "knight";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +90,31 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The knights in black armour rode silently through the forest.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """He hopes to be made a knight for his work at the Bank of England.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Your king is in check from my knight.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""He was knighted by the King for his services to industry.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/zQZAIhP0H2A?t=261';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/E2xNlzsnPCQ?t=35';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/9TugA_z5vQE?t=1261';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/hIyqLdKBAlc?t=300';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/-Tg9xiJ6D6k?t=19';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/l6PlMpncVuc?t=68';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """knight""",
                       // alsoEnglishWord: "also: knight",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /naɪt/""",
+                      americanText: """IpaUS: /naɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,41 +996,54 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شیڤالیە، قارەمان، شۆڕەسوار، کەڵەسوار، چاکەسوار، شۆخەسوار، سوارچاک، سوارخاس
 """),
 // With short examples define "knight", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) لە سەردەمانی کۆندا پیاوێکی خاوەن پێگە بووە کە ئەرکی شەڕکردن بووە بۆ پاشاکەی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The knights in black armour rode silently through the forest.""",
+                      kurdishText:
+                          """سوارچاک لە زرێی ڕەشدا بە بێ‌دەنگی بە دارستانەکەدا دەچوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) پیاوێک کە لەلایەن پاشا یان شاژنی بەریتانیا پێگە یان ڕێزێکی تایبەتی پێدراوە بەهۆی بەدەستهێنانەکانی و دەکرێت پێی بگوترێت سێر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He hopes to be made a knight for his work at the Bank of England.""",
+                      kurdishText:
+                          """هیوای وایە نازناوی "سێر" ـی پێ بدرێت بەهۆی کارەکانی لە بانکی ئینگلاند.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) پارچەیەکی یاریی شەترەنج کە شێوەی وەک ئەسپە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Your king is in check from my knight.""",
+                      kurdishText: """پاشاکەت لە ژێر هەڕەشەی ئەسپەکەمە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (کردار) ئەوەی نازناوێکی تایبەت بدەیت بە کەسێک و چی دیکە بە سێر بانگ بکرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was knighted by the King for his services to industry.""",
+                      kurdishText:
+                          """لەلایەن پاشاوە نازناوی سێری پێدرا بۆ خزمەتەکانی بە پیشەسازییەکە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykilobyte kilobyte
-WORD_WEB kilobyte kilobyte kilobyte
-haʊʊʊʊʊʊʊ4
+- Noun: kilobyte (Derived forms: kilobytes)
+1. A unit of information equal to 1000 bytes (- K, KB, kB)
+ 
+2. A unit of information equal to 1024 bytes (- kibibyte, K, KB, kB, KiB)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kilobyte";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """A byte is a single unit of information, a kilobyte is 1000 bytes, and a megabyte is 1000 kilobytes.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""A standard e-mail consists of ten kilobytes of data.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/RRuovINxpPc?t=164';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/J-K2yeQylCk?t=160';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/BuaKzm7Kq9Q?t=83';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/HGOBQPFzWKo?t=9468';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/AvXXkB2jic0?t=577';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/w5ebcowAJD8?t=725';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kilobyte""",
                       // alsoEnglishWord: "also: kilobyte",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkɪləbaɪt/""",
+                      americanText: """IpaUS: /ˈkɪləbaɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +994,27 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kilobyte", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) یەکەیەکی پێوانی میمۆری یان داتای کۆمپیوتەر کە یەکسانە بە ١٠٠٠ بایت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A byte is a single unit of information, a kilobyte is 1000 bytes, and a megabyte is 1000 kilobytes.""",
+                      kurdishText:
+                          """یەک بایت یەک یەکەی زانیارییە، کیلۆبایتێک ١٠٠٠ بایتە، و یەک مێگابایت ١٠٠٠ کیلۆبایتە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) یەکەیەکی پێوانی میمۆری یان داتای کۆمپیوتەر کە یەکسانە بە ١٠٢٤ بایت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: kibibyte"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A standard e-mail consists of ten kilobytes of data.""",
+                      kurdishText:
+                          """ئیمەیڵێکی ئاسایی لە چەندین دە کیلۆبایت لە زانیاری پێکدێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

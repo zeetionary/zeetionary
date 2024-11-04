@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: kindred
+1. Similar in quality or character (- akin)
+"kindred souls";
+ 
+2. Related by blood or marriage
+"kindred clans"
 
-EnglishEntrykindred kindred
-WORD_WEB kindred kindred kindred
-haʊʊʊʊʊʊʊ4
+- Noun: kindred (Derived forms: kindreds)
+1. Group of people related by blood or marriage (- kin, kin group, kinship group, clan, tribe)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kindred";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +91,30 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She visited her kindred during the holidays.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Ties of kindred often bring support and understanding.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""I knew I’d found a kindred spirit.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak(
+        """They sell dried fruit and nuts and other kindred products.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/ph5FR-RFhbg?t=2531';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/aABFIzfg72A?t=1225';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/yWhU40m-6uU?t=608';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/tiGMX6-7VFE?t=599';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/xCr2mqR3VN4?t=555';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/ODjhSF53LiI?t=290';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kindred""",
                       // alsoEnglishWord: "also: kindred",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkɪndrəd/""",
+                      americanText: """IpaUS: /ˈkɪndrəd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +996,37 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خزمایەتی، کەس‌وکاری، قەوم‌وخێشی، نزیکایەتی، پێوەندی خێزانی یان بنەماڵەیی،	خزم‌وکەس، کەس‌وکار، قەوم‌وخێش، هاوڕەچەڵەک، خزم، هاوڕەگ، هاوسەرچاوە، هاوژێدەر، پێوەندیدار، پێکەوەبەستراو، پێوەبەند، نزیک، هاوشێوە، لێکچوو
 """),
-// With short examples define "kindred", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) خێزان و خزمەکانت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She visited her kindred during the holidays.""",
+                      kurdishText: """لە کاتی پشووەکان سەردانی خزمانیی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) ئەوەی خزمی کەسێک بیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Ties of kindred often bring support and understanding.""",
+                      kurdishText:
+                          """پەیوەندی خزمایەتی زۆرجار پشتگیری و تێگەشتن دێنێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) زۆر هاوشێوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I knew I’d found a kindred spirit (= a person with similar ideas, opinions, etc.).""",
+                      kurdishText: """دەمزانی کەسێکی هاوشێوەم دۆزیوەتەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,8 +1034,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They sell dried fruit and nuts and other kindred products.""",
+                      kurdishText:
+                          """میوەی وشک و کاکڵدار و بەرهەمی دیکەی هاوشێوە دەفرۆشن.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

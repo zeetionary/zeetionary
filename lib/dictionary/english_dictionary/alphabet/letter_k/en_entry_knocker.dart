@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryknocker knocker
-WORD_WEB knocker knocker knocker
-haʊʊʊʊʊʊʊ4
+- Noun: knocker (Derived forms: knockers)
+1. A device (usually metal and ornamental) attached by a hinge to a door (- doorknocker, rapper)
+ 
+2. A person who knocks (as seeking to gain admittance)
+"open the door and see who the knocker is"
+ 
+3. One who disparages or belittles the worth of something (- detractor, disparager, depreciator)
+ 
+4. [vulgar] Either of two soft fleshy milk-secreting glandular organs on the chest of a woman (- breast, bosom)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "knocker";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She heard the knocker and went to open the door.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He’s such a knocker, always finding faults in everything.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He got in trouble for making inappropriate comments about knockers.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/NRXUlPXBKu0?t=471';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/E7LuMCamy7k?t=1237';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/s0MmvxvOomU?t=43';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/UgPmWopkVF4?t=18';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/0r3Ga2wZz90?t=831';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/7oi3tkW7z-k?t=50';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """knocker""",
                       // alsoEnglishWord: "also: knocker",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈnɒkə(r)/""",
+                      americanText: """IpaUS: /ˈnɑːkər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +997,40 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: درگاژەنە، درگاکوت، گوهارۆک، چەکوشی درگا(ژەنە)، ڕەخنەگر، عەیب‌دۆزەرەوە، عەیب‌گر، بەئیراد
 """),
-// With short examples define "knocker", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پارچە ئاسنێک کە بەستراوە بە دەرەوەی دەرگایەکەوە بۆ لێدان لە دەرگاکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She heard the knocker and went to open the door.""",
+                      kurdishText:
+                          """گوێی لە دەنگی دەرگاکوتەکە بوو چوو بۆ کردنەوەی دەرگاکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کەسێک کە بەردەوام ڕەخنە دەگرێت لە ک/شت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He’s such a knocker, always finding faults in everything.""",
+                      kurdishText:
+                          """ڕەخنەگرێکی تەواوە، هەمیشە هەڵە لە هەموو شت دەدۆزێتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ناو) سنگی ژن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He got in trouble for making inappropriate comments about knockers.""",
+                      kurdishText:
+                          """کەوتە کێشەوە بۆ لێدوانی نابەجێ سەبارەت بە سنگی ژنان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

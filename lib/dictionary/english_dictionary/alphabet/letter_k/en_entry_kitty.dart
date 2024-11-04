@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykitty kitty
-WORD_WEB kitty kitty kitty
-haʊʊʊʊʊʊʊ4
+- Noun: kitty (Derived forms: kitties)
+1. An amount of money contributed by a group of people for communal use or shared expenses (- pot)
+ 
+2. The combined stakes of the betters (- pool)
+ 
+3. (poker) the cumulative amount involved in a game (such as poker) (- pot, jackpot)
+ 
+4. [informal] Young domestic cat (- kitten)
+ 
+5. [informal] A domesticated cat, commonly kept as a pet (- domestic cat, house cat, Felis domesticus, Felis catus, cat, kitty-cat [informal], puss [informal], pussy [informal], pussycat [informal], mog [Brit, informal], moggie [Brit, informal], moggy [Brit, informal])
+ 
+6. [vulgar] Obscene term for female genitals
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kitty";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +94,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""We each put £50 in the kitty to cover the cost of food.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Here kitty, kitty, kitty!""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +934,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/2fOWFfpLYW0?t=959';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/1KgSp94nCZw?t=121';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/syH0oN_B4g0?t=269';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ShztTxOS8YE?t=45';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/OgFcz6klaeg?t=362';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/gjySnrspD7E?t=149';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kitty""",
                       // alsoEnglishWord: "also: kitty",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkɪti/""",
+                      americanText: """IpaUS: /ˈkɪti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +1001,24 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kitty", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کە ژمارەیەک کەس پارە کۆدەکەنەوە دەیدەن بە شتێک کە دەیانەوێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We each put £50 in the kitty to cover the cost of food.""",
+                      kurdishText:
+                          """هەر یەکمان ٥٠ پاوەندمان دا بۆ دانی پارەی خواردن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) پشیلە یان بەچکە پشیلە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Here kitty, kitty, kitty!""",
+                      kurdishText: """ئێرە، پشی، پشی، پشی!""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

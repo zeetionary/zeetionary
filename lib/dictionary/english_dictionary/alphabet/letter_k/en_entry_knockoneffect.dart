@@ -9,7 +9,8 @@ class EnglishEntryknockoneffect extends StatefulWidget {
   const EnglishEntryknockoneffect({super.key});
 
   @override
-  State<EnglishEntryknockoneffect> createState() => _EnglishEntryknockoneffectState();
+  State<EnglishEntryknockoneffect> createState() =>
+      _EnglishEntryknockoneffectState();
 }
 
 class _EnglishEntryknockoneffectState extends State<EnglishEntryknockoneffect> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryknockoneffect knock-on effect
-WORD_WEB knock-on effect knock-on effect knock-on effect
-haʊʊʊʊʊʊʊ4
+- Noun: knock-on effect (Derived forms: knock-on effects)
+Usage: Brit
+1. A secondary or incidental effect
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "knock-on effect";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """If one or two trains run late, it has a knock-on effect on the entire rail service.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/V1o_jEplpmw?t=410';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/PkJlTKUaF3Q?t=584';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/j4kI2h3iotA?t=3871';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/K2yj64tAxj4?t=106';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/nWY_s14z57w?t=219';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/K-9iQqrHgj8?t=235';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """knock-on effect""",
                       // alsoEnglishWord: "also: knock-on effect",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈnɒk.ɒn ɪˌfekt/""",
+                      americanText: """IpaUS: /ˈnɑːk.ɑːn ɪˌfekt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +993,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "knock-on effect", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی کە ڕووداوێک ببێتە هۆکاری دۆخ و ڕووداوی دیکە، بەڵام بە ڕاستەوخۆ نا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """If one or two trains run late, it has a knock-on effect on the entire rail service.""",
+                      kurdishText:
+                          """ئەگەر یەک دوو شەمەندەفەر دوابکەون، ئەوە کاریگەری دەبێت لەسەر تەواوی خزمەتگوزاریی شەمەندەفەر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

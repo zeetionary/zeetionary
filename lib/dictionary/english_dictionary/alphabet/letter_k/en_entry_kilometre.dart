@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykilometre kilometre
-WORD_WEB kilometre kilometre kilometre
-haʊʊʊʊʊʊʊ4
+- Noun: kilometre (Derived forms: kilometres)
+Usage: Brit, Cdn (US: kilometer)
+1. A metric unit of length equal to 1000 meters (or 0.621371 miles) (- kilometer [US], km, klick [informal])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kilometre";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She had been driving at 110 kilometres per hour.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Monaco is only two square kilometres in size.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/ZoAG01HqaMQ?t=419';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/VNwkZ8kY7Uk?t=604';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/S3ksC_8jGuc?t=623';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/TBE1pFBoiTY?t=319';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/FVVT8EBqK3g?t=160';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/ViBaYl9GCcE?t=440';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -952,9 +949,9 @@ haʊʊʊʊʊʊʊ4
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """kilometre""",
-                      // alsoEnglishWord: "also: kilometre",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      alsoEnglishWord: "also: km",
+                      britshText: """IpaUK: /kɪˈlɒmɪtə(r)/,  /ˈkɪləmiːtə(r)/""",
+                      americanText: """IpaUS: /kɪˈlɑːmɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +992,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kilometre", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) یەکەی پێوانی دووری؛ ١٠٠٠ مەتر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She had been driving at 110 kilometres per hour.""",
+                      kurdishText:
+                          """بە ١١٠ کیلۆمەتر لە کاتژمێرێک لێی دەخووڕی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1006,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Monaco is only two square kilometres in size.""",
+                      kurdishText:
+                          """مۆناکۆ تەنها دوو کیلۆمەتر چوارگۆشەیە لە ڕووبەردا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

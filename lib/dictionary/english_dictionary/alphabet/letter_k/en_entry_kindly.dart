@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: kindly (Derived forms: kindlier, kindliest)
+1. Showing or motivated by sympathy, understanding, and generosity (- charitable, benevolent, sympathetic, good-hearted, openhearted, large-hearted)
+"kindly criticism"; "a kindly act";
+ 
+2. Pleasant and agreeable
+"a kindly climate"; "kindly breeze"
 
-EnglishEntrykindly kindly
-WORD_WEB kindly kindly kindly
-haʊʊʊʊʊʊʊ4
+- Adverb: kindly
+1. In a kind manner or out of kindness
+"He spoke kindly to the boy"; "she kindly overlooked the mistake"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kindly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +92,36 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She spoke kindly to them.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He has kindly agreed to help.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Kindly leave me alone!""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The doctor was a quiet, kindly man.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts
+        .speak("""The teachers were generally gentle and kindly.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Cln0J87vulU?t=886';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/KJy7T24rhg0?t=468';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/6N5l0sgPP5k?t=127';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Wao0_uB4Zw4?t=7';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/nedusgCUZC4?t=2';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/43uTBB574g4?t=67';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kindly""",
                       // alsoEnglishWord: "also: kindly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkaɪndli/""",
+                      americanText: """IpaUS: /ˈkaɪndli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +996,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دڵسۆز، دڵنەرم، بەڕوحم، بێ‌کینە، دڵۆڤان، بەبەزەیی، دڵسۆزانە، بەبەزەیی‌یانە
 """),
 // With short examples define "kindly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە شێوەیەکی میهرەبانانە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She spoke kindly to them.""",
+                      kurdishText: """بە میهرەبانییەوە قسەی لەگەڵ کردن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,26 +1011,31 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He has kindly agreed to help.""",
+                      kurdishText:
+                          """بە میهرەبانییەوە ڕازی بووە یارمەتیمان بدات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵکار) بەکاردێت بۆ بە ڕێزەوە گوتن بە کەسێک کە شتێک بکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Kindly leave me alone!""",
+                      kurdishText: """تکایە تەنها جێم بهێڵە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) میهرەبان و دڵسۆز"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The doctor was a quiet, kindly man.""",
+                      kurdishText:
+                          """پزیشکەکە پیاوێکی بێ‌دەنگ و میهرەبان بوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1034,8 +1043,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The teachers were generally gentle and kindly.""",
+                      kurdishText:
+                          """مامۆستاکان بە شێوەیەکی گشتی لەسەرەخۆ و میهرەبان بوون.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

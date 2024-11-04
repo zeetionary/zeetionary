@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrykneel extends StatefulWidget {
-  const EnglishEntrykneel({super.key});
+class EnglishEntryknickers extends StatefulWidget {
+  const EnglishEntryknickers({super.key});
 
   @override
-  State<EnglishEntrykneel> createState() => _EnglishEntrykneelState();
+  State<EnglishEntryknickers> createState() => _EnglishEntryknickersState();
 }
 
-class _EnglishEntrykneelState extends State<EnglishEntrykneel> {
+class _EnglishEntryknickersState extends State<EnglishEntryknickers> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykneel kneel
-WORD_WEB kneel kneel kneel
-haʊʊʊʊʊʊʊ4
+- Noun: knickers
+1. [N. Amer] (used in the plural) trousers ending at or just below the knee (- breeches, knee breeches, knee pants [N. Amer], knickerbockers, breeks [UK, dialect], britches [informal])
+ 
+2. [Brit] (used in the plural) underpants worn by women (- bloomers, pants, drawers)
+"she was afraid that her knickers might have been showing";
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "kneel";
+  final String keyword = "knickers";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +80,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""kneel""");
+    await flutterTts.speak("""knickers""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The drawer was full of black cotton knickers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/NW8wyo99OX4?t=154';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/wkSuMiPFnCU?t=393';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/_vwSrfw85S4?t=453';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/co8aAoScnUA?t=349';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/A9npYB4Kv78?t=173';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/K4lXl94iFbg?t=303';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -951,10 +949,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """kneel""",
-                      // alsoEnglishWord: "also: kneel",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """knickers""",
+                      // alsoEnglishWord: "also: knickers",
+                      britshText: """IpaUK: /ˈnɪkəz/""",
+                      americanText: """IpaUS: /ˈnɪkərz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +992,17 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "kneel", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "knickers", please follow LX instructions
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) جلێکی ژێرەوەی ژنان کە لە ناوەڕاستی جەستە تاوەکو بەشی سەرەوەی لاق (ڕان) دادەپۆشێت"""),
+                    const AlsoEnglishckb(
+                        word: "ھەروەھا ئینگلیزیی ئەمریکی: panties"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The drawer was full of black cotton knickers.""",
+                      kurdishText:
+                          """چەکمەجەکە پڕ لە دەرپێی ژێرەوەی ڕەشی لۆکە بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2150,4 +2153,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end kneel
+// end knickers

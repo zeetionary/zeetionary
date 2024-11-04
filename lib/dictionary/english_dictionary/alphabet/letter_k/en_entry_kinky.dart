@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykinky kinky
-WORD_WEB kinky kinky kinky
-haʊʊʊʊʊʊʊ4
+- Adjective: kinky (Derived forms: kinkiest, kinkier)
+1. [informal] (used of sexual behaviour) showing or appealing to bizarre or deviant tastes (- perverted)
+"kinky sex";
+ 
+2. (of hair) in small tight curls (- crisp, frizzly, frizzy, nappy)
+ 
+3. [informal] Strikingly unconventional (- far-out [informal], offbeat [informal], quirky [informal], way-out [informal])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kinky";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Do we really need to know he enjoys kinky sex?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""My hair is naturally kinky.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/rPdln-PUZuE?t=173';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/cbuF74bJa9A?t=463';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/_spuxXnul0U?t=1030';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/vSKtkez2k-Q?t=1023';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/7xRit3yRim0?t=657';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/hGLY5MAAFO4?t=1277';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kinky""",
                       // alsoEnglishWord: "also: kinky",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkɪŋki/""",
+                      americanText: """IpaUS: /ˈkɪŋki/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +993,27 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: (قژ) لوول، فڕ، ئاڵۆسکاو، لێک‌ئاڵاو، لێک‌گیراو، پێچ‌کەوتوو،	نائاسایی، سەیر
 """),
 // With short examples define "kinky", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) بۆ باسکردنی ڕەفتاری سێکسی کە زۆر کەس بە نائاسایی دەبینن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Do we really need to know he enjoys kinky sex?""",
+                      kurdishText:
+                          """بەڕاستی دەبێت بزانین کە حەزی بە سێکسی نائاسایی هەیە؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) قژێک کە لوولە لە کەلەسەرەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """My hair is naturally kinky.""",
+                      kurdishText: """قژم بە سرووشتی لوولە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

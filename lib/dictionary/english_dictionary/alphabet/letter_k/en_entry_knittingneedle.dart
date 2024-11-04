@@ -9,10 +9,12 @@ class EnglishEntryknittingneedle extends StatefulWidget {
   const EnglishEntryknittingneedle({super.key});
 
   @override
-  State<EnglishEntryknittingneedle> createState() => _EnglishEntryknittingneedleState();
+  State<EnglishEntryknittingneedle> createState() =>
+      _EnglishEntryknittingneedleState();
 }
 
-class _EnglishEntryknittingneedleState extends State<EnglishEntryknittingneedle> {
+class _EnglishEntryknittingneedleState
+    extends State<EnglishEntryknittingneedle> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryknittingneedle knitting needle
-WORD_WEB knitting needle knitting needle knitting needle
-haʊʊʊʊʊʊʊ4
+- Noun: knitting needle (Derived forms: knitting needles)
+1. Needle consisting of a slender rod with pointed ends; usually used in pairs
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "knitting needle";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""He bought a set of knitting needles for his mother.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/5uwWlamONqs?t=741';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/S4eYGwOmXaA?t=396';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/wmrFecxP0Mc?t=290';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/fZbur_DUK0U?t=1030';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/h1OLTqBf0_E?t=30';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/NMejOHmb0bs?t=1461';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """knitting needle""",
                       // alsoEnglishWord: "also: knitting needle",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈnɪtɪŋ niːdl/""",
+                      americanText: """IpaUS: /ˈnɪtɪŋ niːdl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +992,13 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "knitting needle", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) دەرزییەکی باریکی درێژ کە بۆ چنین بەکاردێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He bought a set of knitting needles for his mother.""",
+                      kurdishText: """دەستەیەک دەرزیی چنینی کڕی بۆ دایکی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

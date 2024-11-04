@@ -9,7 +9,8 @@ class EnglishEntrykindhearted extends StatefulWidget {
   const EnglishEntrykindhearted({super.key});
 
   @override
-  State<EnglishEntrykindhearted> createState() => _EnglishEntrykindheartedState();
+  State<EnglishEntrykindhearted> createState() =>
+      _EnglishEntrykindheartedState();
 }
 
 class _EnglishEntrykindheartedState extends State<EnglishEntrykindhearted> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykindhearted kind-hearted
-WORD_WEB kind-hearted kind-hearted kind-hearted
-haʊʊʊʊʊʊʊ4
+- Adjective: kind-hearted
+1. Having or proceeding from an innately kind disposition (- kindhearted)
+"a generous and kindhearted teacher";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kind-hearted";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The kind-hearted man helped the lost child find his parents.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/hoihoGGdQ4U?t=30';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/EmT0i0xG6zg?t=1108';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/m3MgAOe2zSs?t=37';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/3hlJNXBu7R4?t=659';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/NzJdS6YC9es?t=631';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/YAKcbvioxFk?t=352';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kind-hearted""",
                       // alsoEnglishWord: "also: kind-hearted",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌkaɪnd ˈhɑːtɪd/""",
+                      americanText: """IpaUS: /ˌkaɪnd ˈhɑːrtɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +992,12 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "kind-hearted", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) میهرەبان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The kind-hearted man helped the lost child find his parents.""",
+                      kurdishText:
+                          """پیاوە میهرەبانەکە یارمەتیی منداڵە ونبووەکەی دا دایبابی بدۆزێتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

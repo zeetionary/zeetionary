@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykilowatt kilowatt
-WORD_WEB kilowatt kilowatt kilowatt
-haʊʊʊʊʊʊʊ4
+- Noun: kilowatt (Derived forms: kilowatts)
+1. A unit of power equal to 1000 watts (- kW)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kilowatt";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""This is based on an average cost of £800 per kilowatt.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/XxOh12Uhg08?t=688';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/m7atGkba-Z8?t=162';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Oij-BdIkPgQ?t=502';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/_rBO8neWw04?t=1501';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/_-mBeYC2KGc?t=504';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/fM9hYzJnao0?t=316';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kilowatt""",
                       // alsoEnglishWord: "also: kilowatt",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkɪləwɒt/""",
+                      americanText: """IpaUS: /ˈkɪləwɑːt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kilowatt", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) یەکەی پێوانی هێزی کارەبا؛ ١٠٠٠ وات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This is based on an average cost of £800 per kilowatt.""",
+                      kurdishText:
+                          """ئەمە پشت دەبەستێت بە تێچووی تێکڕای ٨٠٠ پاوەند بۆ هەر کیلۆواتێک.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

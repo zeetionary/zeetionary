@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryknackered knackered
-WORD_WEB knackered knackered knackered
-haʊʊʊʊʊʊʊ4
+- Adjective: knackered
+Usage: Brit, informal
+1. Extremely exhausted (- drained, zonked [informal], zonked out [informal], stonkered [Brit, Austral, NZ, informal], deadbeat [Brit, informal], shagged out [Brit, informal], shagged [Brit, informal], shattered [Brit, informal], exhausted, dog-tired [informal], fagged [Brit, informal], fatigued, played out, spent, washed-out, worn-out, worn out, gone, shot [informal], fried [N. Amer, informal], pooped [N. Amer, informal])
+ 
+2. Not in working order; not functioning (- broken, busted, bust [Brit, informal], up the spout [informal], out of order, on the blink [informal], on the fritz [N. Amer, informal], kaput [informal], rooted [Austral, NZ, informal])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "knackered";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I was knackered after the game.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The car’s knackered.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/8n9taHHo8ek?t=686';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/1XLEC52dwnE?t=66';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Um3l2BECKrc?t=757';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/0RjjxXIVm1I?t=517';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/yoa0eIuWcsg?t=975';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/5cwFZkXk2Ig?t=377';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """knackered""",
                       // alsoEnglishWord: "also: knackered",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈnækəd/""",
+                      americanText: """IpaUS: /ˈnækərd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +990,25 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ماندوو، لەپێ‌کەوتوو،	یەکجار کۆن (بەدەر لە بەکارهێنان)، شڕ، کەلاک
 """),
 // With short examples define "knackered", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) تەواو ماندوو"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: exhausted، worn out"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I was knackered after the game.""",
+                      kurdishText: """دوای یارییەکە شەکەت بووم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) زۆر کۆن یان شكاو"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The car’s knackered.""",
+                      kurdishText: """ئۆتۆمبێلەکە شکاوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -52,13 +52,33 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: kite (Derived forms: kites)
+1. Plaything consisting of a light frame covered with tissue paper; flown in wind at end of a string
+ 
+2. [N. Amer] A bank check that has been fraudulently altered to increase its face value
+ 
+3. [N. Amer] A bank check drawn on insufficient funds at another bank in order to take advantage of the float
+ 
+4. Any of several small graceful hawks of the family Accipitridae having long pointed wings and feeding on insects and small animals
+ 
+5. A large and usually triangular headsail; carried by a yacht as a headsail when running before the wind (- spinnaker)
+ 
+6. (geometry) a quadrilateral having two pairs of adjacent edges of equal length; the shape of a simple kite
 
-EnglishEntrykite kite
-WORD_WEB kite kite kite
-haʊʊʊʊʊʊʊ4
+- Verb: kite (Derived forms: kited, kites, kiting)
+1. [N. Amer] Increase the amount (of a check) fraudulently
+"He kited many checks"
+ 
+2. [N. Amer] Get credit or money by using a bad check
+"The businessman kited millions of dollars"
+ 
+3. (air travel) soar or fly like a kite
+"The pilot kited for a long time over the mountains"
+ 
+4. Fly a kite
+"Kids were kiting in the park"; "They kited the Red Dragon model"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kite";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +107,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""On windy days the kids fly their kites in the park.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +947,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/gngPQ771Ahk?t=712';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/4I-p8vjQ95s?t=501';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/AAGIi62-sAU?t=705';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/AevZSvQ-r9c?t=11';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/M1C5ni-w0dE?t=75';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/mc3AUuuj9_I?t=5';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +972,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kite""",
                       // alsoEnglishWord: "also: kite",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /kaɪt/""",
+                      americanText: """IpaUS: /kaɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1011,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بادەوە، کۆلارە، بەرزەحەوایلە، بادەوان، فڕۆنەک
 """),
 // With short examples define "kite", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) یارییەکی منداڵان کە پێکهاتووە لە چوارچێوەیەکی سووک و کاغەز، قوماش، هتد ــی پێوە کراوە و دەفڕێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """On windy days the kids fly their kites in the park.""",
+                      kurdishText:
+                          """لە ڕؤژانی بادا منداڵان کۆلارەکانیان لە پارکەکە دەفڕێنن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: killing (Derived forms: killings)
+1. An event that causes someone to die (- violent death)
+ 
+2. The act of terminating a life (- kill, putting to death)
+ 
+3. [informal] A very large profit (- cleanup)
 
-EnglishEntrykilling killing
-WORD_WEB killing killing killing
-haʊʊʊʊʊʊʊ4
+- Adjective: killing
+1. [informal] Very funny (- sidesplitting)
+"a killing joke";
+ 
+2. Bringing death (- fatal)
+ 
+3. [informal] Characterized by effort to the point of exhaustion; especially physical effort (- arduous, backbreaking, grueling [US], gruelling [Brit, Cdn], hard, heavy, laborious, operose, punishing, toilsome)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "killing";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +96,32 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """Their leader condemned the torture and killing of innocent civilians.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The mass killing occurred when soldiers opened fire on protesters.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He is responsible for the brutal killing of thousands of animals.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""We had to do some killing stomach exercises last night.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +939,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/DO9U_XxN-Kc?t=721';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Cqbleas1mmo?t=910';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/ewLpXw6uN28?t=24';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/S1VuZ2FdQhM?t=62';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Js2UoMSumx4?t=527';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/yRmOWcWdQAo?t=127';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +964,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """killing""",
                       // alsoEnglishWord: "also: killing",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkɪlɪŋ/""",
+                      americanText: """IpaUS: /ˈkɪlɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1003,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کوشندە، کوژندە، مرۆک، دەکوژێ،	شەکەت‌کەر، ناخۆش، ماندووکەر،	پێکەنینی، گاڵتەجاڕ، وڵک‌بڕ، کوشتن، کوشت، قەتڵ
 """),
 // With short examples define "killing", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کوشتنی کەسێک بە ئەنقەست"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: murder"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Their leader condemned the torture and killing of innocent civilians.""",
+                      kurdishText:
+                          """سەرکردەکەیان سەرکۆنەی سزادان و کوشتنی خەڵکی مەدەنی بێ‌تاوانی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1021,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The mass killing (= killing of a large number of people) occurred when soldiers opened fire on protesters.""",
+                      kurdishText:
+                          """کوشتنە بە کۆمەڵەکە ڕوویدا کە سەربازان تەقەیان لە خۆپیشاندەران کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,17 +1032,22 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He is responsible for the brutal killing of thousands of animals.""",
+                      kurdishText:
+                          """بەرپرسە بۆ کوشتنی دڕندانەی هەزاران ئاژەڵ.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) کە زۆر ماندووت دەکات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: exhausting"),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We had to do some killing stomach exercises last night.""",
+                      kurdishText:
+                          """دەبوو دوێنێ شەو چەند ڕاهێنانێکی ماندووکەری گەددە بکەین.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

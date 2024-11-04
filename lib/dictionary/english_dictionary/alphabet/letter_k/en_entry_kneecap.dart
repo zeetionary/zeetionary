@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: kneecap (Derived forms: kneecaps)
+1. A small flat triangular bone in front of the knee that protects the knee joint (- patella, kneepan)
 
-EnglishEntrykneecap kneecap
-WORD_WEB kneecap kneecap kneecap
-haʊʊʊʊʊʊʊ4
+- Verb: kneecap (Derived forms: kneecapping, kneecaps, kneecapped)
+1. Shoot in the kneecap, often done by terrorist groups as a warning
+"They kneecapped the industrialist"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kneecap";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The doctor checked her kneecap for any swelling.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/UEEsdXn8oG8?t=177';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/apDoJkfR85A?t=1307';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/P1eBEBK5dwQ?t=862';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/b1H3xO3x_Js?t=513';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/8W-2yT22l-k?t=134';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/mf6GhC6QVEU?t=543';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kneecap""",
                       // alsoEnglishWord: "also: kneecap",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈniːkæp/""",
+                      americanText: """IpaUS: /ˈniːkæp/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +992,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەشکە ئەژنۆ، کڵاوەی ئەژنۆ، کاسەئەژنۆ، کاسەی ئەژنۆ، کۆتک، قیتک، ڕەقەڵە، کاسەزرانی، کوننەزرانی،	چۆک‌بەست، ئەژنۆبەست، چۆک‌بێن، چۆک‌پۆش، چۆکەوانە
 """),
-// With short examples define "kneecap", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو ئێسکە بچووکەی کە سەر ئەژنۆ دادەپۆشێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: patella"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The doctor checked her kneecap for any swelling.""",
+                      kurdishText:
+                          """پزیشکەکە کڵاوەی ئەژنۆیی پشکنی بۆ هەر ئاوسانێک.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

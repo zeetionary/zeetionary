@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrykiosk kiosk
-WORD_WEB kiosk kiosk kiosk
-haʊʊʊʊʊʊʊ4
+- Noun: kiosk (Derived forms: kiosks)
+1. Small area set off by walls for special use (- booth, cubicle, stall)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kiosk";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""I bought a paper from the kiosk across the road.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/9yjZpBq1XBE?t=928';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/h_OeMVcol1g?t=312';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/UzIxYdWVbm0?t=155';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/aqdm6aBUZII?t=240';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/1II8Pp2I6Vk?t=222';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/0e8woEkKmG8?t=3140';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kiosk""",
                       // alsoEnglishWord: "also: kiosk",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkiːɒsk/""",
+                      americanText: """IpaUS: /ˈkiːɑːsk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,13 +992,26 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kiosk", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) فرۆشگایەکی بچووک کە لە پێشەوە کراوەتەوە و زۆرجار ڕۆژنامە، خواردنەوە، هتد ــی تێدا دەفرۆشرێت. لە هەندێک وڵات خواردن و کەلوپەلی ماڵەوەشی لێ دەفرۆشرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: stand"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """I bought a paper from the kiosk across the road.""",
+                      kurdishText:
+                          """ڕۆژنامەیەکم لە کۆشکی ئەوبەر شەقامەکەەوە کڕی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
+                    ),
+                    const DividerDefinition(),
+                    CustomRichText(
+                      textBeforeLink: "٢. بڕوانە لە ",
+                      linkText: "call box",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context).push("/english-kiosk/callbox");
+                      },
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),

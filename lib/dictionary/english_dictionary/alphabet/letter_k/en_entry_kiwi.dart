@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: kiwi (Derived forms: kiwis)
+1. Climbing vine native to China; cultivated in New Zealand for its fuzzy edible fruit with green meat (- Chinese gooseberry, kiwi vine, Actinidia chinensis, Actinidia deliciosa)
+ 
+2. Fuzzy brown egg-shaped fruit with slightly tart green flesh (- kiwi fruit, Chinese gooseberry)
+ 
+3. Nocturnal flightless bird of New Zealand having a long neck and stout legs; only surviving representative of the order Apterygiformes (- apteryx)
 
-EnglishEntrykiwi kiwi
-WORD_WEB kiwi kiwi kiwi
-haʊʊʊʊʊʊʊ4
+- Noun: Kiwi (Derived forms: Kiwis)
+1. A native or inhabitant of New Zealand (- New Zealander, Enzed [Austral, NZ])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "kiwi";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """It is most likely that the Kiwis adopted this expression from their British friends.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """In the wild, only one in 20 kiwi chicks survives its first year.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""The skin of the kiwi is edible but I do not recommend it.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/GHUHgk8xCs0?t=1277';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Lkl9_3-jX6c?t=181';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/MzSktgpfD84?t=509';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Vg6aHPMXDVU?t=59';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/51_Vg15u1m4?t=297';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/UGrTMEDAn7I?t=195';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """kiwi""",
                       // alsoEnglishWord: "also: kiwi",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈkiːwi/""",
+                      americanText: """IpaUS: /ˈkiːwi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,29 +1000,39 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "kiwi", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) کەسێکی نیوزلەندی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """It is most likely that the Kiwis adopted this expression from their British friends.""",
+                      kurdishText:
+                          """زۆرترین ئەگەری هەیە کە ئەم نیوزلەندییانە ئەم دەربڕینەیان لە هاوڕێ بەریتانییەکانیان وەرگرتبێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) باڵندەیەکی نیوزلەندی کە دەنووکی درێژ و پەڕی شێوە قژی هەیە. باڵندەکە ناتوانێت بفڕێت و سمبولی نیشتیمانی وڵاتەکەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In the wild, only one in 20 kiwi chicks survives its first year.""",
+                      kurdishText:
+                          """لە دەشتدا تەنها یەک لە ٢٠ بێچووە کیوی لە یەکەم ساڵ ڕزگاریان دەبێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) میوەیەکی شێوە هێلکەیی کە توێکڵەکەی قاوەییە و ناوەکەی سەوزی درەوشاوەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The skin of the kiwi is edible but I do not recommend it.""",
+                      kurdishText:
+                          """توێکڵی کیوی دەخورێت بەڵام پێشنیاری ناکەم.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

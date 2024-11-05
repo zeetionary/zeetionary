@@ -9,7 +9,8 @@ class EnglishEntrylaboriously extends StatefulWidget {
   const EnglishEntrylaboriously({super.key});
 
   @override
-  State<EnglishEntrylaboriously> createState() => _EnglishEntrylaboriouslyState();
+  State<EnglishEntrylaboriously> createState() =>
+      _EnglishEntrylaboriouslyState();
 }
 
 class _EnglishEntrylaboriouslyState extends State<EnglishEntrylaboriously> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylaboriously laboriously
-WORD_WEB laboriously laboriously laboriously
-haʊʊʊʊʊʊʊ4
+- Adverb: laboriously
+1. In a laborious manner
+"their lives were spent in committee making decisions for others to execute on the basis of data laboriously gathered for them"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "laboriously";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""An agreement was laboriously worked out.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/4v81Gwu6BTE?t=280';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Y_ozeboWz-0?t=169';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/WOMOVA9UMic?t=328';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Solb9uA-tgQ?t=14728';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/QnjtnzyTNoQ?t=5';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/bWX0-NEjyNQ?t=122';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """laboriously""",
                       // alsoEnglishWord: "also: laboriously",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ləˈbɔːriəsli/""",
+                      americanText: """IpaUS: /ləˈbɔːriəsli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +992,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "laboriously", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بەشێوەیەک کە هەوڵ و کاتی زۆری دەوێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """An agreement was laboriously worked out.""",
+                      kurdishText: """ڕێککەوتنێک بە زەحمەت ئەنجام درا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

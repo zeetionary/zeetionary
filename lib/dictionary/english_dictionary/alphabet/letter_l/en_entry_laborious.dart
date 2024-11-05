@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylaborious laborious
-WORD_WEB laborious laborious laborious
-haʊʊʊʊʊʊʊ4
+- Adjective: laborious
+1. Characterized by effort to the point of exhaustion; especially physical effort (- arduous, backbreaking, grueling [US], gruelling [Brit, Cdn], hard, heavy, operose, punishing, toilsome, killing [informal])
+"spent many laborious hours on the project";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "laborious";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""Checking all the information will be slow and laborious.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/5r90DYjZ76g?t=368';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/2fE5KzvOZRk?t=77';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/tCJ_VV0FEZM?t=33';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/K0OtGIPRcAs?t=395';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/a4cGNjKnRlc?t=307';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/NU4MgeOb-cc?t=1517';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """laborious""",
                       // alsoEnglishWord: "also: laborious",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ləˈbɔːriəs/""",
+                      americanText: """IpaUS: /ləˈbɔːriəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەخت، دژوار، چەتوون، ئەستەم، گران، قورس، پڕئەرک، پڕزەحمەت،	پرکار، ڕەنج‌کێش، زەحمەت‌کێش، تێکۆشەر،	(شێواز یان نووسراوە) سەخت، دژوار، گران
 """),
 // With short examples define "laborious", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) کە هەوڵ و کاتی زۆری دەوێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Checking all the information will be slow and laborious.""",
+                      kurdishText:
+                          """پشکنینی هەموو زانیارییەکان هێواش و سەخت دەبێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

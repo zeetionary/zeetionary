@@ -9,7 +9,8 @@ class EnglishEntrylackadaisical extends StatefulWidget {
   const EnglishEntrylackadaisical({super.key});
 
   @override
-  State<EnglishEntrylackadaisical> createState() => _EnglishEntrylackadaisicalState();
+  State<EnglishEntrylackadaisical> createState() =>
+      _EnglishEntrylackadaisicalState();
 }
 
 class _EnglishEntrylackadaisicalState extends State<EnglishEntrylackadaisical> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylackadaisical lackadaisical
-WORD_WEB lackadaisical lackadaisical lackadaisical
-haʊʊʊʊʊʊʊ4
+- Adjective: lackadaisical
+1. Lacking spirit or liveliness (- dreamy, languid, languorous)
+"a lackadaisical attempt";
+ 
+2. Idle or indolent especially in a dreamy way
+"she was annoyingly lackadaisical and impractical"; "a...lackadaisical, spiritless young man-about-town"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lackadaisical";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The food was nice enough but the service was somewhat lackadaisical.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/t9HE4OvmuSA?t=37';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/_OkTw766oCs?t=1427';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/fKfRcOoXKAc?t=3781';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/MtIHvjQjAeM?t=9';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/uzX09_4hcPc?t=458';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/FPviP_MBrTQ?t=167';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lackadaisical""",
                       // alsoEnglishWord: "also: lackadaisical",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌlækəˈdeɪzɪkl/""",
+                      americanText: """IpaUS: /ˌlækəˈdeɪzɪkl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +993,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێخۆش‌نەبوو، بێ‌تین‌وگوڕ، بێ‌تاقەت، سارد، بێ‌ئیشتیا، دڵ‌پێوەنەبوو، بە دڵەوە نییە، ناهۆگر، ناتامەزرۆ
 """),
 // With short examples define "lackadaisical", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی کە زۆر حەز پیشان نەدەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The food was nice enough but the service was somewhat lackadaisical.""",
+                      kurdishText:
+                          """خواردنەکە بەشی پێویست خۆش بوو بەڵام خزمەتەکە سارد بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

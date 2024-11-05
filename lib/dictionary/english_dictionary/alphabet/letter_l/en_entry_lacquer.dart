@@ -55,7 +55,7 @@ ${englishMeaningConst.text}
 
 EnglishEntrylacquer lacquer
 WORD_WEB lacquer lacquer lacquer
-haʊʊʊʊʊʊʊ4
+/ˈlækər/
 """,
   );
 // 188888880002200000000000
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lacquer""",
                       // alsoEnglishWord: "also: lacquer",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlækə(r)/""",
+                      americanText: """IpaUS: /ˈlækər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

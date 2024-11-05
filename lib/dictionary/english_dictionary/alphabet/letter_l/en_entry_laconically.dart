@@ -9,7 +9,8 @@ class EnglishEntrylaconically extends StatefulWidget {
   const EnglishEntrylaconically({super.key});
 
   @override
-  State<EnglishEntrylaconically> createState() => _EnglishEntrylaconicallyState();
+  State<EnglishEntrylaconically> createState() =>
+      _EnglishEntrylaconicallyState();
 }
 
 class _EnglishEntrylaconicallyState extends State<EnglishEntrylaconically> {
@@ -52,13 +53,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylaconically laconically
-WORD_WEB laconically laconically laconically
-haʊʊʊʊʊʊʊ4
+- Adverb: laconically
+1. In a dry laconic manner (- dryly, drily)
+"Anyone who knows the American vaudeville stage knows it is laconically eccentric";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "laconically";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""‘Family reasons,’ he said laconically.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/4mpepHR8Ojo?t=1205';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/9QIVftIzrPo?t=525';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/y0gLxBo7ks0?t=645';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/gfabA0KdniY?t=277';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/g9W5OjQK_4c?t=427';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/5CnmUAneAxA?t=6287';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """laconically""",
                       // alsoEnglishWord: "also: laconically",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ləˈkɒnɪkli/""",
+                      americanText: """IpaUS: /ləˈkɑːnɪkli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +992,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "laconically", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە تەنها چەند وشەیەکی کەم بۆ گوتنی شتێک بەکاردێنێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """‘Family reasons,’ he said laconically.""",
+                      kurdishText:
+                          """بە کورتی وەڵامی دایەوە: 'بە هۆکاری خێزانی'.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

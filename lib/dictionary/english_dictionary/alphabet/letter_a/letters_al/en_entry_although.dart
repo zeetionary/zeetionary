@@ -1,21 +1,85 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
-
-// replace these: replace EnglishEntryalthough - replace speakAlthough - replace although - /ɔːlˈðəʊ/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryalthough extends StatelessWidget {
-  EnglishEntryalthough({super.key});
-  final FlutterTts flutterTts = FlutterTts();
+class EnglishEntryalthough extends StatefulWidget {
+  const EnglishEntryalthough({super.key});
 
-  Future<void> speakalthough(String languageCode) async {
+  @override
+  State<EnglishEntryalthough> createState() => _EnglishEntryalthoughState();
+}
+
+class _EnglishEntryalthoughState extends State<EnglishEntryalthough> {
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
+
+  FlutterTts flutterTts = FlutterTts();
+
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("although");
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Conjunction: although 
+1. Even though, in spite of the fact that (= altho [US], though, tho' [informal], while, whilst [Brit])
+"although I love you, I cannot marry you";
+""",
+  );
+// 188888880002200
+
+  final String keyword = "although";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak("""although""");
   }
 
   Future<void> speakalthough4596(String languageCode) async {
@@ -42,122 +106,169 @@ class EnglishEntryalthough extends StatelessWidget {
         "Although he was raised a Catholic, he was an agnostic for most of his adult life.");
   }
 
-  // Future<void> speakalthough(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAlthough
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("although");
-  // }
-
   @override
   Widget build(BuildContext context) {
+    const String videoIdend = '6JwnbLk-QAY';
+    const double startSecondsend = 465;
+    const String videoIdone = '9q10_iPYYaA';
+    const double startSecondsone = 6;
+    const String videoIdtwo = 'Rr_G5a5A3sM';
+    const double startSecondstwo = 1;
+    const String videoIdthree = 'lDL02K8C_Jg';
+    const double startSecondsthree = 280;
+    const String videoIdfour = 'hFZFjoX2cGg';
+    const double startSecondsfour = 1122;
+    const String videoIdfive = 'khOUvmOQExc';
+    const double startSecondsfive = 53;
+    // final String _videoId6 = 'e09xig209cQ';
+    // final double _startSeconds6 = 116;
+    // final String _videoId = '0zwNZJbM-Gw';
+    // final double _startSeconds = 98;
+    // final String _videoId = 'AAGIi62-sAU';
+    // final double _startSeconds = 1508;
+
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              CustomSliverAppBar(
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """although""",
+                      // alsoEnglishWord: "also: although",
+                      britshText: """IpaUK: /ɔːlˈðəʊ/""",
+                      americanText: """IpaUS: /ɔːlˈðəʊ/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
+                    ),
+                  ),
+                ),
+                bottom: const CustomTabBarNew(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
             children: [
               SingleChildScrollView(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "although"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /ɔːlˈðəʊ/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakalthough("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /ɔːlˈðəʊ/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakalthough("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
                     ),
+                    englishMeaningConst,
                   ],
                 ),
               ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
+              SingleChildScrollView(
+                child: CustomColumnWidget(
                   children: [
-                    const EnglishMeaning(),
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: ھەرچەن کە، ھەرچەندە، ئەگەرچی، گەرچی، لەگەڵ ئەمەش‌دا، لەگەڵ ئەوەش، سەرەڕای ئەوەش، لەگەڵ ئەوەش‌دا
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (لێکدەر) بۆ وتنی شتێک کە وا دەکات خاڵی سەرەکی ڕستەکە ببێت بە سوپرایز"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "Although the sun was shining, it wasn't very warm.",
-                            kurdishText:
-                                "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو.",
-                            onPressedBritish: () => speakalthough4596("en-GB"),
-                            onPressedAmerican: () => speakalthough4596("en-US"),
-                          ),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
-٢. (لێکدەر) بۆ وتنی بەڵام"""),
-                          SentencesRow(
-                            englishText:
-                                "I felt he was wrong, although I didn't say so at the time.",
-                            kurdishText:
-                                "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت.",
-                            onPressedBritish: () => speakalthough566("en-GB"),
-                            onPressedAmerican: () => speakalthough566("en-US"),
-                          ),
-                        ],
-                      ),
+                    const DefinitionKurdish(
+                        text:
+                            "١. (لێکدەر) بۆ وتنی شتێک کە وا دەکات خاڵی سەرەکی ڕستەکە ببێت بە سوپرایز"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "Although the sun was shining, it wasn't very warm.",
+                      kurdishText:
+                          "ئەگەرچی خۆرەکە دەدرەوشایەوە، ھێندە گەرم نەبوو.",
+                      onPressedBritish: () => speakalthough4596("en-GB"),
+                      onPressedAmerican: () => speakalthough4596("en-US"),
                     ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
-                        // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
+٢. (لێکدەر) بۆ وتنی بەڵام"""),
+                    SentencesRow(
+                      englishText:
+                          "I felt he was wrong, although I didn't say so at the time.",
+                      kurdishText:
+                          "ھەستم کرد ھەڵەبوو، بەڵام/ئەگەرچی ئەوکاتە ئەوەم نەوت.",
+                      onPressedBritish: () => speakalthough566("en-GB"),
+                      onPressedAmerican: () => speakalthough566("en-US"),
                     ),
                   ],
                 ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdend),
+                    videoId: videoIdend,
+                    startSeconds: startSecondsend,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdone),
+                    videoId: videoIdone,
+                    startSeconds: startSecondsone,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdtwo),
+                    videoId: videoIdtwo,
+                    startSeconds: startSecondstwo,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdthree),
+                    videoId: videoIdthree,
+                    startSeconds: startSecondsthree,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfour),
+                    videoId: videoIdfour,
+                    startSeconds: startSecondsfour,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfive),
+                    videoId: videoIdfive,
+                    startSeconds: startSecondsfive,
+                  ),
+                ],
               ),
             ],
           ),
@@ -167,329 +278,4 @@ class EnglishEntryalthough extends StatelessWidget {
   }
 }
 
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
-
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
-
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Conjunction: although 
-1. Even though, in spite of the fact that (= altho [US], though, tho' [informal], while, whilst [Brit])
-"although I love you, I cannot marry you";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
-
-class YoutubeEmbeddedone extends StatelessWidget {
-  const YoutubeEmbeddedone({super.key});
-
-  final String _videoId = '6JwnbLk-QAY';
-  final double _startSeconds = 465;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  const YoutubeEmbeddedtwo({super.key});
-
-  final String _videoId = '9q10_iPYYaA';
-  final double _startSeconds = 6;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  const YoutubeEmbeddedthree({super.key});
-
-  final String _videoId = 'Rr_G5a5A3sM';
-  final double _startSeconds = 1;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  const YoutubeEmbeddedfour({super.key});
-
-  final String _videoId = 'lDL02K8C_Jg';
-  final double _startSeconds = 280;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  const YoutubeEmbeddedfive({super.key});
-
-  final String _videoId = 'hFZFjoX2cGg';
-  final double _startSeconds = 1122;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  const YoutubeEmbeddedsix({super.key});
-
-  final String _videoId = 'khOUvmOQExc';
-  final double _startSeconds = 53;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  const YoutubeEmbeddedseven({super.key});
-
-  final String _videoId = 'e09xig209cQ';
-  final double _startSeconds = 116;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  const YoutubeEmbeddedeight({super.key});
-
-  final String _videoId = '0zwNZJbM-Gw';
-  final double _startSeconds = 98;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  const YoutubeEmbeddednine({super.key});
-
-  final String _videoId = 'AAGIi62-sAU';
-  final double _startSeconds = 1508;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffoldEnd(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-// end
+// end WORD_WEB

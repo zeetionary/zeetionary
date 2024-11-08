@@ -1,4 +1,3 @@
-// end aftermath
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -95,26 +94,24 @@ ${englishMeaningConst.text}
         "The president visited the region in the immediate aftermath of the disaster.");
   }
 
-
   @override
   Widget build(BuildContext context) {
-
-  const String videoId0 = 'kHrjgWoy8qY';
-  const double startSeconds0 = 218;
-  const String videoId1 = 'tXjHb5QmDV0';
-  const double startSeconds1 = 1161;
-  const String videoId2 = 'QLq6GEiHqR8';
-  const double startSeconds2 = 959;
-  const String videoId3 = 'qr4MSVxfYBE';
-  const double startSeconds3 = 1275;
-  const String videoId4 = 'OgFcz6klaeg';
-  const double startSeconds4 = 546;
-  const String videoId5 = 'BztMgcNgobk';
-  const double startSeconds5 = 1315;
-  // const String videoId = 'qjubq284yVk';
-  // const double startSeconds = 4;
-  // const String videoId = 'knjliFs3gR8';
-  // const double startSeconds = 777;
+    const String videoId0 = 'kHrjgWoy8qY';
+    const double startSeconds0 = 218;
+    const String videoId1 = 'tXjHb5QmDV0';
+    const double startSeconds1 = 1161;
+    const String videoId2 = 'QLq6GEiHqR8';
+    const double startSeconds2 = 959;
+    const String videoId3 = 'qr4MSVxfYBE';
+    const double startSeconds3 = 1275;
+    const String videoId4 = 'OgFcz6klaeg';
+    const double startSeconds4 = 546;
+    const String videoId5 = 'BztMgcNgobk';
+    const double startSeconds5 = 1315;
+    // const String videoId = 'qjubq284yVk';
+    // const double startSeconds = 4;
+    // const String videoId = 'knjliFs3gR8';
+    // const double startSeconds = 777;
 
     return DefaultTabController(
       length: 4,
@@ -169,16 +166,16 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: ئەنجام، پێ‌ئاژۆ، ئاکام، قۆناخی دوای کارەساتێ یان ڕووداوی ناخۆش، (کشت‌وکاڵ) بەر یان چینی دووھەم
 """),
-                          const DefinitionKurdish(
-                              text: "١. (ناو) دەرئەنجامی ڕووداوێک یان جەنگ" ""),
-                          SentencesRow(
-                            englishText:
-                                "The president visited the region in the immediate aftermath of the disaster.",
-                            kurdishText:
-                                "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە.",
-                            onPressedBritish: () => speakafterm92483("en-GB"),
-                            onPressedAmerican: () => speakafterm92483("en-US"),
-                          ),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) دەرئەنجامی ڕووداوێک یان جەنگ" ""),
+                    SentencesRow(
+                      englishText:
+                          "The president visited the region in the immediate aftermath of the disaster.",
+                      kurdishText:
+                          "سەرۆک سەردانی ھەرێمەکەی کرد لە دەرئەنجامی کارەساتەکە.",
+                      onPressedBritish: () => speakafterm92483("en-GB"),
+                      onPressedAmerican: () => speakafterm92483("en-US"),
+                    ),
                   ],
                 ),
               ),

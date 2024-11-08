@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lacquer (Derived forms: lacquers)
+1. A black resinous substance obtained from certain trees and used as a natural varnish
+ 
+2. A hard glossy coating
 
-EnglishEntrylacquer lacquer
-WORD_WEB lacquer lacquer lacquer
-/ˈlækər/
+- Verb: lacquer (Derived forms: lacquers, lacquering, lacquered)
+1. (handicraft) coat with lacquer
+"A lacquered box from China"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lacquer";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,19 +930,18 @@ WORD_WEB lacquer lacquer lacquer
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/k4URGc_3FrE?t=289';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/lfkjm2YRG-Q?t=1005';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/UrkPC81_QfU?t=1221';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/AxSQGOjh110?t=82';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/JFqiSr9A-Go?t=146';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/NUzDLpSkQTg?t=97';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -995,7 +997,7 @@ WORD_WEB lacquer lacquer lacquer
 کوردی: 
 """),
 // With short examples define "lacquer", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) شلەیەک کە لەسەر تەختە یان کانزا بەکاردێت و ڕوویەکی سەختی درەوشاوەی پێدەدات"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555
 """,

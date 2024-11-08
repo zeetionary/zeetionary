@@ -1,4 +1,3 @@
-// // end dopsum1
 // import 'package:flutter/material.dart';
 // import 'package:flutter_tts/flutter_tts.dart';
 // import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -138,7 +137,6 @@
 //               SingleChildScrollView(
 //                 child: CustomColumnWidget(
 //                   children: [
-                    
                   
 //                 ),
 //               ),
@@ -225,18 +223,56 @@
 
 
 // final EnglishMeaningConst englishMe
- 
-
-
-
-// //     text: """
 
 
 // ZeetionaryAppbar(),
 //         body: Padding(
 
+// ({super.key});
+//   final FlutterTts flutterTts = FlutterTts();
+
 // // import 'package:flutter/material.dart';
 // // import 'package:flutter_tts/flutter_tts.dart';
 // // import 'package:youtube_player_iframe/youtube_player_iframe.dart';
 // // import 'package:zeetionary/constants.dart';
+
+
+
+// final String 0_videoId
+// const String videoIdend
+
+// final String _v1ideoId
+// const String videoIdone
+
+// final String _vid2eoId
+// const String videoIdtwo
+
+// final String _video3Id
+// const String videoIdthree
+
+// final String _videoId4
+// const String videoIdfour
+
+// final String _videoId =5
+// const String videoIdfive =
+
+
+// final double _0startSeconds
+// const double startSecondsend
+
+// final double _st1artSeconds
+// const double startSecondsone
+
+// final double _star2tSeconds
+// const double startSecondstwo
+
+// final double _startS3econds
+// const double startSecondsthree
+
+// final double _startSec4onds
+// const double startSecondsfour
+
+// final double _startSecon5ds
+// const double startSecondsfive
+
 

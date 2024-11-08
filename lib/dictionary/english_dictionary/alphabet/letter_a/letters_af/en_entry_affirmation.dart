@@ -1,4 +1,3 @@
-// end affirmation
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
@@ -10,7 +9,8 @@ class EnglishEntryaffirmation extends StatefulWidget {
   const EnglishEntryaffirmation({super.key});
 
   @override
-  State<EnglishEntryaffirmation> createState() => _EnglishEntryaffirmationState();
+  State<EnglishEntryaffirmation> createState() =>
+      _EnglishEntryaffirmationState();
 }
 
 class _EnglishEntryaffirmationState extends State<EnglishEntryaffirmation> {

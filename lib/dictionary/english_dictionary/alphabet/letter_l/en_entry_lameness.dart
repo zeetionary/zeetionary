@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylameness lameness
-WORD_WEB lameness lameness lameness
-haʊʊʊʊʊʊʊ4
+- Noun: lameness
+1. Disability of walking due to crippling of the legs or feet (- limping, gimp [N. Amer, informal], gimpiness [N. Amer, informal], gameness, claudication)
+ 
+2. An imperfection or defectiveness
+"a stylist noted for the lameness of his plots"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lameness";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The disease has left her with permanent lameness.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The lameness of the excuse was surprising.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/_q3LZ24TEkM?t=274';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/MaA29LZLAHQ?t=177';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/hS4XXstzocY?t=7201';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/sjvlW0AzKlY?t=131';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/MDdHYjb5sBk?t=2390';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/9s9UXXAmlTg?t=34';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lameness""",
                       // alsoEnglishWord: "also: lameness",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleɪmnəs/""",
+                      americanText: """IpaUS: /ˈleɪmnəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +994,26 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lameness", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەوەی نەتوانیت باش بە ڕێگادا بچیت بەهۆی برین لە لاق یان پێ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The disease has left her with permanent lameness.""",
+                      kurdishText:
+                          """نەخۆشییەکە تووشی شەلینی هەمیشەیی کردووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەوەی لاواز و سەخت بێت کە جێگای باوەڕ بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The lameness of the excuse was surprising.""",
+                      kurdishText: """هیچی بیانووەکەی سەرنجڕاکێش بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

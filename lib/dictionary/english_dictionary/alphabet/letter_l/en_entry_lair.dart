@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylair lair
-WORD_WEB lair lair lair
-haʊʊʊʊʊʊʊ4
+- Noun: lair (Derived forms: lairs)
+1. The habitation of wild animals (- den)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lair";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""We found paw prints leading to a fox’s lair.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Grandad retreated to his lair in the basement.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/dG9fAtmYdlM?t=976';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/G8PP7_JyYtQ?t=18';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/X2LyUpsd8uY?t=257';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/XEZfGlyLQnA?t=767';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/L9Mu93VJLcc?t=307';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/KJy7T24rhg0?t=305';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lair""",
                       // alsoEnglishWord: "also: lair",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /leə(r)/""",
+                      americanText: """IpaUS: /ler/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +988,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کولانە، لانە، بوودڕ، گووڤ، کون (گیانەوەرانی کێوی)،	(خوازە) کون، حەشارگە، پەناوپەسێو
 """),
 // With short examples define "lair", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شوێنێک کە ئاژەڵێکی کێوی تێیدا دەخەوێت یان خۆی دەشارێتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We found paw prints leading to a fox’s lair.""",
+                      kurdishText:
+                          """شوێن چەپۆکمان دۆزییەوە کە بەرەو لانەی ڕێوییەکە دەچوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شوێنێک کە کەسێک بۆی دەچێت بۆ ئەوەی تەنها بێت یان خۆی تێدا بشارێتەوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: den، hideout"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Grandad retreated to his lair in the basement.""",
+                      kurdishText:
+                          """باپیرە چووە پەناپەسێوەکەی لە ژێرزەمینەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

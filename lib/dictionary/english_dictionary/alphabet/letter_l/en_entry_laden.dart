@@ -52,13 +52,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: laden
+1. Filled with a great quantity (- loaded, ladened)
+"table laden with food";
+ 
+2. Burdened psychologically or mentally (- oppressed)
+"laden with grief";
 
-EnglishEntryladen laden
-WORD_WEB laden laden laden
-haʊʊʊʊʊʊʊ4
+- Verb: laden (Derived forms: ladened, ladens, ladening)
+1. Remove with or as if with a ladle (- ladle, lade [archaic])
+"laden the water out of the bowl";
+ 
+3. Fill or place a load on (- load, lade [archaic], load up)
+"laden a car";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "laden";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +95,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The trees were laden with apples.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""They arrived laden with gifts.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""His voice was soft, yet laden with threat.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +934,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/e_gkEviOWIk?t=870';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/cykdSb7xqI4?t=20';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/330Ufcaj1zA?t=532';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/wJa5Ch0O4BI?t=3966';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/pTk9HnIwEYU?t=254';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/C8YlGkoYXXM?t=256';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """laden""",
                       // alsoEnglishWord: "also: laden",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleɪdn/""",
+                      americanText: """IpaUS: /ˈleɪdn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +998,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێوڕێژ، پڕ، دارماڵ، قورس، گران،	داگیراو، بارکراو، بارلێنراو،	بەبەر، پڕبەر
 """),
 // With short examples define "laden", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) ئەوەی پڕ کرابێت/بووبێت لە شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The trees were laden with apples.""",
+                      kurdishText: """دارەکان پڕ لە سێو بوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1014,19 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They arrived laden with gifts.""",
+                      kurdishText: """بە دیاری زۆرەوە هاتن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ھاوەڵناو) پڕ لە شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """His voice was soft, yet laden with threat.""",
+                      kurdishText: """دەنگی نەرم بەڵام پڕ لە هەڕەشە بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

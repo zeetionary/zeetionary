@@ -8245,7 +8245,7 @@ final Map<String, String> wordRoutes = {
   "historically": "/english-historically",
   "history": "/english-history",
   "hit": "/english-hit",
-  "hit-and-run": "/english-hitandrun",
+  "hit and run": "/english-hitandrun",
   "hitman": "/english-hitman",
   "hitch": "/english-hitch",
   "hitchhike": "/english-hitchhike",

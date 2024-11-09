@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylampshade lampshade
-WORD_WEB lampshade lampshade lampshade
-haʊʊʊʊʊʊʊ4
+- Noun: lampshade (Derived forms: lamp shades, lampshades)
+1. A protective ornamental covering for a lamp, used to screen a light bulb from direct view (- lamp shade, shade)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lampshade";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She admired the wall lights and their fan-shaped lampshades.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/A2rEZKPfAIs?t=130';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/YO6utfQm7Bg?t=236';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/pSFc9hCNq9E?t=1001';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/wkkx4PCcZjU?t=507';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/7j5ul4XBjAI?t=459';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/BxWw8AO4ZmI?t=18';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lampshade""",
                       // alsoEnglishWord: "also: lampshade",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: lampshade""",
+                      americanText: """IpaUS: lampshade""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +988,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کڵاوەچرا، کڵاوە، سەرچرا، گوێزە، گوێزو، سێبەری چرا
 """),
 // With short examples define "lampshade", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) داپۆشەرێک بۆ چرایەک کە توندیی ڕۆشناییەکەی کەم دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She admired the wall lights and their fan-shaped lampshades.""",
+                      kurdishText:
+                          """شەیدای چرای سەر دیوارەکان و کڵاوەی شێوە پانکەییان بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

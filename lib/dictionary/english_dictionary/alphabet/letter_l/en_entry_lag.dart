@@ -52,13 +52,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: lag (Derived forms: lagged, lagging, lags)
+1. Hang (back) or fall (behind) in movement, progress, development, etc. (- dawdle, fall back, fall behind)
+ 
+2. (law) lock up or confine, in or as in a jail (- imprison, incarcerate, immure, put behind bars, jail, jug [N. Amer, informal], gaol [Brit], put away, remand, prison [archaic])
+"The suspects were lagged without trial";
+ 
+3. Throw or pitch at a mark, as with coins
+ 
+4. Cover with lagging to prevent heat loss
+"lag pipes"
 
-EnglishEntrylag lag
-WORD_WEB lag lag lag
-haʊʊʊʊʊʊʊ4
+- Noun: lag (Derived forms: lags)
+1. The act of slowing down or falling behind (- slowdown, retardation)
+ 
+2. The time between one event, process, or period and another (- interim, meantime, meanwhile)
+ 
+3. One of several thin slats of wood forming the sides of a barrel or bucket (- stave)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lag";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +99,39 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The little boy lagged behind his parents.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """We still lag far behind many of our competitors in using modern technology.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """She did well in her first year at school but then started to lag behind.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts
+        .speak("""They lagged the pipes to keep them from freezing.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak(
+        """You have to allow for a time lag between order and delivery.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +942,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/5J3ZV5PUGog?t=32';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/3RkhZgRNC1k?t=514';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Fr-qagv7ig0?t=30';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/oyx49MqQeZc?t=180';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/xIycNHNAgBE?t=101';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/p5I1DPaCnqM?t=600';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +967,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lag""",
                       // alsoEnglishWord: "also: lag",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /læɡ/""",
+                      americanText: """IpaUS: /læɡ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1006,17 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دواکەوتوویی، پاش‌کەوتوویی، دواکەوتن، پاش‌کەوتن، بەجێمان، بەدواکەوتن، خاوی، بەدرەنگ‌کەوتن،	کەلێن، مەودا، بۆشایی، کەلەبەر
 """),
 // With short examples define "lag", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) جووڵان یان بەرەوپێشچوون بە هێواشتر لە خەڵکی، دامەزراوە، هتد ــی تر """),
+                    const AlsoEnglishckb(word: "ھەروەھا: trail"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The little boy lagged behind his parents.""",
+                      kurdishText: """کوڕە بچووکەکە بە دوای دایبابییەوە بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1024,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We still lag far behind many of our competitors in using modern technology.""",
+                      kurdishText:
+                          """هێشتا زۆر لە دواوەی ڕکابەرەکانمانەوەین لە تەکنەلۆژیای سەردەمدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,26 +1035,33 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She did well in her first year at school but then started to lag behind.""",
+                      kurdishText:
+                          """لە یەکەم ساڵی قوتابخانە زۆر لە دواوە بوو بەڵام دواتر دەستی کرد بە دواکەوتن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (کردار) پننسە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: insulate"),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They lagged the pipes to keep them from freezing.""",
+                      kurdishText:
+                          """بۆرییەکانیان عەزل کرد بۆ ئەوەی بیان پارێزن لە بەستن.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) دواکەوتنی نێوان دوو ڕووداو"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """You have to allow for a time lag between order and delivery.""",
+                      kurdishText:
+                          """دەبێت حساب بۆ دواکەوتنێکی کات بکەیت لە نێوان داواکردن و گەیاندن.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

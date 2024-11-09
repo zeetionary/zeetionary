@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+Adjective: laminated 
+1. ​(of wood, plastic, etc.) made by sticking several thin layers together
 
-EnglishEntrylaminated laminated
-WORD_WEB laminated laminated laminated
-haʊʊʊʊʊʊʊ4
+2. ​covered with thin clear plastic for protection
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "laminated";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The old laminated kitchen worktops were still in good shape.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The recipe cards are laminated so they can be wiped clean.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/XxOh12Uhg08?t=1908';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/vsMydMDi3rI?t=629';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/m9RY3SHyTjE?t=49';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/CI_mFIfFars?t=136';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/GIMVge5TYz4?t=524';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/b1JlYZQG3lI?t=722';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """laminated""",
                       // alsoEnglishWord: "also: laminated",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlæmɪneɪtɪd/""",
+                      americanText: """IpaUS: /ˈlæmɪneɪtɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +991,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لۆلۆ، لاسەرلا، چین‌چین، تەبەق‌تەبەق، قەدقەد، توێ‌توێ، پەڕەپەڕە، تەڵاش‌تەڵاش، چەندلۆ
 """),
 // With short examples define "laminated", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە درووستکراوە بەوەی ژمارەیەک چینی باریک لە پلاستیک، شووشە، تەختە، هتد کە پێکەوە بەستراون"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The old laminated kitchen worktops were still in good shape.""",
+                      kurdishText:
+                          """ڕووکاری مێزە کۆنە چین‌چینەکانی چێشتخانەکە هێشتا لە دۆخێکی باشدا بوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کە بە پلاستیکی ڕوونی باریک داپۆشراوە بۆ پاراستن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The recipe cards are laminated so they can be wiped clean.""",
+                      kurdishText:
+                          """کاردی ڕەچەتەکان کەبسکراون بۆ ئەوەی پاکبرێنەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

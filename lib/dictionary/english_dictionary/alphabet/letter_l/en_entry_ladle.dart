@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: ladle (Derived forms: ladles)
+1. A spoon-shaped vessel with a long handle; frequently used to transfer liquids from one container to another
 
-EnglishEntryladle ladle
-WORD_WEB ladle ladle ladle
-haʊʊʊʊʊʊʊ4
+- Verb: ladle (Derived forms: ladling, ladles, ladled)
+1. Put (a liquid) into a container by means of a ladle
+"ladle soup into the bowl"
+ 
+2. Remove with or as if with a ladle (- lade [archaic], laden)
+"ladle the water out of the bowl";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ladle";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She used a soup ladle to stir the soup slowly.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Ladle the soup into bowls and serve right away.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""In those days doctors ladled out antibiotics to patients.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/0GUT3Egdd5k?t=373';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/X2jakwIVLbY?t=736';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Is1IWMPNqh4?t=523';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/cee6883w2Nk?t=469';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/dqcSk-EDrRo?t=1049';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/qWAagS_MANg?t=1045';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """ladle""",
                       // alsoEnglishWord: "also: ladle",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleɪdl/""",
+                      americanText: """IpaUS: /ˈleɪdl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +997,41 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەپچە، ئاوگەردان، چەمچە، هسکو، کوندەز، ئەسکوێ، مێلاک، خەرشەب، کەوچک(ی چێشت تێ‌کردن
 """),
 // With short examples define "ladle", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەوچکێکی قووڵی گەورە کە دەسکێکی درێژی هەیە و شۆربای تێدەکرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She used a soup ladle to stir the soup slowly.""",
+                      kurdishText:
+                          """کەوگیری شۆربایەکی پێویست بوو بۆ تێکدانی شۆربایەکە بە هێواشی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) تێکردنی خواردن بە کەوگیر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Ladle the soup into bowls and serve right away.""",
+                      kurdishText:
+                          """شۆربایەکە بکە ناو دەورییەوە و خێرا پێشکەشی بکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٣. (کردار) پێدانی شتێکی زۆر بە کەسێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: dole something out"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """In those days doctors ladled out antibiotics to patients.""",
+                      kurdishText:
+                          """لەو ڕۆژانەدا پزیشکان دژە بەکتریایان دەبەخشییەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

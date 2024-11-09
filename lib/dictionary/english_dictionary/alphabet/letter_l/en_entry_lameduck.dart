@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylameduck lame duck
-WORD_WEB lame duck lame duck lame duck
-haʊʊʊʊʊʊʊ4
+- Noun: lame duck (Derived forms: lame ducks)
+1. An elected official still in office but not slated to continue
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lame duck";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The government should not spend money on helping lame ducks.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Congress rarely cooperates with a lame-duck president.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/XUXBgswQX_I?t=261';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/QMiOMNIRs3k?t=37';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/p78izsJSwNQ?t=23';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ndbmEEysKQo?t=535';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ISYL1WsuR78?t=187';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/82w6sFjGl8s?t=73';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lame duck""",
                       // alsoEnglishWord: "also: lame duck",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌleɪm ˈdʌk/""",
+                      americanText: """IpaUS: /ˌleɪm ˈdʌk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +989,30 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەسێکی دەسەوسان، بنیادەمی هیچ‌لەدەس‌نەهاتوو یان بێ‌دەسەڵات، تڕەبۆژە
 """),
 // With short examples define "lame duck", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک یان دامەزراوەیەک کە زۆر سەرکەوتوو نییە و پێویست بە یارمەتییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The government should not spend money on helping lame ducks.""",
+                      kurdishText:
+                          """حکومەت نابێت پارە خەرج بکات بۆ یارمەتیدانی هیچ‌لەدەس‌نەهاتووان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) کەسێک کە لە دەسەڵاتدایە بەڵام جێگرەوەکەی هەڵبژێردراوە و بەزووی جێگای دەگرێتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Congress rarely cooperates with a lame-duck president.""",
+                      kurdishText:
+                          """کۆنگرێس بە دەگمەن هاوئاهەنگ دەبێت لەگەڵ سەرۆکێک کە لەکۆتایی ماوەکەیەتی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

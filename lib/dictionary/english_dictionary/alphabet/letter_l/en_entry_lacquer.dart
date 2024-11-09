@@ -90,8 +90,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She applied lacquer to make the table shine.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -996,12 +995,10 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "lacquer", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) شلەیەک کە لەسەر تەختە یان کانزا بەکاردێت و ڕوویەکی سەختی درەوشاوەی پێدەدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She applied lacquer to make the table shine.""",
+                      kurdishText: """ڕۆنی لاکی ڕشت بۆ ئەوەی مێزەکە بدرەوشێتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

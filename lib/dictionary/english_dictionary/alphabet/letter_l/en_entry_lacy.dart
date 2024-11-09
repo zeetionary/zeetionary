@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylacy lacy
-WORD_WEB lacy lacy lacy
-haʊʊʊʊʊʊʊ4
+- Adjective: lacy (Derived forms: laciest, lacier)
+1. Made of or resembling lace (- lacelike, lacey)
+"a lacy leaf"; "a lacy gown";
+ 
+2. Having open interstices or resembling a web (- netlike, netted, webbed, weblike, webby, lacey)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lacy";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The frost made a lacy pattern on the bushes.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/eNChF-u-BQg?t=439';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Wao0_uB4Zw4?t=919';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/qWAagS_MANg?t=149';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/4nqJiBRNQuw?t=581';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/TfH85qWVilQ?t=1073';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/LbPw9AlVKVM?t=536';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lacy""",
                       // alsoEnglishWord: "also: lacy",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleɪsi/""",
+                      americanText: """IpaUS: /ˈleɪsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +990,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تۆڕی، تۆڕئاسا، شێوەتۆڕ
 """),
 // With short examples define "lacy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە وەک قەیتان و دووخێن پێکهاتووە یان شێوەی لێی دەچێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The frost made a lacy pattern on the bushes.""",
+                      kurdishText: """زوقمەکە شێوەیەکی تۆڕی هەبوو لەسەر دەوەنەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

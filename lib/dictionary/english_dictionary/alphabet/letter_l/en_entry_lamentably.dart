@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylamentably lamentably
-WORD_WEB lamentably lamentably lamentably
-haʊʊʊʊʊʊʊ4
+- Adverb: lamentably
+1. In an unfortunate or deplorable manner (- deplorably, sadly, woefully)
+"he was lamentably neglected";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lamentably";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The Government has lamentably failed to address this vital issue.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/rxxe9eyWDCo?t=10';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/NBFe2VGzCTE?t=640';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/KDjhS30-Qms?t=371';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/k36RVoOeb9A?t=495';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ii9FrFS5olc?t=699';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/TMCwYLbQi7E?t=399';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lamentably""",
                       // alsoEnglishWord: "also: lamentably",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ləˈmentəbli/, /ˈlæməntəbli/""",
+                      americanText: """IpaUS: /ləˈmentəbli/, /ˈlæməntəbli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +992,16 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lamentably", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵکار) بە شێوەیەک کە جێگای نیگەرانییە"""),
+                    const AlsoEnglishckb(
+                        word: "ھەروەھا: deplorably، regrettably"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The Government has lamentably failed to address this vital issue.""",
+                      kurdishText:
+                          """حکومەت بە جێگای داخەوە شکستی هێناوە کە مامەڵە لەگەڵ ئەم بابەتە گرنگە بکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

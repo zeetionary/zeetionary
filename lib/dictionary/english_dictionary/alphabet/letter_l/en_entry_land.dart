@@ -52,13 +52,62 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: land (Derived forms: lands)
+1. The area of ground on which real estate is located
+"he built the house on land leased from the city"
+ 
+2. Material in the top layer of the surface of the earth in which plants can grow (especially with reference to its quality or use) (- ground, soil)
+"the land had never been ploughed";
+ 
+3. Territory over which rule or control is exercised (- domain, demesne)
+"he made it the law of the land";
+ 
+4. The solid part of the earth's surface (- dry land, earth, ground, solid ground, terra firma)
+"the plane turned away from the sea and moved back over land";
+ 
+5. The territory occupied by a nation (- country, state)
+"he returned to the land of his birth";
+ 
+6. A domain in which something is dominant (- kingdom, realm)
+"a land of make-believe";
+ 
+7. Extensive landed property (especially in the country) retained by the owner for his own use (- estate, landed estate, acres, demesne)
+ 
+8. The people who live in a nation or country (- nation, country)
+"a statement that sums up the land's mood";
+ 
+9. A politically organized body of people under a single government (- state, nation, country, commonwealth, res publica, body politic)
+"an industrialized land";
+ 
+10. Agriculture considered as an occupation or way of life (- farming)
+"there's no work on the land any more";
 
-EnglishEntryland land
-WORD_WEB land land land
-haʊʊʊʊʊʊʊ4
+- Verb: land (Derived forms: landing, lands, landed)
+1. Reach or come to rest (- set down)
+"The bird landed on the highest branch"; "The plane landed in Istanbul";
+ 
+2. (air travel) cause to come to the ground (- put down, bring down)
+"the pilot managed to land the aeroplane safely";
+ 
+3. Bring into a different state (- bring)
+"this may land you in jail";
+ 
+4. Bring ashore
+"The drug smugglers landed the heroin on the beach of the island"
+ 
+5. Deliver (a blow)
+"He landed several blows on his opponent's head"
+ 
+6. Arrive on shore (- set ashore, shore)
+"The ship landed in Pearl Harbor";
+ 
+7. Shoot at and force to come down (- down [informal], shoot down)
+"the enemy landed several of our aircraft";
+
+- Noun: Land (Derived forms: Lands)
+1. United States inventor who incorporated Polaroid film into lenses and invented the one step photographic process (1909-1991) (- Edwin H. Land, Din Land, Edwin Herbert Land)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "land";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +136,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It was good to be back on land.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""Some animals can live both on land and in water.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +976,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/yBj9Qlpwjcs?t=1138';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/hFZFjoX2cGg?t=64';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/MnExgQ81fhU?t=365';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/rPe4yziWiOg?t=352';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/sx5kljSJOxA?t=135';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/CpyoNaR2vfs?t=118';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +1001,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """land""",
                       // alsoEnglishWord: "also: land",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lænd/""",
+                      americanText: """IpaUS: /lænd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1040,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: عەرز، خاک، بووم، زەوی، زەمین، هەرد، وشکانی، بەژ،	وڵات،	مڵک، زەوی‌وزار، خاک،	لادێکان، گوندەکان (لە بەرامبەر شارەکان‌دا)،	گەل، نەتەوە،	بوار، پانتایی، زەمینە، مەڵبەند
 """),
 // With short examples define "land", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ڕووی وشکانی سەر زەوی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It was good to be back on land.""",
+                      kurdishText: """خۆشي لەسەر وشکانی دەبینەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1055,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Some animals can live both on land and in water.""",
+                      kurdishText:
+                          """هەندێک ئاژەڵ دەتوانن لە هەردوو سەر وشکانی و ئاودا بژین.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

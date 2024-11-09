@@ -13,10 +13,11 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 // import 'package:feedback_gitlab/feedback_gitlab.dart';
 // import 'package:zeetionary/feedback.dart';
 // import 'dart:async';
-
-
 import 'package:zeetionary/constants/constants_others.dart';
 
+
+
+// '[^']*-[^']*' // find youtube videos with hyphens
 
 class YoutubeEmbeddingWidget extends StatelessWidget {
   final String videoId;

@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylager lager
-WORD_WEB lager lager lager
-haʊʊʊʊʊʊʊ4
+- Noun: lager (Derived forms: lagers)
+1. A camp defended by a circular formation of wagons (- laager [S.Africa])
+ 
+2. A general term for beer made with bottom fermenting yeast (usually by decoction mashing); originally it was brewed in March or April and matured until September (- lager beer)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lager";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +86,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The first golden lager beer was created in what is now the Czech Republic.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Two lagers, please.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/qom3PQTLTr8?t=1445';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/FBWHXDzWrw4?t=77';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/nf3maJWJgSo?t=638';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/hdqOCE9A9ak?t=809';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/aTBhpS570JE?t=214';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/JOlSuAF5I2w?t=626';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lager""",
                       // alsoEnglishWord: "also: lager",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɑːɡə(r)/""",
+                      americanText: """IpaUS: /ˈlɑːɡər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +993,23 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lager", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) جۆرە بیرەیەکی کاڵی کە کە تامەکەی کەم توندە و زۆرجار کەفی زۆرە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The first golden lager beer was created in what is now the Czech Republic.""",
+                      kurdishText:
+                          """یەکەم بیرەی لاگەری ئاڵتوونی یەکەم جار درووستکرا لەو شوێنەی ئێستا کۆماری چیکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) گڵاسێک لاگەر"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Two lagers, please.""",
+                      kurdishText: """تکایە دوو گڵاس لاگەر.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

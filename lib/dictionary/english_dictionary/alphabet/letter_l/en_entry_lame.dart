@@ -52,13 +52,28 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: lame (Derived forms: lamer, lamest)
+1. Disabled in the feet or legs (- crippled, halt [archaic], halting, gimpy [N. Amer, informal], game [informal])
+"a lame soldier";
+ 
+2. Arousing no interest, attention, curiosity or excitement (- uninteresting, lameo [informal], uninspiring, meh [informal])
+"a very lame account of her trip";
+ 
+3. Pathetically lacking in force or effectiveness (- feeble, wussy [informal])
+"a lame argument";
 
-EnglishEntrylame lame
-WORD_WEB lame lame lame
-haʊʊʊʊʊʊʊ4
+- Noun: lame (Derived forms: lames)
+Usage: US, informal
+1. Someone who doesn't understand what is going on (- square)
+
+- Verb: lame (Derived forms: lames, lamed, laming)
+1. Deprive of the use of a limb, especially a leg (- cripple)
+
+- Noun: lamé
+1. A fabric interwoven with threads of metal
+"she wore a gold lamé dress"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lame";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +102,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""My horse had gone lame.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The accident left her slightly lame.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Stephen made some lame excuse.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The humour is more lame than funny.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +941,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/YRhqMWUH2Ig?t=1685';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/D-2799Y07Zc?t=369';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/DPZzrlFCD_I?t=247';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Q7tpzWYg--0?t=748';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/AI8Rl6WK2H8?t=515';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/tc31uZ9wK98?t=726';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +966,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lame""",
                       // alsoEnglishWord: "also: lame",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /leɪm/""",
+                      americanText: """IpaUS: /leɪm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1005,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شەل، گۆج، گێڕ، لەنگ،	(بیانوو) هیچ، لاواز، سست، بێجێ، قۆڕ، باوەڕپێ‌نەکراو، پەسندنەکراو
 """),
 // With short examples define "lame", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە نەتوانیت باش بە ڕێگادا بچیت بەهۆی برین لە لاق یان پێ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """My horse had gone lame.""",
+                      kurdishText: """ئەسپەکەم شەل بووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,26 +1021,29 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The accident left her slightly lame.""",
+                      kurdishText: """ڕووداوەکە کەمێک شەلی کرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ھاوەڵناو) لاواز و سەخت کە جێگای باوەڕ بێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: feeble، unconvincing"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Stephen made some lame excuse.""",
+                      kurdishText: """ستیفن بیانوویەکی هیچی دۆزییەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(
+                        text: """٣. (ھاوەڵناو) کە سەرنجڕاکێش نییە"""),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The humour is more lame than funny.""",
+                      kurdishText:
+                          """گاڵتەکە زیاتر هیچە وەک لەوەی پێکەنیناوی بێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lance (Derived forms: lances)
+1. A long pointed rod used as a tool or weapon (- spear, shaft)
+ 
+2. An implement with a shaft and barbed point used for catching fish (- spear, gig, fizgig, fishgig)
+ 
+3. A surgical knife with a pointed double-edged blade; used for punctures and small incisions (- lancet)
 
-EnglishEntrylance lance
-WORD_WEB lance lance lance
-haʊʊʊʊʊʊʊ4
+- Verb: lance (Derived forms: lanced, lances, lancing)
+1. Move quickly, as if by cutting one's way
+"Planes lanced towards the shore"
+ 
+2. Pierce with a lance, as in a knights' fight
+ 
+3. Open by piercing with a lancet
+"lance a boil"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lance";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +97,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The knight lowered his lance to charge forward.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""She had a boil lanced at the doctor's this morning.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Pain lanced through his body.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +938,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/x39hJvSPKHs';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/CMXmSkTrgYM';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/OgDAFxVm5tw?t=181';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ZbgeExmIAO0?t=729';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/RFFs_LW7iOM?t=1365';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/oBsMQOHWiWM?t=372';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +963,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lance""",
                       // alsoEnglishWord: "also: lance",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /læns/""",
+                      americanText: """IpaUS: /læns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +1002,40 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نێزە، ڕم، ڕمب، نەیزە، تیر، خشت
 """),
-// With short examples define "lance", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) چەکێک کە دەسکێکی درێژی داریی هەیە لەگەڵ دەمێکی کانزایی نووکدار کە لە کۆندا لەلایەن ئەسپسوارەکانەوە لە جەنگدا بەکاردەهات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The knight lowered his lance to charge forward.""",
+                      kurdishText:
+                          """سوارەکە ڕمەکەیی نزمکردەوە بۆ هێرش بۆ پێشەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) ئەوەی برینی ئاوساو ببڕیت بۆ ئەوەی بهێڵیت پیسییەکەی ناوی دەربچێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She had a boil lanced at the doctor's this morning.""",
+                      kurdishText:
+                          """ئەم بەیانییە زیپکەیەکی لای دکتۆرەکە تەقێندرا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (کردار) ئەوەی ئازار بە خێرایی و لەناکاو تێپەڕێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Pain lanced through his body.""",
+                      kurdishText: """ئازار بە جەستەیدا هاژەی دەهات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

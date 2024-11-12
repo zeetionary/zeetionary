@@ -9,7 +9,8 @@ class EnglishEntrylandingcraft extends StatefulWidget {
   const EnglishEntrylandingcraft({super.key});
 
   @override
-  State<EnglishEntrylandingcraft> createState() => _EnglishEntrylandingcraftState();
+  State<EnglishEntrylandingcraft> createState() =>
+      _EnglishEntrylandingcraftState();
 }
 
 class _EnglishEntrylandingcraftState extends State<EnglishEntrylandingcraft> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylandingcraft landing craft
-WORD_WEB landing craft landing craft landing craft
-haʊʊʊʊʊʊʊ4
+- Noun: landing craft
+1. Naval craft designed for putting ashore troops and equipment
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "landing craft";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """They used landing craft to deliver food and water supplies.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/cl3ySfKfv1s?t=1041';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Z4mPUWWI_o8?t=716';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/O177L4pu2jg?t=454';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ElQdUHSXkME?t=436';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/3ZRVpYPFOl0?t=150';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/IgF3OX8nT0w?t=664';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """landing craft""",
                       // alsoEnglishWord: "also: landing craft",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlændɪŋ krɑːft/""",
+                      americanText: """IpaUS: /ˈlændɪŋ kræft/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەلەمی داگرتن، بەلەمی دابەزاندن یان داگرتنی دەزگا و سەربازەکان لە کەناردا، بەلەمی هێزدابەزێن
 """),
-// With short examples define "landing craft", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) بەلەمێک کە ژێرەکەی تەختە و لەسەر کەشتییەک هەڵدەگیرێت. بەلەمەکە لە لایەکەوە دەکرێتەوە و لێیەوە سەرباز و کەرەستە و ئامێر دەهێنرێنە سەر زەوی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """They used landing craft to deliver food and water supplies.""",
+                      kurdishText:
+                          """بەلەمی نیشتنەوەیان بەکارهێنا بۆ هێنانی ئازووقەی خواردن و ئاو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

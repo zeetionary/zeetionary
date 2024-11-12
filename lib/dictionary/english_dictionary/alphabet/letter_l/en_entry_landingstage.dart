@@ -9,7 +9,8 @@ class EnglishEntrylandingstage extends StatefulWidget {
   const EnglishEntrylandingstage({super.key});
 
   @override
-  State<EnglishEntrylandingstage> createState() => _EnglishEntrylandingstageState();
+  State<EnglishEntrylandingstage> createState() =>
+      _EnglishEntrylandingstageState();
 }
 
 class _EnglishEntrylandingstageState extends State<EnglishEntrylandingstage> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylandingstage landing stage
-WORD_WEB landing stage landing stage landing stage
-haʊʊʊʊʊʊʊ4
+- Noun: landing stage (Derived forms: landing stages)
+1. Platform from which passengers and cargo can be (un)loaded
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "landing stage";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The boat waited at the landing stage for passengers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/hcPHVPsCLVs?t=80';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/vKjDGNg80PM?t=330';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/_a5kAltzAZ8?t=640';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/7ua7tWvsz1Q?t=681';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/uElRuhglhC8?t=405';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/UEO77UEFGT4?t=394';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """landing stage""",
                       // alsoEnglishWord: "also: landing stage",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlændɪŋ steɪdʒ/""",
+                      americanText: """IpaUS: /ˈlændɪŋ steɪdʒ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +991,15 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "landing stage", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) سەکۆیەکی دارینی تەخت سەرئاوکەوتوو کە لێیەوە بەلەم خەڵکی هەڵدەگرێت یان دایان دەگرێت، یان کەلووپەل هەڵدەگرێت یان دایدەگرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: jetty"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The boat waited at the landing stage for passengers.""",
+                      kurdishText:
+                          """بەلەمەکە لە لەنگەرگاکە چاوەڕێی گەشتیاران بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

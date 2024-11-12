@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylandline landline
-WORD_WEB landline landline landline
-haʊʊʊʊʊʊʊ4
+- Noun: landline (Derived forms: land lines, landlines)
+1. A telephone line that travels over terrestrial circuits (- land line)
+"a landline can be wire or fibre optics or microwave";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "landline";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I'll call you later on the landline.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/DxREm3s1scA?t=5468';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/THIGSnMP3io?t=1077';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/OgFcz6klaeg?t=148';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Am1lDj2mUVY?t=802';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/5R65skWdg7Y?t=399';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/p3O6bKdPLbw?t=1937';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """landline""",
                       // alsoEnglishWord: "also: landline",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlændlaɪn/""",
+                      americanText: """IpaUS: /ˈlændlaɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,13 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "landline", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پەیوەندیی تەەفۆنی کە وایەر لەخۆ دەگرێت کە بە ستوون یان بە ژێر زەویدا دەگوازرێتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I'll call you later on the landline.""",
+                      kurdishText:
+                          """دواتر لە لاندلاینەوە پەیوەندیت پێوە دەکەم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

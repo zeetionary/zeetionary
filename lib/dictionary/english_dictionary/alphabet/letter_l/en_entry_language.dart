@@ -52,13 +52,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylanguage language
-WORD_WEB language language language
-haʊʊʊʊʊʊʊ4
+- Noun: language (Derived forms: languages)
+1. A systematic means of communicating by the use of sounds or conventional symbols (- linguistic communication)
+"he taught foreign languages"; "the language introduced is standard throughout the text"; "the speed with which a program can be executed depends on the language in which it is written";
+ 
+2. (language) communication by word of mouth (- speech, speech communication, spoken communication, spoken language, voice communication, oral communication)
+"he uttered harsh language"; "he recorded the spoken language of the streets";
+ 
+3. The text of a popular song or musical-comedy number (- lyric, words)
+"the song uses colloquial language";
+ 
+4. The cognitive processes involved in producing and understanding linguistic communication (- linguistic process)
+"he didn't have the language to express his feelings";
+ 
+5. The mental faculty or power of vocal communication (- speech)
+"language sets homo sapiens apart from all other animals";
+ 
+6. A system of words used to name things in a particular discipline (- terminology, nomenclature)
+"the language of sociology";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "language";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +100,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It takes a long time to learn to speak a language well.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +939,20 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/ewLpXw6uN28?t=146';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/_GFkHA5EZdE?t=63';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/1KbamNWEfdw';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/8t_qFivFGaM';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/HZzHIl9mBsI?t=70';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/J4hQFL5ICxY?t=221';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
+    const String videoIdsix = 'https://youtu.be/ecEoMQnmklI?t=134';
+    const double startSecondssix = 0;
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +966,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """language""",
                       // alsoEnglishWord: "also: language",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlæŋɡwɪdʒ/""",
+                      americanText: """IpaUS: /ˈlæŋɡwɪdʒ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +1008,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "language", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) زمان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It takes a long time to learn to speak a language well.""",
+                      kurdishText: """کاتێکی زۆری پێدەچێت تاوەکو فێر بیت بە باشی قسە بە زمانێک بکەیت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2138,6 +2150,11 @@ haʊʊʊʊʊʊʊ4
                     key: ValueKey(videoIdfive),
                     videoId: videoIdfive,
                     startSeconds: startSecondsfive,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdsix),
+                    videoId: videoIdsix,
+                    startSeconds: startSecondssix,
                   ),
                 ],
               ),

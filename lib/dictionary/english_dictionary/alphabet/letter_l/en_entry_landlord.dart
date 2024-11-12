@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylandlord landlord
-WORD_WEB landlord landlord landlord
-haʊʊʊʊʊʊʊ4
+- Noun: landlord (Derived forms: landlords)
+1. A landowner who leases to others
+"my landlord is also an old friend"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "landlord";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The landlord had promised to redecorate the bedrooms before we moved in.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/JR3z8lq2cNM?t=51';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Zad6v8ZHzdg?t=106';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/5R65skWdg7Y?t=2075';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Mx8JkGHaGUI?t=2221';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/raSeaAeryWE?t=1335';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/Cqbleas1mmo?t=56';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """landlord""",
                       // alsoEnglishWord: "also: landlord",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlændlɔːd/""",
+                      americanText: """IpaUS: /ˈlændlɔːrd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,17 +989,21 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خاوەن‌ماڵ، خانەخوێ (پیاو)،	خاوەن میوان‌خانە، بەڕێوەبەری میوان‌خانە،	خاوەن‌زەوی، خاوەن زەوی‌وزار
 """),
 // With short examples define "landlord", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەس یان کۆمپانیایەک کە ژوور، خانوو، هتد ــی لێ بەکرێ دەگریت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The landlord had promised to redecorate the bedrooms before we moved in.""",
+                      kurdishText:
+                          """خاوەن خانووەکە بەڵێنی دابوو کە ژووری خەوەکان بڕازێنێتەوە پێش ئەوەی ئێمە بچینە ناوی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    // skipped_meaning
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

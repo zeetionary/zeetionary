@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylanyard lanyard
-WORD_WEB lanyard lanyard lanyard
-haʊʊʊʊʊʊʊ4
+- Noun: lanyard (Derived forms: lanyards)
+1. A cord worn around the neck to hold a knife, whistle, ID card, etc. (- laniard)
+ 
+2. (nautical) a line used for extending or fastening rigging on ships (- laniard)
+ 
+3. A cord with an attached hook that is used to fire certain types of cannon (- laniard)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lanyard";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""A lanyard is useful for carrying your ID card.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """A wind was blowing, and the lanyards of the boats in the harbour chattered loudly.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/zr6uggwTXdA?t=445';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/zU1BdmqyD0k';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/N8M8OOe3SV4?t=70';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/22V7YNZFJQk?t=469';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/IiyBo-qLDeM?t=1208';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/f3DfJxvkN-8?t=138';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lanyard""",
                       // alsoEnglishWord: "also: lanyard",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlænjɑːd/,  /ˈlænjəd/""",
+                      americanText: """IpaUS: /ˈlænjərd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +996,27 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lanyard", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) شریتێک کە لە دەوری مل یان مەچەکتی دەبەستیت بۆ ڕاگرتنی شتێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A lanyard is useful for carrying your ID card.""",
+                      kurdishText:
+                          """شریت بەسوودە بۆ هەڵگرتنی کاردی ناسنامە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) حەبلێک کە بۆ توندکردنی شتێک بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A wind was blowing, and the lanyards of the boats in the harbour chattered loudly.""",
+                      kurdishText:
+                          """بایەک دەهات و حەبلی بەلەمەکان لە بەندەرەکە بە بەرزی شریقەیان دەهات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

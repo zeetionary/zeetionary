@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylanguish languish
-WORD_WEB languish languish languish
-haʊʊʊʊʊʊʊ4
+- Verb: languish (Derived forms: languishing, languishes, languished)
+1. Lose vigour, health, or flesh, as through grief (- pine away, waste)
+"After her husband died, she just languished";
+ 
+2. Have a desire for something or someone who is not present (- ache, yearn, yen, pine)
+"She languished for a cigarette";
+ 
+3. Become feeble (- fade)
+"The prisoner has been languishing for years in the dungeon";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "languish";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""She continues to languish in a foreign prison.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The share price languished at 102p.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/2m47R2oJEZQ?t=202';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/i_mLxyIXpSY?t=75';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/6sN3k-Dz96U?t=1300';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/b1M54fEdRJg?t=57';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/HBFMysfLlJU?t=1197';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/_uSJDq7VPrw?t=811';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """languish""",
                       // alsoEnglishWord: "also: languish",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlæŋɡwɪʃ/""",
+                      americanText: """IpaUS: /ˈlæŋɡwɪʃ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,25 +998,30 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "languish", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) ئەوەی زۆرت لێ بکرێت لە شوێنێک بمێنیتەوە یان ئازارێکی ناخۆش بچێژیت بۆ ماوەیەکی زۆر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She continues to languish in a foreign prison.""",
+                      kurdishText:
+                          """بەردەوامە لە ئازار چەشتن لە زیندانێکی بیانی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) ئەوەی لاوازتر بیت یان نەتوانیت بەرەو پێشەوە بچیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The share price languished at 102p.""",
+                      kurdishText: """نرخی پشک لە ١٠٢ پێنس مایەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """speaksentence300""",

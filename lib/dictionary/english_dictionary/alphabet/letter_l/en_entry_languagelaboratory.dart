@@ -9,10 +9,12 @@ class EnglishEntrylanguagelaboratory extends StatefulWidget {
   const EnglishEntrylanguagelaboratory({super.key});
 
   @override
-  State<EnglishEntrylanguagelaboratory> createState() => _EnglishEntrylanguagelaboratoryState();
+  State<EnglishEntrylanguagelaboratory> createState() =>
+      _EnglishEntrylanguagelaboratoryState();
 }
 
-class _EnglishEntrylanguagelaboratoryState extends State<EnglishEntrylanguagelaboratory> {
+class _EnglishEntrylanguagelaboratoryState
+    extends State<EnglishEntrylanguagelaboratory> {
   @override
   void initState() {
     super.initState();
@@ -52,13 +54,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylanguagelaboratory language laboratory
-WORD_WEB language laboratory language laboratory language laboratory
-haʊʊʊʊʊʊʊ4
+Noun: language laboratory
+1. ​a room in a school or college that contains special equipment to help students learn foreign languages by listening to recordings, watching videos, recording themselves, etc.
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "language laboratory";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """She improved her English accent in the language laboratory.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/U_PGr5d9r7Q?t=2548';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/pJil0xBlb3U?t=669';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/M6oU6AdMGYc?t=222';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/pB_degMuvus?t=41';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/7zjIxiVIT00?t=693';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/njZTlmnZFlU?t=4';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """language laboratory""",
                       // alsoEnglishWord: "also: language laboratory",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlæŋɡwɪdʒ ləbɒrətri/""",
+                      americanText: """IpaUS: /ˈlæŋɡwɪdʒ læbrətɔːri/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +992,14 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "language laboratory", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ژوور لە قوتابخانەیەک یان کۆلێژێک کە ئامێری تایبەتی تێدایە بۆ یارمەتیدانی خوێندکاران بۆ فێربوونی زمان بە گوێگرتن، تۆمارکردن، سەیرکردنی ڤیدیۆ، تۆمارکردنی خۆیان، هتد"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """She improved her English accent in the language laboratory.""",
+                      kurdishText:
+                          """لە تاقیگەی زمانەکە ئەکسێنتە ئینگلیزییەکەیی بەهێز کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

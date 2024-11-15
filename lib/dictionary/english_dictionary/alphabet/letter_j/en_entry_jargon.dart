@@ -108,8 +108,8 @@ ${englishMeaningConst.text}
     const double startSecondsone = 0;
     const String videoIdtwo = 'https://youtu.be/_36O2MdngXs?t=2850';
     const double startSecondstwo = 0;
-    const String videoIdthree = 'https://youtu.be/z2exxj4COhU?t=1576';
-    const double startSecondsthree = 0;
+    const String videoIdthree = 'z2exxj4COhU';
+    const double startSecondsthree = 1576;
     const String videoIdfour = 'https://youtu.be/5NphiQOOe0k?t=360';
     const double startSecondsfour = 0;
     const String videoIdfive = 'https://youtu.be/wIvv5PKpiqw?t=180';

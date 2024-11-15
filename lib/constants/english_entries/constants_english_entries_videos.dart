@@ -15,39 +15,101 @@ import 'package:flutter_riverpod/flutter_riverpod.dart';
 // import 'dart:async';
 import 'package:zeetionary/constants/constants_others.dart';
 
+// '[^']*-[^']*'
+// find youtube videos with hyphens. Below has problems with hyphens
 
+// class YoutubeEmbeddingWidget extends StatelessWidget {
+//   final String videoId;
+//   final double startSeconds;
 
-// '[^']*-[^']*' // find youtube videos with hyphens
+//   const YoutubeEmbeddingWidget({
+//     super.key,
+//     required this.videoId,
+//     required this.startSeconds,
+//   });
+
+//   @override
+//   Widget build(BuildContext context) {
+//     YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
+//       videoId: videoId,
+//       startSeconds: startSeconds,
+//       autoPlay: true,
+//       params: const YoutubePlayerParams(
+//         enableCaption: true,
+//         captionLanguage: 'en',
+//         showControls: false,
+//         strictRelatedVideos: true,
+//       ),
+//     );
+
+//     void reloadVideo() {
+//       controller.loadVideoById(
+//         videoId: videoId,
+//         startSeconds: startSeconds,
+//       );
+//     }
+
+//     return YouTubeVideosScaffold(
+//       controller: controller,
+//       onReloadVideo: reloadVideo,
+//     );
+//   }
+// }
 
 class YoutubeEmbeddingWidget extends StatelessWidget {
   final String videoId;
   final double startSeconds;
+  final bool autoPlay; // New parameter for autoplay
 
   const YoutubeEmbeddingWidget({
     super.key,
     required this.videoId,
     required this.startSeconds,
+    this.autoPlay = true, // Default is no autoplay
   });
 
   @override
   Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: videoId,
-      startSeconds: startSeconds,
-      autoPlay: true,
+    // Construct the full URL using the video ID
+    String fullUrl = "https://www.youtube.com/embed/$videoId?version=3";
+
+    // Create the controller
+    YoutubePlayerController controller = YoutubePlayerController(
       params: const YoutubePlayerParams(
         enableCaption: true,
         captionLanguage: 'en',
         showControls: false,
         strictRelatedVideos: true,
+        showFullscreenButton: false,
+        showVideoAnnotations: false,
       ),
     );
 
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: videoId,
+    // Load the video with or without autoplay
+    if (autoPlay) {
+      controller.loadVideoByUrl(
+        mediaContentUrl: fullUrl,
         startSeconds: startSeconds,
       );
+    } else {
+      controller.cueVideoByUrl(
+        mediaContentUrl: fullUrl,
+        startSeconds: startSeconds,
+      );
+    }
+
+    void reloadVideo() {
+      if (autoPlay) {
+        controller.loadVideoByUrl(
+          mediaContentUrl: fullUrl,
+          startSeconds: startSeconds,
+        );
+      } else {
+        controller.cueVideoByUrl(
+          mediaContentUrl: fullUrl,
+          startSeconds: startSeconds,
+        );
+      }
     }
 
     return YouTubeVideosScaffold(

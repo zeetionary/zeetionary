@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylarder larder
-WORD_WEB larder larder larder
-haʊʊʊʊʊʊʊ4
+- Noun: larder (Derived forms: larders)
+1. A supply of food especially for a household
+ 
+2. A small storeroom for storing foods or wines (- pantry, buttery)
+"keep food for a week in the larder";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "larder";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He comes home from school and raids the larder.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""There's some ham in the larder—help yourself.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/lo2IrGVfmLI?t=235';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/47FCm_n6SK0?t=783';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/QMgKLCiODo8?t=279';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/1Tu-WHCG7_s?t=1476';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/xV9spqCzSkQ?t=254';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/tCqwT2MqLxI?t=121';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """larder""",
                       // alsoEnglishWord: "also: larder",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɑːdə(r)/""",
+                      americanText: """IpaUS: /ˈlɑːrdər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +993,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "larder", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) دۆڵاب یان ژوورێکی بچووک لە خانوویەک کە بۆ هەڵگرتنی خواردن بەکاردێت، بە تایبەتی لە ڕابردوودا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He comes home from school and raids the larder.""",
+                      kurdishText: """لە قوتابخانە دێتەوە و پەلاماری دۆڵابی خواردنەکە دەدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1004,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """There's some ham in the larder—help yourself.""",
+                      kurdishText: """هەندێک ڕانە بەراز هەیە لە دۆڵابی خواردنەکە ـ بۆ خۆتی بهێنە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

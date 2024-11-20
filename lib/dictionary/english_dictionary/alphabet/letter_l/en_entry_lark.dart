@@ -52,13 +52,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lark (Derived forms: larks)
+1. A songbird that lives mainly on the ground in open country; has streaky brown plumage (- pipit, titlark)
+ 
+2. North American songbirds having a yellow breast (- meadowlark)
+ 
+3. Any of numerous predominantly Old World birds noted for their singing
+ 
+4. [informal] Any carefree episode (- escapade)
 
-EnglishEntrylark lark
-WORD_WEB lark lark lark
-haʊʊʊʊʊʊʊ4
+- Verb: lark (Derived forms: larking, larks, larked)
+Usage: informal
+1. Play boisterously (- frolic, rollick, skylark [informal], disport, sport, cavort, gambol, frisk, romp, run around, lark about [informal])
+"The children larked in the garden";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lark";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +95,15 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The lark sang high above the field.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak(
+        """The boys didn't mean any harm—they just did it for a lark.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +935,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/9CJNROrCtzE?t=164';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/DHLVQXXFIsc?t=122';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Aoaec1Npjoc?t=40';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/8Y417UNLomM?t=30';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/SJZkoS5LCI0?t=295';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/tsAFoUyTsrk?t=237';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lark""",
                       // alsoEnglishWord: "also: lark",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɑːk/""",
+                      americanText: """IpaUS: /lɑːrk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,21 +1001,26 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "lark", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) باڵندەیەکی بچووکی قاوەیی کە دەنگێکی خۆشی هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The lark sang high above the field.""",
+                      kurdishText:
+                          """فشەکڵاونەکە بەرز لەسەر دەشتەکانەوە دەیخوێند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) شتێک کە بۆ گاڵتە یان وەک نوکتە دەیکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The boys didn't mean any harm—they just did it for a lark.""",
+                      kurdishText:
+                          """کوڕەکان مەبەستیان هیچ خراپییەک نەبوو ـ تەنها وەک گاڵتەیەک کردیان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

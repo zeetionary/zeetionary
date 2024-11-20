@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylargescale large-scale
-WORD_WEB large-scale large-scale large-scale
-haʊʊʊʊʊʊʊ4
+- Adjective: large-scale
+1. Unusually large in scope
+"a large-scale attack on AIDS is needed"
+ 
+2. Constructed or drawn to a big scale
+"large-scale maps"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "large-scale";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The proposals include large-scale investment in agriculture and industry.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/xjmXzYdxuTQ?t=420';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/rWVAzS5duAs?t=1346';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/4Q1FzhMY8FQ?t=264';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/T15gXm6ha_I?t=569';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/cCP9vjp4kSg?t=1889';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/DxL2HoqLbyA?t=1473';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """large-scale""",
                       // alsoEnglishWord: "also: large-scale",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌlɑːdʒ ˈskeɪl/""",
+                      americanText: """IpaUS: /ˌlɑːrdʒ ˈskeɪl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +995,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "large-scale", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ھاوەڵناو) کە ژمارەیەکی زۆر کەس یان شت لەخۆ دەگرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The proposals include large-scale investment in agriculture and industry.""",
+                      kurdishText:
+                          """پێشنیارەکان وەبەرهێنانی زۆر لە کشتووکاڵ و پیشەسازی لەخۆ دەگرن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

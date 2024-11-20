@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylarch larch
-WORD_WEB larch larch larch
-haʊʊʊʊʊʊʊ4
+- Noun: larch (Derived forms: larches)
+1. Any of numerous conifers of the genus Larix all having deciduous needlelike leaves (- larch tree)
+ 
+2. Wood of a larch tree
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "larch";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The larch tree grows quickly in cold climates.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/-UH8T-xx2Zc?t=412';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/LRcXAQmbFUI?t=289';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/KQF9WdZrH_c?t=220';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/NhoIK-tML_k?t=19';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/9A9Pg7nF1Xs?t=445';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/I8DlXa_933Y?t=504';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """larch""",
                       // alsoEnglishWord: "also: larch",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɑːtʃ/""",
+                      americanText: """IpaUS: /lɑːrtʃ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,15 +992,18 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "larch", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) درەختێک کە گەڵای نووکداری تیژی هەیە و لە زستاندا گەڵای دەوەرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The larch tree grows quickly in cold climates.""",
+                      kurdishText:
+                          """درەختی لارچ خێرا لە ئاووهەوای سارددا گەشە دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    // review_translation
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

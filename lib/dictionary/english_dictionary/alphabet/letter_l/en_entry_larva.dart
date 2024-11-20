@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylarva larva
-WORD_WEB larva larva larva
-haʊʊʊʊʊʊʊ4
+- Noun: larva (Derived forms: larvae, larvas)
+1. The immature free-living form of most invertebrates and amphibians and fish which at hatching from the egg is fundamentally unlike its parent and must metamorphose
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "larva";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/oD2OrBjqVtY?t=140';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Fr-qagv7ig0?t=331';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/qUNYPkroz18?t=336';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/HhUdYJg0JOM?t=477';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/KDGJmzqvKTg?t=209';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/YB6O7jS_VBM?t=62';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """larva""",
                       // alsoEnglishWord: "also: larva",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɑːvə/""",
+                      americanText: """IpaUS: /ˈlɑːrvə/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

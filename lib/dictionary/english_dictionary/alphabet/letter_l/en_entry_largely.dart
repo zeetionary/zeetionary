@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylargely largely
-WORD_WEB largely largely largely
-haʊʊʊʊʊʊʊ4
+- Adverb: largely
+1. In large part; mainly or chiefly (- mostly, for the most part, predominately)
+"These accounts are largely inactive";
+ 
+2. On a large scale
+"the sketch was so largely drawn that you could see it from the back row"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "largely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,16 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The manager was largely responsible for the team’s victory.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""He resigned largely because of the stories in the press.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/2uyy1EOBBm4?t=56';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/T9Nfoq-_38Q?t=160';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/qmjeUnkUwnw?t=852';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/b4wRdoWpw0w?t=255';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/LXhLlWQtdt0?t=290';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/ewLpXw6uN28?t=404';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """largely""",
                       // alsoEnglishWord: "also: largely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɑːdʒli/""",
+                      americanText: """IpaUS: /ˈlɑːrdʒli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +993,16 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زۆرتر، پتر، دووبەشی، یەکجار، تا ڕادەیێ زۆر
 """),
 // With short examples define "largely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵکار) بە ئاستێکی زۆر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The manager was largely responsible for the team’s victory.""",
+                      kurdishText:
+                          """بەڕێوەبەرەکە بە ئاستێکی زۆر بەرپرس بوو بۆ سەرکەوتنی تیمەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1010,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He resigned largely because of the stories in the press.""",
+                      kurdishText:
+                          """بە ئاستی زۆر دەستی لەکار کێشایەوە بەهۆی هەواڵی ناو میدیاکان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

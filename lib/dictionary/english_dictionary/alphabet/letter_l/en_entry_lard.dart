@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lard (Derived forms: lards)
+1. Soft white semisolid fat obtained by rendering the fatty tissue of the hog
 
-EnglishEntrylard lard
-WORD_WEB lard lard lard
-haʊʊʊʊʊʊʊ4
+- Verb: lard (Derived forms: lards, larded, larding)
+1. (cooking) prepare or cook with lard
+"lard meat"
+ 
+2. Make appear better or greater (in power, wealth, quality, etc.) than reality (- embroider, pad, embellish, aggrandize, aggrandise [Brit], blow up, dramatize, dramatise [Brit])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lard";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Use sunflower oil instead of lard.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/XKDhq2UcjIM?t=896';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/tqPub3p3k5E?t=113';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/jBnWZijMbMY?t=241';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/dT5ALH3ICTc?t=491';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Wao0_uB4Zw4?t=750';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/D_Y18GEjfNY?t=47';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lard""",
                       // alsoEnglishWord: "also: lard",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɑːd/""",
+                      americanText: """IpaUS: /lɑːrd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +996,11 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lard", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) بەزی بەراز"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Use sunflower oil instead of lard.""",
+                      kurdishText:
+                          """زەیتی گوڵەبەڕۆژە بەکاربێنە لە جیاتی بەزی بەراز.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

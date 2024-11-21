@@ -9,7 +9,8 @@ class EnglishEntrylaserprinter extends StatefulWidget {
   const EnglishEntrylaserprinter({super.key});
 
   @override
-  State<EnglishEntrylaserprinter> createState() => _EnglishEntrylaserprinterState();
+  State<EnglishEntrylaserprinter> createState() =>
+      _EnglishEntrylaserprinterState();
 }
 
 class _EnglishEntrylaserprinterState extends State<EnglishEntrylaserprinter> {
@@ -52,13 +53,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylaserprinter laser printer
-WORD_WEB laser printer laser printer laser printer
-haʊʊʊʊʊʊʊ4
+- Noun: laser printer (Derived forms: laser printers)
+1. Electrostatic printer that focuses a laser beam to form images that are transferred to paper electrostatically
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "laser printer";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """This laser printer will offer top-quality printing at a reasonable price.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/xHOWUR8vTvo?t=112';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/SmVob1QMdMQ?t=755';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/qNCHu3qn-PU?t=7077';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/YE0U018Copw?t=186';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/KL_dhpvb-ZM?t=179';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/npeCDLsyJwE?t=255';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """laser printer""",
                       // alsoEnglishWord: "also: laser printer",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleɪzə prɪntə(r)/""",
+                      americanText: """IpaUS: /ˈleɪzər prɪntər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +992,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "laser printer", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) پرینتەرێکی کۆمپیوتەری کە نووسین و وێنەی زۆر ڕوون درووست دەکات بە ڕووناکی بەهێزی لەیزەر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This laser printer will offer top-quality printing at a reasonable price.""",
+                      kurdishText:
+                          """پرنتەرە لەزەرییەکە نەخشی باشترین کوالێتی بە نرخێکی گونجاو پێشکەش دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

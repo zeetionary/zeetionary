@@ -84,8 +84,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Butterflies start as a small larva in the egg.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -988,14 +987,12 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پرگ، کرم، کرمۆکە، کرمینە، کرمی مێروو، بەچکەمێروو، مێرووزا
 """),
-// With short examples define "larva", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) مێروویەک کە تازە لە هێلکە هاتووەتە دەرەوە و وەک کرمێکی قەڵەوی کورتە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Butterflies start as a small larva in the egg.""",
+                      kurdishText: """پەپوولە وەک کرمۆکە لە هێلکە دەست پێدەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

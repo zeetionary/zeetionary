@@ -55,7 +55,7 @@ ${englishMeaningConst.text}
 
 EnglishEntrylather lather
 WORD_WEB lather lather lather
-haʊʊʊʊʊʊʊ4
+/ˈlæðər/
 """,
   );
 // 188888880002200000000000
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lather""",
                       // alsoEnglishWord: "also: lather",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɑːðə(r)/""",
+                      americanText: """IpaUS: /ˈlæðər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

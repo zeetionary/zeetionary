@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylasting lasting
-WORD_WEB lasting lasting lasting
-haʊʊʊʊʊʊʊ4
+- Adjective: lasting
+1. Existing for a long time (- durable, long-lasting, long-lived)
+"a long-lasting friendship"; "a lasting relationship";
+ 
+2. Continuing or enduring without marked change in status or condition or place (- permanent)
+"lasting secretary to the president";
+ 
+3. (biology) retained; not shed (- persistent)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lasting";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Her words left a lasting impression on me.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I formed several lasting friendships at college.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/JR3z8lq2cNM?t=142';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Gi3HnqetpLw?t=58';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/aTDG16Mh2_w?t=509';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/1j_k5WCFShQ?t=272';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/KLGSLCaksdY?t=101';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/YLmDE_JYUNU?t=358';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lasting""",
                       // alsoEnglishWord: "also: lasting",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɑːstɪŋ/""",
+                      americanText: """IpaUS: /ˈlæstɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +993,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەرگەگر، دەوام‌هێناو، خۆگرتوو، بەردەوام، دوورودرێژ، درێژخایەن، ڕاوێستاو، هەمیشەیی
 """),
 // With short examples define "lasting", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بەردەوام دەبێت لەوەی بوونی هەبێت یان کاریگەری زۆری هەبێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: durable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her words left a lasting impression on me.""",
+                      kurdishText: """قسەکانی کاریگەرییەکی بەردەوامیان لەسەرم جێهێشت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1008,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I formed several lasting friendships at college.""",
+                      kurdishText: """ژمارەیەک هاوڕێیەتی دوورمەودام لە کۆلێژ درووستکرد.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

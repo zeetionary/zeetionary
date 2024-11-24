@@ -52,13 +52,27 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: Latin
+1. Relating to languages derived from Latin (- Romance)
+"Latin languages";
+ 
+2. Of or relating to the ancient Latins or the Latin language
+"Latin verb conjugations"
+ 
+3. Of or relating to the ancient region of Latium
+"Latin towns"
+ 
+4. Relating to people or countries speaking Romance languages
+"Latin America"
 
-EnglishEntrylatin Latin
-WORD_WEB Latin Latin Latin
-haʊʊʊʊʊʊʊ4
+- Noun: Latin (Derived forms: Latins)
+1. Any dialect of the language of ancient Rome
+ 
+2. A person who is a member of those peoples whose languages derived from Latin
+ 
+3. An inhabitant of ancient Latium
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "Latin";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +101,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Many English words come from Latin roots.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Latins often share cultural traditions.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She enjoys reading Latin poetry at home.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""People with a Latin temperament often express feelings openly.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +940,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/8mAITcNt710?t=68178';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Sbp_EeBk-As?t=1404';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Unzc731iCUY?t=3672';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/unk6n3_QdlM?t=1312';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Vap9SMRf8YE?t=383';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/ewLpXw6uN28?t=157';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +965,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """Latin""",
                       // alsoEnglishWord: "also: Latin",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlætɪn/""",
+                      americanText: """IpaUS: /ˈlætn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,39 +1006,37 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "Latin", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) زمانی ڕۆمای کۆن و زمانی فەرمی ئیمپراتۆریەتییەکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Many English words come from Latin roots.""",
+                      kurdishText: """زۆر وشەی ئینگلیزی بنەچەی لاتینیان هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) کەسێک لەو وڵاتانەوە کە زمانەکەیان لە لاتینییەوە درووست بووە، بۆ نموونە کە قسە بە ئیسپانی، فەرەنسی، پورتوگالی، ئیتالی بکەن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Latins often share cultural traditions.""",
+                      kurdishText: """لاتینەکان زۆرجار نەریتی کەلتوورییان هەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) پەیوەندیدار بە زمانی لاتینی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She enjoys reading Latin poetry at home.""",
+                      kurdishText: """حەزی بە خوێندنەوەی هۆنراوەی لاتینییە لە ماڵەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٤. (ھاوەڵناو) پەیوەندیدار بەو وڵاتانەی کە زمانەکەیان لە لاتینییەوە درووست بووە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """People with a Latin temperament often express feelings openly.""",
+                      kurdishText: """خەڵکی خاوەن سروشتی لاتینی زۆر جار هەستەکانیان بە ئاشکرا دەردەبڕن.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

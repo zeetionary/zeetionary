@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylatterday latter-day
-WORD_WEB latter-day latter-day latter-day
-haʊʊʊʊʊʊʊ4
+- Adjective: latter-day
+1. Belonging to the present or recent times
+"the latter-day problems of our society"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "latter-day";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The dictator's acts were like those of a latter-day Caligula.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/bIvqhdoZzo8?t=346';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/wrsUbwKGuko?t=693';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Uhbc4sDnVBg?t=551';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ZFIQp9GiGsU?t=237';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ibY2qBAAIcQ?t=1257';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/MI19BW6y0jc?t=195';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """latter-day""",
                       // alsoEnglishWord: "also: latter-day",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlætə deɪ/""",
+                      americanText: """IpaUS: /ˈlætər deɪ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,11 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "latter-day", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەوەی شێوەیەکی سەردەمییانەی ک/شتی ڕابردوو بێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The dictator's acts were like those of a latter-day Caligula.""",
+                      kurdishText: """کارەکانی دیکتاتۆرەکە وەک ئەوانەی کالیگولای سەردەمی وابوو.""",
+                      englishNote: """This means the dictator's behavior resembled that of a modern version of Caligula, who was infamous for extreme cruelty, arrogance, and immoral conduct during his rule as a Roman emperor.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

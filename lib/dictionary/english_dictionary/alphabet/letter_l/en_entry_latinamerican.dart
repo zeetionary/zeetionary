@@ -9,7 +9,8 @@ class EnglishEntrylatinamerican extends StatefulWidget {
   const EnglishEntrylatinamerican({super.key});
 
   @override
-  State<EnglishEntrylatinamerican> createState() => _EnglishEntrylatinamericanState();
+  State<EnglishEntrylatinamerican> createState() =>
+      _EnglishEntrylatinamericanState();
 }
 
 class _EnglishEntrylatinamericanState extends State<EnglishEntrylatinamerican> {
@@ -52,13 +53,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: Latin American (Derived forms: Latin Americans)
+1. A native of Latin America (- Latino)
 
-EnglishEntrylatinamerican Latin American
-WORD_WEB Latin American Latin American Latin American
-haʊʊʊʊʊʊʊ4
+- Adjective: Latin-American
+1. Of or relating to the countries of Latin America or their people
+"Latin-American countries"; "Latin-American music"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "Latin American";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,8 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts
+        .speak("""The majority of Latin Americans speak Spanish.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/OeOoAH9RxOc?t=691';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/rxalEnZ7uok?t=427';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/u1h-jPizdv4?t=20';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Y8MuxHNLfZ8?t=78';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/TiyxdTPnL9o?t=250';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/unk6n3_QdlM?t=1312';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """Latin American""",
                       // alsoEnglishWord: "also: Latin American",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌlætɪn əˈmerɪkən/""",
+                      americanText: """IpaUS: /ˌlætn əˈmerɪkən/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +996,14 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "Latin American", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە لە ئەو بەشانەی کیشوەرەکانی ئەمریکا دەژی کە تێیاندا ئیسپانی و پورتوگالی زمانی سەرەکین"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The majority of Latin Americans speak Spanish.""",
+                      kurdishText:
+                          """زۆرینەی ئەمریکییە لاتینەکان بە ئیسپانی قسە دەکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

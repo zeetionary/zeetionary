@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylawcourt law court
-WORD_WEB law court law court law court
-haʊʊʊʊʊʊʊ4
+- Noun: law court (Derived forms: law courts)
+1. A tribunal that is presided over by a magistrate or by one or more judges who administer justice according to the laws (- court of law, law court, court of justice)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "law court";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/9k3UvaC5m7o?t=758';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/pQVBFhVMbY8?t=1068';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/gt5I3V5hWkU?t=1897';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/QEJDV-TcuOk?t=221';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/qFAi-X-gNIQ?t=138';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/z3uvnwBMTdY?t=7549';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """law court""",
                       // alsoEnglishWord: "also: law court",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɔː kɔːt/""",
+                      americanText: """IpaUS: /ˈlɔː kɔːrt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

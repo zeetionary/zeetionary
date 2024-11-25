@@ -412,7 +412,7 @@ ${englishMeaningConst.text}
                       englishText:
                           """The crisis was largely due to a wide gap between supply and demand.""",
                       kurdishText:
-                          """قەیرانەکە بە ھۆکارێکی زۆر بەھۆی جیاوازیی نێوان بەرھەمھێنان و خواست بوو.""",
+                          """قەیرانەکە بە ھۆکارێکی زۆر بەھۆی جیاوازیی نێوان دابینکردن و خواست بوو.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),

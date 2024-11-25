@@ -270,7 +270,7 @@ class KurdishMeaning extends StatelessWidget {
             englishText:
                 "The price of crude oil fluctuates based on supply and demand.",
             kurdishText:
-                "نرخی نەوتی خاو کەم و زیاد دەکات بە پشت بەستن بە دابین کردن و خواست.",
+                "نرخی نەوتی خاو کەم و زیاد دەکات بە پشت بەستن بە دابینکردن و خواست.",
             onPressedBritish: () => speakcrudes1("en-GB"),
             onPressedAmerican: () => speakcrudes1("en-US"),
           ),

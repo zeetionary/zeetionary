@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: lavish
+1. Characterized by extravagance and profusion (- lucullan, plush, plushy)
+"a lavish buffet";
+ 
+2. Very generous (- munificent, overgenerous, too-generous, unsparing, unstinted, unstinting)
+"distributed gifts with a lavish hand"; "the critics were lavish in their praise"; "lavish praise";
 
-EnglishEntrylavish lavish
-WORD_WEB lavish lavish lavish
-haʊʊʊʊʊʊʊ4
+- Verb: lavish (Derived forms: lavishing, lavished, lavishes)
+1. Expend profusely; also used with abstract nouns (- shower)
+"He was lavished with praise";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lavish";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +92,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They lived a very lavish lifestyle.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""It was one of the most lavish weddings I’ve ever been to.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""They were rather lavish with their presents.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/YXu289P-dD4';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/fBTjbGfHx0s?t=1429';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/3UBBulOCI7I?t=918';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/0e8woEkKmG8?t=2228';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Un1gfVckcVw?t=217';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/2Hq4CtLfnZs?t=955';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lavish""",
                       // alsoEnglishWord: "also: lavish",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlævɪʃ/""",
+                      americanText: """IpaUS: /ˈlævɪʃ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +995,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نان‌بدە، دڵاوا، بەدەس‌ودڵ، دەس‌نەگێڕەوە، عەبلەخەرج، دەسبڵاو،	زۆر، لە ڕادەبەدەر، یەکجار
 """),
 // With short examples define "lavish", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە لە بڕدا زۆرە و زۆرجار پارەی زۆری تێدەچێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: extravagant، luxurious"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They lived a very lavish lifestyle.""",
+                      kurdishText: """ژیانێکی زۆر دەسبڵاو دەژیان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1010,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It was one of the most lavish weddings I’ve ever been to.""",
+                      kurdishText: """یەکێک لە ئاهەنگە هاوسەرگیرییە هەرە گەورەکان بوو کە تا ئێستا بۆی چووبم.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە بە دەسفراوانی شتێک دەدات تان دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They were rather lavish with their presents.""",
+                      kurdishText: """کەمێک دەسبڵاو بوون لە دیاری بەخشینیان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

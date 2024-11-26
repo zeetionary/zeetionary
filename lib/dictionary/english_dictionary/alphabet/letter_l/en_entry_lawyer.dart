@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lawyer (Derived forms: lawyers)
+1. (law) A professional person authorized to practice law, conduct lawsuits or give legal advice (- attorney)
+"the lawyer has a good record";
 
-EnglishEntrylawyer lawyer
-WORD_WEB lawyer lawyer lawyer
-haʊʊʊʊʊʊʊ4
+- Verb: lawyer (Derived forms: lawyered, lawyers, lawyering)
+1. Work as a lawyer; practice law
+ 
+2. Use the services of a lawyer for legal representation (- lawyer up)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lawyer";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +90,24 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak(
+        """The lawyer representing the family said he was very satisfied with the verdict.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""A leading human rights lawyer took on his case.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak(
+        """He was among the leading international lawyers of his generation.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/U2QcP1OF6P0?t=54';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/HAF359uuWUo?t=65';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/KNiplLivjQI?t=138';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/jmC2y7EsXqk';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/BUS-1KIf3Ls?t=8';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/6-_tIPShuwQ?t=29';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lawyer""",
                       // alsoEnglishWord: "also: lawyer",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɔɪə(r)/""",
+                      americanText: """IpaUS: /ˈlɔɪər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +999,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lawyer", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) پارێزەر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """The lawyer representing the family said he was very satisfied with the verdict.""",
+                      kurdishText:
+                          """ئەو پارێزەرەی کە نوێنەرایەتی خێزانەکەی کرد گوتی کە زۆر ڕازییە بە بڕیارەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1012,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """A leading human rights lawyer took on his case.""",
+                      kurdishText:
+                          """پارێزەرێکی ناسراوی مافەکانی مرۆڤ کەیسەکەی گرتە دەست.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1023,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """He was among the leading international lawyers of his generation.""",
+                      kurdishText:
+                          """لەناو پارێزەرە نێودەوڵەتییە بەناوبانگەکانی نەوەکەی خۆیدا بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

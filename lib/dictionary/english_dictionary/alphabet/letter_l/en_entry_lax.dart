@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylax lax
-WORD_WEB lax lax lax
-haʊʊʊʊʊʊʊ4
+- Adjective: lax (Derived forms: laxer, laxest)
+1. (phonetics) pronounced with muscles of the tongue and jaw relatively relaxed (e.g., the vowel sound in 'bet')
+ 
+2. Lacking in firmness or tension; not taut
+"a lax rope"
+ 
+3. Lacking in rigour or strictness (- slack)
+"such lax and slipshod ways are no longer acceptable"; "lax in attending classes";
+ 
+4. Emptying easily or excessively (- loose)
+"lax bowels";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lax";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +93,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He took a gun through baggage control to highlight the lax security.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Her body went completely lax in his arms.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/0D2Gsok5wgI?t=16';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/YCjNT9qGjh4?t=4968';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/8mAITcNt710?t=48381';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/0kYCZ4kCltg?t=19';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/rf3iHqE240I?t=83';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/WGLZQ7Xrd6o?t=733';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lax""",
                       // alsoEnglishWord: "also: lax",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /læks/""",
+                      americanText: """IpaUS: /læks/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +996,23 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەمتەرخەم، ئاسانگر، شل‌گرتوو، بێ‌خەیاڵ، (بە)فشەگرتوو، شل، نەتوند، تەمەڵ، سست، خاو، شل، نەرم، بێ‌سەروبەرە، گوێ‌پێنەدەر، بێ‌سەرنج، بەتەنگەوەنەبوو
 """),
 // With short examples define "lax", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە توند یان بەئاگا نییە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: slack، careless"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He took a gun through baggage control to highlight the lax security.""",
+                      kurdishText: """چەکێکی بە کۆنترۆڵی کەلووپەلدا نرد بۆ پیشاندانی ئاسایشی ناتوند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە بەشێکی جەستە لە دۆخی حەساوەدایە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her body went completely lax in his arms.""",
+                      kurdishText: """جەستەی تەواو شلبوویەوە لە باوەشیدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

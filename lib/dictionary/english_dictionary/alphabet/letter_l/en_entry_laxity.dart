@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylaxity laxity
-WORD_WEB laxity laxity laxity
-haʊʊʊʊʊʊʊ4
+- Noun: laxity (Derived forms: laxities)
+1. The condition of being physiologically lax (- laxness)
+"baths can help the laxity of the bowels";
+ 
+2. The quality of being lax and neglectful (- laxness, remissness, slackness)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "laxity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The laxity of prison officers made it easy for the men to get away.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/-6Laa2LiS2E?t=2453';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/9sVj0kHVTNs?t=784';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/U2BFeod_JMk?t=80';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/FeosNc__Ld4?t=536';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Z-fhUeIi1YQ?t=182';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/kP1BHrvYopI?t=775';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """laxity""",
                       // alsoEnglishWord: "also: laxity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlæksəti/""",
+                      americanText: """IpaUS: /ˈlæksəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +990,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کەمتەرخەمی، بێ‌خەیاڵی، ئاسانگری، شل‌گرتوویی، فشەگرتوویی، سستی، تەمەڵی، خاوی، شلی، شل‌وشەوێقی، نەرمی، بێ‌سەروبەرەیی، ناتوندی
 """),
 // With short examples define "laxity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەوەی کە شتێک توند یان بەئاگا نەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The laxity of prison officers made it easy for the men to get away.""",
+                      kurdishText: """کەمتەرخەمیی ئەفسەرانی زیندان وەهای کرد ئاسان بێت بۆ پیاوەکان کە هەڵبێن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -84,8 +84,7 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He has a job as an interpreter in the law courts.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -991,11 +990,10 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "law court", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) دادگا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He has a job as an interpreter in the law courts.""",
+                      kurdishText: """کاری وەرگێڕی دەکات لە دادگاکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

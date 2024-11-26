@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylawful lawful
-WORD_WEB lawful lawful lawful
-haʊʊʊʊʊʊʊ4
+- Adjective: lawful
+1. According to custom, rule or natural law (- rule-governed)
+ 
+2. Having a legally established claim (- true, rightful)
+"the true and lawful king";
+ 
+3. Authorized, sanctioned by, or in accordance with law (- legitimate, licit, legit [informal])
+"a lawful government";
+ 
+4. Conformable to or allowed by law
+"lawful methods of dissent"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lawful";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +93,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Can an act that causes death ever be lawful?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She is his lawful wife, and so is entitled to inherit the money.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/UOIFBKB4mIE?t=103';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/JN3KPFbWCy8?t=3186';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/4IaOeVgZ-wc?t=520';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/qCbfTN-caFI?t=1524';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/-VRx0GRo-Ws?t=140';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/1KgSp94nCZw?t=533';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lawful""",
                       // alsoEnglishWord: "also: lawful",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɔːfl/""",
+                      americanText: """IpaUS: /ˈlɔːfl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +996,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕێگەدراو، ڕێدراو، ڕەوا، دروست، قانوونی، زاکوونی، بەپێی یاسا،	گوێڕایەڵی قانوون، ملکەچی زاکوون،	حەڵاڵ‌زادە، مناڵی باوکی
 """),
 // With short examples define "lawful", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە یاساییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Can an act that causes death ever be lawful?""",
+                      kurdishText: """دەکرێت کارێک کە ببێە هۆکاری مردن یاسایی بێت؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1010,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She is his lawful wife, and so is entitled to inherit the money.""",
+                      kurdishText: """ژنی یاساییەتی، و بۆیە مافی هەیە پارەکەی وەربگرێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

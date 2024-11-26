@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylawless lawless
-WORD_WEB lawless lawless lawless
-haʊʊʊʊʊʊʊ4
+- Adjective: lawless
+1. Without law or control (- anarchic, anarchical)
+ 
+2. Lax in enforcing laws (- wide-open)
+"a lawless town";
+ 
+3. Disobedient to or defiant of law (- outlaw)
+"lawless bands roaming the plains";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lawless";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +90,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The film is set in a lawless city some time in the future.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Lawless gangs ignored all police warnings in the area.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/UpHOkHxpTvQ?t=518';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/XG4rnKlgCN8?t=48';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/SNq4VxhzaoQ?t=27';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/RZt7kE7PZMQ?t=607';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/-I6YmMAThZ8?t=26';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/kUTYSyd3LR0?t=207';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lawless""",
                       // alsoEnglishWord: "also: lawless",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɔːləs/""",
+                      americanText: """IpaUS: /ˈlɔːləs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +993,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌قانوون، بێ‌زاکوون، پشێوی، بێ‌سەرەوبەرەیی، ناقانوونی، نایاسایی، ڕێگەنەدراو، ناڕەوا،	یاساشکێن، ناگوێڕایەڵ، قانوون‌پێشێلکەر، تاوانکار
 """),
 // With short examples define "lawless", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە یاسای تێدا نییە یان یاسا پەیڕەو ناکرێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The film is set in a lawless city some time in the future.""",
+                      kurdishText: """فیلمەکە لە شارێکی بێ‌سەرەوبەرەیی لە کاتێکی داهاتوودا ڕوودەدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ڕێزی یاسا ناگرێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: anarchic، wild"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Lawless gangs ignored all police warnings in the area.""",
+                      kurdishText: """تیمە تاوانکارییە یاساشکێنەکان هەموو ئاگادارییەکانی پۆلیسیان لە ناوچەکە پشتگوێ دەخست.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

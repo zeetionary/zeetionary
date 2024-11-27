@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylayman layman
-WORD_WEB layman layman layman
-haʊʊʊʊʊʊʊ4
+- Noun: layman (Derived forms: laymen)
+1. Someone who is not a clergyman or a professional person (- layperson, secular, laywoman)
+"Can you translate the instructions in this manual for a layman?";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "layman";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The book is supposed to be the layman’s guide to home repair.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/3svs-nHtlNg?t=485';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/s8ccbEhZYTc?t=481';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/bA6-VEVAzCE?t=1108';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/8474PcH-eXY?t=129';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Cqbleas1mmo?t=1162';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/K3v5wFMQRqs?t=2701';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """layman""",
                       // alsoEnglishWord: "also: layman",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleɪmən/""",
+                      americanText: """IpaUS: /ˈleɪmən/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,15 +987,14 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: 
-"""),
+//                     const KurdishVocabulary(text: """
+// کوردی: نائایین‌کار، نادینەوەر، پێوەندی بە پیاوانی دینی یان ئایینی‌یەوە نییە، کەسێ کە ئەندامی کلێسە نەبێ،	ڕەمەکی، ئاسایی، بازاڕی،	ناپسپۆڕ، ناشارەزا، ناپیشەیی، لێنەوشاو
+// """),
 // With short examples define "layman", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) کەسێکی کە زانیاریی تەواوی لە بابەتێکی دیاریکراودا نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The book is supposed to be the layman’s guide to home repair.""",
+                      kurdishText: """کتێبەکە مەبەستی لێی ئەوەیە کە ببێت بە ڕێبەری ناشارەزایان بۆ چاککردنەوەی ماڵەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

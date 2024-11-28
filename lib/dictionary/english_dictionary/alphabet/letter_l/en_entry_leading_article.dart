@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryleadingarticle leading article
-WORD_WEB leading article leading article leading article
-haʊʊʊʊʊʊʊ4
+- Noun: leading article (Derived forms: leading articles)
+Usage: Brit
+1. An article written by the newspaper editor, usually expressing the editor's opinion (- leader [Brit])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leading article";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,9 +925,9 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/TCMNSDuu-Mo?t=3611';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/QtVyxGW7Qzs?t=1953';
     const double startSecondsone = 0;
     const String videoIdtwo = '';
     const double startSecondstwo = 0;
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leading article""",
                       // alsoEnglishWord: "also: leading article",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌliːdɪŋ ˈɑːtɪkl/""",
+                      americanText: """IpaUS: /ˌliːdɪŋ ˈɑːrtɪkl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

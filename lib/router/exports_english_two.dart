@@ -2920,7 +2920,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_i/en_en
 // en_entry_laze.dart' show EnglishEntrylaze
 // en_entry_laziness.dart' show EnglishEntrylaziness
 // en_entry_lazy.dart' show EnglishEntrylazy
-// en_entry_ib.dart' show EnglishEntryib //////// lb
+// en_entry_lb.dart' show EnglishEntrylb
 // en_entry_lead.dart' show EnglishEntrylead
 // en_entry_leader.dart' show EnglishEntryleader
 // en_entry_leadership.dart' show EnglishEntryleadership

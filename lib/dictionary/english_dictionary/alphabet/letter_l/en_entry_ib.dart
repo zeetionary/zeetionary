@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryib extends StatefulWidget {
-  const EnglishEntryib({super.key});
+class EnglishEntrylb extends StatefulWidget {
+  const EnglishEntrylb({super.key});
 
   @override
-  State<EnglishEntryib> createState() => _EnglishEntryibState();
+  State<EnglishEntrylb> createState() => _EnglishEntrylbState();
 }
 
-class _EnglishEntryibState extends State<EnglishEntryib> {
+class _EnglishEntrylbState extends State<EnglishEntrylb> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryib Ib
-WORD_WEB Ib Ib Ib
-haʊʊʊʊʊʊʊ4
+- Noun: lb (Derived forms: lbs)
+1. A unit of weight, 16 ounces avoirdupois; about 453.6g (- pound)
+"he got a hernia when he tried to lift 100 lbs";
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "Ib";
+  final String keyword = "lb";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +78,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Ib""");
+    await flutterTts.speak("""lb""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""There are one hundred pence in a pound.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/67JzSRnyXr4?t=399';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Bbi0kEaTgio?t=1447';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/l65hR94nfqY?t=1926';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/lSoWxG30rb0?t=151';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/x629nYBuLpY?t=515';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/Q4Xys-IRMr0?t=160';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -951,8 +947,8 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """Ib""",
-                      // alsoEnglishWord: "also: Ib",
+                      word: """lb""",
+                      // alsoEnglishWord: "also: lb",
                       britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
                       americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
@@ -994,12 +990,11 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "Ib", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "lb", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) کورتکراوە بۆ libra ـی لاتینی، واتا پاوەندێک، و یەکسانە بە ٤٥٤ گرام)"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """There are one hundred pence in a pound.""",
+                      kurdishText: """سەد پێنس هەیە لە یەک پاوەندا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2150,4 +2145,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end Ib
+// end lb

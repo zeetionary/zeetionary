@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryleaden leaden
-WORD_WEB leaden leaden leaden
-haʊʊʊʊʊʊʊ4
+- Adjective: leaden
+1. Darkened with overcast (- dull)
+"the sky was leaden and thick";
+ 
+2. Made heavy or weighted down with weariness (- weighted)
+"his leaden arms";
+ 
+3. (of movement) slow and laborious (- plodding)
+"leaden steps";
+ 
+4. Lacking lightness or liveliness (- heavy)
+"a leaden conversation";
+ 
+5. Made of lead
+"a leaden weight"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leaden";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +97,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Under leaden skies, the rain began to pour.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""On leaden feet he made his way down the stairs.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +936,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/J4Dms4-_u5E?t=261';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/7fR7bUZ5B7s?t=380';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/HTFd5kAuZi0?t=5162';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/BxiNEX7SfNw?t=317';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/iBgkqEl0rHE?t=170';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/7x8IW3XnYfo?t=858';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +961,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leaden""",
                       // alsoEnglishWord: "also: leaden",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈledn/""",
+                      americanText: """IpaUS: /ˈledn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -991,24 +999,28 @@ haʊʊʊʊʊʊʊ4
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
+//                     const KurdishVocabulary(text: """
+// کوردی: سوربی، قورقوشمی، لە قورقوشم، لە سرب، بۆر، تاریک،	نارەحەت، دڵتەنگ، خەمبار،	(لەش) خاو، قورس، تەپ، داگیراو،	(خۆراک) توند، وەکوو قوڕ،	(تیخ (شیر) کول، نەبڕ
+// """),
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بۆر، تاریک،	نارەحەت، دڵتەنگ، خەمبار،	(لەش) خاو
 """),
 // With short examples define "leaden", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) هەبوونی ڕەنگی خۆڵەمێشی کاڵ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """Under leaden skies, the rain began to pour.""",
+                      kurdishText: """لەژێر ئاسمانی خۆڵەمێشیدا، باران دەستی بە دابارین کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) قورس یان هێواش"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """On leaden feet he made his way down the stairs.""",
+                      kurdishText: """بە هەنگاوی هێواش بە پلەکانەکاندا چووە خوارەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

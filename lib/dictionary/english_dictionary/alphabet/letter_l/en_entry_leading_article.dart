@@ -85,8 +85,7 @@ Usage: Brit
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It is the very first sentence in the leading article.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -929,15 +928,14 @@ Usage: Brit
     const double startSecondsend = 0;
     const String videoIdone = 'https://youtu.be/QtVyxGW7Qzs?t=1953';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/dSR-OSKpIyo?t=583';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/6e353mhb5h4?t=332';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/h28IzsgljVE?t=1672';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/UKlKxjnLJiI?t=648';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -993,11 +991,10 @@ Usage: Brit
 کوردی: 
 """),
 // With short examples define "leading article", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) وتارێکی گرنگ لە ڕۆژنامەیەک کە دیدی نووسەر پیشان دەدات لەسەر هەواڵێک یان چاپێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It is the very first sentence in the leading article.""",
+                      kurdishText: """یەکەمین ڕستەیە لە سەروتارەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

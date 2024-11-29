@@ -52,13 +52,27 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: leading
+1. Indicating the most important performer or role (- prima, star, starring, stellar [informal], most important)
+"the leading man";
+ 
+2. Greatest in importance, degree, significance or achievement (- preeminent, marquee [N. Amer], pre-eminent)
+"the country's leading poet";
+ 
+3. Having the leading position or higher score in a contest (- ahead, in the lead)
+"the leading team in the pennant race";
+ 
+4. Going, proceeding or going in advance; showing the way
+"we rode in the leading car"; "the leading edge of technology"
 
-EnglishEntryleading leading
-WORD_WEB leading leading leading
-haʊʊʊʊʊʊʊ4
+- Noun: leading
+1. The activity of leading (- leadership)
+"his leading inspired the team";
+
+- Noun: leading
+1. Thin strip of metal used to separate lines of type in printing (- lead)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leading";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +101,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She was offered the leading role in the new TV series.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The leading causes of death are heart disease and cancer.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Leading experts were brought to the scene of the crime.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""She started the last lap just behind the leading group.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +940,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/wJa5Ch0O4BI?t=80';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/fez7X_oevNs?t=780';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/tsxmyL7TUJg?t=405';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Bj6ulLJGPB8?t=554';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/t6cjpCND-Qk?t=699';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/hRSGxw2AQnk?t=586';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +965,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leading""",
                       // alsoEnglishWord: "also: leading",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈliːdɪŋ/""",
+                      americanText: """IpaUS: /ˈliːdɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1004,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕێنوێنی، ڕێ‌پیشان‌دان، دەس‌گرتن، ڕێ‌نیشان‌دان، بەڕێدابردن،	گرنگ، پێشەم، سەرەکی، بنگەهی، بنچینەیی، گەورە،	پێشڕەو، لەپێشێ، پێشەنگ، سەرجەلە،	لە پلەی یەکەم‌دا
 """),
 // With short examples define "leading", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) گرنگترین یان سەرکەوتووترین"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She was offered the leading role in the new TV series.""",
+                      kurdishText: """ڕۆڵی سەرەکی پێدرا لە زنجیرە تەلەفیزیۆنە تازەکە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1018,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The leading causes of death are heart disease and cancer.""",
+                      kurdishText: """هۆکارە سەرەکییەکانی مردن نەخۆشی دڵ و شێرپەنجەن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,17 +1027,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Leading experts were brought to the scene of the crime.""",
+                      kurdishText: """شارەزایانی سەرکەتوو هێندرانە سەر دیمەنی تاوانەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) لە پێش کەسانی دیکە لە پێشبڕکێیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She started the last lap just behind the leading group.""",
+                      kurdishText: """کۆتا فڕەی دەستپێکرد کەمێک لە پشتەوەی گرووپی پێشەنگ.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

@@ -52,13 +52,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: leaf (Derived forms: leaves)
+1. The main organ of photosynthesis and transpiration in higher plants (- leafage, foliage)
+ 
+2. A sheet of any written or printed material (especially in a manuscript or book) (- folio)
+ 
+3. Hinged or detachable flat section (as of a table or door)
+ 
+4. A sheet of any substance beaten or rolled until very thin
 
-EnglishEntryleaf leaf
-WORD_WEB leaf leaf leaf
-haʊʊʊʊʊʊʊ4
+- Verb: leaf (Derived forms: leafing, leafs, leafed)
+1. Look through a book or other written material (- flick, flip, thumb, riffle, riff)
+"She leafed through the volume";
+ 
+2. Turn over pages
+"leaf through a book"; "leaf a manuscript"
+ 
+3. Produce leaves, of plants
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leaf";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +99,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The leaves on the trees were beginning to turn from green to orange.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Few trees are in leaf yet.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The trees are just coming into leaf.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +938,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/oMF6pIglmmk?t=1786';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/lUxi8IssLTM';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/CJUKVmkRx_E?t=232';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Vb9zZnTmDOo?t=475';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/FIDsKWis3jo?t=84';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/xrlgfC0SJ9g?t=151';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +963,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leaf""",
                       // alsoEnglishWord: "also: leaf",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /liːf/""",
+                      americanText: """IpaUS: /liːf/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1002,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گەڵا، پەلک، پەڕەگەڵا، وەڕە
 """),
 // With short examples define "leaf", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) گەڵا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The leaves on the trees were beginning to turn from green to orange.""",
+                      kurdishText: """گەڵای سەر دارەکان لە سەوزەوە دەبوون بە پرتەقاڵی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1016,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Few trees are in leaf yet.""",
+                      kurdishText: """کەم دار هێشتا گەڵایان گرتووە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1025,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The trees are just coming into leaf.""",
+                      kurdishText: """درەختەکان تازە گەڵا دەگرن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

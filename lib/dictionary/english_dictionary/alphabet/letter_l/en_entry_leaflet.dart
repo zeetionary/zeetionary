@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: leaflet (Derived forms: leaflets)
+1. A thin triangular flap of a heart valve (- cusp)
+ 
+2. Part of a compound leaf
+ 
+3. A small book usually having a paper cover (- booklet, brochure, folder, pamphlet)
+ 
+4. A small sheet of paper containing information, often given out free esp. as an advertisement
 
-EnglishEntryleaflet leaflet
-WORD_WEB leaflet leaflet leaflet
-haʊʊʊʊʊʊʊ4
+- Verb: leaflet (Derived forms: leafleted, leafleting, leaflets)
+1. Distribute leaflets (- pamphlet)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leaflet";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +93,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Details are given in our promotional leaflet.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The Health Council issued hundreds of leaflets.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/kxcZjUtYR0g?t=416';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/_ilrMO0kjzg?t=1361';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/ybBxueA5OuA?t=331';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/EkwdBXovh4s?t=556';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/8hK4UzAH0rk?t=251';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/KZbzIf_C6Y4?t=1709';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leaflet""",
                       // alsoEnglishWord: "also: leaflet",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈliːflət/""",
+                      americanText: """IpaUS: /ˈliːflət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +996,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گەڵاچکە، پەلکۆچکە، گەڵاچە، گەڵاژە، گەڵای چکۆلانە،	نامیلکە، داخویانی، ئاگاداری(نامە)
 """),
 // With short examples define "leaflet", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) پارچە کاغەزێکی چاپکراو یان چەند پەڕەیەک کە ڕیکلامیان لەسەر دەکرێت یان زانیارییان لەسەر نووسراوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: booklet، pamphlet"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Details are given in our promotional leaflet.""",
+                      kurdishText: """وردەکاری لە نامیلکەی بانگەشەکەمان دراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1011,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The Health Council issued hundreds of leaflets.""",
+                      kurdishText: """ئەنجوومەنی تەندرووستی سەدان نامیلکەی بڵاوکردەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

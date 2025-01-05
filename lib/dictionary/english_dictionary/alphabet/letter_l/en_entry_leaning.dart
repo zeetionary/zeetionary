@@ -52,13 +52,22 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: leaning
+Departing or being caused to depart from the true vertical or horizontal
+"the leaning tower of Pisa";
+- atilt, canted, tilted, tipped
 
-EnglishEntryleaning leaning
-WORD_WEB leaning leaning leaning
-haʊʊʊʊʊʊʊ4
+- Noun: leaning (Derived forms: leanings)
+1. An inclination to do something (- propensity, tendency)
+"he felt leanings toward frivolity";
+ 
+2. A natural inclination (- proclivity, propensity)
+ 
+3. The property possessed by a line or surface that departs from the vertical (- tilt, list, inclination, lean)
+ 
+4. The act of deviating from a vertical position
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leaning";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +96,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""My leanings have always been towards comedy rather than tragedy.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""John has no political leanings.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +935,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/XuDwndGaCFo?t=19';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/8vo8_NOHvSo?t=733';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/gk4tEO4jDUM?t=1038';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/5B4oMm9_5Os?t=351';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/oMRGASj2v8c?t=1968';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/uPewiuA2xEM?t=1485';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +960,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leaning""",
                       // alsoEnglishWord: "also: leaning",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈliːnɪŋ/""",
+                      americanText: """IpaUS: /ˈliːnɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +999,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داشکانەوە، لاربوونەوە، لاری، ویست، مەیل، حەز
 """),
 // With short examples define "leaning", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) هەسێک کە وەهات لێدەکات حەزت بۆ شتێک هەبێت یان باوەڕت بە بۆچوونێک، باوەڕێک، هتد هەبێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: inclination، tendency"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """My leanings have always been towards comedy rather than tragedy.""",
+                      kurdishText: """حەزەکانم هەمیشە زیاتر بەلای کۆمیدی چوونە وەک لە تراژیدی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1014,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """John has no political leanings.""",
+                      kurdishText: """خۆن هیچ مەیلێکی سیاسی نییە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

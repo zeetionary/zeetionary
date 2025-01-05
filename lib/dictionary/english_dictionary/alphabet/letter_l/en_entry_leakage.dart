@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryleakage leakage
-WORD_WEB leakage leakage leakage
-haʊʊʊʊʊʊʊ4
+- Noun: leakage (Derived forms: leakages)
+1. The discharge of a fluid from some container (- escape, leak, outflow)
+"they tried to stop the leakage of gas from the damaged pipe";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leakage";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Check bottles for leakage before use.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/zMHJ8Hsbg5I?t=188';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/g9vROdY_JM8?t=426';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/oI_X2cMHNe0?t=120';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/6EPR4Ux-U6k?t=876';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/B5ytcg5pYEA?t=426';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/mg79n_ndR68?t=1971';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leakage""",
                       // alsoEnglishWord: "also: leakage",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈliːkɪdʒ/""",
+                      americanText: """IpaUS: /ˈliːkɪdʒ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +988,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لێچوون، دادان، لێڤەچوون، داچۆڕان، لێ‌ڕۆیشتن، تەناز(کردن)، لێ‌ڕۆیین، وەرڤین، دەڵاندن، دڵۆپە، دزە، لێهاتن،	لە قاودان، ڕاستی لێ‌وتن
 """),
 // With short examples define "leakage", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) بڕێک لە گاز یان شلە کە لە دەرچەیەکەوە دەردەچێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Check bottles for leakage before use.""",
+                      kurdishText: """بوتڵەکان بۆ لێچوون بپشکنە پێش بەکارهێنان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

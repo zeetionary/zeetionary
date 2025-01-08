@@ -1,206 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
-
-// replace these: replace EnglishEntryantagonist - replace speakAntagonist - replace antagonist - /ænˈtæɡənɪst/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryantagonist extends StatelessWidget {
-  EnglishEntryantagonist({super.key});
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakantagonist(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("antagonist");
-  }
-
-  Future<void> speakantagonist1255(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        "He has always been the prime minister’s most formidable antagonist in Parliament.");
-  }
-
-  // Future<void> speakantagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist");
-  // }
-
-  // Future<void> speakantagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist");
-  // }
-
-  // Future<void> speakantagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist");
-  // }
-
-  // Future<void> speakantagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist");
-  // }
-
-  // Future<void> speakantagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist");
-  // }
-
-  // Future<void> speakantagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist");
-  // }
-
-  // Future<void> speakantagonist(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAntagonist
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("antagonist");
-  // }
+class EnglishEntryantagonist extends StatefulWidget {
+  const EnglishEntryantagonist({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "antagonist"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /ænˈtæɡənɪst/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakantagonist("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /ænˈtæɡənɪst/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakantagonist("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
-کوردی: دوژمن، نەیار، ھەڤڕک، ناکۆک، پێک‌دژ، بەرھەڵست، دژ، دژبەر
-"""),
-                          const DefinitionKurdish(
-                              text:
-                                  "١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک/شتێکە"
-                                  ""),
-                          SentencesRow(
-                            englishText:
-                                "He has always been the prime minister’s most formidable antagonist in Parliament.",
-                            kurdishText:
-                                "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان.",
-                            onPressedBritish: () =>
-                                speakantagonist1255("en-GB"),
-                            onPressedAmerican: () =>
-                                speakantagonist1255("en-US"),
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
-                        ],
-                      ),
-                    ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+  State<EnglishEntryantagonist> createState() => _EnglishEntryantagonistState();
 }
 
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
+class _EnglishEntryantagonistState extends State<EnglishEntryantagonist> {
   @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
 
-class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
+
   bool isSpeaking = false;
 
   Future<void> startSpeaking(
@@ -210,6 +33,8 @@ ${englishMeaningConst.text}
 """;
 
     await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(textToSpeak);
 
     setState(() {
@@ -217,7 +42,6 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -237,375 +61,207 @@ ${englishMeaningConst.text}
 3. A drug that neutralizes or counteracts the effects of another drug
 """,
   );
+// 188888880002200
+
+  final String keyword = "antagonist";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak("""antagonist""");
+  }
+
+  Future<void> speakantagonist1255(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak(
+        "He has always been the prime minister’s most formidable antagonist in Parliament.");
+  }
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
+    const String videoIdend = '9IrW6_6tC44';
+    const double startSecondsend = 728;
+    const String videoIdone = 'uUX0l8wVVdE';
+    const double startSecondsone = 58;
+    const String videoIdtwo = 'JTDRQDiaTWM';
+    const double startSecondstwo = 80;
+    const String videoIdthree = '0zhI18S7TDg';
+    const double startSecondsthree = 130;
+    const String videoIdfour = 'DuMA7xqCtgg';
+    const double startSecondsfour = 1;
+    const String videoIdfive = 'tFSgH_cUm2E';
+    const double startSecondsfive = 478;
+    // final String _videoId = 'YwOMc-4OEWg';
+    // final double _startSeconds = 13;
+    // final String _videoId = '9GR3XSuInYE';
+    // final double _startSeconds = 18;
+    // final String _videoId = 'PYzhuFS8YkE';
+    // final double _startSeconds = 1646;
+    // final String _videoId = 'fY2CF-T05qY';
+    // final double _startSeconds = 1276;
+    // final String _videoId = 'JcpboMScfIY';
+    // final double _startSeconds = 5177;
+    // final String _videoId = 'EM4odIQZVgw';
+    // final double _startSeconds = 128;
+
+    return DefaultTabController(
+      length: 4,
+      child: Scaffold(
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              CustomSliverAppBar(
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """antagonist""",
+                      // alsoEnglishWord: "also: antagonist",
+                      britshText: """IpaUK: /ænˈtæɡənɪst/""",
+                      americanText: """IpaUS: /ænˈtæɡənɪst/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
+                    ),
+                  ),
+                ),
+                bottom: const CustomTabBarNew(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
+                    const KurdishVocabulary(text: """
+کوردی: دوژمن، نەیار، ھەڤڕک، ناکۆک، پێک‌دژ، بەرھەڵست، دژ، دژبەر
+"""),
+                    const DefinitionKurdish(
+                        text: "١. (ناو) کەسێک کە بە سەرسەختی دژی کەسێک/شتێکە"
+                            ""),
+                    SentencesRow(
+                      englishText:
+                          "He has always been the prime minister’s most formidable antagonist in Parliament.",
+                      kurdishText:
+                          "ھەمیشە گەورەترین نەیاری سەرۆک وەزیران بووە لە پەرلەمان.",
+                      onPressedBritish: () => speakantagonist1255("en-GB"),
+                      onPressedAmerican: () => speakantagonist1255("en-US"),
+                    ),
+                    // const DividerSentences(),
+                    // const DividerDefinition(),
+                  ],
+                ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdend),
+                    videoId: videoIdend,
+                    startSeconds: startSecondsend,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdone),
+                    videoId: videoIdone,
+                    startSeconds: startSecondsone,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdtwo),
+                    videoId: videoIdtwo,
+                    startSeconds: startSecondstwo,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdthree),
+                    videoId: videoIdthree,
+                    startSeconds: startSecondsthree,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfour),
+                    videoId: videoIdfour,
+                    startSeconds: startSecondsfour,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfive),
+                    videoId: videoIdfive,
+                    startSeconds: startSecondsfive,
+                  ),
+                ],
+              ),
+            ],
           ),
-          englishMeaningConst,
-        ],
+        ),
       ),
     );
   }
 }
 
-// DOPSUM: FIRST YOUTUBE VIDEO
+// end WORD_WEB
 
-class YoutubeEmbeddedone extends StatelessWidget {
-  const YoutubeEmbeddedone({super.key});
 
-  final String _videoId = '9IrW6_6tC44';
-  final double _startSeconds = 728;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  const YoutubeEmbeddedtwo({super.key});
-
-  final String _videoId = 'uUX0l8wVVdE';
-  final double _startSeconds = 58;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  const YoutubeEmbeddedthree({super.key});
-
-  final String _videoId = 'JTDRQDiaTWM';
-  final double _startSeconds = 80;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  const YoutubeEmbeddedfour({super.key});
-
-  final String _videoId = '0zhI18S7TDg';
-  final double _startSeconds = 130;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  const YoutubeEmbeddedfive({super.key});
-
-  final String _videoId = 'DuMA7xqCtgg';
-  final double _startSeconds = 1;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  const YoutubeEmbeddedsix({super.key});
-
-  final String _videoId = 'tFSgH_cUm2E';
-  final double _startSeconds = 478;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  const YoutubeEmbeddedseven({super.key});
-
-  final String _videoId = 'YwOMc-4OEWg';
-  final double _startSeconds = 13;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  const YoutubeEmbeddedeight({super.key});
-
-  final String _videoId = '9GR3XSuInYE';
-  final double _startSeconds = 18;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  const YoutubeEmbeddednine({super.key});
-
-  final String _videoId = 'PYzhuFS8YkE';
-  final double _startSeconds = 1646;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  const YoutubeEmbeddedten({super.key});
-
-  final String _videoId = 'fY2CF-T05qY';
-  final double _startSeconds = 1276;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  const YoutubeEmbeddedeleven({super.key});
-
-  final String _videoId = 'JcpboMScfIY';
-  final double _startSeconds = 5177;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  const YoutubeEmbeddedtwelve({super.key});
-
-  final String _videoId = 'EM4odIQZVgw';
-  final double _startSeconds = 128;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffoldEnd(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-// end

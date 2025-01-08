@@ -1,21 +1,92 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
-
-// replace these: replace EnglishEntryanalyse - replace speakAnalyse - replace analyse - /ˈænəlaɪz/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryanalyse extends StatelessWidget {
-  EnglishEntryanalyse({super.key});
-  final FlutterTts flutterTts = FlutterTts();
+class EnglishEntryanalyse extends StatefulWidget {
+  const EnglishEntryanalyse({super.key});
 
-  Future<void> speakanalyse(String languageCode) async {
+  @override
+  State<EnglishEntryanalyse> createState() => _EnglishEntryanalyseState();
+}
+
+class _EnglishEntryanalyseState extends State<EnglishEntryanalyse> {
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
+
+  FlutterTts flutterTts = FlutterTts();
+
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("analyse");
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Verb: analyse (derived forms: analysed, analysing)
+Usage: Brit, Cdn (US: analyze)
+1. Consider in detail and subject to an analysis in order to discover essential features or meaning (= analyze [N. Amer], study, examine, canvass)
+"analyse a sonnet by Shakespeare";
+ 
+2. Make a mathematical, chemical, or grammatical analysis of; break down into components or essential features (= analyze [N. Amer], break down, dissect, take apart)
+"analyse a specimen";
+
+3. (psychiatry) subject to psychoanalytic treatment (= analyze [N. Amer], psychoanalyze [N. Amer], psychoanalyse [Brit, Cdn])
+"I was analysed in Vienna by a famous psychiatrist";
+""",
+  );
+// 188888880002200
+
+  final String keyword = "analyse";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak("""analyse""");
   }
 
   Future<void> speakanalyse7950(String languageCode) async {
@@ -32,6 +103,8 @@ class EnglishEntryanalyse extends StatelessWidget {
     await flutterTts.speak("He tried to analyse his feelings.");
   }
 
+  
+
   Future<void> speakanalyse469(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
@@ -39,105 +112,79 @@ class EnglishEntryanalyse extends StatelessWidget {
     await flutterTts.speak("We need to analyse what went wrong.");
   }
 
-  // Future<void> speakanalyse(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalyse
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyse");
-  // }
-
-  // Future<void> speakanalyse(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalyse
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyse");
-  // }
-
-  // Future<void> speakanalyse(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalyse
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyse");
-  // }
-
-  // Future<void> speakanalyse(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalyse
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyse");
-  // }
-
-  // Future<void> speakanalyse(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnalyse
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("analyse");
-  // }
-
   @override
   Widget build(BuildContext context) {
+
+  const String videoIdend = '29DjvorzUGg';
+  const double startSecondsend = 23;
+  const String videoIdone = 'L878W_WrTx8';
+  const double startSecondsone = 1014;
+  const String videoIdtwo = 'p6Un9LY6V5w';
+  const double startSecondstwo = 19;
+  const String videoIdthree = 'uqIhHDuE62g';
+  const double startSecondsthree = 34;
+  const String videoIdfour = 'y_D4Slu-Wl4';
+  const double startSecondsfour = 774;
+  const String videoIdfive = 'tF_2QZo90lw';
+  const double startSecondsfive = 249;
+  // const String videoId6 = '1xZzv95AOMk';
+  // const double startSeconds6 = 756;
+  // const String videoId = 'CvhMPA9oNBI';
+  // const double startSeconds = 524;
+  // const String videoId = 'MSBxQEFGytk';
+  // const double startSeconds = 679;
+
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "analyse"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈænəlaɪz/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakanalyse("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈænəlaɪz/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakanalyse("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              CustomSliverAppBar(
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """analyse""",
+                      // alsoEnglishWord: "also: analyse",
+                      britshText: """IpaUK: /ˈænəlaɪz/""",
+                      americanText: """IpaUS: /ˈænəlaɪz/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
                     ),
+                  ),
+                ),
+                bottom: const CustomTabBarNew(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
                   ],
                 ),
               ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
+            ];
+          },
+          body: TabBarView(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    const EnglishMeaning(),
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
+                  const KurdishVocabulary(text: """
 کوردی: شیتەڵاندن، شیتەڵ‌کردن، شی‌کردنەوە، شیکاری‌کردن، تاوتوێ‌کردن، لێکدانەوە، بڕگاندن (ڕێزمان)
 """),
                           const DefinitionKurdish(
@@ -171,29 +218,71 @@ class EnglishEntryanalyse extends StatelessWidget {
                           // const DividerSentences(),
                           // const DividerDefinition(),
                         ],
-                      ),
-                    ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(), // DOPSUM: FROM_YOUTUBE_BELOW
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        // YoutubeEmbeddedten(),
-                        // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
-                  ],
                 ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdend),
+                    videoId: videoIdend,
+                    startSeconds: startSecondsend,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdone),
+                    videoId: videoIdone,
+                    startSeconds: startSecondsone,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdtwo),
+                    videoId: videoIdtwo,
+                    startSeconds: startSecondstwo,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdthree),
+                    videoId: videoIdthree,
+                    startSeconds: startSecondsthree,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfour),
+                    videoId: videoIdfour,
+                    startSeconds: startSecondsfour,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfive),
+                    videoId: videoIdfive,
+                    startSeconds: startSecondsfive,
+                  ),
+                ],
               ),
             ],
           ),
@@ -203,334 +292,7 @@ class EnglishEntryanalyse extends StatelessWidget {
   }
 }
 
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
+// end WORD_WEB
 
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
 
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
 
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Verb: analyse (derived forms: analysed, analysing)
-Usage: Brit, Cdn (US: analyze)
-1. Consider in detail and subject to an analysis in order to discover essential features or meaning (= analyze [N. Amer], study, examine, canvass)
-"analyse a sonnet by Shakespeare";
- 
-2. Make a mathematical, chemical, or grammatical analysis of; break down into components or essential features (= analyze [N. Amer], break down, dissect, take apart)
-"analyse a specimen";
-
-3. (psychiatry) subject to psychoanalytic treatment (= analyze [N. Amer], psychoanalyze [N. Amer], psychoanalyse [Brit, Cdn])
-"I was analysed in Vienna by a famous psychiatrist";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
-
-class YoutubeEmbeddedone extends StatelessWidget {
-  const YoutubeEmbeddedone({super.key});
-
-  final String _videoId = '29DjvorzUGg';
-  final double _startSeconds = 23;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  const YoutubeEmbeddedtwo({super.key});
-
-  final String _videoId = 'L878W_WrTx8';
-  final double _startSeconds = 1014;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  const YoutubeEmbeddedthree({super.key});
-
-  final String _videoId = 'p6Un9LY6V5w';
-  final double _startSeconds = 19;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  const YoutubeEmbeddedfour({super.key});
-
-  final String _videoId = 'uqIhHDuE62g';
-  final double _startSeconds = 34;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  const YoutubeEmbeddedfive({super.key});
-
-  final String _videoId = 'y_D4Slu-Wl4';
-  final double _startSeconds = 774;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  const YoutubeEmbeddedsix({super.key});
-
-  final String _videoId = 'tF_2QZo90lw';
-  final double _startSeconds = 249;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  const YoutubeEmbeddedseven({super.key});
-
-  final String _videoId = '1xZzv95AOMk';
-  final double _startSeconds = 756;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  const YoutubeEmbeddedeight({super.key});
-
-  final String _videoId = 'CvhMPA9oNBI';
-  final double _startSeconds = 524;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  const YoutubeEmbeddednine({super.key});
-
-  final String _videoId = 'MSBxQEFGytk';
-  final double _startSeconds = 679;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffoldEnd(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}

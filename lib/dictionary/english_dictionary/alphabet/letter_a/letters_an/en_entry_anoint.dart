@@ -1,196 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
-
-// replace these: replace EnglishEntryanoint - replace speakAnoint - replace anoint - /əˈnɔɪnt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryanoint extends StatelessWidget {
-  EnglishEntryanoint({super.key});
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakanoint(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("anoint");
-  }
-
-  Future<void> speakanoint949(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("The priest anointed her with oil.");
-  }
-
-  // Future<void> speakanoint(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnoint
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anoint");
-  // }
-
-  // Future<void> speakanoint(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnoint
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anoint");
-  // }
-
-  // Future<void> speakanoint(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnoint
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anoint");
-  // }
-
-  // Future<void> speakanoint(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnoint
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anoint");
-  // }
-
-  // Future<void> speakanoint(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnoint
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anoint");
-  // }
-
-  // Future<void> speakanoint(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnoint
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anoint");
-  // }
-
-  // Future<void> speakanoint(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnoint
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("anoint");
-  // }
+class EnglishEntryanoint extends StatefulWidget {
+  const EnglishEntryanoint({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "anoint"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈnɔɪnt/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakanoint("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /əˈnɔɪnt/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakanoint("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const DefinitionKurdish(text: """
-١. (ھاوەڵناو) دانانی ڕۆن یان ئاو لەسەر سەر یان جەستەی کەسێک وەک بەشێک لە ڕێوڕەسمێکی ئاینی"""),
-                          SentencesRow(
-                            englishText: "The priest anointed her with oil.",
-                            kurdishText: "قەشەکە بە ڕۆن چەوری کرد.",
-                            onPressedBritish: () => speakanoint949("en-GB"),
-                            onPressedAmerican: () => speakanoint949("en-US"),
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
-                        ],
-                      ),
-                    ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        // YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+  State<EnglishEntryanoint> createState() => _EnglishEntryanointState();
 }
 
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
+class _EnglishEntryanointState extends State<EnglishEntryanoint> {
   @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
 
-class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
+
   bool isSpeaking = false;
 
   Future<void> startSpeaking(
@@ -200,6 +33,8 @@ ${englishMeaningConst.text}
 """;
 
     await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(textToSpeak);
 
     setState(() {
@@ -207,7 +42,6 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -225,317 +59,195 @@ ${englishMeaningConst.text}
 2. Administer an oil or ointment to; often in a religious ceremony of blessing (= inunct, oil, anele [archaic], embrocate)
 """,
   );
+// 188888880002200
+
+  final String keyword = "anoint";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak("""anoint""");
+  }
+
+  Future<void> speakanoint949(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak("The priest anointed her with oil.");
+  }
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
+    const String videoIdend = 'FwrynHAB5KE';
+    const double startSecondsend = 210;
+    const String videoIdone = 'CzP23Zti-YI';
+    const double startSecondsone = 817;
+    const String videoIdtwo = 'CrKkjXMYFzs';
+    const double startSecondstwo = 25;
+    const String videoIdthree = 'dM0qCW8gBe4';
+    const double startSecondsthree = 30;
+    const String videoIdfour = 'Ubn7cLLxR80';
+    const double startSecondsfour = 964;
+    const String videoIdfive = 'P2XlPvijHOA';
+    const double startSecondsfive = 683;
+    // final String _videoId = 'YW0oyHvetqY';
+    // final double _startSeconds = 381;
+    // final String _videoId = 'NfTXLJJg-Mw';
+    // final double _startSeconds = 1;
+    // final String _videoId = 'B-DhLetLxyM';
+    // final double _startSeconds = 34;
+    // final String _videoId = 'LA0Y0TydEIg';
+    // final double _startSeconds = 462;
+
+    return DefaultTabController(
+      length: 4,
+      child: Scaffold(
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              CustomSliverAppBar(
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """anoint""",
+                      // alsoEnglishWord: "also: anoint",
+                      britshText: """IpaUK: /əˈnɔɪnt/""",
+                      americanText: """IpaUS: /əˈnɔɪnt/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
+                    ),
+                  ),
+                ),
+                bottom: const CustomTabBarNew(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
+                    const DefinitionKurdish(text: """
+١. (ھاوەڵناو) دانانی ڕۆن یان ئاو لەسەر سەر یان جەستەی کەسێک وەک بەشێک لە ڕێوڕەسمێکی ئاینی"""),
+                    SentencesRow(
+                      englishText: "The priest anointed her with oil.",
+                      kurdishText: "قەشەکە بە ڕۆن چەوری کرد.",
+                      onPressedBritish: () => speakanoint949("en-GB"),
+                      onPressedAmerican: () => speakanoint949("en-US"),
+                    ),
+                    // const DividerSentences(),
+                    // const DividerDefinition(),
+                  ],
+                ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdend),
+                    videoId: videoIdend,
+                    startSeconds: startSecondsend,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdone),
+                    videoId: videoIdone,
+                    startSeconds: startSecondsone,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdtwo),
+                    videoId: videoIdtwo,
+                    startSeconds: startSecondstwo,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdthree),
+                    videoId: videoIdthree,
+                    startSeconds: startSecondsthree,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfour),
+                    videoId: videoIdfour,
+                    startSeconds: startSecondsfour,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfive),
+                    videoId: videoIdfive,
+                    startSeconds: startSecondsfive,
+                  ),
+                ],
+              ),
+            ],
           ),
-          englishMeaningConst,
-        ],
+        ),
       ),
     );
   }
 }
 
-// DOPSUM: FIRST YOUTUBE VIDEO
+// end WORD_WEB
 
-class YoutubeEmbeddedone extends StatelessWidget {
-  const YoutubeEmbeddedone({super.key});
-
-  final String _videoId = 'FwrynHAB5KE';
-  final double _startSeconds = 210;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  const YoutubeEmbeddedtwo({super.key});
-
-  final String _videoId = 'CzP23Zti-YI';
-  final double _startSeconds = 817;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  const YoutubeEmbeddedthree({super.key});
-
-  final String _videoId = 'CrKkjXMYFzs';
-  final double _startSeconds = 25;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  const YoutubeEmbeddedfour({super.key});
-
-  final String _videoId = 'dM0qCW8gBe4';
-  final double _startSeconds = 30;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  const YoutubeEmbeddedfive({super.key});
-
-  final String _videoId = 'Ubn7cLLxR80';
-  final double _startSeconds = 964;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  const YoutubeEmbeddedsix({super.key});
-
-  final String _videoId = 'P2XlPvijHOA';
-  final double _startSeconds = 683;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  const YoutubeEmbeddedseven({super.key});
-
-  final String _videoId = 'YW0oyHvetqY';
-  final double _startSeconds = 381;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  const YoutubeEmbeddedeight({super.key});
-
-  final String _videoId = 'NfTXLJJg-Mw';
-  final double _startSeconds = 1;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  const YoutubeEmbeddednine({super.key});
-
-  final String _videoId = 'B-DhLetLxyM';
-  final double _startSeconds = 34;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  const YoutubeEmbeddedten({super.key});
-
-  final String _videoId = 'LA0Y0TydEIg';
-  final double _startSeconds = 462;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffoldEnd(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-// end

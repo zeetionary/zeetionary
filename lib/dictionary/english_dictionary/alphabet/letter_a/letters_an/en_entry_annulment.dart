@@ -1,203 +1,29 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
-
-// replace these: replace EnglishEntryannulment - replace speakAnnulment - replace annulment - /əˈnʌlmənt/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryannulment extends StatelessWidget {
-  EnglishEntryannulment({super.key});
-  final FlutterTts flutterTts = FlutterTts();
-
-  Future<void> speakannulment(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("annulment");
-  }
-
-  Future<void> speakannulment917(String languageCode) async {
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.setPitch(ttsPitch);
-    await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak(
-        "Henry VIII sought an annulment of his marriage to Catherine of Aragon.");
-  }
-
-  // Future<void> speakannulment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnulment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment");
-  // }
-
-  // Future<void> speakannulment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnulment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment");
-  // }
-
-  // Future<void> speakannulment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnulment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment");
-  // }
-
-  // Future<void> speakannulment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnulment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment");
-  // }
-
-  // Future<void> speakannulment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnulment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment");
-  // }
-
-  // Future<void> speakannulment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnulment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment");
-  // }
-
-  // Future<void> speakannulment(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnnulment
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("annulment");
-  // }
+class EnglishEntryannulment extends StatefulWidget {
+  const EnglishEntryannulment({super.key});
 
   @override
-  Widget build(BuildContext context) {
-    return DefaultTabController(
-      length: 3,
-      child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
-            children: [
-              SingleChildScrollView(
-                child: Column(
-                  children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "annulment"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˈnʌlmənt/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakannulment("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /əˈnʌlmənt/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakannulment("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
-                  children: [
-                    const EnglishMeaning(),
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
-کوردی: ھەڵوەشاندنەوە، ھەڵوەشاندن، پووچەڵ‌کردنەوە، بەتاڵ‌کردنەوە، پووکاندنەوە
-"""),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ناو) کرداری بەفەرمی ناساندنی ئەوەی شتێک، بەتایبەتی ھاوسەرگیری، لەڕووی یاساییەوە نەناسراوە"""),
-                          SentencesRow(
-                            englishText:
-                                "Henry VIII sought an annulment of his marriage to Catherine of Aragon.",
-                            kurdishText:
-                                "پاشا ھەوڵی‌دا ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆندا ھەڵبوەشێنێتەوە.",
-                            onPressedBritish: () => speakannulment917("en-GB"),
-                            onPressedAmerican: () => speakannulment917("en-US"),
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
-                        ],
-                      ),
-                    ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        // YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
-                  ],
-                ),
-              ),
-            ],
-          ),
-        ),
-      ),
-    );
-  }
+  State<EnglishEntryannulment> createState() => _EnglishEntryannulmentState();
 }
 
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
+class _EnglishEntryannulmentState extends State<EnglishEntryannulment> {
   @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
 
-class _EnglishMeaningState extends State<EnglishMeaning> {
   FlutterTts flutterTts = FlutterTts();
+
   bool isSpeaking = false;
 
   Future<void> startSpeaking(
@@ -207,6 +33,8 @@ ${englishMeaningConst.text}
 """;
 
     await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
     await flutterTts.speak(textToSpeak);
 
     setState(() {
@@ -214,7 +42,6 @@ ${englishMeaningConst.text}
     });
   }
 
-  // Function to stop TTS
   Future<void> stopSpeaking() async {
     await flutterTts.stop();
 
@@ -233,346 +60,204 @@ ${englishMeaningConst.text}
 3. The act of abrogating; an official or legal cancellation (= abrogation, repeal)
 """,
   );
+// 188888880002200
+
+  final String keyword = "annulment";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak("""annulment""");
+  }
+
+  Future<void> speakannulment917(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak(
+        "Henry VIII sought an annulment of his marriage to Catherine of Aragon.");
+  }
 
   @override
   Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
+    const String videoIdend = 'U2QcP1OF6P0';
+    const double startSecondsend = 1;
+    const String videoIdone = 'w_lDeCxjLQc';
+    const double startSecondsone = 91;
+    const String videoIdtwo = 'dfuPBC-v5NE';
+    const double startSecondstwo = 1168;
+    const String videoIdthree = '9MNUBBjHYrQ';
+    const double startSecondsthree = 96;
+    const String videoIdfour = 'PbABZl_nAcE';
+    const double startSecondsfour = 403;
+    const String videoIdfive = 'B3VHd2D-SLM';
+    const double startSecondsfive = 400;
+    // final String _videoId = 'lBB-o9kknEY';
+    // final double _startSeconds = 182;
+    // final String _videoId = 'lhuUEYVYXfM';
+    // final double _startSeconds = 353;
+    // final String _videoId = 'pZbN1x_wgq8';
+    // final double _startSeconds = 288;
+    // final String _videoId = 'utdWNAp0tBY';
+    // final double _startSeconds = 22;
+    // final String _videoId = '36erMl7IgRo';
+    // final double _startSeconds = 806;
+
+    return DefaultTabController(
+      length: 4,
+      child: Scaffold(
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              CustomSliverAppBar(
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """annulment""",
+                      // alsoEnglishWord: "also: annulment",
+                      britshText: """IpaUK: /əˈnʌlmənt/""",
+                      americanText: """IpaUS: /əˈnʌlmənt/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
+                    ),
+                  ),
+                ),
+                bottom: const CustomTabBarNew(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
+            children: [
+              SingleChildScrollView(
+                child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
+                  children: [
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
+                    ),
+                    englishMeaningConst,
+                  ],
+                ),
+              ),
+              SingleChildScrollView(
+                child: CustomColumnWidget(
+                  children: [
+                    const KurdishVocabulary(text: """
+کوردی: ھەڵوەشاندنەوە، ھەڵوەشاندن، پووچەڵ‌کردنەوە، بەتاڵ‌کردنەوە، پووکاندنەوە
+"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کرداری بەفەرمی ناساندنی ئەوەی شتێک، بەتایبەتی ھاوسەرگیری، لەڕووی یاساییەوە نەناسراوە"""),
+                    SentencesRow(
+                      englishText:
+                          "Henry VIII sought an annulment of his marriage to Catherine of Aragon.",
+                      kurdishText:
+                          "پاشا ھەوڵی‌دا ھاوسەرگیرییەکەی لەگەڵ کاسرینی ئاراگۆندا ھەڵبوەشێنێتەوە.",
+                      onPressedBritish: () => speakannulment917("en-GB"),
+                      onPressedAmerican: () => speakannulment917("en-US"),
+                    ),
+                    // const DividerSentences(),
+                    // const DividerDefinition(),
+                  ],
+                ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdend),
+                    videoId: videoIdend,
+                    startSeconds: startSecondsend,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdone),
+                    videoId: videoIdone,
+                    startSeconds: startSecondsone,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdtwo),
+                    videoId: videoIdtwo,
+                    startSeconds: startSecondstwo,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdthree),
+                    videoId: videoIdthree,
+                    startSeconds: startSecondsthree,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfour),
+                    videoId: videoIdfour,
+                    startSeconds: startSecondsfour,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfive),
+                    videoId: videoIdfive,
+                    startSeconds: startSecondsfive,
+                  ),
+                ],
+              ),
+            ],
           ),
-          englishMeaningConst,
-        ],
+        ),
       ),
     );
   }
 }
 
-// DOPSUM: FIRST YOUTUBE VIDEO
+// end WORD_WEB
 
-class YoutubeEmbeddedone extends StatelessWidget {
-  const YoutubeEmbeddedone({super.key});
-
-  final String _videoId = 'U2QcP1OF6P0';
-  final double _startSeconds = 1;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  const YoutubeEmbeddedtwo({super.key});
-
-  final String _videoId = 'w_lDeCxjLQc';
-  final double _startSeconds = 91;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  const YoutubeEmbeddedthree({super.key});
-
-  final String _videoId = 'dfuPBC-v5NE';
-  final double _startSeconds = 1168;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  const YoutubeEmbeddedfour({super.key});
-
-  final String _videoId = '9MNUBBjHYrQ';
-  final double _startSeconds = 96;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  const YoutubeEmbeddedfive({super.key});
-
-  final String _videoId = 'PbABZl_nAcE';
-  final double _startSeconds = 403;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  const YoutubeEmbeddedsix({super.key});
-
-  final String _videoId = 'B3VHd2D-SLM';
-  final double _startSeconds = 400;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  const YoutubeEmbeddedseven({super.key});
-
-  final String _videoId = 'lBB-o9kknEY';
-  final double _startSeconds = 182;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  const YoutubeEmbeddedeight({super.key});
-
-  final String _videoId = 'lhuUEYVYXfM';
-  final double _startSeconds = 353;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  const YoutubeEmbeddednine({super.key});
-
-  final String _videoId = 'pZbN1x_wgq8';
-  final double _startSeconds = 288;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  const YoutubeEmbeddedten({super.key});
-
-  final String _videoId = 'utdWNAp0tBY';
-  final double _startSeconds = 22;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  const YoutubeEmbeddedeleven({super.key});
-
-  final String _videoId = '36erMl7IgRo';
-  final double _startSeconds = 806;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffoldEnd(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-// end

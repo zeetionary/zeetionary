@@ -1,21 +1,88 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
-
-// replace these: replace EnglishEntryanimated - replace speakAnimated - replace animated - /ˈænɪmeɪtɪd/ - find Dopsum2
 
 enum TtsState { playing }
 
-class EnglishEntryanimated extends StatelessWidget {
-  EnglishEntryanimated({super.key});
-  final FlutterTts flutterTts = FlutterTts();
+class EnglishEntryanimated extends StatefulWidget {
+  const EnglishEntryanimated({super.key});
 
-  Future<void> speakanimated(String languageCode) async {
+  @override
+  State<EnglishEntryanimated> createState() => _EnglishEntryanimatedState();
+}
+
+class _EnglishEntryanimatedState extends State<EnglishEntryanimated> {
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
+
+  FlutterTts flutterTts = FlutterTts();
+
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("animated");
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Adjective: animated 
+1. Made to appear to move as living creatures do
+"an animated cartoon"; "animated puppets"
+ 
+2. Having life, vigour or spirit (= alive)
+"animated conversation"; "became very animated when he heard the good news"; "an animated and expressive face";
+""",
+  );
+// 188888880002200
+
+  final String keyword = "animated";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak("""animated""");
   }
 
   Future<void> speakanimated944(String languageCode) async {
@@ -40,163 +107,183 @@ class EnglishEntryanimated extends StatelessWidget {
         "Animated cartoons are popular for entertainment and storytelling.");
   }
 
-  // Future<void> speakanimated(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnimated
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animated");
-  // }
-
-  // Future<void> speakanimated(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnimated
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animated");
-  // }
-
-  // Future<void> speakanimated(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnimated
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animated");
-  // }
-
-  // Future<void> speakanimated(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnimated
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animated");
-  // }
-
-  // Future<void> speakanimated(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAnimated
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("animated");
-  // }
-
   @override
   Widget build(BuildContext context) {
+    const String videoIdend = 'jEXUG_vN540';
+    const double startSecondsend = 1;
+    const String videoIdone = 'SUDEB4Ui_g8';
+    const double startSecondsone = 36;
+    const String videoIdtwo = 'cvTchBdrqdw';
+    const double startSecondstwo = 23;
+    const String videoIdthree = 'p54tpokHrpo';
+    const double startSecondsthree = 84;
+    const String videoIdfour = 'U26Jqgmtdvc';
+    const double startSecondsfour = 1;
+    const String videoIdfive = 'Zh96VxLiXVY';
+    const double startSecondsfive = 392;
+    // final String _videoId = 'CFe9NcKcUQ4';
+    // final double _startSeconds = 382;
+    // final String _videoId = 'FHCZs-0rDDQ';
+    // final double _startSeconds = 11;
+    // final String _videoId = 'p5SygzMSLhM';
+    // final double _startSeconds = 10;
+    // final String _videoId = 'qwptXx_2Fq4';
+    // final double _startSeconds = 10;
+    // final String _videoId = 'Lp1-atuVYTw';
+    // final double _startSeconds = 1;
+    // final String _videoId = 'JNX6ybKqlqA';
+    // final double _startSeconds = 18;
+
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              CustomSliverAppBar(
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """animated""",
+                      // alsoEnglishWord: "also: animated",
+                      britshText: """IpaUK: /ˈænɪmeɪtɪd/""",
+                      americanText: """IpaUS: /ˈænɪmeɪtɪd/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
+                    ),
+                  ),
+                ),
+                bottom: const CustomTabBarNew(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
             children: [
               SingleChildScrollView(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "animated"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /ˈænɪmeɪtɪd/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakanimated("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /ˈænɪmeɪtɪd/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakanimated("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
                     ),
+                    englishMeaningConst,
                   ],
                 ),
               ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
+              SingleChildScrollView(
+                child: CustomColumnWidget(
                   children: [
-                    const EnglishMeaning(),
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: گەرم، سەرنج‌ڕاکێش، بەکەیف، بەگوڕ، سەرخۆش، (وێنەکێشی) جووڵاو
 """),
-                          const DefinitionKurdish(
-                              text: """١. (ھاوەڵناو) پڕ لە حەز و وزە"""),
-                          SentencesRow(
-                            englishText:
-                                "Mark was beginning to sound animated.",
-                            kurdishText:
-                                "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت.",
-                            onPressedBritish: () => speakanimated944("en-GB"),
-                            onPressedAmerican: () => speakanimated944("en-US"),
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          SentencesRow(
-                            englishText: "Her face suddenly became animated.",
-                            kurdishText: "ڕووخساری لەناکاو گەشایەوە.",
-                            onPressedBritish: () => speakanimated946("en-GB"),
-                            onPressedAmerican: () => speakanimated946("en-US"),
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text: """١. (ھاوەڵناو) پڕ لە حەز و وزە"""),
+                    SentencesRow(
+                      englishText: "Mark was beginning to sound animated.",
+                      kurdishText:
+                          "مارک خەریک‌بوو دەستی‌دەکرد بەوەی کراوە بێت.",
+                      onPressedBritish: () => speakanimated944("en-GB"),
+                      onPressedAmerican: () => speakanimated944("en-US"),
+                    ),
+                    const DividerSentences(),
+                    // const DividerDefinition(),
+                    SentencesRow(
+                      englishText: "Her face suddenly became animated.",
+                      kurdishText: "ڕووخساری لەناکاو گەشایەوە.",
+                      onPressedBritish: () => speakanimated946("en-GB"),
+                      onPressedAmerican: () => speakanimated946("en-US"),
+                    ),
+                    // const DividerSentences(),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ھاوەڵناو) درووستکراو وەک ئەوەی ئەنیمەیشن بێ (فیلمی کۆمپیوتەری یان وێنەیەکی زۆری جوڵاو بەدوای یەکدا)"""),
-                          SentencesRow(
-                            englishText:
-                                "Animated cartoons are popular for entertainment and storytelling.",
-                            kurdishText:
-                                "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە.",
-                            onPressedBritish: () => speakanimated950("en-GB"),
-                            onPressedAmerican: () => speakanimated950("en-US"),
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "Animated cartoons are popular for entertainment and storytelling.",
+                      kurdishText:
+                          "کارتۆنی ئەنیمەیشن باوە لە چێژبەخشین و چیرۆک‌گێڕانەوە.",
+                      onPressedBritish: () => speakanimated950("en-GB"),
+                      onPressedAmerican: () => speakanimated950("en-US"),
                     ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
+                    // const DividerSentences(),
+                    // const DividerDefinition(),
                   ],
                 ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdend),
+                    videoId: videoIdend,
+                    startSeconds: startSecondsend,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdone),
+                    videoId: videoIdone,
+                    startSeconds: startSecondsone,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdtwo),
+                    videoId: videoIdtwo,
+                    startSeconds: startSecondstwo,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdthree),
+                    videoId: videoIdthree,
+                    startSeconds: startSecondsthree,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfour),
+                    videoId: videoIdfour,
+                    startSeconds: startSecondsfour,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfive),
+                    videoId: videoIdfive,
+                    startSeconds: startSecondsfive,
+                  ),
+                ],
               ),
             ],
           ),
@@ -206,419 +293,7 @@ class EnglishEntryanimated extends StatelessWidget {
   }
 }
 
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
+// end WORD_WEB
 
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
 
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
 
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Adjective: animated 
-1. Made to appear to move as living creatures do
-"an animated cartoon"; "animated puppets"
- 
-2. Having life, vigour or spirit (= alive)
-"animated conversation"; "became very animated when he heard the good news"; "an animated and expressive face";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
-
-class YoutubeEmbeddedone extends StatelessWidget {
-  const YoutubeEmbeddedone({super.key});
-
-  final String _videoId = 'jEXUG_vN540';
-  final double _startSeconds = 1;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  const YoutubeEmbeddedtwo({super.key});
-
-  final String _videoId = 'SUDEB4Ui_g8';
-  final double _startSeconds = 36;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  const YoutubeEmbeddedthree({super.key});
-
-  final String _videoId = 'cvTchBdrqdw';
-  final double _startSeconds = 23;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  const YoutubeEmbeddedfour({super.key});
-
-  final String _videoId = 'p54tpokHrpo';
-  final double _startSeconds = 84;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  const YoutubeEmbeddedfive({super.key});
-
-  final String _videoId = 'U26Jqgmtdvc';
-  final double _startSeconds = 1;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  const YoutubeEmbeddedsix({super.key});
-
-  final String _videoId = 'Zh96VxLiXVY';
-  final double _startSeconds = 392;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  const YoutubeEmbeddedseven({super.key});
-
-  final String _videoId = 'CFe9NcKcUQ4';
-  final double _startSeconds = 382;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  const YoutubeEmbeddedeight({super.key});
-
-  final String _videoId = 'FHCZs-0rDDQ';
-  final double _startSeconds = 11;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  const YoutubeEmbeddednine({super.key});
-
-  final String _videoId = 'p5SygzMSLhM';
-  final double _startSeconds = 10;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  const YoutubeEmbeddedten({super.key});
-
-  final String _videoId = 'qwptXx_2Fq4';
-  final double _startSeconds = 10;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  const YoutubeEmbeddedeleven({super.key});
-
-  final String _videoId = 'Lp1-atuVYTw';
-  final double _startSeconds = 1;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  const YoutubeEmbeddedtwelve({super.key});
-
-  final String _videoId = 'JNX6ybKqlqA';
-  final double _startSeconds = 18;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffoldEnd(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-// end

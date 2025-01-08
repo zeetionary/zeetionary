@@ -1592,8 +1592,8 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/lette
     show EnglishEntryapologetic;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apologetically.dart'
     show EnglishEntryapologetically;
-export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apologize.dart'
-    show EnglishEntryapologize;
+export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apologise.dart'
+    show EnglishEntryapologise;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apology.dart'
     show EnglishEntryapology;
 export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_a/letters_ap/en_entry_apostle.dart'

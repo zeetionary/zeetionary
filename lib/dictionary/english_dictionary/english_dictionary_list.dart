@@ -804,7 +804,7 @@ final List<String> allWordsEnglish = [
   "aplomb",
   "apologetic",
   "apologetically",
-  "apologize",
+  "apologise",
   "apology",
   "apostle",
   "apostrophe",

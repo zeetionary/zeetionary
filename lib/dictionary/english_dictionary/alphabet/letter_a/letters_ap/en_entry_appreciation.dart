@@ -1,19 +1,101 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
-import 'package:youtube_player_iframe/youtube_player_iframe.dart';
+import 'package:flutter_riverpod/flutter_riverpod.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryappreciation extends StatelessWidget {
-  EnglishEntryappreciation({super.key});
-  final FlutterTts flutterTts = FlutterTts();
+class EnglishEntryappreciation extends StatefulWidget {
+  const EnglishEntryappreciation({super.key});
 
-  Future<void> speakappreciation(String languageCode) async {
+  @override
+  State<EnglishEntryappreciation> createState() =>
+      _EnglishEntryappreciationState();
+}
+
+class _EnglishEntryappreciationState extends State<EnglishEntryappreciation> {
+  @override
+  void initState() {
+    super.initState();
+    flutterTts = FlutterTts();
+    flutterTts.setLanguage("en-GB");
+    flutterTts.setLanguage("en-US");
+    fetchSentences();
+  }
+
+  FlutterTts flutterTts = FlutterTts();
+
+  bool isSpeaking = false;
+
+  Future<void> startSpeaking(
+      String languageCode, EnglishMeaningConst englishMeaningConst) async {
+    String textToSpeak = """
+${englishMeaningConst.text}
+""";
+
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("appreciation");
+    await flutterTts.speak(textToSpeak);
+
+    setState(() {
+      isSpeaking = true;
+    });
+  }
+
+  Future<void> stopSpeaking() async {
+    await flutterTts.stop();
+
+    setState(() {
+      isSpeaking = false;
+    });
+  }
+
+  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
+    text: """
+- Noun: appreciation (derived forms: appreciations)
+1. Understanding of the nature, meaning, quality or magnitude of something (= grasp, hold)
+"he has a good appreciation of accounting practices";
+ 
+2. Delicate discrimination (especially of aesthetic values) (= taste, discernment, perceptiveness)
+"arrogance and lack of appreciation contributed to his rapid success";
+ 
+3. An expression of gratitude
+"he expressed his appreciation in a short note"
+ 
+4. A favourable judgment (= admiration)
+"a small token in appreciation of your works";
+ 
+5. An increase in price or value
+"an appreciation of 30% in the value of real estate"
+ 
+6. A feeling of thankfulness and appreciation (= gratitude)
+"he was overwhelmed with appreciation for their help";
+""",
+  );
+// 188888880002200
+
+  final String keyword = "appreciation";
+  List<Map<String, dynamic>> filteredSentences = [];
+
+  Future<void> fetchSentences() async {
+    final sentences =
+        await DatabaseUtils.instance.fetchFilteredSentences(keyword: keyword);
+    setState(() {
+      filteredSentences = sentences;
+    });
+  }
+
+  void speakEnglish(String text, {String? languageCode}) async {
+    await flutterTts.setLanguage(languageCode ?? "en-GB");
+    await flutterTts.speak(text);
+  }
+
+  Future<void> speakheadword(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts.speak("""appreciation""");
   }
 
   Future<void> speakappreciation814(String languageCode) async {
@@ -61,187 +143,219 @@ class EnglishEntryappreciation extends StatelessWidget {
         "The appreciation in the value of the house has brought joy to the homeowners.");
   }
 
-  // Future<void> speakappreciation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppreciation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appreciation");
-  // }
-
-  // Future<void> speakappreciation(String languageCode) async {
-  //   // DOPSUM: CHANGE speakAppreciation
-  //   await flutterTts.setLanguage(languageCode);
-  //   await flutterTts.setPitch(1.0);
-  //   await flutterTts.setSpeechRate(0.5);
-  //   await flutterTts.speak("appreciation");
-  // }
-
   @override
   Widget build(BuildContext context) {
+    const String videoIdend = '4DhHXoIC0iU';
+    const double startSecondsend = 55;
+    const String videoIdone = 'T1x_knZmZAk';
+    const double startSecondsone = 6530;
+    const String videoIdtwo = 'g275afit9l0';
+    const double startSecondstwo = 1820;
+    const String videoIdthree = 'rFeRdjcKWSc';
+    const double startSecondsthree = 704;
+    const String videoIdfour = 'mdAJ5-fKnzo';
+    const double startSecondsfour = 36;
+    const String videoIdfive = 'VgMKgkUKEvs';
+    const double startSecondsfive = 54;
+    // final String _videoId = 'rnMB8zgKWXc';
+    // final double _startSeconds = 1;
+    // final String _videoId = 'VdOTxgYPxgc';
+    // final double _startSeconds = 264;
+    // final String _videoId = 'hFZFjoX2cGg';
+    // final double _startSeconds = 143;
+    // final String _videoId = 'F5pgG1M_h_U';
+    // final double _startSeconds = 96;
+    // final String _videoId = 'jgkMFBDyzE8';
+    // final double _startSeconds = 300;
+    // final String _videoId = 'EtgxTKuN018';
+    // final double _startSeconds = 437;
+
     return DefaultTabController(
-      length: 3,
+      length: 4,
       child: Scaffold(
-        appBar: const ZeetionaryAppbar(),
-        body: Padding(
-          padding:
-              const EdgeInsets.only(left: 14, top: 4, right: 14, bottom: 4),
-          child: Column(
+        body: NestedScrollView(
+          headerSliverBuilder: (context, innerBoxIsScrolled) {
+            return [
+              CustomSliverAppBar(
+                flexibleSpace: FlexibleSpaceBar(
+                  background: SingleChildScrollView(
+                    child: EntryPageColumn(
+                      word: """appreciation""",
+                      // alsoEnglishWord: "also: appreciation",
+                      britshText: """IpaUK: /əˌpriːʃiˈeɪʃn/""",
+                      americanText: """IpaUS: /əˌpriːʃiˈeɪʃn/""",
+                      onPressedBritish: () => speakheadword("en-GB"),
+                      onPressedAmerican: () => speakheadword("en-US"),
+                    ),
+                  ),
+                ),
+                bottom: const CustomTabBarNew(
+                  tabs: [
+                    UkIconForTab(),
+                    KurdIconForTab(),
+                    SentencesIconForTab(),
+                    VideoIconForTab(),
+                  ],
+                ),
+              ),
+            ];
+          },
+          body: TabBarView(
             children: [
               SingleChildScrollView(
                 child: Column(
+                  crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
-                    Column(
-                      crossAxisAlignment: CrossAxisAlignment.start,
-                      children: [
-                        const Row(
-                          children: [
-                            EntryTitle(word: "appreciation"),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUK: /əˌpriːʃiˈeɪʃn/"),
-                            CustomIconButtonBritish(
-                              onPressed: () => speakappreciation("en-GB"),
-                            ),
-                          ],
-                        ),
-                        Row(
-                          children: [
-                            const IPAofEnglish(text: "IpaUS: /əˌpriːʃiˈeɪʃn/"),
-                            CustomIconButtonAmerican(
-                              onPressed: () => speakappreciation("en-US"),
-                            ),
-                          ],
-                        ),
-                      ],
+                    EnglishButtonTTS(
+                      onBritishPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onAmericanPressed: (languageCode) =>
+                          startSpeaking(languageCode, englishMeaningConst),
+                      onStopPressed: stopSpeaking,
                     ),
+                    englishMeaningConst,
                   ],
                 ),
               ),
-              const CustomTabBar(
-                tabs: [
-                  UkIconForTab(),
-                  KurdIconForTab(),
-                  VideoIconForTab(),
-                ],
-              ),
-              Expanded(
-                child: TabBarView(
+              SingleChildScrollView(
+                child: CustomColumnWidget(
                   children: [
-                    const EnglishMeaning(),
-                    SingleChildScrollView(
-                      child: Column(
-                        crossAxisAlignment: CrossAxisAlignment.end,
-                        children: [
-                          const KurdishVocabulary(text: """
+                    const KurdishVocabulary(text: """
 کوردی: قەدرزانی، قەدرلێنان، بایەخ، پێزانین، سپاس‌کردن، ڕێزلێنان، لێکدانەوە، نرخاندن، ھەڵسەنگاندن، تێگەیشتن، پێ‌پێبردن، پێزانین، ھەست‌پێکردن. خۆشی، چوونەسەرێ، ھەستان، بەرزبوونەوە، زۆربوون (نرخ)
 """),
-                          const DefinitionKurdish(
-                              text:
-                                  """١. (ناو) ئەو خۆشیەی کە ھەتە لە کاتی چێژ بینین لە شتێکی باش"""),
-                          SentencesRow(
-                            englishText:
-                                "She shows little appreciation of good music.",
-                            kurdishText: "قەدری میوزیکی خۆش نازانێ.",
-                            onPressedBritish: () =>
-                                speakappreciation814("en-GB"),
-                            onPressedAmerican: () =>
-                                speakappreciation814("en-US"),
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          SentencesRow(
-                            englishText:
-                                "I have now developed an appreciation of poetry.",
-                            kurdishText:
-                                "دەستم‌کردووە بە چێژ وەرگرتن لە ھۆنراوە.",
-                            onPressedBritish: () =>
-                                speakappreciation815("en-GB"),
-                            onPressedAmerican: () =>
-                                speakappreciation815("en-US"),
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ئەو خۆشیەی کە ھەتە لە کاتی چێژ بینین لە شتێکی باش"""),
+                    SentencesRow(
+                      englishText:
+                          "She shows little appreciation of good music.",
+                      kurdishText: "قەدری میوزیکی خۆش نازانێ.",
+                      onPressedBritish: () => speakappreciation814("en-GB"),
+                      onPressedAmerican: () => speakappreciation814("en-US"),
+                    ),
+                    const DividerSentences(),
+                    // const DividerDefinition(),
+                    SentencesRow(
+                      englishText:
+                          "I have now developed an appreciation of poetry.",
+                      kurdishText: "دەستم‌کردووە بە چێژ وەرگرتن لە ھۆنراوە.",
+                      onPressedBritish: () => speakappreciation815("en-GB"),
+                      onPressedAmerican: () => speakappreciation815("en-US"),
+                    ),
+                    // const DividerSentences(),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٢. (ناو) تێگەشتنی تەواو بۆ شتێک"""),
-                          SentencesRow(
-                            englishText:
-                                "I had no appreciation of the problems they faced.",
-                            kurdishText:
-                                "تەواو بێ ئاگا بووم لەو کێشانەی ڕووبەڕووی دەبوونەوە.",
-                            onPressedBritish: () =>
-                                speakappreciation817("en-GB"),
-                            onPressedAmerican: () =>
-                                speakappreciation817("en-US"),
-                          ),
-                          const DividerSentences(),
-                          // const DividerDefinition(),
-                          SentencesRow(
-                            englishText:
-                                "There is a growing appreciation of the need for change.",
-                            kurdishText:
-                                "تێگەشتنی زیاتر و زیاتر ھەیە بۆ پێویستیی گۆڕانکاری.",
-                            onPressedBritish: () =>
-                                speakappreciation818("en-GB"),
-                            onPressedAmerican: () =>
-                                speakappreciation818("en-US"),
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "I had no appreciation of the problems they faced.",
+                      kurdishText:
+                          "تەواو بێ ئاگا بووم لەو کێشانەی ڕووبەڕووی دەبوونەوە.",
+                      onPressedBritish: () => speakappreciation817("en-GB"),
+                      onPressedAmerican: () => speakappreciation817("en-US"),
+                    ),
+                    const DividerSentences(),
+                    // const DividerDefinition(),
+                    SentencesRow(
+                      englishText:
+                          "There is a growing appreciation of the need for change.",
+                      kurdishText:
+                          "تێگەشتنی زیاتر و زیاتر ھەیە بۆ پێویستیی گۆڕانکاری.",
+                      onPressedBritish: () => speakappreciation818("en-GB"),
+                      onPressedAmerican: () => speakappreciation818("en-US"),
+                    ),
+                    // const DividerSentences(),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٣. (ناو) ھەستی سوپاسگوزری و پێزانین"""),
-                          SentencesRow(
-                            englishText:
-                                "I would like to express my appreciation and thanks to you all.",
-                            kurdishText:
-                                "دەمەوێت پێزانین و سوپاسگوزاریم بۆ ھەمووتان دەرببڕم.",
-                            onPressedBritish: () =>
-                                speakappreciation820("en-GB"),
-                            onPressedAmerican: () =>
-                                speakappreciation820("en-US"),
-                          ),
-                          // const DividerSentences(),
-                          const DividerDefinition(),
-                          const DefinitionKurdish(text: """
+                    SentencesRow(
+                      englishText:
+                          "I would like to express my appreciation and thanks to you all.",
+                      kurdishText:
+                          "دەمەوێت پێزانین و سوپاسگوزاریم بۆ ھەمووتان دەرببڕم.",
+                      onPressedBritish: () => speakappreciation820("en-GB"),
+                      onPressedAmerican: () => speakappreciation820("en-US"),
+                    ),
+                    // const DividerSentences(),
+                    const DividerDefinition(),
+                    const DefinitionKurdish(text: """
 ٤. (ناو) زیادبوونی نرخی شتێک لە دوای ماوەیەک"""),
-                          SentencesRow(
-                            englishText:
-                                "The appreciation in the value of the house has brought joy to the homeowners.",
-                            kurdishText:
-                                "بەرزبوونی نرخی خانووەکان خۆشی ھێناوە بۆ خاوەنەکانیان.",
-                            onPressedBritish: () =>
-                                speakappreciation824("en-GB"),
-                            onPressedAmerican: () =>
-                                speakappreciation824("en-US"),
-                          ),
-                          // const DividerSentences(),
-                          // const DividerDefinition(),
-                        ],
-                      ),
+                    SentencesRow(
+                      englishText:
+                          "The appreciation in the value of the house has brought joy to the homeowners.",
+                      kurdishText:
+                          "بەرزبوونی نرخی خانووەکان خۆشی ھێناوە بۆ خاوەنەکانیان.",
+                      onPressedBritish: () => speakappreciation824("en-GB"),
+                      onPressedAmerican: () => speakappreciation824("en-US"),
                     ),
-                    const YouTubeScroller(
-                      children: [
-                        YoutubeEmbeddedone(), // DOPSUM: DOPSUM_WRITE_A_SENTENCE
-                        YoutubeEmbeddedtwo(),
-                        YoutubeEmbeddedthree(),
-                        YoutubeEmbeddedfour(),
-                        YoutubeEmbeddedfive(),
-                        YoutubeEmbeddedsix(),
-                        YoutubeEmbeddedseven(),
-                        YoutubeEmbeddedeight(),
-                        YoutubeEmbeddednine(),
-                        YoutubeEmbeddedten(),
-                        YoutubeEmbeddedeleven(),
-                        YoutubeEmbeddedtwelve(),
-                        // YoutubeEmbeddedthirteen(),
-                        // YoutubeEmbeddeddfourteen(),
-                        // YoutubeEmbeddedfifteen(),
-                      ],
-                    ),
+                    // const DividerSentences(),
+                    // const DividerDefinition(),
                   ],
                 ),
+              ),
+              Consumer(
+                builder: (context, ref, child) {
+                  if (filteredSentences.isEmpty) {
+                    return const NoSentencesFromDatabase();
+                  } else {
+                    return ListView.builder(
+                      itemCount: filteredSentences.length,
+                      itemBuilder: (context, index) {
+                        final sentence = filteredSentences[index];
+                        final showDivider = filteredSentences.length > 1 &&
+                            index != filteredSentences.length - 1;
+                        return CustomSentenceWidget(
+                          englishText: sentence['english'].toString(),
+                          frenchText: sentence['french'].toString(),
+                          keyword: keyword,
+                          onPressedBritish: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-GB",
+                          ),
+                          onPressedAmerican: () => speakEnglish(
+                            sentence['english'].toString(),
+                            languageCode: "en-US",
+                          ),
+                          showDivider: showDivider,
+                        );
+                      },
+                    );
+                  }
+                },
+              ),
+              const YouTubeScroller(
+                children: [
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdend),
+                    videoId: videoIdend,
+                    startSeconds: startSecondsend,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdone),
+                    videoId: videoIdone,
+                    startSeconds: startSecondsone,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdtwo),
+                    videoId: videoIdtwo,
+                    startSeconds: startSecondstwo,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdthree),
+                    videoId: videoIdthree,
+                    startSeconds: startSecondsthree,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfour),
+                    videoId: videoIdfour,
+                    startSeconds: startSecondsfour,
+                  ),
+                  YoutubeEmbeddingWidget(
+                    key: ValueKey(videoIdfive),
+                    videoId: videoIdfive,
+                    startSeconds: startSecondsfive,
+                  ),
+                ],
               ),
             ],
           ),
@@ -250,432 +364,3 @@ class EnglishEntryappreciation extends StatelessWidget {
     );
   }
 }
-
-class EnglishMeaning extends StatefulWidget {
-  const EnglishMeaning({super.key});
-
-  @override
-  State<EnglishMeaning> createState() => _EnglishMeaningState();
-}
-
-class _EnglishMeaningState extends State<EnglishMeaning> {
-  FlutterTts flutterTts = FlutterTts();
-  bool isSpeaking = false;
-
-  Future<void> startSpeaking(
-      String languageCode, EnglishMeaningConst englishMeaningConst) async {
-    String textToSpeak = """
-${englishMeaningConst.text}
-""";
-
-    await flutterTts.setLanguage(languageCode);
-    await flutterTts.speak(textToSpeak);
-
-    setState(() {
-      isSpeaking = true;
-    });
-  }
-
-  // Function to stop TTS
-  Future<void> stopSpeaking() async {
-    await flutterTts.stop();
-
-    setState(() {
-      isSpeaking = false;
-    });
-  }
-
-  final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
-    text: """
-- Noun: appreciation (derived forms: appreciations)
-1. Understanding of the nature, meaning, quality or magnitude of something (= grasp, hold)
-"he has a good appreciation of accounting practices";
- 
-2. Delicate discrimination (especially of aesthetic values) (= taste, discernment, perceptiveness)
-"arrogance and lack of appreciation contributed to his rapid success";
- 
-3. An expression of gratitude
-"he expressed his appreciation in a short note"
- 
-4. A favourable judgment (= admiration)
-"a small token in appreciation of your works";
- 
-5. An increase in price or value
-"an appreciation of 30% in the value of real estate"
- 
-6. A feeling of thankfulness and appreciation (= gratitude)
-"he was overwhelmed with appreciation for their help";
-""",
-  );
-
-  @override
-  Widget build(BuildContext context) {
-    return SingleChildScrollView(
-      child: Column(
-        crossAxisAlignment: CrossAxisAlignment.start,
-        children: [
-          EnglishButtonTTS(
-            onBritishPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onAmericanPressed: (languageCode) =>
-                startSpeaking(languageCode, englishMeaningConst),
-            onStopPressed: stopSpeaking,
-          ),
-          englishMeaningConst,
-        ],
-      ),
-    );
-  }
-}
-
-// DOPSUM: FIRST YOUTUBE VIDEO
-
-class YoutubeEmbeddedone extends StatelessWidget {
-  const YoutubeEmbeddedone({super.key});
-
-  final String _videoId = '4DhHXoIC0iU';
-  final double _startSeconds = 55;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwo extends StatelessWidget {
-  const YoutubeEmbeddedtwo({super.key});
-
-  final String _videoId = 'T1x_knZmZAk';
-  final double _startSeconds = 6530;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedthree extends StatelessWidget {
-  const YoutubeEmbeddedthree({super.key});
-
-  final String _videoId = 'g275afit9l0';
-  final double _startSeconds = 1820;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfour extends StatelessWidget {
-  const YoutubeEmbeddedfour({super.key});
-
-  final String _videoId = 'rFeRdjcKWSc';
-  final double _startSeconds = 704;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedfive extends StatelessWidget {
-  const YoutubeEmbeddedfive({super.key});
-
-  final String _videoId = 'mdAJ5-fKnzo';
-  final double _startSeconds = 36;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedsix extends StatelessWidget {
-  const YoutubeEmbeddedsix({super.key});
-
-  final String _videoId = 'VgMKgkUKEvs';
-  final double _startSeconds = 54;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedseven extends StatelessWidget {
-  const YoutubeEmbeddedseven({super.key});
-
-  final String _videoId = 'rnMB8zgKWXc';
-  final double _startSeconds = 1;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeight extends StatelessWidget {
-  const YoutubeEmbeddedeight({super.key});
-
-  final String _videoId = 'VdOTxgYPxgc';
-  final double _startSeconds = 264;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddednine extends StatelessWidget {
-  const YoutubeEmbeddednine({super.key});
-
-  final String _videoId = 'hFZFjoX2cGg';
-  final double _startSeconds = 143;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedten extends StatelessWidget {
-  const YoutubeEmbeddedten({super.key});
-
-  final String _videoId = 'F5pgG1M_h_U';
-  final double _startSeconds = 96;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedeleven extends StatelessWidget {
-  const YoutubeEmbeddedeleven({super.key});
-
-  final String _videoId = 'jgkMFBDyzE8';
-  final double _startSeconds = 300;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffold(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-class YoutubeEmbeddedtwelve extends StatelessWidget {
-  const YoutubeEmbeddedtwelve({super.key});
-
-  final String _videoId = 'EtgxTKuN018';
-  final double _startSeconds = 437;
-
-  @override
-  Widget build(BuildContext context) {
-    YoutubePlayerController controller = YoutubePlayerController.fromVideoId(
-      videoId: _videoId,
-      startSeconds: _startSeconds,
-      autoPlay: true,
-      params: defaultYoutubePlayerParams,
-    );
-
-    void reloadVideo() {
-      controller.loadVideoById(
-        videoId: _videoId,
-        startSeconds: _startSeconds,
-      );
-    }
-
-    return YouTubeVideosScaffoldEnd(
-      controller: controller,
-      onReloadVideo: reloadVideo,
-    );
-  }
-}
-
-// end

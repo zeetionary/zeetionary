@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryapple extends StatefulWidget {
-  const EnglishEntryapple({super.key});
+class EnglishEntryapologise extends StatefulWidget {
+  const EnglishEntryapologise({super.key});
 
   @override
-  State<EnglishEntryapple> createState() => _EnglishEntryappleState();
+  State<EnglishEntryapologise> createState() => _EnglishEntryapologiseState();
 }
 
-class _EnglishEntryappleState extends State<EnglishEntryapple> {
+class _EnglishEntryapologiseState extends State<EnglishEntryapologise> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: apple (derived forms: apples)
-1. Fruit with red, yellow or green skin and sweet to tart crisp whitish flesh
+- Verb: apologise (derived forms: apologised, apologises, apologising)
+Usage: Brit (N. Amer: apologize)
+1. Defend, explain, clear away, or make excuses for by reasoning (= apologise, excuse, rationalize, rationalise [Brit])
  
-2. Native Eurasian tree widely cultivated in many varieties for its firm rounded edible fruits (= orchard apple tree, Malus pumila)
+2. Express regret for something bad that one has done; acknowledge faults and mistakes (= apologise)
+"I apologised for being late"; "He apologised for the many typos";
 """,
   );
 // 188888880002200
 
-  final String keyword = "apple";
+  final String keyword = "apologise";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,43 +82,53 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""apple""");
+    await flutterTts.speak("""apologise""");
   }
 
-  Future<void> speakapple547(String languageCode) async {
+  Future<void> speakapologise535(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("I took a bite of the apple.");
+    await flutterTts.speak("Why should I apologise?");
   }
 
-  Future<void> speakapple549(String languageCode) async {
+  Future<void> speakapologise537(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("Peel and core the apples.");
+    await flutterTts.speak("He wanted to publicly apologise to his victims.");
+  }
+
+  Future<void> speakapologise540(String languageCode) async {
+    await flutterTts.setLanguage(languageCode);
+    await flutterTts.setPitch(ttsPitch);
+    await flutterTts.setSpeechRate(ttsSpeechRate);
+    await flutterTts
+        .speak("I apologise unreservedly for any offending remarks I made.");
   }
 
   @override
   Widget build(BuildContext context) {
-    const String videoIdend = 'vckz6EAn30Y';
+    const String videoIdend = 'vYewmW_biio';
     const double startSecondsend = 1;
-    const String videoIdone = 'nedusgCUZC4';
-    const double startSecondsone = 62;
-    const String videoIdtwo = 'QGURNgLlUa4';
-    const double startSecondstwo = 58;
-    const String videoIdthree = 'ZUP5_TiyAqQ';
-    const double startSecondsthree = 320;
-    const String videoIdfour = 'nAXtpbEzz4M';
-    const double startSecondsfour = 113;
-    const String videoIdfive = 'qTzxfoL82n8';
-    const double startSecondsfive = 1;
-    // final String _videoId = 'hTqtGJwsJVE';
-    // final double _startSeconds = 1984;
-    // final String _videoId = 'wtPYJMwuDO8';
-    // final double _startSeconds = 334;
-    // final String _videoId = 'nsurFWrTbww';
-    // final double _startSeconds = 189;
+    const String videoIdone = 'Pf7Umtt-_qA';
+    const double startSecondsone = 69;
+    const String videoIdtwo = 'U8A07OR7YFY';
+    const double startSecondstwo = 231;
+    const String videoIdthree = '20QGM3XtYsg';
+    const double startSecondsthree = 204;
+    const String videoIdfour = '6rvrPMer5hc';
+    const double startSecondsfour = 353;
+    const String videoIdfive = '8jb7XZ40pHo';
+    const double startSecondsfive = 1773;
+    // final String _videoId = 'dAXq4yvKyB0';
+    // final double _startSeconds = 858;
+    // final String _videoId = 'OU-DF-JcXkw';
+    // final double _startSeconds = 1324;
+    // final String _videoId = '0kd_hwY0w90';
+    // final double _startSeconds = 1090;
+    // final String _videoId = 'HVbXTUCnhIY';
+    // final double _startSeconds = 1094;
 
     return DefaultTabController(
       length: 4,
@@ -128,10 +140,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """apple""",
-                      // alsoEnglishWord: "also: apple",
-                      britshText: """IpaUK: /ˈæpl/""",
-                      americanText: """IpaUS: /ˈæpl/""",
+                      word: """apologise""",
+                      alsoEnglishWord: "also: apologize",
+                      britshText: """IpaUK: /əˈpɒlədʒaɪz/""",
+                      americanText: """IpaUS: /əˈpɑːlədʒaɪz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -168,25 +180,33 @@ ${englishMeaningConst.text}
               SingleChildScrollView(
                 child: CustomColumnWidget(
                   children: [
-                    const KurdishVocabulary(text: """
-کوردی: سێو، سێڤ، سێف، دار سێو
-"""),
-                    const DefinitionKurdish(
-                        text:
-                            """١. (ناو) میوەیەکی خڕ بە توێکڵی بریقەداری سوور و سەوز کە کەمێک ڕەقە و ناوەکەی سپییە"""),
+                    const DefinitionKurdish(text: """
+١. (کردار) داواکردنی لێبووردەیی بۆ شتێک"""),
                     SentencesRow(
-                      englishText: "I took a bite of the apple.",
-                      kurdishText: "قەپێکم لە سێوەکە گرت.",
-                      onPressedBritish: () => speakapple547("en-GB"),
-                      onPressedAmerican: () => speakapple547("en-US"),
+                      englishText: "Why should I apologise?",
+                      kurdishText: "بۆچی دەبێت داوای لێبووردن بکەم؟",
+                      onPressedBritish: () => speakapologise535("en-GB"),
+                      onPressedAmerican: () => speakapologise535("en-US"),
                     ),
                     const DividerSentences(),
                     // const DividerDefinition(),
                     SentencesRow(
-                      englishText: "Peel and core the apples.",
-                      kurdishText: "سێوەکە پاک بکە و ناوەکەی دەربکە.",
-                      onPressedBritish: () => speakapple549("en-GB"),
-                      onPressedAmerican: () => speakapple549("en-US"),
+                      englishText:
+                          "He wanted to publicly apologise to his victims.",
+                      kurdishText:
+                          "ویستی بەشێوەیەکی گشتی داوای لێبووردن بکات لە قوربانییەکانی.",
+                      onPressedBritish: () => speakapologise537("en-GB"),
+                      onPressedAmerican: () => speakapologise537("en-US"),
+                    ),
+                    const DividerSentences(),
+                    // const DividerDefinition(),
+                    SentencesRow(
+                      englishText:
+                          "I apologise unreservedly for any offending remarks I made.",
+                      kurdishText:
+                          "بە تەواوی داوای لێبووردن دەکەم ھەر لێدوانێکی بێ‌ڕێزانە کە وتبێتم.",
+                      onPressedBritish: () => speakapologise540("en-GB"),
+                      onPressedAmerican: () => speakapologise540("en-US"),
                     ),
                     // const DividerSentences(),
                     // const DividerDefinition(),
@@ -264,5 +284,3 @@ ${englishMeaningConst.text}
     );
   }
 }
-
-// end WORD_WEB

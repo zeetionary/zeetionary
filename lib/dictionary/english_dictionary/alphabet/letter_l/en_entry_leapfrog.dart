@@ -52,13 +52,19 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: leapfrog (Derived forms: leapfrogs)
+1. Advancing as if in the child's game, by leaping over obstacles or competitors
+"the company still believes the chip is a leapfrog in integration and will pay huge dividends"
+ 
+2. A game in which one child bends down and another leaps over
 
-EnglishEntryleapfrog leapfrog
-WORD_WEB leapfrog leapfrog leapfrog
-haʊʊʊʊʊʊʊ4
+- Verb: leapfrog (Derived forms: leapfrogged, leapfrogging, leapfrogs)
+1. To vault
+"He leapfrogged his classmates"
+ 
+2. Progress by large jumps instead of small increments
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leapfrog";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +93,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The kids played leapfrog in the park.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The win allowed them to leapfrog three teams to gain second place.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +932,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/9ab2ZEu4dcg?t=656';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/5Wq0yv73NpY?t=404';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/yMdUSVSEp7U?t=1065';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ehzdhKKcgow?t=81';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/pafA-RU3q7U?t=1006';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/H4BsZTsNMkQ?t=609';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +957,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leapfrog""",
                       // alsoEnglishWord: "also: leapfrog",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈliːpfrɒɡ/""",
+                      americanText: """IpaUS: /ˈliːpfrɔːɡ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,21 +998,19 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "leapfrog", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) یارییەکەی منداڵان کە تێیدا یەکێک دەچەمێتەوە و یەکێک بەسەریدا باز دەدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The kids played leapfrog in the park.""",
+                      kurdishText: """منداڵەکان بازبازێنیان دەکرد لە پارکەکەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (کردار) ئەوەی پلەت لە کەسێکی دیکە بەرزتر ببێتەوە بەوەی کە تێیبپەڕێنیت یان یان چەند پلەیەک پەڕ بدەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The win allowed them to leapfrog three teams to gain second place.""",
+                      kurdishText: """بردنەوەکە وایکرد سێ یانە تێبپەڕێنن و پلەی دووەم بەدەست بهێنن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

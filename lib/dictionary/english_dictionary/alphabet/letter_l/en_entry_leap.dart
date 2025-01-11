@@ -168,21 +168,21 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""She took a leap and landed on the other side of the stream.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak("""Those initial discoveries led to a quantitative leap in our understanding of cancer biology.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1200""");
+    await flutterTts.speak("""Few people successfully make the leap from television to the movies.""");
   }
 
   Future<void> speaksentence13(String languageCode) async {
@@ -1091,29 +1091,29 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """٤. (ناو) بازێکی دوور مەودای بەرز"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She took a leap and landed on the other side of the stream.""",
+                      kurdishText: """بازێکی بەرزی دا و لەوپەڕی زەلکاوەکە نیشتەوە.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """٥. (ناو) بەرزبوونێکی زۆری لەناکاو لە شتێکدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Those initial discoveries led to a quantitative leap in our understanding of cancer biology.""",
+                      kurdishText: """ئەو دۆزینەوە سەرەتاییانە گەشتن بە زیادبوونێکی زۆری تێگەشتنمان بۆ زیندەزانیی شێرپەنجە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
+                    const DefinitionKurdish(text: """٦. (ناو) گۆڕانێکی لەناکاو لە شتێکەوە بۆ شتێکی دیکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Few people successfully make the leap from television to the movies.""",
+                      kurdishText: """کەم کەس بە سەرکەوتووی گۆڕانیان لە تەلەفیزیۆنەوە بۆ فیلم ئەنجام دا.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),

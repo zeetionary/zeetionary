@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylearned learned
-WORD_WEB learned learned learned
-haʊʊʊʊʊʊʊ4
+- Adjective: learned
+1. Having or showing profound knowledge (- erudite)
+"a learned jurist";
+ 
+2. (psychology) established by conditioning or learning (- conditioned)
+ 
+3. Highly educated; having extensive information or understanding (- knowing, knowledgeable, lettered, well-educated, well-read, knowledgable, well-versed)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "learned";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She consulted the learned professor about her thesis.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The library has many learned journals on science.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/7kSiLTnKw0I?t=285';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/cVcPVn5Cwzg?t=902';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/mPNH6ylqCGs?t=609';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/z5m9yT06Khg?t=357';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/DTQA2ONgOlE?t=742';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/B82029-9A1M?t=421';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """learned""",
                       // alsoEnglishWord: "also: learned",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɜːnɪd/""",
+                      americanText: """IpaUS: /ˈlɜːrnɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +992,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زانا، شارەزا، ڕووناک‌بیر، بەزانست، لێزان، زۆرزان، تێگەیشتوو، ئاگادار، زانیارانە، زانایانە، زانستی
 """),
 // With short examples define "learned", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) هەبوونی زانیاری زۆر بەهۆی خوێندن و خوێندنەوەی زۆرەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She consulted the learned professor about her thesis.""",
+                      kurdishText: """ڕاوێژی بە پڕۆفیسۆرە زاناکە کرد سەبارەت بە توێژینەوەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) پەیوەندیدار بە کەسانی زۆر خوێندەوار"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: scholarly"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The library has many learned journals on science.""",
+                      kurdishText: """پەرتووکخانەکە جۆرناڵی زانستی زۆری هەیە لەسەر زانست.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

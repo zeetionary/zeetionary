@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylecherous lecherous
-WORD_WEB lecherous lecherous lecherous
-haʊʊʊʊʊʊʊ4
+- Adjective: lecherous
+1. Given to excessive indulgence in sexual activity
+"a lecherous gleam in his eye"; "a lecherous good-for-nothing"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lecherous";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He gave her a lecherous look.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/3Ohp9y-M6bg?t=51';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/87KYnPdQ0uU?t=1467';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/NQZ5BfdjDv0?t=1304';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/L5gKFegxPpc?t=180';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/0Mzjm1WWBto?t=414';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/MtKIQO_JSHE?t=141';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lecherous""",
                       // alsoEnglishWord: "also: lecherous",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈletʃərəs/""",
+                      americanText: """IpaUS: /ˈletʃərəs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +988,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەئاڵۆش، ئاڵۆشاوی، حەشەری، زەنەک، کڵپەکردوو، کەڵەسوو، هەوەساوی، گاناوی، ئاورگرتوو، شەهوانی، هەرزە، بێ‌شەرم، چاوحیز
 """),
 // With short examples define "lecherous", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) هەبوونی حەزی سێکسی ناشرین بۆ کەسێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: lascivious، lustful"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He gave her a lecherous look.""",
+                      kurdishText: """نیگایەکی چاوحیزانەی لێیکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

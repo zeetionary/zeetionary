@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrytheleftwing extends StatefulWidget {
-  const EnglishEntrytheleftwing({super.key});
+class EnglishEntryleniency extends StatefulWidget {
+  const EnglishEntryleniency({super.key});
 
   @override
-  State<EnglishEntrytheleftwing> createState() => _EnglishEntrytheleftwingState();
+  State<EnglishEntryleniency> createState() => _EnglishEntryleniencyState();
 }
 
-class _EnglishEntrytheleftwingState extends State<EnglishEntrytheleftwing> {
+class _EnglishEntryleniencyState extends State<EnglishEntryleniency> {
   @override
   void initState() {
     super.initState();
@@ -53,14 +53,14 @@ ${englishMeaningConst.text}
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
 
-EnglishEntrytheleftwing the left wing
-WORD_WEB the left wing the left wing the left wing
+EnglishEntryleniency leniency
+WORD_WEB leniency leniency leniency
 haʊʊʊʊʊʊʊ4
 """,
   );
 // 188888880002200000000000
 
-  final String keyword = "the left wing";
+  final String keyword = "leniency";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,7 +80,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""the left wing""");
+    await flutterTts.speak("""leniency""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
@@ -951,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """the left wing""",
-                      // alsoEnglishWord: "also: the left wing",
+                      word: """leniency""",
+                      // alsoEnglishWord: "also: leniency",
                       britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
                       americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
@@ -994,7 +994,7 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "the left wing", please follow LX instructions
+// With short examples define "leniency", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
                       englishText: """// ssssssssssssssssssssssgggggggg55555
@@ -2150,4 +2150,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end the left wing
+// end leniency

@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryledger ledger
-WORD_WEB ledger ledger ledger
-haʊʊʊʊʊʊʊ4
+- Noun: ledger (Derived forms: ledgers)
+1. A record in which commercial accounts are recorded (- leger, account book, book of account, book)
+"they got a subpoena to examine our ledgers";
+ 
+2. An accounting journal as a physical object (- daybook)
+"he bought a new ledger";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "ledger";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The ledger showed all the expenses for the month.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/XHXLbp7x3MM?t=667';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/bcdEFos9YQQ?t=1066';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Oz9zw7-_vhM?t=139';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/zwZY-PknSQw?t=1567';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/fOGdb1CTu5c?t=1226';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/9yrj2iSuI38?t=107';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """ledger""",
                       // alsoEnglishWord: "also: ledger",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈledʒə(r)/""",
+                      americanText: """IpaUS: /ˈledʒər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,12 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پارەنامە، دەفتەری حیساباتی دارایی، شادەفتەر، شاپەڕاو (بانکی)، دەفتەر یان پەڕاوی حیساب، حیساب‌نامە
 """),
-// With short examples define "ledger", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) کتێبێک یان دۆکیومێنتێکی ئەلیکترۆنی کە تێیدا بانکێک، بازرگانییەک، هتد ئەو پارانە تۆمار دەکات کە داویەتی و وەریگرتووە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The ledger showed all the expenses for the month.""",
+                      kurdishText: """پارەنامەکە تەواوی خەرجییەکانی بۆ مانگەکە پیشان دا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylectern lectern
-WORD_WEB lectern lectern lectern
-haʊʊʊʊʊʊʊ4
+- Noun: lectern (Derived forms: lecterns)
+1. Desk or stand with a slanted top used to hold a text at the proper height for a lecturer (- reading desk)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lectern";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The lectern stands on a simple marble column.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/2-UcM61ta2o?t=41';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/8mAITcNt710?t=4759';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/sNRcVXkZjWM?t=659';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/YLeMKM4ArlA?t=814';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/u8yL3I_6Oco?t=422';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/GWCI9eofZkw?t=456';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lectern""",
                       // alsoEnglishWord: "also: lectern",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlektən/""",
+                      americanText: """IpaUS: /ˈlektərn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +987,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خوێن(دن)گە، مێزی وتار(دان)، مێزی قسەکردن،	مێزی (لەسەر) خوێندنەوە، کورسی
 """),
 // With short examples define "lectern", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ڕاگرێک کە کتێب، تێبینی، کۆمپیوتەر، هتدی لەسەر دادەنێیت کە شت دەخوێنیتەوە لە کڵێسا، وتارێک پێشکەش دەکەیت، هتد"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: podium"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The lectern stands on a simple marble column.""",
+                      kurdishText: """مێزی وتاردانەکە لەسەر ستوونێکی ماربڵی سادە دانراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrylectureship extends StatefulWidget {
-  const EnglishEntrylectureship({super.key});
+class EnglishEntryledge extends StatefulWidget {
+  const EnglishEntryledge({super.key});
 
   @override
-  State<EnglishEntrylectureship> createState() => _EnglishEntrylectureshipState();
+  State<EnglishEntryledge> createState() => _EnglishEntryledgeState();
 }
 
-class _EnglishEntrylectureshipState extends State<EnglishEntrylectureship> {
+class _EnglishEntryledgeState extends State<EnglishEntryledge> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylectureship lectureship
-WORD_WEB lectureship lectureship lectureship
-haʊʊʊʊʊʊʊ4
+- Noun: ledge (Derived forms: ledges)
+1. A projecting ridge on a mountain or submerged under water (- shelf)
+"he came dangerously close to falling off the ledge";
+ 
+2. A shelf on which articles may be laid, esp. projecting from a wall
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "lectureship";
+  final String keyword = "ledge";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,22 +80,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""lectureship""");
+    await flutterTts.speak("""ledge""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The climbers were clinging to a ledge hundreds of feet above the sea.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She put the vase of flowers on the window ledge.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/oiLdWXLXDeA?t=1440';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/f7QWMUCMYOE?t=1548';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Zad6v8ZHzdg?t=518';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/3MBP-0F2Ivg?t=899';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/JHjXwicEwQo?t=692';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/F9sYXfwZXTc?t=531';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -951,10 +949,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """lectureship""",
-                      // alsoEnglishWord: "also: lectureship",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """ledge""",
+                      // alsoEnglishWord: "also: ledge",
+                      britshText: """IpaUK: /ledʒ/""",
+                      americanText: """IpaUS: /ledʒ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +990,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕەف، ڕەفحە، تاقەی دیوار، کاژێر، لێوار، تەخشک،	زنجیرە بەردەکان، ڕیزە بەردەکان، تەختەبەردی کەناری، دەرپەڕیوی بەردەکان
 """),
-// With short examples define "lectureship", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "ledge", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) پارچە بەردێکی باریکی تەخت کە لە قەدپاڵێکەوە دەرهاتووە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The climbers were clinging to a ledge hundreds of feet above the sea.""",
+                      kurdishText: """شاخەوانان خۆیان گرتبوو بە تەختەبەردێکەوە کە سەدان پێ بەرز بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) ڕەفەیەکی بەریکی تەخت کە بەستراوە بە دیوارێکەوە، بە تایبەتی کە لە خوارەوەی پەنجەرەیەکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She put the vase of flowers on the window ledge.""",
+                      kurdishText: """گوڵدانی گوڵەکانی خستە سەر ڕەفەی پەنجەرەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -2150,4 +2147,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end lectureship
+// end ledge

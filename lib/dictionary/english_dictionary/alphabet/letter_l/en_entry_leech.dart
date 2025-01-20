@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: leech (Derived forms: leeches)
+1. Carnivorous or bloodsucking aquatic or terrestrial worms typically having a sucker at each end (- bloodsucker, hirudinean)
+ 
+2. A follower who hangs around a host (without benefit to the host) in hope of gain or advantage (- parasite, sponge [informal], sponger, bloodsucker [informal])
 
-EnglishEntryleech leech
-WORD_WEB leech leech leech
-haʊʊʊʊʊʊʊ4
+- Verb: leech (Derived forms: leeching, leeches, leeched)
+Usage: archaic
+1. (medicine) draw blood (- bleed, phlebotomize, phlebotomise [Brit])
+"In the old days, doctors routinely leeched patients as part of the treatment";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leech";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The leech stuck to his leg in the river.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Doctors used a leech to treat the wound.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He called his lazy friend a leech for borrowing money.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/sYJkmRcx8xQ?t=197';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/TlNzKjxCIK4?t=1121';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/6_Vrg3zAKl4?t=107';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/0TwlWzoEKdQ?t=70';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/fTX30AvpMUg?t=52';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/mFJYWBeGdmg?t=4';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leech""",
                       // alsoEnglishWord: "also: leech",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /liːtʃ/""",
+                      americanText: """IpaUS: /liːtʃ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +994,12 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زاروو، زەروو،	(خوازە) بنیادەمی زارووڕەفتار، مشەخۆر، مرۆی خۆپیاهەڵواسیو
 """),
-// With short examples define "leech", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) کرمێکی بچووک کە زۆرجار لە ئاودا دەژی و خۆی دەنووسێنێت بە ئاژەڵی دیکە و خوێنەکەی دەمژێت. لە کۆندا پزیشکان بەکاریان دەهێنا بۆ گرتنی خوێن لە نەخۆش"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The leech stuck to his leg in the river.""",
+                      kurdishText: """زارووەکە نووسا بە لاقییەوە لە ڕووبارەکەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1007,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Doctors used a leech to treat the wound.""",
+                      kurdishText: """پزیشکان زاروویەکیان بەکارهێنا بۆ چارەسەری برینەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) کەسێک کە پشت بە کەسی دیکە دەبەستێت بۆ پارە، یان قازانج لە کاری کەسی دیکە دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He called his lazy friend a leech for borrowing money.""",
+                      kurdishText: """بە هاوڕێ تەمەڵەکەیی گوت مشەخۆر بۆ قەرزکردنی پارە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

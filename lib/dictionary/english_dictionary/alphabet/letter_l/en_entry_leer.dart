@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: leer (Derived forms: leers, leering, leered)
+1. Look suggestively or obliquely; look or gaze with a sly, immodest, or malign expression
+"The men leered at the young women on the beach"
 
-EnglishEntryleer leer
-WORD_WEB leer leer leer
-haʊʊʊʊʊʊʊ4
+- Noun: leer (Derived forms: leers)
+1. A facial expression of contempt or scorn; the upper lip curls (- sneer)
+ 
+2. A suggestive or sneering look or grin
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leer";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He was always leering at female members of staff.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/MEIBG0ModxM?t=492';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/ZVOPXANnlhw?t=3470';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/gwyBKvYpoNQ?t=47';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/tw9mYaLnnug?t=391';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/UWT9bIQol7E?t=315';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/Pfz-_WxGu3Y?t=596';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leer""",
                       // alsoEnglishWord: "also: leer",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɪə(r)/""",
+                      americanText: """IpaUS: /lɪr/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +993,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: چاولێ‌کردنی حیزانە یان هەرزانە، خێسە، مۆڕە، چاولێ‌کردنی ناخۆشەویستانە
 """),
 // With short examples define "leer", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (کردار) سەیرکردن یان بزەکردن لە کەسێک کە ئەوە پیشان دەدات حەزێکی خراپ یان ئارەزووبازانەت بۆی هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was always leering at female members of staff.""",
+                      kurdishText: """هەمیشە بە چاوی حیزەوە سەیری ئەندامە ژنەکانی ستافەکەی دەکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

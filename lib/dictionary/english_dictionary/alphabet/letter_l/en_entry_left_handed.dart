@@ -52,13 +52,24 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylefthanded left-handed
-WORD_WEB left-handed left-handed left-handed
-haʊʊʊʊʊʊʊ4
+- Adjective: left-handed
+1. Using or intended for the left hand
+"left-handed scissors"; "left-handed golfers need left-handed clubs"
+ 
+2. (of marriages) illicit or informal
+"in Colonial America left-handed marriages between Frenchmen and Indians were frequent"
+ 
+3. (of marriages) of a marriage between one of royal or noble birth and one of lower rank; valid but with the understanding that the rank of the inferior remains unchanged and offspring do not succeed to titles or property of the superior (- morganatic)
+ 
+4. (Chemistry) rotating polarized light to the left (- levorotary [US], levorotatory [N. Amer], laevorotatory [Brit, Cdn])
+ 
+5. Ironically ambiguous
+"a left-handed compliment"
+ 
+6. Lacking physical movement skills, especially with the hands (- bumbling, bungling, butterfingered, ham-fisted, ham-handed, handless, heavy-handed)
+"a left-handed mechanic";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "left-handed";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +98,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She writes left-handed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Are you left-handed?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He bought left-handed scissors for his daughter.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +937,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/nGrB-5ieeMU?t=68';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/n4bucphC9r4?t=378';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/YlQn51TCCpo?t=94';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/qUm8TSGtenI?t=1174';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/QWz07MktCKg?t=197';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/kjulGt3rolY?t=206';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +962,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """left-handed""",
                       // alsoEnglishWord: "also: left-handed",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌleft ˈhændɪd/""",
+                      americanText: """IpaUS: /ˌleft ˈhændɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +1004,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "left-handed", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە کەسێک دەستە چەپ بەکاربێنێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She writes left-handed.""",
+                      kurdishText: """بە دەستەچەپ دەنووسێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1015,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Are you left-handed?""",
+                      kurdishText: """چەپلەریت؟""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە شتێک درووستکرابێت تاوەکو کەسانی چەپلەر بەکاریبێنن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He bought left-handed scissors for his daughter.""",
+                      kurdishText: """مەقەستی چەپلەری بۆ کچەکەی کڕی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: leftist
+1. Believing in or supporting tenets of the political left (- left-of-center [US], left-wing, lefty [informal], leftie [informal], left-of-centre [Brit, Cdn])
+"Gitlow was a leftist Socialist who rejected the idea of capturing power";
 
-EnglishEntryleftist leftist
-WORD_WEB leftist leftist leftist
-haʊʊʊʊʊʊʊ4
+- Noun: leftist (Derived forms: leftists)
+1. A person who belongs to the political left (- collectivist, left-winger, lefty [informal], leftie [informal])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leftist";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The whole speech was infused with the leftist belief that the state knows best.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""In her view, he was significantly more of a leftist than any president before him.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/wGSOMKSRjkc?t=452';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/EmT0i0xG6zg?t=3395';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Mp11EzxCOG4?t=239';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/bo_c-A1USMU?t=54';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/U24fKGJ2JPo?t=7519';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/AF8DOS4C2KM?t=1085';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leftist""",
                       // alsoEnglishWord: "also: leftist",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleftɪst/""",
+                      americanText: """IpaUS: /ˈleftɪst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +991,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: چەپی، چەپ‌گەر، چەپ‌خواز، لایەنگر یان پشتیوانی سۆشیالیزم
 """),
 // With short examples define "leftist", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (هاوەڵناو) کە پشتگیری پارتێکی چەپڕەو دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The whole speech was infused with the leftist belief that the state knows best.""",
+                      kurdishText: """تەواوی وتارەکە پڕبوو لەو باوەڕە جەپڕەوییەی کە حکومەت باشترین دەزانێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) کەسێک کە پشتگیری پارتێکی چەپڕەو دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """In her view, he was significantly more of a leftist than any president before him.""",
+                      kurdishText: """لە دیدی ئەوەوە زیاتر چەپڕەو بوو وەک لە هەر سەرۆکێک لە پێشییەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

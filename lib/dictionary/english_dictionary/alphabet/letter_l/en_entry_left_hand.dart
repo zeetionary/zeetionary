@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: left hand (Derived forms: left hands)
+1. The hand that is on the left side of the body (- left)
+"jab with your left hand";
 
-EnglishEntrylefthand left-hand
-WORD_WEB left-hand left-hand left-hand
-haʊʊʊʊʊʊʊ4
+- Adjective: left-hand
+1. Intended for the left hand (- left)
+"I rarely lose a left-hand glove";
+ 
+2. Located on or directed toward the left
+"a car with left-hand drive"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "left-hand";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +92,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""You'll find the knives and forks in the left-hand drawer.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He put on the left-hand glove before starting work.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/8mAITcNt710?t=17849';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/rmnSpUgOvyI?t=890';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/dtp6b76pMak?t=982';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/GIMVge5TYz4?t=40';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/4IaOeVgZ-wc?t=1435';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/w5ebcowAJD8?t=1419';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """left-hand""",
                       // alsoEnglishWord: "also: left-hand",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleft hænd/""",
+                      americanText: """IpaUS: /ˈleft hænd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +998,19 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "left-hand", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) لە لای چەپی شتێکەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """You'll find the knives and forks in the left-hand drawer.""",
+                      kurdishText: """چەقۆ و چنگاڵەکان لە لای چەپی چەکمەجەکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) پەیوەندیدار بە دەستە چەپی کەسێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He put on the left-hand glove before starting work.""",
+                      kurdishText: """دەستکێشەکەی دەستە چەپی لەدەست کرد پێش دەستکردن بە کار.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrylegally extends StatefulWidget {
-  const EnglishEntrylegally({super.key});
+class EnglishEntrylegalistic extends StatefulWidget {
+  const EnglishEntrylegalistic({super.key});
 
   @override
-  State<EnglishEntrylegally> createState() => _EnglishEntrylegallyState();
+  State<EnglishEntrylegalistic> createState() => _EnglishEntrylegalisticState();
 }
 
-class _EnglishEntrylegallyState extends State<EnglishEntrylegally> {
+class _EnglishEntrylegalisticState extends State<EnglishEntrylegalistic> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylegally legally
-WORD_WEB legally legally legally
-haʊʊʊʊʊʊʊ4
+- Adjective: legalistic
+1. Strictly obeying the details of the law
+"The legalistic view of juvenile crime stresses the rigid application of law"
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "legally";
+  final String keyword = "legalistic";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +78,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""legally""");
+    await flutterTts.speak("""legalistic""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""American institutions tend to be more legalistic than their British counterparts.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/ifC4vtdYeS8?t=2297';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/UrzF-rhJtOs?t=137';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/qW8JKIMcMuU?t=778';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/IE_3TjSgQxo?t=1068';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/OamgjC7r8js?t=911';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/DHyftnSQWqI?t=3113';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -951,10 +947,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """legally""",
-                      // alsoEnglishWord: "also: legally",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """legalistic""",
+                      // alsoEnglishWord: "also: legalistic",
+                      britshText: """IpaUK: /ˌliːɡəˈlɪstɪk/""",
+                      americanText: """IpaUS: /ˌliːɡəˈlɪstɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +988,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: قانوون‌پەرست، یاساپەرست، بە قانوونەوەچەسپیو
 """),
-// With short examples define "legally", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "legalistic", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە زۆر پابەندی یاسا دەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """American institutions tend to be more legalistic than their British counterparts.""",
+                      kurdishText: """دامەزراوە ئەمریکییەکان مەیلی ئەوەیان هەیە زیاتر یاساپەرست بن وەک لە بەرامبەرە بەریتانییەکانیان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2150,4 +2145,5 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end legally
+// end legalistic
+

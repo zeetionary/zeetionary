@@ -568,35 +568,35 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6300""");
+    await flutterTts.speak("""The court granted him leave to appeal against the sentence.""");
   }
 
   Future<void> speaksentence64(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6400""");
+    await flutterTts.speak("""They sought special leave to appeal.""");
   }
 
   Future<void> speaksentence65(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6500""");
+    await flutterTts.speak("""She asked for leave of absence to attend a funeral.""");
   }
 
   Future<void> speaksentence66(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6600""");
+    await flutterTts.speak("""He applied for leave to remain in the United Kingdom.""");
   }
 
   Future<void> speaksentence67(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence6700""");
+    await flutterTts.speak("""In May the officer went absent without leave.""");
   }
 
   Future<void> speaksentence68(String languageCode) async {
@@ -1605,8 +1605,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence6300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The court granted him leave to appeal against the sentence.""",
+                      kurdishText: """دادگاکە مۆڵەتی پێدا بۆ تانەدان لە سزاکە.""",
                       onPressedBritish: () => speaksentence63("en-GB"),
                       onPressedAmerican: () => speaksentence63("en-US"),
                     ),
@@ -1614,8 +1614,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence6400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They sought special leave (= leave for particular reasons that apply just to this case) to appeal.""",
+                      kurdishText: """داوای مۆڵەتی تایبەتیان کرد بۆ تانەدان.""",
                       onPressedBritish: () => speaksentence64("en-GB"),
                       onPressedAmerican: () => speaksentence64("en-US"),
                     ),
@@ -1623,8 +1623,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence6500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She asked for leave of absence (= permission to be away from work) to attend a funeral.""",
+                      kurdishText: """داوای مۆڵەتی لە کار کرد بۆ بەژداری لە پرسەیەک.""",
                       onPressedBritish: () => speaksentence65("en-GB"),
                       onPressedAmerican: () => speaksentence65("en-US"),
                     ),
@@ -1632,8 +1632,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence6600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He applied for leave to remain in the United Kingdom.""",
+                      kurdishText: """داوای بۆ مۆڵەت کرد بۆ مانەوە لە بەریتانیا.""",
                       onPressedBritish: () => speaksentence66("en-GB"),
                       onPressedAmerican: () => speaksentence66("en-US"),
                     ),
@@ -1641,8 +1641,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence6700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """In May the officer went absent without leave.""",
+                      kurdishText: """لە ئایاردا ئەفسەرەکە کاری جێهێشت بەبێ مۆڵەت.""",
                       onPressedBritish: () => speaksentence67("en-GB"),
                       onPressedAmerican: () => speaksentence67("en-US"),
                     ),

@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylegality legality
-WORD_WEB legality legality legality
-haʊʊʊʊʊʊʊ4
+- Noun: legality (Derived forms: legalities)
+1. Lawfulness by virtue of conformity to a legal statute (- legalness [rare])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "legality";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +84,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They intended to challenge the legality of his claim in the courts.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The government does not recognize the legality of this court.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""You need a lawyer to explain all the legalities of the contracts.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/knjliFs3gR8?t=1007';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/W-ZuKp8P7gA?t=727';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/7eM7pb5M5DU?t=2011';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/f2kEGj-S1Tc?t=799';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/aDMjgOYOcDw?t=1027';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/b1JlYZQG3lI?t=395';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """legality""",
                       // alsoEnglishWord: "also: legality",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɪˈɡæləti/""",
+                      americanText: """IpaUS: /lɪˈɡæləti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +987,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەپێی قانوون‌بوون، قانوونی‌بوون، پێبەندی بە زاکوون، یاسایی‌بوون، بەگوێرەی زاکوون‌بوون، قانوونێتی، زاکوونێتی، ڕەوایێتی، ڕەوایی‌بوون،	ڕاست‌بوون، ڕەوابوون، بەرحەقی،	پاراستنی قانوون، ڕەچاوکردنی یاسا یان زاکوون
 """),
 // With short examples define "legality", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەوەی شتێک یاسایی بێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They intended to challenge the legality of his claim in the courts.""",
+                      kurdishText: """مەبەستیان بوو تانە بدەن لە یاساییەتی بانگەشەکەی لە دادگاکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1001,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The government does not recognize the legality of this court.""",
+                      kurdishText: """حکومەت داننانێت بە یاساییەتی ئەم دادگایە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) لایەنی یاسایی کارێک یان دۆخێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """You need a lawyer to explain all the legalities of the contracts.""",
+                      kurdishText: """پێویستیت بە پارێزەرێکە بۆ ڕوونکردنەوەی هەموو لایەنی یاساییەتی ڕێککەوتنەکان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

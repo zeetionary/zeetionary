@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylegitimacy legitimacy
-WORD_WEB legitimacy legitimacy legitimacy
-haʊʊʊʊʊʊʊ4
+- Noun: legitimacy (Derived forms: legitimacies)
+1. Lawfulness by virtue of being authorized or in accordance with law
+ 
+2. The property of being genuine or valid, not being a fake or forgery (- authenticity, genuineness)
+"he hoped his claims would have a semblance of legitimacy";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "legitimacy";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +87,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She challenged the legitimacy of the previous speaker's arguments.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I intend to challenge the legitimacy of his claim.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The lawyers expressed serious doubts about the legitimacy of military action.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""They had doubts over the child's legitimacy after hearing rumors.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/6ta_sftSfIw?t=93';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Oz9zw7-_vhM?t=580';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Cln0J87vulU?t=164';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/EmT0i0xG6zg?t=1430';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/JX82wa5HkJg?t=1289';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/oJLA8iNUV-0?t=715';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """legitimacy""",
                       // alsoEnglishWord: "also: legitimacy",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɪˈdʒɪtɪməsi/""",
+                      americanText: """IpaUS: /lɪˈdʒɪtɪməsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +990,23 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕەوابوون، ڕەوایێتی، بەپێی یاسابوون، قانوونی‌بوون، لەسەربنچینەی قانوون بوون، دروستی، ڕاستی، بەرحەقی، حەق‌داری، بەرحەق‌بوون، دروست‌بوون
 """),
 // With short examples define "legitimacy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەوەی شتێک پشت بە هۆکارێکی دادپەروەرانە و پەسەندکراو ببەستێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: validity"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She challenged the legitimacy of the previous speaker's arguments.""",
+                      kurdishText: """وەستایەوە دژ بە پەسەندیی ئارگیومێنتەکانی قسەکەری پێشووتر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ناو) ئەوەی شتێک یاسایی بێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: legality"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I intend to challenge the legitimacy of his claim.""",
+                      kurdishText: """نیازی هەیە تانە بدەم لە یاساییبوونی بانگەشەکەی.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,17 +1014,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The lawyers expressed serious doubts about the legitimacy of military action.""",
+                      kurdishText: """پارێزەرەکان گومانی زۆریان هەبوو لە یاسایی کردەی سەربازی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ناو) ئەوەی کە منداڵێک لا کاتی هاتنە دوونیایدا دایک و باوکی هاوسەرگیرییان کردبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They had doubts over the child's legitimacy after hearing rumors.""",
+                      kurdishText: """گومانیان هەبوو لەسەر شەرعیبوونی منداڵەکە کە دوای بیستنی دەنگۆ.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

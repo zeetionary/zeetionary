@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylegislate legislate
-WORD_WEB legislate legislate legislate
-haʊʊʊʊʊʊʊ4
+- Verb: legislate (Derived forms: legislated, legislates, legislating)
+1. Make laws, bills, etc. or bring into effect by legislation (- pass)
+"We cannot legislate how people spend their free time";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "legislate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +85,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The King restricted Parliament's power to legislate.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The government will legislate against discrimination in the workplace.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The European Parliament will legislate on further integration.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/K0OtGIPRcAs?t=1740';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Vby41PXgQc0?t=96';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/wrQYHeodRio?t=830';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Solb9uA-tgQ?t=21283';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/vx-Si9gbijA?t=356';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/kxkrdLI6e6M?t=268';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """legislate""",
                       // alsoEnglishWord: "also: legislate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈledʒɪsleɪt/""",
+                      americanText: """IpaUS: /ˈledʒɪsleɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "legislate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (کردار) واکردنی ئەوەی یاسایەک کاریگەری هەبێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The King restricted Parliament's power to legislate.""",
+                      kurdishText: """پاشا دەسەڵاتی یاسادانانی پەرلەمانی هەڵپەسارد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,20 +1002,20 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The government will legislate against discrimination in the workplace.""",
+                      kurdishText: """حکومەت یاسا دەردەکات دژ بە جیاکاری لە شوێنی کاردا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
+                    // const DividerDefinition(),
+                    // const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    // const DividerSentences(),
+                    // SentencesRow(
+                    //   englishText: """The European Parliament will legislate on further integration.""",
+                    //   kurdishText: """پەرلەمانی ئەورووپا یاسا دەردەکات بۆ .""",
+                    //   onPressedBritish: () => speaksentence3("en-GB"),
+                    //   onPressedAmerican: () => speaksentence3("en-US"),
+                    // ),
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

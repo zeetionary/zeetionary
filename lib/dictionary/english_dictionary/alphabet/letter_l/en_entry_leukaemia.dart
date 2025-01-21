@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryleukaemia leukaemia
-WORD_WEB leukaemia leukaemia leukaemia
-haʊʊʊʊʊʊʊ4
+- Noun: leukaemia (Derived forms: leukaemias)
+Usage: Brit, Cdn (US: leukemia)
+1. Malignant neoplasm of blood-forming tissues; characterized by abnormal proliferation of leukocytes; one of the four major types of cancer (- leukemia [N. Amer], leucaemia [Brit], cancer of the blood)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leukaemia";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The newspapers are full of stories of leukaemia clusters near nuclear establishments.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/bZegjT-i2Ps?t=52';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/8BfCUTlslUs?t=714';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/-3eSDPZxOD8?t=302';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/LShuubYfKkA?t=207';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/P8zeHbxlqt8?t=148';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/WIVrM3SrrBM?t=280';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leukaemia""",
                       // alsoEnglishWord: "also: leukaemia",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /luːˈkiːmiə/""",
+                      americanText: """IpaUS: /luːˈkiːmiə/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "leukaemia", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) نەخۆشییەک کە دەبێتە هۆکاری زۆربوونی خڕۆکەسپییەکانی خوێن و بەهۆیەوە لاوازی و هەندێک جار مردن ڕوودەدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The newspapers are full of stories of leukaemia clusters near nuclear establishments.""",
+                      kurdishText: """ڕۆژنامەکان پڕن لە چیرۆکی شێرپەنجەی خوێنی بەکۆمەڵ لە نزیک دامەزراوە ئەتۆمییەکان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylenient lenient
-WORD_WEB lenient lenient lenient
-haʊʊʊʊʊʊʊ4
+- Adjective: lenient
+1. With tolerance and mercy; not as harsh as might be expected
+ 
+2. Tolerant or lenient (- indulgent, soft)
+"lenient parents risk spoiling their children";
+ 
+2. Not strict (- easy)
+"lenient rules";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lenient";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The judge was far too lenient with him.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/fwDGReApaB0?t=791';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/CYutF8qr7AY?t=211';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/o1RS7D_szJo?t=1634';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/BFRxx29i6h8?t=1525';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/zj6p5kYnPPY?t=1062';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/cUw31Kvjtl4?t=1548';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lenient""",
                       // alsoEnglishWord: "also: lenient",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈliːniənt/""",
+                      americanText: """IpaUS: /ˈliːniənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +993,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەرم، نیان، لێبوردە، هەڵکردە، بەبەزەیی، دەسنەرم، دڵنەرم، لێخۆش‌بوو، چاوپۆشی‌کەر، مایەبۆدانراو، سووک، شل، نەتوند، ئاسان‌گر، شل‌گرتوو
 """),
 // With short examples define "lenient", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە زۆر توند نەبیت لە سزادان یان پەیڕەوکردنی یاسادا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The judge was far too lenient with him.""",
+                      kurdishText: """دادوەرەکە زۆر نەرم بوو لەگەڵیدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

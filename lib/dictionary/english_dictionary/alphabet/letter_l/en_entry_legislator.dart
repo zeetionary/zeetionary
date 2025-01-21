@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylegislator legislator
-WORD_WEB legislator legislator legislator
-haʊʊʊʊʊʊʊ4
+- Noun: legislator (Derived forms: legislators)
+1. (law) someone who makes or enacts laws
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "legislator";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""When it came to the vote, Democrat legislators split 115:150 against the motion.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/4IaOeVgZ-wc?t=495';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/kBdfcR-8hEY?t=1723';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/tsxmyL7TUJg?t=101';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/lzvcPrbVBNc?t=460';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/DxREm3s1scA?t=2724';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/ri2Aj44PA8E?t=312';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """legislator""",
                       // alsoEnglishWord: "also: legislator",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈledʒɪsleɪtə(r)/""",
+                      americanText: """IpaUS: /ˈledʒɪsleɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +987,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: قانوون‌دانەر، یاسادانەر، زاکوون‌دانەر، ئەندامی دەستەی قانوون‌دانان
 """),
 // With short examples define "legislator", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەندامێکی گرووپێک کە دەسەڵاتی یاسادانانی هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """When it came to the vote, Democrat legislators split 115:150 against the motion.""",
+                      kurdishText: """کە گەشتە دەنگدان، یاسادانەرانی دیموکراتەکان دابەشبوون بە ١١٥:١٥٠ دژ بە پڕۆژە یاساکە (١٥٠ دژی بوون).""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryletterbox letter box
-WORD_WEB letter box letter box letter box
-haʊʊʊʊʊʊʊ4
+- Noun: letter box (Derived forms: letter boxes)
+Usage: Brit
+1. A numbered compartment in a post office where mail is put to be called for (- Post-Office box, PO Box, POB, call box)
+ 
+2. Public box for deposit of mail (- postbox [Brit], mailbox)
+ 
+3. A private box for delivery of mail (- mailbox)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "letter box";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The postman put a bundle of letters through the letter box.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/rpex44FimKU?t=317';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/TVZbUN2_tbU?t=12';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/K6mHJ6pmHm8?t=665';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/S8lSiOPd1lA?t=242';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/OeVWvWHEfAU?t=575';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/JSoTVV9CxJw?t=184';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """letter box""",
                       // alsoEnglishWord: "also: letter box",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈletə bɒks/""",
+                      americanText: """IpaUS: /ˈletər bɑːks/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,14 +995,15 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "letter box", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) دەرچەیەکی کراوە لە دەرگادا کە لێیەوە نامە دەخرێتە ژوورەوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: mail slot"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The postman put a bundle of letters through the letter box.""",
+                      kurdishText: """پۆستەچییەکە کۆمەڵێک نامەی لە سندوقی پۆستەکەوە خستە ژوورەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
+                    // skipped_meaning
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryleprosy leprosy
-WORD_WEB leprosy leprosy leprosy
-haʊʊʊʊʊʊʊ4
+- Noun: leprosy (Derived forms: leprosies)
+1. Chronic granulomatous communicable disease occurring in tropical and subtropical regions; characterized by inflamed nodules beneath the skin and wasting of body parts; caused by the bacillus Mycobacterium leprae (- Hansen's disease)
+"His body was deformed by leprosy";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leprosy";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Leprosy can be cured with proper medical treatment.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/2MZZrDA-I4M?t=521';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/xGF3ObOBbac?t=1005';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/rhzgUq-lDVU?t=820';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/tkD6QfeRil8?t=801';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/110iUX1Ursk?t=215';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/NwHe2OysJjA?t=82';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leprosy""",
                       // alsoEnglishWord: "also: leprosy",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleprəsi/""",
+                      americanText: """IpaUS: /ˈleprəsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +988,12 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گولی، پیس، ئاڵە، کەڕەگوشە، ڕێژ
 """),
-// With short examples define "leprosy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) نەخۆشییەک کە بەشی سپی بەئازار لەسەر جەستە درووست دەکات و دەکرێت دەمار، ماسولکە، هتد لەناو ببات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Leprosy can be cured with proper medical treatment.""",
+                      kurdishText: """گولی دەکرێت بە چارەسەری تەندرووستیی گونجاو چارەسەر بکرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

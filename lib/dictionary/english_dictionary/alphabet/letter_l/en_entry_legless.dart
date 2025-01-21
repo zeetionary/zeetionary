@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylegless legless
-WORD_WEB legless legless legless
-haʊʊʊʊʊʊʊ4
+- Adjective: legless
+1. Not having legs
+"a legless man in a wheelchair"
+ 
+2. [Brit, informal] Very drunk (- besotted [archaic], blind drunk [informal], blotto [informal], crocked [N. Amer, informal], cockeyed [informal], fuddled [informal], loaded [N. Amer, informal], pie-eyed [informal], pissed [Brit, informal], pixilated [informal], plastered [informal], sloshed [informal], smashed [informal], soaked [informal], soused [informal], sozzled [informal], stiff [informal], tight [informal], wet [informal], lit up [slang], trolleyed [Brit, informal], mullered [Brit, informal], trollied [Brit, informal], bladdered [Brit, informal], screwed [informal], paralytic [Brit], stonkered [Austral, NZ, informal], fried [N. Amer, informal], swacked [N. Amer, informal], stinko [informal], hammered [informal], trashed [informal], pickled [informal], wasted [informal], stewed [informal], liquored up [N. Amer], tanked up [informal], steaming [informal], juiced [N. Amer, informal], out of it [Brit, informal], blitzed [informal], three sheets to the wind [informal], blootered [UK, dialect], bombed [informal], off one's face [Brit, informal], wrecked [Brit, informal], bevvied [Brit, informal], drunk, pixillated, half-seas-over [Brit, informal])
+"I had travelling money and got legless in the bar downstairs";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "legless";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Snakes are legless reptiles that move by slithering.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""After three drinks, she was completely legless.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/UopANFTGexA?t=641';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/sth0GSJdzFY?t=96';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/P8m-KThvtxA?t=317';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/7mCJBotRYeg?t=677';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ZSd40poykjE?t=1816';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/9TimmdqACAs?t=908';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """legless""",
                       // alsoEnglishWord: "also: legless",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleɡləs/""",
+                      americanText: """IpaUS: /ˈleɡləs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +991,21 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌پێ، بێ‌پا، بێ‌لاق، بێ‌قاچ، کەیل، مەستی مەست، کەلەلا
 """),
-// With short examples define "legless", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) بەبێ لاق"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Snakes are legless reptiles that move by slithering.""",
+                      kurdishText: """مار خشۆکێکی بێ‌لاقە کە بە خشان دەچێت بە ڕێگادا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) سەرخۆش"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """After three drinks, she was completely legless.""",
+                      kurdishText: """لە دوای سێ پێک، تەواو سەرخۆش بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

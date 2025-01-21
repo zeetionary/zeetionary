@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: lengthways
+1. Running or extending in the direction of the length of a thing (- lengthwise)
+"the lengthways dimension";
 
-EnglishEntrylengthways lengthways
-WORD_WEB lengthways lengthways lengthways
-haʊʊʊʊʊʊʊ4
+- Adverb: lengthways
+1. In the direction of the length (- lengthwise, longwise, longways, longitudinally, endlong [archaic])
+"He cut the paper lengthways";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lengthways";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Cut the banana in half lengthways.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/oTdU13pryV0?t=170';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/0nGHx7cYVWk?t=229';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/5Zs92eCn11k?t=134';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/M8uLFzWvRLU?t=262';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/GMgf11HOI_8?t=1921';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/2GoAHhv4gRw?t=147';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lengthways""",
                       // alsoEnglishWord: "also: lengthways",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleŋkθweɪz/""",
+                      americanText: """IpaUS: /ˈleŋkθweɪz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +992,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بە درێژایی، لە لای درێژی(یەوە)، درێژاودرێژ
 """),
 // With short examples define "lengthways", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵکار) لەسەر ئاستی درێژی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Cut the banana in half lengthways.""",
+                      kurdishText: """مۆزەکە لە ناوەڕاستدا لەسەر ئاستی درێژی ببڕە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

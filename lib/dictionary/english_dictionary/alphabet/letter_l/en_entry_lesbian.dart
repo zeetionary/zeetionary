@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryleprosy extends StatefulWidget {
-  const EnglishEntryleprosy({super.key});
+class EnglishEntrylesbian extends StatefulWidget {
+  const EnglishEntrylesbian({super.key});
 
   @override
-  State<EnglishEntryleprosy> createState() => _EnglishEntryleprosyState();
+  State<EnglishEntrylesbian> createState() => _EnglishEntrylesbianState();
 }
 
-class _EnglishEntryleprosyState extends State<EnglishEntryleprosy> {
+class _EnglishEntrylesbianState extends State<EnglishEntrylesbian> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lesbian (Derived forms: lesbians)
+1. A female homosexual (- tribade, gay woman, lez [informal], les [informal])
 
-EnglishEntryleprosy leprosy
-WORD_WEB leprosy leprosy leprosy
-haʊʊʊʊʊʊʊ4
+- Adjective: lesbian
+1. Of or relating to or characterized by homosexual relations between woman (- sapphic)
+
+- Noun: Lesbian
+1. A resident of Lesbos
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "leprosy";
+  final String keyword = "lesbian";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +83,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""leprosy""");
+    await flutterTts.speak("""lesbian""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The author's latest book is a lesbian love story set in the 1950s.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/f5jwTft6654?t=724';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/fpf0dbF0CFk?t=618';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/_pc1kON-doU?t=611';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/fvol_PhlegU?t=43';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/qmgTn199WOE?t=43';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/wi5Q3rlQaMI?t=205';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -951,10 +952,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """leprosy""",
-                      // alsoEnglishWord: "also: leprosy",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """lesbian""",
+                      // alsoEnglishWord: "also: lesbian",
+                      britshText: """IpaUK: /ˈlezbiən/""",
+                      americanText: """IpaUS: /ˈlezbiən/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +995,11 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "leprosy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "lesbian", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) ژنێک کە حەزی سێکسی بۆ ژنانی دیکە هەیە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The author's latest book is a lesbian love story set in the 1950s.""",
+                      kurdishText: """پەرتووکی تازەی نووسەرەکە چیرۆکی خۆشەویستی ژنە هاوڕەگەزخوازێکە کە لە ١٩٥٠ ــکاندا ڕوودەدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -2150,4 +2150,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end leprosy
+// end lesbian

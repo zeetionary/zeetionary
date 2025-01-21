@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylettuce lettuce
-WORD_WEB lettuce lettuce lettuce
-haʊʊʊʊʊʊʊ4
+- Noun: lettuce (Derived forms: lettuces)
+1. Any of various plants of the genus Lactuca
+ 
+2. Leaves of a cultivated plant (Lactuca sativa) often eaten in salads
+ 
+3. [US, informal] The most common medium of exchange; functions as legal tender (- money, coin [US, informal], boodle [informal], bread [informal], cabbage [US, informal], clams [US, informal], dinero [N. Amer, informal], dough [informal], gelt [informal], kale [US, informal], lolly [Brit, informal], lucre [informal], loot [informal], moolah [N. Amer, informal], pelf [archaic, informal], scratch [informal], shekels [informal], simoleons [US, informal], sugar [informal], wampum [N. Amer, informal], moola [N. Amer, informal], wonga [Brit, informal], dibs [archaic, informal], brass [Brit, informal], mazuma [US, informal], dosh [Brit, informal])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lettuce";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Buy a lettuce and some tomatoes.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""You need one whole head of lettuce for this salad.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/OS9h42Pe2Mo?t=63';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/k0iqdnXqqnU?t=51';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/QNtSHuEsv1U?t=8';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/rHGm4ONzmZg?t=31';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/3TvIzeOyGj8?t=460';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/c5AwstOsjtg?t=20';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lettuce""",
                       // alsoEnglishWord: "also: lettuce",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈletɪs/""",
+                      americanText: """IpaUS: /ˈletɪs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +994,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lettuce", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) ڕووەکێک کە گەڵای سەوزی گەورەی هەیە و بە کاڵی دەخورێت، بەتایبەتی لە زەڵاتەدا، و  چەندین جۆری هەیە."""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Buy a lettuce and some tomatoes.""",
+                      kurdishText: """کاهوویەک و هەندێک تەماتە بکڕە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1005,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """You need one whole head of lettuce for this salad.""",
+                      kurdishText: """پێویستیت بە یەک سەرە کاهووی تەواو هەیە بۆ ئەم زەڵاتە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -3595,6 +3595,7 @@ Map<String, PageBuilder> getRoutesEnglishOne() {
     "/english-consummation": (_) => _blP(EnglishEntryconsummation()),
     "/english-contact": (_) => _blP(EnglishEntrycontact()),
     "/english-contact-lens": (_) => _blP(EnglishEntrycontactlens()),
+    "/english-lens/contactlens": (_) => _blP(EnglishEntrycontactlens()),
     "/english-contagion": (_) => _blP(EnglishEntrycontagion()),
     "/english-contagious": (_) => _blP(EnglishEntrycontagious()),
     "/english-contain": (_) => _blP(EnglishEntrycontain()),

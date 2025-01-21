@@ -52,13 +52,26 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: legitimate (Derived forms: legitimates, legitimating, legitimated)
+1. Authorized, sanctioned by, or in accordance with law (- lawful, licit, legit [informal])
+"a legitimate government";
+ 
+2. In accordance with recognized or accepted standards or principles (- legit [informal])
+"legitimate advertising practices";
+ 
+3. Of marriages and offspring; recognized as lawful
+ 
+4. Based on known statements, events or conditions (- logical)
+"rain was a legitimate expectation, given the time of year";
 
-EnglishEntrylegitimate legitimate
-WORD_WEB legitimate legitimate legitimate
-haʊʊʊʊʊʊʊ4
+- Verb: legitimate (Derived forms: legitimates)
+1. Make legal (- legalize, legalise [Brit], decriminalize, decriminalise [Brit], legitimize, legitimise [Brit], legitimatize, legitimatise [Brit])
+ 
+2. Show or affirm to be just and legitimate
+ 
+3. Make (an illegitimate child) legitimate; declare the legitimacy of (someone)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "legitimate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +100,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It seemed a perfectly legitimate question.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Parents' concerns about the disease are quite legitimate.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The legitimate government was reinstated after the uprising.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""The law recognized him as a legitimate child of his parents.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +939,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/NEwspgySg5s?t=71';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/M2WG8w-Cvyw?t=30';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/f_lRMCPHbuY?t=83';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/G_OMV0N_Ls4?t=10';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/9AmoyZB580M?t=264';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/kh62SjGdI0s?t=111';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +964,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """legitimate""",
                       // alsoEnglishWord: "also: legitimate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɪˈdʒɪtɪmət/""",
+                      americanText: """IpaUS: /lɪˈdʒɪtɪmət/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1003,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕەوا، دروست، ڕاست، بەرحەق، حەق‌دار، ڕێگەدراو، ڕێدراو، یاسایی، قانوونی، بەپێی زاکوون، ژیرانە، ماقووڵ، جوان، بەجێ، لۆژیکی،	حەڵاڵ‌زادە، مناڵی باوکی، نازۆڵ
 """),
 // With short examples define "legitimate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە هۆکارێکی پەسەندکراو هەیە بۆی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It seemed a perfectly legitimate question.""",
+                      kurdishText: """پرسیارێکی تەواو ڕەوا دیاربوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,26 +1017,26 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Parents' concerns about the disease are quite legitimate.""",
+                      kurdishText: """نیگەرانییەکانی دایبابان بۆ نەخۆشییەکە تەواو ڕەوان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە ڕێگاپێدراوە بە پێی یاسا"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: legal"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The legitimate government was reinstated after the uprising.""",
+                      kurdishText: """حکومەتە یاساییەکە دووبارە خرایەوە سەر کار لە دوای شۆڕشەکە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە منداڵێک لا کاتی هاتنە دوونیایدا دایک و باوکی هاوسەرگیرییان کردبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The law recognized him as a legitimate child of his parents.""",
+                      kurdishText: """یاساکە وەک منداڵی شەرعیی دایبابی ناساندی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

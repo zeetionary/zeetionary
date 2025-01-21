@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylethargic lethargic
-WORD_WEB lethargic lethargic lethargic
-haʊʊʊʊʊʊʊ4
+- Adjective: lethargic
+1. Deficient in alertness or activity (- unenergetic)
+"bullfrogs became lethargic with the first cold nights";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lethargic";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The weather made her lethargic.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/QmOF0crdyRU?t=1598';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/tCqwT2MqLxI?t=782';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/1lOd7rDFYbc?t=41';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/9ttxmg2nBOQ?t=629';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/_0FunV5l57s?t=718';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/JhOU3FOyApM?t=375';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lethargic""",
                       // alsoEnglishWord: "also: lethargic",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ləˈθɑːdʒɪk/""",
+                      americanText: """IpaUS: /ləˈθɑːrdʒɪk/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +988,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سست، وەڕەز، خاو، داهێزراو، داوەشاو، گیان‌بەخاوکەوتوو، قورس، داگیراو، خەواڵوو، بێ‌تاقەت، تەوەزەل، تەپ، تەمەڵ، لەش‌گران،	داوەشێنەر، داهێزرێنەر،	ناڕەحەت‌کەر، دڵتەنگ‌کەر
 """),
 // With short examples define "lethargic", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) بەبێ هیچ وزە و توانایەک بۆ کردنی شتێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: listless"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The weather made her lethargic.""",
+                      kurdishText: """کەشووهەواکە لە توانای خست.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

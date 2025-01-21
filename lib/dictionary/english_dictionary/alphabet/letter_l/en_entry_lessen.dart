@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylessen lessen
-WORD_WEB lessen lessen lessen
-haʊʊʊʊʊʊʊ4
+- Verb: lessen (Derived forms: lessens, lessened, lessening)
+1. Become smaller or less in size, extent, or range (- decrease, diminish, fall)
+"The amount of homework lessened towards the end of the semester";
+ 
+2. Make become smaller (- decrease, minify)
+"He lessened his staff";
+ 
+3. Wear off or die down (- subside)
+"The pain lessened";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lessen";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The noise began to lessen.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""They gave her an injection to lessen the pain.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/P6bVl47kdNk?t=1258';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/dLNTb2zfh3Q?t=613';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/-cPdImejxEQ?t=85';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/W-ZuKp8P7gA?t=376';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/G3LZ-Jh2L6E?t=1465';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/rWVAzS5duAs?t=788';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lessen""",
                       // alsoEnglishWord: "also: lessen",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlesn/""",
+                      americanText: """IpaUS: /ˈlesn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +997,11 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lessen", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (کردار) کەمبوونەوە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: diminish"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The noise began to lessen.""",
+                      kurdishText: """دەنگەدەنگەکە دەستی بە کەمبوونەوە کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1009,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They gave her an injection to lessen the pain.""",
+                      kurdishText: """دەرزیلێدانێکیان بۆ کرد بۆ کەمکردنەوەی ئازارەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

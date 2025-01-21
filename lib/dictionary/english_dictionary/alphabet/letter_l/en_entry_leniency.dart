@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryleniency leniency
-WORD_WEB leniency leniency leniency
-haʊʊʊʊʊʊʊ4
+- Noun: leniency (Derived forms: leniencies)
+1. Mercifulness as a consequence of being lenient or tolerant (- lenience, mildness, lenity)
+ 
+2. A disposition to yield to the wishes of someone (- indulgence, lenience)
+"too much leniency spoils a child";
+ 
+3. Lightening a penalty or excusing from a chore by judges or parents or teachers (- lenience)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "leniency";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She appealed to the judge for leniency.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/l4XS-T-r4S8?t=25';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/bFEj-6tBZeA?t=3363';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/W-HNhJ1gagU?t=136';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/yVcjVsk29XQ?t=179';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/dV_4vzg1pro?t=53';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/yE-8iTNMlro?t=893';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """leniency""",
                       // alsoEnglishWord: "also: leniency",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈliːniənsi/""",
+                      americanText: """IpaUS: /ˈliːniənsi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +992,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەرمی، نیانی، لێبوردەیی، هەڵکردەیی، دڵنەرمی، بەبەزەیێتی، لێخۆش‌بوون، چاوپۆشی، مایەدانان، داشکاندن، نەتوندی، ئاسان‌گری، شل‌گرتن
 """),
 // With short examples define "leniency", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەوەی کە زۆر توند نەبیت لە سزادان یان پەیڕەوکردنی یاسادا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She appealed to the judge for leniency.""",
+                      kurdishText: """تکای لە دادوەرەکە کرد بۆ دڵنەرمی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

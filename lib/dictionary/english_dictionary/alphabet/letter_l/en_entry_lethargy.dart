@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylethargy lethargy
-WORD_WEB lethargy lethargy lethargy
-haʊʊʊʊʊʊʊ4
+- Noun: lethargy (Derived forms: lethargies)
+1. A state of comatose torpor (as found in sleeping sickness) (- lassitude, sluggishness)
+ 
+2. Weakness characterized by a lack of vitality or energy (- inanition, lassitude, slackness)
+ 
+3. Inactivity; showing an unusual lack of energy (- languor, sluggishness, phlegm, flatness)
+"the general appearance of lethargy alarmed his friends";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lethargy";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +89,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The report criticizes the lethargy shown by employers when it comes to job creation.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She was suddenly overcome by lethargy.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/I9dKoNFZJdo?t=386';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/UjDZR9QBIoM?t=505';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/UycqFfPmFU0?t=780';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/XTRzqw5MNZY?t=29';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/hbhO_1N9kh8?t=208';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/5BmST_RDi1o?t=350';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lethargy""",
                       // alsoEnglishWord: "also: lethargy",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈleθədʒi/""",
+                      americanText: """IpaUS: /ˈleθərdʒi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +992,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: وەڕەزی، سستی، داهێزران، بێ‌تاقەتی، خەواڵوویی، داوەشان، داوەشاوی، گیان‌بەخاوکەوتوویی، قورسی، داگیراوی، ناهۆگری، ناتامەزرۆیی، بێ‌سەرنجی، بێ‌هیوایی
 """),
 // With short examples define "lethargy", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەوەی بەبێ هێز و توانا بیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: listlessness، inertia"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The report criticizes the lethargy shown by employers when it comes to job creation.""",
+                      kurdishText: """ڕاپۆرتەکە ڕەخنە دەگرێت لە سستی کە پیشان دەدرێت لەلایەن خاوەنکارانەوە کە دێتە سەر ڕەخسانسنی کار.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1007,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She was suddenly overcome by lethargy.""",
+                      kurdishText: """لەناکاو سستی باڵی بەسەردا کێشا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

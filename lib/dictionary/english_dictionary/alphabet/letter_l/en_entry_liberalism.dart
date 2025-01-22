@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryliberalism liberalism
-WORD_WEB liberalism liberalism liberalism
-haʊʊʊʊʊʊʊ4
+- Noun: liberalism (Derived forms: liberalisms)
+1. A political orientation that favours social progress by reform and by changing laws rather than by revolution
+ 
+2. An economic theory advocating free competition and a self-regulating market
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "liberalism";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Sexual liberalism has not gone unchallenged.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/tYrdMjVXyNg?t=1383';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/mS9CFBlLOcg?t=1305';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/MKX389Mm3NM?t=1727';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/iOiuNDebaCw?t=629';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/JsfhPerez2Q?t=260';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/fZ4nvCVAGw0?t=288';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """liberalism""",
                       // alsoEnglishWord: "also: liberalism",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪbərəlɪzəm/""",
+                      americanText: """IpaUS: /ˈlɪbərəlɪzəm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +992,11 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "liberalism", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) هەبوونی جۆرە بیرووباوەڕێک کە گرنگی بە دیموکراسی، ئازادیی کەسی، گۆڕانی کۆمەڵایەتی، هتد دەدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Sexual liberalism has not gone unchallenged.""",
+                      kurdishText: """لیبراڵیزمی ڕەگەز بەبێ دژایەتی تێنەپەڕیوە.""",
+                      englishNote: """This means the idea of being open and permissive about sexual behavior has faced opposition or criticism from some groups or individuals.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

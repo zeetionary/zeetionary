@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylevity levity
-WORD_WEB levity levity levity
-haʊʊʊʊʊʊʊ4
+- Noun: levity (Derived forms: levities)
+1. Feeling an inappropriate lack of seriousness
+ 
+2. A manner lacking seriousness
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "levity";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The joke provided a moment of levity in an otherwise dreary meeting.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/bEQl6Pt-654?t=12';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/d1ZAzEu3zmo?t=182';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/s0M6y5sCUVM?t=408';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/EWHpdmDHrn8?t=558';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/kFsgTa17Xwo?t=419';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/dKiFkwsVIWA?t=603';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """levity""",
                       // alsoEnglishWord: "also: levity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlevəti/""",
+                      americanText: """IpaUS: /ˈlevəti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,15 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: سەرچڵی، هەڵەشەیی، سەرەڕۆیی،	سووکی، ڕەفتارسووکی، جڵفی، قرتی‌گەری،	وازی‌وازی‌بوون، تاوتاوی، ڕاڕایی
 """),
 // With short examples define "levity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ڕەفتارێک کە ڕێزی تەواو بۆ شتێک پیشان نادات و بە گاڵتەوە سەیری دەکات"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: frivolity"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The joke provided a moment of levity in an otherwise dreary meeting.""",
+                      kurdishText: """نوکتەکە ساتێکی خۆشی و پێکەنینی بەخشی بە کۆبوونەوە وشک و بێزارکەرەکە.""",
+                      englishNote: """This means the joke brought lightness and humor, briefly easing the seriousness and dullness of the meeting.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

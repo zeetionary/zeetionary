@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrylevity extends StatefulWidget {
-  const EnglishEntrylevity({super.key});
+class EnglishEntrylevy extends StatefulWidget {
+  const EnglishEntrylevy({super.key});
 
   @override
-  State<EnglishEntrylevity> createState() => _EnglishEntrylevityState();
+  State<EnglishEntrylevy> createState() => _EnglishEntrylevyState();
 }
 
-class _EnglishEntrylevityState extends State<EnglishEntrylevity> {
+class _EnglishEntrylevyState extends State<EnglishEntrylevy> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Verb: levy (Derived forms: levied, levies, levying)
+1. Charge a fee or tax (- impose)
+"levy a fine";
+ 
+2. Cause to assemble or enlist in the military (- recruit, raise)
+"levy new soldiers";
+ 
+3. [archaic] Wage war
 
-EnglishEntrylevity levity
-WORD_WEB levity levity levity
-haʊʊʊʊʊʊʊ4
+- Noun: levy (Derived forms: levies)
+1. A charge imposed and collected
+ 
+2. The act of drafting into military service (- levy en masse)
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "levity";
+  final String keyword = "levy";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,29 +88,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""levity""");
+    await flutterTts.speak("""levy""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They imposed a five percent levy on alcohol.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""A £30 million fine was levied against the company.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The City Council can levy a fine of £250 for a first offence.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +934,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/OCSbzArwB10?t=243';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/HX-5jmQplIo?t=481';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Q-nWA0WeF98?t=824';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/snOHLxoyAZ4?t=343';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Ct3XOs7nQ38?t=356';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/6bTpbDL5dcg?t=701';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -951,10 +957,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """levity""",
-                      // alsoEnglishWord: "also: levity",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      word: """levy""",
+                      // alsoEnglishWord: "also: levy",
+                      britshText: """IpaUK: /ˈlevi/""",
+                      americanText: """IpaUS: /ˈlevi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +998,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: (باج) دانان، سەندن، داسەپاندن،	باجی کۆوەکراو،	(دانانی) باج،	سەربازگیری، ڕەش‌بگیری، سەربازان
 """),
-// With short examples define "levity", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "levy", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ناو) بڕە پارەیەک کە دەبێت بدرێت، بە تایبەتی وەک باج بە حکومەت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They imposed a five percent levy on alcohol.""",
+                      kurdishText: """باجی پێنج لە سەدیان بەسەر کحوول سەپاند.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (کردار) بەکارهێنانی دەسەڵات بۆ داواکردن یان کۆکردنەوەی باج، پارە، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """A £30 million fine was levied against the company.""",
+                      kurdishText: """باجی ٣٠ ملیۆن پاوەند بەسەر کۆمپانیاکەدا سەپێندرا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1021,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The City Council can levy a fine of £250 for a first offence.""",
+                      kurdishText: """ئەنجوومەنی شارەکە دەتوانێت سزای ٢٥٠ پاوەند بسەپێنێت بۆ یەکەم تاوان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2150,4 +2155,4 @@ haʊʊʊʊʊʊʊ4
 }
 
 // end WORD_WEB
-// end levity
+// end levy

@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylewd lewd
-WORD_WEB lewd lewd lewd
-haʊʊʊʊʊʊʊ4
+- Adjective: lewd (Derived forms: lewder, lewdest)
+1. Suggestive of or tending to moral looseness (- obscene, raunchy [informal], salacious)
+"lewd pictures";
+ 
+2. Driven by lust; preoccupied with or exhibiting lustful desires (- lascivious, libidinous, lustful)
+"lewd orgies";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lewd";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Ignore him - he's being lewd.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/bnnRIrxGGX8?t=1384';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/-5KWZL1blWc?t=426';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/XXhc5UTxv5I?t=1000';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/fL5DLVqVcis?t=169';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/7OeeHz0uNdM?t=886';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/EmT0i0xG6zg?t=948';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lewd""",
                       // alsoEnglishWord: "also: lewd",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /luːd/,  /ljuːd/""",
+                      americanText: """IpaUS: /luːd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەئاڵۆش، هەوەساوی، زەنەک، بزوێنەر، شەهوانی، سێکسی، پیس، هەرزە
 """),
 // With short examples define "lewd", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) کە باس لە سێکس دەکات بە شێوەیەکی دزێو یان ناشرین"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: obscene"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Ignore him - he's being lewd.""",
+                      kurdishText: """پشتگوێی بخە ـ شەهوانی بووە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

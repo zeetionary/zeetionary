@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryliberate liberate
-WORD_WEB liberate liberate liberate
-haʊʊʊʊʊʊʊ4
+- Verb: liberate (Derived forms: liberating, liberates, liberated)
+1. Give equal rights to; of women and minorities (- emancipate)
+ 
+2. Grant freedom to; free from confinement (- free, release, unloose, unloosen, loose)
+ 
+3. Grant freedom to (- set free)
+"The students liberated their slaves upon graduating from the university";
+ 
+4. (chemistry) release (gas or energy) as a result of a chemical reaction or physical decomposition (- release, free)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "liberate";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The city was liberated by the Korean army.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The people said they had the right to liberate themselves by whatever means necessary.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Writing poetry liberated her from the routine of everyday life.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/6NOtF4l9i9g?t=177';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/b4wRdoWpw0w?t=312';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/zqllxbPWKNI?t=498';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/JAOYywV_gvc?t=740';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/dG9fAtmYdlM?t=1548';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/g3Ud6mHdhlQ?t=467';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """liberate""",
                       // alsoEnglishWord: "also: liberate",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪbəreɪt/""",
+                      americanText: """IpaUS: /ˈlɪbəreɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +997,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "liberate", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (کردار) ئازادکردن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The city was liberated by the Korean army.""",
+                      kurdishText: """شارەکە لەلایەن سوپای کۆریاوە ئازادکرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1008,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The people said they had the right to liberate themselves by whatever means necessary.""",
+                      kurdishText: """خەڵکەکە گوتیان مافی ئەوەیان خۆیان ئازاد بکەن بە هەر ڕێگایەک کە پێویست بێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (کردار) ئازادکردنی کەسێک لە شتێک کە کۆنترۆڵی بەسەر ژیانی خۆیاندا سنووردار دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Writing poetry liberated her from the routine of everyday life.""",
+                      kurdishText: """نووسینی هۆنراوە ئازادی کرد لە ڕۆتینی ژیانی ڕۆژانە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

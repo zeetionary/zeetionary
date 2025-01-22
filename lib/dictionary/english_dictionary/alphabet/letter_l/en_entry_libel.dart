@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: libel (Derived forms: libels)
+1. (law) a false and malicious publication printed for the purpose of defaming a living person
+ 
+2. (law) the written statement of a plaintiff explaining the cause of action (the defamation) and any relief he seeks
 
-EnglishEntrylibel libel
-WORD_WEB libel libel libel
-haʊʊʊʊʊʊʊ4
+- Verb: libel (Derived forms: libels, libelling, libelled, libeled, libeling)
+1. Print slanderous statements against
+"The newspaper was accused of libeling him"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "libel";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +90,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He sued the newspaper for libel.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The article was a serious libel against the professor.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She claimed she had been libelled in an article the magazine had published.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/hK2_wYowDg8?t=164';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/7Ri8PK0oaQE?t=179';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/K3v5wFMQRqs?t=2113';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/6bTpbDL5dcg?t=591';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/f-hQt7-CHpk?t=10';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/OFh5Z-DL8_8?t=1809';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """libel""",
                       // alsoEnglishWord: "also: libel",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪbl/""",
+                      americanText: """IpaUS: /ˈlaɪbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +993,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: فڕ، فڕنامە، سووکایەتی(نامە)،	ئابڕووبردن، نێوزڕاندن، تۆمەت، هەڵبەستە، بوختان، شڵتاخ، بوختان‌نامە،	مایەی ئابڕووچوون، مایەی بێ‌ئابڕوویی، مایەی سەرشۆڕی
 """),
 // With short examples define "libel", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەوەی کە شتێکی خراپ لەسەر کەسێک بڵاوبکەیتەوە کە ناوی ناشرین دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He sued the newspaper for libel.""",
+                      kurdishText: """شکایەتی لە ڕۆژنامەکە کرد بۆ ناوزڕاندن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1007,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The article was a serious libel against the professor.""",
+                      kurdishText: """وتارەکە ناوزڕاندنێکی خراپ بوو دژ بە پڕۆفیسۆرەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (کردار) بڵاوکردنەوەی شتێک کە ناوی کەسێک ناشرین دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She claimed she had been libelled in an article the magazine had published.""",
+                      kurdishText: """بانگەشەی ئەوەی دەکرد ناوی زڕێندراوە لە وتارێک کە گۆڤارەکە بڵاوی کردەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

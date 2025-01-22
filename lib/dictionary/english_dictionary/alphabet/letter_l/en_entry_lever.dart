@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lever (Derived forms: levers)
+1. A rigid bar pivoted about a fulcrum
+ 
+2. A simple machine that gives a mechanical advantage when given a fulcrum
+ 
+3. A flat metal tumbler in a lever lock (- lever tumbler)
 
-EnglishEntrylever lever
-WORD_WEB lever lever lever
-haʊʊʊʊʊʊʊ4
+- Verb: lever (Derived forms: levering, levered, levers)
+1. To move or force, especially in an effort to get something open (- pry, prise [Brit, Cdn], prize [N. Amer], jimmy [N. Amer], jemmy [Brit])
+"Raccoons managed to lever the lid off the garbage pail";
+ 
+2. Operate a lever; use a lever to lift
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lever";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +94,35 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Pull the lever towards you to adjust the speed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""We had to use a lever to prise open the window.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The threat of sanctions is our most powerful lever for peace.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""I levered the lid off the pot with a knife.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""They managed to lever the door open.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/VS6tnF31zr4?t=777';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/yOp0cyWp_P4?t=418';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/8HEfIJlcFbs?t=741';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/v2XIYgNlP-Q?t=500';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/toVfvRhWbj8?t=252';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/fZJGTevM3QI?t=145';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lever""",
                       // alsoEnglishWord: "also: lever",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈliːvə(r)/""",
+                      americanText: """IpaUS: /ˈlevər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,41 +997,40 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نێڵ، نوێڵ، شێروکۆڵ، لۆسە، بەرازە، باری، چل‌مێردە، چلمێر (لە دار)، قەڕاسە، سمک، مەڵغە، دەسک، کەڕانە، میلە، لایز، لهازە، مانیلا، مالێلا، بەرزکەرە
 """),
 // With short examples define "lever", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) دەسکێک کە بەکاردێت بۆ کارپێکردنی بارهەڵگر یان ئامێرێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Pull the lever towards you to adjust the speed.""",
+                      kurdishText: """دەسکەکە بۆ لای خۆت ڕابکێشە بۆ ڕێکخستنی خێرایی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) پارچەیەکی درێژی دار، کانزا، هتد کە بۆ بەرزکردنەوە یان کردنەوەی شتێک بەوەی کەسێک لایەکی دەخاتە ژێر شتێکەوە و پاڵ بە لایەکەی تریەوە دەنێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """We had to use a lever to prise open the window.""",
+                      kurdishText: """پێویست بوو نوێڵێک بەکاربێنین بۆ کردنەوەی پەنجەرەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ناو) ئەوەی فشار بخرێتە سەر کەسێک بۆ ئەوەی شتێک بکات کە نایەوێت بیکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The threat of sanctions is our most powerful lever for peace.""",
+                      kurdishText: """هەڕەشەی ئابڵووقە بەهێزترین چەکمانە بۆ ئاشتی.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٤. (کردار) جوڵاندنی شتێک بە نوێڵێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: prise"),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I levered the lid off the pot with a knife.""",
+                      kurdishText: """سەرقاپەکەم لەسەر قاپەکە بەرزکردەوە بە چەقۆیەک.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1034,8 +1038,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They managed to lever the door open.""",
+                      kurdishText: """توانیبوویان دەرگاکە بە نوێڵێک بکەنەوە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

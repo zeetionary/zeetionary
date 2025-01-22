@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylibellous libellous
-WORD_WEB libellous libellous libellous
-haʊʊʊʊʊʊʊ4
+- Adjective: libellous
+1. (used of statements) harmful and often untrue; tending to discredit or malign (- calumniatory, calumnious, defamatory, denigrative, denigrating, denigratory, libelous [US], slanderous)
+"A libellous charge may be made indirectly as well as directly"; "Which of these contains the libellous material?";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "libellous";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""We reserve the right to edit letters and remove anything potentially libellous.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/MM44xso6Ojs?t=3046';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/x8wfO8j1-aQ?t=223';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/G2mPeug0708?t=99';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/pq0NCHfrI9c?t=2870';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/L8BIOxN3Fm4?t=230';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/79pS5OXKTkU?t=2895';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """libellous""",
                       // alsoEnglishWord: "also: libellous",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪbələs/""",
+                      americanText: """IpaUS: /ˈlaɪbələs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +988,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نێوزڕێن، تۆمەتاوی، بوختاناوی، ئابڕووبەرانە،	دەم‌پیس، جنێوفرۆش، دەم‌چەوت، دەم‌بەجنێو
 """),
 // With short examples define "libellous", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە ناوی کەسێک ناشرین دەکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """We reserve the right to edit letters and remove anything potentially libellous.""",
+                      kurdishText: """مافی ئەوە بە خۆمان دەدەین کە نامە دەستکاری بکەین و هەر شتێک بسڕینەوە کە بکرێت ناوزڕێن بێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

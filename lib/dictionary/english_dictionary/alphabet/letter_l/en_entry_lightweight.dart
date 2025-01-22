@@ -52,13 +52,27 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: lightweight
+1. Weighing relatively little compared with another item or object of similar use
+"a lightweight fabric"; "lightweight wood"
+ 
+2. Having no importance or influence
+"a lightweight intellect"
 
-EnglishEntrylightweight lightweight
-WORD_WEB lightweight lightweight lightweight
-haʊʊʊʊʊʊʊ4
+- Noun: lightweight (Derived forms: lightweights)
+1. Someone with little influence or importance
+ 
+3. A professional boxer who weighs between 131 and 135 pounds
+ 
+4. An amateur boxer who weighs no more than 132 pounds
+ 
+5. A wrestler who weighs 139-154 pounds
+ 
+6. A weight class division in combat sports, for fighters heavier than those in the featherweight division and lighter than those in the welterweight division.
+ 
+7. [informal] Someone who gets drunk easily
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lightweight";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +101,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I need a lightweight jacket for the summer evenings.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He was considered too lightweight for the job.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He's an intellectual lightweight.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +940,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/9TugA_z5vQE?t=1157';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/QjGUFmvolqI?t=15';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/tMKXbLBgkEc?t=555';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/-RjJtO51ykY?t=888';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/NUzDLpSkQTg?t=494';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/Bg_tJvCA8zw?t=368';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +965,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lightweight""",
                       // alsoEnglishWord: "also: lightweight",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪtweɪt/""",
+                      americanText: """IpaUS: /ˈlaɪtweɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,29 +1007,28 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lightweight", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە لە مادەی باریک درووستکراوە و کێشی سووکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I need a lightweight jacket for the summer evenings.""",
+                      kurdishText: """پێویستیم بە چاکەتێکی سووکەڵەیە بۆ ئێوارانی هاوین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە زۆر جدی نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was considered too lightweight for the job.""",
+                      kurdishText: """بە کەسێکی نادرووست بۆ کارەکە دادەنرا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ناو) کەسێک یان شتێک کە کاریگەری یان گرنگی زۆری نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He's an intellectual lightweight (= he does not think very deeply or seriously).""",
+                      kurdishText: """لە لایەنی هزرییەوە قووڵ نییە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

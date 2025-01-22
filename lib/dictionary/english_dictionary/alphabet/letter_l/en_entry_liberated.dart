@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryliberated liberated
-WORD_WEB liberated liberated liberated
-haʊʊʊʊʊʊʊ4
+- Adjective: liberated
+1. (of a gas e.g.) released from chemical combination
+ 
+2. Free from traditional social restraints (- emancipated)
+"a liberated lifestyle";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "liberated";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She's chosen career advancement instead of having children - does that make her a liberated woman?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/wRfRWR7xWRo?t=707';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/OfrCqnKbHKk?t=339';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/ILApR36KgQw?t=1010';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/4aOEmORG1L0?t=26';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/6_uvpReICDU?t=680';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/N0eXWD2i0BU?t=263';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """liberated""",
                       // alsoEnglishWord: "also: liberated",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪbəreɪtɪd/""",
+                      americanText: """IpaUS: /ˈlɪbəreɪtɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +990,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: پێشکەوتوو، پێشکەوتن‌خواز، نوێخواز، ڕۆشنبیر، بیرکراوە، تێگەیشتوو، ڕۆشن
 """),
 // With short examples define "liberated", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە سنووردار نییە بە ڕەفتارە کۆمەڵایەتی و ڕەگەزییەکان و ئازادە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She's chosen career advancement instead of having children - does that make her a liberated woman?""",
+                      kurdishText: """بەرەوپێشبردنی کارەکەیی هەڵبژاردووە وەک لە هەبوونی منداڵ ـ ئەوە دەیکات بە ژنێکی ئازاد؟""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

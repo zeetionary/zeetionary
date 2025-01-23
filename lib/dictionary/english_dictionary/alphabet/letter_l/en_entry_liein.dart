@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryliein lie-in
-WORD_WEB lie-in lie-in lie-in
-haʊʊʊʊʊʊʊ4
+- Noun: lie-in (Derived forms: lie-ins)
+Usage: Brit
+1. A long stay in bed in the morning
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lie-in";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I'm not working tomorrow so I can have a bit of a lie-in.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/f3xaf2Hu-Gs?t=1296';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Ja8Eh6BAHGI?t=799';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/06V20tiHSAE?t=573';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/WzCHNzsTSEk?t=295';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ZeBgVZEoBYc?t=111';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/1PqDxcv4IiE?t=3234';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lie-in""",
                       // alsoEnglishWord: "also: lie-in",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌlaɪ ˈɪn/""",
+                      americanText: """IpaUS: /ˌlaɪ ˈɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lie-in", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) کە زیاتر لە ئاسایی لە بەیانیاندا لە جێگادا بمێنێتەوە، بۆ نموونە لە ڕۆژانی پشوو کە کارت نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I'm not working tomorrow so I can have a bit of a lie-in.""",
+                      kurdishText: """سبەی کار ناکەم بۆیە دەکرێت کەمێک پاڵکەوم.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

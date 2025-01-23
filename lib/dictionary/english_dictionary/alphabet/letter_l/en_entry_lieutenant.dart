@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylieutenant lieutenant
-WORD_WEB lieutenant lieutenant lieutenant
-haʊʊʊʊʊʊʊ4
+- Noun: lieutenant (Derived forms: lieutenants)
+1. (military) a commissioned military officer
+ 
+2. An officer in a police force (- police lieutenant)
+ 
+3. An assistant with power to act when his superior is absent (- deputy)
+ 
+4. (military) an officer holding a commissioned rank in the United States Navy or the United States Coast Guard; below lieutenant commander and above lieutenant junior grade
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lieutenant";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He was promoted to the rank of lieutenant.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/b4wRdoWpw0w?t=750';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/zqllxbPWKNI?t=187';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/p3O6bKdPLbw?t=3347';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/90MNvA5ozcI?t=494';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/n5CPMf5eC_s?t=3343';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/RXXMJAU6vY8?t=194';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lieutenant""",
                       // alsoEnglishWord: "also: lieutenant",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lefˈtenənt/""",
+                      americanText: """IpaUS: /luːˈtenənt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,23 +996,23 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lieutenant", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەفسەرێکی پلە مامناوەند لە سوپادا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was promoted to the rank of lieutenant.""",
+                      kurdishText: """بۆ پلەی ملازم بەرزکرایەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
-                    ),
+                    // const DividerDefinition(),
+                    // const DefinitionKurdish(text: """٢. (ناو) ئەفسەرێک لە خوار ئەو پلەیەی کە باسکراوە"""),
+                    // const DividerSentences(),
+                    // SentencesRow(
+                    //   englishText: """speaksentence200""",
+                    //   kurdishText: """رستە_رستە_رستە__رستە.""",
+                    //   onPressedBritish: () => speaksentence2("en-GB"),
+                    //   onPressedAmerican: () => speaksentence2("en-US"),
+                    // ),
+                    دوپن
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

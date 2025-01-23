@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylifebelt lifebelt
-WORD_WEB lifebelt lifebelt lifebelt
-haʊʊʊʊʊʊʊ4
+- Noun: lifebelt (Derived forms: lifebelts)
+1. Belt attaching you to some object as a restraint in order to prevent you from getting hurt (- safety belt, safety harness)
+ 
+2. A life preserver in the form of a ring of buoyant material (- life buoy, lifesaver, life ring)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lifebelt";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Every boat must carry a lifebelt for safety.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/nCsVOBwKgu8?t=837';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/3318TsuDy0A?t=177';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/k4xQWZp2LpE?t=303';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ZYQ_xPxsFnc?t=162';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/xg0gGMe1TBM?t=378';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/G355mT33g4w?t=232';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lifebelt""",
                       // alsoEnglishWord: "also: lifebelt",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪfbelt/""",
+                      americanText: """IpaUS: /ˈlaɪfbelt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,12 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ئاڵقەی ڕزگاربوون، پشتێنەی پارێزران، پشتێنەی قوم‌نەبوون، کەمەری قوم‌نەبوون
 """),
-// With short examples define "lifebelt", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەڵقەیەک کە پڕکراوە لە هەوا و بۆ سەرکەوتن لەسەر ئاو بەکاردێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Every boat must carry a lifebelt for safety.""",
+                      kurdishText: """هەموو بەلەمێک دەبێت پشتێنەی ڕزگاربوونی لەسەر بێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylifeless lifeless
-WORD_WEB lifeless lifeless lifeless
-haʊʊʊʊʊʊʊ4
+- Adjective: lifeless
+1. Deprived of life; no longer living (- exanimate)
+"a lifeless body";
+ 
+2. Destitute or having been emptied of life or living beings
+"after the dance the littered and lifeless ballroom echoed hollowly"
+ 
+3. Lacking animation, excitement or activity
+"it was a lifeless party until she arrived"
+ 
+4. Not having the capacity to support life
+"a lifeless planet"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lifeless";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +94,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He knelt beside her lifeless body.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""She lay lifeless in the snow.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The movie is about a time when the earth was completely lifeless.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""Her hair was lifeless and uncombed.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/pvZXE-e5Yo4';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/2wYiExs6bek?t=6';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/u9S41Kplsbs?t=83';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/9dmlcGZta9E?t=49';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/DMRMWLwvAGA?t=683';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/DfSnHyIryeY?t=253';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lifeless""",
                       // alsoEnglishWord: "also: lifeless",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪfləs/""",
+                      americanText: """IpaUS: /ˈlaɪfləs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +997,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێ‌گیان، مردوو، نازیندوو، بێ‌جان،	ناخۆش، پڕوپووچ، ماندووکەر، وەڕەس‌کەر،	بە شێوەیێکی بێ‌گیان،	وەڕەس‌کەرانە، وەڕەزکەرانە
 """),
 // With short examples define "lifeless", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) مردوو یان کە وەک مردوو دەرکەوێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: inanimate"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He knelt beside her lifeless body.""",
+                      kurdishText: """لەلای جەستەی مردوویدا کەوتە سەر ئەژنۆ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,26 +1012,26 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She lay lifeless in the snow.""",
+                      kurdishText: """بێ‌گیان لە بەفرەکەدا کەوتبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە زیندوو نییە؛ کە شتی زیندوو لەسەری گەشە ناکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The movie is about a time when the earth was completely lifeless.""",
+                      kurdishText: """فیلمەکە سەبارەت بە سەردەمێکە زەوی تەواو مردوو بوو ( = هیچ گیانلەبەرێکی لەسەر نەبوو).""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە جۆش‌وخرۆشی تێدا نییە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: lacklustre"),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her hair was lifeless and uncombed.""",
+                      kurdishText: """قژی مردوو و شانەنەکراو بوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

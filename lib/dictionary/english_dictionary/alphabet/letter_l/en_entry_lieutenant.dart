@@ -1012,7 +1012,7 @@ ${englishMeaningConst.text}
                     //   onPressedBritish: () => speaksentence2("en-GB"),
                     //   onPressedAmerican: () => speaksentence2("en-US"),
                     // ),
-                    دوپن
+                    // skipped_meaning
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

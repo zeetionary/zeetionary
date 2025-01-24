@@ -52,13 +52,29 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: limited
+1. Small in range or scope
+"limited war"; "a limited success"; "a limited circle of friends"
+ 
+2. Subject to limits or subjected to limits (- circumscribed)
+ 
+3. Including only a part
+ 
+4. Mediocre (- modified)
+ 
+5. Not excessive
+ 
+6. Having a specific function or scope (- special)
+"a limited role in the mission";
+ 
+7. Not unlimited
+"a limited list of choices"
 
-EnglishEntrylimited limited
-WORD_WEB limited limited limited
-haʊʊʊʊʊʊʊ4
+- Noun: limited (Derived forms: limiteds)
+1. Public transport consisting of a fast train or bus that makes only a few scheduled stops (- express)
+"he caught the limited to New York";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "limited";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,36 +103,35 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""We are doing our best with the limited resources available.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""This animal's intelligence is very limited.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""We're really limited in what we can do these days.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""This offer is for a limited period only.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""There are only a limited number of jobs available.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -927,19 +942,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/lwhQK2kDfBM?t=30';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/MoPFAlf393g';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/hBIwamP7ygY?t=265';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ewLpXw6uN28?t=2';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/4J0xFUyz1nw?t=392';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/-DQw6VXbmIA?t=19';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +967,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """limited""",
                       // alsoEnglishWord: "also: limited",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪmɪtɪd/""",
+                      americanText: """IpaUS: /ˈlɪmɪtɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1006,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دیاری‌کراو، سنووردار، کەم، بەرتەسک، بەرتەنگ، پێبەند، (دەسەڵات) پێبەند بە دەستوور
 """),
 // With short examples define "limited", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە زۆر نییە لە بڕدا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """We are doing our best with the limited resources available.""",
+                      kurdishText: """باشترین کارمان دەکەین بەو سەرچاوە سنووردارانەی کە بەردەستن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1020,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """This animal's intelligence is very limited.""",
+                      kurdishText: """زیرەکیی ئاژەڵەکە زۆر سنووردارە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,17 +1029,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """We're really limited in what we can do these days.""",
+                      kurdishText: """تەواو دەستبەستراوین لەوەی دەتوانین چی بکەین لەم ڕۆژانەدا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) هەبوونی ژمارە، کات، هتدی دیاریکراو"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """This offer is for a limited period only.""",
+                      kurdishText: """ئەم ئۆفەرە تەنها بۆ ماوەیەکی دیاریکراوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1034,8 +1047,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """There are only a limited number of jobs available.""",
+                      kurdishText: """تەنها ژمارەیەکی دیاریکراو لە کار بەردەستن.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),

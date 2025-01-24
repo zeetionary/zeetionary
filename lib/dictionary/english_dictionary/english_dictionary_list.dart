@@ -9588,6 +9588,8 @@ final List<String> allWordsEnglish = [
   "lead astray",
   "life coach",
   "light bulb",
+  "lightning rod",
+  "likable",
   "mad cow disease",
   "make a beeline for",
   "make amends",

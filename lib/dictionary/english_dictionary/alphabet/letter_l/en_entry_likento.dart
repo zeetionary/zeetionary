@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntryliken extends StatefulWidget {
-  const EnglishEntryliken({super.key});
+class EnglishEntrylikento extends StatefulWidget {
+  const EnglishEntrylikento({super.key});
 
   @override
-  State<EnglishEntryliken> createState() => _EnglishEntrylikenState();
+  State<EnglishEntrylikento> createState() => _EnglishEntrylikentoState();
 }
 
-class _EnglishEntrylikenState extends State<EnglishEntryliken> {
+class _EnglishEntrylikentoState extends State<EnglishEntrylikento> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryliken liken
-WORD_WEB liken liken liken
-haʊʊʊʊʊʊʊ4
+- Verb: liken to (Derived forms: likens to, likened to, likening to)
+1. Consider or describe as similar, equal, or analogous (- compare, equate)
+"We can liken the Han dynasty to the Romans";
 """,
   );
-// 188888880002200000000000
 
-  final String keyword = "liken";
+  final String keyword = "liken to";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,15 +78,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""liken""");
+    await flutterTts.speak("""liken to""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Life is often likened to a journey.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/wfUJvB3YZq0?t=331';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/aDMjgOYOcDw?t=3838';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/n7WH7A2v7OU?t=104';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/MnExgQ81fhU?t=788';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/QQyup6ZFsvA?t=97';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/UGqWRyBCHhw?t=575';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -951,10 +947,10 @@ haʊʊʊʊʊʊʊ4
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """liken""",
+                      word: """liken to""",
                       // alsoEnglishWord: "also: liken",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪkən/""",
+                      americanText: """IpaUS: /ˈlaɪkən/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +990,11 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "liken", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+// With short examples define "liken to", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (کاری لێکدراو) بەراوردکردنی ک/شت بە یەکێکی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Life is often likened to a journey.""",
+                      kurdishText: """ژیان زۆرجار بە گەشتێک بەراورد دەکرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylikeable likeable
-WORD_WEB likeable likeable likeable
-haʊʊʊʊʊʊʊ4
+- Adjective: likeable
+1. (of characters in literature or drama) evoking empathic or sympathetic feelings (- sympathetic, appealing, likable)
+"the likeable characters in the play";
+ 
+2. Easy to like; agreeable (- likable, simpatico [informal])
+"an attractive and likeable young man";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "likeable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He's a very likeable sort of friend.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/zhdBNVY55oM?t=327';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/NQZ5BfdjDv0?t=152';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/5vhpgWQiujg?t=243';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/bwvGL21aJ_s?t=158';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/1rJHcHTXj8M?t=43';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/6G6iPLTeAnY?t=865';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """likeable""",
                       // alsoEnglishWord: "also: likeable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪkəbl/""",
+                      americanText: """IpaUS: /ˈlaɪkəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕووخۆش، جوان، ژیکەڵانە، خوێن‌شیرین، دڵ‌پەسند
 """),
 // With short examples define "likeable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە دەکرێت خۆش بوسیترێت بەهۆی ئەوەی خۆشەویستە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He's a very likeable sort of friend.""",
+                      kurdishText: """هاوڕێیەکی زۆر ڕووخۆشە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

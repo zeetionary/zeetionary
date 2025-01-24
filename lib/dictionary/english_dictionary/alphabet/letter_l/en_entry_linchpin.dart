@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylinchpin linchpin
-WORD_WEB linchpin linchpin linchpin
-haʊʊʊʊʊʊʊ4
+- Noun: linchpin (Derived forms: linchpins)
+1. A central cohesive source of support and stability (- anchor, mainstay, keystone, backbone, lynchpin)
+"he is the linchpin of this firm";
+ 
+2. Pin inserted through an axletree to hold a wheel on (- lynchpin)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "linchpin";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Nurses are the linchpin of the health service.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/3ESxmyDnTms?t=800';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/JN3KPFbWCy8?t=5231';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/x629nYBuLpY?t=706';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/nPZPrs2Uf_g?t=1039';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/pMszOwO4lPQ?t=948';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/B4eF8n5FODM?t=457';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """linchpin""",
                       // alsoEnglishWord: "also: linchpin",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪntʃpɪn/""",
+                      americanText: """IpaUS: /ˈlɪntʃpɪn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +990,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بزماری تەوەر، سنگی پێچکە،	گرنگ‌ترین بەش، مۆرەی سەرەکی
 """),
 // With short examples define "linchpin", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ک/شت کە گرنگترین بەشی دامەزراوەیەک، پلانێک، هتدە بەهۆی ئەوەی هەموو شتێکی دیکە پشتی پێ دەبەستێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Nurses are the linchpin of the health service.""",
+                      kurdishText: """پەرستاران کۆڵەکەی خزمەتگوزاریی تەندرووستین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylimitless limitless
-WORD_WEB limitless limitless limitless
-haʊʊʊʊʊʊʊ4
+- Adjective: limitless
+1. Having no limits in range or scope (- unlimited)
+"the limitless reaches of outer space";
+ 
+2. Without limits in extent, size or quantity (- illimitable, measureless, unmeasured)
+"limitless vastness of our solar system";
+ 
+3. Seemingly with no bound in amount, number, degree, or extent (- boundless, unbounded)
+"a limitless supply of money";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "limitless";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +91,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The possibilities were almost limitless.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/BBPk0Cdv8gQ?t=1229';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/wh4aWZRtTwU?t=14';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/kRr9LQ7mZ_A?t=547';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/XXnlVlkkkxM?t=753';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/JTB5T5aldNo?t=525';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/EI-ToB0tG9A?t=27';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """limitless""",
                       // alsoEnglishWord: "also: limitless",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪmɪtləs/""",
+                      americanText: """IpaUS: /ˈlɪmɪtləs/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +994,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دیاری‌نەکراو، ناسنووردار، نابەرتەنگ، بێ‌کۆتایی، بێ‌ئەندازە، سنوورنەناس
 """),
 // With short examples define "limitless", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) بەبێ سنوور"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: infinite"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The possibilities were almost limitless.""",
+                      kurdishText: """ئەگەرەکان تا ڕادەیەک بێ‌سنوور بوون.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

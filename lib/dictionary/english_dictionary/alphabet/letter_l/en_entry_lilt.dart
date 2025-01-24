@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lilt (Derived forms: lilts)
+1. A jaunty rhythm in music (- swing)
 
-EnglishEntrylilt lilt
-WORD_WEB lilt lilt lilt
-haʊʊʊʊʊʊʊ4
+- Verb: lilt (Derived forms: lilts, lilting, lilted)
+1. Articulate in a very careful and rhythmic way
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lilt";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Her voice had a soft Welsh lilt to it.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/SXlOZ1X52SY?t=692';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/ZMALIaBsZIg?t=136';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/VFoUXFxmnSM?t=498';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/W-SMrG0QLc0?t=2066';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/9fzRMmPAxz0?t=648';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/gMRph_BvHB4?t=2085';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lilt""",
                       // alsoEnglishWord: "also: lilt",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɪlt/""",
+                      americanText: """IpaUS: /lɪlt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +993,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lilt", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) شێوازی جوانی بەرزبوون و نزمبوونی دەنگی کەسێک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her voice had a soft Welsh lilt to it.""",
+                      kurdishText: """دەنگی لەهجەیەکی نەرمی وێڵزی هەبوو..""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

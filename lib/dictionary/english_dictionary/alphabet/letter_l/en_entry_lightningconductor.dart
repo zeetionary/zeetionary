@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylightningconductor lightning conductor
-WORD_WEB lightning conductor lightning conductor lightning conductor
-haʊʊʊʊʊʊʊ4
+- Noun: lightning conductor (Derived forms: lightning conductors)
+1. A metallic conductor that is attached to a high point and leads to the ground; protects the building from destruction by lightning (- lightning rod)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lightning conductor";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The tall tower had a lightning conductor for protection.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/iqO-ewEuRbc?t=70';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/_gI_UOs7SLA?t=238';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/awZ7PYrofEQ?t=4924';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/uhMzA26mrUc?t=1386';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/t2tcBsYXAw8?t=401';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/NrYaM9Q-mCM?t=422';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -952,9 +947,9 @@ haʊʊʊʊʊʊʊ4
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
                       word: """lightning conductor""",
-                      // alsoEnglishWord: "also: lightning conductor",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      alsoEnglishWord: "also: lightning rod",
+                      britshText: """IpaUK: /ˈlaɪtnɪŋ kəndʌktə(r)/""",
+                      americanText: """IpaUS: /ˈlaɪtnɪŋ kəndʌktər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +989,10 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "lightning conductor", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) پارچە ئاسنێک لەسەر بینایەک کە هەورە برووسکە ڕادەکێشێت بۆ ئەوەی زیان بە بیناکە نەگەیەنێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The tall tower had a lightning conductor for protection.""",
+                      kurdishText: """تاوەرە بەرزەکە برووسکەگێڕەوەیەکی هەبوو بۆ پاراستن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

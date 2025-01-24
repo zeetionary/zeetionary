@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: likely (Derived forms: likelier, likeliest)
+1. Has a good chance of being the case or of coming about
+"these services are likely to be available to us all before long"; "she is likely to forget"; "a likely place for a restaurant"; "the broken limb is likely to fall"; "rain is likely"; "a likely topic for investigation"; "likely candidates for the job"
+ 
+2. Expected to become or be; in prospect (- potential)
+"likely clients";
+ 
+3. Within the realm of credibility
+"not a very likely excuse"
 
-EnglishEntrylikely likely
-WORD_WEB likely likely likely
-haʊʊʊʊʊʊʊ4
+- Adverb: likely (- probably, in all likelihood, in all probability, belike [archaic], probs [informal], prolly [slang])
+1. With considerable certainty; without much doubt
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "likely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,43 +94,42 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They might ask for help or, more likely, just give up.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Tickets are likely to be expensive.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""There is likely to be heavy snowfall.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""It's hardly likely (that) they'll refuse.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""It is quite likely the discussion may never take place.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""She seems the most likely candidate for the job.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/VrKW58MS12g?t=509';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/3C0BdIn6Hdo?t=75';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/V6TyZj4gkYQ?t=176';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/6h0OB16aOXM?t=21';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/j-zCKl_eda4?t=253';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/fHffhP29vrM?t=16';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """likely""",
                       // alsoEnglishWord: "also: likely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪkli/""",
+                      americanText: """IpaUS: /ˈlaɪkli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +997,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ڕێ‌تێچوو، لەوەچوو،	گونجاو، لەبار، ڕێی تێدەچێ، لەوەدەچێ، پێدەچێ، ڕەنگە، ئەشێ، لەگوێنە
 """),
 // With short examples define "likely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە ئەگەری زۆر هەیە ڕووبدات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They might ask for help or, more likely, just give up.""",
+                      kurdishText: """ئەگەری هەیە داوای یارمەتی بکەن، یان بە ئەگەری زۆرەوە. هەر وازبهێنن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1011,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Tickets are likely to be expensive.""",
+                      kurdishText: """بلیتەکان ئەگەری زۆرە گران بن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1020,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """There is likely to be heavy snowfall.""",
+                      kurdishText: """ئەگەری زۆرە باران ببارێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1025,8 +1029,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It's hardly likely (that) they'll refuse.""",
+                      kurdishText: """بە ئاستەم ئەگەری هەیە ڕەتی بکەنەوە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1034,17 +1038,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It is quite likely the discussion may never take place.""",
+                      kurdishText: """ئەگەری زۆر هەیە گفتووگۆکە هەرگیز ڕوونەدات.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە وەها دەردەکەوێت گونجاوە بۆ مەبەستێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: promisinglife"),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She seems the most likely candidate for the job.""",
+                      kurdishText: """وەک گونجاوترین بەربژێر بۆ کارەکە دەردەکەوێت.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),

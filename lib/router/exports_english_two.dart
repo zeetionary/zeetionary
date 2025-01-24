@@ -3096,7 +3096,7 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_i/en_en
 // en_entry_likeminded.dart' show EnglishEntrylikeminded //////// like-minded
 // en_entry_likelihood.dart' show EnglishEntrylikelihood
 // en_entry_likely.dart' show EnglishEntrylikely
-// en_entry_liken.dart' show EnglishEntryliken
+// en_entry_likento.dart' show EnglishEntrylikento //////// liken to
 // en_entry_likeness.dart' show EnglishEntrylikeness
 // en_entry_likewise.dart' show EnglishEntrylikewise
 // en_entry_liking.dart' show EnglishEntryliking
@@ -3105,7 +3105,6 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_i/en_en
 // en_entry_lilting.dart' show EnglishEntrylilting
 // en_entry_lily.dart' show EnglishEntrylily
 // en_entry_limb.dart' show EnglishEntrylimb
-// en_entry_limber.dart' show EnglishEntrylimber
 // en_entry_limbo.dart' show EnglishEntrylimbo
 // en_entry_lime.dart' show EnglishEntrylime
 // en_entry_limestone.dart' show EnglishEntrylimestone
@@ -3114,12 +3113,10 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_i/en_en
 // en_entry_limit.dart' show EnglishEntrylimit
 // en_entry_limitation.dart' show EnglishEntrylimitation
 // en_entry_limited.dart' show EnglishEntrylimited
-// en_entry_limitedcompany.dart' show EnglishEntrylimitedcompany //////// limited company
 // en_entry_limitless.dart' show EnglishEntrylimitless
 // en_entry_limousine.dart' show EnglishEntrylimousine
 // en_entry_limp.dart' show EnglishEntrylimp
 // en_entry_limply.dart' show EnglishEntrylimply
-// en_entry_limpness.dart' show EnglishEntrylimpness
 // en_entry_linchpin.dart' show EnglishEntrylinchpin
 // en_entry_line.dart' show EnglishEntryline
 // en_entry_linedrawing.dart' show EnglishEntrylinedrawing //////// line drawing

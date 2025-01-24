@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylightheaded light-headed
-WORD_WEB light-headed light-headed light-headed
-haʊʊʊʊʊʊʊ4
+- Adjective: light-headed
+1. Lacking seriousness; given to frivolity (- airheaded, dizzy, empty-headed, featherbrained, giddy, light-headed, silly)
+"a lightheaded blonde";
+ 
+2. Weak and likely to lose consciousness (- faint, light, swooning, light-headed)
+"suddenly felt lightheaded from the pain";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "light-headed";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She'd had a couple of glasses of champagne and was starting to feel light-headed.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/9cF1NoGAOdw?t=239';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/oWVaIefXaBs?t=117';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/tXjHb5QmDV0?t=917';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/_RmP5_UCUJM?t=237';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/G3HfLZiuBnk?t=451';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/mtILU02K4wQ?t=782';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """light-headed""",
                       // alsoEnglishWord: "also: light-headed",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌlaɪt ˈhedɪd/""",
+                      americanText: """IpaUS: /ˌlaɪt ˈhedɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +994,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "light-headed", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بە تەواوی کۆنترۆڵی بیرکردنەوە و جووڵەکانتت لەدەست نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She'd had a couple of glasses of champagne and was starting to feel light-headed.""",
+                      kurdishText: """چەند گڵاسێک شامپەینی خواردەوە و دەستیکرد بەوەی هەست بە سەرگێژخواردن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

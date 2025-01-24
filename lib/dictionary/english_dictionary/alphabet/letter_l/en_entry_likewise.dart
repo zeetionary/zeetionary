@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylikewise likewise
-WORD_WEB likewise likewise likewise
-haʊʊʊʊʊʊʊ4
+- Adverb: likewise
+1. In like or similar manner (- similarly)
+"some people have little power to do good, and have likewise little strength to resist evil";
+ 
+2. In addition (- besides, too, also, as well)
+ 
+3. Equally (- alike)
+"parents and teachers likewise demanded reforms";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "likewise";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +90,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He voted for the change and he expected his colleagues to do likewise.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Her second marriage was likewise unhappy.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""‘Let me know if you ever need any help.’ ‘Likewise.’""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/KLOyChP2AWA?t=21';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/EKUL_Ny4GK0?t=1470';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/xNwQyNMSUmg?t=7';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/piYjkTV2zS4?t=264';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/cnxddn9F01s?t=368';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/ODRUBH55vfk?t=35';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """likewise""",
                       // alsoEnglishWord: "also: likewise",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪkwaɪz/""",
+                      americanText: """IpaUS: /ˈlaɪkwaɪz/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +993,31 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هەروەک، هەروەکوو، هەروەها، سەرەڕای، سەرباری (ئەوەش)، ـ( ی)ش
 """),
 // With short examples define "likewise", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بە هەمان شێوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He voted for the change and he expected his colleagues to do likewise.""",
+                      kurdishText: """دەنگی بە گۆڕانکارییەکە دا و پێشبینی ئەوەی لە هاوکارەکانی کرد کە هەمان شت بکەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵکار) هەروەها"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Her second marriage was likewise unhappy.""",
+                      kurdishText: """دووەمی هاوسەرگیرییشی بە هەمان شێوە بەخەم بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵکار) بۆ گوتنی ئەوەی تۆش هەمان هەستت هەیە سەبارەت بە شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """‘Let me know if you ever need any help.’ ‘Likewise.’""",
+                      kurdishText: """'پێم بڵێ ئەگەر هەرگیز پێویستیت بە هەر یارمەتییەک هەبێت.' 'منیش هەروەها.'""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

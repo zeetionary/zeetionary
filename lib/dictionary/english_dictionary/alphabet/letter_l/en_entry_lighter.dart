@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lighter (Derived forms: lighters)
+1. A substance used to ignite or kindle a fire (- igniter, ignitor)
+ 
+2. A device for lighting or igniting fuel or charges or fires (- light, igniter, ignitor)
+"do you have a lighter?";
+ 
+3. A flatbottom boat for carrying heavy loads (especially on canals) (- barge, flatboat, hoy)
 
-EnglishEntrylighter lighter
-WORD_WEB lighter lighter lighter
-haʊʊʊʊʊʊʊ4
+- Verb: lighter (Derived forms: lighters, lightered, lightering)
+1. Transport in a flatbottom boat
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lighter";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +92,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She pulled out a small silver lighter from her bag.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/itMj9kShqvc?t=23';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/gmxrNJV6LB8';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/SlkXn4H4nKw?t=122';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/-KQ7U3gS1wQ';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/_ErL39wqO-c?t=21';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/80YLonnG-Lo?t=140';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lighter""",
                       // alsoEnglishWord: "also: lighter",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪtə(r)/""",
+                      americanText: """IpaUS: /ˈlaɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +995,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: چەرخ، چەخماخ، فەندەک، فەنەک، ئەستێ، داگیرسێنەر، ئاورکەرەوە، ئاگرداگیرسێنەر
 """),
 // With short examples define "lighter", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئامێرێکی بچووک کە بڵێسەیەکی درووست دەکات بۆ داگیرساندنی جگەرە، هتد"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She pulled out a small silver lighter from her bag.""",
+                      kurdishText: """چەرخێکی بچووکی زیوی لە جانتاکەی دەرکرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

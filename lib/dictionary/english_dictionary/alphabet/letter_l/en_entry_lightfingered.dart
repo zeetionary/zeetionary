@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylightfingered light-fingered
-WORD_WEB light-fingered light-fingered light-fingered
-haʊʊʊʊʊʊʊ4
+- Adjective: light-fingered
+1. Having nimble fingers literally or figuratively; especially for stealing or picking pockets (- nimble-fingered)
+"the light-fingered thoughtfulness...of the most civilized playwright of the era"; "a light-fingered burglar who can crack the combination of a bank vault";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "light-fingered";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""There are some light-fingered people around at the racetrack.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/7gO0cRImK_4?t=237';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/WHtaDYHEwqw?t=375';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/mUAQwVJHDwA?t=2240';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/9KZrs0XNF3w?t=174';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/0elkAXeAFb8?t=233';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/lOh7aJBnF7I?t=176';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """light-fingered""",
                       // alsoEnglishWord: "also: light-fingered",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌlaɪt ˈfɪŋɡəd/""",
+                      americanText: """IpaUS: /ˌlaɪt ˈfɪŋɡərd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "light-fingered", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە ئەگەری هەیە دزی بکات"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """There are some light-fingered people around at the racetrack.""",
+                      kurdishText: """لە شوێنی پێشبڕکێی ئەسپەکان هەندێک دەستبڕ هەن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

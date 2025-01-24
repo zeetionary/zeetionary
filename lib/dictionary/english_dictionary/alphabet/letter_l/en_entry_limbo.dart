@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylimbo limbo
-WORD_WEB limbo limbo limbo
-haʊʊʊʊʊʊʊ4
+- Noun: limbo (Derived forms: limbos)
+1. The state of being disregarded or forgotten (- oblivion)
+ 
+2. An imaginary place for lost or neglected things
+ 
+3. (theology) in Roman Catholicism, the place of unbaptized but innocent or righteous souls (such as infants and virtuous individuals)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "limbo";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""His life seemed stuck in limbo; he could not go forward and he could not go back.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/QHHxA2uc8uA?t=498';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/OqQ1rW6xQ-k?t=265';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Sv1fDOwyK4s?t=1006';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/N4wW85WZMJQ?t=881';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/OJGxH_VWQFU?t=119';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/cffELv3X1ik?t=1359';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """limbo""",
                       // alsoEnglishWord: "also: limbo",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪmbəʊ/""",
+                      americanText: """IpaUS: /ˈlɪmbəʊ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەرزەخ، (جێگای) بیرچوونەوە، خانەی بیرچوونەوە،	کەمتەرخەمی، گوێ‌پێنەدان، بێ‌خەیاڵی، پشت‌گوێ‌خستن، دوودڵی، ساخ‌نەبوونەوە
 """),
 // With short examples define "limbo", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) دۆخێک کە تێیدا نازانیت چی بکەیت، هەنگاو بنێیت، هتد، بە تایبەتی کە چاوەڕێی کەسێکی دیکەیت بۆ بڕیاردان"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """His life seemed stuck in limbo; he could not go forward and he could not go back.""",
+                      kurdishText: """ژیانی وەک ئەوە بوو لە بەرزەکێکدا بێت؛ نەیدەتوانی بۆ پێشەوە بچێت و نەشیدەتوانی بگەڕێتەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

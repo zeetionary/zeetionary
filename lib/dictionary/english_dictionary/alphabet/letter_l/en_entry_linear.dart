@@ -52,13 +52,21 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylinear linear
-WORD_WEB linear linear linear
-haʊʊʊʊʊʊʊ4
+- Adjective: linear
+1. (mathematics) designating or involving an equation whose terms are of the first degree (- additive)
+ 
+2. Of or in or along or relating to a line; involving or having a single dimension (- one-dimensional)
+"a linear measurement";
+ 
+3. (electronics) Of a circuit or device in which the value of a data item is represented by a continuously variable physical quantity rather than digitally (- analogue [Brit], analog)
+"linear amplifier";
+ 
+4. (of a leaf shape) long and narrow (- elongate)
+ 
+5. Measured lengthwise (- running)
+"cost of lumber per linear foot";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "linear";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +95,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""In his art he broke the laws of scientific linear perspective.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Students do not always progress in a linear fashion.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""Linear measurements may be given either in imperial or metric units, but area is normally quoted in square metres.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +934,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/d-ZTMi4k4MM?t=4';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/a3gai4Za4eE?t=2556';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/pz_yVthhLTE?t=113';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/HSfxl1KI6y8?t=13';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Unzc731iCUY?t=157';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/0jltioeaEyY?t=943';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +959,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """linear""",
                       // alsoEnglishWord: "also: linear",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪniə(r)/""",
+                      americanText: """IpaUS: /ˈlɪniər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +998,33 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: هێڵی، هێڵ‌ئاسا، دریژی، قۆناخ‌بەقۆناخ، درێژاودرێژ،	یەک‌ڕەهەندی، یەک‌لایی
 """),
 // With short examples define "linear", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە بە هێڵ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """In his art he broke the laws of scientific linear perspective.""",
+                      kurdishText: """لە هونەرەکەیدا یاساکانی دیدی هێڵیی زانستیی شکاند.""",
+                      englishNote: """This means his artwork ignored or defied the rules of creating depth and proportion using straight lines, as established in traditional scientific techniques.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە لە شتێکەوە بۆ یەکێکی دیکە دەچێت بە یەک زنجیرە لە کۆمەڵێک قۆناغدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Students do not always progress in a linear fashion.""",
+                      kurdishText: """خوێندکاران ئەوە نییە هەمیشە بە یەک شێوازی زنجیرەیی بەرەوپێش بچن.""",
+                      englishNote: """This means students' learning and development do not always follow a straightforward or predictable path.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) پەیوەندیدار بە درێژی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Linear measurements may be given either in imperial or metric units, but area is normally quoted in square metres.""",
+                      kurdishText: """پێوانی درێژی ڕەنگە یەکەی ئیمپێریاڵ یان مەتری پێبدرێت، بەڵام ناوچە زۆرجار بە مەتر چوارگۆشەی دەردەبڕدرێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylineup line-up
-WORD_WEB line-up line-up line-up
-haʊʊʊʊʊʊʊ4
+- Noun: line-up
+1. A line of persons arranged by police for inspection or identification (- police lineup, identity parade [Brit], lineup)
+ 
+2. (baseball) a list of batters in the order in which they will bat (- batting order, card, lineup)
+"the managers presented their lineups to the umpire at home plate";
+ 
+3. The schedule of programs for a particular period (- lineup)
+"the network's fall lineup";
+ 
+4. An arranged group of people coming together for a specific purpose, esp. musicians or members of a sports team (- lineup)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "line-up";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +92,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Jones has not been included in the quarter-final line-up.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""A horror movie completes this evening's TV line-up.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/3qB0fwCwvX0?t=360';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/ssj7RIUnjbY?t=267';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/UzIxYdWVbm0?t=1128';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/_bAvu7E-8M4?t=52';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/2MuJdA5q6bc?t=949';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/oVWsbpdDxTg?t=767';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """line-up""",
                       // alsoEnglishWord: "also: line-up",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlaɪn ʌp/""",
+                      americanText: """IpaUS: /ˈlaɪn ʌp/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +998,19 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "line-up", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەو کەسانەی بەژداری لە بۆنەیەکی دیاریکراودا دەکەن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Jones has not been included in the quarter-final line-up.""",
+                      kurdishText: """جۆنز لە پێکهاتەی چارەگی کۆتایی بەژداریی پێنەکراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ناو) ژمارەیەک بۆنە، هتد کە بە دوای یەکدا دێن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: programme"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """A horror movie completes this evening's TV line-up.""",
+                      kurdishText: """فیلمێکی ترسناک تەواوکەری بەرنامەکانی تەلەفزیۆنی ئەم ئێوارەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

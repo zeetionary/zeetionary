@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryliveable liveable
-WORD_WEB liveable liveable liveable
-haʊʊʊʊʊʊʊ4
+- Adjective: liveable
+1. Fit or suitable to live in or with (- livable)
+"liveable conditions";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "liveable";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +85,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The place looks liveable in.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""It’s not the best kind of life, but it’s liveable.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The problem is paying the rent—everything else is liveable with.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/puCh-2-mGUI?t=534';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/9ClOhMeMsxs?t=852';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/JtL_EIb0NYw?t=573';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/sy8l0jkIeQ4?t=169';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Ia77hkc1Ojk?t=102';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/jxNkMkAe7F0?t=128';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """liveable""",
                       // alsoEnglishWord: "also: liveable",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪvəbl/""",
+                      americanText: """IpaUS: /ˈlɪvəbl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +988,33 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ژیان‌لێکراو، لەنیشتەجێ‌هاتوو، جێی‌ژیوار، شیاوی لێ‌مانەوە، لەدانیشتن‌هاتوو، ژیانی لێ‌دەکرێ، بۆ دانیشتن دەبێ، بۆ گیرسانەوە دەبێ، باش یان لەبار (بۆ ژیان)، ژیانی پێ‌دەکرێ
 """),
 // With short examples define "liveable", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە گونجاوە بۆ ژیان"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: habitable"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The place looks liveable in.""",
+                      kurdishText: """شوێنەکە گونجاوە بۆ ژیان تێیدا.""",
+                      englishNote: """This means the place appears suitable and comfortable enough for someone to live in.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە شایەنی ژیانە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: endurable"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It’s not the best kind of life, but it’s liveable.""",
+                      kurdishText: """باشترین ژیان نییە، بەڵام شایستەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە دەکرێت مامەڵەی لەگەڵدا بکرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The problem is paying the rent—everything else is liveable with.""",
+                      kurdishText: """کێشەکە دانی کرێ خانووەکەیە ـ هەموو شتێکی دیکە دەگونجێندرێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

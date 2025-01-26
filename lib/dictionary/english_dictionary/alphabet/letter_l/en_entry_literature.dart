@@ -93,15 +93,14 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""For most people, the desire to study literature begins with a love of reading.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I've read all the available literature on keeping rabbits.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -1000,20 +999,19 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "literature", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) وێژە؛ نووسین کە وەک هونەر دادەنرێت، بە تایبەتی هۆنراوە، پەخشان، یان شانۆ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """For most people, the desire to study literature begins with a love of reading.""",
+                      kurdishText: """بۆ زۆر کەس، حەزی خوێندنەوەی وێژە دەست پێدەکات لەگەڵ خۆشەویستی بۆ خوێندنەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) نووسین یان زانیاری لەسەر بابەتێکی دیاریکراو"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I've read all the available literature on keeping rabbits.""",
+                      kurdishText: """هەموو زانیارییەکم لەسەر بەخێوکردنی کەروێشک خوێندووەتەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

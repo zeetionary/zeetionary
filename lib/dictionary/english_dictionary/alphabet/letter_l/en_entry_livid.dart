@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylivid livid
-WORD_WEB livid livid livid
-haʊʊʊʊʊʊʊ4
+- Adjective: livid
+1. Feeling or showing extreme anger (- irate, ireful, furious, steaming [informal], fuming, seething, hopping mad [informal], apoplectic [informal])
+"wilful stupidity makes him absolutely livid";
+ 
+2. Anaemic looking from illness or emotion (- ashen, blanched, bloodless, white)
+"a face livid with shock"; "lips...livid with the hue of death";
+ 
+3. (of a light) imparting a deathlike luminosity
+"livid lightning streaked the sky"; "a thousand flambeaux...turned all at once that deep gloom into a livid and preternatural day"
+ 
+4. Discoloured by coagulation of blood beneath the skin (- black-and-blue)
+"livid bruises";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "livid";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +94,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Dad will be livid when he finds out.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He was livid that he hadn't been invited.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""He had a long, livid scar across his cheek.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/xpdiwHchwYQ?t=1486';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/PeSTZVFq3YU?t=26';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/4GUliPk7fK0?t=93';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/6V3vY7TW4S8?t=556';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Bj6ulLJGPB8?t=921';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/raSeaAeryWE?t=2479';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """livid""",
                       // alsoEnglishWord: "also: livid",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪvɪd/""",
+                      americanText: """IpaUS: /ˈlɪvɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +997,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شینی ئاماڵ‌بۆر،	ڕق‌هەستاو، ڕەنگ‌پەڕیو، ڕەنگ‌بزرکاو، سپی‌یەوەبوو، ڕق‌هەستاو، لەدین‌دەرچوو، بەردبەباکەر، زۆرتووڕە، سوورەوەبوو
 """),
 // With short examples define "livid", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) تەواو تووڕە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: furious"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Dad will be livid when he finds out.""",
+                      kurdishText: """باوە زۆر تووڕە دەبێت کە بزانێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1012,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was livid that he hadn't been invited.""",
+                      kurdishText: """زۆر تووڕە بوو لەوەی بانگهێشت نەکرابوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) ڕەنگی مۆر یان شینی تاریک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He had a long, livid scar across his cheek.""",
+                      kurdishText: """برینێکی درێژی کەوەی تۆخ بە گۆناییەوە بوو.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

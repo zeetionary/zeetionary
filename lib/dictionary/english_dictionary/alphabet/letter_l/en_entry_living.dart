@@ -52,13 +52,38 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: living
+1. The experience of being alive; the course of human events and activities (- life)
+"he could no longer cope with the complexities of living";
+ 
+2. People who are still living
+"save your pity for the living"
+ 
+3. The condition of living or the state of being alive (- animation, life, aliveness)
+"while there's living there's hope";
+ 
+4. The financial means whereby one lives (- support, keep, livelihood, bread and butter, sustenance)
 
-EnglishEntryliving living
-WORD_WEB living living living
-haʊʊʊʊʊʊʊ4
+- Adjective: living
+1. True to life; lifelike
+"the living image of her mother"
+ 
+2. [informal] Absolute
+"she is a living doll"; "scared the living daylights out of them"; "beat the living hell out of him"
+ 
+3. Still in existence (- surviving)
+"the Wollemi pine found in Australia is a surviving specimen of a conifer thought to have been long extinct and therefore known as a living fossil";
+ 
+4. Still in active use
+"a living language"
+ 
+5. (used of minerals or stone) in its natural state and place; not mined or quarried
+"carved into the living stone"
+ 
+6. Pertaining to living persons
+"within living memory"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "living";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,64 +112,63 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The elephant is the biggest living land animal.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The workers' living quarters were cramped and uncomfortable.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The pyramids are a living monument to the skill of their builders.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""She earns her living as a freelance journalist.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""What do you do for a living?""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""She had to drop out of college to work for a living.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""The aim was to educate children and parents on tooth care and healthy living.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""He has got used to the Western way of living.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak("""On this anniversary of the tragedy we remember the living as well as the dead.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
@@ -927,19 +951,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/EjidrUoHvPs?t=1137';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/XrTDwpLECtA?t=95';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/PqpCeiYycVM?t=417';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/a9CUcy8HgKs?t=675';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/Ov2rndaPlwA?t=600';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/YCnFYvL17v4?t=618';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +976,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """living""",
                       // alsoEnglishWord: "also: living",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɪvɪŋ/""",
+                      americanText: """IpaUS: /ˈlɪvɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,41 +1015,41 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: زیندوو، ژین‌دار،	(ئاو) ڕەوان،	سەخت، ناخۆش، گران، بەهێز، بەقەوەت،	بەکەیف، بەگوڕ، بەدەماخ 
 """),
 // With short examples define "living", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە زیندووە ئێستا"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The elephant is the biggest living land animal.""",
+                      kurdishText: """فیل گەورەترین ئاژەڵی زیندووی وشکانییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە بەکاردێت بۆ ژیان نەک کار"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The workers' living quarters were cramped and uncomfortable.""",
+                      kurdishText: """جێگای ژیانی کرێکارەکان زۆر تەنگ و نائاسوودەیە.""",
+                      englishNote: """This means the spaces where the workers lived were small, overcrowded, and lacked comfort or proper facilities.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە هێشتا ماوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The pyramids are a living monument to the skill of their builders.""",
+                      kurdishText: """هەڕەمەکان گەواهیدەرێکی زیندوون بۆ شارەزایی بنیاتنەرەکانیان.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٤. (ناو) پارە بۆ کڕینی ئەو شتانەی کە دەتەوێت لە ژیاندا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She earns her living as a freelance journalist.""",
+                      kurdishText: """خەرجیی پەیدا دەکات بە کاری وەک ڕۆژنامەنووسێکی سەربەخۆ.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1034,8 +1057,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """What do you do for a living?""",
+                      kurdishText: """چی کارێک دەکات بۆ دەرامەتت؟""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1043,17 +1066,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She had to drop out of college to work for a living.""",
+                      kurdishText: """پێویست بوو واز لە کۆلێژ بهێنێت بۆ کارکردن بۆ بژێویی.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٥. (ناو) شێوازێکی ژیان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The aim was to educate children and parents on tooth care and healthy living.""",
+                      kurdishText: """ئامانجە فێرکردنی منداڵان و دایبابان بوو لەسەر چاودێریی ددان و ژیانی تەندرووست.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1061,17 +1084,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He has got used to the Western way of living.""",
+                      kurdishText: """ڕاهاتووە بە شێوازی ڕۆژئاوایی ژیان.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٦. (ناو) ئەو کەسانەی ئێستا لە ژیانن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """On this anniversary of the tragedy we remember the living as well as the dead.""",
+                      kurdishText: """لەم ساڵیادەی تراژیدیاکەدا زیندووان و مردووان بەیاد دێنینەوە.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),

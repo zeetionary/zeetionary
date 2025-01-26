@@ -52,13 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryloaded loaded
-WORD_WEB loaded loaded loaded
-haʊʊʊʊʊʊʊ4
+- Adjective: loaded
+1. Filled with a great quantity (- laden, ladened)
+"a tray loaded with dishes";
+ 
+2. (of weapons) charged with ammunition
+"a loaded gun"
+ 
+3. (of statements or questions) charged with associative significance and often meant to mislead or influence
+"a loaded question"
+ 
+4. [informal] Having an abundant supply of money or possessions of value (- affluent, flush, moneyed, wealthy, substantial, minted [informal])
+"not merely rich but loaded";
+ 
+5. [N. Amer, informal] Very drunk (- besotted [archaic], blind drunk [informal], blotto [informal], crocked [N. Amer, informal], cockeyed [informal], fuddled [informal], pie-eyed [informal], pissed [Brit, informal], pixilated [informal], plastered [informal], sloshed [informal], smashed [informal], soaked [informal], soused [informal], sozzled [informal], stiff [informal], tight [informal], wet [informal], lit up [slang], trolleyed [Brit, informal], mullered [Brit, informal], legless [Brit, informal], trollied [Brit, informal], bladdered [Brit, informal], screwed [informal], paralytic [Brit], stonkered [Austral, NZ, informal], fried [N. Amer, informal], swacked [N. Amer, informal], stinko [informal], hammered [informal], trashed [informal], pickled [informal], wasted [informal], stewed [informal], liquored up [N. Amer], tanked up [informal], steaming [informal], juiced [N. Amer, informal], out of it [Brit, informal], blitzed [informal], three sheets to the wind [informal], blootered [UK, dialect], bombed [informal], off one's face [Brit, informal], wrecked [Brit, informal], bevvied [Brit, informal], drunk, pixillated, half-seas-over [Brit, informal])
+"I had travelling money and got loaded in the bar downstairs";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "loaded";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,19 +937,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/h4CyhQqAPpk?t=275';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/8HEfIJlcFbs?t=519';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/e09xig209cQ?t=652';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/oMF6pIglmmk?t=1516';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/dtp6b76pMak?t=1285';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/7j5ul4XBjAI?t=547';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +962,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """loaded""",
                       // alsoEnglishWord: "also: loaded",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈləʊdɪd/""",
+                      americanText: """IpaUS: /ˈləʊdɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,7 +1001,7 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بارکراو، بارلێنراو، ئاخنراو، داگیراو، پڕ، تژی،	پارەدار، دەوڵەمەند، پڕسامان،	واتادار، ناودار، مانادار، زیاتر لە یک واتا،	(ئەمریکای باکووری) مەست، کەلەلا
 """),
 // With short examples define "loaded", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),

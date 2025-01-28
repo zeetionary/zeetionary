@@ -190,7 +190,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) وازهێنان لە ک/شت کە چی دیکە ناتەوێت"""),
+                            """٢. (کردار) وازهێنان لە کەسێک/شتێک کە چی دیکە ناتەوێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: discard"),
                     SentencesRow(
                       englishText:

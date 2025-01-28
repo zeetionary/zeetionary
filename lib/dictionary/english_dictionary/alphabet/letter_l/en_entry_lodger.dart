@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylodger lodger
-WORD_WEB lodger lodger lodger
-haʊʊʊʊʊʊʊ4
+- Noun: lodger (Derived forms: lodgers)
+1. A tenant in someone's house (- boarder, roomer [N. Amer])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lodger";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +84,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She’s started taking in lodgers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Many people take in a lodger because they need the income.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/-ajU9Nx8Gh8?t=17';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/lNV_cvdJlxs?t=56';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/cKYQW5KB40U?t=1700';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/k1p5Rz95V4Y?t=582';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/YESHZiUle7U?t=696';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/AKHmC8CmBeU?t=321';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lodger""",
                       // alsoEnglishWord: "also: lodger",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɒdʒə(r)/""",
+                      americanText: """IpaUS: /ˈlɑːdʒər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +990,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lodger", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) کەسێک کە پارە دەدات بۆ ئەوەی لە خانووی کەسێکی دیکەدا بژی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She’s started taking in lodgers.""",
+                      kurdishText: """دەست بەوە دەکات کرێچی وەربگرێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1001,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Many people take in a lodger because they need the income.""",
+                      kurdishText: """زۆر کەس کرێچی وەردەگرن چونکە پێویستییان بە پارەکەی هەیە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

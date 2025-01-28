@@ -265,7 +265,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "importance", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) ئەوەی ک/شت گرنگ بێت"""),
+                        text: """١. (ناو) ئەوەی کەسێک/شتێک گرنگ بێت"""),
                     SentencesRow(
                       englishText:
                           """She stressed the importance of careful preparation.""",

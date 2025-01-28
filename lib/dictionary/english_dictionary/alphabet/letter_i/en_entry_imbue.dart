@@ -166,7 +166,7 @@ ${englishMeaningConst.text}
 // With short examples define "imbue", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) پێدانی هەست، بۆچوون، یان بەهای بەهێز بە ک/شت"""),
+                            """١. (کردار) پێدانی هەست، بۆچوون، یان بەهای بەهێز بە کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """He was imbued with a desire for social justice.""",

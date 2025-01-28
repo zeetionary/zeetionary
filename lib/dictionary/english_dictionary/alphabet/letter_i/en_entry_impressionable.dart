@@ -170,7 +170,7 @@ ${englishMeaningConst.text}
 // With short examples define "impressionable", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە بە ئاسانی کاریگەر دەبێت بە ک/شت"""),
+                            """١. (ھاوەڵناو) کە بە ئاسانی کاریگەر دەبێت بە کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """He is in a highly impressionable state.""",

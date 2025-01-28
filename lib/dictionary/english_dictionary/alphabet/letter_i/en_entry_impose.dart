@@ -232,7 +232,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) زۆرکردن لە ک/شت کە مامەڵە لەگەڵ شتێکی ناخۆش بکات"""),
+                            """٢. (کردار) زۆرکردن لە کەسێک/شتێک کە مامەڵە لەگەڵ شتێکی ناخۆش بکات"""),
                     SentencesRow(
                       englishText:
                           """He described the limitations imposed by his disease.""",
@@ -278,7 +278,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (کردار) واکردنی ئەوەی ک/شت هەست بە ئامادەییت بکات یان بیرۆکەکانت پەسەند بکات"""),
+                            """٥. (کردار) واکردنی ئەوەی کەسێک/شتێک هەست بە ئامادەییت بکات یان بیرۆکەکانت پەسەند بکات"""),
                     SentencesRow(
                       englishText:
                           """European civilization was the first to impose itself across the whole world.""",

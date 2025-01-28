@@ -273,7 +273,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٥. (ناو) بێزار یان ماندوو لە ک/شت"""),
+                        text: """٥. (ناو) بێزار یان ماندوو لە کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """I’m getting jack of his constant complaints.""",

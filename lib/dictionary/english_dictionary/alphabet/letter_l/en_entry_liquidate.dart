@@ -93,14 +93,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He decided to liquidate his investments during the crisis.""");
+    await flutterTts.speak(
+        """He decided to liquidate his investments during the crisis.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The government tried to liquidate the rebel movement and failed.""");
+    await flutterTts.speak(
+        """The government tried to liquidate the rebel movement and failed.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -998,19 +1000,26 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-                    const DefinitionKurdish(text: """١. (کردار) داخستنی بازرگانییەک و فرۆشتنی هەموو شتێکی بۆ دانەوەی قەرزەکانی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) داخستنی بازرگانییەک و فرۆشتنی هەموو شتێکی بۆ دانەوەی قەرزەکانی"""),
                     SentencesRow(
-                      englishText: """He decided to liquidate his investments during the crisis.""",
-                      kurdishText: """لە کاتی قەیرانەکەدا بڕریاری دا وەبەرهێنانەکانی بفرۆشێت.""",
+                      englishText:
+                          """He decided to liquidate his investments during the crisis.""",
+                      kurdishText:
+                          """لە کاتی قەیرانەکەدا بڕریاری دا وەبەرهێنانەکانی بفرۆشێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) لەناوبردنی ک/شت"""),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) لەناوبردنی کەسێک/شتێک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: annihilate"),
                     SentencesRow(
-                      englishText: """The government tried to liquidate the rebel movement and failed.""",
-                      kurdishText: """حکومەت بڕیاری دا بزووتنەوە یاخیبووەکە لەناو ببات.""",
+                      englishText:
+                          """The government tried to liquidate the rebel movement and failed.""",
+                      kurdishText:
+                          """حکومەت بڕیاری دا بزووتنەوە یاخیبووەکە لەناو ببات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

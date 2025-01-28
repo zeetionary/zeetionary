@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryloch loch
-WORD_WEB loch loch loch
-haʊʊʊʊʊʊʊ4
+- Noun: loch (Derived forms: lochs)
+1. A long narrow inlet of the sea in Scotland (especially when it is nearly landlocked)
+ 
+2. Scottish word for a lake
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "loch";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The loch contains salmon.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/i5ZV0Oo_uy8?t=61';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/ucdRXvLYeR0?t=439';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/ymjvXLEjgv8?t=309';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/2CipQ34vg_E?t=225';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/k8ledpBe1FI?t=359';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/5qhW1W1EXUE?t=42';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """loch""",
                       // alsoEnglishWord: "also: loch",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɒk/,  /lɒx/""",
+                      americanText: """IpaUS: /lɑːk/,  /lɑːx/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گۆماو، گۆم، دەریاچە
 """),
 // With short examples define "loch", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) دەریاچە یان دەریایەک کە تا ڕادەیەکی زۆر بە وشکانی دەوردراوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The loch contains salmon.""",
+                      kurdishText: """دەریاچەکە سەلەموونی تێدایە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

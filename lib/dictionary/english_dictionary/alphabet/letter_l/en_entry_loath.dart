@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryloath loath
-WORD_WEB loath loath loath
-haʊʊʊʊʊʊʊ4
+- Adjective: loath
+1. Unwillingness to do something contrary to your custom (- loth, reluctant)
+"loath to admit a mistake";
+ 
+2. (usually followed by 'to') strongly opposed (- antipathetic, antipathetical, averse, indisposed, loth)
+"loath to go on such short notice";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "loath";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He was loath to admit his mistake.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""They were obviously loath to let her leave.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/D8a2SDw5PYo?t=681';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/O6Duf496Ips?t=1001';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/xRhJYOy7Ajk?t=908';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/jD7nRrSH_VE?t=383';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/lPLvkrtqkJ8?t=327';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/yZ8wzG0J6NY?t=806';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """loath""",
                       // alsoEnglishWord: "also: loath",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ləʊθ/""",
+                      americanText: """IpaUS: /ləʊθ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +994,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "loath", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) ئەوەی ئامادە نەبیت کە شتێک بکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was loath to admit his mistake.""",
+                      kurdishText: """نابەدڵ بوو دان بە هەڵەکەیدا بنێت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1005,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They were obviously loath to let her leave.""",
+                      kurdishText: """بە ئاشکرایی دوودڵ بوون لەوەی بهێڵن بچێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

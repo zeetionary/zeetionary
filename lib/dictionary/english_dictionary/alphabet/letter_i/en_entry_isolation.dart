@@ -198,7 +198,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "isolation", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) ئەوەی ک/شت جیابکەیتەوە"""),
+                        text: """١. (ناو) ئەوەی کەسێک/شتێک جیابکەیتەوە"""),
                     SentencesRow(
                       englishText:
                           """The country has been threatened with complete isolation from the international community unless the atrocities stop.""",

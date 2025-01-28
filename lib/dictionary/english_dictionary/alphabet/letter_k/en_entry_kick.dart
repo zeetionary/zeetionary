@@ -327,7 +327,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "kick", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (کردار) لێدان لە ک/شت بە لاقت"""),
+                        text: """١. (کردار) لێدان لە کەسێک/شتێک بە لاقت"""),
                     SentencesRow(
                       englishText: """Stop kicking—it hurts!""",
                       kurdishText: """وازبێنە لە شەق وەشاندن ـ ئازاری هەیە!""",

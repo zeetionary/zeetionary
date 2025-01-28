@@ -161,7 +161,7 @@ ${englishMeaningConst.text}
 // With short examples define "infallibility", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەوەی کە ک/شت هەرگیز هەڵە نییە یان شکست ناهێنێت"""),
+                            """١. (ناو) ئەوەی کە کەسێک/شتێک هەرگیز هەڵە نییە یان شکست ناهێنێت"""),
                     SentencesRow(
                       englishText:
                           """His stubborn belief in his own infallibility kept him from listening to others.""",

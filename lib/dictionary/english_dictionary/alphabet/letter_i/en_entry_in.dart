@@ -600,7 +600,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ئامراز) کە بەشێک یان تەواوی ک/شت پێکدەهێنێت"""),
+                            """٤. (ئامراز) کە بەشێک یان تەواوی کەسێک/شتێک پێکدەهێنێت"""),
                     SentencesRow(
                       englishText: """There are 31 days in May.""",
                       kurdishText: """٣١ ڕۆژ هەیە لە ئایاردا.""",

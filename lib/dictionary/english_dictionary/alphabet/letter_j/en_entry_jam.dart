@@ -397,7 +397,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٦. (کردار) دانانی ک/شت لە شوێنێکی کەم کە شوێنی کەم هەیە بۆ جووڵان"""),
+                            """٦. (کردار) دانانی کەسێک/شتێک لە شوێنێکی کەم کە شوێنی کەم هەیە بۆ جووڵان"""),
                     const AlsoEnglishckb(word: "ھەروەھا: squash، squeeze"),
                     SentencesRow(
                       englishText:

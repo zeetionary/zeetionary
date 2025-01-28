@@ -308,7 +308,7 @@ ${englishMeaningConst.text}
 // With short examples define "impression", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) بیرۆکەیەک، هەستێک، یان بۆچوونێک کە لەسەر ک/شت بۆت دێت، یان ئەو کەسە/شتە پێت دەدات"""),
+                            """١. (ناو) بیرۆکەیەک، هەستێک، یان بۆچوونێک کە لەسەر کەسێک/شتێک بۆت دێت، یان ئەو کەسە/شتە پێت دەدات"""),
                     SentencesRow(
                       englishText:
                           """My first impression of him was favourable.""",
@@ -390,7 +390,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ئەو کاریگەرییەی کە ئەزموونێک یان کەسێک هەیەتی لەسەر ک/شت"""),
+                            """٢. (ناو) ئەو کاریگەرییەی کە ئەزموونێک یان کەسێک هەیەتی لەسەر کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """You'll have to play better than that if you really want to make an impression (= to make people admire you).""",

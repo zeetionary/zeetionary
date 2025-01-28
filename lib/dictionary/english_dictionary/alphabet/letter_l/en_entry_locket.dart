@@ -52,13 +52,10 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylocket locket
-WORD_WEB locket locket locket
-haʊʊʊʊʊʊʊ4
+- Noun: locket (Derived forms: lockets)
+1. A small ornamental case; usually contains a picture or a lock of hair and is worn on a necklace
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "locket";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +84,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The locket held a photo of her parents.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +923,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Lnd6gd_9NMw?t=265';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/runjda4La_4?t=1063';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/b6he-99lyKg?t=597';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/rkkwUItD-fo?t=66';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/CkPNOD2wlp8?t=507';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/sQ0WsP7osAU?t=2001';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +948,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """locket""",
                       // alsoEnglishWord: "also: locket",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɒkɪt/""",
+                      americanText: """IpaUS: /ˈlɑːkɪt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +987,12 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: 	گەردن‌بەند، (وەکوو گەردن‌بەند) قوتو، مل‌بەند
 """),
-// With short examples define "locket", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) پارچە خشڵێک کە لە ملی دەکەیت و شتێکی تێدەخەیت، بۆ نموونە وێنەیەک"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The locket held a photo of her parents.""",
+                      kurdishText: """گەردنبەندەکە وێنەیەکی دایبابیی تێدا بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

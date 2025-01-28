@@ -1,6 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_tts/flutter_tts.dart';
 import 'package:flutter_riverpod/flutter_riverpod.dart';
+import 'package:routemaster/routemaster.dart';
 import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
@@ -52,13 +53,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylobe lobe
-WORD_WEB lobe lobe lobe
-haʊʊʊʊʊʊʊ4
+- Noun: lobe (Derived forms: lobes)
+1. (anatomy) a somewhat rounded subdivision of a bodily organ or part
+"ear lobe"
+ 
+2. (botany) a part into which a leaf is divided
+ 
+3. The enhanced response of an antenna in a given direction as indicated by a loop in its radiation pattern
+ 
+4. A rounded projection that is part of a larger structure
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lobe";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +92,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The frontal lobe of the brain helps control decision-making abilities.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/fLVyv7U0cX0?t=323';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/yJTo3HnV8V0?t=242';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/gjySnrspD7E?t=2705';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/HhSNbKezP64?t=640';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/uT_GcOGEFsk?t=2809';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/wRNYoWFjmEc?t=749';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lobe""",
                       // alsoEnglishWord: "also: lobe",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ləʊb/""",
+                      americanText: """IpaUS: /ləʊb/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +995,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: نەرمەی گوێ، بەلک، شلکەی گوێ، چینچک، چیچیلە،	پل، پەڕە،	بەش، تیکە، لەت، پارچە
 """),
 // With short examples define "lobe", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DividerDefinition(),
+                    CustomRichText(
+                      textBeforeLink: "١. بڕوانە لە ",
+                      linkText: "earlobe",
+                      textAfterLink: "",
+                      onTap: () {
+                        Routemaster.of(context).push("/english-lobe/earlobe");
+                      },
+                    ),
+                    const DefinitionKurdish(text: """٢. (ناو) بەشێکی ئەندامێک لە جەستەدا، بە تایبەتی مێشک یان سینگ"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The frontal lobe of the brain helps control decision-making abilities.""",
+                      kurdishText: """بەشی پێشەوەی مێشک یارمەتی کۆنترۆڵی توانای بڕیاردان دەدات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

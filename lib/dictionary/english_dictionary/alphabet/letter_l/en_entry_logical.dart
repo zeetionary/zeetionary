@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylogical logical
-WORD_WEB logical logical logical
-haʊʊʊʊʊʊʊ4
+- Adjective: logical
+1. Capable of or reflecting the capability for correct and valid reasoning
+"a logical mind"
+ 
+2. Marked by an orderly, logical, and aesthetically consistent relation of parts (- coherent, consistent, ordered)
+"a logical argument";
+ 
+3. Based on known statements, events or conditions (- legitimate)
+"rain was a logical expectation, given the time of year";
+ 
+4. Capable of thinking and expressing yourself in a clear and consistent manner (- coherent, lucid)
+"she was more logical than she had been just after the accident";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "logical";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +94,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It was a logical conclusion from the child's point of view.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Each of them having their own room was the logical solution.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""What 's the next logical step?""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""Computer programming needs someone with a logical mind.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/gWOXSh4-Iuc?t=698';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/54KyOW0naRE?t=788';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/rsaLUIeurZ8?t=175';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/rtAAjKBH9GU?t=732';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ltOkMlHrGPc?t=451';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/3RkhZgRNC1k?t=142';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """logical""",
                       // alsoEnglishWord: "also: logical",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɒdʒɪkl/""",
+                      americanText: """IpaUS: /ˈlɑːdʒɪkl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +997,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: لۆژیکی، بەپێی لۆژیک، لۆژیکانە، ژیربێژی‌یانە
 """),
 // With short examples define "logical", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە سرووشتی، ئاقڵانە و گونجاو دەردەکەوێت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It was a logical conclusion from the child's point of view.""",
+                      kurdishText: """دەرەنجامێکی لۆژیکانە بوو لە دیدی منداڵێکەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1011,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Each of them having their own room was the logical solution.""",
+                      kurdishText: """هەریەکیان ژووری خۆیان هەبێت چارەسەری لۆژیکیانە بوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,17 +1020,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """What 's the next logical step?""",
+                      kurdishText: """هەنگاوی لۆژیکییانەی دواتر چییە؟""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە تێیدا بیرۆکە و ڕاستی پشت بە بیرۆکە و ڕاستی دیکە ببەستن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Computer programming needs someone with a logical mind.""",
+                      kurdishText: """پڕۆگرامسازیی کۆمپیوتەر پێویستیی بە کەسێکە کە مێشکێکی لۆژیکییانەی هەبێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

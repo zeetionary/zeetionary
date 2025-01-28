@@ -96,28 +96,32 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They would resist any limitation of their powers.""");
+    await flutterTts
+        .speak("""They would resist any limitation of their powers.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Don't accept any limitations on how creative you can be.""");
+    await flutterTts
+        .speak("""Don't accept any limitations on how creative you can be.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""There should be no limitations to progress in the talks.""");
+    await flutterTts
+        .speak("""There should be no limitations to progress in the talks.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""This technique is useful but it has its limitations.""");
+    await flutterTts
+        .speak("""This technique is useful but it has its limitations.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -1002,20 +1006,28 @@ ${englishMeaningConst.text}
 کوردی: دیاری‌کراوی، سنوورداری، بەرتەسکی، بەرتەنگی، کەماندن، سنووردارکردن، بەرتەنگ‌کردنەوە، دیاری‌کردن، کۆت‌وبەند، مەرج،	لەدەس‌نەهاتن، لاوازی، نەبوونی توانایی (لەبەر ئەوە دەزانێ چ لە دەسی دێ یان نا)
 """),
 // With short examples define "limitation", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) کۆنترۆڵ کردن یان سنووردارکردنی ک/شت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کۆنترۆڵ کردن یان سنووردارکردنی کەسێک/شتێک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: restriction"),
                     SentencesRow(
-                      englishText: """They would resist any limitation of their powers.""",
-                      kurdishText: """دژ بە هەر سنووردارکردنێکی دەسەڵاتیان دەوەستنەوە.""",
+                      englishText:
+                          """They would resist any limitation of their powers.""",
+                      kurdishText:
+                          """دژ بە هەر سنووردارکردنێکی دەسەڵاتیان دەوەستنەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) یاسایەک، ڕاستییەک، یان دۆخێک کە شتێک سنووردار دەکات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) یاسایەک، ڕاستییەک، یان دۆخێک کە شتێک سنووردار دەکات"""),
                     const AlsoEnglishckb(word: "ھەروەھا: curb، restraint"),
                     SentencesRow(
-                      englishText: """Don't accept any limitations on how creative you can be.""",
-                      kurdishText: """هیچ دۆخێک سنووردارکردنێک پەسەند مەکە لەسەر ئەوەی چەندە دەکرێت داهێنەر بیت.""",
+                      englishText:
+                          """Don't accept any limitations on how creative you can be.""",
+                      kurdishText:
+                          """هیچ دۆخێک سنووردارکردنێک پەسەند مەکە لەسەر ئەوەی چەندە دەکرێت داهێنەر بیت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1023,17 +1035,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """There should be no limitations to progress in the talks.""",
-                      kurdishText: """نابێت هیچ سنووردارکردنێکی بەرەوپێشچوون لە گفتووگۆکاندا هەبێت.""",
+                      englishText:
+                          """There should be no limitations to progress in the talks.""",
+                      kurdishText:
+                          """نابێت هیچ سنووردارکردنێکی بەرەوپێشچوون لە گفتووگۆکاندا هەبێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ناو) سنوورێک لەسەر ئەوەی ک/شت دەتوانێت چی بکات یان دەتوانیت چەندە باش بێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) سنوورێک لەسەر ئەوەی کەسێک/شتێک دەتوانێت چی بکات یان دەتوانیت چەندە باش بێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """This technique is useful but it has its limitations.""",
-                      kurdishText: """ئەم تەکنیکە بەسوودە بەڵام سنووری خۆی هەیە.""",
+                      englishText:
+                          """This technique is useful but it has its limitations.""",
+                      kurdishText:
+                          """ئەم تەکنیکە بەسوودە بەڵام سنووری خۆی هەیە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

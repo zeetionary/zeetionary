@@ -179,7 +179,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ھاوەڵناو) کەسێک کە ئامادە نییە بوەستێت لە دژایەتی ک/شت"""),
+                            """٢. (ھاوەڵناو) کەسێک کە ئامادە نییە بوەستێت لە دژایەتی کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """She faced an implacable enemy in the debate.""",

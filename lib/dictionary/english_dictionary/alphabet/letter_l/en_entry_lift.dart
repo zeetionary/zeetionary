@@ -198,7 +198,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He stood there with his arms lifted above his head.""");
+    await flutterTts
+        .speak("""He stood there with his arms lifted above his head.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -226,28 +227,32 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The survivors were lifted to safety by helicopter.""");
+    await flutterTts
+        .speak("""The survivors were lifted to safety by helicopter.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The best way to lift nations out of poverty is through trade.""");
+    await flutterTts.speak(
+        """The best way to lift nations out of poverty is through trade.""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The government decided to lift the ban on arms exports.""");
+    await flutterTts
+        .speak("""The government decided to lift the ban on arms exports.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The US remained opposed to lifting the embargo.""");
+    await flutterTts
+        .speak("""The US remained opposed to lifting the embargo.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
@@ -282,14 +287,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He had been lifting electrical goods from the store where he worked.""");
+    await flutterTts.speak(
+        """He had been lifting electrical goods from the store where he worked.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She lifted most of the ideas from a book she had been reading.""");
+    await flutterTts.speak(
+        """She lifted most of the ideas from a book she had been reading.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
@@ -345,7 +352,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""When lifting heavy objects, keep your back straight, bend at the knees and power the lift with your legs.""");
+    await flutterTts.speak(
+        """When lifting heavy objects, keep your back straight, bend at the knees and power the lift with your legs.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
@@ -1085,8 +1093,10 @@ ${englishMeaningConst.text}
 // With short examples define "lift", please follow LX instructions
                     const DefinitionKurdish(text: """١. (کردار) بەرزکردنەوە"""),
                     SentencesRow(
-                      englishText: """I lifted the lid of the box and peered in.""",
-                      kurdishText: """سەری سندووقەکەم بەرزکردەوە و سەیری ناوەوەم کرد.""",
+                      englishText:
+                          """I lifted the lid of the box and peered in.""",
+                      kurdishText:
+                          """سەری سندووقەکەم بەرزکردەوە و سەیری ناوەوەم کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1103,7 +1113,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He lifted the toddler up and cuddled her.""",
+                      englishText:
+                          """He lifted the toddler up and cuddled her.""",
                       kurdishText: """منداڵەکەی بەرز کردەوە و لە باوەشی گرت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
@@ -1112,13 +1123,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He stood there with his arms lifted above his head.""",
-                      kurdishText: """لەوێ وەستا بەوەی بەوەی دەستی لەسەر سەری بەرزکردبوو.""",
+                      englishText:
+                          """He stood there with his arms lifted above his head.""",
+                      kurdishText:
+                          """لەوێ وەستا بەوەی بەوەی دەستی لەسەر سەری بەرزکردبوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) بەرزکردنەوە و گواستنەوە بۆ جێگایەکی دیکە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) بەرزکردنەوە و گواستنەوە بۆ جێگایەکی دیکە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I lifted the baby out of the chair.""",
@@ -1131,7 +1146,8 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Carefully lift the cake off the tray.""",
-                      kurdishText: """بە وریاییەوە کێکەکە لەسەر سینییەکە بەرزبکەوە.""",
+                      kurdishText:
+                          """بە وریاییەوە کێکەکە لەسەر سینییەکە بەرزبکەوە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1140,34 +1156,47 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She lifted the child over the fence.""",
-                      kurdishText: """منداڵەکەی بەسەر پەرژینەکەدا بەرزکردەوە.""",
+                      kurdishText:
+                          """منداڵەکەی بەسەر پەرژینەکەدا بەرزکردەوە.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (کردار) گواستنەوەی خەڵکی یان شت بە ئاسماندا"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (کردار) گواستنەوەی خەڵکی یان شت بە ئاسماندا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The survivors were lifted to safety by helicopter.""",
-                      kurdishText: """ڕزگاربووان بە هەلیکۆپتەر بۆ سەلامەتی گواسترانەوە.""",
+                      englishText:
+                          """The survivors were lifted to safety by helicopter.""",
+                      kurdishText:
+                          """ڕزگاربووان بە هەلیکۆپتەر بۆ سەلامەتی گواسترانەوە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (کردار) پێدانی توانا بە ک/شت کە لە سەختی هەڵبێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (کردار) پێدانی توانا بە کەسێک/شتێک کە لە سەختی هەڵبێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The best way to lift nations out of poverty is through trade.""",
-                      kurdishText: """باشترین ڕێگا بۆ دەرکردنی وڵاتان لە هەژاری لە ڕێگای بازرگانییە.""",
+                      englishText:
+                          """The best way to lift nations out of poverty is through trade.""",
+                      kurdishText:
+                          """باشترین ڕێگا بۆ دەرکردنی وڵاتان لە هەژاری لە ڕێگای بازرگانییە.""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (کردار) نەهێشتن یان کۆتایی هێنان بە کۆنترۆڵ یان سنووردارکردنی شتێک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (کردار) نەهێشتن یان کۆتایی هێنان بە کۆنترۆڵ یان سنووردارکردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The government decided to lift the ban on arms exports.""",
-                      kurdishText: """حکومەت بڕیاری دا قەدەغەی سەر هەناردەی چەک لابدات.""",
+                      englishText:
+                          """The government decided to lift the ban on arms exports.""",
+                      kurdishText:
+                          """حکومەت بڕیاری دا قەدەغەی سەر هەناردەی چەک لابدات.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -1175,8 +1204,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The US remained opposed to lifting the embargo.""",
-                      kurdishText: """ئەمریکا دژ بە هەڵپەساردنی ئابڵووقە مایەوە.""",
+                      englishText:
+                          """The US remained opposed to lifting the embargo.""",
+                      kurdishText:
+                          """ئەمریکا دژ بە هەڵپەساردنی ئابڵووقە مایەوە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -1190,7 +1221,8 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (کردار) دڵخۆشبوون یان دڵخۆشکردن"""),
+                    const DefinitionKurdish(
+                        text: """٦. (کردار) دڵخۆشبوون یان دڵخۆشکردن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """His heart lifted at the sight of her.""",
@@ -1208,7 +1240,8 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (کردار) بەرزبوونەوە و نەمان"""),
+                    const DefinitionKurdish(
+                        text: """٧. (کردار) بەرزبوونەوە و نەمان"""),
                     const AlsoEnglishckb(word: "ھەروەھا: disperse"),
                     SentencesRow(
                       englishText: """The fog began to lift.""",
@@ -1220,26 +1253,35 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """٨. (کردار) دزین"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He had been lifting electrical goods from the store where he worked.""",
-                      kurdishText: """کەلوپەلی کارەبایی دزیوە لەو شوێنەی کە کاری دەکرد.""",
+                      englishText:
+                          """He had been lifting electrical goods from the store where he worked.""",
+                      kurdishText:
+                          """کەلوپەلی کارەبایی دزیوە لەو شوێنەی کە کاری دەکرد.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٩. (کردار) بردنی قسە و بیرۆکەی کەسێک"""),
+                    const DefinitionKurdish(
+                        text: """٩. (کردار) بردنی قسە و بیرۆکەی کەسێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She lifted most of the ideas from a book she had been reading.""",
-                      kurdishText: """زۆرینەی بیرۆکەکانی لە پەرتووکێکەوە برد کە دەیخوێندەوە.""",
+                      englishText:
+                          """She lifted most of the ideas from a book she had been reading.""",
+                      kurdishText:
+                          """زۆرینەی بیرۆکەکانی لە پەرتووکێکەوە برد کە دەیخوێندەوە.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٠. (ناو) ئامێرێک کە خەڵک بۆ نهۆمەکانی بینایەک دەگوازێتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٠. (ناو) ئامێرێک کە خەڵک بۆ نهۆمەکانی بینایەک دەگوازێتەوە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: elevator"),
                     SentencesRow(
-                      englishText: """It's on the sixth floor—let's take the lift.""",
-                      kurdishText: """لە نهۆمی شەشەمە ـ با بە بەرزکەرەوەکە بچین.""",
+                      englishText:
+                          """It's on the sixth floor—let's take the lift.""",
+                      kurdishText:
+                          """لە نهۆمی شەشەمە ـ با بە بەرزکەرەوەکە بچین.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -1253,7 +1295,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١١. (ناو) گەیاندنێکی بێ‌بەرامبەر بە ئۆتۆمبێل بۆ ئەو شوێنەی دەتەوێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١١. (ناو) گەیاندنێکی بێ‌بەرامبەر بە ئۆتۆمبێل بۆ ئەو شوێنەی دەتەوێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: ride"),
                     SentencesRow(
                       englishText: """I'm going your way—do you want a lift?""",
@@ -1280,29 +1324,37 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٢. (ناو) هەستی دڵخۆش بوون یان هەبوونی باوەڕی زیاتر"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٢. (ناو) هەستی دڵخۆش بوون یان هەبوونی باوەڕی زیاتر"""),
                     const AlsoEnglishckb(word: "ھەروەھا: boost"),
                     SentencesRow(
                       englishText: """Passing the exam gave him a real lift.""",
-                      kurdishText: """دەرچوون لە تاقیکردنەوەکە دڵخۆشییەکی تەواوی پێدا.""",
+                      kurdishText:
+                          """دەرچوون لە تاقیکردنەوەکە دڵخۆشییەکی تەواوی پێدا.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٣. (ناو) بەرزبوونەوە یان بەرزکردنەوە"""),
+                    const DefinitionKurdish(
+                        text: """١٣. (ناو) بەرزبوونەوە یان بەرزکردنەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He looked at me with a lift of his eyebrows.""",
+                      englishText:
+                          """He looked at me with a lift of his eyebrows.""",
                       kurdishText: """لێمی ڕوانی بە بەرزکردنەوەی برۆیەکانی.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٤. (ناو) بەرزکردنەوەی ک/شت"""),
+                    const DefinitionKurdish(
+                        text: """١٤. (ناو) بەرزکردنەوەی کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """When lifting heavy objects, keep your back straight, bend at the knees and power the lift with your legs.""",
-                      kurdishText: """کە شتی قورس بەرز دەکەیتەوە، پشتت بە ڕاستی ڕابگرە، لە لاقدا بچەمێوە و هێز بدە بە بەرزکردنەوەکە بە لاقەکانت.""",
+                      englishText:
+                          """When lifting heavy objects, keep your back straight, bend at the knees and power the lift with your legs.""",
+                      kurdishText:
+                          """کە شتی قورس بەرز دەکەیتەوە، پشتت بە ڕاستی ڕابگرە، لە لاقدا بچەمێوە و هێز بدە بە بەرزکردنەوەکە بە لاقەکانت.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),

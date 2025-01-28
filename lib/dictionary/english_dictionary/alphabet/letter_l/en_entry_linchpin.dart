@@ -87,7 +87,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Nurses are the linchpin of the health service.""");
+    await flutterTts
+        .speak("""Nurses are the linchpin of the health service.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -993,10 +994,14 @@ ${englishMeaningConst.text}
 کوردی: بزماری تەوەر، سنگی پێچکە،	گرنگ‌ترین بەش، مۆرەی سەرەکی
 """),
 // With short examples define "linchpin", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ک/شت کە گرنگترین بەشی دامەزراوەیەک، پلانێک، هتدە بەهۆی ئەوەی هەموو شتێکی دیکە پشتی پێ دەبەستێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک/شتێک کە گرنگترین بەشی دامەزراوەیەک، پلانێک، هتدە بەهۆی ئەوەی هەموو شتێکی دیکە پشتی پێ دەبەستێت"""),
                     SentencesRow(
-                      englishText: """Nurses are the linchpin of the health service.""",
-                      kurdishText: """پەرستاران کۆڵەکەی خزمەتگوزاریی تەندرووستین.""",
+                      englishText:
+                          """Nurses are the linchpin of the health service.""",
+                      kurdishText:
+                          """پەرستاران کۆڵەکەی خزمەتگوزاریی تەندرووستین.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

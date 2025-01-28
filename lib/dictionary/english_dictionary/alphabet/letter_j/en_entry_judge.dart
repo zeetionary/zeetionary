@@ -434,7 +434,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) کەسێک کە شارەزایی و زانیاریی پێویستی هەیە بۆ پێدانی بۆچوونی لەسەر بەها و کوالێتی ک/شت"""),
+                            """٣. (ناو) کەسێک کە شارەزایی و زانیاریی پێویستی هەیە بۆ پێدانی بۆچوونی لەسەر بەها و کوالێتی کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He was a shrewd judge of people.""",
@@ -463,7 +463,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (کردار) پێدانی بۆچوونت لەسەر ک/شت بەو زانیارییەی کە هەتە"""),
+                            """٤. (کردار) پێدانی بۆچوونت لەسەر کەسێک/شتێک بەو زانیارییەی کە هەتە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

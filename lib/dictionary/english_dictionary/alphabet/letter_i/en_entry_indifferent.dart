@@ -209,7 +209,8 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "indifferent", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ھاوەڵناو) کە هیچ گرنگی نادەیت بە ک/شت"""),
+                        text:
+                            """١. (ھاوەڵناو) کە هیچ گرنگی نادەیت بە کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """The government cannot afford to be indifferent to public opinion.""",

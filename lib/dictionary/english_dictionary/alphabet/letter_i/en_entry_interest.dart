@@ -418,7 +418,7 @@ ${englishMeaningConst.text}
 // With short examples define "interest", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەو هەستەی کە هەتە کاتێک دەتەوێت بزانیت یان فێر ببیت لەسەر ک/شت"""),
+                            """١. (ناو) ئەو هەستەی کە هەتە کاتێک دەتەوێت بزانیت یان فێر ببیت لەسەر کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """Her research has generated interest around the world.""",
@@ -585,7 +585,8 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٥. (ناو) ئەنجامی باش یان سوودێک بۆ ک/شت"""),
+                        text:
+                            """٥. (ناو) ئەنجامی باش یان سوودێک بۆ کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """The union is working to protect the interests of its members.""",

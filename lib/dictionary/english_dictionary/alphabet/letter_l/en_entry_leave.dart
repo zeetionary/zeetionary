@@ -183,7 +183,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The whole family was forced to leave the country.""");
+    await flutterTts
+        .speak("""The whole family was forced to leave the country.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -239,14 +240,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Many of her relatives had left Ireland for America.""");
+    await flutterTts
+        .speak("""Many of her relatives had left Ireland for America.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was afraid you'd leave if you knew the truth.""");
+    await flutterTts
+        .speak("""I was afraid you'd leave if you knew the truth.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
@@ -309,7 +312,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""His help left her free to focus on her research.""");
+    await flutterTts
+        .speak("""His help left her free to focus on her research.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
@@ -344,7 +348,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He's spent all the money—there's nothing left.""");
+    await flutterTts
+        .speak("""He's spent all the money—there's nothing left.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
@@ -379,7 +384,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They've left a space here where you can put your name.""");
+    await flutterTts
+        .speak("""They've left a space here where you can put your name.""");
   }
 
   Future<void> speaksentence37(String languageCode) async {
@@ -400,14 +406,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Lots of people had left comments under the post.""");
+    await flutterTts
+        .speak("""Lots of people had left comments under the post.""");
   }
 
   Future<void> speaksentence40(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Someone called, but they didn't leave a message.""");
+    await flutterTts
+        .speak("""Someone called, but they didn't leave a message.""");
   }
 
   Future<void> speaksentence41(String languageCode) async {
@@ -428,7 +436,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Why do you always leave everything until the last moment?""");
+    await flutterTts
+        .speak("""Why do you always leave everything until the last moment?""");
   }
 
   Future<void> speaksentence44(String languageCode) async {
@@ -442,14 +451,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm going to leave this now and finish it tomorrow morning.""");
+    await flutterTts.speak(
+        """I'm going to leave this now and finish it tomorrow morning.""");
   }
 
   Future<void> speaksentence46(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""If you find a question difficult, leave it and come back to it.""");
+    await flutterTts.speak(
+        """If you find a question difficult, leave it and come back to it.""");
   }
 
   Future<void> speaksentence47(String languageCode) async {
@@ -470,7 +481,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I leave it to you to decide what order to do things in.""");
+    await flutterTts
+        .speak("""I leave it to you to decide what order to do things in.""");
   }
 
   Future<void> speaksentence50(String languageCode) async {
@@ -505,7 +517,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He left over ten million dollars when he died.""");
+    await flutterTts
+        .speak("""He left over ten million dollars when he died.""");
   }
 
   Future<void> speaksentence55(String languageCode) async {
@@ -561,14 +574,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I'm saving all my leave to have a long holiday later in the year.""");
+    await flutterTts.speak(
+        """I'm saving all my leave to have a long holiday later in the year.""");
   }
 
   Future<void> speaksentence63(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The court granted him leave to appeal against the sentence.""");
+    await flutterTts.speak(
+        """The court granted him leave to appeal against the sentence.""");
   }
 
   Future<void> speaksentence64(String languageCode) async {
@@ -582,14 +597,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She asked for leave of absence to attend a funeral.""");
+    await flutterTts
+        .speak("""She asked for leave of absence to attend a funeral.""");
   }
 
   Future<void> speaksentence66(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He applied for leave to remain in the United Kingdom.""");
+    await flutterTts
+        .speak("""He applied for leave to remain in the United Kingdom.""");
   }
 
   Future<void> speaksentence67(String languageCode) async {
@@ -1046,94 +1063,119 @@ ${englishMeaningConst.text}
                       kurdishText: """چوو بەبێ خوداحافیزی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
-                    ),Column(
-                    children: [
-                    MyExpansionTile(
-                    children: [
-                    SentencesRow(
-                      englishText: """Come on, it's time we left (= time for us to leave).""",
-                      kurdishText: """یەڵا، کاتی ئەوەیە چووباین.""",
-                      onPressedBritish: () => speaksentence2("en-GB"),
-                      onPressedAmerican: () => speaksentence2("en-US"),
+                    ),
+                    Column(
+                      children: [
+                        MyExpansionTile(
+                          children: [
+                            SentencesRow(
+                              englishText:
+                                  """Come on, it's time we left (= time for us to leave).""",
+                              kurdishText: """یەڵا، کاتی ئەوەیە چووباین.""",
+                              onPressedBritish: () => speaksentence2("en-GB"),
+                              onPressedAmerican: () => speaksentence2("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The plane leaves for Dallas at 12.35.""",
+                              kurdishText:
+                                  """فڕۆکەکە لە ١٢:٣٥ بەرەو دالاس دەردەچێت.""",
+                              onPressedBritish: () => speaksentence3("en-GB"),
+                              onPressedAmerican: () => speaksentence3("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """What time do you have to leave for work?""",
+                              kurdishText: """چی کاتێک دەبێت بۆ کار بچیت؟""",
+                              onPressedBritish: () => speaksentence4("en-GB"),
+                              onPressedAmerican: () => speaksentence4("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText: """I hate leaving home.""",
+                              kurdishText: """ڕقم لە جێهێشتنی ماڵەوەیە.""",
+                              onPressedBritish: () => speaksentence5("en-GB"),
+                              onPressedAmerican: () => speaksentence5("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The plane leaves Heathrow at 12.35.""",
+                              kurdishText:
+                                  """فڕۆکەکە لە ١٢:٣٥ هێسرۆ جێدەهێڵێت.""",
+                              onPressedBritish: () => speaksentence6("en-GB"),
+                              onPressedAmerican: () => speaksentence6("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """She left the house around 8 this morning.""",
+                              kurdishText:
+                                  """نزیکەی هەشتی ئەم بەیانییە ماڵەوەی جێهێشت.""",
+                              onPressedBritish: () => speaksentence7("en-GB"),
+                              onPressedAmerican: () => speaksentence7("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """The whole family was forced to leave the country.""",
+                              kurdishText:
+                                  """تەواوی خێزانەکە ناچارکران وڵاتەکە جێبهێڵن.""",
+                              onPressedBritish: () => speaksentence8("en-GB"),
+                              onPressedAmerican: () => speaksentence8("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """You want Chris? Sorry, he's just left.""",
+                              kurdishText:
+                                  """کریست دەوێت؟ ببوورە، کەمێک پێش ئێستا چوو.""",
+                              onPressedBritish: () => speaksentence9("en-GB"),
+                              onPressedAmerican: () => speaksentence9("en-US"),
+                            ),
+                            const DividerDefinition(),
+                            const DefinitionKurdish(
+                                text: """ژممر. (ناو) پننسە"""),
+                            const DividerSentences(),
+                            SentencesRow(
+                              englishText:
+                                  """I wanted to leave but they wouldn't let me.""",
+                              kurdishText:
+                                  """دەمویست بچم بەڵام ڕێگایان پێم نەدەدا.""",
+                              onPressedBritish: () => speaksentence10("en-GB"),
+                              onPressedAmerican: () => speaksentence10("en-US"),
+                            ),
+                          ],
+                        ),
+                      ],
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The plane leaves for Dallas at 12.35.""",
-                      kurdishText: """فڕۆکەکە لە ١٢:٣٥ بەرەو دالاس دەردەچێت.""",
-                      onPressedBritish: () => speaksentence3("en-GB"),
-                      onPressedAmerican: () => speaksentence3("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """What time do you have to leave for work?""",
-                      kurdishText: """چی کاتێک دەبێت بۆ کار بچیت؟""",
-                      onPressedBritish: () => speaksentence4("en-GB"),
-                      onPressedAmerican: () => speaksentence4("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """I hate leaving home.""",
-                      kurdishText: """ڕقم لە جێهێشتنی ماڵەوەیە.""",
-                      onPressedBritish: () => speaksentence5("en-GB"),
-                      onPressedAmerican: () => speaksentence5("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The plane leaves Heathrow at 12.35.""",
-                      kurdishText: """فڕۆکەکە لە ١٢:٣٥ هێسرۆ جێدەهێڵێت.""",
-                      onPressedBritish: () => speaksentence6("en-GB"),
-                      onPressedAmerican: () => speaksentence6("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """She left the house around 8 this morning.""",
-                      kurdishText: """نزیکەی هەشتی ئەم بەیانییە ماڵەوەی جێهێشت.""",
-                      onPressedBritish: () => speaksentence7("en-GB"),
-                      onPressedAmerican: () => speaksentence7("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """The whole family was forced to leave the country.""",
-                      kurdishText: """تەواوی خێزانەکە ناچارکران وڵاتەکە جێبهێڵن.""",
-                      onPressedBritish: () => speaksentence8("en-GB"),
-                      onPressedAmerican: () => speaksentence8("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """You want Chris? Sorry, he's just left.""",
-                      kurdishText: """کریست دەوێت؟ ببوورە، کەمێک پێش ئێستا چوو.""",
-                      onPressedBritish: () => speaksentence9("en-GB"),
-                      onPressedAmerican: () => speaksentence9("en-US"),
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
-                    const DividerSentences(),
-                    SentencesRow(
-                      englishText: """I wanted to leave but they wouldn't let me.""",
-                      kurdishText: """دەمویست بچم بەڵام ڕێگایان پێم نەدەدا.""",
-                      onPressedBritish: () => speaksentence10("en-GB"),
-                      onPressedAmerican: () => speaksentence10("en-US"),
-                    ),
-                    ],
-                    ),
-                    ],
-                    ),
-                    const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) ئەوەی چی دیکە لە شوێنێک نەژیت، سەر بە گرووپێک نەبیت، بۆ کەسێک کارنەکەیت، هتد"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) ئەوەی چی دیکە لە شوێنێک نەژیت، سەر بە گرووپێک نەبیت، بۆ کەسێک کارنەکەیت، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """My assistant is threatening to leave.""",
@@ -1164,7 +1206,8 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The Mayor left office in 2018.""",
-                      kurdishText: """سەرۆک شارەوانییەکە ٢٠١٨ ئەرکەکەی جێهێشت.""",
+                      kurdishText:
+                          """سەرۆک شارەوانییەکە ٢٠١٨ ئەرکەکەی جێهێشت.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
@@ -1181,17 +1224,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Many of her relatives had left Ireland for America.""",
-                      kurdishText: """زۆرێک لە خزمەکانی ئێرلەندایان بۆ ئەمریکا جێهێشت بوو.""",
+                      englishText:
+                          """Many of her relatives had left Ireland for America.""",
+                      kurdishText:
+                          """زۆرێک لە خزمەکانی ئێرلەندایان بۆ ئەمریکا جێهێشت بوو.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (کردار) ئەوەی بۆ هەمیشەیی هاوسەرەکەت یان ژنەکەت جێبهێڵیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (کردار) ئەوەی بۆ هەمیشەیی هاوسەرەکەت یان ژنەکەت جێبهێڵیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I was afraid you'd leave if you knew the truth.""",
-                      kurdishText: """بەداخەوەم کە ئەگەر ڕاستییەکە بزانیت دەچیت.""",
+                      englishText:
+                          """I was afraid you'd leave if you knew the truth.""",
+                      kurdishText:
+                          """بەداخەوەم کە ئەگەر ڕاستییەکە بزانیت دەچیت.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -1217,16 +1266,20 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He's been depressed since his wife left.""",
+                      englishText:
+                          """He's been depressed since his wife left.""",
                       kurdishText: """بێزارە لەوەی ژنەکەی جێیهێشتووە.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (کردار) ڕۆشتن لە شوێنێک بەبێ بردنی ک/شت لەگەڵ خۆت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٤. (کردار) ڕۆشتن لە شوێنێک بەبێ بردنی کەسێک/شتێک لەگەڵ خۆت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'll have to go back—I've left my jacket.""",
+                      englishText:
+                          """I'll have to go back—I've left my jacket.""",
                       kurdishText: """دەبێت بچمەوە ـ چاکەتەکەمم جێهێشتووە.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
@@ -1250,10 +1303,13 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (کردار) ئەوەی وابکەیت یان ڕێگا بدەیت ک/شت لە دۆخ، شوێن، هتد ــی دیاریکراو بمێنێتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (کردار) ئەوەی وابکەیت یان ڕێگا بدەیت کەسێک/شتێک لە دۆخ، شوێن، هتد ــی دیاریکراو بمێنێتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Don't leave any of your belongings behind.""",
+                      englishText:
+                          """Don't leave any of your belongings behind.""",
                       kurdishText: """تکایە دەرگاکە بە کراوەیی بهێڵەوە.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
@@ -1271,8 +1327,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """His help left her free to focus on her research.""",
-                      kurdishText: """یارمەتییەکەی دەستی واڵا کرد لەوەی سەرنج بخاتە سەر توێژینەوەکەی.""",
+                      englishText:
+                          """His help left her free to focus on her research.""",
+                      kurdishText:
+                          """یارمەتییەکەی دەستی واڵا کرد لەوەی سەرنج بخاتە سەر توێژینەوەکەی.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
@@ -1280,8 +1338,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We were left feeling rather disappointed.""",
-                      kurdishText: """وامان لێکرا کەمێک هەست بە هیوابڕاوی بکەین.""",
+                      englishText:
+                          """We were left feeling rather disappointed.""",
+                      kurdishText:
+                          """وامان لێکرا کەمێک هەست بە هیوابڕاوی بکەین.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
@@ -1304,7 +1364,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence29("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (کردار) ئەوەی بەجێبهێڵدرێت بەکاربێت، بفرۆشرێت، هتد"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (کردار) ئەوەی بەجێبهێڵدرێت بەکاربێت، بفرۆشرێت، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Is there any coffee left?""",
@@ -1316,8 +1378,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He's spent all the money—there's nothing left.""",
-                      kurdishText: """تەواوی پارەکەی خەرج کردووە ـ هیچ نەماوە.""",
+                      englishText:
+                          """He's spent all the money—there's nothing left.""",
+                      kurdishText:
+                          """تەواوی پارەکەی خەرج کردووە ـ هیچ نەماوە.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
@@ -1349,11 +1413,14 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (کردار) وابکەیت شتێک ڕووبدات یان لە ئەنجامدا بمێنێتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٧. (کردار) وابکەیت شتێک ڕووبدات یان لە ئەنجامدا بمێنێتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The Romans left their mark on Britain.""",
-                      kurdishText: """ڕۆمەکان جێدەستیان جێهێشت لەسەر بەریتانیا.""",
+                      kurdishText:
+                          """ڕۆمەکان جێدەستیان جێهێشت لەسەر بەریتانیا.""",
                       onPressedBritish: () => speaksentence35("en-GB"),
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
@@ -1361,8 +1428,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They've left a space here where you can put your name.""",
-                      kurdishText: """لێرە بۆشاییەکیان جێهێشتووە کە دەتوانیت ناوی خۆت زیاد بکەیت.""",
+                      englishText:
+                          """They've left a space here where you can put your name.""",
+                      kurdishText:
+                          """لێرە بۆشاییەکیان جێهێشتووە کە دەتوانیت ناوی خۆت زیاد بکەیت.""",
                       onPressedBritish: () => speaksentence36("en-GB"),
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
@@ -1371,7 +1440,8 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I'm afraid you leave me no choice.""",
-                      kurdishText: """بەداخەوەم کە هیچ بژاردەیەکم بۆ ناهێڵیتەوە.""",
+                      kurdishText:
+                          """بەداخەوەم کە هیچ بژاردەیەکم بۆ ناهێڵیتەوە.""",
                       onPressedBritish: () => speaksentence37("en-GB"),
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
@@ -1379,17 +1449,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He disappeared without leaving a trace.""",
-                      kurdishText: """ونبوو بەبێ ئەوەی هیچ شوێن‌پێیەک جێبهێڵێت.""",
+                      englishText:
+                          """He disappeared without leaving a trace.""",
+                      kurdishText:
+                          """ونبوو بەبێ ئەوەی هیچ شوێن‌پێیەک جێبهێڵێت.""",
                       onPressedBritish: () => speaksentence38("en-GB"),
                       onPressedAmerican: () => speaksentence38("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٨. (کردار) گەیاندن، نووسین، یان تۆمارکردنی شتێک بۆ ئەوەی دواتر ببیندرێت یان ببیسترێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٨. (کردار) گەیاندن، نووسین، یان تۆمارکردنی شتێک بۆ ئەوەی دواتر ببیندرێت یان ببیسترێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Lots of people had left comments under the post.""",
-                      kurdishText: """زۆر کەس تێچنیان نووسیبوو لەسەر پۆستەکە.""",
+                      englishText:
+                          """Lots of people had left comments under the post.""",
+                      kurdishText:
+                          """زۆر کەس تێچنیان نووسیبوو لەسەر پۆستەکە.""",
                       onPressedBritish: () => speaksentence39("en-GB"),
                       onPressedAmerican: () => speaksentence39("en-US"),
                     ),
@@ -1397,8 +1473,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Someone called, but they didn't leave a message.""",
-                      kurdishText: """کەسێک پەیوەندیی کرد، بەڵام نامەی جێنەهێشت.""",
+                      englishText:
+                          """Someone called, but they didn't leave a message.""",
+                      kurdishText:
+                          """کەسێک پەیوەندیی کرد، بەڵام نامەی جێنەهێشت.""",
                       onPressedBritish: () => speaksentence40("en-GB"),
                       onPressedAmerican: () => speaksentence40("en-US"),
                     ),
@@ -1412,11 +1490,13 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence41("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٩. (کردار) ئەوەی دەستبەجێ شتێک نەکەیت"""),
+                    const DefinitionKurdish(
+                        text: """٩. (کردار) ئەوەی دەستبەجێ شتێک نەکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Leave the dishes—I'll do them later.""",
-                      kurdishText: """قاپ‌وقاچاخەکە جێبهێڵە ـ دواتر دەیانشۆم.""",
+                      kurdishText:
+                          """قاپ‌وقاچاخەکە جێبهێڵە ـ دواتر دەیانشۆم.""",
                       onPressedBritish: () => speaksentence42("en-GB"),
                       onPressedAmerican: () => speaksentence42("en-US"),
                     ),
@@ -1424,8 +1504,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Why do you always leave everything until the last moment?""",
-                      kurdishText: """بۆچی هەمیشە هەموو شت دوادەخەیت تاوەکو کۆتا سات؟""",
+                      englishText:
+                          """Why do you always leave everything until the last moment?""",
+                      kurdishText:
+                          """بۆچی هەمیشە هەموو شت دوادەخەیت تاوەکو کۆتا سات؟""",
                       onPressedBritish: () => speaksentence43("en-GB"),
                       onPressedAmerican: () => speaksentence43("en-US"),
                     ),
@@ -1433,7 +1515,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Let's leave that topic for another day.""",
+                      englishText:
+                          """Let's leave that topic for another day.""",
                       kurdishText: """ئەو بابەتە بۆ ڕۆژێکی دیکە جێبهێڵە.""",
                       onPressedBritish: () => speaksentence44("en-GB"),
                       onPressedAmerican: () => speaksentence44("en-US"),
@@ -1442,8 +1525,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'm going to leave this now and finish it tomorrow morning.""",
-                      kurdishText: """ئێستا واز لەمە دێنم و سبەی بەیانی تەواوی دەکەم.""",
+                      englishText:
+                          """I'm going to leave this now and finish it tomorrow morning.""",
+                      kurdishText:
+                          """ئێستا واز لەمە دێنم و سبەی بەیانی تەواوی دەکەم.""",
                       onPressedBritish: () => speaksentence45("en-GB"),
                       onPressedAmerican: () => speaksentence45("en-US"),
                     ),
@@ -1451,8 +1536,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """If you find a question difficult, leave it and come back to it.""",
-                      kurdishText: """ئەگەر پرسیارێک بە گران دەبینیت، وازی لێبێنە و دواتر بەی بگەڕێوە.""",
+                      englishText:
+                          """If you find a question difficult, leave it and come back to it.""",
+                      kurdishText:
+                          """ئەگەر پرسیارێک بە گران دەبینیت، وازی لێبێنە و دواتر بەی بگەڕێوە.""",
                       onPressedBritish: () => speaksentence46("en-GB"),
                       onPressedAmerican: () => speaksentence46("en-US"),
                     ),
@@ -1466,7 +1553,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence47("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٠. (کردار) ئەوەی ڕێگا بە شتێک بدەیت ئاگای لە شتێک بێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٠. (کردار) ئەوەی ڕێگا بە شتێک بدەیت ئاگای لە شتێک بێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """You can leave the cooking to me.""",
@@ -1478,8 +1567,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I leave it to you to decide what order to do things in.""",
-                      kurdishText: """بۆ خۆتی دادەنێم بڕیار بدەیت بە چی ڕیزبەندییەک شتەکان بکەیت.""",
+                      englishText:
+                          """I leave it to you to decide what order to do things in.""",
+                      kurdishText:
+                          """بۆ خۆتی دادەنێم بڕیار بدەیت بە چی ڕیزبەندییەک شتەکان بکەیت.""",
                       onPressedBritish: () => speaksentence49("en-GB"),
                       onPressedAmerican: () => speaksentence49("en-US"),
                     ),
@@ -1487,7 +1578,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They didn't leave anything to chance (= everything was planned carefully).""",
+                      englishText:
+                          """They didn't leave anything to chance (= everything was planned carefully).""",
                       kurdishText: """هیچیان نەهێشتەوە بە شانس ڕووبدات.""",
                       onPressedBritish: () => speaksentence50("en-GB"),
                       onPressedAmerican: () => speaksentence50("en-US"),
@@ -1505,18 +1597,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Leave it with me—I'm sure I can sort it out.""",
-                      kurdishText: """بۆ منی جێبهێڵە ـ دڵنیام دەتوانم چارەسەری بکەم.""",
+                      englishText:
+                          """Leave it with me—I'm sure I can sort it out.""",
+                      kurdishText:
+                          """بۆ منی جێبهێڵە ـ دڵنیام دەتوانم چارەسەری بکەم.""",
                       onPressedBritish: () => speaksentence52("en-GB"),
                       onPressedAmerican: () => speaksentence52("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١١. (کردار) پێدانی شتێک بە کەسێک کە دەمریت"""),
+                    const DefinitionKurdish(
+                        text: """١١. (کردار) پێدانی شتێک بە کەسێک کە دەمریت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: bequeath"),
                     SentencesRow(
                       englishText: """She left £1 million to her daughter.""",
                       kurdishText: """یەک ملیۆن دۆلاری بۆ کچەکەی جێهێشت.""",
-                      englishNote: """Also: She left her daughter £1 million.""",
+                      englishNote:
+                          """Also: She left her daughter £1 million.""",
                       onPressedBritish: () => speaksentence53("en-GB"),
                       onPressedAmerican: () => speaksentence53("en-US"),
                     ),
@@ -1524,7 +1620,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He left over ten million dollars when he died.""",
+                      englishText:
+                          """He left over ten million dollars when he died.""",
                       kurdishText: """سەروو دە ملیۆن دۆلاری جێهێشت کە مرد.""",
                       onPressedBritish: () => speaksentence54("en-GB"),
                       onPressedAmerican: () => speaksentence54("en-US"),
@@ -1534,7 +1631,8 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She left everything to charity.""",
-                      kurdishText: """هەموو شتێکی بۆ ڕێکخراوی خێرخوازی جێهێشت.""",
+                      kurdishText:
+                          """هەموو شتێکی بۆ ڕێکخراوی خێرخوازی جێهێشت.""",
                       onPressedBritish: () => speaksentence55("en-GB"),
                       onPressedAmerican: () => speaksentence55("en-US"),
                     ),
@@ -1548,7 +1646,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence56("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٢. (کردار) هەبوونی خێزان کە لە دوای خۆت بژی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٢. (کردار) هەبوونی خێزان کە لە دوای خۆت بژی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He leaves a wife and two children.""",
@@ -1557,7 +1657,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence57("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٣. (کردار) هەبوونی ڕێژەیەکی دیاریکراو کە بمێنێتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٣. (کردار) هەبوونی ڕێژەیەکی دیاریکراو کە بمێنێتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Seven from ten leaves three.""",
@@ -1566,7 +1668,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence58("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٤. (ناو) ماوەیەک کە دەکرێت لە کارێک دوور بیت یان لە پشوو بیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٤. (ناو) ماوەیەک کە دەکرێت لە کارێک دوور بیت یان لە پشوو بیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """How much annual leave do you get?""",
@@ -1578,7 +1682,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I still have some leave left this year.""",
+                      englishText:
+                          """I still have some leave left this year.""",
                       kurdishText: """هێشتا هەندێک پشووم ماوە بۆ ئەمساڵ.""",
                       onPressedBritish: () => speaksentence60("en-GB"),
                       onPressedAmerican: () => speaksentence60("en-US"),
@@ -1596,8 +1701,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'm saving all my leave to have a long holiday later in the year.""",
-                      kurdishText: """هەموو مۆڵەتەکانم هەڵدەگرم بۆ ئەوەی پشوویەکی درێژم هەبێت ئەمساڵ.""",
+                      englishText:
+                          """I'm saving all my leave to have a long holiday later in the year.""",
+                      kurdishText:
+                          """هەموو مۆڵەتەکانم هەڵدەگرم بۆ ئەوەی پشوویەکی درێژم هەبێت ئەمساڵ.""",
                       onPressedBritish: () => speaksentence62("en-GB"),
                       onPressedAmerican: () => speaksentence62("en-US"),
                     ),
@@ -1605,8 +1712,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The court granted him leave to appeal against the sentence.""",
-                      kurdishText: """دادگاکە مۆڵەتی پێدا بۆ تانەدان لە سزاکە.""",
+                      englishText:
+                          """The court granted him leave to appeal against the sentence.""",
+                      kurdishText:
+                          """دادگاکە مۆڵەتی پێدا بۆ تانەدان لە سزاکە.""",
                       onPressedBritish: () => speaksentence63("en-GB"),
                       onPressedAmerican: () => speaksentence63("en-US"),
                     ),
@@ -1614,7 +1723,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They sought special leave (= leave for particular reasons that apply just to this case) to appeal.""",
+                      englishText:
+                          """They sought special leave (= leave for particular reasons that apply just to this case) to appeal.""",
                       kurdishText: """داوای مۆڵەتی تایبەتیان کرد بۆ تانەدان.""",
                       onPressedBritish: () => speaksentence64("en-GB"),
                       onPressedAmerican: () => speaksentence64("en-US"),
@@ -1623,8 +1733,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She asked for leave of absence (= permission to be away from work) to attend a funeral.""",
-                      kurdishText: """داوای مۆڵەتی لە کار کرد بۆ بەژداری لە پرسەیەک.""",
+                      englishText:
+                          """She asked for leave of absence (= permission to be away from work) to attend a funeral.""",
+                      kurdishText:
+                          """داوای مۆڵەتی لە کار کرد بۆ بەژداری لە پرسەیەک.""",
                       onPressedBritish: () => speaksentence65("en-GB"),
                       onPressedAmerican: () => speaksentence65("en-US"),
                     ),
@@ -1632,8 +1744,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He applied for leave to remain in the United Kingdom.""",
-                      kurdishText: """داوای بۆ مۆڵەت کرد بۆ مانەوە لە بەریتانیا.""",
+                      englishText:
+                          """He applied for leave to remain in the United Kingdom.""",
+                      kurdishText:
+                          """داوای بۆ مۆڵەت کرد بۆ مانەوە لە بەریتانیا.""",
                       onPressedBritish: () => speaksentence66("en-GB"),
                       onPressedAmerican: () => speaksentence66("en-US"),
                     ),
@@ -1641,8 +1755,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """In May the officer went absent without leave.""",
-                      kurdishText: """لە ئایاردا ئەفسەرەکە کاری جێهێشت بەبێ مۆڵەت.""",
+                      englishText:
+                          """In May the officer went absent without leave.""",
+                      kurdishText:
+                          """لە ئایاردا ئەفسەرەکە کاری جێهێشت بەبێ مۆڵەت.""",
                       onPressedBritish: () => speaksentence67("en-GB"),
                       onPressedAmerican: () => speaksentence67("en-US"),
                     ),

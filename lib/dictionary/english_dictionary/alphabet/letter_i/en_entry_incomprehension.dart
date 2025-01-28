@@ -169,7 +169,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "incomprehension", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) ئەوەی لە ک/شت تێنەگەیت"""),
+                        text: """١. (ناو) ئەوەی لە کەسێک/شتێک تێنەگەیت"""),
                     SentencesRow(
                       englishText:
                           """Anna read the letter with incomprehension.""",

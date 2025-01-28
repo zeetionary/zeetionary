@@ -187,7 +187,7 @@ ${englishMeaningConst.text}
 // With short examples define "lament", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) ئەوەی شیوەن و ڕۆڕۆ بۆ ک/شت بکەیت"""),
+                            """١. (کردار) ئەوەی شیوەن و ڕۆڕۆ بۆ کەسێک/شتێک بکەیت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: bemoan، bewail"),
                     SentencesRow(
                       englishText:

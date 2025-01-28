@@ -124,14 +124,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Going to the bank tops my list of priorities today.""");
+    await flutterTts
+        .speak("""Going to the bank tops my list of priorities today.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We were asked to list our ten favourite songs.""");
+    await flutterTts
+        .speak("""We were asked to list our ten favourite songs.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -152,7 +154,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The koala is listed among Australia's endangered animals.""");
+    await flutterTts
+        .speak("""The koala is listed among Australia's endangered animals.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -1009,7 +1012,9 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "list", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) زنجیرەیەک لە ناو، کەس، شت، هتد، بە تایبەتی کە دەنووسرێن یان چاپ دەکرێن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) زنجیرەیەک لە ناو، کەس، شت، هتد، بە تایبەتی کە دەنووسرێن یان چاپ دەکرێن"""),
                     SentencesRow(
                       englishText: """Is your name on the list?""",
                       kurdishText: """ناوت لەسەر لیستەکەیە؟""",
@@ -1030,7 +1035,8 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I made a list of things to do.""",
-                      kurdishText: """لیستی کۆمەڵە شتێکم ئامادەکردووە بۆ کردن.""",
+                      kurdishText:
+                          """لیستی کۆمەڵە شتێکم ئامادەکردووە بۆ کردن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1038,17 +1044,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Going to the bank tops my list of priorities today.""",
-                      kurdishText: """چوونە بانک بۆ ئەمڕۆ لە سەرەوەی کارە لەپێشینەکانمە.""",
+                      englishText:
+                          """Going to the bank tops my list of priorities today.""",
+                      kurdishText:
+                          """چوونە بانک بۆ ئەمڕۆ لە سەرەوەی کارە لەپێشینەکانمە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) ئامادەکردنی لیستێک"""),
+                    const DefinitionKurdish(
+                        text: """٢. (کردار) ئامادەکردنی لیستێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We were asked to list our ten favourite songs.""",
-                      kurdishText: """داوامان لێکرا دە گۆرانیی دڵخوازمان ڕیز بکەین.""",
+                      englishText:
+                          """We were asked to list our ten favourite songs.""",
+                      kurdishText:
+                          """داوامان لێکرا دە گۆرانیی دڵخوازمان ڕیز بکەین.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1062,11 +1073,14 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (کردار) ناوهێنانی ک/شت لە لیستێکدا"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (کردار) ناوهێنانی کەسێک/شتێک لە لیستێکدا"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Key benefits are listed in Table 1.""",
-                      kurdishText: """سوودە سەرەکییەکان لە خشتەی ١ باس کراون.""",
+                      kurdishText:
+                          """سوودە سەرەکییەکان لە خشتەی ١ باس کراون.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1074,13 +1088,16 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The koala is listed among Australia's endangered animals.""",
-                      kurdishText: """کوالا لە لیستی ئاژەڵە مەترسی‌لەسەرەکانی ئوسترالیا ناو هێندراوە.""",
+                      englishText:
+                          """The koala is listed among Australia's endangered animals.""",
+                      kurdishText:
+                          """کوالا لە لیستی ئاژەڵە مەترسی‌لەسەرەکانی ئوسترالیا ناو هێندراوە.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (کردار) دانان لە لیستێکدا بۆ فرۆشتن"""),
+                    const DefinitionKurdish(
+                        text: """٤. (کردار) دانان لە لیستێکدا بۆ فرۆشتن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """This laptop lists at £500.""",

@@ -167,7 +167,7 @@ ${englishMeaningConst.text}
 // With short examples define "infatuated", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) هەبوونی خۆشەویستی یان حەزی زۆر بۆ ک/شت کە ناتوانیت بیر لە شتی دیکە بکەیتەوە"""),
+                            """١. (ھاوەڵناو) هەبوونی خۆشەویستی یان حەزی زۆر بۆ کەسێک/شتێک کە ناتوانیت بیر لە شتی دیکە بکەیتەوە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: besotted"),
                     SentencesRow(
                       englishText:

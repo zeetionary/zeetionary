@@ -170,7 +170,7 @@ ${englishMeaningConst.text}
 // With short examples define "irreverence", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەمی ڕێز بۆ ک/شت کە کەسانی دیکە ڕێزی دەگرن"""),
+                            """١. (ناو) کەمی ڕێز بۆ کەسێک/شتێک کە کەسانی دیکە ڕێزی دەگرن"""),
                     SentencesRow(
                       englishText:
                           """The book is written with good humour and irreverence.""",

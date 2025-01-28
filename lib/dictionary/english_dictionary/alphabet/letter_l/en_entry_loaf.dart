@@ -52,13 +52,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: loaf (Derived forms: loaves)
+1. A shaped mass of baked bread that is usually sliced before eating (- loaf of bread)
+ 
+2. A quantity of food (other than bread) formed in a particular shape
+"meat loaf"; "sugar loaf"; "a loaf of cheese"
+ 
+3. [Brit, informal] Common sense (- nous [Brit, informal])
+ 
+4. [Brit, informal] That which is responsible for one's thoughts, feelings, and conscious brain functions; the seat of the faculty of reason (- mind, head, brain)
 
-EnglishEntryloaf loaf
-WORD_WEB loaf loaf loaf
-haʊʊʊʊʊʊʊ4
+- Verb: loaf (Derived forms: loafs, loafing, loafed)
+Usage: informal
+1. Be lazy or idle (- bum [informal], bum around [informal], bum about [informal], arse around [Brit, Cdn, informal], arse about [Brit, Cdn, informal], waste one's time, lounge around, loll, loll around, lounge about, slob [Brit, informal])
+"Her son is just loafing around all day";
+ 
+2. Spend time in one place doing little or wasting time (- loiter, lounge, footle [informal], lollygag [N. Amer, informal], lallygag [N. Amer, informal], hang around, mess about, tarry, linger, lurk, mill about, mill around, dilly-dally [informal], dillydally [informal], mooch [Brit, informal])
+"The high school students like to loaf in the Central Square";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "loaf";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +99,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Two white loaves, please.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I made a cake and it was so nice I ate the whole loaf myself!""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""A group of kids were loafing around outside.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +938,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/mJqhZCQ_nzo?t=68';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/OI2-6Ps2Hcc';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/H6aD9YPWnPE?t=53';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/wUveOMOt4K4?t=99';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/kQPKi1O6qvI?t=141';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/hbegYQ-rqz0?t=527';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +963,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """loaf""",
                       // alsoEnglishWord: "also: loaf",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ləʊf/""",
+                      americanText: """IpaUS: /ləʊf/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +1002,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کولێرە، ستورک، ئەستورکە، لوێشک، دۆڕک، سەموون، پاتۆڵ
 """),
 // With short examples define "loaf", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) پارچە نان یان کێک کە پێکەوە برژێندراوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Two white loaves, please.""",
+                      kurdishText: """تکایە دوو پارچە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,17 +1016,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I made a cake and it was so nice I ate the whole loaf myself!""",
+                      kurdishText: """کێکێکم ئامادە کرد و ئەوەندە خۆش بوو کە خۆم هەموویم خوارد!""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (کردار) بەسەربردنی کاتت بەوەی کە هیچ نەکەیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: hang about"),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """A group of kids were loafing around outside.""",
+                      kurdishText: """گرووپێک منداڵ دەسووڕانەوە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

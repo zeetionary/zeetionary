@@ -858,7 +858,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٦. (کردار) بیرکردنەوەی ئەوەی کە ک/شت جۆرێکی تایبەت لە ک/شتە یان خاسیەتی دیاریکراوی هەیە"""),
+                            """٦. (کردار) بیرکردنەوەی ئەوەی کە کەسێک/شتێک جۆرێکی تایبەت لە کەسێک/شتێکە یان خاسیەتی دیاریکراوی هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -913,7 +913,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٧. (کردار) پێدانی ناو بە ک/شت"""),
+                        text: """٧. (کردار) پێدانی ناو بە کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Iran was formerly known as Persia.""",
@@ -964,7 +964,8 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٨. (کردار) ئەوەی بتوانیت ک/شت بناسیتەوە"""),
+                        text:
+                            """٨. (کردار) ئەوەی بتوانیت کەسێک/شتێک بناسیتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -977,7 +978,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٩. (کردار) تێگەشتن لە جیاوازیی نێوان ک/شت لەگەڵ یەكێکی دیکە"""),
+                            """٩. (کردار) تێگەشتن لە جیاوازیی نێوان کەسێک/شتێک لەگەڵ یەكێکی دیکە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: distinguish"),
                     SentencesRow(
                       englishText:

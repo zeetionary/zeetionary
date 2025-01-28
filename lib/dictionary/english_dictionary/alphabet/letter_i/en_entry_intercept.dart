@@ -190,7 +190,7 @@ ${englishMeaningConst.text}
 // With short examples define "intercept", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) ڕێگرتن لە گەشتنی ک/شت بە شوێنێک کە بۆی دەچێت"""),
+                            """١. (کردار) ڕێگرتن لە گەشتنی کەسێک/شتێک بە شوێنێک کە بۆی دەچێت"""),
                     SentencesRow(
                       englishText:
                           """Reporters intercepted him as he tried to leave the hotel.""",

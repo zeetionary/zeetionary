@@ -344,7 +344,8 @@ Usage: informal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I would like to thank you all for coming tonight.""");
+    await flutterTts
+        .speak("""I would like to thank you all for coming tonight.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
@@ -421,7 +422,8 @@ Usage: informal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""You can dye your hair whatever colour you like.""");
+    await flutterTts
+        .speak("""You can dye your hair whatever colour you like.""");
   }
 
   Future<void> speaksentence43(String languageCode) async {
@@ -463,7 +465,8 @@ Usage: informal
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""It's really hard. Like I have no time for my own work.""");
+    await flutterTts
+        .speak("""It's really hard. Like I have no time for my own work.""");
   }
 
   Future<void> speaksentence49(String languageCode) async {
@@ -1040,7 +1043,8 @@ Usage: informal
 کوردی: هاوشێوە، وەکوویەک، چون، لێکچوو،	بۆ نموونە، بۆ وێنە،	لە دەوروبەری، نزیکەی،	تا، هاوتا، وێنە، لف،	شێوە، جۆر، چەشن، وەکوو، (لە)وێنەی، میناهەڤ، لەگوێن، هەروەکوو،	بۆ نموونە، بۆ وێنە
 """),
 // With short examples define "like", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ئامراز) وەکو ک/شت"""),
+                    const DefinitionKurdish(
+                        text: """١. (ئامراز) وەکو کەسێک/شتێک"""),
                     SentencesRow(
                       englishText: """She's wearing a dress like mine.""",
                       kurdishText: """جلێکی وەک ئەوەی منی لەبەرە.""",
@@ -1077,7 +1081,8 @@ Usage: informal
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ئامراز) بۆ پرسیارکردن لە بۆچوونی ک/شت"""),
+                        text:
+                            """٢. (ئامراز) بۆ پرسیارکردن لە بۆچوونی کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """What's it like studying in Spain?""",
@@ -1097,7 +1102,7 @@ Usage: informal
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (ئامراز) بە هەمان شێوەی ک/شت"""),
+                        text: """٣. (ئامراز) بە هەمان شێوەی کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1159,7 +1164,7 @@ Usage: informal
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (ئامراز) بۆ باسکردنی ئەوەی چی لە ک/شت چاوەڕێ دەکرێت"""),
+                            """٥. (ئامراز) بۆ باسکردنی ئەوەی چی لە کەسێک/شتێک چاوەڕێ دەکرێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1194,7 +1199,7 @@ Usage: informal
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٨. (ناو) ک/شت کە وەک شتێکی دیکەیە"""),
+                        text: """٨. (ناو) کەسێک/شتێک کە وەک شتێکی دیکەیە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -1206,7 +1211,7 @@ Usage: informal
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٨. (کردار) حەزکردن لە ک/شت"""),
+                        text: """٨. (کردار) حەزکردن لە کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She's nice. I like her.""",
@@ -1343,7 +1348,9 @@ Usage: informal
                       ],
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٩. (کردار) لەگەڵ would یان should بەکاردێت بۆ گوتنی ئەوەی چیت دەوێت یان کەسێک چی دەوێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٩. (کردار) لەگەڵ would یان should بەکاردێت بۆ گوتنی ئەوەی چیت دەوێت یان کەسێک چی دەوێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Would you like a cup of coffee?""",
@@ -1364,8 +1371,10 @@ Usage: informal
                     const DefinitionKurdish(text: """ژممر. (هاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I would like to thank you all for coming tonight.""",
-                      kurdishText: """دەمەوێت سوپاسی هەمووتان بکەم بۆ هاتن بۆ ئەمشەو.""",
+                      englishText:
+                          """I would like to thank you all for coming tonight.""",
+                      kurdishText:
+                          """دەمەوێت سوپاسی هەمووتان بکەم بۆ هاتن بۆ ئەمشەو.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
@@ -1382,8 +1391,10 @@ Usage: informal
                     const DefinitionKurdish(text: """ژممر. (هاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We would like to apologize for the delay.""",
-                      kurdishText: """دەمانەوێت داوای لێبووردن بکەین بۆ دواکەوتنەکە.""",
+                      englishText:
+                          """We would like to apologize for the delay.""",
+                      kurdishText:
+                          """دەمانەوێت داوای لێبووردن بکەین بۆ دواکەوتنەکە.""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
                     ),
@@ -1391,8 +1402,10 @@ Usage: informal
                     const DefinitionKurdish(text: """ژممر. (هاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Would you like to see the rest of the house?""",
-                      kurdishText: """دەتەوێت بەشەکانی دیکەی خانووەکە ببینیت؟""",
+                      englishText:
+                          """Would you like to see the rest of the house?""",
+                      kurdishText:
+                          """دەتەوێت بەشەکانی دیکەی خانووەکە ببینیت؟""",
                       onPressedBritish: () => speaksentence34("en-GB"),
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
@@ -1415,11 +1428,13 @@ Usage: informal
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٠. (کردار) ویستنی کردنی شتێک"""),
+                    const DefinitionKurdish(
+                        text: """١٠. (کردار) ویستنی کردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """At weekends I like to sleep late.""",
-                      kurdishText: """لە کۆتایی هەفتەدا حەز دەکەم درەنگ بخەوم.""",
+                      kurdishText:
+                          """لە کۆتایی هەفتەدا حەز دەکەم درەنگ بخەوم.""",
                       onPressedBritish: () => speaksentence37("en-GB"),
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
@@ -1433,7 +1448,9 @@ Usage: informal
                       onPressedAmerican: () => speaksentence38("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١١. (کردار) لە ڕستەی نەرێدا بەکاردێت بۆ گوتنی ئەوەی ناتەوێت شتێک بکەیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١١. (کردار) لە ڕستەی نەرێدا بەکاردێت بۆ گوتنی ئەوەی ناتەوێت شتێک بکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I didn't like to disturb you.""",
@@ -1445,8 +1462,10 @@ Usage: informal
                     const DefinitionKurdish(text: """ژممر. (هاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He doesn't like asking his parents for help.""",
-                      kurdishText: """حەز ناکات پرسیار لە دایبابی بکات بۆ یارمەتی.""",
+                      englishText:
+                          """He doesn't like asking his parents for help.""",
+                      kurdishText:
+                          """حەز ناکات پرسیار لە دایبابی بکات بۆ یارمەتی.""",
                       onPressedBritish: () => speaksentence40("en-GB"),
                       onPressedAmerican: () => speaksentence40("en-US"),
                     ),
@@ -1463,13 +1482,16 @@ Usage: informal
                     const DefinitionKurdish(text: """ژممر. (هاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """You can dye your hair whatever colour you like.""",
-                      kurdishText: """دەتوانیت قژت بۆیە بکەیت بە هەر ڕەنگێک کە دەتەوێت.""",
+                      englishText:
+                          """You can dye your hair whatever colour you like.""",
+                      kurdishText:
+                          """دەتوانیت قژت بۆیە بکەیت بە هەر ڕەنگێک کە دەتەوێت.""",
                       onPressedBritish: () => speaksentence42("en-GB"),
                       onPressedAmerican: () => speaksentence42("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٣. (لێکدەر) بە هەمان شێوە"""),
+                    const DefinitionKurdish(
+                        text: """١٣. (لێکدەر) بە هەمان شێوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """It didn't turn out like I intended.""",
@@ -1481,8 +1503,10 @@ Usage: informal
                     const DefinitionKurdish(text: """ژممر. (هاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Like I said (= as I said before), you're always welcome to stay.""",
-                      kurdishText: """وەک ئەوەی گوتم، هەمیشە دەتوانیت بمێنیتەوە.""",
+                      englishText:
+                          """Like I said (= as I said before), you're always welcome to stay.""",
+                      kurdishText:
+                          """وەک ئەوەی گوتم، هەمیشە دەتوانیت بمێنیتەوە.""",
                       onPressedBritish: () => speaksentence44("en-GB"),
                       onPressedAmerican: () => speaksentence44("en-US"),
                     ),
@@ -1491,12 +1515,15 @@ Usage: informal
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She acts like she owns the place.""",
-                      kurdishText: """ڕەفتار دەکات وەک ئەوەی کۆشکەکە هی ئەو بێت.""",
+                      kurdishText:
+                          """ڕەفتار دەکات وەک ئەوەی کۆشکەکە هی ئەو بێت.""",
                       onPressedBritish: () => speaksentence45("en-GB"),
                       onPressedAmerican: () => speaksentence45("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٥. (هاوەڵناو) هەبوونی هەمان خاسیەت لەگەڵ ک/شت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٥. (هاوەڵناو) هەبوونی هەمان خاسیەت لەگەڵ کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She responded in like manner.""",
@@ -1505,7 +1532,9 @@ Usage: informal
                       onPressedAmerican: () => speaksentence46("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٦. (هاوەڵکار) لە کفتووگۆی نافەرمی بەکاردێت، بۆ نموونە، کە دەتەوێت دواتر چی بڵێیت، شتێک ڕوون بکەیتەوە، یان نموونەیەک بدەیت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٦. (هاوەڵکار) لە کفتووگۆی نافەرمی بەکاردێت، بۆ نموونە، کە دەتەوێت دواتر چی بڵێیت، شتێک ڕوون بکەیتەوە، یان نموونەیەک بدەیت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """It was, like, delicious.""",
@@ -1517,13 +1546,17 @@ Usage: informal
                     const DefinitionKurdish(text: """ژممر. (هاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """It's really hard. Like I have no time for my own work.""",
-                      kurdishText: """زۆر سەختە. بەشێوەیەک هیچ کاتم نییە بۆ کاری خۆم.""",
+                      englishText:
+                          """It's really hard. Like I have no time for my own work.""",
+                      kurdishText:
+                          """زۆر سەختە. بەشێوەیەک هیچ کاتم نییە بۆ کاری خۆم.""",
                       onPressedBritish: () => speaksentence48("en-GB"),
                       onPressedAmerican: () => speaksentence48("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٧. (هاوەڵکار) لە گفتووگۆی زۆر نافەرمی بەکاردێت بۆ گوتنی ئەوەی دەڵێیت ڕەنگە تەواو ڕاست نەبێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٧. (هاوەڵکار) لە گفتووگۆی زۆر نافەرمی بەکاردێت بۆ گوتنی ئەوەی دەڵێیت ڕەنگە تەواو ڕاست نەبێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I'm leaving in like twenty minutes.""",
@@ -1535,13 +1568,15 @@ Usage: informal
                     const DefinitionKurdish(text: """ژممر. (هاوەڵکار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """It's going to cost like a hundred dollars.""",
+                      englishText:
+                          """It's going to cost like a hundred dollars.""",
                       kurdishText: """نزیکەی سەد دۆلاری تێدەچێت.""",
                       onPressedBritish: () => speaksentence50("en-GB"),
                       onPressedAmerican: () => speaksentence50("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٨. (هاوەڵکار) بۆ گوتنی گوتم/گوتی"""),
+                    const DefinitionKurdish(
+                        text: """١٨. (هاوەڵکار) بۆ گوتنی گوتم/گوتی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """And then I'm like ‘No Way!’""",
@@ -1550,10 +1585,13 @@ Usage: informal
                       onPressedAmerican: () => speaksentence51("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٩. (هاوەڵکار) لە گفتووگۆی نافەرمی بەکاردێت بۆ گوتنی ئەوەی شتێک بە هەمان شێوە ڕوودەدات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٩. (هاوەڵکار) لە گفتووگۆی نافەرمی بەکاردێت بۆ گوتنی ئەوەی شتێک بە هەمان شێوە ڕوودەدات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """There was silence, but not like before.""",
+                      englishText:
+                          """There was silence, but not like before.""",
                       kurdishText: """بێ دەنگی هەبوو، بەڵام وەک پێشوو نا.""",
                       onPressedBritish: () => speaksentence52("en-GB"),
                       onPressedAmerican: () => speaksentence52("en-US"),

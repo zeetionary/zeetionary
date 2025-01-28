@@ -180,7 +180,7 @@ ${englishMeaningConst.text}
 // With short examples define "immobilize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) ڕیگریکردن لە ک/شت کە بە شێوەی ئاسایی کار بکات یان بجووڵێت"""),
+                            """١. (کردار) ڕیگریکردن لە کەسێک/شتێک کە بە شێوەی ئاسایی کار بکات یان بجووڵێت"""),
                     SentencesRow(
                       englishText:
                           """Always immobilize a broken leg immediately.""",

@@ -184,7 +184,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) پاراستنی ک/شت لە ئەزموون و کاریگەریی ناخۆش"""),
+                            """٢. (کردار) پاراستنی کەسێک/شتێک لە ئەزموون و کاریگەریی ناخۆش"""),
                     const AlsoEnglishckb(word: "ھەروەھا: shield"),
                     SentencesRow(
                       englishText:

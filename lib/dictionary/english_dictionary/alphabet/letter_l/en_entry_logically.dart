@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylogically logically
-WORD_WEB logically logically logically
-haʊʊʊʊʊʊʊ4
+- Adverb: logically
+1. According to logical reasoning
+"logically, you should now do the same to him"
+ 
+2. In a logical manner
+"he acted logically under the circumstances"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "logically";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The conclusion does not follow logically from the premise.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Logically, you cannot be punished for a crime not yet committed.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/JY5t6iUzajk?t=22';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/ZOvyn72x6kQ?t=581';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/FUHkTs-Ipfg?t=69';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/8mAITcNt710?t=17485';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/uT_GcOGEFsk?t=242';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/jLIUkk6Esr0?t=258';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """logically""",
                       // alsoEnglishWord: "also: logically",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɒdʒɪkli/""",
+                      americanText: """IpaUS: /ˈlɑːdʒɪkli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +994,20 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "logically", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵکار) بە شێوەیەک کە تێیدا بیرۆکە و ڕاستی پشت بە بیرۆکە و ڕاستی دیکە ببەستن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The conclusion does not follow logically from the premise.""",
+                      kurdishText: """دەرەنجامەکە بە لۆژیکییانە لە گریمانەکەوە سەرچاوە ناگرێت.""",
+                      englishNote: """This means the final judgment or decision does not align with the initial idea or reasoning. There is a disconnect between the starting point and the result, making the conclusion invalid.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵکار) بە شێوەیەک کە سرووشتی، ئاقڵانە و گونجاو دەردەکەوێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Logically, you cannot be punished for a crime not yet committed.""",
+                      kurdishText: """لۆژیکییانە، ناکرێت بۆ تاوانێک سزا بدرێیت کە هێشتا ئەنجام نەدراوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

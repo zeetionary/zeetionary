@@ -291,7 +291,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ک/شت کە هۆکارە بۆ ئەوەی کەسێک شتێک دەکات یان درووستی دەکات"""),
+                            """٢. (ناو) کەسێک/شتێک کە هۆکارە بۆ ئەوەی کەسێک شتێک دەکات یان درووستی دەکات"""),
                     SentencesRow(
                       englishText:
                           """He says my sister was the inspiration for his heroine.""",
@@ -311,7 +311,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) ک/شت کە وات لێدەکات وابکەیت زیاتر سەرکەوتوو، باشتر، هتد بیت"""),
+                            """٣. (ناو) کەسێک/شتێک کە وات لێدەکات وابکەیت زیاتر سەرکەوتوو، باشتر، هتد بیت"""),
                     SentencesRow(
                       englishText:
                           """His charity work is an inspiration to us all.""",

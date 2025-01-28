@@ -174,7 +174,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "imitative", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ھاوەڵناو) کە لەبەرگرتنەوەی ک/شتە"""),
+                        text: """١. (ھاوەڵناو) کە لەبەرگرتنەوەی کەسێک/شتێکە"""),
                     SentencesRow(
                       englishText:
                           """His work has been criticized for being imitative.""",

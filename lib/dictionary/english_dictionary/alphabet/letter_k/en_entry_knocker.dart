@@ -194,7 +194,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) کەسێک کە بەردەوام ڕەخنە دەگرێت لە ک/شت"""),
+                            """٢. (ناو) کەسێک کە بەردەوام ڕەخنە دەگرێت لە کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

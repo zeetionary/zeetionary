@@ -186,7 +186,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "instead", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ھاوەڵکار) لە جێگای ک/شت"""),
+                        text: """١. (ھاوەڵکار) لە جێگای کەسێک/شتێک"""),
                     SentencesRow(
                       englishText: """Lee was ill so I went instead.""",
                       kurdishText: """لی نەخۆش بوو بۆیە من لە جێگای چووم.""",

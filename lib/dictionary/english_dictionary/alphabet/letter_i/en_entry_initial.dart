@@ -299,7 +299,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) یەکەم پیتەکانی هەموو ناوەکانی ک/شت"""),
+                            """٣. (ناو) یەکەم پیتەکانی هەموو ناوەکانی کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """John Fitzgerald Kennedy was often known by his initials JFK.""",

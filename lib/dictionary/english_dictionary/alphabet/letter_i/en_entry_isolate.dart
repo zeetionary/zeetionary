@@ -200,7 +200,7 @@ ${englishMeaningConst.text}
 // With short examples define "isolate", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) جیاکردنەوەی ک/شت بە فیزیکی یان کۆمەڵایەتی لە کەسان یان شتی دیکە"""),
+                            """١. (کردار) جیاکردنەوەی کەسێک/شتێک بە فیزیکی یان کۆمەڵایەتی لە کەسان یان شتی دیکە"""),
                     SentencesRow(
                       englishText:
                           """Patients with the disease should be isolated.""",

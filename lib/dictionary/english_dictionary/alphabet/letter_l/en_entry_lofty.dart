@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylofty lofty
-WORD_WEB lofty lofty lofty
-haʊʊʊʊʊʊʊ4
+- Adjective: lofty (Derived forms: loftier, loftiest)
+1. Of high moral or intellectual value; elevated in nature or style (- exalted, elevated, sublime, grand, high-flown, high-minded, rarefied, rarified, idealistic, noble-minded)
+"a noble and lofty concept";
+ 
+2. Of imposing height; especially standing out above others (- eminent, soaring, towering, prominent)
+"lofty mountains";
+ 
+3. Having or displaying great dignity or nobility (- gallant, majestic, proud)
+"lofty ships";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lofty";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The glen is deeply enclosed by lofty mountains.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Many politicians start out with lofty principles, but only a few manage to maintain them.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""She spoke with a lofty attitude that annoyed her peers.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/90MNvA5ozcI?t=1081';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/EobMnSpjfTU?t=292';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/AF8d72mA41M?t=1081';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ajbooXnvsE8?t=842';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/fBTjbGfHx0s?t=1705';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/MbnLKQssfLc?t=90';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lofty""",
                       // alsoEnglishWord: "also: lofty",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɒfti/""",
+                      americanText: """IpaUS: /ˈlɔːfti/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +994,31 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەرز، گەردنکەش، بڵند، بڵیند، سەرلەئاسمان‌خشاو،	گەورە، مەزن، پایەبەرز، بەرز،	لووت‌بەرزانە، فیزنانە، لەخۆبایی‌یانە
 """),
 // With short examples define "lofty", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) زۆر بەرز و سەرنجڕاکێش"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The glen is deeply enclosed by lofty mountains.""",
+                      kurdishText: """دۆڵەکە بە قوڵی لە لایەن چیا بەرزەکانەوە دەورە دراوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە شایەنی ستایشە بەهۆی ئەوەی بەرزە لە لایەنی ئەخلاقییەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Many politicians start out with lofty principles, but only a few manage to maintain them.""",
+                      kurdishText: """زۆر سیاسەتمەدار بە بنچینەی بەرزەوە دەست پێدەکەن بەڵام کەمیان ئەیانپارێزن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) وەک ئەوەی لە کەسانی دیکە باشتر بیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She spoke with a lofty attitude that annoyed her peers.""",
+                      kurdishText: """بە هەڵسوکەوتێکی لووت بەرز قسەی دەکرد کە هاوڕێکانی بێزار دەکرد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

@@ -224,7 +224,8 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) پچڕاندنی ک/شت"""),
+                    const DefinitionKurdish(
+                        text: """٢. (ناو) پچڕاندنی کەسێک/شتێک"""),
                     SentencesRow(
                       englishText: """He ignored her interruptions.""",
                       kurdishText: """پچڕاندنەکانیی پشتگوێ خست.""",

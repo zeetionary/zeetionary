@@ -232,7 +232,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) ک/شت کە دەبێتە هۆکاری کێشە"""),
+                        text: """٢. (ناو) کەسێک/شتێک کە دەبێتە هۆکاری کێشە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: nuisance"),
                     SentencesRow(
                       englishText:

@@ -199,7 +199,7 @@ ${englishMeaningConst.text}
 // With short examples define "immerse", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) ئەوەی ک/شت بخەیتە ناو شلەیەک بەشێوەیەک بە تەواوی دابپۆشرێت"""),
+                            """١. (کردار) ئەوەی کەسێک/شتێک بخەیتە ناو شلەیەک بەشێوەیەک بە تەواوی دابپۆشرێت"""),
                     SentencesRow(
                       englishText:
                           """The seeds will swell when immersed in water.""",

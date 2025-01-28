@@ -169,7 +169,7 @@ ${englishMeaningConst.text}
 // With short examples define "indifferently", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) کە ئەوە پیشان دەدات گرنگی بە ک/شت نادەیت یان حەزت پێی نییە"""),
+                            """١. (ھاوەڵکار) کە ئەوە پیشان دەدات گرنگی بە کەسێک/شتێک نادەیت یان حەزت پێی نییە"""),
                     SentencesRow(
                       englishText: """He shrugged indifferently.""",
                       kurdishText: """کەم‌تەرخەمانە شانی ڕاوەشاند.""",

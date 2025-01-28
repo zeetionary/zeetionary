@@ -179,7 +179,7 @@ ${englishMeaningConst.text}
 // With short examples define "individuality", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) خاسیەتێک کە ک/شت لە خەڵکی یان شتی دیکە جیادەکاتەوە"""),
+                            """١. (ناو) خاسیەتێک کە کەسێک/شتێک لە خەڵکی یان شتی دیکە جیادەکاتەوە"""),
                     SentencesRow(
                       englishText:
                           """She expresses her individuality through her clothes.""",

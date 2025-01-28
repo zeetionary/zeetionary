@@ -170,7 +170,7 @@ ${englishMeaningConst.text}
 // With short examples define "intrinsically", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە سەر بە سرووشتی ڕاستەقینەی ک/شتە، یان بەشێکە لێی"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە سەر بە سرووشتی ڕاستەقینەی کەسێک/شتێکە، یان بەشێکە لێی"""),
                     SentencesRow(
                       englishText:
                           """Salary increase is intrinsically linked to performance.""",

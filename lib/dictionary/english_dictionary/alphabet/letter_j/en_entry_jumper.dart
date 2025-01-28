@@ -213,7 +213,7 @@ ${englishMeaningConst.text}
                     // skipped_meaning
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) ک/شت کە باز دەدات"""),
+                        text: """٢. (ناو) کەسێک/شتێک کە باز دەدات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He's a good jumper.""",

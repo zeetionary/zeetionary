@@ -197,7 +197,7 @@ ${englishMeaningConst.text}
 // """),
 // With short examples define "imitate", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (کردار) لاسایی کردنەوەی ک/شت"""),
+                        text: """١. (کردار) لاسایی کردنەوەی کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """Teachers provide a model for children to imitate.""",

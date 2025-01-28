@@ -459,7 +459,7 @@ ${englishMeaningConst.text}
 // With short examples define "influence", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەو کاریگەرییەک ک/شت هەیەتی لەسەر ئەوەی کەسێک چۆن ڕەفتار دەکات یان بیردەکاتەوە یان لەسەر شێوازی کارکردن یان بەرەوپێشچوونی شتێک"""),
+                            """١. (ناو) ئەو کاریگەرییەک کەسێک/شتێک هەیەتی لەسەر ئەوەی کەسێک چۆن ڕەفتار دەکات یان بیردەکاتەوە یان لەسەر شێوازی کارکردن یان بەرەوپێشچوونی شتێک"""),
                     SentencesRow(
                       englishText:
                           """He had considerable influence on younger sculptors.""",
@@ -559,7 +559,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ئەو دەسەڵاتەی ک/شت هەیانە لەسەر ئەوەی ک/شت چۆن ڕەفتار دەکات"""),
+                            """٢. (ناو) ئەو دەسەڵاتەی کەسێک/شتێک هەیانە لەسەر ئەوەی کەسێک/شتێک چۆن ڕەفتار دەکات"""),
                     SentencesRow(
                       englishText:
                           """He worked his way into a position of power and influence in the city.""",
@@ -659,7 +659,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) ک/شت کە کاردەکاتە سەر شێوازی ڕەفتار و بیرکردنەوەی کەسێک"""),
+                            """٣. (ناو) کەسێک/شتێک کە کاردەکاتە سەر شێوازی ڕەفتار و بیرکردنەوەی کەسێک"""),
                     SentencesRow(
                       englishText:
                           """His first music teacher was a major influence in his life.""",
@@ -688,7 +688,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (کردار) هەبوونی کاریگەری لەسەر ڕەفتار و بیرکردنەوەی ک/شت"""),
+                            """٤. (کردار) هەبوونی کاریگەری لەسەر ڕەفتار و بیرکردنەوەی کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """His writings have influenced the lives of millions.""",

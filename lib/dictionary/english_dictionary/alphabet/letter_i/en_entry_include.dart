@@ -259,7 +259,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) واکردنی ک/شت ببن بە بەشێک لە شتێک"""),
+                            """٢. (کردار) واکردنی کەسێک/شتێک ببن بە بەشێک لە شتێک"""),
                     SentencesRow(
                       englishText:
                           """You should include some examples in your essay.""",

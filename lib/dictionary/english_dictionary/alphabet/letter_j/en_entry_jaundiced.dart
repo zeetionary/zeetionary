@@ -177,7 +177,7 @@ ${englishMeaningConst.text}
 // With short examples define "jaundiced", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) ئەوەی پێشبینی نەکەیت ک/شت باش یان بەسوود بێت"""),
+                            """١. (ھاوەڵناو) ئەوەی پێشبینی نەکەیت کەسێک/شتێک باش یان بەسوود بێت"""),
                     SentencesRow(
                       englishText: """He had a jaundiced view of life.""",
                       kurdishText: """تێروانینێکی ڕەشبینانەی بۆ ژیان هەبوو.""",

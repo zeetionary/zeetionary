@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lob (Derived forms: lobs)
+1. An easy return of a tennis ball in a high arc
+ 
+2. The act of propelling something (as a ball or shell etc.) in a high arc
 
-EnglishEntrylob lob
-WORD_WEB lob lob lob
-haʊʊʊʊʊʊʊ4
+- Verb: lob (Derived forms: lobs, lobbing, lobbed)
+1. Propel in a high arc
+"lob the tennis ball"
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lob";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +90,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Jones hit a beautiful lob over his opponent's head.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Stones were lobbed over the wall.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""They were lobbing stones over the wall.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""He lobbed the ball over the defender's head.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/LsBJhxGUSHg?t=8';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/_1btDc5xJe0';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Y_N0AxCzVLg?t=332';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/W4DnmTEHQug?t=620';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/d0LRV27wGDE?t=891';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/vC2BSb9MZYc';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lob""",
                       // alsoEnglishWord: "also: lob",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɒb/""",
+                      americanText: """IpaUS: /lɑːb/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,20 +996,19 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lob", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئەوەی کە لە تۆپێک بدەیت و بە بەرزی بەسەر ئەو کەسەدا تێپەڕێت کە دژی یاری دەکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Jones hit a beautiful lob over his opponent's head.""",
+                      kurdishText: """جۆنز تۆپێکی جوان فڕێدا بەسەر سەری ڕکابەرەکەیدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (کردار) فڕێدانی شتێک بە حەوادا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Stones were lobbed over the wall.""",
+                      kurdishText: """بەرز بەسەر دیوارەکەدا دەهاوێژران.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,17 +1016,17 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They were lobbing stones over the wall.""",
+                      kurdishText: """بەردیان بەسەر دیوارەکەدا فڕێ دەدا.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (کردار) فڕێدانی تۆپێک بە بەرزی بەسەر ئەو کەسەدا کە دژی یاری دەکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He lobbed the ball over the defender's head.""",
+                      kurdishText: """تۆپەکەی بەسەر سەری گۆڵپارێزەکەدا هاویشت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

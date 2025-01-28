@@ -290,7 +290,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) کە دۆخێک، بۆنەیەک، یان چالاکییەک ک/شت لەخۆ بگرێت، ئەوا بەژداری تێدا دەکەن یان کاریگەر دەبن پێی"""),
+                            """٢. (کردار) کە دۆخێک، بۆنەیەک، یان چالاکییەک کەسێک/شتێک لەخۆ بگرێت، ئەوا بەژداری تێدا دەکەن یان کاریگەر دەبن پێی"""),
                     SentencesRow(
                       englishText:
                           """There was a serious incident involving a group of youths.""",

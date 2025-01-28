@@ -298,7 +298,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) وشە یان دەستەواژەیەکی  نادرووست یان زۆر گشتی کە بەکاردێت بۆ باسکردنی ک/شت"""),
+                            """٢. (ناو) وشە یان دەستەواژەیەکی  نادرووست یان زۆر گشتی کە بەکاردێت بۆ باسکردنی کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -368,7 +368,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٥. (کردار) باسکردنی ک/شت بەشێوەیەکی دیاریکراو"""),
+                            """٥. (کردار) باسکردنی کەسێک/شتێک بەشێوەیەکی دیاریکراو"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

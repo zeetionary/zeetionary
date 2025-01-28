@@ -161,7 +161,7 @@ ${englishMeaningConst.text}
 // With short examples define "latter-day", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەوەی شێوەیەکی سەردەمییانەی ک/شتی ڕابردوو بێت"""),
+                            """١. (ناو) ئەوەی شێوەیەکی سەردەمییانەی کەسێک/شتێکی ڕابردوو بێت"""),
                     SentencesRow(
                       englishText:
                           """The dictator's acts were like those of a latter-day Caligula.""",

@@ -161,7 +161,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "imitator", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) ک/شت کە کۆپی ک/شتی دیکە دەکات"""),
+                        text: """١. (ناو) کەسێک/شتێک کە کۆپی کەسێک/شتێکی دیکە دەکات"""),
                     SentencesRow(
                       englishText:
                           """The band's success has inspired hundreds of imitators.""",

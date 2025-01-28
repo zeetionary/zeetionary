@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylocally locally
-WORD_WEB locally locally locally
-haʊʊʊʊʊʊʊ4
+- Adverb: locally
+1. By a particular locality
+"it was locally decided"
+ 
+2. To a restricted area of the body (- topically)
+"apply this medicine locally";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "locally";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Do you live locally?""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/YZoZr_m9WLU?t=100';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/gO_gm74yiUY?t=872';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/bHIhgxav9LY?t=237';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/M7ikhWfHQc8?t=107';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/DuFyGHgGIKg?t=619';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/SwQhKFMxmDY?t=700';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """locally""",
                       // alsoEnglishWord: "also: locally",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈləʊkəli/""",
+                      americanText: """IpaUS: /ˈləʊkəli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بە شێوەیێکی ناوچەیی یا خۆجێیی، ناوچەیی‌یانە، بە شێوەی شوێنی
 """),
 // With short examples define "locally", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵکار) لەو شوێنەی کە قسەی لەسەر دەکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Do you live locally?""",
+                      kurdishText: """لەم نزیکە دەژیت؟""",
+                      englishNote: """This means the person is asking if you live in the nearby area or close to the current location.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

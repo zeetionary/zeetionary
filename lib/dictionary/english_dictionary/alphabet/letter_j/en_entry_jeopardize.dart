@@ -164,7 +164,7 @@ ${englishMeaningConst.text}
 // With short examples define "jeopardize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) درووستکردنی مەترسی زیان گەیان یان لەناوبردنی ک/شت"""),
+                            """١. (کردار) درووستکردنی مەترسی زیان گەیان یان لەناوبردنی کەسێک/شتێک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: endanger"),
                     SentencesRow(
                       englishText:

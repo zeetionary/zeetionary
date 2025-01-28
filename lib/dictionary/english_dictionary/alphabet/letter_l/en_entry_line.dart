@@ -199,7 +199,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He traces a line in white paint along the wall.""");
+    await flutterTts
+        .speak("""He traces a line in white paint along the wall.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -213,7 +214,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Why is there that faint vertical line on the screen?""");
+    await flutterTts
+        .speak("""Why is there that faint vertical line on the screen?""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
@@ -227,7 +229,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She crossed the centre line and hit an oncoming truck.""");
+    await flutterTts
+        .speak("""She crossed the centre line and hit an oncoming truck.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -255,7 +258,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The bright light shows all the lines on your face.""");
+    await flutterTts
+        .speak("""The bright light shows all the lines on your face.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
@@ -311,28 +315,32 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I was talking to John when the line suddenly went dead.""");
+    await flutterTts
+        .speak("""I was talking to John when the line suddenly went dead.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""If you hold the line, I'll see if she is available.""");
+    await flutterTts
+        .speak("""If you hold the line, I'll see if she is available.""");
   }
 
   Future<void> speaksentence21(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The train was delayed because a tree had fallen across the line.""");
+    await flutterTts.speak(
+        """The train was delayed because a tree had fallen across the line.""");
   }
 
   Future<void> speaksentence22(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We got off the bus near the end of the line at San Gerardo.""");
+    await flutterTts.speak(
+        """We got off the bus near the end of the line at San Gerardo.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
@@ -346,21 +354,24 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The town is in a direct line between London and the coast.""");
+    await flutterTts.speak(
+        """The town is in a direct line between London and the coast.""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They followed the line of the river for three miles.""");
+    await flutterTts
+        .speak("""They followed the line of the river for three miles.""");
   }
 
   Future<void> speaksentence26(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Their aim was to block guerrilla supply lines.""");
+    await flutterTts
+        .speak("""Their aim was to block guerrilla supply lines.""");
   }
 
   Future<void> speaksentence27(String languageCode) async {
@@ -374,14 +385,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Write the title of your essay on the top line.""");
+    await flutterTts
+        .speak("""Write the title of your essay on the top line.""");
   }
 
   Future<void> speaksentence29(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I can only remember the first two lines of that song.""");
+    await flutterTts
+        .speak("""I can only remember the first two lines of that song.""");
   }
 
   Future<void> speaksentence30(String languageCode) async {
@@ -395,7 +408,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A team of programmers wrote 200 000 lines of code.""");
+    await flutterTts
+        .speak("""A team of programmers wrote 200 000 lines of code.""");
   }
 
   Future<void> speaksentence32(String languageCode) async {
@@ -423,7 +437,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She started coughing in the middle of the line.""");
+    await flutterTts
+        .speak("""She started coughing in the middle of the line.""");
   }
 
   Future<void> speaksentence36(String languageCode) async {
@@ -437,7 +452,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Don't give me that line about having to work late again.""");
+    await flutterTts
+        .speak("""Don't give me that line about having to work late again.""");
   }
 
   Future<void> speaksentence38(String languageCode) async {
@@ -465,70 +481,80 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""When he reeled in his line, there was nothing on the end of it.""");
+    await flutterTts.speak(
+        """When he reeled in his line, there was nothing on the end of it.""");
   }
 
   Future<void> speaksentence42(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Telephone lines were brought down in the storm.""");
+    await flutterTts
+        .speak("""Telephone lines were brought down in the storm.""");
   }
 
   Future<void> speaksentence43(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""They made plans for new sewage lines and roads.""");
+    await flutterTts
+        .speak("""They made plans for new sewage lines and roads.""");
   }
 
   Future<void> speaksentence44(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The storm has cut off electricity lines and blocked roads.""");
+    await flutterTts.speak(
+        """The storm has cut off electricity lines and blocked roads.""");
   }
 
   Future<void> speaksentence45(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He remembers the first time he crossed the line into Iraq.""");
+    await flutterTts.speak(
+        """He remembers the first time he crossed the line into Iraq.""");
   }
 
   Future<void> speaksentence46(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The Equator is an imaginary line encircling the globe.""");
+    await flutterTts
+        .speak("""The Equator is an imaginary line encircling the globe.""");
   }
 
   Future<void> speaksentence47(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""We want to cut across lines of race, sex and religion.""");
+    await flutterTts
+        .speak("""We want to cut across lines of race, sex and religion.""");
   }
 
   Future<void> speaksentence48(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""There's a fine line between showing interest in what someone is doing and interfering in it.""");
+    await flutterTts.speak(
+        """There's a fine line between showing interest in what someone is doing and interfering in it.""");
   }
 
   Future<void> speaksentence49(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The company line is that discrimination in any form is not tolerated.""");
+    await flutterTts.speak(
+        """The company line is that discrimination in any form is not tolerated.""");
   }
 
   Future<void> speaksentence50(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The government is taking a firm line on terrorism.""");
+    await flutterTts
+        .speak("""The government is taking a firm line on terrorism.""");
   }
 
   Future<void> speaksentence51(String languageCode) async {
@@ -542,7 +568,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The police are pursuing a new line of inquiry.""");
+    await flutterTts
+        .speak("""The police are pursuing a new line of inquiry.""");
   }
 
   Future<void> speaksentence53(String languageCode) async {
@@ -556,14 +583,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""That was the first in a whole line of mistakes and bad decisions.""");
+    await flutterTts.speak(
+        """That was the first in a whole line of mistakes and bad decisions.""");
   }
 
   Future<void> speaksentence55(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""There is some benefit to having a clear line of authority.""");
+    await flutterTts.speak(
+        """There is some benefit to having a clear line of authority.""");
   }
 
   Future<void> speaksentence56(String languageCode) async {
@@ -577,7 +606,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He traced the line of her jaw with his finger.""");
+    await flutterTts
+        .speak("""He traced the line of her jaw with his finger.""");
   }
 
   Future<void> speaksentence58(String languageCode) async {
@@ -1094,8 +1124,10 @@ ${englishMeaningConst.text}
 // With short examples define "line", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ناو) هێڵ"""),
                     SentencesRow(
-                      englishText: """He wrote the title and drew a line under it.""",
-                      kurdishText: """سەردێڕەکەی نووسی و هێڵێکی بە ژێریدا هێنا.""",
+                      englishText:
+                          """He wrote the title and drew a line under it.""",
+                      kurdishText:
+                          """سەردێڕەکەی نووسی و هێڵێکی بە ژێریدا هێنا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1103,7 +1135,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She could draw a perfectly straight line.""",
+                      englishText:
+                          """She could draw a perfectly straight line.""",
                       kurdishText: """دەیتوانی هێڵێکی تەواو ڕاست بکێشێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
@@ -1112,8 +1145,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He traces a line in white paint along the wall.""",
-                      kurdishText: """هێڵێک بە بۆیەی سپی بە دیوارەکەدا دەکێشێت.""",
+                      englishText:
+                          """He traces a line in white paint along the wall.""",
+                      kurdishText:
+                          """هێڵێک بە بۆیەی سپی بە دیوارەکەدا دەکێشێت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1122,7 +1157,8 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """A red line marks where the wall stood.""",
-                      kurdishText: """هێڵێکی سوور ئەو شوێنە دیاری دەکات کە دیوارەکەی لێبوو.""",
+                      kurdishText:
+                          """هێڵێکی سوور ئەو شوێنە دیاری دەکات کە دیوارەکەی لێبوو.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1130,17 +1166,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Why is there that faint vertical line on the screen?""",
-                      kurdishText: """بۆچی ئەو هێڵە ستوونییە کاڵە لەسەر شاشەکەیە؟""",
+                      englishText:
+                          """Why is there that faint vertical line on the screen?""",
+                      kurdishText:
+                          """بۆچی ئەو هێڵە ستوونییە کاڵە لەسەر شاشەکەیە؟""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) هێڵێک لەسەر زەوی، بۆ نموونە کە کە ناوچەی یاریگایەک دیاری دەکات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) هێڵێک لەسەر زەوی، بۆ نموونە کە کە ناوچەی یاریگایەک دیاری دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The first to cross the line wins the race.""",
-                      kurdishText: """یەکەم کەس کە هێڵەکە تێپەڕێنێت پێشبڕکێیەکە دەباتەوە.""",
+                      englishText:
+                          """The first to cross the line wins the race.""",
+                      kurdishText:
+                          """یەکەم کەس کە هێڵەکە تێپەڕێنێت پێشبڕکێیەکە دەباتەوە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1148,8 +1190,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She crossed the centre line and hit an oncoming truck.""",
-                      kurdishText: """هێڵی ناوەڕاستی تێپەڕاند و کێشای بە پێڕۆیەکی هاتوودا.""",
+                      englishText:
+                          """She crossed the centre line and hit an oncoming truck.""",
+                      kurdishText:
+                          """هێڵی ناوەڕاستی تێپەڕاند و کێشای بە پێڕۆیەکی هاتوودا.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
@@ -1163,7 +1207,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ناو) خاڵی سەر پێست کە زۆرجار لە پیریدا درووست دەبێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (ناو) خاڵی سەر پێست کە زۆرجار لە پیریدا درووست دەبێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: wrinkle"),
                     SentencesRow(
                       englishText: """He has fine lines around his eyes.""",
@@ -1175,7 +1221,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I'm starting to get lines around my mouth.""",
+                      englishText:
+                          """I'm starting to get lines around my mouth.""",
                       kurdishText: """خەریکە خەت لەسەر دەمم درووست دەبێت.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
@@ -1184,17 +1231,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The bright light shows all the lines on your face.""",
-                      kurdishText: """ڕۆشناییە ڕووناکەکە هەموو خەتەکانی سەر ڕووخسارت پیشان دەدات.""",
+                      englishText:
+                          """The bright light shows all the lines on your face.""",
+                      kurdishText:
+                          """ڕۆشناییە ڕووناکەکە هەموو خەتەکانی سەر ڕووخسارت پیشان دەدات.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (ناو) ڕیزێک لە خەڵکی یان شت پێکەوە"""),
+                    const DefinitionKurdish(
+                        text: """٤. (ناو) ڕیزێک لە خەڵکی یان شت پێکەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They formed a line and marched forward.""",
-                      kurdishText: """ڕیزێکیان درووستکرد و بۆ پێشەوە ڕێپێوانیان ئەنجام دا.""",
+                      englishText:
+                          """They formed a line and marched forward.""",
+                      kurdishText:
+                          """ڕیزێکیان درووستکرد و بۆ پێشەوە ڕێپێوانیان ئەنجام دا.""",
                       onPressedBritish: () => speaksentence12("en-GB"),
                       onPressedAmerican: () => speaksentence12("en-US"),
                     ),
@@ -1217,7 +1269,8 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (ناو) ڕیزێک لە خەڵکی"""),
+                    const DefinitionKurdish(
+                        text: """٥. (ناو) ڕیزێک لە خەڵکی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """If you want a ticket, get in line.""",
@@ -1229,7 +1282,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """There's a line for the women's bathroom.""",
+                      englishText:
+                          """There's a line for the women's bathroom.""",
                       kurdishText: """ڕیزێک هەیە بۆ تەوالێتی ژنان.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
@@ -1244,11 +1298,14 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (ناو) پەیوەندیی تەلەفۆنی؛ ژمارەیەکی دیاریکراوی تەلەفۆن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٦. (ناو) پەیوەندیی تەلەفۆنی؛ ژمارەیەکی دیاریکراوی تەلەفۆن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I tried to call but the line was busy.""",
-                      kurdishText: """هەوڵم دا پەیوەندی بکەم بەڵام هێڵەکە گیرابوو.""",
+                      kurdishText:
+                          """هەوڵم دا پەیوەندی بکەم بەڵام هێڵەکە گیرابوو.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -1256,8 +1313,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I was talking to John when the line suddenly went dead.""",
-                      kurdishText: """لەگەڵ جۆن قسەم دەکرد کە هێڵەکە لەناکاو نەما.""",
+                      englishText:
+                          """I was talking to John when the line suddenly went dead.""",
+                      kurdishText:
+                          """لەگەڵ جۆن قسەم دەکرد کە هێڵەکە لەناکاو نەما.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
@@ -1265,17 +1324,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """If you hold the line (= stay on the phone and wait), I'll see if she is available.""",
-                      kurdishText: """ئەگەر لەسەر خەت بمێنیتەوە، دەبینم بزانم بەردەستە.""",
+                      englishText:
+                          """If you hold the line (= stay on the phone and wait), I'll see if she is available.""",
+                      kurdishText:
+                          """ئەگەر لەسەر خەت بمێنیتەوە، دەبینم بزانم بەردەستە.""",
                       onPressedBritish: () => speaksentence20("en-GB"),
                       onPressedAmerican: () => speaksentence20("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (ناو) ڕێگای شەمەندەفەر یان ڕێگای دیکەی گواستنەوەی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٧. (ناو) ڕێگای شەمەندەفەر یان ڕێگای دیکەی گواستنەوەی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The train was delayed because a tree had fallen across the line.""",
-                      kurdishText: """شەمەندەفەرەکە دواکەوت بەهۆی ئەوەی دارێک کەوتبووە سەر سکەکە.""",
+                      englishText:
+                          """The train was delayed because a tree had fallen across the line.""",
+                      kurdishText:
+                          """شەمەندەفەرەکە دواکەوت بەهۆی ئەوەی دارێک کەوتبووە سەر سکەکە.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
                     ),
@@ -1283,13 +1348,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We got off the bus near the end of the line at San Gerardo.""",
-                      kurdishText: """لە پاسەکە دابەزین نزیک لە کۆتایی ڕێگاکە لە سان جێراردۆ.""",
+                      englishText:
+                          """We got off the bus near the end of the line at San Gerardo.""",
+                      kurdishText:
+                          """لە پاسەکە دابەزین نزیک لە کۆتایی ڕێگاکە لە سان جێراردۆ.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٨. (ناو) ئەو ئاراستەیەی کە ک/شت بۆی دەچێت یان لێیەتی"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٨. (ناو) ئەو ئاراستەیەی کە کەسێک/شتێک بۆی دەچێت یان لێیەتی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Just keep going in a straight line.""",
@@ -1301,8 +1370,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The town is in a direct line between London and the coast.""",
-                      kurdishText: """شارۆچکەکە لەسەر هێڵێکی لە نێوان لەندەن و کەناراوەکە.""",
+                      englishText:
+                          """The town is in a direct line between London and the coast.""",
+                      kurdishText:
+                          """شارۆچکەکە لەسەر هێڵێکی لە نێوان لەندەن و کەناراوەکە.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
@@ -1310,22 +1381,30 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They followed the line of the river for three miles.""",
-                      kurdishText: """بۆ سێ میل بە ئاراستەی ڕووبارەکەدا چوون.""",
+                      englishText:
+                          """They followed the line of the river for three miles.""",
+                      kurdishText:
+                          """بۆ سێ میل بە ئاراستەی ڕووبارەکەدا چوون.""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٩. (ناو) ڕێگایەک لە شوێنێکەوە بۆ شوێنێکی دیکە، بە تایبەتی کە بۆ مەبەستێکی دیاریکراوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٩. (ناو) ڕێگایەک لە شوێنێکەوە بۆ شوێنێکی دیکە، بە تایبەتی کە بۆ مەبەستێکی دیاریکراوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Their aim was to block guerrilla supply lines.""",
-                      kurdishText: """ئامانجیان گرتنی ڕێگای ئازووقەی گەریلا بوو.""",
+                      englishText:
+                          """Their aim was to block guerrilla supply lines.""",
+                      kurdishText:
+                          """ئامانجیان گرتنی ڕێگای ئازووقەی گەریلا بوو.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٠. (ناو) کۆمەڵە وشەیەک لەسەر لاپەڕەیەک کە پێکەوە لە یەک ڕیزن؛ ئەو ڕیزەی وشەکانی لەسەر دەنووسرێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٠. (ناو) کۆمەڵە وشەیەک لەسەر لاپەڕەیەک کە پێکەوە لە یەک ڕیزن؛ ئەو ڕیزەی وشەکانی لەسەر دەنووسرێت"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Look at line 5 of the text.""",
@@ -1337,8 +1416,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Write the title of your essay on the top line.""",
-                      kurdishText: """ناونیشانی داڕشتنەکەت لە دێڕی یەکەم بنووسە.""",
+                      englishText:
+                          """Write the title of your essay on the top line.""",
+                      kurdishText:
+                          """ناونیشانی داڕشتنەکەت لە دێڕی یەکەم بنووسە.""",
                       onPressedBritish: () => speaksentence28("en-GB"),
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),
@@ -1346,8 +1427,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I can only remember the first two lines of that song.""",
-                      kurdishText: """تەنها یەکەم دوو دێڕی ئەو گۆرانییەم بیرە.""",
+                      englishText:
+                          """I can only remember the first two lines of that song.""",
+                      kurdishText:
+                          """تەنها یەکەم دوو دێڕی ئەو گۆرانییەم بیرە.""",
                       onPressedBritish: () => speaksentence29("en-GB"),
                       onPressedAmerican: () => speaksentence29("en-US"),
                     ),
@@ -1364,13 +1447,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A team of programmers wrote 200 000 lines of code (= computer programming language).""",
-                      kurdishText: """تیمێک لە پڕۆگرامسازان ٢٠٠,٠٠٠ ڕیزە کۆدیان نووسی.""",
+                      englishText:
+                          """A team of programmers wrote 200 000 lines of code (= computer programming language).""",
+                      kurdishText:
+                          """تیمێک لە پڕۆگرامسازان ٢٠٠,٠٠٠ ڕیزە کۆدیان نووسی.""",
                       onPressedBritish: () => speaksentence31("en-GB"),
                       onPressedAmerican: () => speaksentence31("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١١. (ناو) ئەو قسانەی کە ئەکتەرێک دەیانکات لە فیلم یان شانۆیەک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١١. (ناو) ئەو قسانەی کە ئەکتەرێک دەیانکات لە فیلم یان شانۆیەک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """I keep forgetting my lines.""",
@@ -1382,7 +1469,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The way she delivers the line is hilarious.""",
+                      englishText:
+                          """The way she delivers the line is hilarious.""",
                       kurdishText: """شێوازی گوتنی دێڕەکانی پێکەنیناوییە.""",
                       onPressedBritish: () => speaksentence33("en-GB"),
                       onPressedAmerican: () => speaksentence33("en-US"),
@@ -1400,13 +1488,16 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She started coughing in the middle of the line.""",
+                      englishText:
+                          """She started coughing in the middle of the line.""",
                       kurdishText: """دەستیکرد بە کۆکین لە ناوەڕاستی قسەکان.""",
                       onPressedBritish: () => speaksentence35("en-GB"),
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٢. (ناو) سزایەک کە قوتابییەک دەبێت ڕستەیەک چەند جارێک بنووسێتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٢. (ناو) سزایەک کە قوتابییەک دەبێت ڕستەیەک چەند جارێک بنووسێتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The teacher gave me 100 lines.""",
@@ -1415,19 +1506,26 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٣. (ناو) قسەیەک، بە تایبەتی کە کەسێک دەیڵێت بۆ بەدەستهێنانی شتێک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٣. (ناو) قسەیەک، بە تایبەتی کە کەسێک دەیڵێت بۆ بەدەستهێنانی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Don't give me that line about having to work late again.""",
-                      kurdishText: """ئەو قسەیەم پێ مەڵێوە لەسەر ئەوەی دەبێت دووبارە تا درەنگانێ کار بکەمەوە.""",
+                      englishText:
+                          """Don't give me that line about having to work late again.""",
+                      kurdishText:
+                          """ئەو قسەیەم پێ مەڵێوە لەسەر ئەوەی دەبێت دووبارە تا درەنگانێ کار بکەمەوە.""",
                       onPressedBritish: () => speaksentence37("en-GB"),
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٤. (ناو) پارچەیەک لە تەل، حەبل، هتد، بە تایبەتی کە بۆ مەبەستێکی دیاریکراو بەکاردێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٤. (ناو) پارچەیەک لە تەل، حەبل، هتد، بە تایبەتی کە بۆ مەبەستێکی دیاریکراو بەکاردێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Towels were hanging on the line (= clothes line).""",
+                      englishText:
+                          """Towels were hanging on the line (= clothes line).""",
                       kurdishText: """خاولی لەسەر تەنافەکە هەڵدرابوون.""",
                       onPressedBritish: () => speaksentence38("en-GB"),
                       onPressedAmerican: () => speaksentence38("en-US"),
@@ -1454,16 +1552,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """When he reeled in his line, there was nothing on the end of it.""",
-                      kurdishText: """کە قولابەکەیی کۆکردەوە، هیچ بە سەرەکەیەوە نەبوو (= ماسیی نەگرتبوو).""",
+                      englishText:
+                          """When he reeled in his line, there was nothing on the end of it.""",
+                      kurdishText:
+                          """کە قولابەکەیی کۆکردەوە، هیچ بە سەرەکەیەوە نەبوو (= ماسیی نەگرتبوو).""",
                       onPressedBritish: () => speaksentence41("en-GB"),
                       onPressedAmerican: () => speaksentence41("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٥. (ناو) بۆرییەک، یان وایەرێکی ئەستوور کە ئاو، گاس، یان کارەبا لە شوێنێک بۆ شوێنێکی دیکە دەگوازێتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٥. (ناو) بۆرییەک، یان وایەرێکی ئەستوور کە ئاو، گاس، یان کارەبا لە شوێنێک بۆ شوێنێکی دیکە دەگوازێتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Telephone lines were brought down in the storm.""",
+                      englishText:
+                          """Telephone lines were brought down in the storm.""",
                       kurdishText: """هێڵەکانی تەلەفۆن لە زریانەکەدا کەوتن.""",
                       onPressedBritish: () => speaksentence42("en-GB"),
                       onPressedAmerican: () => speaksentence42("en-US"),
@@ -1472,8 +1575,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """They made plans for new sewage lines and roads.""",
-                      kurdishText: """پلانیان داڕشت بۆ ڕێگای تازەی ئاوەڕۆ و ڕێگا.""",
+                      englishText:
+                          """They made plans for new sewage lines and roads.""",
+                      kurdishText:
+                          """پلانیان داڕشت بۆ ڕێگای تازەی ئاوەڕۆ و ڕێگا.""",
                       onPressedBritish: () => speaksentence43("en-GB"),
                       onPressedAmerican: () => speaksentence43("en-US"),
                     ),
@@ -1481,17 +1586,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The storm has cut off electricity lines and blocked roads.""",
-                      kurdishText: """زریانەکە هێڵەکانی کارەبا بڕی بوو و ڕێگاکانی بەست بوو.""",
+                      englishText:
+                          """The storm has cut off electricity lines and blocked roads.""",
+                      kurdishText:
+                          """زریانەکە هێڵەکانی کارەبا بڕی بوو و ڕێگاکانی بەست بوو.""",
                       onPressedBritish: () => speaksentence44("en-GB"),
                       onPressedAmerican: () => speaksentence44("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٦. (ناو) سنوورێکی خەیاڵی لە نێوان شت یان شوێنێک و یەکێکی دیکە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٦. (ناو) سنوورێکی خەیاڵی لە نێوان شت یان شوێنێک و یەکێکی دیکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He remembers the first time he crossed the line into Iraq.""",
-                      kurdishText: """یەکەم جاریی بیرە کە سووری چوونە ناو عێراقی تێپەڕاند.""",
+                      englishText:
+                          """He remembers the first time he crossed the line into Iraq.""",
+                      kurdishText:
+                          """یەکەم جاریی بیرە کە سووری چوونە ناو عێراقی تێپەڕاند.""",
                       onPressedBritish: () => speaksentence45("en-GB"),
                       onPressedAmerican: () => speaksentence45("en-US"),
                     ),
@@ -1499,17 +1610,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The Equator is an imaginary line encircling the globe.""",
-                      kurdishText: """پشتێنەی زەوی هێڵێکی خەیاڵییە کە بە دەوری جیهاندا دەچێت.""",
+                      englishText:
+                          """The Equator is an imaginary line encircling the globe.""",
+                      kurdishText:
+                          """پشتێنەی زەوی هێڵێکی خەیاڵییە کە بە دەوری جیهاندا دەچێت.""",
                       onPressedBritish: () => speaksentence46("en-GB"),
                       onPressedAmerican: () => speaksentence46("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٧. (ناو) خاڵی دابەشبوونی نێوان لایەنێکی بیرکردنەوە یان هەڵسووکەوت و یەکێکی دیکە، یان لە نێوان گرووپێک لە خەڵکی و یەکێکی دیکە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٧. (ناو) خاڵی دابەشبوونی نێوان لایەنێکی بیرکردنەوە یان هەڵسووکەوت و یەکێکی دیکە، یان لە نێوان گرووپێک لە خەڵکی و یەکێکی دیکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We want to cut across lines of race, sex and religion.""",
-                      kurdishText: """دەمانەوێت جیاکارییەکانی نەژاد، ڕەگەز، و ئایین ببەزێنین.""",
+                      englishText:
+                          """We want to cut across lines of race, sex and religion.""",
+                      kurdishText:
+                          """دەمانەوێت جیاکارییەکانی نەژاد، ڕەگەز، و ئایین ببەزێنین.""",
                       onPressedBritish: () => speaksentence47("en-GB"),
                       onPressedAmerican: () => speaksentence47("en-US"),
                     ),
@@ -1517,17 +1634,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """There's a fine line between showing interest in what someone is doing and interfering in it.""",
-                      kurdishText: """جوداییەکی ناڕوون هەیە لە نێوان پیشاندانی حەز بۆ ئەوەی کەسێک چی دەکات و دەستوەردان تێیدا.""",
+                      englishText:
+                          """There's a fine line between showing interest in what someone is doing and interfering in it.""",
+                      kurdishText:
+                          """جوداییەکی ناڕوون هەیە لە نێوان پیشاندانی حەز بۆ ئەوەی کەسێک چی دەکات و دەستوەردان تێیدا.""",
                       onPressedBritish: () => speaksentence48("en-GB"),
                       onPressedAmerican: () => speaksentence48("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٨. (ناو) هەڵوێست یان باوەڕێک، بە تایبەتی کە کەسێک بە گشتی دەیڵێت"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٨. (ناو) هەڵوێست یان باوەڕێک، بە تایبەتی کە کەسێک بە گشتی دەیڵێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The company line is that discrimination in any form is not tolerated.""",
-                      kurdishText: """ڕێسای کۆمپانیا ئەوەیە کە جیاکاری بە هیچ شێوەیەک قبووڵ ناکرێت.""",
+                      englishText:
+                          """The company line is that discrimination in any form is not tolerated.""",
+                      kurdishText:
+                          """ڕێسای کۆمپانیا ئەوەیە کە جیاکاری بە هیچ شێوەیەک قبووڵ ناکرێت.""",
                       onPressedBritish: () => speaksentence49("en-GB"),
                       onPressedAmerican: () => speaksentence49("en-US"),
                     ),
@@ -1535,17 +1658,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The government is taking a firm line on terrorism.""",
-                      kurdishText: """حکومەت هەڵوێستی توندی هەیە لەسەر تیرۆریزم.""",
+                      englishText:
+                          """The government is taking a firm line on terrorism.""",
+                      kurdishText:
+                          """حکومەت هەڵوێستی توندی هەیە لەسەر تیرۆریزم.""",
                       onPressedBritish: () => speaksentence50("en-GB"),
                       onPressedAmerican: () => speaksentence50("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٩. (ناو) ڕێگایەکی بیرکردنەوە لە یان کردنی شتێک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٩. (ناو) ڕێگایەکی بیرکردنەوە لە یان کردنی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """His research follows quite different lines.""",
-                      kurdishText: """توێژینەوەکەی ڕێگای تەواو جیاواز پەیڕەو دەکات.""",
+                      englishText:
+                          """His research follows quite different lines.""",
+                      kurdishText:
+                          """توێژینەوەکەی ڕێگای تەواو جیاواز پەیڕەو دەکات.""",
                       onPressedBritish: () => speaksentence51("en-GB"),
                       onPressedAmerican: () => speaksentence51("en-US"),
                     ),
@@ -1553,13 +1682,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The police are pursuing a new line of inquiry (= way of finding out information).""",
-                      kurdishText: """پۆلیس ڕێگایەکی دیکەی لێکۆڵینەوە بەکاردێنن.""",
+                      englishText:
+                          """The police are pursuing a new line of inquiry (= way of finding out information).""",
+                      kurdishText:
+                          """پۆلیس ڕێگایەکی دیکەی لێکۆڵینەوە بەکاردێنن.""",
                       onPressedBritish: () => speaksentence52("en-GB"),
                       onPressedAmerican: () => speaksentence52("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢٠. (ناو) زنجیرەیەک لە خەڵکی، شت، یان ڕووداو کە بە دوای یەکدا دێن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢٠. (ناو) زنجیرەیەک لە خەڵکی، شت، یان ڕووداو کە بە دوای یەکدا دێن"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She came from a long line of doctors.""",
@@ -1571,18 +1704,25 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """That was the first in a whole line of mistakes and bad decisions.""",
-                      kurdishText: """ئەوە یەکەم بوو لە زنجیرەیەک لە هەڵە و بڕیاری خراپدا.""",
+                      englishText:
+                          """That was the first in a whole line of mistakes and bad decisions.""",
+                      kurdishText:
+                          """ئەوە یەکەم بوو لە زنجیرەیەک لە هەڵە و بڕیاری خراپدا.""",
                       onPressedBritish: () => speaksentence54("en-GB"),
                       onPressedAmerican: () => speaksentence54("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢١. (ناو) زنجیرەیەک لە خەڵکی بەپێی گرنگییان"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢١. (ناو) زنجیرەیەک لە خەڵکی بەپێی گرنگییان"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """There is some benefit to having a clear line of authority.""",
-                      kurdishText: """قازانجێک هەیە لە هەبوونی زنجیرەیەکی ڕوونی دەسەڵات.""",
-                      englishNote: """This means it is useful to have an organized structure where responsibilities and decision-making powers are clearly assigned.""",
+                      englishText:
+                          """There is some benefit to having a clear line of authority.""",
+                      kurdishText:
+                          """قازانجێک هەیە لە هەبوونی زنجیرەیەکی ڕوونی دەسەڵات.""",
+                      englishNote:
+                          """This means it is useful to have an organized structure where responsibilities and decision-making powers are clearly assigned.""",
                       onPressedBritish: () => speaksentence55("en-GB"),
                       onPressedAmerican: () => speaksentence55("en-US"),
                     ),
@@ -1590,26 +1730,33 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Orders came down the line from the very top.""",
-                      kurdishText: """فەرمانەکان بە زنجیرەکەدا لە سەرەوەوە دەهاتنە خوارەوە.""",
+                      englishText:
+                          """Orders came down the line from the very top.""",
+                      kurdishText:
+                          """فەرمانەکان بە زنجیرەکەدا لە سەرەوەوە دەهاتنە خوارەوە.""",
                       onPressedBritish: () => speaksentence56("en-GB"),
                       onPressedAmerican: () => speaksentence56("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢٢. (ناو) قەراغ یان شێوەی ک/شت"""),
+                    const DefinitionKurdish(
+                        text: """٢٢. (ناو) قەراغ یان شێوەی کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He traced the line of her jaw with his finger.""",
+                      englishText:
+                          """He traced the line of her jaw with his finger.""",
                       kurdishText: """پەنجەی بە قەراغی چەناگەیدا هێنا.""",
                       onPressedBritish: () => speaksentence57("en-GB"),
                       onPressedAmerican: () => speaksentence57("en-US"),
                     ),
                     // skipped_meaning
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢٣. (کردار) داپۆشینی ناوەوەی شتێک بە چینێک لە مادەیەکی دیکە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢٣. (کردار) داپۆشینی ناوەوەی شتێک بە چینێک لە مادەیەکی دیکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She lines the drawers with old wallpaper.""",
+                      englishText:
+                          """She lines the drawers with old wallpaper.""",
                       kurdishText: """چەکمەجەکان بە وێنەی کۆن دادەپۆشێت.""",
                       onPressedBritish: () => speaksentence58("en-GB"),
                       onPressedAmerican: () => speaksentence58("en-US"),
@@ -1618,8 +1765,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I lined the sides of the box with black card.""",
-                      kurdishText: """تەنیشتەکانی سندووقەکەم بە کاردی ڕەش داپۆشی.""",
+                      englishText:
+                          """I lined the sides of the box with black card.""",
+                      kurdishText:
+                          """تەنیشتەکانی سندووقەکەم بە کاردی ڕەش داپۆشی.""",
                       onPressedBritish: () => speaksentence59("en-GB"),
                       onPressedAmerican: () => speaksentence59("en-US"),
                     ),
@@ -1627,13 +1776,16 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (کردار) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I lined the curtains with heavy cotton.""",
+                      englishText:
+                          """I lined the curtains with heavy cotton.""",
                       kurdishText: """پەردەکانم بە لۆکەی قورس داپۆشی.""",
                       onPressedBritish: () => speaksentence60("en-GB"),
                       onPressedAmerican: () => speaksentence60("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢٤. (کردار) درووستکردنی چینێک لە ناوەوەی شتێکدا"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢٤. (کردار) درووستکردنی چینێک لە ناوەوەی شتێکدا"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """White tiles line the walls.""",
@@ -1642,11 +1794,14 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence61("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢٥. (کردار) هەبوونی ڕیز بە درێژایی شتێک"""),
+                    const DefinitionKurdish(
+                        text: """٢٥. (کردار) هەبوونی ڕیز بە درێژایی شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Crowds lined the streets to watch the race.""",
-                      kurdishText: """ژمارەیەک جەماوەر ڕیزیان لە شەقامەکان درووستکردووە بۆ سەیرکردنی پێشبڕکێیەکە.""",
+                      englishText:
+                          """Crowds lined the streets to watch the race.""",
+                      kurdishText:
+                          """ژمارەیەک جەماوەر ڕیزیان لە شەقامەکان درووستکردووە بۆ سەیرکردنی پێشبڕکێیەکە.""",
                       onPressedBritish: () => speaksentence62("en-GB"),
                       onPressedAmerican: () => speaksentence62("en-US"),
                     ),
@@ -1655,7 +1810,8 @@ ${englishMeaningConst.text}
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Trees line the road on both sides.""",
-                      kurdishText: """درەخت ڕیزیان بەستووە لەسەر شەقامەکە بە هەردوو لادا.""",
+                      kurdishText:
+                          """درەخت ڕیزیان بەستووە لەسەر شەقامەکە بە هەردوو لادا.""",
                       onPressedBritish: () => speaksentence63("en-GB"),
                       onPressedAmerican: () => speaksentence63("en-US"),
                     ),

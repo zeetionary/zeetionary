@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lobster (Derived forms: lobsters)
+1. Any of several edible marine crustaceans of the families Homaridae and Nephropsidae and Palinuridae
+ 
+2. Flesh of a lobster
 
-EnglishEntrylobster lobster
-WORD_WEB lobster lobster lobster
-haʊʊʊʊʊʊʊ4
+- Verb: lobster (Derived forms: lobstering, lobsters, lobstered)
+1. Fish for lobster
+
+- Adjective: lobster
+1. Red coloured, esp. from sunburn
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lobster";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +92,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The chef prepared fresh lobster for dinner.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/SiUyRFhKqpA';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/dJWMmwuqUvA?t=6';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/f4EXpaZYzt8?t=643';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/6gr_gMSF0c0?t=13';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/q8y-RLkpsnk?t=511';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/EZiR6zRsgac?t=41';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lobster""",
                       // alsoEnglishWord: "also: lobster",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɒbstə(r)/""",
+                      americanText: """IpaUS: /ˈlɑːbstər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +997,10 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "lobster", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ئاژەڵێکی دەریایی کە پارێزبەندێکی بەهێزی هەیە لەگەڵ لاشەیەکی بەش‌بەشکراوی درێژ، و هەشت قاچ و دوو چنگی هەیە؛ گۆشتی ئەم ئاژەڵە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The chef prepared fresh lobster for dinner.""",
+                      kurdishText: """چێشتلێنەرەکە قرژاڵی تازەی ئامادە کرد بۆ نانی ئێوارە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

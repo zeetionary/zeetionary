@@ -172,7 +172,7 @@ ${englishMeaningConst.text}
 // With short examples define "interception", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەوەی ڕێگری بکەیت لە ک/شت لە گەشتن بە شوێنێک کە بۆی دەچێت"""),
+                            """١. (ناو) ئەوەی ڕێگری بکەیت لە کەسێک/شتێک لە گەشتن بە شوێنێک کە بۆی دەچێت"""),
                     SentencesRow(
                       englishText:
                           """The missile defence system resulted in the successful interception of five of the six rockets.""",

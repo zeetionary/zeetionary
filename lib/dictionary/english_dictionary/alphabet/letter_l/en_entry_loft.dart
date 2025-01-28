@@ -52,13 +52,27 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: loft (Derived forms: lofts)
+1. Floor consisting of a large unpartitioned space over a factory, warehouse or other commercial space
+ 
+2. Floor consisting of open space at the top of a house just below roof; often used for storage (- attic, garret)
+ 
+3. (golf) the backward slant on the head of some golf clubs that is designed to drive the ball high in the air
+ 
+4. A raised shelter in which pigeons are kept (- pigeon loft)
 
-EnglishEntryloft loft
-WORD_WEB loft loft loft
-haʊʊʊʊʊʊʊ4
+- Verb: loft (Derived forms: lofts, lofting, lofted)
+1. Store in a loft
+ 
+2. Propel through the air
+"The rocket lofted the space shuttle into the air"
+ 
+3. Kick or strike high in the air
+"loft a ball"
+ 
+4. Lay out a full-scale working drawing of the lines of a vessel's hull
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "loft";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +101,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The firm specializes in loft conversions.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""He fell from the barn loft in a freak accident.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +940,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Ir3eJ1t13fk?t=317';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/py4zetCEYzA?t=218';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/K3YnaQ64ELY?t=154';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/KmaS21OmhKI?t=63';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/dS3njIz_Qzs?t=212';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/b5fNif_WGdc?t=31';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +965,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """loft""",
                       // alsoEnglishWord: "also: loft",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɒft/""",
+                      americanText: """IpaUS: /lɔːft/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +1004,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: ژووری ژێر یان میچی ماڵ(ەوە)، دیوی نزیک بە میچ، ژوورە،	دیوی سەر تەویلە،	کادێن، کادان، کۆتان، جێ‌تفاق
 """),
 // With short examples define "loft", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) شوێنێک لە خوار بنبانی خانوویەکەوە کە زۆرجار بۆ هەڵگرتنی شت بەکاردێت و هەندێک جار دەکرێت بە ژوور"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The firm specializes in loft conversions (= making lofts into rooms).""",
+                      kurdishText: """کۆمپانیاکە شارەزایی هەیە لە کردن بە ژووری بن‌میچ.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) بەشی سەرەوەی کڵێسا، کارگەیەک، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He fell from the barn loft in a freak accident.""",
+                      kurdishText: """لە ڕووداوێکی سەیردا لە سەربانی ئەخوڕەکە کەوتە خوارەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

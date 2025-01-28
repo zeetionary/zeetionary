@@ -201,7 +201,8 @@ ${englishMeaningConst.text}
 // """),
 // With short examples define "impress", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (کردار) ئەوەی زۆر سەرسامی ک/شت ببیت"""),
+                        text:
+                            """١. (کردار) ئەوەی زۆر سەرسامی کەسێک/شتێک ببیت"""),
                     SentencesRow(
                       englishText:
                           """We interviewed a number of candidates but none of them impressed us.""",

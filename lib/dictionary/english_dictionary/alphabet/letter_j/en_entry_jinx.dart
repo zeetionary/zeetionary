@@ -197,7 +197,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) بەختی خراپ؛ ک/شت کە باوەڕ وایە بەختی خراپ دەهێنێت"""),
+                            """٢. (ناو) بەختی خراپ؛ کەسێک/شتێک کە باوەڕ وایە بەختی خراپ دەهێنێت"""),
                     SentencesRow(
                       englishText:
                           """I'm convinced there's a jinx on this car.""",

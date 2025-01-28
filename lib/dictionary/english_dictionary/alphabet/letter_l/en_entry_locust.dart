@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylocust locust
-WORD_WEB locust locust locust
-haʊʊʊʊʊʊʊ4
+- Noun: locust (Derived forms: locusts)
+1. Migratory grasshoppers of warm regions having short antennae
+ 
+2. Hardwood from any of various locust trees
+ 
+3. Any of various hardwood trees of the family Leguminosae (- locust tree)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "locust";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The locusts have destroyed a lot of the crops.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/5q6VjTASV8I?t=147';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/wJa5Ch0O4BI?t=6388';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/nl8o9PsJPAQ?t=67';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/jJA3dYwIB3s?t=221';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/HzUIUTatyZI?t=335';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/vGQQbulRUjY?t=240';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """locust""",
                       // alsoEnglishWord: "also: locust",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈləʊkəst/""",
+                      americanText: """IpaUS: /ˈləʊkəst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کوللە، کولە، کولو، مەلیە، سوسرک
 """),
 // With short examples define "locust", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) مێروویەکی گەورە کە لە وڵاتە گەرمەکان دەژی و بە گرووپ دەژین و هەموو دانەوێڵەی ناوچەیەک وێران دەکەن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The locusts have destroyed a lot of the crops.""",
+                      kurdishText: """ کوللەکان زۆربەی بەروبوومەکانیان لەناو بر.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

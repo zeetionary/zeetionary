@@ -164,7 +164,7 @@ ${englishMeaningConst.text}
 // With short examples define "irreverently", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە ڕێزت نەبێت بۆ ک/شت کە کەسانی دیکە ڕێزی دەگرن"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە ڕێزت نەبێت بۆ کەسێک/شتێک کە کەسانی دیکە ڕێزی دەگرن"""),
                     SentencesRow(
                       englishText: """She stuck out her tongue irreverently.""",
                       kurdishText: """بێ‌ڕێزانە زمانی دەرهێنا.""",

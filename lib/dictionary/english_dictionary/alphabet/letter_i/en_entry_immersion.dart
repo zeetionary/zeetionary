@@ -176,7 +176,7 @@ ${englishMeaningConst.text}
 // With short examples define "immersion", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەوەی ک/شت بخەیتە ناو شلەیەک، بە تایبەتی بە شێوەیەک کە بە تەواوی دابپۆشرێن"""),
+                            """١. (ناو) ئەوەی کەسێک/شتێک بخەیتە ناو شلەیەک، بە تایبەتی بە شێوەیەک کە بە تەواوی دابپۆشرێن"""),
                     SentencesRow(
                       englishText:
                           """Immersion in cold water resulted in rapid loss of heat.""",

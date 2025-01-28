@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: locomotive
+1. Of or relating to locomotion (- locomotor, loco [informal])
 
-EnglishEntrylocomotive locomotive
-WORD_WEB locomotive locomotive locomotive
-haʊʊʊʊʊʊʊ4
+- Noun: locomotive (Derived forms: locomotives)
+1. A wheeled vehicle consisting of a self-propelled engine that is used to draw trains along railway tracks (- engine, locomotive engine, railway locomotive [Brit, Cdn], loco [informal], railroad locomotive [N. Amer])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "locomotive";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Modern locomotives use electricity or diesel.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/3wYnMaahePg?t=547';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/ajbooXnvsE8?t=16';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/b4wRdoWpw0w?t=234';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Jw2wn4JYakY?t=538';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/hkwvOP6AxLo?t=157';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/Nteyw40i9So?t=19';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """locomotive""",
                       // alsoEnglishWord: "also: locomotive",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌləʊkəˈməʊtɪv/""",
+                      americanText: """IpaUS: /ˌləʊkəˈməʊtɪv/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -994,12 +992,10 @@ haʊʊʊʊʊʊʊ4
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "locomotive", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) بزوێنەری شەمەندەفەر"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Modern locomotives use electricity or diesel.""",
+                      kurdishText: """گەڕۆکە مۆدێرنەکان بۆ کارکردن پشت بە کارەبا یان دیزڵ دەبەستن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

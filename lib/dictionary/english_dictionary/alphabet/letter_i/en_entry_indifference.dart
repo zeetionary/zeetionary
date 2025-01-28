@@ -197,7 +197,7 @@ ${englishMeaningConst.text}
 // With short examples define "indifference", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) کەمی حەز و هەست و سۆز بەرامبەر بە ک/شت"""),
+                            """١. (ناو) کەمی حەز و هەست و سۆز بەرامبەر بە کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """What she said is a matter of complete indifference to me.""",

@@ -178,7 +178,7 @@ ${englishMeaningConst.text}
 // With short examples define "influential", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە کاریگەریی زۆری هەیە لەسەر ک/شت"""),
+                            """١. (ھاوەڵناو) کە کاریگەریی زۆری هەیە لەسەر کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """His conversation with the manager was influential in his decision to join United.""",

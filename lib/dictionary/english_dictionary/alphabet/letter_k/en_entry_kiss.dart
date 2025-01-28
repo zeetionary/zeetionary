@@ -311,7 +311,8 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (ناو) ماچکردنی ک/شت"""),
+                    const DefinitionKurdish(
+                        text: """٣. (ناو) ماچکردنی کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Come here and give me a kiss!""",

@@ -172,7 +172,7 @@ ${englishMeaningConst.text}
 // With short examples define "intrinsic", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە سەر بە سرووشتی ڕاستەقینەی ک/شتە، یان بەشێکە لێی"""),
+                            """١. (ھاوەڵناو) کە سەر بە سرووشتی ڕاستەقینەی کەسێک/شتێکە، یان بەشێکە لێی"""),
                     SentencesRow(
                       englishText:
                           """Small local shops are intrinsic to the town's character.""",

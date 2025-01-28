@@ -338,7 +338,8 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ھاوەڵناو) کە کاتێکی زۆر بە ک/شت بدەیت"""),
+                        text:
+                            """٢. (ھاوەڵناو) کە کاتێکی زۆر بە کەسێک/شتێک بدەیت"""),
                     SentencesRow(
                       englishText:
                           """She was deeply involved with the local hospital.""",

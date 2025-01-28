@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylocality locality
-WORD_WEB locality locality locality
-haʊʊʊʊʊʊʊ4
+- Noun: locality (Derived forms: localities)
+1. A particular area; the surrounding or nearby region (- vicinity, neighborhood [US], neighbourhood [Brit, Cdn], neck of the woods, vicinage [N. Amer], backyard)
+"it is a rugged locality";
+ 
+2. The situation or position of an object
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "locality";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +87,23 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""There is no airport in the locality.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts
+        .speak("""We talk of the brain as the locality of thought.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts
+        .speak("""This bird is found in over 70 different localities.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Oese1nrwXk0?t=172';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/GsK5NaSCkho?t=98';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/tqPub3p3k5E?t=414';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/IXAZLwKP6fM?t=1777';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ctwqG7qAbAg?t=413';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/JnKzt6Xq-w4?t=445';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """locality""",
                       // alsoEnglishWord: "also: locality",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: locality""",
+                      americanText: """IpaUS: locality""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +992,29 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: شوێن، جێگا، حەن، جێ، دەروبەر، جێ یان شوێنی تایبەتی، شوێنی جوگرافیایی
 """),
 // With short examples define "locality", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) ناوچەی دەوری ئەو شوێنەی کە لێیت یان قسەی لەسەر دەکەیت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: vicinity"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """There is no airport in the locality.""",
+                      kurdishText: """هیچ فڕۆکەخانەیەک لە دەورووبەر نییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) ئەو شوێنەی کە کەسێک/شتێک تێیدا بوونی هەیە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """We talk of the brain as the locality of thought.""",
+                      kurdishText:
+                          """باسی مێشک دەکەین وەک ناوەندی بیرکردنەوە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1016,8 +1022,10 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText:
+                          """This bird is found in over 70 different localities.""",
+                      kurdishText:
+                          """ئەم باڵندەیە لە سەروو ٧٠ شوێنی جیاواز بوونی هەیە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

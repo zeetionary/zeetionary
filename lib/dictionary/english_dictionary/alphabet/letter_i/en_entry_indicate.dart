@@ -468,7 +468,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (کردار) واکردنی ئەوەی کەسێک تێبینی ک/شت بکات"""),
+                            """٤. (کردار) واکردنی ئەوەی کەسێک تێبینی کەسێک/شتێک بکات"""),
                     SentencesRow(
                       englishText:
                           """She took out a map and indicated the quickest route to us.""",

@@ -192,7 +192,7 @@ ${englishMeaningConst.text}
 // With short examples define "inherent", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە بەشێکی سەرەتایی یان هەمیشەیی ک/شتە و ناکرێت لابدرێت"""),
+                            """١. (ھاوەڵناو) کە بەشێکی سەرەتایی یان هەمیشەیی کەسێک/شتێکە و ناکرێت لابدرێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: intrinsic"),
                     SentencesRow(
                       englishText: """Violence is inherent in our society.""",

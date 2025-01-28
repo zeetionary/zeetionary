@@ -223,7 +223,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) شتێک کە کاریگەریی خراپی دەبێت لەسەر ک/شت بە شێوەیەکی خراپ"""),
+                            """٣. (ناو) شتێک کە کاریگەریی خراپی دەبێت لەسەر کەسێک/شتێک بە شێوەیەکی خراپ"""),
                     SentencesRow(
                       englishText:
                           """The singer described the photographs of her as an invasion of privacy.""",

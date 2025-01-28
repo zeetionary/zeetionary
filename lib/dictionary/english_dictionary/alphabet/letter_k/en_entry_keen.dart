@@ -403,7 +403,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (ھاوەڵناو) حەزکردنی زۆر لە ک/شت"""),
+                        text: """٣. (ھاوەڵناو) حەزکردنی زۆر لە کەسێک/شتێک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

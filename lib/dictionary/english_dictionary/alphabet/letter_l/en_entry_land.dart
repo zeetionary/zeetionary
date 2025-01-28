@@ -1113,7 +1113,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٩. (کردار) دانانی ک/شت لەسەر زەوی لە فڕۆکەیەکەوە، بەلەمێکەوە، هتد"""),
+                            """٩. (کردار) دانانی کەسێک/شتێک لەسەر زەوی لە فڕۆکەیەکەوە، بەلەمێکەوە، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The troops were landed by helicopter.""",

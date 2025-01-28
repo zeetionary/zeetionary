@@ -175,7 +175,7 @@ ${englishMeaningConst.text}
 // With short examples define "irreverent", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە ڕێزت نەبێت بۆ ک/شت کە کەسانی دیکە ڕێزی دەگرن"""),
+                            """١. (ھاوەڵناو) کە ڕێزت نەبێت بۆ کەسێک/شتێک کە کەسانی دیکە ڕێزی دەگرن"""),
                     SentencesRow(
                       englishText:
                           """The movie takes an irreverent look at the city.""",

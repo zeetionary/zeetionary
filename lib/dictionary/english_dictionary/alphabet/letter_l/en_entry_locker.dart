@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylocker locker
-WORD_WEB locker locker locker
-haʊʊʊʊʊʊʊ4
+- Noun: locker (Derived forms: lockers)
+1. A storage compartment for clothes and valuables; usually with a lock (- cabinet, storage locker)
+ 
+2. A fastener that locks or closes
+ 
+3. A trunk for storing personal possessions; usually kept at the foot of a bed (as in a barracks) (- footlocker [N. Amer])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "locker";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I left my things in my locker.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/a9m3GD0DbPY?t=629';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/oMF6pIglmmk?t=1154';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/RpeYKjzN4HU';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/gjySnrspD7E?t=662';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/BVQSr8NpjrU?t=402';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/hOUGNGWmN0k?t=692';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """locker""",
                       // alsoEnglishWord: "also: locker",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɒkə(r)/""",
+                      americanText: """IpaUS: /ˈlɑːkər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دۆڵاب (چکۆلە)، دۆڵاب‌چە، قەفەسە،	سنووق یان دۆڵابێ لەسەر کەشتی یان گەمی بۆ جل‌وبەرگ، تەقەمەنی و هتد،	ئامێر یا ئامڕازێ بۆ قوفڵ‌کردنی شتێ
 """),
 // With short examples define "locker", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) دۆڵابێکی بچووکی کە دەتوانیت قوفڵی بدەیت و جل، جانتا، هتد ـی تێدا دابنێیت کە یاری دەکەیت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I left my things in my locker.""",
+                      kurdishText: """شتەکانمم لە دۆڵابەکەم جێهێشت.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

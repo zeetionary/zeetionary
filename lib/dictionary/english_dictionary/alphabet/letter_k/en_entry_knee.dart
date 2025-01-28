@@ -325,7 +325,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٤. (کردار) لێدان لە ک/شت بە ئەژنۆ"""),
+                        text: """٤. (کردار) لێدان لە کەسێک/شتێک بە ئەژنۆ"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """He kneed his attacker in the groin.""",

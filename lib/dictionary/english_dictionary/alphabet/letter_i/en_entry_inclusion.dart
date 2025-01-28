@@ -184,7 +184,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "inclusion", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ناو) ئەوەی کە ک/شت لەخۆ بگریت"""),
+                        text: """١. (ناو) ئەوەی کە کەسێک/شتێک لەخۆ بگریت"""),
                     SentencesRow(
                       englishText: """His inclusion in the team is in doubt.""",
                       kurdishText: """لەخۆگرتنی لە تیمەکە جێگای گومانە.""",
@@ -202,7 +202,8 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) ک/شت کە لە شتێکدا لەخۆ دەگیرێت"""),
+                        text:
+                            """٢. (ناو) کەسێک/شتێک کە لە شتێکدا لەخۆ دەگیرێت"""),
                     SentencesRow(
                       englishText:
                           """There were some surprising inclusions in the list.""",

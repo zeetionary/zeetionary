@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryloathe loathe
-WORD_WEB loathe loathe loathe
-haʊʊʊʊʊʊʊ4
+- Verb: loathe (Derived forms: loathes, loathed, loathing)
+1. Find repugnant (- abhor, abominate, execrate)
+"I loathe that man";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "loathe";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +85,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""They loathe each other.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""I loathe modern art.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Jmi5trYwggM?t=370';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/JgQVj4iMm8Y?t=120';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/ewLpXw6uN28?t=193';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Ll6-eGDpimU?t=1421';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/CU8qwXYH83c?t=2';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/rHyIOIstYRA?t=12';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """loathe""",
                       // alsoEnglishWord: "also: loathe",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ləʊð/""",
+                      americanText: """IpaUS: /ləʊð/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,12 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "loathe", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(
+                        text: """١. (کردار) هەبوونی ڕقێکی زۆر بۆ کەسێک/شتێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: detest"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They loathe each other.""",
+                      kurdishText: """ڕقی زۆریان لە یەکدییە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1004,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I loathe modern art.""",
+                      kurdishText: """ڕقم لە هونەری سەردەمە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

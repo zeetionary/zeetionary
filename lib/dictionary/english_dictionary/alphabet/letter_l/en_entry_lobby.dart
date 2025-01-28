@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lobby (Derived forms: lobbies)
+1. A large entrance, reception room, or waiting area (- anteroom, antechamber, entrance hall, hall, foyer, vestibule)
+ 
+2. The people who support some common cause, business, principle or sectional interest
+ 
+3. An interest group that tries to influence legislators or bureaucrats to act in their favour, typically through lobbying (- special interest, special-interest group, special interest group, advocacy group, lobby group, pressure group, third house)
 
-EnglishEntrylobby lobby
-WORD_WEB lobby lobby lobby
-haʊʊʊʊʊʊʊ4
+- Verb: lobby (Derived forms: lobbying, lobbies, lobbied)
+1. Attempt to influence (a public official or decision-maker) in favour of a specific opinion or cause (- buttonhole [informal])
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lobby";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +91,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He was waiting for me in the lobby of the hotel.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The anti-gun lobby is/are against any change in the law.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""They have been lobbying UN officials for months now.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/IRrPnJCvz1g?t=110';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/cyzXgTaU3bo?t=382';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/AAGIi62-sAU?t=606';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/Xzv84ZdtlE0?t=1907';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ZoLU3-dhoY0?t=69';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/94O7hjS5dHg?t=412';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lobby""",
                       // alsoEnglishWord: "also: lobby",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɒbi/""",
+                      americanText: """IpaUS: /ˈlɑːbi/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,32 +994,32 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: داڵان، هەیوان، تالار، هاڵ یان هۆڵی چاوەڕوانی
 """),
 // With short examples define "lobby", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) ناوچەیەکی فراوان لە دەروازەی بینایەک کە خەڵکی تێیدا دەتوانن یەکدی ببینن و چاوەڕوان بن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: foyer"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He was waiting for me in the lobby of the hotel.""",
+                      kurdishText: """لە داڵانی هوتێلەکە چاوەڕوانم بوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ناو) کۆمەڵێک کەس کە هەوڵ دەدەن کاریگەرییان هەبێت لەسەر دیاسەتمەداران لەسەر پرسێکی دیاریکراو"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: pressure group"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The anti-gun lobby is/are against any change in the law.""",
+                      kurdishText: """کۆمەڵەی دژە چەک دژ بە هەر گۆڕانکارییەکە لە یاساکەدا.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (کردار) ئەوەی هەوڵ بدەیت کاریگەریت لەسەر سیاسەتمەداران یان حکومەت هەبێت بۆ ئەوەی پشتگیری یان دژایەتی گۆڕانێک لە یاسادا بکەن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """They have been lobbying UN officials for months now.""",
+                      kurdishText: """بۆ چەندین مانگ دەبێت ئێستاکە کە هەوڵی کەریگەری لەسەر بەرپرسانی نەتەوە یەکگرتووەکان دەدەن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

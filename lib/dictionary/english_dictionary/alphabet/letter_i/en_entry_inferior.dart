@@ -209,7 +209,7 @@ ${englishMeaningConst.text}
 // With short examples define "inferior", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کە باش نییە یان وەک ک/شتی دیکە باش نییە"""),
+                            """١. (ھاوەڵناو) کە باش نییە یان وەک کەسێک/شتێکی دیکە باش نییە"""),
                     SentencesRow(
                       englishText:
                           """Modern music is often considered inferior to that of the past.""",

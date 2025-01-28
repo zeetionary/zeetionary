@@ -197,7 +197,7 @@ ${englishMeaningConst.text}
 // With short examples define "justify", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) پیشاندانی ئەوەی ک/شت ڕاست یان گونجاوە"""),
+                            """١. (کردار) پیشاندانی ئەوەی کەسێک/شتێک ڕاست یان گونجاوە"""),
                     SentencesRow(
                       englishText:
                           """How can they justify paying such huge salaries?""",

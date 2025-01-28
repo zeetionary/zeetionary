@@ -169,7 +169,7 @@ ${englishMeaningConst.text}
 // With short examples define "inbuilt", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵناو) کوالێتییەک کە وەک بەشێکی سەرەکی ک/شت بوونی هەیە"""),
+                            """١. (ھاوەڵناو) کوالێتییەک کە وەک بەشێکی سەرەکی کەسێک/شتێک بوونی هەیە"""),
                     const AlsoEnglishckb(word: "ھەروەھا کەمتر: built-in"),
                     SentencesRow(
                       englishText:

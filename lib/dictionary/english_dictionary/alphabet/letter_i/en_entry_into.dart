@@ -309,7 +309,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ئامراز) بەرەو خاڵێک کە تێیدا لە ک/شت دەدەیت"""),
+                            """٣. (ئامراز) بەرەو خاڵێک کە تێیدا لە کەسێک/شتێک دەدەیت"""),
                     SentencesRow(
                       englishText: """The truck crashed into a parked car.""",
                       kurdishText:

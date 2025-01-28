@@ -88,7 +88,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He was elected as leader of the Democratic Party.""");
+    await flutterTts
+        .speak("""He was elected as leader of the Democratic Party.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -102,14 +103,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Union leaders agreed to begin talks with the government.""");
+    await flutterTts
+        .speak("""Union leaders agreed to begin talks with the government.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Tomorrow the President will meet with business leaders.""");
+    await flutterTts
+        .speak("""Tomorrow the President will meet with business leaders.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -123,14 +126,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""She was among the leaders of the race from the start.""");
+    await flutterTts
+        .speak("""She was among the leaders of the race from the start.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The company has emerged as a world leader in the field of engineering.""");
+    await flutterTts.speak(
+        """The company has emerged as a world leader in the field of engineering.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
@@ -994,10 +999,14 @@ ${englishMeaningConst.text}
 کوردی: ڕێبەر، پێشەوا، سەرۆک، سەرکردە، سەردەستە، فەرماندەر، فەرماندار، سەرگەورە، پێشەنگ، پێشڕەو، سەرکێش، ڕێنوێن، ڕێ‌پیشان‌دەر،	(لە ئەمریکا) ڕێبەری ئۆرکێستر یان سازبەند،	یەکەم ڤیۆلۆن‌ژەنی سازبەند،	(بریتانیا) سەروتار (هی ڕۆژنامەیێ)،	ئەسپی پێشەوە یان جڵەو (لە پێشەوەی ئەسپەکانی تری تیم یا تیپ)،	ڕاکەری پێشەوە،	(ڕووەک‌ناسی) پەل، لقی سەرەکی
 """),
 // With short examples define "leader", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) کەسێک کە سەرکردایەتی ژمارەیەک کەس دەکات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (ناو) کەسێک کە سەرکردایەتی ژمارەیەک کەس دەکات"""),
                     SentencesRow(
-                      englishText: """He was elected as leader of the Democratic Party.""",
-                      kurdishText: """وەک سەرکردەی پارتی دیموکرات هەڵبژێردرا.""",
+                      englishText:
+                          """He was elected as leader of the Democratic Party.""",
+                      kurdishText:
+                          """وەک سەرکردەی پارتی دیموکرات هەڵبژێردرا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1005,7 +1014,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She became leader of the campaign group.""",
+                      englishText:
+                          """She became leader of the campaign group.""",
                       kurdishText: """بوو بە سەرکردەی گرووپی کەمپینەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
@@ -1014,8 +1024,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Union leaders agreed to begin talks with the government.""",
-                      kurdishText: """ڕابەرانی سەندیکا دەستیان کرد بە گفتووگۆ لەگەڵ حکومەت.""",
+                      englishText:
+                          """Union leaders agreed to begin talks with the government.""",
+                      kurdishText:
+                          """ڕابەرانی سەندیکا دەستیان کرد بە گفتووگۆ لەگەڵ حکومەت.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1023,8 +1035,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Tomorrow the President will meet with business leaders.""",
-                      kurdishText: """سبەی سەرۆک چاوی بە ڕابەرە بازرگانییەکان دەکەوێت.""",
+                      englishText:
+                          """Tomorrow the President will meet with business leaders.""",
+                      kurdishText:
+                          """سبەی سەرۆک چاوی بە ڕابەرە بازرگانییەکان دەکەوێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1038,11 +1052,15 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) ک/شت کە باشترینە، یان لە پلەی یەکەمە لە پێشبڕکێیەک، بازرگانییەک، هتد"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) کەسێک/شتێک کە باشترینە، یان لە پلەی یەکەمە لە پێشبڕکێیەک، بازرگانییەک، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She was among the leaders of the race from the start.""",
-                      kurdishText: """لە نێوان باشترینەکانی پێشبڕکێیەکە بوو لە سەرەتاوە.""",
+                      englishText:
+                          """She was among the leaders of the race from the start.""",
+                      kurdishText:
+                          """لە نێوان باشترینەکانی پێشبڕکێیەکە بوو لە سەرەتاوە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
@@ -1050,8 +1068,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The company has emerged as a world leader in the field of engineering.""",
-                      kurdishText: """کۆمپانیاکە وەک باشترینی جیهان دەرکەوتووە لە بواری ئەندازیاری.""",
+                      englishText:
+                          """The company has emerged as a world leader in the field of engineering.""",
+                      kurdishText:
+                          """کۆمپانیاکە وەک باشترینی جیهان دەرکەوتووە لە بواری ئەندازیاری.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),

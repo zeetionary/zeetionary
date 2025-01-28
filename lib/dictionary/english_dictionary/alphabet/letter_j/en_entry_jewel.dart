@@ -210,7 +210,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (ناو) ک/شت زۆر گرنگ و بەنرخ"""),
+                        text: """٣. (ناو) کەسێک/شتێک زۆر گرنگ و بەنرخ"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Venice is the jewel of the Adriatic.""",

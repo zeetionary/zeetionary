@@ -243,7 +243,7 @@ ${englishMeaningConst.text}
                     ),
                     // skipped_meaning
                     // const DividerDefinition(),
-                    // const DefinitionKurdish(text: """٣. (ناو) ئەوەی کە ئامادە بیت لاوازی ک/شت پشتگوێ بخەیت"""),
+                    // const DefinitionKurdish(text: """٣. (ناو) ئەوەی کە ئامادە بیت لاوازی کەسێک/شتێک پشتگوێ بخەیت"""),
                     // const AlsoEnglishckb(word: "ھەروەھا: patience"),
                     // SentencesRow(
                     //   englishText: """He begged the audience's indulgence to read some passages from his latest book.""",

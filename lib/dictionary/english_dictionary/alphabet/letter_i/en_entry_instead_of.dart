@@ -197,7 +197,7 @@ ${englishMeaningConst.text}
 // کوردی:
 // """),
                     const DefinitionKurdish(
-                        text: """١. (ئامراز) لە جیاتی ک/شت"""),
+                        text: """١. (ئامراز) لە جیاتی کەسێک/شتێک"""),
                     SentencesRow(
                       englishText: """You can go instead of me, if you want.""",
                       kurdishText:

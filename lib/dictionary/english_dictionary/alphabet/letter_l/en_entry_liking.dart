@@ -991,7 +991,8 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "liking", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ئەوەی حەز لە ک/شت بکەیت"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی حەز لە کەسێک/شتێک بکەیت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: fondness"),
                     SentencesRow(
                       englishText: """He had a liking for fast cars.""",

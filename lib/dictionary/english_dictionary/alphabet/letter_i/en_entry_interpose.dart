@@ -190,7 +190,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (کردار) دانانی ک/شت لە نێوان دوو کەس یان شت"""),
+                            """٢. (کردار) دانانی کەسێک/شتێک لە نێوان دوو کەس یان شت"""),
                     SentencesRow(
                       englishText:
                           """He quickly interposed himself between Mel and the doorway.""",

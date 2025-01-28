@@ -437,7 +437,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (کردار) ئەوەی ک/شت بخەیتە دۆخێکی دیاریکراو بە لێدانی"""),
+                            """٤. (کردار) ئەوەی کەسێک/شتێک بخەیتە دۆخێکی دیاریکراو بە لێدانی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """The blow knocked me flat.""",

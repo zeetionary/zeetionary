@@ -368,7 +368,8 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٥. (کردار) ڕەخنەگرتن لە ک/شت بە توندی"""),
+                        text:
+                            """٥. (کردار) ڕەخنەگرتن لە کەسێک/شتێک بە توندی"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:

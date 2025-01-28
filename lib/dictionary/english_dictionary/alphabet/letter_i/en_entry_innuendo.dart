@@ -159,7 +159,7 @@ ${englishMeaningConst.text}
 // With short examples define "innuendo", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) لێدوانێکی ناڕاستەوخۆ سەبارەت بە ک/شت، زۆرجار شتێکی خراپە یان بێ‌ڕێزانە؛ ئەوەی لێدوانی لەم شێوەیە بدەیت"""),
+                            """١. (ناو) لێدوانێکی ناڕاستەوخۆ سەبارەت بە کەسێک/شتێک، زۆرجار شتێکی خراپە یان بێ‌ڕێزانە؛ ئەوەی لێدوانی لەم شێوەیە بدەیت"""),
                     SentencesRow(
                       englishText: """The song is full of sexual innuendo.""",
                       kurdishText: """گۆرانییەکە پڕ لە توانجە لەسەر سێکس.""",

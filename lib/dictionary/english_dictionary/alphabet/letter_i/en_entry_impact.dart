@@ -623,7 +623,8 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (کردار) هەبوونی کاریگەرییەک لەسەر ک/شت"""),
+                        text:
+                            """٣. (کردار) هەبوونی کاریگەرییەک لەسەر کەسێک/شتێک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: affect"),
                     SentencesRow(
                       englishText:

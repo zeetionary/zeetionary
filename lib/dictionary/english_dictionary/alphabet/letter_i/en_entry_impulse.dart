@@ -260,7 +260,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٣. (ناو) شتێک کە وەها لە ک/شت دەکات کە شتێک بکات یان بەرەوپێشچوونی هەبێت"""),
+                            """٣. (ناو) شتێک کە وەها لە کەسێک/شتێک دەکات کە شتێک بکات یان بەرەوپێشچوونی هەبێت"""),
                     SentencesRow(
                       englishText:
                           """He was motivated by the impulse for social reform.""",

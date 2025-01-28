@@ -165,7 +165,7 @@ ${englishMeaningConst.text}
 // With short examples define "immortalize", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) ئەوەی نەهێڵیت ک/شت لە داهاتوودا لەبیربکرێت"""),
+                            """١. (کردار) ئەوەی نەهێڵیت کەسێک/شتێک لە داهاتوودا لەبیربکرێت"""),
                     SentencesRow(
                       englishText:
                           """The poet fell in love with her and immortalized her in his verse.""",

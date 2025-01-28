@@ -172,7 +172,7 @@ ${englishMeaningConst.text}
 // With short examples define "infatuation", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) هەستی بەهێزی خۆشەویستی یان حەز بۆ ک/شت، بە تایبەتی کە بێ‌هۆکارە و زۆر بەردەوام نابێت"""),
+                            """١. (ناو) هەستی بەهێزی خۆشەویستی یان حەز بۆ کەسێک/شتێک، بە تایبەتی کە بێ‌هۆکارە و زۆر بەردەوام نابێت"""),
                     SentencesRow(
                       englishText:
                           """It isn't love—it's just a passing infatuation.""",

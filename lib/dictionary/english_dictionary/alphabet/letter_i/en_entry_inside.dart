@@ -304,7 +304,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "inside", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (ئامراز) لەناو یان بەرەو ناو ک/شت"""),
+                        text: """١. (ئامراز) لەناو یان بەرەو ناو کەسێک/شتێک"""),
                     SentencesRow(
                       englishText: """Go inside the house.""",
                       kurdishText: """بچۆ ماڵەکەوە.""",

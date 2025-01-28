@@ -187,7 +187,8 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) ک/شت کە زۆر سەرنجڕاکێش یان جوانە"""),
+                        text:
+                            """٢. (ناو) کەسێک/شتێک کە زۆر سەرنجڕاکێش یان جوانە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She’s an absolute knockout.""",

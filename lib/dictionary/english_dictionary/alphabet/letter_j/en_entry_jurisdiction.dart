@@ -187,7 +187,7 @@ ${englishMeaningConst.text}
 // With short examples define "jurisdiction", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) ئەو دەسەڵاتەی کە دامەزراوەیەکی فەرمی هەیەتی بۆ بڕیاردانی بڕیاریی یاسایی لەسەر ک/شت"""),
+                            """١. (ناو) ئەو دەسەڵاتەی کە دامەزراوەیەکی فەرمی هەیەتی بۆ بڕیاردانی بڕیاریی یاسایی لەسەر کەسێک/شتێک"""),
                     SentencesRow(
                       englishText:
                           """These matters do not fall within our jurisdiction.""",

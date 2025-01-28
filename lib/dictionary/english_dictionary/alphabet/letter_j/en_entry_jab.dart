@@ -234,7 +234,7 @@ ${englishMeaningConst.text}
 // With short examples define "jab", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) پاڵنانی شتێک بۆ ناو ک/شت، یان بەرەو ئاراستەی ک/شت، بە جووڵەیەکی بەهێزی لەناکاو"""),
+                            """١. (کردار) پاڵنانی شتێک بۆ ناو کەسێک/شتێک، یان بەرەو ئاراستەی کەسێک/شتێک، بە جووڵەیەکی بەهێزی لەناکاو"""),
                     const AlsoEnglishckb(word: "ھەروەھا: prod"),
                     SentencesRow(
                       englishText:

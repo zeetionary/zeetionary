@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryloathsome loathsome
-WORD_WEB loathsome loathsome loathsome
-haʊʊʊʊʊʊʊ4
+- Adjective: loathsome
+1. Causing or able to cause nausea (- nauseating, nauseous, noisome, queasy, offensive, sickening, vile, vomitous [US], loathful [archaic])
+"a loathsome smell";
+ 
+2. Highly offensive; arousing aversion or disgust (- disgusting, disgustful [archaic], distasteful, foul, loathly, repellent, repellant, repelling, revolting, skanky [informal], wicked, yucky [informal], gross-out [informal], loathful [archaic], yukky [informal])
+"a loathsome disease";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "loathsome";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The police described it as one of the most loathsome crimes of recent years.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""This was a loathsome crime against innocent people.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/qWNHsaszXpc?t=507';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/DSQG0zvR6dk?t=1796';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Sew4rctKghY?t=375';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/-BLAUhBl0nA?t=720';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/tkD6QfeRil8?t=511';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/kblqhg_qbtQ?t=635';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """loathsome""",
                       // alsoEnglishWord: "also: loathsome",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈləʊðsəm/""",
+                      americanText: """IpaUS: /ˈləʊðsəm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بێزراوی، گەن، بێزەون، قێزەون، ناخۆش
 """),
 // With short examples define "loathsome", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە تەواو پیسە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: repulsive"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The police described it as one of the most loathsome crimes of recent years.""",
+                      kurdishText: """پۆلیس بە یەکێک لە قێزەونترین تاوانەکانی مێژووی تازە ناوی هێنا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,8 +1006,8 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """This was a loathsome crime against innocent people.""",
+                      kurdishText: """ئەمە تاوانێکی بێزراو بوو دژ بە کەسانی بێتاوان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

@@ -94,14 +94,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Do you notice any family likeness between them?""");
+    await flutterTts
+        .speak("""Do you notice any family likeness between them?""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The drawing is said to be a good likeness of the girl's attacker.""");
+    await flutterTts.speak(
+        """The drawing is said to be a good likeness of the girl's attacker.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -993,11 +995,14 @@ ${englishMeaningConst.text}
 کوردی: لێکچوون، هاوشێوەیی، وەکیەک‌بوون، لێکچوویی، وێنە، شێوەی یەک‌دان، لایەنی لێکچوون،	شێوە، ڕووی دەرەوە، لێکچوو، هاوشێوە
 """),
 // With short examples define "likeness", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) ئەوەی لە ک/شتێکی دیکە بچیت"""),
+                    const DefinitionKurdish(
+                        text: """١. (ناو) ئەوەی لە کەسێک/شتێکێکی دیکە بچیت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: resemblance"),
                     SentencesRow(
-                      englishText: """Joanna bears a strong likeness to her father.""",
-                      kurdishText: """جوانا لێکچوونێکی زۆری لەگەڵ  باوکی هەیە.""",
+                      englishText:
+                          """Joanna bears a strong likeness to her father.""",
+                      kurdishText:
+                          """جوانا لێکچوونێکی زۆری لەگەڵ  باوکی هەیە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1005,17 +1010,23 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Do you notice any family likeness between them?""",
-                      kurdishText: """هەست بە هیچ لێکچوونێکی خێزانی دەکەیت لە نێوانیان.""",
+                      englishText:
+                          """Do you notice any family likeness between them?""",
+                      kurdishText:
+                          """هەست بە هیچ لێکچوونێکی خێزانی دەکەیت لە نێوانیان.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ناو) تابلۆیەک، وێنەیەک، هتد کە زۆر لە شتێک دەکات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (ناو) تابلۆیەک، وێنەیەک، هتد کە زۆر لە شتێک دەکات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The drawing is said to be a good likeness of the girl's attacker.""",
-                      kurdishText: """وێنەکە دەگوترێت زۆر لە شێوەی هێرشکاری سەر کچەکە دەکات.""",
+                      englishText:
+                          """The drawing is said to be a good likeness of the girl's attacker.""",
+                      kurdishText:
+                          """وێنەکە دەگوترێت زۆر لە شێوەی هێرشکاری سەر کچەکە دەکات.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1023,8 +1034,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She paid an artist to create his likeness.""",
-                      kurdishText: """پارەی دا بە هونەرمەندەکە بۆ درووستکردنی لێکچوویەکی.""",
+                      englishText:
+                          """She paid an artist to create his likeness.""",
+                      kurdishText:
+                          """پارەی دا بە هونەرمەندەکە بۆ درووستکردنی لێکچوویەکی.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

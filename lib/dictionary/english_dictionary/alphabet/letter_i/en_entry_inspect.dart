@@ -212,7 +212,7 @@ ${englishMeaningConst.text}
 // """),
 // With short examples define "inspect", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (کردار) پشکنینی ک/شت"""),
+                        text: """١. (کردار) پشکنینی کەسێک/شتێک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: examine"),
                     SentencesRow(
                       englishText:

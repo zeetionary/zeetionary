@@ -247,7 +247,8 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "lash", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (کردار) لێدان لە ک/شت بە هێزێکی زۆرەوە"""),
+                        text:
+                            """١. (کردار) لێدان لە کەسێک/شتێک بە هێزێکی زۆرەوە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: pound"),
                     SentencesRow(
                       englishText: """The rain lashed at the windows.""",
@@ -288,7 +289,8 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٣. (کردار) ڕەخنەگرتن لە ک/شت بە توندی"""),
+                        text:
+                            """٣. (کردار) ڕەخنەگرتن لە کەسێک/شتێک بە توندی"""),
                     const AlsoEnglishckb(word: "ھەروەھا: attack"),
                     SentencesRow(
                       englishText:

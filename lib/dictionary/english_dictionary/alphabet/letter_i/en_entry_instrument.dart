@@ -301,7 +301,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ناو) شتێک کە لەلایەن کەسێک بەکاردێت بۆ بەدەستهێنانی شتێک؛ ک/شت کە وەها دەکات شتیک ڕووىدات"""),
+                            """٤. (ناو) شتێک کە لەلایەن کەسێک بەکاردێت بۆ بەدەستهێنانی شتێک؛ کەسێک/شتێک کە وەها دەکات شتیک ڕووىدات"""),
                     SentencesRow(
                       englishText:
                           """The law is not the best instrument for dealing with family matters.""",

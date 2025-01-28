@@ -52,13 +52,24 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: log (Derived forms: logs)
+1. A segment of the trunk of a tree when stripped of branches
+ 
+2. The exponent required to produce a given number (- logarithm)
+ 
+3. A written record of messages sent or received
+"they kept a log of all transmission by the radio station"; "an email log"
+ 
+4. A written record of events on a voyage (of a ship or plane)
+ 
+5. Measuring instrument that consists of a float that trails from a ship by a knotted line in order to measure the ship's speed through the water
 
-EnglishEntrylog log
-WORD_WEB log log log
-haʊʊʊʊʊʊʊ4
+- Verb: log (Derived forms: logs, logging, logged)
+1. Enter into a log, as on ships and planes
+ 
+2. Cut lumber, as in woods and forests (- lumber)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "log";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +98,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The road was blocked by fallen logs.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The captain keeps a log.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +937,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/UiFjZcOrMO0?t=333';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/kVwp-BfarxI?t=975';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/dtp6b76pMak?t=1256';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/VrKW58MS12g?t=9';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/PkUg89kLLBE?t=309';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/58XEfDtU0Z4?t=1332';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +962,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """log""",
                       // alsoEnglishWord: "also: log",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɒɡ/""",
+                      americanText: """IpaUS: /lɔːɡ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,26 +1001,26 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: کۆلکەدار، کۆتەرە، کۆلک، گردە،	موورە، ئەنجینە، ساورمە، قەڵاشکەری، سەفەرنامە
 """),
 // With short examples define "log", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) پارچە دارێکی قەبە کە لە دارێک بڕدراوە یان کەوتووە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The road was blocked by fallen logs.""",
+                      kurdishText: """ڕێگاکە بە داری کەوتوو گیرابوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ناو) تۆمارێکی فەرمی لە ژمارەیەک ڕووداو کە ڕوویانداوە لە ماوەیەکی دیاریکراودا"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: logbook"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The captain keeps a log.""",
+                      kurdishText: """کاپتنەکە سەفەرنامەیەک دەنووسێت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
+                    // skipped_meaning
                     const DividerDefinition(),
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),

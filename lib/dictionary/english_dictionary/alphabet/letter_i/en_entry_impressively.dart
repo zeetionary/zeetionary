@@ -170,7 +170,7 @@ ${englishMeaningConst.text}
 // With short examples define "impressively", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ھاوەڵکار) بە شێوەیەک کە وات لێدەکات زۆر سەرسام بیت بە ک/شت بەهۆی ئەوەی زۆر گەورە، باش، شارەزا، هتد ــە"""),
+                            """١. (ھاوەڵکار) بە شێوەیەک کە وات لێدەکات زۆر سەرسام بیت بە کەسێک/شتێک بەهۆی ئەوەی زۆر گەورە، باش، شارەزا، هتد ــە"""),
                     SentencesRow(
                       englishText:
                           """This is an engaging and impressively researched book.""",

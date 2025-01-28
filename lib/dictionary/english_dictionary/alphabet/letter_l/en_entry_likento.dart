@@ -991,7 +991,9 @@ ${englishMeaningConst.text}
 کوردی: 
 """),
 // With short examples define "liken to", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کاری لێکدراو) بەراوردکردنی ک/شت بە یەکێکی دیکە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کاری لێکدراو) بەراوردکردنی کەسێک/شتێک بە یەکێکی دیکە"""),
                     SentencesRow(
                       englishText: """Life is often likened to a journey.""",
                       kurdishText: """ژیان زۆرجار بە گەشتێک بەراورد دەکرێت.""",

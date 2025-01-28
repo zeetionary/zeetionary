@@ -181,14 +181,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The robbers led police on a high-speed chase through the city.""");
+    await flutterTts.speak(
+        """The robbers led police on a high-speed chase through the city.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I tried to lead the discussion back to the main issue.""");
+    await flutterTts
+        .speak("""I tried to lead the discussion back to the main issue.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -216,7 +218,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Disconnect the pipe leading from the top of the water tank.""");
+    await flutterTts.speak(
+        """Disconnect the pipe leading from the top of the water tank.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
@@ -237,7 +240,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The road led away from the house directly to the lake.""");
+    await flutterTts
+        .speak("""The road led away from the house directly to the lake.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
@@ -265,35 +269,40 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The carbon tax will inevitably lead to an increase in energy bills.""");
+    await flutterTts.speak(
+        """The carbon tax will inevitably lead to an increase in energy bills.""");
   }
 
   Future<void> speaksentence16(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Eating too much sugar can lead to health problems.""");
+    await flutterTts
+        .speak("""Eating too much sugar can lead to health problems.""");
   }
 
   Future<void> speaksentence17(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A reward was offered for information leading to an arrest.""");
+    await flutterTts.speak(
+        """A reward was offered for information leading to an arrest.""");
   }
 
   Future<void> speaksentence18(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Business success does not automatically lead to financial success.""");
+    await flutterTts.speak(
+        """Business success does not automatically lead to financial success.""");
   }
 
   Future<void> speaksentence19(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Worrying about your weight is more likely to lead to low self-esteem.""");
+    await flutterTts.speak(
+        """Worrying about your weight is more likely to lead to low self-esteem.""");
   }
 
   Future<void> speaksentence20(String languageCode) async {
@@ -314,21 +323,24 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Circumstances eventually led her to train as a doctor.""");
+    await flutterTts
+        .speak("""Circumstances eventually led her to train as a doctor.""");
   }
 
   Future<void> speaksentence23(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The situation is far worse than we had been led to believe.""");
+    await flutterTts.speak(
+        """The situation is far worse than we had been led to believe.""");
   }
 
   Future<void> speaksentence24(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Inspector Sam Roland is leading the investigation.""");
+    await flutterTts
+        .speak("""Inspector Sam Roland is leading the investigation.""");
   }
 
   Future<void> speaksentence25(String languageCode) async {
@@ -349,7 +361,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The department led the world in cancer research.""");
+    await flutterTts
+        .speak("""The department led the world in cancer research.""");
   }
 
   Future<void> speaksentence28(String languageCode) async {
@@ -370,7 +383,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The recent economic recovery was almost entirely led by exports.""");
+    await flutterTts.speak(
+        """The recent economic recovery was almost entirely led by exports.""");
   }
 
   Future<void> speaksentence31(String languageCode) async {
@@ -405,14 +419,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Labour have taken a lead of five points in the polls.""");
+    await flutterTts
+        .speak("""Labour have taken a lead of five points in the polls.""");
   }
 
   Future<void> speaksentence36(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""An own goal from United gave Chelsea an early two-goal lead in the 11th minute.""");
+    await flutterTts.speak(
+        """An own goal from United gave Chelsea an early two-goal lead in the 11th minute.""");
   }
 
   Future<void> speaksentence37(String languageCode) async {
@@ -426,14 +442,16 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""If one bank raises interest rates, all the others will follow their lead.""");
+    await flutterTts.speak(
+        """If one bank raises interest rates, all the others will follow their lead.""");
   }
 
   Future<void> speaksentence39(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""If we take the lead in this, others may follow.""");
+    await flutterTts
+        .speak("""If we take the lead in this, others may follow.""");
   }
 
   Future<void> speaksentence40(String languageCode) async {
@@ -468,7 +486,8 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""The marketing campaign generated hundreds of new leads.""");
+    await flutterTts
+        .speak("""The marketing campaign generated hundreds of new leads.""");
   }
 
   Future<void> speaksentence45(String languageCode) async {
@@ -489,28 +508,32 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I always dreamed of becoming the lead singer in a band.""");
+    await flutterTts
+        .speak("""I always dreamed of becoming the lead singer in a band.""");
   }
 
   Future<void> speaksentence48(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""He will become the lead presenter of the show from next month.""");
+    await flutterTts.speak(
+        """He will become the lead presenter of the show from next month.""");
   }
 
   Future<void> speaksentence49(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Check out this lead from Monday's front page story""");
+    await flutterTts
+        .speak("""Check out this lead from Monday's front page story""");
   }
 
   Future<void> speaksentence50(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Lead exposure can be harmful to everyone, especially young children.""");
+    await flutterTts.speak(
+        """Lead exposure can be harmful to everyone, especially young children.""");
   }
 
   Future<void> speaksentence51(String languageCode) async {
@@ -1073,7 +1096,9 @@ ${englishMeaningConst.text}
 کوردی: ڕێنوێنی، ڕێ‌پیشان‌دان، پێشوەبردن، ڕێ‌نیشان‌دان، بەڕێدابردن، ڕێبەرایەتی، ڕێبەری،	پێش‌کەوتن، بەرکەوتن،	پێشەنگی، سەرکێشی، سەرجەلەیی،	پلەی یەکەم، ڕۆڵی یەکەم، ئەکتێر یان هونەرمەندی ڕۆڵی یەکەم، بەشی سەرەکی فیلم یان شانۆنامە،	سەرەداو، سەرەپەت،	نموونە، سەرمەشق،	قەڵانگ، قەڵاتە، پەت، هەوساری ملی سەگ،	وایەری بەستەر یان گەیێنەر،	مەڵڵایی، قورقورشم
 """),
 // With short examples define "lead", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (کردار) ڕۆشتن لە پێش یان لەگەڵ کەسێک یان ئاژەڵێک بۆ پیشاندانی ڕێگا یان بردن بە ئاراستەیەکدا"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١. (کردار) ڕۆشتن لە پێش یان لەگەڵ کەسێک یان ئاژەڵێک بۆ پیشاندانی ڕێگا یان بردن بە ئاراستەیەکدا"""),
                     const AlsoEnglishckb(word: "ھەروەھا: guide"),
                     SentencesRow(
                       englishText: """If you lead, I'll follow.""",
@@ -1085,8 +1110,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """She led the horse back into the stable.""",
-                      kurdishText: """ڕێنوێنی ئەسپەکەی کردەوە بەرەو تەویلەکە.""",
+                      englishText:
+                          """She led the horse back into the stable.""",
+                      kurdishText:
+                          """ڕێنوێنی ئەسپەکەی کردەوە بەرەو تەویلەکە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
@@ -1094,8 +1121,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The robbers led police on a high-speed chase through the city.""",
-                      kurdishText: """دزەکان پۆلیسیان بە ڕەدووکەوتنێکی خێرادا بە شارەکەدا برد.""",
+                      englishText:
+                          """The robbers led police on a high-speed chase through the city.""",
+                      kurdishText:
+                          """دزەکان پۆلیسیان بە ڕەدووکەوتنێکی خێرادا بە شارەکەدا برد.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1103,8 +1132,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I tried to lead the discussion back to the main issue.""",
-                      kurdishText: """(خوازراوی) هەوڵمدا گفتووگۆکە ببەمەوە بابەتە سەرەکییەکە.""",
+                      englishText:
+                          """I tried to lead the discussion back to the main issue.""",
+                      kurdishText:
+                          """(خوازراوی) هەوڵمدا گفتووگۆکە ببەمەوە بابەتە سەرەکییەکە.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1112,8 +1143,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Firefighters led the survivors to safety.""",
-                      kurdishText: """ئاگرکوژێنەرەوەکان ڕزگاربووانیان بۆ سەلامەتی برد.""",
+                      englishText:
+                          """Firefighters led the survivors to safety.""",
+                      kurdishText:
+                          """ئاگرکوژێنەرەوەکان ڕزگاربووانیان بۆ سەلامەتی برد.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
@@ -1136,11 +1169,15 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (کردار) بەستنی شتێک یان شوێنێک بە یەکێکی دیکەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٢. (کردار) بەستنی شتێک یان شوێنێک بە یەکێکی دیکەوە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Disconnect the pipe leading from the top of the water tank.""",
-                      kurdishText: """ئەو بۆرییە لابە کە لە سەری سەرەوەی تانکی ئاوەکەوە دێت.""",
+                      englishText:
+                          """Disconnect the pipe leading from the top of the water tank.""",
+                      kurdishText:
+                          """ئەو بۆرییە لابە کە لە سەری سەرەوەی تانکی ئاوەکەوە دێت.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
@@ -1154,7 +1191,9 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٣. (کردار) چوون بۆ شوێن یان ئاراستەیەکی دیاریکراو"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٣. (کردار) چوون بۆ شوێن یان ئاراستەیەکی دیاریکراو"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """A path led down the hill.""",
@@ -1166,8 +1205,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The road led away from the house directly to the lake.""",
-                      kurdishText: """ڕێگاکە ڕاستەوخۆ لە ماڵەکەوە بۆ دەریاچەکە دەچوو.""",
+                      englishText:
+                          """The road led away from the house directly to the lake.""",
+                      kurdishText:
+                          """ڕێگاکە ڕاستەوخۆ لە ماڵەکەوە بۆ دەریاچەکە دەچوو.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -1193,17 +1234,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The gardens lead directly onto a beach.""",
+                      englishText:
+                          """The gardens lead directly onto a beach.""",
                       kurdishText: """باخچەکان ڕاستەوخۆ بۆ کەناراوێک دەچن.""",
                       onPressedBritish: () => speaksentence14("en-GB"),
                       onPressedAmerican: () => speaksentence14("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٤. (کردار) هەبوونی شتێک لە ئەنجامی شتێک"""),
+                    const DefinitionKurdish(
+                        text: """٤. (کردار) هەبوونی شتێک لە ئەنجامی شتێک"""),
                     const AlsoEnglishckb(word: "ھەروەھا: result in"),
                     SentencesRow(
-                      englishText: """The carbon tax will inevitably lead to an increase in energy bills.""",
-                      kurdishText: """باجی کاربۆن بەدڵنیایی دەبێتە هۆکاری زیادبوونی نرخی وزە.""",
+                      englishText:
+                          """The carbon tax will inevitably lead to an increase in energy bills.""",
+                      kurdishText:
+                          """باجی کاربۆن بەدڵنیایی دەبێتە هۆکاری زیادبوونی نرخی وزە.""",
                       onPressedBritish: () => speaksentence15("en-GB"),
                       onPressedAmerican: () => speaksentence15("en-US"),
                     ),
@@ -1211,8 +1256,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Eating too much sugar can lead to health problems.""",
-                      kurdishText: """خواردنی زۆری شەکر دەکرێت ببێتە هۆکاری کێشەی تەندرووستی.""",
+                      englishText:
+                          """Eating too much sugar can lead to health problems.""",
+                      kurdishText:
+                          """خواردنی زۆری شەکر دەکرێت ببێتە هۆکاری کێشەی تەندرووستی.""",
                       onPressedBritish: () => speaksentence16("en-GB"),
                       onPressedAmerican: () => speaksentence16("en-US"),
                     ),
@@ -1220,8 +1267,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A reward was offered for information leading to an arrest.""",
-                      kurdishText: """خەڵاتێک ڕاگەیەندرا بۆ زانیاری کە بگات بە دەستگیرکردن.""",
+                      englishText:
+                          """A reward was offered for information leading to an arrest.""",
+                      kurdishText:
+                          """خەڵاتێک ڕاگەیەندرا بۆ زانیاری کە بگات بە دەستگیرکردن.""",
                       onPressedBritish: () => speaksentence17("en-GB"),
                       onPressedAmerican: () => speaksentence17("en-US"),
                     ),
@@ -1229,8 +1278,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Business success does not automatically lead to financial success.""",
-                      kurdishText: """سەرکەوتنی بازرگانی ڕاستەوخۆ ناگات بە سەرکەوتنی دارایی.""",
+                      englishText:
+                          """Business success does not automatically lead to financial success.""",
+                      kurdishText:
+                          """سەرکەوتنی بازرگانی ڕاستەوخۆ ناگات بە سەرکەوتنی دارایی.""",
                       onPressedBritish: () => speaksentence18("en-GB"),
                       onPressedAmerican: () => speaksentence18("en-US"),
                     ),
@@ -1238,13 +1289,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Worrying about your weight is more likely to lead to low self-esteem.""",
-                      kurdishText: """نیگەرانبوون سەبارەت بە کێشت زیاتر ئەگەری هەیە ببێت بە هۆکاری متمانەبەخۆبوونی کەم.""",
+                      englishText:
+                          """Worrying about your weight is more likely to lead to low self-esteem.""",
+                      kurdishText:
+                          """نیگەرانبوون سەبارەت بە کێشت زیاتر ئەگەری هەیە ببێت بە هۆکاری متمانەبەخۆبوونی کەم.""",
                       onPressedBritish: () => speaksentence19("en-GB"),
                       onPressedAmerican: () => speaksentence19("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٥. (کردار) بوون بە هۆکاری ئەوەی کەسێک شتێک دەکات یان بە شێوەیەک بیردەکاتەوە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """٥. (کردار) بوون بە هۆکاری ئەوەی کەسێک شتێک دەکات یان بە شێوەیەک بیردەکاتەوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """What led you to this conclusion?""",
@@ -1256,7 +1311,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He's too easily led (= easily persuaded to do or think something).""",
+                      englishText:
+                          """He's too easily led (= easily persuaded to do or think something).""",
                       kurdishText: """زۆر بە ئاسانی ئاراستە دەکرێت.""",
                       onPressedBritish: () => speaksentence21("en-GB"),
                       onPressedAmerican: () => speaksentence21("en-US"),
@@ -1265,8 +1321,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Circumstances eventually led her to train as a doctor.""",
-                      kurdishText: """هەلومەرجەکان لە کۆتاییدا گەیاندییان بەوەی وەک پزیشک ڕاهێنان بکات.""",
+                      englishText:
+                          """Circumstances eventually led her to train as a doctor.""",
+                      kurdishText:
+                          """هەلومەرجەکان لە کۆتاییدا گەیاندییان بەوەی وەک پزیشک ڕاهێنان بکات.""",
                       onPressedBritish: () => speaksentence22("en-GB"),
                       onPressedAmerican: () => speaksentence22("en-US"),
                     ),
@@ -1274,17 +1332,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The situation is far worse than we had been led to believe.""",
-                      kurdishText: """دۆخەکە زۆر خراپتر بوو لەوەی وامان لێکرابوو باوەڕ بکەین.""",
+                      englishText:
+                          """The situation is far worse than we had been led to believe.""",
+                      kurdishText:
+                          """دۆخەکە زۆر خراپتر بوو لەوەی وامان لێکرابوو باوەڕ بکەین.""",
                       onPressedBritish: () => speaksentence23("en-GB"),
                       onPressedAmerican: () => speaksentence23("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٦. (کردار) ئەوەی کۆنترۆڵی شتێک بکەیت"""),
+                    const DefinitionKurdish(
+                        text: """٦. (کردار) ئەوەی کۆنترۆڵی شتێک بکەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Inspector Sam Roland is leading the investigation.""",
-                      kurdishText: """پشکنەر سام ڕۆلاند پێشەوایی لێکۆڵینەوەکە دەکات.""",
+                      englishText:
+                          """Inspector Sam Roland is leading the investigation.""",
+                      kurdishText:
+                          """پشکنەر سام ڕۆلاند پێشەوایی لێکۆڵینەوەکە دەکات.""",
                       onPressedBritish: () => speaksentence24("en-GB"),
                       onPressedAmerican: () => speaksentence24("en-US"),
                     ),
@@ -1292,8 +1355,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Who will lead the party in the next election?""",
-                      kurdishText: """کێ ڕابەرایەتی پارتەکە دەکات لە هەڵبژاردنی داهاتوو؟""",
+                      englishText:
+                          """Who will lead the party in the next election?""",
+                      kurdishText:
+                          """کێ ڕابەرایەتی پارتەکە دەکات لە هەڵبژاردنی داهاتوو؟""",
                       onPressedBritish: () => speaksentence25("en-GB"),
                       onPressedAmerican: () => speaksentence25("en-US"),
                     ),
@@ -1301,17 +1366,21 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A good manager leads by example (= shows people how to behave by behaving in that way themselves).""",
+                      englishText:
+                          """A good manager leads by example (= shows people how to behave by behaving in that way themselves).""",
                       kurdishText: """بە ڕێوەبەری باس بە کردار ڕابەری دەکات.""",
                       onPressedBritish: () => speaksentence26("en-GB"),
                       onPressedAmerican: () => speaksentence26("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٧. (کردار) بوون بە باشترین لە شتێکدا"""),
+                    const DefinitionKurdish(
+                        text: """٧. (کردار) بوون بە باشترین لە شتێکدا"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The department led the world in cancer research.""",
-                      kurdishText: """بەشەکە باشترینی جیهان بوو لە توێژینەوەی شێرپەنجە.""",
+                      englishText:
+                          """The department led the world in cancer research.""",
+                      kurdishText:
+                          """بەشەکە باشترینی جیهان بوو لە توێژینەوەی شێرپەنجە.""",
                       onPressedBritish: () => speaksentence27("en-GB"),
                       onPressedAmerican: () => speaksentence27("en-US"),
                     ),
@@ -1319,31 +1388,40 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The champion is leading (her nearest rival) by 18 seconds.""",
+                      englishText:
+                          """The champion is leading (her nearest rival) by 18 seconds.""",
                       kurdishText: """پاڵەوانەکە بە ١٨ چرکە لە پێشە.""",
                       onPressedBritish: () => speaksentence28("en-GB"),
                       onPressedAmerican: () => speaksentence28("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٨. (کردار) هەبوونی جۆرە ژیانێکی دیاریکراو"""),
+                    const DefinitionKurdish(
+                        text: """٨. (کردار) هەبوونی جۆرە ژیانێکی دیاریکراو"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I tried to lead as normal a life as possible.""",
-                      kurdishText: """هەوڵمدا ژیانێکی تا بکرێت ئاساییم هەبێت.""",
+                      englishText:
+                          """I tried to lead as normal a life as possible.""",
+                      kurdishText:
+                          """هەوڵمدا ژیانێکی تا بکرێت ئاساییم هەبێت.""",
                       onPressedBritish: () => speaksentence29("en-GB"),
                       onPressedAmerican: () => speaksentence29("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٩. (کردار) دەستپێکردنی پڕۆژەیەک"""),
+                    const DefinitionKurdish(
+                        text: """٩. (کردار) دەستپێکردنی پڕۆژەیەک"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The recent economic recovery was almost entirely led by exports.""",
-                      kurdishText: """هەستانەوەی ئابووری تا ئاستێکی زۆر بە تەواوی بە هەناردە ڕوویدا.""",
+                      englishText:
+                          """The recent economic recovery was almost entirely led by exports.""",
+                      kurdishText:
+                          """هەستانەوەی ئابووری تا ئاستێکی زۆر بە تەواوی بە هەناردە ڕوویدا.""",
                       onPressedBritish: () => speaksentence30("en-GB"),
                       onPressedAmerican: () => speaksentence30("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٠. (ناو) ئەوەی لە پێش هەمووان بیت لە پێشبڕکێیەک"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٠. (ناو) ئەوەی لە پێش هەمووان بیت لە پێشبڕکێیەک"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """She took the lead in the second lap.""",
@@ -1355,8 +1433,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The Democrats now appear to be in the lead.""",
-                      kurdishText: """دیموکراتەکان وەها دەردەکەون ئێستا پێشەنگ بن.""",
+                      englishText:
+                          """The Democrats now appear to be in the lead.""",
+                      kurdishText:
+                          """دیموکراتەکان وەها دەردەکەون ئێستا پێشەنگ بن.""",
                       onPressedBritish: () => speaksentence32("en-GB"),
                       onPressedAmerican: () => speaksentence32("en-US"),
                     ),
@@ -1373,17 +1453,22 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """We were struggling to stay in the lead.""",
+                      englishText:
+                          """We were struggling to stay in the lead.""",
                       kurdishText: """تەقەڵامان بوو لە پێشەنگی بمێنینەوە.""",
                       onPressedBritish: () => speaksentence34("en-GB"),
                       onPressedAmerican: () => speaksentence34("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١١. (ناو) ئەو بڕ یان مەودایەی کە ک/شت پێی لە پێش ک/شتم دیکەوەیە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١١. (ناو) ئەو بڕ یان مەودایەی کە کەسێک/شتێک پێی لە پێش کەسێک/شتێکم دیکەوەیە"""),
                     const AlsoEnglishckb(word: "ھەروەھا: advantage"),
                     SentencesRow(
-                      englishText: """Labour have taken a lead of five points in the polls.""",
-                      kurdishText: """پارتی کرێکاران پێشەنگییان بە پێنج خاڵ وەرگرتووە لە ڕاپرسییەکان.""",
+                      englishText:
+                          """Labour have taken a lead of five points in the polls.""",
+                      kurdishText:
+                          """پارتی کرێکاران پێشەنگییان بە پێنج خاڵ وەرگرتووە لە ڕاپرسییەکان.""",
                       onPressedBritish: () => speaksentence35("en-GB"),
                       onPressedAmerican: () => speaksentence35("en-US"),
                     ),
@@ -1391,8 +1476,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """An own goal from United gave Chelsea an early two-goal lead in the 11th minute.""",
-                      kurdishText: """گۆڵێکی یونایتید لە خۆیان پێشەنگی دوو گۆڵی دا بە چێڵسی لە خولەکی ١١ ـدا.""",
+                      englishText:
+                          """An own goal from United gave Chelsea an early two-goal lead in the 11th minute.""",
+                      kurdishText:
+                          """گۆڵێکی یونایتید لە خۆیان پێشەنگی دوو گۆڵی دا بە چێڵسی لە خولەکی ١١ ـدا.""",
                       onPressedBritish: () => speaksentence36("en-GB"),
                       onPressedAmerican: () => speaksentence36("en-US"),
                     ),
@@ -1406,11 +1493,15 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence37("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٢. (ناو) نموونە یان کردارێک کە کەسانی دیکە چاوی لێ بکەن"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٢. (ناو) نموونە یان کردارێک کە کەسانی دیکە چاوی لێ بکەن"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """If one bank raises interest rates, all the others will follow their lead.""",
-                      kurdishText: """ئەگەر یەک بانک ڕێژەی سوو بەرزبکاتەوە، ئەوانی دیکە هەموو شوێنی شەقاوی دەکەون.""",
+                      englishText:
+                          """If one bank raises interest rates, all the others will follow their lead.""",
+                      kurdishText:
+                          """ئەگەر یەک بانک ڕێژەی سوو بەرزبکاتەوە، ئەوانی دیکە هەموو شوێنی شەقاوی دەکەون.""",
                       onPressedBritish: () => speaksentence38("en-GB"),
                       onPressedAmerican: () => speaksentence38("en-US"),
                     ),
@@ -1418,8 +1509,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """If we take the lead in this (= start to act), others may follow.""",
-                      kurdishText: """ئەگەر دەستپێشخەری بکەیت لەمە ئەوانی دیکە ڕەنگە شوێنت بکەون.""",
+                      englishText:
+                          """If we take the lead in this (= start to act), others may follow.""",
+                      kurdishText:
+                          """ئەگەر دەستپێشخەری بکەیت لەمە ئەوانی دیکە ڕەنگە شوێنت بکەون.""",
                       onPressedBritish: () => speaksentence39("en-GB"),
                       onPressedAmerican: () => speaksentence39("en-US"),
                     ),
@@ -1433,10 +1526,13 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence40("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٣. (ناو) زانیارییەک کە ڕەنگە ڕاستی ڕووداوێک ئاشکرا بکات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٣. (ناو) زانیارییەک کە ڕەنگە ڕاستی ڕووداوێک ئاشکرا بکات"""),
                     const AlsoEnglishckb(word: "ھەروەھا: clue"),
                     SentencesRow(
-                      englishText: """The police will follow up all possible leads.""",
+                      englishText:
+                          """The police will follow up all possible leads.""",
                       kurdishText: """پۆلیس شوێن هەموو سەرەداوەکان دەکەون.""",
                       onPressedBritish: () => speaksentence41("en-GB"),
                       onPressedAmerican: () => speaksentence41("en-US"),
@@ -1445,8 +1541,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The police are following every possible lead.""",
-                      kurdishText: """پۆلیس شوێن هەموو سەرەداوێکی ڕێتێچوو دەکەون.""",
+                      englishText:
+                          """The police are following every possible lead.""",
+                      kurdishText:
+                          """پۆلیس شوێن هەموو سەرەداوێکی ڕێتێچوو دەکەون.""",
                       onPressedBritish: () => speaksentence42("en-GB"),
                       onPressedAmerican: () => speaksentence42("en-US"),
                     ),
@@ -1460,16 +1558,21 @@ ${englishMeaningConst.text}
                       onPressedAmerican: () => speaksentence43("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٤. (ناو) ک/شت کە دەکرێت بەسوود بێت بۆت، بەتایبەتی کڕیار یان هەلی بازرگانی تازە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٤. (ناو) کەسێک/شتێک کە دەکرێت بەسوود بێت بۆت، بەتایبەتی کڕیار یان هەلی بازرگانی تازە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """The marketing campaign generated hundreds of new leads.""",
-                      kurdishText: """کەمپینی بەبازاڕکردنەکە سەدان کڕیاری تازەی درووستکرد.""",
+                      englishText:
+                          """The marketing campaign generated hundreds of new leads.""",
+                      kurdishText:
+                          """کەمپینی بەبازاڕکردنەکە سەدان کڕیاری تازەی درووستکرد.""",
                       onPressedBritish: () => speaksentence44("en-GB"),
                       onPressedAmerican: () => speaksentence44("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٥. (ناو) بەشی سەرەکی لە شانۆ، فیلم، هتد"""),
+                    const DefinitionKurdish(
+                        text: """١٥. (ناو) بەشی سەرەکی لە شانۆ، فیلم، هتد"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Who is playing the lead?""",
@@ -1481,8 +1584,10 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Both Christine and Fiona want the lead role.""",
-                      kurdishText: """هەردوو کریستین و فیۆنا ڕۆڵی سەرەکییان دەوێت.""",
+                      englishText:
+                          """Both Christine and Fiona want the lead role.""",
+                      kurdishText:
+                          """هەردوو کریستین و فیۆنا ڕۆڵی سەرەکییان دەوێت.""",
                       onPressedBritish: () => speaksentence46("en-GB"),
                       onPressedAmerican: () => speaksentence46("en-US"),
                     ),
@@ -1490,35 +1595,48 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """I always dreamed of becoming the lead singer in a band.""",
-                      kurdishText: """هەمیشە خەونم دەدی بە بوون بە گۆرانیبێژی سەرەکی لە باندێک.""",
+                      englishText:
+                          """I always dreamed of becoming the lead singer in a band.""",
+                      kurdishText:
+                          """هەمیشە خەونم دەدی بە بوون بە گۆرانیبێژی سەرەکی لە باندێک.""",
                       onPressedBritish: () => speaksentence47("en-GB"),
                       onPressedAmerican: () => speaksentence47("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٦. (ناو) ئەو کەسەی بەرپرسی پڕۆژە، بەش، هتد ــە"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٦. (ناو) ئەو کەسەی بەرپرسی پڕۆژە، بەش، هتد ــە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """He will become the lead presenter of the show from next month.""",
-                      kurdishText: """لە مانگی داهاتووەوە دەبێت بە پێشکەشکاری سەرەکی پڕۆگرامەکە.""",
+                      englishText:
+                          """He will become the lead presenter of the show from next month.""",
+                      kurdishText:
+                          """لە مانگی داهاتووەوە دەبێت بە پێشکەشکاری سەرەکی پڕۆگرامەکە.""",
                       onPressedBritish: () => speaksentence48("en-GB"),
                       onPressedAmerican: () => speaksentence48("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٧. (ناو) سەردێڕی هەواڵ"""),
+                    const DefinitionKurdish(
+                        text: """١٧. (ناو) سەردێڕی هەواڵ"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Check out this lead from Monday's front page story""",
-                      kurdishText: """سەیری ئەم سەردێڕەی هەواڵی سەرپەڕەی دووشەمە بکە.""",
+                      englishText:
+                          """Check out this lead from Monday's front page story""",
+                      kurdishText:
+                          """سەیری ئەم سەردێڕەی هەواڵی سەرپەڕەی دووشەمە بکە.""",
                       onPressedBritish: () => speaksentence49("en-GB"),
                       onPressedAmerican: () => speaksentence49("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """١٨. (ناو) قورقۆشم؛ توخمێکی کیمیایی قورس، نەرم، و خۆڵەمێشییە و زیاتر لە کۆندا بۆ بۆری یان داپۆشینی سەربان بەکاردەهات"""),
+                    const DefinitionKurdish(
+                        text:
+                            """١٨. (ناو) قورقۆشم؛ توخمێکی کیمیایی قورس، نەرم، و خۆڵەمێشییە و زیاتر لە کۆندا بۆ بۆری یان داپۆشینی سەربان بەکاردەهات"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Lead exposure can be harmful to everyone, especially young children.""",
-                      kurdishText: """بەرکەوتن بە قورقۆشم دەکرێت زیانبەخش بێت بۆ هەموان، بە تایبەتی منداڵان.""",
+                      englishText:
+                          """Lead exposure can be harmful to everyone, especially young children.""",
+                      kurdishText:
+                          """بەرکەوتن بە قورقۆشم دەکرێت زیانبەخش بێت بۆ هەموان، بە تایبەتی منداڵان.""",
                       onPressedBritish: () => speaksentence50("en-GB"),
                       onPressedAmerican: () => speaksentence50("en-US"),
                     ),

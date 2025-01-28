@@ -214,7 +214,7 @@ ${englishMeaningConst.text}
                     ),
                     const DividerDefinition(),
                     const DefinitionKurdish(
-                        text: """٢. (ناو) کاری ساختەکردنی ک/شت"""),
+                        text: """٢. (ناو) کاری ساختەکردنی کەسێک/شتێک"""),
                     SentencesRow(
                       englishText: """A child learns to talk by imitation.""",
                       kurdishText:

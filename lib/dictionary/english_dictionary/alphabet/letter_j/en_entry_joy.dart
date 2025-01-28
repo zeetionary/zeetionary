@@ -293,7 +293,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) ک/شت کە وات لێدەکات هەست بە خۆشی زۆر بکەیت"""),
+                            """٢. (ناو) کەسێک/شتێک کە وات لێدەکات هەست بە خۆشی زۆر بکەیت"""),
                     SentencesRow(
                       englishText: """The game was a joy to watch.""",
                       kurdishText: """یارییەکە جێگای خۆشی بوو بۆ سەیرکردن.""",

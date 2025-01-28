@@ -379,7 +379,7 @@ ${englishMeaningConst.text}
 """),
 // With short examples define "lay", please follow LX instructions
                     const DefinitionKurdish(
-                        text: """١. (کردار) دانانی ک/شت لە شوێنێک"""),
+                        text: """١. (کردار) دانانی کەسێک/شتێک لە شوێنێک"""),
                     SentencesRow(
                       englishText: """He laid a hand on my arm.""",
                       kurdishText: """دەستێکی خستە سەر باڵم.""",
@@ -552,7 +552,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (کردار) ئەوەی ک/شت بخەیتە دۆخێکەوە، بە تایبەتی کە سەخت بێت"""),
+                            """٧. (کردار) ئەوەی کەسێک/شتێک بخەیتە دۆخێکەوە، بە تایبەتی کە سەخت بێت"""),
                     const AlsoEnglishckb(word: "ھەروەھا: place"),
                     SentencesRow(
                       englishText:

@@ -52,13 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylodging lodging
-WORD_WEB lodging lodging lodging
-haʊʊʊʊʊʊʊ4
+- Noun: lodging (Derived forms: lodgings)
+1. Structures collectively in which people are housed (- housing, living accommodations)
+ 
+2. The state or quality of being lodged or fixed even temporarily (- lodgment, lodgement)
+"the lodging of the balloon in the tree";
+ 
+3. The act of lodging
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lodging";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +89,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The price includes board and lodging.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +928,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/0num7Zb4iu4?t=935';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/yTsxY0mRIGs?t=1185';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/SUc87t6yIF8?t=3525';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/5nIlIPjUsuA?t=347';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/LN_--egst3s?t=200';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/wwzFB_UjtVQ?t=1698';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +953,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lodging""",
                       // alsoEnglishWord: "also: lodging",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɒdʒɪŋ/""",
+                      americanText: """IpaUS: /ˈlɑːdʒɪŋ/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +992,14 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: جێ، شوێن، کون، خانوو، ماڵ، دیوی بەکرێ،	نیشتەجێ‌بوون، گیرسانەوە
 """),
 // With short examples define "lodging", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) مانەوە لە جێگایەک بە کاتی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The price includes board and lodging (= meals and a room to sleep in).""",
+                      kurdishText: """نرخەکە خواردن و جێگای مانەوە لەخۆ دەگرێت.""",
+                      englishNote: """This means the cost covers both meals and a place to stay, such as in a hotel, boarding house, or similar accommodation.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

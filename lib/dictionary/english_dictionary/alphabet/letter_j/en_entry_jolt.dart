@@ -204,7 +204,7 @@ ${englishMeaningConst.text}
 // With short examples define "jolt", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (کردار) جوڵان یان جوڵاندنی ک/شت لەناکاو و بە توندی"""),
+                            """١. (کردار) جوڵان یان جوڵاندنی کەسێک/شتێک لەناکاو و بە توندی"""),
                     const AlsoEnglishckb(word: "ھەروەھا: jerk"),
                     SentencesRow(
                       englishText:

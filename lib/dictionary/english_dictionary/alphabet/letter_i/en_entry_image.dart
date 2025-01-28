@@ -292,7 +292,7 @@ ${englishMeaningConst.text}
 // With short examples define "image", please follow LX instructions
                     const DefinitionKurdish(
                         text:
-                            """١. (ناو) وێنەیەک یان پەیکەرێک کە ک/شت پیشان دەدات"""),
+                            """١. (ناو) وێنەیەک یان پەیکەرێک کە کەسێک/شتێک پیشان دەدات"""),
                     SentencesRow(
                       englishText:
                           """Most simple leaflets will include text and images.""",
@@ -331,7 +331,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٢. (ناو) وێنەی ک/شت کە لە ئاوێنەیەکەوە، کامێرایەک، یان لەسەر تەلەفیزیۆن، کۆمپیوتەر، موبایل، هتد دەبینرێت"""),
+                            """٢. (ناو) وێنەی کەسێک/شتێک کە لە ئاوێنەیەکەوە، کامێرایەک، یان لەسەر تەلەفیزیۆن، کۆمپیوتەر، موبایل، هتد دەبینرێت"""),
                     SentencesRow(
                       englishText:
                           """He stared at his own image reflected in the water.""",
@@ -407,7 +407,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ناو) وێنەیەک کە لە مێشکتدا هەتە بۆ ئەوەی ک/شت چۆنە"""),
+                            """٤. (ناو) وێنەیەک کە لە مێشکتدا هەتە بۆ ئەوەی کەسێک/شتێک چۆنە"""),
                     SentencesRow(
                       englishText:
                           """I had a mental image of what she would look like.""",

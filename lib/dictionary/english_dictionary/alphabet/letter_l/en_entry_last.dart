@@ -595,7 +595,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٤. (ھاوەڵناو) بۆ گوتن یان پیشاندانی ئەوەی ک/شت کەمترین ئەگەری هەیە یان کەمترین گونجاوە"""),
+                            """٤. (ھاوەڵناو) بۆ گوتن یان پیشاندانی ئەوەی کەسێک/شتێک کەمترین ئەگەری هەیە یان کەمترین گونجاوە"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText:
@@ -655,7 +655,7 @@ ${englishMeaningConst.text}
                     const DividerDefinition(),
                     const DefinitionKurdish(
                         text:
-                            """٧. (ناو) ک/شت کە کۆتا جار دەگات یان ڕوودەدات"""),
+                            """٧. (ناو) کەسێک/شتێک کە کۆتا جار دەگات یان ڕوودەدات"""),
                     const DividerSentences(),
                     SentencesRow(
                       englishText: """Sorry I'm late—am I the last?""",

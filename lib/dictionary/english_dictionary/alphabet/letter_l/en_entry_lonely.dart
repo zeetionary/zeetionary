@@ -52,13 +52,20 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylonely lonely
-WORD_WEB lonely lonely lonely
-haʊʊʊʊʊʊʊ4
+- Adjective: lonely (Derived forms: loneliest, lonelier)
+1. Lacking companions or companionship (- alone, lone, solitary)
+"a lonely fisherman stood on a tuft of gravel";
+ 
+2. Marked by dejection from being alone (- lonesome)
+"felt sad and lonely"; "the loneliest night of the week";
+ 
+3. Characterized by or preferring solitude (- lone, solitary)
+"a lonely existence";
+ 
+4. Devoid of creatures (- solitary, unfrequented)
+"a lonely crossroads";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lonely";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,29 +94,28 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She lives alone and often feels lonely.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The support they give to lonely old people is invaluable.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""These characters live sad, lonely lives.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""It gets pretty lonely here in winter.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
@@ -927,19 +933,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Sbp_EeBk-As?t=277';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/fGMCjELDyUY?t=629';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/1roy4o4tqQM?t=58';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/5q6VjTASV8I?t=73';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/K83zdXu2xrw?t=237';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/Zad6v8ZHzdg?t=1086';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +958,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lonely""",
                       // alsoEnglishWord: "also: lonely",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈləʊnli/""",
+                      americanText: """IpaUS: /ˈləʊnli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +997,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تەنیا، تاک‌وتەنیا، بێ‌کەس، دڵتەنگ، کۆلیل، غەریب،	چەپەک، لاپەڕ، لاتەریک، پەڕت، دوور، دوورەدەس
 """),
 // With short examples define "lonely", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) دڵتەنگ بەهۆی ئەوەی کە هیچ هاوڕێ یان کەست نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She lives alone and often feels lonely.""",
+                      kurdishText: """تەنها دەژی و زۆرجار هەست بە بێ‌کەسی دەکات.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1007,26 +1011,26 @@ haʊʊʊʊʊʊʊ4
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The support they give to lonely old people is invaluable.""",
+                      kurdishText: """ئەو پشتیوانییەی کە دەیدەن بە کەسانی بەتەمەنی بێ‌کەس لەباسکردن نایەت.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کاتێک کە تەنهایت و بە تەنها بەسەری دەبەیت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """These characters live sad, lonely lives.""",
+                      kurdishText: """کارەکتەرەکان ژیانی دڵتەنگی تەنهایی بەسەر دەبەن.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە کەسانێکی کەم سەردانی دەکەن"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: isolated"),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It gets pretty lonely here in winter.""",
+                      kurdishText: """زستانان ئێرە زۆر چۆڵەوانی دەبێت.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),

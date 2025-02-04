@@ -52,13 +52,18 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: long-distance
+1. Covering a long distance
+"a long-distance runner"; "a long-distance freight train"; "she ran off with a long-distance truck driver"
+ 
+2. Of or relating to or being a long-distance telephone call
+"a long-distance call"; "a long-distance transmission line"; "a long-distance operator"
 
-EnglishEntrylongdistance long-distance
-WORD_WEB long-distance long-distance long-distance
-haʊʊʊʊʊʊʊ4
+- Noun: long distance (Derived forms: long distances)
+1. A telephone call made outside the local calling area (- long-distance call, trunk call [Brit])
+"I talked to her by long distance";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "long-distance";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,22 +92,21 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""It's a relaxing car to drive long distance.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Like most long-distance runners she is very slight.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence300""");
+    await flutterTts.speak("""The pair embarked on a long-distance relationship, while he was in London and she stayed in New York.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -927,19 +931,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/SwQhKFMxmDY?t=3269';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/bHIhgxav9LY?t=628';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/-L7o6HtX8Vg?t=852';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ZCdMO8bukPA?t=244';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/twAP3buj9Og?t=447';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/wrsUbwKGuko?t=607';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +956,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """long-distance""",
                       // alsoEnglishWord: "also: long-distance",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌlɒŋ ˈdɪstəns/""",
+                      americanText: """IpaUS: /ˌlɔːŋ ˈdɪstəns/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,29 +998,29 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "long-distance", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵکار) لە نێوان ئەو شوێنانەی کە زۆر لێک دوورن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """It's a relaxing car to drive long distance.""",
+                      kurdishText: """ئۆتۆمبێلێکی ئاسسودەیە بۆ گەشتی دوور مەودا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) گەشتکردن یان لەخۆگرتنی ئەو شوێنانەی کە مەودایان زۆرە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Like most long-distance runners she is very slight.""",
+                      kurdishText: """وەک زۆرێک لە ڕاکەرانی دوور مەودا زۆر کێشی کەمە.""",
+                      englishNote: """This means she has a thin and light body, which is common among long-distance runners.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە کار دەکات لە نێوان ئەو کەس و شوێنانەی کە زۆر لە یەکدی دوورن، یان لەخۆیان دەگرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence300""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The pair embarked on a long-distance relationship, while he was in London and she stayed in New York.""",
+                      kurdishText: """دووانەکە دەستیان کرد بە پەیوەندییەکی دوور مەودا کە یەکێکیان لە لەندەن بوو و ئەوی دیکە لە نیویۆرک.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),

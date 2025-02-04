@@ -52,13 +52,25 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Noun: lord (Derived forms: lords)
+1. A person who has general authority over others (- overlord, master)
 
-EnglishEntrylord lord
-WORD_WEB lord lord lord
-haʊʊʊʊʊʊʊ4
+- Verb: lord (Derived forms: lorded, lording, lords)
+1. Make a lord of someone
+ 
+2. Domineer or act like a lord
+
+- Noun: Lord (Derived forms: Lords)
+1. Term referring to the Judeo-Christian God (- Godhead, Creator, Maker, Divine, God Almighty, Almighty, Jehovah)
+ 
+2. A titled peer of the realm (- noble, nobleman)
+
+- Interjection: Lord
+Usage: informal
+1. Used to express surprise (- Christ [informal], Christmas [informal], crikey [Brit, informal], cripes [informal], cor [Brit, informal], crumbs [Brit, informal], gosh [informal], golly [informal], by George [informal], by Jove [informal], blimey [Brit, informal], gorblimey [Brit, informal], cor blimey [Brit, informal], my [informal], holy cow [informal], holy mackerel [informal], holy smoke [informal], holy moley [informal], holy moly [informal], fancy [Brit, informal], good grief [informal], goodness [informal], goodness me [informal], Gordon Bennett [informal], gracious [informal], gracious me [informal], fancy that [informal], gawd [informal], god, my word, oh, O, ah, oh boy [informal], jeez [informal], geez [informal], strewth [Brit, informal], struth [Brit, informal], yikes [informal], I'll be blowed [Brit, informal], blow me [Brit, informal], Holy-dooly [Austral, informal], heck [informal], blooming heck [Brit, informal], jeepers [informal], jeepers creepers [informal], Lordy [informal], marry [archaic], well I never [informal], heavens [informal], good heavens [informal], my goodness [informal], Jesus [informal], bejesus [N. Amer, informal], od [archaic])
+"Lord, it was only a dollar last time I was here!";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lord";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -927,19 +939,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/kXShLPXfWZA?t=116';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/AAGIi62-sAU?t=1610';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/hS2x1zl4rn0?t=358';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/QLq6GEiHqR8?t=634';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/ewLpXw6uN28?t=625';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/GisSNuVpbkM?t=347';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +964,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lord""",
                       // alsoEnglishWord: "also: lord",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɔːd/""",
+                      americanText: """IpaUS: /lɔːrd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,7 +1003,7 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەسەڵات‌دار، بەڕێوەبەر، کارگێڕ، فەرمان‌گێڕ، سەروەر،	خاوەن‌زەوی، دەرەبەگ، خان، ئاغا،	(لە لێ‌پرسین‌دا) بەڕێز، گەورەم، جەنابی،	گەورەزادە،	لۆرد (سەرناوێ لە بریتانیا)، خودا،	عیسای مەسیح
 """),
 // With short examples define "lord", please follow LX instructions
                     const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),

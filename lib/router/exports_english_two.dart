@@ -3230,7 +3230,6 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_i/en_en
 // en_entry_lonesome.dart' show EnglishEntrylonesome
 // en_entry_long.dart' show EnglishEntrylong
 // en_entry_longdistance.dart' show EnglishEntrylongdistance //////// long-distance
-// en_entry_longdrink.dart' show EnglishEntrylongdrink //////// long drink
 // en_entry_longrange.dart' show EnglishEntrylongrange //////// long-range
 // en_entry_longsighted.dart' show EnglishEntrylongsighted //////// long-sighted
 // en_entry_longterm.dart' show EnglishEntrylongterm //////// long-term
@@ -3243,7 +3242,6 @@ export 'package:zeetionary/dictionary/english_dictionary/alphabet/letter_i/en_en
 // en_entry_longitude.dart' show EnglishEntrylongitude
 // en_entry_loo.dart' show EnglishEntryloo
 // en_entry_look.dart' show EnglishEntrylook
-// en_entry_lookin.dart' show EnglishEntrylookin //////// look-in
 // en_entry_lookout.dart' show EnglishEntrylookout
 // en_entry_loom.dart' show EnglishEntryloom
 // en_entry_loop.dart' show EnglishEntryloop

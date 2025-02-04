@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylone lone
-WORD_WEB lone lone lone
-haʊʊʊʊʊʊʊ4
+- Adjective: lone
+1. Lacking companions or companionship (- alone, lonely, solitary)
+"the lone skier on the mountain";
+ 
+2. Characterized by or preferring solitude (- lonely, solitary)
+"a lone wolf";
+ 
+3. Being the only one; single and isolated from others (- lonesome, only, sole, solitary)
+"the lone doctor in the entire county";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lone";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The attack was carried out by a lone gunman in a crowded shopping centre.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""Nine out of ten lone parents are women.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/nFIituNHXtE?t=98';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/od6Zq5T57R0?t=181';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/K4pto-C3Wag?t=531';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/ydM3pcgj70U?t=1010';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/zV3AZFuaJVQ?t=44';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/0hNbRd78jOE?t=99';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lone""",
                       // alsoEnglishWord: "also: lone",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ləʊn/""",
+                      americanText: """IpaUS: /ləʊn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +994,23 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تەنیا، تاک‌وتەنیا، (تەنیاباڵ)، بێ‌کەس، بێ‌هەڤاڵ
 """),
 // With short examples define "lone", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) بەبێ هیچ کەس یان شتی دیکە"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: solitary"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The attack was carried out by a lone gunman in a crowded shopping centre.""",
+                      kurdishText: """هێرشەکە لەلایەن چەکدارێکی تەنهاوە لە سەنتەرێکی بزاڕکردنی قەرەباڵغ ڕوویدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) بەبێ هاوبەشی ژیان"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: single"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Nine out of ten lone parents are women.""",
+                      kurdishText: """نۆ لە دەی بەخێوکەرانی تەنها ژنانن.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

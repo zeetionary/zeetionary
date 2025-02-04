@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylopsided lopsided
-WORD_WEB lopsided lopsided lopsided
-haʊʊʊʊʊʊʊ4
+- Adjective: lopsided
+1. Having one side lower, smaller or lighter than the other
+ 
+2. Turned or twisted toward one side (- askew, awry, cockeyed [informal], wonky [informal], skew-whiff [Brit, informal])
+"a...youth with a gorgeous red necktie all lopsided";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lopsided";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +87,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""The desk was scratched and lopsided; a thick book had been wedged underneath its short leg.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""The article presents a somewhat lopsided view of events.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/Wao0_uB4Zw4?t=2444';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/syH0oN_B4g0?t=365';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/ro-mf-H1tIw?t=543';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/fjCinn-sjzk?t=311';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/q75O6-OPa3s?t=848';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/eqQNNtJ46e8?t=1204';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lopsided""",
                       // alsoEnglishWord: "also: lopsided",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌlɒpˈsaɪdɪd/""",
+                      americanText: """IpaUS: /ˌlɑːpˈsaɪdɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +990,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: خوار، لاسەنگ، ناڕێک
 """),
 // With short examples define "lopsided", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە لایەک نزمتر، بچووکتر، هتد بێت لە لایەکی دیکە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The desk was scratched and lopsided; a thick book had been wedged underneath its short leg.""",
+                      kurdishText: """دێسکەکە ڕووشاو و لاسەنگ بوو؛ کتێبێکی ئەستوور هەڵدرابوویە ژێر لاقە کورتەکەی.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە هاوسەنگیی نییە؛ کە لایەک دەنگ، خاڵ، سەرنج، هتدی زیاترە لە لایەکەی دیکە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """The article presents a somewhat lopsided view of events.""",
+                      kurdishText: """وتارەکە تا ڕادەیەک دیدێکی ناهاوسەنگی ڕووداوەکان پیشان دەدات.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

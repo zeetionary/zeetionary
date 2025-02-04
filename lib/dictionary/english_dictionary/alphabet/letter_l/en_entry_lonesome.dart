@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylonesome lonesome
-WORD_WEB lonesome lonesome lonesome
-haʊʊʊʊʊʊʊ4
+- Adjective: lonesome
+1. Being the only one; single and isolated from others (- lone, only, sole, solitary)
+"a lonesome pine";
+ 
+2. Marked by dejection from being alone (- lonely)
+"lonesome when her husband is away"; "spent a lonesome hour in the bar";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lonesome";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +88,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""I felt so lonesome after he left.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/0CYYfSGTcyY?t=947';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/6haIP0XNxnw?t=211';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/fL5DLVqVcis?t=1017';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/5B4S3zvSkg8?t=715';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/AycjO0rwR4E?t=608';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/hMJdCtJffr8?t=706';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lonesome""",
                       // alsoEnglishWord: "also: lonesome",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈləʊnsəm/""",
+                      americanText: """IpaUS: /ˈləʊnsəm/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +991,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: تەنیا، تاک‌وتەنیا، (تەنیاباڵ)، بێ‌کەس، دڵتەنگ‌کەر،	چەپەک، لاپەڕ، لاتەریک، پەڕت، دوور، دوورەدەس
 """),
 // With short examples define "lonesome", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) دڵتەنگ بەهۆی ئەوەی کە تەنهایت یان هاوڕێت نییە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I felt so lonesome after he left.""",
+                      kurdishText: """هەستم بە بێ‌کەسی کرد دوای ئەوەی چوو.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

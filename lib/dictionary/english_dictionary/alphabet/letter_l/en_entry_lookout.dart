@@ -52,13 +52,17 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylookout lookout
-WORD_WEB lookout lookout lookout
-haʊʊʊʊʊʊʊ4
+- Noun: lookout (Derived forms: lookouts)
+1. A person employed to keep watch for some anticipated event (- lookout man, sentinel, sentry, watch, spotter, scout, picket)
+"the lookout stayed in his box to avoid the cold";
+ 
+2. An elevated post affording a wide view (- observation post)
+ 
+3. A structure commanding a wide view of its surroundings (- observation tower, lookout station, observatory)
+ 
+4. The act of looking out (- outlook)
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lookout";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +91,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""A lookout tower helps spot forest fires.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""One of the men stood at the door to act as a lookout.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +930,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/FSHITL5oedk?t=1006';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/Js2UoMSumx4?t=726';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/jgkMFBDyzE8?t=470';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/IesIsKMjB4Y?t=333';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/BfzXLjK6Pno?t=745';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/X2LyUpsd8uY?t=936';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +955,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lookout""",
                       // alsoEnglishWord: "also: lookout",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlʊkaʊt/""",
+                      americanText: """IpaUS: /ˈlʊkaʊt/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +994,22 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: وریایی، ئاگاداری، گوێ‌قوڵاخ‌بوون، هۆشیاری، چاودێر، زێرەڤان، چاوبەسەر، نۆبەدار، پاسەوان، دیدەوان، شوێنی چاودێری یان پاسەوانی
 """),
 // With short examples define "lookout", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) شوێنێک کە لێیەوە سەیر دەکەیت، بە تایبەتی بۆ مەترسی"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """A lookout tower helps spot forest fires.""",
+                      kurdishText: """قولەی چاودێری یارمەتیدەر دەبێت لە بەدی کردنی ئاگری دارستان.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ناو) کەسێک کە وەک چاودێر کار دەکات، بە تایبەتی بۆ ئاگادارکردنەەو لە مەترسی"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """One of the men stood at the door to act as a lookout.""",
+                      kurdishText: """یەکێک لە پیاوەکان لە دەرگاکە وەستا بۆ کارکردن وەک چاودێرێک.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

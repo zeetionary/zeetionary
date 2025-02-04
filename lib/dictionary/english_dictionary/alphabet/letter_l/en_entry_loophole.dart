@@ -52,13 +52,12 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryloophole loophole
-WORD_WEB loophole loophole loophole
-haʊʊʊʊʊʊʊ4
+- Noun: loophole(Derived forms: loopholes)
+1. (contract) an ambiguity (especially one in the text of a law or contract) that makes it possible to evade a difficulty or obligation
+ 
+2. A small hole in a fortified wall; for observation or discharging weapons
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "loophole";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +86,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""People who don't want to pay tax will exploit any loophole.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +925,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/QcUey-DVYjk?t=1883';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/cY4e0uvp7uI?t=1417';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/Mx8JkGHaGUI?t=405';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/W-ZuKp8P7gA?t=1466';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/OPEh7UWmfDc?t=1065';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/161WT6TeYig?t=111';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +950,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """loophole""",
                       // alsoEnglishWord: "also: loophole",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈluːphəʊl/""",
+                      americanText: """IpaUS: /ˈluːphəʊl/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,14 +989,13 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: دەلاقە، کون، کەلەبەر، قڵیش، کەلێن،	(خوازە) دەرەتان، ڕێی دەرچوون، ڕێگای دەرچوون، ڕێگا، دەروو
 """),
 // With short examples define "loophole", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) هەڵەیەک لە نووسینی یاسادا کە دەدات بە شێوەی یاسایی خۆت لە یاساکە بدزیتەوە"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """People who don't want to pay tax will exploit any loophole.""",
+                      kurdishText: """ئەو کەسانەی کە نایانەوێت باج بدەن هەر دەلاقەیەک بەکاردێنن.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

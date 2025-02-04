@@ -52,13 +52,16 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylongsighted long-sighted
-WORD_WEB long-sighted long-sighted long-sighted
-haʊʊʊʊʊʊʊ4
+- Adjective: long-sighted
+Usage: Brit (N. Amer: farsighted)
+1. Capable of seeing to a great distance (- eagle-eyed, keen-sighted, farseeing, farsighted)
+ 
+2. (ophthalmology) having abnormal vision, unable to focus sharply on things that are nearby (- hyperopic, hypermetropic, farsighted [N. Amer])
+ 
+3. Planning prudently for the future (- farseeing, farsighted, foresighted, foresightful, prospicient, long)
+"large goals that required long-sighted policies";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "long-sighted";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +90,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She’s long-sighted and needs glasses to read.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +929,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/qVG2xutRRw0?t=927';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/zYierUhIFNQ?t=8014';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/mesxOPMO4f8?t=3050';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/9VBOQk88AWk?t=92';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/V0C0vFsWWB0?t=119';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/ziUwEJr0l6Y?t=185';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +954,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """long-sighted""",
                       // alsoEnglishWord: "also: long-sighted",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˌlɒŋ ˈsaɪtɪd/""",
+                      americanText: """IpaUS: /ˌlɔːŋ ˈsaɪtɪd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +996,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "long-sighted", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە نەتوانیت بەباشی ئەو شتانە ببینیت کە لێتەوە نزیکن"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She’s long-sighted and needs glasses to read.""",
+                      kurdishText: """دووربینە و پێویستی بە چاویلکەیە بۆ خوێندنەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

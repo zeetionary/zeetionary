@@ -52,13 +52,11 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntryloiter loiter
-WORD_WEB loiter loiter loiter
-haʊʊʊʊʊʊʊ4
+- Verb: loiter (Derived forms: loiters, loitered, loitering)
+1. Spend time in one place doing little or wasting time (- lounge, footle [informal], lollygag [N. Amer, informal], loaf [informal], lallygag [N. Amer, informal], hang around, mess about, tarry, linger, lurk, mill about, mill around, dilly-dally [informal], dillydally [informal], mooch [Brit, informal])
+"The high school students like to loiter in the Central Square";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "loiter";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +85,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""Teenagers were loitering in the street outside.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +924,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/j4kI2h3iotA?t=2244';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/p78izsJSwNQ?t=543';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/qlaEN0E5Uts';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/uN84HhcdIws?t=39';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/3E17wr77ffM?t=9';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/i9InAbpM7mU?t=431';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +949,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """loiter""",
                       // alsoEnglishWord: "also: loiter",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɔɪtə(r)/""",
+                      americanText: """IpaUS: /ˈlɔɪtər/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +991,11 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "loiter", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (کردار) وەستان و چاوەڕێ بوون لە شوێنێک، بە تایبەتی بەبێ هیچ هۆکارێک"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: hang around"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Teenagers were loitering in the street outside.""",
+                      kurdishText: """هەرزەکاران لە شەقامی دەرەوە دەسووڕانەوە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

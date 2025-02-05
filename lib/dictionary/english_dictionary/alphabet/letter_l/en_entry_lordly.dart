@@ -52,13 +52,14 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylordly lordly
-WORD_WEB lordly lordly lordly
-haʊʊʊʊʊʊʊ4
+- Adjective: lordly (Derived forms: lordliest, lordlier)
+1. Of or befitting a lord (- august, grand)
+"heir to a lordly fortune";
+ 
+2. Having or showing arrogant superiority to and disdain of those one views as unworthy (- disdainful, haughty, imperious, overbearing, prideful, sniffy [informal], supercilious, swaggering, toplofty [US, informal], orgulous [archaic])
+"his lordly manners were offensive";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lordly";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,15 +88,14 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""He dismissed us with a lordly gesture.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence200""");
+    await flutterTts.speak("""A huge gate surrounded the lordly mansion.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
@@ -927,19 +927,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/BsRDim1UWl8?t=2135';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/gq4av949-3Y?t=1340';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/H4Hug6EFcCU?t=159';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/CmE938OLu4E?t=136';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/E6Ey6tAbUfg?t=141';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/t7oLhv6HKl4?t=4402';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +952,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lordly""",
                       // alsoEnglishWord: "also: lordly",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈlɔːdli/""",
+                      americanText: """IpaUS: /ˈlɔːrdli/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,23 +991,23 @@ haʊʊʊʊʊʊʊ4
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: گەورە، مەزن، بەشکۆ،	خۆپێ‌زل، لووت‌بەرز، لەخۆبایی
 """),
 // With short examples define "lordly", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) ڕەفتارکردن بە شێوەیەک کە ئەوە پیشان دەدات کەوا لە کەسێک باشتریت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: haughty"),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """He dismissed us with a lordly gesture.""",
+                      kurdishText: """بە دەست ڕاوەشاندنێکی خۆبەزلزانییەوە بەڕێمانی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) گەورە و سەرنجڕاکێش"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: imposing"),
                     SentencesRow(
-                      englishText: """speaksentence200""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """A huge gate surrounded the lordly mansion.""",
+                      kurdishText: """دەروازەیەکی گەورە دەوری کۆشکە شکۆدارەکەی گرتبوو.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),

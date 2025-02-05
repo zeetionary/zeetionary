@@ -52,13 +52,41 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
+- Adjective: lost
+1. Not knowing where one is, not being able to find one's route
+"We missed a turning, now we are lost"
+ 
+2. Having lost your bearings; confused as to time, place or personal identity (- confused, disoriented)
+"I frequently find myself lost when I come up out of the subway";
+ 
+3. No longer in your possession or control; unable to be found or recovered
+"a lost child"; "lost friends"; "his lost book"; "lost opportunities"
+ 
+4. Spiritually or physically doomed or destroyed
+"lost souls"; "a lost generation"; "a lost ship"; "the lost platoon"
+ 
+5. Not gained or won
+"a lost battle"; "a lost prize"
+ 
+6. Cannot be recovered or regained
+"his lost honour"
+ 
+7. Not caught with the senses or the mind (- missed)
+"words lost in the din";
+ 
+8. Deeply absorbed in thought (- bemused, preoccupied)
+"lost in thought";
+ 
+9. Perplexed by many conflicting situations or statements; filled with bewilderment (- baffled, befuddled, bemused, bewildered, confounded, confused, mazed, mixed-up, at sea)
+"she felt lost on the first day of school";
+ 
+10. Unable to function without help (- helpless)
 
-EnglishEntrylost lost
-WORD_WEB lost lost lost
-haʊʊʊʊʊʊʊ4
+- Noun: lost
+1. People who are destined to die soon (- doomed)
+"the agony of the lost was in his voice";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lost";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -953,8 +981,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lost""",
                       // alsoEnglishWord: "also: lost",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /lɒst/""",
+                      americanText: """IpaUS: /lɔːst/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),

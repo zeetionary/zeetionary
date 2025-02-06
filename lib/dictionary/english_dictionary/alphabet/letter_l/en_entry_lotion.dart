@@ -52,13 +52,13 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-
-EnglishEntrylotion lotion
-WORD_WEB lotion lotion lotion
-haʊʊʊʊʊʊʊ4
+- Noun: lotion (Derived forms: lotions)
+1. Any of various cosmetic preparations that are applied to the skin
+ 
+2. Liquid preparation having a soothing, antiseptic or medicinal action when applied to the skin (- application)
+"a lotion for dry skin";
 """,
   );
-// 188888880002200000000000
 
   final String keyword = "lotion";
   List<Map<String, dynamic>> filteredSentences = [];
@@ -87,8 +87,7 @@ haʊʊʊʊʊʊʊ4
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
-""");
+    await flutterTts.speak("""She dabbed calamine lotion on her mosquito bites.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
@@ -927,19 +926,18 @@ haʊʊʊʊʊʊʊ4
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = '';
+    const String videoIdend = 'https://youtu.be/cCP9vjp4kSg?t=49';
     const double startSecondsend = 0;
-    const String videoIdone = '';
+    const String videoIdone = 'https://youtu.be/1Gxrwh4zGPg?t=66';
     const double startSecondsone = 0;
-    const String videoIdtwo = '';
+    const String videoIdtwo = 'https://youtu.be/8LPVjHxXvJM?t=113';
     const double startSecondstwo = 0;
-    const String videoIdthree = '';
+    const String videoIdthree = 'https://youtu.be/LrWv8-NEwV8?t=435';
     const double startSecondsthree = 0;
-    const String videoIdfour = '';
+    const String videoIdfour = 'https://youtu.be/0IoJBV29zMg?t=469';
     const double startSecondsfour = 0;
-    const String videoIdfive = '';
+    const String videoIdfive = 'https://youtu.be/2abvJqpk0Yc?t=131';
     const double startSecondsfive = 0;
-// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -953,8 +951,8 @@ haʊʊʊʊʊʊʊ4
                     child: EntryPageColumn(
                       word: """lotion""",
                       // alsoEnglishWord: "also: lotion",
-                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
-                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
+                      britshText: """IpaUK: /ˈləʊʃn/""",
+                      americanText: """IpaUS: /ˈləʊʃn/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -995,11 +993,10 @@ haʊʊʊʊʊʊʊ4
 کوردی: 
 """),
 // With short examples define "lotion", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """١. (ناو) شلەیەک کە بەکاردێت بۆ پاککردنەوە، پاراستن، یان چارەسەری پێشت"""),
                     SentencesRow(
-                      englishText: """// ssssssssssssssssssssssgggggggg55555
-""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She dabbed calamine lotion on her mosquito bites.""",
+                      kurdishText: """نەرمکەری کالامینی دەپرژاند بەسەر گەستنەکانی مێشوولەدا.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),

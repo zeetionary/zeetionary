@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrylottery extends StatefulWidget {
-  const EnglishEntrylottery({super.key});
+class EnglishEntrylucid extends StatefulWidget {
+  const EnglishEntrylucid({super.key});
 
   @override
-  State<EnglishEntrylottery> createState() => _EnglishEntrylotteryState();
+  State<EnglishEntrylucid> createState() => _EnglishEntrylucidState();
 }
 
-class _EnglishEntrylotteryState extends State<EnglishEntrylottery> {
+class _EnglishEntrylucidState extends State<EnglishEntrylucid> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,15 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: lottery (Derived forms: lotteries)
-1. Something that is regarded as a chance event
-"the election was just a lottery to them"
- 
-2. Players buy (or are given) chances and prizes are distributed by casting lots (- drawing)
+
+EnglishEntrylucid lucid
+WORD_WEB lucid lucid lucid
+haʊʊʊʊʊʊʊ4
 """,
   );
+// 188888880002200000000000
 
-  final String keyword = "lottery";
+  final String keyword = "lucid";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,28 +80,29 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""lottery""");
+    await flutterTts.speak("""lucid""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I won my car in a lottery.""");
+    await flutterTts.speak("""// ssssssssssssssssssssssgggggggg55555
+""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A couple scooped £10 million on the national lottery.""");
+    await flutterTts.speak("""speaksentence200""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Some people think that marriage is a lottery.""");
+    await flutterTts.speak("""speaksentence300""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
@@ -926,18 +927,19 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = 'https://youtu.be/hW1KqOVCeKw';
+    const String videoIdend = '';
     const double startSecondsend = 0;
-    const String videoIdone = 'https://youtu.be/7NtSNFUyPes?t=56';
+    const String videoIdone = '';
     const double startSecondsone = 0;
-    const String videoIdtwo = 'https://youtu.be/GVh8YKG7Tlc?t=19';
+    const String videoIdtwo = '';
     const double startSecondstwo = 0;
-    const String videoIdthree = 'https://youtu.be/x5Gwzy2FY10?t=33';
+    const String videoIdthree = '';
     const double startSecondsthree = 0;
-    const String videoIdfour = 'https://youtu.be/bObjXY24Ei4?t=47';
+    const String videoIdfour = '';
     const double startSecondsfour = 0;
-    const String videoIdfive = 'https://youtu.be/op6H61wRi-Y?t=21';
+    const String videoIdfive = '';
     const double startSecondsfive = 0;
+// ssssssssssssssssssssssgggggggg55555
 
     return DefaultTabController(
       length: 4,
@@ -949,10 +951,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """lottery""",
-                      // alsoEnglishWord: "also: lottery",
-                      britshText: """IpaUK: /ˈlɒtəri/""",
-                      americanText: """IpaUS: /ˈlɑːtəri/""",
+                      word: """lucid""",
+                      // alsoEnglishWord: "also: lucid",
+                      britshText: """IpaUK: haʊʊʊʊʊʊʊ4""",
+                      americanText: """IpaUS: haʊʊʊʊʊʊʊ4""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -992,11 +994,12 @@ ${englishMeaningConst.text}
                     const KurdishVocabulary(text: """
 کوردی: 
 """),
-// With short examples define "lottery", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) شێوازی کۆکردنەوەی پارە بۆ حکومەت، دامزراوەی خێرخوازی، هتد بە شێوەیەک کە خەڵکی بلیت دەکڕن کە ژمارەی لەسەرە کە خەڵکی هەڵیان بژاردووە و دواتر هەڵبژاردن بۆ براوە دەکرێت بەپێی ژمارەکان"""),
+// With short examples define "lucid", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) پننسە"""),
                     SentencesRow(
-                      englishText: """I won my car in a lottery.""",
-                      kurdishText: """ئۆتۆمبێلەکەمم لە تیرووپشکدا بردەوە.""",
+                      englishText: """// ssssssssssssssssssssssgggggggg55555
+""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1004,18 +1007,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A couple scooped £10 million on the national lottery.""",
-                      kurdishText: """دوو خۆشەویست ١٠ ملیۆن پاوەندیان کۆکردەوە لە تیرووپشکی نیشتیمانیدا.""",
+                      englishText: """speaksentence200""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) دۆخێک کە تێیدا سەرکەوتن پشت دەبەستێت بە بەخت نەک هەوڵ و کارکردن"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: gamble"),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Some people think that marriage is a lottery.""",
-                      kurdishText: """هەندێک کەس وەک قومار بیر لە هاوسەرگیری دەکەنەوە.""",
+                      englishText: """speaksentence300""",
+                      kurdishText: """رستە_رستە_رستە_رستە.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -2148,4 +2150,4 @@ ${englishMeaningConst.text}
 }
 
 // end WORD_WEB
-// end lottery
+// end lucid

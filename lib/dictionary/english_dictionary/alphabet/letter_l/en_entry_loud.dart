@@ -5,14 +5,14 @@ import 'package:zeetionary/constants.dart';
 
 enum TtsState { playing }
 
-class EnglishEntrylottery extends StatefulWidget {
-  const EnglishEntrylottery({super.key});
+class EnglishEntryloud extends StatefulWidget {
+  const EnglishEntryloud({super.key});
 
   @override
-  State<EnglishEntrylottery> createState() => _EnglishEntrylotteryState();
+  State<EnglishEntryloud> createState() => _EnglishEntryloudState();
 }
 
-class _EnglishEntrylotteryState extends State<EnglishEntrylottery> {
+class _EnglishEntryloudState extends State<EnglishEntryloud> {
   @override
   void initState() {
     super.initState();
@@ -52,15 +52,23 @@ ${englishMeaningConst.text}
 
   final EnglishMeaningConst englishMeaningConst = const EnglishMeaningConst(
     text: """
-- Noun: lottery (Derived forms: lotteries)
-1. Something that is regarded as a chance event
-"the election was just a lottery to them"
+- Adjective: loud (Derived forms: loudest, louder)
+1. Characterized by or producing sound of great volume or intensity
+"a group of loud children"; "loud thunder"; "her voice was too loud"; "loud trombones"
  
-2. Players buy (or are given) chances and prizes are distributed by casting lots (- drawing)
+2. (used chiefly as a direction or description in music) indicating that said piece or segment should be played loudly (- forte)
+"the loud passages in the composition";
+ 
+3. Tastelessly showy (- brassy [informal], cheap, flash [informal], flashy, garish, gaudy, gimcrack, meretricious, tacky [informal], tatty [informal], tawdry, trashy)
+"loud sport shirts";
+
+- Adverb: loud
+1. With relatively high volume (- loudly, aloud)
+"he spoke loud enough for those at the back of the room to hear him";
 """,
   );
 
-  final String keyword = "lottery";
+  final String keyword = "loud";
   List<Map<String, dynamic>> filteredSentences = [];
 
   Future<void> fetchSentences() async {
@@ -80,84 +88,84 @@ ${englishMeaningConst.text}
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""lottery""");
+    await flutterTts.speak("""loud""");
   }
 
   Future<void> speaksentence1(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""I won my car in a lottery.""");
+    await flutterTts.speak("""She spoke in a very loud voice.""");
   }
 
   Future<void> speaksentence2(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""A couple scooped £10 million on the national lottery.""");
+    await flutterTts.speak("""That music's too loud—please turn it down.""");
   }
 
   Future<void> speaksentence3(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""Some people think that marriage is a lottery.""");
+    await flutterTts.speak("""Suddenly the footsteps grew louder.""");
   }
 
   Future<void> speaksentence4(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence400""");
+    await flutterTts.speak("""I play loud music and dance around my house.""");
   }
 
   Future<void> speaksentence5(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence500""");
+    await flutterTts.speak("""I heard a loud scream and rushed to the door.""");
   }
 
   Future<void> speaksentence6(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence600""");
+    await flutterTts.speak("""There were loud protests from the food and drink industry.""");
   }
 
   Future<void> speaksentence7(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence700""");
+    await flutterTts.speak("""She hated her for being too loud.""");
   }
 
   Future<void> speaksentence8(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence800""");
+    await flutterTts.speak("""You shouldn't wear anything too loud to a job interview.""");
   }
 
   Future<void> speaksentence9(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence900""");
+    await flutterTts.speak("""Do you have to play that music so loud?""");
   }
 
   Future<void> speaksentence10(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence_1000""");
+    await flutterTts.speak("""You'll have to speak louder—I can't hear you.""");
   }
 
   Future<void> speaksentence11(String languageCode) async {
     await flutterTts.setLanguage(languageCode);
     await flutterTts.setPitch(ttsPitch);
     await flutterTts.setSpeechRate(ttsSpeechRate);
-    await flutterTts.speak("""speaksentence1100""");
+    await flutterTts.speak("""She screamed loud enough to wake the dead.""");
   }
 
   Future<void> speaksentence12(String languageCode) async {
@@ -926,17 +934,17 @@ ${englishMeaningConst.text}
   @override
   Widget build(BuildContext context) {
     // 188888880002200000000000
-    const String videoIdend = 'https://youtu.be/hW1KqOVCeKw';
+    const String videoIdend = 'https://youtu.be/0ETr_5NhX5Q?t=82';
     const double startSecondsend = 0;
-    const String videoIdone = 'https://youtu.be/7NtSNFUyPes?t=56';
+    const String videoIdone = 'https://youtu.be/onCAK10HNuU?t=205';
     const double startSecondsone = 0;
-    const String videoIdtwo = 'https://youtu.be/GVh8YKG7Tlc?t=19';
+    const String videoIdtwo = 'https://youtu.be/7eTl05KHwFI?t=25';
     const double startSecondstwo = 0;
-    const String videoIdthree = 'https://youtu.be/x5Gwzy2FY10?t=33';
+    const String videoIdthree = 'https://youtu.be/zk-sPDUyeYQ?t=10';
     const double startSecondsthree = 0;
-    const String videoIdfour = 'https://youtu.be/bObjXY24Ei4?t=47';
+    const String videoIdfour = 'https://youtu.be/-SPzv5UVgwc?t=152';
     const double startSecondsfour = 0;
-    const String videoIdfive = 'https://youtu.be/op6H61wRi-Y?t=21';
+    const String videoIdfive = 'https://youtu.be/7tK-k8UURYk?t=25';
     const double startSecondsfive = 0;
 
     return DefaultTabController(
@@ -949,10 +957,10 @@ ${englishMeaningConst.text}
                 flexibleSpace: FlexibleSpaceBar(
                   background: SingleChildScrollView(
                     child: EntryPageColumn(
-                      word: """lottery""",
-                      // alsoEnglishWord: "also: lottery",
-                      britshText: """IpaUK: /ˈlɒtəri/""",
-                      americanText: """IpaUS: /ˈlɑːtəri/""",
+                      word: """loud""",
+                      // alsoEnglishWord: "also: loud",
+                      britshText: """IpaUK: /laʊd/""",
+                      americanText: """IpaUS: /laʊd/""",
                       onPressedBritish: () => speakheadword("en-GB"),
                       onPressedAmerican: () => speakheadword("en-US"),
                     ),
@@ -990,13 +998,13 @@ ${englishMeaningConst.text}
                 child: CustomColumnWidget(
                   children: [
                     const KurdishVocabulary(text: """
-کوردی: 
+کوردی: بەرز، بڵیند،	پرهەراوهوریا، شلوق، پڕقاوقیژ،	بە زریقەوبریقە، ئاڵاوواڵا، زەق
 """),
-// With short examples define "lottery", please follow LX instructions
-                    const DefinitionKurdish(text: """١. (ناو) شێوازی کۆکردنەوەی پارە بۆ حکومەت، دامزراوەی خێرخوازی، هتد بە شێوەیەک کە خەڵکی بلیت دەکڕن کە ژمارەی لەسەرە کە خەڵکی هەڵیان بژاردووە و دواتر هەڵبژاردن بۆ براوە دەکرێت بەپێی ژمارەکان"""),
+// With short examples define "loud", please follow LX instructions
+                    const DefinitionKurdish(text: """١. (ھاوەڵناو) کە دەنگی زۆر دەردەکات"""),
                     SentencesRow(
-                      englishText: """I won my car in a lottery.""",
-                      kurdishText: """ئۆتۆمبێلەکەمم لە تیرووپشکدا بردەوە.""",
+                      englishText: """She spoke in a very loud voice.""",
+                      kurdishText: """بە دەنگێکی بەرز قسەی کرد.""",
                       onPressedBritish: () => speaksentence1("en-GB"),
                       onPressedAmerican: () => speaksentence1("en-US"),
                     ),
@@ -1004,18 +1012,17 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """A couple scooped £10 million on the national lottery.""",
-                      kurdishText: """دوو خۆشەویست ١٠ ملیۆن پاوەندیان کۆکردەوە لە تیرووپشکی نیشتیمانیدا.""",
+                      englishText: """That music's too loud—please turn it down.""",
+                      kurdishText: """ئەو میوزیکە زۆر بەرزە ـ تکایە دەنگی دابەزێنە.""",
                       onPressedBritish: () => speaksentence2("en-GB"),
                       onPressedAmerican: () => speaksentence2("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) دۆخێک کە تێیدا سەرکەوتن پشت دەبەستێت بە بەخت نەک هەوڵ و کارکردن"""),
-                    const AlsoEnglishckb(word: "ھەروەھا: gamble"),
+                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """Some people think that marriage is a lottery.""",
-                      kurdishText: """هەندێک کەس وەک قومار بیر لە هاوسەرگیری دەکەنەوە.""",
+                      englishText: """Suddenly the footsteps grew louder.""",
+                      kurdishText: """لەناکاو تەقەی پێیەکان بەرزتر بوون.""",
                       onPressedBritish: () => speaksentence3("en-GB"),
                       onPressedAmerican: () => speaksentence3("en-US"),
                     ),
@@ -1023,8 +1030,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence400""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I play loud music and dance around my house.""",
+                      kurdishText: """میوزیکی بەرز لێدەدەم و لە ماڵەکەمدا سەما دەکەم.""",
                       onPressedBritish: () => speaksentence4("en-GB"),
                       onPressedAmerican: () => speaksentence4("en-US"),
                     ),
@@ -1032,44 +1039,44 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence500""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """I heard a loud scream and rushed to the door.""",
+                      kurdishText: """هاوارێکی بەرزم بیست و ڕامکرد بۆ دەرگاکە.""",
                       onPressedBritish: () => speaksentence5("en-GB"),
                       onPressedAmerican: () => speaksentence5("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٢. (ھاوەڵناو) کە بە توندی دەردەبڕدرێت"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence600""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """There were loud protests from the food and drink industry.""",
+                      kurdishText: """خۆپیشاندانی توند هەبوو لە پیشەسازی خواردن و خواردنەوە.""",
                       onPressedBritish: () => speaksentence6("en-GB"),
                       onPressedAmerican: () => speaksentence6("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٣. (ھاوەڵناو) کە کەسێک زۆر و بە بەرزی قسە دەکات کە بێزارکەرە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence700""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She hated her for being too loud.""",
+                      kurdishText: """ڕقی لێی بوو بۆ ئەوەی کە دەنگی بەرز بوو.""",
                       onPressedBritish: () => speaksentence7("en-GB"),
                       onPressedAmerican: () => speaksentence7("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
+                    const DefinitionKurdish(text: """٤. (ھاوەڵناو) کە زۆر ڕۆشنە و سەلیقەی تێدا نییە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence800""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """You shouldn't wear anything too loud to a job interview.""",
+                      kurdishText: """نابێت شتی ئاڵاوواڵا بپۆشیت بۆ چاوپێکەوتنی کار.""",
                       onPressedBritish: () => speaksentence8("en-GB"),
                       onPressedAmerican: () => speaksentence8("en-US"),
                     ),
                     const DividerDefinition(),
-                    const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
-                    const DividerSentences(),
+                    const DefinitionKurdish(text: """٥. (ھاوەڵکار) بە شێوەیەک کە دەنگی زۆر درووست دەکات و ئاسان دەبیسترێت"""),
+                    const AlsoEnglishckb(word: "ھەروەھا: loudly"),
                     SentencesRow(
-                      englishText: """speaksentence900""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """Do you have to play that music so loud?""",
+                      kurdishText: """دەبێت ئەو میوزیکە هێندە بەرز لێبدەیت؟""",
                       onPressedBritish: () => speaksentence9("en-GB"),
                       onPressedAmerican: () => speaksentence9("en-US"),
                     ),
@@ -1077,8 +1084,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence_1000""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """You'll have to speak louder—I can't hear you.""",
+                      kurdishText: """دەبێت بەرزتر قسە بکەیت ـ ناتوانم گوێم لێت بێت.""",
                       onPressedBritish: () => speaksentence10("en-GB"),
                       onPressedAmerican: () => speaksentence10("en-US"),
                     ),
@@ -1086,8 +1093,8 @@ ${englishMeaningConst.text}
                     const DefinitionKurdish(text: """ژممر. (ھاوەڵناو) پننسە"""),
                     const DividerSentences(),
                     SentencesRow(
-                      englishText: """speaksentence1100""",
-                      kurdishText: """رستە_رستە_رستە_رستە.""",
+                      englishText: """She screamed loud enough to wake the dead.""",
+                      kurdishText: """هێندە بەرز قیژاندی مردوو خەبەربکاتەوە.""",
                       onPressedBritish: () => speaksentence11("en-GB"),
                       onPressedAmerican: () => speaksentence11("en-US"),
                     ),
@@ -2148,4 +2155,4 @@ ${englishMeaningConst.text}
 }
 
 // end WORD_WEB
-// end lottery
+// end loud
